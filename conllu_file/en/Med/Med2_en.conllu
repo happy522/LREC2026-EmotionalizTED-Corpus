@@ -1,0 +1,2431 @@
+# text = A smarter, more precise way to think about public health
+# sent_id = 0
+1	A	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=0|end_char=1
+2	smarter	smart	ADJ	JJR	Degree=Cmp	6	amod	_	start_char=2|end_char=9|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=9|end_char=10
+4	more	more	ADV	RBR	Degree=Cmp	5	advmod	_	start_char=11|end_char=15
+5	precise	precise	ADJ	JJ	Degree=Pos	6	amod	_	start_char=16|end_char=23
+6	way	way	NOUN	NN	Number=Sing	0	root	_	start_char=24|end_char=27
+7	to	to	PART	TO	_	8	mark	_	start_char=28|end_char=30
+8	think	think	VERB	VB	VerbForm=Inf	6	acl	_	start_char=31|end_char=36
+9	about	about	ADP	IN	_	11	case	_	start_char=37|end_char=42
+10	public	public	ADJ	JJ	Degree=Pos	11	amod	_	start_char=43|end_char=49
+11	health	health	NOUN	NN	Number=Sing	8	obl	_	start_char=50|end_char=56|SpacesAfter=\n\n
+
+# text = OK, first, some introductions.
+# sent_id = 1
+1	OK	ok	INTJ	UH	_	6	discourse	_	start_char=58|end_char=60|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=60|end_char=61
+3	first	first	ADV	RB	Degree=Pos|NumForm=Word|NumType=Ord	6	advmod	_	start_char=62|end_char=67|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=67|end_char=68
+5	some	some	DET	DT	PronType=Ind	6	det	_	start_char=69|end_char=73
+6	introductions	introduction	NOUN	NNS	Number=Plur	0	root	_	start_char=74|end_char=87|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=87|end_char=88|SpacesAfter=\n\n
+
+# text = My mom, Jennie, took this picture.
+# sent_id = 2
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=90|end_char=92
+2	mom	mom	NOUN	NN	Number=Sing	6	nsubj	_	start_char=93|end_char=96|SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	start_char=96|end_char=97
+4	Jennie	Jennie	PROPN	NNP	Number=Sing	2	appos	_	start_char=98|end_char=104|SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	start_char=104|end_char=105
+6	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=106|end_char=110
+7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	start_char=111|end_char=115
+8	picture	picture	NOUN	NN	Number=Sing	6	obj	_	start_char=116|end_char=123|SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	start_char=123|end_char=124|SpacesAfter=\n\n
+
+# text = That's my dad, Frank, in the middle.
+# sent_id = 3
+1-2	That's	_	_	_	_	_	_	_	start_char=126|end_char=132
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	start_char=126|end_char=130
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=130|end_char=132
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=133|end_char=135
+4	dad	dad	NOUN	NN	Number=Sing	0	root	_	start_char=136|end_char=139|SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	start_char=139|end_char=140
+6	Frank	Frank	PROPN	NNP	Number=Sing	4	vocative	_	start_char=141|end_char=146|SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	start_char=146|end_char=147
+8	in	in	ADP	IN	_	10	case	_	start_char=148|end_char=150
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=151|end_char=154
+10	middle	middle	NOUN	NN	Number=Sing	4	obl	_	start_char=155|end_char=161|SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	start_char=161|end_char=162|SpacesAfter=\n\n
+
+# text = And on his left, my sisters:
+# sent_id = 4
+1	And	and	CCONJ	CC	_	7	cc	_	start_char=164|end_char=167
+2	on	on	ADP	IN	_	4	case	_	start_char=168|end_char=170
+3	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=171|end_char=174
+4	left	left	NOUN	NN	Number=Sing	7	nmod	_	start_char=175|end_char=179|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=179|end_char=180
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=181|end_char=183
+7	sisters	sister	NOUN	NNS	Number=Plur	0	root	_	start_char=184|end_char=191|SpaceAfter=No
+8	:	:	PUNCT	:	_	7	punct	_	start_char=191|end_char=192|SpacesAfter=\n\n
+
+# text = Mary Catherine, Judith Ann, Theresa Marie.
+# sent_id = 5
+1	Mary	Mary	PROPN	NNP	Number=Sing	0	root	_	start_char=194|end_char=198
+2	Catherine	Catherine	PROPN	NNP	Number=Sing	1	flat	_	start_char=199|end_char=208|SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	start_char=208|end_char=209
+4	Judith	Judith	PROPN	NNP	Number=Sing	1	conj	_	start_char=210|end_char=216
+5	Ann	Ann	PROPN	NNP	Number=Sing	4	flat	_	start_char=217|end_char=220|SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	start_char=220|end_char=221
+7	Theresa	Theresa	PROPN	NNP	Number=Sing	1	conj	_	start_char=222|end_char=229
+8	Marie	Marie	PROPN	NNP	Number=Sing	7	flat	_	start_char=230|end_char=235|SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	start_char=235|end_char=236|SpacesAfter=\n\n
+
+# text = John Patrick's sitting on his lap and Kevin Michael's on his right.
+# sent_id = 6
+1	John	John	PROPN	NNP	Number=Sing	4	nsubj	_	start_char=238|end_char=242
+2-3	Patrick's	_	_	_	_	_	_	_	start_char=243|end_char=252
+2	Patrick	Patrick	PROPN	NNP	Number=Sing	1	flat	_	start_char=243|end_char=250
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=250|end_char=252
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=253|end_char=260
+5	on	on	ADP	IN	_	7	case	_	start_char=261|end_char=263
+6	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=264|end_char=267
+7	lap	lap	NOUN	NN	Number=Sing	4	obl	_	start_char=268|end_char=271
+8	and	and	CCONJ	CC	_	14	cc	_	start_char=272|end_char=275
+9	Kevin	Kevin	PROPN	NNP	Number=Sing	14	nmod:poss	_	start_char=276|end_char=281
+10-11	Michael's	_	_	_	_	_	_	_	start_char=282|end_char=291
+10	Michael	Michael	PROPN	NNP	Number=Sing	9	flat	_	start_char=282|end_char=289
+11	's	's	PART	POS	_	9	case	_	start_char=289|end_char=291
+12	on	on	ADP	IN	_	14	case	_	start_char=292|end_char=294
+13	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=295|end_char=298
+14	right	right	NOUN	NN	Number=Sing	4	conj	_	start_char=299|end_char=304|SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	start_char=304|end_char=305|SpacesAfter=\n\n
+
+# text = And in the pale-blue windbreaker, Susan Diane. Me.
+# sent_id = 7
+1	And	and	CCONJ	CC	_	7	cc	_	start_char=307|end_char=310
+2	in	in	ADP	IN	_	7	case	_	start_char=311|end_char=313
+3	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=314|end_char=317
+4	pale	pale	ADJ	JJ	Degree=Pos	6	amod	_	start_char=318|end_char=322|SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	4	punct	_	start_char=322|end_char=323|SpaceAfter=No
+6	blue	blue	ADJ	JJ	Degree=Pos	7	amod	_	start_char=323|end_char=327
+7	windbreaker	windbreaker	NOUN	NN	Number=Sing	0	root	_	start_char=328|end_char=339|SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	start_char=339|end_char=340
+9	Susan	Susan	PROPN	NNP	Number=Sing	7	appos	_	start_char=341|end_char=346
+10	Diane	Diane	PROPN	NNP	Number=Sing	9	flat	_	start_char=347|end_char=352|SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	start_char=352|end_char=353
+12	Me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	flat	_	start_char=354|end_char=356|SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	start_char=356|end_char=357|SpacesAfter=\n\n
+
+# text = I loved growing up in a big family.
+# sent_id = 8
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=359|end_char=360
+2	loved	love	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=361|end_char=366
+3	growing	grow	VERB	VBG	VerbForm=Ger	2	xcomp	_	start_char=367|end_char=374
+4	up	up	ADP	RP	_	3	compound:prt	_	start_char=375|end_char=377
+5	in	in	ADP	IN	_	8	case	_	start_char=378|end_char=380
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=381|end_char=382
+7	big	big	ADJ	JJ	Degree=Pos	8	amod	_	start_char=383|end_char=386
+8	family	family	NOUN	NN	Number=Sing	3	obl	_	start_char=387|end_char=393|SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	start_char=393|end_char=394|SpacesAfter=\n\n
+
+# text = And one of my favorite things was picking names.
+# sent_id = 9
+1	And	and	CCONJ	CC	_	8	cc	_	start_char=396|end_char=399
+2	one	one	NUM	CD	NumForm=Word|NumType=Card	8	nsubj	_	start_char=400|end_char=403
+3	of	of	ADP	IN	_	6	case	_	start_char=404|end_char=406
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=407|end_char=409
+5	favorite	favorite	ADJ	JJ	Degree=Pos	6	amod	_	start_char=410|end_char=418
+6	things	thing	NOUN	NNS	Number=Plur	2	nmod	_	start_char=419|end_char=425
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	start_char=426|end_char=429
+8	picking	pick	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=430|end_char=437
+9	names	name	NOUN	NNS	Number=Plur	8	obj	_	start_char=438|end_char=443|SpaceAfter=No
+10	.	.	PUNCT	.	_	8	punct	_	start_char=443|end_char=444|SpacesAfter=\n\n
+
+# text = But by the time child number seven came along, we had nearly run out of middle names.
+# sent_id = 10
+1	But	but	CCONJ	CC	_	14	cc	_	start_char=446|end_char=449
+2	by	by	ADP	IN	_	4	case	_	start_char=450|end_char=452
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=453|end_char=456
+4	time	time	NOUN	NN	Number=Sing	14	obl	_	start_char=457|end_char=461
+5	child	child	NOUN	NN	Number=Sing	6	compound	_	start_char=462|end_char=467
+6	number	number	NOUN	NN	Number=Sing	8	nsubj	_	start_char=468|end_char=474
+7	seven	seven	NUM	CD	NumForm=Word|NumType=Card	6	nummod	_	start_char=475|end_char=480
+8	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	start_char=481|end_char=485
+9	along	along	ADV	RB	_	8	advmod	_	start_char=486|end_char=491|SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	start_char=491|end_char=492
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	start_char=493|end_char=495
+12	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	14	aux	_	start_char=496|end_char=499
+13	nearly	nearly	ADV	RB	_	14	advmod	_	start_char=500|end_char=506
+14	run	run	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=507|end_char=510
+15	out	out	ADP	IN	_	18	case	_	start_char=511|end_char=514
+16	of	of	ADP	IN	_	18	case	_	start_char=515|end_char=517
+17	middle	middle	ADJ	JJ	Degree=Pos	18	amod	_	start_char=518|end_char=524
+18	names	name	NOUN	NNS	Number=Plur	14	obl	_	start_char=525|end_char=530|SpaceAfter=No
+19	.	.	PUNCT	.	_	14	punct	_	start_char=530|end_char=531|SpacesAfter=\n\n
+
+# text = It was a long deliberation before we finally settled on Jennifer Bridget.
+# sent_id = 11
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=533|end_char=535
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=536|end_char=539
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=540|end_char=541
+4	long	long	ADJ	JJ	Degree=Pos	5	amod	_	start_char=542|end_char=546
+5	deliberation	deliberation	NOUN	NN	Number=Sing	0	root	_	start_char=547|end_char=559
+6	before	before	SCONJ	IN	_	9	mark	_	start_char=560|end_char=566
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=567|end_char=569
+8	finally	finally	ADV	RB	_	9	advmod	_	start_char=570|end_char=577
+9	settled	settle	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	5	advcl	_	start_char=578|end_char=585
+10	on	on	ADP	IN	_	11	case	_	start_char=586|end_char=588
+11	Jennifer	Jennifer	PROPN	NNP	Number=Sing	9	obl	_	start_char=589|end_char=597
+12	Bridget	Bridget	PROPN	NNP	Number=Sing	11	flat	_	start_char=598|end_char=605|SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	start_char=605|end_char=606|SpacesAfter=\n\n
+
+# text = Every parent in this audience knows the joy and excitement of picking a new baby's name.
+# sent_id = 12
+1	Every	every	DET	DT	PronType=Tot	2	det	_	start_char=608|end_char=613
+2	parent	parent	NOUN	NN	Number=Sing	6	nsubj	_	start_char=614|end_char=620
+3	in	in	ADP	IN	_	5	case	_	start_char=621|end_char=623
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	start_char=624|end_char=628
+5	audience	audience	NOUN	NN	Number=Sing	2	nmod	_	start_char=629|end_char=637
+6	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=638|end_char=643
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=644|end_char=647
+8	joy	joy	NOUN	NN	Number=Sing	6	obj	_	start_char=648|end_char=651
+9	and	and	CCONJ	CC	_	10	cc	_	start_char=652|end_char=655
+10	excitement	excitement	NOUN	NN	Number=Sing	8	conj	_	start_char=656|end_char=666
+11	of	of	SCONJ	IN	_	12	mark	_	start_char=667|end_char=669
+12	picking	pick	VERB	VBG	VerbForm=Ger	8	acl	_	start_char=670|end_char=677
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=678|end_char=679
+14	new	new	ADJ	JJ	Degree=Pos	15	amod	_	start_char=680|end_char=683
+15-16	baby's	_	_	_	_	_	_	_	start_char=684|end_char=690
+15	baby	baby	NOUN	NN	Number=Sing	17	nmod:poss	_	start_char=684|end_char=688
+16	's	's	PART	POS	_	15	case	_	start_char=688|end_char=690
+17	name	name	NOUN	NN	Number=Sing	12	obj	_	start_char=691|end_char=695|SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	start_char=695|end_char=696|SpacesAfter=\n\n
+
+# text = And I was excited and thrilled to help my mom in that special ceremonial moment.
+# sent_id = 13
+1	And	and	CCONJ	CC	_	4	cc	_	start_char=698|end_char=701
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=702|end_char=703
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	cop	_	start_char=704|end_char=707
+4	excited	excited	ADJ	JJ	Degree=Pos	0	root	_	start_char=708|end_char=715
+5	and	and	CCONJ	CC	_	6	cc	_	start_char=716|end_char=719
+6	thrilled	thrilled	ADJ	JJ	Degree=Pos	4	conj	_	start_char=720|end_char=728
+7	to	to	PART	TO	_	8	mark	_	start_char=729|end_char=731
+8	help	help	VERB	VB	VerbForm=Inf	6	xcomp	_	start_char=732|end_char=736
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=737|end_char=739
+10	mom	mom	NOUN	NN	Number=Sing	8	obj	_	start_char=740|end_char=743
+11	in	in	ADP	IN	_	15	case	_	start_char=744|end_char=746
+12	that	that	DET	DT	Number=Sing|PronType=Dem	15	det	_	start_char=747|end_char=751
+13	special	special	ADJ	JJ	Degree=Pos	15	amod	_	start_char=752|end_char=759
+14	ceremonial	ceremonial	ADJ	JJ	Degree=Pos	15	amod	_	start_char=760|end_char=770
+15	moment	moment	NOUN	NN	Number=Sing	8	obl	_	start_char=771|end_char=777|SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	start_char=777|end_char=778|SpacesAfter=\n\n
+
+# text = But it's not like that everywhere.
+# sent_id = 14
+1	But	but	CCONJ	CC	_	6	cc	_	start_char=780|end_char=783
+2-3	it's	_	_	_	_	_	_	_	start_char=784|end_char=788
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=784|end_char=786
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=786|end_char=788
+4	not	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=789|end_char=792
+5	like	like	ADP	IN	_	6	case	_	start_char=793|end_char=797
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	0	root	_	start_char=798|end_char=802
+7	everywhere	everywhere	ADV	RB	_	6	advmod	_	start_char=803|end_char=813|SpaceAfter=No
+8	.	.	PUNCT	.	_	6	punct	_	start_char=813|end_char=814|SpacesAfter=\n\n
+
+# text = I travel a lot and I see a lot.
+# sent_id = 15
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=816|end_char=817
+2	travel	travel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=818|end_char=824
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=825|end_char=826
+4	lot	lot	NOUN	NN	Number=Sing	2	obl:unmarked	_	start_char=827|end_char=830
+5	and	and	CCONJ	CC	_	7	cc	_	start_char=831|end_char=834
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=835|end_char=836
+7	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=837|end_char=840
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=841|end_char=842
+9	lot	lot	NOUN	NN	Number=Sing	7	obj	_	start_char=843|end_char=846|SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	start_char=846|end_char=847|SpacesAfter=\n\n
+
+# text = But it took me by surprise to learn in an area of Ethiopia, parents delay picking the names for their new babies by a month or more.
+# sent_id = 16
+1	But	but	CCONJ	CC	_	3	cc	_	start_char=849|end_char=852
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=853|end_char=855
+3	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=856|end_char=860
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	start_char=861|end_char=863
+5	by	by	ADP	IN	_	6	case	_	start_char=864|end_char=866
+6	surprise	surprise	NOUN	NN	Number=Sing	3	obl	_	start_char=867|end_char=875
+7	to	to	PART	TO	_	8	mark	_	start_char=876|end_char=878
+8	learn	learn	VERB	VB	VerbForm=Inf	6	acl	_	start_char=879|end_char=884
+9	in	in	ADP	IN	_	11	case	_	start_char=885|end_char=887
+10	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=888|end_char=890
+11	area	area	NOUN	NN	Number=Sing	8	obl	_	start_char=891|end_char=895
+12	of	of	ADP	IN	_	13	case	_	start_char=896|end_char=898
+13	Ethiopia	Ethiopia	PROPN	NNP	Number=Sing	11	nmod	_	start_char=899|end_char=907|SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	start_char=907|end_char=908
+15	parents	parent	NOUN	NNS	Number=Plur	16	nsubj	_	start_char=909|end_char=916
+16	delay	delay	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=917|end_char=922
+17	picking	pick	VERB	VBG	VerbForm=Ger	16	xcomp	_	start_char=923|end_char=930
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=931|end_char=934
+19	names	name	NOUN	NNS	Number=Plur	17	obj	_	start_char=935|end_char=940
+20	for	for	ADP	IN	_	23	case	_	start_char=941|end_char=944
+21	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	start_char=945|end_char=950
+22	new	new	ADJ	JJ	Degree=Pos	23	amod	_	start_char=951|end_char=954
+23	babies	baby	NOUN	NNS	Number=Plur	17	obl	_	start_char=955|end_char=961
+24	by	by	ADP	IN	_	26	case	_	start_char=962|end_char=964
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	start_char=965|end_char=966
+26	month	month	NOUN	NN	Number=Sing	17	obl	_	start_char=967|end_char=972
+27	or	or	CCONJ	CC	_	28	cc	_	start_char=973|end_char=975
+28	more	more	ADJ	JJR	Degree=Cmp	26	conj	_	start_char=976|end_char=980|SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	start_char=980|end_char=981|SpacesAfter=\n\n
+
+# text = Why delay?
+# sent_id = 17
+1	Why	why	ADV	WRB	PronType=Int	2	advmod	_	start_char=983|end_char=986
+2	delay	delay	VERB	VB	VerbForm=Inf	0	root	_	start_char=987|end_char=992|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	_	start_char=992|end_char=993|SpacesAfter=\n\n
+
+# text = Why not take advantage of this special ceremonial time?
+# sent_id = 18
+1	Why	why	ADV	WRB	PronType=Int	3	advmod	_	start_char=995|end_char=998
+2	not	not	PART	RB	Polarity=Neg	3	advmod	_	start_char=999|end_char=1002
+3	take	take	VERB	VB	VerbForm=Inf	0	root	_	start_char=1003|end_char=1007
+4	advantage	advantage	NOUN	NN	Number=Sing	3	obj	_	start_char=1008|end_char=1017
+5	of	of	ADP	IN	_	9	case	_	start_char=1018|end_char=1020
+6	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	start_char=1021|end_char=1025
+7	special	special	ADJ	JJ	Degree=Pos	9	amod	_	start_char=1026|end_char=1033
+8	ceremonial	ceremonial	ADJ	JJ	Degree=Pos	9	amod	_	start_char=1034|end_char=1044
+9	time	time	NOUN	NN	Number=Sing	4	nmod	_	start_char=1045|end_char=1049|SpaceAfter=No
+10	?	?	PUNCT	.	_	3	punct	_	start_char=1049|end_char=1050|SpacesAfter=\n\n
+
+# text = Well, they delay because they're afraid.
+# sent_id = 19
+1	Well	well	INTJ	UH	_	4	discourse	_	start_char=1052|end_char=1056|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=1056|end_char=1057
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=1058|end_char=1062
+4	delay	delay	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1063|end_char=1068
+5	because	because	SCONJ	IN	_	8	mark	_	start_char=1069|end_char=1076
+6-7	they're	_	_	_	_	_	_	_	start_char=1077|end_char=1084
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=1077|end_char=1081
+7	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=1081|end_char=1084
+8	afraid	afraid	ADJ	JJ	Degree=Pos	4	advcl	_	start_char=1085|end_char=1091|SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	start_char=1091|end_char=1092|SpacesAfter=\n\n
+
+# text = They're afraid their baby will die.
+# sent_id = 20
+1-2	They're	_	_	_	_	_	_	_	start_char=1094|end_char=1101
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=1094|end_char=1098
+2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=1098|end_char=1101
+3	afraid	afraid	ADJ	JJ	Degree=Pos	0	root	_	start_char=1102|end_char=1108
+4	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=1109|end_char=1114
+5	baby	baby	NOUN	NN	Number=Sing	7	nsubj	_	start_char=1115|end_char=1119
+6	will	will	AUX	MD	VerbForm=Fin	7	aux	_	start_char=1120|end_char=1124
+7	die	die	VERB	VB	VerbForm=Inf	3	ccomp	_	start_char=1125|end_char=1128|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=1128|end_char=1129|SpacesAfter=\n\n
+
+# text = And this loss might be a little more bearable without a name.
+# sent_id = 21
+1	And	and	CCONJ	CC	_	9	cc	_	start_char=1131|end_char=1134
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	start_char=1135|end_char=1139
+3	loss	loss	NOUN	NN	Number=Sing	9	nsubj	_	start_char=1140|end_char=1144
+4	might	might	AUX	MD	VerbForm=Fin	9	aux	_	start_char=1145|end_char=1150
+5	be	be	AUX	VB	VerbForm=Inf	9	cop	_	start_char=1151|end_char=1153
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=1154|end_char=1155
+7	little	little	ADJ	JJ	Degree=Pos	8	obl:unmarked	_	start_char=1156|end_char=1162
+8	more	more	ADV	RBR	Degree=Cmp	9	advmod	_	start_char=1163|end_char=1167
+9	bearable	bearable	ADJ	JJ	Degree=Pos	0	root	_	start_char=1168|end_char=1176
+10	without	without	ADP	IN	_	12	case	_	start_char=1177|end_char=1184
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=1185|end_char=1186
+12	name	name	NOUN	NN	Number=Sing	9	obl	_	start_char=1187|end_char=1191|SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	_	start_char=1191|end_char=1192|SpacesAfter=\n\n
+
+# text = A face without a name might help them feel just a little less attached.
+# sent_id = 22
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	start_char=1194|end_char=1195
+2	face	face	NOUN	NN	Number=Sing	7	nsubj	_	start_char=1196|end_char=1200
+3	without	without	ADP	IN	_	5	case	_	start_char=1201|end_char=1208
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=1209|end_char=1210
+5	name	name	NOUN	NN	Number=Sing	2	nmod	_	start_char=1211|end_char=1215
+6	might	might	AUX	MD	VerbForm=Fin	7	aux	_	start_char=1216|end_char=1221
+7	help	help	VERB	VB	VerbForm=Inf	0	root	_	start_char=1222|end_char=1226
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obj	_	start_char=1227|end_char=1231
+9	feel	feel	VERB	VB	VerbForm=Inf	7	xcomp	_	start_char=1232|end_char=1236
+10	just	just	ADV	RB	_	12	advmod	_	start_char=1237|end_char=1241
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=1242|end_char=1243
+12	little	little	ADJ	JJ	Degree=Pos	13	obl:unmarked	_	start_char=1244|end_char=1250
+13	less	less	ADV	RBR	Degree=Cmp	14	advmod	_	start_char=1251|end_char=1255
+14	attached	attach	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	xcomp	_	start_char=1256|end_char=1264|SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	_	start_char=1264|end_char=1265|SpacesAfter=\n\n
+
+# text = So here we are in one part of the world -- a time of joy, excitement, dreaming of the future of that child -- while in another world, parents are filled with dread, not daring to dream of a future for their child beyond a few precious weeks.
+# sent_id = 23
+1	So	so	ADV	RB	_	2	advmod	_	start_char=1267|end_char=1269
+2	here	here	ADV	RB	PronType=Dem	0	root	_	start_char=1270|end_char=1274
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=1275|end_char=1277
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=1278|end_char=1281
+5	in	in	ADP	IN	_	7	case	_	start_char=1282|end_char=1284
+6	one	one	NUM	CD	NumForm=Word|NumType=Card	7	nummod	_	start_char=1285|end_char=1288
+7	part	part	NOUN	NN	Number=Sing	2	ccomp	_	start_char=1289|end_char=1293
+8	of	of	ADP	IN	_	10	case	_	start_char=1294|end_char=1296
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=1297|end_char=1300
+10	world	world	NOUN	NN	Number=Sing	7	nmod	_	start_char=1301|end_char=1306
+11	--	--	PUNCT	,	_	13	punct	_	start_char=1307|end_char=1309
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=1310|end_char=1311
+13	time	time	NOUN	NN	Number=Sing	7	appos	_	start_char=1312|end_char=1316
+14	of	of	ADP	IN	_	15	case	_	start_char=1317|end_char=1319
+15	joy	joy	NOUN	NN	Number=Sing	13	nmod	_	start_char=1320|end_char=1323|SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	start_char=1323|end_char=1324
+17	excitement	excitement	NOUN	NN	Number=Sing	15	conj	_	start_char=1325|end_char=1335|SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	_	start_char=1335|end_char=1336
+19	dreaming	dreaming	NOUN	NN	Number=Sing	15	conj	_	start_char=1337|end_char=1345
+20	of	of	ADP	IN	_	22	case	_	start_char=1346|end_char=1348
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	start_char=1349|end_char=1352
+22	future	future	NOUN	NN	Number=Sing	19	nmod	_	start_char=1353|end_char=1359
+23	of	of	ADP	IN	_	25	case	_	start_char=1360|end_char=1362
+24	that	that	DET	DT	Number=Sing|PronType=Dem	25	det	_	start_char=1363|end_char=1367
+25	child	child	NOUN	NN	Number=Sing	22	nmod	_	start_char=1368|end_char=1373
+26	--	--	PUNCT	,	_	34	punct	_	start_char=1374|end_char=1376
+27	while	while	SCONJ	IN	_	34	mark	_	start_char=1377|end_char=1382
+28	in	in	ADP	IN	_	30	case	_	start_char=1383|end_char=1385
+29	another	another	DET	DT	PronType=Ind	30	det	_	start_char=1386|end_char=1393
+30	world	world	NOUN	NN	Number=Sing	34	obl	_	start_char=1394|end_char=1399|SpaceAfter=No
+31	,	,	PUNCT	,	_	30	punct	_	start_char=1399|end_char=1400
+32	parents	parent	NOUN	NNS	Number=Plur	34	nsubj:pass	_	start_char=1401|end_char=1408
+33	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	aux:pass	_	start_char=1409|end_char=1412
+34	filled	fill	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	advcl	_	start_char=1413|end_char=1419
+35	with	with	ADP	IN	_	36	case	_	start_char=1420|end_char=1424
+36	dread	dread	NOUN	NN	Number=Sing	34	obl	_	start_char=1425|end_char=1430|SpaceAfter=No
+37	,	,	PUNCT	,	_	39	punct	_	start_char=1430|end_char=1431
+38	not	not	PART	RB	Polarity=Neg	39	advmod	_	start_char=1432|end_char=1435
+39	daring	dare	VERB	VBG	Tense=Pres|VerbForm=Part	34	conj	_	start_char=1436|end_char=1442
+40	to	to	PART	TO	_	41	mark	_	start_char=1443|end_char=1445
+41	dream	dream	VERB	VB	VerbForm=Inf	39	xcomp	_	start_char=1446|end_char=1451
+42	of	of	ADP	IN	_	44	case	_	start_char=1452|end_char=1454
+43	a	a	DET	DT	Definite=Ind|PronType=Art	44	det	_	start_char=1455|end_char=1456
+44	future	future	NOUN	NN	Number=Sing	41	obl	_	start_char=1457|end_char=1463
+45	for	for	ADP	IN	_	47	case	_	start_char=1464|end_char=1467
+46	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	47	nmod:poss	_	start_char=1468|end_char=1473
+47	child	child	NOUN	NN	Number=Sing	41	obl	_	start_char=1474|end_char=1479
+48	beyond	beyond	ADP	IN	_	52	case	_	start_char=1480|end_char=1486
+49	a	a	DET	DT	Definite=Ind|PronType=Art	52	det	_	start_char=1487|end_char=1488
+50	few	few	ADJ	JJ	Degree=Pos	52	amod	_	start_char=1489|end_char=1492
+51	precious	precious	ADJ	JJ	Degree=Pos	52	amod	_	start_char=1493|end_char=1501
+52	weeks	week	NOUN	NNS	Number=Plur	41	obl	_	start_char=1502|end_char=1507|SpaceAfter=No
+53	.	.	PUNCT	.	_	2	punct	_	start_char=1507|end_char=1508|SpacesAfter=\n\n
+
+# text = How can that be?
+# sent_id = 24
+1	How	how	ADV	WRB	PronType=Int	4	advmod	_	start_char=1510|end_char=1513
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	start_char=1514|end_char=1517
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	start_char=1518|end_char=1522
+4	be	be	AUX	VB	VerbForm=Inf	0	root	_	start_char=1523|end_char=1525|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	start_char=1525|end_char=1526|SpacesAfter=\n\n
+
+# text = How can it be that 2.6 million babies die around the world before they're even one month old?
+# sent_id = 25
+1	How	how	ADV	WRB	PronType=Int	9	advmod	_	start_char=1528|end_char=1531
+2	can	can	AUX	MD	VerbForm=Fin	9	aux	_	start_char=1532|end_char=1535
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj:outer	_	start_char=1536|end_char=1538
+4	be	be	AUX	VB	VerbForm=Inf	9	cop	_	start_char=1539|end_char=1541
+5	that	that	SCONJ	IN	_	9	mark	_	start_char=1542|end_char=1546
+6	2.6	2.6	NUM	CD	NumForm=Digit|NumType=Frac	7	compound	_	start_char=1547|end_char=1550
+7	million	million	NUM	CD	NumForm=Word|NumType=Card	8	nummod	_	start_char=1551|end_char=1558
+8	babies	baby	NOUN	NNS	Number=Plur	9	nsubj	_	start_char=1559|end_char=1565
+9	die	die	VERB	VB	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1566|end_char=1569
+10	around	around	ADP	IN	_	12	case	_	start_char=1570|end_char=1576
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=1577|end_char=1580
+12	world	world	NOUN	NN	Number=Sing	9	obl	_	start_char=1581|end_char=1586
+13	before	before	SCONJ	IN	_	19	mark	_	start_char=1587|end_char=1593
+14-15	they're	_	_	_	_	_	_	_	start_char=1594|end_char=1601
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	start_char=1594|end_char=1598
+15	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=1598|end_char=1601
+16	even	even	ADV	RB	_	19	advmod	_	start_char=1602|end_char=1606
+17	one	one	NUM	CD	NumForm=Word|NumType=Card	18	nummod	_	start_char=1607|end_char=1610
+18	month	month	NOUN	NN	Number=Sing	19	obl:unmarked	_	start_char=1611|end_char=1616
+19	old	old	ADJ	JJ	Degree=Pos	9	advcl	_	start_char=1617|end_char=1620|SpaceAfter=No
+20	?	?	PUNCT	.	_	9	punct	_	start_char=1620|end_char=1621|SpacesAfter=\n\n
+
+# text = 2.6 million.
+# sent_id = 26
+1	2.6	2.6	NUM	CD	NumForm=Digit|NumType=Frac	2	nummod	_	start_char=1623|end_char=1626
+2	million	million	NUM	CD	NumForm=Word|NumType=Card	0	root	_	start_char=1627|end_char=1634|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	start_char=1634|end_char=1635|SpacesAfter=\n\n
+
+# text = That's the population of Vancouver.
+# sent_id = 27
+1-2	That's	_	_	_	_	_	_	_	start_char=1637|end_char=1643
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	start_char=1637|end_char=1641
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1641|end_char=1643
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=1644|end_char=1647
+4	population	population	NOUN	NN	Number=Sing	0	root	_	start_char=1648|end_char=1658
+5	of	of	ADP	IN	_	6	case	_	start_char=1659|end_char=1661
+6	Vancouver	Vancouver	PROPN	NNP	Number=Sing	4	nmod	_	start_char=1662|end_char=1671|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=1671|end_char=1672|SpacesAfter=\n\n
+
+# text = And the shocking thing is:
+# sent_id = 28
+1	And	and	CCONJ	CC	_	5	cc	_	start_char=1674|end_char=1677
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=1678|end_char=1681
+3	shocking	shocking	ADJ	JJ	Degree=Pos	4	amod	_	start_char=1682|end_char=1690
+4	thing	thing	NOUN	NN	Number=Sing	5	nsubj	_	start_char=1691|end_char=1696
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1697|end_char=1699|SpaceAfter=No
+6	:	:	PUNCT	:	_	5	punct	_	start_char=1699|end_char=1700|SpacesAfter=\n\n
+
+# text = Why?
+# sent_id = 29
+1	Why	why	ADV	WRB	PronType=Int	0	root	_	start_char=1702|end_char=1705|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	punct	_	start_char=1705|end_char=1706|SpacesAfter=\n\n
+
+# text = In too many cases, we simply don't know.
+# sent_id = 30
+1	In	in	ADP	IN	_	4	case	_	start_char=1708|end_char=1710
+2	too	too	ADV	RB	_	3	advmod	_	start_char=1711|end_char=1714
+3	many	many	ADJ	JJ	Degree=Pos	4	amod	_	start_char=1715|end_char=1719
+4	cases	case	NOUN	NNS	Number=Plur	10	obl	_	start_char=1720|end_char=1725|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=1725|end_char=1726
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	start_char=1727|end_char=1729
+7	simply	simply	ADV	RB	_	10	advmod	_	start_char=1730|end_char=1736
+8-9	don't	_	_	_	_	_	_	_	start_char=1737|end_char=1742
+8	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=1737|end_char=1739
+9	n't	not	PART	RB	Polarity=Neg	10	advmod	_	start_char=1739|end_char=1742
+10	know	know	VERB	VB	VerbForm=Inf	0	root	_	start_char=1743|end_char=1747|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	start_char=1747|end_char=1748|SpacesAfter=\n\n
+
+# text = Now, I remember recently seeing an updated pie chart.
+# sent_id = 31
+1	Now	now	ADV	RB	_	4	advmod	_	start_char=1750|end_char=1753|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=1753|end_char=1754
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=1755|end_char=1756
+4	remember	remember	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1757|end_char=1765
+5	recently	recently	ADV	RB	_	6	advmod	_	start_char=1766|end_char=1774
+6	seeing	see	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	_	start_char=1775|end_char=1781
+7	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=1782|end_char=1784
+8	updated	update	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	start_char=1785|end_char=1792
+9	pie	pie	NOUN	NN	Number=Sing	10	compound	_	start_char=1793|end_char=1796
+10	chart	chart	NOUN	NN	Number=Sing	6	obj	_	start_char=1797|end_char=1802|SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	start_char=1802|end_char=1803|SpacesAfter=\n\n
+
+# text = And the pie chart was labeled, "Causes of death in children under five worldwide." And there was a pretty big section of that pie chart, about 40 percent -- 40 percent was labeled "neonatal."
+# sent_id = 32
+1	And	and	CCONJ	CC	_	6	cc	_	start_char=1805|end_char=1808
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=1809|end_char=1812
+3	pie	pie	NOUN	NN	Number=Sing	4	compound	_	start_char=1813|end_char=1816
+4	chart	chart	NOUN	NN	Number=Sing	6	nsubj:pass	_	start_char=1817|end_char=1822
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	start_char=1823|end_char=1826
+6	labeled	label	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=1827|end_char=1834|SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	start_char=1834|end_char=1835
+8	"	"	PUNCT	``	_	9	punct	_	start_char=1836|end_char=1837|SpaceAfter=No
+9	Causes	cause	NOUN	NNS	Number=Plur	6	xcomp	_	start_char=1837|end_char=1843
+10	of	of	ADP	IN	_	11	case	_	start_char=1844|end_char=1846
+11	death	death	NOUN	NN	Number=Sing	9	nmod	_	start_char=1847|end_char=1852
+12	in	in	ADP	IN	_	13	case	_	start_char=1853|end_char=1855
+13	children	child	NOUN	NNS	Number=Plur	9	nmod	_	start_char=1856|end_char=1864
+14	under	under	ADP	IN	_	15	case	_	start_char=1865|end_char=1870
+15	five	five	NUM	CD	NumForm=Word|NumType=Card	13	nmod	_	start_char=1871|end_char=1875
+16	worldwide	worldwide	ADV	RB	_	15	advmod	_	start_char=1876|end_char=1885|SpaceAfter=No
+17	.	.	PUNCT	.	_	9	punct	_	start_char=1885|end_char=1886|SpaceAfter=No
+18	"	"	PUNCT	''	_	9	punct	_	start_char=1886|end_char=1887
+19	And	and	CCONJ	CC	_	21	cc	_	start_char=1888|end_char=1891
+20	there	there	PRON	EX	_	21	expl	_	start_char=1892|end_char=1897
+21	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	start_char=1898|end_char=1901
+22	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	start_char=1902|end_char=1903
+23	pretty	pretty	ADV	RB	_	24	advmod	_	start_char=1904|end_char=1910
+24	big	big	ADJ	JJ	Degree=Pos	25	amod	_	start_char=1911|end_char=1914
+25	section	section	NOUN	NN	Number=Sing	21	nsubj	_	start_char=1915|end_char=1922
+26	of	of	ADP	IN	_	29	case	_	start_char=1923|end_char=1925
+27	that	that	DET	DT	Number=Sing|PronType=Dem	29	det	_	start_char=1926|end_char=1930
+28	pie	pie	NOUN	NN	Number=Sing	29	compound	_	start_char=1931|end_char=1934
+29	chart	chart	NOUN	NN	Number=Sing	25	nmod	_	start_char=1935|end_char=1940|SpaceAfter=No
+30	,	,	PUNCT	,	_	33	punct	_	start_char=1940|end_char=1941
+31	about	about	ADV	RB	_	32	advmod	_	start_char=1942|end_char=1947
+32	40	40	NUM	CD	NumForm=Digit|NumType=Card	33	nummod	_	start_char=1948|end_char=1950
+33	percent	percent	NOUN	NN	Number=Sing	25	appos	_	start_char=1951|end_char=1958
+34	--	--	PUNCT	,	_	38	punct	_	start_char=1959|end_char=1961
+35	40	40	NUM	CD	NumForm=Digit|NumType=Card	36	nummod	_	start_char=1962|end_char=1964
+36	percent	percent	NOUN	NN	Number=Sing	38	nsubj:pass	_	start_char=1965|end_char=1972
+37	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	38	aux:pass	_	start_char=1973|end_char=1976
+38	labeled	label	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	21	parataxis	_	start_char=1977|end_char=1984
+39	"	"	PUNCT	``	_	40	punct	_	start_char=1985|end_char=1986|SpaceAfter=No
+40	neonatal	neonatal	ADJ	JJ	Degree=Pos	38	xcomp	_	start_char=1986|end_char=1994|SpaceAfter=No
+41	.	.	PUNCT	.	_	40	punct	_	start_char=1994|end_char=1995|SpaceAfter=No
+42	"	"	PUNCT	''	_	38	punct	_	start_char=1995|end_char=1996|SpacesAfter=\n\n
+
+# text = Now, "neonatal" is not a cause of death.
+# sent_id = 33
+1	Now	now	ADV	RB	_	9	advmod	_	start_char=1998|end_char=2001|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=2001|end_char=2002
+3	"	"	PUNCT	``	_	4	punct	_	start_char=2003|end_char=2004|SpaceAfter=No
+4	neonatal	neonatal	NOUN	NN	Number=Sing	9	nsubj	_	start_char=2004|end_char=2012|SpaceAfter=No
+5	"	"	PUNCT	''	_	4	punct	_	start_char=2012|end_char=2013
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=2014|end_char=2016
+7	not	not	PART	RB	Polarity=Neg	9	advmod	_	start_char=2017|end_char=2020
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=2021|end_char=2022
+9	cause	cause	NOUN	NN	Number=Sing	0	root	_	start_char=2023|end_char=2028
+10	of	of	ADP	IN	_	11	case	_	start_char=2029|end_char=2031
+11	death	death	NOUN	NN	Number=Sing	9	nmod	_	start_char=2032|end_char=2037|SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	start_char=2037|end_char=2038|SpacesAfter=\n\n
+
+# text = Neonatal is simply an adjective, an adjective that means that the child is less than one month old.
+# sent_id = 34
+1	Neonatal	neonatal	NOUN	NN	Number=Sing	5	nsubj	_	start_char=2040|end_char=2048
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=2049|end_char=2051
+3	simply	simply	ADV	RB	_	5	advmod	_	start_char=2052|end_char=2058
+4	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=2059|end_char=2061
+5	adjective	adjective	NOUN	NN	Number=Sing	0	root	_	start_char=2062|end_char=2071|SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	start_char=2071|end_char=2072
+7	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=2073|end_char=2075
+8	adjective	adjective	NOUN	NN	Number=Sing	5	appos	_	start_char=2076|end_char=2085
+9	that	that	PRON	WDT	PronType=Rel	10	nsubj	_	start_char=2086|end_char=2090
+10	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	start_char=2091|end_char=2096
+11	that	that	SCONJ	IN	_	19	mark	_	start_char=2097|end_char=2101
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=2102|end_char=2105
+13	child	child	NOUN	NN	Number=Sing	19	nsubj	_	start_char=2106|end_char=2111
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=2112|end_char=2114
+15	less	less	ADJ	JJR	Degree=Cmp|ExtPos=ADV	17	advmod	_	start_char=2115|end_char=2119
+16	than	than	ADP	IN	_	15	fixed	_	start_char=2120|end_char=2124
+17	one	one	NUM	CD	NumForm=Word|NumType=Card	18	nummod	_	start_char=2125|end_char=2128
+18	month	month	NOUN	NN	Number=Sing	19	obl:unmarked	_	start_char=2129|end_char=2134
+19	old	old	ADJ	JJ	Degree=Pos	10	ccomp	_	start_char=2135|end_char=2138|SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	_	start_char=2138|end_char=2139|SpacesAfter=\n\n
+
+# text = For me, "neonatal" said:
+# sent_id = 35
+1	For	for	ADP	IN	_	2	case	_	start_char=2141|end_char=2144
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obl	_	start_char=2145|end_char=2147|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=2147|end_char=2148
+4	"	"	PUNCT	``	_	5	punct	_	start_char=2149|end_char=2150|SpaceAfter=No
+5	neonatal	neonatal	NOUN	NN	Number=Sing	7	nsubj	_	start_char=2150|end_char=2158|SpaceAfter=No
+6	"	"	PUNCT	''	_	5	punct	_	start_char=2158|end_char=2159
+7	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2160|end_char=2164|SpaceAfter=No
+8	:	:	PUNCT	:	_	7	punct	_	start_char=2164|end_char=2165|SpacesAfter=\n\n
+
+# text = "We have no idea."
+# sent_id = 36
+1	"	"	PUNCT	``	_	3	punct	_	start_char=2167|end_char=2168|SpaceAfter=No
+2	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=2168|end_char=2170
+3	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2171|end_char=2175
+4	no	no	DET	DT	PronType=Neg	5	det	_	start_char=2176|end_char=2178
+5	idea	idea	NOUN	NN	Number=Sing	3	obj	_	start_char=2179|end_char=2183|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=2183|end_char=2184|SpaceAfter=No
+7	"	"	PUNCT	''	_	3	punct	_	start_char=2184|end_char=2185|SpacesAfter=\n\n
+
+# text = Now, I'm a scientist.
+# sent_id = 37
+1	Now	now	ADV	RB	_	6	advmod	_	start_char=2187|end_char=2190|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=2190|end_char=2191
+3-4	I'm	_	_	_	_	_	_	_	start_char=2192|end_char=2195
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=2192|end_char=2193
+4	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=2193|end_char=2195
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=2196|end_char=2197
+6	scientist	scientist	NOUN	NN	Number=Sing	0	root	_	start_char=2198|end_char=2207|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=2207|end_char=2208|SpacesAfter=\n\n
+
+# text = I'm a doctor.
+# sent_id = 38
+1-2	I'm	_	_	_	_	_	_	_	start_char=2210|end_char=2213
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=2210|end_char=2211
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=2211|end_char=2213
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=2214|end_char=2215
+4	doctor	doctor	NOUN	NN	Number=Sing	0	root	_	start_char=2216|end_char=2222|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=2222|end_char=2223|SpacesAfter=\n\n
+
+# text = I want to fix things.
+# sent_id = 39
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=2225|end_char=2226
+2	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2227|end_char=2231
+3	to	to	PART	TO	_	4	mark	_	start_char=2232|end_char=2234
+4	fix	fix	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=2235|end_char=2238
+5	things	thing	NOUN	NNS	Number=Plur	4	obj	_	start_char=2239|end_char=2245|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=2245|end_char=2246|SpacesAfter=\n\n
+
+# text = But you can't fix what you can't define.
+# sent_id = 40
+1	But	but	CCONJ	CC	_	5	cc	_	start_char=2248|end_char=2251
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=2252|end_char=2255
+3-4	can't	_	_	_	_	_	_	_	start_char=2256|end_char=2261
+3	ca	can	AUX	MD	VerbForm=Fin	5	aux	_	start_char=2256|end_char=2258
+4	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=2258|end_char=2261
+5	fix	fix	VERB	VB	VerbForm=Inf	0	root	_	start_char=2262|end_char=2265
+6	what	what	PRON	WP	PronType=Rel	5	obj	_	start_char=2266|end_char=2270
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	start_char=2271|end_char=2274
+8-9	can't	_	_	_	_	_	_	_	start_char=2275|end_char=2280
+8	ca	can	AUX	MD	VerbForm=Fin	10	aux	_	start_char=2275|end_char=2277
+9	n't	not	PART	RB	Polarity=Neg	10	advmod	_	start_char=2277|end_char=2280
+10	define	define	VERB	VB	VerbForm=Inf	6	acl:relcl	_	start_char=2281|end_char=2287|SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	start_char=2287|end_char=2288|SpacesAfter=\n\n
+
+# text = So our first step in restoring the dreams of those parents is to answer the question:
+# sent_id = 41
+1	So	so	ADV	RB	_	14	advmod	_	start_char=2290|end_char=2292
+2	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=2293|end_char=2296
+3	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	4	amod	_	start_char=2297|end_char=2302
+4	step	step	NOUN	NN	Number=Sing	14	nsubj:outer	_	start_char=2303|end_char=2307
+5	in	in	SCONJ	IN	_	6	mark	_	start_char=2308|end_char=2310
+6	restoring	restore	VERB	VBG	VerbForm=Ger	4	acl	_	start_char=2311|end_char=2320
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=2321|end_char=2324
+8	dreams	dream	NOUN	NNS	Number=Plur	6	obj	_	start_char=2325|end_char=2331
+9	of	of	ADP	IN	_	11	case	_	start_char=2332|end_char=2334
+10	those	that	DET	DT	Number=Plur|PronType=Dem	11	det	_	start_char=2335|end_char=2340
+11	parents	parent	NOUN	NNS	Number=Plur	8	nmod	_	start_char=2341|end_char=2348
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=2349|end_char=2351
+13	to	to	PART	TO	_	14	mark	_	start_char=2352|end_char=2354
+14	answer	answer	VERB	VB	VerbForm=Inf	0	root	_	start_char=2355|end_char=2361
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=2362|end_char=2365
+16	question	question	NOUN	NN	Number=Sing	14	obj	_	start_char=2366|end_char=2374|SpaceAfter=No
+17	:	:	PUNCT	:	_	14	punct	_	start_char=2374|end_char=2375|SpacesAfter=\n\n
+
+# text = Why are babies dying?
+# sent_id = 42
+1	Why	why	ADV	WRB	PronType=Int	4	advmod	_	start_char=2377|end_char=2380
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=2381|end_char=2384
+3	babies	baby	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=2385|end_char=2391
+4	dying	die	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=2392|end_char=2397|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	start_char=2397|end_char=2398|SpacesAfter=\n\n
+
+# text = So today, I want to talk about a new approach, an approach that I feel will not only help us know why babies are dying, but is beginning to completely transform the whole field of global health.
+# sent_id = 43
+1	So	so	ADV	RB	_	5	advmod	_	start_char=2400|end_char=2402
+2	today	today	NOUN	NN	Number=Sing	5	obl:unmarked	_	start_char=2403|end_char=2408|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=2408|end_char=2409
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=2410|end_char=2411
+5	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2412|end_char=2416
+6	to	to	PART	TO	_	7	mark	_	start_char=2417|end_char=2419
+7	talk	talk	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=2420|end_char=2424
+8	about	about	ADP	IN	_	11	case	_	start_char=2425|end_char=2430
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=2431|end_char=2432
+10	new	new	ADJ	JJ	Degree=Pos	11	amod	_	start_char=2433|end_char=2436
+11	approach	approach	NOUN	NN	Number=Sing	7	obl	_	start_char=2437|end_char=2445|SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	start_char=2445|end_char=2446
+13	an	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	start_char=2447|end_char=2449
+14	approach	approach	NOUN	NN	Number=Sing	11	appos	_	start_char=2450|end_char=2458
+15	that	that	PRON	WDT	PronType=Rel	17	obj	_	start_char=2459|end_char=2463
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	start_char=2464|end_char=2465
+17	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	start_char=2466|end_char=2470
+18	will	will	AUX	MD	VerbForm=Fin	21	aux	_	start_char=2471|end_char=2475
+19	not	not	PART	RB	Polarity=Neg	21	advmod	_	start_char=2476|end_char=2479
+20	only	only	ADV	RB	_	21	advmod	_	start_char=2480|end_char=2484
+21	help	help	VERB	VB	VerbForm=Inf	14	acl:relcl	_	start_char=2485|end_char=2489
+22	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	21	obj	_	start_char=2490|end_char=2492
+23	know	know	VERB	VB	VerbForm=Inf	21	xcomp	_	start_char=2493|end_char=2497
+24	why	why	ADV	WRB	PronType=Int	27	advmod	_	start_char=2498|end_char=2501
+25	babies	baby	NOUN	NNS	Number=Plur	27	nsubj	_	start_char=2502|end_char=2508
+26	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	start_char=2509|end_char=2512
+27	dying	die	VERB	VBG	Tense=Pres|VerbForm=Part	23	ccomp	_	start_char=2513|end_char=2518|SpaceAfter=No
+28	,	,	PUNCT	,	_	31	punct	_	start_char=2518|end_char=2519
+29	but	but	CCONJ	CC	_	31	cc	_	start_char=2520|end_char=2523
+30	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	start_char=2524|end_char=2526
+31	beginning	begin	VERB	VBG	Tense=Pres|VerbForm=Part	21	conj	_	start_char=2527|end_char=2536
+32	to	to	PART	TO	_	34	mark	_	start_char=2537|end_char=2539
+33	completely	completely	ADV	RB	_	34	advmod	_	start_char=2540|end_char=2550
+34	transform	transform	VERB	VB	VerbForm=Inf	31	xcomp	_	start_char=2551|end_char=2560
+35	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	start_char=2561|end_char=2564
+36	whole	whole	ADJ	JJ	Degree=Pos	37	amod	_	start_char=2565|end_char=2570
+37	field	field	NOUN	NN	Number=Sing	34	obj	_	start_char=2571|end_char=2576
+38	of	of	ADP	IN	_	40	case	_	start_char=2577|end_char=2579
+39	global	global	ADJ	JJ	Degree=Pos	40	amod	_	start_char=2580|end_char=2586
+40	health	health	NOUN	NN	Number=Sing	37	nmod	_	start_char=2587|end_char=2593|SpaceAfter=No
+41	.	.	PUNCT	.	_	5	punct	_	start_char=2593|end_char=2594|SpacesAfter=\n\n
+
+# text = It's called "Precision Public Health."
+# sent_id = 44
+1-2	It's	_	_	_	_	_	_	_	start_char=2596|end_char=2600
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	start_char=2596|end_char=2598
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	start_char=2598|end_char=2600
+3	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=2601|end_char=2607
+4	"	"	PUNCT	``	_	7	punct	_	start_char=2608|end_char=2609|SpaceAfter=No
+5	Precision	Precision	PROPN	NNP	Number=Sing	7	compound	_	start_char=2609|end_char=2618
+6	Public	Public	ADJ	NNP	Degree=Pos	7	amod	_	start_char=2619|end_char=2625
+7	Health	Health	PROPN	NNP	Number=Sing	3	xcomp	_	start_char=2626|end_char=2632|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	start_char=2632|end_char=2633|SpaceAfter=No
+9	"	"	PUNCT	''	_	7	punct	_	start_char=2633|end_char=2634|SpacesAfter=\n\n
+
+# text = For me, precision medicine comes from a very special place.
+# sent_id = 45
+1	For	for	ADP	IN	_	2	case	_	start_char=2636|end_char=2639
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obl	_	start_char=2640|end_char=2642|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=2642|end_char=2643
+4	precision	precision	NOUN	NN	Number=Sing	5	compound	_	start_char=2644|end_char=2653
+5	medicine	medicine	NOUN	NN	Number=Sing	6	nsubj	_	start_char=2654|end_char=2662
+6	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2663|end_char=2668
+7	from	from	ADP	IN	_	11	case	_	start_char=2669|end_char=2673
+8	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=2674|end_char=2675
+9	very	very	ADV	RB	_	10	advmod	_	start_char=2676|end_char=2680
+10	special	special	ADJ	JJ	Degree=Pos	11	amod	_	start_char=2681|end_char=2688
+11	place	place	NOUN	NN	Number=Sing	6	obl	_	start_char=2689|end_char=2694|SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	start_char=2694|end_char=2695|SpacesAfter=\n\n
+
+# text = I trained as a cancer doctor, an oncologist.
+# sent_id = 46
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=2697|end_char=2698
+2	trained	train	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=2699|end_char=2706
+3	as	as	ADP	IN	_	6	case	_	start_char=2707|end_char=2709
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=2710|end_char=2711
+5	cancer	cancer	NOUN	NN	Number=Sing	6	compound	_	start_char=2712|end_char=2718
+6	doctor	doctor	NOUN	NN	Number=Sing	2	obl	_	start_char=2719|end_char=2725|SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	start_char=2725|end_char=2726
+8	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=2727|end_char=2729
+9	oncologist	oncologist	NOUN	NN	Number=Sing	6	appos	_	start_char=2730|end_char=2740|SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	start_char=2740|end_char=2741|SpacesAfter=\n\n
+
+# text = I got into it because I wanted to help people feel better.
+# sent_id = 47
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=2743|end_char=2744
+2	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=2745|end_char=2748
+3	into	into	ADP	IN	_	4	case	_	start_char=2749|end_char=2753
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obl	_	start_char=2754|end_char=2756
+5	because	because	SCONJ	IN	_	7	mark	_	start_char=2757|end_char=2764
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=2765|end_char=2766
+7	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	advcl	_	start_char=2767|end_char=2773
+8	to	to	PART	TO	_	9	mark	_	start_char=2774|end_char=2776
+9	help	help	VERB	VB	VerbForm=Inf	7	xcomp	_	start_char=2777|end_char=2781
+10	people	person	NOUN	NNS	Number=Plur	9	obj	_	start_char=2782|end_char=2788
+11	feel	feel	VERB	VB	VerbForm=Inf	9	xcomp	_	start_char=2789|end_char=2793
+12	better	good	ADJ	JJR	Degree=Cmp	11	xcomp	_	start_char=2794|end_char=2800|SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	start_char=2800|end_char=2801|SpacesAfter=\n\n
+
+# text = But too often my treatments made them feel worse.
+# sent_id = 48
+1	But	but	CCONJ	CC	_	6	cc	_	start_char=2803|end_char=2806
+2	too	too	ADV	RB	_	3	advmod	_	start_char=2807|end_char=2810
+3	often	often	ADV	RB	_	6	advmod	_	start_char=2811|end_char=2816
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=2817|end_char=2819
+5	treatments	treatment	NOUN	NNS	Number=Plur	6	nsubj	_	start_char=2820|end_char=2830
+6	made	make	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2831|end_char=2835
+7	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obj	_	start_char=2836|end_char=2840
+8	feel	feel	VERB	VB	VerbForm=Inf	6	xcomp	_	start_char=2841|end_char=2845
+9	worse	bad	ADJ	JJR	Degree=Cmp	8	xcomp	_	start_char=2846|end_char=2851|SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	start_char=2851|end_char=2852|SpacesAfter=\n\n
+
+# text = I still remember young women being driven to my clinic by their moms -- adults, who had to be helped into my exam room by their mothers.
+# sent_id = 49
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=2854|end_char=2855
+2	still	still	ADV	RB	_	3	advmod	_	start_char=2856|end_char=2861
+3	remember	remember	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2862|end_char=2870
+4	young	young	ADJ	JJ	Degree=Pos	5	amod	_	start_char=2871|end_char=2876
+5	women	woman	NOUN	NNS	Number=Plur	3	obj	_	start_char=2877|end_char=2882
+6	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	7	aux:pass	_	start_char=2883|end_char=2888
+7	driven	drive	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	start_char=2889|end_char=2895
+8	to	to	ADP	IN	_	10	case	_	start_char=2896|end_char=2898
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=2899|end_char=2901
+10	clinic	clinic	NOUN	NN	Number=Sing	7	obl	_	start_char=2902|end_char=2908
+11	by	by	ADP	IN	_	13	case	_	start_char=2909|end_char=2911
+12	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=2912|end_char=2917
+13	moms	mom	NOUN	NNS	Number=Plur	7	obl:agent	_	start_char=2918|end_char=2922
+14	--	--	PUNCT	,	_	15	punct	_	start_char=2923|end_char=2925
+15	adults	adult	NOUN	NNS	Number=Plur	3	parataxis	_	start_char=2926|end_char=2932|SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	start_char=2932|end_char=2933
+17	who	who	PRON	WP	PronType=Rel	18	nsubj	_	start_char=2934|end_char=2937
+18	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl:relcl	_	start_char=2938|end_char=2941
+19	to	to	PART	TO	_	21	mark	_	start_char=2942|end_char=2944
+20	be	be	AUX	VB	VerbForm=Inf	21	aux:pass	_	start_char=2945|end_char=2947
+21	helped	help	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	xcomp	_	start_char=2948|end_char=2954
+22	into	into	ADP	IN	_	25	case	_	start_char=2955|end_char=2959
+23	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	25	nmod:poss	_	start_char=2960|end_char=2962
+24	exam	exam	NOUN	NN	Number=Sing	25	compound	_	start_char=2963|end_char=2967
+25	room	room	NOUN	NN	Number=Sing	21	obl	_	start_char=2968|end_char=2972
+26	by	by	ADP	IN	_	28	case	_	start_char=2973|end_char=2975
+27	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	start_char=2976|end_char=2981
+28	mothers	mother	NOUN	NNS	Number=Plur	21	obl:agent	_	start_char=2982|end_char=2989|SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	start_char=2989|end_char=2990|SpacesAfter=\n\n
+
+# text = They were so weak from the treatment I had given them.
+# sent_id = 50
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=2992|end_char=2996
+2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=2997|end_char=3001
+3	so	so	ADV	RB	_	4	advmod	_	start_char=3002|end_char=3004
+4	weak	weak	ADJ	JJ	Degree=Pos	0	root	_	start_char=3005|end_char=3009
+5	from	from	ADP	IN	_	7	case	_	start_char=3010|end_char=3014
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=3015|end_char=3018
+7	treatment	treatment	NOUN	NN	Number=Sing	4	obl	_	start_char=3019|end_char=3028
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=3029|end_char=3030
+9	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	aux	_	start_char=3031|end_char=3034
+10	given	give	VERB	VBN	Tense=Past|VerbForm=Part	7	acl:relcl	_	start_char=3035|end_char=3040
+11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	iobj	_	start_char=3041|end_char=3045|SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	start_char=3045|end_char=3046|SpacesAfter=\n\n
+
+# text = But at the time, in those front lines in the war on cancer, we had few tools.
+# sent_id = 51
+1	But	but	CCONJ	CC	_	17	cc	_	start_char=3048|end_char=3051
+2	at	at	ADP	IN	_	4	case	_	start_char=3052|end_char=3054
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=3055|end_char=3058
+4	time	time	NOUN	NN	Number=Sing	17	obl	_	start_char=3059|end_char=3063|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=3063|end_char=3064
+6	in	in	ADP	IN	_	9	case	_	start_char=3065|end_char=3067
+7	those	that	DET	DT	Number=Plur|PronType=Dem	9	det	_	start_char=3068|end_char=3073
+8	front	front	ADJ	JJ	Degree=Pos	9	amod	_	start_char=3074|end_char=3079
+9	lines	line	NOUN	NNS	Number=Plur	17	obl	_	start_char=3080|end_char=3085
+10	in	in	ADP	IN	_	12	case	_	start_char=3086|end_char=3088
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=3089|end_char=3092
+12	war	war	NOUN	NN	Number=Sing	9	nmod	_	start_char=3093|end_char=3096
+13	on	on	ADP	IN	_	14	case	_	start_char=3097|end_char=3099
+14	cancer	cancer	NOUN	NN	Number=Sing	12	nmod	_	start_char=3100|end_char=3106|SpaceAfter=No
+15	,	,	PUNCT	,	_	9	punct	_	start_char=3106|end_char=3107
+16	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	start_char=3108|end_char=3110
+17	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3111|end_char=3114
+18	few	few	ADJ	JJ	Degree=Pos	19	amod	_	start_char=3115|end_char=3118
+19	tools	tool	NOUN	NNS	Number=Plur	17	obj	_	start_char=3119|end_char=3124|SpaceAfter=No
+20	.	.	PUNCT	.	_	17	punct	_	start_char=3124|end_char=3125|SpacesAfter=\n\n
+
+# text = And the tools we did have couldn't differentiate between the cancer cells that we wanted to hit hard and those healthy cells that we wanted to preserve.
+# sent_id = 52
+1	And	and	CCONJ	CC	_	9	cc	_	start_char=3127|end_char=3130
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=3131|end_char=3134
+3	tools	tool	NOUN	NNS	Number=Plur	9	nsubj	_	start_char=3135|end_char=3140
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=3141|end_char=3143
+5	did	do	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	acl:relcl	_	start_char=3144|end_char=3147
+6	have	have	AUX	VB	VerbForm=Inf	9	aux	_	start_char=3148|end_char=3152
+7-8	couldn't	_	_	_	_	_	_	_	start_char=3153|end_char=3161
+7	could	could	AUX	MD	VerbForm=Fin	9	aux	_	start_char=3153|end_char=3158
+8	n't	not	PART	RB	Polarity=Neg	9	advmod	_	start_char=3158|end_char=3161
+9	differentiate	differentiate	VERB	VB	VerbForm=Inf	0	root	_	start_char=3162|end_char=3175
+10	between	between	ADP	IN	_	13	case	_	start_char=3176|end_char=3183
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=3184|end_char=3187
+12	cancer	cancer	NOUN	NN	Number=Sing	13	compound	_	start_char=3188|end_char=3194
+13	cells	cell	NOUN	NNS	Number=Plur	9	obl	_	start_char=3195|end_char=3200
+14	that	that	PRON	WDT	PronType=Rel	18	obj	_	start_char=3201|end_char=3205
+15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	start_char=3206|end_char=3208
+16	wanted	want	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	13	acl:relcl	_	start_char=3209|end_char=3215
+17	to	to	PART	TO	_	18	mark	_	start_char=3216|end_char=3218
+18	hit	hit	VERB	VB	VerbForm=Inf	16	xcomp	_	start_char=3219|end_char=3222
+19	hard	hard	ADV	RB	Degree=Pos	18	advmod	_	start_char=3223|end_char=3227
+20	and	and	CCONJ	CC	_	23	cc	_	start_char=3228|end_char=3231
+21	those	that	DET	DT	Number=Plur|PronType=Dem	23	det	_	start_char=3232|end_char=3237
+22	healthy	healthy	ADJ	JJ	Degree=Pos	23	amod	_	start_char=3238|end_char=3245
+23	cells	cell	NOUN	NNS	Number=Plur	13	conj	_	start_char=3246|end_char=3251
+24	that	that	PRON	WDT	PronType=Rel	28	obj	_	start_char=3252|end_char=3256
+25	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	26	nsubj	_	start_char=3257|end_char=3259
+26	wanted	want	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	23	acl:relcl	_	start_char=3260|end_char=3266
+27	to	to	PART	TO	_	28	mark	_	start_char=3267|end_char=3269
+28	preserve	preserve	VERB	VB	VerbForm=Inf	26	xcomp	_	start_char=3270|end_char=3278|SpaceAfter=No
+29	.	.	PUNCT	.	_	9	punct	_	start_char=3278|end_char=3279|SpacesAfter=\n\n
+
+# text = And so the side effects that you're all very familiar with -- hair loss, being sick to your stomach, having a suppressed immune system, so infection was a constant threat -- were always surrounding us.
+# sent_id = 53
+1	And	and	CCONJ	CC	_	38	cc	_	start_char=3281|end_char=3284
+2	so	so	ADV	RB	_	38	advmod	_	start_char=3285|end_char=3287
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=3288|end_char=3291
+4	side	side	NOUN	NN	Number=Sing	5	compound	_	start_char=3292|end_char=3296
+5	effects	effect	NOUN	NNS	Number=Plur	38	nsubj:outer	_	start_char=3297|end_char=3304
+6	that	that	PRON	WDT	PronType=Rel	11	obl	_	start_char=3305|end_char=3309
+7-8	you're	_	_	_	_	_	_	_	start_char=3310|end_char=3316
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	start_char=3310|end_char=3313
+8	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=3313|end_char=3316
+9	all	all	ADV	RB	_	11	advmod	_	start_char=3317|end_char=3320
+10	very	very	ADV	RB	_	11	advmod	_	start_char=3321|end_char=3325
+11	familiar	familiar	ADJ	JJ	Degree=Pos	5	acl:relcl	_	start_char=3326|end_char=3334
+12	with	with	ADP	IN	_	6	case	_	start_char=3335|end_char=3339
+13	--	--	PUNCT	,	_	15	punct	_	start_char=3340|end_char=3342
+14	hair	hair	NOUN	NN	Number=Sing	15	compound	_	start_char=3343|end_char=3347
+15	loss	loss	NOUN	NN	Number=Sing	5	appos	_	start_char=3348|end_char=3352|SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	start_char=3352|end_char=3353
+17	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	18	cop	_	start_char=3354|end_char=3359
+18	sick	sick	ADJ	JJ	Degree=Pos	15	acl	_	start_char=3360|end_char=3364
+19	to	to	ADP	IN	_	21	case	_	start_char=3365|end_char=3367
+20	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	21	nmod:poss	_	start_char=3368|end_char=3372
+21	stomach	stomach	NOUN	NN	Number=Sing	18	obl	_	start_char=3373|end_char=3380|SpaceAfter=No
+22	,	,	PUNCT	,	_	23	punct	_	start_char=3380|end_char=3381
+23	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	11	advcl	_	start_char=3382|end_char=3388
+24	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	start_char=3389|end_char=3390
+25	suppressed	suppress	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	27	amod	_	start_char=3391|end_char=3401
+26	immune	immune	NOUN	NN	Number=Sing	27	compound	_	start_char=3402|end_char=3408
+27	system	system	NOUN	NN	Number=Sing	23	obj	_	start_char=3409|end_char=3415|SpaceAfter=No
+28	,	,	PUNCT	,	_	5	punct	_	start_char=3415|end_char=3416
+29	so	so	ADV	RB	_	34	advmod	_	start_char=3417|end_char=3419
+30	infection	infection	NOUN	NN	Number=Sing	34	nsubj	_	start_char=3420|end_char=3429
+31	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	cop	_	start_char=3430|end_char=3433
+32	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	start_char=3434|end_char=3435
+33	constant	constant	ADJ	JJ	Degree=Pos	34	amod	_	start_char=3436|end_char=3444
+34	threat	threat	NOUN	NN	Number=Sing	38	parataxis	_	start_char=3445|end_char=3451
+35	--	--	PUNCT	,	_	34	punct	_	start_char=3452|end_char=3454
+36	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	38	aux	_	start_char=3455|end_char=3459
+37	always	always	ADV	RB	PronType=Tot	38	advmod	_	start_char=3460|end_char=3466
+38	surrounding	surround	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=3467|end_char=3478
+39	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	38	obj	_	start_char=3479|end_char=3481|SpaceAfter=No
+40	.	.	PUNCT	.	_	38	punct	_	start_char=3481|end_char=3482|SpacesAfter=\n\n
+
+# text = And then I moved to the biotechnology industry.
+# sent_id = 54
+1	And	and	CCONJ	CC	_	4	cc	_	start_char=3484|end_char=3487
+2	then	then	ADV	RB	PronType=Dem	4	advmod	_	start_char=3488|end_char=3492
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=3493|end_char=3494
+4	moved	move	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3495|end_char=3500
+5	to	to	ADP	IN	_	8	case	_	start_char=3501|end_char=3503
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=3504|end_char=3507
+7	biotechnology	biotechnology	NOUN	NN	Number=Sing	8	compound	_	start_char=3508|end_char=3521
+8	industry	industry	NOUN	NN	Number=Sing	4	obl	_	start_char=3522|end_char=3530|SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	start_char=3530|end_char=3531|SpacesAfter=\n\n
+
+# text = And I got to work on a new approach for breast cancer patients that could do a better job of telling the healthy cells from the unhealthy or cancer cells.
+# sent_id = 55
+1	And	and	CCONJ	CC	_	3	cc	_	start_char=3533|end_char=3536
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=3537|end_char=3538
+3	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3539|end_char=3542
+4	to	to	PART	TO	_	5	mark	_	start_char=3543|end_char=3545
+5	work	work	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=3546|end_char=3550
+6	on	on	ADP	IN	_	9	case	_	start_char=3551|end_char=3553
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=3554|end_char=3555
+8	new	new	ADJ	JJ	Degree=Pos	9	amod	_	start_char=3556|end_char=3559
+9	approach	approach	NOUN	NN	Number=Sing	5	obl	_	start_char=3560|end_char=3568
+10	for	for	ADP	IN	_	13	case	_	start_char=3569|end_char=3572
+11	breast	breast	NOUN	NN	Number=Sing	12	compound	_	start_char=3573|end_char=3579
+12	cancer	cancer	NOUN	NN	Number=Sing	13	compound	_	start_char=3580|end_char=3586
+13	patients	patient	NOUN	NNS	Number=Plur	9	nmod	_	start_char=3587|end_char=3595
+14	that	that	PRON	WDT	PronType=Rel	16	nsubj	_	start_char=3596|end_char=3600
+15	could	could	AUX	MD	VerbForm=Fin	16	aux	_	start_char=3601|end_char=3606
+16	do	do	VERB	VB	VerbForm=Inf	13	acl:relcl	_	start_char=3607|end_char=3609
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	start_char=3610|end_char=3611
+18	better	good	ADJ	JJR	Degree=Cmp	19	amod	_	start_char=3612|end_char=3618
+19	job	job	NOUN	NN	Number=Sing	16	obj	_	start_char=3619|end_char=3622
+20	of	of	SCONJ	IN	_	21	mark	_	start_char=3623|end_char=3625
+21	telling	tell	VERB	VBG	VerbForm=Ger	19	acl	_	start_char=3626|end_char=3633
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	start_char=3634|end_char=3637
+23	healthy	healthy	ADJ	JJ	Degree=Pos	24	amod	_	start_char=3638|end_char=3645
+24	cells	cell	NOUN	NNS	Number=Plur	21	obj	_	start_char=3646|end_char=3651
+25	from	from	ADP	IN	_	30	case	_	start_char=3652|end_char=3656
+26	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	start_char=3657|end_char=3660
+27	unhealthy	unhealthy	ADJ	JJ	Degree=Pos	30	amod	_	start_char=3661|end_char=3670
+28	or	or	CCONJ	CC	_	29	cc	_	start_char=3671|end_char=3673
+29	cancer	cancer	NOUN	NN	Number=Sing	27	conj	_	start_char=3674|end_char=3680
+30	cells	cell	NOUN	NNS	Number=Plur	21	obl	_	start_char=3681|end_char=3686|SpaceAfter=No
+31	.	.	PUNCT	.	_	3	punct	_	start_char=3686|end_char=3687|SpacesAfter=\n\n
+
+# text = It's a drug called Herceptin.
+# sent_id = 56
+1-2	It's	_	_	_	_	_	_	_	start_char=3689|end_char=3693
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=3689|end_char=3691
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=3691|end_char=3693
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=3694|end_char=3695
+4	drug	drug	NOUN	NN	Number=Sing	0	root	_	start_char=3696|end_char=3700
+5	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	start_char=3701|end_char=3707
+6	Herceptin	Herceptin	PROPN	NNP	Number=Sing	5	xcomp	_	start_char=3708|end_char=3717|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=3717|end_char=3718|SpacesAfter=\n\n
+
+# text = And what Herceptin allowed us to do is to precisely target HER2-positive breast cancer, at the time, the scariest form of breast cancer.
+# sent_id = 57
+1	And	and	CCONJ	CC	_	11	cc	_	start_char=3720|end_char=3723
+2	what	what	PRON	WP	PronType=Int	11	nsubj:outer	_	start_char=3724|end_char=3728
+3	Herceptin	Herceptin	PROPN	NNP	Number=Sing	4	nsubj	_	start_char=3729|end_char=3738
+4	allowed	allow	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	start_char=3739|end_char=3746
+5	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	iobj	_	start_char=3747|end_char=3749
+6	to	to	PART	TO	_	7	mark	_	start_char=3750|end_char=3752
+7	do	do	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=3753|end_char=3755
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=3756|end_char=3758
+9	to	to	PART	TO	_	11	mark	_	start_char=3759|end_char=3761
+10	precisely	precisely	ADV	RB	_	11	advmod	_	start_char=3762|end_char=3771
+11	target	target	VERB	VB	VerbForm=Inf	0	root	_	start_char=3772|end_char=3778
+12	HER2	her2	NOUN	NN	Number=Sing	14	compound	_	start_char=3779|end_char=3783|SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	12	punct	_	start_char=3783|end_char=3784|SpaceAfter=No
+14	positive	positive	ADJ	JJ	Degree=Pos	16	amod	_	start_char=3784|end_char=3792
+15	breast	breast	NOUN	NN	Number=Sing	16	compound	_	start_char=3793|end_char=3799
+16	cancer	cancer	NOUN	NN	Number=Sing	11	obj	_	start_char=3800|end_char=3806|SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	start_char=3806|end_char=3807
+18	at	at	ADP	IN	_	20	case	_	start_char=3808|end_char=3810
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=3811|end_char=3814
+20	time	time	NOUN	NN	Number=Sing	11	obl	_	start_char=3815|end_char=3819|SpaceAfter=No
+21	,	,	PUNCT	,	_	20	punct	_	start_char=3819|end_char=3820
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	start_char=3821|end_char=3824
+23	scariest	scariest	ADJ	JJS	Degree=Sup	24	amod	_	start_char=3825|end_char=3833
+24	form	form	NOUN	NN	Number=Sing	11	parataxis	_	start_char=3834|end_char=3838
+25	of	of	ADP	IN	_	27	case	_	start_char=3839|end_char=3841
+26	breast	breast	NOUN	NN	Number=Sing	27	compound	_	start_char=3842|end_char=3848
+27	cancer	cancer	NOUN	NN	Number=Sing	24	nmod	_	start_char=3849|end_char=3855|SpaceAfter=No
+28	.	.	PUNCT	.	_	11	punct	_	start_char=3855|end_char=3856|SpacesAfter=\n\n
+
+# text = And that precision let us hit hard the cancer cells, while sparing and being more gentle on the normal cells.
+# sent_id = 58
+1	And	and	CCONJ	CC	_	4	cc	_	start_char=3858|end_char=3861
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	start_char=3862|end_char=3866
+3	precision	precision	NOUN	NN	Number=Sing	4	nsubj	_	start_char=3867|end_char=3876
+4	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=3877|end_char=3880
+5	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	obj	_	start_char=3881|end_char=3883
+6	hit	hit	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=3884|end_char=3887
+7	hard	hard	ADV	RB	Degree=Pos	6	advmod	_	start_char=3888|end_char=3892
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=3893|end_char=3896
+9	cancer	cancer	NOUN	NN	Number=Sing	10	compound	_	start_char=3897|end_char=3903
+10	cells	cell	NOUN	NNS	Number=Plur	6	obj	_	start_char=3904|end_char=3909|SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	start_char=3909|end_char=3910
+12	while	while	SCONJ	IN	_	13	mark	_	start_char=3911|end_char=3916
+13	sparing	spare	VERB	VBG	Tense=Pres|VerbForm=Part	6	advcl	_	start_char=3917|end_char=3924
+14	and	and	CCONJ	CC	_	17	cc	_	start_char=3925|end_char=3928
+15	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	17	cop	_	start_char=3929|end_char=3934
+16	more	more	ADV	RBR	Degree=Cmp	17	advmod	_	start_char=3935|end_char=3939
+17	gentle	gentle	ADJ	JJ	Degree=Pos	13	conj	_	start_char=3940|end_char=3946
+18	on	on	ADP	IN	_	21	case	_	start_char=3947|end_char=3949
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=3950|end_char=3953
+20	normal	normal	ADJ	JJ	Degree=Pos	21	amod	_	start_char=3954|end_char=3960
+21	cells	cell	NOUN	NNS	Number=Plur	17	obl	_	start_char=3961|end_char=3966|SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	start_char=3966|end_char=3967|SpacesAfter=\n\n
+
+# text = A huge breakthrough.
+# sent_id = 59
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=3969|end_char=3970
+2	huge	huge	ADJ	JJ	Degree=Pos	3	amod	_	start_char=3971|end_char=3975
+3	breakthrough	breakthrough	NOUN	NN	Number=Sing	0	root	_	start_char=3976|end_char=3988|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=3988|end_char=3989|SpacesAfter=\n\n
+
+# text = It felt like a miracle, so much so that today, we're harnessing all those tools -- big data, consumer monitoring, gene sequencing and more -- to tackle a broad variety of diseases.
+# sent_id = 60
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=3991|end_char=3993
+2	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3994|end_char=3998
+3	like	like	ADP	IN	_	5	case	_	start_char=3999|end_char=4003
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=4004|end_char=4005
+5	miracle	miracle	NOUN	NN	Number=Sing	2	obl	_	start_char=4006|end_char=4013|SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	start_char=4013|end_char=4014
+7	so	so	ADV	RB	_	8	advmod	_	start_char=4015|end_char=4017
+8	much	much	ADJ	JJ	Degree=Pos	2	advmod	_	start_char=4018|end_char=4022
+9	so	so	SCONJ	IN	ExtPos=SCONJ	15	mark	_	start_char=4023|end_char=4025
+10	that	that	SCONJ	IN	_	9	fixed	_	start_char=4026|end_char=4030
+11	today	today	NOUN	NN	Number=Sing	15	obl:unmarked	_	start_char=4031|end_char=4036|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	start_char=4036|end_char=4037
+13-14	we're	_	_	_	_	_	_	_	start_char=4038|end_char=4043
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	start_char=4038|end_char=4040
+14	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=4040|end_char=4043
+15	harnessing	harness	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	_	start_char=4044|end_char=4054
+16	all	all	DET	PDT	PronType=Tot	18	det:predet	_	start_char=4055|end_char=4058
+17	those	that	DET	DT	Number=Plur|PronType=Dem	18	det	_	start_char=4059|end_char=4064
+18	tools	tool	NOUN	NNS	Number=Plur	15	obj	_	start_char=4065|end_char=4070
+19	--	--	PUNCT	,	_	21	punct	_	start_char=4071|end_char=4073
+20	big	big	ADJ	JJ	Degree=Pos	21	amod	_	start_char=4074|end_char=4077
+21	data	datum	NOUN	NNS	Number=Plur	18	appos	_	start_char=4078|end_char=4082|SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	start_char=4082|end_char=4083
+23	consumer	consumer	NOUN	NN	Number=Sing	24	compound	_	start_char=4084|end_char=4092
+24	monitoring	monitoring	NOUN	NN	Number=Sing	21	conj	_	start_char=4093|end_char=4103|SpaceAfter=No
+25	,	,	PUNCT	,	_	27	punct	_	start_char=4103|end_char=4104
+26	gene	gene	NOUN	NN	Number=Sing	27	compound	_	start_char=4105|end_char=4109
+27	sequencing	sequencing	NOUN	NN	Number=Sing	21	conj	_	start_char=4110|end_char=4120
+28	and	and	CCONJ	CC	_	29	cc	_	start_char=4121|end_char=4124
+29	more	more	ADJ	JJR	Degree=Cmp	21	conj	_	start_char=4125|end_char=4129
+30	--	--	PUNCT	,	_	32	punct	_	start_char=4130|end_char=4132
+31	to	to	PART	TO	_	32	mark	_	start_char=4133|end_char=4135
+32	tackle	tackle	VERB	VB	VerbForm=Inf	15	advcl	_	start_char=4136|end_char=4142
+33	a	a	DET	DT	Definite=Ind|PronType=Art	35	det	_	start_char=4143|end_char=4144
+34	broad	broad	ADJ	JJ	Degree=Pos	35	amod	_	start_char=4145|end_char=4150
+35	variety	variety	NOUN	NN	Number=Sing	32	obj	_	start_char=4151|end_char=4158
+36	of	of	ADP	IN	_	37	case	_	start_char=4159|end_char=4161
+37	diseases	disease	NOUN	NNS	Number=Plur	35	nmod	_	start_char=4162|end_char=4170|SpaceAfter=No
+38	.	.	PUNCT	.	_	2	punct	_	start_char=4170|end_char=4171|SpacesAfter=\n\n
+
+# text = That's allowing us to target individuals with the right remedies at the right time.
+# sent_id = 61
+1-2	That's	_	_	_	_	_	_	_	start_char=4173|end_char=4179
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	start_char=4173|end_char=4177
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=4177|end_char=4179
+3	allowing	allow	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=4180|end_char=4188
+4	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	iobj	_	start_char=4189|end_char=4191
+5	to	to	PART	TO	_	6	mark	_	start_char=4192|end_char=4194
+6	target	target	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=4195|end_char=4201
+7	individuals	individual	NOUN	NNS	Number=Plur	6	obj	_	start_char=4202|end_char=4213
+8	with	with	ADP	IN	_	11	case	_	start_char=4214|end_char=4218
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=4219|end_char=4222
+10	right	right	ADJ	JJ	Degree=Pos	11	amod	_	start_char=4223|end_char=4228
+11	remedies	remedy	NOUN	NNS	Number=Plur	7	nmod	_	start_char=4229|end_char=4237
+12	at	at	ADP	IN	_	15	case	_	start_char=4238|end_char=4240
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=4241|end_char=4244
+14	right	right	ADJ	JJ	Degree=Pos	15	amod	_	start_char=4245|end_char=4250
+15	time	time	NOUN	NN	Number=Sing	6	obl	_	start_char=4251|end_char=4255|SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	start_char=4255|end_char=4256|SpacesAfter=\n\n
+
+# text = Precision medicine revolutionized cancer therapy.
+# sent_id = 62
+1	Precision	precision	NOUN	NN	Number=Sing	2	compound	_	start_char=4258|end_char=4267
+2	medicine	medicine	NOUN	NN	Number=Sing	3	nsubj	_	start_char=4268|end_char=4276
+3	revolutionized	revolutionize	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=4277|end_char=4291
+4	cancer	cancer	NOUN	NN	Number=Sing	5	compound	_	start_char=4292|end_char=4298
+5	therapy	therapy	NOUN	NN	Number=Sing	3	obj	_	start_char=4299|end_char=4306|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=4306|end_char=4307|SpacesAfter=\n\n
+
+# text = Everything changed.
+# sent_id = 63
+1	Everything	everything	PRON	NN	Number=Sing|PronType=Tot	2	nsubj	_	start_char=4309|end_char=4319
+2	changed	change	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=4320|end_char=4327|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	start_char=4327|end_char=4328|SpacesAfter=\n\n
+
+# text = And I want everything to change again.
+# sent_id = 64
+1	And	and	CCONJ	CC	_	3	cc	_	start_char=4330|end_char=4333
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=4334|end_char=4335
+3	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4336|end_char=4340
+4	everything	everything	PRON	NN	Number=Sing|PronType=Tot	3	obj	_	start_char=4341|end_char=4351
+5	to	to	PART	TO	_	6	mark	_	start_char=4352|end_char=4354
+6	change	change	VERB	VB	VerbForm=Inf	4	acl	_	start_char=4355|end_char=4361
+7	again	again	ADV	RB	_	6	advmod	_	start_char=4362|end_char=4367|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=4367|end_char=4368|SpacesAfter=\n\n
+
+# text = So I've been asking myself:
+# sent_id = 65
+1	So	so	ADV	RB	_	5	advmod	_	start_char=4370|end_char=4372
+2-3	I've	_	_	_	_	_	_	_	start_char=4373|end_char=4377
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=4373|end_char=4374
+3	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=4374|end_char=4377
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux	_	start_char=4378|end_char=4382
+5	asking	ask	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=4383|end_char=4389
+6	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	iobj	_	start_char=4390|end_char=4396|SpaceAfter=No
+7	:	:	PUNCT	:	_	5	punct	_	start_char=4396|end_char=4397|SpacesAfter=\n\n
+
+# text = Why should we limit this smarter, more precise, better way to tackle diseases to the rich world?
+# sent_id = 66
+1	Why	why	ADV	WRB	PronType=Int	4	advmod	_	start_char=4399|end_char=4402
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	start_char=4403|end_char=4409
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=4410|end_char=4412
+4	limit	limit	VERB	VB	VerbForm=Inf	0	root	_	start_char=4413|end_char=4418
+5	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	start_char=4419|end_char=4423
+6	smarter	smart	ADJ	JJR	Degree=Cmp	12	amod	_	start_char=4424|end_char=4431|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	start_char=4431|end_char=4432
+8	more	more	ADV	RBR	Degree=Cmp	9	advmod	_	start_char=4433|end_char=4437
+9	precise	precise	ADJ	JJ	Degree=Pos	12	amod	_	start_char=4438|end_char=4445|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	start_char=4445|end_char=4446
+11	better	good	ADJ	JJR	Degree=Cmp	12	amod	_	start_char=4447|end_char=4453
+12	way	way	NOUN	NN	Number=Sing	4	obj	_	start_char=4454|end_char=4457
+13	to	to	PART	TO	_	14	mark	_	start_char=4458|end_char=4460
+14	tackle	tackle	VERB	VB	VerbForm=Inf	12	acl	_	start_char=4461|end_char=4467
+15	diseases	disease	NOUN	NNS	Number=Plur	14	obj	_	start_char=4468|end_char=4476
+16	to	to	ADP	IN	_	19	case	_	start_char=4477|end_char=4479
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=4480|end_char=4483
+18	rich	rich	ADJ	JJ	Degree=Pos	19	amod	_	start_char=4484|end_char=4488
+19	world	world	NOUN	NN	Number=Sing	14	obl	_	start_char=4489|end_char=4494|SpaceAfter=No
+20	?	?	PUNCT	.	_	4	punct	_	start_char=4494|end_char=4495|SpacesAfter=\n\n
+
+# text = Now, don't misunderstand me -- I'm not talking about bringing expensive medicines like Herceptin to the developing world, although I'd actually kind of like that.
+# sent_id = 67
+1	Now	now	ADV	RB	_	5	advmod	_	start_char=4497|end_char=4500|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=4500|end_char=4501
+3-4	don't	_	_	_	_	_	_	_	start_char=4502|end_char=4507
+3	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	5	aux	_	start_char=4502|end_char=4504
+4	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=4504|end_char=4507
+5	misunderstand	misunderstand	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=4508|end_char=4521
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	start_char=4522|end_char=4524
+7	--	--	PUNCT	,	_	11	punct	_	start_char=4525|end_char=4527
+8-9	I'm	_	_	_	_	_	_	_	start_char=4528|end_char=4531
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=4528|end_char=4529
+9	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=4529|end_char=4531
+10	not	not	PART	RB	Polarity=Neg	11	advmod	_	start_char=4532|end_char=4535
+11	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	5	parataxis	_	start_char=4536|end_char=4543
+12	about	about	SCONJ	IN	_	13	mark	_	start_char=4544|end_char=4549
+13	bringing	bring	VERB	VBG	Tense=Pres|VerbForm=Part	11	advcl	_	start_char=4550|end_char=4558
+14	expensive	expensive	ADJ	JJ	Degree=Pos	15	amod	_	start_char=4559|end_char=4568
+15	medicines	medicine	NOUN	NNS	Number=Plur	13	obj	_	start_char=4569|end_char=4578
+16	like	like	ADP	IN	_	17	case	_	start_char=4579|end_char=4583
+17	Herceptin	Herceptin	PROPN	NNP	Number=Sing	15	nmod	_	start_char=4584|end_char=4593
+18	to	to	ADP	IN	_	21	case	_	start_char=4594|end_char=4596
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=4597|end_char=4600
+20	developing	develop	VERB	VBG	VerbForm=Ger	21	amod	_	start_char=4601|end_char=4611
+21	world	world	NOUN	NN	Number=Sing	13	obl	_	start_char=4612|end_char=4617|SpaceAfter=No
+22	,	,	PUNCT	,	_	29	punct	_	start_char=4617|end_char=4618
+23	although	although	SCONJ	IN	_	29	mark	_	start_char=4619|end_char=4627
+24-25	I'd	_	_	_	_	_	_	_	start_char=4628|end_char=4631
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	start_char=4628|end_char=4629
+25	'd	would	AUX	MD	VerbForm=Fin	29	aux	_	start_char=4629|end_char=4631
+26	actually	actually	ADV	RB	_	29	advmod	_	start_char=4632|end_char=4640
+27	kind	kind	NOUN	NN	ExtPos=ADV|Number=Sing	29	advmod	_	start_char=4641|end_char=4645
+28	of	of	ADP	IN	_	27	fixed	_	start_char=4646|end_char=4648
+29	like	like	VERB	VB	VerbForm=Inf	11	advcl	_	start_char=4649|end_char=4653
+30	that	that	PRON	DT	Number=Sing|PronType=Dem	29	obj	_	start_char=4654|end_char=4658|SpaceAfter=No
+31	.	.	PUNCT	.	_	5	punct	_	start_char=4658|end_char=4659|SpacesAfter=\n\n
+
+# text = What I am talking about is moving from this precise targeting for individuals to tackle public health problems in populations.
+# sent_id = 68
+1	What	what	PRON	WP	PronType=Rel	7	nsubj:outer	_	start_char=4661|end_char=4665
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=4666|end_char=4667
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=4668|end_char=4670
+4	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	1	acl:relcl	_	start_char=4671|end_char=4678
+5	about	about	ADP	IN	_	4	obl	_	start_char=4679|end_char=4684
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=4685|end_char=4687
+7	moving	move	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=4688|end_char=4694
+8	from	from	ADP	IN	_	11	case	_	start_char=4695|end_char=4699
+9	this	this	DET	DT	Number=Sing|PronType=Dem	11	det	_	start_char=4700|end_char=4704
+10	precise	precise	ADJ	JJ	Degree=Pos	11	amod	_	start_char=4705|end_char=4712
+11	targeting	target	NOUN	NN	Number=Sing	7	obl	_	start_char=4713|end_char=4722
+12	for	for	SCONJ	IN	_	15	mark	_	start_char=4723|end_char=4726
+13	individuals	individual	NOUN	NNS	Number=Plur	15	nsubj	_	start_char=4727|end_char=4738
+14	to	to	PART	TO	_	15	mark	_	start_char=4739|end_char=4741
+15	tackle	tackle	VERB	VB	VerbForm=Inf	7	advcl	_	start_char=4742|end_char=4748
+16	public	public	ADJ	JJ	Degree=Pos	18	amod	_	start_char=4749|end_char=4755
+17	health	health	NOUN	NN	Number=Sing	18	compound	_	start_char=4756|end_char=4762
+18	problems	problem	NOUN	NNS	Number=Plur	15	obj	_	start_char=4763|end_char=4771
+19	in	in	ADP	IN	_	20	case	_	start_char=4772|end_char=4774
+20	populations	population	NOUN	NNS	Number=Plur	15	obl	_	start_char=4775|end_char=4786|SpaceAfter=No
+21	.	.	PUNCT	.	_	7	punct	_	start_char=4786|end_char=4787|SpacesAfter=\n\n
+
+# text = Now, OK, I know probably you're thinking, "She's crazy.
+# sent_id = 69
+1	Now	now	ADV	RB	_	6	advmod	_	start_char=4789|end_char=4792|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=4792|end_char=4793
+3	OK	ok	INTJ	UH	_	6	discourse	_	start_char=4794|end_char=4796|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=4796|end_char=4797
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=4798|end_char=4799
+6	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4800|end_char=4804
+7	probably	probably	ADV	RB	_	10	advmod	_	start_char=4805|end_char=4813
+8-9	you're	_	_	_	_	_	_	_	start_char=4814|end_char=4820
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	start_char=4814|end_char=4817
+9	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=4817|end_char=4820
+10	thinking	think	VERB	VBG	Tense=Pres|VerbForm=Part	6	ccomp	_	start_char=4821|end_char=4829|SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	start_char=4829|end_char=4830
+12	"	"	PUNCT	``	_	15	punct	_	start_char=4831|end_char=4832|SpaceAfter=No
+13-14	She's	_	_	_	_	_	_	_	start_char=4832|end_char=4837
+13	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	start_char=4832|end_char=4835
+14	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=4835|end_char=4837
+15	crazy	crazy	ADJ	JJ	Degree=Pos	10	ccomp	_	start_char=4838|end_char=4843|SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	start_char=4843|end_char=4844|SpacesAfter=\n\n
+
+# text = You can't do that.
+# sent_id = 70
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=4846|end_char=4849
+2-3	can't	_	_	_	_	_	_	_	start_char=4850|end_char=4855
+2	ca	can	AUX	MD	VerbForm=Fin	4	aux	_	start_char=4850|end_char=4852
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=4852|end_char=4855
+4	do	do	VERB	VB	VerbForm=Inf	0	root	_	start_char=4856|end_char=4858
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	obj	_	start_char=4859|end_char=4863|SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	start_char=4863|end_char=4864|SpacesAfter=\n\n
+
+# text = That's too ambitious."
+# sent_id = 71
+1-2	That's	_	_	_	_	_	_	_	start_char=4866|end_char=4872
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	start_char=4866|end_char=4870
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=4870|end_char=4872
+3	too	too	ADV	RB	_	4	advmod	_	start_char=4873|end_char=4876
+4	ambitious	ambitious	ADJ	JJ	Degree=Pos	0	root	_	start_char=4877|end_char=4886|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=4886|end_char=4887|SpaceAfter=No
+6	"	"	PUNCT	''	_	4	punct	_	start_char=4887|end_char=4888|SpacesAfter=\n\n
+
+# text = But here's the thing: we're already doing this in a limited way, and it's already starting to make a big difference.
+# sent_id = 72
+1	But	but	CCONJ	CC	_	2	cc	_	start_char=4890|end_char=4893
+2-3	here's	_	_	_	_	_	_	_	start_char=4894|end_char=4900
+2	here	here	ADV	RB	PronType=Dem	0	root	_	start_char=4894|end_char=4898
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=4898|end_char=4900
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=4901|end_char=4904
+5	thing	thing	NOUN	NN	Number=Sing	2	nsubj	_	start_char=4905|end_char=4910|SpaceAfter=No
+6	:	:	PUNCT	:	_	10	punct	_	start_char=4910|end_char=4911
+7-8	we're	_	_	_	_	_	_	_	start_char=4912|end_char=4917
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	start_char=4912|end_char=4914
+8	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=4914|end_char=4917
+9	already	already	ADV	RB	_	10	advmod	_	start_char=4918|end_char=4925
+10	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	2	parataxis	_	start_char=4926|end_char=4931
+11	this	this	PRON	DT	Number=Sing|PronType=Dem	10	obj	_	start_char=4932|end_char=4936
+12	in	in	ADP	IN	_	15	case	_	start_char=4937|end_char=4939
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=4940|end_char=4941
+14	limited	limited	ADJ	JJ	Degree=Pos	15	amod	_	start_char=4942|end_char=4949
+15	way	way	NOUN	NN	Number=Sing	10	obl	_	start_char=4950|end_char=4953|SpaceAfter=No
+16	,	,	PUNCT	,	_	21	punct	_	start_char=4953|end_char=4954
+17	and	and	CCONJ	CC	_	21	cc	_	start_char=4955|end_char=4958
+18-19	it's	_	_	_	_	_	_	_	start_char=4959|end_char=4963
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	start_char=4959|end_char=4961
+19	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	start_char=4961|end_char=4963
+20	already	already	ADV	RB	_	21	advmod	_	start_char=4964|end_char=4971
+21	starting	start	VERB	VBG	Tense=Pres|VerbForm=Part	10	conj	_	start_char=4972|end_char=4980
+22	to	to	PART	TO	_	23	mark	_	start_char=4981|end_char=4983
+23	make	make	VERB	VB	VerbForm=Inf	21	xcomp	_	start_char=4984|end_char=4988
+24	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	start_char=4989|end_char=4990
+25	big	big	ADJ	JJ	Degree=Pos	26	amod	_	start_char=4991|end_char=4994
+26	difference	difference	NOUN	NN	Number=Sing	23	obj	_	start_char=4995|end_char=5005|SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	start_char=5005|end_char=5006|SpacesAfter=\n\n
+
+# text = So here's what's happening.
+# sent_id = 73
+1	So	so	ADV	RB	_	2	discourse	_	start_char=5008|end_char=5010
+2-3	here's	_	_	_	_	_	_	_	start_char=5011|end_char=5017
+2	here	here	ADV	RB	PronType=Dem	0	root	_	start_char=5011|end_char=5015
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=5015|end_char=5017
+4-5	what's	_	_	_	_	_	_	_	start_char=5018|end_char=5024
+4	what	what	PRON	WP	PronType=Int	2	nsubj	_	start_char=5018|end_char=5022
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=5022|end_char=5024
+6	happening	happen	VERB	VBG	Tense=Pres|VerbForm=Part	4	acl:relcl	_	start_char=5025|end_char=5034|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=5034|end_char=5035|SpacesAfter=\n\n
+
+# text = Now, I told you I trained as a cancer doctor.
+# sent_id = 74
+1	Now	now	ADV	RB	_	4	advmod	_	start_char=5037|end_char=5040|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=5040|end_char=5041
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=5042|end_char=5043
+4	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=5044|end_char=5048
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	iobj	_	start_char=5049|end_char=5052
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=5053|end_char=5054
+7	trained	train	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	ccomp	_	start_char=5055|end_char=5062
+8	as	as	ADP	IN	_	11	case	_	start_char=5063|end_char=5065
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=5066|end_char=5067
+10	cancer	cancer	NOUN	NN	Number=Sing	11	compound	_	start_char=5068|end_char=5074
+11	doctor	doctor	NOUN	NN	Number=Sing	7	obl	_	start_char=5075|end_char=5081|SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	start_char=5081|end_char=5082|SpacesAfter=\n\n
+
+# text = But like many, many doctors who trained in San Francisco in the '80s, I also trained as an AIDS doctor.
+# sent_id = 75
+1	But	but	CCONJ	CC	_	19	cc	_	start_char=5084|end_char=5087
+2	like	like	ADP	IN	_	3	case	_	start_char=5088|end_char=5092
+3	many	many	ADJ	JJ	Degree=Pos	19	obl	_	start_char=5093|end_char=5097|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=5097|end_char=5098
+5	many	many	ADJ	JJ	Degree=Pos	6	amod	_	start_char=5099|end_char=5103
+6	doctors	doctor	NOUN	NNS	Number=Plur	19	nsubj	_	start_char=5104|end_char=5111
+7	who	who	PRON	WP	PronType=Rel	8	nsubj	_	start_char=5112|end_char=5115
+8	trained	train	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	start_char=5116|end_char=5123
+9	in	in	ADP	IN	_	10	case	_	start_char=5124|end_char=5126
+10	San	San	PROPN	NNP	Number=Sing	8	obl	_	start_char=5127|end_char=5130
+11	Francisco	Francisco	PROPN	NNP	Number=Sing	10	flat	_	start_char=5131|end_char=5140
+12	in	in	ADP	IN	_	15	case	_	start_char=5141|end_char=5143
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=5144|end_char=5147
+14	'	'	PUNCT	``	_	15	punct	_	start_char=5148|end_char=5149|SpaceAfter=No
+15	80s	80s	NOUN	NNS	NumForm=Combi|NumType=Card|Number=Ptan	8	obl	_	start_char=5149|end_char=5152|SpaceAfter=No
+16	,	,	PUNCT	,	_	6	punct	_	start_char=5152|end_char=5153
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	start_char=5154|end_char=5155
+18	also	also	ADV	RB	_	19	advmod	_	start_char=5156|end_char=5160
+19	trained	train	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=5161|end_char=5168
+20	as	as	ADP	IN	_	23	case	_	start_char=5169|end_char=5171
+21	an	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	start_char=5172|end_char=5174
+22	AIDS	AIDS	PROPN	NNP	Number=Sing	23	compound	_	start_char=5175|end_char=5179
+23	doctor	doctor	NOUN	NN	Number=Sing	19	obl	_	start_char=5180|end_char=5186|SpaceAfter=No
+24	.	.	PUNCT	.	_	19	punct	_	start_char=5186|end_char=5187|SpacesAfter=\n\n
+
+# text = It was a terrible time.
+# sent_id = 76
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=5189|end_char=5191
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=5192|end_char=5195
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=5196|end_char=5197
+4	terrible	terrible	ADJ	JJ	Degree=Pos	5	amod	_	start_char=5198|end_char=5206
+5	time	time	NOUN	NN	Number=Sing	0	root	_	start_char=5207|end_char=5211|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=5211|end_char=5212|SpacesAfter=\n\n
+
+# text = AIDS was a death sentence.
+# sent_id = 77
+1	AIDS	AIDS	PROPN	NNP	Number=Sing	5	nsubj	_	start_char=5214|end_char=5218
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=5219|end_char=5222
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=5223|end_char=5224
+4	death	death	NOUN	NN	Number=Sing	5	compound	_	start_char=5225|end_char=5230
+5	sentence	sentence	NOUN	NN	Number=Sing	0	root	_	start_char=5231|end_char=5239|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=5239|end_char=5240|SpacesAfter=\n\n
+
+# text = All my patients died.
+# sent_id = 78
+1	All	all	DET	PDT	PronType=Tot	3	det:predet	_	start_char=5242|end_char=5245
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=5246|end_char=5248
+3	patients	patient	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=5249|end_char=5257
+4	died	die	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=5258|end_char=5262|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=5262|end_char=5263|SpacesAfter=\n\n
+
+# text = Now, things are better, but HIV/AIDS remains a terrible global challenge.
+# sent_id = 79
+1	Now	now	ADV	RB	_	5	advmod	_	start_char=5265|end_char=5268|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=5268|end_char=5269
+3	things	thing	NOUN	NNS	Number=Plur	5	nsubj	_	start_char=5270|end_char=5276
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=5277|end_char=5280
+5	better	good	ADJ	JJR	Degree=Cmp	0	root	_	start_char=5281|end_char=5287|SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	start_char=5287|end_char=5288
+7	but	but	CCONJ	CC	_	11	cc	_	start_char=5289|end_char=5292
+8	HIV	HIV	PROPN	NNP	Number=Sing	11	nsubj	_	start_char=5293|end_char=5296|SpaceAfter=No
+9	/	/	SYM	,	_	10	cc	_	start_char=5296|end_char=5297|SpaceAfter=No
+10	AIDS	aids	NOUN	NN	Number=Sing	8	conj	_	start_char=5297|end_char=5301
+11	remains	remain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=5302|end_char=5309
+12	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=5310|end_char=5311
+13	terrible	terrible	ADJ	JJ	Degree=Pos	15	amod	_	start_char=5312|end_char=5320
+14	global	global	ADJ	JJ	Degree=Pos	15	amod	_	start_char=5321|end_char=5327
+15	challenge	challenge	NOUN	NN	Number=Sing	11	xcomp	_	start_char=5328|end_char=5337|SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	start_char=5337|end_char=5338|SpacesAfter=\n\n
+
+# text = Worldwide, about 17 million women are living with HIV.
+# sent_id = 80
+1	Worldwide	worldwide	ADV	RB	_	8	advmod	_	start_char=5340|end_char=5349|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=5349|end_char=5350
+3	about	about	ADV	RB	_	5	advmod	_	start_char=5351|end_char=5356
+4	17	17	NUM	CD	NumForm=Digit|NumType=Card	5	compound	_	start_char=5357|end_char=5359
+5	million	million	NUM	CD	NumForm=Word|NumType=Card	6	nummod	_	start_char=5360|end_char=5367
+6	women	woman	NOUN	NNS	Number=Plur	8	nsubj	_	start_char=5368|end_char=5373
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=5374|end_char=5377
+8	living	live	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=5378|end_char=5384
+9	with	with	ADP	IN	_	10	case	_	start_char=5385|end_char=5389
+10	HIV	hiv	NOUN	NN	Number=Sing	8	obl	_	start_char=5390|end_char=5393|SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	start_char=5393|end_char=5394|SpacesAfter=\n\n
+
+# text = We know that when these women become pregnant, they can transfer the virus to their baby.
+# sent_id = 81
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=5396|end_char=5398
+2	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5399|end_char=5403
+3	that	that	SCONJ	IN	_	12	mark	_	start_char=5404|end_char=5408
+4	when	when	ADV	WRB	PronType=Int	7	advmod	_	start_char=5409|end_char=5413
+5	these	this	DET	DT	Number=Plur|PronType=Dem	6	det	_	start_char=5414|end_char=5419
+6	women	woman	NOUN	NNS	Number=Plur	7	nsubj	_	start_char=5420|end_char=5425
+7	become	become	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	start_char=5426|end_char=5432
+8	pregnant	pregnant	ADJ	JJ	Degree=Pos	7	xcomp	_	start_char=5433|end_char=5441|SpaceAfter=No
+9	,	,	PUNCT	,	_	7	punct	_	start_char=5441|end_char=5442
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	start_char=5443|end_char=5447
+11	can	can	AUX	MD	VerbForm=Fin	12	aux	_	start_char=5448|end_char=5451
+12	transfer	transfer	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=5452|end_char=5460
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=5461|end_char=5464
+14	virus	virus	NOUN	NN	Number=Sing	12	obj	_	start_char=5465|end_char=5470
+15	to	to	ADP	IN	_	17	case	_	start_char=5471|end_char=5473
+16	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	start_char=5474|end_char=5479
+17	baby	baby	NOUN	NN	Number=Sing	12	obl	_	start_char=5480|end_char=5484|SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	start_char=5484|end_char=5485|SpacesAfter=\n\n
+
+# text = We also know in the absence of therapy, half those babies will not survive until the age of two.
+# sent_id = 82
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=5487|end_char=5489
+2	also	also	ADV	RB	_	3	advmod	_	start_char=5490|end_char=5494
+3	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5495|end_char=5499
+4	in	in	ADP	IN	_	6	case	_	start_char=5500|end_char=5502
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=5503|end_char=5506
+6	absence	absence	NOUN	NN	Number=Sing	3	obl	_	start_char=5507|end_char=5514
+7	of	of	ADP	IN	_	8	case	_	start_char=5515|end_char=5517
+8	therapy	therapy	NOUN	NN	Number=Sing	6	nmod	_	start_char=5518|end_char=5525|SpaceAfter=No
+9	,	,	PUNCT	,	_	15	punct	_	start_char=5525|end_char=5526
+10	half	half	DET	PDT	NumForm=Word|NumType=Frac|PronType=Ind	12	det:predet	_	start_char=5527|end_char=5531
+11	those	that	DET	DT	Number=Plur|PronType=Dem	12	det	_	start_char=5532|end_char=5537
+12	babies	baby	NOUN	NNS	Number=Plur	15	nsubj	_	start_char=5538|end_char=5544
+13	will	will	AUX	MD	VerbForm=Fin	15	aux	_	start_char=5545|end_char=5549
+14	not	not	PART	RB	Polarity=Neg	15	advmod	_	start_char=5550|end_char=5553
+15	survive	survive	VERB	VB	VerbForm=Inf	3	parataxis	_	start_char=5554|end_char=5561
+16	until	until	ADP	IN	_	18	case	_	start_char=5562|end_char=5567
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=5568|end_char=5571
+18	age	age	NOUN	NN	Number=Sing	15	obl	_	start_char=5572|end_char=5575
+19	of	of	ADP	IN	_	20	case	_	start_char=5576|end_char=5578
+20	two	two	NUM	CD	NumForm=Word|NumType=Card	18	nmod	_	start_char=5579|end_char=5582|SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	start_char=5582|end_char=5583|SpacesAfter=\n\n
+
+# text = But we know that antiretroviral therapy can virtually guarantee that she will not transmit the virus to the baby.
+# sent_id = 83
+1	But	but	CCONJ	CC	_	3	cc	_	start_char=5585|end_char=5588
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=5589|end_char=5591
+3	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5592|end_char=5596
+4	that	that	SCONJ	IN	_	9	mark	_	start_char=5597|end_char=5601
+5	antiretroviral	antiretroviral	NOUN	NN	Number=Sing	6	compound	_	start_char=5602|end_char=5616
+6	therapy	therapy	NOUN	NN	Number=Sing	9	nsubj	_	start_char=5617|end_char=5624
+7	can	can	AUX	MD	VerbForm=Fin	9	aux	_	start_char=5625|end_char=5628
+8	virtually	virtually	ADV	RB	_	9	advmod	_	start_char=5629|end_char=5638
+9	guarantee	guarantee	VERB	VB	VerbForm=Inf	3	ccomp	_	start_char=5639|end_char=5648
+10	that	that	SCONJ	IN	_	14	mark	_	start_char=5649|end_char=5653
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=5654|end_char=5657
+12	will	will	AUX	MD	VerbForm=Fin	14	aux	_	start_char=5658|end_char=5662
+13	not	not	PART	RB	Polarity=Neg	14	advmod	_	start_char=5663|end_char=5666
+14	transmit	transmit	VERB	VB	VerbForm=Inf	9	ccomp	_	start_char=5667|end_char=5675
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=5676|end_char=5679
+16	virus	virus	NOUN	NN	Number=Sing	14	obj	_	start_char=5680|end_char=5685
+17	to	to	ADP	IN	_	19	case	_	start_char=5686|end_char=5688
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=5689|end_char=5692
+19	baby	baby	NOUN	NN	Number=Sing	14	obl	_	start_char=5693|end_char=5697|SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	start_char=5697|end_char=5698|SpacesAfter=\n\n
+
+# text = So what do we do?
+# sent_id = 84
+1	So	so	ADV	RB	_	5	advmod	_	start_char=5700|end_char=5702
+2	what	what	PRON	WP	PronType=Int	5	obj	_	start_char=5703|end_char=5707
+3	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=5708|end_char=5710
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=5711|end_char=5713
+5	do	do	VERB	VB	VerbForm=Inf	0	root	_	start_char=5714|end_char=5716|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	punct	_	start_char=5716|end_char=5717|SpacesAfter=\n\n
+
+# text = Well, a one-size-fits-all approach, kind of like that blast of chemo, would mean we test and treat every pregnant woman in the world.
+# sent_id = 85
+1	Well	well	INTJ	UH	_	22	discourse	_	start_char=5719|end_char=5723|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=5723|end_char=5724
+3	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=5725|end_char=5726
+4	one	one	NUM	CD	NumForm=Word|NumType=Card	6	nummod	_	start_char=5727|end_char=5730|SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	4	punct	_	start_char=5730|end_char=5731|SpaceAfter=No
+6	size	size	NOUN	NN	Number=Sing	8	compound	_	start_char=5731|end_char=5735|SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	6	punct	_	start_char=5735|end_char=5736|SpaceAfter=No
+8	fits	fit	NOUN	NNS	Number=Plur	11	compound	_	start_char=5736|end_char=5740|SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	8	punct	_	start_char=5740|end_char=5741|SpaceAfter=No
+10	all	all	DET	DT	PronType=Tot	11	det	_	start_char=5741|end_char=5744
+11	approach	approach	NOUN	NN	Number=Sing	22	nsubj	_	start_char=5745|end_char=5753|SpaceAfter=No
+12	,	,	PUNCT	,	_	17	punct	_	start_char=5753|end_char=5754
+13	kind	kind	NOUN	NN	ExtPos=ADV|Number=Sing	17	advmod	_	start_char=5755|end_char=5759
+14	of	of	ADP	IN	_	13	fixed	_	start_char=5760|end_char=5762
+15	like	like	ADP	IN	_	17	case	_	start_char=5763|end_char=5767
+16	that	that	DET	DT	Number=Sing|PronType=Dem	17	det	_	start_char=5768|end_char=5772
+17	blast	blast	NOUN	NN	Number=Sing	11	nmod	_	start_char=5773|end_char=5778
+18	of	of	ADP	IN	_	19	case	_	start_char=5779|end_char=5781
+19	chemo	chemo	NOUN	NN	Number=Sing	17	nmod	_	start_char=5782|end_char=5787|SpaceAfter=No
+20	,	,	PUNCT	,	_	11	punct	_	start_char=5787|end_char=5788
+21	would	would	AUX	MD	VerbForm=Fin	22	aux	_	start_char=5789|end_char=5794
+22	mean	mean	VERB	VB	VerbForm=Inf	0	root	_	start_char=5795|end_char=5799
+23	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	start_char=5800|end_char=5802
+24	test	test	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	ccomp	_	start_char=5803|end_char=5807
+25	and	and	CCONJ	CC	_	26	cc	_	start_char=5808|end_char=5811
+26	treat	treat	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	conj	_	start_char=5812|end_char=5817
+27	every	every	DET	DT	PronType=Tot	29	det	_	start_char=5818|end_char=5823
+28	pregnant	pregnant	ADJ	JJ	Degree=Pos	29	amod	_	start_char=5824|end_char=5832
+29	woman	woman	NOUN	NN	Number=Sing	26	obj	_	start_char=5833|end_char=5838
+30	in	in	ADP	IN	_	32	case	_	start_char=5839|end_char=5841
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	start_char=5842|end_char=5845
+32	world	world	NOUN	NN	Number=Sing	26	obl	_	start_char=5846|end_char=5851|SpaceAfter=No
+33	.	.	PUNCT	.	_	22	punct	_	start_char=5851|end_char=5852|SpacesAfter=\n\n
+
+# text = That would do the job.
+# sent_id = 86
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	start_char=5854|end_char=5858
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	start_char=5859|end_char=5864
+3	do	do	VERB	VB	VerbForm=Inf	0	root	_	start_char=5865|end_char=5867
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=5868|end_char=5871
+5	job	job	NOUN	NN	Number=Sing	3	obj	_	start_char=5872|end_char=5875|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=5875|end_char=5876|SpacesAfter=\n\n
+
+# text = But it's just not practical.
+# sent_id = 87
+1	But	but	CCONJ	CC	_	6	cc	_	start_char=5878|end_char=5881
+2-3	it's	_	_	_	_	_	_	_	start_char=5882|end_char=5886
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=5882|end_char=5884
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=5884|end_char=5886
+4	just	just	ADV	RB	_	6	advmod	_	start_char=5887|end_char=5891
+5	not	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=5892|end_char=5895
+6	practical	practical	ADJ	JJ	Degree=Pos	0	root	_	start_char=5896|end_char=5905|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=5905|end_char=5906|SpacesAfter=\n\n
+
+# text = So instead, we target those areas where HIV rates are the highest.
+# sent_id = 88
+1	So	so	ADV	RB	_	5	advmod	_	start_char=5908|end_char=5910
+2	instead	instead	ADV	RB	_	5	advmod	_	start_char=5911|end_char=5918|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=5918|end_char=5919
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=5920|end_char=5922
+5	target	target	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5923|end_char=5929
+6	those	that	DET	DT	Number=Plur|PronType=Dem	7	det	_	start_char=5930|end_char=5935
+7	areas	area	NOUN	NNS	Number=Plur	5	obj	_	start_char=5936|end_char=5941
+8	where	where	ADV	WRB	PronType=Rel	13	advmod	_	start_char=5942|end_char=5947
+9	HIV	hiv	NOUN	NN	Number=Sing	10	compound	_	start_char=5948|end_char=5951
+10	rates	rate	NOUN	NNS	Number=Plur	13	nsubj	_	start_char=5952|end_char=5957
+11	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=5958|end_char=5961
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=5962|end_char=5965
+13	highest	high	ADJ	JJS	Degree=Sup	7	acl:relcl	_	start_char=5966|end_char=5973|SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	start_char=5973|end_char=5974|SpacesAfter=\n\n
+
+# text = We know in certain countries in sub-Saharan Africa we can test and treat pregnant women where rates are highest.
+# sent_id = 89
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=5976|end_char=5978
+2	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	parataxis	_	start_char=5979|end_char=5983
+3	in	in	ADP	IN	_	5	case	_	start_char=5984|end_char=5986
+4	certain	certain	ADJ	JJ	Degree=Pos	5	amod	_	start_char=5987|end_char=5994
+5	countries	country	NOUN	NNS	Number=Plur	11	obl	_	start_char=5995|end_char=6004
+6	in	in	ADP	IN	_	8	case	_	start_char=6005|end_char=6007
+7	sub-Saharan	sub-Saharan	ADJ	JJ	Degree=Pos	8	amod	_	start_char=6008|end_char=6019
+8	Africa	Africa	PROPN	NNP	Number=Sing	5	nmod	_	start_char=6020|end_char=6026
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	start_char=6027|end_char=6029
+10	can	can	AUX	MD	VerbForm=Fin	11	aux	_	start_char=6030|end_char=6033
+11	test	test	VERB	VB	VerbForm=Inf	0	root	_	start_char=6034|end_char=6038
+12	and	and	CCONJ	CC	_	13	cc	_	start_char=6039|end_char=6042
+13	treat	treat	VERB	VB	VerbForm=Inf	11	conj	_	start_char=6043|end_char=6048
+14	pregnant	pregnant	ADJ	JJ	Degree=Pos	15	amod	_	start_char=6049|end_char=6057
+15	women	woman	NOUN	NNS	Number=Plur	11	obj	_	start_char=6058|end_char=6063
+16	where	where	ADV	WRB	PronType=Rel	19	advmod	_	start_char=6064|end_char=6069
+17	rates	rate	NOUN	NNS	Number=Plur	19	nsubj	_	start_char=6070|end_char=6075
+18	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=6076|end_char=6079
+19	highest	high	ADJ	JJS	Degree=Sup	15	acl:relcl	_	start_char=6080|end_char=6087|SpaceAfter=No
+20	.	.	PUNCT	.	_	11	punct	_	start_char=6087|end_char=6088|SpacesAfter=\n\n
+
+# text = This precision approach to a public health problem has cut by nearly half HIV transmission from mothers to baby in the last five years.
+# sent_id = 90
+1	This	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	start_char=6090|end_char=6094
+2	precision	precision	NOUN	NN	Number=Sing	3	compound	_	start_char=6095|end_char=6104
+3	approach	approach	NOUN	NN	Number=Sing	10	nsubj	_	start_char=6105|end_char=6113
+4	to	to	ADP	IN	_	8	case	_	start_char=6114|end_char=6116
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=6117|end_char=6118
+6	public	public	ADJ	JJ	Degree=Pos	8	amod	_	start_char=6119|end_char=6125
+7	health	health	NOUN	NN	Number=Sing	8	compound	_	start_char=6126|end_char=6132
+8	problem	problem	NOUN	NN	Number=Sing	3	nmod	_	start_char=6133|end_char=6140
+9	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=6141|end_char=6144
+10	cut	cut	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=6145|end_char=6148
+11	by	by	ADP	IN	_	15	case	_	start_char=6149|end_char=6151
+12	nearly	nearly	ADV	RB	_	13	advmod	_	start_char=6152|end_char=6158
+13	half	half	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	15	nummod	_	start_char=6159|end_char=6163
+14	HIV	hiv	NOUN	NN	Number=Sing	15	compound	_	start_char=6164|end_char=6167
+15	transmission	transmission	NOUN	NN	Number=Sing	10	obj	_	start_char=6168|end_char=6180
+16	from	from	ADP	IN	_	17	case	_	start_char=6181|end_char=6185
+17	mothers	mother	NOUN	NNS	Number=Plur	10	obl	_	start_char=6186|end_char=6193
+18	to	to	ADP	IN	_	19	case	_	start_char=6194|end_char=6196
+19	baby	baby	NOUN	NN	Number=Sing	17	nmod	_	start_char=6197|end_char=6201
+20	in	in	ADP	IN	_	24	case	_	start_char=6202|end_char=6204
+21	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	start_char=6205|end_char=6208
+22	last	last	ADJ	JJ	Degree=Pos	24	amod	_	start_char=6209|end_char=6213
+23	five	five	NUM	CD	NumForm=Word|NumType=Card	24	nummod	_	start_char=6214|end_char=6218
+24	years	year	NOUN	NNS	Number=Plur	10	obl	_	start_char=6219|end_char=6224|SpaceAfter=No
+25	.	.	PUNCT	.	_	10	punct	_	start_char=6224|end_char=6225|SpacesAfter=\n\n
+
+# text = Screening pregnant women in certain areas in the developing world is a powerful example of how precision public health can change things on a big scale.
+# sent_id = 91
+1	Screening	screen	VERB	VBG	VerbForm=Ger	14	csubj	_	start_char=6227|end_char=6236
+2	pregnant	pregnant	ADJ	JJ	Degree=Pos	3	amod	_	start_char=6237|end_char=6245
+3	women	woman	NOUN	NNS	Number=Plur	1	obj	_	start_char=6246|end_char=6251
+4	in	in	ADP	IN	_	6	case	_	start_char=6252|end_char=6254
+5	certain	certain	ADJ	JJ	Degree=Pos	6	amod	_	start_char=6255|end_char=6262
+6	areas	area	NOUN	NNS	Number=Plur	3	nmod	_	start_char=6263|end_char=6268
+7	in	in	ADP	IN	_	10	case	_	start_char=6269|end_char=6271
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=6272|end_char=6275
+9	developing	develop	NOUN	NN	Number=Sing	10	compound	_	start_char=6276|end_char=6286
+10	world	world	NOUN	NN	Number=Sing	6	nmod	_	start_char=6287|end_char=6292
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=6293|end_char=6295
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	start_char=6296|end_char=6297
+13	powerful	powerful	ADJ	JJ	Degree=Pos	14	amod	_	start_char=6298|end_char=6306
+14	example	example	NOUN	NN	Number=Sing	0	root	_	start_char=6307|end_char=6314
+15	of	of	ADP	IN	_	16	case	_	start_char=6315|end_char=6317
+16	how	how	ADV	WRB	PronType=Int	14	nmod	_	start_char=6318|end_char=6321
+17	precision	precision	NOUN	NN	Number=Sing	19	amod	_	start_char=6322|end_char=6331
+18	public	public	ADJ	JJ	Degree=Pos	19	amod	_	start_char=6332|end_char=6338
+19	health	health	NOUN	NN	Number=Sing	21	nsubj	_	start_char=6339|end_char=6345
+20	can	can	AUX	MD	VerbForm=Fin	21	aux	_	start_char=6346|end_char=6349
+21	change	change	VERB	VB	VerbForm=Inf	16	advcl:relcl	_	start_char=6350|end_char=6356
+22	things	thing	NOUN	NNS	Number=Plur	21	obj	_	start_char=6357|end_char=6363
+23	on	on	ADP	IN	_	26	case	_	start_char=6364|end_char=6366
+24	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	start_char=6367|end_char=6368
+25	big	big	ADJ	JJ	Degree=Pos	26	amod	_	start_char=6369|end_char=6372
+26	scale	scale	NOUN	NN	Number=Sing	21	obl	_	start_char=6373|end_char=6378|SpaceAfter=No
+27	.	.	PUNCT	.	_	14	punct	_	start_char=6378|end_char=6379|SpacesAfter=\n\n
+
+# text = So...
+# sent_id = 92
+1	So	so	ADV	RB	_	0	root	_	start_char=6381|end_char=6383|SpaceAfter=No
+2	...	...	PUNCT	.	_	1	punct	_	start_char=6383|end_char=6386|SpacesAfter=\n\n
+
+# text = How do we do that?
+# sent_id = 93
+1	How	how	ADV	WRB	PronType=Int	4	advmod	_	start_char=6388|end_char=6391
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=6392|end_char=6394
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=6395|end_char=6397
+4	do	do	VERB	VB	VerbForm=Inf	0	root	_	start_char=6398|end_char=6400
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	obj	_	start_char=6401|end_char=6405|SpaceAfter=No
+6	?	?	PUNCT	.	_	4	punct	_	start_char=6405|end_char=6406|SpacesAfter=\n\n
+
+# text = We can do that because we know.
+# sent_id = 94
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=6408|end_char=6410
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=6411|end_char=6414
+3	do	do	VERB	VB	VerbForm=Inf	0	root	_	start_char=6415|end_char=6417
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	obj	_	start_char=6418|end_char=6422
+5	because	because	SCONJ	IN	_	7	mark	_	start_char=6423|end_char=6430
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=6431|end_char=6433
+7	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=6434|end_char=6438|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=6438|end_char=6439|SpacesAfter=\n\n
+
+# text = We know who to target, what to target, where to target and how to target.
+# sent_id = 95
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=6441|end_char=6443
+2	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6444|end_char=6448
+3	who	who	PRON	WP	PronType=Int	5	obj	_	start_char=6449|end_char=6452
+4	to	to	PART	TO	_	5	mark	_	start_char=6453|end_char=6455
+5	target	target	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=6456|end_char=6462|SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	start_char=6462|end_char=6463
+7	what	what	PRON	WP	PronType=Int	2	parataxis	_	start_char=6464|end_char=6468
+8	to	to	PART	TO	_	9	mark	_	start_char=6469|end_char=6471
+9	target	target	VERB	VB	VerbForm=Inf	7	acl	_	start_char=6472|end_char=6478|SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	start_char=6478|end_char=6479
+11	where	where	ADV	WRB	PronType=Int	13	advmod	_	start_char=6480|end_char=6485
+12	to	to	PART	TO	_	13	mark	_	start_char=6486|end_char=6488
+13	target	target	VERB	VB	VerbForm=Inf	9	advcl	_	start_char=6489|end_char=6495
+14	and	and	CCONJ	CC	_	15	cc	_	start_char=6496|end_char=6499
+15	how	how	ADV	WRB	PronType=Int	13	conj	_	start_char=6500|end_char=6503
+16	to	to	PART	TO	_	17	mark	_	start_char=6504|end_char=6506
+17	target	target	VERB	VB	VerbForm=Inf	13	conj	_	start_char=6507|end_char=6513|SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	start_char=6513|end_char=6514|SpacesAfter=\n\n
+
+# text = And that, for me, are the important elements of precision public health: who, what, where and how.
+# sent_id = 96
+1	And	and	CCONJ	CC	_	10	cc	_	start_char=6516|end_char=6519
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	10	nsubj	_	start_char=6520|end_char=6524|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=6524|end_char=6525
+4	for	for	ADP	IN	_	5	case	_	start_char=6526|end_char=6529
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obl	_	start_char=6530|end_char=6532|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	start_char=6532|end_char=6533
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=6534|end_char=6537
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=6538|end_char=6541
+9	important	important	ADJ	JJ	Degree=Pos	10	amod	_	start_char=6542|end_char=6551
+10	elements	element	NOUN	NNS	Number=Plur	0	root	_	start_char=6552|end_char=6560
+11	of	of	ADP	IN	_	14	case	_	start_char=6561|end_char=6563
+12	precision	precision	NOUN	NN	Number=Sing	14	compound	_	start_char=6564|end_char=6573
+13	public	public	ADJ	JJ	Degree=Pos	14	amod	_	start_char=6574|end_char=6580
+14	health	health	NOUN	NN	Number=Sing	10	nmod	_	start_char=6581|end_char=6587|SpaceAfter=No
+15	:	:	PUNCT	:	_	16	punct	_	start_char=6587|end_char=6588
+16	who	who	PRON	WP	PronType=Int	10	parataxis	_	start_char=6589|end_char=6592|SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	start_char=6592|end_char=6593
+18	what	what	PRON	WP	PronType=Int	16	conj	_	start_char=6594|end_char=6598|SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	start_char=6598|end_char=6599
+20	where	where	ADV	WRB	PronType=Int	16	conj	_	start_char=6600|end_char=6605
+21	and	and	CCONJ	CC	_	22	cc	_	start_char=6606|end_char=6609
+22	how	how	ADV	WRB	PronType=Int	20	conj	_	start_char=6610|end_char=6613|SpaceAfter=No
+23	.	.	PUNCT	.	_	10	punct	_	start_char=6613|end_char=6614|SpacesAfter=\n\n
+
+# text = But let's go back to the 2.6 million babies who die before they're one month old.
+# sent_id = 97
+1	But	but	CCONJ	CC	_	2	cc	_	start_char=6616|end_char=6619
+2-3	let's	_	_	_	_	_	_	_	start_char=6620|end_char=6625
+2	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=6620|end_char=6623
+3	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	obj	_	start_char=6623|end_char=6625
+4	go	go	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=6626|end_char=6628
+5	back	back	ADV	RB	_	4	advmod	_	start_char=6629|end_char=6633
+6	to	to	ADP	IN	_	10	case	_	start_char=6634|end_char=6636
+7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=6637|end_char=6640
+8	2.6	2.6	NUM	CD	NumForm=Digit|NumType=Frac	9	compound	_	start_char=6641|end_char=6644
+9	million	million	NUM	CD	NumForm=Word|NumType=Card	10	nummod	_	start_char=6645|end_char=6652
+10	babies	baby	NOUN	NNS	Number=Plur	4	obl	_	start_char=6653|end_char=6659
+11	who	who	PRON	WP	PronType=Rel	12	nsubj	_	start_char=6660|end_char=6663
+12	die	die	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	start_char=6664|end_char=6667
+13	before	before	SCONJ	IN	_	18	mark	_	start_char=6668|end_char=6674
+14-15	they're	_	_	_	_	_	_	_	start_char=6675|end_char=6682
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	start_char=6675|end_char=6679
+15	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=6679|end_char=6682
+16	one	one	NUM	CD	NumForm=Word|NumType=Card	17	nummod	_	start_char=6683|end_char=6686
+17	month	month	NOUN	NN	Number=Sing	18	obl:unmarked	_	start_char=6687|end_char=6692
+18	old	old	ADJ	JJ	Degree=Pos	12	advcl	_	start_char=6693|end_char=6696|SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	start_char=6696|end_char=6697|SpacesAfter=\n\n
+
+# text = Here's the problem: we just don't know.
+# sent_id = 98
+1-2	Here's	_	_	_	_	_	_	_	start_char=6699|end_char=6705
+1	Here	here	ADV	RB	PronType=Dem	0	root	_	start_char=6699|end_char=6703
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=6703|end_char=6705
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=6706|end_char=6709
+4	problem	problem	NOUN	NN	Number=Sing	1	nsubj	_	start_char=6710|end_char=6717|SpaceAfter=No
+5	:	:	PUNCT	:	_	10	punct	_	start_char=6717|end_char=6718
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	start_char=6719|end_char=6721
+7	just	just	ADV	RB	_	10	advmod	_	start_char=6722|end_char=6726
+8-9	don't	_	_	_	_	_	_	_	start_char=6727|end_char=6732
+8	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=6727|end_char=6729
+9	n't	not	PART	RB	Polarity=Neg	10	advmod	_	start_char=6729|end_char=6732
+10	know	know	VERB	VB	VerbForm=Inf	1	parataxis	_	start_char=6733|end_char=6737|SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	_	start_char=6737|end_char=6738|SpacesAfter=\n\n
+
+# text = It may seem unbelievable, but the way we figure out the causes of infant mortality in those countries with the highest infant mortality is a conversation with mom.
+# sent_id = 99
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=6740|end_char=6742
+2	may	may	AUX	MD	VerbForm=Fin	3	aux	_	start_char=6743|end_char=6746
+3	seem	seem	VERB	VB	VerbForm=Inf	0	root	_	start_char=6747|end_char=6751
+4	unbelievable	unbelievable	ADJ	JJ	Degree=Pos	3	xcomp	_	start_char=6752|end_char=6764|SpaceAfter=No
+5	,	,	PUNCT	,	_	27	punct	_	start_char=6764|end_char=6765
+6	but	but	CCONJ	CC	_	27	cc	_	start_char=6766|end_char=6769
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=6770|end_char=6773
+8	way	way	NOUN	NN	Number=Sing	27	nsubj	_	start_char=6774|end_char=6777
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	start_char=6778|end_char=6780
+10	figure	figure	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	start_char=6781|end_char=6787
+11	out	out	ADP	RP	_	10	compound:prt	_	start_char=6788|end_char=6791
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=6792|end_char=6795
+13	causes	cause	NOUN	NNS	Number=Plur	10	obj	_	start_char=6796|end_char=6802
+14	of	of	ADP	IN	_	16	case	_	start_char=6803|end_char=6805
+15	infant	infant	NOUN	NN	Number=Sing	16	compound	_	start_char=6806|end_char=6812
+16	mortality	mortality	NOUN	NN	Number=Sing	13	nmod	_	start_char=6813|end_char=6822
+17	in	in	ADP	IN	_	19	case	_	start_char=6823|end_char=6825
+18	those	that	DET	DT	Number=Plur|PronType=Dem	19	det	_	start_char=6826|end_char=6831
+19	countries	country	NOUN	NNS	Number=Plur	13	nmod	_	start_char=6832|end_char=6841
+20	with	with	ADP	IN	_	24	case	_	start_char=6842|end_char=6846
+21	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	start_char=6847|end_char=6850
+22	highest	high	ADJ	JJS	Degree=Sup	24	amod	_	start_char=6851|end_char=6858
+23	infant	infant	NOUN	NN	Number=Sing	24	compound	_	start_char=6859|end_char=6865
+24	mortality	mortality	NOUN	NN	Number=Sing	19	nmod	_	start_char=6866|end_char=6875
+25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	start_char=6876|end_char=6878
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	start_char=6879|end_char=6880
+27	conversation	conversation	NOUN	NN	Number=Sing	3	conj	_	start_char=6881|end_char=6893
+28	with	with	ADP	IN	_	29	case	_	start_char=6894|end_char=6898
+29	mom	mom	NOUN	NN	Number=Sing	27	nmod	_	start_char=6899|end_char=6902|SpaceAfter=No
+30	.	.	PUNCT	.	_	3	punct	_	start_char=6902|end_char=6903|SpacesAfter=\n\n
+
+# text = A health worker asks a mom who has just lost her child, "Was the baby vomiting?
+# sent_id = 100
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=6905|end_char=6906
+2	health	health	NOUN	NN	Number=Sing	3	compound	_	start_char=6907|end_char=6913
+3	worker	worker	NOUN	NN	Number=Sing	4	nsubj	_	start_char=6914|end_char=6920
+4	asks	ask	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6921|end_char=6925
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=6926|end_char=6927
+6	mom	mom	NOUN	NN	Number=Sing	4	iobj	_	start_char=6928|end_char=6931
+7	who	who	PRON	WP	PronType=Rel	10	nsubj	_	start_char=6932|end_char=6935
+8	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=6936|end_char=6939
+9	just	just	ADV	RB	_	10	advmod	_	start_char=6940|end_char=6944
+10	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	6	acl:relcl	_	start_char=6945|end_char=6949
+11	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=6950|end_char=6953
+12	child	child	NOUN	NN	Number=Sing	10	obj	_	start_char=6954|end_char=6959|SpaceAfter=No
+13	,	,	PUNCT	,	_	18	punct	_	start_char=6959|end_char=6960
+14	"	"	PUNCT	``	_	18	punct	_	start_char=6961|end_char=6962|SpaceAfter=No
+15	Was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	start_char=6962|end_char=6965
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=6966|end_char=6969
+17	baby	baby	NOUN	NN	Number=Sing	18	nsubj	_	start_char=6970|end_char=6974
+18	vomiting	vomit	NOUN	NN	Number=Sing	4	parataxis	_	start_char=6975|end_char=6983|SpaceAfter=No
+19	?	?	PUNCT	.	_	4	punct	_	start_char=6983|end_char=6984|SpacesAfter=\n\n
+
+# text = Did they have a fever?"
+# sent_id = 101
+1	Did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	start_char=6986|end_char=6989
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=6990|end_char=6994
+3	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=6995|end_char=6999
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=7000|end_char=7001
+5	fever	fever	NOUN	NN	Number=Sing	3	obj	_	start_char=7002|end_char=7007|SpaceAfter=No
+6	?	?	PUNCT	.	_	3	punct	_	start_char=7007|end_char=7008|SpaceAfter=No
+7	"	"	PUNCT	''	_	3	punct	_	start_char=7008|end_char=7009|SpacesAfter=\n\n
+
+# text = And that conversation may take place as long as three months after the baby has died.
+# sent_id = 102
+1	And	and	CCONJ	CC	_	5	cc	_	start_char=7011|end_char=7014
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	start_char=7015|end_char=7019
+3	conversation	conversation	NOUN	NN	Number=Sing	5	nsubj	_	start_char=7020|end_char=7032
+4	may	may	AUX	MD	VerbForm=Fin	5	aux	_	start_char=7033|end_char=7036
+5	take	take	VERB	VB	VerbForm=Inf	0	root	_	start_char=7037|end_char=7041
+6	place	place	NOUN	NN	Number=Sing	5	obj	_	start_char=7042|end_char=7047
+7	as	as	ADV	RB	_	8	advmod	_	start_char=7048|end_char=7050
+8	long	long	ADV	RB	Degree=Pos	5	advmod	_	start_char=7051|end_char=7055
+9	as	as	ADP	IN	_	11	case	_	start_char=7056|end_char=7058
+10	three	three	NUM	CD	NumForm=Word|NumType=Card	11	nummod	_	start_char=7059|end_char=7064
+11	months	month	NOUN	NNS	Number=Plur	8	obl:unmarked	_	start_char=7065|end_char=7071
+12	after	after	SCONJ	IN	_	16	mark	_	start_char=7072|end_char=7077
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=7078|end_char=7081
+14	baby	baby	NOUN	NN	Number=Sing	16	nsubj	_	start_char=7082|end_char=7086
+15	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=7087|end_char=7090
+16	died	die	VERB	VBN	Tense=Past|VerbForm=Part	8	advcl	_	start_char=7091|end_char=7095|SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	start_char=7095|end_char=7096|SpacesAfter=\n\n
+
+# text = Now, put yourself in the shoes of that mom.
+# sent_id = 103
+1	Now	now	ADV	RB	_	3	advmod	_	start_char=7098|end_char=7101|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=7101|end_char=7102
+3	put	put	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	_	start_char=7103|end_char=7106
+4	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	3	obj	_	start_char=7107|end_char=7115
+5	in	in	ADP	IN	_	7	case	_	start_char=7116|end_char=7118
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=7119|end_char=7122
+7	shoes	shoe	NOUN	NNS	Number=Plur	3	obl	_	start_char=7123|end_char=7128
+8	of	of	ADP	IN	_	10	case	_	start_char=7129|end_char=7131
+9	that	that	DET	DT	Number=Sing|PronType=Dem	10	det	_	start_char=7132|end_char=7136
+10	mom	mom	NOUN	NN	Number=Sing	7	nmod	_	start_char=7137|end_char=7140|SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	start_char=7140|end_char=7141|SpacesAfter=\n\n
+
+# text = It's a heartbreaking, excruciating conversation.
+# sent_id = 104
+1-2	It's	_	_	_	_	_	_	_	start_char=7143|end_char=7147
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=7143|end_char=7145
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=7145|end_char=7147
+3	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=7148|end_char=7149
+4	heartbreaking	heartbreaking	ADJ	JJ	Degree=Pos	7	amod	_	start_char=7150|end_char=7163|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=7163|end_char=7164
+6	excruciating	excruciating	ADJ	JJ	Degree=Pos	7	amod	_	start_char=7165|end_char=7177
+7	conversation	conversation	NOUN	NN	Number=Sing	0	root	_	start_char=7178|end_char=7190|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	start_char=7190|end_char=7191|SpacesAfter=\n\n
+
+# text = And even worse -- it's not that helpful, because we might know there was a fever or vomiting, but we don't know why.
+# sent_id = 105
+1	And	and	CCONJ	CC	_	9	cc	_	start_char=7193|end_char=7196
+2	even	even	ADV	RB	_	3	advmod	_	start_char=7197|end_char=7201
+3	worse	bad	ADJ	JJR	Degree=Cmp	9	advmod	_	start_char=7202|end_char=7207
+4	--	--	PUNCT	,	_	3	punct	_	start_char=7208|end_char=7210
+5-6	it's	_	_	_	_	_	_	_	start_char=7211|end_char=7215
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=7211|end_char=7213
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=7213|end_char=7215
+7	not	not	PART	RB	Polarity=Neg	9	advmod	_	start_char=7216|end_char=7219
+8	that	that	ADV	RB	_	9	advmod	_	start_char=7220|end_char=7224
+9	helpful	helpful	ADJ	JJ	Degree=Pos	0	root	_	start_char=7225|end_char=7232|SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	start_char=7232|end_char=7233
+11	because	because	SCONJ	IN	_	14	mark	_	start_char=7234|end_char=7241
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	start_char=7242|end_char=7244
+13	might	might	AUX	MD	VerbForm=Fin	14	aux	_	start_char=7245|end_char=7250
+14	know	know	VERB	VB	VerbForm=Inf	9	advcl	_	start_char=7251|end_char=7255
+15	there	there	PRON	EX	_	16	expl	_	start_char=7256|end_char=7261
+16	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	ccomp	_	start_char=7262|end_char=7265
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	start_char=7266|end_char=7267
+18	fever	fever	NOUN	NN	Number=Sing	16	nsubj	_	start_char=7268|end_char=7273
+19	or	or	CCONJ	CC	_	20	cc	_	start_char=7274|end_char=7276
+20	vomiting	vomit	NOUN	NN	Number=Sing	18	conj	_	start_char=7277|end_char=7285|SpaceAfter=No
+21	,	,	PUNCT	,	_	26	punct	_	start_char=7285|end_char=7286
+22	but	but	CCONJ	CC	_	26	cc	_	start_char=7287|end_char=7290
+23	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	26	nsubj	_	start_char=7291|end_char=7293
+24-25	don't	_	_	_	_	_	_	_	start_char=7294|end_char=7299
+24	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	26	aux	_	start_char=7294|end_char=7296
+25	n't	not	PART	RB	Polarity=Neg	26	advmod	_	start_char=7296|end_char=7299
+26	know	know	VERB	VB	VerbForm=Inf	9	conj	_	start_char=7300|end_char=7304
+27	why	why	ADV	WRB	PronType=Int	26	obj	_	start_char=7305|end_char=7308|SpaceAfter=No
+28	.	.	PUNCT	.	_	9	punct	_	start_char=7308|end_char=7309|SpacesAfter=\n\n
+
+# text = So in the absence of knowing that knowledge, we cannot prevent that mom, that family, or other families in that community from suffering the same tragedy.
+# sent_id = 106
+1	So	so	ADV	RB	_	13	advmod	_	start_char=7311|end_char=7313
+2	in	in	ADP	IN	_	4	case	_	start_char=7314|end_char=7316
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=7317|end_char=7320
+4	absence	absence	NOUN	NN	Number=Sing	13	obl	_	start_char=7321|end_char=7328
+5	of	of	SCONJ	IN	_	6	mark	_	start_char=7329|end_char=7331
+6	knowing	know	VERB	VBG	VerbForm=Ger	4	acl	_	start_char=7332|end_char=7339
+7	that	that	DET	DT	Number=Sing|PronType=Dem	8	det	_	start_char=7340|end_char=7344
+8	knowledge	knowledge	NOUN	NN	Number=Sing	6	obj	_	start_char=7345|end_char=7354|SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	start_char=7354|end_char=7355
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	start_char=7356|end_char=7358
+11-12	cannot	_	_	_	_	_	_	_	start_char=7359|end_char=7365
+11	can	can	AUX	MD	VerbForm=Fin	13	aux	_	start_char=7359|end_char=7362
+12	not	not	PART	RB	Polarity=Neg	13	advmod	_	start_char=7362|end_char=7365
+13	prevent	prevent	VERB	VB	VerbForm=Inf	0	root	_	start_char=7366|end_char=7373
+14	that	that	DET	DT	Number=Sing|PronType=Dem	15	det	_	start_char=7374|end_char=7378
+15	mom	mom	NOUN	NN	Number=Sing	13	obj	_	start_char=7379|end_char=7382|SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	start_char=7382|end_char=7383
+17	that	that	DET	DT	Number=Sing|PronType=Dem	18	det	_	start_char=7384|end_char=7388
+18	family	family	NOUN	NN	Number=Sing	15	conj	_	start_char=7389|end_char=7395|SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	start_char=7395|end_char=7396
+20	or	or	CCONJ	CC	_	22	cc	_	start_char=7397|end_char=7399
+21	other	other	ADJ	JJ	Degree=Pos	22	amod	_	start_char=7400|end_char=7405
+22	families	family	NOUN	NNS	Number=Plur	15	conj	_	start_char=7406|end_char=7414
+23	in	in	ADP	IN	_	25	case	_	start_char=7415|end_char=7417
+24	that	that	DET	DT	Number=Sing|PronType=Dem	25	det	_	start_char=7418|end_char=7422
+25	community	community	NOUN	NN	Number=Sing	22	nmod	_	start_char=7423|end_char=7432
+26	from	from	SCONJ	IN	_	27	mark	_	start_char=7433|end_char=7437
+27	suffering	suffer	VERB	VBG	Tense=Pres|VerbForm=Part	13	advcl	_	start_char=7438|end_char=7447
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	start_char=7448|end_char=7451
+29	same	same	ADJ	JJ	Degree=Pos	30	amod	_	start_char=7452|end_char=7456
+30	tragedy	tragedy	NOUN	NN	Number=Sing	27	obj	_	start_char=7457|end_char=7464|SpaceAfter=No
+31	.	.	PUNCT	.	_	13	punct	_	start_char=7464|end_char=7465|SpacesAfter=\n\n
+
+# text = But what if we applied a precision public health approach?
+# sent_id = 107
+1	But	but	CCONJ	CC	_	2	cc	_	start_char=7467|end_char=7470
+2	what	what	PRON	WP	PronType=Int	0	root	_	start_char=7471|end_char=7475
+3	if	if	SCONJ	IN	_	5	mark	_	start_char=7476|end_char=7478
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=7479|end_char=7481
+5	applied	apply	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	2	advcl	_	start_char=7482|end_char=7489
+6	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=7490|end_char=7491
+7	precision	precision	NOUN	NN	Number=Sing	10	compound	_	start_char=7492|end_char=7501
+8	public	public	ADJ	JJ	Degree=Pos	10	amod	_	start_char=7502|end_char=7508
+9	health	health	NOUN	NN	Number=Sing	10	compound	_	start_char=7509|end_char=7515
+10	approach	approach	NOUN	NN	Number=Sing	5	obj	_	start_char=7516|end_char=7524|SpaceAfter=No
+11	?	?	PUNCT	.	_	2	punct	_	start_char=7524|end_char=7525|SpacesAfter=\n\n
+
+# text = Let's say, for example, we find out in certain areas of Africa that babies are dying because of a bacterial infection transferred from the mother to the baby, known as Group B streptococcus. In the absence of treatment, mom has a seven times higher chance that her next baby will die.
+# sent_id = 108
+1-2	Let's	_	_	_	_	_	_	_	start_char=7527|end_char=7532
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=7527|end_char=7530
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	start_char=7530|end_char=7532
+3	say	say	VERB	VB	VerbForm=Inf	1	xcomp	_	start_char=7533|end_char=7536|SpaceAfter=No
+4	,	,	PUNCT	,	_	9	punct	_	start_char=7536|end_char=7537
+5	for	for	ADP	IN	_	6	case	_	start_char=7538|end_char=7541
+6	example	example	NOUN	NN	Number=Sing	9	obl	_	start_char=7542|end_char=7549|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	start_char=7549|end_char=7550
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=7551|end_char=7553
+9	find	find	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	ccomp	_	start_char=7554|end_char=7558
+10	out	out	ADP	RP	_	9	compound:prt	_	start_char=7559|end_char=7562
+11	in	in	ADP	IN	_	13	case	_	start_char=7563|end_char=7565
+12	certain	certain	ADJ	JJ	Degree=Pos	13	amod	_	start_char=7566|end_char=7573
+13	areas	area	NOUN	NNS	Number=Plur	9	obl	_	start_char=7574|end_char=7579
+14	of	of	ADP	IN	_	15	case	_	start_char=7580|end_char=7582
+15	Africa	Africa	PROPN	NNP	Number=Sing	13	nmod	_	start_char=7583|end_char=7589
+16	that	that	SCONJ	IN	_	19	mark	_	start_char=7590|end_char=7594
+17	babies	baby	NOUN	NNS	Number=Plur	19	nsubj	_	start_char=7595|end_char=7601
+18	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=7602|end_char=7605
+19	dying	die	VERB	VBG	Tense=Pres|VerbForm=Part	9	ccomp	_	start_char=7606|end_char=7611
+20	because	because	ADP	IN	ExtPos=ADP	24	case	_	start_char=7612|end_char=7619
+21	of	of	ADP	IN	_	20	fixed	_	start_char=7620|end_char=7622
+22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	start_char=7623|end_char=7624
+23	bacterial	bacterial	ADJ	JJ	Degree=Pos	24	amod	_	start_char=7625|end_char=7634
+24	infection	infection	NOUN	NN	Number=Sing	19	obl	_	start_char=7635|end_char=7644
+25	transferred	transfer	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	24	acl	_	start_char=7645|end_char=7656
+26	from	from	ADP	IN	_	28	case	_	start_char=7657|end_char=7661
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	start_char=7662|end_char=7665
+28	mother	mother	NOUN	NN	Number=Sing	25	obl	_	start_char=7666|end_char=7672
+29	to	to	ADP	IN	_	31	case	_	start_char=7673|end_char=7675
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	start_char=7676|end_char=7679
+31	baby	baby	NOUN	NN	Number=Sing	25	obl	_	start_char=7680|end_char=7684|SpaceAfter=No
+32	,	,	PUNCT	,	_	33	punct	_	start_char=7684|end_char=7685
+33	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	24	acl	_	start_char=7686|end_char=7691
+34	as	as	ADP	IN	_	37	case	_	start_char=7692|end_char=7694
+35	Group	Group	PROPN	NNP	Number=Sing	36	compound	_	start_char=7695|end_char=7700
+36	B	B	NOUN	NN	Number=Sing	37	compound	_	start_char=7701|end_char=7702
+37	streptococcus	streptococcuus	NOUN	NN	Number=Sing	33	obl	_	start_char=7703|end_char=7716|SpaceAfter=No
+38	.	.	PUNCT	.	_	46	punct	_	start_char=7716|end_char=7717
+39	In	in	ADP	IN	_	41	case	_	start_char=7718|end_char=7720
+40	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	start_char=7721|end_char=7724
+41	absence	absence	NOUN	NN	Number=Sing	46	obl	_	start_char=7725|end_char=7732
+42	of	of	ADP	IN	_	43	case	_	start_char=7733|end_char=7735
+43	treatment	treatment	NOUN	NN	Number=Sing	41	nmod	_	start_char=7736|end_char=7745|SpaceAfter=No
+44	,	,	PUNCT	,	_	41	punct	_	start_char=7745|end_char=7746
+45	mom	mom	NOUN	NN	Number=Sing	46	nsubj	_	start_char=7747|end_char=7750
+46	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	start_char=7751|end_char=7754
+47	a	a	DET	DT	Definite=Ind|PronType=Art	51	det	_	start_char=7755|end_char=7756
+48	seven	seven	NUM	CD	NumForm=Word|NumType=Card	49	nummod	_	start_char=7757|end_char=7762
+49	times	time	NOUN	NNS	Number=Plur	50	obl:unmarked	_	start_char=7763|end_char=7768
+50	higher	high	ADJ	JJR	Degree=Cmp	51	amod	_	start_char=7769|end_char=7775
+51	chance	chance	NOUN	NN	Number=Sing	46	obj	_	start_char=7776|end_char=7782
+52	that	that	SCONJ	IN	_	57	mark	_	start_char=7783|end_char=7787
+53	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	55	nmod:poss	_	start_char=7788|end_char=7791
+54	next	next	ADJ	JJ	Degree=Pos	55	amod	_	start_char=7792|end_char=7796
+55	baby	baby	NOUN	NN	Number=Sing	57	nsubj	_	start_char=7797|end_char=7801
+56	will	will	AUX	MD	VerbForm=Fin	57	aux	_	start_char=7802|end_char=7806
+57	die	die	VERB	VB	VerbForm=Inf	51	acl	_	start_char=7807|end_char=7810|SpaceAfter=No
+58	.	.	PUNCT	.	_	1	punct	_	start_char=7810|end_char=7811|SpacesAfter=\n\n
+
+# text = Once we define the problem, we can prevent that death with something as cheap and safe as penicillin.
+# sent_id = 109
+1	Once	once	SCONJ	IN	_	3	mark	_	start_char=7813|end_char=7817
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=7818|end_char=7820
+3	define	define	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	advcl	_	start_char=7821|end_char=7827
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=7828|end_char=7831
+5	problem	problem	NOUN	NN	Number=Sing	3	obj	_	start_char=7832|end_char=7839|SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	start_char=7839|end_char=7840
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=7841|end_char=7843
+8	can	can	AUX	MD	VerbForm=Fin	9	aux	_	start_char=7844|end_char=7847
+9	prevent	prevent	VERB	VB	VerbForm=Inf	0	root	_	start_char=7848|end_char=7855
+10	that	that	DET	DT	Number=Sing|PronType=Dem	11	det	_	start_char=7856|end_char=7860
+11	death	death	NOUN	NN	Number=Sing	9	obj	_	start_char=7861|end_char=7866
+12	with	with	ADP	IN	_	13	case	_	start_char=7867|end_char=7871
+13	something	something	PRON	NN	Number=Sing|PronType=Ind	9	obl	_	start_char=7872|end_char=7881
+14	as	as	ADV	RB	_	15	advmod	_	start_char=7882|end_char=7884
+15	cheap	cheap	ADJ	JJ	Degree=Pos	13	amod	_	start_char=7885|end_char=7890
+16	and	and	CCONJ	CC	_	17	cc	_	start_char=7891|end_char=7894
+17	safe	safe	ADJ	JJ	Degree=Pos	15	conj	_	start_char=7895|end_char=7899
+18	as	as	ADP	IN	_	19	case	_	start_char=7900|end_char=7902
+19	penicillin	penicillin	NOUN	NN	Number=Sing	15	obl	_	start_char=7903|end_char=7913|SpaceAfter=No
+20	.	.	PUNCT	.	_	9	punct	_	start_char=7913|end_char=7914|SpacesAfter=\n\n
+
+# text = We can do that because then we'll know.
+# sent_id = 110
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=7916|end_char=7918
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=7919|end_char=7922
+3	do	do	VERB	VB	VerbForm=Inf	0	root	_	start_char=7923|end_char=7925
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	obj	_	start_char=7926|end_char=7930
+5	because	because	SCONJ	IN	_	9	mark	_	start_char=7931|end_char=7938
+6	then	then	ADV	RB	PronType=Dem	9	advmod	_	start_char=7939|end_char=7943
+7-8	we'll	_	_	_	_	_	_	_	start_char=7944|end_char=7949
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=7944|end_char=7946
+8	'll	will	AUX	MD	VerbForm=Fin	9	aux	_	start_char=7946|end_char=7949
+9	know	know	VERB	VB	VerbForm=Inf	3	advcl	_	start_char=7950|end_char=7954|SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	start_char=7954|end_char=7955|SpacesAfter=\n\n
+
+# text = And that's the point: once we know, we can bring the right interventions to the right population in the right places to save lives.
+# sent_id = 111
+1	And	and	CCONJ	CC	_	5	cc	_	start_char=7957|end_char=7960
+2-3	that's	_	_	_	_	_	_	_	start_char=7961|end_char=7967
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	start_char=7961|end_char=7965
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=7965|end_char=7967
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=7968|end_char=7971
+5	point	point	NOUN	NN	Number=Sing	0	root	_	start_char=7972|end_char=7977|SpaceAfter=No
+6	:	:	PUNCT	:	_	13	punct	_	start_char=7977|end_char=7978
+7	once	once	SCONJ	IN	_	9	mark	_	start_char=7979|end_char=7983
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=7984|end_char=7986
+9	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	advcl	_	start_char=7987|end_char=7991|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	start_char=7991|end_char=7992
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	start_char=7993|end_char=7995
+12	can	can	AUX	MD	VerbForm=Fin	13	aux	_	start_char=7996|end_char=7999
+13	bring	bring	VERB	VB	VerbForm=Inf	5	parataxis	_	start_char=8000|end_char=8005
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=8006|end_char=8009
+15	right	right	ADJ	JJ	Degree=Pos	16	amod	_	start_char=8010|end_char=8015
+16	interventions	intervention	NOUN	NNS	Number=Plur	13	obj	_	start_char=8016|end_char=8029
+17	to	to	ADP	IN	_	20	case	_	start_char=8030|end_char=8032
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=8033|end_char=8036
+19	right	right	ADJ	JJ	Degree=Pos	20	amod	_	start_char=8037|end_char=8042
+20	population	population	NOUN	NN	Number=Sing	13	obl	_	start_char=8043|end_char=8053
+21	in	in	ADP	IN	_	24	case	_	start_char=8054|end_char=8056
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	start_char=8057|end_char=8060
+23	right	right	ADJ	JJ	Degree=Pos	24	amod	_	start_char=8061|end_char=8066
+24	places	place	NOUN	NNS	Number=Plur	13	obl	_	start_char=8067|end_char=8073
+25	to	to	PART	TO	_	26	mark	_	start_char=8074|end_char=8076
+26	save	save	VERB	VB	VerbForm=Inf	24	acl	_	start_char=8077|end_char=8081
+27	lives	life	NOUN	NNS	Number=Plur	26	obj	_	start_char=8082|end_char=8087|SpaceAfter=No
+28	.	.	PUNCT	.	_	5	punct	_	start_char=8087|end_char=8088|SpacesAfter=\n\n
+
+# text = With this approach, and with these interventions and others like them, I have no doubt that a precision public health approach can help our world achieve our 15-year goal.
+# sent_id = 112
+1	With	with	ADP	IN	_	3	case	_	start_char=8090|end_char=8094
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	start_char=8095|end_char=8099
+3	approach	approach	NOUN	NN	Number=Sing	15	obl	_	start_char=8100|end_char=8108|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=8108|end_char=8109
+5	and	and	CCONJ	CC	_	8	cc	_	start_char=8110|end_char=8113
+6	with	with	ADP	IN	_	8	case	_	start_char=8114|end_char=8118
+7	these	this	DET	DT	Number=Plur|PronType=Dem	8	det	_	start_char=8119|end_char=8124
+8	interventions	intervention	NOUN	NNS	Number=Plur	3	conj	_	start_char=8125|end_char=8138
+9	and	and	CCONJ	CC	_	10	cc	_	start_char=8139|end_char=8142
+10	others	other	NOUN	NNS	Number=Plur	8	conj	_	start_char=8143|end_char=8149
+11	like	like	ADP	IN	_	12	case	_	start_char=8150|end_char=8154
+12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	nmod	_	start_char=8155|end_char=8159|SpaceAfter=No
+13	,	,	PUNCT	,	_	3	punct	_	start_char=8159|end_char=8160
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=8161|end_char=8162
+15	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8163|end_char=8167
+16	no	no	DET	DT	PronType=Neg	17	det	_	start_char=8168|end_char=8170
+17	doubt	doubt	NOUN	NN	Number=Sing	15	obj	_	start_char=8171|end_char=8176
+18	that	that	SCONJ	IN	_	25	mark	_	start_char=8177|end_char=8181
+19	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	start_char=8182|end_char=8183
+20	precision	precision	NOUN	NN	Number=Sing	23	compound	_	start_char=8184|end_char=8193
+21	public	public	ADJ	JJ	Degree=Pos	23	amod	_	start_char=8194|end_char=8200
+22	health	health	NOUN	NN	Number=Sing	23	compound	_	start_char=8201|end_char=8207
+23	approach	approach	NOUN	NN	Number=Sing	25	nsubj	_	start_char=8208|end_char=8216
+24	can	can	AUX	MD	VerbForm=Fin	25	aux	_	start_char=8217|end_char=8220
+25	help	help	VERB	VB	VerbForm=Inf	17	acl	_	start_char=8221|end_char=8225
+26	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	start_char=8226|end_char=8229
+27	world	world	NOUN	NN	Number=Sing	25	obj	_	start_char=8230|end_char=8235
+28	achieve	achieve	VERB	VB	VerbForm=Inf	25	xcomp	_	start_char=8236|end_char=8243
+29	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	33	nmod:poss	_	start_char=8244|end_char=8247
+30	15	15	NUM	CD	NumForm=Digit|NumType=Card	32	nummod	_	start_char=8248|end_char=8250|SpaceAfter=No
+31	-	-	PUNCT	HYPH	_	30	punct	_	start_char=8250|end_char=8251|SpaceAfter=No
+32	year	year	NOUN	NN	Number=Sing	33	compound	_	start_char=8251|end_char=8255
+33	goal	goal	NOUN	NN	Number=Sing	28	obj	_	start_char=8256|end_char=8260|SpaceAfter=No
+34	.	.	PUNCT	.	_	15	punct	_	start_char=8260|end_char=8261|SpacesAfter=\n\n
+
+# text = And that would translate into a million babies' lives saved every single year.
+# sent_id = 113
+1	And	and	CCONJ	CC	_	4	cc	_	start_char=8263|end_char=8266
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	start_char=8267|end_char=8271
+3	would	would	AUX	MD	VerbForm=Fin	4	aux	_	start_char=8272|end_char=8277
+4	translate	translate	VERB	VB	VerbForm=Inf	0	root	_	start_char=8278|end_char=8287
+5	into	into	ADP	IN	_	10	case	_	start_char=8288|end_char=8292
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=8293|end_char=8294
+7	million	million	NUM	CD	NumForm=Word|NumType=Card	8	nummod	_	start_char=8295|end_char=8302
+8-9	babies'	_	_	_	_	_	_	_	start_char=8303|end_char=8310
+8	babies	baby	NOUN	NNS	Number=Plur	10	nmod:poss	_	start_char=8303|end_char=8309
+9	'	's	PART	POS	_	8	case	_	start_char=8309|end_char=8310
+10	lives	life	NOUN	NNS	Number=Plur	4	obl	_	start_char=8311|end_char=8316
+11	saved	save	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	start_char=8317|end_char=8322
+12	every	every	DET	DT	PronType=Tot	14	det	_	start_char=8323|end_char=8328
+13	single	single	ADJ	JJ	Degree=Pos	14	amod	_	start_char=8329|end_char=8335
+14	year	year	NOUN	NN	Number=Sing	11	obl:unmarked	_	start_char=8336|end_char=8340|SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	start_char=8340|end_char=8341|SpacesAfter=\n\n
+
+# text = One million babies every single year.
+# sent_id = 114
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	2	compound	_	start_char=8343|end_char=8346
+2	million	million	NUM	CD	NumForm=Word|NumType=Card	3	nummod	_	start_char=8347|end_char=8354
+3	babies	baby	NOUN	NNS	Number=Plur	0	root	_	start_char=8355|end_char=8361
+4	every	every	DET	DT	PronType=Tot	6	det	_	start_char=8362|end_char=8367
+5	single	single	ADJ	JJ	Degree=Pos	6	amod	_	start_char=8368|end_char=8374
+6	year	year	NOUN	NN	Number=Sing	3	nmod:unmarked	_	start_char=8375|end_char=8379|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=8379|end_char=8380|SpacesAfter=\n\n
+
+# text = And why would we stop there?
+# sent_id = 115
+1	And	and	CCONJ	CC	_	5	cc	_	start_char=8382|end_char=8385
+2	why	why	ADV	WRB	PronType=Int	5	advmod	_	start_char=8386|end_char=8389
+3	would	would	AUX	MD	VerbForm=Fin	5	aux	_	start_char=8390|end_char=8395
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=8396|end_char=8398
+5	stop	stop	VERB	VB	VerbForm=Inf	0	root	_	start_char=8399|end_char=8403
+6	there	there	ADV	RB	PronType=Dem	5	advmod	_	start_char=8404|end_char=8409|SpaceAfter=No
+7	?	?	PUNCT	.	_	5	punct	_	start_char=8409|end_char=8410|SpacesAfter=\n\n
+
+# text = A much more powerful approach to public health -- imagine what might be possible.
+# sent_id = 116
+1	A	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=8412|end_char=8413
+2	much	much	ADV	RB	_	3	advmod	_	start_char=8414|end_char=8418
+3	more	more	ADV	RBR	Degree=Cmp	4	advmod	_	start_char=8419|end_char=8423
+4	powerful	powerful	ADJ	JJ	Degree=Pos	5	amod	_	start_char=8424|end_char=8432
+5	approach	approach	NOUN	NN	Number=Sing	0	root	_	start_char=8433|end_char=8441
+6	to	to	ADP	IN	_	8	case	_	start_char=8442|end_char=8444
+7	public	public	ADJ	JJ	Degree=Pos	8	amod	_	start_char=8445|end_char=8451
+8	health	health	NOUN	NN	Number=Sing	5	nmod	_	start_char=8452|end_char=8458
+9	--	--	PUNCT	,	_	10	punct	_	start_char=8459|end_char=8461
+10	imagine	imagine	VERB	VB	Mood=Imp|VerbForm=Fin	5	parataxis	_	start_char=8462|end_char=8469
+11	what	what	PRON	WP	PronType=Int	14	nsubj	_	start_char=8470|end_char=8474
+12	might	might	AUX	MD	VerbForm=Fin	14	aux	_	start_char=8475|end_char=8480
+13	be	be	AUX	VB	VerbForm=Inf	14	cop	_	start_char=8481|end_char=8483
+14	possible	possible	ADJ	JJ	Degree=Pos	10	ccomp	_	start_char=8484|end_char=8492|SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	start_char=8492|end_char=8493|SpacesAfter=\n\n
+
+# text = Why couldn't we more effectively tackle malnutrition?
+# sent_id = 117
+1	Why	why	ADV	WRB	PronType=Int	7	advmod	_	start_char=8495|end_char=8498
+2-3	couldn't	_	_	_	_	_	_	_	start_char=8499|end_char=8507
+2	could	could	AUX	MD	VerbForm=Fin	7	aux	_	start_char=8499|end_char=8504
+3	n't	not	PART	RB	Polarity=Neg	7	advmod	_	start_char=8504|end_char=8507
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=8508|end_char=8510
+5	more	more	ADV	RBR	Degree=Cmp	6	advmod	_	start_char=8511|end_char=8515
+6	effectively	effectively	ADV	RB	_	7	advmod	_	start_char=8516|end_char=8527
+7	tackle	tackle	VERB	VB	VerbForm=Inf	0	root	_	start_char=8528|end_char=8534
+8	malnutrition	malnutrition	NOUN	NN	Number=Sing	7	obj	_	start_char=8535|end_char=8547|SpaceAfter=No
+9	?	?	PUNCT	.	_	7	punct	_	start_char=8547|end_char=8548|SpacesAfter=\n\n
+
+# text = Why wouldn't we prevent cervical cancer in women?
+# sent_id = 118
+1	Why	why	ADV	WRB	PronType=Int	5	advmod	_	start_char=8550|end_char=8553
+2-3	wouldn't	_	_	_	_	_	_	_	start_char=8554|end_char=8562
+2	would	would	AUX	MD	VerbForm=Fin	5	aux	_	start_char=8554|end_char=8559
+3	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=8559|end_char=8562
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=8563|end_char=8565
+5	prevent	prevent	VERB	VB	VerbForm=Inf	0	root	_	start_char=8566|end_char=8573
+6	cervical	cervical	ADJ	JJ	Degree=Pos	7	amod	_	start_char=8574|end_char=8582
+7	cancer	cancer	NOUN	NN	Number=Sing	5	obj	_	start_char=8583|end_char=8589
+8	in	in	ADP	IN	_	9	case	_	start_char=8590|end_char=8592
+9	women	woman	NOUN	NNS	Number=Plur	5	obl	_	start_char=8593|end_char=8598|SpaceAfter=No
+10	?	?	PUNCT	.	_	5	punct	_	start_char=8598|end_char=8599|SpacesAfter=\n\n
+
+# text = And why not eradicate malaria?
+# sent_id = 119
+1	And	and	CCONJ	CC	_	4	cc	_	start_char=8601|end_char=8604
+2	why	why	ADV	WRB	PronType=Int	4	advmod	_	start_char=8605|end_char=8608
+3	not	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=8609|end_char=8612
+4	eradicate	eradicate	VERB	VB	VerbForm=Inf	0	root	_	start_char=8613|end_char=8622
+5	malaria	malaria	NOUN	NN	Number=Sing	4	obj	_	start_char=8623|end_char=8630|SpaceAfter=No
+6	?	?	PUNCT	.	_	4	punct	_	start_char=8630|end_char=8631|SpacesAfter=\n\n
+
+# text = Yes, clap for that!
+# sent_id = 120
+1	Yes	yes	INTJ	UH	Polarity=Pos	3	discourse	_	start_char=8633|end_char=8636|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=8636|end_char=8637
+3	clap	clap	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=8638|end_char=8642
+4	for	for	ADP	IN	_	5	case	_	start_char=8643|end_char=8646
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	3	obl	_	start_char=8647|end_char=8651|SpaceAfter=No
+6	!	!	PUNCT	.	_	3	punct	_	start_char=8651|end_char=8652|SpacesAfter=\n\n
+
+# text = So, you know, I live in two different worlds, one world populated by scientists, and another world populated by public health professionals.
+# sent_id = 121
+1	So	so	ADV	RB	_	7	discourse	_	start_char=8654|end_char=8656|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=8656|end_char=8657
+3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	start_char=8658|end_char=8661
+4	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	parataxis	_	start_char=8662|end_char=8666|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=8666|end_char=8667
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=8668|end_char=8669
+7	live	live	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8670|end_char=8674
+8	in	in	ADP	IN	_	11	case	_	start_char=8675|end_char=8677
+9	two	two	NUM	CD	NumForm=Word|NumType=Card	11	nummod	_	start_char=8678|end_char=8681
+10	different	different	ADJ	JJ	Degree=Pos	11	amod	_	start_char=8682|end_char=8691
+11	worlds	world	NOUN	NNS	Number=Plur	7	obl	_	start_char=8692|end_char=8698|SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	start_char=8698|end_char=8699
+13	one	one	NUM	CD	NumForm=Word|NumType=Card	14	nummod	_	start_char=8700|end_char=8703
+14	world	world	NOUN	NN	Number=Sing	11	appos	_	start_char=8704|end_char=8709
+15	populated	populate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	acl	_	start_char=8710|end_char=8719
+16	by	by	ADP	IN	_	17	case	_	start_char=8720|end_char=8722
+17	scientists	scientist	NOUN	NNS	Number=Plur	15	obl:agent	_	start_char=8723|end_char=8733|SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	_	start_char=8733|end_char=8734
+19	and	and	CCONJ	CC	_	21	cc	_	start_char=8735|end_char=8738
+20	another	another	DET	DT	PronType=Ind	21	det	_	start_char=8739|end_char=8746
+21	world	world	NOUN	NN	Number=Sing	11	conj	_	start_char=8747|end_char=8752
+22	populated	populate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	21	acl	_	start_char=8753|end_char=8762
+23	by	by	ADP	IN	_	26	case	_	start_char=8763|end_char=8765
+24	public	public	ADJ	JJ	Degree=Pos	26	amod	_	start_char=8766|end_char=8772
+25	health	health	NOUN	NN	Number=Sing	26	compound	_	start_char=8773|end_char=8779
+26	professionals	professional	NOUN	NNS	Number=Plur	22	obl:agent	_	start_char=8780|end_char=8793|SpaceAfter=No
+27	.	.	PUNCT	.	_	7	punct	_	start_char=8793|end_char=8794|SpacesAfter=\n\n
+
+# text = The promise of precision public health is to bring these two worlds together.
+# sent_id = 122
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=8796|end_char=8799
+2	promise	promise	NOUN	NN	Number=Sing	9	nsubj:outer	_	start_char=8800|end_char=8807
+3	of	of	ADP	IN	_	6	case	_	start_char=8808|end_char=8810
+4	precision	precision	NOUN	NN	Number=Sing	6	compound	_	start_char=8811|end_char=8820
+5	public	public	ADJ	JJ	Degree=Pos	6	amod	_	start_char=8821|end_char=8827
+6	health	health	NOUN	NN	Number=Sing	2	nmod	_	start_char=8828|end_char=8834
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=8835|end_char=8837
+8	to	to	PART	TO	_	9	mark	_	start_char=8838|end_char=8840
+9	bring	bring	VERB	VB	VerbForm=Inf	0	root	_	start_char=8841|end_char=8846
+10	these	this	DET	DT	Number=Plur|PronType=Dem	12	det	_	start_char=8847|end_char=8852
+11	two	two	NUM	CD	NumForm=Word|NumType=Card	12	nummod	_	start_char=8853|end_char=8856
+12	worlds	world	NOUN	NNS	Number=Plur	9	obj	_	start_char=8857|end_char=8863
+13	together	together	ADV	RB	_	9	advmod	_	start_char=8864|end_char=8872|SpaceAfter=No
+14	.	.	PUNCT	.	_	9	punct	_	start_char=8872|end_char=8873|SpacesAfter=\n\n
+
+# text = But you know, we all live in two worlds: the rich world and the poor world.
+# sent_id = 123
+1	But	but	CCONJ	CC	_	7	cc	_	start_char=8875|end_char=8878
+2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	start_char=8879|end_char=8882
+3	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	parataxis	_	start_char=8883|end_char=8887|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=8887|end_char=8888
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=8889|end_char=8891
+6	all	all	DET	DT	PronType=Tot	5	det	_	start_char=8892|end_char=8895
+7	live	live	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8896|end_char=8900
+8	in	in	ADP	IN	_	10	case	_	start_char=8901|end_char=8903
+9	two	two	NUM	CD	NumForm=Word|NumType=Card	10	nummod	_	start_char=8904|end_char=8907
+10	worlds	world	NOUN	NNS	Number=Plur	7	obl	_	start_char=8908|end_char=8914|SpaceAfter=No
+11	:	:	PUNCT	:	_	14	punct	_	start_char=8914|end_char=8915
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=8916|end_char=8919
+13	rich	rich	ADJ	JJ	Degree=Pos	14	amod	_	start_char=8920|end_char=8924
+14	world	world	NOUN	NN	Number=Sing	10	appos	_	start_char=8925|end_char=8930
+15	and	and	CCONJ	CC	_	18	cc	_	start_char=8931|end_char=8934
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=8935|end_char=8938
+17	poor	poor	ADJ	JJ	Degree=Pos	18	amod	_	start_char=8939|end_char=8943
+18	world	world	NOUN	NN	Number=Sing	14	conj	_	start_char=8944|end_char=8949|SpaceAfter=No
+19	.	.	PUNCT	.	_	7	punct	_	start_char=8949|end_char=8950|SpacesAfter=\n\n
+
+# text = And what I'm most excited about about precision public health is bridging these two worlds.
+# sent_id = 124
+1	And	and	CCONJ	CC	_	13	cc	_	start_char=8952|end_char=8955
+2	what	what	PRON	WP	PronType=Int	13	nsubj:outer	_	start_char=8956|end_char=8960
+3-4	I'm	_	_	_	_	_	_	_	start_char=8961|end_char=8964
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=8961|end_char=8962
+4	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=8962|end_char=8964
+5	most	most	ADV	RBS	Degree=Sup	6	advmod	_	start_char=8965|end_char=8969
+6	excited	excited	ADJ	JJ	Degree=Pos	2	acl:relcl	_	start_char=8970|end_char=8977
+7	about	about	ADP	IN	_	6	obl	_	start_char=8978|end_char=8983
+8	about	about	ADP	IN	_	11	case	_	start_char=8984|end_char=8989
+9	precision	precision	NOUN	NN	Number=Sing	11	compound	_	start_char=8990|end_char=8999
+10	public	public	ADJ	JJ	Degree=Pos	11	amod	_	start_char=9000|end_char=9006
+11	health	health	NOUN	NN	Number=Sing	6	obl	_	start_char=9007|end_char=9013
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=9014|end_char=9016
+13	bridging	bridg	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=9017|end_char=9025
+14	these	this	DET	DT	Number=Plur|PronType=Dem	16	det	_	start_char=9026|end_char=9031
+15	two	two	NUM	CD	NumForm=Word|NumType=Card	16	nummod	_	start_char=9032|end_char=9035
+16	worlds	world	NOUN	NNS	Number=Plur	13	obj	_	start_char=9036|end_char=9042|SpaceAfter=No
+17	.	.	PUNCT	.	_	13	punct	_	start_char=9042|end_char=9043|SpacesAfter=\n\n
+
+# text = Every day in the rich world, we're bringing incredible talent and tools -- everything at our disposal -- to precisely target diseases in ways I never imagined would be possible.
+# sent_id = 125
+1	Every	every	DET	DT	PronType=Tot	2	det	_	start_char=9045|end_char=9050
+2	day	day	NOUN	NN	Number=Sing	10	obl:unmarked	_	start_char=9051|end_char=9054
+3	in	in	ADP	IN	_	6	case	_	start_char=9055|end_char=9057
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=9058|end_char=9061
+5	rich	rich	ADJ	JJ	Degree=Pos	6	amod	_	start_char=9062|end_char=9066
+6	world	world	NOUN	NN	Number=Sing	2	nmod	_	start_char=9067|end_char=9072|SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	start_char=9072|end_char=9073
+8-9	we're	_	_	_	_	_	_	_	start_char=9074|end_char=9079
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	start_char=9074|end_char=9076
+9	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=9076|end_char=9079
+10	bringing	bring	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=9080|end_char=9088
+11	incredible	incredible	ADJ	JJ	Degree=Pos	12	amod	_	start_char=9089|end_char=9099
+12	talent	talent	NOUN	NN	Number=Sing	10	obj	_	start_char=9100|end_char=9106
+13	and	and	CCONJ	CC	_	14	cc	_	start_char=9107|end_char=9110
+14	tools	tool	NOUN	NNS	Number=Plur	12	conj	_	start_char=9111|end_char=9116
+15	--	--	PUNCT	,	_	16	punct	_	start_char=9117|end_char=9119
+16	everything	everything	PRON	NN	Number=Sing|PronType=Tot	12	appos	_	start_char=9120|end_char=9130
+17	at	at	ADP	IN	_	19	case	_	start_char=9131|end_char=9133
+18	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	start_char=9134|end_char=9137
+19	disposal	disposal	NOUN	NN	Number=Sing	16	nmod	_	start_char=9138|end_char=9146
+20	--	--	PUNCT	,	_	23	punct	_	start_char=9147|end_char=9149
+21	to	to	PART	TO	_	23	mark	_	start_char=9150|end_char=9152
+22	precisely	precisely	ADV	RB	_	23	advmod	_	start_char=9153|end_char=9162
+23	target	target	VERB	VB	VerbForm=Inf	10	advcl	_	start_char=9163|end_char=9169
+24	diseases	disease	NOUN	NNS	Number=Plur	23	obj	_	start_char=9170|end_char=9178
+25	in	in	ADP	IN	_	26	case	_	start_char=9179|end_char=9181
+26	ways	way	NOUN	NNS	Number=Plur	23	obl	_	start_char=9182|end_char=9186
+27	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	start_char=9187|end_char=9188
+28	never	never	ADV	RB	PronType=Neg	29	advmod	_	start_char=9189|end_char=9194
+29	imagined	imagine	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	26	acl:relcl	_	start_char=9195|end_char=9203
+30	would	would	AUX	MD	VerbForm=Fin	32	aux	_	start_char=9204|end_char=9209
+31	be	be	AUX	VB	VerbForm=Inf	32	cop	_	start_char=9210|end_char=9212
+32	possible	possible	ADJ	JJ	Degree=Pos	26	acl:relcl	_	start_char=9213|end_char=9221|SpaceAfter=No
+33	.	.	PUNCT	.	_	10	punct	_	start_char=9221|end_char=9222|SpacesAfter=\n\n
+
+# text = Surely, we can tap into that kind of talent and tools to stop babies dying in the poor world.
+# sent_id = 126
+1	Surely	surely	ADV	RB	_	5	advmod	_	start_char=9224|end_char=9230|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=9230|end_char=9231
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=9232|end_char=9234
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	start_char=9235|end_char=9238
+5	tap	tap	VERB	VB	VerbForm=Inf	0	root	_	start_char=9239|end_char=9242
+6	into	into	ADP	IN	_	8	case	_	start_char=9243|end_char=9247
+7	that	that	DET	DT	Number=Sing|PronType=Dem	8	det	_	start_char=9248|end_char=9252
+8	kind	kind	NOUN	NN	Number=Sing	5	obl	_	start_char=9253|end_char=9257
+9	of	of	ADP	IN	_	10	case	_	start_char=9258|end_char=9260
+10	talent	talent	NOUN	NN	Number=Sing	8	nmod	_	start_char=9261|end_char=9267
+11	and	and	CCONJ	CC	_	12	cc	_	start_char=9268|end_char=9271
+12	tools	tool	NOUN	NNS	Number=Plur	10	conj	_	start_char=9272|end_char=9277
+13	to	to	PART	TO	_	14	mark	_	start_char=9278|end_char=9280
+14	stop	stop	VERB	VB	VerbForm=Inf	5	advcl	_	start_char=9281|end_char=9285
+15	babies	baby	NOUN	NNS	Number=Plur	14	obj	_	start_char=9286|end_char=9292
+16	dying	die	VERB	VBG	VerbForm=Ger	15	acl	_	start_char=9293|end_char=9298
+17	in	in	ADP	IN	_	20	case	_	start_char=9299|end_char=9301
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=9302|end_char=9305
+19	poor	poor	ADJ	JJ	Degree=Pos	20	amod	_	start_char=9306|end_char=9310
+20	world	world	NOUN	NN	Number=Sing	16	obl	_	start_char=9311|end_char=9316|SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	start_char=9316|end_char=9317|SpacesAfter=\n\n
+
+# text = If we did, then every parent would have the confidence to name their child the moment that child is born, daring to dream that that child's life will be measured in decades, not days.
+# sent_id = 127
+1	If	if	SCONJ	IN	_	3	mark	_	start_char=9319|end_char=9321
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=9322|end_char=9324
+3	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	9	advcl	_	start_char=9325|end_char=9328|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=9328|end_char=9329
+5	then	then	ADV	RB	PronType=Dem	9	advmod	_	start_char=9330|end_char=9334
+6	every	every	DET	DT	PronType=Tot	7	det	_	start_char=9335|end_char=9340
+7	parent	parent	NOUN	NN	Number=Sing	9	nsubj	_	start_char=9341|end_char=9347
+8	would	would	AUX	MD	VerbForm=Fin	9	aux	_	start_char=9348|end_char=9353
+9	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=9354|end_char=9358
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=9359|end_char=9362
+11	confidence	confidence	NOUN	NN	Number=Sing	9	obj	_	start_char=9363|end_char=9373
+12	to	to	PART	TO	_	13	mark	_	start_char=9374|end_char=9376
+13	name	name	VERB	VB	VerbForm=Inf	11	acl	_	start_char=9377|end_char=9381
+14	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=9382|end_char=9387
+15	child	child	NOUN	NN	Number=Sing	13	obj	_	start_char=9388|end_char=9393
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=9394|end_char=9397
+17	moment	moment	NOUN	NN	Number=Sing	13	obl:unmarked	_	start_char=9398|end_char=9404
+18	that	that	DET	DT	Number=Sing|PronType=Dem	19	det	_	start_char=9405|end_char=9409
+19	child	child	NOUN	NN	Number=Sing	21	nsubj:pass	_	start_char=9410|end_char=9415
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	start_char=9416|end_char=9418
+21	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	acl:relcl	_	start_char=9419|end_char=9423|SpaceAfter=No
+22	,	,	PUNCT	,	_	23	punct	_	start_char=9423|end_char=9424
+23	daring	dare	VERB	VBG	Tense=Pres|VerbForm=Part	9	advcl	_	start_char=9425|end_char=9431
+24	to	to	PART	TO	_	25	mark	_	start_char=9432|end_char=9434
+25	dream	dream	VERB	VB	VerbForm=Inf	23	xcomp	_	start_char=9435|end_char=9440
+26	that	that	SCONJ	IN	_	33	mark	_	start_char=9441|end_char=9445
+27	that	that	DET	DT	Number=Sing|PronType=Dem	28	det	_	start_char=9446|end_char=9450
+28-29	child's	_	_	_	_	_	_	_	start_char=9451|end_char=9458
+28	child	child	NOUN	NN	Number=Sing	30	nmod:poss	_	start_char=9451|end_char=9456
+29	's	's	PART	POS	_	28	case	_	start_char=9456|end_char=9458
+30	life	life	NOUN	NN	Number=Sing	33	nsubj:pass	_	start_char=9459|end_char=9463
+31	will	will	AUX	MD	VerbForm=Fin	33	aux	_	start_char=9464|end_char=9468
+32	be	be	AUX	VB	VerbForm=Inf	33	aux:pass	_	start_char=9469|end_char=9471
+33	measured	measure	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	25	ccomp	_	start_char=9472|end_char=9480
+34	in	in	ADP	IN	_	35	case	_	start_char=9481|end_char=9483
+35	decades	decade	NOUN	NNS	Number=Plur	33	obl	_	start_char=9484|end_char=9491|SpaceAfter=No
+36	,	,	PUNCT	,	_	38	punct	_	start_char=9491|end_char=9492
+37	not	not	PART	RB	Polarity=Neg	38	advmod	_	start_char=9493|end_char=9496
+38	days	day	NOUN	NNS	Number=Plur	33	obl:unmarked	_	start_char=9497|end_char=9501|SpaceAfter=No
+39	.	.	PUNCT	.	_	9	punct	_	start_char=9501|end_char=9502|SpacesAfter=\n\n
+
+# text = Thank you.
+# sent_id = 128
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9504|end_char=9509
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	start_char=9510|end_char=9513|SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	_	start_char=9513|end_char=9514|SpaceAfter=No
+

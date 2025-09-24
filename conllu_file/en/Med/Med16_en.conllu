@@ -1,0 +1,1548 @@
+# text = How I'm preparing to get Alzheimer's
+# sent_id = 0
+1	How	how	ADV	WRB	PronType=Int	4	advmod	_	start_char=0|end_char=3
+2-3	I'm	_	_	_	_	_	_	_	start_char=4|end_char=7
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=4|end_char=5
+3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=5|end_char=7
+4	preparing	prepare	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=8|end_char=17
+5	to	to	PART	TO	_	6	mark	_	start_char=18|end_char=20
+6	get	get	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=21|end_char=24
+7-8	Alzheimer's	_	_	_	_	_	_	_	start_char=25|end_char=36|SpacesAfter=\n\n
+7	Alzheimer	Alzheimer	PROPN	NNP	Number=Sing	6	obj	_	start_char=25|end_char=34
+8	's	's	PART	POS	_	7	case	_	start_char=34|end_char=36
+
+# text = I'd like to talk about my dad.
+# sent_id = 1
+1-2	I'd	_	_	_	_	_	_	_	start_char=38|end_char=41
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=38|end_char=39
+2	'd	would	AUX	MD	VerbForm=Fin	3	aux	_	start_char=39|end_char=41
+3	like	like	VERB	VB	VerbForm=Inf	0	root	_	start_char=42|end_char=46
+4	to	to	PART	TO	_	5	mark	_	start_char=47|end_char=49
+5	talk	talk	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=50|end_char=54
+6	about	about	ADP	IN	_	8	case	_	start_char=55|end_char=60
+7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=61|end_char=63
+8	dad	dad	NOUN	NN	Number=Sing	5	obl	_	start_char=64|end_char=67|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	start_char=67|end_char=68|SpacesAfter=\n\n
+
+# text = My dad has Alzheimer's disease.
+# sent_id = 2
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=70|end_char=72
+2	dad	dad	NOUN	NN	Number=Sing	3	nsubj	_	start_char=73|end_char=76
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=77|end_char=80
+4-5	Alzheimer's	_	_	_	_	_	_	_	start_char=81|end_char=92
+4	Alzheimer	Alzheimer	PROPN	NNP	Number=Sing	6	nmod:poss	_	start_char=81|end_char=90
+5	's	's	PART	POS	_	4	case	_	start_char=90|end_char=92
+6	disease	disease	NOUN	NN	Number=Sing	3	obj	_	start_char=93|end_char=100|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=100|end_char=101|SpacesAfter=\n\n
+
+# text = He started showing the symptoms about 12 years ago, and he was officially diagnosed in 2005.
+# sent_id = 3
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=103|end_char=105
+2	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=106|end_char=113
+3	showing	show	VERB	VBG	VerbForm=Ger	2	xcomp	_	start_char=114|end_char=121
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=122|end_char=125
+5	symptoms	symptom	NOUN	NNS	Number=Plur	3	obj	_	start_char=126|end_char=134
+6	about	about	ADP	IN	_	8	case	_	start_char=135|end_char=140
+7	12	12	NUM	CD	NumForm=Digit|NumType=Card	8	nummod	_	start_char=141|end_char=143
+8	years	year	NOUN	NNS	Number=Plur	9	obl:unmarked	_	start_char=144|end_char=149
+9	ago	ago	ADV	RB	_	3	advmod	_	start_char=150|end_char=153|SpaceAfter=No
+10	,	,	PUNCT	,	_	15	punct	_	start_char=153|end_char=154
+11	and	and	CCONJ	CC	_	15	cc	_	start_char=155|end_char=158
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj:pass	_	start_char=159|end_char=161
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	start_char=162|end_char=165
+14	officially	officially	ADV	RB	_	15	advmod	_	start_char=166|end_char=176
+15	diagnosed	diagnose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	start_char=177|end_char=186
+16	in	in	ADP	IN	_	17	case	_	start_char=187|end_char=189
+17	2005	2005	NUM	CD	NumForm=Digit|NumType=Card	15	obl	_	start_char=190|end_char=194|SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	start_char=194|end_char=195|SpacesAfter=\n\n
+
+# text = Now he's really pretty sick.
+# sent_id = 4
+1	Now	now	ADV	RB	_	6	advmod	_	start_char=197|end_char=200
+2-3	he's	_	_	_	_	_	_	_	start_char=201|end_char=205
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=201|end_char=203
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=203|end_char=205
+4	really	really	ADV	RB	_	6	advmod	_	start_char=206|end_char=212
+5	pretty	pretty	ADV	RB	_	6	advmod	_	start_char=213|end_char=219
+6	sick	sick	ADJ	JJ	Degree=Pos	0	root	_	start_char=220|end_char=224|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=224|end_char=225|SpacesAfter=\n\n
+
+# text = He needs help eating, he needs help getting dressed, he doesn't really know where he is or when it is, and it's been really, really hard.
+# sent_id = 5
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=227|end_char=229
+2	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=230|end_char=235
+3	help	help	NOUN	NN	Number=Sing	2	obj	_	start_char=236|end_char=240
+4	eating	eat	VERB	VBG	VerbForm=Ger	2	xcomp	_	start_char=241|end_char=247|SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	start_char=247|end_char=248
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=249|end_char=251
+7	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=252|end_char=257
+8	help	help	NOUN	NN	Number=Sing	7	obj	_	start_char=258|end_char=262
+9	getting	get	AUX	VBG	Tense=Pres|VerbForm=Part	10	aux:pass	_	start_char=263|end_char=270
+10	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	xcomp	_	start_char=271|end_char=278|SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	_	start_char=278|end_char=279
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	start_char=280|end_char=282
+13-14	doesn't	_	_	_	_	_	_	_	start_char=283|end_char=290
+13	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=283|end_char=287
+14	n't	not	PART	RB	Polarity=Neg	16	advmod	_	start_char=287|end_char=290
+15	really	really	ADV	RB	_	16	advmod	_	start_char=291|end_char=297
+16	know	know	VERB	VB	VerbForm=Inf	2	parataxis	_	start_char=298|end_char=302
+17	where	where	ADV	WRB	PronType=Int	16	ccomp	_	start_char=303|end_char=308
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	start_char=309|end_char=311
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=312|end_char=314
+20	or	or	CCONJ	CC	_	23	cc	_	start_char=315|end_char=317
+21	when	when	ADV	WRB	PronType=Int	23	advmod	_	start_char=318|end_char=322
+22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	start_char=323|end_char=325
+23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=326|end_char=328|SpaceAfter=No
+24	,	,	PUNCT	,	_	32	punct	_	start_char=328|end_char=329
+25	and	and	CCONJ	CC	_	32	cc	_	start_char=330|end_char=333
+26-27	it's	_	_	_	_	_	_	_	start_char=334|end_char=338
+26	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	start_char=334|end_char=336
+27	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	start_char=336|end_char=338
+28	been	be	AUX	VBN	Tense=Past|VerbForm=Part	32	cop	_	start_char=339|end_char=343
+29	really	really	ADV	RB	_	32	advmod	_	start_char=344|end_char=350|SpaceAfter=No
+30	,	,	PUNCT	,	_	29	punct	_	start_char=350|end_char=351
+31	really	really	ADV	RB	_	32	advmod	_	start_char=352|end_char=358
+32	hard	hard	ADJ	JJ	Degree=Pos	16	conj	_	start_char=359|end_char=363|SpaceAfter=No
+33	.	.	PUNCT	.	_	2	punct	_	start_char=363|end_char=364|SpacesAfter=\n\n
+
+# text = My dad was my hero and my mentor for most of my life, and I've spent the last decade watching him disappear.
+# sent_id = 6
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=366|end_char=368
+2	dad	dad	NOUN	NN	Number=Sing	5	nsubj	_	start_char=369|end_char=372
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=373|end_char=376
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=377|end_char=379
+5	hero	hero	NOUN	NN	Number=Sing	0	root	_	start_char=380|end_char=384
+6	and	and	CCONJ	CC	_	8	cc	_	start_char=385|end_char=388
+7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=389|end_char=391
+8	mentor	mentor	NOUN	NN	Number=Sing	5	conj	_	start_char=392|end_char=398
+9	for	for	ADP	IN	_	10	case	_	start_char=399|end_char=402
+10	most	most	ADJ	JJS	Degree=Sup	5	obl	_	start_char=403|end_char=407
+11	of	of	ADP	IN	_	13	case	_	start_char=408|end_char=410
+12	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=411|end_char=413
+13	life	life	NOUN	NN	Number=Sing	10	nmod	_	start_char=414|end_char=418|SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	start_char=418|end_char=419
+15	and	and	CCONJ	CC	_	18	cc	_	start_char=420|end_char=423
+16-17	I've	_	_	_	_	_	_	_	start_char=424|end_char=428
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	start_char=424|end_char=425
+17	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=425|end_char=428
+18	spent	spend	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	start_char=429|end_char=434
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=435|end_char=438
+20	last	last	ADJ	JJ	Degree=Pos	21	amod	_	start_char=439|end_char=443
+21	decade	decade	NOUN	NN	Number=Sing	18	obj	_	start_char=444|end_char=450
+22	watching	watch	VERB	VBG	Tense=Pres|VerbForm=Part	18	advcl	_	start_char=451|end_char=459
+23	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	start_char=460|end_char=463
+24	disappear	disappear	VERB	VB	VerbForm=Inf	22	xcomp	_	start_char=464|end_char=473|SpaceAfter=No
+25	.	.	PUNCT	.	_	5	punct	_	start_char=473|end_char=474|SpacesAfter=\n\n
+
+# text = My dad's not alone.
+# sent_id = 7
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=476|end_char=478
+2-3	dad's	_	_	_	_	_	_	_	start_char=479|end_char=484
+2	dad	dad	NOUN	NN	Number=Sing	5	nsubj	_	start_char=479|end_char=482
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=482|end_char=484
+4	not	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=485|end_char=488
+5	alone	alone	ADJ	JJ	Degree=Pos	0	root	_	start_char=489|end_char=494|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=494|end_char=495|SpacesAfter=\n\n
+
+# text = There's about 35 million people globally living with some kind of dementia, and by 2030 they're expecting that to double to 70 million.
+# sent_id = 8
+1-2	There's	_	_	_	_	_	_	_	start_char=497|end_char=504
+1	There	there	PRON	EX	_	2	expl	_	start_char=497|end_char=502
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=502|end_char=504
+3	about	about	ADV	RB	_	4	advmod	_	start_char=505|end_char=510
+4	35	35	NUM	CD	NumForm=Digit|NumType=Card	5	compound	_	start_char=511|end_char=513
+5	million	million	NUM	CD	NumForm=Word|NumType=Card	6	nummod	_	start_char=514|end_char=521
+6	people	person	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=522|end_char=528
+7	globally	globally	ADV	RB	_	8	advmod	_	start_char=529|end_char=537
+8	living	live	VERB	VBG	VerbForm=Ger	6	acl	_	start_char=538|end_char=544
+9	with	with	ADP	IN	_	11	case	_	start_char=545|end_char=549
+10	some	some	DET	DT	PronType=Ind	11	det	_	start_char=550|end_char=554
+11	kind	kind	NOUN	NN	Number=Sing	8	obl	_	start_char=555|end_char=559
+12	of	of	ADP	IN	_	13	case	_	start_char=560|end_char=562
+13	dementia	dementia	NOUN	NN	Number=Sing	11	nmod	_	start_char=563|end_char=571|SpaceAfter=No
+14	,	,	PUNCT	,	_	20	punct	_	start_char=571|end_char=572
+15	and	and	CCONJ	CC	_	20	cc	_	start_char=573|end_char=576
+16	by	by	ADP	IN	_	17	case	_	start_char=577|end_char=579
+17	2030	2030	NUM	CD	NumForm=Digit|NumType=Card	20	obl	_	start_char=580|end_char=584
+18-19	they're	_	_	_	_	_	_	_	start_char=585|end_char=592
+18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	start_char=585|end_char=589
+19	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	start_char=589|end_char=592
+20	expecting	expect	VERB	VBG	Tense=Pres|VerbForm=Part	2	conj	_	start_char=593|end_char=602
+21	that	that	SCONJ	IN	_	23	mark	_	start_char=603|end_char=607
+22	to	to	PART	TO	_	23	mark	_	start_char=608|end_char=610
+23	double	double	VERB	VB	VerbForm=Inf	20	xcomp	_	start_char=611|end_char=617
+24	to	to	ADP	IN	_	26	case	_	start_char=618|end_char=620
+25	70	70	NUM	CD	NumForm=Digit|NumType=Card	26	compound	_	start_char=621|end_char=623
+26	million	million	NUM	CD	NumForm=Word|NumType=Card	23	obl	_	start_char=624|end_char=631|SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	start_char=631|end_char=632|SpacesAfter=\n\n
+
+# text = That's a lot of people.
+# sent_id = 9
+1-2	That's	_	_	_	_	_	_	_	start_char=634|end_char=640
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	start_char=634|end_char=638
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=638|end_char=640
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=641|end_char=642
+4	lot	lot	NOUN	NN	Number=Sing	0	root	_	start_char=643|end_char=646
+5	of	of	ADP	IN	_	6	case	_	start_char=647|end_char=649
+6	people	person	NOUN	NNS	Number=Plur	4	nmod	_	start_char=650|end_char=656|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=656|end_char=657|SpacesAfter=\n\n
+
+# text = Dementia scares us.
+# sent_id = 10
+1	Dementia	dementia	NOUN	NN	Number=Sing	2	nsubj	_	start_char=659|end_char=667
+2	scares	scare	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=668|end_char=674
+3	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	obj	_	start_char=675|end_char=677|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=677|end_char=678|SpacesAfter=\n\n
+
+# text = The confused faces and shaky hands of people who have dementia, the big numbers of people who get it, they frighten us.
+# sent_id = 11
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=680|end_char=683
+2	confused	confuse	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	start_char=684|end_char=692
+3	faces	face	NOUN	NNS	Number=Plur	23	nsubj	_	start_char=693|end_char=698
+4	and	and	CCONJ	CC	_	6	cc	_	start_char=699|end_char=702
+5	shaky	shaky	ADJ	JJ	Degree=Pos	6	amod	_	start_char=703|end_char=708
+6	hands	hand	NOUN	NNS	Number=Plur	3	conj	_	start_char=709|end_char=714
+7	of	of	ADP	IN	_	8	case	_	start_char=715|end_char=717
+8	people	person	NOUN	NNS	Number=Plur	6	nmod	_	start_char=718|end_char=724
+9	who	who	PRON	WP	PronType=Rel	10	nsubj	_	start_char=725|end_char=728
+10	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	start_char=729|end_char=733
+11	dementia	dementia	NOUN	NN	Number=Sing	10	obj	_	start_char=734|end_char=742|SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	start_char=742|end_char=743
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=744|end_char=747
+14	big	big	ADJ	JJ	Degree=Pos	15	amod	_	start_char=748|end_char=751
+15	numbers	number	NOUN	NNS	Number=Plur	3	conj	_	start_char=752|end_char=759
+16	of	of	ADP	IN	_	17	case	_	start_char=760|end_char=762
+17	people	person	NOUN	NNS	Number=Plur	15	nmod	_	start_char=763|end_char=769
+18	who	who	PRON	WP	PronType=Rel	19	nsubj	_	start_char=770|end_char=773
+19	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	start_char=774|end_char=777
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	_	start_char=778|end_char=780|SpaceAfter=No
+21	,	,	PUNCT	,	_	3	punct	_	start_char=780|end_char=781
+22	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	start_char=782|end_char=786
+23	frighten	frighten	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=787|end_char=795
+24	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	23	obj	_	start_char=796|end_char=798|SpaceAfter=No
+25	.	.	PUNCT	.	_	23	punct	_	start_char=798|end_char=799|SpacesAfter=\n\n
+
+# text = And because of that fear, we tend to do one of two things:
+# sent_id = 12
+1	And	and	CCONJ	CC	_	8	cc	_	start_char=801|end_char=804
+2	because	because	ADP	IN	ExtPos=ADP	5	case	_	start_char=805|end_char=812
+3	of	of	ADP	IN	_	2	fixed	_	start_char=813|end_char=815
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	start_char=816|end_char=820
+5	fear	fear	NOUN	NN	Number=Sing	8	obl	_	start_char=821|end_char=825|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	start_char=825|end_char=826
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=827|end_char=829
+8	tend	tend	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=830|end_char=834
+9	to	to	PART	TO	_	10	mark	_	start_char=835|end_char=837
+10	do	do	VERB	VB	VerbForm=Inf	8	xcomp	_	start_char=838|end_char=840
+11	one	one	NUM	CD	NumForm=Word|NumType=Card	10	obj	_	start_char=841|end_char=844
+12	of	of	ADP	IN	_	14	case	_	start_char=845|end_char=847
+13	two	two	NUM	CD	NumForm=Word|NumType=Card	14	nummod	_	start_char=848|end_char=851
+14	things	thing	NOUN	NNS	Number=Plur	11	nmod	_	start_char=852|end_char=858|SpaceAfter=No
+15	:	:	PUNCT	:	_	8	punct	_	start_char=858|end_char=859|SpacesAfter=\n\n
+
+# text = We go into denial:
+# sent_id = 13
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=861|end_char=863
+2	go	go	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=864|end_char=866
+3	into	into	ADP	IN	_	4	case	_	start_char=867|end_char=871
+4	denial	denial	NOUN	NN	Number=Sing	2	obl	_	start_char=872|end_char=878|SpaceAfter=No
+5	:	:	PUNCT	:	_	2	punct	_	start_char=878|end_char=879|SpacesAfter=\n\n
+
+# text = "It's not me, it has nothing to do with me, it's never going to happen to me."
+# sent_id = 14
+1	"	"	PUNCT	``	_	5	punct	_	start_char=881|end_char=882|SpaceAfter=No
+2-3	It's	_	_	_	_	_	_	_	start_char=882|end_char=886
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=882|end_char=884
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=884|end_char=886
+4	not	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=887|end_char=890
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=891|end_char=893|SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	start_char=893|end_char=894
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=895|end_char=897
+8	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	start_char=898|end_char=901
+9	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	8	obj	_	start_char=902|end_char=909
+10	to	to	PART	TO	_	11	mark	_	start_char=910|end_char=912
+11	do	do	VERB	VB	VerbForm=Inf	9	acl	_	start_char=913|end_char=915
+12	with	with	ADP	IN	_	13	case	_	start_char=916|end_char=920
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obl	_	start_char=921|end_char=923|SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	start_char=923|end_char=924
+15-16	it's	_	_	_	_	_	_	_	start_char=925|end_char=929
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	start_char=925|end_char=927
+16	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=927|end_char=929
+17	never	never	ADV	RB	PronType=Neg	18	advmod	_	start_char=930|end_char=935
+18	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	5	parataxis	_	start_char=936|end_char=941
+19	to	to	PART	TO	_	20	mark	_	start_char=942|end_char=944
+20	happen	happen	VERB	VB	VerbForm=Inf	18	xcomp	_	start_char=945|end_char=951
+21	to	to	ADP	IN	_	22	case	_	start_char=952|end_char=954
+22	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	20	obl	_	start_char=955|end_char=957|SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	start_char=957|end_char=958|SpaceAfter=No
+24	"	"	PUNCT	''	_	5	punct	_	start_char=958|end_char=959|SpacesAfter=\n\n
+
+# text = Or, we decide that we're going to prevent dementia, and it will never happen to us because we're going to do everything right and it won't come and get us.
+# sent_id = 15
+1	Or	or	CCONJ	CC	_	4	cc	_	start_char=961|end_char=963|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=963|end_char=964
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=965|end_char=967
+4	decide	decide	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=968|end_char=974
+5	that	that	SCONJ	IN	_	8	mark	_	start_char=975|end_char=979
+6-7	we're	_	_	_	_	_	_	_	start_char=980|end_char=985
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=980|end_char=982
+7	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=982|end_char=985
+8	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	4	ccomp	_	start_char=986|end_char=991
+9	to	to	PART	TO	_	10	mark	_	start_char=992|end_char=994
+10	prevent	prevent	VERB	VB	VerbForm=Inf	8	xcomp	_	start_char=995|end_char=1002
+11	dementia	dementia	NOUN	NN	Number=Sing	10	obj	_	start_char=1003|end_char=1011|SpaceAfter=No
+12	,	,	PUNCT	,	_	17	punct	_	start_char=1011|end_char=1012
+13	and	and	CCONJ	CC	_	17	cc	_	start_char=1013|end_char=1016
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	start_char=1017|end_char=1019
+15	will	will	AUX	MD	VerbForm=Fin	17	aux	_	start_char=1020|end_char=1024
+16	never	never	ADV	RB	PronType=Neg	17	advmod	_	start_char=1025|end_char=1030
+17	happen	happen	VERB	VB	VerbForm=Inf	4	conj	_	start_char=1031|end_char=1037
+18	to	to	ADP	IN	_	19	case	_	start_char=1038|end_char=1040
+19	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	17	obl	_	start_char=1041|end_char=1043
+20	because	because	SCONJ	IN	_	23	mark	_	start_char=1044|end_char=1051
+21-22	we're	_	_	_	_	_	_	_	start_char=1052|end_char=1057
+21	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	23	nsubj	_	start_char=1052|end_char=1054
+22	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	start_char=1054|end_char=1057
+23	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	17	advcl	_	start_char=1058|end_char=1063
+24	to	to	PART	TO	_	25	mark	_	start_char=1064|end_char=1066
+25	do	do	VERB	VB	VerbForm=Inf	23	xcomp	_	start_char=1067|end_char=1069
+26	everything	everything	PRON	NN	Number=Sing|PronType=Tot	25	obj	_	start_char=1070|end_char=1080
+27	right	right	ADJ	JJ	Degree=Pos	25	advmod	_	start_char=1081|end_char=1086
+28	and	and	CCONJ	CC	_	32	cc	_	start_char=1087|end_char=1090
+29	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	start_char=1091|end_char=1093
+30-31	won't	_	_	_	_	_	_	_	start_char=1094|end_char=1099
+30	wo	will	AUX	MD	VerbForm=Fin	32	aux	_	start_char=1094|end_char=1096
+31	n't	not	PART	RB	Polarity=Neg	32	advmod	_	start_char=1096|end_char=1099
+32	come	come	VERB	VB	VerbForm=Inf	23	conj	_	start_char=1100|end_char=1104
+33	and	and	CCONJ	CC	_	34	cc	_	start_char=1105|end_char=1108
+34	get	get	VERB	VB	VerbForm=Inf	32	conj	_	start_char=1109|end_char=1112
+35	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	34	obj	_	start_char=1113|end_char=1115|SpaceAfter=No
+36	.	.	PUNCT	.	_	4	punct	_	start_char=1115|end_char=1116|SpacesAfter=\n\n
+
+# text = I'm looking for a third way:
+# sent_id = 16
+1-2	I'm	_	_	_	_	_	_	_	start_char=1118|end_char=1121
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=1118|end_char=1119
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=1119|end_char=1121
+3	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=1122|end_char=1129
+4	for	for	ADP	IN	_	7	case	_	start_char=1130|end_char=1133
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=1134|end_char=1135
+6	third	third	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	7	amod	_	start_char=1136|end_char=1141
+7	way	way	NOUN	NN	Number=Sing	3	obl	_	start_char=1142|end_char=1145|SpaceAfter=No
+8	:	:	PUNCT	:	_	3	punct	_	start_char=1145|end_char=1146|SpacesAfter=\n\n
+
+# text = I'm preparing to get Alzheimer's disease.
+# sent_id = 17
+1-2	I'm	_	_	_	_	_	_	_	start_char=1148|end_char=1151
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=1148|end_char=1149
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=1149|end_char=1151
+3	preparing	prepare	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=1152|end_char=1161
+4	to	to	PART	TO	_	5	mark	_	start_char=1162|end_char=1164
+5	get	get	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=1165|end_char=1168
+6-7	Alzheimer's	_	_	_	_	_	_	_	start_char=1169|end_char=1180
+6	Alzheimer	Alzheimer	PROPN	NNP	Number=Sing	8	nmod:poss	_	start_char=1169|end_char=1178
+7	's	's	PART	POS	_	6	case	_	start_char=1178|end_char=1180
+8	disease	disease	NOUN	NN	Number=Sing	5	obj	_	start_char=1181|end_char=1188|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	start_char=1188|end_char=1189|SpacesAfter=\n\n
+
+# text = Prevention is good, and I'm doing the things that you can do to prevent Alzheimer's.
+# sent_id = 18
+1	Prevention	prevention	NOUN	NN	Number=Sing	3	nsubj	_	start_char=1191|end_char=1201
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=1202|end_char=1204
+3	good	good	ADJ	JJ	Degree=Pos	0	root	_	start_char=1205|end_char=1209|SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	start_char=1209|end_char=1210
+5	and	and	CCONJ	CC	_	8	cc	_	start_char=1211|end_char=1214
+6-7	I'm	_	_	_	_	_	_	_	start_char=1215|end_char=1218
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=1215|end_char=1216
+7	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=1216|end_char=1218
+8	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	3	conj	_	start_char=1219|end_char=1224
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=1225|end_char=1228
+10	things	thing	NOUN	NNS	Number=Plur	8	obj	_	start_char=1229|end_char=1235
+11	that	that	PRON	WDT	PronType=Rel	16	obj	_	start_char=1236|end_char=1240
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	start_char=1241|end_char=1244
+13	can	can	AUX	MD	VerbForm=Fin	14	aux	_	start_char=1245|end_char=1248
+14	do	do	VERB	VB	VerbForm=Inf	10	acl:relcl	_	start_char=1249|end_char=1251
+15	to	to	PART	TO	_	16	mark	_	start_char=1252|end_char=1254
+16	prevent	prevent	VERB	VB	VerbForm=Inf	14	advcl	_	start_char=1255|end_char=1262
+17-18	Alzheimer's	_	_	_	_	_	_	_	start_char=1263|end_char=1274|SpaceAfter=No
+17	Alzheimer	Alzheimer	PROPN	NNP	Number=Sing	16	obj	_	start_char=1263|end_char=1272
+18	's	's	PART	POS	_	17	case	_	start_char=1272|end_char=1274
+19	.	.	PUNCT	.	_	3	punct	_	start_char=1274|end_char=1275|SpacesAfter=\n\n
+
+# text = I'm eating right, I'm exercising every day, I'm keeping my mind active, that's what the research says you should do.
+# sent_id = 19
+1-2	I'm	_	_	_	_	_	_	_	start_char=1277|end_char=1280
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=1277|end_char=1278
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=1278|end_char=1280
+3	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=1281|end_char=1287
+4	right	right	ADV	RB	_	3	advmod	_	start_char=1288|end_char=1293|SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	start_char=1293|end_char=1294
+6-7	I'm	_	_	_	_	_	_	_	start_char=1295|end_char=1298
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=1295|end_char=1296
+7	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=1296|end_char=1298
+8	exercising	exercising	VERB	VBG	Tense=Pres|VerbForm=Part	3	parataxis	_	start_char=1299|end_char=1309
+9	every	every	DET	DT	PronType=Tot	10	det	_	start_char=1310|end_char=1315
+10	day	day	NOUN	NN	Number=Sing	8	obl:unmarked	_	start_char=1316|end_char=1319|SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	start_char=1319|end_char=1320
+12-13	I'm	_	_	_	_	_	_	_	start_char=1321|end_char=1324
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=1321|end_char=1322
+13	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=1322|end_char=1324
+14	keeping	keep	VERB	VBG	Tense=Pres|VerbForm=Part	3	parataxis	_	start_char=1325|end_char=1332
+15	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=1333|end_char=1335
+16	mind	mind	NOUN	NN	Number=Sing	14	obj	_	start_char=1336|end_char=1340
+17	active	active	ADJ	JJ	Degree=Pos	14	xcomp	_	start_char=1341|end_char=1347|SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	_	start_char=1347|end_char=1348
+19-20	that's	_	_	_	_	_	_	_	start_char=1349|end_char=1355
+19	that	that	PRON	DT	Number=Sing|PronType=Dem	21	nsubj	_	start_char=1349|end_char=1353
+20	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	start_char=1353|end_char=1355
+21	what	what	PRON	WP	PronType=Rel	3	parataxis	_	start_char=1356|end_char=1360
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	start_char=1361|end_char=1364
+23	research	research	NOUN	NN	Number=Sing	24	nsubj	_	start_char=1365|end_char=1373
+24	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	start_char=1374|end_char=1378
+25	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	27	nsubj	_	start_char=1379|end_char=1382
+26	should	should	AUX	MD	VerbForm=Fin	27	aux	_	start_char=1383|end_char=1389
+27	do	do	VERB	VB	VerbForm=Inf	24	ccomp	_	start_char=1390|end_char=1392|SpaceAfter=No
+28	.	.	PUNCT	.	_	3	punct	_	start_char=1392|end_char=1393|SpacesAfter=\n\n
+
+# text = But the research also shows that there's nothing that will 100 percent protect you.
+# sent_id = 20
+1	But	but	CCONJ	CC	_	5	cc	_	start_char=1395|end_char=1398
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=1399|end_char=1402
+3	research	research	NOUN	NN	Number=Sing	5	nsubj	_	start_char=1403|end_char=1411
+4	also	also	ADV	RB	_	5	advmod	_	start_char=1412|end_char=1416
+5	shows	show	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1417|end_char=1422
+6	that	that	SCONJ	IN	_	8	mark	_	start_char=1423|end_char=1427
+7-8	there's	_	_	_	_	_	_	_	start_char=1428|end_char=1435
+7	there	there	PRON	EX	_	8	expl	_	start_char=1428|end_char=1433
+8	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	start_char=1433|end_char=1435
+9	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	8	nsubj	_	start_char=1436|end_char=1443
+10	that	that	PRON	WDT	PronType=Rel	14	nsubj	_	start_char=1444|end_char=1448
+11	will	will	AUX	MD	VerbForm=Fin	14	aux	_	start_char=1449|end_char=1453
+12	100	100	NUM	CD	NumForm=Digit|NumType=Card	13	nummod	_	start_char=1454|end_char=1457
+13	percent	percent	NOUN	NN	Number=Sing	14	obl:unmarked	_	start_char=1458|end_char=1465
+14	protect	protect	VERB	VB	VerbForm=Inf	9	acl:relcl	_	start_char=1466|end_char=1473
+15	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	14	obj	_	start_char=1474|end_char=1477|SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	start_char=1477|end_char=1478|SpacesAfter=\n\n
+
+# text = If the monster wants you, the monster's gonna get you.
+# sent_id = 21
+1	If	if	SCONJ	IN	_	4	mark	_	start_char=1480|end_char=1482
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=1483|end_char=1486
+3	monster	monster	NOUN	NN	Number=Sing	4	nsubj	_	start_char=1487|end_char=1494
+4	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	start_char=1495|end_char=1500
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	start_char=1501|end_char=1504|SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	start_char=1504|end_char=1505
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=1506|end_char=1509
+8-9	monster's	_	_	_	_	_	_	_	start_char=1510|end_char=1519
+8	monster	monster	NOUN	NN	Number=Sing	10	nsubj	_	start_char=1510|end_char=1517
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=1517|end_char=1519
+10-11	gonna	_	_	_	_	_	_	_	start_char=1520|end_char=1525
+10	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	0	root	_	start_char=1520|end_char=1523
+11	na	to	PART	TO	_	12	mark	_	start_char=1523|end_char=1525
+12	get	get	VERB	VB	VerbForm=Inf	10	xcomp	_	start_char=1526|end_char=1529
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	obj	_	start_char=1530|end_char=1533|SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	start_char=1533|end_char=1534|SpacesAfter=\n\n
+
+# text = That's what happened with my dad.
+# sent_id = 22
+1-2	That's	_	_	_	_	_	_	_	start_char=1536|end_char=1542
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	start_char=1536|end_char=1540
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=1540|end_char=1542
+3	what	what	PRON	WP	PronType=Rel	0	root	_	start_char=1543|end_char=1547
+4	happened	happen	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	_	start_char=1548|end_char=1556
+5	with	with	ADP	IN	_	7	case	_	start_char=1557|end_char=1561
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=1562|end_char=1564
+7	dad	dad	NOUN	NN	Number=Sing	4	obl	_	start_char=1565|end_char=1568|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=1568|end_char=1569|SpacesAfter=\n\n
+
+# text = My dad was a bilingual college professor.
+# sent_id = 23
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=1571|end_char=1573
+2	dad	dad	NOUN	NN	Number=Sing	7	nsubj	_	start_char=1574|end_char=1577
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	start_char=1578|end_char=1581
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=1582|end_char=1583
+5	bilingual	bilingual	ADJ	JJ	Degree=Pos	7	amod	_	start_char=1584|end_char=1593
+6	college	college	NOUN	NN	Number=Sing	7	compound	_	start_char=1594|end_char=1601
+7	professor	professor	NOUN	NN	Number=Sing	0	root	_	start_char=1602|end_char=1611|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	start_char=1611|end_char=1612|SpacesAfter=\n\n
+
+# text = His hobbies were chess, bridge and writing op-eds.
+# sent_id = 24
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=1614|end_char=1617
+2	hobbies	hobby	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=1618|end_char=1625
+3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=1626|end_char=1630
+4	chess	chess	NOUN	NN	Number=Sing	0	root	_	start_char=1631|end_char=1636|SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	start_char=1636|end_char=1637
+6	bridge	bridge	NOUN	NN	Number=Sing	4	conj	_	start_char=1638|end_char=1644
+7	and	and	CCONJ	CC	_	8	cc	_	start_char=1645|end_char=1648
+8	writing	writing	NOUN	NN	Number=Sing	4	conj	_	start_char=1649|end_char=1656
+9	op	op	NOUN	NN	Number=Sing	11	compound	_	start_char=1657|end_char=1659|SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	9	punct	_	start_char=1659|end_char=1660|SpaceAfter=No
+11	eds	eds	NOUN	NNS	Number=Plur	4	conj	_	start_char=1660|end_char=1663|SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	start_char=1663|end_char=1664|SpacesAfter=\n\n
+
+# text = He got dementia anyway.
+# sent_id = 25
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=1666|end_char=1668
+2	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1669|end_char=1672
+3	dementia	dementia	NOUN	NN	Number=Sing	2	obj	_	start_char=1673|end_char=1681
+4	anyway	anyway	ADV	RB	_	2	advmod	_	start_char=1682|end_char=1688|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=1688|end_char=1689|SpacesAfter=\n\n
+
+# text = If the monster wants you, the monster's gonna get you.
+# sent_id = 26
+1	If	if	SCONJ	IN	_	4	mark	_	start_char=1691|end_char=1693
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=1694|end_char=1697
+3	monster	monster	NOUN	NN	Number=Sing	4	nsubj	_	start_char=1698|end_char=1705
+4	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	start_char=1706|end_char=1711
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	start_char=1712|end_char=1715|SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	start_char=1715|end_char=1716
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=1717|end_char=1720
+8-9	monster's	_	_	_	_	_	_	_	start_char=1721|end_char=1730
+8	monster	monster	NOUN	NN	Number=Sing	10	nsubj	_	start_char=1721|end_char=1728
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=1728|end_char=1730
+10-11	gonna	_	_	_	_	_	_	_	start_char=1731|end_char=1736
+10	gon	go	VERB	VBG	Style=Vrnc|Tense=Pres|VerbForm=Part	0	root	_	start_char=1731|end_char=1734
+11	na	to	PART	TO	_	12	mark	_	start_char=1734|end_char=1736
+12	get	get	VERB	VB	VerbForm=Inf	10	xcomp	_	start_char=1737|end_char=1740
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	obj	_	start_char=1741|end_char=1744|SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	start_char=1744|end_char=1745|SpacesAfter=\n\n
+
+# text = Especially if you're me, 'cause Alzheimer's tends to run in families.
+# sent_id = 27
+1	Especially	especially	ADV	RB	_	5	advmod	_	start_char=1747|end_char=1757
+2	if	if	SCONJ	IN	_	5	mark	_	start_char=1758|end_char=1760
+3-4	you're	_	_	_	_	_	_	_	start_char=1761|end_char=1767
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=1761|end_char=1764
+4	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1764|end_char=1767
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	advcl	_	start_char=1768|end_char=1770|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	start_char=1770|end_char=1771
+7	'	'	PUNCT	''	_	5	punct	_	start_char=1772|end_char=1773|SpaceAfter=No
+8	cause	cause	SCONJ	IN	_	11	mark	_	start_char=1773|end_char=1778
+9-10	Alzheimer's	_	_	_	_	_	_	_	start_char=1779|end_char=1790
+9	Alzheimer	Alzheimer	PROPN	NNP	Number=Sing	11	nsubj	_	start_char=1779|end_char=1788
+10	's	's	PART	POS	_	9	case	_	start_char=1788|end_char=1790
+11	tends	tend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1791|end_char=1796
+12	to	to	PART	TO	_	13	mark	_	start_char=1797|end_char=1799
+13	run	run	VERB	VB	VerbForm=Inf	11	xcomp	_	start_char=1800|end_char=1803
+14	in	in	ADP	IN	_	15	case	_	start_char=1804|end_char=1806
+15	families	family	NOUN	NNS	Number=Plur	13	obl	_	start_char=1807|end_char=1815|SpaceAfter=No
+16	.	.	PUNCT	.	_	11	punct	_	start_char=1815|end_char=1816|SpacesAfter=\n\n
+
+# text = So I'm preparing to get Alzheimer's disease.
+# sent_id = 28
+1	So	so	ADV	RB	_	4	advmod	_	start_char=1818|end_char=1820
+2-3	I'm	_	_	_	_	_	_	_	start_char=1821|end_char=1824
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=1821|end_char=1822
+3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=1822|end_char=1824
+4	preparing	prepare	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=1825|end_char=1834
+5	to	to	PART	TO	_	6	mark	_	start_char=1835|end_char=1837
+6	get	get	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=1838|end_char=1841
+7-8	Alzheimer's	_	_	_	_	_	_	_	start_char=1842|end_char=1853
+7	Alzheimer	Alzheimer	PROPN	NNP	Number=Sing	9	nmod:poss	_	start_char=1842|end_char=1851
+8	's	's	PART	POS	_	7	case	_	start_char=1851|end_char=1853
+9	disease	disease	NOUN	NN	Number=Sing	6	obj	_	start_char=1854|end_char=1861|SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	start_char=1861|end_char=1862|SpacesAfter=\n\n
+
+# text = Based on what I've learned from taking care of my father, and researching what it's like to live with dementia, I'm focusing on three things in my preparation:
+# sent_id = 29
+1	Based	base	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	27	advcl	_	start_char=1864|end_char=1869
+2	on	on	ADP	IN	_	3	case	_	start_char=1870|end_char=1872
+3	what	what	PRON	WP	PronType=Rel	1	obl	_	start_char=1873|end_char=1877
+4-5	I've	_	_	_	_	_	_	_	start_char=1878|end_char=1882
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=1878|end_char=1879
+5	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=1879|end_char=1882
+6	learned	learn	VERB	VBN	Tense=Past|VerbForm=Part	3	acl:relcl	_	start_char=1883|end_char=1890
+7	from	from	SCONJ	IN	_	8	mark	_	start_char=1891|end_char=1895
+8	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part	6	advcl	_	start_char=1896|end_char=1902
+9	care	care	NOUN	NN	Number=Sing	8	obj	_	start_char=1903|end_char=1907
+10	of	of	ADP	IN	_	12	case	_	start_char=1908|end_char=1910
+11	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=1911|end_char=1913
+12	father	father	NOUN	NN	Number=Sing	8	obl	_	start_char=1914|end_char=1920|SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	start_char=1920|end_char=1921
+14	and	and	CCONJ	CC	_	15	cc	_	start_char=1922|end_char=1925
+15	researching	research	VERB	VBG	Tense=Pres|VerbForm=Part	8	conj	_	start_char=1926|end_char=1937
+16	what	what	PRON	WP	PronType=Rel	15	obj	_	start_char=1938|end_char=1942
+17-18	it's	_	_	_	_	_	_	_	start_char=1943|end_char=1947
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	start_char=1943|end_char=1945
+18	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=1945|end_char=1947
+19	like	like	ADP	IN	_	16	acl:relcl	_	start_char=1948|end_char=1952
+20	to	to	PART	TO	_	21	mark	_	start_char=1953|end_char=1955
+21	live	live	VERB	VB	VerbForm=Inf	19	xcomp	_	start_char=1956|end_char=1960
+22	with	with	ADP	IN	_	23	case	_	start_char=1961|end_char=1965
+23	dementia	dementia	NOUN	NN	Number=Sing	21	obl	_	start_char=1966|end_char=1974|SpaceAfter=No
+24	,	,	PUNCT	,	_	1	punct	_	start_char=1974|end_char=1975
+25-26	I'm	_	_	_	_	_	_	_	start_char=1976|end_char=1979
+25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	start_char=1976|end_char=1977
+26	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	aux	_	start_char=1977|end_char=1979
+27	focusing	focus	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=1980|end_char=1988
+28	on	on	ADP	IN	_	30	case	_	start_char=1989|end_char=1991
+29	three	three	NUM	CD	NumForm=Word|NumType=Card	30	nummod	_	start_char=1992|end_char=1997
+30	things	thing	NOUN	NNS	Number=Plur	27	obl	_	start_char=1998|end_char=2004
+31	in	in	ADP	IN	_	33	case	_	start_char=2005|end_char=2007
+32	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	33	nmod:poss	_	start_char=2008|end_char=2010
+33	preparation	preparation	NOUN	NN	Number=Sing	27	obl	_	start_char=2011|end_char=2022|SpaceAfter=No
+34	:	:	PUNCT	:	_	27	punct	_	start_char=2022|end_char=2023|SpacesAfter=\n\n
+
+# text = I'm changing what I do for fun, I'm working to build my physical strength, and -- this is the hard one -- I'm trying to become a better person.
+# sent_id = 30
+1-2	I'm	_	_	_	_	_	_	_	start_char=2025|end_char=2028
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=2025|end_char=2026
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=2026|end_char=2028
+3	changing	change	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=2029|end_char=2037
+4	what	what	PRON	WP	PronType=Rel	3	obj	_	start_char=2038|end_char=2042
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=2043|end_char=2044
+6	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	start_char=2045|end_char=2047
+7	for	for	ADP	IN	_	8	case	_	start_char=2048|end_char=2051
+8	fun	fun	NOUN	NN	Number=Sing	6	obl	_	start_char=2052|end_char=2055|SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	start_char=2055|end_char=2056
+10-11	I'm	_	_	_	_	_	_	_	start_char=2057|end_char=2060
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=2057|end_char=2058
+11	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=2058|end_char=2060
+12	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	3	parataxis	_	start_char=2061|end_char=2068
+13	to	to	PART	TO	_	14	mark	_	start_char=2069|end_char=2071
+14	build	build	VERB	VB	VerbForm=Inf	12	xcomp	_	start_char=2072|end_char=2077
+15	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	start_char=2078|end_char=2080
+16	physical	physical	ADJ	JJ	Degree=Pos	17	amod	_	start_char=2081|end_char=2089
+17	strength	strength	NOUN	NN	Number=Sing	14	obj	_	start_char=2090|end_char=2098|SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	_	start_char=2098|end_char=2099
+19	and	and	CCONJ	CC	_	25	cc	_	start_char=2100|end_char=2103
+20	--	--	PUNCT	,	_	19	punct	_	start_char=2104|end_char=2106
+21	this	this	PRON	DT	Number=Sing|PronType=Dem	25	nsubj	_	start_char=2107|end_char=2111
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	start_char=2112|end_char=2114
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	start_char=2115|end_char=2118
+24	hard	hard	ADJ	JJ	Degree=Pos	25	amod	_	start_char=2119|end_char=2123
+25	one	one	NOUN	NN	Number=Sing	3	conj	_	start_char=2124|end_char=2127
+26	--	--	PUNCT	,	_	29	punct	_	start_char=2128|end_char=2130
+27-28	I'm	_	_	_	_	_	_	_	start_char=2131|end_char=2134
+27	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	start_char=2131|end_char=2132
+28	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	aux	_	start_char=2132|end_char=2134
+29	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	25	parataxis	_	start_char=2135|end_char=2141
+30	to	to	PART	TO	_	31	mark	_	start_char=2142|end_char=2144
+31	become	become	VERB	VB	VerbForm=Inf	29	xcomp	_	start_char=2145|end_char=2151
+32	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	start_char=2152|end_char=2153
+33	better	good	ADJ	JJR	Degree=Cmp	34	amod	_	start_char=2154|end_char=2160
+34	person	person	NOUN	NN	Number=Sing	31	xcomp	_	start_char=2161|end_char=2167|SpaceAfter=No
+35	.	.	PUNCT	.	_	3	punct	_	start_char=2167|end_char=2168|SpacesAfter=\n\n
+
+# text = Let's start with the hobbies.
+# sent_id = 31
+1-2	Let's	_	_	_	_	_	_	_	start_char=2170|end_char=2175
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=2170|end_char=2173
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	start_char=2173|end_char=2175
+3	start	start	VERB	VB	VerbForm=Inf	1	xcomp	_	start_char=2176|end_char=2181
+4	with	with	ADP	IN	_	6	case	_	start_char=2182|end_char=2186
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=2187|end_char=2190
+6	hobbies	hobby	NOUN	NNS	Number=Plur	3	obl	_	start_char=2191|end_char=2198|SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	start_char=2198|end_char=2199|SpacesAfter=\n\n
+
+# text = When you get dementia, it gets harder and harder to enjoy yourself.
+# sent_id = 32
+1	When	when	ADV	WRB	PronType=Int	3	advmod	_	start_char=2201|end_char=2205
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=2206|end_char=2209
+3	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	advcl	_	start_char=2210|end_char=2213
+4	dementia	dementia	NOUN	NN	Number=Sing	3	obj	_	start_char=2214|end_char=2222|SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	start_char=2222|end_char=2223
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=2224|end_char=2226
+7	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2227|end_char=2231
+8	harder	hard	ADJ	JJR	Degree=Cmp	7	xcomp	_	start_char=2232|end_char=2238
+9	and	and	CCONJ	CC	_	10	cc	_	start_char=2239|end_char=2242
+10	harder	hard	ADJ	JJR	Degree=Cmp	8	conj	_	start_char=2243|end_char=2249
+11	to	to	PART	TO	_	12	mark	_	start_char=2250|end_char=2252
+12	enjoy	enjoy	VERB	VB	VerbForm=Inf	7	advcl	_	start_char=2253|end_char=2258
+13	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	12	obj	_	start_char=2259|end_char=2267|SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	start_char=2267|end_char=2268|SpacesAfter=\n\n
+
+# text = You can't sit and have long talks with your old friends, because you don't know who they are.
+# sent_id = 33
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=2270|end_char=2273
+2-3	can't	_	_	_	_	_	_	_	start_char=2274|end_char=2279
+2	ca	can	AUX	MD	VerbForm=Fin	4	aux	_	start_char=2274|end_char=2276
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=2276|end_char=2279
+4	sit	sit	VERB	VB	VerbForm=Inf	0	root	_	start_char=2280|end_char=2283
+5	and	and	CCONJ	CC	_	6	cc	_	start_char=2284|end_char=2287
+6	have	have	VERB	VB	VerbForm=Inf	4	conj	_	start_char=2288|end_char=2292
+7	long	long	ADJ	JJ	Degree=Pos	8	amod	_	start_char=2293|end_char=2297
+8	talks	talk	NOUN	NNS	Number=Plur	6	obj	_	start_char=2298|end_char=2303
+9	with	with	ADP	IN	_	12	case	_	start_char=2304|end_char=2308
+10	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=2309|end_char=2313
+11	old	old	ADJ	JJ	Degree=Pos	12	amod	_	start_char=2314|end_char=2317
+12	friends	friend	NOUN	NNS	Number=Plur	8	nmod	_	start_char=2318|end_char=2325|SpaceAfter=No
+13	,	,	PUNCT	,	_	18	punct	_	start_char=2325|end_char=2326
+14	because	because	SCONJ	IN	_	18	mark	_	start_char=2327|end_char=2334
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	nsubj	_	start_char=2335|end_char=2338
+16-17	don't	_	_	_	_	_	_	_	start_char=2339|end_char=2344
+16	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=2339|end_char=2341
+17	n't	not	PART	RB	Polarity=Neg	18	advmod	_	start_char=2341|end_char=2344
+18	know	know	VERB	VB	VerbForm=Inf	4	advcl	_	start_char=2345|end_char=2349
+19	who	who	PRON	WP	PronType=Int	18	obj	_	start_char=2350|end_char=2353
+20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	start_char=2354|end_char=2358
+21	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	start_char=2359|end_char=2362|SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	start_char=2362|end_char=2363|SpacesAfter=\n\n
+
+# text = It's confusing to watch television, and often very frightening.
+# sent_id = 34
+1-2	It's	_	_	_	_	_	_	_	start_char=2365|end_char=2369
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=2365|end_char=2367
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=2367|end_char=2369
+3	confusing	confusing	ADJ	JJ	Degree=Pos	0	root	_	start_char=2370|end_char=2379
+4	to	to	PART	TO	_	5	mark	_	start_char=2380|end_char=2382
+5	watch	watch	VERB	VB	VerbForm=Inf	3	csubj	_	start_char=2383|end_char=2388
+6	television	television	NOUN	NN	Number=Sing	5	obj	_	start_char=2389|end_char=2399|SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	start_char=2399|end_char=2400
+8	and	and	CCONJ	CC	_	11	cc	_	start_char=2401|end_char=2404
+9	often	often	ADV	RB	_	11	advmod	_	start_char=2405|end_char=2410
+10	very	very	ADV	RB	_	11	advmod	_	start_char=2411|end_char=2415
+11	frightening	frightening	ADJ	JJ	Degree=Pos	3	conj	_	start_char=2416|end_char=2427|SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	start_char=2427|end_char=2428|SpacesAfter=\n\n
+
+# text = And reading is just about impossible.
+# sent_id = 35
+1	And	and	CCONJ	CC	_	6	cc	_	start_char=2430|end_char=2433
+2	reading	reading	NOUN	NN	Number=Sing	6	nsubj	_	start_char=2434|end_char=2441
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=2442|end_char=2444
+4	just	just	ADV	RB	_	6	advmod	_	start_char=2445|end_char=2449
+5	about	about	ADV	RB	_	6	advmod	_	start_char=2450|end_char=2455
+6	impossible	impossible	ADJ	JJ	Degree=Pos	0	root	_	start_char=2456|end_char=2466|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=2466|end_char=2467|SpacesAfter=\n\n
+
+# text = When you care for someone with dementia, and you get training, they train you to engage them in activities that are familiar, hands-on, open-ended.
+# sent_id = 36
+1	When	when	ADV	WRB	PronType=Int	3	advmod	_	start_char=2469|end_char=2473
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=2474|end_char=2477
+3	care	care	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	advcl	_	start_char=2478|end_char=2482
+4	for	for	ADP	IN	_	5	case	_	start_char=2483|end_char=2486
+5	someone	someone	PRON	NN	Number=Sing|PronType=Ind	3	obl	_	start_char=2487|end_char=2494
+6	with	with	ADP	IN	_	7	case	_	start_char=2495|end_char=2499
+7	dementia	dementia	NOUN	NN	Number=Sing	5	nmod	_	start_char=2500|end_char=2508|SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	start_char=2508|end_char=2509
+9	and	and	CCONJ	CC	_	11	cc	_	start_char=2510|end_char=2513
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	start_char=2514|end_char=2517
+11	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=2518|end_char=2521
+12	training	training	NOUN	NN	Number=Sing	11	obj	_	start_char=2522|end_char=2530|SpaceAfter=No
+13	,	,	PUNCT	,	_	3	punct	_	start_char=2530|end_char=2531
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	start_char=2532|end_char=2536
+15	train	train	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2537|end_char=2542
+16	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	15	obj	_	start_char=2543|end_char=2546
+17	to	to	PART	TO	_	18	mark	_	start_char=2547|end_char=2549
+18	engage	engage	VERB	VB	VerbForm=Inf	15	xcomp	_	start_char=2550|end_char=2556
+19	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	18	obj	_	start_char=2557|end_char=2561
+20	in	in	ADP	IN	_	21	case	_	start_char=2562|end_char=2564
+21	activities	activity	NOUN	NNS	Number=Plur	18	obl	_	start_char=2565|end_char=2575
+22	that	that	PRON	WDT	PronType=Rel	24	nsubj	_	start_char=2576|end_char=2580
+23	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	start_char=2581|end_char=2584
+24	familiar	familiar	ADJ	JJ	Degree=Pos	21	acl:relcl	_	start_char=2585|end_char=2593|SpaceAfter=No
+25	,	,	PUNCT	,	_	26	punct	_	start_char=2593|end_char=2594
+26	hands	hand	NOUN	NNS	Number=Plur	32	compound	_	start_char=2595|end_char=2600|SpaceAfter=No
+27	-	-	PUNCT	HYPH	_	26	punct	_	start_char=2600|end_char=2601|SpaceAfter=No
+28	on	on	ADP	IN	_	24	conj	_	start_char=2601|end_char=2603|SpaceAfter=No
+29	,	,	PUNCT	,	_	30	punct	_	start_char=2603|end_char=2604
+30	open	open	ADJ	JJ	Degree=Pos	32	amod	_	start_char=2605|end_char=2609|SpaceAfter=No
+31	-	-	PUNCT	HYPH	_	30	punct	_	start_char=2609|end_char=2610|SpaceAfter=No
+32	ended	end	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	24	conj	_	start_char=2610|end_char=2615|SpaceAfter=No
+33	.	.	PUNCT	.	_	15	punct	_	start_char=2615|end_char=2616|SpacesAfter=\n\n
+
+# text = With my dad, that turned out to be letting him fill out forms.
+# sent_id = 37
+1	With	with	ADP	IN	_	3	case	_	start_char=2618|end_char=2622
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=2623|end_char=2625
+3	dad	dad	NOUN	NN	Number=Sing	6	obl	_	start_char=2626|end_char=2629|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=2629|end_char=2630
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	start_char=2631|end_char=2635
+6	turned	turn	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2636|end_char=2642
+7	out	out	ADP	RP	_	6	compound:prt	_	start_char=2643|end_char=2646
+8	to	to	PART	TO	_	10	mark	_	start_char=2647|end_char=2649
+9	be	be	AUX	VB	VerbForm=Inf	10	aux	_	start_char=2650|end_char=2652
+10	letting	let	VERB	VBG	Tense=Pres|VerbForm=Part	6	xcomp	_	start_char=2653|end_char=2660
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	start_char=2661|end_char=2664
+12	fill	fill	VERB	VB	VerbForm=Inf	10	xcomp	_	start_char=2665|end_char=2669
+13	out	out	ADP	RP	_	12	compound:prt	_	start_char=2670|end_char=2673
+14	forms	form	NOUN	NNS	Number=Plur	12	obj	_	start_char=2674|end_char=2679|SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	start_char=2679|end_char=2680|SpacesAfter=\n\n
+
+# text = He was a college professor at a state school; he knows what paperwork looks like.
+# sent_id = 38
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=2682|end_char=2684
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=2685|end_char=2688
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=2689|end_char=2690
+4	college	college	NOUN	NN	Number=Sing	5	compound	_	start_char=2691|end_char=2698
+5	professor	professor	NOUN	NN	Number=Sing	0	root	_	start_char=2699|end_char=2708
+6	at	at	ADP	IN	_	9	case	_	start_char=2709|end_char=2711
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=2712|end_char=2713
+8	state	state	NOUN	NN	Number=Sing	9	compound	_	start_char=2714|end_char=2719
+9	school	school	NOUN	NN	Number=Sing	5	nmod	_	start_char=2720|end_char=2726|SpaceAfter=No
+10	;	;	PUNCT	:	_	12	punct	_	start_char=2726|end_char=2727
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=2728|end_char=2730
+12	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	start_char=2731|end_char=2736
+13	what	what	DET	WDT	PronType=Int	14	det	_	start_char=2737|end_char=2741
+14	paperwork	paperwork	NOUN	NN	Number=Sing	15	nsubj	_	start_char=2742|end_char=2751
+15	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	start_char=2752|end_char=2757
+16	like	like	ADP	IN	_	15	obl	_	start_char=2758|end_char=2762|SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	start_char=2762|end_char=2763|SpacesAfter=\n\n
+
+# text = He'll sign his name on every line, he'll check all the boxes, he'll put numbers in where he thinks there should be numbers.
+# sent_id = 39
+1-2	He'll	_	_	_	_	_	_	_	start_char=2765|end_char=2770
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=2765|end_char=2767
+2	'll	will	AUX	MD	VerbForm=Fin	3	aux	_	start_char=2767|end_char=2770
+3	sign	sign	VERB	VB	VerbForm=Inf	0	root	_	start_char=2771|end_char=2775
+4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=2776|end_char=2779
+5	name	name	NOUN	NN	Number=Sing	3	obj	_	start_char=2780|end_char=2784
+6	on	on	ADP	IN	_	8	case	_	start_char=2785|end_char=2787
+7	every	every	DET	DT	PronType=Tot	8	det	_	start_char=2788|end_char=2793
+8	line	line	NOUN	NN	Number=Sing	3	obl	_	start_char=2794|end_char=2798|SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	start_char=2798|end_char=2799
+10-11	he'll	_	_	_	_	_	_	_	start_char=2800|end_char=2805
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=2800|end_char=2802
+11	'll	will	AUX	MD	VerbForm=Fin	12	aux	_	start_char=2802|end_char=2805
+12	check	check	VERB	VB	VerbForm=Inf	3	parataxis	_	start_char=2806|end_char=2811
+13	all	all	DET	PDT	PronType=Tot	15	det:predet	_	start_char=2812|end_char=2815
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=2816|end_char=2819
+15	boxes	box	NOUN	NNS	Number=Plur	12	obj	_	start_char=2820|end_char=2825|SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	start_char=2825|end_char=2826
+17-18	he'll	_	_	_	_	_	_	_	start_char=2827|end_char=2832
+17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	start_char=2827|end_char=2829
+18	'll	will	AUX	MD	VerbForm=Fin	19	aux	_	start_char=2829|end_char=2832
+19	put	put	VERB	VB	VerbForm=Inf	3	parataxis	_	start_char=2833|end_char=2836
+20	numbers	number	NOUN	NNS	Number=Plur	19	obj	_	start_char=2837|end_char=2844
+21	in	in	ADP	IN	_	22	case	_	start_char=2845|end_char=2847
+22	where	where	ADV	WRB	PronType=Rel	19	obl	_	start_char=2848|end_char=2853
+23	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	start_char=2854|end_char=2856
+24	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl:relcl	_	start_char=2857|end_char=2863
+25	there	there	PRON	EX	_	27	expl	_	start_char=2864|end_char=2869
+26	should	should	AUX	MD	VerbForm=Fin	27	aux	_	start_char=2870|end_char=2876
+27	be	be	VERB	VB	VerbForm=Inf	24	ccomp	_	start_char=2877|end_char=2879
+28	numbers	number	NOUN	NNS	Number=Plur	27	nsubj	_	start_char=2880|end_char=2887|SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	start_char=2887|end_char=2888|SpacesAfter=\n\n
+
+# text = But it got me thinking, what would my caregivers do with me?
+# sent_id = 40
+1	But	but	CCONJ	CC	_	3	cc	_	start_char=2890|end_char=2893
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=2894|end_char=2896
+3	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2897|end_char=2900
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	start_char=2901|end_char=2903
+5	thinking	think	VERB	VBG	VerbForm=Ger	3	xcomp	_	start_char=2904|end_char=2912|SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	start_char=2912|end_char=2913
+7	what	what	PRON	WP	PronType=Int	11	obj	_	start_char=2914|end_char=2918
+8	would	would	AUX	MD	VerbForm=Fin	11	aux	_	start_char=2919|end_char=2924
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=2925|end_char=2927
+10	caregivers	caregiver	NOUN	NNS	Number=Plur	11	nsubj	_	start_char=2928|end_char=2938
+11	do	do	VERB	VB	VerbForm=Inf	5	ccomp	_	start_char=2939|end_char=2941
+12	with	with	ADP	IN	_	13	case	_	start_char=2942|end_char=2946
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obl	_	start_char=2947|end_char=2949|SpaceAfter=No
+14	?	?	PUNCT	.	_	3	punct	_	start_char=2949|end_char=2950|SpacesAfter=\n\n
+
+# text = I'm my father's daughter.
+# sent_id = 41
+1-2	I'm	_	_	_	_	_	_	_	start_char=2952|end_char=2955
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=2952|end_char=2953
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=2953|end_char=2955
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=2956|end_char=2958
+4-5	father's	_	_	_	_	_	_	_	start_char=2959|end_char=2967
+4	father	father	NOUN	NN	Number=Sing	6	nmod:poss	_	start_char=2959|end_char=2965
+5	's	's	PART	POS	_	4	case	_	start_char=2965|end_char=2967
+6	daughter	daughter	NOUN	NN	Number=Sing	0	root	_	start_char=2968|end_char=2976|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=2976|end_char=2977|SpacesAfter=\n\n
+
+# text = I read, I write, I think about global health a lot.
+# sent_id = 42
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=2979|end_char=2980
+2	read	read	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=2981|end_char=2985|SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	start_char=2985|end_char=2986
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=2987|end_char=2988
+5	write	write	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=2989|end_char=2994|SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	start_char=2994|end_char=2995
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=2996|end_char=2997
+8	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=2998|end_char=3003
+9	about	about	ADP	IN	_	11	case	_	start_char=3004|end_char=3009
+10	global	global	ADJ	JJ	Degree=Pos	11	amod	_	start_char=3010|end_char=3016
+11	health	health	NOUN	NN	Number=Sing	8	obl	_	start_char=3017|end_char=3023
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=3024|end_char=3025
+13	lot	lot	NOUN	NN	Number=Sing	8	obl:unmarked	_	start_char=3026|end_char=3029|SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	start_char=3029|end_char=3030|SpacesAfter=\n\n
+
+# text = Would they give me academic journals so I could scribble in the margins?
+# sent_id = 43
+1	Would	would	AUX	MD	VerbForm=Fin	3	aux	_	start_char=3032|end_char=3037
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=3038|end_char=3042
+3	give	give	VERB	VB	VerbForm=Inf	0	root	_	start_char=3043|end_char=3047
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	iobj	_	start_char=3048|end_char=3050
+5	academic	academic	ADJ	JJ	Degree=Pos	6	amod	_	start_char=3051|end_char=3059
+6	journals	journal	NOUN	NNS	Number=Plur	3	obj	_	start_char=3060|end_char=3068
+7	so	so	SCONJ	IN	_	10	mark	_	start_char=3069|end_char=3071
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=3072|end_char=3073
+9	could	could	AUX	MD	VerbForm=Fin	10	aux	_	start_char=3074|end_char=3079
+10	scribble	scribble	VERB	VB	VerbForm=Inf	3	advcl	_	start_char=3080|end_char=3088
+11	in	in	ADP	IN	_	13	case	_	start_char=3089|end_char=3091
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=3092|end_char=3095
+13	margins	margin	NOUN	NNS	Number=Plur	10	obl	_	start_char=3096|end_char=3103|SpaceAfter=No
+14	?	?	PUNCT	.	_	3	punct	_	start_char=3103|end_char=3104|SpacesAfter=\n\n
+
+# text = Would they give me charts and graphs that I could color?
+# sent_id = 44
+1	Would	would	AUX	MD	VerbForm=Fin	3	aux	_	start_char=3106|end_char=3111
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=3112|end_char=3116
+3	give	give	VERB	VB	VerbForm=Inf	0	root	_	start_char=3117|end_char=3121
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	iobj	_	start_char=3122|end_char=3124
+5	charts	chart	NOUN	NNS	Number=Plur	3	obj	_	start_char=3125|end_char=3131
+6	and	and	CCONJ	CC	_	7	cc	_	start_char=3132|end_char=3135
+7	graphs	graph	NOUN	NNS	Number=Plur	5	conj	_	start_char=3136|end_char=3142
+8	that	that	PRON	WDT	PronType=Rel	11	obj	_	start_char=3143|end_char=3147
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=3148|end_char=3149
+10	could	could	AUX	MD	VerbForm=Fin	11	aux	_	start_char=3150|end_char=3155
+11	color	color	VERB	VB	VerbForm=Inf	5	acl:relcl	_	start_char=3156|end_char=3161|SpaceAfter=No
+12	?	?	PUNCT	.	_	3	punct	_	start_char=3161|end_char=3162|SpacesAfter=\n\n
+
+# text = So I've been trying to learn to do things that are hands-on.
+# sent_id = 45
+1	So	so	ADV	RB	_	5	advmod	_	start_char=3164|end_char=3166
+2-3	I've	_	_	_	_	_	_	_	start_char=3167|end_char=3171
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=3167|end_char=3168
+3	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=3168|end_char=3171
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux	_	start_char=3172|end_char=3176
+5	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=3177|end_char=3183
+6	to	to	PART	TO	_	7	mark	_	start_char=3184|end_char=3186
+7	learn	learn	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=3187|end_char=3192
+8	to	to	PART	TO	_	9	mark	_	start_char=3193|end_char=3195
+9	do	do	VERB	VB	VerbForm=Inf	7	xcomp	_	start_char=3196|end_char=3198
+10	things	thing	NOUN	NNS	Number=Plur	9	obj	_	start_char=3199|end_char=3205
+11	that	that	PRON	WDT	PronType=Rel	15	nsubj	_	start_char=3206|end_char=3210
+12	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=3211|end_char=3214
+13	hands	hand	NOUN	NNS	Number=Plur	15	compound	_	start_char=3215|end_char=3220|SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	13	punct	_	start_char=3220|end_char=3221|SpaceAfter=No
+15	on	on	ADP	IN	_	10	acl:relcl	_	start_char=3221|end_char=3223|SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	start_char=3223|end_char=3224|SpacesAfter=\n\n
+
+# text = I've always liked to draw, so I'm doing it more even though I'm really very bad at it.
+# sent_id = 46
+1-2	I've	_	_	_	_	_	_	_	start_char=3226|end_char=3230
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=3226|end_char=3227
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=3227|end_char=3230
+3	always	always	ADV	RB	PronType=Tot	4	advmod	_	start_char=3231|end_char=3237
+4	liked	like	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=3238|end_char=3243
+5	to	to	PART	TO	_	6	mark	_	start_char=3244|end_char=3246
+6	draw	draw	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=3247|end_char=3251|SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	start_char=3251|end_char=3252
+8	so	so	ADV	RB	_	11	advmod	_	start_char=3253|end_char=3255
+9-10	I'm	_	_	_	_	_	_	_	start_char=3256|end_char=3259
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=3256|end_char=3257
+10	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=3257|end_char=3259
+11	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	4	parataxis	_	start_char=3260|end_char=3265
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	start_char=3266|end_char=3268
+13	more	more	ADV	RBR	Degree=Cmp	11	advmod	_	start_char=3269|end_char=3273
+14	even	even	ADV	RB	_	20	advmod	_	start_char=3274|end_char=3278
+15	though	though	SCONJ	IN	_	20	mark	_	start_char=3279|end_char=3285
+16-17	I'm	_	_	_	_	_	_	_	start_char=3286|end_char=3289
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	start_char=3286|end_char=3287
+17	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	cop	_	start_char=3287|end_char=3289
+18	really	really	ADV	RB	_	20	advmod	_	start_char=3290|end_char=3296
+19	very	very	ADV	RB	_	20	advmod	_	start_char=3297|end_char=3301
+20	bad	bad	ADJ	JJ	Degree=Pos	11	advcl	_	start_char=3302|end_char=3305
+21	at	at	ADP	IN	_	22	case	_	start_char=3306|end_char=3308
+22	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obl	_	start_char=3309|end_char=3311|SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	start_char=3311|end_char=3312|SpacesAfter=\n\n
+
+# text = I am learning some basic origami.
+# sent_id = 47
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=3314|end_char=3315
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=3316|end_char=3318
+3	learning	learn	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=3319|end_char=3327
+4	some	some	DET	DT	PronType=Ind	6	det	_	start_char=3328|end_char=3332
+5	basic	basic	ADJ	JJ	Degree=Pos	6	amod	_	start_char=3333|end_char=3338
+6	origami	origami	NOUN	NN	Number=Sing	3	obj	_	start_char=3339|end_char=3346|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=3346|end_char=3347|SpacesAfter=\n\n
+
+# text = I can make a really great box.
+# sent_id = 48
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=3349|end_char=3350
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=3351|end_char=3354
+3	make	make	VERB	VB	VerbForm=Inf	0	root	_	start_char=3355|end_char=3359
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=3360|end_char=3361
+5	really	really	ADV	RB	_	6	advmod	_	start_char=3362|end_char=3368
+6	great	great	ADJ	JJ	Degree=Pos	7	amod	_	start_char=3369|end_char=3374
+7	box	box	NOUN	NN	Number=Sing	3	obj	_	start_char=3375|end_char=3378|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=3378|end_char=3379|SpacesAfter=\n\n
+
+# text = And I'm teaching myself to knit, which so far I can knit a blob.
+# sent_id = 49
+1	And	and	CCONJ	CC	_	4	cc	_	start_char=3381|end_char=3384
+2-3	I'm	_	_	_	_	_	_	_	start_char=3385|end_char=3388
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=3385|end_char=3386
+3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=3386|end_char=3388
+4	teaching	teach	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=3389|end_char=3397
+5	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	iobj	_	start_char=3398|end_char=3404
+6	to	to	PART	TO	_	7	mark	_	start_char=3405|end_char=3407
+7	knit	knit	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=3408|end_char=3412|SpaceAfter=No
+8	,	,	PUNCT	,	_	14	punct	_	start_char=3412|end_char=3413
+9	which	which	PRON	WDT	PronType=Rel	14	nsubj	_	start_char=3414|end_char=3419
+10	so	so	ADV	RB	_	11	advmod	_	start_char=3420|end_char=3422
+11	far	far	ADV	RB	Degree=Pos	14	advmod	_	start_char=3423|end_char=3426
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=3427|end_char=3428
+13	can	can	AUX	MD	VerbForm=Fin	14	aux	_	start_char=3429|end_char=3432
+14	knit	knit	VERB	VB	VerbForm=Inf	7	advcl:relcl	_	start_char=3433|end_char=3437
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	start_char=3438|end_char=3439
+16	blob	blob	NOUN	NN	Number=Sing	14	obj	_	start_char=3440|end_char=3444|SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	start_char=3444|end_char=3445|SpacesAfter=\n\n
+
+# text = But, you know, it doesn't matter if I'm actually good at it.
+# sent_id = 50
+1	But	but	CCONJ	CC	_	9	cc	_	start_char=3447|end_char=3450|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=3450|end_char=3451
+3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	start_char=3452|end_char=3455
+4	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	parataxis	_	start_char=3456|end_char=3460|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=3460|end_char=3461
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	start_char=3462|end_char=3464
+7-8	doesn't	_	_	_	_	_	_	_	start_char=3465|end_char=3472
+7	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=3465|end_char=3469
+8	n't	not	PART	RB	Polarity=Neg	9	advmod	_	start_char=3469|end_char=3472
+9	matter	matter	VERB	VB	VerbForm=Inf	0	root	_	start_char=3473|end_char=3479
+10	if	if	SCONJ	IN	_	14	mark	_	start_char=3480|end_char=3482
+11-12	I'm	_	_	_	_	_	_	_	start_char=3483|end_char=3486
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=3483|end_char=3484
+12	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=3484|end_char=3486
+13	actually	actually	ADV	RB	_	14	advmod	_	start_char=3487|end_char=3495
+14	good	good	ADJ	JJ	Degree=Pos	9	advcl	_	start_char=3496|end_char=3500
+15	at	at	ADP	IN	_	16	case	_	start_char=3501|end_char=3503
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obl	_	start_char=3504|end_char=3506|SpaceAfter=No
+17	.	.	PUNCT	.	_	9	punct	_	start_char=3506|end_char=3507|SpacesAfter=\n\n
+
+# text = What matters is that my hands know how to do it.
+# sent_id = 51
+1	What	what	PRON	WP	PronType=Int	7	nsubj:outer	_	start_char=3509|end_char=3513
+2	matters	matter	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	csubj:outer	_	start_char=3514|end_char=3521
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=3522|end_char=3524
+4	that	that	SCONJ	IN	_	7	mark	_	start_char=3525|end_char=3529
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=3530|end_char=3532
+6	hands	hand	NOUN	NNS	Number=Plur	7	nsubj	_	start_char=3533|end_char=3538
+7	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3539|end_char=3543
+8	how	how	ADV	WRB	PronType=Int	7	obj	_	start_char=3544|end_char=3547
+9	to	to	PART	TO	_	10	mark	_	start_char=3548|end_char=3550
+10	do	do	VERB	VB	VerbForm=Inf	8	acl	_	start_char=3551|end_char=3553
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	start_char=3554|end_char=3556|SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	start_char=3556|end_char=3557|SpacesAfter=\n\n
+
+# text = Because the more things that are familiar, the more things my hands know how to do, the more things that I can be happy and busy doing when my brain's not running the show anymore.
+# sent_id = 52
+1	Because	because	SCONJ	IN	_	21	mark	_	start_char=3559|end_char=3566
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=3567|end_char=3570
+3	more	more	ADJ	JJR	Degree=Cmp	4	amod	_	start_char=3571|end_char=3575
+4	things	thing	NOUN	NNS	Number=Plur	21	nsubj	_	start_char=3576|end_char=3582
+5	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	start_char=3583|end_char=3587
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=3588|end_char=3591
+7	familiar	familiar	ADJ	JJ	Degree=Pos	4	acl:relcl	_	start_char=3592|end_char=3600|SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	start_char=3600|end_char=3601
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=3602|end_char=3605
+10	more	more	ADJ	JJR	Degree=Cmp	11	amod	_	start_char=3606|end_char=3610
+11	things	thing	NOUN	NNS	Number=Plur	21	nsubj	_	start_char=3611|end_char=3617
+12	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=3618|end_char=3620
+13	hands	hand	NOUN	NNS	Number=Plur	14	nsubj	_	start_char=3621|end_char=3626
+14	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	start_char=3627|end_char=3631
+15	how	how	ADV	WRB	PronType=Int	17	advmod	_	start_char=3632|end_char=3635
+16	to	to	PART	TO	_	17	mark	_	start_char=3636|end_char=3638
+17	do	do	VERB	VB	VerbForm=Inf	14	xcomp	_	start_char=3639|end_char=3641|SpaceAfter=No
+18	,	,	PUNCT	,	_	11	punct	_	start_char=3641|end_char=3642
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=3643|end_char=3646
+20	more	more	ADJ	JJR	Degree=Cmp	21	amod	_	start_char=3647|end_char=3651
+21	things	thing	NOUN	NNS	Number=Plur	0	root	_	start_char=3652|end_char=3658
+22	that	that	PRON	WDT	PronType=Rel	26	obj	_	start_char=3659|end_char=3663
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	start_char=3664|end_char=3665
+24	can	can	AUX	MD	VerbForm=Fin	26	aux	_	start_char=3666|end_char=3669
+25	be	be	AUX	VB	VerbForm=Inf	26	cop	_	start_char=3670|end_char=3672
+26	happy	happy	ADJ	JJ	Degree=Pos	21	acl:relcl	_	start_char=3673|end_char=3678
+27	and	and	CCONJ	CC	_	28	cc	_	start_char=3679|end_char=3682
+28	busy	busy	ADJ	JJ	Degree=Pos	26	conj	_	start_char=3683|end_char=3687
+29	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	26	conj	_	start_char=3688|end_char=3693
+30	when	when	ADV	WRB	PronType=Int	35	advmod	_	start_char=3694|end_char=3698
+31	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	32	nmod:poss	_	start_char=3699|end_char=3701
+32-33	brain's	_	_	_	_	_	_	_	start_char=3702|end_char=3709
+32	brain	brain	NOUN	NN	Number=Sing	35	nsubj	_	start_char=3702|end_char=3707
+33	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	start_char=3707|end_char=3709
+34	not	not	PART	RB	Polarity=Neg	35	advmod	_	start_char=3710|end_char=3713
+35	running	run	VERB	VBG	Tense=Pres|VerbForm=Part	29	advcl	_	start_char=3714|end_char=3721
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	start_char=3722|end_char=3725
+37	show	show	NOUN	NN	Number=Sing	35	obj	_	start_char=3726|end_char=3730
+38	anymore	anymore	ADV	RB	_	35	advmod	_	start_char=3731|end_char=3738|SpaceAfter=No
+39	.	.	PUNCT	.	_	21	punct	_	start_char=3738|end_char=3739|SpacesAfter=\n\n
+
+# text = They say that people who are engaged in activities are happier, easier for their caregivers to look after, and it may even slow the progress of the disease.That all seems like win to me.
+# sent_id = 53
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=3741|end_char=3745
+2	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3746|end_char=3749
+3	that	that	SCONJ	IN	_	11	mark	_	start_char=3750|end_char=3754
+4	people	person	NOUN	NNS	Number=Plur	11	nsubj	_	start_char=3755|end_char=3761
+5	who	who	PRON	WP	PronType=Rel	7	nsubj:pass	_	start_char=3762|end_char=3765
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	start_char=3766|end_char=3769
+7	engaged	engage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl:relcl	_	start_char=3770|end_char=3777
+8	in	in	ADP	IN	_	9	case	_	start_char=3778|end_char=3780
+9	activities	activity	NOUN	NNS	Number=Plur	7	obl	_	start_char=3781|end_char=3791
+10	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=3792|end_char=3795
+11	happier	happy	ADJ	JJR	Degree=Cmp	2	ccomp	_	start_char=3796|end_char=3803|SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	start_char=3803|end_char=3804
+13	easier	easy	ADJ	JJR	Degree=Cmp	11	conj	_	start_char=3805|end_char=3811
+14	for	for	SCONJ	IN	_	18	mark	_	start_char=3812|end_char=3815
+15	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=3816|end_char=3821
+16	caregivers	caregiver	NOUN	NNS	Number=Plur	18	nsubj	_	start_char=3822|end_char=3832
+17	to	to	PART	TO	_	18	mark	_	start_char=3833|end_char=3835
+18	look	look	VERB	VB	VerbForm=Inf	11	advcl	_	start_char=3836|end_char=3840
+19	after	after	ADV	RB	_	18	advmod	_	start_char=3841|end_char=3846|SpaceAfter=No
+20	,	,	PUNCT	,	_	25	punct	_	start_char=3846|end_char=3847
+21	and	and	CCONJ	CC	_	25	cc	_	start_char=3848|end_char=3851
+22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	start_char=3852|end_char=3854
+23	may	may	AUX	MD	VerbForm=Fin	25	aux	_	start_char=3855|end_char=3858
+24	even	even	ADV	RB	_	25	advmod	_	start_char=3859|end_char=3863
+25	slow	slow	VERB	VB	VerbForm=Inf	11	conj	_	start_char=3864|end_char=3868
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	start_char=3869|end_char=3872
+27	progress	progress	NOUN	NN	Number=Sing	25	obj	_	start_char=3873|end_char=3881
+28	of	of	ADP	IN	_	30	case	_	start_char=3882|end_char=3884
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	start_char=3885|end_char=3888
+30	disease	disease	NOUN	NN	Number=Sing	27	nmod	_	start_char=3889|end_char=3896|SpaceAfter=No
+31	.	.	PUNCT	.	_	34	punct	_	start_char=3896|end_char=3897|SpaceAfter=No
+32	That	that	PRON	DT	Number=Sing|PronType=Dem	34	nsubj	_	start_char=3897|end_char=3901
+33	all	all	DET	DT	PronType=Tot	32	det	_	start_char=3902|end_char=3905
+34	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=3906|end_char=3911
+35	like	like	ADP	IN	_	36	case	_	start_char=3912|end_char=3916
+36	win	win	NOUN	NN	Number=Sing	34	obl	_	start_char=3917|end_char=3920
+37	to	to	ADP	IN	_	38	case	_	start_char=3921|end_char=3923
+38	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	34	obl	_	start_char=3924|end_char=3926|SpaceAfter=No
+39	.	.	PUNCT	.	_	2	punct	_	start_char=3926|end_char=3927|SpacesAfter=\n\n
+
+# text = I want to be as happy as I can for as long as I can.
+# sent_id = 54
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=3929|end_char=3930
+2	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3931|end_char=3935
+3	to	to	PART	TO	_	6	mark	_	start_char=3936|end_char=3938
+4	be	be	AUX	VB	VerbForm=Inf	6	cop	_	start_char=3939|end_char=3941
+5	as	as	ADV	RB	_	6	advmod	_	start_char=3942|end_char=3944
+6	happy	happy	ADJ	JJ	Degree=Pos	2	xcomp	_	start_char=3945|end_char=3950
+7	as	as	SCONJ	IN	_	9	mark	_	start_char=3951|end_char=3953
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=3954|end_char=3955
+9	can	can	AUX	MD	VerbForm=Fin	6	advcl	_	start_char=3956|end_char=3959
+10	for	for	ADP	IN	_	12	case	_	start_char=3960|end_char=3963
+11	as	as	ADV	RB	_	12	advmod	_	start_char=3964|end_char=3966
+12	long	long	ADV	RB	Degree=Pos	6	obl	_	start_char=3967|end_char=3971
+13	as	as	SCONJ	IN	_	15	mark	_	start_char=3972|end_char=3974
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=3975|end_char=3976
+15	can	can	AUX	MD	VerbForm=Fin	12	advcl	_	start_char=3977|end_char=3980|SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	start_char=3980|end_char=3981|SpacesAfter=\n\n
+
+# text = A lot of people don't know that Alzheimer's actually has physical symptoms, as well as cognitive symptoms.
+# sent_id = 55
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	start_char=3983|end_char=3984
+2	lot	lot	NOUN	NN	Number=Sing	7	nsubj	_	start_char=3985|end_char=3988
+3	of	of	ADP	IN	_	4	case	_	start_char=3989|end_char=3991
+4	people	person	NOUN	NNS	Number=Plur	2	nmod	_	start_char=3992|end_char=3998
+5-6	don't	_	_	_	_	_	_	_	start_char=3999|end_char=4004
+5	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=3999|end_char=4001
+6	n't	not	PART	RB	Polarity=Neg	7	advmod	_	start_char=4001|end_char=4004
+7	know	know	VERB	VB	VerbForm=Inf	0	root	_	start_char=4005|end_char=4009
+8	that	that	SCONJ	IN	_	12	mark	_	start_char=4010|end_char=4014
+9-10	Alzheimer's	_	_	_	_	_	_	_	start_char=4015|end_char=4026
+9	Alzheimer	Alzheimer	PROPN	NNP	Number=Sing	12	nsubj	_	start_char=4015|end_char=4024
+10	's	's	PART	POS	_	9	case	_	start_char=4024|end_char=4026
+11	actually	actually	ADV	RB	_	12	advmod	_	start_char=4027|end_char=4035
+12	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	start_char=4036|end_char=4039
+13	physical	physical	ADJ	JJ	Degree=Pos	14	amod	_	start_char=4040|end_char=4048
+14	symptoms	symptom	NOUN	NNS	Number=Plur	12	obj	_	start_char=4049|end_char=4057|SpaceAfter=No
+15	,	,	PUNCT	,	_	20	punct	_	start_char=4057|end_char=4058
+16	as	as	ADV	RB	ExtPos=CCONJ	20	cc	_	start_char=4059|end_char=4061
+17	well	well	ADV	RB	Degree=Pos	16	fixed	_	start_char=4062|end_char=4066
+18	as	as	ADP	IN	_	16	fixed	_	start_char=4067|end_char=4069
+19	cognitive	cognitive	ADJ	JJ	Degree=Pos	20	amod	_	start_char=4070|end_char=4079
+20	symptoms	symptom	NOUN	NNS	Number=Plur	14	conj	_	start_char=4080|end_char=4088|SpaceAfter=No
+21	.	.	PUNCT	.	_	7	punct	_	start_char=4088|end_char=4089|SpacesAfter=\n\n
+
+# text = You lose your sense of balance, you get muscle tremors, and that tends to lead people to being less and less mobile.
+# sent_id = 56
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	start_char=4091|end_char=4094
+2	lose	lose	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4095|end_char=4099
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=4100|end_char=4104
+4	sense	sense	NOUN	NN	Number=Sing	2	obj	_	start_char=4105|end_char=4110
+5	of	of	ADP	IN	_	6	case	_	start_char=4111|end_char=4113
+6	balance	balance	NOUN	NN	Number=Sing	4	nmod	_	start_char=4114|end_char=4121|SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	start_char=4121|end_char=4122
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	start_char=4123|end_char=4126
+9	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=4127|end_char=4130
+10	muscle	muscle	NOUN	NN	Number=Sing	11	compound	_	start_char=4131|end_char=4137
+11	tremors	tremor	NOUN	NNS	Number=Plur	9	obj	_	start_char=4138|end_char=4145|SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	start_char=4145|end_char=4146
+13	and	and	CCONJ	CC	_	15	cc	_	start_char=4147|end_char=4150
+14	that	that	PRON	DT	Number=Sing|PronType=Dem	15	nsubj	_	start_char=4151|end_char=4155
+15	tends	tend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=4156|end_char=4161
+16	to	to	PART	TO	_	17	mark	_	start_char=4162|end_char=4164
+17	lead	lead	VERB	VB	VerbForm=Inf	15	xcomp	_	start_char=4165|end_char=4169
+18	people	person	NOUN	NNS	Number=Plur	17	obj	_	start_char=4170|end_char=4176
+19	to	to	SCONJ	IN	_	24	mark	_	start_char=4177|end_char=4179
+20	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	24	cop	_	start_char=4180|end_char=4185
+21	less	less	ADJ	JJR	Degree=Cmp	24	advmod	_	start_char=4186|end_char=4190
+22	and	and	CCONJ	CC	_	23	cc	_	start_char=4191|end_char=4194
+23	less	less	ADV	RBR	Degree=Cmp	21	conj	_	start_char=4195|end_char=4199
+24	mobile	mobile	ADJ	JJ	Degree=Pos	17	advcl	_	start_char=4200|end_char=4206|SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	start_char=4206|end_char=4207|SpacesAfter=\n\n
+
+# text = They get scared to walk around. They get scared to move.
+# sent_id = 57
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=4209|end_char=4213
+2	get	get	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=4214|end_char=4217
+3	scared	scared	ADJ	JJ	Degree=Pos	0	root	_	start_char=4218|end_char=4224
+4	to	to	PART	TO	_	5	mark	_	start_char=4225|end_char=4227
+5	walk	walk	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=4228|end_char=4232
+6	around	around	ADV	RB	_	5	advmod	_	start_char=4233|end_char=4239|SpaceAfter=No
+7	.	.	PUNCT	.	_	10	punct	_	start_char=4239|end_char=4240
+8	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=4241|end_char=4245
+9	get	get	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=4246|end_char=4249
+10	scared	scared	ADJ	JJ	Degree=Pos	3	parataxis	_	start_char=4250|end_char=4256
+11	to	to	PART	TO	_	12	mark	_	start_char=4257|end_char=4259
+12	move	move	VERB	VB	VerbForm=Inf	10	xcomp	_	start_char=4260|end_char=4264|SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	start_char=4264|end_char=4265|SpacesAfter=\n\n
+
+# text = So I'm doing activities that will build my sense of balance.
+# sent_id = 58
+1	So	so	ADV	RB	_	4	advmod	_	start_char=4267|end_char=4269
+2-3	I'm	_	_	_	_	_	_	_	start_char=4270|end_char=4273
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=4270|end_char=4271
+3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=4271|end_char=4273
+4	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=4274|end_char=4279
+5	activities	activity	NOUN	NNS	Number=Plur	4	obj	_	start_char=4280|end_char=4290
+6	that	that	PRON	WDT	PronType=Rel	8	nsubj	_	start_char=4291|end_char=4295
+7	will	will	AUX	MD	VerbForm=Fin	8	aux	_	start_char=4296|end_char=4300
+8	build	build	VERB	VB	VerbForm=Inf	5	acl:relcl	_	start_char=4301|end_char=4306
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=4307|end_char=4309
+10	sense	sense	NOUN	NN	Number=Sing	8	obj	_	start_char=4310|end_char=4315
+11	of	of	ADP	IN	_	12	case	_	start_char=4316|end_char=4318
+12	balance	balance	NOUN	NN	Number=Sing	10	nmod	_	start_char=4319|end_char=4326|SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	start_char=4326|end_char=4327|SpacesAfter=\n\n
+
+# text = I'm doing yoga and tai chi to improve my balance, so that when I start to lose it, I'll still be able to be mobile.
+# sent_id = 59
+1-2	I'm	_	_	_	_	_	_	_	start_char=4329|end_char=4332
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=4329|end_char=4330
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=4330|end_char=4332
+3	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=4333|end_char=4338
+4	yoga	yoga	NOUN	NN	Number=Sing	3	obj	_	start_char=4339|end_char=4343
+5	and	and	CCONJ	CC	_	7	cc	_	start_char=4344|end_char=4347
+6	tai	tai	NOUN	NN	Number=Sing	7	compound	_	start_char=4348|end_char=4351
+7	chi	chi	NOUN	NN	Number=Sing	4	conj	_	start_char=4352|end_char=4355
+8	to	to	PART	TO	_	9	mark	_	start_char=4356|end_char=4358
+9	improve	improve	VERB	VB	VerbForm=Inf	3	advcl	_	start_char=4359|end_char=4366
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=4367|end_char=4369
+11	balance	balance	NOUN	NN	Number=Sing	9	obj	_	start_char=4370|end_char=4377|SpaceAfter=No
+12	,	,	PUNCT	,	_	26	punct	_	start_char=4377|end_char=4378
+13	so	so	SCONJ	IN	ExtPos=SCONJ	26	mark	_	start_char=4379|end_char=4381
+14	that	that	SCONJ	IN	_	13	fixed	_	start_char=4382|end_char=4386
+15	when	when	ADV	WRB	PronType=Int	17	advmod	_	start_char=4387|end_char=4391
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	start_char=4392|end_char=4393
+17	start	start	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	advcl	_	start_char=4394|end_char=4399
+18	to	to	PART	TO	_	19	mark	_	start_char=4400|end_char=4402
+19	lose	lose	VERB	VB	VerbForm=Inf	17	xcomp	_	start_char=4403|end_char=4407
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	_	start_char=4408|end_char=4410|SpaceAfter=No
+21	,	,	PUNCT	,	_	17	punct	_	start_char=4410|end_char=4411
+22-23	I'll	_	_	_	_	_	_	_	start_char=4412|end_char=4416
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	start_char=4412|end_char=4413
+23	'll	will	AUX	MD	VerbForm=Fin	26	aux	_	start_char=4413|end_char=4416
+24	still	still	ADV	RB	_	26	advmod	_	start_char=4417|end_char=4422
+25	be	be	AUX	VB	VerbForm=Inf	26	cop	_	start_char=4423|end_char=4425
+26	able	able	ADJ	JJ	Degree=Pos	3	parataxis	_	start_char=4426|end_char=4430
+27	to	to	PART	TO	_	29	mark	_	start_char=4431|end_char=4433
+28	be	be	AUX	VB	VerbForm=Inf	29	cop	_	start_char=4434|end_char=4436
+29	mobile	mobile	ADJ	JJ	Degree=Pos	26	xcomp	_	start_char=4437|end_char=4443|SpaceAfter=No
+30	.	.	PUNCT	.	_	3	punct	_	start_char=4443|end_char=4444|SpacesAfter=\n\n
+
+# text = I'm doing weight-bearing exercise, so that I have the muscle strength so that when I start to wither, I have more time that I can still move around.
+# sent_id = 60
+1-2	I'm	_	_	_	_	_	_	_	start_char=4446|end_char=4449
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=4446|end_char=4447
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=4447|end_char=4449
+3	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=4450|end_char=4455
+4	weight	weight	NOUN	NN	Number=Sing	6	compound	_	start_char=4456|end_char=4462|SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	4	punct	_	start_char=4462|end_char=4463|SpaceAfter=No
+6	bearing	bear	VERB	VBG	VerbForm=Ger	7	amod	_	start_char=4463|end_char=4470
+7	exercise	exercise	NOUN	NN	Number=Sing	3	obj	_	start_char=4471|end_char=4479|SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	start_char=4479|end_char=4480
+9	so	so	SCONJ	IN	ExtPos=SCONJ	12	mark	_	start_char=4481|end_char=4483
+10	that	that	SCONJ	IN	_	9	fixed	_	start_char=4484|end_char=4488
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=4489|end_char=4490
+12	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=4491|end_char=4495
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=4496|end_char=4499
+14	muscle	muscle	NOUN	NN	Number=Sing	15	compound	_	start_char=4500|end_char=4506
+15	strength	strength	NOUN	NN	Number=Sing	12	obj	_	start_char=4507|end_char=4515
+16	so	so	SCONJ	IN	ExtPos=SCONJ	25	mark	_	start_char=4516|end_char=4518
+17	that	that	SCONJ	IN	_	16	fixed	_	start_char=4519|end_char=4523
+18	when	when	ADV	WRB	PronType=Int	20	advmod	_	start_char=4524|end_char=4528
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	start_char=4529|end_char=4530
+20	start	start	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	advcl	_	start_char=4531|end_char=4536
+21	to	to	PART	TO	_	22	mark	_	start_char=4537|end_char=4539
+22	wither	wither	VERB	VB	VerbForm=Inf	20	xcomp	_	start_char=4540|end_char=4546|SpaceAfter=No
+23	,	,	PUNCT	,	_	20	punct	_	start_char=4546|end_char=4547
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	start_char=4548|end_char=4549
+25	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=4550|end_char=4554
+26	more	more	ADJ	JJR	Degree=Cmp	27	amod	_	start_char=4555|end_char=4559
+27	time	time	NOUN	NN	Number=Sing	25	obj	_	start_char=4560|end_char=4564
+28	that	that	PRON	WDT	PronType=Rel	32	obj	_	start_char=4565|end_char=4569
+29	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	32	nsubj	_	start_char=4570|end_char=4571
+30	can	can	AUX	MD	VerbForm=Fin	32	aux	_	start_char=4572|end_char=4575
+31	still	still	ADV	RB	_	32	advmod	_	start_char=4576|end_char=4581
+32	move	move	VERB	VB	VerbForm=Inf	27	acl:relcl	_	start_char=4582|end_char=4586
+33	around	around	ADV	RB	_	32	advmod	_	start_char=4587|end_char=4593|SpaceAfter=No
+34	.	.	PUNCT	.	_	3	punct	_	start_char=4593|end_char=4594|SpacesAfter=\n\n
+
+# text = Finally, the third thing. I'm trying to become a better person.
+# sent_id = 61
+1	Finally	finally	ADV	RB	_	5	advmod	_	start_char=4596|end_char=4603|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=4603|end_char=4604
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=4605|end_char=4608
+4	third	third	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	5	amod	_	start_char=4609|end_char=4614
+5	thing	thing	NOUN	NN	Number=Sing	0	root	_	start_char=4615|end_char=4620|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=4620|end_char=4621
+7-8	I'm	_	_	_	_	_	_	_	start_char=4622|end_char=4625
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=4622|end_char=4623
+8	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=4623|end_char=4625
+9	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	5	parataxis	_	start_char=4626|end_char=4632
+10	to	to	PART	TO	_	11	mark	_	start_char=4633|end_char=4635
+11	become	become	VERB	VB	VerbForm=Inf	9	xcomp	_	start_char=4636|end_char=4642
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	start_char=4643|end_char=4644
+13	better	good	ADJ	JJR	Degree=Cmp	14	amod	_	start_char=4645|end_char=4651
+14	person	person	NOUN	NN	Number=Sing	11	xcomp	_	start_char=4652|end_char=4658|SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	start_char=4658|end_char=4659|SpacesAfter=\n\n
+
+# text = My dad was kind and loving before he had Alzheimer's, and he's kind and loving now.
+# sent_id = 62
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=4661|end_char=4663
+2	dad	dad	NOUN	NN	Number=Sing	4	nsubj	_	start_char=4664|end_char=4667
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=4668|end_char=4671
+4	kind	kind	ADJ	JJ	Degree=Pos	0	root	_	start_char=4672|end_char=4676
+5	and	and	CCONJ	CC	_	6	cc	_	start_char=4677|end_char=4680
+6	loving	loving	ADJ	JJ	Degree=Pos	4	conj	_	start_char=4681|end_char=4687
+7	before	before	SCONJ	IN	_	9	mark	_	start_char=4688|end_char=4694
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=4695|end_char=4697
+9	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	start_char=4698|end_char=4701
+10-11	Alzheimer's	_	_	_	_	_	_	_	start_char=4702|end_char=4713|SpaceAfter=No
+10	Alzheimer	Alzheimer	PROPN	NNP	Number=Sing	9	obj	_	start_char=4702|end_char=4711
+11	's	's	PART	POS	_	10	case	_	start_char=4711|end_char=4713
+12	,	,	PUNCT	,	_	18	punct	_	start_char=4713|end_char=4714
+13	and	and	CCONJ	CC	_	18	cc	_	start_char=4715|end_char=4718
+14-15	he's	_	_	_	_	_	_	_	start_char=4719|end_char=4723
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	start_char=4719|end_char=4721
+15	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=4721|end_char=4723
+16	kind	kind	NOUN	NN	ExtPos=ADV|Number=Sing	18	advmod	_	start_char=4724|end_char=4728
+17	and	and	CCONJ	CC	_	18	cc	_	start_char=4729|end_char=4732
+18	loving	loving	ADJ	JJ	Degree=Pos	9	conj	_	start_char=4733|end_char=4739
+19	now	now	ADV	RB	_	18	advmod	_	start_char=4740|end_char=4743|SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	start_char=4743|end_char=4744|SpacesAfter=\n\n
+
+# text = I've seen him lose his intellect, his sense of humor, his language skills, but I've also seen this:
+# sent_id = 63
+1-2	I've	_	_	_	_	_	_	_	start_char=4746|end_char=4750
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=4746|end_char=4747
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=4747|end_char=4750
+3	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=4751|end_char=4755
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=4756|end_char=4759
+5	lose	lose	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=4760|end_char=4764
+6	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=4765|end_char=4768
+7	intellect	intellect	NOUN	NN	Number=Sing	5	obj	_	start_char=4769|end_char=4778|SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	start_char=4778|end_char=4779
+9	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=4780|end_char=4783
+10	sense	sense	NOUN	NN	Number=Sing	7	conj	_	start_char=4784|end_char=4789
+11	of	of	ADP	IN	_	12	case	_	start_char=4790|end_char=4792
+12	humor	humor	NOUN	NN	Number=Sing	10	nmod	_	start_char=4793|end_char=4798|SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	start_char=4798|end_char=4799
+14	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=4800|end_char=4803
+15	language	language	NOUN	NN	Number=Sing	16	compound	_	start_char=4804|end_char=4812
+16	skills	skill	NOUN	NNS	Number=Plur	7	conj	_	start_char=4813|end_char=4819|SpaceAfter=No
+17	,	,	PUNCT	,	_	22	punct	_	start_char=4819|end_char=4820
+18	but	but	CCONJ	CC	_	22	cc	_	start_char=4821|end_char=4824
+19-20	I've	_	_	_	_	_	_	_	start_char=4825|end_char=4829
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	start_char=4825|end_char=4826
+20	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	start_char=4826|end_char=4829
+21	also	also	ADV	RB	_	22	advmod	_	start_char=4830|end_char=4834
+22	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	start_char=4835|end_char=4839
+23	this	this	PRON	DT	Number=Sing|PronType=Dem	22	obj	_	start_char=4840|end_char=4844|SpaceAfter=No
+24	:	:	PUNCT	:	_	3	punct	_	start_char=4844|end_char=4845|SpacesAfter=\n\n
+
+# text = He loves me, he loves my sons, he loves my brother and my mom and his caregivers.
+# sent_id = 64
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=4847|end_char=4849
+2	loves	love	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4850|end_char=4855
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	start_char=4856|end_char=4858|SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	start_char=4858|end_char=4859
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=4860|end_char=4862
+6	loves	love	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=4863|end_char=4868
+7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=4869|end_char=4871
+8	sons	son	NOUN	NNS	Number=Plur	6	obj	_	start_char=4872|end_char=4876|SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	start_char=4876|end_char=4877
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	start_char=4878|end_char=4880
+11	loves	love	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=4881|end_char=4886
+12	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=4887|end_char=4889
+13	brother	brother	NOUN	NN	Number=Sing	11	obj	_	start_char=4890|end_char=4897
+14	and	and	CCONJ	CC	_	16	cc	_	start_char=4898|end_char=4901
+15	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=4902|end_char=4904
+16	mom	mom	NOUN	NN	Number=Sing	13	conj	_	start_char=4905|end_char=4908
+17	and	and	CCONJ	CC	_	19	cc	_	start_char=4909|end_char=4912
+18	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	start_char=4913|end_char=4916
+19	caregivers	caregiver	NOUN	NNS	Number=Plur	13	conj	_	start_char=4917|end_char=4927|SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	start_char=4927|end_char=4928|SpacesAfter=\n\n
+
+# text = And that love makes us want to be around him, even now. Even when it's so hard.
+# sent_id = 65
+1	And	and	CCONJ	CC	_	4	cc	_	start_char=4930|end_char=4933
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	start_char=4934|end_char=4938
+3	love	love	NOUN	NN	Number=Sing	4	nsubj	_	start_char=4939|end_char=4943
+4	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4944|end_char=4949
+5	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	obj	_	start_char=4950|end_char=4952
+6	want	want	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=4953|end_char=4957
+7	to	to	PART	TO	_	10	mark	_	start_char=4958|end_char=4960
+8	be	be	AUX	VB	VerbForm=Inf	10	cop	_	start_char=4961|end_char=4963
+9	around	around	ADP	IN	_	10	case	_	start_char=4964|end_char=4970
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	xcomp	_	start_char=4971|end_char=4974|SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	start_char=4974|end_char=4975
+12	even	even	ADV	RB	_	13	advmod	_	start_char=4976|end_char=4980
+13	now	now	ADV	RB	_	10	advmod	_	start_char=4981|end_char=4984|SpaceAfter=No
+14	.	.	PUNCT	.	_	20	punct	_	start_char=4984|end_char=4985
+15	Even	even	ADV	RB	_	20	advmod	_	start_char=4986|end_char=4990
+16	when	when	ADV	WRB	PronType=Int	20	advmod	_	start_char=4991|end_char=4995
+17-18	it's	_	_	_	_	_	_	_	start_char=4996|end_char=5000
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	start_char=4996|end_char=4998
+18	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	start_char=4998|end_char=5000
+19	so	so	ADV	RB	_	20	advmod	_	start_char=5001|end_char=5003
+20	hard	hard	ADJ	JJ	Degree=Pos	4	advcl	_	start_char=5004|end_char=5008|SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	start_char=5008|end_char=5009|SpacesAfter=\n\n
+
+# text = When you take away everything that he ever learned in this world, his naked heart still shines.
+# sent_id = 66
+1	When	when	ADV	WRB	PronType=Int	3	advmod	_	start_char=5011|end_char=5015
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=5016|end_char=5019
+3	take	take	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	advcl	_	start_char=5020|end_char=5024
+4	away	away	ADP	RP	_	3	compound:prt	_	start_char=5025|end_char=5029
+5	everything	everything	PRON	NN	Number=Sing|PronType=Tot	3	obj	_	start_char=5030|end_char=5040
+6	that	that	PRON	WDT	PronType=Rel	9	obj	_	start_char=5041|end_char=5045
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=5046|end_char=5048
+8	ever	ever	ADV	RB	PronType=Ind	9	advmod	_	start_char=5049|end_char=5053
+9	learned	learn	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	start_char=5054|end_char=5061
+10	in	in	ADP	IN	_	12	case	_	start_char=5062|end_char=5064
+11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	start_char=5065|end_char=5069
+12	world	world	NOUN	NN	Number=Sing	9	obl	_	start_char=5070|end_char=5075|SpaceAfter=No
+13	,	,	PUNCT	,	_	3	punct	_	start_char=5075|end_char=5076
+14	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=5077|end_char=5080
+15	naked	naked	ADJ	JJ	Degree=Pos	16	amod	_	start_char=5081|end_char=5086
+16	heart	heart	NOUN	NN	Number=Sing	18	nsubj	_	start_char=5087|end_char=5092
+17	still	still	ADV	RB	_	18	advmod	_	start_char=5093|end_char=5098
+18	shines	shine	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5099|end_char=5105|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	punct	_	start_char=5105|end_char=5106|SpacesAfter=\n\n
+
+# text = I was never as kind as my dad, and I was never as loving.
+# sent_id = 67
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=5108|end_char=5109
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	cop	_	start_char=5110|end_char=5113
+3	never	never	ADV	RB	PronType=Neg	5	advmod	_	start_char=5114|end_char=5119
+4	as	as	ADV	RB	_	5	advmod	_	start_char=5120|end_char=5122
+5	kind	kind	ADJ	JJ	Degree=Pos	0	root	_	start_char=5123|end_char=5127
+6	as	as	ADP	IN	_	8	case	_	start_char=5128|end_char=5130
+7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=5131|end_char=5133
+8	dad	dad	NOUN	NN	Number=Sing	5	obl	_	start_char=5134|end_char=5137|SpaceAfter=No
+9	,	,	PUNCT	,	_	15	punct	_	start_char=5137|end_char=5138
+10	and	and	CCONJ	CC	_	15	cc	_	start_char=5139|end_char=5142
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=5143|end_char=5144
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	15	cop	_	start_char=5145|end_char=5148
+13	never	never	ADV	RB	PronType=Neg	15	advmod	_	start_char=5149|end_char=5154
+14	as	as	ADV	RB	_	15	advmod	_	start_char=5155|end_char=5157
+15	loving	loving	ADJ	JJ	Degree=Pos	5	conj	_	start_char=5158|end_char=5164|SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	start_char=5164|end_char=5165|SpacesAfter=\n\n
+
+# text = And what I need now is to learn to be like that.
+# sent_id = 68
+1	And	and	CCONJ	CC	_	8	cc	_	start_char=5167|end_char=5170
+2	what	what	PRON	WP	PronType=Int	8	nsubj:outer	_	start_char=5171|end_char=5175
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=5176|end_char=5177
+4	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	start_char=5178|end_char=5182
+5	now	now	ADV	RB	PronType=Dem	4	advmod	_	start_char=5183|end_char=5186
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=5187|end_char=5189
+7	to	to	PART	TO	_	8	mark	_	start_char=5190|end_char=5192
+8	learn	learn	VERB	VB	VerbForm=Inf	0	root	_	start_char=5193|end_char=5198
+9	to	to	PART	TO	_	12	mark	_	start_char=5199|end_char=5201
+10	be	be	AUX	VB	VerbForm=Inf	12	cop	_	start_char=5202|end_char=5204
+11	like	like	ADP	IN	_	12	case	_	start_char=5205|end_char=5209
+12	that	that	PRON	DT	Number=Sing|PronType=Dem	8	xcomp	_	start_char=5210|end_char=5214|SpaceAfter=No
+13	.	.	PUNCT	.	_	8	punct	_	start_char=5214|end_char=5215|SpacesAfter=\n\n
+
+# text = I need a heart so pure that if it's stripped bare by dementia, it will survive.
+# sent_id = 69
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=5217|end_char=5218
+2	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5219|end_char=5223
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=5224|end_char=5225
+4	heart	heart	NOUN	NN	Number=Sing	2	obj	_	start_char=5226|end_char=5231
+5	so	so	ADV	RB	_	6	advmod	_	start_char=5232|end_char=5234
+6	pure	pure	ADJ	JJ	Degree=Pos	2	advmod	_	start_char=5235|end_char=5239
+7	that	that	SCONJ	IN	_	18	mark	_	start_char=5240|end_char=5244
+8	if	if	SCONJ	IN	_	11	mark	_	start_char=5245|end_char=5247
+9-10	it's	_	_	_	_	_	_	_	start_char=5248|end_char=5252
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj:pass	_	start_char=5248|end_char=5250
+10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	start_char=5250|end_char=5252
+11	stripped	stripp	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	advcl	_	start_char=5253|end_char=5261
+12	bare	bare	ADJ	JJ	Degree=Pos	11	xcomp	_	start_char=5262|end_char=5266
+13	by	by	ADP	IN	_	14	case	_	start_char=5267|end_char=5269
+14	dementia	dementia	NOUN	NN	Number=Sing	11	obl:agent	_	start_char=5270|end_char=5278|SpaceAfter=No
+15	,	,	PUNCT	,	_	11	punct	_	start_char=5278|end_char=5279
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	start_char=5280|end_char=5282
+17	will	will	AUX	MD	VerbForm=Fin	18	aux	_	start_char=5283|end_char=5287
+18	survive	survive	VERB	VB	VerbForm=Inf	6	ccomp	_	start_char=5288|end_char=5295|SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	start_char=5295|end_char=5296|SpacesAfter=\n\n
+
+# text = I don't want to get Alzheimer's disease.
+# sent_id = 70
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=5298|end_char=5299
+2-3	don't	_	_	_	_	_	_	_	start_char=5300|end_char=5305
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=5300|end_char=5302
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=5302|end_char=5305
+4	want	want	VERB	VB	VerbForm=Inf	0	root	_	start_char=5306|end_char=5310
+5	to	to	PART	TO	_	6	mark	_	start_char=5311|end_char=5313
+6	get	get	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=5314|end_char=5317
+7-8	Alzheimer's	_	_	_	_	_	_	_	start_char=5318|end_char=5329
+7	Alzheimer	Alzheimer	PROPN	NNP	Number=Sing	9	nmod:poss	_	start_char=5318|end_char=5327
+8	's	's	PART	POS	_	7	case	_	start_char=5327|end_char=5329
+9	disease	disease	NOUN	NN	Number=Sing	6	obj	_	start_char=5330|end_char=5337|SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	start_char=5337|end_char=5338|SpacesAfter=\n\n
+
+# text = What I want is a cure in the next 20 years, soon enough to protect me.
+# sent_id = 71
+1	What	what	PRON	WP	PronType=Int	6	nsubj	_	start_char=5340|end_char=5344
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=5345|end_char=5346
+3	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	start_char=5347|end_char=5351
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=5352|end_char=5354
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=5355|end_char=5356
+6	cure	cure	NOUN	NN	Number=Sing	0	root	_	start_char=5357|end_char=5361
+7	in	in	ADP	IN	_	11	case	_	start_char=5362|end_char=5364
+8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=5365|end_char=5368
+9	next	next	ADJ	JJ	Degree=Pos	11	amod	_	start_char=5369|end_char=5373
+10	20	20	NUM	CD	NumForm=Digit|NumType=Card	11	nummod	_	start_char=5374|end_char=5376
+11	years	year	NOUN	NNS	Number=Plur	6	nmod	_	start_char=5377|end_char=5382|SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	start_char=5382|end_char=5383
+13	soon	soon	ADV	RB	Degree=Pos	14	advmod	_	start_char=5384|end_char=5388
+14	enough	enough	ADV	RB	_	6	advmod	_	start_char=5389|end_char=5395
+15	to	to	PART	TO	_	16	mark	_	start_char=5396|end_char=5398
+16	protect	protect	VERB	VB	VerbForm=Inf	14	advcl	_	start_char=5399|end_char=5406
+17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obj	_	start_char=5407|end_char=5409|SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	start_char=5409|end_char=5410|SpacesAfter=\n\n
+
+# text = But if it comes for me, I'm going to be ready.
+# sent_id = 72
+1	But	but	CCONJ	CC	_	10	cc	_	start_char=5412|end_char=5415
+2	if	if	SCONJ	IN	_	4	mark	_	start_char=5416|end_char=5418
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=5419|end_char=5421
+4	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	start_char=5422|end_char=5427
+5	for	for	ADP	IN	_	6	case	_	start_char=5428|end_char=5431
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	start_char=5432|end_char=5434|SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	start_char=5434|end_char=5435
+8-9	I'm	_	_	_	_	_	_	_	start_char=5436|end_char=5439
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=5436|end_char=5437
+9	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=5437|end_char=5439
+10	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=5440|end_char=5445
+11	to	to	PART	TO	_	13	mark	_	start_char=5446|end_char=5448
+12	be	be	AUX	VB	VerbForm=Inf	13	cop	_	start_char=5449|end_char=5451
+13	ready	ready	ADJ	JJ	Degree=Pos	10	xcomp	_	start_char=5452|end_char=5457|SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	start_char=5457|end_char=5458|SpacesAfter=\n\n
+
+# text = Thank you.
+# sent_id = 73
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5460|end_char=5465
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	start_char=5466|end_char=5469|SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	_	start_char=5469|end_char=5470|SpaceAfter=No
+
