@@ -1,0 +1,1630 @@
+# text = A smart loan for people with no credit history (yet)
+# sent_id = 0
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=0|end_char=1
+2	smart	smart	ADJ	JJ	Degree=Pos	3	amod	_	start_char=2|end_char=7
+3	loan	loan	NOUN	NN	Number=Sing	0	root	_	start_char=8|end_char=12
+4	for	for	ADP	IN	_	5	case	_	start_char=13|end_char=16
+5	people	person	NOUN	NNS	Number=Plur	3	nmod	_	start_char=17|end_char=23
+6	with	with	ADP	IN	_	9	case	_	start_char=24|end_char=28
+7	no	no	DET	DT	PronType=Neg	9	det	_	start_char=29|end_char=31
+8	credit	credit	NOUN	NN	Number=Sing	9	compound	_	start_char=32|end_char=38
+9	history	history	NOUN	NN	Number=Sing	5	nmod	_	start_char=39|end_char=46
+10	(	(	PUNCT	-LRB-	_	11	punct	_	start_char=47|end_char=48|SpaceAfter=No
+11	yet	yet	ADV	RB	_	3	advmod	_	start_char=48|end_char=51|SpaceAfter=No
+12	)	)	PUNCT	-RRB-	_	11	punct	_	start_char=51|end_char=52|SpacesAfter=\n\n
+
+# text = How much do you need to know about a person before you'd feel comfortable making a loan?
+# sent_id = 1
+1	How	how	ADV	WRB	PronType=Int	2	advmod	_	start_char=54|end_char=57
+2	much	much	ADV	RB	Degree=Pos	5	advmod	_	start_char=58|end_char=62
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=63|end_char=65
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=66|end_char=69
+5	need	need	VERB	VB	VerbForm=Inf	0	root	_	start_char=70|end_char=74
+6	to	to	PART	TO	_	7	mark	_	start_char=75|end_char=77
+7	know	know	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=78|end_char=82
+8	about	about	ADP	IN	_	10	case	_	start_char=83|end_char=88
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=89|end_char=90
+10	person	person	NOUN	NN	Number=Sing	7	obl	_	start_char=91|end_char=97
+11	before	before	SCONJ	IN	_	14	mark	_	start_char=98|end_char=104
+12-13	you'd	_	_	_	_	_	_	_	start_char=105|end_char=110
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	start_char=105|end_char=108
+13	'd	would	AUX	MD	VerbForm=Fin	14	aux	_	start_char=108|end_char=110
+14	feel	feel	VERB	VB	VerbForm=Inf	7	advcl	_	start_char=111|end_char=115
+15	comfortable	comfortable	ADJ	JJ	Degree=Pos	14	xcomp	_	start_char=116|end_char=127
+16	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	15	advcl	_	start_char=128|end_char=134
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	start_char=135|end_char=136
+18	loan	loan	NOUN	NN	Number=Sing	16	obj	_	start_char=137|end_char=141|SpaceAfter=No
+19	?	?	PUNCT	.	_	5	punct	_	start_char=141|end_char=142|SpacesAfter=\n\n
+
+# text = Suppose you wanted to lend 1,000 dollars to the person sitting two rows behind you.
+# sent_id = 2
+1	Suppose	suppose	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=144|end_char=151
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=152|end_char=155
+3	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	1	ccomp	_	start_char=156|end_char=162
+4	to	to	PART	TO	_	5	mark	_	start_char=163|end_char=165
+5	lend	lend	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=166|end_char=170
+6	1,000	1000	NUM	CD	NumForm=Digit|NumType=Card	7	nummod	_	start_char=171|end_char=176
+7	dollars	dollar	NOUN	NNS	Number=Plur	5	obj	_	start_char=177|end_char=184
+8	to	to	ADP	IN	_	10	case	_	start_char=185|end_char=187
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=188|end_char=191
+10	person	person	NOUN	NN	Number=Sing	5	obl	_	start_char=192|end_char=198
+11	sitting	sit	VERB	VBG	VerbForm=Ger	10	acl	_	start_char=199|end_char=206
+12	two	two	NUM	CD	NumForm=Word|NumType=Card	13	nummod	_	start_char=207|end_char=210
+13	rows	row	NOUN	NNS	Number=Plur	11	obj	_	start_char=211|end_char=215
+14	behind	behind	ADP	IN	_	15	case	_	start_char=216|end_char=222
+15	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	11	obl	_	start_char=223|end_char=226|SpaceAfter=No
+16	.	.	PUNCT	.	_	1	punct	_	start_char=226|end_char=227|SpacesAfter=\n\n
+
+# text = What would you need to know about that person before you'd feel comfortable?
+# sent_id = 3
+1	What	what	PRON	WP	PronType=Int	6	obj	_	start_char=229|end_char=233
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	start_char=234|end_char=239
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=240|end_char=243
+4	need	need	VERB	VB	VerbForm=Inf	0	root	_	start_char=244|end_char=248
+5	to	to	PART	TO	_	6	mark	_	start_char=249|end_char=251
+6	know	know	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=252|end_char=256
+7	about	about	ADP	IN	_	9	case	_	start_char=257|end_char=262
+8	that	that	DET	DT	Number=Sing|PronType=Dem	9	det	_	start_char=263|end_char=267
+9	person	person	NOUN	NN	Number=Sing	6	obl	_	start_char=268|end_char=274
+10	before	before	SCONJ	IN	_	13	mark	_	start_char=275|end_char=281
+11-12	you'd	_	_	_	_	_	_	_	start_char=282|end_char=287
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	start_char=282|end_char=285
+12	'd	would	AUX	MD	VerbForm=Fin	13	aux	_	start_char=285|end_char=287
+13	feel	feel	VERB	VB	VerbForm=Inf	6	advcl	_	start_char=288|end_char=292
+14	comfortable	comfortable	ADJ	JJ	Degree=Pos	13	xcomp	_	start_char=293|end_char=304|SpaceAfter=No
+15	?	?	PUNCT	.	_	4	punct	_	start_char=304|end_char=305|SpacesAfter=\n\n
+
+# text = My mom came to the US from India in her late thirties.
+# sent_id = 4
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=307|end_char=309
+2	mom	mom	NOUN	NN	Number=Sing	3	nsubj	_	start_char=310|end_char=313
+3	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=314|end_char=318
+4	to	to	ADP	IN	_	6	case	_	start_char=319|end_char=321
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=322|end_char=325
+6	US	US	PROPN	NNP	Number=Sing	3	obl	_	start_char=326|end_char=328
+7	from	from	ADP	IN	_	8	case	_	start_char=329|end_char=333
+8	India	India	PROPN	NNP	Number=Sing	3	obl	_	start_char=334|end_char=339
+9	in	in	ADP	IN	_	12	case	_	start_char=340|end_char=342
+10	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=343|end_char=346
+11	late	late	ADJ	JJ	Degree=Pos	12	amod	_	start_char=347|end_char=351
+12	thirties	thirty	NOUN	NNS	Number=Ptan	3	obl	_	start_char=352|end_char=360|SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	start_char=360|end_char=361|SpacesAfter=\n\n
+
+# text = She's a doctor in Brooklyn, and she often lets friends and neighbors come to see her for health services, whether they can pay right away or not.
+# sent_id = 5
+1-2	She's	_	_	_	_	_	_	_	start_char=363|end_char=368
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=363|end_char=366
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=366|end_char=368
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=369|end_char=370
+4	doctor	doctor	NOUN	NN	Number=Sing	0	root	_	start_char=371|end_char=377
+5	in	in	ADP	IN	_	6	case	_	start_char=378|end_char=380
+6	Brooklyn	Brooklyn	PROPN	NNP	Number=Sing	4	nmod	_	start_char=381|end_char=389|SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	start_char=389|end_char=390
+8	and	and	CCONJ	CC	_	11	cc	_	start_char=391|end_char=394
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	start_char=395|end_char=398
+10	often	often	ADV	RB	_	11	advmod	_	start_char=399|end_char=404
+11	lets	let	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=405|end_char=409
+12	friends	friend	NOUN	NNS	Number=Plur	11	obj	_	start_char=410|end_char=417
+13	and	and	CCONJ	CC	_	14	cc	_	start_char=418|end_char=421
+14	neighbors	neighbor	NOUN	NNS	Number=Plur	12	conj	_	start_char=422|end_char=431
+15	come	come	VERB	VB	VerbForm=Inf	11	xcomp	_	start_char=432|end_char=436
+16	to	to	PART	TO	_	17	mark	_	start_char=437|end_char=439
+17	see	see	VERB	VB	VerbForm=Inf	15	advcl	_	start_char=440|end_char=443
+18	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	start_char=444|end_char=447
+19	for	for	ADP	IN	_	21	case	_	start_char=448|end_char=451
+20	health	health	NOUN	NN	Number=Sing	21	compound	_	start_char=452|end_char=458
+21	services	service	NOUN	NNS	Number=Plur	17	obl	_	start_char=459|end_char=467|SpaceAfter=No
+22	,	,	PUNCT	,	_	26	punct	_	start_char=467|end_char=468
+23	whether	whether	SCONJ	IN	_	26	mark	_	start_char=469|end_char=476
+24	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	start_char=477|end_char=481
+25	can	can	AUX	MD	VerbForm=Fin	26	aux	_	start_char=482|end_char=485
+26	pay	pay	VERB	VB	VerbForm=Inf	11	advcl	_	start_char=486|end_char=489
+27	right	right	ADV	RB	_	28	advmod	_	start_char=490|end_char=495
+28	away	away	ADV	RB	_	26	advmod	_	start_char=496|end_char=500
+29	or	or	CCONJ	CC	_	30	cc	_	start_char=501|end_char=503
+30	not	not	PART	RB	Polarity=Neg	28	conj	_	start_char=504|end_char=507|SpaceAfter=No
+31	.	.	PUNCT	.	_	4	punct	_	start_char=507|end_char=508|SpacesAfter=\n\n
+
+# text = I remember running into her patients with her at the grocery store or on the sidewalk, and sometimes they would come and pay her right on the spot for previous appointments.
+# sent_id = 6
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=510|end_char=511
+2	remember	remember	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=512|end_char=520
+3	running	run	VERB	VBG	VerbForm=Ger	2	xcomp	_	start_char=521|end_char=528
+4	into	into	ADP	IN	_	6	case	_	start_char=529|end_char=533
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=534|end_char=537
+6	patients	patient	NOUN	NNS	Number=Plur	3	obl	_	start_char=538|end_char=546
+7	with	with	ADP	IN	_	8	case	_	start_char=547|end_char=551
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	start_char=552|end_char=555
+9	at	at	ADP	IN	_	12	case	_	start_char=556|end_char=558
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=559|end_char=562
+11	grocery	grocery	NOUN	NN	Number=Sing	12	compound	_	start_char=563|end_char=570
+12	store	store	NOUN	NN	Number=Sing	3	obl	_	start_char=571|end_char=576
+13	or	or	CCONJ	CC	_	16	cc	_	start_char=577|end_char=579
+14	on	on	ADP	IN	_	16	case	_	start_char=580|end_char=582
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=583|end_char=586
+16	sidewalk	sidewalk	NOUN	NN	Number=Sing	12	conj	_	start_char=587|end_char=595|SpaceAfter=No
+17	,	,	PUNCT	,	_	22	punct	_	start_char=595|end_char=596
+18	and	and	CCONJ	CC	_	22	cc	_	start_char=597|end_char=600
+19	sometimes	sometimes	ADV	RB	PronType=Ind	22	advmod	_	start_char=601|end_char=610
+20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	start_char=611|end_char=615
+21	would	would	AUX	MD	VerbForm=Fin	22	aux	_	start_char=616|end_char=621
+22	come	come	VERB	VB	VerbForm=Inf	2	conj	_	start_char=622|end_char=626
+23	and	and	CCONJ	CC	_	24	cc	_	start_char=627|end_char=630
+24	pay	pay	VERB	VB	VerbForm=Inf	22	conj	_	start_char=631|end_char=634
+25	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	iobj	_	start_char=635|end_char=638
+26	right	right	ADV	RB	_	29	advmod	_	start_char=639|end_char=644
+27	on	on	ADP	IN	_	29	case	_	start_char=645|end_char=647
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	start_char=648|end_char=651
+29	spot	spot	NOUN	NN	Number=Sing	24	obl	_	start_char=652|end_char=656
+30	for	for	ADP	IN	_	32	case	_	start_char=657|end_char=660
+31	previous	previous	ADJ	JJ	Degree=Pos	32	amod	_	start_char=661|end_char=669
+32	appointments	appointment	NOUN	NNS	Number=Plur	24	obl	_	start_char=670|end_char=682|SpaceAfter=No
+33	.	.	PUNCT	.	_	2	punct	_	start_char=682|end_char=683|SpacesAfter=\n\n
+
+# text = She would thank them, and ask them about their families and their health.
+# sent_id = 7
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=685|end_char=688
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	start_char=689|end_char=694
+3	thank	thank	VERB	VB	VerbForm=Inf	0	root	_	start_char=695|end_char=700
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	_	start_char=701|end_char=705|SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	start_char=705|end_char=706
+6	and	and	CCONJ	CC	_	7	cc	_	start_char=707|end_char=710
+7	ask	ask	VERB	VB	VerbForm=Inf	3	conj	_	start_char=711|end_char=714
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	iobj	_	start_char=715|end_char=719
+9	about	about	ADP	IN	_	11	case	_	start_char=720|end_char=725
+10	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=726|end_char=731
+11	families	family	NOUN	NNS	Number=Plur	7	obl	_	start_char=732|end_char=740
+12	and	and	CCONJ	CC	_	14	cc	_	start_char=741|end_char=744
+13	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=745|end_char=750
+14	health	health	NOUN	NN	Number=Sing	11	conj	_	start_char=751|end_char=757|SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	start_char=757|end_char=758|SpacesAfter=\n\n
+
+# text = She gave them credit because she trusted them.
+# sent_id = 8
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=760|end_char=763
+2	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=764|end_char=768
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	iobj	_	start_char=769|end_char=773
+4	credit	credit	NOUN	NN	Number=Sing	2	obj	_	start_char=774|end_char=780
+5	because	because	SCONJ	IN	_	7	mark	_	start_char=781|end_char=788
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=789|end_char=792
+7	trusted	trust	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	start_char=793|end_char=800
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	iobj	_	start_char=801|end_char=805|SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	start_char=805|end_char=806|SpacesAfter=\n\n
+
+# text = Most of us are like my mom.
+# sent_id = 9
+1	Most	most	ADJ	JJS	Degree=Sup	7	nsubj	_	start_char=808|end_char=812
+2	of	of	ADP	IN	_	3	case	_	start_char=813|end_char=815
+3	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	nmod	_	start_char=816|end_char=818
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=819|end_char=822
+5	like	like	ADP	IN	_	7	case	_	start_char=823|end_char=827
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=828|end_char=830
+7	mom	mom	NOUN	NN	Number=Sing	0	root	_	start_char=831|end_char=834|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	start_char=834|end_char=835|SpacesAfter=\n\n
+
+# text = We would give credit to someone we know or that we live next to.
+# sent_id = 10
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=837|end_char=839
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	start_char=840|end_char=845
+3	give	give	VERB	VB	VerbForm=Inf	0	root	_	start_char=846|end_char=850
+4	credit	credit	NOUN	NN	Number=Sing	3	obj	_	start_char=851|end_char=857
+5	to	to	ADP	IN	_	6	case	_	start_char=858|end_char=860
+6	someone	someone	PRON	NN	Number=Sing|PronType=Ind	3	obl	_	start_char=861|end_char=868
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=869|end_char=871
+8	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	start_char=872|end_char=876
+9	or	or	CCONJ	CC	_	12	cc	_	start_char=877|end_char=879
+10	that	that	SCONJ	IN	_	12	mark	_	start_char=880|end_char=884
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	start_char=885|end_char=887
+12	live	live	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	conj	_	start_char=888|end_char=892
+13	next	next	ADV	RB	_	12	advmod	_	start_char=893|end_char=897
+14	to	to	ADP	IN	_	12	obl	_	start_char=898|end_char=900|SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	start_char=900|end_char=901|SpacesAfter=\n\n
+
+# text = But most of us are probably not going to lend to a stranger unless we know a little something about them.
+# sent_id = 11
+1	But	but	CCONJ	CC	_	8	cc	_	start_char=903|end_char=906
+2	most	most	ADJ	JJS	Degree=Sup	8	nsubj	_	start_char=907|end_char=911
+3	of	of	ADP	IN	_	4	case	_	start_char=912|end_char=914
+4	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	nmod	_	start_char=915|end_char=917
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=918|end_char=921
+6	probably	probably	ADV	RB	_	8	advmod	_	start_char=922|end_char=930
+7	not	not	PART	RB	Polarity=Neg	8	advmod	_	start_char=931|end_char=934
+8	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=935|end_char=940
+9	to	to	PART	TO	_	10	mark	_	start_char=941|end_char=943
+10	lend	lend	VERB	VB	VerbForm=Inf	8	xcomp	_	start_char=944|end_char=948
+11	to	to	ADP	IN	_	13	case	_	start_char=949|end_char=951
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=952|end_char=953
+13	stranger	stranger	NOUN	NN	Number=Sing	10	obl	_	start_char=954|end_char=962
+14	unless	unless	SCONJ	IN	_	16	mark	_	start_char=963|end_char=969
+15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	start_char=970|end_char=972
+16	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	advcl	_	start_char=973|end_char=977
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	start_char=978|end_char=979
+18	little	little	ADJ	JJ	Degree=Pos	19	amod	_	start_char=980|end_char=986
+19	something	something	PRON	NN	Number=Sing|PronType=Ind	16	obj	_	start_char=987|end_char=996
+20	about	about	ADP	IN	_	21	case	_	start_char=997|end_char=1002
+21	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	nmod	_	start_char=1003|end_char=1007|SpaceAfter=No
+22	.	.	PUNCT	.	_	8	punct	_	start_char=1007|end_char=1008|SpacesAfter=\n\n
+
+# text = Banks, credit card companies and other financial institutions don't know us on a personal level, but they do have a way of trusting us, and that's through our credit scores.
+# sent_id = 12
+1	Banks	bank	NOUN	NNS	Number=Plur	12	nsubj	_	start_char=1010|end_char=1015|SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	start_char=1015|end_char=1016
+3	credit	credit	NOUN	NN	Number=Sing	4	compound	_	start_char=1017|end_char=1023
+4	card	card	NOUN	NN	Number=Sing	5	compound	_	start_char=1024|end_char=1028
+5	companies	company	NOUN	NNS	Number=Plur	1	conj	_	start_char=1029|end_char=1038
+6	and	and	CCONJ	CC	_	9	cc	_	start_char=1039|end_char=1042
+7	other	other	ADJ	JJ	Degree=Pos	9	amod	_	start_char=1043|end_char=1048
+8	financial	financial	ADJ	JJ	Degree=Pos	9	amod	_	start_char=1049|end_char=1058
+9	institutions	institution	NOUN	NNS	Number=Plur	1	conj	_	start_char=1059|end_char=1071
+10-11	don't	_	_	_	_	_	_	_	start_char=1072|end_char=1077
+10	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=1072|end_char=1074
+11	n't	not	PART	RB	Polarity=Neg	12	advmod	_	start_char=1074|end_char=1077
+12	know	know	VERB	VB	VerbForm=Inf	0	root	_	start_char=1078|end_char=1082
+13	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	12	obj	_	start_char=1083|end_char=1085
+14	on	on	ADP	IN	_	17	case	_	start_char=1086|end_char=1088
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	start_char=1089|end_char=1090
+16	personal	personal	ADJ	JJ	Degree=Pos	17	amod	_	start_char=1091|end_char=1099
+17	level	level	NOUN	NN	Number=Sing	12	obl	_	start_char=1100|end_char=1105|SpaceAfter=No
+18	,	,	PUNCT	,	_	22	punct	_	start_char=1105|end_char=1106
+19	but	but	CCONJ	CC	_	22	cc	_	start_char=1107|end_char=1110
+20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	start_char=1111|end_char=1115
+21	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	start_char=1116|end_char=1118
+22	have	have	VERB	VB	VerbForm=Inf	12	conj	_	start_char=1119|end_char=1123
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	start_char=1124|end_char=1125
+24	way	way	NOUN	NN	Number=Sing	22	obj	_	start_char=1126|end_char=1129
+25	of	of	SCONJ	IN	_	26	mark	_	start_char=1130|end_char=1132
+26	trusting	trust	VERB	VBG	VerbForm=Ger	24	acl	_	start_char=1133|end_char=1141
+27	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	26	obj	_	start_char=1142|end_char=1144|SpaceAfter=No
+28	,	,	PUNCT	,	_	35	punct	_	start_char=1144|end_char=1145
+29	and	and	CCONJ	CC	_	35	cc	_	start_char=1146|end_char=1149
+30-31	that's	_	_	_	_	_	_	_	start_char=1150|end_char=1156
+30	that	that	PRON	DT	Number=Sing|PronType=Dem	35	nsubj	_	start_char=1150|end_char=1154
+31	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	start_char=1154|end_char=1156
+32	through	through	ADP	IN	_	35	case	_	start_char=1157|end_char=1164
+33	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	35	nmod:poss	_	start_char=1165|end_char=1168
+34	credit	credit	NOUN	NN	Number=Sing	35	compound	_	start_char=1169|end_char=1175
+35	scores	score	NOUN	NNS	Number=Plur	22	conj	_	start_char=1176|end_char=1182|SpaceAfter=No
+36	.	.	PUNCT	.	_	12	punct	_	start_char=1182|end_char=1183|SpacesAfter=\n\n
+
+# text = Our credit scores have been created through an aggregation and analysis of our public consumer credit data.
+# sent_id = 13
+1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=1185|end_char=1188
+2	credit	credit	NOUN	NN	Number=Sing	3	compound	_	start_char=1189|end_char=1195
+3	scores	score	NOUN	NNS	Number=Plur	6	nsubj:pass	_	start_char=1196|end_char=1202
+4	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=1203|end_char=1207
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	aux:pass	_	start_char=1208|end_char=1212
+6	created	create	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=1213|end_char=1220
+7	through	through	ADP	IN	_	9	case	_	start_char=1221|end_char=1228
+8	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=1229|end_char=1231
+9	aggregation	aggregation	NOUN	NN	Number=Sing	6	obl	_	start_char=1232|end_char=1243
+10	and	and	CCONJ	CC	_	11	cc	_	start_char=1244|end_char=1247
+11	analysis	analysis	NOUN	NN	Number=Sing	9	conj	_	start_char=1248|end_char=1256
+12	of	of	ADP	IN	_	17	case	_	start_char=1257|end_char=1259
+13	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	start_char=1260|end_char=1263
+14	public	public	ADJ	JJ	Degree=Pos	17	amod	_	start_char=1264|end_char=1270
+15	consumer	consumer	NOUN	NN	Number=Sing	16	compound	_	start_char=1271|end_char=1279
+16	credit	credit	NOUN	NN	Number=Sing	17	compound	_	start_char=1280|end_char=1286
+17	data	datum	NOUN	NNS	Number=Plur	9	nmod	_	start_char=1287|end_char=1291|SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	start_char=1291|end_char=1292|SpacesAfter=\n\n
+
+# text = And because of them, we have pretty much easy access to all of the goods and services that we need, from getting electricity to buying a home, or taking a risk and starting a business.
+# sent_id = 14
+1	And	and	CCONJ	CC	_	7	cc	_	start_char=1294|end_char=1297
+2	because	because	ADP	IN	ExtPos=ADP	4	case	_	start_char=1298|end_char=1305
+3	of	of	ADP	IN	_	2	fixed	_	start_char=1306|end_char=1308
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obl	_	start_char=1309|end_char=1313|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=1313|end_char=1314
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=1315|end_char=1317
+7	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1318|end_char=1322
+8	pretty	pretty	ADV	RB	_	9	advmod	_	start_char=1323|end_char=1329
+9	much	much	ADV	RB	Degree=Pos	10	advmod	_	start_char=1330|end_char=1334
+10	easy	easy	ADJ	JJ	Degree=Pos	11	amod	_	start_char=1335|end_char=1339
+11	access	access	NOUN	NN	Number=Sing	7	obj	_	start_char=1340|end_char=1346
+12	to	to	ADP	IN	_	13	case	_	start_char=1347|end_char=1349
+13	all	all	DET	DT	PronType=Tot	11	nmod	_	start_char=1350|end_char=1353
+14	of	of	ADP	IN	_	16	case	_	start_char=1354|end_char=1356
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=1357|end_char=1360
+16	goods	goods	NOUN	NNS	Number=Plur	13	nmod	_	start_char=1361|end_char=1366
+17	and	and	CCONJ	CC	_	18	cc	_	start_char=1367|end_char=1370
+18	services	service	NOUN	NNS	Number=Plur	16	conj	_	start_char=1371|end_char=1379
+19	that	that	PRON	WDT	PronType=Rel	21	obj	_	start_char=1380|end_char=1384
+20	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	start_char=1385|end_char=1387
+21	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	start_char=1388|end_char=1392|SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	start_char=1392|end_char=1393
+23	from	from	SCONJ	IN	_	24	mark	_	start_char=1394|end_char=1398
+24	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	7	advcl	_	start_char=1399|end_char=1406
+25	electricity	electricity	NOUN	NN	Number=Sing	24	obj	_	start_char=1407|end_char=1418
+26	to	to	SCONJ	IN	_	27	mark	_	start_char=1419|end_char=1421
+27	buying	buy	VERB	VBG	VerbForm=Ger	24	advcl	_	start_char=1422|end_char=1428
+28	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	start_char=1429|end_char=1430
+29	home	home	NOUN	NN	Number=Sing	27	obj	_	start_char=1431|end_char=1435|SpaceAfter=No
+30	,	,	PUNCT	,	_	32	punct	_	start_char=1435|end_char=1436
+31	or	or	CCONJ	CC	_	32	cc	_	start_char=1437|end_char=1439
+32	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part	24	conj	_	start_char=1440|end_char=1446
+33	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	start_char=1447|end_char=1448
+34	risk	risk	NOUN	NN	Number=Sing	32	obj	_	start_char=1449|end_char=1453
+35	and	and	CCONJ	CC	_	36	cc	_	start_char=1454|end_char=1457
+36	starting	start	VERB	VBG	Tense=Pres|VerbForm=Part	32	conj	_	start_char=1458|end_char=1466
+37	a	a	DET	DT	Definite=Ind|PronType=Art	38	det	_	start_char=1467|end_char=1468
+38	business	business	NOUN	NN	Number=Sing	36	obj	_	start_char=1469|end_char=1477|SpaceAfter=No
+39	.	.	PUNCT	.	_	7	punct	_	start_char=1477|end_char=1478|SpacesAfter=\n\n
+
+# text = But ... there are 2.5 billion people around the world that don't have a credit score.
+# sent_id = 15
+1	But	but	CCONJ	CC	_	4	cc	_	start_char=1480|end_char=1483
+2	...	...	PUNCT	,	_	1	punct	_	start_char=1484|end_char=1487
+3	there	there	PRON	EX	_	4	expl	_	start_char=1488|end_char=1493
+4	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1494|end_char=1497
+5	2.5	2.5	NUM	CD	NumForm=Digit|NumType=Frac	6	compound	_	start_char=1498|end_char=1501
+6	billion	billion	NUM	CD	NumForm=Word|NumType=Card	7	nummod	_	start_char=1502|end_char=1509
+7	people	person	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=1510|end_char=1516
+8	around	around	ADP	IN	_	10	case	_	start_char=1517|end_char=1523
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=1524|end_char=1527
+10	world	world	NOUN	NN	Number=Sing	7	nmod	_	start_char=1528|end_char=1533
+11	that	that	PRON	WDT	PronType=Rel	14	nsubj	_	start_char=1534|end_char=1538
+12-13	don't	_	_	_	_	_	_	_	start_char=1539|end_char=1544
+12	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=1539|end_char=1541
+13	n't	not	PART	RB	Polarity=Neg	14	advmod	_	start_char=1541|end_char=1544
+14	have	have	VERB	VB	VerbForm=Inf	7	acl:relcl	_	start_char=1545|end_char=1549
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	start_char=1550|end_char=1551
+16	credit	credit	NOUN	NN	Number=Sing	17	compound	_	start_char=1552|end_char=1558
+17	score	score	NOUN	NN	Number=Sing	14	obj	_	start_char=1559|end_char=1564|SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	start_char=1564|end_char=1565|SpacesAfter=\n\n
+
+# text = That's a third of the world's population.
+# sent_id = 16
+1-2	That's	_	_	_	_	_	_	_	start_char=1567|end_char=1573
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	start_char=1567|end_char=1571
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1571|end_char=1573
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=1574|end_char=1575
+4	third	third	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	0	root	_	start_char=1576|end_char=1581
+5	of	of	ADP	IN	_	9	case	_	start_char=1582|end_char=1584
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=1585|end_char=1588
+7-8	world's	_	_	_	_	_	_	_	start_char=1589|end_char=1596
+7	world	world	NOUN	NN	Number=Sing	9	nmod:poss	_	start_char=1589|end_char=1594
+8	's	's	PART	POS	_	7	case	_	start_char=1594|end_char=1596
+9	population	population	NOUN	NN	Number=Sing	4	nmod	_	start_char=1597|end_char=1607|SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	start_char=1607|end_char=1608|SpacesAfter=\n\n
+
+# text = They don't have a score because there are no formal public records on them -- no bank accounts, no credit histories and no social security numbers.
+# sent_id = 17
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=1610|end_char=1614
+2-3	don't	_	_	_	_	_	_	_	start_char=1615|end_char=1620
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=1615|end_char=1617
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=1617|end_char=1620
+4	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=1621|end_char=1625
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=1626|end_char=1627
+6	score	score	NOUN	NN	Number=Sing	4	obj	_	start_char=1628|end_char=1633
+7	because	because	SCONJ	IN	_	9	mark	_	start_char=1634|end_char=1641
+8	there	there	PRON	EX	_	9	expl	_	start_char=1642|end_char=1647
+9	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	start_char=1648|end_char=1651
+10	no	no	DET	DT	PronType=Neg	13	det	_	start_char=1652|end_char=1654
+11	formal	formal	ADJ	JJ	Degree=Pos	13	amod	_	start_char=1655|end_char=1661
+12	public	public	ADJ	JJ	Degree=Pos	13	amod	_	start_char=1662|end_char=1668
+13	records	record	NOUN	NNS	Number=Plur	9	nsubj	_	start_char=1669|end_char=1676
+14	on	on	ADP	IN	_	15	case	_	start_char=1677|end_char=1679
+15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	nmod	_	start_char=1680|end_char=1684
+16	--	--	PUNCT	,	_	19	punct	_	start_char=1685|end_char=1687
+17	no	no	DET	DT	PronType=Neg	19	det	_	start_char=1688|end_char=1690
+18	bank	bank	NOUN	NN	Number=Sing	19	compound	_	start_char=1691|end_char=1695
+19	accounts	account	NOUN	NNS	Number=Plur	13	appos	_	start_char=1696|end_char=1704|SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	start_char=1704|end_char=1705
+21	no	no	DET	DT	PronType=Neg	23	det	_	start_char=1706|end_char=1708
+22	credit	credit	NOUN	NN	Number=Sing	23	compound	_	start_char=1709|end_char=1715
+23	histories	history	NOUN	NNS	Number=Plur	19	conj	_	start_char=1716|end_char=1725
+24	and	and	CCONJ	CC	_	28	cc	_	start_char=1726|end_char=1729
+25	no	no	DET	DT	PronType=Neg	28	det	_	start_char=1730|end_char=1732
+26	social	social	ADJ	JJ	Degree=Pos	27	amod	_	start_char=1733|end_char=1739
+27	security	security	NOUN	NN	Number=Sing	28	compound	_	start_char=1740|end_char=1748
+28	numbers	number	NOUN	NNS	Number=Plur	19	conj	_	start_char=1749|end_char=1756|SpaceAfter=No
+29	.	.	PUNCT	.	_	4	punct	_	start_char=1756|end_char=1757|SpacesAfter=\n\n
+
+# text = And because they don't have a score, they don't have access to the credit or financial products that can improve their lives.
+# sent_id = 18
+1	And	and	CCONJ	CC	_	13	cc	_	start_char=1759|end_char=1762
+2	because	because	SCONJ	IN	_	6	mark	_	start_char=1763|end_char=1770
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=1771|end_char=1775
+4-5	don't	_	_	_	_	_	_	_	start_char=1776|end_char=1781
+4	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=1776|end_char=1778
+5	n't	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=1778|end_char=1781
+6	have	have	VERB	VB	VerbForm=Inf	13	advcl	_	start_char=1782|end_char=1786
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=1787|end_char=1788
+8	score	score	NOUN	NN	Number=Sing	6	obj	_	start_char=1789|end_char=1794|SpaceAfter=No
+9	,	,	PUNCT	,	_	6	punct	_	start_char=1794|end_char=1795
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	start_char=1796|end_char=1800
+11-12	don't	_	_	_	_	_	_	_	start_char=1801|end_char=1806
+11	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=1801|end_char=1803
+12	n't	not	PART	RB	Polarity=Neg	13	advmod	_	start_char=1803|end_char=1806
+13	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=1807|end_char=1811
+14	access	access	NOUN	NN	Number=Sing	13	obj	_	start_char=1812|end_char=1818
+15	to	to	ADP	IN	_	20	case	_	start_char=1819|end_char=1821
+16	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=1822|end_char=1825
+17	credit	credit	NOUN	NN	Number=Sing	20	compound	_	start_char=1826|end_char=1832
+18	or	or	CCONJ	CC	_	19	cc	_	start_char=1833|end_char=1835
+19	financial	financial	ADJ	JJ	Degree=Pos	17	conj	_	start_char=1836|end_char=1845
+20	products	product	NOUN	NNS	Number=Plur	14	nmod	_	start_char=1846|end_char=1854
+21	that	that	PRON	WDT	PronType=Rel	23	nsubj	_	start_char=1855|end_char=1859
+22	can	can	AUX	MD	VerbForm=Fin	23	aux	_	start_char=1860|end_char=1863
+23	improve	improve	VERB	VB	VerbForm=Inf	20	acl:relcl	_	start_char=1864|end_char=1871
+24	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	start_char=1872|end_char=1877
+25	lives	life	NOUN	NNS	Number=Plur	23	obj	_	start_char=1878|end_char=1883|SpaceAfter=No
+26	.	.	PUNCT	.	_	13	punct	_	start_char=1883|end_char=1884|SpacesAfter=\n\n
+
+# text = They are not trusted.
+# sent_id = 19
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj:pass	_	start_char=1886|end_char=1890
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	start_char=1891|end_char=1894
+3	not	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=1895|end_char=1898
+4	trusted	trust	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=1899|end_char=1906|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=1906|end_char=1907|SpacesAfter=\n\n
+
+# text = So we wanted to find a way to build trust and to open up financial access for these 2.5 billion.
+# sent_id = 20
+1	So	so	ADV	RB	_	3	advmod	_	start_char=1909|end_char=1911
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=1912|end_char=1914
+3	wanted	want	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=1915|end_char=1921
+4	to	to	PART	TO	_	5	mark	_	start_char=1922|end_char=1924
+5	find	find	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=1925|end_char=1929
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=1930|end_char=1931
+7	way	way	NOUN	NN	Number=Sing	5	obj	_	start_char=1932|end_char=1935
+8	to	to	PART	TO	_	9	mark	_	start_char=1936|end_char=1938
+9	build	build	VERB	VB	VerbForm=Inf	7	acl	_	start_char=1939|end_char=1944
+10	trust	trust	NOUN	NN	Number=Sing	9	obj	_	start_char=1945|end_char=1950
+11	and	and	CCONJ	CC	_	13	cc	_	start_char=1951|end_char=1954
+12	to	to	PART	TO	_	13	mark	_	start_char=1955|end_char=1957
+13	open	open	VERB	VB	VerbForm=Inf	9	conj	_	start_char=1958|end_char=1962
+14	up	up	ADP	RP	_	13	compound:prt	_	start_char=1963|end_char=1965
+15	financial	financial	ADJ	JJ	Degree=Pos	16	amod	_	start_char=1966|end_char=1975
+16	access	access	NOUN	NN	Number=Sing	13	obj	_	start_char=1976|end_char=1982
+17	for	for	ADP	IN	_	20	case	_	start_char=1983|end_char=1986
+18	these	this	DET	DT	Number=Plur|PronType=Dem	20	det	_	start_char=1987|end_char=1992
+19	2.5	2.5	NUM	CD	NumForm=Digit|NumType=Frac	20	nummod	_	start_char=1993|end_char=1996
+20	billion	billion	NUM	CD	NumForm=Word|NumType=Card	16	nmod	_	start_char=1997|end_char=2004|SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	start_char=2004|end_char=2005|SpacesAfter=\n\n
+
+# text = So we created a mobile application that builds credit scores for them using mobile data.
+# sent_id = 21
+1	So	so	ADV	RB	_	3	discourse	_	start_char=2007|end_char=2009
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=2010|end_char=2012
+3	created	create	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=2013|end_char=2020
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=2021|end_char=2022
+5	mobile	mobile	ADJ	JJ	Degree=Pos	6	amod	_	start_char=2023|end_char=2029
+6	application	application	NOUN	NN	Number=Sing	3	obj	_	start_char=2030|end_char=2041
+7	that	that	PRON	WDT	PronType=Rel	8	nsubj	_	start_char=2042|end_char=2046
+8	builds	build	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	start_char=2047|end_char=2053
+9	credit	credit	NOUN	NN	Number=Sing	10	compound	_	start_char=2054|end_char=2060
+10	scores	score	NOUN	NNS	Number=Plur	8	obj	_	start_char=2061|end_char=2067
+11	for	for	ADP	IN	_	12	case	_	start_char=2068|end_char=2071
+12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obl	_	start_char=2072|end_char=2076
+13	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	8	advcl	_	start_char=2077|end_char=2082
+14	mobile	mobile	ADJ	JJ	Degree=Pos	15	amod	_	start_char=2083|end_char=2089
+15	data	datum	NOUN	NNS	Number=Plur	13	obj	_	start_char=2090|end_char=2094|SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	start_char=2094|end_char=2095|SpacesAfter=\n\n
+
+# text = There are currently over one billion smartphones in emerging markets.
+# sent_id = 22
+1	There	there	PRON	EX	_	2	expl	_	start_char=2097|end_char=2102
+2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2103|end_char=2106
+3	currently	currently	ADV	RB	_	2	advmod	_	start_char=2107|end_char=2116
+4	over	over	ADV	RB	_	5	advmod	_	start_char=2117|end_char=2121
+5	one	one	NUM	CD	NumForm=Word|NumType=Card	6	compound	_	start_char=2122|end_char=2125
+6	billion	billion	NUM	CD	NumForm=Word|NumType=Card	7	nummod	_	start_char=2126|end_char=2133
+7	smartphones	smartphone	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=2134|end_char=2145
+8	in	in	ADP	IN	_	10	case	_	start_char=2146|end_char=2148
+9	emerging	emerge	VERB	VBG	VerbForm=Ger	10	amod	_	start_char=2149|end_char=2157
+10	markets	market	NOUN	NNS	Number=Plur	7	nmod	_	start_char=2158|end_char=2165|SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	start_char=2165|end_char=2166|SpacesAfter=\n\n
+
+# text = And people are using them the same way that we do.
+# sent_id = 23
+1	And	and	CCONJ	CC	_	4	cc	_	start_char=2168|end_char=2171
+2	people	person	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=2172|end_char=2178
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=2179|end_char=2182
+4	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=2183|end_char=2188
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	start_char=2189|end_char=2193
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=2194|end_char=2197
+7	same	same	ADJ	JJ	Degree=Pos	8	amod	_	start_char=2198|end_char=2202
+8	way	way	NOUN	NN	Number=Sing	4	obl:unmarked	_	start_char=2203|end_char=2206
+9	that	that	PRON	WDT	PronType=Rel	11	obj	_	start_char=2207|end_char=2211
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	start_char=2212|end_char=2214
+11	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	start_char=2215|end_char=2217|SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	start_char=2217|end_char=2218|SpacesAfter=\n\n
+
+# text = They're texting their friends, they're looking up directions, they're browsing the Internet and they're even making financial transactions.
+# sent_id = 24
+1-2	They're	_	_	_	_	_	_	_	start_char=2220|end_char=2227
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=2220|end_char=2224
+2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=2224|end_char=2227
+3	texting	texting	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=2228|end_char=2235
+4	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=2236|end_char=2241
+5	friends	friend	NOUN	NNS	Number=Plur	3	obj	_	start_char=2242|end_char=2249|SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	start_char=2249|end_char=2250
+7-8	they're	_	_	_	_	_	_	_	start_char=2251|end_char=2258
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=2251|end_char=2255
+8	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=2255|end_char=2258
+9	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	3	parataxis	_	start_char=2259|end_char=2266
+10	up	up	ADP	RP	_	9	compound:prt	_	start_char=2267|end_char=2269
+11	directions	direction	NOUN	NNS	Number=Plur	9	obj	_	start_char=2270|end_char=2280|SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	start_char=2280|end_char=2281
+13-14	they're	_	_	_	_	_	_	_	start_char=2282|end_char=2289
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	start_char=2282|end_char=2286
+14	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=2286|end_char=2289
+15	browsing	browse	VERB	VBG	Tense=Pres|VerbForm=Part	3	parataxis	_	start_char=2290|end_char=2298
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=2299|end_char=2302
+17	Internet	Internet	PROPN	NNP	Number=Sing	15	obj	_	start_char=2303|end_char=2311
+18	and	and	CCONJ	CC	_	22	cc	_	start_char=2312|end_char=2315
+19-20	they're	_	_	_	_	_	_	_	start_char=2316|end_char=2323
+19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	start_char=2316|end_char=2320
+20	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	start_char=2320|end_char=2323
+21	even	even	ADV	RB	_	22	advmod	_	start_char=2324|end_char=2328
+22	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	15	conj	_	start_char=2329|end_char=2335
+23	financial	financial	ADJ	JJ	Degree=Pos	24	amod	_	start_char=2336|end_char=2345
+24	transactions	transaction	NOUN	NNS	Number=Plur	22	obj	_	start_char=2346|end_char=2358|SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	start_char=2358|end_char=2359|SpacesAfter=\n\n
+
+# text = Over time, this data is getting captured on our phones, and it provides a really rich picture of a person's life.
+# sent_id = 25
+1	Over	over	ADP	IN	_	2	case	_	start_char=2361|end_char=2365
+2	time	time	NOUN	NN	Number=Sing	8	obl	_	start_char=2366|end_char=2370|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=2370|end_char=2371
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	start_char=2372|end_char=2376
+5	data	datum	NOUN	NNS	Number=Plur	8	nsubj:pass	_	start_char=2377|end_char=2381
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=2382|end_char=2384
+7	getting	get	AUX	VBG	Tense=Pres|VerbForm=Part	8	aux:pass	_	start_char=2385|end_char=2392
+8	captured	capture	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=2393|end_char=2401
+9	on	on	ADP	IN	_	11	case	_	start_char=2402|end_char=2404
+10	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=2405|end_char=2408
+11	phones	phone	NOUN	NNS	Number=Plur	8	obl	_	start_char=2409|end_char=2415|SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	start_char=2415|end_char=2416
+13	and	and	CCONJ	CC	_	15	cc	_	start_char=2417|end_char=2420
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	start_char=2421|end_char=2423
+15	provides	provide	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	start_char=2424|end_char=2432
+16	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	start_char=2433|end_char=2434
+17	really	really	ADV	RB	_	18	advmod	_	start_char=2435|end_char=2441
+18	rich	rich	ADJ	JJ	Degree=Pos	19	amod	_	start_char=2442|end_char=2446
+19	picture	picture	NOUN	NN	Number=Sing	15	obj	_	start_char=2447|end_char=2454
+20	of	of	ADP	IN	_	24	case	_	start_char=2455|end_char=2457
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	start_char=2458|end_char=2459
+22-23	person's	_	_	_	_	_	_	_	start_char=2460|end_char=2468
+22	person	person	NOUN	NN	Number=Sing	24	nmod:poss	_	start_char=2460|end_char=2466
+23	's	's	PART	POS	_	22	case	_	start_char=2466|end_char=2468
+24	life	life	NOUN	NN	Number=Sing	19	nmod	_	start_char=2469|end_char=2473|SpaceAfter=No
+25	.	.	PUNCT	.	_	8	punct	_	start_char=2473|end_char=2474|SpacesAfter=\n\n
+
+# text = Our customers give us access to this data and we capture it through our mobile application.
+# sent_id = 26
+1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=2476|end_char=2479
+2	customers	customer	NOUN	NNS	Number=Plur	3	nsubj	_	start_char=2480|end_char=2489
+3	give	give	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2490|end_char=2494
+4	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	iobj	_	start_char=2495|end_char=2497
+5	access	access	NOUN	NN	Number=Sing	3	obj	_	start_char=2498|end_char=2504
+6	to	to	ADP	IN	_	8	case	_	start_char=2505|end_char=2507
+7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	start_char=2508|end_char=2512
+8	data	datum	NOUN	NN	Number=Plur	5	nmod	_	start_char=2513|end_char=2517
+9	and	and	CCONJ	CC	_	11	cc	_	start_char=2518|end_char=2521
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	start_char=2522|end_char=2524
+11	capture	capture	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=2525|end_char=2532
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	start_char=2533|end_char=2535
+13	through	through	ADP	IN	_	16	case	_	start_char=2536|end_char=2543
+14	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=2544|end_char=2547
+15	mobile	mobile	ADJ	JJ	Degree=Pos	16	amod	_	start_char=2548|end_char=2554
+16	application	application	NOUN	NN	Number=Sing	11	obl	_	start_char=2555|end_char=2566|SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	start_char=2566|end_char=2567|SpacesAfter=\n\n
+
+# text = It helps us understand the creditworthiness of people like Jenipher, a small-business owner in Nairobi, Kenya.
+# sent_id = 27
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=2569|end_char=2571
+2	helps	help	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2572|end_char=2577
+3	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	obj	_	start_char=2578|end_char=2580
+4	understand	understand	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=2581|end_char=2591
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=2592|end_char=2595
+6	creditworthiness	creditworthiness	NOUN	NN	Number=Sing	4	obj	_	start_char=2596|end_char=2612
+7	of	of	ADP	IN	_	8	case	_	start_char=2613|end_char=2615
+8	people	person	NOUN	NNS	Number=Plur	6	nmod	_	start_char=2616|end_char=2622
+9	like	like	ADP	IN	_	10	case	_	start_char=2623|end_char=2627
+10	Jenipher	Jenipher	PROPN	NNP	Number=Sing	8	nmod	_	start_char=2628|end_char=2636|SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	_	start_char=2636|end_char=2637
+12	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	start_char=2638|end_char=2639
+13	small	small	ADJ	JJ	Degree=Pos	15	amod	_	start_char=2640|end_char=2645|SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	13	punct	_	start_char=2645|end_char=2646|SpaceAfter=No
+15	business	business	NOUN	NN	Number=Sing	16	compound	_	start_char=2646|end_char=2654
+16	owner	owner	NOUN	NN	Number=Sing	10	appos	_	start_char=2655|end_char=2660
+17	in	in	ADP	IN	_	18	case	_	start_char=2661|end_char=2663
+18	Nairobi	Nairobi	PROPN	NNP	Number=Sing	16	nmod	_	start_char=2664|end_char=2671|SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	start_char=2671|end_char=2672
+20	Kenya	Kenya	PROPN	NNP	Number=Sing	18	appos	_	start_char=2673|end_char=2678|SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	start_char=2678|end_char=2679|SpacesAfter=\n\n
+
+# text = Jenipher is 65 years old, and for decades has been running a food stall in the central business district.
+# sent_id = 28
+1	Jenipher	Jenipher	PROPN	NNP	Number=Sing	5	nsubj	_	start_char=2681|end_char=2689
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=2690|end_char=2692
+3	65	65	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	_	start_char=2693|end_char=2695
+4	years	year	NOUN	NNS	Number=Plur	5	obl:unmarked	_	start_char=2696|end_char=2701
+5	old	old	ADJ	JJ	Degree=Pos	0	root	_	start_char=2702|end_char=2705|SpaceAfter=No
+6	,	,	PUNCT	,	_	12	punct	_	start_char=2705|end_char=2706
+7	and	and	CCONJ	CC	_	12	cc	_	start_char=2707|end_char=2710
+8	for	for	ADP	IN	_	9	case	_	start_char=2711|end_char=2714
+9	decades	decade	NOUN	NNS	Number=Plur	12	obl	_	start_char=2715|end_char=2722
+10	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=2723|end_char=2726
+11	been	be	AUX	VBN	Tense=Past|VerbForm=Part	12	aux	_	start_char=2727|end_char=2731
+12	running	run	VERB	VBG	Tense=Pres|VerbForm=Part	5	conj	_	start_char=2732|end_char=2739
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=2740|end_char=2741
+14	food	food	NOUN	NN	Number=Sing	15	compound	_	start_char=2742|end_char=2746
+15	stall	stall	NOUN	NN	Number=Sing	12	obj	_	start_char=2747|end_char=2752
+16	in	in	ADP	IN	_	20	case	_	start_char=2753|end_char=2755
+17	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=2756|end_char=2759
+18	central	central	ADJ	JJ	Degree=Pos	20	amod	_	start_char=2760|end_char=2767
+19	business	business	NOUN	NN	Number=Sing	20	compound	_	start_char=2768|end_char=2776
+20	district	district	NOUN	NN	Number=Sing	12	obl	_	start_char=2777|end_char=2785|SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	start_char=2785|end_char=2786|SpacesAfter=\n\n
+
+# text = She has three sons who she put through vocational school, and she's also the leader of her local chama, or savings group.
+# sent_id = 29
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=2788|end_char=2791
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2792|end_char=2795
+3	three	three	NUM	CD	NumForm=Word|NumType=Card	4	nummod	_	start_char=2796|end_char=2801
+4	sons	son	NOUN	NNS	Number=Plur	2	obj	_	start_char=2802|end_char=2806
+5	who	who	PRON	WP	PronType=Rel	7	obj	_	start_char=2807|end_char=2810
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=2811|end_char=2814
+7	put	put	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	start_char=2815|end_char=2818
+8	through	through	ADP	IN	_	10	case	_	start_char=2819|end_char=2826
+9	vocational	vocational	ADJ	JJ	Degree=Pos	10	amod	_	start_char=2827|end_char=2837
+10	school	school	NOUN	NN	Number=Sing	7	obl	_	start_char=2838|end_char=2844|SpaceAfter=No
+11	,	,	PUNCT	,	_	17	punct	_	start_char=2844|end_char=2845
+12	and	and	CCONJ	CC	_	17	cc	_	start_char=2846|end_char=2849
+13-14	she's	_	_	_	_	_	_	_	start_char=2850|end_char=2855
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	start_char=2850|end_char=2853
+14	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=2853|end_char=2855
+15	also	also	ADV	RB	_	17	advmod	_	start_char=2856|end_char=2860
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=2861|end_char=2864
+17	leader	leader	NOUN	NN	Number=Sing	2	conj	_	start_char=2865|end_char=2871
+18	of	of	ADP	IN	_	21	case	_	start_char=2872|end_char=2874
+19	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	start_char=2875|end_char=2878
+20	local	local	ADJ	JJ	Degree=Pos	21	amod	_	start_char=2879|end_char=2884
+21	chama	chama	NOUN	NN	Number=Sing	17	nmod	_	start_char=2885|end_char=2890|SpaceAfter=No
+22	,	,	PUNCT	,	_	25	punct	_	start_char=2890|end_char=2891
+23	or	or	CCONJ	CC	_	25	cc	_	start_char=2892|end_char=2894
+24	savings	savings	NOUN	NNS	Number=Plur	25	compound	_	start_char=2895|end_char=2902
+25	group	group	NOUN	NN	Number=Sing	21	conj	_	start_char=2903|end_char=2908|SpaceAfter=No
+26	.	.	PUNCT	.	_	2	punct	_	start_char=2908|end_char=2909|SpacesAfter=\n\n
+
+# text = Jenipher's food stall does well.
+# sent_id = 30
+1-2	Jenipher's	_	_	_	_	_	_	_	start_char=2911|end_char=2921
+1	Jenipher	Jenipher	PROPN	NNP	Number=Sing	4	nmod:poss	_	start_char=2911|end_char=2919
+2	's	's	PART	POS	_	1	case	_	start_char=2919|end_char=2921
+3	food	food	NOUN	NN	Number=Sing	4	compound	_	start_char=2922|end_char=2926
+4	stall	stall	NOUN	NN	Number=Sing	5	nsubj	_	start_char=2927|end_char=2932
+5	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2933|end_char=2937
+6	well	well	ADV	RB	Degree=Pos	5	advmod	_	start_char=2938|end_char=2942|SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	start_char=2942|end_char=2943|SpacesAfter=\n\n
+
+# text = She makes just enough every day to cover her expenses.
+# sent_id = 31
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=2945|end_char=2948
+2	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2949|end_char=2954
+3	just	just	ADV	RB	_	4	advmod	_	start_char=2955|end_char=2959
+4	enough	enough	ADV	RB	_	2	advmod	_	start_char=2960|end_char=2966
+5	every	every	DET	DT	PronType=Tot	6	det	_	start_char=2967|end_char=2972
+6	day	day	NOUN	NN	Number=Sing	2	obl:unmarked	_	start_char=2973|end_char=2976
+7	to	to	PART	TO	_	8	mark	_	start_char=2977|end_char=2979
+8	cover	cover	VERB	VB	VerbForm=Inf	2	advcl	_	start_char=2980|end_char=2985
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=2986|end_char=2989
+10	expenses	expense	NOUN	NNS	Number=Plur	8	obj	_	start_char=2990|end_char=2998|SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	start_char=2998|end_char=2999|SpacesAfter=\n\n
+
+# text = But she's not financially secure.
+# sent_id = 32
+1	But	but	CCONJ	CC	_	6	cc	_	start_char=3001|end_char=3004
+2-3	she's	_	_	_	_	_	_	_	start_char=3005|end_char=3010
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=3005|end_char=3008
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=3008|end_char=3010
+4	not	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=3011|end_char=3014
+5	financially	financially	ADV	RB	_	6	advmod	_	start_char=3015|end_char=3026
+6	secure	secure	ADJ	JJ	Degree=Pos	0	root	_	start_char=3027|end_char=3033|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=3033|end_char=3034|SpacesAfter=\n\n
+
+# text = Any emergency could force her into debt.
+# sent_id = 33
+1	Any	any	DET	DT	PronType=Ind	2	det	_	start_char=3036|end_char=3039
+2	emergency	emergency	NOUN	NN	Number=Sing	4	nsubj	_	start_char=3040|end_char=3049
+3	could	could	AUX	MD	VerbForm=Fin	4	aux	_	start_char=3050|end_char=3055
+4	force	force	VERB	VB	VerbForm=Inf	0	root	_	start_char=3056|end_char=3061
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=3062|end_char=3065
+6	into	into	ADP	IN	_	7	case	_	start_char=3066|end_char=3070
+7	debt	debt	NOUN	NN	Number=Sing	4	obl	_	start_char=3071|end_char=3075|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=3075|end_char=3076|SpacesAfter=\n\n
+
+# text = And she has no discretionary income to improve her family's way of living, for emergencies, or for investing into growing her business.
+# sent_id = 34
+1	And	and	CCONJ	CC	_	3	cc	_	start_char=3078|end_char=3081
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=3082|end_char=3085
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3086|end_char=3089
+4	no	no	DET	DT	PronType=Neg	6	det	_	start_char=3090|end_char=3092
+5	discretionary	discretionary	ADJ	JJ	Degree=Pos	6	amod	_	start_char=3093|end_char=3106
+6	income	income	NOUN	NN	Number=Sing	3	obj	_	start_char=3107|end_char=3113
+7	to	to	PART	TO	_	8	mark	_	start_char=3114|end_char=3116
+8	improve	improve	VERB	VB	VerbForm=Inf	3	advcl	_	start_char=3117|end_char=3124
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=3125|end_char=3128
+10-11	family's	_	_	_	_	_	_	_	start_char=3129|end_char=3137
+10	family	family	NOUN	NN	Number=Sing	12	nmod:poss	_	start_char=3129|end_char=3135
+11	's	's	PART	POS	_	10	case	_	start_char=3135|end_char=3137
+12	way	way	NOUN	NN	Number=Sing	8	obj	_	start_char=3138|end_char=3141
+13	of	of	ADP	IN	_	14	case	_	start_char=3142|end_char=3144
+14	living	living	NOUN	NN	Number=Sing	12	nmod	_	start_char=3145|end_char=3151|SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	start_char=3151|end_char=3152
+16	for	for	ADP	IN	_	17	case	_	start_char=3153|end_char=3156
+17	emergencies	emergency	NOUN	NNS	Number=Plur	8	obl	_	start_char=3157|end_char=3168|SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	_	start_char=3168|end_char=3169
+19	or	or	CCONJ	CC	_	21	cc	_	start_char=3170|end_char=3172
+20	for	for	SCONJ	IN	_	21	mark	_	start_char=3173|end_char=3176
+21	investing	invest	VERB	VBG	Tense=Pres|VerbForm=Part	8	conj	_	start_char=3177|end_char=3186
+22	into	into	SCONJ	IN	_	23	mark	_	start_char=3187|end_char=3191
+23	growing	grow	VERB	VBG	Tense=Pres|VerbForm=Part	21	advcl	_	start_char=3192|end_char=3199
+24	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	start_char=3200|end_char=3203
+25	business	business	NOUN	NN	Number=Sing	23	obj	_	start_char=3204|end_char=3212|SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	start_char=3212|end_char=3213|SpacesAfter=\n\n
+
+# text = If Jenipher wants credit, her options are limited.
+# sent_id = 35
+1	If	if	SCONJ	IN	_	3	mark	_	start_char=3215|end_char=3217
+2	Jenipher	Jenipher	PROPN	NNP	Number=Sing	3	nsubj	_	start_char=3218|end_char=3226
+3	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	start_char=3227|end_char=3232
+4	credit	credit	NOUN	NN	Number=Sing	3	obj	_	start_char=3233|end_char=3239|SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	start_char=3239|end_char=3240
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=3241|end_char=3244
+7	options	option	NOUN	NNS	Number=Plur	9	nsubj:pass	_	start_char=3245|end_char=3252
+8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	start_char=3253|end_char=3256
+9	limited	limit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=3257|end_char=3264|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	start_char=3264|end_char=3265|SpacesAfter=\n\n
+
+# text = She could get a microloan, but she'd have to form a group that could help vouch for her credibility.
+# sent_id = 36
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=3267|end_char=3270
+2	could	could	AUX	MD	VerbForm=Fin	3	aux	_	start_char=3271|end_char=3276
+3	get	get	VERB	VB	VerbForm=Inf	0	root	_	start_char=3277|end_char=3280
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=3281|end_char=3282
+5	microloan	microloan	NOUN	NN	Number=Sing	3	obj	_	start_char=3283|end_char=3292|SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	start_char=3292|end_char=3293
+7	but	but	CCONJ	CC	_	10	cc	_	start_char=3294|end_char=3297
+8-9	she'd	_	_	_	_	_	_	_	start_char=3298|end_char=3303
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=3298|end_char=3301
+9	'd	would	AUX	MD	VerbForm=Fin	10	aux	_	start_char=3301|end_char=3303
+10	have	have	VERB	VB	VerbForm=Inf	3	conj	_	start_char=3304|end_char=3308
+11	to	to	PART	TO	_	12	mark	_	start_char=3309|end_char=3311
+12	form	form	VERB	VB	VerbForm=Inf	10	xcomp	_	start_char=3312|end_char=3316
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	start_char=3317|end_char=3318
+14	group	group	NOUN	NN	Number=Sing	12	obj	_	start_char=3319|end_char=3324
+15	that	that	PRON	WDT	PronType=Rel	17	nsubj	_	start_char=3325|end_char=3329
+16	could	could	AUX	MD	VerbForm=Fin	17	aux	_	start_char=3330|end_char=3335
+17	help	help	VERB	VB	VerbForm=Inf	14	acl:relcl	_	start_char=3336|end_char=3340
+18	vouch	vouch	VERB	VB	VerbForm=Inf	17	xcomp	_	start_char=3341|end_char=3346
+19	for	for	ADP	IN	_	21	case	_	start_char=3347|end_char=3350
+20	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	start_char=3351|end_char=3354
+21	credibility	credibility	NOUN	NN	Number=Sing	18	obl	_	start_char=3355|end_char=3366|SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	start_char=3366|end_char=3367|SpacesAfter=\n\n
+
+# text = And even then, the loan sizes would be way too small to really have an impact on her business, averaging around 150 dollars.
+# sent_id = 37
+1	And	and	CCONJ	CC	_	12	cc	_	start_char=3369|end_char=3372
+2	even	even	ADV	RB	_	3	advmod	_	start_char=3373|end_char=3377
+3	then	then	ADV	RB	PronType=Dem	12	advmod	_	start_char=3378|end_char=3382|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=3382|end_char=3383
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=3384|end_char=3387
+6	loan	loan	NOUN	NN	Number=Sing	7	compound	_	start_char=3388|end_char=3392
+7	sizes	size	NOUN	NNS	Number=Plur	12	nsubj	_	start_char=3393|end_char=3398
+8	would	would	AUX	MD	VerbForm=Fin	12	aux	_	start_char=3399|end_char=3404
+9	be	be	AUX	VB	VerbForm=Inf	12	cop	_	start_char=3405|end_char=3407
+10	way	way	ADV	RB	_	12	advmod	_	start_char=3408|end_char=3411
+11	too	too	ADV	RB	_	12	advmod	_	start_char=3412|end_char=3415
+12	small	small	ADJ	JJ	Degree=Pos	0	root	_	start_char=3416|end_char=3421
+13	to	to	PART	TO	_	15	mark	_	start_char=3422|end_char=3424
+14	really	really	ADV	RB	_	15	advmod	_	start_char=3425|end_char=3431
+15	have	have	VERB	VB	VerbForm=Inf	12	xcomp	_	start_char=3432|end_char=3436
+16	an	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	start_char=3437|end_char=3439
+17	impact	impact	NOUN	NN	Number=Sing	15	obj	_	start_char=3440|end_char=3446
+18	on	on	ADP	IN	_	20	case	_	start_char=3447|end_char=3449
+19	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	start_char=3450|end_char=3453
+20	business	business	NOUN	NN	Number=Sing	17	nmod	_	start_char=3454|end_char=3462|SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	_	start_char=3462|end_char=3463
+22	averaging	average	VERB	VBG	Tense=Pres|VerbForm=Part	15	advcl	_	start_char=3464|end_char=3473
+23	around	around	ADV	RB	_	24	advmod	_	start_char=3474|end_char=3480
+24	150	150	NUM	CD	NumForm=Digit|NumType=Card	25	nummod	_	start_char=3481|end_char=3484
+25	dollars	dollar	NOUN	NNS	Number=Plur	22	obj	_	start_char=3485|end_char=3492|SpaceAfter=No
+26	.	.	PUNCT	.	_	12	punct	_	start_char=3492|end_char=3493|SpacesAfter=\n\n
+
+# text = Loan sharks are always an option, but with interest rates that are well above 300 percent, they're financially risky.
+# sent_id = 38
+1	Loan	loan	NOUN	NN	Number=Sing	2	compound	_	start_char=3495|end_char=3499
+2	sharks	shark	NOUN	NNS	Number=Plur	6	nsubj	_	start_char=3500|end_char=3506
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=3507|end_char=3510
+4	always	always	ADV	RB	PronType=Tot	6	advmod	_	start_char=3511|end_char=3517
+5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=3518|end_char=3520
+6	option	option	NOUN	NN	Number=Sing	0	root	_	start_char=3521|end_char=3527|SpaceAfter=No
+7	,	,	PUNCT	,	_	22	punct	_	start_char=3527|end_char=3528
+8	but	but	CCONJ	CC	_	22	cc	_	start_char=3529|end_char=3532
+9	with	with	ADP	IN	_	11	case	_	start_char=3533|end_char=3537
+10	interest	interest	NOUN	NN	Number=Sing	11	compound	_	start_char=3538|end_char=3546
+11	rates	rate	NOUN	NNS	Number=Plur	22	obl	_	start_char=3547|end_char=3552
+12	that	that	PRON	WDT	PronType=Rel	17	nsubj	_	start_char=3553|end_char=3557
+13	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=3558|end_char=3561
+14	well	well	ADV	RB	Degree=Pos	17	advmod	_	start_char=3562|end_char=3566
+15	above	above	ADP	IN	_	17	case	_	start_char=3567|end_char=3572
+16	300	300	NUM	CD	NumForm=Digit|NumType=Card	17	nummod	_	start_char=3573|end_char=3576
+17	percent	percent	NOUN	NN	Number=Sing	11	acl:relcl	_	start_char=3577|end_char=3584|SpaceAfter=No
+18	,	,	PUNCT	,	_	11	punct	_	start_char=3584|end_char=3585
+19-20	they're	_	_	_	_	_	_	_	start_char=3586|end_char=3593
+19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	start_char=3586|end_char=3590
+20	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	start_char=3590|end_char=3593
+21	financially	financially	ADV	RB	_	22	advmod	_	start_char=3594|end_char=3605
+22	risky	risky	ADJ	JJ	Degree=Pos	6	conj	_	start_char=3606|end_char=3611|SpaceAfter=No
+23	.	.	PUNCT	.	_	6	punct	_	start_char=3611|end_char=3612|SpacesAfter=\n\n
+
+# text = And because Jenipher doesn't have collateral or a credit history, she can't walk into a bank and ask for a business loan.
+# sent_id = 39
+1	And	and	CCONJ	CC	_	16	cc	_	start_char=3614|end_char=3617
+2	because	because	SCONJ	IN	_	6	mark	_	start_char=3618|end_char=3625
+3	Jenipher	Jenipher	PROPN	NNP	Number=Sing	6	nsubj	_	start_char=3626|end_char=3634
+4-5	doesn't	_	_	_	_	_	_	_	start_char=3635|end_char=3642
+4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=3635|end_char=3639
+5	n't	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=3639|end_char=3642
+6	have	have	VERB	VB	VerbForm=Inf	16	advcl	_	start_char=3643|end_char=3647
+7	collateral	collateral	NOUN	NN	Number=Sing	6	obj	_	start_char=3648|end_char=3658
+8	or	or	CCONJ	CC	_	11	cc	_	start_char=3659|end_char=3661
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=3662|end_char=3663
+10	credit	credit	NOUN	NN	Number=Sing	11	compound	_	start_char=3664|end_char=3670
+11	history	history	NOUN	NN	Number=Sing	7	conj	_	start_char=3671|end_char=3678|SpaceAfter=No
+12	,	,	PUNCT	,	_	6	punct	_	start_char=3678|end_char=3679
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	start_char=3680|end_char=3683
+14-15	can't	_	_	_	_	_	_	_	start_char=3684|end_char=3689
+14	ca	can	AUX	MD	VerbForm=Fin	16	aux	_	start_char=3684|end_char=3686
+15	n't	not	PART	RB	Polarity=Neg	16	advmod	_	start_char=3686|end_char=3689
+16	walk	walk	VERB	VB	VerbForm=Inf	0	root	_	start_char=3690|end_char=3694
+17	into	into	ADP	IN	_	19	case	_	start_char=3695|end_char=3699
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	start_char=3700|end_char=3701
+19	bank	bank	NOUN	NN	Number=Sing	16	obl	_	start_char=3702|end_char=3706
+20	and	and	CCONJ	CC	_	21	cc	_	start_char=3707|end_char=3710
+21	ask	ask	VERB	VB	VerbForm=Inf	16	conj	_	start_char=3711|end_char=3714
+22	for	for	ADP	IN	_	25	case	_	start_char=3715|end_char=3718
+23	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	start_char=3719|end_char=3720
+24	business	business	NOUN	NN	Number=Sing	25	compound	_	start_char=3721|end_char=3729
+25	loan	loan	NOUN	NN	Number=Sing	21	obl	_	start_char=3730|end_char=3734|SpaceAfter=No
+26	.	.	PUNCT	.	_	16	punct	_	start_char=3734|end_char=3735|SpacesAfter=\n\n
+
+# text = But one day, Jenipher's son convinced her to download our application and apply for a loan.
+# sent_id = 40
+1	But	but	CCONJ	CC	_	8	cc	_	start_char=3737|end_char=3740
+2	one	one	NUM	CD	NumForm=Word|NumType=Card	3	nummod	_	start_char=3741|end_char=3744
+3	day	day	NOUN	NN	Number=Sing	8	obl:unmarked	_	start_char=3745|end_char=3748|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=3748|end_char=3749
+5-6	Jenipher's	_	_	_	_	_	_	_	start_char=3750|end_char=3760
+5	Jenipher	Jenipher	PROPN	NNP	Number=Sing	7	nmod:poss	_	start_char=3750|end_char=3758
+6	's	's	PART	POS	_	5	case	_	start_char=3758|end_char=3760
+7	son	son	NOUN	NN	Number=Sing	8	nsubj	_	start_char=3761|end_char=3764
+8	convinced	convince	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3765|end_char=3774
+9	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	iobj	_	start_char=3775|end_char=3778
+10	to	to	PART	TO	_	11	mark	_	start_char=3779|end_char=3781
+11	download	download	VERB	VB	VerbForm=Inf	8	xcomp	_	start_char=3782|end_char=3790
+12	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=3791|end_char=3794
+13	application	application	NOUN	NN	Number=Sing	11	obj	_	start_char=3795|end_char=3806
+14	and	and	CCONJ	CC	_	15	cc	_	start_char=3807|end_char=3810
+15	apply	apply	VERB	VB	VerbForm=Inf	11	conj	_	start_char=3811|end_char=3816
+16	for	for	ADP	IN	_	18	case	_	start_char=3817|end_char=3820
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	start_char=3821|end_char=3822
+18	loan	loan	NOUN	NN	Number=Sing	15	obl	_	start_char=3823|end_char=3827|SpaceAfter=No
+19	.	.	PUNCT	.	_	8	punct	_	start_char=3827|end_char=3828|SpacesAfter=\n\n
+
+# text = Jenipher answered a few questions on her phone and she gave us access to a few key data points on her device.
+# sent_id = 41
+1	Jenipher	Jenipher	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=3830|end_char=3838
+2	answered	answer	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3839|end_char=3847
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=3848|end_char=3849
+4	few	few	ADJ	JJ	Degree=Pos	5	amod	_	start_char=3850|end_char=3853
+5	questions	question	NOUN	NNS	Number=Plur	2	obj	_	start_char=3854|end_char=3863
+6	on	on	ADP	IN	_	8	case	_	start_char=3864|end_char=3866
+7	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=3867|end_char=3870
+8	phone	phone	NOUN	NN	Number=Sing	2	obl	_	start_char=3871|end_char=3876
+9	and	and	CCONJ	CC	_	11	cc	_	start_char=3877|end_char=3880
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	start_char=3881|end_char=3884
+11	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=3885|end_char=3889
+12	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	iobj	_	start_char=3890|end_char=3892
+13	access	access	NOUN	NN	Number=Sing	11	obj	_	start_char=3893|end_char=3899
+14	to	to	ADP	IN	_	19	case	_	start_char=3900|end_char=3902
+15	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	start_char=3903|end_char=3904
+16	few	few	ADJ	JJ	Degree=Pos	19	amod	_	start_char=3905|end_char=3908
+17	key	key	ADJ	JJ	Degree=Pos	19	amod	_	start_char=3909|end_char=3912
+18	data	datum	NOUN	NN	Number=Plur	19	compound	_	start_char=3913|end_char=3917
+19	points	point	NOUN	NNS	Number=Plur	13	nmod	_	start_char=3918|end_char=3924
+20	on	on	ADP	IN	_	22	case	_	start_char=3925|end_char=3927
+21	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	start_char=3928|end_char=3931
+22	device	device	NOUN	NN	Number=Sing	19	nmod	_	start_char=3932|end_char=3938|SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	start_char=3938|end_char=3939|SpacesAfter=\n\n
+
+# text = And here's what we saw.
+# sent_id = 42
+1	And	and	CCONJ	CC	_	2	cc	_	start_char=3941|end_char=3944
+2-3	here's	_	_	_	_	_	_	_	start_char=3945|end_char=3951
+2	here	here	ADV	RB	PronType=Dem	0	root	_	start_char=3945|end_char=3949
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=3949|end_char=3951
+4	what	what	PRON	WP	PronType=Rel	2	nsubj	_	start_char=3952|end_char=3956
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=3957|end_char=3959
+6	saw	see	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	acl:relcl	_	start_char=3960|end_char=3963|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=3963|end_char=3964|SpacesAfter=\n\n
+
+# text = So, bad news first.
+# sent_id = 43
+1	So	so	ADV	RB	_	4	discourse	_	start_char=3966|end_char=3968|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=3968|end_char=3969
+3	bad	bad	ADJ	JJ	Degree=Pos	4	amod	_	start_char=3970|end_char=3973
+4	news	news	NOUN	NN	Number=Sing	0	root	_	start_char=3974|end_char=3978
+5	first	first	ADV	RB	Degree=Pos|NumForm=Word|NumType=Ord	4	advmod	_	start_char=3979|end_char=3984|SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	start_char=3984|end_char=3985|SpacesAfter=\n\n
+
+# text = Jenipher had a low savings balance and no previous loan history.
+# sent_id = 44
+1	Jenipher	Jenipher	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=3987|end_char=3995
+2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3996|end_char=3999
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=4000|end_char=4001
+4	low	low	ADJ	JJ	Degree=Pos	6	amod	_	start_char=4002|end_char=4005
+5	savings	savings	NOUN	NN	Number=Sing	6	compound	_	start_char=4006|end_char=4013
+6	balance	balance	NOUN	NN	Number=Sing	2	obj	_	start_char=4014|end_char=4021
+7	and	and	CCONJ	CC	_	11	cc	_	start_char=4022|end_char=4025
+8	no	no	DET	DT	PronType=Neg	11	det	_	start_char=4026|end_char=4028
+9	previous	previous	ADJ	JJ	Degree=Pos	11	amod	_	start_char=4029|end_char=4037
+10	loan	loan	NOUN	NN	Number=Sing	11	compound	_	start_char=4038|end_char=4042
+11	history	history	NOUN	NN	Number=Sing	6	conj	_	start_char=4043|end_char=4050|SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	start_char=4050|end_char=4051|SpacesAfter=\n\n
+
+# text = These are factors that would have thrown up a red flag to a traditional bank.
+# sent_id = 45
+1	These	this	PRON	DT	Number=Plur|PronType=Dem	3	nsubj	_	start_char=4053|end_char=4058
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=4059|end_char=4062
+3	factors	factor	NOUN	NNS	Number=Plur	0	root	_	start_char=4063|end_char=4070
+4	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	start_char=4071|end_char=4075
+5	would	would	AUX	MD	VerbForm=Fin	7	aux	_	start_char=4076|end_char=4081
+6	have	have	AUX	VB	VerbForm=Inf	7	aux	_	start_char=4082|end_char=4086
+7	thrown	throw	VERB	VBN	Tense=Past|VerbForm=Part	3	acl:relcl	_	start_char=4087|end_char=4093
+8	up	up	ADP	RP	_	7	compound:prt	_	start_char=4094|end_char=4096
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=4097|end_char=4098
+10	red	red	ADJ	JJ	Degree=Pos	11	amod	_	start_char=4099|end_char=4102
+11	flag	flag	NOUN	NN	Number=Sing	7	obj	_	start_char=4103|end_char=4107
+12	to	to	ADP	IN	_	15	case	_	start_char=4108|end_char=4110
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=4111|end_char=4112
+14	traditional	traditional	ADJ	JJ	Degree=Pos	15	amod	_	start_char=4113|end_char=4124
+15	bank	bank	NOUN	NN	Number=Sing	7	obl	_	start_char=4125|end_char=4129|SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	start_char=4129|end_char=4130|SpacesAfter=\n\n
+
+# text = But there were other points in her history that showed us a much richer picture of her potential.
+# sent_id = 46
+1	But	but	CCONJ	CC	_	3	cc	_	start_char=4132|end_char=4135
+2	there	there	PRON	EX	_	3	expl	_	start_char=4136|end_char=4141
+3	were	be	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=4142|end_char=4146
+4	other	other	ADJ	JJ	Degree=Pos	5	amod	_	start_char=4147|end_char=4152
+5	points	point	NOUN	NNS	Number=Plur	3	nsubj	_	start_char=4153|end_char=4159
+6	in	in	ADP	IN	_	8	case	_	start_char=4160|end_char=4162
+7	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=4163|end_char=4166
+8	history	history	NOUN	NN	Number=Sing	5	nmod	_	start_char=4167|end_char=4174
+9	that	that	PRON	WDT	PronType=Rel	10	nsubj	_	start_char=4175|end_char=4179
+10	showed	show	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	start_char=4180|end_char=4186
+11	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	iobj	_	start_char=4187|end_char=4189
+12	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=4190|end_char=4191
+13	much	much	ADV	RB	Degree=Pos	14	advmod	_	start_char=4192|end_char=4196
+14	richer	richer	ADJ	JJR	Degree=Cmp	15	amod	_	start_char=4197|end_char=4203
+15	picture	picture	NOUN	NN	Number=Sing	10	obj	_	start_char=4204|end_char=4211
+16	of	of	ADP	IN	_	18	case	_	start_char=4212|end_char=4214
+17	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	start_char=4215|end_char=4218
+18	potential	potential	NOUN	NN	Number=Sing	15	nmod	_	start_char=4219|end_char=4228|SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	start_char=4228|end_char=4229|SpacesAfter=\n\n
+
+# text = So for one, we saw that she made regular phone calls to her family in Uganda.
+# sent_id = 47
+1	So	so	ADV	RB	_	6	advmod	_	start_char=4231|end_char=4233
+2	for	for	ADP	IN	_	3	case	_	start_char=4234|end_char=4237
+3	one	one	NUM	CD	NumForm=Word|NumType=Card	6	obl	_	start_char=4238|end_char=4241|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=4241|end_char=4242
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=4243|end_char=4245
+6	saw	see	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=4246|end_char=4249
+7	that	that	SCONJ	IN	_	9	mark	_	start_char=4250|end_char=4254
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=4255|end_char=4258
+9	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	start_char=4259|end_char=4263
+10	regular	regular	ADJ	JJ	Degree=Pos	12	amod	_	start_char=4264|end_char=4271
+11	phone	phone	NOUN	NN	Number=Sing	12	compound	_	start_char=4272|end_char=4277
+12	calls	call	NOUN	NNS	Number=Plur	9	obj	_	start_char=4278|end_char=4283
+13	to	to	ADP	IN	_	15	case	_	start_char=4284|end_char=4286
+14	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=4287|end_char=4290
+15	family	family	NOUN	NN	Number=Sing	9	obl	_	start_char=4291|end_char=4297
+16	in	in	ADP	IN	_	17	case	_	start_char=4298|end_char=4300
+17	Uganda	Uganda	PROPN	NNP	Number=Sing	9	obl	_	start_char=4301|end_char=4307|SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	start_char=4307|end_char=4308|SpacesAfter=\n\n
+
+# text = Well, it turns out that the data shows a four percent increase in repayment among people who consistently communicate with a few close contacts.
+# sent_id = 48
+1	Well	well	INTJ	UH	_	4	discourse	_	start_char=4310|end_char=4314|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=4314|end_char=4315
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	start_char=4316|end_char=4318
+4	turns	turn	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4319|end_char=4324
+5	out	out	ADP	RP	_	4	compound:prt	_	start_char=4325|end_char=4328
+6	that	that	SCONJ	IN	_	9	mark	_	start_char=4329|end_char=4333
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=4334|end_char=4337
+8	data	datum	NOUN	NNS	Number=Plur	9	nsubj	_	start_char=4338|end_char=4342
+9	shows	show	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	start_char=4343|end_char=4348
+10	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=4349|end_char=4350
+11	four	four	NUM	CD	NumForm=Word|NumType=Card	12	nummod	_	start_char=4351|end_char=4355
+12	percent	percent	NOUN	NN	Number=Sing	13	compound	_	start_char=4356|end_char=4363
+13	increase	increase	NOUN	NN	Number=Sing	9	obj	_	start_char=4364|end_char=4372
+14	in	in	ADP	IN	_	15	case	_	start_char=4373|end_char=4375
+15	repayment	repayment	NOUN	NN	Number=Sing	13	nmod	_	start_char=4376|end_char=4385
+16	among	among	ADP	IN	_	17	case	_	start_char=4386|end_char=4391
+17	people	person	NOUN	NNS	Number=Plur	15	nmod	_	start_char=4392|end_char=4398
+18	who	who	PRON	WP	PronType=Rel	20	nsubj	_	start_char=4399|end_char=4402
+19	consistently	consistently	ADV	RB	_	20	advmod	_	start_char=4403|end_char=4415
+20	communicate	communicate	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	start_char=4416|end_char=4427
+21	with	with	ADP	IN	_	25	case	_	start_char=4428|end_char=4432
+22	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	start_char=4433|end_char=4434
+23	few	few	ADJ	JJ	Degree=Pos	25	amod	_	start_char=4435|end_char=4438
+24	close	close	ADJ	JJ	Degree=Pos	25	amod	_	start_char=4439|end_char=4444
+25	contacts	contact	NOUN	NNS	Number=Plur	20	obl	_	start_char=4445|end_char=4453|SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	start_char=4453|end_char=4454|SpacesAfter=\n\n
+
+# text = We could also see that though she traveled around a lot throughout the day, she actually had pretty regular travel patterns, and she was either at home or at her food stall.
+# sent_id = 49
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=4456|end_char=4458
+2	could	could	AUX	MD	VerbForm=Fin	4	aux	_	start_char=4459|end_char=4464
+3	also	also	ADV	RB	_	4	advmod	_	start_char=4465|end_char=4469
+4	see	see	VERB	VB	VerbForm=Inf	0	root	_	start_char=4470|end_char=4473
+5	that	that	SCONJ	IN	_	18	mark	_	start_char=4474|end_char=4478
+6	though	though	SCONJ	IN	_	8	mark	_	start_char=4479|end_char=4485
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=4486|end_char=4489
+8	traveled	travel	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	advcl	_	start_char=4490|end_char=4498
+9	around	around	ADP	IN	_	11	case	_	start_char=4499|end_char=4505
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=4506|end_char=4507
+11	lot	lot	NOUN	NN	Number=Sing	8	obl	_	start_char=4508|end_char=4511
+12	throughout	throughout	ADP	IN	_	14	case	_	start_char=4512|end_char=4522
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=4523|end_char=4526
+14	day	day	NOUN	NN	Number=Sing	8	obl	_	start_char=4527|end_char=4530|SpaceAfter=No
+15	,	,	PUNCT	,	_	8	punct	_	start_char=4530|end_char=4531
+16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	start_char=4532|end_char=4535
+17	actually	actually	ADV	RB	_	18	advmod	_	start_char=4536|end_char=4544
+18	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	start_char=4545|end_char=4548
+19	pretty	pretty	ADV	RB	_	20	advmod	_	start_char=4549|end_char=4555
+20	regular	regular	ADJ	JJ	Degree=Pos	22	amod	_	start_char=4556|end_char=4563
+21	travel	travel	NOUN	NN	Number=Sing	22	compound	_	start_char=4564|end_char=4570
+22	patterns	pattern	NOUN	NNS	Number=Plur	18	obj	_	start_char=4571|end_char=4579|SpaceAfter=No
+23	,	,	PUNCT	,	_	29	punct	_	start_char=4579|end_char=4580
+24	and	and	CCONJ	CC	_	29	cc	_	start_char=4581|end_char=4584
+25	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	start_char=4585|end_char=4588
+26	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	cop	_	start_char=4589|end_char=4592
+27	either	either	CCONJ	CC	_	29	cc:preconj	_	start_char=4593|end_char=4599
+28	at	at	ADP	IN	_	29	case	_	start_char=4600|end_char=4602
+29	home	home	NOUN	NN	Number=Sing	18	conj	_	start_char=4603|end_char=4607
+30	or	or	CCONJ	CC	_	34	cc	_	start_char=4608|end_char=4610
+31	at	at	ADP	IN	_	34	case	_	start_char=4611|end_char=4613
+32	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	start_char=4614|end_char=4617
+33	food	food	NOUN	NN	Number=Sing	34	compound	_	start_char=4618|end_char=4622
+34	stall	stall	NOUN	NN	Number=Sing	29	conj	_	start_char=4623|end_char=4628|SpaceAfter=No
+35	.	.	PUNCT	.	_	4	punct	_	start_char=4628|end_char=4629|SpacesAfter=\n\n
+
+# text = And the data shows a six percent increase in repayment among customers who are consistent with where they spend most of their time.
+# sent_id = 50
+1	And	and	CCONJ	CC	_	4	cc	_	start_char=4631|end_char=4634
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=4635|end_char=4638
+3	data	datum	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=4639|end_char=4643
+4	shows	show	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4644|end_char=4649
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=4650|end_char=4651
+6	six	six	NUM	CD	NumForm=Word|NumType=Card	7	nummod	_	start_char=4652|end_char=4655
+7	percent	percent	NOUN	NN	Number=Sing	8	compound	_	start_char=4656|end_char=4663
+8	increase	increase	NOUN	NN	Number=Sing	4	obj	_	start_char=4664|end_char=4672
+9	in	in	ADP	IN	_	10	case	_	start_char=4673|end_char=4675
+10	repayment	repayment	NOUN	NN	Number=Sing	8	nmod	_	start_char=4676|end_char=4685
+11	among	among	ADP	IN	_	12	case	_	start_char=4686|end_char=4691
+12	customers	customer	NOUN	NNS	Number=Plur	10	nmod	_	start_char=4692|end_char=4701
+13	who	who	PRON	WP	PronType=Rel	15	nsubj	_	start_char=4702|end_char=4705
+14	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=4706|end_char=4709
+15	consistent	consistent	ADJ	JJ	Degree=Pos	12	acl:relcl	_	start_char=4710|end_char=4720
+16	with	with	ADP	IN	_	17	case	_	start_char=4721|end_char=4725
+17	where	where	ADV	WRB	PronType=Rel	15	obl	_	start_char=4726|end_char=4731
+18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	start_char=4732|end_char=4736
+19	spend	spend	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	advcl:relcl	_	start_char=4737|end_char=4742
+20	most	most	ADJ	JJS	Degree=Sup	19	obj	_	start_char=4743|end_char=4747
+21	of	of	ADP	IN	_	23	case	_	start_char=4748|end_char=4750
+22	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	start_char=4751|end_char=4756
+23	time	time	NOUN	NN	Number=Sing	20	nmod	_	start_char=4757|end_char=4761|SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	_	start_char=4761|end_char=4762|SpacesAfter=\n\n
+
+# text = We could also see that she communicated a lot with many different people throughout the day and that she had a strong support network.
+# sent_id = 51
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=4764|end_char=4766
+2	could	could	AUX	MD	VerbForm=Fin	4	aux	_	start_char=4767|end_char=4772
+3	also	also	ADV	RB	_	4	advmod	_	start_char=4773|end_char=4777
+4	see	see	VERB	VB	VerbForm=Inf	0	root	_	start_char=4778|end_char=4781
+5	that	that	SCONJ	IN	_	7	mark	_	start_char=4782|end_char=4786
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=4787|end_char=4790
+7	communicated	communicate	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	start_char=4791|end_char=4803
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=4804|end_char=4805
+9	lot	lot	NOUN	NN	Number=Sing	7	obj	_	start_char=4806|end_char=4809
+10	with	with	ADP	IN	_	13	case	_	start_char=4810|end_char=4814
+11	many	many	ADJ	JJ	Degree=Pos	13	amod	_	start_char=4815|end_char=4819
+12	different	different	ADJ	JJ	Degree=Pos	13	amod	_	start_char=4820|end_char=4829
+13	people	person	NOUN	NNS	Number=Plur	7	obl	_	start_char=4830|end_char=4836
+14	throughout	throughout	ADP	IN	_	16	case	_	start_char=4837|end_char=4847
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=4848|end_char=4851
+16	day	day	NOUN	NN	Number=Sing	7	obl	_	start_char=4852|end_char=4855
+17	and	and	CCONJ	CC	_	20	cc	_	start_char=4856|end_char=4859
+18	that	that	SCONJ	IN	_	20	mark	_	start_char=4860|end_char=4864
+19	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	start_char=4865|end_char=4868
+20	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	start_char=4869|end_char=4872
+21	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	start_char=4873|end_char=4874
+22	strong	strong	ADJ	JJ	Degree=Pos	24	amod	_	start_char=4875|end_char=4881
+23	support	support	NOUN	NN	Number=Sing	24	compound	_	start_char=4882|end_char=4889
+24	network	network	NOUN	NN	Number=Sing	20	obj	_	start_char=4890|end_char=4897|SpaceAfter=No
+25	.	.	PUNCT	.	_	4	punct	_	start_char=4897|end_char=4898|SpacesAfter=\n\n
+
+# text = Our data shows that people who communicate with more than 58 different contacts tend to be more likely to be good borrowers.
+# sent_id = 52
+1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=4900|end_char=4903
+2	data	datum	NOUN	NNS	Number=Plur	3	nsubj	_	start_char=4904|end_char=4908
+3	shows	show	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4909|end_char=4914
+4	that	that	SCONJ	IN	_	14	mark	_	start_char=4915|end_char=4919
+5	people	person	NOUN	NNS	Number=Plur	14	nsubj	_	start_char=4920|end_char=4926
+6	who	who	PRON	WP	PronType=Rel	7	nsubj	_	start_char=4927|end_char=4930
+7	communicate	communicate	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	start_char=4931|end_char=4942
+8	with	with	ADP	IN	_	13	case	_	start_char=4943|end_char=4947
+9	more	more	ADJ	JJR	Degree=Cmp|ExtPos=ADV	11	advmod	_	start_char=4948|end_char=4952
+10	than	than	ADP	IN	_	9	fixed	_	start_char=4953|end_char=4957
+11	58	58	NUM	CD	NumForm=Digit|NumType=Card	13	nummod	_	start_char=4958|end_char=4960
+12	different	different	ADJ	JJ	Degree=Pos	13	amod	_	start_char=4961|end_char=4970
+13	contacts	contact	NOUN	NNS	Number=Plur	7	obl	_	start_char=4971|end_char=4979
+14	tend	tend	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	start_char=4980|end_char=4984
+15	to	to	PART	TO	_	18	mark	_	start_char=4985|end_char=4987
+16	be	be	AUX	VB	VerbForm=Inf	18	cop	_	start_char=4988|end_char=4990
+17	more	more	ADV	RBR	Degree=Cmp	18	advmod	_	start_char=4991|end_char=4995
+18	likely	likely	ADJ	JJ	Degree=Pos	14	xcomp	_	start_char=4996|end_char=5002
+19	to	to	PART	TO	_	22	mark	_	start_char=5003|end_char=5005
+20	be	be	AUX	VB	VerbForm=Inf	22	cop	_	start_char=5006|end_char=5008
+21	good	good	ADJ	JJ	Degree=Pos	22	amod	_	start_char=5009|end_char=5013
+22	borrowers	borrower	NOUN	NNS	Number=Plur	18	xcomp	_	start_char=5014|end_char=5023|SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	start_char=5023|end_char=5024|SpacesAfter=\n\n
+
+# text = In Jenipher's case, she communicated with 89 different individuals, which showed a nine percent increase in her repayment.
+# sent_id = 53
+1	In	in	ADP	IN	_	4	case	_	start_char=5026|end_char=5028
+2-3	Jenipher's	_	_	_	_	_	_	_	start_char=5029|end_char=5039
+2	Jenipher	Jenipher	PROPN	NNP	Number=Sing	4	nmod:poss	_	start_char=5029|end_char=5037
+3	's	's	PART	POS	_	2	case	_	start_char=5037|end_char=5039
+4	case	case	NOUN	NN	Number=Sing	7	obl	_	start_char=5040|end_char=5044|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=5044|end_char=5045
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=5046|end_char=5049
+7	communicated	communicate	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=5050|end_char=5062
+8	with	with	ADP	IN	_	11	case	_	start_char=5063|end_char=5067
+9	89	89	NUM	CD	NumForm=Digit|NumType=Card	11	nummod	_	start_char=5068|end_char=5070
+10	different	different	ADJ	JJ	Degree=Pos	11	amod	_	start_char=5071|end_char=5080
+11	individuals	individual	NOUN	NNS	Number=Plur	7	obl	_	start_char=5081|end_char=5092|SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	start_char=5092|end_char=5093
+13	which	which	PRON	WDT	PronType=Rel	14	nsubj	_	start_char=5094|end_char=5099
+14	showed	show	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	start_char=5100|end_char=5106
+15	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	start_char=5107|end_char=5108
+16	nine	nine	NUM	CD	NumForm=Word|NumType=Card	17	nummod	_	start_char=5109|end_char=5113
+17	percent	percent	NOUN	NN	Number=Sing	18	compound	_	start_char=5114|end_char=5121
+18	increase	increase	NOUN	NN	Number=Sing	14	obj	_	start_char=5122|end_char=5130
+19	in	in	ADP	IN	_	21	case	_	start_char=5131|end_char=5133
+20	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	start_char=5134|end_char=5137
+21	repayment	repayment	NOUN	NN	Number=Sing	18	nmod	_	start_char=5138|end_char=5147|SpaceAfter=No
+22	.	.	PUNCT	.	_	7	punct	_	start_char=5147|end_char=5148|SpacesAfter=\n\n
+
+# text = These are just some of the thousands of different data points that we look at to understand a person's creditworthiness.
+# sent_id = 54
+1	These	this	PRON	DT	Number=Plur|PronType=Dem	4	nsubj	_	start_char=5150|end_char=5155
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=5156|end_char=5159
+3	just	just	ADV	RB	_	4	advmod	_	start_char=5160|end_char=5164
+4	some	some	DET	DT	PronType=Ind	0	root	_	start_char=5165|end_char=5169
+5	of	of	ADP	IN	_	7	case	_	start_char=5170|end_char=5172
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=5173|end_char=5176
+7	thousands	thousand	NOUN	NNS	Number=Plur	4	nmod	_	start_char=5177|end_char=5186
+8	of	of	ADP	IN	_	11	case	_	start_char=5187|end_char=5189
+9	different	different	ADJ	JJ	Degree=Pos	11	amod	_	start_char=5190|end_char=5199
+10	data	datum	NOUN	NNS	Number=Plur	11	compound	_	start_char=5200|end_char=5204
+11	points	point	NOUN	NNS	Number=Plur	7	nmod	_	start_char=5205|end_char=5211
+12	that	that	PRON	WDT	PronType=Rel	14	obj	_	start_char=5212|end_char=5216
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	start_char=5217|end_char=5219
+14	look	look	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	start_char=5220|end_char=5224
+15	at	at	ADP	IN	_	12	case	_	start_char=5225|end_char=5227
+16	to	to	PART	TO	_	17	mark	_	start_char=5228|end_char=5230
+17	understand	understand	VERB	VB	VerbForm=Inf	14	advcl	_	start_char=5231|end_char=5241
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	start_char=5242|end_char=5243
+19-20	person's	_	_	_	_	_	_	_	start_char=5244|end_char=5252
+19	person	person	NOUN	NN	Number=Sing	21	nmod:poss	_	start_char=5244|end_char=5250
+20	's	's	PART	POS	_	19	case	_	start_char=5250|end_char=5252
+21	creditworthiness	creditworthiness	NOUN	NN	Number=Sing	17	obj	_	start_char=5253|end_char=5269|SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	start_char=5269|end_char=5270|SpacesAfter=\n\n
+
+# text = And after analyzing all of these different data points, we took the first risk and gave Jenipher a loan.
+# sent_id = 55
+1	And	and	CCONJ	CC	_	12	cc	_	start_char=5272|end_char=5275
+2	after	after	SCONJ	IN	_	3	mark	_	start_char=5276|end_char=5281
+3	analyzing	analyze	VERB	VBG	Tense=Pres|VerbForm=Part	12	advcl	_	start_char=5282|end_char=5291
+4	all	all	DET	DT	PronType=Tot	3	obj	_	start_char=5292|end_char=5295
+5	of	of	ADP	IN	_	9	case	_	start_char=5296|end_char=5298
+6	these	this	DET	DT	Number=Plur|PronType=Dem	9	det	_	start_char=5299|end_char=5304
+7	different	different	ADJ	JJ	Degree=Pos	9	amod	_	start_char=5305|end_char=5314
+8	data	datum	NOUN	NNS	Number=Plur	9	compound	_	start_char=5315|end_char=5319
+9	points	point	NOUN	NNS	Number=Plur	4	nmod	_	start_char=5320|end_char=5326|SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	start_char=5326|end_char=5327
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	start_char=5328|end_char=5330
+12	took	take	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=5331|end_char=5335
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=5336|end_char=5339
+14	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	15	amod	_	start_char=5340|end_char=5345
+15	risk	risk	NOUN	NN	Number=Sing	12	obj	_	start_char=5346|end_char=5350
+16	and	and	CCONJ	CC	_	17	cc	_	start_char=5351|end_char=5354
+17	gave	give	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	12	conj	_	start_char=5355|end_char=5359
+18	Jenipher	Jenipher	PROPN	NNP	Number=Sing	17	iobj	_	start_char=5360|end_char=5368
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	start_char=5369|end_char=5370
+20	loan	loan	NOUN	NN	Number=Sing	17	obj	_	start_char=5371|end_char=5375|SpaceAfter=No
+21	.	.	PUNCT	.	_	12	punct	_	start_char=5375|end_char=5376|SpacesAfter=\n\n
+
+# text = This is data that would not be found on a paper trail or in any formal financial record.
+# sent_id = 56
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	start_char=5378|end_char=5382
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=5383|end_char=5385
+3	data	datum	NOUN	NNS	Number=Plur	0	root	_	start_char=5386|end_char=5390
+4	that	that	PRON	WDT	PronType=Rel	8	nsubj:pass	_	start_char=5391|end_char=5395
+5	would	would	AUX	MD	VerbForm=Fin	8	aux	_	start_char=5396|end_char=5401
+6	not	not	PART	RB	Polarity=Neg	8	advmod	_	start_char=5402|end_char=5405
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	start_char=5406|end_char=5408
+8	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	acl:relcl	_	start_char=5409|end_char=5414
+9	on	on	ADP	IN	_	12	case	_	start_char=5415|end_char=5417
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=5418|end_char=5419
+11	paper	paper	NOUN	NN	Number=Sing	12	compound	_	start_char=5420|end_char=5425
+12	trail	trail	NOUN	NN	Number=Sing	8	obl	_	start_char=5426|end_char=5431
+13	or	or	CCONJ	CC	_	18	cc	_	start_char=5432|end_char=5434
+14	in	in	ADP	IN	_	18	case	_	start_char=5435|end_char=5437
+15	any	any	DET	DT	PronType=Ind	18	det	_	start_char=5438|end_char=5441
+16	formal	formal	ADJ	JJ	Degree=Pos	18	amod	_	start_char=5442|end_char=5448
+17	financial	financial	ADJ	JJ	Degree=Pos	18	amod	_	start_char=5449|end_char=5458
+18	record	record	NOUN	NN	Number=Sing	12	conj	_	start_char=5459|end_char=5465|SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	start_char=5465|end_char=5466|SpacesAfter=\n\n
+
+# text = But it proves trust.
+# sent_id = 57
+1	But	but	CCONJ	CC	_	3	cc	_	start_char=5468|end_char=5471
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=5472|end_char=5474
+3	proves	prove	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5475|end_char=5481
+4	trust	trust	NOUN	NN	Number=Sing	3	obj	_	start_char=5482|end_char=5487|SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	start_char=5487|end_char=5488|SpacesAfter=\n\n
+
+# text = By looking beyond income, we can see that people in emerging markets that may seem risky and unpredictable on the surface are actually willing and have the capacity to repay.
+# sent_id = 58
+1	By	by	SCONJ	IN	_	2	mark	_	start_char=5490|end_char=5492
+2	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	8	advcl	_	start_char=5493|end_char=5500
+3	beyond	beyond	ADP	IN	_	4	case	_	start_char=5501|end_char=5507
+4	income	income	NOUN	NN	Number=Sing	2	obl	_	start_char=5508|end_char=5514|SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	start_char=5514|end_char=5515
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=5516|end_char=5518
+7	can	can	AUX	MD	VerbForm=Fin	8	aux	_	start_char=5519|end_char=5522
+8	see	see	VERB	VB	VerbForm=Inf	0	root	_	start_char=5523|end_char=5526
+9	that	that	SCONJ	IN	_	25	mark	_	start_char=5527|end_char=5531
+10	people	person	NOUN	NNS	Number=Plur	25	nsubj	_	start_char=5532|end_char=5538
+11	in	in	ADP	IN	_	13	case	_	start_char=5539|end_char=5541
+12	emerging	emerge	VERB	VBG	VerbForm=Ger	13	amod	_	start_char=5542|end_char=5550
+13	markets	market	NOUN	NNS	Number=Plur	10	nmod	_	start_char=5551|end_char=5558
+14	that	that	PRON	WDT	PronType=Rel	16	nsubj	_	start_char=5559|end_char=5563
+15	may	may	AUX	MD	VerbForm=Fin	16	aux	_	start_char=5564|end_char=5567
+16	seem	seem	VERB	VB	VerbForm=Inf	13	acl:relcl	_	start_char=5568|end_char=5572
+17	risky	risky	ADJ	JJ	Degree=Pos	16	xcomp	_	start_char=5573|end_char=5578
+18	and	and	CCONJ	CC	_	19	cc	_	start_char=5579|end_char=5582
+19	unpredictable	unpredictable	ADJ	JJ	Degree=Pos	17	conj	_	start_char=5583|end_char=5596
+20	on	on	ADP	IN	_	22	case	_	start_char=5597|end_char=5599
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	start_char=5600|end_char=5603
+22	surface	surface	NOUN	NN	Number=Sing	19	obl	_	start_char=5604|end_char=5611
+23	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	start_char=5612|end_char=5615
+24	actually	actually	ADV	RB	_	25	advmod	_	start_char=5616|end_char=5624
+25	willing	willing	ADJ	JJ	Degree=Pos	8	ccomp	_	start_char=5625|end_char=5632
+26	and	and	CCONJ	CC	_	27	cc	_	start_char=5633|end_char=5636
+27	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	conj	_	start_char=5637|end_char=5641
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	start_char=5642|end_char=5645
+29	capacity	capacity	NOUN	NN	Number=Sing	27	obj	_	start_char=5646|end_char=5654
+30	to	to	PART	TO	_	31	mark	_	start_char=5655|end_char=5657
+31	repay	repay	VERB	VB	VerbForm=Inf	29	acl	_	start_char=5658|end_char=5663|SpaceAfter=No
+32	.	.	PUNCT	.	_	8	punct	_	start_char=5663|end_char=5664|SpacesAfter=\n\n
+
+# text = Our credit scores have helped us deliver over 200,000 loans in Kenya in just the past year.
+# sent_id = 59
+1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=5666|end_char=5669
+2	credit	credit	NOUN	NN	Number=Sing	3	compound	_	start_char=5670|end_char=5676
+3	scores	score	NOUN	NNS	Number=Plur	5	nsubj	_	start_char=5677|end_char=5683
+4	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=5684|end_char=5688
+5	helped	help	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=5689|end_char=5695
+6	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	obj	_	start_char=5696|end_char=5698
+7	deliver	deliver	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=5699|end_char=5706
+8	over	over	ADV	RB	_	9	advmod	_	start_char=5707|end_char=5711
+9	200,000	200000	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	_	start_char=5712|end_char=5719
+10	loans	loan	NOUN	NNS	Number=Plur	7	obj	_	start_char=5720|end_char=5725
+11	in	in	ADP	IN	_	12	case	_	start_char=5726|end_char=5728
+12	Kenya	Kenya	PROPN	NNP	Number=Sing	7	obl	_	start_char=5729|end_char=5734
+13	in	in	ADP	IN	_	17	case	_	start_char=5735|end_char=5737
+14	just	just	ADV	RB	_	17	advmod	_	start_char=5738|end_char=5742
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=5743|end_char=5746
+16	past	past	ADJ	JJ	Degree=Pos	17	amod	_	start_char=5747|end_char=5751
+17	year	year	NOUN	NN	Number=Sing	7	obl	_	start_char=5752|end_char=5756|SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	start_char=5756|end_char=5757|SpacesAfter=\n\n
+
+# text = And our repayment rates are above 90 percent -- which, by the way, is in line with traditional bank repayment rates.
+# sent_id = 60
+1	And	and	CCONJ	CC	_	8	cc	_	start_char=5759|end_char=5762
+2	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=5763|end_char=5766
+3	repayment	repayment	NOUN	NN	Number=Sing	4	compound	_	start_char=5767|end_char=5776
+4	rates	rate	NOUN	NNS	Number=Plur	8	nsubj	_	start_char=5777|end_char=5782
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=5783|end_char=5786
+6	above	above	ADP	IN	_	8	case	_	start_char=5787|end_char=5792
+7	90	90	NUM	CD	NumForm=Digit|NumType=Card	8	nummod	_	start_char=5793|end_char=5795
+8	percent	percent	NOUN	NN	Number=Sing	0	root	_	start_char=5796|end_char=5803
+9	--	--	PUNCT	,	_	18	punct	_	start_char=5804|end_char=5806
+10	which	which	PRON	WDT	PronType=Rel	18	nsubj	_	start_char=5807|end_char=5812|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	start_char=5812|end_char=5813
+12	by	by	ADP	IN	_	14	case	_	start_char=5814|end_char=5816
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=5817|end_char=5820
+14	way	way	NOUN	NN	Number=Sing	18	obl	_	start_char=5821|end_char=5824|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	start_char=5824|end_char=5825
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=5826|end_char=5828
+17	in	in	ADP	IN	_	18	case	_	start_char=5829|end_char=5831
+18	line	line	NOUN	NN	Number=Sing	8	acl:relcl	_	start_char=5832|end_char=5836
+19	with	with	ADP	IN	_	23	case	_	start_char=5837|end_char=5841
+20	traditional	traditional	ADJ	JJ	Degree=Pos	23	amod	_	start_char=5842|end_char=5853
+21	bank	bank	NOUN	NN	Number=Sing	22	compound	_	start_char=5854|end_char=5858
+22	repayment	repayment	NOUN	NN	Number=Sing	23	compound	_	start_char=5859|end_char=5868
+23	rates	rate	NOUN	NNS	Number=Plur	18	nmod	_	start_char=5869|end_char=5874|SpaceAfter=No
+24	.	.	PUNCT	.	_	8	punct	_	start_char=5874|end_char=5875|SpacesAfter=\n\n
+
+# text = With something as simple as a credit score, we're giving people the power to build their own futures.
+# sent_id = 61
+1	With	with	ADP	IN	_	2	case	_	start_char=5877|end_char=5881
+2	something	something	PRON	NN	Number=Sing|PronType=Ind	12	obl	_	start_char=5882|end_char=5891
+3	as	as	ADV	RB	_	4	advmod	_	start_char=5892|end_char=5894
+4	simple	simple	ADJ	JJ	Degree=Pos	2	amod	_	start_char=5895|end_char=5901
+5	as	as	ADP	IN	_	8	case	_	start_char=5902|end_char=5904
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=5905|end_char=5906
+7	credit	credit	NOUN	NN	Number=Sing	8	compound	_	start_char=5907|end_char=5913
+8	score	score	NOUN	NN	Number=Sing	4	obl	_	start_char=5914|end_char=5919|SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	start_char=5919|end_char=5920
+10-11	we're	_	_	_	_	_	_	_	start_char=5921|end_char=5926
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	start_char=5921|end_char=5923
+11	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=5923|end_char=5926
+12	giving	give	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=5927|end_char=5933
+13	people	person	NOUN	NNS	Number=Plur	12	iobj	_	start_char=5934|end_char=5940
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=5941|end_char=5944
+15	power	power	NOUN	NN	Number=Sing	12	obj	_	start_char=5945|end_char=5950
+16	to	to	PART	TO	_	17	mark	_	start_char=5951|end_char=5953
+17	build	build	VERB	VB	VerbForm=Inf	15	acl	_	start_char=5954|end_char=5959
+18	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	start_char=5960|end_char=5965
+19	own	own	ADJ	JJ	Degree=Pos	20	amod	_	start_char=5966|end_char=5969
+20	futures	future	NOUN	NNS	Number=Plur	17	obj	_	start_char=5970|end_char=5977|SpaceAfter=No
+21	.	.	PUNCT	.	_	12	punct	_	start_char=5977|end_char=5978|SpacesAfter=\n\n
+
+# text = Our customers have used their loans for family expenses, emergencies, travel and for investing back into growing their businesses.
+# sent_id = 62
+1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=5980|end_char=5983
+2	customers	customer	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=5984|end_char=5993
+3	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=5994|end_char=5998
+4	used	use	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=5999|end_char=6003
+5	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=6004|end_char=6009
+6	loans	loan	NOUN	NNS	Number=Plur	4	obj	_	start_char=6010|end_char=6015
+7	for	for	ADP	IN	_	9	case	_	start_char=6016|end_char=6019
+8	family	family	NOUN	NN	Number=Sing	9	compound	_	start_char=6020|end_char=6026
+9	expenses	expense	NOUN	NNS	Number=Plur	4	obl	_	start_char=6027|end_char=6035|SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	start_char=6035|end_char=6036
+11	emergencies	emergency	NOUN	NNS	Number=Plur	9	conj	_	start_char=6037|end_char=6048|SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	start_char=6048|end_char=6049
+13	travel	travel	NOUN	NN	Number=Sing	9	conj	_	start_char=6050|end_char=6056
+14	and	and	CCONJ	CC	_	16	cc	_	start_char=6057|end_char=6060
+15	for	for	SCONJ	IN	_	16	mark	_	start_char=6061|end_char=6064
+16	investing	invest	VERB	VBG	VerbForm=Ger	4	conj	_	start_char=6065|end_char=6074
+17	back	back	ADV	RB	_	16	advmod	_	start_char=6075|end_char=6079
+18	into	into	SCONJ	IN	_	19	mark	_	start_char=6080|end_char=6084
+19	growing	grow	VERB	VBG	VerbForm=Ger	16	advcl	_	start_char=6085|end_char=6092
+20	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	start_char=6093|end_char=6098
+21	businesses	business	NOUN	NNS	Number=Plur	19	obj	_	start_char=6099|end_char=6109|SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	start_char=6109|end_char=6110|SpacesAfter=\n\n
+
+# text = They're now building better economies and communities where more people can succeed.
+# sent_id = 63
+1-2	They're	_	_	_	_	_	_	_	start_char=6112|end_char=6119
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=6112|end_char=6116
+2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=6116|end_char=6119
+3	now	now	ADV	RB	PronType=Dem	4	advmod	_	start_char=6120|end_char=6123
+4	building	build	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=6124|end_char=6132
+5	better	good	ADJ	JJR	Degree=Cmp	6	amod	_	start_char=6133|end_char=6139
+6	economies	economy	NOUN	NNS	Number=Plur	4	obj	_	start_char=6140|end_char=6149
+7	and	and	CCONJ	CC	_	8	cc	_	start_char=6150|end_char=6153
+8	communities	community	NOUN	NNS	Number=Plur	6	conj	_	start_char=6154|end_char=6165
+9	where	where	ADV	WRB	PronType=Rel	13	advmod	_	start_char=6166|end_char=6171
+10	more	more	ADJ	JJR	Degree=Cmp	11	amod	_	start_char=6172|end_char=6176
+11	people	person	NOUN	NNS	Number=Plur	13	nsubj	_	start_char=6177|end_char=6183
+12	can	can	AUX	MD	VerbForm=Fin	13	aux	_	start_char=6184|end_char=6187
+13	succeed	succeed	VERB	VB	VerbForm=Inf	6	acl:relcl	_	start_char=6188|end_char=6195|SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	start_char=6195|end_char=6196|SpacesAfter=\n\n
+
+# text = Over the past two years of using our product, Jenipher has increased her savings by 60 percent.
+# sent_id = 64
+1	Over	over	ADP	IN	_	5	case	_	start_char=6198|end_char=6202
+2	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=6203|end_char=6206
+3	past	past	ADJ	JJ	Degree=Pos	5	amod	_	start_char=6207|end_char=6211
+4	two	two	NUM	CD	NumForm=Word|NumType=Card	5	nummod	_	start_char=6212|end_char=6215
+5	years	year	NOUN	NNS	Number=Plur	13	obl	_	start_char=6216|end_char=6221
+6	of	of	SCONJ	IN	_	7	mark	_	start_char=6222|end_char=6224
+7	using	use	VERB	VBG	VerbForm=Ger	5	acl	_	start_char=6225|end_char=6230
+8	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=6231|end_char=6234
+9	product	product	NOUN	NN	Number=Sing	7	obj	_	start_char=6235|end_char=6242|SpaceAfter=No
+10	,	,	PUNCT	,	_	5	punct	_	start_char=6242|end_char=6243
+11	Jenipher	Jenipher	PROPN	NNP	Number=Sing	13	nsubj	_	start_char=6244|end_char=6252
+12	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=6253|end_char=6256
+13	increased	increase	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=6257|end_char=6266
+14	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=6267|end_char=6270
+15	savings	savings	NOUN	NNS	Number=Plur	13	obj	_	start_char=6271|end_char=6278
+16	by	by	ADP	IN	_	18	case	_	start_char=6279|end_char=6281
+17	60	60	NUM	CD	NumForm=Digit|NumType=Card	18	nummod	_	start_char=6282|end_char=6284
+18	percent	percent	NOUN	NN	Number=Sing	13	obl	_	start_char=6285|end_char=6292|SpaceAfter=No
+19	.	.	PUNCT	.	_	13	punct	_	start_char=6292|end_char=6293|SpacesAfter=\n\n
+
+# text = She's also started two additional food stalls and is now making plans for her own restaurant.
+# sent_id = 65
+1-2	She's	_	_	_	_	_	_	_	start_char=6295|end_char=6300
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=6295|end_char=6298
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=6298|end_char=6300
+3	also	also	ADV	RB	_	4	advmod	_	start_char=6301|end_char=6305
+4	started	start	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=6306|end_char=6313
+5	two	two	NUM	CD	NumForm=Word|NumType=Card	8	nummod	_	start_char=6314|end_char=6317
+6	additional	additional	ADJ	JJ	Degree=Pos	8	amod	_	start_char=6318|end_char=6328
+7	food	food	NOUN	NN	Number=Sing	8	compound	_	start_char=6329|end_char=6333
+8	stalls	stall	NOUN	NNS	Number=Plur	4	obj	_	start_char=6334|end_char=6340
+9	and	and	CCONJ	CC	_	12	cc	_	start_char=6341|end_char=6344
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=6345|end_char=6347
+11	now	now	ADV	RB	PronType=Dem	12	advmod	_	start_char=6348|end_char=6351
+12	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	4	conj	_	start_char=6352|end_char=6358
+13	plans	plan	NOUN	NNS	Number=Plur	12	obj	_	start_char=6359|end_char=6364
+14	for	for	ADP	IN	_	17	case	_	start_char=6365|end_char=6368
+15	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	start_char=6369|end_char=6372
+16	own	own	ADJ	JJ	Degree=Pos	17	amod	_	start_char=6373|end_char=6376
+17	restaurant	restaurant	NOUN	NN	Number=Sing	12	obl	_	start_char=6377|end_char=6387|SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	start_char=6387|end_char=6388|SpacesAfter=\n\n
+
+# text = She's applying for a small-business loan from a commercial bank, because she now has the credit history to prove she deserves it.
+# sent_id = 66
+1-2	She's	_	_	_	_	_	_	_	start_char=6390|end_char=6395
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=6390|end_char=6393
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=6393|end_char=6395
+3	applying	apply	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=6396|end_char=6404
+4	for	for	ADP	IN	_	9	case	_	start_char=6405|end_char=6408
+5	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=6409|end_char=6410
+6	small	small	ADJ	JJ	Degree=Pos	8	amod	_	start_char=6411|end_char=6416|SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	6	punct	_	start_char=6416|end_char=6417|SpaceAfter=No
+8	business	business	NOUN	NN	Number=Sing	9	compound	_	start_char=6417|end_char=6425
+9	loan	loan	NOUN	NN	Number=Sing	3	obl	_	start_char=6426|end_char=6430
+10	from	from	ADP	IN	_	13	case	_	start_char=6431|end_char=6435
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=6436|end_char=6437
+12	commercial	commercial	ADJ	JJ	Degree=Pos	13	amod	_	start_char=6438|end_char=6448
+13	bank	bank	NOUN	NN	Number=Sing	9	nmod	_	start_char=6449|end_char=6453|SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	start_char=6453|end_char=6454
+15	because	because	SCONJ	IN	_	18	mark	_	start_char=6455|end_char=6462
+16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	start_char=6463|end_char=6466
+17	now	now	ADV	RB	_	18	advmod	_	start_char=6467|end_char=6470
+18	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=6471|end_char=6474
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=6475|end_char=6478
+20	credit	credit	NOUN	NN	Number=Sing	21	compound	_	start_char=6479|end_char=6485
+21	history	history	NOUN	NN	Number=Sing	18	obj	_	start_char=6486|end_char=6493
+22	to	to	PART	TO	_	23	mark	_	start_char=6494|end_char=6496
+23	prove	prove	VERB	VB	VerbForm=Inf	21	acl	_	start_char=6497|end_char=6502
+24	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	start_char=6503|end_char=6506
+25	deserves	deserve	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	_	start_char=6507|end_char=6515
+26	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	obj	_	start_char=6516|end_char=6518|SpaceAfter=No
+27	.	.	PUNCT	.	_	3	punct	_	start_char=6518|end_char=6519|SpacesAfter=\n\n
+
+# text = I saw Jenipher in Nairobi just last week, and she told me how excited she was to get started.
+# sent_id = 67
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=6521|end_char=6522
+2	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=6523|end_char=6526
+3	Jenipher	Jenipher	PROPN	NNP	Number=Sing	2	obj	_	start_char=6527|end_char=6535
+4	in	in	ADP	IN	_	5	case	_	start_char=6536|end_char=6538
+5	Nairobi	Nairobi	PROPN	NNP	Number=Sing	2	obl	_	start_char=6539|end_char=6546
+6	just	just	ADV	RB	_	8	advmod	_	start_char=6547|end_char=6551
+7	last	last	ADJ	JJ	Degree=Pos	8	amod	_	start_char=6552|end_char=6556
+8	week	week	NOUN	NN	Number=Sing	2	obl:unmarked	_	start_char=6557|end_char=6561|SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	start_char=6561|end_char=6562
+10	and	and	CCONJ	CC	_	12	cc	_	start_char=6563|end_char=6566
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=6567|end_char=6570
+12	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=6571|end_char=6575
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	iobj	_	start_char=6576|end_char=6578
+14	how	how	ADV	WRB	PronType=Int	15	advmod	_	start_char=6579|end_char=6582
+15	excited	excited	ADJ	JJ	Degree=Pos	12	ccomp	_	start_char=6583|end_char=6590
+16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	start_char=6591|end_char=6594
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	start_char=6595|end_char=6598
+18	to	to	PART	TO	_	20	mark	_	start_char=6599|end_char=6601
+19	get	get	AUX	VB	VerbForm=Inf	20	aux:pass	_	start_char=6602|end_char=6605
+20	started	start	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	csubj	_	start_char=6606|end_char=6613|SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	start_char=6613|end_char=6614|SpacesAfter=\n\n
+
+# text = She said, "Only my son believed I could do this.
+# sent_id = 68
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=6616|end_char=6619
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=6620|end_char=6624|SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	start_char=6624|end_char=6625
+4	"	"	PUNCT	``	_	8	punct	_	start_char=6626|end_char=6627|SpaceAfter=No
+5	Only	only	ADV	RB	_	8	advmod	_	start_char=6627|end_char=6631
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=6632|end_char=6634
+7	son	son	NOUN	NN	Number=Sing	8	nsubj	_	start_char=6635|end_char=6638
+8	believed	believe	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	start_char=6639|end_char=6647
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=6648|end_char=6649
+10	could	could	AUX	MD	VerbForm=Fin	11	aux	_	start_char=6650|end_char=6655
+11	do	do	VERB	VB	VerbForm=Inf	8	ccomp	_	start_char=6656|end_char=6658
+12	this	this	PRON	DT	Number=Sing|PronType=Dem	11	obj	_	start_char=6659|end_char=6663|SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	start_char=6663|end_char=6664|SpacesAfter=\n\n
+
+# text = I didn't think this was for me."
+# sent_id = 69
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=6666|end_char=6667
+2-3	didn't	_	_	_	_	_	_	_	start_char=6668|end_char=6674
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	aux	_	start_char=6668|end_char=6671
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=6671|end_char=6674
+4	think	think	VERB	VB	VerbForm=Inf	0	root	_	start_char=6675|end_char=6680
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	_	start_char=6681|end_char=6685
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	start_char=6686|end_char=6689
+7	for	for	ADP	IN	_	8	case	_	start_char=6690|end_char=6693
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	ccomp	_	start_char=6694|end_char=6696|SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	start_char=6696|end_char=6697|SpaceAfter=No
+10	"	"	PUNCT	''	_	4	punct	_	start_char=6697|end_char=6698|SpacesAfter=\n\n
+
+# text = She's lived her whole life believing that there was a part of the world that was closed off to her.
+# sent_id = 70
+1-2	She's	_	_	_	_	_	_	_	start_char=6700|end_char=6705
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=6700|end_char=6703
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=6703|end_char=6705
+3	lived	live	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=6706|end_char=6711
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=6712|end_char=6715
+5	whole	whole	ADJ	JJ	Degree=Pos	6	amod	_	start_char=6716|end_char=6721
+6	life	life	NOUN	NN	Number=Sing	3	obj	_	start_char=6722|end_char=6726
+7	believing	believe	VERB	VBG	Tense=Pres|VerbForm=Part	3	advcl	_	start_char=6727|end_char=6736
+8	that	that	SCONJ	IN	_	10	mark	_	start_char=6737|end_char=6741
+9	there	there	PRON	EX	_	10	expl	_	start_char=6742|end_char=6747
+10	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	ccomp	_	start_char=6748|end_char=6751
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=6752|end_char=6753
+12	part	part	NOUN	NN	Number=Sing	10	nsubj	_	start_char=6754|end_char=6758
+13	of	of	ADP	IN	_	15	case	_	start_char=6759|end_char=6761
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=6762|end_char=6765
+15	world	world	NOUN	NN	Number=Sing	12	nmod	_	start_char=6766|end_char=6771
+16	that	that	PRON	WDT	PronType=Rel	18	nsubj:pass	_	start_char=6772|end_char=6776
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux:pass	_	start_char=6777|end_char=6780
+18	closed	close	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	acl:relcl	_	start_char=6781|end_char=6787
+19	off	off	ADP	RP	_	18	compound:prt	_	start_char=6788|end_char=6791
+20	to	to	ADP	IN	_	21	case	_	start_char=6792|end_char=6794
+21	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obl	_	start_char=6795|end_char=6798|SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	start_char=6798|end_char=6799|SpacesAfter=\n\n
+
+# text = Our job now is to open the world to Jenipher and the billions like her that deserve to be trusted.
+# sent_id = 71
+1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=6801|end_char=6804
+2	job	job	NOUN	NN	Number=Sing	6	nsubj:outer	_	start_char=6805|end_char=6808
+3	now	now	ADV	RB	_	6	advmod	_	start_char=6809|end_char=6812
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=6813|end_char=6815
+5	to	to	PART	TO	_	6	mark	_	start_char=6816|end_char=6818
+6	open	open	VERB	VB	VerbForm=Inf	0	root	_	start_char=6819|end_char=6823
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=6824|end_char=6827
+8	world	world	NOUN	NN	Number=Sing	6	obj	_	start_char=6828|end_char=6833
+9	to	to	ADP	IN	_	10	case	_	start_char=6834|end_char=6836
+10	Jenipher	Jenipher	PROPN	NNP	Number=Sing	6	obl	_	start_char=6837|end_char=6845
+11	and	and	CCONJ	CC	_	13	cc	_	start_char=6846|end_char=6849
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=6850|end_char=6853
+13	billions	billion	NOUN	NNS	Number=Plur	10	conj	_	start_char=6854|end_char=6862
+14	like	like	ADP	IN	_	15	case	_	start_char=6863|end_char=6867
+15	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nmod	_	start_char=6868|end_char=6871
+16	that	that	PRON	WDT	PronType=Rel	17	nsubj	_	start_char=6872|end_char=6876
+17	deserve	deserve	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	start_char=6877|end_char=6884
+18	to	to	PART	TO	_	20	mark	_	start_char=6885|end_char=6887
+19	be	be	AUX	VB	VerbForm=Inf	20	aux:pass	_	start_char=6888|end_char=6890
+20	trusted	trust	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	xcomp	_	start_char=6891|end_char=6898|SpaceAfter=No
+21	.	.	PUNCT	.	_	6	punct	_	start_char=6898|end_char=6899|SpacesAfter=\n\n
+
+# text = Thank you.
+# sent_id = 72
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6901|end_char=6906
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	start_char=6907|end_char=6910|SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	_	start_char=6910|end_char=6911|SpaceAfter=No
+
