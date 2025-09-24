@@ -1,0 +1,1513 @@
+# text = Eine kurze Zeitreise durch die letzten 4 Milliarden Jahre (Dinosaurier nicht inbegriffen)
+# sent_id = 0
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=0|end_char=4
+2	kurze	kurz	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=5|end_char=10
+3	Zeitreise	Zeitreise	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=11|end_char=20
+4	durch	durch	ADP	APPR	_	9	case	_	start_char=21|end_char=26
+5	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=27|end_char=30
+6	letzten	letzt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=31|end_char=38
+7	4	4	NUM	CARD	NumType=Card	8	nummod	_	start_char=39|end_char=40
+8	Milliarden	Milliarde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	nmod	_	start_char=41|end_char=51
+9	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	nmod	_	start_char=52|end_char=57
+10	(	(	PUNCT	$(	_	13	punct	_	start_char=58|end_char=59|SpaceAfter=No
+11	Dinosaurier	Dinosaurus	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	start_char=59|end_char=70
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	start_char=71|end_char=76
+13	inbegriffen	inbegriffen	ADJ	ADJD	Degree=Pos|VerbForm=Part	9	acl	_	start_char=77|end_char=88|SpaceAfter=No
+14	)	)	PUNCT	$(	_	13	punct	_	start_char=88|end_char=89|SpacesAfter=\n\n
+
+# text = Paläontologie ist eine Wissenschaft für kleine Kinder, die im "Jurassic Park"-Kostüm nach Dinosaurierknochen graben.
+# sent_id = 1
+1	Paläontologie	Paläontologie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=91|end_char=104
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=105|end_char=108
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=109|end_char=113
+4	Wissenschaft	Wissenschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=114|end_char=126
+5	für	für	ADP	APPR	_	7	case	_	start_char=127|end_char=130
+6	kleine	klein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	start_char=131|end_char=137
+7	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	nmod	_	start_char=138|end_char=144|SpaceAfter=No
+8	,	,	PUNCT	$,	_	20	punct	_	start_char=144|end_char=145
+9	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	20	nsubj	_	start_char=146|end_char=149
+10-11	im	_	_	_	_	_	_	_	start_char=150|end_char=152
+10	in	in	ADP	APPR	_	13	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	"	"	PUNCT	$(	_	13	punct	_	start_char=153|end_char=154|SpaceAfter=No
+13	Jurassic	Jurassic	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	start_char=154|end_char=162
+14	Park	Park	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	13	flat	_	start_char=163|end_char=167|SpaceAfter=No
+15	"	"	PUNCT	$(	_	13	punct	_	start_char=167|end_char=168|SpaceAfter=No
+16	-	-	PUNCT	$(	_	17	punct	_	start_char=168|end_char=169|SpaceAfter=No
+17	Kostüm	Kostüm	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	flat	_	start_char=169|end_char=175
+18	nach	nach	ADP	APPR	_	19	case	_	start_char=176|end_char=180
+19	Dinosaurierknochen	Dinosaurierknochen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	20	obl	_	start_char=181|end_char=199
+20	graben	graben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	start_char=200|end_char=206|SpaceAfter=No
+21	.	.	PUNCT	$.	_	4	punct	_	start_char=206|end_char=207|SpacesAfter=\n\n
+
+# text = Es werden Schädel ausgegraben und der staunenden Öffentlichkeit gezeigt.
+# sent_id = 2
+1	Es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	start_char=209|end_char=211
+2	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	aux:pass	_	start_char=212|end_char=218
+3	Schädel	Schädel	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj:pass	_	start_char=219|end_char=226
+4	ausgegraben	ausgraben	VERB	VVPP	VerbForm=Part	0	root	_	start_char=227|end_char=238
+5	und	und	CCONJ	KON	_	9	cc	_	start_char=239|end_char=242
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=243|end_char=246
+7	staunenden	staunend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=247|end_char=257
+8	Öffentlichkeit	Öffentlichkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl:arg	_	start_char=258|end_char=272
+9	gezeigt	zeigen	VERB	VVPP	VerbForm=Part	4	conj	_	start_char=273|end_char=280|SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	start_char=280|end_char=281|SpacesAfter=\n\n
+
+# text = Man gesteht ihnen außer Clickbait, Malbüchern und Monsterfilmen keine weitere Relevanz zu.
+# sent_id = 3
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=283|end_char=286
+2	gesteht	gestehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=287|end_char=294
+3	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	2	obl:arg	_	start_char=295|end_char=300
+4	außer	außer	ADP	APPR	_	5	case	_	start_char=301|end_char=306
+5	Clickbait	Clickbait	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=307|end_char=316|SpaceAfter=No
+6	,	,	PUNCT	$,	_	7	punct	_	start_char=316|end_char=317
+7	Malbüchern	Malbuch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	conj	_	start_char=318|end_char=328
+8	und	und	CCONJ	KON	_	9	cc	_	start_char=329|end_char=332
+9	Monsterfilmen	Monsterfilm	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	conj	_	start_char=333|end_char=346
+10	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	12	det	_	start_char=347|end_char=352
+11	weitere	weit	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	12	amod	_	start_char=353|end_char=360
+12	Relevanz	Relevanz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=361|end_char=369
+13	zu	zu	ADP	PTKVZ	_	2	compound:prt	_	start_char=370|end_char=372|SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=372|end_char=373|SpacesAfter=\n\n
+
+# text = Nein...
+# sent_id = 4
+1	Nein	nein	ADV	ADV	_	0	root	_	start_char=375|end_char=379|SpaceAfter=No
+2	...	...	PUNCT	$(	_	1	punct	_	start_char=379|end_char=382|SpacesAfter=\n\n
+
+# text = Moment mal.
+# sent_id = 5
+1	Moment	Moment	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=384|end_char=390
+2	mal	mal	ADV	ADV	_	1	advmod	_	start_char=391|end_char=394|SpaceAfter=No
+3	.	.	PUNCT	$.	_	1	punct	_	start_char=394|end_char=395|SpacesAfter=\n\n
+
+# text = Das hat gar nichts mit Paläontologie zu tun.
+# sent_id = 6
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=397|end_char=400
+2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=401|end_char=404
+3	gar	gar	ADV	ADV	_	4	advmod	_	start_char=405|end_char=408
+4	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	2	obj	_	start_char=409|end_char=415
+5	mit	mit	ADP	APPR	_	6	case	_	start_char=416|end_char=419
+6	Paläontologie	Paläontologie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	start_char=420|end_char=433
+7	zu	zu	PART	PTKZU	_	8	mark	_	start_char=434|end_char=436
+8	tun	tun	VERB	VVINF	VerbForm=Inf	2	xcomp	_	start_char=437|end_char=440|SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=440|end_char=441|SpacesAfter=\n\n
+
+# text = Die Paläontologie ist nichts anderes als die Lehre allen vergangenen Lebens und den dazugehörenden vorzeitlichen Lebensformen: von unseren Vorfahren bis zu fremden Formen.
+# sent_id = 7
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=443|end_char=446
+2	Paläontologie	Paläontologie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=447|end_char=460
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=461|end_char=464
+4	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	5	det	_	start_char=465|end_char=471
+5	anderes	anderer	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	0	root	_	start_char=472|end_char=479
+6	als	als	ADP	KOKOM	_	8	case	_	start_char=480|end_char=483
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=484|end_char=487
+8	Lehre	Lehre	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	start_char=488|end_char=493
+9	allen	alle	DET	PIAT	Case=Gen|Gender=Neut|Number=Sing|PronType=Tot	11	det	_	start_char=494|end_char=499
+10	vergangenen	vergangen	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=500|end_char=511
+11	Lebens	Leben	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	start_char=512|end_char=518
+12	und	und	CCONJ	KON	_	16	cc	_	start_char=519|end_char=522
+13	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	16	det	_	start_char=523|end_char=526
+14	dazugehörenden	dazugehörend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=527|end_char=541
+15	vorzeitlichen	vorzeitlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=542|end_char=555
+16	Lebensformen	Lebensform	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	conj	_	start_char=556|end_char=568|SpaceAfter=No
+17	:	:	PUNCT	$.	_	20	punct	_	start_char=568|end_char=569
+18	von	von	ADP	APPR	_	20	case	_	start_char=570|end_char=573
+19	unseren	unser	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	20	det:poss	_	start_char=574|end_char=581
+20	Vorfahren	Vorfahr|Vorfahren	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	8	nmod	_	start_char=582|end_char=591
+21	bis	bis	ADP	APPR	_	24	case	_	start_char=592|end_char=595
+22	zu	zu	ADP	APPR	_	24	case	_	start_char=596|end_char=598
+23	fremden	fremd	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	24	amod	_	start_char=599|end_char=606
+24	Formen	Form	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	20	nmod	_	start_char=607|end_char=613|SpaceAfter=No
+25	.	.	PUNCT	$.	_	5	punct	_	start_char=613|end_char=614|SpacesAfter=\n\n
+
+# text = Es geht meist um fundamentale Fragen: "Wer sind wir?"
+# sent_id = 8
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=616|end_char=618
+2	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=619|end_char=623
+3	meist	meist	ADV	ADV	_	2	advmod	_	start_char=624|end_char=629
+4	um	um	ADP	APPR	_	6	case	_	start_char=630|end_char=632
+5	fundamentale	fundamental	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=633|end_char=645
+6	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	start_char=646|end_char=652|SpaceAfter=No
+7	:	:	PUNCT	$.	_	10	punct	_	start_char=652|end_char=653
+8	"	"	PUNCT	$(	_	10	punct	_	start_char=654|end_char=655|SpaceAfter=No
+9	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	10	nsubj	_	start_char=655|end_char=658
+10	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=659|end_char=663
+11	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	start_char=664|end_char=667|SpaceAfter=No
+12	?	?	PUNCT	$.	_	10	punct	_	start_char=667|end_char=668|SpaceAfter=No
+13	"	"	PUNCT	$(	_	10	punct	_	start_char=668|end_char=669|SpacesAfter=\n\n
+
+# text = Und: "Wie sind wir hier gelandet?" Wobei wir die weiteste Definition von "wir" betrachten: das Leben selbst.
+# sent_id = 9
+1	Und	und	CCONJ	KON	_	8	cc	_	start_char=671|end_char=674|SpaceAfter=No
+2	:	:	PUNCT	$.	_	1	punct	_	start_char=674|end_char=675
+3	"	"	PUNCT	$(	_	8	punct	_	start_char=676|end_char=677|SpaceAfter=No
+4	Wie	wie	ADV	PWAV	PronType=Int	8	advmod	_	start_char=677|end_char=680
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=681|end_char=685
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=686|end_char=689
+7	hier	hier	ADV	ADV	_	8	advmod	_	start_char=690|end_char=694
+8	gelandet	landen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=695|end_char=703|SpaceAfter=No
+9	?	?	PUNCT	$.	_	8	punct	_	start_char=703|end_char=704|SpaceAfter=No
+10	"	"	PUNCT	$(	_	20	punct	_	start_char=704|end_char=705
+11	Wobei	wobei	ADV	PWAV	PronType=Int	20	advmod	_	start_char=706|end_char=711
+12	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	start_char=712|end_char=715
+13	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=716|end_char=719
+14	weiteste	weit	ADJ	ADJA	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	15	amod	_	start_char=720|end_char=728
+15	Definition	Definition	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	start_char=729|end_char=739
+16	von	von	ADP	APPR	_	18	case	_	start_char=740|end_char=743
+17	"	"	PUNCT	$(	_	18	punct	_	start_char=744|end_char=745|SpaceAfter=No
+18	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nmod	_	start_char=745|end_char=748|SpaceAfter=No
+19	"	"	PUNCT	$(	_	18	punct	_	start_char=748|end_char=749
+20	betrachten	betrachten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	start_char=750|end_char=760|SpaceAfter=No
+21	:	:	PUNCT	$.	_	23	punct	_	start_char=760|end_char=761
+22	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	start_char=762|end_char=765
+23	Leben	Leben	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	20	appos	_	start_char=766|end_char=771
+24	selbst	selbst	ADV	ADV	_	23	advmod	_	start_char=772|end_char=778|SpaceAfter=No
+25	.	.	PUNCT	$.	_	8	punct	_	start_char=778|end_char=779|SpacesAfter=\n\n
+
+# text = Dinosaurier, aus der Kategorie der Vögel, sind nur ein ganz kleiner Prozentsatz davon.
+# sent_id = 10
+1	Dinosaurier	Dinosaurus	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	start_char=781|end_char=792|SpaceAfter=No
+2	,	,	PUNCT	$,	_	5	punct	_	start_char=792|end_char=793
+3	aus	aus	ADP	APPR	_	5	case	_	start_char=794|end_char=797
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=798|end_char=801
+5	Kategorie	Kategorie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	start_char=802|end_char=811
+6	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=812|end_char=815
+7	Vögel	Vogel	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	start_char=816|end_char=821|SpaceAfter=No
+8	,	,	PUNCT	$,	_	5	punct	_	start_char=821|end_char=822
+9	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=823|end_char=827
+10	nur	nur	ADV	ADV	_	14	advmod	_	start_char=828|end_char=831
+11	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	14	det	_	start_char=832|end_char=835
+12	ganz	ganz	ADJ	ADV	Degree=Pos	13	advmod	_	start_char=836|end_char=840
+13	kleiner	klein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=841|end_char=848
+14	Prozentsatz	Prozentsatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=849|end_char=860
+15	davon	davon	ADV	PAV	PronType=Dem	14	advmod	_	start_char=861|end_char=866|SpaceAfter=No
+16	.	.	PUNCT	$.	_	14	punct	_	start_char=866|end_char=867|SpacesAfter=\n\n
+
+# text = Trotzdem bekommen sie die meiste Medienberichterstattung.
+# sent_id = 11
+1	Trotzdem	trotzdem	ADV	PAV	_	2	advmod	_	start_char=869|end_char=877
+2	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=878|end_char=886
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=887|end_char=890
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=891|end_char=894
+5	meiste	meist	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	6	det	_	start_char=895|end_char=901
+6	Medienberichterstattung	Medienberichterstattung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=902|end_char=925|SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=925|end_char=926|SpacesAfter=\n\n
+
+# text = Dieses Mem trifft es genau. Es ist nicht einmal von mir.
+# sent_id = 12
+1	Dieses	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	start_char=928|end_char=934
+2	Mem	Mem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=935|end_char=938
+3	trifft	treffen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=939|end_char=945
+4	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=946|end_char=948
+5	genau	genau	ADV	ADV	_	3	advmod	_	start_char=949|end_char=954|SpaceAfter=No
+6	.	.	PUNCT	$.	_	8	punct	_	start_char=954|end_char=955
+7	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=956|end_char=958
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=959|end_char=962
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=963|end_char=968
+10	einmal	einmal	ADV	ADV	_	8	advmod	_	start_char=969|end_char=975
+11	von	von	ADP	APPR	_	12	case	_	start_char=976|end_char=979
+12	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	obl	_	start_char=980|end_char=983|SpaceAfter=No
+13	.	.	PUNCT	$.	_	3	punct	_	start_char=983|end_char=984|SpacesAfter=\n\n
+
+# text = Es ist einfach die Wahrheit.
+# sent_id = 13
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=986|end_char=988
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=989|end_char=992
+3	einfach	einfach	ADV	ADV	_	5	advmod	_	start_char=993|end_char=1000
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1001|end_char=1004
+5	Wahrheit	Wahrheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1005|end_char=1013|SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=1013|end_char=1014|SpacesAfter=\n\n
+
+# text = Bei uns Paläontologen gelten die Dinosaurier als Einstiegsdroge.
+# sent_id = 14
+1	Bei	bei	ADP	APPR	_	2	case	_	start_char=1016|end_char=1019
+2	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	3	nmod	_	start_char=1020|end_char=1023
+3	Paläontologen	Paläontologe	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	xcomp	_	start_char=1024|end_char=1037
+4	gelten	gelten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1038|end_char=1044
+5	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=1045|end_char=1048
+6	Dinosaurier	Dinosaurus	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=1049|end_char=1060
+7	als	als	ADP	KOKOM	_	8	case	_	start_char=1061|end_char=1064
+8	Einstiegsdroge	Einstiegsdroge	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	xcomp	_	start_char=1065|end_char=1079|SpaceAfter=No
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=1079|end_char=1080|SpacesAfter=\n\n
+
+# text = Es gibt viel coolere Funde unter den Fossilien, von denen wir so viel mehr wissen.
+# sent_id = 15
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=1082|end_char=1084
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1085|end_char=1089
+3	viel	viel	DET	PIAT	PronType=Ind	5	det	_	start_char=1090|end_char=1094
+4	coolere	cool	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=1095|end_char=1102
+5	Funde	Fund	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	nsubj	_	start_char=1103|end_char=1108
+6	unter	unter	ADP	APPR	_	8	case	_	start_char=1109|end_char=1114
+7	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=1115|end_char=1118
+8	Fossilien	Fossil	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	nmod	_	start_char=1119|end_char=1128|SpaceAfter=No
+9	,	,	PUNCT	$,	_	16	punct	_	start_char=1128|end_char=1129
+10	von	von	ADP	APPR	_	11	case	_	start_char=1130|end_char=1133
+11	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	16	obl	_	start_char=1134|end_char=1139
+12	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	start_char=1140|end_char=1143
+13	so	so	ADV	ADV	_	14	advmod	_	start_char=1144|end_char=1146
+14	viel	viel	DET	PIS	PronType=Ind	16	advmod	_	start_char=1147|end_char=1151
+15	mehr	mehr	ADV	ADV	_	16	advmod	_	start_char=1152|end_char=1156
+16	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	start_char=1157|end_char=1163|SpaceAfter=No
+17	.	.	PUNCT	$.	_	2	punct	_	start_char=1163|end_char=1164|SpacesAfter=\n\n
+
+# text = Ich nehme Sie jetzt mit auf eine kurze dinosaurierfreie Reise der letzten vier Milliarden Jahre.
+# sent_id = 16
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=1166|end_char=1169
+2	nehme	nehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1170|end_char=1175
+3	Sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	obj	_	start_char=1176|end_char=1179
+4	jetzt	jetzt	ADV	ADV	_	2	advmod	_	start_char=1180|end_char=1185
+5	mit	mit	ADP	ADV	_	2	mark	_	start_char=1186|end_char=1189
+6	auf	auf	ADP	APPR	_	10	case	_	start_char=1190|end_char=1193
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=1194|end_char=1198
+8	kurze	kurz	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=1199|end_char=1204
+9	dinosaurierfreie	dinosaurierfrei	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=1205|end_char=1221
+10	Reise	Reise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	start_char=1222|end_char=1227
+11	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	15	det	_	start_char=1228|end_char=1231
+12	letzten	letzt	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=1232|end_char=1239
+13	vier	vier	NUM	CARD	NumType=Card	14	nummod	_	start_char=1240|end_char=1244
+14	Milliarden	Milliarde	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	start_char=1245|end_char=1255
+15	Jahre	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	start_char=1256|end_char=1261|SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	start_char=1261|end_char=1262|SpacesAfter=\n\n
+
+# text = Erster Stop ist das Genmaterial: Viren fangen an Proteine zu produzieren und zerstören ihre Umgebung.
+# sent_id = 17
+1	Erster	erst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|NumType=Ord|Number=Sing	2	amod	_	start_char=1264|end_char=1270
+2	Stop	Stop	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=1271|end_char=1275
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1276|end_char=1279
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=1280|end_char=1283
+5	Genmaterial	Genmaterial	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=1284|end_char=1295|SpaceAfter=No
+6	:	:	PUNCT	$.	_	8	punct	_	start_char=1295|end_char=1296
+7	Viren	Virus	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=1297|end_char=1302
+8	fangen	fangen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	start_char=1303|end_char=1309
+9	an	an	ADP	APPR	_	10	case	_	start_char=1310|end_char=1312
+10	Proteine	Proteine	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obl	_	start_char=1313|end_char=1321
+11	zu	zu	PART	PTKZU	_	12	mark	_	start_char=1322|end_char=1324
+12	produzieren	produzieren	VERB	VVINF	VerbForm=Inf	8	xcomp	_	start_char=1325|end_char=1336
+13	und	und	CCONJ	KON	_	14	cc	_	start_char=1337|end_char=1340
+14	zerstören	zerstören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	start_char=1341|end_char=1350
+15	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	start_char=1351|end_char=1355
+16	Umgebung	Umgebung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=1356|end_char=1364|SpaceAfter=No
+17	.	.	PUNCT	$.	_	5	punct	_	start_char=1364|end_char=1365|SpacesAfter=\n\n
+
+# text = Die Erde war infiziert mit Leben.
+# sent_id = 18
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1367|end_char=1370
+2	Erde	Erde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=1371|end_char=1375
+3	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=1376|end_char=1379
+4	infiziert	infizieren	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=1380|end_char=1389
+5	mit	mit	ADP	APPR	_	6	case	_	start_char=1390|end_char=1393
+6	Leben	Leben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	start_char=1394|end_char=1399|SpaceAfter=No
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=1399|end_char=1400|SpacesAfter=\n\n
+
+# text = Einige dieser neuen Bakterien lernten, die Sonnenenergie zu nutzen. Sie produzierten Sauerstoff, wandelten die Kohlenstoffe der Luft um und zerstörten die Eisennahrung der anderen Mikroben indem sie sie in Rost verwandelten.
+# sent_id = 19
+1	Einige	einige	DET	PIS	Case=Nom|Number=Plur|PronType=Ind	5	nsubj	_	start_char=1402|end_char=1408
+2	dieser	dieser	DET	PDAT	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	start_char=1409|end_char=1415
+3	neuen	neu	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=1416|end_char=1421
+4	Bakterien	Bakterium	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	start_char=1422|end_char=1431
+5	lernten	lernen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1432|end_char=1439|SpaceAfter=No
+6	,	,	PUNCT	$,	_	10	punct	_	start_char=1439|end_char=1440
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=1441|end_char=1444
+8	Sonnenenergie	Sonnenenergie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=1445|end_char=1458
+9	zu	zu	PART	PTKZU	_	10	mark	_	start_char=1459|end_char=1461
+10	nutzen	nutzen	VERB	VVINF	VerbForm=Inf	5	xcomp	_	start_char=1462|end_char=1468|SpaceAfter=No
+11	.	.	PUNCT	$.	_	13	punct	_	start_char=1468|end_char=1469
+12	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	start_char=1470|end_char=1473
+13	produzierten	produzieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	parataxis	_	start_char=1474|end_char=1486
+14	Sauerstoff	Sauerstoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=1487|end_char=1497|SpaceAfter=No
+15	,	,	PUNCT	$,	_	16	punct	_	start_char=1497|end_char=1498
+16	wandelten	wandeln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	start_char=1499|end_char=1508
+17	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	18	det	_	start_char=1509|end_char=1512
+18	Kohlenstoffe	Kohlenstoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	16	obj	_	start_char=1513|end_char=1525
+19	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=1526|end_char=1529
+20	Luft	Luft	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	start_char=1530|end_char=1534
+21	um	um	ADP	PTKVZ	_	16	compound:prt	_	start_char=1535|end_char=1537
+22	und	und	CCONJ	KON	_	23	cc	_	start_char=1538|end_char=1541
+23	zerstörten	zerstören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	start_char=1542|end_char=1552
+24	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	start_char=1553|end_char=1556
+25	Eisennahrung	Eisennahrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	start_char=1557|end_char=1569
+26	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	start_char=1570|end_char=1573
+27	anderen	anderer	DET	ADJA	Case=Gen|Gender=Fem|Number=Plur|PronType=Ind	28	det	_	start_char=1574|end_char=1581
+28	Mikroben	Mikrobe	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	start_char=1582|end_char=1590
+29	indem	indem	SCONJ	KOUS	_	34	mark	_	start_char=1591|end_char=1596
+30	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	34	nsubj	_	start_char=1597|end_char=1600
+31	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	34	obj	_	start_char=1601|end_char=1604
+32	in	in	ADP	APPR	_	33	case	_	start_char=1605|end_char=1607
+33	Rost	Rost	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	34	obl	_	start_char=1608|end_char=1612
+34	verwandelten	verwandeln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	advcl	_	start_char=1613|end_char=1625|SpaceAfter=No
+35	.	.	PUNCT	$.	_	5	punct	_	start_char=1625|end_char=1626|SpacesAfter=\n\n
+
+# text = Dies ging über Milliarden von Jahren.
+# sent_id = 20
+1	Dies	dieser	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=1628|end_char=1632
+2	ging	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1633|end_char=1637
+3	über	über	ADP	APPR	_	4	case	_	start_char=1638|end_char=1642
+4	Milliarden	Milliarde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	start_char=1643|end_char=1653
+5	von	von	ADP	APPR	_	6	case	_	start_char=1654|end_char=1657
+6	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	4	nmod	_	start_char=1658|end_char=1664|SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=1664|end_char=1665|SpacesAfter=\n\n
+
+# text = Einige Bakterien verzehrten andere Bakterien und setzten deren Energie in eigenen Sauerstoff um. Sie wurden die Vorläufer der Tiere und Pflanzen.
+# sent_id = 21
+1	Einige	einige	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=1667|end_char=1673
+2	Bakterien	Bakterium	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=1674|end_char=1683
+3	verzehrten	verzehren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1684|end_char=1694
+4	andere	anderer	DET	ADJA	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	start_char=1695|end_char=1701
+5	Bakterien	Bakterium	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=1702|end_char=1711
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=1712|end_char=1715
+7	setzten	setzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	start_char=1716|end_char=1723
+8	deren	der	PRON	PDAT	Case=Gen|Number=Plur|PronType=Dem,Rel	9	nmod:poss	_	start_char=1724|end_char=1729
+9	Energie	Energie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=1730|end_char=1737
+10	in	in	ADP	APPR	_	12	case	_	start_char=1738|end_char=1740
+11	eigenen	eigen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=1741|end_char=1748
+12	Sauerstoff	Sauerstoff	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	start_char=1749|end_char=1759
+13	um	um	ADP	PTKVZ	_	7	compound:prt	_	start_char=1760|end_char=1762|SpaceAfter=No
+14	.	.	PUNCT	$.	_	16	punct	_	start_char=1762|end_char=1763
+15	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	start_char=1764|end_char=1767
+16	wurden	werden	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	start_char=1768|end_char=1774
+17	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	18	det	_	start_char=1775|end_char=1778
+18	Vorläufer	Vorläufer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	xcomp	_	start_char=1779|end_char=1788
+19	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	20	det	_	start_char=1789|end_char=1792
+20	Tiere	Tier	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	start_char=1793|end_char=1798
+21	und	und	CCONJ	KON	_	22	cc	_	start_char=1799|end_char=1802
+22	Pflanzen	Pflanze	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	20	conj	_	start_char=1803|end_char=1811|SpaceAfter=No
+23	.	.	PUNCT	$.	_	3	punct	_	start_char=1811|end_char=1812|SpacesAfter=\n\n
+
+# text = Daraus resultierten Klimaschocks, von heiß nach kalt und wieder heiß. Dadurch verwandelte sich die Erde in einen Gletscher-bedeckten Schneeball.
+# sent_id = 22
+1	Daraus	daraus	ADV	PAV	PronType=Dem	2	advmod	_	start_char=1814|end_char=1820
+2	resultierten	resultieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1821|end_char=1833
+3	Klimaschocks	Klimaschock	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=1834|end_char=1846|SpaceAfter=No
+4	,	,	PUNCT	$,	_	8	punct	_	start_char=1846|end_char=1847
+5	von	von	ADP	APPR	_	6	case	_	start_char=1848|end_char=1851
+6	heiß	heiß	ADJ	ADJD	Degree=Pos	8	advmod	_	start_char=1852|end_char=1856
+7	nach	nach	ADP	APPR	_	8	case	_	start_char=1857|end_char=1861
+8	kalt	kalt	ADJ	ADJD	Degree=Pos	3	conj	_	start_char=1862|end_char=1866
+9	und	und	CCONJ	KON	_	11	cc	_	start_char=1867|end_char=1870
+10	wieder	wieder	ADV	ADV	_	11	advmod	_	start_char=1871|end_char=1877
+11	heiß	heiß	ADJ	ADJD	Degree=Pos	8	conj	_	start_char=1878|end_char=1882|SpaceAfter=No
+12	.	.	PUNCT	$.	_	14	punct	_	start_char=1882|end_char=1883
+13	Dadurch	dadurch	ADV	PAV	PronType=Dem	14	advmod	_	start_char=1884|end_char=1891
+14	verwandelte	verwandeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=1892|end_char=1903
+15	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	14	obj	_	start_char=1904|end_char=1908
+16	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=1909|end_char=1912
+17	Erde	Erde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	start_char=1913|end_char=1917
+18	in	in	ADP	APPR	_	23	case	_	start_char=1918|end_char=1920
+19	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	23	det	_	start_char=1921|end_char=1926
+20	Gletscher	Gletscher	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	compound	_	start_char=1927|end_char=1936|SpaceAfter=No
+21	-	-	PUNCT	$(	_	20	punct	_	start_char=1936|end_char=1937|SpaceAfter=No
+22	bedeckten	bedecken	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	start_char=1937|end_char=1946
+23	Schneeball	Schneeball	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	start_char=1947|end_char=1957|SpaceAfter=No
+24	.	.	PUNCT	$.	_	2	punct	_	start_char=1957|end_char=1958|SpacesAfter=\n\n
+
+# text = Der Fachbegriff für diese Periode ist "Schneeball-Erde".
+# sent_id = 23
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=1960|end_char=1963
+2	Fachbegriff	Fachbegriff	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=1964|end_char=1975
+3	für	für	ADP	APPR	_	5	case	_	start_char=1976|end_char=1979
+4	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=1980|end_char=1985
+5	Periode	Periode	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	start_char=1986|end_char=1993
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=1994|end_char=1997
+7	"	"	PUNCT	$(	_	8	punct	_	start_char=1998|end_char=1999|SpaceAfter=No
+8	Schneeball	Schneeball	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1999|end_char=2009|SpaceAfter=No
+9	-	-	PUNCT	$(	_	10	punct	_	start_char=2009|end_char=2010|SpaceAfter=No
+10	Erde	Erde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	flat	_	start_char=2010|end_char=2014|SpaceAfter=No
+11	"	"	PUNCT	$(	_	8	punct	_	start_char=2014|end_char=2015|SpaceAfter=No
+12	.	.	PUNCT	$.	_	8	punct	_	start_char=2015|end_char=2016|SpacesAfter=\n\n
+
+# text = Vor siebenhundert, achthundert Millionen Jahren.
+# sent_id = 24
+1	Vor	vor	ADP	APPR	_	6	case	_	start_char=2018|end_char=2021
+2	siebenhundert	siebenhundert	NUM	CARD	NumType=Card	6	nummod	_	start_char=2022|end_char=2035|SpaceAfter=No
+3	,	,	PUNCT	$,	_	4	punct	_	start_char=2035|end_char=2036
+4	achthundert	achthundert	NUM	CARD	NumType=Card	2	conj	_	start_char=2037|end_char=2048
+5	Millionen	Million	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	nmod	_	start_char=2049|end_char=2058
+6	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	0	root	_	start_char=2059|end_char=2065|SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=2065|end_char=2066|SpacesAfter=\n\n
+
+# text = Dann fingen die Mikroben an sich zusammenzuschließen und bildeten mehrzelliges Leben.
+# sent_id = 25
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=2068|end_char=2072
+2	fingen	fangen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2073|end_char=2079
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=2080|end_char=2083
+4	Mikroben	Mikrobe	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=2084|end_char=2092
+5	an	an	ADP	APPR	_	6	case	_	start_char=2093|end_char=2095
+6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obl	_	start_char=2096|end_char=2100
+7	zusammenzuschließen	zusammenschließen	VERB	VVIZU	VerbForm=Inf	2	xcomp	_	start_char=2101|end_char=2120
+8	und	und	CCONJ	KON	_	9	cc	_	start_char=2121|end_char=2124
+9	bildeten	bilden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=2125|end_char=2133
+10	mehrzelliges	mehrzelliges	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=2134|end_char=2146
+11	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=2147|end_char=2152|SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=2152|end_char=2153|SpacesAfter=\n\n
+
+# text = Vor 6 hundert Millionen Jahren erschienen geometrische Kolonien, die Mikroben aus dem Wasser aufnahmen.
+# sent_id = 26
+1	Vor	vor	ADP	APPR	_	5	case	_	start_char=2155|end_char=2158
+2	6	6	NUM	CARD	NumType=Card	3	nummod	_	start_char=2159|end_char=2160
+3	hundert	hundert	NUM	CARD	NumType=Card	4	nummod	_	start_char=2161|end_char=2168
+4	Millionen	Million	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	nmod	_	start_char=2169|end_char=2178
+5	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	6	obl	_	start_char=2179|end_char=2185
+6	erschienen	erscheinen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2186|end_char=2196
+7	geometrische	geometrisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=2197|end_char=2209
+8	Kolonien	Kolonie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=2210|end_char=2218|SpaceAfter=No
+9	,	,	PUNCT	$,	_	15	punct	_	start_char=2218|end_char=2219
+10	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	15	nsubj	_	start_char=2220|end_char=2223
+11	Mikroben	Mikrobe	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	start_char=2224|end_char=2232
+12	aus	aus	ADP	APPR	_	14	case	_	start_char=2233|end_char=2236
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	start_char=2237|end_char=2240
+14	Wasser	Wasser	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	start_char=2241|end_char=2247
+15	aufnahmen	aufnehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	acl	_	start_char=2248|end_char=2257|SpaceAfter=No
+16	.	.	PUNCT	$.	_	6	punct	_	start_char=2257|end_char=2258|SpacesAfter=\n\n
+
+# text = Diese wurden schnell durch die Vorfahren der modernen Tiere ersetzt: die kambrische Artenexplosion.
+# sent_id = 27
+1	Diese	dieser	DET	PDS	Case=Nom|Number=Plur|PronType=Dem	10	nsubj:pass	_	start_char=2260|end_char=2265
+2	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	10	aux:pass	_	start_char=2266|end_char=2272
+3	schnell	schnell	ADJ	ADJD	Degree=Pos	10	advmod	_	start_char=2273|end_char=2280
+4	durch	durch	ADP	APPR	_	6	case	_	start_char=2281|end_char=2286
+5	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=2287|end_char=2290
+6	Vorfahren	Vorfahr|Vorfahren	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	obl	_	start_char=2291|end_char=2300
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=2301|end_char=2304
+8	modernen	modern	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	start_char=2305|end_char=2313
+9	Tiere	Tier	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	start_char=2314|end_char=2319
+10	ersetzt	ersetzen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=2320|end_char=2327|SpaceAfter=No
+11	:	:	PUNCT	$.	_	14	punct	_	start_char=2327|end_char=2328
+12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=2329|end_char=2332
+13	kambrische	kambrisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=2333|end_char=2343
+14	Artenexplosion	Artenexplosion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	appos	_	start_char=2344|end_char=2358|SpaceAfter=No
+15	.	.	PUNCT	$.	_	10	punct	_	start_char=2358|end_char=2359|SpacesAfter=\n\n
+
+# text = Hummerverwandte aßen andere Tiere, die sie mit ihren Greifarmen einfingen.
+# sent_id = 28
+1	Hummerverwandte	Hummerverwandter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=2361|end_char=2376
+2	aßen	essen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2377|end_char=2381
+3	andere	anderer	DET	ADJA	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	4	det	_	start_char=2382|end_char=2388
+4	Tiere	Tier	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	obj	_	start_char=2389|end_char=2394|SpaceAfter=No
+5	,	,	PUNCT	$,	_	11	punct	_	start_char=2394|end_char=2395
+6	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Dem,Rel	11	obj	_	start_char=2396|end_char=2399
+7	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=2400|end_char=2403
+8	mit	mit	ADP	APPR	_	10	case	_	start_char=2404|end_char=2407
+9	ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=2408|end_char=2413
+10	Greifarmen	Greifarm	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	obl	_	start_char=2414|end_char=2424
+11	einfingen	einfangen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=2425|end_char=2434|SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=2434|end_char=2435|SpacesAfter=\n\n
+
+# text = Gepanzerte Muschelwürmer schlängelten sich am Meeresboden entlang und gründeten neue marine Ökosysteme.
+# sent_id = 29
+1	Gepanzerte	gepanzert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	start_char=2437|end_char=2447
+2	Muschelwürmer	Muschelwurm	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=2448|end_char=2461
+3	schlängelten	schlängeln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2462|end_char=2474
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	start_char=2475|end_char=2479
+5-6	am	_	_	_	_	_	_	_	start_char=2480|end_char=2482
+5	an	an	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Meeresboden	Meeresboden	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	start_char=2483|end_char=2494
+8	entlang	entlang	ADP	PTKVZ	_	3	compound:prt	_	start_char=2495|end_char=2502
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=2503|end_char=2506
+10	gründeten	gründen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	start_char=2507|end_char=2516
+11	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	13	amod	_	start_char=2517|end_char=2521
+12	marine	marine	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	13	amod	_	start_char=2522|end_char=2528
+13	Ökosysteme	Ökosystem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	start_char=2529|end_char=2539|SpaceAfter=No
+14	.	.	PUNCT	$.	_	3	punct	_	start_char=2539|end_char=2540|SpacesAfter=\n\n
+
+# text = Unsere Kaulquappen ähnlichen Vorfahren wanderten entlang der alten Küstenlinien. Unterdessen schwammen aalähnliche Verwandte mit knirschenden Kehlzähnen über die Eiszapfenkorallen der ersten Riffe. Sie wichen Riesenkraken und hungrigen Meeresskorpionen aus.
+# sent_id = 30
+1	Unsere	unser	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=2542|end_char=2548
+2	Kaulquappen	Kaulquappe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	obj	_	start_char=2549|end_char=2560
+3	ähnlichen	ähnlich	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=2561|end_char=2570
+4	Vorfahren	Vorfahr|Vorfahren	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	5	nsubj	_	start_char=2571|end_char=2580
+5	wanderten	wandern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2581|end_char=2590
+6	entlang	entlang	ADP	APPR	_	9	case	_	start_char=2591|end_char=2598
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=2599|end_char=2602
+8	alten	alt	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=2603|end_char=2608
+9	Küstenlinien	Küstenlinie	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	5	obl	_	start_char=2609|end_char=2621|SpaceAfter=No
+10	.	.	PUNCT	$.	_	12	punct	_	start_char=2621|end_char=2622
+11	Unterdessen	unterdessen	ADV	ADV	_	12	advmod	_	start_char=2623|end_char=2634
+12	schwammen	schwimmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	start_char=2635|end_char=2644
+13	aalähnliche	aalähnlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	start_char=2645|end_char=2656
+14	Verwandte	Verwandte|Verwandter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	start_char=2657|end_char=2666
+15	mit	mit	ADP	APPR	_	17	case	_	start_char=2667|end_char=2670
+16	knirschenden	knirschend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	start_char=2671|end_char=2683
+17	Kehlzähnen	Kehlzahn	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	obl	_	start_char=2684|end_char=2694
+18	über	über	ADP	APPR	_	20	case	_	start_char=2695|end_char=2699
+19	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	20	det	_	start_char=2700|end_char=2703
+20	Eiszapfenkorallen	Eiszapfenkoralle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	nmod	_	start_char=2704|end_char=2721
+21	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=2722|end_char=2725
+22	ersten	erst	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|NumType=Ord|Number=Sing	23	amod	_	start_char=2726|end_char=2732
+23	Riffe	Riff	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	start_char=2733|end_char=2738|SpaceAfter=No
+24	.	.	PUNCT	$.	_	26	punct	_	start_char=2738|end_char=2739
+25	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	start_char=2740|end_char=2743
+26	wichen	weichen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	start_char=2744|end_char=2750
+27	Riesenkraken	Riesenkrake	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	26	obj	_	start_char=2751|end_char=2763
+28	und	und	CCONJ	KON	_	30	cc	_	start_char=2764|end_char=2767
+29	hungrigen	hungrig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	30	amod	_	start_char=2768|end_char=2777
+30	Meeresskorpionen	Meeresskorpion	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	27	conj	_	start_char=2778|end_char=2794
+31	aus	aus	ADP	PTKVZ	_	26	compound:prt	_	start_char=2795|end_char=2798|SpaceAfter=No
+32	.	.	PUNCT	$.	_	5	punct	_	start_char=2798|end_char=2799|SpacesAfter=\n\n
+
+# text = Pflanzenpilze kamen an Land.
+# sent_id = 31
+1	Pflanzenpilze	Pflanzenpilz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=2801|end_char=2814
+2	kamen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2815|end_char=2820
+3	an	an	ADP	APPR	_	4	case	_	start_char=2821|end_char=2823
+4	Land	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=2824|end_char=2828|SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=2828|end_char=2829|SpacesAfter=\n\n
+
+# text = Aber dann kamen die Gletscher zurück und töteten alles wieder ab.
+# sent_id = 32
+1	Aber	aber	CCONJ	KON	_	3	cc	_	start_char=2831|end_char=2835
+2	dann	dann	ADV	ADV	_	3	advmod	_	start_char=2836|end_char=2840
+3	kamen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2841|end_char=2846
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=2847|end_char=2850
+5	Gletscher	Gletscher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=2851|end_char=2860
+6	zurück	zurück	ADV	PTKVZ	_	3	compound:prt	_	start_char=2861|end_char=2867
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=2868|end_char=2871
+8	töteten	töten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	start_char=2872|end_char=2879
+9	alles	alle	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	8	obj	_	start_char=2880|end_char=2885
+10	wieder	wieder	ADV	ADV	_	8	advmod	_	start_char=2886|end_char=2892
+11	ab	ab	ADP	PTKVZ	_	8	compound:prt	_	start_char=2893|end_char=2895|SpaceAfter=No
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=2895|end_char=2896|SpacesAfter=\n\n
+
+# text = Aber Massenaussterben schaffen neue Möglichkeiten.
+# sent_id = 33
+1	Aber	aber	CCONJ	KON	_	3	cc	_	start_char=2898|end_char=2902
+2	Massenaussterben	Massenaussterben	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=2903|end_char=2919
+3	schaffen	schaffen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2920|end_char=2928
+4	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=2929|end_char=2933
+5	Möglichkeiten	Möglichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=2934|end_char=2947|SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=2947|end_char=2948|SpacesAfter=\n\n
+
+# text = Kieferlose Fische überfüllten die Meere, sie hatten Spitzen, Zacken und endlich auch Flossen entwickelt.
+# sent_id = 34
+1	Kieferlose	kieferlos	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	start_char=2950|end_char=2960
+2	Fische	Fisch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=2961|end_char=2967
+3	überfüllten	überfüllen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2968|end_char=2979
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=2980|end_char=2983
+5	Meere	Meer	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=2984|end_char=2989|SpaceAfter=No
+6	,	,	PUNCT	$,	_	16	punct	_	start_char=2989|end_char=2990
+7	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	start_char=2991|end_char=2994
+8	hatten	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	start_char=2995|end_char=3001
+9	Spitzen	Spitze	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	obj	_	start_char=3002|end_char=3009|SpaceAfter=No
+10	,	,	PUNCT	$,	_	11	punct	_	start_char=3009|end_char=3010
+11	Zacken	Zacke	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	conj	_	start_char=3011|end_char=3017
+12	und	und	CCONJ	KON	_	15	cc	_	start_char=3018|end_char=3021
+13	endlich	endlich	ADV	ADV	_	15	advmod	_	start_char=3022|end_char=3029
+14	auch	auch	ADV	ADV	_	15	advmod	_	start_char=3030|end_char=3034
+15	Flossen	Flosse	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	conj	_	start_char=3035|end_char=3042
+16	entwickelt	entwickeln	VERB	VVPP	VerbForm=Part	3	conj	_	start_char=3043|end_char=3053|SpaceAfter=No
+17	.	.	PUNCT	$.	_	3	punct	_	start_char=3053|end_char=3054|SpacesAfter=\n\n
+
+# text = Spinnen, Skorpione, Schnecken und Würmer kamen an Land.
+# sent_id = 35
+1	Spinnen	Spinne	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=3056|end_char=3063|SpaceAfter=No
+2	,	,	PUNCT	$,	_	3	punct	_	start_char=3063|end_char=3064
+3	Skorpione	Skorpion	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	1	conj	_	start_char=3065|end_char=3074|SpaceAfter=No
+4	,	,	PUNCT	$,	_	5	punct	_	start_char=3074|end_char=3075
+5	Schnecken	Schnecke	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	start_char=3076|end_char=3085
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=3086|end_char=3089
+7	Würmer	Wurm	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	start_char=3090|end_char=3096
+8	kamen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3097|end_char=3102
+9	an	an	ADP	APPR	_	10	case	_	start_char=3103|end_char=3105
+10	Land	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	start_char=3106|end_char=3110|SpaceAfter=No
+11	.	.	PUNCT	$.	_	8	punct	_	start_char=3110|end_char=3111|SpacesAfter=\n\n
+
+# text = In der Nähe von China hatten die Fische jetzt Kiefer. Deren Nachfahren vertrieben ihre kieferlosen Verwandten, und Seeskorpione und Planktonarten starben aus.
+# sent_id = 36
+1	In	in	ADP	APPR	_	3	case	_	start_char=3113|end_char=3115
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=3116|end_char=3119
+3	Nähe	Nähe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	start_char=3120|end_char=3124
+4	von	von	ADP	APPR	_	5	case	_	start_char=3125|end_char=3128
+5	China	China	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	start_char=3129|end_char=3134
+6	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3135|end_char=3141
+7	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=3142|end_char=3145
+8	Fische	Fisch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=3146|end_char=3152
+9	jetzt	jetzt	ADV	ADV	_	6	advmod	_	start_char=3153|end_char=3158
+10	Kiefer	Kiefer	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=3159|end_char=3165|SpaceAfter=No
+11	.	.	PUNCT	$.	_	14	punct	_	start_char=3165|end_char=3166
+12	Deren	der	PRON	PDAT	Case=Gen|Number=Plur|PronType=Dem,Rel	13	nmod:poss	_	start_char=3167|end_char=3172
+13	Nachfahren	Nachfahren	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	start_char=3173|end_char=3183
+14	vertrieben	vertreiben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	start_char=3184|end_char=3194
+15	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	start_char=3195|end_char=3199
+16	kieferlosen	kieferlos	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	start_char=3200|end_char=3211
+17	Verwandten	Verwandte|Verwandter	NOUN	NN	Case=Acc|Number=Plur	14	obj	_	start_char=3212|end_char=3222|SpaceAfter=No
+18	,	,	PUNCT	$,	_	23	punct	_	start_char=3222|end_char=3223
+19	und	und	CCONJ	KON	_	23	cc	_	start_char=3224|end_char=3227
+20	Seeskorpione	Seeskorpion	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	start_char=3228|end_char=3240
+21	und	und	CCONJ	KON	_	22	cc	_	start_char=3241|end_char=3244
+22	Planktonarten	Planktonart	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	20	conj	_	start_char=3245|end_char=3258
+23	starben	sterben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	start_char=3259|end_char=3266
+24	aus	aus	ADP	PTKVZ	_	23	compound:prt	_	start_char=3267|end_char=3270|SpaceAfter=No
+25	.	.	PUNCT	$.	_	6	punct	_	start_char=3270|end_char=3271|SpacesAfter=\n\n
+
+# text = Einige dieser Fische hatten Armknochen in ihren Flossen. Sie entwickelten Finger -- sieben oder acht pro Flosse.
+# sent_id = 37
+1	Einige	einige	DET	PIS	Case=Nom|Number=Plur|PronType=Ind	4	nsubj	_	start_char=3273|end_char=3279
+2	dieser	dieser	DET	PDAT	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	start_char=3280|end_char=3286
+3	Fische	Fisch	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	start_char=3287|end_char=3293
+4	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3294|end_char=3300
+5	Armknochen	Armknochen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	obj	_	start_char=3301|end_char=3311
+6	in	in	ADP	APPR	_	8	case	_	start_char=3312|end_char=3314
+7	ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=3315|end_char=3320
+8	Flossen	Flosse	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	start_char=3321|end_char=3328|SpaceAfter=No
+9	.	.	PUNCT	$.	_	11	punct	_	start_char=3328|end_char=3329
+10	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=3330|end_char=3333
+11	entwickelten	entwickeln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	start_char=3334|end_char=3346
+12	Finger	Finger	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	start_char=3347|end_char=3353
+13	--	--	PUNCT	$(	_	14	punct	_	start_char=3354|end_char=3356
+14	sieben	sieben	NUM	CARD	NumType=Card	12	conj	_	start_char=3357|end_char=3363
+15	oder	oder	CCONJ	KON	_	16	cc	_	start_char=3364|end_char=3368
+16	acht	acht	NUM	CARD	NumType=Card	14	conj	_	start_char=3369|end_char=3373
+17	pro	pro	ADP	APPR	_	18	case	_	start_char=3374|end_char=3377
+18	Flosse	Flosse	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	start_char=3378|end_char=3384|SpaceAfter=No
+19	.	.	PUNCT	$.	_	4	punct	_	start_char=3384|end_char=3385|SpacesAfter=\n\n
+
+# text = An Land wurden aus Pflanzen Bäume, die riesige Ausmaße annahmen, oder ihre Sporen nur einmal verbreiteten, bevor sie abstarben.
+# sent_id = 38
+1	An	an	ADP	APPR	_	2	case	_	start_char=3387|end_char=3389
+2	Land	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	start_char=3390|end_char=3394
+3	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	18	aux	_	start_char=3395|end_char=3401
+4	aus	aus	ADP	APPR	_	5	case	_	start_char=3402|end_char=3405
+5	Pflanzen	Pflanze	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	18	obl	_	start_char=3406|end_char=3414
+6	Bäume	Baum	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	start_char=3415|end_char=3420|SpaceAfter=No
+7	,	,	PUNCT	$,	_	11	punct	_	start_char=3420|end_char=3421
+8	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	11	nsubj	_	start_char=3422|end_char=3425
+9	riesige	riesig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	start_char=3426|end_char=3433
+10	Ausmaße	Ausmaß	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	start_char=3434|end_char=3441
+11	annahmen	annehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	acl	_	start_char=3442|end_char=3450|SpaceAfter=No
+12	,	,	PUNCT	$,	_	11	punct	_	start_char=3450|end_char=3451
+13	oder	oder	CCONJ	KON	_	15	cc	_	start_char=3452|end_char=3456
+14	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	start_char=3457|end_char=3461
+15	Sporen	Spor|Spore|Sporn	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	conj	_	start_char=3462|end_char=3468
+16	nur	nur	ADV	ADV	_	17	advmod	_	start_char=3469|end_char=3472
+17	einmal	einmal	ADV	ADV	_	18	advmod	_	start_char=3473|end_char=3479
+18	verbreiteten	verbreiten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3480|end_char=3492|SpaceAfter=No
+19	,	,	PUNCT	$,	_	22	punct	_	start_char=3492|end_char=3493
+20	bevor	bevor	SCONJ	KOUS	_	22	mark	_	start_char=3494|end_char=3499
+21	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	start_char=3500|end_char=3503
+22	abstarben	absterben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	advcl	_	start_char=3504|end_char=3513|SpaceAfter=No
+23	.	.	PUNCT	$.	_	18	punct	_	start_char=3513|end_char=3514|SpacesAfter=\n\n
+
+# text = Aber dann kamen die Gletscher wieder und es kam zum zweiten Massenaussterben.
+# sent_id = 39
+1	Aber	aber	CCONJ	KON	_	3	cc	_	start_char=3516|end_char=3520
+2	dann	dann	ADV	ADV	_	3	advmod	_	start_char=3521|end_char=3525
+3	kamen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3526|end_char=3531
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=3532|end_char=3535
+5	Gletscher	Gletscher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=3536|end_char=3545
+6	wieder	wieder	ADV	PTKVZ	_	3	advmod	_	start_char=3546|end_char=3552
+7	und	und	CCONJ	KON	_	9	cc	_	start_char=3553|end_char=3556
+8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=3557|end_char=3559
+9	kam	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	start_char=3560|end_char=3563
+10-11	zum	_	_	_	_	_	_	_	start_char=3564|end_char=3567
+10	zu	zu	ADP	APPR	_	13	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+12	zweiten	zweit	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|NumType=Ord|Number=Sing	13	amod	_	start_char=3568|end_char=3575
+13	Massenaussterben	Massenaussterben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	start_char=3576|end_char=3592|SpaceAfter=No
+14	.	.	PUNCT	$.	_	3	punct	_	start_char=3592|end_char=3593|SpacesAfter=\n\n
+
+# text = Es war das Zeitalter der seltsamen Fische und plattierten Seerosen, der Haie mit Flügeln, der Haie mit Sägekiefern.
+# sent_id = 40
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=3595|end_char=3597
+2	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=3598|end_char=3601
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=3602|end_char=3605
+4	Zeitalter	Zeitalter	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=3606|end_char=3615
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=3616|end_char=3619
+6	seltsamen	seltsam	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=3620|end_char=3629
+7	Fische	Fisch	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	start_char=3630|end_char=3636
+8	und	und	CCONJ	KON	_	10	cc	_	start_char=3637|end_char=3640
+9	plattierten	plaziert	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=3641|end_char=3652
+10	Seerosen	Seerose	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	7	conj	_	start_char=3653|end_char=3661|SpaceAfter=No
+11	,	,	PUNCT	$,	_	13	punct	_	start_char=3661|end_char=3662
+12	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=3663|end_char=3666
+13	Haie	Hai	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	start_char=3667|end_char=3671
+14	mit	mit	ADP	APPR	_	15	case	_	start_char=3672|end_char=3675
+15	Flügeln	Flügel	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	13	nmod	_	start_char=3676|end_char=3683|SpaceAfter=No
+16	,	,	PUNCT	$,	_	18	punct	_	start_char=3683|end_char=3684
+17	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=3685|end_char=3688
+18	Haie	Hai	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	start_char=3689|end_char=3693
+19	mit	mit	ADP	APPR	_	20	case	_	start_char=3694|end_char=3697
+20	Sägekiefern	Sägekiefer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	18	nmod	_	start_char=3698|end_char=3709|SpaceAfter=No
+21	.	.	PUNCT	$.	_	4	punct	_	start_char=3709|end_char=3710|SpacesAfter=\n\n
+
+# text = Manche Haie hatten Flossen, die voller kleiner Zähne waren.
+# sent_id = 41
+1	Manche	mancher	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	start_char=3712|end_char=3718
+2	Haie	Hai	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=3719|end_char=3723
+3	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3724|end_char=3730
+4	Flossen	Flosse	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=3731|end_char=3738|SpaceAfter=No
+5	,	,	PUNCT	$,	_	10	punct	_	start_char=3738|end_char=3739
+6	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	9	nsubj	_	start_char=3740|end_char=3743
+7	voller	voll	ADP	APPR	_	9	case	_	start_char=3744|end_char=3750
+8	kleiner	klein	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=3751|end_char=3758
+9	Zähne	Zahn	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	acl	_	start_char=3759|end_char=3764
+10	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	start_char=3765|end_char=3770|SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=3770|end_char=3771|SpacesAfter=\n\n
+
+# text = Es gab Haie mit zermalmenden Zahnplatten.
+# sent_id = 42
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=3773|end_char=3775
+2	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3776|end_char=3779
+3	Haie	Hai	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	nsubj	_	start_char=3780|end_char=3784
+4	mit	mit	ADP	APPR	_	6	case	_	start_char=3785|end_char=3788
+5	zermalmenden	zermalmend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=3789|end_char=3801
+6	Zahnplatten	Zahnplatte	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	nmod	_	start_char=3802|end_char=3813|SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=3813|end_char=3814|SpacesAfter=\n\n
+
+# text = Die ersten Knochenfische, die aussahen wie neuzeitliche Kaiserfische und Aale.
+# sent_id = 43
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=3816|end_char=3819
+2	ersten	erst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|NumType=Ord|Number=Plur	3	amod	_	start_char=3820|end_char=3826
+3	Knochenfische	Knochenfisch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=3827|end_char=3840|SpaceAfter=No
+4	,	,	PUNCT	$,	_	6	punct	_	start_char=3840|end_char=3841
+5	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	6	nsubj	_	start_char=3842|end_char=3845
+6	aussahen	aussehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	acl	_	start_char=3846|end_char=3854
+7	wie	wie	ADP	KOKOM	_	9	case	_	start_char=3855|end_char=3858
+8	neuzeitliche	neuzeitlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=3859|end_char=3871
+9	Kaiserfische	Kaiserfisch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	obl	_	start_char=3872|end_char=3884
+10	und	und	CCONJ	KON	_	11	cc	_	start_char=3885|end_char=3888
+11	Aale	Aal	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	conj	_	start_char=3889|end_char=3893|SpaceAfter=No
+12	.	.	PUNCT	$.	_	3	punct	_	start_char=3893|end_char=3894|SpacesAfter=\n\n
+
+# text = Es entstanden Sumpfgebiete mit drei Meter langen Tausendfüßlern und Riesen-Libellen.
+# sent_id = 44
+1	Es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=3896|end_char=3898
+2	entstanden	entstehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3899|end_char=3909
+3	Sumpfgebiete	Sumpfgebiet	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	start_char=3910|end_char=3922
+4	mit	mit	ADP	APPR	_	8	case	_	start_char=3923|end_char=3926
+5	drei	drei	NUM	CARD	NumType=Card	6	nummod	_	start_char=3927|end_char=3931
+6	Meter	Meter	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	nmod	_	start_char=3932|end_char=3937
+7	langen	lang	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=3938|end_char=3944
+8	Tausendfüßlern	Tausendfüßler	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	nmod	_	start_char=3945|end_char=3959
+9	und	und	CCONJ	KON	_	12	cc	_	start_char=3960|end_char=3963
+10	Riesen	Riese	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	12	compound	_	start_char=3964|end_char=3970|SpaceAfter=No
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=3970|end_char=3971|SpaceAfter=No
+12	Libellen	Libelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	conj	_	start_char=3971|end_char=3979|SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=3979|end_char=3980|SpacesAfter=\n\n
+
+# text = Sie breiteten sich über den Überkontinent Pangaea aus und starben aus. Dadurch entstand Kohle was zu einer 100-Millionen Jahre dauernden Eiszeit führte.
+# sent_id = 45
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=3982|end_char=3985
+2	breiteten	breiten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3986|end_char=3995
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	start_char=3996|end_char=4000
+4	über	über	ADP	APPR	_	6	case	_	start_char=4001|end_char=4005
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=4006|end_char=4009
+6	Überkontinent	Überkontinent	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	start_char=4010|end_char=4023
+7	Pangaea	Pangaea	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	6	appos	_	start_char=4024|end_char=4031
+8	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	start_char=4032|end_char=4035
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=4036|end_char=4039
+10	starben	sterben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=4040|end_char=4047
+11	aus	aus	ADP	PTKVZ	_	10	compound:prt	_	start_char=4048|end_char=4051|SpaceAfter=No
+12	.	.	PUNCT	$.	_	14	punct	_	start_char=4051|end_char=4052
+13	Dadurch	dadurch	ADV	PAV	PronType=Dem	14	advmod	_	start_char=4053|end_char=4060
+14	entstand	entstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=4061|end_char=4069
+15	Kohle	Kohle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	start_char=4070|end_char=4075
+16	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	25	nsubj	_	start_char=4076|end_char=4079
+17	zu	zu	ADP	APPR	_	24	case	_	start_char=4080|end_char=4082
+18	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	24	det	_	start_char=4083|end_char=4088
+19	100	100	NUM	CARD	NumType=Card	21	nummod	_	start_char=4089|end_char=4092|SpaceAfter=No
+20	-	-	PUNCT	$(	_	19	punct	_	start_char=4092|end_char=4093|SpaceAfter=No
+21	Millionen	Million	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	22	nmod	_	start_char=4093|end_char=4102
+22	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	23	nmod	_	start_char=4103|end_char=4108
+23	dauernden	dauernd	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=4109|end_char=4118
+24	Eiszeit	Eiszeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	25	obl	_	start_char=4119|end_char=4126
+25	führte	führen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl	_	start_char=4127|end_char=4133|SpaceAfter=No
+26	.	.	PUNCT	$.	_	2	punct	_	start_char=4133|end_char=4134|SpacesAfter=\n\n
+
+# text = Schließlich schafften es die Wirbeltiere permanent an Land, was zu alligatorartigen Amphibien und säbelzahnartigen Prototypen moderner Säuger führte.
+# sent_id = 46
+1	Schließlich	schließlich	ADV	ADV	_	2	advmod	_	start_char=4136|end_char=4147
+2	schafften	schaffen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=4148|end_char=4157
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=4158|end_char=4160
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=4161|end_char=4164
+5	Wirbeltiere	Wirbeltier	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	nsubj	_	start_char=4165|end_char=4176
+6	permanent	permanent	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=4177|end_char=4186
+7	an	an	ADP	APPR	_	8	case	_	start_char=4187|end_char=4189
+8	Land	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=4190|end_char=4194|SpaceAfter=No
+9	,	,	PUNCT	$,	_	19	punct	_	start_char=4194|end_char=4195
+10	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	19	nsubj	_	start_char=4196|end_char=4199
+11	zu	zu	ADP	APPR	_	13	case	_	start_char=4200|end_char=4202
+12	alligatorartigen	alligatorartig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=4203|end_char=4219
+13	Amphibien	Amphibium	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	19	obl	_	start_char=4220|end_char=4229
+14	und	und	CCONJ	KON	_	16	cc	_	start_char=4230|end_char=4233
+15	säbelzahnartigen	säbelzahnartig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=4234|end_char=4250
+16	Prototypen	Prototyp	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	13	conj	_	start_char=4251|end_char=4261
+17	moderner	modern	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	18	amod	_	start_char=4262|end_char=4270
+18	Säuger	Säuger	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	start_char=4271|end_char=4277
+19	führte	führen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl	_	start_char=4278|end_char=4284|SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	start_char=4284|end_char=4285|SpacesAfter=\n\n
+
+# text = Aber dann brachen überall in Sibirien Vulkane aus. Sie zerstörten fast alles Leben und es kam zum Massenaussterben Nummer drei.
+# sent_id = 47
+1	Aber	aber	CCONJ	KON	_	3	cc	_	start_char=4287|end_char=4291
+2	dann	dann	ADV	ADV	_	3	advmod	_	start_char=4292|end_char=4296
+3	brachen	brechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=4297|end_char=4304
+4	überall	überall	ADV	ADV	_	3	advmod	_	start_char=4305|end_char=4312
+5	in	in	ADP	APPR	_	6	case	_	start_char=4313|end_char=4315
+6	Sibirien	Sibirien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=4316|end_char=4324
+7	Vulkane	Vulkan	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	nsubj	_	start_char=4325|end_char=4332
+8	aus	aus	ADP	PTKVZ	_	3	compound:prt	_	start_char=4333|end_char=4336|SpaceAfter=No
+9	.	.	PUNCT	$.	_	11	punct	_	start_char=4336|end_char=4337
+10	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=4338|end_char=4341
+11	zerstörten	zerstören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	start_char=4342|end_char=4352
+12	fast	fast	ADV	ADV	_	13	advmod	_	start_char=4353|end_char=4357
+13	alles	alle	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	14	det	_	start_char=4358|end_char=4363
+14	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=4364|end_char=4369
+15	und	und	CCONJ	KON	_	17	cc	_	start_char=4370|end_char=4373
+16	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	start_char=4374|end_char=4376
+17	kam	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	start_char=4377|end_char=4380
+18-19	zum	_	_	_	_	_	_	_	start_char=4381|end_char=4384
+18	zu	zu	ADP	APPR	_	20	case	_	_
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Massenaussterben	Massenaussterben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	start_char=4385|end_char=4401
+21	Nummer	Nummer	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	appos	_	start_char=4402|end_char=4408
+22	drei	drei	NUM	CARD	NumType=Card	21	appos	_	start_char=4409|end_char=4413|SpaceAfter=No
+23	.	.	PUNCT	$.	_	3	punct	_	start_char=4413|end_char=4414|SpacesAfter=\n\n
+
+# text = Der Tag an dem alles Leben ausstarb.
+# sent_id = 48
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=4416|end_char=4419
+2	Tag	Tag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=4420|end_char=4423
+3	an	an	ADP	APPR	_	4	case	_	start_char=4424|end_char=4426
+4	dem	der	PRON	PRELS	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem,Rel	7	obl	_	start_char=4427|end_char=4430
+5	alles	alle	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	6	det	_	start_char=4431|end_char=4436
+6	Leben	Leben	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=4437|end_char=4442
+7	ausstarb	aussterben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl	_	start_char=4443|end_char=4451|SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	start_char=4451|end_char=4452|SpacesAfter=\n\n
+
+# text = Nur eine einzige Säugetierart mit Stoßzahn überlebte und gedieh. Es wurde aber sehr schnell durch galoppierende Krokodile ersetzt.
+# sent_id = 49
+1	Nur	nur	ADV	ADV	_	7	advmod	_	start_char=4454|end_char=4457
+2	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=4458|end_char=4462
+3	einzige	einzig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=4463|end_char=4470
+4	Säugetierart	Säugetierart	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=4471|end_char=4483
+5	mit	mit	ADP	APPR	_	6	case	_	start_char=4484|end_char=4487
+6	Stoßzahn	Stoßzahn	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	start_char=4488|end_char=4496
+7	überlebte	überleben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=4497|end_char=4506
+8	und	und	CCONJ	KON	_	9	cc	_	start_char=4507|end_char=4510
+9	gedieh	gedeihen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	start_char=4511|end_char=4517|SpaceAfter=No
+10	.	.	PUNCT	$.	_	19	punct	_	start_char=4517|end_char=4518
+11	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj:pass	_	start_char=4519|end_char=4521
+12	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	19	aux:pass	_	start_char=4522|end_char=4527
+13	aber	aber	ADV	ADV	_	19	advmod	_	start_char=4528|end_char=4532
+14	sehr	sehr	ADV	ADV	_	15	advmod	_	start_char=4533|end_char=4537
+15	schnell	schnell	ADJ	ADJD	Degree=Pos	19	advmod	_	start_char=4538|end_char=4545
+16	durch	durch	ADP	APPR	_	18	case	_	start_char=4546|end_char=4551
+17	galoppierende	galoppierend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	18	amod	_	start_char=4552|end_char=4565
+18	Krokodile	Krokodil	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	19	obl	_	start_char=4566|end_char=4575
+19	ersetzt	ersetzen	VERB	VVPP	VerbForm=Part	7	conj	_	start_char=4576|end_char=4583|SpaceAfter=No
+20	.	.	PUNCT	$.	_	7	punct	_	start_char=4583|end_char=4584|SpacesAfter=\n\n
+
+# text = Im Meer trieben Seereptilien, die Nachfolger der Seeigel und gepanzerten Tintenfische waren, Ammonoite in allen möglichen Arten und Formen.
+# sent_id = 50
+1-2	Im	_	_	_	_	_	_	_	start_char=4586|end_char=4588
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Meer	Meer	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=4589|end_char=4593
+4	trieben	treiben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=4594|end_char=4601
+5	Seereptilien	Seereptilie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=4602|end_char=4614|SpaceAfter=No
+6	,	,	PUNCT	$,	_	8	punct	_	start_char=4614|end_char=4615
+7	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	8	nsubj	_	start_char=4616|end_char=4619
+8	Nachfolger	Nachfolger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	acl	_	start_char=4620|end_char=4630
+9	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	10	det	_	start_char=4631|end_char=4634
+10	Seeigel	Seeigel	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	start_char=4635|end_char=4642
+11	und	und	CCONJ	KON	_	13	cc	_	start_char=4643|end_char=4646
+12	gepanzerten	gepanzert	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	start_char=4647|end_char=4658
+13	Tintenfische	Tintenfisch	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	10	conj	_	start_char=4659|end_char=4671
+14	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	start_char=4672|end_char=4677|SpaceAfter=No
+15	,	,	PUNCT	$,	_	16	punct	_	start_char=4677|end_char=4678
+16	Ammonoite	Ammonoite	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	appos	_	start_char=4679|end_char=4688
+17	in	in	ADP	APPR	_	20	case	_	start_char=4689|end_char=4691
+18	allen	alle	DET	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Tot	20	det	_	start_char=4692|end_char=4697
+19	möglichen	möglich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=4698|end_char=4707
+20	Arten	Art	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	16	nmod	_	start_char=4708|end_char=4713
+21	und	und	CCONJ	KON	_	22	cc	_	start_char=4714|end_char=4717
+22	Formen	Form	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	20	conj	_	start_char=4718|end_char=4724|SpaceAfter=No
+23	.	.	PUNCT	$.	_	4	punct	_	start_char=4724|end_char=4725|SpacesAfter=\n\n
+
+# text = Dann begann der Urkontinent auseinanderzudriften. Er formte ein Lavameer, das wir heute als Atlantischen Ozean kennen. Toxische Gase verpesteten die Atmosphäre und es kam zum Massensterben Nummer vier.
+# sent_id = 51
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=4727|end_char=4731
+2	begann	beginnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=4732|end_char=4738
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=4739|end_char=4742
+4	Urkontinent	Urkontinent	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=4743|end_char=4754
+5	auseinanderzudriften	auseinanderdriften	VERB	VVIZU	VerbForm=Inf	2	xcomp	_	start_char=4755|end_char=4775|SpaceAfter=No
+6	.	.	PUNCT	$.	_	8	punct	_	start_char=4775|end_char=4776
+7	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=4777|end_char=4779
+8	formte	formen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	start_char=4780|end_char=4786
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=4787|end_char=4790
+10	Lavameer	Lavameer	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	start_char=4791|end_char=4799|SpaceAfter=No
+11	,	,	PUNCT	$,	_	18	punct	_	start_char=4799|end_char=4800
+12	das	der	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	18	obj	_	start_char=4801|end_char=4804
+13	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	start_char=4805|end_char=4808
+14	heute	heute	ADV	ADV	_	18	advmod	_	start_char=4809|end_char=4814
+15	als	als	ADP	KOKOM	_	17	case	_	start_char=4815|end_char=4818
+16	Atlantischen	atlantisch	PROPN	ADJA	Case=Nom|Gender=Masc|Number=Sing	17	amod	_	start_char=4819|end_char=4831
+17	Ozean	Ozean	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	18	obl	_	start_char=4832|end_char=4837
+18	kennen	kennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	start_char=4838|end_char=4844|SpaceAfter=No
+19	.	.	PUNCT	$.	_	22	punct	_	start_char=4844|end_char=4845
+20	Toxische	toxisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	start_char=4846|end_char=4854
+21	Gase	Gas	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	start_char=4855|end_char=4859
+22	verpesteten	verpesten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	start_char=4860|end_char=4871
+23	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	start_char=4872|end_char=4875
+24	Atmosphäre	Atmosphäre	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	start_char=4876|end_char=4886
+25	und	und	CCONJ	KON	_	27	cc	_	start_char=4887|end_char=4890
+26	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	start_char=4891|end_char=4893
+27	kam	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	conj	_	start_char=4894|end_char=4897
+28-29	zum	_	_	_	_	_	_	_	start_char=4898|end_char=4901
+28	zu	zu	ADP	APPR	_	30	case	_	_
+29	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	30	det	_	_
+30	Massensterben	Massensterben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	27	obl	_	start_char=4902|end_char=4915
+31	Nummer	Nummer	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	30	appos	_	start_char=4916|end_char=4922
+32	vier	vier	NUM	CARD	NumType=Card	31	appos	_	start_char=4923|end_char=4927|SpaceAfter=No
+33	.	.	PUNCT	$.	_	2	punct	_	start_char=4927|end_char=4928|SpacesAfter=\n\n
+
+# text = Eigentlich gibt es noch mehr Aussterben, aber das sind die größten.
+# sent_id = 52
+1	Eigentlich	eigentlich	ADV	ADV	_	2	advmod	_	start_char=4930|end_char=4940
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4941|end_char=4945
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=4946|end_char=4948
+4	noch	noch	ADV	ADV	_	2	advmod	_	start_char=4949|end_char=4953
+5	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	6	det	_	start_char=4954|end_char=4958
+6	Aussterben	Aussterben	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	nsubj	_	start_char=4959|end_char=4969|SpaceAfter=No
+7	,	,	PUNCT	$,	_	12	punct	_	start_char=4969|end_char=4970
+8	aber	aber	CCONJ	KON	_	12	cc	_	start_char=4971|end_char=4975
+9	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	12	nsubj	_	start_char=4976|end_char=4979
+10	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=4980|end_char=4984
+11	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	12	det	_	start_char=4985|end_char=4988
+12	größten	groß	ADJ	ADJA	Case=Nom|Degree=Sup|Gender=Masc|Number=Plur	2	conj	_	start_char=4989|end_char=4996|SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=4996|end_char=4997|SpacesAfter=\n\n
+
+# text = Schließlich gab es auch walgroße Fische und moderne Fische fraßen Korallen. So konnten sie sich durch die Algen von Sonnenenergie ernähren und vergrößern.
+# sent_id = 53
+1	Schließlich	schließlich	ADV	ADV	_	2	advmod	_	start_char=4999|end_char=5010
+2	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=5011|end_char=5014
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=5015|end_char=5017
+4	auch	auch	ADV	ADV	_	2	advmod	_	start_char=5018|end_char=5022
+5	walgroße	walgroß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=5023|end_char=5031
+6	Fische	Fisch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	nsubj	_	start_char=5032|end_char=5038
+7	und	und	CCONJ	KON	_	9	cc	_	start_char=5039|end_char=5042
+8	moderne	modern	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=5043|end_char=5050
+9	Fische	Fisch	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	conj	_	start_char=5051|end_char=5057
+10	fraßen	fressen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=5058|end_char=5064
+11	Korallen	Koralle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	start_char=5065|end_char=5073|SpaceAfter=No
+12	.	.	PUNCT	$.	_	22	punct	_	start_char=5073|end_char=5074
+13	So	so	ADV	ADV	_	22	advmod	_	start_char=5075|end_char=5077
+14	konnten	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	start_char=5078|end_char=5085
+15	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	start_char=5086|end_char=5089
+16	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	22	obj	_	start_char=5090|end_char=5094
+17	durch	durch	ADP	APPR	_	19	case	_	start_char=5095|end_char=5100
+18	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	19	det	_	start_char=5101|end_char=5104
+19	Algen	Alge	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	22	obl	_	start_char=5105|end_char=5110
+20	von	von	ADP	APPR	_	21	case	_	start_char=5111|end_char=5114
+21	Sonnenenergie	Sonnenenergie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	nmod	_	start_char=5115|end_char=5128
+22	ernähren	ernähren	VERB	VVINF	VerbForm=Inf	2	conj	_	start_char=5129|end_char=5137
+23	und	und	CCONJ	KON	_	24	cc	_	start_char=5138|end_char=5141
+24	vergrößern	vergrößern	VERB	VVINF	VerbForm=Inf	22	conj	_	start_char=5142|end_char=5152|SpaceAfter=No
+25	.	.	PUNCT	$.	_	2	punct	_	start_char=5152|end_char=5153|SpacesAfter=\n\n
+
+# text = Krebse, Stachelrochen und andere Fische mit Mahlzähnen tauchten auf, zerstörten Muscheln und entfachten einen ewigen Kampf zwischen Jägern und Gejagten.
+# sent_id = 54
+1	Krebse	Krebs	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	start_char=5155|end_char=5161|SpaceAfter=No
+2	,	,	PUNCT	$,	_	3	punct	_	start_char=5161|end_char=5162
+3	Stachelrochen	Stachelrochen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	start_char=5163|end_char=5176
+4	und	und	CCONJ	KON	_	6	cc	_	start_char=5177|end_char=5180
+5	andere	anderer	DET	ADJA	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	6	det	_	start_char=5181|end_char=5187
+6	Fische	Fisch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	start_char=5188|end_char=5194
+7	mit	mit	ADP	APPR	_	8	case	_	start_char=5195|end_char=5198
+8	Mahlzähnen	Mahlzahn	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	nmod	_	start_char=5199|end_char=5209
+9	tauchten	tauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=5210|end_char=5218
+10	auf	auf	ADP	PTKVZ	_	9	compound:prt	_	start_char=5219|end_char=5222|SpaceAfter=No
+11	,	,	PUNCT	$,	_	12	punct	_	start_char=5222|end_char=5223
+12	zerstörten	zerstören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	start_char=5224|end_char=5234
+13	Muscheln	Muschel	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	obj	_	start_char=5235|end_char=5243
+14	und	und	CCONJ	KON	_	15	cc	_	start_char=5244|end_char=5247
+15	entfachten	entfachen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	start_char=5248|end_char=5258
+16	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	18	det	_	start_char=5259|end_char=5264
+17	ewigen	ewig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=5265|end_char=5271
+18	Kampf	Kampf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	start_char=5272|end_char=5277
+19	zwischen	zwischen	ADP	APPR	_	20	case	_	start_char=5278|end_char=5286
+20	Jägern	Jäger	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	18	nmod	_	start_char=5287|end_char=5293
+21	und	und	CCONJ	KON	_	22	cc	_	start_char=5294|end_char=5297
+22	Gejagten	Gejagte	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	20	conj	_	start_char=5298|end_char=5306|SpaceAfter=No
+23	.	.	PUNCT	$.	_	9	punct	_	start_char=5306|end_char=5307|SpacesAfter=\n\n
+
+# text = Es war eine marine Artenexplosion.
+# sent_id = 55
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=5309|end_char=5311
+2	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=5312|end_char=5315
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=5316|end_char=5320
+4	marine	marine	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=5321|end_char=5327
+5	Artenexplosion	Artenexplosion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=5328|end_char=5342|SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=5342|end_char=5343|SpacesAfter=\n\n
+
+# text = Säugetiere kletterten auf Bäume, flogen und verhielten sich so, wie man als modern bezeichnen könnte.
+# sent_id = 56
+1	Säugetiere	Säugetier	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	start_char=5345|end_char=5355
+2	kletterten	klettern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=5356|end_char=5366
+3	auf	auf	ADP	APPR	_	4	case	_	start_char=5367|end_char=5370
+4	Bäume	Baum	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obl	_	start_char=5371|end_char=5376|SpaceAfter=No
+5	,	,	PUNCT	$,	_	6	punct	_	start_char=5376|end_char=5377
+6	flogen	fliegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=5378|end_char=5384
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=5385|end_char=5388
+8	verhielten	verhalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=5389|end_char=5399
+9	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	start_char=5400|end_char=5404
+10	so	so	ADV	ADV	_	8	advmod	_	start_char=5405|end_char=5407|SpaceAfter=No
+11	,	,	PUNCT	$,	_	16	punct	_	start_char=5407|end_char=5408
+12	wie	wie	SCONJ	KOUS	_	16	mark	_	start_char=5409|end_char=5412
+13	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	16	nsubj	_	start_char=5413|end_char=5416
+14	als	als	ADP	KOKOM	_	15	case	_	start_char=5417|end_char=5420
+15	modern	modern	ADJ	ADJD	Degree=Pos	16	amod	_	start_char=5421|end_char=5427
+16	bezeichnen	bezeichnen	VERB	VVINF	VerbForm=Inf	8	advcl	_	start_char=5428|end_char=5438
+17	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	start_char=5439|end_char=5445|SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	start_char=5445|end_char=5446|SpacesAfter=\n\n
+
+# text = Sie labten sich an den ersten Blüten, die von den ersten Bienen bestäubt waren.
+# sent_id = 57
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=5448|end_char=5451
+2	labten	laben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=5452|end_char=5458
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	start_char=5459|end_char=5463
+4	an	an	ADP	APPR	_	7	case	_	start_char=5464|end_char=5466
+5	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=5467|end_char=5470
+6	ersten	erst	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|NumType=Ord|Number=Plur	7	amod	_	start_char=5471|end_char=5477
+7	Blüten	Blüte	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	start_char=5478|end_char=5484|SpaceAfter=No
+8	,	,	PUNCT	$,	_	14	punct	_	start_char=5484|end_char=5485
+9	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	14	nsubj:pass	_	start_char=5486|end_char=5489
+10	von	von	ADP	APPR	_	13	case	_	start_char=5490|end_char=5493
+11	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	13	det	_	start_char=5494|end_char=5497
+12	ersten	erst	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|NumType=Ord|Number=Plur	13	amod	_	start_char=5498|end_char=5504
+13	Bienen	Biene	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	14	obl:agent	_	start_char=5505|end_char=5511
+14	bestäubt	bestäuben	VERB	VVPP	VerbForm=Part	7	acl	_	start_char=5512|end_char=5520
+15	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	start_char=5521|end_char=5526|SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	start_char=5526|end_char=5527|SpacesAfter=\n\n
+
+# text = Es gab ökologische Evolutionen an Land und im Meer, was uns direkt in die Neuzeit führte.
+# sent_id = 58
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=5529|end_char=5531
+2	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=5532|end_char=5535
+3	ökologische	ökologisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=5536|end_char=5547
+4	Evolutionen	Evolution	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	start_char=5548|end_char=5559
+5	an	an	ADP	APPR	_	6	case	_	start_char=5560|end_char=5562
+6	Land	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	start_char=5563|end_char=5567
+7	und	und	CCONJ	KON	_	10	cc	_	start_char=5568|end_char=5571
+8-9	im	_	_	_	_	_	_	_	start_char=5572|end_char=5574
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Meer	Meer	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	conj	_	start_char=5575|end_char=5579|SpaceAfter=No
+11	,	,	PUNCT	$,	_	18	punct	_	start_char=5579|end_char=5580
+12	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	18	nsubj	_	start_char=5581|end_char=5584
+13	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	18	obj	_	start_char=5585|end_char=5588
+14	direkt	direkt	ADJ	ADJD	Degree=Pos	17	amod	_	start_char=5589|end_char=5595
+15	in	in	ADP	APPR	_	17	case	_	start_char=5596|end_char=5598
+16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=5599|end_char=5602
+17	Neuzeit	Neuzeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	start_char=5603|end_char=5610
+18	führte	führen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl	_	start_char=5611|end_char=5617|SpaceAfter=No
+19	.	.	PUNCT	$.	_	2	punct	_	start_char=5617|end_char=5618|SpacesAfter=\n\n
+
+# text = Als ein Asteroid in Mexiko einschlug und das wieder Vulkanausbrüche , diesmal in Indien, verursachte, war wieder einmal alles fast ausgestorben.
+# sent_id = 59
+1	Als	als	SCONJ	KOUS	_	6	mark	_	start_char=5620|end_char=5623
+2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=5624|end_char=5627
+3	Asteroid	Asteroid	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=5628|end_char=5636
+4	in	in	ADP	APPR	_	5	case	_	start_char=5637|end_char=5639
+5	Mexiko	Mexiko	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=5640|end_char=5646
+6	einschlug	einschlagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	advcl	_	start_char=5647|end_char=5656
+7	und	und	CCONJ	KON	_	16	cc	_	start_char=5657|end_char=5660
+8	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	16	nsubj	_	start_char=5661|end_char=5664
+9	wieder	wieder	ADV	ADV	_	16	advmod	_	start_char=5665|end_char=5671
+10	Vulkanausbrüche	Vulkanausbruch	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	16	obj	_	start_char=5672|end_char=5687
+11	,	,	PUNCT	$,	_	14	punct	_	start_char=5688|end_char=5689
+12	diesmal	diesmal	ADV	ADV	_	14	advmod	_	start_char=5690|end_char=5697
+13	in	in	ADP	APPR	_	14	case	_	start_char=5698|end_char=5700
+14	Indien	Indien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	start_char=5701|end_char=5707|SpaceAfter=No
+15	,	,	PUNCT	$,	_	14	punct	_	start_char=5707|end_char=5708
+16	verursachte	verursachen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	start_char=5709|end_char=5720|SpaceAfter=No
+17	,	,	PUNCT	$,	_	6	punct	_	start_char=5720|end_char=5721
+18	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	cop	_	start_char=5722|end_char=5725
+19	wieder	wieder	ADV	ADV	_	23	advmod	_	start_char=5726|end_char=5732
+20	einmal	einmal	ADV	ADV	_	23	advmod	_	start_char=5733|end_char=5739
+21	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	23	nsubj	_	start_char=5740|end_char=5745
+22	fast	fast	ADV	ADV	_	23	advmod	_	start_char=5746|end_char=5750
+23	ausgestorben	aussterben	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=5751|end_char=5763|SpaceAfter=No
+24	.	.	PUNCT	$.	_	23	punct	_	start_char=5763|end_char=5764|SpacesAfter=\n\n
+
+# text = Aber, wir sind ja noch da, dieses Mal überlebten die Säugetiere: erst kleine, wegen der extremen Hitze, dann immer größere.
+# sent_id = 60
+1	Aber	aber	CCONJ	KON	_	4	cc	_	start_char=5766|end_char=5770|SpaceAfter=No
+2	,	,	PUNCT	$,	_	3	punct	_	start_char=5770|end_char=5771
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=5772|end_char=5775
+4	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5776|end_char=5780
+5	ja	ja	ADV	ADV	_	6	advmod	_	start_char=5781|end_char=5783
+6	noch	noch	ADV	ADV	_	7	advmod	_	start_char=5784|end_char=5788
+7	da	da	ADV	ADV	_	4	advmod	_	start_char=5789|end_char=5791|SpaceAfter=No
+8	,	,	PUNCT	$,	_	11	punct	_	start_char=5791|end_char=5792
+9	dieses	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	det	_	start_char=5793|end_char=5799
+10	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	start_char=5800|end_char=5803
+11	überlebten	überleben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	start_char=5804|end_char=5814
+12	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	13	det	_	start_char=5815|end_char=5818
+13	Säugetiere	Säugetier	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	start_char=5819|end_char=5829|SpaceAfter=No
+14	:	:	PUNCT	$.	_	16	punct	_	start_char=5829|end_char=5830
+15	erst	erst	ADV	ADV	_	16	advmod	_	start_char=5831|end_char=5835
+16	kleine	klein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	start_char=5836|end_char=5842|SpaceAfter=No
+17	,	,	PUNCT	$,	_	21	punct	_	start_char=5842|end_char=5843
+18	wegen	wegen	ADP	APPR	_	21	case	_	start_char=5844|end_char=5849
+19	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=5850|end_char=5853
+20	extremen	extrem	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=5854|end_char=5862
+21	Hitze	Hitze	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	obl	_	start_char=5863|end_char=5868|SpaceAfter=No
+22	,	,	PUNCT	$,	_	21	punct	_	start_char=5868|end_char=5869
+23	dann	dann	ADV	ADV	_	25	advmod	_	start_char=5870|end_char=5874
+24	immer	immer	ADV	ADV	_	25	advmod	_	start_char=5875|end_char=5880
+25	größere	groß	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur	11	conj	_	start_char=5881|end_char=5888|SpaceAfter=No
+26	.	.	PUNCT	$.	_	4	punct	_	start_char=5888|end_char=5889|SpacesAfter=\n\n
+
+# text = Es gab Palmen und Schlangen in der Arktis.
+# sent_id = 61
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=5891|end_char=5893
+2	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=5894|end_char=5897
+3	Palmen	Palme	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	start_char=5898|end_char=5904
+4	und	und	CCONJ	KON	_	5	cc	_	start_char=5905|end_char=5908
+5	Schlangen	Schlange	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	conj	_	start_char=5909|end_char=5918
+6	in	in	ADP	APPR	_	8	case	_	start_char=5919|end_char=5921
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=5922|end_char=5925
+8	Arktis	Arktis	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=5926|end_char=5932|SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=5932|end_char=5933|SpacesAfter=\n\n
+
+# text = Wilde Hirschhunde jagten entlang der Flüsse. während ihre Verwandten in den Ozean zurückkehrten, wo sie zu den ersten otterähnlichen Walen mutierten.
+# sent_id = 62
+1	Wilde	Wilde	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	start_char=5935|end_char=5940
+2	Hirschhunde	Hirschhund	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=5941|end_char=5952
+3	jagten	jagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=5953|end_char=5959
+4	entlang	entlang	ADP	APPR	_	6	case	_	start_char=5960|end_char=5967
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=5968|end_char=5971
+6	Flüsse	Fluß	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	start_char=5972|end_char=5978|SpaceAfter=No
+7	.	.	PUNCT	$.	_	14	punct	_	start_char=5978|end_char=5979
+8	während	während	SCONJ	KOUS	_	14	mark	_	start_char=5980|end_char=5987
+9	ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=5988|end_char=5992
+10	Verwandten	Verwandte|Verwandter	NOUN	NN	Case=Nom|Number=Plur	14	nsubj	_	start_char=5993|end_char=6003
+11	in	in	ADP	APPR	_	13	case	_	start_char=6004|end_char=6006
+12	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=6007|end_char=6010
+13	Ozean	Ozean	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	start_char=6011|end_char=6016
+14	zurückkehrten	zurückkehren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	start_char=6017|end_char=6030|SpaceAfter=No
+15	,	,	PUNCT	$,	_	23	punct	_	start_char=6030|end_char=6031
+16	wo	wo	ADV	PWAV	PronType=Int	23	advmod	_	start_char=6032|end_char=6034
+17	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	start_char=6035|end_char=6038
+18	zu	zu	ADP	APPR	_	22	case	_	start_char=6039|end_char=6041
+19	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	22	det	_	start_char=6042|end_char=6045
+20	ersten	erst	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|NumType=Ord|Number=Plur	22	amod	_	start_char=6046|end_char=6052
+21	otterähnlichen	otterähnlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	22	amod	_	start_char=6053|end_char=6067
+22	Walen	Wal	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	23	obl	_	start_char=6068|end_char=6073
+23	mutierten	mutieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	acl	_	start_char=6074|end_char=6083|SpaceAfter=No
+24	.	.	PUNCT	$.	_	3	punct	_	start_char=6083|end_char=6084|SpacesAfter=\n\n
+
+# text = Hyänen und andere Fleischfresser wurden von riesigen Langhals-Nashörnern verjagt.
+# sent_id = 63
+1	Hyänen	Hyäne	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj:pass	_	start_char=6086|end_char=6092
+2	und	und	CCONJ	KON	_	4	cc	_	start_char=6093|end_char=6096
+3	andere	anderer	DET	ADJA	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	4	det	_	start_char=6097|end_char=6103
+4	Fleischfresser	Fleischfresser	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	start_char=6104|end_char=6118
+5	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	11	aux:pass	_	start_char=6119|end_char=6125
+6	von	von	ADP	APPR	_	10	case	_	start_char=6126|end_char=6129
+7	riesigen	riesig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	start_char=6130|end_char=6138
+8	Langhals	Langhals	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	compound	_	start_char=6139|end_char=6147|SpaceAfter=No
+9	-	-	PUNCT	$(	_	8	punct	_	start_char=6147|end_char=6148|SpaceAfter=No
+10	Nashörnern	Nashorn	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	obl:agent	_	start_char=6148|end_char=6158
+11	verjagt	verjagen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=6159|end_char=6166|SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=6166|end_char=6167|SpacesAfter=\n\n
+
+# text = An diesem Punkt scheint alles irgendwie vertraut, aber auch wieder nicht.
+# sent_id = 64
+1	An	an	ADP	APPR	_	3	case	_	start_char=6169|end_char=6171
+2	diesem	dieser	DET	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=6172|end_char=6178
+3	Punkt	Punkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	start_char=6179|end_char=6184
+4	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6185|end_char=6192
+5	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	4	nsubj	_	start_char=6193|end_char=6198
+6	irgendwie	irgendwie	ADV	ADV	_	4	advmod	_	start_char=6199|end_char=6208
+7	vertraut	vertraut	ADJ	ADJD	Degree=Pos	4	xcomp	_	start_char=6209|end_char=6217|SpaceAfter=No
+8	,	,	PUNCT	$,	_	12	punct	_	start_char=6217|end_char=6218
+9	aber	aber	CCONJ	KON	_	12	cc	_	start_char=6219|end_char=6223
+10	auch	auch	ADV	ADV	_	11	advmod	_	start_char=6224|end_char=6228
+11	wieder	wieder	ADV	ADV	_	12	advmod	_	start_char=6229|end_char=6235
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	conj	_	start_char=6236|end_char=6241|SpaceAfter=No
+13	.	.	PUNCT	$.	_	4	punct	_	start_char=6241|end_char=6242|SpacesAfter=\n\n
+
+# text = In der Antarktis entstand eine neue Eiszeit, es bildeten sich die ersten permanenten Polarkappen in zwei Millionen Jahren.
+# sent_id = 65
+1	In	in	ADP	APPR	_	3	case	_	start_char=6244|end_char=6246
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=6247|end_char=6250
+3	Antarktis	Antarktis	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=6251|end_char=6260
+4	entstand	entstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=6261|end_char=6269
+5	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=6270|end_char=6274
+6	neue	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=6275|end_char=6279
+7	Eiszeit	Eiszeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=6280|end_char=6287|SpaceAfter=No
+8	,	,	PUNCT	$,	_	10	punct	_	start_char=6287|end_char=6288
+9	es	es	PRON	PPER	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	start_char=6289|end_char=6291
+10	bildeten	bilden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	start_char=6292|end_char=6300
+11	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	start_char=6301|end_char=6305
+12	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	15	det	_	start_char=6306|end_char=6309
+13	ersten	erst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|NumType=Ord|Number=Plur	15	amod	_	start_char=6310|end_char=6316
+14	permanenten	permanent	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=6317|end_char=6328
+15	Polarkappen	Polarkappe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=6329|end_char=6340
+16	in	in	ADP	APPR	_	19	case	_	start_char=6341|end_char=6343
+17	zwei	zwei	NUM	CARD	NumType=Card	18	nummod	_	start_char=6344|end_char=6348
+18	Millionen	Million	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	19	nmod	_	start_char=6349|end_char=6358
+19	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	10	obl	_	start_char=6359|end_char=6365|SpaceAfter=No
+20	.	.	PUNCT	$.	_	4	punct	_	start_char=6365|end_char=6366|SpacesAfter=\n\n
+
+# text = Dieser Vorgang trocknete den Rest der Welt aus und die Zahl der Gräser, Nagetiere und Katzen stieg an.
+# sent_id = 66
+1	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=6368|end_char=6374
+2	Vorgang	Vorgang	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=6375|end_char=6382
+3	trocknete	trocknen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=6383|end_char=6392
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=6393|end_char=6396
+5	Rest	Rest	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=6397|end_char=6401
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=6402|end_char=6405
+7	Welt	Welt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=6406|end_char=6410
+8	aus	aus	ADP	PTKVZ	_	3	compound:prt	_	start_char=6411|end_char=6414
+9	und	und	CCONJ	KON	_	18	cc	_	start_char=6415|end_char=6418
+10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=6419|end_char=6422
+11	Zahl	Zahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	start_char=6423|end_char=6427
+12	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	13	det	_	start_char=6428|end_char=6431
+13	Gräser	Gras	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	start_char=6432|end_char=6438|SpaceAfter=No
+14	,	,	PUNCT	$,	_	15	punct	_	start_char=6438|end_char=6439
+15	Nagetiere	Nagetier	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	13	conj	_	start_char=6440|end_char=6449
+16	und	und	CCONJ	KON	_	17	cc	_	start_char=6450|end_char=6453
+17	Katzen	Katze	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	13	conj	_	start_char=6454|end_char=6460
+18	stieg	steigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	start_char=6461|end_char=6466
+19	an	an	ADP	PTKVZ	_	18	compound:prt	_	start_char=6467|end_char=6469|SpaceAfter=No
+20	.	.	PUNCT	$.	_	3	punct	_	start_char=6469|end_char=6470|SpacesAfter=\n\n
+
+# text = Irgendwo in Afrika lief der erste Affe durch die neue Savanne.
+# sent_id = 67
+1	Irgendwo	irgendwo	ADV	ADV	_	3	advmod	_	start_char=6472|end_char=6480
+2	in	in	ADP	APPR	_	3	case	_	start_char=6481|end_char=6483
+3	Afrika	Afrika	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=6484|end_char=6490
+4	lief	laufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=6491|end_char=6495
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=6496|end_char=6499
+6	erste	erst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|NumType=Ord|Number=Sing	7	amod	_	start_char=6500|end_char=6505
+7	Affe	Affe	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=6506|end_char=6510
+8	durch	durch	ADP	APPR	_	11	case	_	start_char=6511|end_char=6516
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=6517|end_char=6520
+10	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=6521|end_char=6525
+11	Savanne	Savanne	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	start_char=6526|end_char=6533|SpaceAfter=No
+12	.	.	PUNCT	$.	_	4	punct	_	start_char=6533|end_char=6534|SpacesAfter=\n\n
+
+# text = Dann war da noch der riesige Säbelzahnlachs, den muss ich noch erwähnen.
+# sent_id = 68
+1	Dann	dann	ADV	ADV	_	7	advmod	_	start_char=6536|end_char=6540
+2	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	start_char=6541|end_char=6544
+3	da	da	ADV	ADV	_	7	advmod	_	start_char=6545|end_char=6547
+4	noch	noch	ADV	ADV	_	7	advmod	_	start_char=6548|end_char=6552
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=6553|end_char=6556
+6	riesige	riesig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=6557|end_char=6564
+7	Säbelzahnlachs	Säbelzahnlachs	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=6565|end_char=6579|SpaceAfter=No
+8	,	,	PUNCT	$,	_	13	punct	_	start_char=6579|end_char=6580
+9	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem,Rel	13	obj	_	start_char=6581|end_char=6584
+10	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=6585|end_char=6589
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=6590|end_char=6593
+12	noch	noch	ADV	ADV	_	13	advmod	_	start_char=6594|end_char=6598
+13	erwähnen	erwähnen	VERB	VVINF	VerbForm=Inf	7	parataxis	_	start_char=6599|end_char=6607|SpaceAfter=No
+14	.	.	PUNCT	$.	_	7	punct	_	start_char=6607|end_char=6608|SpacesAfter=\n\n
+
+# text = Wir wissen also, dass dies passierte und noch vieles mehr.
+# sent_id = 69
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=6610|end_char=6613
+2	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6614|end_char=6620
+3	also	also	ADV	ADV	_	2	advmod	_	start_char=6621|end_char=6625|SpaceAfter=No
+4	,	,	PUNCT	$,	_	7	punct	_	start_char=6625|end_char=6626
+5	dass	dass	SCONJ	KOUS	_	7	mark	_	start_char=6627|end_char=6631
+6	dies	dieser	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	start_char=6632|end_char=6636
+7	passierte	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	start_char=6637|end_char=6646
+8	und	und	CCONJ	KON	_	10	cc	_	start_char=6647|end_char=6650
+9	noch	noch	ADV	ADV	_	10	advmod	_	start_char=6651|end_char=6655
+10	vieles	viel	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	7	conj	_	start_char=6656|end_char=6662
+11	mehr	mehr	ADV	ADV	_	10	advmod	_	start_char=6663|end_char=6667|SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=6667|end_char=6668|SpacesAfter=\n\n
+
+# text = Aber wie?
+# sent_id = 70
+1	Aber	aber	CCONJ	KON	_	2	cc	_	start_char=6670|end_char=6674
+2	wie	wie	ADV	KOUS	_	0	root	_	start_char=6675|end_char=6678|SpaceAfter=No
+3	?	?	PUNCT	$.	_	2	punct	_	start_char=6678|end_char=6679|SpacesAfter=\n\n
+
+# text = Warum?
+# sent_id = 71
+1	Warum	warum	ADV	PWAV	PronType=Int	0	root	_	start_char=6681|end_char=6686|SpaceAfter=No
+2	?	?	PUNCT	$.	_	1	punct	_	start_char=6686|end_char=6687|SpacesAfter=\n\n
+
+# text = Die Paläontologie ist eine blühende Wissenschaft die sich mit mehreren anderen Bereichen und Technologien überschneidet.
+# sent_id = 72
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=6689|end_char=6692
+2	Paläontologie	Paläontologie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=6693|end_char=6706
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=6707|end_char=6710
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=6711|end_char=6715
+5	blühende	blühend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=6716|end_char=6724
+6	Wissenschaft	Wissenschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=6725|end_char=6737
+7	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	15	nsubj	_	start_char=6738|end_char=6741
+8	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	15	obj	_	start_char=6742|end_char=6746
+9	mit	mit	ADP	APPR	_	12	case	_	start_char=6747|end_char=6750
+10	mehreren	mehr	DET	PIAT	Case=Dat|Degree=Cmp|Gender=Masc|Number=Plur|PronType=Ind	12	det	_	start_char=6751|end_char=6759
+11	anderen	anderer	DET	ADJA	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	12	det	_	start_char=6760|end_char=6767
+12	Bereichen	Bereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	15	obl	_	start_char=6768|end_char=6777
+13	und	und	CCONJ	KON	_	14	cc	_	start_char=6778|end_char=6781
+14	Technologien	Technologie	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	12	conj	_	start_char=6782|end_char=6794
+15	überschneidet	überschneiden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	start_char=6795|end_char=6808|SpaceAfter=No
+16	.	.	PUNCT	$.	_	6	punct	_	start_char=6808|end_char=6809|SpacesAfter=\n\n
+
+# text = Es gibt keine besseren Beweise als die Fossilfunde, und wir verwerten jedes Körnchen Information.
+# sent_id = 73
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=6811|end_char=6813
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6814|end_char=6818
+3	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Neg	5	det	_	start_char=6819|end_char=6824
+4	besseren	gut	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Masc|Number=Plur	5	amod	_	start_char=6825|end_char=6833
+5	Beweise	Beweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=6834|end_char=6841
+6	als	als	ADP	KOKOM	_	8	case	_	start_char=6842|end_char=6845
+7	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=6846|end_char=6849
+8	Fossilfunde	Fossilfund	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	nmod	_	start_char=6850|end_char=6861|SpaceAfter=No
+9	,	,	PUNCT	$,	_	12	punct	_	start_char=6861|end_char=6862
+10	und	und	CCONJ	KON	_	12	cc	_	start_char=6863|end_char=6866
+11	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	start_char=6867|end_char=6870
+12	verwerten	verwerten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=6871|end_char=6880
+13	jedes	jeder	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	14	det	_	start_char=6881|end_char=6886
+14	Körnchen	Körnchen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	start_char=6887|end_char=6895
+15	Information	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=6896|end_char=6907|SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	start_char=6907|end_char=6908|SpacesAfter=\n\n
+
+# text = Wir benutzen Computertomographie, Isotope, Genome, Roboter, mathematische Simulationen und verschiedene Analyseverfahren.
+# sent_id = 74
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=6910|end_char=6913
+2	benutzen	benutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6914|end_char=6922
+3	Computertomographie	Computertomographie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=6923|end_char=6942|SpaceAfter=No
+4	,	,	PUNCT	$,	_	5	punct	_	start_char=6942|end_char=6943
+5	Isotope	Isotop	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	conj	_	start_char=6944|end_char=6951|SpaceAfter=No
+6	,	,	PUNCT	$,	_	7	punct	_	start_char=6951|end_char=6952
+7	Genome	Genom	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	conj	_	start_char=6953|end_char=6959|SpaceAfter=No
+8	,	,	PUNCT	$,	_	9	punct	_	start_char=6959|end_char=6960
+9	Roboter	Roboter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	conj	_	start_char=6961|end_char=6968|SpaceAfter=No
+10	,	,	PUNCT	$,	_	12	punct	_	start_char=6968|end_char=6969
+11	mathematische	mathematisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=6970|end_char=6983
+12	Simulationen	Simulation	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	conj	_	start_char=6984|end_char=6996
+13	und	und	CCONJ	KON	_	15	cc	_	start_char=6997|end_char=7000
+14	verschiedene	verschieden	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	15	amod	_	start_char=7001|end_char=7013
+15	Analyseverfahren	Analyseverfahren	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	conj	_	start_char=7014|end_char=7030|SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	start_char=7030|end_char=7031|SpacesAfter=\n\n
+
+# text = Wir optimieren diese Faktoren, damit die Vergangenheit klarer wird und wir Evolution besser verstehen.
+# sent_id = 75
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=7033|end_char=7036
+2	optimieren	optimieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7037|end_char=7047
+3	diese	dieser	DET	PDAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	start_char=7048|end_char=7053
+4	Faktoren	Faktor	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=7054|end_char=7062|SpaceAfter=No
+5	,	,	PUNCT	$,	_	10	punct	_	start_char=7062|end_char=7063
+6	damit	damit	SCONJ	KOUS	_	10	mark	_	start_char=7064|end_char=7069
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=7070|end_char=7073
+8	Vergangenheit	Vergangenheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=7074|end_char=7087
+9	klarer	klar	ADJ	ADJD	Degree=Cmp	10	xcomp	_	start_char=7088|end_char=7094
+10	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=7095|end_char=7099
+11	und	und	CCONJ	KON	_	15	cc	_	start_char=7100|end_char=7103
+12	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	start_char=7104|end_char=7107
+13	Evolution	Evolution	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=7108|end_char=7117
+14	besser	gut	ADJ	ADJD	Degree=Cmp	15	advmod	_	start_char=7118|end_char=7124
+15	verstehen	verstehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	start_char=7125|end_char=7134|SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	start_char=7134|end_char=7135|SpacesAfter=\n\n
+
+# text = Dadurch können wir bessere Prognosen für die Zukunft machen.
+# sent_id = 76
+1	Dadurch	dadurch	ADV	PAV	PronType=Dem	9	advmod	_	start_char=7137|end_char=7144
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=7145|end_char=7151
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=7152|end_char=7155
+4	bessere	gut	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	5	amod	_	start_char=7156|end_char=7163
+5	Prognosen	Prognose	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	start_char=7164|end_char=7173
+6	für	für	ADP	APPR	_	8	case	_	start_char=7174|end_char=7177
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=7178|end_char=7181
+8	Zukunft	Zukunft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	start_char=7182|end_char=7189
+9	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7190|end_char=7196|SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=7196|end_char=7197|SpacesAfter=\n\n
+
+# text = Was wird nach dem nächsten Massenaussterben passieren?
+# sent_id = 77
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	7	nsubj	_	start_char=7199|end_char=7202
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=7203|end_char=7207
+3	nach	nach	ADP	APPR	_	6	case	_	start_char=7208|end_char=7212
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=7213|end_char=7216
+5	nächsten	nah	ADJ	ADJA	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	6	amod	_	start_char=7217|end_char=7225
+6	Massenaussterben	Massenaussterben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	start_char=7226|end_char=7242
+7	passieren	passieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7243|end_char=7252|SpaceAfter=No
+8	?	?	PUNCT	$.	_	7	punct	_	start_char=7252|end_char=7253|SpacesAfter=\n\n
+
+# text = Was für kuriose Formen werden entstehen?
+# sent_id = 78
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	6	nsubj	_	start_char=7255|end_char=7258
+2	für	für	ADP	APPR	_	4	case	_	start_char=7259|end_char=7262
+3	kuriose	kurios	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=7263|end_char=7270
+4	Formen	Form	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obl	_	start_char=7271|end_char=7277
+5	werden	werden	AUX	VAINF	Number=Plur|Person=3|Tense=Pres|VerbForm=Inf|Voice=Pass	6	aux	_	start_char=7278|end_char=7284
+6	entstehen	entstehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7285|end_char=7294|SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=7294|end_char=7295|SpacesAfter=\n\n
+
+# text = Werden Säugetiere wieder kleiner werden?
+# sent_id = 79
+1	Werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=7297|end_char=7303
+2	Säugetiere	Säugetier	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	start_char=7304|end_char=7314
+3	wieder	wieder	ADV	ADV	_	5	advmod	_	start_char=7315|end_char=7321
+4	kleiner	klein	ADJ	ADJD	Degree=Cmp	5	xcomp	_	start_char=7322|end_char=7329
+5	werden	werden	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=7330|end_char=7336|SpaceAfter=No
+6	?	?	PUNCT	$.	_	5	punct	_	start_char=7336|end_char=7337|SpacesAfter=\n\n
+
+# text = Wird es überhaupt noch Säugetiere geben?
+# sent_id = 80
+1	Wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=7339|end_char=7343
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=7344|end_char=7346
+3	überhaupt	überhaupt	ADV	ADV	_	4	advmod	_	start_char=7347|end_char=7356
+4	noch	noch	ADV	ADV	_	6	advmod	_	start_char=7357|end_char=7361
+5	Säugetiere	Säugetier	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	start_char=7362|end_char=7372
+6	geben	geben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7373|end_char=7378|SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	start_char=7378|end_char=7379|SpacesAfter=\n\n
+
+# text = Tatsächlich haben wir viel durch die Dinosaurier gelernt, aber es gibt noch viele andere Quellen, z.B. die 99,9 Prozent der Lebewesen, die auf der Erde heimisch waren.
+# sent_id = 81
+1	Tatsächlich	tatsächlich	ADJ	ADV	Degree=Pos	8	advmod	_	start_char=7381|end_char=7392
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=7393|end_char=7398
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=7399|end_char=7402
+4	viel	viel	DET	PIS	PronType=Ind	8	obj	_	start_char=7403|end_char=7407
+5	durch	durch	ADP	APPR	_	7	case	_	start_char=7408|end_char=7413
+6	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=7414|end_char=7417
+7	Dinosaurier	Dinosaurus	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	start_char=7418|end_char=7429
+8	gelernt	lernen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=7430|end_char=7437|SpaceAfter=No
+9	,	,	PUNCT	$,	_	12	punct	_	start_char=7437|end_char=7438
+10	aber	aber	CCONJ	KON	_	12	cc	_	start_char=7439|end_char=7443
+11	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	start_char=7444|end_char=7446
+12	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	start_char=7447|end_char=7451
+13	noch	noch	ADV	ADV	_	12	advmod	_	start_char=7452|end_char=7456
+14	viele	viel	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	16	det	_	start_char=7457|end_char=7462
+15	andere	anderer	DET	ADJA	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	16	det	_	start_char=7463|end_char=7469
+16	Quellen	Quelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	nsubj	_	start_char=7470|end_char=7477|SpaceAfter=No
+17	,	,	PUNCT	$,	_	21	punct	_	start_char=7477|end_char=7478
+18	z.B.	z.B.	X	ADV	_	21	dep	_	start_char=7479|end_char=7483
+19	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	21	det	_	start_char=7484|end_char=7487
+20	99,9	99,9	NUM	CARD	NumType=Card	21	nummod	_	start_char=7488|end_char=7492
+21	Prozent	Prozent	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	16	appos	_	start_char=7493|end_char=7500
+22	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	23	det	_	start_char=7501|end_char=7504
+23	Lebewesen	Lebewesen	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	start_char=7505|end_char=7514|SpaceAfter=No
+24	,	,	PUNCT	$,	_	29	punct	_	start_char=7514|end_char=7515
+25	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	29	nsubj	_	start_char=7516|end_char=7519
+26	auf	auf	ADP	APPR	_	28	case	_	start_char=7520|end_char=7523
+27	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	start_char=7524|end_char=7527
+28	Erde	Erde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	29	nmod	_	start_char=7528|end_char=7532
+29	heimisch	heimisch	ADJ	ADJD	Degree=Pos	21	acl	_	start_char=7533|end_char=7541
+30	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	29	cop	_	start_char=7542|end_char=7547|SpaceAfter=No
+31	.	.	PUNCT	$.	_	8	punct	_	start_char=7547|end_char=7548|SpacesAfter=\n\n
+
+# text = Und das nennt sich Paläontologie.
+# sent_id = 82
+1	Und	und	CCONJ	KON	_	3	cc	_	start_char=7550|end_char=7553
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=7554|end_char=7557
+3	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7558|end_char=7563
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	start_char=7564|end_char=7568
+5	Paläontologie	Paläontologie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	xcomp	_	start_char=7569|end_char=7582|SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	start_char=7582|end_char=7583|SpacesAfter=\n\n
+
+# text = Danke.
+# sent_id = 83
+1	Danke	Dank	NOUN	PTKANT	_	0	root	_	start_char=7585|end_char=7590|SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_	start_char=7590|end_char=7591|SpaceAfter=No
+
