@@ -1,0 +1,2116 @@
+# text = Das Problem mit rassenbasierter Medizin
+# sent_id = 0
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=3
+2	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=4|end_char=11
+3	mit	mit	ADP	APPR	_	5	case	_	start_char=12|end_char=15
+4	rassenbasierter	rassenbasiert	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=16|end_char=31
+5	Medizin	Medizin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	start_char=32|end_char=39|SpacesAfter=\n\n
+
+# text = Vor 15 Jahren nahm ich freiwillig an einer Forschungsstudie teil, die einen genetischen Test umfasste.
+# sent_id = 1
+1	Vor	vor	ADP	APPR	_	3	case	_	start_char=41|end_char=44
+2	15	15	NUM	CARD	NumType=Card	3	nummod	_	start_char=45|end_char=47
+3	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	4	obl	_	start_char=48|end_char=54
+4	nahm	nehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=55|end_char=59
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=60|end_char=63
+6	freiwillig	freiwillig	ADJ	ADJD	Degree=Pos	4	advmod	_	start_char=64|end_char=74
+7	an	an	ADP	APPR	_	9	case	_	start_char=75|end_char=77
+8	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=78|end_char=83
+9	Forschungsstudie	Forschungsstudie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=84|end_char=100
+10	teil	teil	ADV	PTKVZ	_	4	compound:prt	_	start_char=101|end_char=105|SpaceAfter=No
+11	,	,	PUNCT	$,	_	16	punct	_	start_char=105|end_char=106
+12	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	16	nsubj	_	start_char=107|end_char=110
+13	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	15	det	_	start_char=111|end_char=116
+14	genetischen	genetisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=117|end_char=128
+15	Test	Test	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	start_char=129|end_char=133
+16	umfasste	umfassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl	_	start_char=134|end_char=142|SpaceAfter=No
+17	.	.	PUNCT	$.	_	4	punct	_	start_char=142|end_char=143|SpacesAfter=\n\n
+
+# text = Als ich in der Klinik ankam, um getestet zu werden, erhielt ich einen Fragebogen.
+# sent_id = 2
+1	Als	als	SCONJ	KOUS	_	6	mark	_	start_char=145|end_char=148
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=149|end_char=152
+3	in	in	ADP	APPR	_	5	case	_	start_char=153|end_char=155
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=156|end_char=159
+5	Klinik	Klinik	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	start_char=160|end_char=166
+6	ankam	ankommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	advcl	_	start_char=167|end_char=172|SpaceAfter=No
+7	,	,	PUNCT	$,	_	9	punct	_	start_char=172|end_char=173
+8	um	um	ADP	KOUI	_	9	mark	_	start_char=174|end_char=176
+9	getestet	testen	VERB	VVPP	VerbForm=Part	6	advcl	_	start_char=177|end_char=185
+10	zu	zu	PART	PTKZU	_	9	mark	_	start_char=186|end_char=188
+11	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	9	aux:pass	_	start_char=189|end_char=195|SpaceAfter=No
+12	,	,	PUNCT	$,	_	6	punct	_	start_char=195|end_char=196
+13	erhielt	erhalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=197|end_char=204
+14	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=205|end_char=208
+15	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	16	det	_	start_char=209|end_char=214
+16	Fragebogen	Fragebogen	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=215|end_char=225|SpaceAfter=No
+17	.	.	PUNCT	$.	_	13	punct	_	start_char=225|end_char=226|SpacesAfter=\n\n
+
+# text = Bei einer der ersten Fragen sollte ich meine Rassenzugehörigkeit angeben:
+# sent_id = 3
+1	Bei	bei	ADP	APPR	_	2	case	_	start_char=228|end_char=231
+2	einer	ein	DET	PIS	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	10	obl	_	start_char=232|end_char=237
+3	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=238|end_char=241
+4	ersten	erst	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|NumType=Ord|Number=Plur	5	amod	_	start_char=242|end_char=248
+5	Fragen	Frage	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	start_char=249|end_char=255
+6	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	aux	_	start_char=256|end_char=262
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=263|end_char=266
+8	meine	mein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	start_char=267|end_char=272
+9	Rassenzugehörigkeit	Rassenzugehörigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=273|end_char=292
+10	angeben	angeben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=293|end_char=300|SpaceAfter=No
+11	:	:	PUNCT	$.	_	10	punct	_	start_char=300|end_char=301|SpacesAfter=\n\n
+
+# text = Weiß, schwarz, asiatisch oder indianisch.
+# sent_id = 4
+1	Weiß	Weiß	ADJ	ADJD	Degree=Pos	0	root	_	start_char=303|end_char=307|SpaceAfter=No
+2	,	,	PUNCT	$,	_	3	punct	_	start_char=307|end_char=308
+3	schwarz	schwarz	ADJ	ADJD	Degree=Pos	1	conj	_	start_char=309|end_char=316|SpaceAfter=No
+4	,	,	PUNCT	$,	_	5	punct	_	start_char=316|end_char=317
+5	asiatisch	asiatisch	ADJ	ADJD	Degree=Pos	1	conj	_	start_char=318|end_char=327
+6	oder	oder	CCONJ	KON	_	7	cc	_	start_char=328|end_char=332
+7	indianisch	indianisch	ADJ	ADJD	Degree=Pos	1	conj	_	start_char=333|end_char=343|SpaceAfter=No
+8	.	.	PUNCT	$.	_	1	punct	_	start_char=343|end_char=344|SpacesAfter=\n\n
+
+# text = Ich war nicht sicher, wie ich antworten sollte.
+# sent_id = 5
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=346|end_char=349
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	cop	_	start_char=350|end_char=353
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	start_char=354|end_char=359
+4	sicher	sicher	ADJ	ADJD	Degree=Pos	0	root	_	start_char=360|end_char=366|SpaceAfter=No
+5	,	,	PUNCT	$,	_	8	punct	_	start_char=366|end_char=367
+6	wie	wie	SCONJ	KOUS	_	8	mark	_	start_char=368|end_char=371
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=372|end_char=375
+8	antworten	antworten	VERB	VVINF	VerbForm=Inf	4	ccomp	_	start_char=376|end_char=385
+9	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	start_char=386|end_char=392|SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	start_char=392|end_char=393|SpacesAfter=\n\n
+
+# text = Sollte damit die Vielfalt der sozialen Herkünfte der Teilnehmer gemessen werden?
+# sent_id = 6
+1	Sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	start_char=395|end_char=401
+2	damit	damit	ADV	PAV	PronType=Dem	10	advmod	_	start_char=402|end_char=407
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=408|end_char=411
+4	Vielfalt	Vielfalt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj:pass	_	start_char=412|end_char=420
+5	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=421|end_char=424
+6	sozialen	sozial	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=425|end_char=433
+7	Herkünfte	Herkunft	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=434|end_char=443
+8	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=444|end_char=447
+9	Teilnehmer	Teilnehmer	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	start_char=448|end_char=458
+10	gemessen	messen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=459|end_char=467
+11	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	10	aux:pass	_	start_char=468|end_char=474|SpaceAfter=No
+12	?	?	PUNCT	$.	_	10	punct	_	start_char=474|end_char=475|SpacesAfter=\n\n
+
+# text = Für diesen Fall antwortete ich mit meiner sozialen Identität, und kreuzte "schwarz" an.
+# sent_id = 7
+1	Für	für	ADP	APPR	_	3	case	_	start_char=477|end_char=480
+2	diesen	dieser	DET	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=481|end_char=487
+3	Fall	Fall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	start_char=488|end_char=492
+4	antwortete	antworten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=493|end_char=503
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=504|end_char=507
+6	mit	mit	ADP	APPR	_	9	case	_	start_char=508|end_char=511
+7	meiner	mein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	start_char=512|end_char=518
+8	sozialen	sozial	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=519|end_char=527
+9	Identität	Identität	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=528|end_char=537|SpaceAfter=No
+10	,	,	PUNCT	$,	_	12	punct	_	start_char=537|end_char=538
+11	und	und	CCONJ	KON	_	12	cc	_	start_char=539|end_char=542
+12	kreuzte	kreuzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	start_char=543|end_char=550
+13	"	"	PUNCT	$(	_	14	punct	_	start_char=551|end_char=552|SpaceAfter=No
+14	schwarz	schwarz	ADJ	ADJD	Degree=Pos	12	xcomp	_	start_char=552|end_char=559|SpaceAfter=No
+15	"	"	PUNCT	$(	_	14	punct	_	start_char=559|end_char=560
+16	an	an	ADP	PTKVZ	_	12	compound:prt	_	start_char=561|end_char=563|SpaceAfter=No
+17	.	.	PUNCT	$.	_	4	punct	_	start_char=563|end_char=564|SpacesAfter=\n\n
+
+# text = Aber falls die Forscher nun eine Verbindung zwischen Abstammung und dem Risiko für bestimmte genetische Merkmale untersuchen wollten?
+# sent_id = 8
+1	Aber	aber	CCONJ	KON	_	17	cc	_	start_char=566|end_char=570
+2	falls	falls	SCONJ	KOUS	_	17	mark	_	start_char=571|end_char=576
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=577|end_char=580
+4	Forscher	Forscher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	start_char=581|end_char=589
+5	nun	nun	ADV	ADV	_	17	advmod	_	start_char=590|end_char=593
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=594|end_char=598
+7	Verbindung	Verbindung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	start_char=599|end_char=609
+8	zwischen	zwischen	ADP	APPR	_	9	case	_	start_char=610|end_char=618
+9	Abstammung	Abstammung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	start_char=619|end_char=629
+10	und	und	CCONJ	KON	_	12	cc	_	start_char=630|end_char=633
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	start_char=634|end_char=637
+12	Risiko	Risiko	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	conj	_	start_char=638|end_char=644
+13	für	für	ADP	APPR	_	16	case	_	start_char=645|end_char=648
+14	bestimmte	bestimmt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	16	amod	_	start_char=649|end_char=658
+15	genetische	genetisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	16	amod	_	start_char=659|end_char=669
+16	Merkmale	Merkmal	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	nmod	_	start_char=670|end_char=678
+17	untersuchen	untersuchen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=679|end_char=690
+18	wollten	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	start_char=691|end_char=698|SpaceAfter=No
+19	?	?	PUNCT	$.	_	17	punct	_	start_char=698|end_char=699|SpacesAfter=\n\n
+
+# text = Würden sie in diesem Fall nicht etwas über meine Abstammung wissen wollen, die zugleich europäisch und afrikanisch ist?
+# sent_id = 9
+1	Würden	Würde	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	start_char=701|end_char=707
+2	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=708|end_char=711
+3	in	in	ADP	APPR	_	5	case	_	start_char=712|end_char=714
+4	diesem	dieser	DET	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=715|end_char=721
+5	Fall	Fall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	start_char=722|end_char=726
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	start_char=727|end_char=732
+7	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	11	obj	_	start_char=733|end_char=738
+8	über	über	ADP	APPR	_	10	case	_	start_char=739|end_char=743
+9	meine	mein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=744|end_char=749
+10	Abstammung	Abstammung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	start_char=750|end_char=760
+11	wissen	wissen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=761|end_char=767
+12	wollen	wollen	AUX	VMINF	VerbForm=Inf	11	aux	_	start_char=768|end_char=774|SpaceAfter=No
+13	,	,	PUNCT	$,	_	16	punct	_	start_char=774|end_char=775
+14	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	16	nsubj	_	start_char=776|end_char=779
+15	zugleich	zugleich	ADV	ADV	_	16	advmod	_	start_char=780|end_char=788
+16	europäisch	europäisch	ADJ	ADJD	Degree=Pos	10	acl	_	start_char=789|end_char=799
+17	und	und	CCONJ	KON	_	18	cc	_	start_char=800|end_char=803
+18	afrikanisch	afrikanisch	ADJ	ADJD	Degree=Pos	16	conj	_	start_char=804|end_char=815
+19	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=816|end_char=819|SpaceAfter=No
+20	?	?	PUNCT	$.	_	11	punct	_	start_char=819|end_char=820|SpacesAfter=\n\n
+
+# text = Wie konnten sie wissenschaftliche Befunde über meine Gene erstellen, wenn ich meine soziale Identität als schwarze Frau angab?
+# sent_id = 10
+1	Wie	wie	ADV	PWAV	PronType=Int	9	advmod	_	start_char=822|end_char=825
+2	konnten	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	start_char=826|end_char=833
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=834|end_char=837
+4	wissenschaftliche	wissenschaftlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=838|end_char=855
+5	Befunde	Befund	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	start_char=856|end_char=863
+6	über	über	ADP	APPR	_	8	case	_	start_char=864|end_char=868
+7	meine	mein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=869|end_char=874
+8	Gene	Gen	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obl	_	start_char=875|end_char=879
+9	erstellen	erstellen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=880|end_char=889|SpaceAfter=No
+10	,	,	PUNCT	$,	_	19	punct	_	start_char=889|end_char=890
+11	wenn	wenn	SCONJ	KOUS	_	19	mark	_	start_char=891|end_char=895
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	start_char=896|end_char=899
+13	meine	mein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	15	det:poss	_	start_char=900|end_char=905
+14	soziale	sozial	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=906|end_char=913
+15	Identität	Identität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	start_char=914|end_char=923
+16	als	als	ADP	KOKOM	_	19	xcomp	_	start_char=924|end_char=927
+17	schwarze	schwarz	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=928|end_char=936
+18	Frau	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	start_char=937|end_char=941
+19	angab	angeben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	advcl	_	start_char=942|end_char=947|SpaceAfter=No
+20	?	?	PUNCT	$.	_	9	punct	_	start_char=947|end_char=948|SpacesAfter=\n\n
+
+# text = Schließlich sehe ich mich eher als schwarze Frau mit weißen Vater, denn als weiße Frau mit einer schwarzen Mutter, aus gänzlich sozialen Gründen.
+# sent_id = 11
+1	Schließlich	schließlich	ADV	ADV	_	2	advmod	_	start_char=950|end_char=961
+2	sehe	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=962|end_char=966
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=967|end_char=970
+4	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	nsubj	_	start_char=971|end_char=975
+5	eher	eher	ADV	ADV	_	2	advmod	_	start_char=976|end_char=980
+6	als	als	ADP	KOKOM	_	2	xcomp	_	start_char=981|end_char=984
+7	schwarze	schwarz	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=985|end_char=993
+8	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	start_char=994|end_char=998
+9	mit	mit	ADP	APPR	_	11	case	_	start_char=999|end_char=1002
+10	weißen	weiß	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	start_char=1003|end_char=1009
+11	Vater	Vater	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	nmod	_	start_char=1010|end_char=1015|SpaceAfter=No
+12	,	,	PUNCT	$,	_	16	punct	_	start_char=1015|end_char=1016
+13	denn	denn	CCONJ	KON	_	16	cc	_	start_char=1017|end_char=1021
+14	als	als	ADP	KOKOM	_	16	case	_	start_char=1022|end_char=1025
+15	weiße	weiß	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=1026|end_char=1031
+16	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	obl	_	start_char=1032|end_char=1036
+17	mit	mit	ADP	APPR	_	20	case	_	start_char=1037|end_char=1040
+18	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	20	det	_	start_char=1041|end_char=1046
+19	schwarzen	schwarz	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=1047|end_char=1056
+20	Mutter	Mutter	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	nmod	_	start_char=1057|end_char=1063|SpaceAfter=No
+21	,	,	PUNCT	$,	_	16	punct	_	start_char=1063|end_char=1064
+22	aus	aus	ADP	APPR	_	25	case	_	start_char=1065|end_char=1068
+23	gänzlich	gänzlich	ADJ	ADJD	Degree=Pos	24	advmod	_	start_char=1069|end_char=1077
+24	sozialen	sozial	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	25	amod	_	start_char=1078|end_char=1086
+25	Gründen	Grund|Gründen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	16	nmod	_	start_char=1087|end_char=1094|SpaceAfter=No
+26	.	.	PUNCT	$.	_	2	punct	_	start_char=1094|end_char=1095|SpacesAfter=\n\n
+
+# text = Welche Rassenidentität ich ankreuze, hat nichts mit meinen Genen zu tun.
+# sent_id = 12
+1	Welche	welcher	DET	PWAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	2	det	_	start_char=1097|end_char=1103
+2	Rassenidentität	Rassenidentität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=1104|end_char=1119
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=1120|end_char=1123
+4	ankreuze	ankreuzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	advcl	_	start_char=1124|end_char=1132|SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	start_char=1132|end_char=1133
+6	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1134|end_char=1137
+7	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	6	obj	_	start_char=1138|end_char=1144
+8	mit	mit	ADP	APPR	_	10	case	_	start_char=1145|end_char=1148
+9	meinen	mein	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=1149|end_char=1155
+10	Genen	Gen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	obl	_	start_char=1156|end_char=1161
+11	zu	zu	PART	PTKZU	_	12	mark	_	start_char=1162|end_char=1164
+12	tun	tun	VERB	VVINF	VerbForm=Inf	6	xcomp	_	start_char=1165|end_char=1168|SpaceAfter=No
+13	.	.	PUNCT	$.	_	6	punct	_	start_char=1168|end_char=1169|SpacesAfter=\n\n
+
+# text = Trotz der sichtlichen Bedeutung dieser Frage für die wissenschaftliche Richtigkeit dieser Studie wurde mir gesagt: "Kümmere dich nicht darum, gib einfach an, wie du dich selbst identifizierst."
+# sent_id = 13
+1	Trotz	trotz	ADP	APPR	_	4	case	_	start_char=1171|end_char=1176
+2	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=1177|end_char=1180
+3	sichtlichen	sichtlich	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=1181|end_char=1192
+4	Bedeutung	Bedeutung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	15	obl	_	start_char=1193|end_char=1202
+5	dieser	dieser	DET	PDAT	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=1203|end_char=1209
+6	Frage	Frage	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=1210|end_char=1215
+7	für	für	ADP	APPR	_	10	case	_	start_char=1216|end_char=1219
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=1220|end_char=1223
+9	wissenschaftliche	wissenschaftlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=1224|end_char=1241
+10	Richtigkeit	Richtigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	start_char=1242|end_char=1253
+11	dieser	dieser	DET	PDAT	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	start_char=1254|end_char=1260
+12	Studie	Studie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=1261|end_char=1267
+13	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	15	aux:pass	_	start_char=1268|end_char=1273
+14	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	15	obl:arg	_	start_char=1274|end_char=1277
+15	gesagt	sagen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1278|end_char=1284|SpaceAfter=No
+16	:	:	PUNCT	$.	_	18	punct	_	start_char=1284|end_char=1285
+17	"	"	PUNCT	$(	_	18	punct	_	start_char=1286|end_char=1287|SpaceAfter=No
+18	Kümmere	kümmern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	start_char=1287|end_char=1294
+19	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	start_char=1295|end_char=1299
+20	nicht	nicht	PART	PTKNEG	Polarity=Neg	18	advmod	_	start_char=1300|end_char=1305
+21	darum	darum	ADV	PAV	PronType=Dem	18	advmod	_	start_char=1306|end_char=1311|SpaceAfter=No
+22	,	,	PUNCT	$,	_	23	punct	_	start_char=1311|end_char=1312
+23	gib	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	start_char=1313|end_char=1316
+24	einfach	einfach	ADV	ADV	_	23	advmod	_	start_char=1317|end_char=1324
+25	an	an	ADP	PTKVZ	_	23	compound:prt	_	start_char=1325|end_char=1327|SpaceAfter=No
+26	,	,	PUNCT	$,	_	31	punct	_	start_char=1327|end_char=1328
+27	wie	wie	SCONJ	KOUS	_	31	mark	_	start_char=1329|end_char=1332
+28	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	31	nsubj	_	start_char=1333|end_char=1335
+29	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	31	obj	_	start_char=1336|end_char=1340
+30	selbst	selbst	ADV	ADV	_	31	advmod	_	start_char=1341|end_char=1347
+31	identifizierst	identifizieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	_	start_char=1348|end_char=1362|SpaceAfter=No
+32	.	.	PUNCT	$.	_	18	punct	_	start_char=1362|end_char=1363|SpaceAfter=No
+33	"	"	PUNCT	$(	_	18	punct	_	start_char=1363|end_char=1364|SpacesAfter=\n\n
+
+# text = Also kreuzte ich "schwarz" an, aber ich hatte kein Vertrauen in die Ergebnisse einer Studie, die eine kritische Variable so unwissenschaftlich behandelte.
+# sent_id = 14
+1	Also	also	ADV	ADV	_	2	advmod	_	start_char=1366|end_char=1370
+2	kreuzte	kreuzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=1371|end_char=1378
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=1379|end_char=1382
+4	"	"	PUNCT	$(	_	5	punct	_	start_char=1383|end_char=1384|SpaceAfter=No
+5	schwarz	schwarz	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=1384|end_char=1391|SpaceAfter=No
+6	"	"	PUNCT	$(	_	5	punct	_	start_char=1391|end_char=1392
+7	an	an	ADP	PTKVZ	_	2	compound:prt	_	start_char=1393|end_char=1395|SpaceAfter=No
+8	,	,	PUNCT	$,	_	11	punct	_	start_char=1395|end_char=1396
+9	aber	aber	CCONJ	KON	_	11	cc	_	start_char=1397|end_char=1401
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=1402|end_char=1405
+11	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj	_	start_char=1406|end_char=1411
+12	kein	kein	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	13	det	_	start_char=1412|end_char=1416
+13	Vertrauen	Vertrauen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=1417|end_char=1426
+14	in	in	ADP	APPR	_	16	case	_	start_char=1427|end_char=1429
+15	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	16	det	_	start_char=1430|end_char=1433
+16	Ergebnisse	Ergebnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	nmod	_	start_char=1434|end_char=1444
+17	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	18	det	_	start_char=1445|end_char=1450
+18	Studie	Studie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	start_char=1451|end_char=1457|SpaceAfter=No
+19	,	,	PUNCT	$,	_	26	punct	_	start_char=1457|end_char=1458
+20	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	26	nsubj	_	start_char=1459|end_char=1462
+21	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	23	det	_	start_char=1463|end_char=1467
+22	kritische	kritisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=1468|end_char=1477
+23	Variable	Variable	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	start_char=1478|end_char=1486
+24	so	so	ADV	ADV	_	25	advmod	_	start_char=1487|end_char=1489
+25	unwissenschaftlich	unwissenschaftlich	ADJ	ADJD	Degree=Pos	26	advmod	_	start_char=1490|end_char=1508
+26	behandelte	behandeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	acl	_	start_char=1509|end_char=1519|SpaceAfter=No
+27	.	.	PUNCT	$.	_	2	punct	_	start_char=1519|end_char=1520|SpacesAfter=\n\n
+
+# text = Dieses persönliche Erlebnis des Umgangs mit Rassen in genetischen Untersuchungen brachte mich zum Nachdenken:
+# sent_id = 15
+1	Dieses	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	start_char=1522|end_char=1528
+2	persönliche	persönlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=1529|end_char=1540
+3	Erlebnis	Erlebnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	start_char=1541|end_char=1549
+4	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=1550|end_char=1553
+5	Umgangs	Umgang	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=1554|end_char=1561
+6	mit	mit	ADP	APPR	_	7	case	_	start_char=1562|end_char=1565
+7	Rassen	Rasse	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	nmod	_	start_char=1566|end_char=1572
+8	in	in	ADP	APPR	_	10	case	_	start_char=1573|end_char=1575
+9	genetischen	genetisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=1576|end_char=1587
+10	Untersuchungen	Untersuchung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	7	nmod	_	start_char=1588|end_char=1602
+11	brachte	bringen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1603|end_char=1610
+12	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obj	_	start_char=1611|end_char=1615
+13-14	zum	_	_	_	_	_	_	_	start_char=1616|end_char=1619
+13	zu	zu	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Nachdenken	Nachdenken	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	start_char=1620|end_char=1630|SpaceAfter=No
+16	:	:	PUNCT	$.	_	11	punct	_	start_char=1630|end_char=1631|SpacesAfter=\n\n
+
+# text = Wo wird Rasse noch in der Medizin genutzt, um falsche biologische Prognosen zu stellen?
+# sent_id = 16
+1	Wo	wo	ADV	PWAV	PronType=Int	8	advmod	_	start_char=1633|end_char=1635
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	aux:pass	_	start_char=1636|end_char=1640
+3	Rasse	Rasse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	start_char=1641|end_char=1646
+4	noch	noch	ADV	ADV	_	8	advmod	_	start_char=1647|end_char=1651
+5	in	in	ADP	APPR	_	7	case	_	start_char=1652|end_char=1654
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=1655|end_char=1658
+7	Medizin	Medizin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	start_char=1659|end_char=1666
+8	genutzt	nutzen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1667|end_char=1674|SpaceAfter=No
+9	,	,	PUNCT	$,	_	15	punct	_	start_char=1674|end_char=1675
+10	um	um	ADP	KOUI	_	15	mark	_	start_char=1676|end_char=1678
+11	falsche	falsch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=1679|end_char=1686
+12	biologische	biologisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=1687|end_char=1698
+13	Prognosen	Prognose	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	start_char=1699|end_char=1708
+14	zu	zu	PART	PTKZU	_	15	mark	_	start_char=1709|end_char=1711
+15	stellen	stellen	VERB	VVINF	VerbForm=Inf	8	advcl	_	start_char=1712|end_char=1719|SpaceAfter=No
+16	?	?	PUNCT	$.	_	8	punct	_	start_char=1719|end_char=1720|SpacesAfter=\n\n
+
+# text = Ich musste herausfinden, dass Rasse tief in allen medizinischen Praktiken verwurzelt sind.
+# sent_id = 17
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=1722|end_char=1725
+2	musste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	start_char=1726|end_char=1732
+3	herausfinden	herausfinden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1733|end_char=1745|SpaceAfter=No
+4	,	,	PUNCT	$,	_	12	punct	_	start_char=1745|end_char=1746
+5	dass	dass	SCONJ	KOUS	_	12	mark	_	start_char=1747|end_char=1751
+6	Rasse	Rasse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=1752|end_char=1757
+7	tief	tief	ADJ	ADJD	Degree=Pos	12	advmod	_	start_char=1758|end_char=1762
+8	in	in	ADP	APPR	_	11	case	_	start_char=1763|end_char=1765
+9	allen	alle	DET	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Tot	11	det	_	start_char=1766|end_char=1771
+10	medizinischen	medizinisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=1772|end_char=1785
+11	Praktiken	Praktik	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	12	obl	_	start_char=1786|end_char=1795
+12	verwurzelt	verwurzeln	VERB	VVPP	VerbForm=Part	3	ccomp	_	start_char=1796|end_char=1806
+13	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	start_char=1807|end_char=1811|SpaceAfter=No
+14	.	.	PUNCT	$.	_	3	punct	_	start_char=1811|end_char=1812|SpacesAfter=\n\n
+
+# text = Es prägt bei Ärzten die Diagnosen, Messungen, Behandlungen, Verschreibungen, sogar, wie die Krankheit definiert wird.
+# sent_id = 18
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=1814|end_char=1816
+2	prägt	prägen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1817|end_char=1822
+3	bei	bei	ADP	APPR	_	4	case	_	start_char=1823|end_char=1826
+4	Ärzten	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	start_char=1827|end_char=1833
+5	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=1834|end_char=1837
+6	Diagnosen	Diagnose	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	start_char=1838|end_char=1847|SpaceAfter=No
+7	,	,	PUNCT	$,	_	8	punct	_	start_char=1847|end_char=1848
+8	Messungen	Messung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	conj	_	start_char=1849|end_char=1858|SpaceAfter=No
+9	,	,	PUNCT	$,	_	10	punct	_	start_char=1858|end_char=1859
+10	Behandlungen	Behandlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	conj	_	start_char=1860|end_char=1872|SpaceAfter=No
+11	,	,	PUNCT	$,	_	12	punct	_	start_char=1872|end_char=1873
+12	Verschreibungen	Verschreibung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	conj	_	start_char=1874|end_char=1889|SpaceAfter=No
+13	,	,	PUNCT	$,	_	19	punct	_	start_char=1889|end_char=1890
+14	sogar	sogar	ADV	ADV	_	19	advmod	_	start_char=1891|end_char=1896|SpaceAfter=No
+15	,	,	PUNCT	$,	_	19	punct	_	start_char=1896|end_char=1897
+16	wie	wie	SCONJ	KOUS	_	19	advmod	_	start_char=1898|end_char=1901
+17	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=1902|end_char=1905
+18	Krankheit	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj:pass	_	start_char=1906|end_char=1915
+19	definiert	definieren	VERB	VVPP	VerbForm=Part	2	advcl	_	start_char=1916|end_char=1925
+20	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	19	aux:pass	_	start_char=1926|end_char=1930|SpaceAfter=No
+21	.	.	PUNCT	$.	_	2	punct	_	start_char=1930|end_char=1931|SpacesAfter=\n\n
+
+# text = Umso mehr ich herausfand, desto beunruhigter wurde ich.
+# sent_id = 19
+1	Umso	umso	ADV	ADV	_	2	advmod	_	start_char=1933|end_char=1937
+2	mehr	mehr	ADV	ADV	_	4	advmod	_	start_char=1938|end_char=1942
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=1943|end_char=1946
+4	herausfand	herausfinden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=1947|end_char=1957|SpaceAfter=No
+5	,	,	PUNCT	$,	_	8	punct	_	start_char=1957|end_char=1958
+6	desto	desto	SCONJ	KON	_	8	mark	_	start_char=1959|end_char=1964
+7	beunruhigter	beunruhigt	ADJ	ADJD	Degree=Pos	8	xcomp	_	start_char=1965|end_char=1977
+8	wurde	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	start_char=1978|end_char=1983
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=1984|end_char=1987|SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	start_char=1987|end_char=1988|SpacesAfter=\n\n
+
+# text = Soziologen wie ich erklären schon lange, dass Rasse ein soziales Konstrukt ist.
+# sent_id = 20
+1	Soziologen	Soziologe	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=1990|end_char=2000
+2	wie	wie	ADP	KOKOM	_	3	case	_	start_char=2001|end_char=2004
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nmod	_	start_char=2005|end_char=2008
+4	erklären	erklären	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2009|end_char=2017
+5	schon	schon	ADV	ADV	_	6	advmod	_	start_char=2018|end_char=2023
+6	lange	lange	ADV	ADV	_	4	advmod	_	start_char=2024|end_char=2029|SpaceAfter=No
+7	,	,	PUNCT	$,	_	12	punct	_	start_char=2029|end_char=2030
+8	dass	dass	SCONJ	KOUS	_	12	mark	_	start_char=2031|end_char=2035
+9	Rasse	Rasse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=2036|end_char=2041
+10	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=2042|end_char=2045
+11	soziales	sozial	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=2046|end_char=2054
+12	Konstrukt	Konstrukt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	ccomp	_	start_char=2055|end_char=2064
+13	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=2065|end_char=2068|SpaceAfter=No
+14	.	.	PUNCT	$.	_	4	punct	_	start_char=2068|end_char=2069|SpacesAfter=\n\n
+
+# text = Wenn wir Menschen als schwarz, weiß, asiatisch, indianisch, oder lateinamerikanisch bestimmen, beziehen wir uns auf soziale Gruppierungen mit erdachten Abgrenzungen, die sich über die Zeit verändert haben und die weltweit variieren.
+# sent_id = 21
+1	Wenn	wenn	SCONJ	KOUS	_	15	mark	_	start_char=2071|end_char=2075
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	start_char=2076|end_char=2079
+3	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	obj	_	start_char=2080|end_char=2088
+4	als	als	ADP	KOKOM	_	15	xcomp	_	start_char=2089|end_char=2092
+5	schwarz	schwarz	ADJ	ADJD	Degree=Pos	15	obl	_	start_char=2093|end_char=2100|SpaceAfter=No
+6	,	,	PUNCT	$,	_	7	punct	_	start_char=2100|end_char=2101
+7	weiß	weiß	ADJ	ADJD	Degree=Pos	5	conj	_	start_char=2102|end_char=2106|SpaceAfter=No
+8	,	,	PUNCT	$,	_	9	punct	_	start_char=2106|end_char=2107
+9	asiatisch	asiatisch	ADJ	ADJD	Degree=Pos	5	conj	_	start_char=2108|end_char=2117|SpaceAfter=No
+10	,	,	PUNCT	$,	_	11	punct	_	start_char=2117|end_char=2118
+11	indianisch	indianisch	ADJ	ADJD	Degree=Pos	5	conj	_	start_char=2119|end_char=2129|SpaceAfter=No
+12	,	,	PUNCT	$,	_	14	punct	_	start_char=2129|end_char=2130
+13	oder	oder	CCONJ	KON	_	14	cc	_	start_char=2131|end_char=2135
+14	lateinamerikanisch	lateinamerikanisch	ADJ	ADJD	Degree=Pos	5	conj	_	start_char=2136|end_char=2154
+15	bestimmen	bestimmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	start_char=2155|end_char=2164|SpaceAfter=No
+16	,	,	PUNCT	$,	_	15	punct	_	start_char=2164|end_char=2165
+17	beziehen	beziehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2166|end_char=2174
+18	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	start_char=2175|end_char=2178
+19	uns	wir	PRON	PRF	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	17	obj	_	start_char=2179|end_char=2182
+20	auf	auf	ADP	APPR	_	22	case	_	start_char=2183|end_char=2186
+21	soziale	sozial	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	start_char=2187|end_char=2194
+22	Gruppierungen	Gruppierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	obl	_	start_char=2195|end_char=2208
+23	mit	mit	ADP	APPR	_	25	case	_	start_char=2209|end_char=2212
+24	erdachten	erdenken	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	start_char=2213|end_char=2222
+25	Abgrenzungen	Abgrenzung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	17	obl	_	start_char=2223|end_char=2235|SpaceAfter=No
+26	,	,	PUNCT	$,	_	32	punct	_	start_char=2235|end_char=2236
+27	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	32	nsubj	_	start_char=2237|end_char=2240
+28	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	32	obj	_	start_char=2241|end_char=2245
+29	über	über	ADP	APPR	_	31	case	_	start_char=2246|end_char=2250
+30	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	start_char=2251|end_char=2254
+31	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	32	obl	_	start_char=2255|end_char=2259
+32	verändert	verändern	VERB	VVPP	VerbForm=Part	25	acl	_	start_char=2260|end_char=2269
+33	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	start_char=2270|end_char=2275
+34	und	und	CCONJ	KON	_	37	cc	_	start_char=2276|end_char=2279
+35	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	37	nsubj	_	start_char=2280|end_char=2283
+36	weltweit	weltweit	ADJ	ADJD	Degree=Pos	37	advmod	_	start_char=2284|end_char=2292
+37	variieren	variieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	conj	_	start_char=2293|end_char=2302|SpaceAfter=No
+38	.	.	PUNCT	$.	_	17	punct	_	start_char=2302|end_char=2303|SpacesAfter=\n\n
+
+# text = Als Rechtswissenschaftlerin habe ich auch studiert, wie Gesetzgeber, nicht Biologen, die rechtlichen Definitionen der Rassenzugehörigkeit erfanden.
+# sent_id = 22
+1	Als	als	ADP	KOKOM	_	2	case	_	start_char=2305|end_char=2308
+2	Rechtswissenschaftlerin	Rechtswissenschaftlerin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obl	_	start_char=2309|end_char=2332
+3	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=2333|end_char=2337
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=2338|end_char=2341
+5	auch	auch	ADV	ADV	_	6	advmod	_	start_char=2342|end_char=2346
+6	studiert	studieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=2347|end_char=2355|SpaceAfter=No
+7	,	,	PUNCT	$,	_	19	punct	_	start_char=2355|end_char=2356
+8	wie	wie	ADP	KOKOM	_	9	case	_	start_char=2357|end_char=2360
+9	Gesetzgeber	Gesetzgeber	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	19	obl	_	start_char=2361|end_char=2372|SpaceAfter=No
+10	,	,	PUNCT	$,	_	12	punct	_	start_char=2372|end_char=2373
+11	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	start_char=2374|end_char=2379
+12	Biologen	Biologe	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	appos	_	start_char=2380|end_char=2388|SpaceAfter=No
+13	,	,	PUNCT	$,	_	9	punct	_	start_char=2388|end_char=2389
+14	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	16	det	_	start_char=2390|end_char=2393
+15	rechtlichen	rechtlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=2394|end_char=2405
+16	Definitionen	Definition	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	start_char=2406|end_char=2418
+17	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=2419|end_char=2422
+18	Rassenzugehörigkeit	Rassenzugehörigkeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	start_char=2423|end_char=2442
+19	erfanden	erfinden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	start_char=2443|end_char=2451|SpaceAfter=No
+20	.	.	PUNCT	$.	_	6	punct	_	start_char=2451|end_char=2452|SpacesAfter=\n\n
+
+# text = Das ist nicht nur die Sicht von Sozialforschern.
+# sent_id = 23
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	6	nsubj	_	start_char=2454|end_char=2457
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=2458|end_char=2461
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=2462|end_char=2467
+4	nur	nur	ADV	ADV	_	6	advmod	_	start_char=2468|end_char=2471
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=2472|end_char=2475
+6	Sicht	Sicht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=2476|end_char=2481
+7	von	von	ADP	APPR	_	8	case	_	start_char=2482|end_char=2485
+8	Sozialforschern	Sozialforscher	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	nmod	_	start_char=2486|end_char=2501|SpaceAfter=No
+9	.	.	PUNCT	$.	_	6	punct	_	start_char=2501|end_char=2502|SpacesAfter=\n\n
+
+# text = Erinnern Sie sich, als die Karte des Humangenoms im Juni 2000 bei einer Zeremonie im Weißen Haus enthüllt wurde?
+# sent_id = 24
+1	Erinnern	Erinnern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2504|end_char=2512
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=2513|end_char=2516
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	1	obj	_	start_char=2517|end_char=2521|SpaceAfter=No
+4	,	,	PUNCT	$,	_	21	punct	_	start_char=2521|end_char=2522
+5	als	als	SCONJ	KOUS	_	21	mark	_	start_char=2523|end_char=2526
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=2527|end_char=2530
+7	Karte	Karte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	nsubj:pass	_	start_char=2531|end_char=2536
+8	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=2537|end_char=2540
+9	Humangenoms	Humangenom	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=2541|end_char=2552
+10-11	im	_	_	_	_	_	_	_	start_char=2553|end_char=2555
+10	in	in	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Juni	Juni	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	21	obl	_	start_char=2556|end_char=2560
+13	2000	2000	NUM	CARD	NumType=Card	12	nmod	_	start_char=2561|end_char=2565
+14	bei	bei	ADP	APPR	_	16	case	_	start_char=2566|end_char=2569
+15	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	16	det	_	start_char=2570|end_char=2575
+16	Zeremonie	Zeremonie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	start_char=2576|end_char=2585
+17-18	im	_	_	_	_	_	_	_	start_char=2586|end_char=2588
+17	in	in	ADP	APPR	_	20	case	_	_
+18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+19	Weißen	weiß	PROPN	ADJA	Case=Dat|Gender=Neut|Number=Sing	20	amod	_	start_char=2589|end_char=2595
+20	Haus	Haus	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	16	nmod	_	start_char=2596|end_char=2600
+21	enthüllt	enthüllen	VERB	VVPP	VerbForm=Part	1	advcl	_	start_char=2601|end_char=2609
+22	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	21	aux:pass	_	start_char=2610|end_char=2615|SpaceAfter=No
+23	?	?	PUNCT	$.	_	1	punct	_	start_char=2615|end_char=2616|SpacesAfter=\n\n
+
+# text = Präsident Bill Clinton verkündete bekanntlich: "Ich glaube, eine der großartigen Wahrheiten, die bei dieser triumphalen Expedition in das humane Genom herauskam, ist die Tatsache, dass, genetisch betrachtet, alle Menschen, unabhängig von ihrer Rasse, zu über 99,9 % gleich sind."
+# sent_id = 25
+1	Präsident	Präsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	dep	_	start_char=2618|end_char=2627
+2	Bill	Bill	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=2628|end_char=2632
+3	Clinton	Clinton	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	start_char=2633|end_char=2640
+4	verkündete	verkünden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2641|end_char=2651
+5	bekanntlich	bekanntlich	ADJ	ADJD	Degree=Pos	4	advmod	_	start_char=2652|end_char=2663|SpaceAfter=No
+6	:	:	PUNCT	$.	_	9	punct	_	start_char=2663|end_char=2664
+7	"	"	PUNCT	$(	_	9	punct	_	start_char=2665|end_char=2666|SpaceAfter=No
+8	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=2666|end_char=2669
+9	glaube	glauben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=2670|end_char=2676|SpaceAfter=No
+10	,	,	PUNCT	$,	_	29	punct	_	start_char=2676|end_char=2677
+11	eine	ein	DET	PIS	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	29	nsubj	_	start_char=2678|end_char=2682
+12	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	14	det	_	start_char=2683|end_char=2686
+13	großartigen	großartig	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=2687|end_char=2698
+14	Wahrheiten	Wahrheit	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	start_char=2699|end_char=2709|SpaceAfter=No
+15	,	,	PUNCT	$,	_	25	punct	_	start_char=2709|end_char=2710
+16	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	25	nsubj	_	start_char=2711|end_char=2714
+17	bei	bei	ADP	APPR	_	20	case	_	start_char=2715|end_char=2718
+18	dieser	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	20	det	_	start_char=2719|end_char=2725
+19	triumphalen	triumphalen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=2726|end_char=2737
+20	Expedition	Expedition	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	25	obl	_	start_char=2738|end_char=2748
+21	in	in	ADP	APPR	_	24	case	_	start_char=2749|end_char=2751
+22	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	24	det	_	start_char=2752|end_char=2755
+23	humane	human	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	start_char=2756|end_char=2762
+24	Genom	Genom	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	25	obl	_	start_char=2763|end_char=2768
+25	herauskam	herauskommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	acl	_	start_char=2769|end_char=2778|SpaceAfter=No
+26	,	,	PUNCT	$,	_	14	punct	_	start_char=2778|end_char=2779
+27	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	start_char=2780|end_char=2783
+28	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	start_char=2784|end_char=2787
+29	Tatsache	Tatsache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	parataxis	_	start_char=2788|end_char=2796|SpaceAfter=No
+30	,	,	PUNCT	$,	_	48	punct	_	start_char=2796|end_char=2797
+31	dass	dass	SCONJ	KOUS	_	34	mark	_	start_char=2798|end_char=2802|SpaceAfter=No
+32	,	,	PUNCT	$,	_	34	punct	_	start_char=2802|end_char=2803
+33	genetisch	genetisch	ADJ	ADJD	Degree=Pos	34	advmod	_	start_char=2804|end_char=2813
+34	betrachtet	betrachten	VERB	VVPP	VerbForm=Part	48	csubj	_	start_char=2814|end_char=2824|SpaceAfter=No
+35	,	,	PUNCT	$,	_	34	punct	_	start_char=2824|end_char=2825
+36	alle	alle	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	37	det	_	start_char=2826|end_char=2830
+37	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	48	nsubj	_	start_char=2831|end_char=2839|SpaceAfter=No
+38	,	,	PUNCT	$,	_	39	punct	_	start_char=2839|end_char=2840
+39	unabhängig	unabhängig	ADJ	ADJD	Degree=Pos	37	amod	_	start_char=2841|end_char=2851
+40	von	von	ADP	APPR	_	42	case	_	start_char=2852|end_char=2855
+41	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	42	det:poss	_	start_char=2856|end_char=2861
+42	Rasse	Rasse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	39	obl	_	start_char=2862|end_char=2867|SpaceAfter=No
+43	,	,	PUNCT	$,	_	39	punct	_	start_char=2867|end_char=2868
+44	zu	zu	ADP	APPR	_	47	case	_	start_char=2869|end_char=2871
+45	über	über	ADP	APPR	_	47	case	_	start_char=2872|end_char=2876
+46	99,9	99,9	NUM	CARD	NumType=Card	47	nummod	_	start_char=2877|end_char=2881
+47	%	%	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	48	nmod	_	start_char=2882|end_char=2883
+48	gleich	gleich	ADJ	ADJD	Degree=Pos	29	ccomp	_	start_char=2884|end_char=2890
+49	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	48	cop	_	start_char=2891|end_char=2895|SpaceAfter=No
+50	.	.	PUNCT	$.	_	4	punct	_	start_char=2895|end_char=2896|SpaceAfter=No
+51	"	"	PUNCT	$(	_	29	punct	_	start_char=2896|end_char=2897|SpacesAfter=\n\n
+
+# text = Vielleicht hätte er anfügen können, dass weniger als ein Prozent genetischer Unterschiede nicht in Rassekategorien fällt.
+# sent_id = 26
+1	Vielleicht	vielleicht	ADV	ADV	_	4	advmod	_	start_char=2899|end_char=2909
+2	hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=2910|end_char=2915
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=2916|end_char=2918
+4	anfügen	anfügen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2919|end_char=2926
+5	können	können	AUX	VMINF	VerbForm=Inf	4	aux	_	start_char=2927|end_char=2933|SpaceAfter=No
+6	,	,	PUNCT	$,	_	17	punct	_	start_char=2933|end_char=2934
+7	dass	dass	SCONJ	KOUS	_	17	mark	_	start_char=2935|end_char=2939
+8	weniger	wenig	DET	PIS	PronType=Ind	17	nsubj	_	start_char=2940|end_char=2947
+9	als	als	ADP	KOKOM	_	11	case	_	start_char=2948|end_char=2951
+10	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=2952|end_char=2955
+11	Prozent	Prozent	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	start_char=2956|end_char=2963
+12	genetischer	genetisch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	start_char=2964|end_char=2975
+13	Unterschiede	Unterschied	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	start_char=2976|end_char=2988
+14	nicht	nicht	PART	PTKNEG	Polarity=Neg	17	advmod	_	start_char=2989|end_char=2994
+15	in	in	ADP	APPR	_	16	case	_	start_char=2995|end_char=2997
+16	Rassekategorien	Rassekategorie	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	17	obl	_	start_char=2998|end_char=3013
+17	fällt	fallen|fällen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	start_char=3014|end_char=3019|SpaceAfter=No
+18	.	.	PUNCT	$.	_	4	punct	_	start_char=3019|end_char=3020|SpacesAfter=\n\n
+
+# text = Francis Collins, Leiter des Humangenomprojekts und nun des NIH [Nationale Gesundheitsbehörde], zitierte Präsident Clinton.
+# sent_id = 27
+1	Francis	Francis	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	start_char=3022|end_char=3029
+2	Collins	Collins	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	start_char=3030|end_char=3037|SpaceAfter=No
+3	,	,	PUNCT	$,	_	4	punct	_	start_char=3037|end_char=3038
+4	Leiter	Leiter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=3039|end_char=3045
+5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=3046|end_char=3049
+6	Humangenomprojekts	Humangenomprojekt	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	start_char=3050|end_char=3068
+7	und	und	CCONJ	KON	_	10	cc	_	start_char=3069|end_char=3072
+8	nun	nun	ADV	ADV	_	10	advmod	_	start_char=3073|end_char=3076
+9	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=3077|end_char=3080
+10	NIH	NIH	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	6	conj	_	start_char=3081|end_char=3084
+11	[	[	PUNCT	$(	_	13	punct	_	start_char=3085|end_char=3086|SpaceAfter=No
+12	Nationale	national	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	13	amod	_	start_char=3086|end_char=3095
+13	Gesundheitsbehörde	Gesundheitsbehörde	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	10	appos	_	start_char=3096|end_char=3114|SpaceAfter=No
+14	]	]	PUNCT	$(	_	4	punct	_	start_char=3114|end_char=3115|SpaceAfter=No
+15	,	,	PUNCT	$,	_	1	punct	_	start_char=3115|end_char=3116
+16	zitierte	zitieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3117|end_char=3125
+17	Präsident	Präsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	start_char=3126|end_char=3135
+18	Clinton	Clinton	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	17	appos	_	start_char=3136|end_char=3143|SpaceAfter=No
+19	.	.	PUNCT	$.	_	16	punct	_	start_char=3143|end_char=3144|SpacesAfter=\n\n
+
+# text = "Ich bin glücklich, dass heute der Tag ist, an dem die einzige Rasse, über die wir reden, die menschliche Rasse ist."
+# sent_id = 28
+1	"	"	PUNCT	$(	_	2	punct	_	start_char=3146|end_char=3147|SpaceAfter=No
+2	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=3147|end_char=3150
+3	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=3151|end_char=3154
+4	glücklich	glücklich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3155|end_char=3164|SpaceAfter=No
+5	,	,	PUNCT	$,	_	10	punct	_	start_char=3164|end_char=3165
+6	dass	dass	SCONJ	KOUS	_	10	mark	_	start_char=3166|end_char=3170
+7	heute	heute	ADV	ADV	_	9	advmod	_	start_char=3171|end_char=3176
+8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=3177|end_char=3180
+9	Tag	Tag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	ccomp	_	start_char=3181|end_char=3184
+10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	start_char=3185|end_char=3188|SpaceAfter=No
+11	,	,	PUNCT	$,	_	21	punct	_	start_char=3188|end_char=3189
+12	an	an	ADP	APPR	_	13	case	_	start_char=3190|end_char=3192
+13	dem	der	PRON	PRELS	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem,Rel	25	nmod	_	start_char=3193|end_char=3196
+14	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=3197|end_char=3200
+15	einzige	einzig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=3201|end_char=3208
+16	Rasse	Rasse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=3209|end_char=3214|SpaceAfter=No
+17	,	,	PUNCT	$,	_	21	punct	_	start_char=3214|end_char=3215
+18	über	über	ADP	APPR	_	19	case	_	start_char=3216|end_char=3220
+19	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem,Rel	21	obl	_	start_char=3221|end_char=3224
+20	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	start_char=3225|end_char=3228
+21	reden	reden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl	_	start_char=3229|end_char=3234|SpaceAfter=No
+22	,	,	PUNCT	$,	_	25	punct	_	start_char=3234|end_char=3235
+23	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	start_char=3236|end_char=3239
+24	menschliche	menschlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=3240|end_char=3251
+25	Rasse	Rasse	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	acl	_	start_char=3252|end_char=3257
+26	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	start_char=3258|end_char=3261|SpaceAfter=No
+27	.	.	PUNCT	$.	_	4	punct	_	start_char=3261|end_char=3262|SpaceAfter=No
+28	"	"	PUNCT	$(	_	4	punct	_	start_char=3262|end_char=3263|SpacesAfter=\n\n
+
+# text = Ärzte sollten evidenzbasierte Medizin praktizieren, und zunehmend werden sie aufgerufen, der genomischen Revolution beizutreten.
+# sent_id = 29
+1	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=3265|end_char=3270
+2	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	start_char=3271|end_char=3278
+3	evidenzbasierte	evidenzbasiert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=3279|end_char=3294
+4	Medizin	Medizin	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=3295|end_char=3302
+5	praktizieren	praktizieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3303|end_char=3315|SpaceAfter=No
+6	,	,	PUNCT	$,	_	11	punct	_	start_char=3315|end_char=3316
+7	und	und	CCONJ	KON	_	11	cc	_	start_char=3317|end_char=3320
+8	zunehmend	zunehmend	ADJ	ADJD	Degree=Pos	11	advmod	_	start_char=3321|end_char=3330
+9	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	aux:pass	_	start_char=3331|end_char=3337
+10	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj:pass	_	start_char=3338|end_char=3341
+11	aufgerufen	aufrufen	VERB	VVPP	VerbForm=Part	5	conj	_	start_char=3342|end_char=3352|SpaceAfter=No
+12	,	,	PUNCT	$,	_	16	punct	_	start_char=3352|end_char=3353
+13	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=3354|end_char=3357
+14	genomischen	genomisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=3358|end_char=3369
+15	Revolution	Revolution	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl:arg	_	start_char=3370|end_char=3380
+16	beizutreten	beitreten	VERB	VVIZU	VerbForm=Inf	11	xcomp	_	start_char=3381|end_char=3392|SpaceAfter=No
+17	.	.	PUNCT	$.	_	5	punct	_	start_char=3392|end_char=3393|SpacesAfter=\n\n
+
+# text = Aber die Gewohnheit, Patienten nach Rasse zu behandeln, ist veraltet.
+# sent_id = 30
+1	Aber	aber	CCONJ	KON	_	12	cc	_	start_char=3395|end_char=3399
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=3400|end_char=3403
+3	Gewohnheit	Gewohnheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=3404|end_char=3414|SpaceAfter=No
+4	,	,	PUNCT	$,	_	9	punct	_	start_char=3414|end_char=3415
+5	Patienten	Patient	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	start_char=3416|end_char=3425
+6	nach	nach	ADP	APPR	_	7	case	_	start_char=3426|end_char=3430
+7	Rasse	Rasse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	start_char=3431|end_char=3436
+8	zu	zu	PART	PTKZU	_	9	mark	_	start_char=3437|end_char=3439
+9	behandeln	behandeln	VERB	VVINF	VerbForm=Inf	3	acl	_	start_char=3440|end_char=3449|SpaceAfter=No
+10	,	,	PUNCT	$,	_	9	punct	_	start_char=3449|end_char=3450
+11	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=3451|end_char=3454
+12	veraltet	veraltet	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3455|end_char=3463|SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=3463|end_char=3464|SpacesAfter=\n\n
+
+# text = Nehmen wir zum Beispiel die Einschätzung der glomerulären Filtrationsrate, kurz GFR.
+# sent_id = 31
+1	Nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3466|end_char=3472
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	nsubj	_	start_char=3473|end_char=3476
+3-4	zum	_	_	_	_	_	_	_	start_char=3477|end_char=3480
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	start_char=3481|end_char=3489
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=3490|end_char=3493
+7	Einschätzung	Einschätzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=3494|end_char=3506
+8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=3507|end_char=3510
+9	glomerulären	glomerulär	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=3511|end_char=3523
+10	Filtrationsrate	Filtrationsrate	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=3524|end_char=3539|SpaceAfter=No
+11	,	,	PUNCT	$,	_	13	punct	_	start_char=3539|end_char=3540
+12	kurz	kurz	ADJ	ADJD	Degree=Pos	13	amod	_	start_char=3541|end_char=3545
+13	GFR	GFR	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	10	appos	_	start_char=3546|end_char=3549|SpaceAfter=No
+14	.	.	PUNCT	$.	_	1	punct	_	start_char=3549|end_char=3550|SpacesAfter=\n\n
+
+# text = Ärzte werten GFR, diesen wichtigen Indikator der Nierenfunktion, routinemäßig nach Rassenzugehörigkeit aus.
+# sent_id = 32
+1	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=3552|end_char=3557
+2	werten	werten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3558|end_char=3564
+3	GFR	GFR	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=3565|end_char=3568|SpaceAfter=No
+4	,	,	PUNCT	$,	_	7	punct	_	start_char=3568|end_char=3569
+5	diesen	dieser	DET	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	start_char=3570|end_char=3576
+6	wichtigen	wichtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=3577|end_char=3586
+7	Indikator	Indikator	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	appos	_	start_char=3587|end_char=3596
+8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=3597|end_char=3600
+9	Nierenfunktion	Nierenfunktion	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=3601|end_char=3615|SpaceAfter=No
+10	,	,	PUNCT	$,	_	7	punct	_	start_char=3615|end_char=3616
+11	routinemäßig	routinemäßig	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=3617|end_char=3629
+12	nach	nach	ADP	APPR	_	13	case	_	start_char=3630|end_char=3634
+13	Rassenzugehörigkeit	Rassenzugehörigkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=3635|end_char=3654
+14	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	start_char=3655|end_char=3658|SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	start_char=3658|end_char=3659|SpacesAfter=\n\n
+
+# text = Wie in diesem Laborversuch zu sehen, produziert der genau gleiche Kreatinin-Wert, die Konzentration im Blut des Patienten, automatisch eine andere GFR-Schätzung, abhängig davon, ob der Patient afroamerikanisch ist oder nicht.
+# sent_id = 33
+1	Wie	wie	ADP	KOUS	_	6	mark	_	start_char=3661|end_char=3664
+2	in	in	ADP	APPR	_	4	case	_	start_char=3665|end_char=3667
+3	diesem	dieser	DET	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=3668|end_char=3674
+4	Laborversuch	Laborversuch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	start_char=3675|end_char=3687
+5	zu	zu	PART	PTKZU	_	6	mark	_	start_char=3688|end_char=3690
+6	sehen	sehen	VERB	VVINF	VerbForm=Inf	8	advcl	_	start_char=3691|end_char=3696|SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=3696|end_char=3697
+8	produziert	produzieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3698|end_char=3708
+9	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=3709|end_char=3712
+10	genau	genau	ADJ	ADJD	Degree=Pos	11	advmod	_	start_char=3713|end_char=3718
+11	gleiche	gleich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=3719|end_char=3726
+12	Kreatinin	Kreatinin	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	compound	_	start_char=3727|end_char=3736|SpaceAfter=No
+13	-	-	PUNCT	$(	_	12	punct	_	start_char=3736|end_char=3737|SpaceAfter=No
+14	Wert	Wert	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=3737|end_char=3741|SpaceAfter=No
+15	,	,	PUNCT	$,	_	17	punct	_	start_char=3741|end_char=3742
+16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=3743|end_char=3746
+17	Konzentration	Konzentration	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	appos	_	start_char=3747|end_char=3760
+18-19	im	_	_	_	_	_	_	_	start_char=3761|end_char=3763
+18	in	in	ADP	APPR	_	20	case	_	_
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Blut	Blut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	start_char=3764|end_char=3768
+21	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	start_char=3769|end_char=3772
+22	Patienten	Patient	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	start_char=3773|end_char=3782|SpaceAfter=No
+23	,	,	PUNCT	$,	_	29	punct	_	start_char=3782|end_char=3783
+24	automatisch	automatisch	ADJ	ADJD	Degree=Pos	29	amod	_	start_char=3784|end_char=3795
+25	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	29	det	_	start_char=3796|end_char=3800
+26	andere	anderer	DET	ADJA	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	29	det	_	start_char=3801|end_char=3807
+27	GFR	GFR	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	29	compound	_	start_char=3808|end_char=3811|SpaceAfter=No
+28	-	-	PUNCT	$(	_	27	punct	_	start_char=3811|end_char=3812|SpaceAfter=No
+29	Schätzung	Schätzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	conj	_	start_char=3812|end_char=3821|SpaceAfter=No
+30	,	,	PUNCT	$,	_	31	punct	_	start_char=3821|end_char=3822
+31	abhängig	abhängig	ADJ	ADJD	Degree=Pos	8	conj	_	start_char=3823|end_char=3831
+32	davon	davon	ADV	PAV	PronType=Dem	31	advmod	_	start_char=3832|end_char=3837|SpaceAfter=No
+33	,	,	PUNCT	$,	_	37	punct	_	start_char=3837|end_char=3838
+34	ob	ob	SCONJ	KOUS	_	37	mark	_	start_char=3839|end_char=3841
+35	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	start_char=3842|end_char=3845
+36	Patient	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	37	nsubj	_	start_char=3846|end_char=3853
+37	afroamerikanisch	afroamerikanisch	ADJ	ADJD	Degree=Pos	31	ccomp	_	start_char=3854|end_char=3870
+38	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	start_char=3871|end_char=3874
+39	oder	oder	CCONJ	KON	_	37	cc	_	start_char=3875|end_char=3879
+40	nicht	nicht	PART	PTKNEG	Polarity=Neg	37	advmod	_	start_char=3880|end_char=3885|SpaceAfter=No
+41	.	.	PUNCT	$.	_	8	punct	_	start_char=3885|end_char=3886|SpacesAfter=\n\n
+
+# text = Warum?
+# sent_id = 34
+1	Warum	warum	ADV	PWAV	PronType=Int	0	root	_	start_char=3888|end_char=3893|SpaceAfter=No
+2	?	?	PUNCT	$.	_	1	punct	_	start_char=3893|end_char=3894|SpacesAfter=\n\n
+
+# text = Mir wurde gesagt, es basiere auf der Annahme, Afroamerikaner hätten mehr Muskelmasse als Menschen anderer Rassenzugehörigkeiten.
+# sent_id = 35
+1	Mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	obl:arg	_	start_char=3896|end_char=3899
+2	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	3	aux:pass	_	start_char=3900|end_char=3905
+3	gesagt	sagen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3906|end_char=3912|SpaceAfter=No
+4	,	,	PUNCT	$,	_	6	punct	_	start_char=3912|end_char=3913
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=3914|end_char=3916
+6	basiere	basieren	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=3917|end_char=3924
+7	auf	auf	ADP	APPR	_	9	case	_	start_char=3925|end_char=3928
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=3929|end_char=3932
+9	Annahme	Annahme	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	start_char=3933|end_char=3940|SpaceAfter=No
+10	,	,	PUNCT	$,	_	12	punct	_	start_char=3940|end_char=3941
+11	Afroamerikaner	Afroamerikaner	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	start_char=3942|end_char=3956
+12	hätten	haben	VERB	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	start_char=3957|end_char=3963
+13	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	14	det	_	start_char=3964|end_char=3968
+14	Muskelmasse	Muskelmasse	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=3969|end_char=3980
+15	als	als	ADP	KOKOM	_	16	case	_	start_char=3981|end_char=3984
+16	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	obl	_	start_char=3985|end_char=3993
+17	anderer	anderer	DET	ADJA	Case=Gen|Gender=Fem|Number=Plur|PronType=Ind	18	det	_	start_char=3994|end_char=4001
+18	Rassenzugehörigkeiten	Rassenzugehörigkeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	start_char=4002|end_char=4023|SpaceAfter=No
+19	.	.	PUNCT	$.	_	3	punct	_	start_char=4023|end_char=4024|SpacesAfter=\n\n
+
+# text = Aber welchen Sinn macht es als Arzt automatisch anzunehmen, dass man mehr Muskelmasse hat als eine Bodybuilderin?
+# sent_id = 36
+1	Aber	aber	CCONJ	KON	_	4	cc	_	start_char=4026|end_char=4030
+2	welchen	welcher	DET	PWAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	3	det	_	start_char=4031|end_char=4038
+3	Sinn	Sinn	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nsubj	_	start_char=4039|end_char=4043
+4	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4044|end_char=4049
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	start_char=4050|end_char=4052
+6	als	als	ADP	KOKOM	_	7	case	_	start_char=4053|end_char=4056
+7	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	start_char=4057|end_char=4061
+8	automatisch	automatisch	ADJ	ADJD	Degree=Pos	9	advmod	_	start_char=4062|end_char=4073
+9	anzunehmen	annehmen	VERB	VVIZU	VerbForm=Inf	4	xcomp	_	start_char=4074|end_char=4084|SpaceAfter=No
+10	,	,	PUNCT	$,	_	15	punct	_	start_char=4084|end_char=4085
+11	dass	dass	SCONJ	KOUS	_	15	mark	_	start_char=4086|end_char=4090
+12	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	15	nsubj	_	start_char=4091|end_char=4094
+13	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	14	det	_	start_char=4095|end_char=4099
+14	Muskelmasse	Muskelmasse	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=4100|end_char=4111
+15	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	start_char=4112|end_char=4115
+16	als	als	ADP	KOKOM	_	18	case	_	start_char=4116|end_char=4119
+17	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	18	det	_	start_char=4120|end_char=4124
+18	Bodybuilderin	Bodybuilderin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	obl	_	start_char=4125|end_char=4138|SpaceAfter=No
+19	?	?	PUNCT	$.	_	4	punct	_	start_char=4138|end_char=4139|SpacesAfter=\n\n
+
+# text = Wäre es nicht viel präziser und evidenzbasierter, die Muskelmasse von Patienten individuell festzulegen, indem man sie sich einfach anschaut?
+# sent_id = 37
+1	Wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=4141|end_char=4145
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=4146|end_char=4148
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	start_char=4149|end_char=4154
+4	viel	viel	ADV	ADV	_	5	advmod	_	start_char=4155|end_char=4159
+5	präziser	präzis	ADJ	ADJD	Degree=Cmp	0	root	_	start_char=4160|end_char=4168
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=4169|end_char=4172
+7	evidenzbasierter	evidenzbasiert	ADJ	ADJD	Degree=Cmp	5	conj	_	start_char=4173|end_char=4189|SpaceAfter=No
+8	,	,	PUNCT	$,	_	14	punct	_	start_char=4189|end_char=4190
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=4191|end_char=4194
+10	Muskelmasse	Muskelmasse	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=4195|end_char=4206
+11	von	von	ADP	APPR	_	12	case	_	start_char=4207|end_char=4210
+12	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	nmod	_	start_char=4211|end_char=4220
+13	individuell	individuell	ADJ	ADJD	Degree=Pos	14	advmod	_	start_char=4221|end_char=4232
+14	festzulegen	festlegen	VERB	VVIZU	VerbForm=Inf	5	csubj	_	start_char=4233|end_char=4244|SpaceAfter=No
+15	,	,	PUNCT	$,	_	21	punct	_	start_char=4244|end_char=4245
+16	indem	indem	SCONJ	KOUS	_	21	mark	_	start_char=4246|end_char=4251
+17	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	21	nsubj	_	start_char=4252|end_char=4255
+18	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	21	obj	_	start_char=4256|end_char=4259
+19	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	21	obj	_	start_char=4260|end_char=4264
+20	einfach	einfach	ADV	ADV	_	21	advmod	_	start_char=4265|end_char=4272
+21	anschaut	anschauen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	start_char=4273|end_char=4281|SpaceAfter=No
+22	?	?	PUNCT	$.	_	5	punct	_	start_char=4281|end_char=4282|SpacesAfter=\n\n
+
+# text = Ärzte sagen mir, sie benutzen die Rassenzugehörigkeit als Abkürzung.
+# sent_id = 38
+1	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=4284|end_char=4289
+2	sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4290|end_char=4295
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	obl:arg	_	start_char=4296|end_char=4299|SpaceAfter=No
+4	,	,	PUNCT	$,	_	6	punct	_	start_char=4299|end_char=4300
+5	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=4301|end_char=4304
+6	benutzen	benutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=4305|end_char=4313
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=4314|end_char=4317
+8	Rassenzugehörigkeit	Rassenzugehörigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	nsubj	_	start_char=4318|end_char=4337
+9	als	als	ADP	KOKOM	_	10	case	_	start_char=4338|end_char=4341
+10	Abkürzung	Abkürzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	start_char=4342|end_char=4351|SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=4351|end_char=4352|SpacesAfter=\n\n
+
+# text = Es ist ein grober, aber bequemer Stellvertreter für wichtigere Faktoren, wie Muskelmasse, Enzymwerte, genetische Merkmale, die zu untersuchen sie einfach keine Zeit haben.
+# sent_id = 39
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=4354|end_char=4356
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=4357|end_char=4360
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=4361|end_char=4364
+4	grober	grob	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=4365|end_char=4371|SpaceAfter=No
+5	,	,	PUNCT	$,	_	7	punct	_	start_char=4371|end_char=4372
+6	aber	aber	CCONJ	KON	_	7	cc	_	start_char=4373|end_char=4377
+7	bequemer	bequem	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	conj	_	start_char=4378|end_char=4386
+8	Stellvertreter	Stellvertreter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=4387|end_char=4401
+9	für	für	ADP	APPR	_	11	case	_	start_char=4402|end_char=4405
+10	wichtigere	wichtig	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Masc|Number=Plur	11	amod	_	start_char=4406|end_char=4416
+11	Faktoren	Faktor	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	start_char=4417|end_char=4425|SpaceAfter=No
+12	,	,	PUNCT	$,	_	14	punct	_	start_char=4425|end_char=4426
+13	wie	wie	ADP	KOKOM	_	14	case	_	start_char=4427|end_char=4430
+14	Muskelmasse	Muskelmasse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nmod	_	start_char=4431|end_char=4442|SpaceAfter=No
+15	,	,	PUNCT	$,	_	16	punct	_	start_char=4442|end_char=4443
+16	Enzymwerte	Enzymwert	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	conj	_	start_char=4444|end_char=4454|SpaceAfter=No
+17	,	,	PUNCT	$,	_	19	punct	_	start_char=4454|end_char=4455
+18	genetische	genetisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	19	amod	_	start_char=4456|end_char=4466
+19	Merkmale	Merkmal	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	14	conj	_	start_char=4467|end_char=4475|SpaceAfter=No
+20	,	,	PUNCT	$,	_	23	punct	_	start_char=4475|end_char=4476
+21	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	23	nsubj	_	start_char=4477|end_char=4480
+22	zu	zu	PART	PTKZU	_	23	mark	_	start_char=4481|end_char=4483
+23	untersuchen	untersuchen	VERB	VVINF	VerbForm=Inf	19	acl	_	start_char=4484|end_char=4495
+24	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	28	nsubj	_	start_char=4496|end_char=4499
+25	einfach	einfach	ADV	ADV	_	28	advmod	_	start_char=4500|end_char=4507
+26	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	27	det	_	start_char=4508|end_char=4513
+27	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	28	obj	_	start_char=4514|end_char=4518
+28	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	conj	_	start_char=4519|end_char=4524|SpaceAfter=No
+29	.	.	PUNCT	$.	_	8	punct	_	start_char=4524|end_char=4525|SpacesAfter=\n\n
+
+# text = Aber die Rasse ist ein schlechter Stellvertreter.
+# sent_id = 40
+1	Aber	aber	CCONJ	KON	_	7	cc	_	start_char=4527|end_char=4531
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=4532|end_char=4535
+3	Rasse	Rasse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=4536|end_char=4541
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=4542|end_char=4545
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=4546|end_char=4549
+6	schlechter	schlecht	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=4550|end_char=4560
+7	Stellvertreter	Stellvertreter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=4561|end_char=4575|SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=4575|end_char=4576|SpacesAfter=\n\n
+
+# text = In vielen Fällen ergänzt die Rassenzugehörigkeit überhaupt keine relevanten Informationen.
+# sent_id = 41
+1	In	in	ADP	APPR	_	3	case	_	start_char=4578|end_char=4580
+2	vielen	viel	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	start_char=4581|end_char=4587
+3	Fällen	Fall|Fällen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	start_char=4588|end_char=4594
+4	ergänzt	ergänzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4595|end_char=4602
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=4603|end_char=4606
+6	Rassenzugehörigkeit	Rassenzugehörigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=4607|end_char=4626
+7	überhaupt	überhaupt	ADV	ADV	_	4	advmod	_	start_char=4627|end_char=4636
+8	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Neg	10	det	_	start_char=4637|end_char=4642
+9	relevanten	relevant	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=4643|end_char=4653
+10	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	start_char=4654|end_char=4667|SpaceAfter=No
+11	.	.	PUNCT	$.	_	4	punct	_	start_char=4667|end_char=4668|SpacesAfter=\n\n
+
+# text = Sie lenkt nur ab.
+# sent_id = 42
+1	Sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=4670|end_char=4673
+2	lenkt	lenken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4674|end_char=4679
+3	nur	nur	ADV	ADV	_	2	advmod	_	start_char=4680|end_char=4683
+4	ab	ab	ADP	PTKVZ	_	2	compound:prt	_	start_char=4684|end_char=4686|SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=4686|end_char=4687|SpacesAfter=\n\n
+
+# text = Aber sie neigt auch dazu, klinische Messungen zu beeinflussen.
+# sent_id = 43
+1	Aber	aber	CCONJ	KON	_	3	cc	_	start_char=4689|end_char=4693
+2	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=4694|end_char=4697
+3	neigt	neigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4698|end_char=4703
+4	auch	auch	ADV	ADV	_	3	advmod	_	start_char=4704|end_char=4708
+5	dazu	dazu	ADV	PAV	PronType=Dem	3	advmod	_	start_char=4709|end_char=4713|SpaceAfter=No
+6	,	,	PUNCT	$,	_	10	punct	_	start_char=4713|end_char=4714
+7	klinische	klinisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=4715|end_char=4724
+8	Messungen	Messung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	start_char=4725|end_char=4734
+9	zu	zu	PART	PTKZU	_	10	mark	_	start_char=4735|end_char=4737
+10	beeinflussen	beeinflussen	VERB	VVINF	VerbForm=Inf	3	xcomp	_	start_char=4738|end_char=4750|SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=4750|end_char=4751|SpacesAfter=\n\n
+
+# text = Es macht Ärzte blind für Patientensymptome, Familienkrankheiten, ihre Vorgeschichte, möglicherweise ihre eigenen Krankheiten -- alle davon evidenzbasierter als die Rassenzugehörigkeit.
+# sent_id = 44
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=4753|end_char=4755
+2	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4756|end_char=4761
+3	Ärzte	Arzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=4762|end_char=4767
+4	blind	blind	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=4768|end_char=4773
+5	für	für	ADP	APPR	_	6	case	_	start_char=4774|end_char=4777
+6	Patientensymptome	Patientensymptom	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	start_char=4778|end_char=4795|SpaceAfter=No
+7	,	,	PUNCT	$,	_	8	punct	_	start_char=4795|end_char=4796
+8	Familienkrankheiten	Familienkrankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	conj	_	start_char=4797|end_char=4816|SpaceAfter=No
+9	,	,	PUNCT	$,	_	11	punct	_	start_char=4816|end_char=4817
+10	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	start_char=4818|end_char=4822
+11	Vorgeschichte	Vorgeschichte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	start_char=4823|end_char=4836|SpaceAfter=No
+12	,	,	PUNCT	$,	_	16	punct	_	start_char=4836|end_char=4837
+13	möglicherweise	möglicherweise	ADV	ADV	_	16	advmod	_	start_char=4838|end_char=4852
+14	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	start_char=4853|end_char=4857
+15	eigenen	eigen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=4858|end_char=4865
+16	Krankheiten	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	conj	_	start_char=4866|end_char=4877
+17	--	--	PUNCT	$(	_	20	punct	_	start_char=4878|end_char=4880
+18	alle	alle	DET	PIS	Case=Nom|Number=Plur|PronType=Tot	20	nsubj	_	start_char=4881|end_char=4885
+19	davon	davon	ADV	PAV	PronType=Dem	20	advmod	_	start_char=4886|end_char=4891
+20	evidenzbasierter	evidenzbasiert	ADJ	ADJD	Degree=Pos	2	parataxis	_	start_char=4892|end_char=4908
+21	als	als	ADP	KOKOM	_	23	case	_	start_char=4909|end_char=4912
+22	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=4913|end_char=4916
+23	Rassenzugehörigkeit	Rassenzugehörigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nmod	_	start_char=4917|end_char=4936|SpaceAfter=No
+24	.	.	PUNCT	$.	_	2	punct	_	start_char=4936|end_char=4937|SpacesAfter=\n\n
+
+# text = Die Rasse kann diese wichtigen klinische Bewertungen nicht ersetzen, ohne das Wohlergehen der Patienten zu opfern.
+# sent_id = 45
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=4939|end_char=4942
+2	Rasse	Rasse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=4943|end_char=4948
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=4949|end_char=4953
+4	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	7	det	_	start_char=4954|end_char=4959
+5	wichtigen	wichtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=4960|end_char=4969
+6	klinische	klinisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=4970|end_char=4979
+7	Bewertungen	Bewertung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	start_char=4980|end_char=4991
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=4992|end_char=4997
+9	ersetzen	ersetzen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4998|end_char=5006|SpaceAfter=No
+10	,	,	PUNCT	$,	_	17	punct	_	start_char=5006|end_char=5007
+11	ohne	ohne	ADP	KOUI	_	17	mark	_	start_char=5008|end_char=5012
+12	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	start_char=5013|end_char=5016
+13	Wohlergehen	Wohlergehen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	start_char=5017|end_char=5028
+14	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	15	det	_	start_char=5029|end_char=5032
+15	Patienten	Patient	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	start_char=5033|end_char=5042
+16	zu	zu	PART	PTKZU	_	17	mark	_	start_char=5043|end_char=5045
+17	opfern	opfern	VERB	VVINF	VerbForm=Inf	9	advcl	_	start_char=5046|end_char=5052|SpaceAfter=No
+18	.	.	PUNCT	$.	_	9	punct	_	start_char=5052|end_char=5053|SpacesAfter=\n\n
+
+# text = Ärzte berichten mir auch, dass Rassenzugehörigkeit nur einer von vielen Faktoren sei, die sie einkalkulieren, aber es gibt zahlreiche medizinische Tests, wie die GFR, die die Rassenzugehörigkeit kategorisch nutzen, um schwarze, weiße, asiatische Patienten unterschiedlich zu behandeln, nur wegen ihrer Rassenzugehörigkeit.
+# sent_id = 46
+1	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=5055|end_char=5060
+2	berichten	berichten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5061|end_char=5070
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	obl:arg	_	start_char=5071|end_char=5074
+4	auch	auch	ADV	ADV	_	2	advmod	_	start_char=5075|end_char=5079|SpaceAfter=No
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=5079|end_char=5080
+6	dass	dass	SCONJ	KOUS	_	9	mark	_	start_char=5081|end_char=5085
+7	Rassenzugehörigkeit	Rassenzugehörigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=5086|end_char=5105
+8	nur	nur	ADV	ADV	_	9	advmod	_	start_char=5106|end_char=5109
+9	einer	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	2	ccomp	_	start_char=5110|end_char=5115
+10	von	von	ADP	APPR	_	12	case	_	start_char=5116|end_char=5119
+11	vielen	viel	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	12	det	_	start_char=5120|end_char=5126
+12	Faktoren	Faktor	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	nmod	_	start_char=5127|end_char=5135
+13	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=5136|end_char=5139|SpaceAfter=No
+14	,	,	PUNCT	$,	_	17	punct	_	start_char=5139|end_char=5140
+15	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Dem,Rel	17	obj	_	start_char=5141|end_char=5144
+16	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	start_char=5145|end_char=5148
+17	einkalkulieren	einkalkulieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	start_char=5149|end_char=5163|SpaceAfter=No
+18	,	,	PUNCT	$,	_	21	punct	_	start_char=5163|end_char=5164
+19	aber	aber	CCONJ	KON	_	21	cc	_	start_char=5165|end_char=5169
+20	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	expl	_	start_char=5170|end_char=5172
+21	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=5173|end_char=5177
+22	zahlreiche	zahlreich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	24	amod	_	start_char=5178|end_char=5188
+23	medizinische	medizinisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	24	amod	_	start_char=5189|end_char=5201
+24	Tests	Test	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	21	nsubj	_	start_char=5202|end_char=5207|SpaceAfter=No
+25	,	,	PUNCT	$,	_	28	punct	_	start_char=5207|end_char=5208
+26	wie	wie	ADP	KOKOM	_	28	case	_	start_char=5209|end_char=5212
+27	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	start_char=5213|end_char=5216
+28	GFR	GFR	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	24	nmod	_	start_char=5217|end_char=5220|SpaceAfter=No
+29	,	,	PUNCT	$,	_	34	punct	_	start_char=5220|end_char=5221
+30	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	34	nsubj	_	start_char=5222|end_char=5225
+31	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	start_char=5226|end_char=5229
+32	Rassenzugehörigkeit	Rassenzugehörigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	34	obj	_	start_char=5230|end_char=5249
+33	kategorisch	kategorisch	ADJ	ADJD	Degree=Pos	34	advmod	_	start_char=5250|end_char=5261
+34	nutzen	nutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	acl	_	start_char=5262|end_char=5268|SpaceAfter=No
+35	,	,	PUNCT	$,	_	45	punct	_	start_char=5268|end_char=5269
+36	um	um	ADP	KOUI	_	45	mark	_	start_char=5270|end_char=5272
+37	schwarze	schwarz	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	42	amod	_	start_char=5273|end_char=5281|SpaceAfter=No
+38	,	,	PUNCT	$,	_	39	punct	_	start_char=5281|end_char=5282
+39	weiße	weiß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	37	conj	_	start_char=5283|end_char=5288|SpaceAfter=No
+40	,	,	PUNCT	$,	_	39	punct	_	start_char=5288|end_char=5289
+41	asiatische	asiatisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	37	conj	_	start_char=5290|end_char=5300
+42	Patienten	Patient	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	45	obj	_	start_char=5301|end_char=5310
+43	unterschiedlich	unterschiedlich	ADJ	ADJD	Degree=Pos	45	advmod	_	start_char=5311|end_char=5326
+44	zu	zu	PART	PTKZU	_	45	mark	_	start_char=5327|end_char=5329
+45	behandeln	behandeln	VERB	VVINF	VerbForm=Inf	34	advcl	_	start_char=5330|end_char=5339|SpaceAfter=No
+46	,	,	PUNCT	$,	_	50	punct	_	start_char=5339|end_char=5340
+47	nur	nur	ADV	ADV	_	50	advmod	_	start_char=5341|end_char=5344
+48	wegen	wegen	ADP	APPR	_	50	case	_	start_char=5345|end_char=5350
+49	ihrer	ihr	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	50	det:poss	_	start_char=5351|end_char=5356
+50	Rassenzugehörigkeit	Rassenzugehörigkeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	45	obl	_	start_char=5357|end_char=5376|SpaceAfter=No
+51	.	.	PUNCT	$.	_	2	punct	_	start_char=5376|end_char=5377|SpacesAfter=\n\n
+
+# text = Rassenmedizin lässt auch farbige Menschen besonders verwundbar zurück, die gegen verletzende Vorurteile und Stereotypen ankämpfen müssen.
+# sent_id = 47
+1	Rassenmedizin	Rassenmedizin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=5379|end_char=5392
+2	lässt	lassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5393|end_char=5398
+3	auch	auch	ADV	ADV	_	2	advmod	_	start_char=5399|end_char=5403
+4	farbige	farbig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=5404|end_char=5411
+5	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=5412|end_char=5420
+6	besonders	besonders	ADV	ADV	_	7	advmod	_	start_char=5421|end_char=5430
+7	verwundbar	verwundbar	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=5431|end_char=5441
+8	zurück	zurück	ADV	PTKVZ	_	2	compound:prt	_	start_char=5442|end_char=5448|SpaceAfter=No
+9	,	,	PUNCT	$,	_	16	punct	_	start_char=5448|end_char=5449
+10	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	16	nsubj	_	start_char=5450|end_char=5453
+11	gegen	gegen	ADP	APPR	_	13	case	_	start_char=5454|end_char=5459
+12	verletzende	verletzend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	13	amod	_	start_char=5460|end_char=5471
+13	Vorurteile	Vorurteil	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	16	obl	_	start_char=5472|end_char=5482
+14	und	und	CCONJ	KON	_	15	cc	_	start_char=5483|end_char=5486
+15	Stereotypen	Stereotyp	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	conj	_	start_char=5487|end_char=5498
+16	ankämpfen	ankämpfen	VERB	VVINF	VerbForm=Inf	5	acl	_	start_char=5499|end_char=5508
+17	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=5509|end_char=5515|SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	start_char=5515|end_char=5516|SpacesAfter=\n\n
+
+# text = Die Wahrscheinlichkeit ist doppelt so hoch für schwarze und lateinamerikanische, verglichen mit weißen Patienten, keine Schmerzmittel zu erhalten, für die gleichen, langen und schmerzhaften Knochenbrüche. Der Grund sind Stereotypen, die besagen, dass Schwarze und Dunkelhäutige weniger Schmerz fühlen, ihre Empfindlichkeit hochspielen und anfällig für Drogensucht sind.
+# sent_id = 48
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=5518|end_char=5521
+2	Wahrscheinlichkeit	Wahrscheinlichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=5522|end_char=5540
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=5541|end_char=5544
+4	doppelt	doppelt	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=5545|end_char=5552
+5	so	so	ADV	ADV	_	6	advmod	_	start_char=5553|end_char=5555
+6	hoch	hoch	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5556|end_char=5560
+7	für	für	ADP	APPR	_	12	case	_	start_char=5561|end_char=5564
+8	schwarze	schwarz	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=5565|end_char=5573
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=5574|end_char=5577
+10	lateinamerikanische	lateinamerikanisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	conj	_	start_char=5578|end_char=5597|SpaceAfter=No
+11	,	,	PUNCT	$,	_	12	punct	_	start_char=5597|end_char=5598
+12	verglichen	vergleichen	ADJ	ADJD	Degree=Pos	6	conj	_	start_char=5599|end_char=5609
+13	mit	mit	ADP	APPR	_	15	case	_	start_char=5610|end_char=5613
+14	weißen	weiß	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	start_char=5614|end_char=5620
+15	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	nmod	_	start_char=5621|end_char=5630|SpaceAfter=No
+16	,	,	PUNCT	$,	_	20	punct	_	start_char=5630|end_char=5631
+17	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Neg	18	det	_	start_char=5632|end_char=5637
+18	Schmerzmittel	Schmerzmittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	20	obj	_	start_char=5638|end_char=5651
+19	zu	zu	PART	PTKZU	_	20	mark	_	start_char=5652|end_char=5654
+20	erhalten	erhalten	VERB	VVINF	VerbForm=Inf	12	xcomp	_	start_char=5655|end_char=5663|SpaceAfter=No
+21	,	,	PUNCT	$,	_	29	punct	_	start_char=5663|end_char=5664
+22	für	für	ADP	APPR	_	29	case	_	start_char=5665|end_char=5668
+23	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	29	det	_	start_char=5669|end_char=5672
+24	gleichen	gleich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	start_char=5673|end_char=5681|SpaceAfter=No
+25	,	,	PUNCT	$,	_	26	punct	_	start_char=5681|end_char=5682
+26	langen	lang	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	24	conj	_	start_char=5683|end_char=5689
+27	und	und	CCONJ	KON	_	28	cc	_	start_char=5690|end_char=5693
+28	schmerzhaften	schmerzhaft	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	24	conj	_	start_char=5694|end_char=5707
+29	Knochenbrüche	Knochenbruch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	20	obl	_	start_char=5708|end_char=5721|SpaceAfter=No
+30	.	.	PUNCT	$.	_	34	punct	_	start_char=5721|end_char=5722
+31	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	start_char=5723|end_char=5726
+32	Grund	Grund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	34	nsubj	_	start_char=5727|end_char=5732
+33	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	start_char=5733|end_char=5737
+34	Stereotypen	Stereotyp	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	parataxis	_	start_char=5738|end_char=5749|SpaceAfter=No
+35	,	,	PUNCT	$,	_	37	punct	_	start_char=5749|end_char=5750
+36	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	37	nsubj	_	start_char=5751|end_char=5754
+37	besagen	besagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	acl	_	start_char=5755|end_char=5762|SpaceAfter=No
+38	,	,	PUNCT	$,	_	45	punct	_	start_char=5762|end_char=5763
+39	dass	dass	SCONJ	KOUS	_	45	mark	_	start_char=5764|end_char=5768
+40	Schwarze	Schwarze	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	45	nsubj	_	start_char=5769|end_char=5777
+41	und	und	CCONJ	KON	_	42	cc	_	start_char=5778|end_char=5781
+42	Dunkelhäutige	Dunkelhäutiger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	40	conj	_	start_char=5782|end_char=5795
+43	weniger	wenig	DET	PIAT	PronType=Ind	44	det	_	start_char=5796|end_char=5803
+44	Schmerz	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	45	obj	_	start_char=5804|end_char=5811
+45	fühlen	fühlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	ccomp	_	start_char=5812|end_char=5818|SpaceAfter=No
+46	,	,	PUNCT	$,	_	49	punct	_	start_char=5818|end_char=5819
+47	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	48	det:poss	_	start_char=5820|end_char=5824
+48	Empfindlichkeit	Empfindlichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	49	obj	_	start_char=5825|end_char=5840
+49	hochspielen	hochspielen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	45	conj	_	start_char=5841|end_char=5852
+50	und	und	CCONJ	KON	_	51	cc	_	start_char=5853|end_char=5856
+51	anfällig	anfällig	ADJ	ADJD	Degree=Pos	49	conj	_	start_char=5857|end_char=5865
+52	für	für	ADP	APPR	_	53	case	_	start_char=5866|end_char=5869
+53	Drogensucht	Drogensucht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	51	nmod	_	start_char=5870|end_char=5881
+54	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	49	aux	_	start_char=5882|end_char=5886|SpaceAfter=No
+55	.	.	PUNCT	$.	_	6	punct	_	start_char=5886|end_char=5887|SpacesAfter=\n\n
+
+# text = Die Food and Drug Administration hat dieser rassenspezifischer Medizin sogar zugestimmt.
+# sent_id = 49
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=5889|end_char=5892
+2	Food	Food	PROPN	NE	Foreign=Yes	5	amod	_	start_char=5893|end_char=5897
+3	and	and	CCONJ	NE	Foreign=Yes	4	cc	_	start_char=5898|end_char=5901
+4	Drug	Drug	PROPN	NE	Foreign=Yes	2	conj	_	start_char=5902|end_char=5906
+5	Administration	Administration	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	11	obj	_	start_char=5907|end_char=5921
+6	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=5922|end_char=5925
+7	dieser	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	start_char=5926|end_char=5932
+8	rassenspezifischer	rassenspezifisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=5933|end_char=5951
+9	Medizin	Medizin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	nsubj	_	start_char=5952|end_char=5959
+10	sogar	sogar	ADV	ADV	_	11	advmod	_	start_char=5960|end_char=5965
+11	zugestimmt	zustimmen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=5966|end_char=5976|SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=5976|end_char=5977|SpacesAfter=\n\n
+
+# text = Es gibt eine Pille namens BiDil, um Herzversagen bei selbstidentifizierten afroamerikanischen Patienten zu behandeln.
+# sent_id = 50
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=5979|end_char=5981
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5982|end_char=5986
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=5987|end_char=5991
+4	Pille	Pille	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nsubj	_	start_char=5992|end_char=5997
+5	namens	namens	ADP	APPR	_	6	case	_	start_char=5998|end_char=6004
+6	BiDil	BiDil	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	start_char=6005|end_char=6010|SpaceAfter=No
+7	,	,	PUNCT	$,	_	15	punct	_	start_char=6010|end_char=6011
+8	um	um	ADP	KOUI	_	15	mark	_	start_char=6012|end_char=6014
+9	Herzversagen	Herzversagen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	start_char=6015|end_char=6027
+10	bei	bei	ADP	APPR	_	13	case	_	start_char=6028|end_char=6031
+11	selbstidentifizierten	selbstidentifiziert	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	start_char=6032|end_char=6053
+12	afroamerikanischen	afroamerikanisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	start_char=6054|end_char=6072
+13	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	15	obl	_	start_char=6073|end_char=6082
+14	zu	zu	PART	PTKZU	_	15	mark	_	start_char=6083|end_char=6085
+15	behandeln	behandeln	VERB	VVINF	VerbForm=Inf	2	advcl	_	start_char=6086|end_char=6095|SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	start_char=6095|end_char=6096|SpacesAfter=\n\n
+
+# text = Ein Kardiologe hat dieses Mittel ungeachtet der Rasse oder Genetik entwickelt, einfach weil es praktisch wurde, das Mittel, aus kommerziellen Gründen, an schwarze Patienten zu verkaufen.
+# sent_id = 51
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=6098|end_char=6101
+2	Kardiologe	Kardiologe	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=6102|end_char=6112
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=6113|end_char=6116
+4	dieses	dieser	DET	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	start_char=6117|end_char=6123
+5	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=6124|end_char=6130
+6	ungeachtet	ungeachtet	ADP	APPR	_	8	case	_	start_char=6131|end_char=6141
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=6142|end_char=6145
+8	Rasse	Rasse	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	obl	_	start_char=6146|end_char=6151
+9	oder	oder	CCONJ	KON	_	10	cc	_	start_char=6152|end_char=6156
+10	Genetik	Genetik	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	conj	_	start_char=6157|end_char=6164
+11	entwickelt	entwickeln	VERB	VVPP	VerbForm=Part	0	root	_	start_char=6165|end_char=6175|SpaceAfter=No
+12	,	,	PUNCT	$,	_	17	punct	_	start_char=6175|end_char=6176
+13	einfach	einfach	ADV	ADV	_	17	advmod	_	start_char=6177|end_char=6184
+14	weil	weil	SCONJ	KOUS	_	17	mark	_	start_char=6185|end_char=6189
+15	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	start_char=6190|end_char=6192
+16	praktisch	praktisch	ADJ	ADJD	Degree=Pos	17	xcomp	_	start_char=6193|end_char=6202
+17	wurde	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	advcl	_	start_char=6203|end_char=6208|SpaceAfter=No
+18	,	,	PUNCT	$,	_	30	punct	_	start_char=6208|end_char=6209
+19	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	start_char=6210|end_char=6213
+20	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	30	obj	_	start_char=6214|end_char=6220|SpaceAfter=No
+21	,	,	PUNCT	$,	_	24	punct	_	start_char=6220|end_char=6221
+22	aus	aus	ADP	APPR	_	24	case	_	start_char=6222|end_char=6225
+23	kommerziellen	kommerziell	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	24	amod	_	start_char=6226|end_char=6239
+24	Gründen	Grund|Gründen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	30	obl	_	start_char=6240|end_char=6247|SpaceAfter=No
+25	,	,	PUNCT	$,	_	24	punct	_	start_char=6247|end_char=6248
+26	an	an	ADP	APPR	_	28	case	_	start_char=6249|end_char=6251
+27	schwarze	schwarz	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	28	amod	_	start_char=6252|end_char=6260
+28	Patienten	Patient	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	30	obl	_	start_char=6261|end_char=6270
+29	zu	zu	PART	PTKZU	_	30	mark	_	start_char=6271|end_char=6273
+30	verkaufen	verkaufen	VERB	VVINF	VerbForm=Inf	16	xcomp	_	start_char=6274|end_char=6283|SpaceAfter=No
+31	.	.	PUNCT	$.	_	11	punct	_	start_char=6283|end_char=6284|SpacesAfter=\n\n
+
+# text = Die FDA erlaubte es dem Unternehmen, also dem Arzneimittelhersteller, die Wirksamkeit in einer klinischen Studie zu testen, die nur afroamerikanische Testpersonen umfasst.
+# sent_id = 52
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=6286|end_char=6289
+2	FDA	FDA	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=6290|end_char=6293
+3	erlaubte	erlauben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=6294|end_char=6302
+4	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=6303|end_char=6305
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=6306|end_char=6309
+6	Unternehmen	Unternehmen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl:arg	_	start_char=6310|end_char=6321|SpaceAfter=No
+7	,	,	PUNCT	$,	_	19	punct	_	start_char=6321|end_char=6322
+8	also	also	ADV	ADV	_	10	advmod	_	start_char=6323|end_char=6327
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=6328|end_char=6331
+10	Arzneimittelhersteller	Arzneimittelhersteller	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	appos	_	start_char=6332|end_char=6354|SpaceAfter=No
+11	,	,	PUNCT	$,	_	19	punct	_	start_char=6354|end_char=6355
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=6356|end_char=6359
+13	Wirksamkeit	Wirksamkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	start_char=6360|end_char=6371
+14	in	in	ADP	APPR	_	17	case	_	start_char=6372|end_char=6374
+15	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	17	det	_	start_char=6375|end_char=6380
+16	klinischen	klinisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=6381|end_char=6391
+17	Studie	Studie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	start_char=6392|end_char=6398
+18	zu	zu	PART	PTKZU	_	19	mark	_	start_char=6399|end_char=6401
+19	testen	testen	VERB	VVINF	VerbForm=Inf	10	acl	_	start_char=6402|end_char=6408|SpaceAfter=No
+20	,	,	PUNCT	$,	_	25	punct	_	start_char=6408|end_char=6409
+21	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	25	nsubj	_	start_char=6410|end_char=6413
+22	nur	nur	ADV	ADV	_	25	advmod	_	start_char=6414|end_char=6417
+23	afroamerikanische	afroamerikanisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	24	amod	_	start_char=6418|end_char=6435
+24	Testpersonen	Testperson	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	25	obj	_	start_char=6436|end_char=6448
+25	umfasst	umfassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl	_	start_char=6449|end_char=6456|SpaceAfter=No
+26	.	.	PUNCT	$.	_	3	punct	_	start_char=6456|end_char=6457|SpacesAfter=\n\n
+
+# text = Diese Studie mutmaßte, Rassenzugehörigkeit stehe stellvertretend für einen unbekannten genetischen Faktor, der Herzerkrankungen oder Arzneimittelreaktionen betrifft.
+# sent_id = 53
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=6459|end_char=6464
+2	Studie	Studie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=6465|end_char=6471
+3	mutmaßte	mutmaßen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=6472|end_char=6480|SpaceAfter=No
+4	,	,	PUNCT	$,	_	6	punct	_	start_char=6480|end_char=6481
+5	Rassenzugehörigkeit	Rassenzugehörigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=6482|end_char=6501
+6	stehe	stehen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	start_char=6502|end_char=6507
+7	stellvertretend	stellvertretend	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=6508|end_char=6523
+8	für	für	ADP	APPR	_	12	case	_	start_char=6524|end_char=6527
+9	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=6528|end_char=6533
+10	unbekannten	unbekannt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=6534|end_char=6545
+11	genetischen	genetisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=6546|end_char=6557
+12	Faktor	Faktor	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	start_char=6558|end_char=6564|SpaceAfter=No
+13	,	,	PUNCT	$,	_	18	punct	_	start_char=6564|end_char=6565
+14	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	18	nsubj	_	start_char=6566|end_char=6569
+15	Herzerkrankungen	Herzerkrankung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	obj	_	start_char=6570|end_char=6586
+16	oder	oder	CCONJ	KON	_	17	cc	_	start_char=6587|end_char=6591
+17	Arzneimittelreaktionen	Arzneimittelreaktion	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	conj	_	start_char=6592|end_char=6614
+18	betrifft	betreffen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	start_char=6615|end_char=6623|SpaceAfter=No
+19	.	.	PUNCT	$.	_	3	punct	_	start_char=6623|end_char=6624|SpacesAfter=\n\n
+
+# text = Aber denken Sie an die gefährliche Botschaft, die vermittelt wird; dass die Körper von Schwarzen so minderwertig sind, dass ein an ihnen getestetes Mittel, nicht garantiert bei anderen Patienten wirkt.
+# sent_id = 54
+1	Aber	aber	CCONJ	KON	_	2	cc	_	start_char=6626|end_char=6630
+2	denken	denken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6631|end_char=6637
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=6638|end_char=6641
+4	an	an	ADP	APPR	_	7	case	_	start_char=6642|end_char=6644
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=6645|end_char=6648
+6	gefährliche	gefährlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=6649|end_char=6660
+7	Botschaft	Botschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	start_char=6661|end_char=6670|SpaceAfter=No
+8	,	,	PUNCT	$,	_	10	punct	_	start_char=6670|end_char=6671
+9	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	10	nsubj:pass	_	start_char=6672|end_char=6675
+10	vermittelt	vermitteln	VERB	VVPP	VerbForm=Part	7	acl	_	start_char=6676|end_char=6686
+11	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	aux:pass	_	start_char=6687|end_char=6691|SpaceAfter=No
+12	;	;	PUNCT	$.	_	19	punct	_	start_char=6691|end_char=6692
+13	dass	dass	SCONJ	KOUS	_	19	mark	_	start_char=6693|end_char=6697
+14	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	15	det	_	start_char=6698|end_char=6701
+15	Körper	Körper	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	start_char=6702|end_char=6708
+16	von	von	ADP	APPR	_	17	case	_	start_char=6709|end_char=6712
+17	Schwarzen	Schwarze	NOUN	NN	Case=Dat|Number=Plur	15	nmod	_	start_char=6713|end_char=6722
+18	so	so	ADV	ADV	_	19	advmod	_	start_char=6723|end_char=6725
+19	minderwertig	minderwertig	ADJ	ADJD	Degree=Pos	10	ccomp	_	start_char=6726|end_char=6738
+20	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=6739|end_char=6743|SpaceAfter=No
+21	,	,	PUNCT	$,	_	34	punct	_	start_char=6743|end_char=6744
+22	dass	dass	SCONJ	KOUS	_	34	mark	_	start_char=6745|end_char=6749
+23	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	27	det	_	start_char=6750|end_char=6753
+24	an	an	ADP	APPR	_	25	case	_	start_char=6754|end_char=6756
+25	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	26	nmod	_	start_char=6757|end_char=6762
+26	getestetes	getestet	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	start_char=6763|end_char=6773
+27	Mittel	Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	34	nsubj	_	start_char=6774|end_char=6780|SpaceAfter=No
+28	,	,	PUNCT	$,	_	27	punct	_	start_char=6780|end_char=6781
+29	nicht	nicht	PART	PTKNEG	Polarity=Neg	30	advmod	_	start_char=6782|end_char=6787
+30	garantiert	garantieren	ADJ	ADJD	Degree=Pos	34	advmod	_	start_char=6788|end_char=6798
+31	bei	bei	ADP	APPR	_	33	case	_	start_char=6799|end_char=6802
+32	anderen	anderer	DET	ADJA	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	33	det	_	start_char=6803|end_char=6810
+33	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	30	nmod	_	start_char=6811|end_char=6820
+34	wirkt	wirken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	start_char=6821|end_char=6826|SpaceAfter=No
+35	.	.	PUNCT	$.	_	2	punct	_	start_char=6826|end_char=6827|SpacesAfter=\n\n
+
+# text = Letzten Endes versagte das Marketingkonzept des Herstellers.
+# sent_id = 55
+1	Letzten	letzt	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=6829|end_char=6836
+2	Endes	Ende	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	start_char=6837|end_char=6842
+3	versagte	versagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=6843|end_char=6851
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=6852|end_char=6855
+5	Marketingkonzept	Marketingkonzept	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=6856|end_char=6872
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=6873|end_char=6876
+7	Herstellers	Hersteller	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=6877|end_char=6888|SpaceAfter=No
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=6888|end_char=6889|SpacesAfter=\n\n
+
+# text = Zum Einen waren schwarze Patienten verständlicherweise misstrauisch, ein Mittel zu nehmen, das nur für Schwarze war.
+# sent_id = 56
+1-2	Zum	_	_	_	_	_	_	_	start_char=6891|end_char=6894
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Einen	ein	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	start_char=6895|end_char=6900
+4	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	start_char=6901|end_char=6906
+5	schwarze	schwarz	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=6907|end_char=6915
+6	Patienten	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=6916|end_char=6925
+7	verständlicherweise	verständlicherweise	ADV	ADV	_	8	advmod	_	start_char=6926|end_char=6945
+8	misstrauisch	misstrauisch	ADJ	ADJD	Degree=Pos	0	root	_	start_char=6946|end_char=6958|SpaceAfter=No
+9	,	,	PUNCT	$,	_	13	punct	_	start_char=6958|end_char=6959
+10	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=6960|end_char=6963
+11	Mittel	Mittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	start_char=6964|end_char=6970
+12	zu	zu	PART	PTKZU	_	13	mark	_	start_char=6971|end_char=6973
+13	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	8	xcomp	_	start_char=6974|end_char=6980|SpaceAfter=No
+14	,	,	PUNCT	$,	_	18	punct	_	start_char=6980|end_char=6981
+15	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	18	nsubj	_	start_char=6982|end_char=6985
+16	nur	nur	ADV	ADV	_	18	advmod	_	start_char=6986|end_char=6989
+17	für	für	ADP	APPR	_	18	case	_	start_char=6990|end_char=6993
+18	Schwarze	Schwarze	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	obl	_	start_char=6994|end_char=7002
+19	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl	_	start_char=7003|end_char=7006|SpaceAfter=No
+20	.	.	PUNCT	$.	_	8	punct	_	start_char=7006|end_char=7007|SpacesAfter=\n\n
+
+# text = Eine ältere schwarze Frau stand in einer Gemeindeversammlung auf und schrie: “Gebt mir, was die Weißen nehmen!” Wenn Sie rassenspezifische Medizin überraschend finden, warten Sie, bis Sie erfahren, dass viele Ärzte in den USA immer noch eine aktualisierte Version eines diagnostischen Mittels benutzen, das von einem Arzt während der Sklavenzeit entwickelt wurde, ein Mittel, das eng mit Rechtfertigungen von Sklaverei verknüpft ist.
+# sent_id = 57
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=7009|end_char=7013
+2	ältere	alt	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	4	amod	_	start_char=7014|end_char=7020
+3	schwarze	schwarz	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=7021|end_char=7029
+4	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=7030|end_char=7034
+5	stand	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=7035|end_char=7040
+6	in	in	ADP	APPR	_	8	case	_	start_char=7041|end_char=7043
+7	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=7044|end_char=7049
+8	Gemeindeversammlung	Gemeindeversammlung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	start_char=7050|end_char=7069
+9	auf	auf	ADP	PTKVZ	_	5	compound:prt	_	start_char=7070|end_char=7073
+10	und	und	CCONJ	KON	_	11	cc	_	start_char=7074|end_char=7077
+11	schrie	schreien	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	start_char=7078|end_char=7084|SpaceAfter=No
+12	:	:	PUNCT	$.	_	14	punct	_	start_char=7084|end_char=7085
+13	“	"	PUNCT	$(	_	14	punct	_	start_char=7086|end_char=7087|SpaceAfter=No
+14	Gebt	geben	VERB	VVIMP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	start_char=7087|end_char=7091
+15	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	14	obl:arg	_	start_char=7092|end_char=7095|SpaceAfter=No
+16	,	,	PUNCT	$,	_	20	punct	_	start_char=7095|end_char=7096
+17	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	20	obj	_	start_char=7097|end_char=7100
+18	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	19	det	_	start_char=7101|end_char=7104
+19	Weißen	Weiß	NOUN	NN	Case=Nom|Number=Plur	20	nsubj	_	start_char=7105|end_char=7111
+20	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	start_char=7112|end_char=7118|SpaceAfter=No
+21	!	!	PUNCT	$.	_	14	punct	_	start_char=7118|end_char=7119|SpaceAfter=No
+22	”	"	PUNCT	$(	_	28	punct	_	start_char=7119|end_char=7120
+23	Wenn	wenn	SCONJ	KOUS	_	28	mark	_	start_char=7121|end_char=7125
+24	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	28	nsubj	_	start_char=7126|end_char=7129
+25	rassenspezifische	rassenspezifisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	start_char=7130|end_char=7147
+26	Medizin	Medizin	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	28	obj	_	start_char=7148|end_char=7155
+27	überraschend	überraschend	ADJ	ADJD	Degree=Pos	28	advmod	_	start_char=7156|end_char=7168
+28	finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	start_char=7169|end_char=7175|SpaceAfter=No
+29	,	,	PUNCT	$,	_	28	punct	_	start_char=7175|end_char=7176
+30	warten	warten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	start_char=7177|end_char=7183
+31	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	30	nsubj	_	start_char=7184|end_char=7187|SpaceAfter=No
+32	,	,	PUNCT	$,	_	35	punct	_	start_char=7187|end_char=7188
+33	bis	bis	SCONJ	KOUS	_	35	mark	_	start_char=7189|end_char=7192
+34	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	35	nsubj	_	start_char=7193|end_char=7196
+35	erfahren	erfahren	VERB	VVINF	VerbForm=Inf	30	advcl	_	start_char=7197|end_char=7205|SpaceAfter=No
+36	,	,	PUNCT	$,	_	51	punct	_	start_char=7205|end_char=7206
+37	dass	dass	SCONJ	KOUS	_	51	mark	_	start_char=7207|end_char=7211
+38	viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	39	det	_	start_char=7212|end_char=7217
+39	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	51	nsubj	_	start_char=7218|end_char=7223
+40	in	in	ADP	APPR	_	42	case	_	start_char=7224|end_char=7226
+41	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	42	det	_	start_char=7227|end_char=7230
+42	USA	USA	PROPN	NE	Case=Dat|Gender=Masc|Number=Plur	51	obl	_	start_char=7231|end_char=7234
+43	immer	immer	ADV	ADV	_	44	advmod	_	start_char=7235|end_char=7240
+44	noch	noch	ADV	ADV	_	51	advmod	_	start_char=7241|end_char=7245
+45	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	47	det	_	start_char=7246|end_char=7250
+46	aktualisierte	aktualisieren	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	47	amod	_	start_char=7251|end_char=7264
+47	Version	Version	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	51	obj	_	start_char=7265|end_char=7272
+48	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	50	det	_	start_char=7273|end_char=7278
+49	diagnostischen	diagnostisch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	50	amod	_	start_char=7279|end_char=7293
+50	Mittels	Mittel	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	47	nmod	_	start_char=7294|end_char=7301
+51	benutzen	benutzen	VERB	VVINF	VerbForm=Inf	35	ccomp	_	start_char=7302|end_char=7310|SpaceAfter=No
+52	,	,	PUNCT	$,	_	60	punct	_	start_char=7310|end_char=7311
+53	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	60	nsubj:pass	_	start_char=7312|end_char=7315
+54	von	von	ADP	APPR	_	56	case	_	start_char=7316|end_char=7319
+55	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	56	det	_	start_char=7320|end_char=7325
+56	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	60	obl:agent	_	start_char=7326|end_char=7330
+57	während	während	ADP	APPR	_	59	case	_	start_char=7331|end_char=7338
+58	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	start_char=7339|end_char=7342
+59	Sklavenzeit	Sklavenzeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	60	obl	_	start_char=7343|end_char=7354
+60	entwickelt	entwickeln	VERB	VVPP	VerbForm=Part	50	acl	_	start_char=7355|end_char=7365
+61	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	60	aux:pass	_	start_char=7366|end_char=7371|SpaceAfter=No
+62	,	,	PUNCT	$,	_	64	punct	_	start_char=7371|end_char=7372
+63	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	64	det	_	start_char=7373|end_char=7376
+64	Mittel	Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	47	appos	_	start_char=7377|end_char=7383|SpaceAfter=No
+65	,	,	PUNCT	$,	_	72	punct	_	start_char=7383|end_char=7384
+66	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	72	nsubj:pass	_	start_char=7385|end_char=7388
+67	eng	eng	ADJ	ADJD	Degree=Pos	72	advmod	_	start_char=7389|end_char=7392
+68	mit	mit	ADP	APPR	_	69	case	_	start_char=7393|end_char=7396
+69	Rechtfertigungen	Rechtfertigung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	72	nmod	_	start_char=7397|end_char=7413
+70	von	von	ADP	APPR	_	71	case	_	start_char=7414|end_char=7417
+71	Sklaverei	Sklaverei	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	69	nmod	_	start_char=7418|end_char=7427
+72	verknüpft	verknüpfen	ADJ	VVPP	Degree=Pos|VerbForm=Part	64	acl	_	start_char=7428|end_char=7437
+73	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	72	aux:pass	_	start_char=7438|end_char=7441|SpaceAfter=No
+74	.	.	PUNCT	$.	_	5	punct	_	start_char=7441|end_char=7442|SpacesAfter=\n\n
+
+# text = Dr. Samuel Cartwright graduierte von der University of Pennsylvania Medical School.
+# sent_id = 58
+1	Dr	Dr	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=7444|end_char=7446|SpaceAfter=No
+2	.	.	PUNCT	$.	_	3	punct	_	start_char=7446|end_char=7447
+3	Samuel	Samuel	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	start_char=7448|end_char=7454
+4	Cartwright	Cartwright	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	start_char=7455|end_char=7465
+5	graduierte	graduieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=7466|end_char=7476
+6	von	von	ADP	APPR	_	8	case	_	start_char=7477|end_char=7480
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=7481|end_char=7484
+8	University	University	PROPN	NE	Foreign=Yes	5	obl	_	start_char=7485|end_char=7495
+9	of	of	PROPN	NE	Foreign=Yes	8	flat	_	start_char=7496|end_char=7498
+10	Pennsylvania	Pennsylvania	PROPN	NE	Foreign=Yes	8	flat	_	start_char=7499|end_char=7511
+11	Medical	Medical	PROPN	NE	Foreign=Yes	8	flat	_	start_char=7512|end_char=7519
+12	School	School	PROPN	NE	Foreign=Yes	8	flat	_	start_char=7520|end_char=7526|SpaceAfter=No
+13	.	.	PUNCT	$.	_	5	punct	_	start_char=7526|end_char=7527|SpacesAfter=\n\n
+
+# text = Er praktizierte im tiefen Süden vor dem Ausbruch des US-amerikanischen Bürgerkriegs und galt als Experte der damals sogenannten “Neger-Medizin”.
+# sent_id = 59
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=7529|end_char=7531
+2	praktizierte	praktizieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=7532|end_char=7544
+3-4	im	_	_	_	_	_	_	_	start_char=7545|end_char=7547
+3	in	in	ADP	APPR	_	6	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	tiefen	tief	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=7548|end_char=7554
+6	Süden	Süden	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=7555|end_char=7560
+7	vor	vor	ADP	APPR	_	9	case	_	start_char=7561|end_char=7564
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=7565|end_char=7568
+9	Ausbruch	Ausbruch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=7569|end_char=7577
+10	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=7578|end_char=7581
+11	US	US	PROPN	ADJA	Case=Gen|Gender=Masc|Number=Sing	14	amod	_	start_char=7582|end_char=7584|SpaceAfter=No
+12	-	-	PUNCT	$(	_	13	punct	_	start_char=7584|end_char=7585|SpaceAfter=No
+13	amerikanischen	amerikanisch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	flat	_	start_char=7585|end_char=7599
+14	Bürgerkriegs	Bürgerkrieg	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=7600|end_char=7612
+15	und	und	CCONJ	KON	_	16	cc	_	start_char=7613|end_char=7616
+16	galt	gelten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=7617|end_char=7621
+17	als	als	ADP	KOKOM	_	18	case	_	start_char=7622|end_char=7625
+18	Experte	Experte	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	xcomp	_	start_char=7626|end_char=7633
+19	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=7634|end_char=7637
+20	damals	damals	ADV	ADV	_	21	advmod	_	start_char=7638|end_char=7644
+21	sogenannten	sogenannt	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=7645|end_char=7656
+22	“	"	PUNCT	$(	_	23	punct	_	start_char=7657|end_char=7658|SpaceAfter=No
+23	Neger	Neger	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	start_char=7658|end_char=7663|SpaceAfter=No
+24	-	-	PUNCT	$(	_	25	punct	_	start_char=7663|end_char=7664|SpaceAfter=No
+25	Medizin	Medizin	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	23	flat	_	start_char=7664|end_char=7671|SpaceAfter=No
+26	”	"	PUNCT	$(	_	23	punct	_	start_char=7671|end_char=7672|SpaceAfter=No
+27	.	.	PUNCT	$.	_	2	punct	_	start_char=7672|end_char=7673|SpacesAfter=\n\n
+
+# text = Er brachte das Rassenkonzept der Krankheit voran, dass Menschen unterschiedlicher Rassen an unterschiedlichen Krankheiten litten und gängige Krankheiten unterschiedlich erlebten.
+# sent_id = 60
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=7675|end_char=7677
+2	brachte	bringen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=7678|end_char=7685
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=7686|end_char=7689
+4	Rassenkonzept	Rassenkonzept	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=7690|end_char=7703
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=7704|end_char=7707
+6	Krankheit	Krankheit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=7708|end_char=7717
+7	voran	voran	ADV	PTKVZ	_	2	compound:prt	_	start_char=7718|end_char=7723|SpaceAfter=No
+8	,	,	PUNCT	$,	_	16	punct	_	start_char=7723|end_char=7724
+9	dass	dass	SCONJ	KOUS	_	16	mark	_	start_char=7725|end_char=7729
+10	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	start_char=7730|end_char=7738
+11	unterschiedlicher	unterschiedlich	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=7739|end_char=7756
+12	Rassen	Rasse	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	start_char=7757|end_char=7763
+13	an	an	ADP	APPR	_	15	case	_	start_char=7764|end_char=7766
+14	unterschiedlichen	unterschiedlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=7767|end_char=7784
+15	Krankheiten	Krankheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	16	obl	_	start_char=7785|end_char=7796
+16	litten	leiden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	start_char=7797|end_char=7803
+17	und	und	CCONJ	KON	_	21	cc	_	start_char=7804|end_char=7807
+18	gängige	gängig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=7808|end_char=7815
+19	Krankheiten	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	21	obj	_	start_char=7816|end_char=7827
+20	unterschiedlich	unterschiedlich	ADJ	ADJD	Degree=Pos	21	advmod	_	start_char=7828|end_char=7843
+21	erlebten	erleben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	conj	_	start_char=7844|end_char=7852|SpaceAfter=No
+22	.	.	PUNCT	$.	_	2	punct	_	start_char=7852|end_char=7853|SpacesAfter=\n\n
+
+# text = Cartwright argumentierte in den 1850ern, Sklaverei sei vorteilhaft für Schwarze, aus medizinischen Gründen.
+# sent_id = 61
+1	Cartwright	Cartwright	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=7855|end_char=7865
+2	argumentierte	argumentieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=7866|end_char=7879
+3	in	in	ADP	APPR	_	5	case	_	start_char=7880|end_char=7882
+4	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=7883|end_char=7886
+5	1850ern	1850ern	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	start_char=7887|end_char=7894|SpaceAfter=No
+6	,	,	PUNCT	$,	_	9	punct	_	start_char=7894|end_char=7895
+7	Sklaverei	Sklaverei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=7896|end_char=7905
+8	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=7906|end_char=7909
+9	vorteilhaft	vorteilhaft	ADJ	ADJD	Degree=Pos	2	parataxis	_	start_char=7910|end_char=7921
+10	für	für	ADP	APPR	_	11	case	_	start_char=7922|end_char=7925
+11	Schwarze	Schwarze	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	nmod	_	start_char=7926|end_char=7934|SpaceAfter=No
+12	,	,	PUNCT	$,	_	15	punct	_	start_char=7934|end_char=7935
+13	aus	aus	ADP	APPR	_	15	case	_	start_char=7936|end_char=7939
+14	medizinischen	medizinisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	start_char=7940|end_char=7953
+15	Gründen	Grund|Gründen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	nmod	_	start_char=7954|end_char=7961|SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	start_char=7961|end_char=7962|SpacesAfter=\n\n
+
+# text = Er behauptete, da Schwarze eine geringere Lungenkapazität als Weiße hätten, sei Zwangsarbeit gut für sie.
+# sent_id = 62
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=7964|end_char=7966
+2	behauptete	behaupten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=7967|end_char=7977|SpaceAfter=No
+3	,	,	PUNCT	$,	_	11	punct	_	start_char=7977|end_char=7978
+4	da	da	SCONJ	KOUS	_	11	mark	_	start_char=7979|end_char=7981
+5	Schwarze	Schwarze	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	start_char=7982|end_char=7990
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=7991|end_char=7995
+7	geringere	gering	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	8	amod	_	start_char=7996|end_char=8005
+8	Lungenkapazität	Lungenkapazität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=8006|end_char=8021
+9	als	als	ADP	KOKOM	_	10	case	_	start_char=8022|end_char=8025
+10	Weiße	Weiße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	start_char=8026|end_char=8031
+11	hätten	haben	VERB	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	start_char=8032|end_char=8038|SpaceAfter=No
+12	,	,	PUNCT	$,	_	11	punct	_	start_char=8038|end_char=8039
+13	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=8040|end_char=8043
+14	Zwangsarbeit	Zwangsarbeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	start_char=8044|end_char=8056
+15	gut	gut	ADJ	ADJD	Degree=Pos	2	ccomp	_	start_char=8057|end_char=8060
+16	für	für	ADP	APPR	_	17	case	_	start_char=8061|end_char=8064
+17	sie	sie	PRON	PPER	Case=Acc|Number=Sing|Person=3|PronType=Prs	15	nmod	_	start_char=8065|end_char=8068|SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	start_char=8068|end_char=8069|SpacesAfter=\n\n
+
+# text = Er schrieb in einer medizinischen Zeitschrift: “Es ist das rote, vitale Blut, das zum Gehirn befördert wird, das ihren Geist befreit, wenn sie unter der Kontrolle des weißen Mannes sind, und es ist der Bedarf an genügend rotem, vitalen Blut, der ihren Geist an Unkenntnis und Barbarei kettet, wenn sie frei sind.”
+# sent_id = 63
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=8071|end_char=8073
+2	schrieb	schreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=8074|end_char=8081
+3	in	in	ADP	APPR	_	6	case	_	start_char=8082|end_char=8084
+4	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=8085|end_char=8090
+5	medizinischen	medizinisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=8091|end_char=8104
+6	Zeitschrift	Zeitschrift	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=8105|end_char=8116|SpaceAfter=No
+7	:	:	PUNCT	$.	_	15	punct	_	start_char=8116|end_char=8117
+8	“	"	PUNCT	$(	_	15	punct	_	start_char=8118|end_char=8119|SpaceAfter=No
+9	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	start_char=8119|end_char=8121
+10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=8122|end_char=8125
+11	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	start_char=8126|end_char=8129
+12	rote	rot	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	start_char=8130|end_char=8134|SpaceAfter=No
+13	,	,	PUNCT	$,	_	14	punct	_	start_char=8134|end_char=8135
+14	vitale	vital	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	conj	_	start_char=8136|end_char=8142
+15	Blut	Blut	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	parataxis	_	start_char=8143|end_char=8147|SpaceAfter=No
+16	,	,	PUNCT	$,	_	21	punct	_	start_char=8147|end_char=8148
+17	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	21	nsubj:pass	_	start_char=8149|end_char=8152
+18-19	zum	_	_	_	_	_	_	_	start_char=8153|end_char=8156
+18	zu	zu	ADP	APPR	_	20	case	_	_
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Gehirn	Gehirn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	start_char=8157|end_char=8163
+21	befördert	befördern	VERB	VVPP	VerbForm=Part	15	acl	_	start_char=8164|end_char=8173
+22	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	21	aux:pass	_	start_char=8174|end_char=8178|SpaceAfter=No
+23	,	,	PUNCT	$,	_	27	punct	_	start_char=8178|end_char=8179
+24	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	27	nsubj	_	start_char=8180|end_char=8183
+25	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	det:poss	_	start_char=8184|end_char=8189
+26	Geist	Geist	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	27	obj	_	start_char=8190|end_char=8195
+27	befreit	befreien	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl	_	start_char=8196|end_char=8203|SpaceAfter=No
+28	,	,	PUNCT	$,	_	21	punct	_	start_char=8203|end_char=8204
+29	wenn	wenn	SCONJ	KOUS	_	37	mark	_	start_char=8205|end_char=8209
+30	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	37	nsubj	_	start_char=8210|end_char=8213
+31	unter	unter	ADP	APPR	_	33	case	_	start_char=8214|end_char=8219
+32	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	start_char=8220|end_char=8223
+33	Kontrolle	Kontrolle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	27	obl	_	start_char=8224|end_char=8233
+34	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	start_char=8234|end_char=8237
+35	weißen	weiß	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	start_char=8238|end_char=8244
+36	Mannes	Mann	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	start_char=8245|end_char=8251
+37	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	start_char=8252|end_char=8256|SpaceAfter=No
+38	,	,	PUNCT	$,	_	43	punct	_	start_char=8256|end_char=8257
+39	und	und	CCONJ	KON	_	43	cc	_	start_char=8258|end_char=8261
+40	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	43	nsubj	_	start_char=8262|end_char=8264
+41	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	start_char=8265|end_char=8268
+42	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	start_char=8269|end_char=8272
+43	Bedarf	Bedarf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	start_char=8273|end_char=8279
+44	an	an	ADP	APPR	_	49	case	_	start_char=8280|end_char=8282
+45	genügend	genügend	ADJ	ADJD	Degree=Pos	46	advmod	_	start_char=8283|end_char=8291
+46	rotem	rot	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	49	amod	_	start_char=8292|end_char=8297|SpaceAfter=No
+47	,	,	PUNCT	$,	_	48	punct	_	start_char=8297|end_char=8298
+48	vitalen	vital	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	46	conj	_	start_char=8299|end_char=8306
+49	Blut	Blut	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	43	nmod	_	start_char=8307|end_char=8311|SpaceAfter=No
+50	,	,	PUNCT	$,	_	58	punct	_	start_char=8311|end_char=8312
+51	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	58	nsubj	_	start_char=8313|end_char=8316
+52	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	53	det:poss	_	start_char=8317|end_char=8322
+53	Geist	Geist	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	58	obj	_	start_char=8323|end_char=8328
+54	an	an	ADP	APPR	_	55	case	_	start_char=8329|end_char=8331
+55	Unkenntnis	Unkenntnis	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	58	obl	_	start_char=8332|end_char=8342
+56	und	und	CCONJ	KON	_	57	cc	_	start_char=8343|end_char=8346
+57	Barbarei	Barbarei	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	55	conj	_	start_char=8347|end_char=8355
+58	kettet	ketten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	acl	_	start_char=8356|end_char=8362|SpaceAfter=No
+59	,	,	PUNCT	$,	_	62	punct	_	start_char=8362|end_char=8363
+60	wenn	wenn	SCONJ	KOUS	_	62	mark	_	start_char=8364|end_char=8368
+61	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	62	nsubj	_	start_char=8369|end_char=8372
+62	frei	frei	ADJ	ADJD	Degree=Pos	58	advcl	_	start_char=8373|end_char=8377
+63	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	62	cop	_	start_char=8378|end_char=8382|SpaceAfter=No
+64	.	.	PUNCT	$.	_	2	punct	_	start_char=8382|end_char=8383|SpaceAfter=No
+65	”	"	PUNCT	$(	_	15	punct	_	start_char=8383|end_char=8384|SpacesAfter=\n\n
+
+# text = Um diese Theorie zu stützen, half Cartwright, einen medizinischen Apparat zu perfektionieren, der die Atmung maß, Spirometer genannt. Damit sollte das vermutete Defizit der Lungen von Schwarzen gezeigt werden.
+# sent_id = 64
+1	Um	um	ADP	KOUI	_	5	mark	_	start_char=8386|end_char=8388
+2	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=8389|end_char=8394
+3	Theorie	Theorie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=8395|end_char=8402
+4	zu	zu	PART	PTKZU	_	5	mark	_	start_char=8403|end_char=8405
+5	stützen	stützen	VERB	VVINF	VerbForm=Inf	7	advcl	_	start_char=8406|end_char=8413|SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	start_char=8413|end_char=8414
+7	half	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=8415|end_char=8419
+8	Cartwright	Cartwright	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=8420|end_char=8430|SpaceAfter=No
+9	,	,	PUNCT	$,	_	14	punct	_	start_char=8430|end_char=8431
+10	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=8432|end_char=8437
+11	medizinischen	medizinisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=8438|end_char=8451
+12	Apparat	Apparat	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=8452|end_char=8459
+13	zu	zu	PART	PTKZU	_	14	mark	_	start_char=8460|end_char=8462
+14	perfektionieren	perfektionieren	VERB	VVINF	VerbForm=Inf	7	xcomp	_	start_char=8463|end_char=8478|SpaceAfter=No
+15	,	,	PUNCT	$,	_	19	punct	_	start_char=8478|end_char=8479
+16	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	19	nsubj	_	start_char=8480|end_char=8483
+17	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=8484|end_char=8487
+18	Atmung	Atmung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	start_char=8488|end_char=8494
+19	maß	messen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl	_	start_char=8495|end_char=8498|SpaceAfter=No
+20	,	,	PUNCT	$,	_	22	punct	_	start_char=8498|end_char=8499
+21	Spirometer	Spirometer	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	xcomp	_	start_char=8500|end_char=8510
+22	genannt	nennen	VERB	VVPP	VerbForm=Part	19	conj	_	start_char=8511|end_char=8518|SpaceAfter=No
+23	.	.	PUNCT	$.	_	33	punct	_	start_char=8518|end_char=8519
+24	Damit	damit	ADV	PAV	PronType=Dem	33	advmod	_	start_char=8520|end_char=8525
+25	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	33	aux	_	start_char=8526|end_char=8532
+26	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	28	det	_	start_char=8533|end_char=8536
+27	vermutete	vermuten	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	start_char=8537|end_char=8546
+28	Defizit	Defizit	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	33	nsubj:pass	_	start_char=8547|end_char=8554
+29	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	30	det	_	start_char=8555|end_char=8558
+30	Lungen	Lunge	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	start_char=8559|end_char=8565
+31	von	von	ADP	APPR	_	32	case	_	start_char=8566|end_char=8569
+32	Schwarzen	Schwarze	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	30	nmod	_	start_char=8570|end_char=8579
+33	gezeigt	zeigen	VERB	VVPP	VerbForm=Part	7	conj	_	start_char=8580|end_char=8587
+34	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	33	aux:pass	_	start_char=8588|end_char=8594|SpaceAfter=No
+35	.	.	PUNCT	$.	_	7	punct	_	start_char=8594|end_char=8595|SpacesAfter=\n\n
+
+# text = Heute bestätigen Ärzte immer noch Cartwrights Behauptung, dass Schwarze als Rasse eine geringere Lungenkapazität als Weiße haben.
+# sent_id = 65
+1	Heute	heute	ADV	ADV	_	2	advmod	_	start_char=8597|end_char=8602
+2	bestätigen	bestätigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8603|end_char=8613
+3	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=8614|end_char=8619
+4	immer	immer	ADV	ADV	_	5	advmod	_	start_char=8620|end_char=8625
+5	noch	noch	ADV	ADV	_	2	advmod	_	start_char=8626|end_char=8630
+6	Cartwrights	Cartwrights	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=8631|end_char=8642
+7	Behauptung	Behauptung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=8643|end_char=8653|SpaceAfter=No
+8	,	,	PUNCT	$,	_	18	punct	_	start_char=8653|end_char=8654
+9	dass	dass	SCONJ	KOUS	_	18	mark	_	start_char=8655|end_char=8659
+10	Schwarze	Schwarze	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	start_char=8660|end_char=8668
+11	als	als	ADP	KOKOM	_	12	case	_	start_char=8669|end_char=8672
+12	Rasse	Rasse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	obl	_	start_char=8673|end_char=8678
+13	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	15	det	_	start_char=8679|end_char=8683
+14	geringere	gering	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	15	amod	_	start_char=8684|end_char=8693
+15	Lungenkapazität	Lungenkapazität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	start_char=8694|end_char=8709
+16	als	als	ADP	KOKOM	_	17	case	_	start_char=8710|end_char=8713
+17	Weiße	Weiße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	start_char=8714|end_char=8719
+18	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	start_char=8720|end_char=8725|SpaceAfter=No
+19	.	.	PUNCT	$.	_	2	punct	_	start_char=8725|end_char=8726|SpacesAfter=\n\n
+
+# text = Einige benutzen sogar ein modernes Spirometer, das tatsächlich einen Knopf namens “Rasse” hat, sodass die Maschine die Messung für jeden Patienten anpasst, gemäß seiner oder ihrer Rasse.
+# sent_id = 66
+1	Einige	einige	DET	PIS	Case=Nom|Number=Plur|PronType=Ind	2	nsubj	_	start_char=8728|end_char=8734
+2	benutzen	benutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8735|end_char=8743
+3	sogar	sogar	ADV	ADV	_	2	advmod	_	start_char=8744|end_char=8749
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=8750|end_char=8753
+5	modernes	modern	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=8754|end_char=8762
+6	Spirometer	Spirometer	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=8763|end_char=8773|SpaceAfter=No
+7	,	,	PUNCT	$,	_	16	punct	_	start_char=8773|end_char=8774
+8	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	16	nsubj	_	start_char=8775|end_char=8778
+9	tatsächlich	tatsächlich	ADJ	ADV	Degree=Pos	16	advmod	_	start_char=8779|end_char=8790
+10	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=8791|end_char=8796
+11	Knopf	Knopf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	start_char=8797|end_char=8802
+12	namens	namens	ADP	APPR	_	14	case	_	start_char=8803|end_char=8809
+13	“	"	PUNCT	$(	_	14	punct	_	start_char=8810|end_char=8811|SpaceAfter=No
+14	Rasse	Rasse	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	start_char=8811|end_char=8816|SpaceAfter=No
+15	”	"	PUNCT	$(	_	14	punct	_	start_char=8816|end_char=8817
+16	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	start_char=8818|end_char=8821|SpaceAfter=No
+17	,	,	PUNCT	$,	_	26	punct	_	start_char=8821|end_char=8822
+18	sodass	sodass	SCONJ	KOUS	_	26	mark	_	start_char=8823|end_char=8829
+19	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=8830|end_char=8833
+20	Maschine	Maschine	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	start_char=8834|end_char=8842
+21	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=8843|end_char=8846
+22	Messung	Messung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	start_char=8847|end_char=8854
+23	für	für	ADP	APPR	_	25	case	_	start_char=8855|end_char=8858
+24	jeden	jeder	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	25	det	_	start_char=8859|end_char=8864
+25	Patienten	Patient	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	nmod	_	start_char=8865|end_char=8874
+26	anpasst	anpassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	start_char=8875|end_char=8882|SpaceAfter=No
+27	,	,	PUNCT	$,	_	32	punct	_	start_char=8882|end_char=8883
+28	gemäß	gemäß	ADP	APPR	_	32	case	_	start_char=8884|end_char=8889
+29	seiner	sein	DET	PPOSAT	Case=Dat|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	32	det:poss	_	start_char=8890|end_char=8896
+30	oder	oder	CCONJ	KON	_	32	cc	_	start_char=8897|end_char=8901
+31	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	det:poss	_	start_char=8902|end_char=8907
+32	Rasse	Rasse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	25	conj	_	start_char=8908|end_char=8913|SpaceAfter=No
+33	.	.	PUNCT	$.	_	2	punct	_	start_char=8913|end_char=8914|SpacesAfter=\n\n
+
+# text = Das ist eine bekannte Funktion namens “Rassenkorrektur”.
+# sent_id = 67
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=8916|end_char=8919
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=8920|end_char=8923
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=8924|end_char=8928
+4	bekannte	bekannt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=8929|end_char=8937
+5	Funktion	Funktion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=8938|end_char=8946
+6	namens	namens	ADP	APPR	_	8	case	_	start_char=8947|end_char=8953
+7	“	"	PUNCT	$(	_	8	punct	_	start_char=8954|end_char=8955|SpaceAfter=No
+8	Rassenkorrektur	Rassenkorrektur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	start_char=8955|end_char=8970|SpaceAfter=No
+9	”	"	PUNCT	$(	_	8	punct	_	start_char=8970|end_char=8971|SpaceAfter=No
+10	.	.	PUNCT	$.	_	5	punct	_	start_char=8971|end_char=8972|SpacesAfter=\n\n
+
+# text = Das Problem mit Rassenmedizin reicht weit über Fehldiagnosen hinaus.
+# sent_id = 68
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=8974|end_char=8977
+2	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=8978|end_char=8985
+3	mit	mit	ADP	APPR	_	4	case	_	start_char=8986|end_char=8989
+4	Rassenmedizin	Rassenmedizin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	start_char=8990|end_char=9003
+5	reicht	reichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9004|end_char=9010
+6	weit	weit	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=9011|end_char=9015
+7	über	über	ADP	APPR	_	8	case	_	start_char=9016|end_char=9020
+8	Fehldiagnosen	Fehldiagnose	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obl	_	start_char=9021|end_char=9034
+9	hinaus	hinaus	ADV	PTKVZ	_	5	compound:prt	_	start_char=9035|end_char=9041|SpaceAfter=No
+10	.	.	PUNCT	$.	_	5	punct	_	start_char=9041|end_char=9042|SpacesAfter=\n\n
+
+# text = Ihr Fokus auf angeborene Rassenunterschiede bei Krankheiten zerstreut die Aufmerksamkeit und Ressourcen der sozialen Bestimmungsfaktoren, die erschreckende Rassenunterschiede bei der Gesundheit verursachen: fehlender Zugang zu hochwertiger medizinischer Versorgung, Nahrungswüsten in armen Nachbarschaften, Gefährdung durch Umweltgifte, hohe Inhaftierungsraten, und den Stress, Rassendiskriminierung zu erleben.
+# sent_id = 69
+1	Ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=9044|end_char=9047
+2	Fokus	Fokus	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=9048|end_char=9053
+3	auf	auf	ADP	APPR	_	5	case	_	start_char=9054|end_char=9057
+4	angeborene	angeboren	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=9058|end_char=9068
+5	Rassenunterschiede	Rassenunterschied	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	nmod	_	start_char=9069|end_char=9087
+6	bei	bei	ADP	APPR	_	7	case	_	start_char=9088|end_char=9091
+7	Krankheiten	Krankheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	nmod	_	start_char=9092|end_char=9103
+8	zerstreut	zerstreuen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9104|end_char=9113
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=9114|end_char=9117
+10	Aufmerksamkeit	Aufmerksamkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=9118|end_char=9132
+11	und	und	CCONJ	KON	_	12	cc	_	start_char=9133|end_char=9136
+12	Ressourcen	Ressource	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	conj	_	start_char=9137|end_char=9147
+13	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	15	det	_	start_char=9148|end_char=9151
+14	sozialen	sozial	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=9152|end_char=9160
+15	Bestimmungsfaktoren	Bestimmungsfaktor	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	start_char=9161|end_char=9180|SpaceAfter=No
+16	,	,	PUNCT	$,	_	23	punct	_	start_char=9180|end_char=9181
+17	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	23	nsubj	_	start_char=9182|end_char=9185
+18	erschreckende	erschreckend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	19	amod	_	start_char=9186|end_char=9199
+19	Rassenunterschiede	Rassenunterschied	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	23	obj	_	start_char=9200|end_char=9218
+20	bei	bei	ADP	APPR	_	22	case	_	start_char=9219|end_char=9222
+21	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=9223|end_char=9226
+22	Gesundheit	Gesundheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	nmod	_	start_char=9227|end_char=9237
+23	verursachen	verursachen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	start_char=9238|end_char=9249|SpaceAfter=No
+24	:	:	PUNCT	$.	_	26	punct	_	start_char=9249|end_char=9250
+25	fehlender	fehlend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=9251|end_char=9260
+26	Zugang	Zugang	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	appos	_	start_char=9261|end_char=9267
+27	zu	zu	ADP	APPR	_	30	case	_	start_char=9268|end_char=9270
+28	hochwertiger	hochwertig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	start_char=9271|end_char=9283
+29	medizinischer	medizinisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	start_char=9284|end_char=9297
+30	Versorgung	Versorgung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	26	nmod	_	start_char=9298|end_char=9308|SpaceAfter=No
+31	,	,	PUNCT	$,	_	32	punct	_	start_char=9308|end_char=9309
+32	Nahrungswüsten	Nahrungswüste	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	26	conj	_	start_char=9310|end_char=9324
+33	in	in	ADP	APPR	_	35	case	_	start_char=9325|end_char=9327
+34	armen	arm	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	35	amod	_	start_char=9328|end_char=9333
+35	Nachbarschaften	Nachbarschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	32	nmod	_	start_char=9334|end_char=9349|SpaceAfter=No
+36	,	,	PUNCT	$,	_	37	punct	_	start_char=9349|end_char=9350
+37	Gefährdung	Gefährdung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	26	conj	_	start_char=9351|end_char=9361
+38	durch	durch	ADP	APPR	_	39	case	_	start_char=9362|end_char=9367
+39	Umweltgifte	Umweltgift	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	37	nmod	_	start_char=9368|end_char=9379|SpaceAfter=No
+40	,	,	PUNCT	$,	_	42	punct	_	start_char=9379|end_char=9380
+41	hohe	hoch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	42	amod	_	start_char=9381|end_char=9385
+42	Inhaftierungsraten	Inhaftierungsrate	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	39	conj	_	start_char=9386|end_char=9404|SpaceAfter=No
+43	,	,	PUNCT	$,	_	46	punct	_	start_char=9404|end_char=9405
+44	und	und	CCONJ	KON	_	46	cc	_	start_char=9406|end_char=9409
+45	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	start_char=9410|end_char=9413
+46	Stress	Streß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	start_char=9414|end_char=9420|SpaceAfter=No
+47	,	,	PUNCT	$,	_	50	punct	_	start_char=9420|end_char=9421
+48	Rassendiskriminierung	Rassendiskriminierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	50	obj	_	start_char=9422|end_char=9443
+49	zu	zu	PART	PTKZU	_	50	mark	_	start_char=9444|end_char=9446
+50	erleben	erleben	VERB	VVINF	VerbForm=Inf	46	acl	_	start_char=9447|end_char=9454|SpaceAfter=No
+51	.	.	PUNCT	$.	_	8	punct	_	start_char=9454|end_char=9455|SpacesAfter=\n\n
+
+# text = Sehen Sie, die Rasse stellt keine biologische Kategorie dar, die diese Ungleichheiten natürlich, aufgrund von genetischen Differenzen produziert.
+# sent_id = 70
+1	Sehen	Sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9457|end_char=9462
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=9463|end_char=9466|SpaceAfter=No
+3	,	,	PUNCT	$,	_	6	punct	_	start_char=9466|end_char=9467
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=9468|end_char=9471
+5	Rasse	Rasse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=9472|end_char=9477
+6	stellt	stellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	start_char=9478|end_char=9484
+7	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	9	det	_	start_char=9485|end_char=9490
+8	biologische	biologisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=9491|end_char=9502
+9	Kategorie	Kategorie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=9503|end_char=9512
+10	dar	dar	ADV	PTKVZ	_	6	compound:prt	_	start_char=9513|end_char=9516|SpaceAfter=No
+11	,	,	PUNCT	$,	_	21	punct	_	start_char=9516|end_char=9517
+12	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	21	nsubj	_	start_char=9518|end_char=9521
+13	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	14	det	_	start_char=9522|end_char=9527
+14	Ungleichheiten	Ungleichheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	21	obj	_	start_char=9528|end_char=9542
+15	natürlich	natürlich	ADJ	ADV	Degree=Pos	21	advmod	_	start_char=9543|end_char=9552|SpaceAfter=No
+16	,	,	PUNCT	$,	_	15	punct	_	start_char=9552|end_char=9553
+17	aufgrund	aufgrund	ADP	ADV	_	20	case	_	start_char=9554|end_char=9562
+18	von	von	ADP	APPR	_	20	case	_	start_char=9563|end_char=9566
+19	genetischen	genetisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	start_char=9567|end_char=9578
+20	Differenzen	Differenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	21	obl	_	start_char=9579|end_char=9590
+21	produziert	produzieren	VERB	VVPP	VerbForm=Part	9	acl	_	start_char=9591|end_char=9601|SpaceAfter=No
+22	.	.	PUNCT	$.	_	1	punct	_	start_char=9601|end_char=9602|SpacesAfter=\n\n
+
+# text = Rasse ist eine soziale Kategorie, die gewaltige biologische Konsequenzen hat, aufgrund der Auswirkung von sozialer Ungleichheit auf die menschliche Gesundheit.
+# sent_id = 71
+1	Rasse	Rasse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=9604|end_char=9609
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=9610|end_char=9613
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=9614|end_char=9618
+4	soziale	sozial	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=9619|end_char=9626
+5	Kategorie	Kategorie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=9627|end_char=9636|SpaceAfter=No
+6	,	,	PUNCT	$,	_	11	punct	_	start_char=9636|end_char=9637
+7	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	11	nsubj	_	start_char=9638|end_char=9641
+8	gewaltige	gewaltig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=9642|end_char=9651
+9	biologische	biologisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=9652|end_char=9663
+10	Konsequenzen	Konsequenz	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	start_char=9664|end_char=9676
+11	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	start_char=9677|end_char=9680|SpaceAfter=No
+12	,	,	PUNCT	$,	_	15	punct	_	start_char=9680|end_char=9681
+13	aufgrund	aufgrund	ADP	APPR	_	15	case	_	start_char=9682|end_char=9690
+14	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=9691|end_char=9694
+15	Auswirkung	Auswirkung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=9695|end_char=9705
+16	von	von	ADP	APPR	_	18	case	_	start_char=9706|end_char=9709
+17	sozialer	sozial	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=9710|end_char=9718
+18	Ungleichheit	Ungleichheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	start_char=9719|end_char=9731
+19	auf	auf	ADP	APPR	_	22	case	_	start_char=9732|end_char=9735
+20	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=9736|end_char=9739
+21	menschliche	menschlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=9740|end_char=9751
+22	Gesundheit	Gesundheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	nmod	_	start_char=9752|end_char=9762|SpaceAfter=No
+23	.	.	PUNCT	$.	_	5	punct	_	start_char=9762|end_char=9763|SpacesAfter=\n\n
+
+# text = Trotzdem tut die Rassenmedizin so, als ob die Antwort auf diese gesundheitlichen Unterschiede in einer rassenspezifischen Pille gefunden werden kann.
+# sent_id = 72
+1	Trotzdem	trotzdem	ADV	PAV	_	2	advmod	_	start_char=9765|end_char=9773
+2	tut	tun	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9774|end_char=9777
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=9778|end_char=9781
+4	Rassenmedizin	Rassenmedizin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=9782|end_char=9795
+5	so	so	ADV	ADV	_	2	advmod	_	start_char=9796|end_char=9798|SpaceAfter=No
+6	,	,	PUNCT	$,	_	19	punct	_	start_char=9798|end_char=9799
+7	als	als	SCONJ	KOUS	_	19	mark	_	start_char=9800|end_char=9803
+8	ob	ob	SCONJ	KOUS	_	19	mark	_	start_char=9804|end_char=9806
+9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=9807|end_char=9810
+10	Antwort	Antwort	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj:pass	_	start_char=9811|end_char=9818
+11	auf	auf	ADP	APPR	_	14	case	_	start_char=9819|end_char=9822
+12	diese	dieser	DET	PDAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	14	det	_	start_char=9823|end_char=9828
+13	gesundheitlichen	gesundheitlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	start_char=9829|end_char=9845
+14	Unterschiede	Unterschied	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	nmod	_	start_char=9846|end_char=9858
+15	in	in	ADP	APPR	_	18	case	_	start_char=9859|end_char=9861
+16	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	18	det	_	start_char=9862|end_char=9867
+17	rassenspezifischen	rassenspezifisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=9868|end_char=9886
+18	Pille	Pille	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	start_char=9887|end_char=9892
+19	gefunden	finden	VERB	VVPP	VerbForm=Part	2	advcl	_	start_char=9893|end_char=9901
+20	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	19	aux:pass	_	start_char=9902|end_char=9908
+21	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=9909|end_char=9913|SpaceAfter=No
+22	.	.	PUNCT	$.	_	2	punct	_	start_char=9913|end_char=9914|SpacesAfter=\n\n
+
+# text = Es ist viel einfacher und lukrativer, eine technologische Lösung zu vermarkten, für diese gesundheitlichen Unterschiede, als sich mit den strukturellen Benachteiligungen zu befassen, die diese erzeugen.
+# sent_id = 73
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=9916|end_char=9918
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=9919|end_char=9922
+3	viel	viel	ADV	ADV	_	4	advmod	_	start_char=9923|end_char=9927
+4	einfacher	einfach	ADJ	ADJD	Degree=Cmp	0	root	_	start_char=9928|end_char=9937
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=9938|end_char=9941
+6	lukrativer	lukrativ	ADJ	ADJD	Degree=Cmp	4	conj	_	start_char=9942|end_char=9952|SpaceAfter=No
+7	,	,	PUNCT	$,	_	12	punct	_	start_char=9952|end_char=9953
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=9954|end_char=9958
+9	technologische	technologisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=9959|end_char=9973
+10	Lösung	Lösung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=9974|end_char=9980
+11	zu	zu	PART	PTKZU	_	12	mark	_	start_char=9981|end_char=9983
+12	vermarkten	vermarkten	VERB	VVINF	VerbForm=Inf	4	xcomp	_	start_char=9984|end_char=9994|SpaceAfter=No
+13	,	,	PUNCT	$,	_	17	punct	_	start_char=9994|end_char=9995
+14	für	für	ADP	APPR	_	17	case	_	start_char=9996|end_char=9999
+15	diese	dieser	DET	PDAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	17	det	_	start_char=10000|end_char=10005
+16	gesundheitlichen	gesundheitlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	start_char=10006|end_char=10022
+17	Unterschiede	Unterschied	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	26	obl	_	start_char=10023|end_char=10035|SpaceAfter=No
+18	,	,	PUNCT	$,	_	26	punct	_	start_char=10035|end_char=10036
+19	als	als	ADP	KOKOM	_	26	mark	_	start_char=10037|end_char=10040
+20	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	26	obj	_	start_char=10041|end_char=10045
+21	mit	mit	ADP	APPR	_	24	case	_	start_char=10046|end_char=10049
+22	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	24	det	_	start_char=10050|end_char=10053
+23	strukturellen	strukturell	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	24	amod	_	start_char=10054|end_char=10067
+24	Benachteiligungen	Benachteiligung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	26	obl	_	start_char=10068|end_char=10085
+25	zu	zu	PART	PTKZU	_	26	mark	_	start_char=10086|end_char=10088
+26	befassen	befassen	VERB	VVINF	VerbForm=Inf	12	conj	_	start_char=10089|end_char=10097|SpaceAfter=No
+27	,	,	PUNCT	$,	_	30	punct	_	start_char=10097|end_char=10098
+28	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	30	obj	_	start_char=10099|end_char=10102
+29	diese	dieser	DET	PDS	Case=Acc|Number=Plur|PronType=Dem	30	nsubj	_	start_char=10103|end_char=10108
+30	erzeugen	erzeugen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	acl	_	start_char=10109|end_char=10117|SpaceAfter=No
+31	.	.	PUNCT	$.	_	4	punct	_	start_char=10117|end_char=10118|SpacesAfter=\n\n
+
+# text = Ich möchte die Rassenmedizin so leidenschaftlich beenden, nicht nur, weil das schlechte Praktiken sind.
+# sent_id = 74
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=10120|end_char=10123
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	aux	_	start_char=10124|end_char=10130
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=10131|end_char=10134
+4	Rassenmedizin	Rassenmedizin	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=10135|end_char=10148
+5	so	so	ADV	ADV	_	6	advmod	_	start_char=10149|end_char=10151
+6	leidenschaftlich	leidenschaftlich	ADJ	ADJD	Degree=Pos	7	advmod	_	start_char=10152|end_char=10168
+7	beenden	beenden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=10169|end_char=10176|SpaceAfter=No
+8	,	,	PUNCT	$,	_	15	punct	_	start_char=10176|end_char=10177
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=10178|end_char=10183
+10	nur	nur	ADV	ADV	_	15	advmod	_	start_char=10184|end_char=10187|SpaceAfter=No
+11	,	,	PUNCT	$,	_	15	punct	_	start_char=10187|end_char=10188
+12	weil	weil	SCONJ	KOUS	_	15	mark	_	start_char=10189|end_char=10193
+13	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	15	nsubj	_	start_char=10194|end_char=10197
+14	schlechte	schlecht	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=10198|end_char=10207
+15	Praktiken	Praktik	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	advcl	_	start_char=10208|end_char=10217
+16	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=10218|end_char=10222|SpaceAfter=No
+17	.	.	PUNCT	$.	_	7	punct	_	start_char=10222|end_char=10223|SpacesAfter=\n\n
+
+# text = Ich bin auch auf dieser Mission, weil die Art, wie Ärzte Medizin praktizieren, weiterhin eine falsche und schädliche Sicht auf die Menschheit befördert.
+# sent_id = 75
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=10225|end_char=10228
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=10229|end_char=10232
+3	auch	auch	ADV	ADV	_	2	advmod	_	start_char=10233|end_char=10237
+4	auf	auf	ADP	APPR	_	6	case	_	start_char=10238|end_char=10241
+5	dieser	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=10242|end_char=10248
+6	Mission	Mission	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=10249|end_char=10256|SpaceAfter=No
+7	,	,	PUNCT	$,	_	26	punct	_	start_char=10256|end_char=10257
+8	weil	weil	SCONJ	KOUS	_	26	mark	_	start_char=10258|end_char=10262
+9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=10263|end_char=10266
+10	Art	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	start_char=10267|end_char=10270|SpaceAfter=No
+11	,	,	PUNCT	$,	_	15	punct	_	start_char=10270|end_char=10271
+12	wie	wie	SCONJ	KOUS	_	15	mark	_	start_char=10272|end_char=10275
+13	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	start_char=10276|end_char=10281
+14	Medizin	Medizin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	obj	_	start_char=10282|end_char=10289
+15	praktizieren	praktizieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	start_char=10290|end_char=10302|SpaceAfter=No
+16	,	,	PUNCT	$,	_	15	punct	_	start_char=10302|end_char=10303
+17	weiterhin	weiterhin	ADV	ADV	_	26	advmod	_	start_char=10304|end_char=10313
+18	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	22	det	_	start_char=10314|end_char=10318
+19	falsche	falsch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=10319|end_char=10326
+20	und	und	CCONJ	KON	_	21	cc	_	start_char=10327|end_char=10330
+21	schädliche	schädlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	conj	_	start_char=10331|end_char=10341
+22	Sicht	Sicht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	start_char=10342|end_char=10347
+23	auf	auf	ADP	APPR	_	25	case	_	start_char=10348|end_char=10351
+24	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	start_char=10352|end_char=10355
+25	Menschheit	Menschheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	nmod	_	start_char=10356|end_char=10366
+26	befördert	befördern	VERB	VVPP	VerbForm=Part	2	ccomp	_	start_char=10367|end_char=10376|SpaceAfter=No
+27	.	.	PUNCT	$.	_	2	punct	_	start_char=10376|end_char=10377|SpacesAfter=\n\n
+
+# text = Trotz der vielen visionären Durchbrüche in der Medizin, von denen wir gehört haben, versagt unsere Vorstellungskraft, wenn es um Rassen geht.
+# sent_id = 76
+1	Trotz	trotz	ADP	APPR	_	5	case	_	start_char=10379|end_char=10384
+2	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=10385|end_char=10388
+3	vielen	viel	DET	PIAT	Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	start_char=10389|end_char=10395
+4	visionären	visionär	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=10396|end_char=10406
+5	Durchbrüche	Durchbruch	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	16	obl	_	start_char=10407|end_char=10418
+6	in	in	ADP	APPR	_	8	case	_	start_char=10419|end_char=10421
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=10422|end_char=10425
+8	Medizin	Medizin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	start_char=10426|end_char=10433|SpaceAfter=No
+9	,	,	PUNCT	$,	_	13	punct	_	start_char=10433|end_char=10434
+10	von	von	ADP	APPR	_	11	case	_	start_char=10435|end_char=10438
+11	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	13	obl	_	start_char=10439|end_char=10444
+12	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	start_char=10445|end_char=10448
+13	gehört	gehören	VERB	VVPP	VerbForm=Part	5	acl	_	start_char=10449|end_char=10455
+14	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=10456|end_char=10461|SpaceAfter=No
+15	,	,	PUNCT	$,	_	5	punct	_	start_char=10461|end_char=10462
+16	versagt	versagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=10463|end_char=10470
+17	unsere	unser	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	18	det:poss	_	start_char=10471|end_char=10477
+18	Vorstellungskraft	Vorstellungskraft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	start_char=10478|end_char=10495|SpaceAfter=No
+19	,	,	PUNCT	$,	_	24	punct	_	start_char=10495|end_char=10496
+20	wenn	wenn	SCONJ	KOUS	_	24	mark	_	start_char=10497|end_char=10501
+21	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	start_char=10502|end_char=10504
+22	um	um	ADP	APPR	_	23	case	_	start_char=10505|end_char=10507
+23	Rassen	Rasse	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	24	obl	_	start_char=10508|end_char=10514
+24	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	start_char=10515|end_char=10519|SpaceAfter=No
+25	.	.	PUNCT	$.	_	16	punct	_	start_char=10519|end_char=10520|SpacesAfter=\n\n
+
+# text = Würden Sie sich einen Moment mit mir vorstellen, was passieren würde, wenn Ärzte aufhörten, Patienten nach Rassen zu behandeln.
+# sent_id = 77
+1	Würden	Würde	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	start_char=10522|end_char=10528
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	8	nsubj	_	start_char=10529|end_char=10532
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	start_char=10533|end_char=10537
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=10538|end_char=10543
+5	Moment	Moment	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	start_char=10544|end_char=10550
+6	mit	mit	ADP	APPR	_	7	case	_	start_char=10551|end_char=10554
+7	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	obl	_	start_char=10555|end_char=10558
+8	vorstellen	vorstellen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=10559|end_char=10569|SpaceAfter=No
+9	,	,	PUNCT	$,	_	11	punct	_	start_char=10569|end_char=10570
+10	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	11	nsubj	_	start_char=10571|end_char=10574
+11	passieren	passieren	VERB	VVINF	VerbForm=Inf	8	ccomp	_	start_char=10575|end_char=10584
+12	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	start_char=10585|end_char=10590|SpaceAfter=No
+13	,	,	PUNCT	$,	_	16	punct	_	start_char=10590|end_char=10591
+14	wenn	wenn	SCONJ	KOUS	_	16	mark	_	start_char=10592|end_char=10596
+15	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	start_char=10597|end_char=10602
+16	aufhörten	aufhören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	advcl	_	start_char=10603|end_char=10612|SpaceAfter=No
+17	,	,	PUNCT	$,	_	22	punct	_	start_char=10612|end_char=10613
+18	Patienten	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	22	obj	_	start_char=10614|end_char=10623
+19	nach	nach	ADP	APPR	_	20	case	_	start_char=10624|end_char=10628
+20	Rassen	Rasse	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	22	obl	_	start_char=10629|end_char=10635
+21	zu	zu	PART	PTKZU	_	22	mark	_	start_char=10636|end_char=10638
+22	behandeln	behandeln	VERB	VVINF	VerbForm=Inf	16	xcomp	_	start_char=10639|end_char=10648|SpaceAfter=No
+23	.	.	PUNCT	$.	_	8	punct	_	start_char=10648|end_char=10649|SpacesAfter=\n\n
+
+# text = Stellen Sie sich vor, sie würden ein Klassifizierungssystem aus dem 18. Jahrhundert ablehnen und stattdessen die fortgeschrittensten Kenntnisse der humangenetischen Vielfalt und Einheit integrieren, dass Menschen nicht in biologische Rassen kategorisiert werden können?
+# sent_id = 78
+1	Stellen	Stelle	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=10651|end_char=10658
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	1	nsubj	_	start_char=10659|end_char=10662
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	1	obj	_	start_char=10663|end_char=10667
+4	vor	vor	ADP	PTKVZ	_	1	compound:prt	_	start_char=10668|end_char=10671|SpaceAfter=No
+5	,	,	PUNCT	$,	_	15	punct	_	start_char=10671|end_char=10672
+6	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	start_char=10673|end_char=10676
+7	würden	werden	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	start_char=10677|end_char=10683
+8	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=10684|end_char=10687
+9	Klassifizierungssystem	Klassifizierungssystem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	start_char=10688|end_char=10710
+10	aus	aus	ADP	APPR	_	14	case	_	start_char=10711|end_char=10714
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	start_char=10715|end_char=10718
+12	18	18	NUM	CARD	NumType=Card	14	compound	_	start_char=10719|end_char=10721|SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=10721|end_char=10722
+14	Jahrhundert	Jahrhundert	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	start_char=10723|end_char=10734
+15	ablehnen	ablehnen	VERB	VVINF	VerbForm=Inf	1	ccomp	_	start_char=10735|end_char=10743
+16	und	und	CCONJ	KON	_	26	cc	_	start_char=10744|end_char=10747
+17	stattdessen	stattdessen	ADV	PAV	_	26	advmod	_	start_char=10748|end_char=10759
+18	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	20	det	_	start_char=10760|end_char=10763
+19	fortgeschrittensten	fortgeschritten	ADJ	ADJA	Case=Acc|Degree=Sup|Gender=Neut|Number=Plur	20	amod	_	start_char=10764|end_char=10783
+20	Kenntnisse	Kenntnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	26	obj	_	start_char=10784|end_char=10794
+21	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=10795|end_char=10798
+22	humangenetischen	humangenetisch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=10799|end_char=10815
+23	Vielfalt	Vielfalt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	start_char=10816|end_char=10824
+24	und	und	CCONJ	KON	_	25	cc	_	start_char=10825|end_char=10828
+25	Einheit	Einheit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	23	conj	_	start_char=10829|end_char=10836
+26	integrieren	integrieren	VERB	VVINF	VerbForm=Inf	15	conj	_	start_char=10837|end_char=10848|SpaceAfter=No
+27	,	,	PUNCT	$,	_	34	punct	_	start_char=10848|end_char=10849
+28	dass	dass	SCONJ	KOUS	_	34	mark	_	start_char=10850|end_char=10854
+29	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	34	nsubj:pass	_	start_char=10855|end_char=10863
+30	nicht	nicht	PART	PTKNEG	Polarity=Neg	34	advmod	_	start_char=10864|end_char=10869
+31	in	in	ADP	APPR	_	33	case	_	start_char=10870|end_char=10872
+32	biologische	biologisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	33	amod	_	start_char=10873|end_char=10884
+33	Rassen	Rasse	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	34	obl	_	start_char=10885|end_char=10891
+34	kategorisiert	kategorisieren	VERB	VVPP	VerbForm=Part	26	ccomp	_	start_char=10892|end_char=10905
+35	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	34	aux:pass	_	start_char=10906|end_char=10912
+36	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	start_char=10913|end_char=10919|SpaceAfter=No
+37	?	?	PUNCT	$.	_	1	punct	_	start_char=10919|end_char=10920|SpacesAfter=\n\n
+
+# text = Was, wenn sie statt die Rasse als groben Vertreter für manch wichtigeren Faktor, diesen wichtigeren Faktor tatsächlich untersuchten und angingen?
+# sent_id = 79
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	20	obj	_	start_char=10922|end_char=10925|SpaceAfter=No
+2	,	,	PUNCT	$,	_	20	punct	_	start_char=10925|end_char=10926
+3	wenn	wenn	SCONJ	KOUS	_	20	mark	_	start_char=10927|end_char=10931
+4	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	start_char=10932|end_char=10935
+5	statt	statt	ADP	APPR	_	7	case	_	start_char=10936|end_char=10941
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=10942|end_char=10945
+7	Rasse	Rasse	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	start_char=10946|end_char=10951
+8	als	als	ADP	KOKOM	_	10	case	_	start_char=10952|end_char=10955
+9	groben	grob	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=10956|end_char=10962
+10	Vertreter	Vertreter	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obl	_	start_char=10963|end_char=10972
+11	für	für	ADP	APPR	_	14	case	_	start_char=10973|end_char=10976
+12	manch	manch	ADV	ADV	_	13	advmod	_	start_char=10977|end_char=10982
+13	wichtigeren	wichtig	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Masc|Number=Sing	14	amod	_	start_char=10983|end_char=10994
+14	Faktor	Faktor	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	start_char=10995|end_char=11001|SpaceAfter=No
+15	,	,	PUNCT	$,	_	10	punct	_	start_char=11001|end_char=11002
+16	diesen	dieser	DET	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	18	det	_	start_char=11003|end_char=11009
+17	wichtigeren	wichtig	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Masc|Number=Sing	18	amod	_	start_char=11010|end_char=11021
+18	Faktor	Faktor	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	start_char=11022|end_char=11028
+19	tatsächlich	tatsächlich	ADJ	ADV	Degree=Pos	20	advmod	_	start_char=11029|end_char=11040
+20	untersuchten	untersuchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=11041|end_char=11053
+21	und	und	CCONJ	KON	_	22	cc	_	start_char=11054|end_char=11057
+22	angingen	angehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	start_char=11058|end_char=11066|SpaceAfter=No
+23	?	?	PUNCT	$.	_	20	punct	_	start_char=11066|end_char=11067|SpacesAfter=\n\n
+
+# text = Was, wenn sich Ärzte der Spitze einer Bewegung anschließen würden, zur Beendung struktureller Benachteiligungen, die von Rassismus verursacht werden, nicht von genetischen Unterschieden?
+# sent_id = 80
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	28	nsubj	_	start_char=11069|end_char=11072|SpaceAfter=No
+2	,	,	PUNCT	$,	_	1	punct	_	start_char=11072|end_char=11073
+3	wenn	wenn	SCONJ	KOUS	_	10	mark	_	start_char=11074|end_char=11078
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	start_char=11079|end_char=11083
+5	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	start_char=11084|end_char=11089
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=11090|end_char=11093
+7	Spitze	Spitze	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	obl:arg	_	start_char=11094|end_char=11100
+8	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=11101|end_char=11106
+9	Bewegung	Bewegung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=11107|end_char=11115
+10	anschließen	anschließen	VERB	VVINF	VerbForm=Inf	1	advcl	_	start_char=11116|end_char=11127
+11	würden	werden	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	start_char=11128|end_char=11134|SpaceAfter=No
+12	,	,	PUNCT	$,	_	15	punct	_	start_char=11134|end_char=11135
+13-14	zur	_	_	_	_	_	_	_	start_char=11136|end_char=11139
+13	zu	zu	ADP	APPR	_	15	case	_	_
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Beendung	Beendung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	start_char=11140|end_char=11148
+16	struktureller	strukturell	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	start_char=11149|end_char=11162
+17	Benachteiligungen	Benachteiligung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	start_char=11163|end_char=11180|SpaceAfter=No
+18	,	,	PUNCT	$,	_	22	punct	_	start_char=11180|end_char=11181
+19	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	22	nsubj:pass	_	start_char=11182|end_char=11185
+20	von	von	ADP	APPR	_	21	case	_	start_char=11186|end_char=11189
+21	Rassismus	Rassismus	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	22	obl:agent	_	start_char=11190|end_char=11199
+22	verursacht	verursachen	VERB	VVPP	VerbForm=Part	17	acl	_	start_char=11200|end_char=11210
+23	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	22	aux:pass	_	start_char=11211|end_char=11217|SpaceAfter=No
+24	,	,	PUNCT	$,	_	22	punct	_	start_char=11217|end_char=11218
+25	nicht	nicht	PART	PTKNEG	Polarity=Neg	28	advmod	_	start_char=11219|end_char=11224
+26	von	von	ADP	APPR	_	28	case	_	start_char=11225|end_char=11228
+27	genetischen	genetisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	28	amod	_	start_char=11229|end_char=11240
+28	Unterschieden	Unterschied	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	0	root	_	start_char=11241|end_char=11254|SpaceAfter=No
+29	?	?	PUNCT	$.	_	28	punct	_	start_char=11254|end_char=11255|SpacesAfter=\n\n
+
+# text = Rassenmedizin ist schlechte Medizin, es ist mangelhafte Wissenschaft und eine falsche Interpretation der Menschheit.
+# sent_id = 81
+1	Rassenmedizin	Rassenmedizin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=11257|end_char=11270
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=11271|end_char=11274
+3	schlechte	schlecht	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=11275|end_char=11284
+4	Medizin	Medizin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=11285|end_char=11292|SpaceAfter=No
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=11292|end_char=11293
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=11294|end_char=11296
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=11297|end_char=11300
+8	mangelhafte	mangelhaft	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=11301|end_char=11312
+9	Wissenschaft	Wissenschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	parataxis	_	start_char=11313|end_char=11325
+10	und	und	CCONJ	KON	_	13	cc	_	start_char=11326|end_char=11329
+11	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	13	det	_	start_char=11330|end_char=11334
+12	falsche	falsch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=11335|end_char=11342
+13	Interpretation	Interpretation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	conj	_	start_char=11343|end_char=11357
+14	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=11358|end_char=11361
+15	Menschheit	Menschheit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=11362|end_char=11372|SpaceAfter=No
+16	.	.	PUNCT	$.	_	4	punct	_	start_char=11372|end_char=11373|SpacesAfter=\n\n
+
+# text = Es ist dringender als je zuvor, dieses zurückgebliebene Erbe endlich aufzugeben und unsere gemeinsame Menschlichkeit zu bekräftigen, indem wir die sozialen Ungleichheiten beenden, die uns wirklich trennen.
+# sent_id = 82
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=11375|end_char=11377
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=11378|end_char=11381
+3	dringender	dringend	ADJ	ADJD	Degree=Cmp	0	root	_	start_char=11382|end_char=11392
+4	als	als	ADP	KOKOM	_	5	case	_	start_char=11393|end_char=11396
+5	je	je	ADV	ADV	_	6	advmod	_	start_char=11397|end_char=11399
+6	zuvor	zuvor	ADV	ADV	_	3	advmod	_	start_char=11400|end_char=11405|SpaceAfter=No
+7	,	,	PUNCT	$,	_	12	punct	_	start_char=11405|end_char=11406
+8	dieses	dieser	DET	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	10	det	_	start_char=11407|end_char=11413
+9	zurückgebliebene	zurückgeblieben	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	start_char=11414|end_char=11430
+10	Erbe	Erbe	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	start_char=11431|end_char=11435
+11	endlich	endlich	ADV	ADV	_	12	advmod	_	start_char=11436|end_char=11443
+12	aufzugeben	aufgeben	VERB	VVIZU	VerbForm=Inf	3	csubj	_	start_char=11444|end_char=11454
+13	und	und	CCONJ	KON	_	18	cc	_	start_char=11455|end_char=11458
+14	unsere	unser	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	16	det:poss	_	start_char=11459|end_char=11465
+15	gemeinsame	gemeinsam	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=11466|end_char=11476
+16	Menschlichkeit	Menschlichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	start_char=11477|end_char=11491
+17	zu	zu	PART	PTKZU	_	18	mark	_	start_char=11492|end_char=11494
+18	bekräftigen	bekräftigen	VERB	VVINF	VerbForm=Inf	12	conj	_	start_char=11495|end_char=11506|SpaceAfter=No
+19	,	,	PUNCT	$,	_	25	punct	_	start_char=11506|end_char=11507
+20	indem	indem	SCONJ	KOUS	_	25	mark	_	start_char=11508|end_char=11513
+21	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	start_char=11514|end_char=11517
+22	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	24	det	_	start_char=11518|end_char=11521
+23	sozialen	sozial	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	24	amod	_	start_char=11522|end_char=11530
+24	Ungleichheiten	Ungleichheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	25	obj	_	start_char=11531|end_char=11545
+25	beenden	beenden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	start_char=11546|end_char=11553|SpaceAfter=No
+26	,	,	PUNCT	$,	_	30	punct	_	start_char=11553|end_char=11554
+27	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	30	nsubj	_	start_char=11555|end_char=11558
+28	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	30	obj	_	start_char=11559|end_char=11562
+29	wirklich	wirklich	ADV	ADV	_	30	advmod	_	start_char=11563|end_char=11571
+30	trennen	trennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	acl	_	start_char=11572|end_char=11579|SpaceAfter=No
+31	.	.	PUNCT	$.	_	3	punct	_	start_char=11579|end_char=11580|SpacesAfter=\n\n
+
+# text = Danke.
+# sent_id = 83
+1	Danke	Dank	NOUN	PTKANT	_	0	root	_	start_char=11582|end_char=11587|SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_	start_char=11587|end_char=11588|SpacesAfter=\n\n
+
+# text = nan
+# sent_id = 84
+1	nan	nan	X	NE	_	0	root	_	start_char=11590|end_char=11593|SpacesAfter=\n\n
+
+# text = Danke, danke vielmals.
+# sent_id = 85
+1	Danke	Dank	NOUN	PTKANT	_	0	root	_	start_char=11595|end_char=11600|SpaceAfter=No
+2	,	,	PUNCT	$,	_	3	punct	_	start_char=11600|end_char=11601
+3	danke	danken	INTJ	VVFIN	_	1	parataxis	_	start_char=11602|end_char=11607
+4	vielmals	vielmals	ADV	ADV	_	1	advmod	_	start_char=11608|end_char=11616|SpaceAfter=No
+5	.	.	PUNCT	$.	_	1	punct	_	start_char=11616|end_char=11617|SpaceAfter=No
+
