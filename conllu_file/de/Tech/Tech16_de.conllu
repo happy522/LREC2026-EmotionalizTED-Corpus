@@ -1,0 +1,1721 @@
+# conllu_stats: begin
+# conllu_tokens: 1477
+# conllu_sentences: 74
+# Avrage tokens per senteces: 19.95945945945946
+# conllu_stats: end
+
+
+# text = 5 Probleme die wir mit Designproteinen lösen könnten
+# sent_id = 0
+1	5	5	NUM	CARD	NumType=Card	2	nummod	_	start_char=0|end_char=1
+2	Probleme	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	start_char=2|end_char=10
+3	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Dem,Rel	7	obj	_	start_char=11|end_char=14
+4	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=15|end_char=18
+5	mit	mit	ADP	APPR	_	6	case	_	start_char=19|end_char=22
+6	Designproteinen	Designprotein	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	7	obl	_	start_char=23|end_char=38
+7	lösen	lösen	VERB	VVINF	VerbForm=Inf	2	acl	_	start_char=39|end_char=44
+8	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	start_char=45|end_char=52|SpacesAfter=\n\n
+
+# text = Ich werde Ihnen von den erstaunlichsten Maschinen der Welt erzählen und was wir mit ihnen tun können.
+# sent_id = 1
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=54|end_char=57
+2	werde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=58|end_char=63
+3	Ihnen	Sie	PRON	PPER	Case=Acc|Number=Plur|Person=2|PronType=Prs	10	obl:arg	_	start_char=64|end_char=69
+4	von	von	ADP	APPR	_	7	case	_	start_char=70|end_char=73
+5	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=74|end_char=77
+6	erstaunlichsten	erstaunlich	ADJ	ADJA	Case=Dat|Degree=Sup|Gender=Fem|Number=Plur	7	amod	_	start_char=78|end_char=93
+7	Maschinen	Maschine	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	obl	_	start_char=94|end_char=103
+8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=104|end_char=107
+9	Welt	Welt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=108|end_char=112
+10	erzählen	erzählen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=113|end_char=121
+11	und	und	CCONJ	KON	_	16	cc	_	start_char=122|end_char=125
+12	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	16	obj	_	start_char=126|end_char=129
+13	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	start_char=130|end_char=133
+14	mit	mit	ADP	APPR	_	15	case	_	start_char=134|end_char=137
+15	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	16	obl	_	start_char=138|end_char=143
+16	tun	tun	VERB	VVINF	VerbForm=Inf	10	conj	_	start_char=144|end_char=147
+17	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=148|end_char=154|SpaceAfter=No
+18	.	.	PUNCT	$.	_	10	punct	_	start_char=154|end_char=155|SpacesAfter=\n\n
+
+# text = Proteine, von denen Sie hier einige in einer Zelle sehen, führen im Grunde alle wichtigen Funktionen in unserem Körper aus.
+# sent_id = 2
+1	Proteine	Proteine	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	start_char=157|end_char=165|SpaceAfter=No
+2	,	,	PUNCT	$,	_	11	punct	_	start_char=165|end_char=166
+3	von	von	ADP	APPR	_	4	case	_	start_char=167|end_char=170
+4	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	11	obl	_	start_char=171|end_char=176
+5	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=177|end_char=180
+6	hier	hier	ADV	ADV	_	11	advmod	_	start_char=181|end_char=185
+7	einige	einige	DET	PIS	Case=Nom|Number=Plur|PronType=Ind	11	obj	_	start_char=186|end_char=192
+8	in	in	ADP	APPR	_	10	case	_	start_char=193|end_char=195
+9	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=196|end_char=201
+10	Zelle	Zelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	start_char=202|end_char=207
+11	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	start_char=208|end_char=213|SpaceAfter=No
+12	,	,	PUNCT	$,	_	11	punct	_	start_char=213|end_char=214
+13	führen	führen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=215|end_char=221
+14-15	im	_	_	_	_	_	_	_	start_char=222|end_char=224
+14	in	in	ADP	APPR	_	16	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Grunde	Grund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	start_char=225|end_char=231
+17	alle	alle	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	19	det	_	start_char=232|end_char=236
+18	wichtigen	wichtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=237|end_char=246
+19	Funktionen	Funktion	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	start_char=247|end_char=257
+20	in	in	ADP	APPR	_	22	case	_	start_char=258|end_char=260
+21	unserem	unser	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	22	det:poss	_	start_char=261|end_char=268
+22	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	nmod	_	start_char=269|end_char=275
+23	aus	aus	ADP	PTKVZ	_	13	compound:prt	_	start_char=276|end_char=279|SpaceAfter=No
+24	.	.	PUNCT	$.	_	13	punct	_	start_char=279|end_char=280|SpacesAfter=\n\n
+
+# text = Proteine verdauen Ihr Essen, kontraktieren Ihre Muskeln, erregen Ihre Neuronen und treiben Ihr Immunsystem an.
+# sent_id = 3
+1	Proteine	Proteine	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=282|end_char=290
+2	verdauen	verdauen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=291|end_char=299
+3	Ihr	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	start_char=300|end_char=303
+4	Essen	Essen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=304|end_char=309|SpaceAfter=No
+5	,	,	PUNCT	$,	_	6	punct	_	start_char=309|end_char=310
+6	kontraktieren	kontraktieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=311|end_char=324
+7	Ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=325|end_char=329
+8	Muskeln	Muskel	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	obj	_	start_char=330|end_char=337|SpaceAfter=No
+9	,	,	PUNCT	$,	_	10	punct	_	start_char=337|end_char=338
+10	erregen	erregen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=339|end_char=346
+11	Ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	start_char=347|end_char=351
+12	Neuronen	Neuron	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	start_char=352|end_char=360
+13	und	und	CCONJ	KON	_	14	cc	_	start_char=361|end_char=364
+14	treiben	treiben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=365|end_char=372
+15	Ihr	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	start_char=373|end_char=376
+16	Immunsystem	Immunsystem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	14	obj	_	start_char=377|end_char=388
+17	an	an	ADP	PTKVZ	_	14	compound:prt	_	start_char=389|end_char=391|SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	start_char=391|end_char=392|SpacesAfter=\n\n
+
+# text = Alles was in der Biologie passiert -- fast alles -- passiert dank Proteinen.
+# sent_id = 4
+1	Alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	11	nsubj	_	start_char=394|end_char=399
+2	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	6	nsubj	_	start_char=400|end_char=403
+3	in	in	ADP	APPR	_	5	case	_	start_char=404|end_char=406
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=407|end_char=410
+5	Biologie	Biologie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	start_char=411|end_char=419
+6	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	start_char=420|end_char=428
+7	--	--	PUNCT	$(	_	9	punct	_	start_char=429|end_char=431
+8	fast	fast	ADV	ADV	_	9	advmod	_	start_char=432|end_char=436
+9	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	6	appos	_	start_char=437|end_char=442
+10	--	--	PUNCT	$(	_	9	punct	_	start_char=443|end_char=445
+11	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=446|end_char=454
+12	dank	dank	ADP	APPR	_	13	case	_	start_char=455|end_char=459
+13	Proteinen	Proteinen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	obl	_	start_char=460|end_char=469|SpaceAfter=No
+14	.	.	PUNCT	$.	_	11	punct	_	start_char=469|end_char=470|SpacesAfter=\n\n
+
+# text = Proteine sind lineare Ketten aus Bausteinen namens Aminosäuren.
+# sent_id = 5
+1	Proteine	Proteine	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	start_char=472|end_char=480
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=481|end_char=485
+3	lineare	linear	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=486|end_char=493
+4	Ketten	Kette	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=494|end_char=500
+5	aus	aus	ADP	APPR	_	6	case	_	start_char=501|end_char=504
+6	Bausteinen	Baustein	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	nmod	_	start_char=505|end_char=515
+7	namens	namens	ADP	APPR	_	8	case	_	start_char=516|end_char=522
+8	Aminosäuren	Aminosäure	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	nmod	_	start_char=523|end_char=534|SpaceAfter=No
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=534|end_char=535|SpacesAfter=\n\n
+
+# text = Die Natur nutzt ein Alphabet aus 20 Aminosäuren, deren Namen Sie vielleicht schon mal gehört haben.
+# sent_id = 6
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=537|end_char=540
+2	Natur	Natur	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=541|end_char=546
+3	nutzt	nutzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=547|end_char=552
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=553|end_char=556
+5	Alphabet	Alphabet	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=557|end_char=565
+6	aus	aus	ADP	APPR	_	8	case	_	start_char=566|end_char=569
+7	20	20	NUM	CARD	NumType=Card	8	nummod	_	start_char=570|end_char=572
+8	Aminosäuren	Aminosäure	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	nmod	_	start_char=573|end_char=584|SpaceAfter=No
+9	,	,	PUNCT	$,	_	16	punct	_	start_char=584|end_char=585
+10	deren	der	PRON	PRELAT	Case=Gen|Number=Plur|PronType=Dem,Rel	11	nmod:poss	_	start_char=586|end_char=591
+11	Namen	Name	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	obj	_	start_char=592|end_char=597
+12	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	16	nsubj	_	start_char=598|end_char=601
+13	vielleicht	vielleicht	ADV	ADV	_	16	advmod	_	start_char=602|end_char=612
+14	schon	schon	ADV	ADV	_	15	advmod	_	start_char=613|end_char=618
+15	mal	mal	ADV	ADV	_	16	advmod	_	start_char=619|end_char=622
+16	gehört	gehören	VERB	VVPP	VerbForm=Part	8	acl	_	start_char=623|end_char=629
+17	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=630|end_char=635|SpaceAfter=No
+18	.	.	PUNCT	$.	_	3	punct	_	start_char=635|end_char=636|SpacesAfter=\n\n
+
+# text = In diesem Bild, als Maßstab, stellt jeder Hubbel ein Atom dar.
+# sent_id = 7
+1	In	in	ADP	APPR	_	3	case	_	start_char=638|end_char=640
+2	diesem	dieser	DET	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	start_char=641|end_char=647
+3	Bild	Bild	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	start_char=648|end_char=652|SpaceAfter=No
+4	,	,	PUNCT	$,	_	6	punct	_	start_char=652|end_char=653
+5	als	als	ADP	KOKOM	_	6	case	_	start_char=654|end_char=657
+6	Maßstab	Maßstab	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	start_char=658|end_char=665|SpaceAfter=No
+7	,	,	PUNCT	$,	_	3	punct	_	start_char=665|end_char=666
+8	stellt	stellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=667|end_char=673
+9	jeder	jeder	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	10	det	_	start_char=674|end_char=679
+10	Hubbel	Hubbel	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=680|end_char=686
+11	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=687|end_char=690
+12	Atom	Atom	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	start_char=691|end_char=695
+13	dar	dar	ADV	PTKVZ	_	8	compound:prt	_	start_char=696|end_char=699|SpaceAfter=No
+14	.	.	PUNCT	$.	_	8	punct	_	start_char=699|end_char=700|SpacesAfter=\n\n
+
+# text = Chemische Kräfte zwischen den Aminosäuren falten diese Molekülketten zu einzigartigen, dreidimensionalen Strukturen.
+# sent_id = 8
+1	Chemische	whemisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=702|end_char=711
+2	Kräfte	Kraft	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=712|end_char=718
+3	zwischen	zwischen	ADP	APPR	_	5	case	_	start_char=719|end_char=727
+4	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=728|end_char=731
+5	Aminosäuren	Aminosäure	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	nmod	_	start_char=732|end_char=743
+6	falten	falten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=744|end_char=750
+7	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	8	det	_	start_char=751|end_char=756
+8	Molekülketten	Molekülkette	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=757|end_char=770
+9	zu	zu	ADP	APPR	_	13	case	_	start_char=771|end_char=773
+10	einzigartigen	einzigartig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=774|end_char=787|SpaceAfter=No
+11	,	,	PUNCT	$,	_	12	punct	_	start_char=787|end_char=788
+12	dreidimensionalen	dreidimensionalen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	10	conj	_	start_char=789|end_char=806
+13	Strukturen	Struktur	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	obl	_	start_char=807|end_char=817|SpaceAfter=No
+14	.	.	PUNCT	$.	_	6	punct	_	start_char=817|end_char=818|SpacesAfter=\n\n
+
+# text = Der Faltprozess, obwohl er zufällig scheint, ist in Wirklichkeit sehr präzise.
+# sent_id = 9
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=820|end_char=823
+2	Faltprozess	Faltprozess	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	start_char=824|end_char=835|SpaceAfter=No
+3	,	,	PUNCT	$,	_	7	punct	_	start_char=835|end_char=836
+4	obwohl	obwohl	SCONJ	KOUS	_	7	mark	_	start_char=837|end_char=843
+5	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=844|end_char=846
+6	zufällig	zufällig	ADJ	ADJD	Degree=Pos	7	advmod	_	start_char=847|end_char=855
+7	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=856|end_char=863|SpaceAfter=No
+8	,	,	PUNCT	$,	_	7	punct	_	start_char=863|end_char=864
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=865|end_char=868
+10	in	in	ADP	APPR	_	11	case	_	start_char=869|end_char=871
+11	Wirklichkeit	Wirklichkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	start_char=872|end_char=884
+12	sehr	sehr	ADV	ADV	_	13	advmod	_	start_char=885|end_char=889
+13	präzise	präzis	ADJ	ADJD	Degree=Pos	0	root	_	start_char=890|end_char=897|SpaceAfter=No
+14	.	.	PUNCT	$.	_	13	punct	_	start_char=897|end_char=898|SpacesAfter=\n\n
+
+# text = Jedes Protein faltet sich jedes Mal zu seiner charakteristischen Form, und der Faltprozess dauert nur den Bruchteil einer Sekunde.
+# sent_id = 10
+1	Jedes	jeder	DET	PIAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	2	det	_	start_char=900|end_char=905
+2	Protein	Protein	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=906|end_char=913
+3	faltet	falten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=914|end_char=920
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	start_char=921|end_char=925
+5	jedes	jeder	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	6	det	_	start_char=926|end_char=931
+6	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	start_char=932|end_char=935
+7	zu	zu	ADP	APPR	_	10	case	_	start_char=936|end_char=938
+8	seiner	sein	DET	PPOSAT	Case=Dat|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=939|end_char=945
+9	charakteristischen	charakteristisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=946|end_char=964
+10	Form	Form	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=965|end_char=969|SpaceAfter=No
+11	,	,	PUNCT	$,	_	15	punct	_	start_char=969|end_char=970
+12	und	und	CCONJ	KON	_	15	cc	_	start_char=971|end_char=974
+13	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=975|end_char=978
+14	Faltprozess	Faltprozess	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	start_char=979|end_char=990
+15	dauert	dauern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=991|end_char=997
+16	nur	nur	ADV	ADV	_	15	advmod	_	start_char=998|end_char=1001
+17	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=1002|end_char=1005
+18	Bruchteil	Bruchteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	start_char=1006|end_char=1015
+19	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	20	det	_	start_char=1016|end_char=1021
+20	Sekunde	Sekunde	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	start_char=1022|end_char=1029|SpaceAfter=No
+21	.	.	PUNCT	$.	_	3	punct	_	start_char=1029|end_char=1030|SpacesAfter=\n\n
+
+# text = Und es sind die Formen der Proteine, die es erlauben, diese bemerkenswerten biologischen Funktionen auszuführen.
+# sent_id = 11
+1	Und	und	CCONJ	KON	_	5	cc	_	start_char=1032|end_char=1035
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=1036|end_char=1038
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1039|end_char=1043
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=1044|end_char=1047
+5	Formen	Form	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=1048|end_char=1054
+6	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=1055|end_char=1058
+7	Proteine	Proteine	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	start_char=1059|end_char=1067|SpaceAfter=No
+8	,	,	PUNCT	$,	_	11	punct	_	start_char=1067|end_char=1068
+9	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	11	nsubj	_	start_char=1069|end_char=1072
+10	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	start_char=1073|end_char=1075
+11	erlauben	erlauben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	start_char=1076|end_char=1084|SpaceAfter=No
+12	,	,	PUNCT	$,	_	17	punct	_	start_char=1084|end_char=1085
+13	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	16	det	_	start_char=1086|end_char=1091
+14	bemerkenswerten	bemerkenswert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=1092|end_char=1107
+15	biologischen	biologisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=1108|end_char=1120
+16	Funktionen	Funktion	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	start_char=1121|end_char=1131
+17	auszuführen	ausführen	VERB	VVIZU	VerbForm=Inf	11	xcomp	_	start_char=1132|end_char=1143|SpaceAfter=No
+18	.	.	PUNCT	$.	_	5	punct	_	start_char=1143|end_char=1144|SpacesAfter=\n\n
+
+# text = Zum Beispiel hat Hämoglobin in der Lunge die perfekte Form, um Sauerstoffmoleküle zu binden.
+# sent_id = 12
+1-2	Zum	_	_	_	_	_	_	_	start_char=1146|end_char=1149
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=1150|end_char=1158
+4	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1159|end_char=1162
+5	Hämoglobin	Hämoglobin	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=1163|end_char=1173
+6	in	in	ADP	APPR	_	8	case	_	start_char=1174|end_char=1176
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=1177|end_char=1180
+8	Lunge	Lunge	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=1181|end_char=1186
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=1187|end_char=1190
+10	perfekte	perfekt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=1191|end_char=1199
+11	Form	Form	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=1200|end_char=1204|SpaceAfter=No
+12	,	,	PUNCT	$,	_	16	punct	_	start_char=1204|end_char=1205
+13	um	um	ADP	KOUI	_	16	mark	_	start_char=1206|end_char=1208
+14	Sauerstoffmoleküle	Sauerstoffmolekül	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	16	obj	_	start_char=1209|end_char=1227
+15	zu	zu	PART	PTKZU	_	16	mark	_	start_char=1228|end_char=1230
+16	binden	binden	VERB	VVINF	VerbForm=Inf	4	advcl	_	start_char=1231|end_char=1237|SpaceAfter=No
+17	.	.	PUNCT	$.	_	4	punct	_	start_char=1237|end_char=1238|SpacesAfter=\n\n
+
+# text = Wenn Hämoglobin sich zum Muskel bewegt ändert sich seine Form leicht und der Sauerstoff strömt raus.
+# sent_id = 13
+1	Wenn	wenn	SCONJ	KOUS	_	7	mark	_	start_char=1240|end_char=1244
+2	Hämoglobin	Hämoglobin	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=1245|end_char=1255
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	start_char=1256|end_char=1260
+4-5	zum	_	_	_	_	_	_	_	start_char=1261|end_char=1264
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Muskel	Muskel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	start_char=1265|end_char=1271
+7	bewegt	bewegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	start_char=1272|end_char=1278
+8	ändert	ändern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1279|end_char=1285
+9	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	start_char=1286|end_char=1290
+10	seine	sein	DET	PPOSAT	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	start_char=1291|end_char=1296
+11	Form	Form	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=1297|end_char=1301
+12	leicht	leicht	ADJ	ADJD	Degree=Pos	8	advmod	_	start_char=1302|end_char=1308
+13	und	und	CCONJ	KON	_	16	cc	_	start_char=1309|end_char=1312
+14	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=1313|end_char=1316
+15	Sauerstoff	Sauerstoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	start_char=1317|end_char=1327
+16	strömt	strömen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	start_char=1328|end_char=1334
+17	raus	raus	ADV	PTKVZ	_	16	compound:prt	_	start_char=1335|end_char=1339|SpaceAfter=No
+18	.	.	PUNCT	$.	_	8	punct	_	start_char=1339|end_char=1340|SpacesAfter=\n\n
+
+# text = Die Formen der Proteine, und damit ihre beindruckenden Funktionen, werden von der Sequenz der Aminosäuren in der Proteinkette bestimmt.
+# sent_id = 14
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=1342|end_char=1345
+2	Formen	Form	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	21	nsubj:pass	_	start_char=1346|end_char=1352
+3	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=1353|end_char=1356
+4	Proteine	Proteine	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	start_char=1357|end_char=1365|SpaceAfter=No
+5	,	,	PUNCT	$,	_	10	punct	_	start_char=1365|end_char=1366
+6	und	und	CCONJ	KON	_	10	cc	_	start_char=1367|end_char=1370
+7	damit	damit	ADV	PAV	PronType=Dem	10	advmod	_	start_char=1371|end_char=1376
+8	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=1377|end_char=1381
+9	beindruckenden	beindruckend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=1382|end_char=1396
+10	Funktionen	Funktion	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	conj	_	start_char=1397|end_char=1407|SpaceAfter=No
+11	,	,	PUNCT	$,	_	2	punct	_	start_char=1407|end_char=1408
+12	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	21	aux:pass	_	start_char=1409|end_char=1415
+13	von	von	ADP	APPR	_	15	case	_	start_char=1416|end_char=1419
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=1420|end_char=1423
+15	Sequenz	Sequenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	obl:agent	_	start_char=1424|end_char=1431
+16	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	17	det	_	start_char=1432|end_char=1435
+17	Aminosäuren	Aminosäure	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	start_char=1436|end_char=1447
+18	in	in	ADP	APPR	_	20	case	_	start_char=1448|end_char=1450
+19	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=1451|end_char=1454
+20	Proteinkette	Proteinkette	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	start_char=1455|end_char=1467
+21	bestimmt	bestimmen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1468|end_char=1476|SpaceAfter=No
+22	.	.	PUNCT	$.	_	21	punct	_	start_char=1476|end_char=1477|SpacesAfter=\n\n
+
+# text = In diesem Bild repräsentiert jeder Buchstabe oben eine Aminosäure.
+# sent_id = 15
+1	In	in	ADP	APPR	_	3	case	_	start_char=1479|end_char=1481
+2	diesem	dieser	DET	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	start_char=1482|end_char=1488
+3	Bild	Bild	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=1489|end_char=1493
+4	repräsentiert	repräsentieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1494|end_char=1507
+5	jeder	jeder	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	6	det	_	start_char=1508|end_char=1513
+6	Buchstabe	Buchstabe	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=1514|end_char=1523
+7	oben	oben	ADV	ADV	_	4	advmod	_	start_char=1524|end_char=1528
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=1529|end_char=1533
+9	Aminosäure	Aminosäure	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=1534|end_char=1544|SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	start_char=1544|end_char=1545|SpacesAfter=\n\n
+
+# text = Woher kommen diese Sequenzen?
+# sent_id = 16
+1	Woher	woher	ADV	PWAV	PronType=Int	2	advmod	_	start_char=1547|end_char=1552
+2	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1553|end_char=1559
+3	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	start_char=1560|end_char=1565
+4	Sequenzen	Sequenz	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=1566|end_char=1575|SpaceAfter=No
+5	?	?	PUNCT	$.	_	2	punct	_	start_char=1575|end_char=1576|SpacesAfter=\n\n
+
+# text = Die Gene in Ihrem Genom bestimmen die Aminosäuresequenzen Ihrer Proteine.
+# sent_id = 17
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=1578|end_char=1581
+2	Gene	Gen	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=1582|end_char=1586
+3	in	in	ADP	APPR	_	5	case	_	start_char=1587|end_char=1589
+4	Ihrem	Ihr	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	start_char=1590|end_char=1595
+5	Genom	Genom	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	start_char=1596|end_char=1601
+6	bestimmen	bestimmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1602|end_char=1611
+7	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=1612|end_char=1615
+8	Aminosäuresequenzen	Aminosäuresequenz	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	obj	_	start_char=1616|end_char=1635
+9	Ihrer	Ihr	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=1636|end_char=1641
+10	Proteine	Proteine	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	start_char=1642|end_char=1650|SpaceAfter=No
+11	.	.	PUNCT	$.	_	6	punct	_	start_char=1650|end_char=1651|SpacesAfter=\n\n
+
+# text = Jedes Gen kodiert die Aminosäuresequenz eines einzelnen Proteins.
+# sent_id = 18
+1	Jedes	jeder	DET	PIAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	2	det	_	start_char=1653|end_char=1658
+2	Gen	Gen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=1659|end_char=1662
+3	kodiert	kodieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1663|end_char=1670
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1671|end_char=1674
+5	Aminosäuresequenz	Aminosäuresequenz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=1675|end_char=1692
+6	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=1693|end_char=1698
+7	einzelnen	einzeln	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=1699|end_char=1708
+8	Proteins	Protein	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=1709|end_char=1717|SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	start_char=1717|end_char=1718|SpacesAfter=\n\n
+
+# text = Die Translation zwischen den Aminosäuresequenzen und den Strukturen und Funktionen der Proteine ist bekannt als das "Proteinfalt Problem".
+# sent_id = 19
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1720|end_char=1723
+2	Translation	Translation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	start_char=1724|end_char=1735
+3	zwischen	zwischen	ADP	APPR	_	5	case	_	start_char=1736|end_char=1744
+4	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=1745|end_char=1748
+5	Aminosäuresequenzen	Aminosäuresequenz	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	nmod	_	start_char=1749|end_char=1768
+6	und	und	CCONJ	KON	_	8	cc	_	start_char=1769|end_char=1772
+7	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=1773|end_char=1776
+8	Strukturen	Struktur	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	conj	_	start_char=1777|end_char=1787
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=1788|end_char=1791
+10	Funktionen	Funktion	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	conj	_	start_char=1792|end_char=1802
+11	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	12	det	_	start_char=1803|end_char=1806
+12	Proteine	Proteine	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	start_char=1807|end_char=1815
+13	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=1816|end_char=1819
+14	bekannt	bekennen	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1820|end_char=1827
+15	als	als	ADP	KOKOM	_	19	case	_	start_char=1828|end_char=1831
+16	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	start_char=1832|end_char=1835
+17	"	"	PUNCT	$(	_	19	punct	_	start_char=1836|end_char=1837|SpaceAfter=No
+18	Proteinfalt	Proteinfalt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	19	compound	_	start_char=1837|end_char=1848
+19	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	14	nmod	_	start_char=1849|end_char=1856|SpaceAfter=No
+20	"	"	PUNCT	$(	_	19	punct	_	start_char=1856|end_char=1857|SpaceAfter=No
+21	.	.	PUNCT	$.	_	14	punct	_	start_char=1857|end_char=1858|SpacesAfter=\n\n
+
+# text = Es ist ein sehr komplexes Problem, da es so viele Formen gibt, die ein Protein annehmen kann.
+# sent_id = 20
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=1860|end_char=1862
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1863|end_char=1866
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=1867|end_char=1870
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	start_char=1871|end_char=1875
+5	komplexes	komplex	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=1876|end_char=1885
+6	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=1886|end_char=1893|SpaceAfter=No
+7	,	,	PUNCT	$,	_	13	punct	_	start_char=1893|end_char=1894
+8	da	da	SCONJ	KOUS	_	13	mark	_	start_char=1895|end_char=1897
+9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	start_char=1898|end_char=1900
+10	so	so	ADV	ADV	_	11	advmod	_	start_char=1901|end_char=1903
+11	viele	viel	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	12	det	_	start_char=1904|end_char=1909
+12	Formen	Form	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	nsubj	_	start_char=1910|end_char=1916
+13	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	start_char=1917|end_char=1921|SpaceAfter=No
+14	,	,	PUNCT	$,	_	18	punct	_	start_char=1921|end_char=1922
+15	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	18	nsubj	_	start_char=1923|end_char=1926
+16	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	17	det	_	start_char=1927|end_char=1930
+17	Protein	Protein	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	18	obj	_	start_char=1931|end_char=1938
+18	annehmen	annehmen	VERB	VVINF	VerbForm=Inf	12	acl	_	start_char=1939|end_char=1947
+19	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=1948|end_char=1952|SpaceAfter=No
+20	.	.	PUNCT	$.	_	6	punct	_	start_char=1952|end_char=1953|SpacesAfter=\n\n
+
+# text = Wegen dieser Komplexität haben Menschen die Potenz der Proteine nur nutzen können, indem sie sehr kleine Änderungen in den Aminosäuresequenzen der Proteine aus der Natur vornahmen.
+# sent_id = 21
+1	Wegen	wegen	ADP	APPR	_	3	case	_	start_char=1955|end_char=1960
+2	dieser	dieser	DET	PDAT	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=1961|end_char=1967
+3	Komplexität	Komplexität	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	obl	_	start_char=1968|end_char=1979
+4	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=1980|end_char=1985
+5	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	start_char=1986|end_char=1994
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=1995|end_char=1998
+7	Potenz	Potenz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=1999|end_char=2005
+8	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=2006|end_char=2009
+9	Proteine	Proteine	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	start_char=2010|end_char=2018
+10	nur	nur	ADV	ADV	_	11	advmod	_	start_char=2019|end_char=2022
+11	nutzen	nutzen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2023|end_char=2029
+12	können	können	AUX	VMINF	VerbForm=Inf	11	aux	_	start_char=2030|end_char=2036|SpaceAfter=No
+13	,	,	PUNCT	$,	_	27	punct	_	start_char=2036|end_char=2037
+14	indem	indem	SCONJ	KOUS	_	27	mark	_	start_char=2038|end_char=2043
+15	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	27	nsubj	_	start_char=2044|end_char=2047
+16	sehr	sehr	ADV	ADV	_	17	advmod	_	start_char=2048|end_char=2052
+17	kleine	klein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	start_char=2053|end_char=2059
+18	Änderungen	Änderung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	27	obj	_	start_char=2060|end_char=2070
+19	in	in	ADP	APPR	_	21	case	_	start_char=2071|end_char=2073
+20	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	21	det	_	start_char=2074|end_char=2077
+21	Aminosäuresequenzen	Aminosäuresequenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	18	nmod	_	start_char=2078|end_char=2097
+22	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	23	det	_	start_char=2098|end_char=2101
+23	Proteine	Proteine	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	start_char=2102|end_char=2110
+24	aus	aus	ADP	APPR	_	26	case	_	start_char=2111|end_char=2114
+25	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	start_char=2115|end_char=2118
+26	Natur	Natur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	nmod	_	start_char=2119|end_char=2124
+27	vornahmen	vornehmen	VERB	VVINF	VerbForm=Inf	11	advcl	_	start_char=2125|end_char=2134|SpaceAfter=No
+28	.	.	PUNCT	$.	_	11	punct	_	start_char=2134|end_char=2135|SpacesAfter=\n\n
+
+# text = Dieser Prozess ist ähnlich zu dem unserer Vorfahren, um Werkzeuge und Anderes aus Stöcken und Steinen herzustellen, die wir in der Welt um uns herum fanden.
+# sent_id = 22
+1	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=2137|end_char=2143
+2	Prozess	Prozeß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=2144|end_char=2151
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=2152|end_char=2155
+4	ähnlich	ähnlich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2156|end_char=2163
+5	zu	zu	ADP	APPR	_	8	case	_	start_char=2164|end_char=2166
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=2167|end_char=2170
+7	unserer	unser	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=2171|end_char=2178
+8	Vorfahren	Vorfahr|Vorfahren	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=2179|end_char=2188|SpaceAfter=No
+9	,	,	PUNCT	$,	_	18	punct	_	start_char=2188|end_char=2189
+10	um	um	ADP	KOUI	_	18	mark	_	start_char=2190|end_char=2192
+11	Werkzeuge	Werkzeug	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	18	obj	_	start_char=2193|end_char=2202
+12	und	und	CCONJ	KON	_	13	cc	_	start_char=2203|end_char=2206
+13	Anderes	Anderes	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	conj	_	start_char=2207|end_char=2214
+14	aus	aus	ADP	APPR	_	15	case	_	start_char=2215|end_char=2218
+15	Stöcken	Stock	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	18	obl	_	start_char=2219|end_char=2226
+16	und	und	CCONJ	KON	_	17	cc	_	start_char=2227|end_char=2230
+17	Steinen	Stein	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	15	conj	_	start_char=2231|end_char=2238
+18	herzustellen	herstellen	VERB	VVIZU	VerbForm=Inf	4	advcl	_	start_char=2239|end_char=2251|SpaceAfter=No
+19	,	,	PUNCT	$,	_	28	punct	_	start_char=2251|end_char=2252
+20	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Dem,Rel	28	obj	_	start_char=2253|end_char=2256
+21	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	28	nsubj	_	start_char=2257|end_char=2260
+22	in	in	ADP	APPR	_	24	case	_	start_char=2261|end_char=2263
+23	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	start_char=2264|end_char=2267
+24	Welt	Welt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	28	obl	_	start_char=2268|end_char=2272
+25	um	um	ADP	APPR	_	26	case	_	start_char=2273|end_char=2275
+26	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	28	obl	_	start_char=2276|end_char=2279
+27	herum	herum	ADV	ADV	_	28	advmod	_	start_char=2280|end_char=2285
+28	fanden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	acl	_	start_char=2286|end_char=2292|SpaceAfter=No
+29	.	.	PUNCT	$.	_	4	punct	_	start_char=2292|end_char=2293|SpacesAfter=\n\n
+
+# text = Aber Menschen haben nicht Fliegen gelernt, indem sie Vögel modifiziert haben.
+# sent_id = 23
+1	Aber	aber	CCONJ	KON	_	6	cc	_	start_char=2295|end_char=2299
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=2300|end_char=2308
+3	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=2309|end_char=2314
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=2315|end_char=2320
+5	Fliegen	Fliege	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=2321|end_char=2328
+6	gelernt	lernen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=2329|end_char=2336|SpaceAfter=No
+7	,	,	PUNCT	$,	_	11	punct	_	start_char=2336|end_char=2337
+8	indem	indem	SCONJ	KOUS	_	11	mark	_	start_char=2338|end_char=2343
+9	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=2344|end_char=2347
+10	Vögel	Vogel	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	start_char=2348|end_char=2353
+11	modifiziert	modifizieren	VERB	VVPP	VerbForm=Part	6	advcl	_	start_char=2354|end_char=2365
+12	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=2366|end_char=2371|SpaceAfter=No
+13	.	.	PUNCT	$.	_	6	punct	_	start_char=2371|end_char=2372|SpacesAfter=\n\n
+
+# text = Stattdessen entdeckten wir, inspiriert von Vögeln, die Prinzipien der Aerodynamik.
+# sent_id = 24
+1	Stattdessen	stattdessen	ADV	PAV	_	2	advmod	_	start_char=2374|end_char=2385
+2	entdeckten	entdecken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=2386|end_char=2396
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=2397|end_char=2400|SpaceAfter=No
+4	,	,	PUNCT	$,	_	5	punct	_	start_char=2400|end_char=2401
+5	inspiriert	inspirieren	VERB	VVPP	VerbForm=Part	3	acl	_	start_char=2402|end_char=2412
+6	von	von	ADP	APPR	_	7	case	_	start_char=2413|end_char=2416
+7	Vögeln	Vogel	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	start_char=2417|end_char=2423|SpaceAfter=No
+8	,	,	PUNCT	$,	_	10	punct	_	start_char=2423|end_char=2424
+9	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	10	det	_	start_char=2425|end_char=2428
+10	Prinzipien	Prinzip	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	appos	_	start_char=2429|end_char=2439
+11	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=2440|end_char=2443
+12	Aerodynamik	Aerodynamik	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=2444|end_char=2455|SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=2455|end_char=2456|SpacesAfter=\n\n
+
+# text = Ingenieure nutzten das dann, um Flugzeuge zu entwerfen.
+# sent_id = 25
+1	Ingenieure	Ingenieur	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=2458|end_char=2468
+2	nutzten	nutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2469|end_char=2476
+3	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=2477|end_char=2480
+4	dann	dann	ADV	ADV	_	2	advmod	_	start_char=2481|end_char=2485|SpaceAfter=No
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=2485|end_char=2486
+6	um	um	ADP	KOUI	_	9	mark	_	start_char=2487|end_char=2489
+7	Flugzeuge	Flugzeug	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	start_char=2490|end_char=2499
+8	zu	zu	PART	PTKZU	_	9	mark	_	start_char=2500|end_char=2502
+9	entwerfen	entwerfen	VERB	VVINF	VerbForm=Inf	2	advcl	_	start_char=2503|end_char=2512|SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=2512|end_char=2513|SpacesAfter=\n\n
+
+# text = Ähnlich dazu arbeiteten wir etliche Jahre daran, die fundamentalen Prinzipien der Proteinfaltung aufzudecken und diese in ein Computerprogramm namens Rosetta zu kodieren.
+# sent_id = 26
+1	Ähnlich	ähnlich	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=2515|end_char=2522
+2	dazu	dazu	ADV	PAV	PronType=Dem	3	advmod	_	start_char=2523|end_char=2527
+3	arbeiteten	arbeiten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=2528|end_char=2538
+4	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=2539|end_char=2542
+5	etliche	etliche	DET	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	6	det	_	start_char=2543|end_char=2550
+6	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	start_char=2551|end_char=2556
+7	daran	daran	ADV	PAV	PronType=Dem	3	advmod	_	start_char=2557|end_char=2562|SpaceAfter=No
+8	,	,	PUNCT	$,	_	14	punct	_	start_char=2562|end_char=2563
+9	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=2564|end_char=2567
+10	fundamentalen	fundamental	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=2568|end_char=2581
+11	Prinzipien	Prinzip	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	obj	_	start_char=2582|end_char=2592
+12	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=2593|end_char=2596
+13	Proteinfaltung	Proteinfaltung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=2597|end_char=2611
+14	aufzudecken	aufdecken	VERB	VVIZU	VerbForm=Inf	3	xcomp	_	start_char=2612|end_char=2623
+15	und	und	CCONJ	KON	_	23	cc	_	start_char=2624|end_char=2627
+16	diese	dieser	DET	PDS	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	23	obj	_	start_char=2628|end_char=2633
+17	in	in	ADP	APPR	_	19	case	_	start_char=2634|end_char=2636
+18	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	19	det	_	start_char=2637|end_char=2640
+19	Computerprogramm	Computerprogramm	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	23	obl	_	start_char=2641|end_char=2657
+20	namens	namens	ADP	APPR	_	21	case	_	start_char=2658|end_char=2664
+21	Rosetta	Rosetta	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	start_char=2665|end_char=2672
+22	zu	zu	PART	PTKZU	_	23	mark	_	start_char=2673|end_char=2675
+23	kodieren	kodieren	VERB	VVINF	VerbForm=Inf	14	conj	_	start_char=2676|end_char=2684|SpaceAfter=No
+24	.	.	PUNCT	$.	_	3	punct	_	start_char=2684|end_char=2685|SpacesAfter=\n\n
+
+# text = In den letzten Jahren machten wir einen Durchbruch.
+# sent_id = 27
+1	In	in	ADP	APPR	_	4	case	_	start_char=2687|end_char=2689
+2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=2690|end_char=2693
+3	letzten	letzt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	start_char=2694|end_char=2701
+4	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	5	obl	_	start_char=2702|end_char=2708
+5	machten	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=2709|end_char=2716
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=2717|end_char=2720
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=2721|end_char=2726
+8	Durchbruch	Durchbruch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=2727|end_char=2737|SpaceAfter=No
+9	.	.	PUNCT	$.	_	5	punct	_	start_char=2737|end_char=2738|SpacesAfter=\n\n
+
+# text = Wir können nun komplett neue Proteine von Null an am Computer selbst kreieren.
+# sent_id = 28
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	start_char=2740|end_char=2743
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=2744|end_char=2750
+3	nun	nun	ADV	ADV	_	14	advmod	_	start_char=2751|end_char=2754
+4	komplett	komplett	ADJ	ADJD	Degree=Pos	14	advmod	_	start_char=2755|end_char=2763
+5	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=2764|end_char=2768
+6	Proteine	Proteine	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	start_char=2769|end_char=2777
+7	von	von	ADP	APPR	_	8	case	_	start_char=2778|end_char=2781
+8	Null	null	NUM	CARD	NumType=Card	14	obl	_	start_char=2782|end_char=2786
+9	an	an	ADP	APPR	_	12	case	_	start_char=2787|end_char=2789
+10-11	am	_	_	_	_	_	_	_	start_char=2790|end_char=2792
+10	an	an	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Computer	Computer	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	start_char=2793|end_char=2801
+13	selbst	selbst	ADV	ADV	_	12	advmod	_	start_char=2802|end_char=2808
+14	kreieren	kreieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2809|end_char=2817|SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	start_char=2817|end_char=2818|SpacesAfter=\n\n
+
+# text = Wenn wir ein neues Protein kreiert haben, kodieren wir seine Aminosequenzen in ein synthetisches Gen.
+# sent_id = 29
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=2820|end_char=2824
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=2825|end_char=2828
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=2829|end_char=2832
+4	neues	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=2833|end_char=2838
+5	Protein	Protein	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=2839|end_char=2846
+6	kreiert	kreieren	VERB	VVPP	VerbForm=Part	9	advcl	_	start_char=2847|end_char=2854
+7	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=2855|end_char=2860|SpaceAfter=No
+8	,	,	PUNCT	$,	_	6	punct	_	start_char=2860|end_char=2861
+9	kodieren	kodieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2862|end_char=2870
+10	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=2871|end_char=2874
+11	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	start_char=2875|end_char=2880
+12	Aminosequenzen	Aminosequenz	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	start_char=2881|end_char=2895
+13	in	in	ADP	APPR	_	16	case	_	start_char=2896|end_char=2898
+14	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	16	det	_	start_char=2899|end_char=2902
+15	synthetisches	synthetisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	start_char=2903|end_char=2916
+16	Gen	Gen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	start_char=2917|end_char=2920|SpaceAfter=No
+17	.	.	PUNCT	$.	_	9	punct	_	start_char=2920|end_char=2921|SpacesAfter=\n\n
+
+# text = Wir müssen ein synthetisches Gen nehmen, denn weil das Protein komplett neu ist, gibt es kein Gen in einem Organismus, das dieses Protein kodiert.
+# sent_id = 30
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=2923|end_char=2926
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=2927|end_char=2933
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=2934|end_char=2937
+4	synthetisches	synthetisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=2938|end_char=2951
+5	Gen	Gen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=2952|end_char=2955
+6	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2956|end_char=2962|SpaceAfter=No
+7	,	,	PUNCT	$,	_	13	punct	_	start_char=2962|end_char=2963
+8	denn	denn	SCONJ	KON	_	13	mark	_	start_char=2964|end_char=2968
+9	weil	weil	SCONJ	KOUS	_	13	mark	_	start_char=2969|end_char=2973
+10	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	start_char=2974|end_char=2977
+11	Protein	Protein	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	start_char=2978|end_char=2985
+12	komplett	komplett	ADJ	ADJD	Degree=Pos	13	advmod	_	start_char=2986|end_char=2994
+13	neu	neu	ADJ	ADJD	Degree=Pos	6	advcl	_	start_char=2995|end_char=2998
+14	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=2999|end_char=3002|SpaceAfter=No
+15	,	,	PUNCT	$,	_	13	punct	_	start_char=3002|end_char=3003
+16	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	start_char=3004|end_char=3008
+17	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	expl	_	start_char=3009|end_char=3011
+18	kein	kein	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	19	det	_	start_char=3012|end_char=3016
+19	Gen	Gen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	16	nsubj	_	start_char=3017|end_char=3020
+20	in	in	ADP	APPR	_	22	case	_	start_char=3021|end_char=3023
+21	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	22	det	_	start_char=3024|end_char=3029
+22	Organismus	Organismus	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	nmod	_	start_char=3030|end_char=3040|SpaceAfter=No
+23	,	,	PUNCT	$,	_	27	punct	_	start_char=3040|end_char=3041
+24	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	27	nsubj	_	start_char=3042|end_char=3045
+25	dieses	dieser	DET	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	26	det	_	start_char=3046|end_char=3052
+26	Protein	Protein	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	27	obj	_	start_char=3053|end_char=3060
+27	kodiert	kodieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl	_	start_char=3061|end_char=3068|SpaceAfter=No
+28	.	.	PUNCT	$.	_	6	punct	_	start_char=3068|end_char=3069|SpacesAfter=\n\n
+
+# text = Unsere Fortschritte im Verständnis der Proteinfaltung und der Herstellung von Proteinen, zusammen mit den sinkenden Kosten der Gensynthese und dem Anstieg der Rechenleistung nach dem Mooreschem Gesetz, erlauben uns nun, am Computer zehntausende neue Proteine zu entwerfen, mit neuen Formen und neuen Funktionen, und jedes einzelne davon in einem synthetischen Gen zu kodieren.
+# sent_id = 31
+1	Unsere	unser	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=3071|end_char=3077
+2	Fortschritte	Fortschritt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	31	nsubj	_	start_char=3078|end_char=3090
+3-4	im	_	_	_	_	_	_	_	start_char=3091|end_char=3093
+3	in	in	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Verständnis	Verständnis	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	start_char=3094|end_char=3105
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=3106|end_char=3109
+7	Proteinfaltung	Proteinfaltung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=3110|end_char=3124
+8	und	und	CCONJ	KON	_	10	cc	_	start_char=3125|end_char=3128
+9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=3129|end_char=3132
+10	Herstellung	Herstellung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	conj	_	start_char=3133|end_char=3144
+11	von	von	ADP	APPR	_	12	case	_	start_char=3145|end_char=3148
+12	Proteinen	Proteinen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	nmod	_	start_char=3149|end_char=3158|SpaceAfter=No
+13	,	,	PUNCT	$,	_	18	punct	_	start_char=3158|end_char=3159
+14	zusammen	zusammen	ADV	ADV	_	18	advmod	_	start_char=3160|end_char=3168
+15	mit	mit	ADP	APPR	_	18	case	_	start_char=3169|end_char=3172
+16	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	18	det	_	start_char=3173|end_char=3176
+17	sinkenden	sinkend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	18	amod	_	start_char=3177|end_char=3186
+18	Kosten	Kosten	NOUN	NN	Case=Dat|Number=Plur	10	nmod	_	start_char=3187|end_char=3193
+19	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=3194|end_char=3197
+20	Gensynthese	Gensynthese	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	start_char=3198|end_char=3209
+21	und	und	CCONJ	KON	_	23	cc	_	start_char=3210|end_char=3213
+22	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	start_char=3214|end_char=3217
+23	Anstieg	Anstieg	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	conj	_	start_char=3218|end_char=3225
+24	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	start_char=3226|end_char=3229
+25	Rechenleistung	Rechenleistung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	start_char=3230|end_char=3244
+26	nach	nach	ADP	APPR	_	29	case	_	start_char=3245|end_char=3249
+27	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	29	det	_	start_char=3250|end_char=3253
+28	Mooreschem	Mooreschem	PROPN	ADJA	Case=Dat|Gender=Neut|Number=Sing	29	amod	_	start_char=3254|end_char=3264
+29	Gesetz	Gesetz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	25	nmod	_	start_char=3265|end_char=3271|SpaceAfter=No
+30	,	,	PUNCT	$,	_	2	punct	_	start_char=3271|end_char=3272
+31	erlauben	erlauben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3273|end_char=3281
+32	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	31	obj	_	start_char=3282|end_char=3285
+33	nun	nun	ADV	ADV	_	31	advmod	_	start_char=3286|end_char=3289|SpaceAfter=No
+34	,	,	PUNCT	$,	_	42	punct	_	start_char=3289|end_char=3290
+35-36	am	_	_	_	_	_	_	_	start_char=3291|end_char=3293
+35	an	an	ADP	APPR	_	37	case	_	_
+36	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	Computer	Computer	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	42	obl	_	start_char=3294|end_char=3302
+38	zehntausende	zehntausende	NUM	CARD	NumType=Card	40	nummod	_	start_char=3303|end_char=3315
+39	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	40	amod	_	start_char=3316|end_char=3320
+40	Proteine	Proteine	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	42	obj	_	start_char=3321|end_char=3329
+41	zu	zu	PART	PTKZU	_	42	mark	_	start_char=3330|end_char=3332
+42	entwerfen	entwerfen	VERB	VVINF	VerbForm=Inf	31	xcomp	_	start_char=3333|end_char=3342|SpaceAfter=No
+43	,	,	PUNCT	$,	_	46	punct	_	start_char=3342|end_char=3343
+44	mit	mit	ADP	APPR	_	46	case	_	start_char=3344|end_char=3347
+45	neuen	neu	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	46	amod	_	start_char=3348|end_char=3353
+46	Formen	Form	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	60	obl	_	start_char=3354|end_char=3360
+47	und	und	CCONJ	KON	_	49	cc	_	start_char=3361|end_char=3364
+48	neuen	neu	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	49	amod	_	start_char=3365|end_char=3370
+49	Funktionen	Funktion	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	46	conj	_	start_char=3371|end_char=3381|SpaceAfter=No
+50	,	,	PUNCT	$,	_	60	punct	_	start_char=3381|end_char=3382
+51	und	und	CCONJ	KON	_	60	cc	_	start_char=3383|end_char=3386
+52	jedes	jeder	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	53	det	_	start_char=3387|end_char=3392
+53	einzelne	einzeln	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	58	amod	_	start_char=3393|end_char=3401
+54	davon	davon	ADV	PAV	PronType=Dem	60	advmod	_	start_char=3402|end_char=3407
+55	in	in	ADP	APPR	_	58	case	_	start_char=3408|end_char=3410
+56	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	58	det	_	start_char=3411|end_char=3416
+57	synthetischen	synthetisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	58	amod	_	start_char=3417|end_char=3430
+58	Gen	Gen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	60	obl	_	start_char=3431|end_char=3434
+59	zu	zu	PART	PTKZU	_	60	mark	_	start_char=3435|end_char=3437
+60	kodieren	kodieren	VERB	VVINF	VerbForm=Inf	42	conj	_	start_char=3438|end_char=3446|SpaceAfter=No
+61	.	.	PUNCT	$.	_	31	punct	_	start_char=3446|end_char=3447|SpacesAfter=\n\n
+
+# text = Die synthetischen Gene fügen wir dann in Bakterien ein um sie zu programmieren, diese brandneuen Proteine herzustellen.
+# sent_id = 32
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=3449|end_char=3452
+2	synthetischen	synthetisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=3453|end_char=3466
+3	Gene	Gen	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=3467|end_char=3471
+4	fügen	fügen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3472|end_char=3477
+5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=3478|end_char=3481
+6	dann	dann	ADV	ADV	_	4	advmod	_	start_char=3482|end_char=3486
+7	in	in	ADP	APPR	_	8	case	_	start_char=3487|end_char=3489
+8	Bakterien	Bakterium	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	start_char=3490|end_char=3499
+9	ein	ein	ADV	PTKVZ	_	4	compound:prt	_	start_char=3500|end_char=3503
+10	um	um	ADP	KOUI	_	13	mark	_	start_char=3504|end_char=3506
+11	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obj	_	start_char=3507|end_char=3510
+12	zu	zu	PART	PTKZU	_	13	mark	_	start_char=3511|end_char=3513
+13	programmieren	programmieren	VERB	VVINF	VerbForm=Inf	4	advcl	_	start_char=3514|end_char=3527|SpaceAfter=No
+14	,	,	PUNCT	$,	_	18	punct	_	start_char=3527|end_char=3528
+15	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	17	det	_	start_char=3529|end_char=3534
+16	brandneuen	brandneu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	start_char=3535|end_char=3545
+17	Proteine	Proteine	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	18	obj	_	start_char=3546|end_char=3554
+18	herzustellen	herstellen	VERB	VVIZU	VerbForm=Inf	13	xcomp	_	start_char=3555|end_char=3567|SpaceAfter=No
+19	.	.	PUNCT	$.	_	4	punct	_	start_char=3567|end_char=3568|SpacesAfter=\n\n
+
+# text = Wir extrahieren dann die Proteine und ermitteln, ob sie die gewünschte Funktion ausführen und ob sie sicher sind.
+# sent_id = 33
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=3570|end_char=3573
+2	extrahieren	extrahieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3574|end_char=3585
+3	dann	dann	ADV	ADV	_	2	advmod	_	start_char=3586|end_char=3590
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=3591|end_char=3594
+5	Proteine	Proteine	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=3595|end_char=3603
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=3604|end_char=3607
+7	ermitteln	ermitteln	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	2	conj	_	start_char=3608|end_char=3617|SpaceAfter=No
+8	,	,	PUNCT	$,	_	14	punct	_	start_char=3617|end_char=3618
+9	ob	ob	SCONJ	KOUS	_	14	mark	_	start_char=3619|end_char=3621
+10	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	start_char=3622|end_char=3625
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=3626|end_char=3629
+12	gewünschte	gewünscht	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=3630|end_char=3640
+13	Funktion	Funktion	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=3641|end_char=3649
+14	ausführen	ausführen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	start_char=3650|end_char=3659
+15	und	und	CCONJ	KON	_	18	cc	_	start_char=3660|end_char=3663
+16	ob	ob	SCONJ	KOUS	_	18	mark	_	start_char=3664|end_char=3666
+17	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	start_char=3667|end_char=3670
+18	sicher	sicher	ADJ	ADJD	Degree=Pos	14	conj	_	start_char=3671|end_char=3677
+19	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=3678|end_char=3682|SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	start_char=3682|end_char=3683|SpacesAfter=\n\n
+
+# text = Es ist spannend, neue Proteine herstellen zu können, da, trotz der Diversität der Natur, die Evolution nur einen winzigen Bruchteil aller möglichen Proteine abgedeckt hat.
+# sent_id = 34
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=3685|end_char=3687
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=3688|end_char=3691
+3	spannend	spannend	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3692|end_char=3700|SpaceAfter=No
+4	,	,	PUNCT	$,	_	7	punct	_	start_char=3700|end_char=3701
+5	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	6	amod	_	start_char=3702|end_char=3706
+6	Proteine	Proteine	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	start_char=3707|end_char=3715
+7	herstellen	herstellen	VERB	VVINF	VerbForm=Inf	3	xcomp	_	start_char=3716|end_char=3726
+8	zu	zu	PART	PTKZU	_	7	mark	_	start_char=3727|end_char=3729
+9	können	können	AUX	VMINF	VerbForm=Inf	7	aux	_	start_char=3730|end_char=3736|SpaceAfter=No
+10	,	,	PUNCT	$,	_	28	punct	_	start_char=3736|end_char=3737
+11	da	da	SCONJ	KOUS	_	28	mark	_	start_char=3738|end_char=3740|SpaceAfter=No
+12	,	,	PUNCT	$,	_	15	punct	_	start_char=3740|end_char=3741
+13	trotz	trotz	ADP	APPR	_	15	case	_	start_char=3742|end_char=3747
+14	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=3748|end_char=3751
+15	Diversität	Diversität	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	28	obl	_	start_char=3752|end_char=3762
+16	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=3763|end_char=3766
+17	Natur	Natur	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	start_char=3767|end_char=3772|SpaceAfter=No
+18	,	,	PUNCT	$,	_	15	punct	_	start_char=3772|end_char=3773
+19	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=3774|end_char=3777
+20	Evolution	Evolution	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	28	nsubj	_	start_char=3778|end_char=3787
+21	nur	nur	ADV	ADV	_	28	advmod	_	start_char=3788|end_char=3791
+22	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	24	det	_	start_char=3792|end_char=3797
+23	winzigen	winzig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	start_char=3798|end_char=3806
+24	Bruchteil	Bruchteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	28	obj	_	start_char=3807|end_char=3816
+25	aller	alle	DET	PIAT	Case=Gen|Gender=Fem|Number=Plur|PronType=Tot	27	det	_	start_char=3817|end_char=3822
+26	möglichen	möglich	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	27	amod	_	start_char=3823|end_char=3832
+27	Proteine	Proteine	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	start_char=3833|end_char=3841
+28	abgedeckt	abdecken	VERB	VVPP	VerbForm=Part	3	advcl	_	start_char=3842|end_char=3851
+29	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	start_char=3852|end_char=3855|SpaceAfter=No
+30	.	.	PUNCT	$.	_	3	punct	_	start_char=3855|end_char=3856|SpacesAfter=\n\n
+
+# text = Ich sagte, dass die Natur ein Alphabet aus 20 Aminosäuren nutzt und ein typisches Protein ist eine Kette aus etwa 100 Aminosäuren also ist die Anzahl der Möglichkeiten 20 mal 20 mal 20, hundert Mal. Das ist eine Zahl in der Größenordnung von etwa 10 hoch 130, was enorm viel mehr ist als die Anzahl aller Proteine, die existiert haben, seit Leben auf der Erde begann.
+# sent_id = 35
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=3858|end_char=3861
+2	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3862|end_char=3867|SpaceAfter=No
+3	,	,	PUNCT	$,	_	12	punct	_	start_char=3867|end_char=3868
+4	dass	dass	SCONJ	KOUS	_	12	mark	_	start_char=3869|end_char=3873
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=3874|end_char=3877
+6	Natur	Natur	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=3878|end_char=3883
+7	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=3884|end_char=3887
+8	Alphabet	Alphabet	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	start_char=3888|end_char=3896
+9	aus	aus	ADP	APPR	_	11	case	_	start_char=3897|end_char=3900
+10	20	20	NUM	CARD	NumType=Card	11	nummod	_	start_char=3901|end_char=3903
+11	Aminosäuren	Aminosäure	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	nmod	_	start_char=3904|end_char=3915
+12	nutzt	nutzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=3916|end_char=3921
+13	und	und	CCONJ	KON	_	19	cc	_	start_char=3922|end_char=3925
+14	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	16	det	_	start_char=3926|end_char=3929
+15	typisches	typisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	start_char=3930|end_char=3939
+16	Protein	Protein	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	start_char=3940|end_char=3947
+17	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=3948|end_char=3951
+18	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	19	det	_	start_char=3952|end_char=3956
+19	Kette	Kette	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	start_char=3957|end_char=3962
+20	aus	aus	ADP	APPR	_	23	case	_	start_char=3963|end_char=3966
+21	etwa	etwa	ADV	ADV	_	22	advmod	_	start_char=3967|end_char=3971
+22	100	100	NUM	CARD	NumType=Card	23	nummod	_	start_char=3972|end_char=3975
+23	Aminosäuren	Aminosäure	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	19	nmod	_	start_char=3976|end_char=3987
+24	also	also	ADV	ADV	_	27	advmod	_	start_char=3988|end_char=3992
+25	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	start_char=3993|end_char=3996
+26	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	start_char=3997|end_char=4000
+27	Anzahl	Anzahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	start_char=4001|end_char=4007
+28	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	29	det	_	start_char=4008|end_char=4011
+29	Möglichkeiten	Möglichkeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	start_char=4012|end_char=4025
+30	20	20	NUM	CARD	NumType=Card	33	nummod	_	start_char=4026|end_char=4028
+31	mal	mal	ADV	ADV	_	32	advmod	_	start_char=4029|end_char=4032
+32	20	20	NUM	CARD	NumType=Card	33	nummod	_	start_char=4033|end_char=4035
+33	mal	mal	ADP	KON	_	34	advmod	_	start_char=4036|end_char=4039
+34	20	20	NUM	CARD	NumType=Card	37	nummod	_	start_char=4040|end_char=4042|SpaceAfter=No
+35	,	,	PUNCT	$,	_	37	punct	_	start_char=4042|end_char=4043
+36	hundert	hundert	NUM	CARD	NumType=Card	37	nummod	_	start_char=4044|end_char=4051
+37	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	27	conj	_	start_char=4052|end_char=4055|SpaceAfter=No
+38	.	.	PUNCT	$.	_	42	punct	_	start_char=4055|end_char=4056
+39	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	42	nsubj	_	start_char=4057|end_char=4060
+40	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	start_char=4061|end_char=4064
+41	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	42	det	_	start_char=4065|end_char=4069
+42	Zahl	Zahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	parataxis	_	start_char=4070|end_char=4074
+43	in	in	ADP	APPR	_	45	case	_	start_char=4075|end_char=4077
+44	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	start_char=4078|end_char=4081
+45	Größenordnung	Größenordnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	42	nmod	_	start_char=4082|end_char=4095
+46	von	von	ADP	APPR	_	49	case	_	start_char=4096|end_char=4099
+47	etwa	etwa	ADV	ADV	_	48	advmod	_	start_char=4100|end_char=4104
+48	10	10	NUM	CARD	NumType=Card	49	nummod	_	start_char=4105|end_char=4107
+49	hoch	hoch	ADP	APPR	_	45	nmod	_	start_char=4108|end_char=4112
+50	130	130	NUM	CARD	NumType=Card	49	appos	_	start_char=4113|end_char=4116|SpaceAfter=No
+51	,	,	PUNCT	$,	_	55	punct	_	start_char=4116|end_char=4117
+52	was	was	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	55	nsubj	_	start_char=4118|end_char=4121
+53	enorm	enorm	ADJ	ADJD	Degree=Pos	55	advmod	_	start_char=4122|end_char=4127
+54	viel	viel	DET	ADV	PronType=Ind	55	det	_	start_char=4128|end_char=4132
+55	mehr	mehr	DET	PIS	Degree=Cmp|PronType=Ind	42	acl	_	start_char=4133|end_char=4137
+56	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	cop	_	start_char=4138|end_char=4141
+57	als	als	ADP	KOKOM	_	59	case	_	start_char=4142|end_char=4145
+58	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	start_char=4146|end_char=4149
+59	Anzahl	Anzahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	55	nmod	_	start_char=4150|end_char=4156
+60	aller	alle	DET	PIAT	Case=Gen|Gender=Masc|Number=Plur|PronType=Tot	61	det	_	start_char=4157|end_char=4162
+61	Proteine	Proteine	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	59	nmod	_	start_char=4163|end_char=4171|SpaceAfter=No
+62	,	,	PUNCT	$,	_	64	punct	_	start_char=4171|end_char=4172
+63	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	64	nsubj	_	start_char=4173|end_char=4176
+64	existiert	existieren	VERB	VVPP	VerbForm=Part	61	acl	_	start_char=4177|end_char=4186
+65	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	64	aux	_	start_char=4187|end_char=4192|SpaceAfter=No
+66	,	,	PUNCT	$,	_	72	punct	_	start_char=4192|end_char=4193
+67	seit	seit	ADP	APPR	_	68	case	_	start_char=4194|end_char=4198
+68	Leben	Leben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	72	obl	_	start_char=4199|end_char=4204
+69	auf	auf	ADP	APPR	_	71	case	_	start_char=4205|end_char=4208
+70	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	71	det	_	start_char=4209|end_char=4212
+71	Erde	Erde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	72	obl	_	start_char=4213|end_char=4217
+72	begann	beginnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	64	conj	_	start_char=4218|end_char=4224|SpaceAfter=No
+73	.	.	PUNCT	$.	_	2	punct	_	start_char=4224|end_char=4225|SpacesAfter=\n\n
+
+# text = Es ist dieser unvorstellbar große Raum, den wir nun entdecken können dank computergestütztem Proteindesign.
+# sent_id = 36
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=4227|end_char=4229
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=4230|end_char=4233
+3	dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	start_char=4234|end_char=4240
+4	unvorstellbar	unvorstellbar	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=4241|end_char=4254
+5	große	groß	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=4255|end_char=4260
+6	Raum	Raum	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=4261|end_char=4265|SpaceAfter=No
+7	,	,	PUNCT	$,	_	11	punct	_	start_char=4265|end_char=4266
+8	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem,Rel	11	obj	_	start_char=4267|end_char=4270
+9	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	start_char=4271|end_char=4274
+10	nun	nun	ADV	ADV	_	11	advmod	_	start_char=4275|end_char=4278
+11	entdecken	entdecken	VERB	VVINF	VerbForm=Inf	6	acl	_	start_char=4279|end_char=4288
+12	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=4289|end_char=4295
+13	dank	dank	ADP	APPR	_	15	case	_	start_char=4296|end_char=4300
+14	computergestütztem	computergestütztem	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	start_char=4301|end_char=4319
+15	Proteindesign	Proteindesign	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	start_char=4320|end_char=4333|SpaceAfter=No
+16	.	.	PUNCT	$.	_	6	punct	_	start_char=4333|end_char=4334|SpacesAfter=\n\n
+
+# text = Die Proteine, die auf der Welt existieren, haben sich entwickelt, um die Probleme natürlicher Evolution zu lösen.
+# sent_id = 37
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=4336|end_char=4339
+2	Proteine	Proteine	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	start_char=4340|end_char=4348|SpaceAfter=No
+3	,	,	PUNCT	$,	_	8	punct	_	start_char=4348|end_char=4349
+4	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	8	nsubj	_	start_char=4350|end_char=4353
+5	auf	auf	ADP	APPR	_	7	case	_	start_char=4354|end_char=4357
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=4358|end_char=4361
+7	Welt	Welt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	start_char=4362|end_char=4366
+8	existieren	existieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	start_char=4367|end_char=4377|SpaceAfter=No
+9	,	,	PUNCT	$,	_	2	punct	_	start_char=4377|end_char=4378
+10	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=4379|end_char=4384
+11	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	12	obj	_	start_char=4385|end_char=4389
+12	entwickelt	entwickeln	VERB	VVPP	VerbForm=Part	0	root	_	start_char=4390|end_char=4400|SpaceAfter=No
+13	,	,	PUNCT	$,	_	20	punct	_	start_char=4400|end_char=4401
+14	um	um	ADP	KOUI	_	20	mark	_	start_char=4402|end_char=4404
+15	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	16	det	_	start_char=4405|end_char=4408
+16	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	20	obj	_	start_char=4409|end_char=4417
+17	natürlicher	natürlich	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=4418|end_char=4429
+18	Evolution	Evolution	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	start_char=4430|end_char=4439
+19	zu	zu	PART	PTKZU	_	20	mark	_	start_char=4440|end_char=4442
+20	lösen	lösen	VERB	VVINF	VerbForm=Inf	12	advcl	_	start_char=4443|end_char=4448|SpaceAfter=No
+21	.	.	PUNCT	$.	_	12	punct	_	start_char=4448|end_char=4449|SpacesAfter=\n\n
+
+# text = Zum Beispiel die Replikation des Genoms.
+# sent_id = 38
+1-2	Zum	_	_	_	_	_	_	_	start_char=4451|end_char=4454
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=4455|end_char=4463
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=4464|end_char=4467
+5	Replikation	Replikation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=4468|end_char=4479
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=4480|end_char=4483
+7	Genoms	Genom	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	start_char=4484|end_char=4490|SpaceAfter=No
+8	.	.	PUNCT	$.	_	5	punct	_	start_char=4490|end_char=4491|SpacesAfter=\n\n
+
+# text = Aber heute stehen wir vor neuen Herausforderungen.
+# sent_id = 39
+1	Aber	aber	CCONJ	KON	_	3	cc	_	start_char=4493|end_char=4497
+2	heute	heute	ADV	ADV	_	3	advmod	_	start_char=4498|end_char=4503
+3	stehen	stehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4504|end_char=4510
+4	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=4511|end_char=4514
+5	vor	vor	ADP	APPR	_	7	case	_	start_char=4515|end_char=4518
+6	neuen	neu	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=4519|end_char=4524
+7	Herausforderungen	Herausforderung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	start_char=4525|end_char=4542|SpaceAfter=No
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=4542|end_char=4543|SpacesAfter=\n\n
+
+# text = Wir leben heute länger, also sind neue Krankheiten relevant.
+# sent_id = 40
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=4545|end_char=4548
+2	leben	leben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4549|end_char=4554
+3	heute	heute	ADV	ADV	_	2	advmod	_	start_char=4555|end_char=4560
+4	länger	lang	ADJ	ADJD	Degree=Cmp	2	advmod	_	start_char=4561|end_char=4567|SpaceAfter=No
+5	,	,	PUNCT	$,	_	10	punct	_	start_char=4567|end_char=4568
+6	also	also	ADV	ADV	_	10	advmod	_	start_char=4569|end_char=4573
+7	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=4574|end_char=4578
+8	neue	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=4579|end_char=4583
+9	Krankheiten	Krankheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=4584|end_char=4595
+10	relevant	relevant	ADJ	ADJD	Degree=Pos	2	conj	_	start_char=4596|end_char=4604|SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=4604|end_char=4605|SpacesAfter=\n\n
+
+# text = Wir erhitzen und verschmutzen den Planeten und stehen so vor ganz neuen ökologischen Herausforderungen.
+# sent_id = 41
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=4607|end_char=4610
+2	erhitzen	erhitzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4611|end_char=4619
+3	und	und	CCONJ	KON	_	4	cc	_	start_char=4620|end_char=4623
+4	verschmutzen	verschmutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=4624|end_char=4636
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=4637|end_char=4640
+6	Planeten	Planet	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=4641|end_char=4649
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=4650|end_char=4653
+8	stehen	stehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=4654|end_char=4660
+9	so	so	ADV	ADV	_	8	advmod	_	start_char=4661|end_char=4663
+10	vor	vor	ADP	APPR	_	14	case	_	start_char=4664|end_char=4667
+11	ganz	ganz	ADJ	ADV	Degree=Pos	12	advmod	_	start_char=4668|end_char=4672
+12	neuen	neu	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=4673|end_char=4678
+13	ökologischen	ökologisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=4679|end_char=4691
+14	Herausforderungen	Herausforderung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	obl	_	start_char=4692|end_char=4709|SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	start_char=4709|end_char=4710|SpacesAfter=\n\n
+
+# text = Hätten wir eine Million Jahre Zeit, könnten neue Proteine entstehen, um diese Probleme zu lösen.
+# sent_id = 42
+1	Hätten	haben	VERB	VAFIN	Mood=Sub|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	11	advcl	_	start_char=4712|end_char=4718
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	nsubj	_	start_char=4719|end_char=4722
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=4723|end_char=4727
+4	Million	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	start_char=4728|end_char=4735
+5	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	1	obl	_	start_char=4736|end_char=4741
+6	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=4742|end_char=4746|SpaceAfter=No
+7	,	,	PUNCT	$,	_	1	punct	_	start_char=4746|end_char=4747
+8	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	start_char=4748|end_char=4755
+9	neue	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	start_char=4756|end_char=4760
+10	Proteine	Proteine	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	start_char=4761|end_char=4769
+11	entstehen	entstehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4770|end_char=4779|SpaceAfter=No
+12	,	,	PUNCT	$,	_	17	punct	_	start_char=4779|end_char=4780
+13	um	um	ADP	KOUI	_	17	mark	_	start_char=4781|end_char=4783
+14	diese	dieser	DET	PDAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	15	det	_	start_char=4784|end_char=4789
+15	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	17	obj	_	start_char=4790|end_char=4798
+16	zu	zu	PART	PTKZU	_	17	mark	_	start_char=4799|end_char=4801
+17	lösen	lösen	VERB	VVINF	VerbForm=Inf	11	advcl	_	start_char=4802|end_char=4807|SpaceAfter=No
+18	.	.	PUNCT	$.	_	11	punct	_	start_char=4807|end_char=4808|SpacesAfter=\n\n
+
+# text = Doch wir haben keine Millionen Jahre Zeit.
+# sent_id = 43
+1	Doch	doch	CCONJ	KON	_	3	cc	_	start_char=4810|end_char=4814
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=4815|end_char=4818
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4819|end_char=4824
+4	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Neg	5	det	_	start_char=4825|end_char=4830
+5	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	nmod	_	start_char=4831|end_char=4840
+6	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=4841|end_char=4846
+7	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=4847|end_char=4851|SpaceAfter=No
+8	.	.	PUNCT	$.	_	3	punct	_	start_char=4851|end_char=4852|SpacesAfter=\n\n
+
+# text = Stattdessen, mit Computer-Proteindesign, können wir neue Proteine kreieren, um diese Probleme bereits heute anzugehen.
+# sent_id = 44
+1	Stattdessen	stattdessen	ADV	PAV	_	12	advmod	_	start_char=4854|end_char=4865|SpaceAfter=No
+2	,	,	PUNCT	$,	_	1	punct	_	start_char=4865|end_char=4866
+3	mit	mit	ADP	APPR	_	6	case	_	start_char=4867|end_char=4870
+4	Computer	Computer	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	compound	_	start_char=4871|end_char=4879|SpaceAfter=No
+5	-	-	PUNCT	$(	_	4	punct	_	start_char=4879|end_char=4880|SpaceAfter=No
+6	Proteindesign	Proteindesign	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	start_char=4880|end_char=4893|SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=4893|end_char=4894
+8	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=4895|end_char=4901
+9	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	start_char=4902|end_char=4905
+10	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	start_char=4906|end_char=4910
+11	Proteine	Proteine	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	obj	_	start_char=4911|end_char=4919
+12	kreieren	kreieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4920|end_char=4928|SpaceAfter=No
+13	,	,	PUNCT	$,	_	19	punct	_	start_char=4928|end_char=4929
+14	um	um	ADP	KOUI	_	19	mark	_	start_char=4930|end_char=4932
+15	diese	dieser	DET	PDAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	16	det	_	start_char=4933|end_char=4938
+16	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	19	obj	_	start_char=4939|end_char=4947
+17	bereits	bereits	ADV	ADV	_	18	advmod	_	start_char=4948|end_char=4955
+18	heute	heute	ADV	ADV	_	19	advmod	_	start_char=4956|end_char=4961
+19	anzugehen	angehen	VERB	VVIZU	VerbForm=Inf	12	advcl	_	start_char=4962|end_char=4971|SpaceAfter=No
+20	.	.	PUNCT	$.	_	12	punct	_	start_char=4971|end_char=4972|SpacesAfter=\n\n
+
+# text = Unsere kühne Idee ist es, die Biologie aus der Steinzeit zu holen, durch technologische Revolution im Proteindesign.
+# sent_id = 45
+1	Unsere	unser	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	start_char=4974|end_char=4980
+2	kühne	kühne	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=4981|end_char=4986
+3	Idee	Idee	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=4987|end_char=4991
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=4992|end_char=4995
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=4996|end_char=4998|SpaceAfter=No
+6	,	,	PUNCT	$,	_	13	punct	_	start_char=4998|end_char=4999
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=5000|end_char=5003
+8	Biologie	Biologie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	start_char=5004|end_char=5012
+9	aus	aus	ADP	APPR	_	11	case	_	start_char=5013|end_char=5016
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=5017|end_char=5020
+11	Steinzeit	Steinzeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	start_char=5021|end_char=5030
+12	zu	zu	PART	PTKZU	_	13	mark	_	start_char=5031|end_char=5033
+13	holen	holen	VERB	VVINF	VerbForm=Inf	3	csubj	_	start_char=5034|end_char=5039|SpaceAfter=No
+14	,	,	PUNCT	$,	_	17	punct	_	start_char=5039|end_char=5040
+15	durch	durch	ADP	APPR	_	17	case	_	start_char=5041|end_char=5046
+16	technologische	technologisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=5047|end_char=5061
+17	Revolution	Revolution	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	start_char=5062|end_char=5072
+18-19	im	_	_	_	_	_	_	_	start_char=5073|end_char=5075
+18	in	in	ADP	APPR	_	20	case	_	_
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Proteindesign	Proteindesign	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	start_char=5076|end_char=5089|SpaceAfter=No
+21	.	.	PUNCT	$.	_	3	punct	_	start_char=5089|end_char=5090|SpacesAfter=\n\n
+
+# text = Wir haben gezeigt, dass wir neue Proteine mit neuen Formen und Funktionen designen können.
+# sent_id = 46
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=5092|end_char=5095
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=5096|end_char=5101
+3	gezeigt	zeigen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=5102|end_char=5109|SpaceAfter=No
+4	,	,	PUNCT	$,	_	14	punct	_	start_char=5109|end_char=5110
+5	dass	dass	SCONJ	KOUS	_	14	mark	_	start_char=5111|end_char=5115
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	start_char=5116|end_char=5119
+7	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	8	amod	_	start_char=5120|end_char=5124
+8	Proteine	Proteine	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	start_char=5125|end_char=5133
+9	mit	mit	ADP	APPR	_	11	case	_	start_char=5134|end_char=5137
+10	neuen	neu	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=5138|end_char=5143
+11	Formen	Form	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	14	obl	_	start_char=5144|end_char=5150
+12	und	und	CCONJ	KON	_	13	cc	_	start_char=5151|end_char=5154
+13	Funktionen	Funktion	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	conj	_	start_char=5155|end_char=5165
+14	designen	designen	VERB	VVINF	VerbForm=Inf	3	ccomp	_	start_char=5166|end_char=5174
+15	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=5175|end_char=5181|SpaceAfter=No
+16	.	.	PUNCT	$.	_	3	punct	_	start_char=5181|end_char=5182|SpacesAfter=\n\n
+
+# text = Zum Beispiel arbeiten Impfungen, indem sie das Immunsystem stimulieren, um eine starke Reaktion auf einen Krankheitserreger auszulösen.
+# sent_id = 47
+1-2	Zum	_	_	_	_	_	_	_	start_char=5184|end_char=5187
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=5188|end_char=5196
+4	arbeiten	arbeiten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5197|end_char=5205
+5	Impfungen	Impfung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=5206|end_char=5215|SpaceAfter=No
+6	,	,	PUNCT	$,	_	11	punct	_	start_char=5215|end_char=5216
+7	indem	indem	SCONJ	KOUS	_	11	mark	_	start_char=5217|end_char=5222
+8	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=5223|end_char=5226
+9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	start_char=5227|end_char=5230
+10	Immunsystem	Immunsystem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=5231|end_char=5242
+11	stimulieren	stimulieren	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	4	advcl	_	start_char=5243|end_char=5254|SpaceAfter=No
+12	,	,	PUNCT	$,	_	20	punct	_	start_char=5254|end_char=5255
+13	um	um	ADP	KOUI	_	20	mark	_	start_char=5256|end_char=5258
+14	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	16	det	_	start_char=5259|end_char=5263
+15	starke	stark	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=5264|end_char=5270
+16	Reaktion	Reaktion	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	start_char=5271|end_char=5279
+17	auf	auf	ADP	APPR	_	19	case	_	start_char=5280|end_char=5283
+18	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	19	det	_	start_char=5284|end_char=5289
+19	Krankheitserreger	Krankheitserreger	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	start_char=5290|end_char=5307
+20	auszulösen	auslösen	VERB	VVIZU	VerbForm=Inf	11	advcl	_	start_char=5308|end_char=5318|SpaceAfter=No
+21	.	.	PUNCT	$.	_	4	punct	_	start_char=5318|end_char=5319|SpacesAfter=\n\n
+
+# text = Um bessere Impfstoffe zu machen, haben wir Proteinpartikel designt, an die wir Proteine von Erregern anfügen können, so wie dieses blaue Protein vom respiratorischen Virus RSV.
+# sent_id = 48
+1	Um	um	ADP	KOUI	_	5	mark	_	start_char=5321|end_char=5323
+2	bessere	gut	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Neut|Number=Plur	3	amod	_	start_char=5324|end_char=5331
+3	Impfstoffe	Impfstoff	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	start_char=5332|end_char=5342
+4	zu	zu	PART	PTKZU	_	5	mark	_	start_char=5343|end_char=5345
+5	machen	machen	VERB	VVINF	VerbForm=Inf	10	advcl	_	start_char=5346|end_char=5352|SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	start_char=5352|end_char=5353
+7	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=5354|end_char=5359
+8	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	start_char=5360|end_char=5363
+9	Proteinpartikel	Proteinpartikel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	start_char=5364|end_char=5379
+10	designt	designt	VERB	VVPP	VerbForm=Part	0	root	_	start_char=5380|end_char=5387|SpaceAfter=No
+11	,	,	PUNCT	$,	_	18	punct	_	start_char=5387|end_char=5388
+12	an	an	ADP	APPR	_	13	case	_	start_char=5389|end_char=5391
+13	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Dem,Rel	18	obl	_	start_char=5392|end_char=5395
+14	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	start_char=5396|end_char=5399
+15	Proteine	Proteine	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	18	obj	_	start_char=5400|end_char=5408
+16	von	von	ADP	APPR	_	17	case	_	start_char=5409|end_char=5412
+17	Erregern	Erreger	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	15	nmod	_	start_char=5413|end_char=5421
+18	anfügen	anfügen	VERB	VVINF	VerbForm=Inf	9	acl	_	start_char=5422|end_char=5429
+19	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=5430|end_char=5436|SpaceAfter=No
+20	,	,	PUNCT	$,	_	25	punct	_	start_char=5436|end_char=5437
+21	so	so	ADV	ADV	_	25	advmod	_	start_char=5438|end_char=5440
+22	wie	wie	ADP	KOKOM	_	25	case	_	start_char=5441|end_char=5444
+23	dieses	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	25	det	_	start_char=5445|end_char=5451
+24	blaue	blau	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	start_char=5452|end_char=5457
+25	Protein	Protein	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	18	obl	_	start_char=5458|end_char=5465
+26-27	vom	_	_	_	_	_	_	_	start_char=5466|end_char=5469
+26	von	von	ADP	APPR	_	29	case	_	_
+27	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	respiratorischen	respiratorisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	start_char=5470|end_char=5486
+29	Virus	Virus	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	25	nmod	_	start_char=5487|end_char=5492
+30	RSV	RSV	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	29	appos	_	start_char=5493|end_char=5496|SpaceAfter=No
+31	.	.	PUNCT	$.	_	10	punct	_	start_char=5496|end_char=5497|SpacesAfter=\n\n
+
+# text = Um Vakzinkandidaten herzustellen, die von dem viralen Protein strotzen, fanden wir, dass solche Vakzinkandidaten eine viel stärkere Immunreaktion auf den Virus hervorrufen als alle vorherigen Impfungen, die getestet wurden.
+# sent_id = 49
+1	Um	um	ADP	KOUI	_	3	mark	_	start_char=5499|end_char=5501
+2	Vakzinkandidaten	Vakzinkandidat	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=5502|end_char=5518
+3	herzustellen	herstellen	VERB	VVIZU	VerbForm=Inf	12	advcl	_	start_char=5519|end_char=5531|SpaceAfter=No
+4	,	,	PUNCT	$,	_	10	punct	_	start_char=5531|end_char=5532
+5	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	10	nsubj	_	start_char=5533|end_char=5536
+6	von	von	ADP	APPR	_	9	case	_	start_char=5537|end_char=5540
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=5541|end_char=5544
+8	viralen	viralen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	start_char=5545|end_char=5552
+9	Protein	Protein	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	start_char=5553|end_char=5560
+10	strotzen	strotzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	start_char=5561|end_char=5569|SpaceAfter=No
+11	,	,	PUNCT	$,	_	3	punct	_	start_char=5569|end_char=5570
+12	fanden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=5571|end_char=5577
+13	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	start_char=5578|end_char=5581|SpaceAfter=No
+14	,	,	PUNCT	$,	_	25	punct	_	start_char=5581|end_char=5582
+15	dass	dass	SCONJ	KOUS	_	25	mark	_	start_char=5583|end_char=5587
+16	solche	solcher	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	17	det	_	start_char=5588|end_char=5594
+17	Vakzinkandidaten	Vakzinkandidat	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	25	nsubj	_	start_char=5595|end_char=5611
+18	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	21	det	_	start_char=5612|end_char=5616
+19	viel	viel	DET	PIAT	PronType=Ind	20	advmod	_	start_char=5617|end_char=5621
+20	stärkere	stark	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	21	amod	_	start_char=5622|end_char=5630
+21	Immunreaktion	Immunreaktion	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	start_char=5631|end_char=5644
+22	auf	auf	ADP	APPR	_	24	case	_	start_char=5645|end_char=5648
+23	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	start_char=5649|end_char=5652
+24	Virus	Virus	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	21	nmod	_	start_char=5653|end_char=5658
+25	hervorrufen	hervorrufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	start_char=5659|end_char=5670
+26	als	als	ADP	KOKOM	_	29	case	_	start_char=5671|end_char=5674
+27	alle	alle	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	29	det	_	start_char=5675|end_char=5679
+28	vorherigen	vorherig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	start_char=5680|end_char=5690
+29	Impfungen	Impfung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	25	obl	_	start_char=5691|end_char=5700|SpaceAfter=No
+30	,	,	PUNCT	$,	_	32	punct	_	start_char=5700|end_char=5701
+31	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	32	nsubj:pass	_	start_char=5702|end_char=5705
+32	getestet	testen	VERB	VVPP	VerbForm=Part	29	acl	_	start_char=5706|end_char=5714
+33	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	32	aux:pass	_	start_char=5715|end_char=5721|SpaceAfter=No
+34	.	.	PUNCT	$.	_	12	punct	_	start_char=5721|end_char=5722|SpacesAfter=\n\n
+
+# text = Das ist wichtig, da RSV derzeitig eine der Hauptursachen für Säuglingssterblichkeit weltweit ist.
+# sent_id = 50
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=5724|end_char=5727
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=5728|end_char=5731
+3	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5732|end_char=5739|SpaceAfter=No
+4	,	,	PUNCT	$,	_	8	punct	_	start_char=5739|end_char=5740
+5	da	da	SCONJ	KOUS	_	8	mark	_	start_char=5741|end_char=5743
+6	RSV	RSV	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=5744|end_char=5747
+7	derzeitig	derzeitig	ADJ	ADJD	Degree=Pos	8	advmod	_	start_char=5748|end_char=5757
+8	eine	ein	DET	PIS	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	3	advcl	_	start_char=5758|end_char=5762
+9	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	10	det	_	start_char=5763|end_char=5766
+10	Hauptursachen	Hauptursache	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	start_char=5767|end_char=5780
+11	für	für	ADP	APPR	_	12	case	_	start_char=5781|end_char=5784
+12	Säuglingssterblichkeit	Säuglingssterblichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	start_char=5785|end_char=5807
+13	weltweit	weltweit	ADJ	ADJD	Degree=Pos	8	amod	_	start_char=5808|end_char=5816
+14	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=5817|end_char=5820|SpaceAfter=No
+15	.	.	PUNCT	$.	_	3	punct	_	start_char=5820|end_char=5821|SpacesAfter=\n\n
+
+# text = Wir haben auch neue Proteine designt, um Gluten im Magen aufzuspalten bei Zöliakie und andere, um das Immunsystem zu stimulieren und so Krebs zu bekämpfen.
+# sent_id = 51
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=5823|end_char=5826
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=5827|end_char=5832
+3	auch	auch	ADV	ADV	_	6	advmod	_	start_char=5833|end_char=5837
+4	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	5	amod	_	start_char=5838|end_char=5842
+5	Proteine	Proteine	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	start_char=5843|end_char=5851
+6	designt	designt	VERB	VVPP	VerbForm=Part	0	root	_	start_char=5852|end_char=5859|SpaceAfter=No
+7	,	,	PUNCT	$,	_	13	punct	_	start_char=5859|end_char=5860
+8	um	um	ADP	KOUI	_	13	mark	_	start_char=5861|end_char=5863
+9	Gluten	Glut	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	start_char=5864|end_char=5870
+10-11	im	_	_	_	_	_	_	_	start_char=5871|end_char=5873
+10	in	in	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Magen	Magen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	start_char=5874|end_char=5879
+13	aufzuspalten	aufspalten	VERB	VVIZU	VerbForm=Inf	6	advcl	_	start_char=5880|end_char=5892
+14	bei	bei	ADP	APPR	_	15	case	_	start_char=5893|end_char=5896
+15	Zöliakie	Zöliakie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	start_char=5897|end_char=5905
+16	und	und	CCONJ	KON	_	17	cc	_	start_char=5906|end_char=5909
+17	andere	anderer	DET	PIS	Case=Nom|Number=Plur|PronType=Ind	15	conj	_	start_char=5910|end_char=5916|SpaceAfter=No
+18	,	,	PUNCT	$,	_	23	punct	_	start_char=5916|end_char=5917
+19	um	um	ADP	KOUI	_	23	mark	_	start_char=5918|end_char=5920
+20	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	21	det	_	start_char=5921|end_char=5924
+21	Immunsystem	Immunsystem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	23	obj	_	start_char=5925|end_char=5936
+22	zu	zu	PART	PTKZU	_	23	mark	_	start_char=5937|end_char=5939
+23	stimulieren	stimulieren	VERB	VVINF	VerbForm=Inf	13	advcl	_	start_char=5940|end_char=5951
+24	und	und	CCONJ	KON	_	28	cc	_	start_char=5952|end_char=5955
+25	so	so	ADV	ADV	_	28	advmod	_	start_char=5956|end_char=5958
+26	Krebs	Krebs	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	28	obj	_	start_char=5959|end_char=5964
+27	zu	zu	PART	PTKZU	_	28	mark	_	start_char=5965|end_char=5967
+28	bekämpfen	bekämpfen	VERB	VVINF	VerbForm=Inf	23	conj	_	start_char=5968|end_char=5977|SpaceAfter=No
+29	.	.	PUNCT	$.	_	6	punct	_	start_char=5977|end_char=5978|SpacesAfter=\n\n
+
+# text = Diese Fortschritte sind der Anfang der Revolution des Proteindesigns.
+# sent_id = 52
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	start_char=5980|end_char=5985
+2	Fortschritte	Fortschritt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=5986|end_char=5998
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=5999|end_char=6003
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=6004|end_char=6007
+5	Anfang	Anfang	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=6008|end_char=6014
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=6015|end_char=6018
+7	Revolution	Revolution	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=6019|end_char=6029
+8	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=6030|end_char=6033
+9	Proteindesigns	Proteindesign	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=6034|end_char=6048|SpaceAfter=No
+10	.	.	PUNCT	$.	_	5	punct	_	start_char=6048|end_char=6049|SpacesAfter=\n\n
+
+# text = Wir wurden inspiriert von einer früheren technologischen Revolution, der digitalen Revolution, die größtenteils dank Fortschritten an nur einem Ort erfolgte: den Bell Laboratories.
+# sent_id = 53
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj:pass	_	start_char=6051|end_char=6054
+2	wurden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	3	aux:pass	_	start_char=6055|end_char=6061
+3	inspiriert	inspirieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=6062|end_char=6072
+4	von	von	ADP	APPR	_	8	case	_	start_char=6073|end_char=6076
+5	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=6077|end_char=6082
+6	früheren	früh	ADJ	ADJA	Case=Dat|Degree=Cmp|Gender=Fem|Number=Sing	8	amod	_	start_char=6083|end_char=6091
+7	technologischen	technologisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=6092|end_char=6107
+8	Revolution	Revolution	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl:agent	_	start_char=6108|end_char=6118|SpaceAfter=No
+9	,	,	PUNCT	$,	_	12	punct	_	start_char=6118|end_char=6119
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=6120|end_char=6123
+11	digitalen	digital	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=6124|end_char=6133
+12	Revolution	Revolution	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	appos	_	start_char=6134|end_char=6144|SpaceAfter=No
+13	,	,	PUNCT	$,	_	22	punct	_	start_char=6144|end_char=6145
+14	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	22	nsubj	_	start_char=6146|end_char=6149
+15	größtenteils	größtenteils	ADV	ADV	_	22	advmod	_	start_char=6150|end_char=6162
+16	dank	dank	ADP	APPR	_	17	case	_	start_char=6163|end_char=6167
+17	Fortschritten	Fortschritt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	22	obl	_	start_char=6168|end_char=6181
+18	an	an	ADP	APPR	_	21	case	_	start_char=6182|end_char=6184
+19	nur	nur	ADV	ADV	_	20	advmod	_	start_char=6185|end_char=6188
+20	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	21	det	_	start_char=6189|end_char=6194
+21	Ort	Ort	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	start_char=6195|end_char=6198
+22	erfolgte	erfolgen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl	_	start_char=6199|end_char=6207|SpaceAfter=No
+23	:	:	PUNCT	$.	_	25	punct	_	start_char=6207|end_char=6208
+24	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	25	det	_	start_char=6209|end_char=6212
+25	Bell	Bell	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	8	appos	_	start_char=6213|end_char=6217
+26	Laboratories	Laboratories	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	25	flat	_	start_char=6218|end_char=6230|SpaceAfter=No
+27	.	.	PUNCT	$.	_	3	punct	_	start_char=6230|end_char=6231|SpacesAfter=\n\n
+
+# text = Bell Labs war ein Ort mit einer offenen, kollaborativen Umgebung, und konnte Top-Talente aus der ganzen Welt anziehen.
+# sent_id = 54
+1	Bell	Bell	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=6233|end_char=6237
+2	Labs	Lab	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	start_char=6238|end_char=6242
+3	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=6243|end_char=6246
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=6247|end_char=6250
+5	Ort	Ort	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=6251|end_char=6254
+6	mit	mit	ADP	APPR	_	11	case	_	start_char=6255|end_char=6258
+7	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=6259|end_char=6264
+8	offenen	offen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=6265|end_char=6272|SpaceAfter=No
+9	,	,	PUNCT	$,	_	10	punct	_	start_char=6272|end_char=6273
+10	kollaborativen	kollaborativen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	conj	_	start_char=6274|end_char=6288
+11	Umgebung	Umgebung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	start_char=6289|end_char=6297|SpaceAfter=No
+12	,	,	PUNCT	$,	_	22	punct	_	start_char=6297|end_char=6298
+13	und	und	CCONJ	KON	_	22	cc	_	start_char=6299|end_char=6302
+14	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	start_char=6303|end_char=6309
+15	Top	Top	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	17	compound	_	start_char=6310|end_char=6313|SpaceAfter=No
+16	-	-	PUNCT	$(	_	15	punct	_	start_char=6313|end_char=6314|SpaceAfter=No
+17	Talente	Talent	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	22	obj	_	start_char=6314|end_char=6321
+18	aus	aus	ADP	APPR	_	21	case	_	start_char=6322|end_char=6325
+19	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=6326|end_char=6329
+20	ganzen	ganz	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=6330|end_char=6336
+21	Welt	Welt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	22	obl	_	start_char=6337|end_char=6341
+22	anziehen	anziehen	VERB	VVINF	VerbForm=Inf	5	conj	_	start_char=6342|end_char=6350|SpaceAfter=No
+23	.	.	PUNCT	$.	_	5	punct	_	start_char=6350|end_char=6351|SpacesAfter=\n\n
+
+# text = Dies führte zu einer beachtlichen Kette von Innovationen -- der Transistor, der Laser, die Satellitenkommunikation und die Grundsteine des Internets.
+# sent_id = 55
+1	Dies	dieser	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=6353|end_char=6357
+2	führte	führen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=6358|end_char=6364
+3	zu	zu	ADP	APPR	_	6	case	_	start_char=6365|end_char=6367
+4	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=6368|end_char=6373
+5	beachtlichen	beachtlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=6374|end_char=6386
+6	Kette	Kette	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=6387|end_char=6392
+7	von	von	ADP	APPR	_	8	case	_	start_char=6393|end_char=6396
+8	Innovationen	Innovation	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	nmod	_	start_char=6397|end_char=6409
+9	--	--	PUNCT	$(	_	11	punct	_	start_char=6410|end_char=6412
+10	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=6413|end_char=6416
+11	Transistor	Transistor	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	start_char=6417|end_char=6427|SpaceAfter=No
+12	,	,	PUNCT	$,	_	14	punct	_	start_char=6427|end_char=6428
+13	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=6429|end_char=6432
+14	Laser	Laser	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	start_char=6433|end_char=6438|SpaceAfter=No
+15	,	,	PUNCT	$,	_	17	punct	_	start_char=6438|end_char=6439
+16	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=6440|end_char=6443
+17	Satellitenkommunikation	Satellitenkommunikation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	start_char=6444|end_char=6467
+18	und	und	CCONJ	KON	_	20	cc	_	start_char=6468|end_char=6471
+19	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	20	det	_	start_char=6472|end_char=6475
+20	Grundsteine	Grundstein	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	conj	_	start_char=6476|end_char=6487
+21	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	start_char=6488|end_char=6491
+22	Internets	Internets	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	start_char=6492|end_char=6501|SpaceAfter=No
+23	.	.	PUNCT	$.	_	2	punct	_	start_char=6501|end_char=6502|SpacesAfter=\n\n
+
+# text = Unser Ziel ist es, das Bell Laboratories des Proteindesigns zu bauen.
+# sent_id = 56
+1	Unser	unser	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=6504|end_char=6509
+2	Ziel	Ziel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=6510|end_char=6514
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=6515|end_char=6518
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=6519|end_char=6521|SpaceAfter=No
+5	,	,	PUNCT	$,	_	12	punct	_	start_char=6521|end_char=6522
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=6523|end_char=6526
+7	Bell	Bell	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	start_char=6527|end_char=6531
+8	Laboratories	Laboratories	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	7	flat	_	start_char=6532|end_char=6544
+9	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=6545|end_char=6548
+10	Proteindesigns	Proteindesign	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=6549|end_char=6563
+11	zu	zu	PART	PTKZU	_	12	mark	_	start_char=6564|end_char=6566
+12	bauen	bauen	VERB	VVINF	VerbForm=Inf	2	csubj	_	start_char=6567|end_char=6572|SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=6572|end_char=6573|SpacesAfter=\n\n
+
+# text = Wir wollen talentierte Wissenschaftler aus der ganzen Welt anziehen, um die Revolution des Proteindesigns zu beschleunigen, und wir werden uns auf fünf große Herausforderungen konzentrieren.
+# sent_id = 57
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=6575|end_char=6578
+2	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=6579|end_char=6585
+3	talentierte	talentiert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=6586|end_char=6597
+4	Wissenschaftler	Wissenschaftler	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	start_char=6598|end_char=6613
+5	aus	aus	ADP	APPR	_	8	case	_	start_char=6614|end_char=6617
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=6618|end_char=6621
+7	ganzen	ganz	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=6622|end_char=6628
+8	Welt	Welt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	start_char=6629|end_char=6633
+9	anziehen	anziehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6634|end_char=6642|SpaceAfter=No
+10	,	,	PUNCT	$,	_	17	punct	_	start_char=6642|end_char=6643
+11	um	um	ADP	KOUI	_	17	mark	_	start_char=6644|end_char=6646
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=6647|end_char=6650
+13	Revolution	Revolution	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	start_char=6651|end_char=6661
+14	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=6662|end_char=6665
+15	Proteindesigns	Proteindesign	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	start_char=6666|end_char=6680
+16	zu	zu	PART	PTKZU	_	17	mark	_	start_char=6681|end_char=6683
+17	beschleunigen	beschleunigen	VERB	VVINF	VerbForm=Inf	9	advcl	_	start_char=6684|end_char=6697|SpaceAfter=No
+18	,	,	PUNCT	$,	_	27	punct	_	start_char=6697|end_char=6698
+19	und	und	CCONJ	KON	_	27	cc	_	start_char=6699|end_char=6702
+20	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	start_char=6703|end_char=6706
+21	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	27	aux	_	start_char=6707|end_char=6713
+22	uns	wir	PRON	PRF	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	27	obj	_	start_char=6714|end_char=6717
+23	auf	auf	ADP	APPR	_	26	case	_	start_char=6718|end_char=6721
+24	fünf	fünf	NUM	CARD	NumType=Card	26	nummod	_	start_char=6722|end_char=6726
+25	große	groß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	start_char=6727|end_char=6732
+26	Herausforderungen	Herausforderung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	27	obl	_	start_char=6733|end_char=6750
+27	konzentrieren	konzentrieren	VERB	VVINF	VerbForm=Inf	17	conj	_	start_char=6751|end_char=6764|SpaceAfter=No
+28	.	.	PUNCT	$.	_	9	punct	_	start_char=6764|end_char=6765|SpacesAfter=\n\n
+
+# text = Zunächst, indem wir Proteine aus Grippeviren der ganzen Welt nehmen und sie auf die designten Proteine legen, wie ich vorhin zeigte, wollen wir eine universelle Grippeimpfung herstellen, bei der eine Dosis einen lebenslangen Schutz gegen die Grippe bietet.
+# sent_id = 58
+1	Zunächst	zunächst	ADV	ADV	_	11	advmod	_	start_char=6767|end_char=6775|SpaceAfter=No
+2	,	,	PUNCT	$,	_	1	punct	_	start_char=6775|end_char=6776
+3	indem	indem	SCONJ	KOUS	_	11	mark	_	start_char=6777|end_char=6782
+4	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	start_char=6783|end_char=6786
+5	Proteine	Proteine	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	start_char=6787|end_char=6795
+6	aus	aus	ADP	APPR	_	7	case	_	start_char=6796|end_char=6799
+7	Grippeviren	Grippevirus	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	obl	_	start_char=6800|end_char=6811
+8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=6812|end_char=6815
+9	ganzen	ganz	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=6816|end_char=6822
+10	Welt	Welt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=6823|end_char=6827
+11	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	advcl	_	start_char=6828|end_char=6834
+12	und	und	CCONJ	KON	_	18	cc	_	start_char=6835|end_char=6838
+13	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	obj	_	start_char=6839|end_char=6842
+14	auf	auf	ADP	APPR	_	17	case	_	start_char=6843|end_char=6846
+15	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	17	det	_	start_char=6847|end_char=6850
+16	designten	designen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	17	amod	_	start_char=6851|end_char=6860
+17	Proteine	Proteine	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	18	obl	_	start_char=6861|end_char=6869
+18	legen	legen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	start_char=6870|end_char=6875|SpaceAfter=No
+19	,	,	PUNCT	$,	_	23	punct	_	start_char=6875|end_char=6876
+20	wie	wie	SCONJ	KOUS	_	23	advmod	_	start_char=6877|end_char=6880
+21	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	start_char=6881|end_char=6884
+22	vorhin	vorhin	ADV	ADV	_	23	advmod	_	start_char=6885|end_char=6891
+23	zeigte	zeigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	advcl	_	start_char=6892|end_char=6898|SpaceAfter=No
+24	,	,	PUNCT	$,	_	11	punct	_	start_char=6898|end_char=6899
+25	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	30	aux	_	start_char=6900|end_char=6906
+26	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	30	nsubj	_	start_char=6907|end_char=6910
+27	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	29	det	_	start_char=6911|end_char=6915
+28	universelle	universell	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	start_char=6916|end_char=6927
+29	Grippeimpfung	Grippeimpfung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	30	obj	_	start_char=6928|end_char=6941
+30	herstellen	herstellen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6942|end_char=6952|SpaceAfter=No
+31	,	,	PUNCT	$,	_	42	punct	_	start_char=6952|end_char=6953
+32	bei	bei	ADP	APPR	_	33	case	_	start_char=6954|end_char=6957
+33	der	der	PRON	PRELS	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem,Rel	42	obl	_	start_char=6958|end_char=6961
+34	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	35	det	_	start_char=6962|end_char=6966
+35	Dosis	Dosis	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	42	nsubj	_	start_char=6967|end_char=6972
+36	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	38	det	_	start_char=6973|end_char=6978
+37	lebenslangen	lebenslangen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	start_char=6979|end_char=6991
+38	Schutz	Schutz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	42	obj	_	start_char=6992|end_char=6998
+39	gegen	gegen	ADP	APPR	_	41	case	_	start_char=6999|end_char=7004
+40	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	start_char=7005|end_char=7008
+41	Grippe	Grippe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	38	nmod	_	start_char=7009|end_char=7015
+42	bietet	bieten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl	_	start_char=7016|end_char=7022|SpaceAfter=No
+43	.	.	PUNCT	$.	_	30	punct	_	start_char=7022|end_char=7023|SpacesAfter=\n\n
+
+# text = Die Fähigkeit --
+# sent_id = 59
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=7025|end_char=7028
+2	Fähigkeit	Fähigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=7029|end_char=7038
+3	--	--	PUNCT	$(	_	2	punct	_	start_char=7039|end_char=7041|SpacesAfter=\n\n
+
+# text = Die Fähigkeit, neue Impfstoffe am Computer zu kreiieren, ist wichtig, zum einen, um uns vor natürlichen Grippeepidemien zu schützen, und zusätzlich um uns gegen Bioterrorangriffe zu verteidigen.
+# sent_id = 60
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=7043|end_char=7046
+2	Fähigkeit	Fähigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	start_char=7047|end_char=7056|SpaceAfter=No
+3	,	,	PUNCT	$,	_	10	punct	_	start_char=7056|end_char=7057
+4	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	5	amod	_	start_char=7058|end_char=7062
+5	Impfstoffe	Impfstoff	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	start_char=7063|end_char=7073
+6-7	am	_	_	_	_	_	_	_	start_char=7074|end_char=7076
+6	an	an	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Computer	Computer	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	start_char=7077|end_char=7085
+9	zu	zu	PART	PTKZU	_	10	mark	_	start_char=7086|end_char=7088
+10	kreiieren	kreiieren	VERB	VVINF	VerbForm=Inf	2	acl	_	start_char=7089|end_char=7098|SpaceAfter=No
+11	,	,	PUNCT	$,	_	2	punct	_	start_char=7098|end_char=7099
+12	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=7100|end_char=7103
+13	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=7104|end_char=7111|SpaceAfter=No
+14	,	,	PUNCT	$,	_	17	punct	_	start_char=7111|end_char=7112
+15-16	zum	_	_	_	_	_	_	_	start_char=7113|end_char=7116
+15	zu	zu	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+17	einen	ein	DET	PIS	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	13	nmod	_	start_char=7117|end_char=7122|SpaceAfter=No
+18	,	,	PUNCT	$,	_	25	punct	_	start_char=7122|end_char=7123
+19	um	um	ADP	KOUI	_	25	mark	_	start_char=7124|end_char=7126
+20	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	25	obj	_	start_char=7127|end_char=7130
+21	vor	vor	ADP	APPR	_	23	case	_	start_char=7131|end_char=7134
+22	natürlichen	natürlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	start_char=7135|end_char=7146
+23	Grippeepidemien	Grippeepidemie	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	25	obl	_	start_char=7147|end_char=7162
+24	zu	zu	PART	PTKZU	_	25	mark	_	start_char=7163|end_char=7165
+25	schützen	schützen	VERB	VVINF	VerbForm=Inf	13	advcl	_	start_char=7166|end_char=7174|SpaceAfter=No
+26	,	,	PUNCT	$,	_	34	punct	_	start_char=7174|end_char=7175
+27	und	und	CCONJ	KON	_	34	cc	_	start_char=7176|end_char=7179
+28	zusätzlich	zusätzlich	ADJ	ADJD	Degree=Pos	34	advmod	_	start_char=7180|end_char=7190
+29	um	um	ADP	KOUI	_	34	mark	_	start_char=7191|end_char=7193
+30	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	34	obj	_	start_char=7194|end_char=7197
+31	gegen	gegen	ADP	APPR	_	32	case	_	start_char=7198|end_char=7203
+32	Bioterrorangriffe	Bioterrorangriff	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	34	obl	_	start_char=7204|end_char=7221
+33	zu	zu	PART	PTKZU	_	34	mark	_	start_char=7222|end_char=7224
+34	verteidigen	verteidigen	VERB	VVINF	VerbForm=Inf	25	advcl	_	start_char=7225|end_char=7236|SpaceAfter=No
+35	.	.	PUNCT	$.	_	13	punct	_	start_char=7236|end_char=7237|SpacesAfter=\n\n
+
+# text = Zweitens werden wir weit über das limitierte Alphabet der Natur gehen, das aus 20 Aminosäuren besteht, um neue Therapien gegen Beschwerden wie chronische Schmerzen zu schaffen, mit einem Alphabet aus Tausenden von Aminosäuren.
+# sent_id = 61
+1	Zweitens	zweitens	ADV	ADV	_	11	advmod	_	start_char=7239|end_char=7247
+2	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=7248|end_char=7254
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	start_char=7255|end_char=7258
+4	weit	weit	ADJ	ADJD	Degree=Pos	11	advmod	_	start_char=7259|end_char=7263
+5	über	über	ADP	APPR	_	8	case	_	start_char=7264|end_char=7268
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=7269|end_char=7272
+7	limitierte	limitieren	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=7273|end_char=7283
+8	Alphabet	Alphabet	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	start_char=7284|end_char=7292
+9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=7293|end_char=7296
+10	Natur	Natur	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=7297|end_char=7302
+11	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7303|end_char=7308|SpaceAfter=No
+12	,	,	PUNCT	$,	_	17	punct	_	start_char=7308|end_char=7309
+13	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	17	nsubj	_	start_char=7310|end_char=7313
+14	aus	aus	ADP	APPR	_	16	case	_	start_char=7314|end_char=7317
+15	20	20	NUM	CARD	NumType=Card	16	nummod	_	start_char=7318|end_char=7320
+16	Aminosäuren	Aminosäure	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	17	obl	_	start_char=7321|end_char=7332
+17	besteht	bestehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	start_char=7333|end_char=7340|SpaceAfter=No
+18	,	,	PUNCT	$,	_	28	punct	_	start_char=7340|end_char=7341
+19	um	um	ADP	KOUI	_	28	mark	_	start_char=7342|end_char=7344
+20	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	start_char=7345|end_char=7349
+21	Therapien	Therapie	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	28	obj	_	start_char=7350|end_char=7359
+22	gegen	gegen	ADP	APPR	_	23	case	_	start_char=7360|end_char=7365
+23	Beschwerden	Beschwerde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	21	nmod	_	start_char=7366|end_char=7377
+24	wie	wie	ADP	KOKOM	_	26	case	_	start_char=7378|end_char=7381
+25	chronische	chronisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	26	amod	_	start_char=7382|end_char=7392
+26	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	23	nmod	_	start_char=7393|end_char=7402
+27	zu	zu	PART	PTKZU	_	28	mark	_	start_char=7403|end_char=7405
+28	schaffen	schaffen	VERB	VVINF	VerbForm=Inf	17	advcl	_	start_char=7406|end_char=7414|SpaceAfter=No
+29	,	,	PUNCT	$,	_	32	punct	_	start_char=7414|end_char=7415
+30	mit	mit	ADP	APPR	_	32	case	_	start_char=7416|end_char=7419
+31	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	32	det	_	start_char=7420|end_char=7425
+32	Alphabet	Alphabet	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	28	obl	_	start_char=7426|end_char=7434
+33	aus	aus	ADP	APPR	_	34	case	_	start_char=7435|end_char=7438
+34	Tausenden	Tausend	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	32	nmod	_	start_char=7439|end_char=7448
+35	von	von	ADP	APPR	_	36	case	_	start_char=7449|end_char=7452
+36	Aminosäuren	Aminosäure	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	34	nmod	_	start_char=7453|end_char=7464|SpaceAfter=No
+37	.	.	PUNCT	$.	_	11	punct	_	start_char=7464|end_char=7465|SpacesAfter=\n\n
+
+# text = Als Drittes bauen wir fortschrittlichere "Transportwagen" um Medikamente an die exakte Stelle zu transportieren, wo sie benötigt werden.
+# sent_id = 62
+1	Als	als	ADP	KOKOM	_	2	case	_	start_char=7467|end_char=7470
+2	Drittes	Dritt	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	start_char=7471|end_char=7478
+3	bauen	bauen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7479|end_char=7484
+4	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=7485|end_char=7488
+5	fortschrittlichere	fortschrittlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=7489|end_char=7507
+6	"	"	PUNCT	$(	_	7	punct	_	start_char=7508|end_char=7509|SpaceAfter=No
+7	Transportwagen	Transportwagen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=7509|end_char=7523|SpaceAfter=No
+8	"	"	PUNCT	$(	_	7	punct	_	start_char=7523|end_char=7524
+9	um	um	ADP	APPR	_	16	mark	_	start_char=7525|end_char=7527
+10	Medikamente	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	16	obj	_	start_char=7528|end_char=7539
+11	an	an	ADP	APPR	_	14	case	_	start_char=7540|end_char=7542
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=7543|end_char=7546
+13	exakte	exakt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=7547|end_char=7553
+14	Stelle	Stelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	start_char=7554|end_char=7560
+15	zu	zu	PART	PTKZU	_	16	mark	_	start_char=7561|end_char=7563
+16	transportieren	transportieren	VERB	VVINF	VerbForm=Inf	3	advcl	_	start_char=7564|end_char=7578|SpaceAfter=No
+17	,	,	PUNCT	$,	_	20	punct	_	start_char=7578|end_char=7579
+18	wo	wo	ADV	PWAV	PronType=Int	20	advmod	_	start_char=7580|end_char=7582
+19	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj:pass	_	start_char=7583|end_char=7586
+20	benötigt	benötigen	VERB	VVPP	VerbForm=Part	14	acl	_	start_char=7587|end_char=7595
+21	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	20	aux:pass	_	start_char=7596|end_char=7602|SpaceAfter=No
+22	.	.	PUNCT	$.	_	3	punct	_	start_char=7602|end_char=7603|SpacesAfter=\n\n
+
+# text = Zum Beispiel Chemotherapie zu einem Tumor oder Gentherapie zu dem Gewebe, wo Genreparatur benötigt wird.
+# sent_id = 63
+1-2	Zum	_	_	_	_	_	_	_	start_char=7605|end_char=7608
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	start_char=7609|end_char=7617
+4	Chemotherapie	Chemotherapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=7618|end_char=7631
+5	zu	zu	ADP	APPR	_	7	case	_	start_char=7632|end_char=7634
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=7635|end_char=7640
+7	Tumor	Tumor	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	start_char=7641|end_char=7646
+8	oder	oder	CCONJ	KON	_	9	cc	_	start_char=7647|end_char=7651
+9	Gentherapie	Gentherapie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	conj	_	start_char=7652|end_char=7663
+10	zu	zu	ADP	APPR	_	12	case	_	start_char=7664|end_char=7666
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	start_char=7667|end_char=7670
+12	Gewebe	Gewebe	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	start_char=7671|end_char=7677|SpaceAfter=No
+13	,	,	PUNCT	$,	_	16	punct	_	start_char=7677|end_char=7678
+14	wo	wo	ADV	PWAV	PronType=Int	16	advmod	_	start_char=7679|end_char=7681
+15	Genreparatur	Genreparatur	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nsubj:pass	_	start_char=7682|end_char=7694
+16	benötigt	benötigen	VERB	VVPP	VerbForm=Part	12	acl	_	start_char=7695|end_char=7703
+17	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	16	aux:pass	_	start_char=7704|end_char=7708|SpaceAfter=No
+18	.	.	PUNCT	$.	_	4	punct	_	start_char=7708|end_char=7709|SpacesAfter=\n\n
+
+# text = Viertens: Wir designen smarte Therapeutik, die Berechnungen im Körper durchführt und weit über derzeitige Medikamente hinausgeht, die wirklich eher stumpfe Waffen sind.
+# sent_id = 64
+1	Viertens	viertens	ADV	ADV	_	4	advmod	_	start_char=7711|end_char=7719|SpaceAfter=No
+2	:	:	PUNCT	$.	_	1	punct	_	start_char=7719|end_char=7720
+3	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=7721|end_char=7724
+4	designen	designen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7725|end_char=7733
+5	smarte	smart	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=7734|end_char=7740
+6	Therapeutik	Therapeutik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=7741|end_char=7752|SpaceAfter=No
+7	,	,	PUNCT	$,	_	13	punct	_	start_char=7752|end_char=7753
+8	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	13	nsubj	_	start_char=7754|end_char=7757
+9	Berechnungen	Berechnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	start_char=7758|end_char=7770
+10-11	im	_	_	_	_	_	_	_	start_char=7771|end_char=7773
+10	in	in	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Körper	Körper	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	start_char=7774|end_char=7780
+13	durchführt	durchführen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	start_char=7781|end_char=7791
+14	und	und	CCONJ	KON	_	19	cc	_	start_char=7792|end_char=7795
+15	weit	weit	ADJ	ADJD	Degree=Pos	19	advmod	_	start_char=7796|end_char=7800
+16	über	über	ADP	APPR	_	18	case	_	start_char=7801|end_char=7805
+17	derzeitige	derzeitig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	18	amod	_	start_char=7806|end_char=7816
+18	Medikamente	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	19	obl	_	start_char=7817|end_char=7828
+19	hinausgeht	hinausgehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	start_char=7829|end_char=7839|SpaceAfter=No
+20	,	,	PUNCT	$,	_	25	punct	_	start_char=7839|end_char=7840
+21	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	25	nsubj	_	start_char=7841|end_char=7844
+22	wirklich	wirklich	ADV	ADV	_	23	advmod	_	start_char=7845|end_char=7853
+23	eher	eher	ADV	ADV	_	24	advmod	_	start_char=7854|end_char=7858
+24	stumpfe	stumpf	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	start_char=7859|end_char=7866
+25	Waffen	Waffe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	18	acl	_	start_char=7867|end_char=7873
+26	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	start_char=7874|end_char=7878|SpaceAfter=No
+27	.	.	PUNCT	$.	_	4	punct	_	start_char=7878|end_char=7879|SpacesAfter=\n\n
+
+# text = Zum Beispiel, um eine kleine Untermenge von Immunzellen anzuvisieren, die eine Autoimmunerkrankung verursachen, und sie von der großen Mehrheit gesunder Immunzellen zu unterscheiden.
+# sent_id = 65
+1-2	Zum	_	_	_	_	_	_	_	start_char=7881|end_char=7884
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	0	root	_	start_char=7885|end_char=7893|SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	start_char=7893|end_char=7894
+5	um	um	ADP	KOUI	_	11	mark	_	start_char=7895|end_char=7897
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=7898|end_char=7902
+7	kleine	klein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=7903|end_char=7909
+8	Untermenge	Untermenge	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=7910|end_char=7920
+9	von	von	ADP	APPR	_	10	case	_	start_char=7921|end_char=7924
+10	Immunzellen	Immunzelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	nmod	_	start_char=7925|end_char=7936
+11	anzuvisieren	anvisieren	VERB	VVIZU	VerbForm=Inf	3	advcl	_	start_char=7937|end_char=7949|SpaceAfter=No
+12	,	,	PUNCT	$,	_	16	punct	_	start_char=7949|end_char=7950
+13	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	16	nsubj	_	start_char=7951|end_char=7954
+14	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	15	det	_	start_char=7955|end_char=7959
+15	Autoimmunerkrankung	Autoimmunerkrankung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	start_char=7960|end_char=7979
+16	verursachen	verursachen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	start_char=7980|end_char=7991|SpaceAfter=No
+17	,	,	PUNCT	$,	_	27	punct	_	start_char=7991|end_char=7992
+18	und	und	CCONJ	KON	_	27	cc	_	start_char=7993|end_char=7996
+19	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	27	obj	_	start_char=7997|end_char=8000
+20	von	von	ADP	APPR	_	23	case	_	start_char=8001|end_char=8004
+21	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=8005|end_char=8008
+22	großen	groß	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=8009|end_char=8015
+23	Mehrheit	Mehrheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	27	obl	_	start_char=8016|end_char=8024
+24	gesunder	gesund	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	start_char=8025|end_char=8033
+25	Immunzellen	Immunzelle	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	start_char=8034|end_char=8045
+26	zu	zu	PART	PTKZU	_	27	mark	_	start_char=8046|end_char=8048
+27	unterscheiden	unterscheiden	VERB	VVINF	VerbForm=Inf	16	conj	_	start_char=8049|end_char=8062|SpaceAfter=No
+28	.	.	PUNCT	$.	_	3	punct	_	start_char=8062|end_char=8063|SpacesAfter=\n\n
+
+# text = Als letztens, inspiriert von besonderen biologischen Materialen wie Seide, Perlmutt, Zahn und anderen, kreiieren wir neue, proteinbasierte Materialien, um Probleme in Bereichen der Energie und Ökologie zu adressieren.
+# sent_id = 66
+1	Als	als	ADP	KOKOM	_	2	case	_	start_char=8065|end_char=8068
+2	letztens	letztens	ADV	ADV	_	18	advmod	_	start_char=8069|end_char=8077|SpaceAfter=No
+3	,	,	PUNCT	$,	_	4	punct	_	start_char=8077|end_char=8078
+4	inspiriert	inspirieren	VERB	VVPP	VerbForm=Part	2	acl	_	start_char=8079|end_char=8089
+5	von	von	ADP	APPR	_	8	case	_	start_char=8090|end_char=8093
+6	besonderen	besonder	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=8094|end_char=8104
+7	biologischen	biologisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=8105|end_char=8117
+8	Materialen	Material	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	start_char=8118|end_char=8128
+9	wie	wie	ADP	KOKOM	_	10	case	_	start_char=8129|end_char=8132
+10	Seide	Seide	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	start_char=8133|end_char=8138|SpaceAfter=No
+11	,	,	PUNCT	$,	_	12	punct	_	start_char=8138|end_char=8139
+12	Perlmutt	Perlmutt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	conj	_	start_char=8140|end_char=8148|SpaceAfter=No
+13	,	,	PUNCT	$,	_	14	punct	_	start_char=8148|end_char=8149
+14	Zahn	Zahn	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	conj	_	start_char=8150|end_char=8154
+15	und	und	CCONJ	KON	_	16	cc	_	start_char=8155|end_char=8158
+16	anderen	anderer	DET	PIS	Case=Dat|Number=Plur|PronType=Ind	10	conj	_	start_char=8159|end_char=8166|SpaceAfter=No
+17	,	,	PUNCT	$,	_	4	punct	_	start_char=8166|end_char=8167
+18	kreiieren	kreiieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8168|end_char=8177
+19	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	start_char=8178|end_char=8181
+20	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	start_char=8182|end_char=8186|SpaceAfter=No
+21	,	,	PUNCT	$,	_	22	punct	_	start_char=8186|end_char=8187
+22	proteinbasierte	proteinbasiert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	20	conj	_	start_char=8188|end_char=8203
+23	Materialien	Material	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	18	obj	_	start_char=8204|end_char=8215|SpaceAfter=No
+24	,	,	PUNCT	$,	_	34	punct	_	start_char=8215|end_char=8216
+25	um	um	ADP	KOUI	_	34	mark	_	start_char=8217|end_char=8219
+26	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	34	obj	_	start_char=8220|end_char=8228
+27	in	in	ADP	APPR	_	28	case	_	start_char=8229|end_char=8231
+28	Bereichen	Bereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	26	nmod	_	start_char=8232|end_char=8241
+29	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	start_char=8242|end_char=8245
+30	Energie	Energie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	start_char=8246|end_char=8253
+31	und	und	CCONJ	KON	_	32	cc	_	start_char=8254|end_char=8257
+32	Ökologie	Ökologie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	30	conj	_	start_char=8258|end_char=8266
+33	zu	zu	PART	PTKZU	_	34	mark	_	start_char=8267|end_char=8269
+34	adressieren	adressieren	VERB	VVINF	VerbForm=Inf	18	advcl	_	start_char=8270|end_char=8281|SpaceAfter=No
+35	.	.	PUNCT	$.	_	18	punct	_	start_char=8281|end_char=8282|SpacesAfter=\n\n
+
+# text = Um dies alles zu tun, entwickeln wir unser Institut.
+# sent_id = 67
+1	Um	um	ADP	KOUI	_	5	mark	_	start_char=8284|end_char=8286
+2	dies	dieser	DET	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	obj	_	start_char=8287|end_char=8291
+3	alles	alle	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	5	obj	_	start_char=8292|end_char=8297
+4	zu	zu	PART	PTKZU	_	5	mark	_	start_char=8298|end_char=8300
+5	tun	tun	VERB	VVINF	VerbForm=Inf	7	advcl	_	start_char=8301|end_char=8304|SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	start_char=8304|end_char=8305
+7	entwickeln	entwickeln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8306|end_char=8316
+8	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=8317|end_char=8320
+9	unser	unser	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=8321|end_char=8326
+10	Institut	Institut	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	start_char=8327|end_char=8335|SpaceAfter=No
+11	.	.	PUNCT	$.	_	7	punct	_	start_char=8335|end_char=8336|SpacesAfter=\n\n
+
+# text = Wir wollen energische, talentierte und vielfältige Wissenschaftler von überall aus der Welt und in allen Karriereetappen einladen, sich uns anzuschließen.
+# sent_id = 68
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	start_char=8338|end_char=8341
+2	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=8342|end_char=8348
+3	energische	energisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=8349|end_char=8359|SpaceAfter=No
+4	,	,	PUNCT	$,	_	5	punct	_	start_char=8359|end_char=8360
+5	talentierte	talentiert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	3	conj	_	start_char=8361|end_char=8372
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=8373|end_char=8376
+7	vielfältige	vielfältig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	conj	_	start_char=8377|end_char=8388
+8	Wissenschaftler	Wissenschaftler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	obj	_	start_char=8389|end_char=8404
+9	von	von	ADP	APPR	_	13	case	_	start_char=8405|end_char=8408
+10	überall	überall	ADV	ADV	_	18	advmod	_	start_char=8409|end_char=8416
+11	aus	aus	ADP	APPR	_	13	case	_	start_char=8417|end_char=8420
+12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=8421|end_char=8424
+13	Welt	Welt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	start_char=8425|end_char=8429
+14	und	und	CCONJ	KON	_	17	cc	_	start_char=8430|end_char=8433
+15	in	in	ADP	APPR	_	17	case	_	start_char=8434|end_char=8436
+16	allen	alle	DET	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Tot	17	det	_	start_char=8437|end_char=8442
+17	Karriereetappen	Karriereetappe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	13	conj	_	start_char=8443|end_char=8458
+18	einladen	einladen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=8459|end_char=8467|SpaceAfter=No
+19	,	,	PUNCT	$,	_	22	punct	_	start_char=8467|end_char=8468
+20	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	22	obj	_	start_char=8469|end_char=8473
+21	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	22	obj	_	start_char=8474|end_char=8477
+22	anzuschließen	anschließen	VERB	VVIZU	VerbForm=Inf	18	xcomp	_	start_char=8478|end_char=8491|SpaceAfter=No
+23	.	.	PUNCT	$.	_	18	punct	_	start_char=8491|end_char=8492|SpacesAfter=\n\n
+
+# text = Auch Sie können an der Proteindesignrevolution teilnehmen durch unser online Falt- und Designspiel "Foldit."
+# sent_id = 69
+1	Auch	auch	ADV	ADV	_	2	advmod	_	start_char=8494|end_char=8498
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=8499|end_char=8502
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=8503|end_char=8509
+4	an	an	ADP	APPR	_	6	case	_	start_char=8510|end_char=8512
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=8513|end_char=8516
+6	Proteindesignrevolution	Proteindesignrevolution	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	start_char=8517|end_char=8540
+7	teilnehmen	teilnehmen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=8541|end_char=8551
+8	durch	durch	ADP	APPR	_	11	case	_	start_char=8552|end_char=8557
+9	unser	unser	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	11	det:poss	_	start_char=8558|end_char=8563
+10	online	online	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=8564|end_char=8570
+11	Falt	Falt	NOUN	TRUNC	_	7	obl	_	start_char=8571|end_char=8575|SpaceAfter=No
+12	-	-	PUNCT	$(	_	14	punct	_	start_char=8575|end_char=8576
+13	und	und	CCONJ	KON	_	14	cc	_	start_char=8577|end_char=8580
+14	Designspiel	Designspiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	conj	_	start_char=8581|end_char=8592
+15	"	"	PUNCT	$(	_	16	punct	_	start_char=8593|end_char=8594|SpaceAfter=No
+16	Foldit	Foldit	PROPN	NE	Number=Sing	11	appos	_	start_char=8594|end_char=8600|SpaceAfter=No
+17	.	.	PUNCT	$.	_	16	punct	_	start_char=8600|end_char=8601|SpaceAfter=No
+18	"	"	PUNCT	$(	_	16	punct	_	start_char=8601|end_char=8602|SpacesAfter=\n\n
+
+# text = Und durch unser dezentralisiertes Projekt Rosetta@home, dem Sie über Ihren Laptop oder Ihr Smartphone beitreten können.
+# sent_id = 70
+1	Und	und	CCONJ	KON	_	5	cc	_	start_char=8604|end_char=8607
+2	durch	durch	ADP	APPR	_	5	case	_	start_char=8608|end_char=8613
+3	unser	unser	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	start_char=8614|end_char=8619
+4	dezentralisiertes	dezentralisiertes	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=8620|end_char=8637
+5	Projekt	Projekt	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	0	root	_	start_char=8638|end_char=8645
+6	Rosetta@home	Rosetta@home	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	5	appos	_	start_char=8646|end_char=8658|SpaceAfter=No
+7	,	,	PUNCT	$,	_	16	punct	_	start_char=8658|end_char=8659
+8	dem	der	PRON	PRELS	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem,Rel	16	obl:arg	_	start_char=8660|end_char=8663
+9	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	16	nsubj	_	start_char=8664|end_char=8667
+10	über	über	ADP	APPR	_	12	case	_	start_char=8668|end_char=8672
+11	Ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	start_char=8673|end_char=8678
+12	Laptop	Laptop	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	start_char=8679|end_char=8685
+13	oder	oder	CCONJ	KON	_	15	cc	_	start_char=8686|end_char=8690
+14	Ihr	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	det:poss	_	start_char=8691|end_char=8694
+15	Smartphone	Smartphone	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	conj	_	start_char=8695|end_char=8705
+16	beitreten	beitreten	VERB	VVINF	VerbForm=Inf	5	acl	_	start_char=8706|end_char=8715
+17	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=8716|end_char=8722|SpaceAfter=No
+18	.	.	PUNCT	$.	_	1	punct	_	start_char=8722|end_char=8723|SpacesAfter=\n\n
+
+# text = Durch Proteindesign die Welt zu verbessern ist mein Lebenswerk.
+# sent_id = 71
+1	Durch	durch	ADP	APPR	_	2	case	_	start_char=8725|end_char=8730
+2	Proteindesign	Proteindesign	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	start_char=8731|end_char=8744
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=8745|end_char=8748
+4	Welt	Welt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=8749|end_char=8753
+5	zu	zu	PART	PTKZU	_	6	mark	_	start_char=8754|end_char=8756
+6	verbessern	verbessern	VERB	VVINF	VerbForm=Inf	9	csubj	_	start_char=8757|end_char=8767
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=8768|end_char=8771
+8	mein	mein	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	start_char=8772|end_char=8776
+9	Lebenswerk	Lebenswerk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=8777|end_char=8787|SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=8787|end_char=8788|SpacesAfter=\n\n
+
+# text = Ich freue mich auf das, was wir gemeinsam erreichen können.
+# sent_id = 72
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=8790|end_char=8793
+2	freue	freuen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8794|end_char=8799
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	start_char=8800|end_char=8804
+4	auf	auf	ADP	APPR	_	5	case	_	start_char=8805|end_char=8808
+5	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obl	_	start_char=8809|end_char=8812|SpaceAfter=No
+6	,	,	PUNCT	$,	_	10	punct	_	start_char=8812|end_char=8813
+7	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	10	obj	_	start_char=8814|end_char=8817
+8	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	start_char=8818|end_char=8821
+9	gemeinsam	gemeinsam	ADJ	ADJD	Degree=Pos	10	advmod	_	start_char=8822|end_char=8831
+10	erreichen	erreichen	VERB	VVINF	VerbForm=Inf	5	acl	_	start_char=8832|end_char=8841
+11	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=8842|end_char=8848|SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=8848|end_char=8849|SpacesAfter=\n\n
+
+# text = Ich hoffe Sie machen mit. Vielen Dank.
+# sent_id = 73
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=8851|end_char=8854
+2	hoffe	hoffen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8855|end_char=8860
+3	Sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	obj	_	start_char=8861|end_char=8864
+4	machen	machen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	start_char=8865|end_char=8871
+5	mit	mit	ADP	PTKVZ	_	2	compound:prt	_	start_char=8872|end_char=8875|SpaceAfter=No
+6	.	.	PUNCT	$.	_	8	punct	_	start_char=8875|end_char=8876
+7	Vielen	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	8	det	_	start_char=8877|end_char=8883
+8	Dank	Dank	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	appos	_	start_char=8884|end_char=8888|SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	start_char=8888|end_char=8889|SpaceAfter=No

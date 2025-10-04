@@ -1,0 +1,1441 @@
+# conllu_stats: begin
+# conllu_tokens: 1231
+# conllu_sentences: 61
+# Avrage tokens per senteces: 20.18032786885246
+# conllu_stats: end
+
+
+# text = Toy tiles that talk to each other
+# sent_id = 0
+1	Toy	toy	NOUN	NN	Number=Sing	2	compound	_	start_char=0|end_char=3
+2	tiles	tile	NOUN	NNS	Number=Plur	0	root	_	start_char=4|end_char=9
+3	that	that	PRON	WDT	PronType=Rel	4	nsubj	_	start_char=10|end_char=14
+4	talk	talk	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	start_char=15|end_char=19
+5	to	to	ADP	IN	_	6	case	_	start_char=20|end_char=22
+6	each	each	DET	DT	ExtPos=PRON|PronType=Rcp	4	obl	_	start_char=23|end_char=27
+7	other	other	ADJ	JJ	Degree=Pos	6	fixed	_	start_char=28|end_char=33|SpacesAfter=\n\n
+
+# text = I want to start out by asking you to think back to when you were a kid, playing with blocks.
+# sent_id = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=35|end_char=36
+2	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=37|end_char=41
+3	to	to	PART	TO	_	4	mark	_	start_char=42|end_char=44
+4	start	start	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=45|end_char=50
+5	out	out	ADP	RP	_	4	compound:prt	_	start_char=51|end_char=54
+6	by	by	SCONJ	IN	_	7	mark	_	start_char=55|end_char=57
+7	asking	ask	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	_	start_char=58|end_char=64
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	iobj	_	start_char=65|end_char=68
+9	to	to	PART	TO	_	10	mark	_	start_char=69|end_char=71
+10	think	think	VERB	VB	VerbForm=Inf	7	xcomp	_	start_char=72|end_char=77
+11	back	back	ADV	RB	_	10	advmod	_	start_char=78|end_char=82
+12	to	to	ADP	IN	_	13	case	_	start_char=83|end_char=85
+13	when	when	ADV	WRB	PronType=Int	17	advmod	_	start_char=86|end_char=90
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	start_char=91|end_char=94
+15	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	17	cop	_	start_char=95|end_char=99
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	start_char=100|end_char=101
+17	kid	kid	NOUN	NN	Number=Sing	10	advcl	_	start_char=102|end_char=105|SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	_	start_char=105|end_char=106
+19	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part	10	advcl	_	start_char=107|end_char=114
+20	with	with	ADP	IN	_	21	case	_	start_char=115|end_char=119
+21	blocks	block	NOUN	NNS	Number=Plur	19	obl	_	start_char=120|end_char=126|SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	start_char=126|end_char=127|SpacesAfter=\n\n
+
+# text = As you figured out how to reach out and grasp, pick them up and move them around, you were actually learning how to think and solve problems by understanding and manipulating spatial relationships.
+# sent_id = 2
+1	As	as	SCONJ	IN	_	3	mark	_	start_char=129|end_char=131
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=132|end_char=135
+3	figured	figure	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	23	advcl	_	start_char=136|end_char=143
+4	out	out	ADP	RP	_	3	compound:prt	_	start_char=144|end_char=147
+5	how	how	ADV	WRB	PronType=Int	3	obj	_	start_char=148|end_char=151
+6	to	to	PART	TO	_	7	mark	_	start_char=152|end_char=154
+7	reach	reach	VERB	VB	VerbForm=Inf	5	acl	_	start_char=155|end_char=160
+8	out	out	ADP	RP	_	7	compound:prt	_	start_char=161|end_char=164
+9	and	and	CCONJ	CC	_	10	cc	_	start_char=165|end_char=168
+10	grasp	grasp	VERB	VB	VerbForm=Inf	7	conj	_	start_char=169|end_char=174|SpaceAfter=No
+11	,	,	PUNCT	,	_	3	punct	_	start_char=174|end_char=175
+12	pick	pick	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=176|end_char=180
+13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	obj	_	start_char=181|end_char=185
+14	up	up	ADP	RP	_	12	compound:prt	_	start_char=186|end_char=188
+15	and	and	CCONJ	CC	_	16	cc	_	start_char=189|end_char=192
+16	move	move	VERB	VB	Mood=Imp|VerbForm=Fin	12	conj	_	start_char=193|end_char=197
+17	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	obj	_	start_char=198|end_char=202
+18	around	around	ADV	RB	_	16	advmod	_	start_char=203|end_char=209|SpaceAfter=No
+19	,	,	PUNCT	,	_	3	punct	_	start_char=209|end_char=210
+20	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	23	nsubj	_	start_char=211|end_char=214
+21	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	23	aux	_	start_char=215|end_char=219
+22	actually	actually	ADV	RB	_	23	advmod	_	start_char=220|end_char=228
+23	learning	learn	VERB	VBG	Tense=Pres|VerbForm=Part	12	parataxis	_	start_char=229|end_char=237
+24	how	how	ADV	WRB	PronType=Int	23	obj	_	start_char=238|end_char=241
+25	to	to	PART	TO	_	26	mark	_	start_char=242|end_char=244
+26	think	think	VERB	VB	VerbForm=Inf	24	acl	_	start_char=245|end_char=250
+27	and	and	CCONJ	CC	_	28	cc	_	start_char=251|end_char=254
+28	solve	solve	VERB	VB	VerbForm=Inf	26	conj	_	start_char=255|end_char=260
+29	problems	problem	NOUN	NNS	Number=Plur	28	obj	_	start_char=261|end_char=269
+30	by	by	SCONJ	IN	_	31	mark	_	start_char=270|end_char=272
+31	understanding	understand	VERB	VBG	Tense=Pres|VerbForm=Part	26	advcl	_	start_char=273|end_char=286
+32	and	and	CCONJ	CC	_	33	cc	_	start_char=287|end_char=290
+33	manipulating	manipulate	VERB	VBG	Tense=Pres|VerbForm=Part	31	conj	_	start_char=291|end_char=303
+34	spatial	spatial	ADJ	JJ	Degree=Pos	35	amod	_	start_char=304|end_char=311
+35	relationships	relationship	NOUN	NNS	Number=Plur	31	obj	_	start_char=312|end_char=325|SpaceAfter=No
+36	.	.	PUNCT	.	_	23	punct	_	start_char=325|end_char=326|SpacesAfter=\n\n
+
+# text = Spatial reasoning is deeply connected to how we understand a lot of the world around us.
+# sent_id = 3
+1	Spatial	Spatial	ADJ	JJ	Degree=Pos	2	amod	_	start_char=328|end_char=335
+2	reasoning	reasoning	NOUN	NN	Number=Sing	5	nsubj:pass	_	start_char=336|end_char=345
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	start_char=346|end_char=348
+4	deeply	deeply	ADV	RB	_	5	advmod	_	start_char=349|end_char=355
+5	connected	connect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=356|end_char=365
+6	to	to	ADP	IN	_	7	case	_	start_char=366|end_char=368
+7	how	how	ADV	WRB	PronType=Int	5	obl	_	start_char=369|end_char=372
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=373|end_char=375
+9	understand	understand	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	advcl:relcl	_	start_char=376|end_char=386
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=387|end_char=388
+11	lot	lot	NOUN	NN	Number=Sing	9	obj	_	start_char=389|end_char=392
+12	of	of	ADP	IN	_	14	case	_	start_char=393|end_char=395
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=396|end_char=399
+14	world	world	NOUN	NN	Number=Sing	11	nmod	_	start_char=400|end_char=405
+15	around	around	ADP	IN	_	16	case	_	start_char=406|end_char=412
+16	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	nmod	_	start_char=413|end_char=415|SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	start_char=415|end_char=416|SpacesAfter=\n\n
+
+# text = So, as a computer scientist inspired by this utility of our interactions with physical objects -- along with my adviser Pattie, and my collaborator Jeevan Kalanithi -- I started to wonder -- what if when we used a computer, instead of having this one mouse cursor that was a like a digital fingertip moving around a flat desktop, what if we could reach in with both hands and grasp information physically, arranging it the way we wanted?
+# sent_id = 4
+1	So	so	ADV	RB	_	31	advmod	_	start_char=418|end_char=420|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=420|end_char=421
+3	as	as	ADP	IN	_	6	case	_	start_char=422|end_char=424
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=425|end_char=426
+5	computer	computer	NOUN	NN	Number=Sing	6	compound	_	start_char=427|end_char=435
+6	scientist	scientist	NOUN	NN	Number=Sing	31	obl	_	start_char=436|end_char=445
+7	inspired	inspire	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	start_char=446|end_char=454
+8	by	by	ADP	IN	_	10	case	_	start_char=455|end_char=457
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	start_char=458|end_char=462
+10	utility	utility	NOUN	NN	Number=Sing	7	obl:agent	_	start_char=463|end_char=470
+11	of	of	ADP	IN	_	13	case	_	start_char=471|end_char=473
+12	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=474|end_char=477
+13	interactions	interaction	NOUN	NNS	Number=Plur	10	nmod	_	start_char=478|end_char=490
+14	with	with	ADP	IN	_	16	case	_	start_char=491|end_char=495
+15	physical	physical	ADJ	JJ	Degree=Pos	16	amod	_	start_char=496|end_char=504
+16	objects	object	NOUN	NNS	Number=Plur	13	nmod	_	start_char=505|end_char=512
+17	--	--	PUNCT	,	_	21	punct	_	start_char=513|end_char=515
+18	along	along	ADP	IN	_	21	case	_	start_char=516|end_char=521
+19	with	with	ADP	IN	_	21	case	_	start_char=522|end_char=526
+20	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	start_char=527|end_char=529
+21	adviser	adviser	NOUN	NN	Number=Sing	10	nmod	_	start_char=530|end_char=537
+22	Pattie	Pattie	PROPN	NNP	Number=Sing	21	appos	_	start_char=538|end_char=544|SpaceAfter=No
+23	,	,	PUNCT	,	_	26	punct	_	start_char=544|end_char=545
+24	and	and	CCONJ	CC	_	26	cc	_	start_char=546|end_char=549
+25	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	26	nmod:poss	_	start_char=550|end_char=552
+26	collaborator	collaborator	NOUN	NN	Number=Sing	21	conj	_	start_char=553|end_char=565
+27	Jeevan	Jeevan	PROPN	NNP	Number=Sing	26	appos	_	start_char=566|end_char=572
+28	Kalanithi	Kalanithi	PROPN	NNP	Number=Sing	27	flat	_	start_char=573|end_char=582
+29	--	--	PUNCT	,	_	6	punct	_	start_char=583|end_char=585
+30	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	_	start_char=586|end_char=587
+31	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=588|end_char=595
+32	to	to	PART	TO	_	33	mark	_	start_char=596|end_char=598
+33	wonder	wonder	VERB	VB	VerbForm=Inf	31	xcomp	_	start_char=599|end_char=605
+34	--	--	PUNCT	,	_	35	punct	_	start_char=606|end_char=608
+35	what	what	PRON	WP	PronType=Int	63	nsubj	_	start_char=609|end_char=613
+36	if	if	SCONJ	IN	_	39	mark	_	start_char=614|end_char=616
+37	when	when	ADV	WRB	PronType=Int	39	advmod	_	start_char=617|end_char=621
+38	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	39	nsubj	_	start_char=622|end_char=624
+39	used	use	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	63	advcl	_	start_char=625|end_char=629
+40	a	a	DET	DT	Definite=Ind|PronType=Art	41	det	_	start_char=630|end_char=631
+41	computer	computer	NOUN	NN	Number=Sing	39	obj	_	start_char=632|end_char=640|SpaceAfter=No
+42	,	,	PUNCT	,	_	45	punct	_	start_char=640|end_char=641
+43	instead	instead	ADV	RB	_	45	mark	_	start_char=642|end_char=649
+44	of	of	SCONJ	IN	_	43	fixed	_	start_char=650|end_char=652
+45	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	31	advcl	_	start_char=653|end_char=659
+46	this	this	DET	DT	Number=Sing|PronType=Dem	49	det	_	start_char=660|end_char=664
+47	one	one	NUM	CD	NumForm=Word|NumType=Card	49	nummod	_	start_char=665|end_char=668
+48	mouse	mouse	NOUN	NN	Number=Sing	49	compound	_	start_char=669|end_char=674
+49	cursor	cursor	NOUN	NN	Number=Sing	45	obj	_	start_char=675|end_char=681
+50	that	that	PRON	WDT	PronType=Rel	56	nsubj	_	start_char=682|end_char=686
+51	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	56	cop	_	start_char=687|end_char=690
+52	a	a	DET	DT	Definite=Ind|PronType=Art	56	det	_	start_char=691|end_char=692
+53	like	like	INTJ	UH	_	56	discourse	_	start_char=693|end_char=697
+54	a	a	DET	DT	Definite=Ind|PronType=Art	56	det	_	start_char=698|end_char=699
+55	digital	digital	ADJ	JJ	Degree=Pos	56	amod	_	start_char=700|end_char=707
+56	fingertip	fingertip	NOUN	NN	Number=Sing	35	acl:relcl	_	start_char=708|end_char=717
+57	moving	move	VERB	VBG	VerbForm=Ger	56	acl	_	start_char=718|end_char=724
+58	around	around	ADP	IN	_	61	case	_	start_char=725|end_char=731
+59	a	a	DET	DT	Definite=Ind|PronType=Art	61	det	_	start_char=732|end_char=733
+60	flat	flat	ADJ	JJ	Degree=Pos	61	amod	_	start_char=734|end_char=738
+61	desktop	desktop	NOUN	NN	Number=Sing	57	obl	_	start_char=739|end_char=746|SpaceAfter=No
+62	,	,	PUNCT	,	_	39	punct	_	start_char=746|end_char=747
+63	what	what	PRON	WP	PronType=Int	33	ccomp	_	start_char=748|end_char=752
+64	if	if	SCONJ	IN	_	67	mark	_	start_char=753|end_char=755
+65	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	67	nsubj	_	start_char=756|end_char=758
+66	could	could	AUX	MD	VerbForm=Fin	67	aux	_	start_char=759|end_char=764
+67	reach	reach	VERB	VB	VerbForm=Inf	63	advcl	_	start_char=765|end_char=770
+68	in	in	ADV	RB	_	67	advmod	_	start_char=771|end_char=773
+69	with	with	ADP	IN	_	71	case	_	start_char=774|end_char=778
+70	both	both	CCONJ	CC	_	71	cc:preconj	_	start_char=779|end_char=783
+71	hands	hand	NOUN	NNS	Number=Plur	67	obl	_	start_char=784|end_char=789
+72	and	and	CCONJ	CC	_	73	cc	_	start_char=790|end_char=793
+73	grasp	grasp	VERB	VB	VerbForm=Inf	67	conj	_	start_char=794|end_char=799
+74	information	information	NOUN	NN	Number=Sing	73	obj	_	start_char=800|end_char=811
+75	physically	physically	ADV	RB	_	73	advmod	_	start_char=812|end_char=822|SpaceAfter=No
+76	,	,	PUNCT	,	_	77	punct	_	start_char=822|end_char=823
+77	arranging	arrange	VERB	VBG	Tense=Pres|VerbForm=Part	67	advcl	_	start_char=824|end_char=833
+78	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	77	obj	_	start_char=834|end_char=836
+79	the	the	DET	DT	Definite=Def|PronType=Art	80	det	_	start_char=837|end_char=840
+80	way	way	NOUN	NN	Number=Sing	77	obl:unmarked	_	start_char=841|end_char=844
+81	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	82	nsubj	_	start_char=845|end_char=847
+82	wanted	want	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	80	acl:relcl	_	start_char=848|end_char=854|SpaceAfter=No
+83	?	?	PUNCT	.	_	31	punct	_	start_char=854|end_char=855|SpacesAfter=\n\n
+
+# text = This question was so compelling that we decided to explore the answer, by building Siftables.
+# sent_id = 5
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	start_char=857|end_char=861
+2	question	question	NOUN	NN	Number=Sing	5	nsubj	_	start_char=862|end_char=870
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=871|end_char=874
+4	so	so	ADV	RB	_	5	advmod	_	start_char=875|end_char=877
+5	compelling	compelling	ADJ	JJ	Degree=Pos	0	root	_	start_char=878|end_char=888
+6	that	that	SCONJ	IN	_	8	mark	_	start_char=889|end_char=893
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=894|end_char=896
+8	decided	decide	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	5	ccomp	_	start_char=897|end_char=904
+9	to	to	PART	TO	_	10	mark	_	start_char=905|end_char=907
+10	explore	explore	VERB	VB	VerbForm=Inf	8	xcomp	_	start_char=908|end_char=915
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=916|end_char=919
+12	answer	answer	NOUN	NN	Number=Sing	10	obj	_	start_char=920|end_char=926|SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	start_char=926|end_char=927
+14	by	by	SCONJ	IN	_	15	mark	_	start_char=928|end_char=930
+15	building	build	VERB	VBG	Tense=Pres|VerbForm=Part	10	advcl	_	start_char=931|end_char=939
+16	Siftables	siftable	NOUN	NNS	Number=Plur	15	obj	_	start_char=940|end_char=949|SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	start_char=949|end_char=950|SpacesAfter=\n\n
+
+# text = In a nutshell, a Siftable is an interactive computer the size of a cookie.
+# sent_id = 6
+1	In	in	ADP	IN	_	3	case	_	start_char=952|end_char=954
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=955|end_char=956
+3	nutshell	nutshell	NOUN	NN	Number=Sing	10	obl	_	start_char=957|end_char=965|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=965|end_char=966
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=967|end_char=968
+6	Siftable	Siftable	PROPN	NNP	Number=Sing	10	nsubj	_	start_char=969|end_char=977
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=978|end_char=980
+8	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=981|end_char=983
+9	interactive	interactive	ADJ	JJ	Degree=Pos	10	amod	_	start_char=984|end_char=995
+10	computer	computer	NOUN	NN	Number=Sing	0	root	_	start_char=996|end_char=1004
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=1005|end_char=1008
+12	size	size	NOUN	NN	Number=Sing	10	appos	_	start_char=1009|end_char=1013
+13	of	of	ADP	IN	_	15	case	_	start_char=1014|end_char=1016
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=1017|end_char=1018
+15	cookie	cookie	NOUN	NN	Number=Sing	12	nmod	_	start_char=1019|end_char=1025|SpaceAfter=No
+16	.	.	PUNCT	.	_	10	punct	_	start_char=1025|end_char=1026|SpacesAfter=\n\n
+
+# text = They're able to be moved around by hand, they can sense each other, they can sense their motion, and they have a screen and a wireless radio.
+# sent_id = 7
+1-2	They're	_	_	_	_	_	_	_	start_char=1028|end_char=1035
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=1028|end_char=1032
+2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=1032|end_char=1035
+3	able	able	ADJ	JJ	Degree=Pos	0	root	_	start_char=1036|end_char=1040
+4	to	to	PART	TO	_	6	mark	_	start_char=1041|end_char=1043
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	start_char=1044|end_char=1046
+6	moved	move	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	xcomp	_	start_char=1047|end_char=1052
+7	around	around	ADV	RB	_	6	advmod	_	start_char=1053|end_char=1059
+8	by	by	ADP	IN	_	9	case	_	start_char=1060|end_char=1062
+9	hand	hand	NOUN	NN	Number=Sing	6	obl	_	start_char=1063|end_char=1067|SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	start_char=1067|end_char=1068
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	start_char=1069|end_char=1073
+12	can	can	AUX	MD	VerbForm=Fin	13	aux	_	start_char=1074|end_char=1077
+13	sense	sense	VERB	VB	VerbForm=Inf	3	parataxis	_	start_char=1078|end_char=1083
+14	each	each	DET	DT	ExtPos=PRON|PronType=Rcp	13	obj	_	start_char=1084|end_char=1088
+15	other	other	ADJ	JJ	Degree=Pos	14	fixed	_	start_char=1089|end_char=1094|SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	start_char=1094|end_char=1095
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	start_char=1096|end_char=1100
+18	can	can	AUX	MD	VerbForm=Fin	19	aux	_	start_char=1101|end_char=1104
+19	sense	sense	VERB	VB	VerbForm=Inf	3	parataxis	_	start_char=1105|end_char=1110
+20	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	start_char=1111|end_char=1116
+21	motion	motion	NOUN	NN	Number=Sing	19	obj	_	start_char=1117|end_char=1123|SpaceAfter=No
+22	,	,	PUNCT	,	_	25	punct	_	start_char=1123|end_char=1124
+23	and	and	CCONJ	CC	_	25	cc	_	start_char=1125|end_char=1128
+24	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	start_char=1129|end_char=1133
+25	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=1134|end_char=1138
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	start_char=1139|end_char=1140
+27	screen	screen	NOUN	NN	Number=Sing	25	obj	_	start_char=1141|end_char=1147
+28	and	and	CCONJ	CC	_	31	cc	_	start_char=1148|end_char=1151
+29	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	start_char=1152|end_char=1153
+30	wireless	wireless	ADJ	JJ	Degree=Pos	31	amod	_	start_char=1154|end_char=1162
+31	radio	radio	NOUN	NN	Number=Sing	27	conj	_	start_char=1163|end_char=1168|SpaceAfter=No
+32	.	.	PUNCT	.	_	3	punct	_	start_char=1168|end_char=1169|SpacesAfter=\n\n
+
+# text = Most importantly, they're physical, so like the blocks, you can move them just by reaching out and grasping.
+# sent_id = 8
+1	Most	most	ADV	RBS	Degree=Sup	2	advmod	_	start_char=1171|end_char=1175
+2	importantly	importantly	ADV	RB	_	6	advmod	_	start_char=1176|end_char=1187|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=1187|end_char=1188
+4-5	they're	_	_	_	_	_	_	_	start_char=1189|end_char=1196
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=1189|end_char=1193
+5	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1193|end_char=1196
+6	physical	physical	ADJ	JJ	Degree=Pos	0	root	_	start_char=1197|end_char=1205|SpaceAfter=No
+7	,	,	PUNCT	,	_	15	punct	_	start_char=1205|end_char=1206
+8	so	so	ADV	RB	_	15	advmod	_	start_char=1207|end_char=1209
+9	like	like	ADP	IN	_	11	case	_	start_char=1210|end_char=1214
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=1215|end_char=1218
+11	blocks	block	NOUN	NNS	Number=Plur	15	obl	_	start_char=1219|end_char=1225|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	start_char=1225|end_char=1226
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	start_char=1227|end_char=1230
+14	can	can	AUX	MD	VerbForm=Fin	15	aux	_	start_char=1231|end_char=1234
+15	move	move	VERB	VB	VerbForm=Inf	6	parataxis	_	start_char=1235|end_char=1239
+16	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	obj	_	start_char=1240|end_char=1244
+17	just	just	ADV	RB	_	19	advmod	_	start_char=1245|end_char=1249
+18	by	by	SCONJ	IN	_	19	mark	_	start_char=1250|end_char=1252
+19	reaching	reach	VERB	VBG	Tense=Pres|VerbForm=Part	15	advcl	_	start_char=1253|end_char=1261
+20	out	out	ADP	RP	_	19	compound:prt	_	start_char=1262|end_char=1265
+21	and	and	CCONJ	CC	_	22	cc	_	start_char=1266|end_char=1269
+22	grasping	grasp	VERB	VBG	Tense=Pres|VerbForm=Part	19	conj	_	start_char=1270|end_char=1278|SpaceAfter=No
+23	.	.	PUNCT	.	_	6	punct	_	start_char=1278|end_char=1279|SpacesAfter=\n\n
+
+# text = And Siftables are an example of a new ecosystem of tools for manipulating digital information.
+# sent_id = 9
+1	And	and	CCONJ	CC	_	5	cc	_	start_char=1281|end_char=1284
+2	Siftables	siftable	NOUN	NNS	Number=Plur	5	nsubj	_	start_char=1285|end_char=1294
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1295|end_char=1298
+4	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=1299|end_char=1301
+5	example	example	NOUN	NN	Number=Sing	0	root	_	start_char=1302|end_char=1309
+6	of	of	ADP	IN	_	9	case	_	start_char=1310|end_char=1312
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=1313|end_char=1314
+8	new	new	ADJ	JJ	Degree=Pos	9	amod	_	start_char=1315|end_char=1318
+9	ecosystem	ecosystem	NOUN	NN	Number=Sing	5	nmod	_	start_char=1319|end_char=1328
+10	of	of	ADP	IN	_	11	case	_	start_char=1329|end_char=1331
+11	tools	tool	NOUN	NNS	Number=Plur	9	nmod	_	start_char=1332|end_char=1337
+12	for	for	SCONJ	IN	_	13	mark	_	start_char=1338|end_char=1341
+13	manipulating	manipulate	VERB	VBG	VerbForm=Ger	11	acl	_	start_char=1342|end_char=1354
+14	digital	digital	ADJ	JJ	Degree=Pos	15	amod	_	start_char=1355|end_char=1362
+15	information	information	NOUN	NN	Number=Sing	13	obj	_	start_char=1363|end_char=1374|SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	start_char=1374|end_char=1375|SpacesAfter=\n\n
+
+# text = And as these tools become more physical, more aware of their motion, aware of each other, and aware of the nuance of how we move them, we can start to explore some new and fun interaction styles.
+# sent_id = 10
+1	And	and	CCONJ	CC	_	33	cc	_	start_char=1377|end_char=1380
+2	as	as	SCONJ	IN	_	5	mark	_	start_char=1381|end_char=1383
+3	these	this	DET	DT	Number=Plur|PronType=Dem	4	det	_	start_char=1384|end_char=1389
+4	tools	tool	NOUN	NNS	Number=Plur	5	nsubj	_	start_char=1390|end_char=1395
+5	become	become	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	advcl	_	start_char=1396|end_char=1402
+6	more	more	ADV	RBR	Degree=Cmp	7	advmod	_	start_char=1403|end_char=1407
+7	physical	physical	ADJ	JJ	Degree=Pos	5	xcomp	_	start_char=1408|end_char=1416|SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	start_char=1416|end_char=1417
+9	more	more	ADV	RBR	Degree=Cmp	10	advmod	_	start_char=1418|end_char=1422
+10	aware	aware	ADJ	JJ	Degree=Pos	5	xcomp	_	start_char=1423|end_char=1428
+11	of	of	ADP	IN	_	13	case	_	start_char=1429|end_char=1431
+12	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=1432|end_char=1437
+13	motion	motion	NOUN	NN	Number=Sing	10	obl	_	start_char=1438|end_char=1444|SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	start_char=1444|end_char=1445
+15	aware	aware	ADJ	JJ	Degree=Pos	5	xcomp	_	start_char=1446|end_char=1451
+16	of	of	ADP	IN	_	17	case	_	start_char=1452|end_char=1454
+17	each	each	DET	DT	ExtPos=PRON|PronType=Rcp	15	obl	_	start_char=1455|end_char=1459
+18	other	other	ADJ	JJ	Degree=Pos	17	fixed	_	start_char=1460|end_char=1465|SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	start_char=1465|end_char=1466
+20	and	and	CCONJ	CC	_	21	cc	_	start_char=1467|end_char=1470
+21	aware	aware	ADJ	JJ	Degree=Pos	5	conj	_	start_char=1471|end_char=1476
+22	of	of	ADP	IN	_	24	case	_	start_char=1477|end_char=1479
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	start_char=1480|end_char=1483
+24	nuance	nuance	NOUN	NN	Number=Sing	21	obl	_	start_char=1484|end_char=1490
+25	of	of	ADP	IN	_	26	case	_	start_char=1491|end_char=1493
+26	how	how	ADV	WRB	PronType=Int	24	nmod	_	start_char=1494|end_char=1497
+27	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	28	nsubj	_	start_char=1498|end_char=1500
+28	move	move	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	26	advcl:relcl	_	start_char=1501|end_char=1505
+29	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	28	obj	_	start_char=1506|end_char=1510|SpaceAfter=No
+30	,	,	PUNCT	,	_	5	punct	_	start_char=1510|end_char=1511
+31	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	33	nsubj	_	start_char=1512|end_char=1514
+32	can	can	AUX	MD	VerbForm=Fin	33	aux	_	start_char=1515|end_char=1518
+33	start	start	VERB	VB	VerbForm=Inf	0	root	_	start_char=1519|end_char=1524
+34	to	to	PART	TO	_	35	mark	_	start_char=1525|end_char=1527
+35	explore	explore	VERB	VB	VerbForm=Inf	33	xcomp	_	start_char=1528|end_char=1535
+36	some	some	DET	DT	PronType=Ind	41	det	_	start_char=1536|end_char=1540
+37	new	new	ADJ	JJ	Degree=Pos	41	amod	_	start_char=1541|end_char=1544
+38	and	and	CCONJ	CC	_	39	cc	_	start_char=1545|end_char=1548
+39	fun	fun	ADJ	JJ	Degree=Pos	37	conj	_	start_char=1549|end_char=1552
+40	interaction	interaction	NOUN	NN	Number=Sing	41	compound	_	start_char=1553|end_char=1564
+41	styles	style	NOUN	NNS	Number=Plur	35	obj	_	start_char=1565|end_char=1571|SpaceAfter=No
+42	.	.	PUNCT	.	_	33	punct	_	start_char=1571|end_char=1572|SpacesAfter=\n\n
+
+# text = So, I'm going to start with some simple examples.
+# sent_id = 11
+1	So	so	ADV	RB	_	5	discourse	_	start_char=1574|end_char=1576|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=1576|end_char=1577
+3-4	I'm	_	_	_	_	_	_	_	start_char=1578|end_char=1581
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=1578|end_char=1579
+4	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1579|end_char=1581
+5	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=1582|end_char=1587
+6	to	to	PART	TO	_	7	mark	_	start_char=1588|end_char=1590
+7	start	start	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=1591|end_char=1596
+8	with	with	ADP	IN	_	11	case	_	start_char=1597|end_char=1601
+9	some	some	DET	DT	PronType=Ind	11	det	_	start_char=1602|end_char=1606
+10	simple	simple	ADJ	JJ	Degree=Pos	11	amod	_	start_char=1607|end_char=1613
+11	examples	example	NOUN	NNS	Number=Plur	7	obl	_	start_char=1614|end_char=1622|SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	start_char=1622|end_char=1623|SpacesAfter=\n\n
+
+# text = This Siftable is configured to show video, and if I tilt it in one direction, it'll roll the video this way; if I tilt it the other way it rolls it backwards.
+# sent_id = 12
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	start_char=1625|end_char=1629
+2	Siftable	siftable	NOUN	NN	Number=Sing	4	nsubj:pass	_	start_char=1630|end_char=1638
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	start_char=1639|end_char=1641
+4	configured	configure	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=1642|end_char=1652
+5	to	to	PART	TO	_	6	mark	_	start_char=1653|end_char=1655
+6	show	show	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=1656|end_char=1660
+7	video	video	NOUN	NN	Number=Sing	6	obj	_	start_char=1661|end_char=1666|SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	start_char=1666|end_char=1667
+9	and	and	CCONJ	CC	_	20	cc	_	start_char=1668|end_char=1671
+10	if	if	SCONJ	IN	_	12	mark	_	start_char=1672|end_char=1674
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=1675|end_char=1676
+12	tilt	tilt	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	advcl	_	start_char=1677|end_char=1681
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	start_char=1682|end_char=1684
+14	in	in	ADP	IN	_	16	case	_	start_char=1685|end_char=1687
+15	one	one	NUM	CD	NumForm=Word|NumType=Card	16	nummod	_	start_char=1688|end_char=1691
+16	direction	direction	NOUN	NN	Number=Sing	12	obl	_	start_char=1692|end_char=1701|SpaceAfter=No
+17	,	,	PUNCT	,	_	12	punct	_	start_char=1701|end_char=1702
+18-19	it'll	_	_	_	_	_	_	_	start_char=1703|end_char=1708
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	start_char=1703|end_char=1705
+19	'll	will	AUX	MD	VerbForm=Fin	20	aux	_	start_char=1705|end_char=1708
+20	roll	roll	VERB	VB	VerbForm=Inf	4	conj	_	start_char=1709|end_char=1713
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	start_char=1714|end_char=1717
+22	video	video	NOUN	NN	Number=Sing	20	obj	_	start_char=1718|end_char=1723
+23	this	this	DET	DT	Number=Sing|PronType=Dem	24	det	_	start_char=1724|end_char=1728
+24	way	way	NOUN	NN	Number=Sing	20	obl:unmarked	_	start_char=1729|end_char=1732|SpaceAfter=No
+25	;	;	PUNCT	,	_	34	punct	_	start_char=1732|end_char=1733
+26	if	if	SCONJ	IN	_	28	mark	_	start_char=1734|end_char=1736
+27	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	start_char=1737|end_char=1738
+28	tilt	tilt	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	advcl	_	start_char=1739|end_char=1743
+29	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	obj	_	start_char=1744|end_char=1746
+30	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	start_char=1747|end_char=1750
+31	other	other	ADJ	JJ	Degree=Pos	32	amod	_	start_char=1751|end_char=1756
+32	way	way	NOUN	NN	Number=Sing	28	obl:unmarked	_	start_char=1757|end_char=1760
+33	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	start_char=1761|end_char=1763
+34	rolls	roll	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	start_char=1764|end_char=1769
+35	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	34	obj	_	start_char=1770|end_char=1772
+36	backwards	backwards	ADV	RB	_	34	advmod	_	start_char=1773|end_char=1782|SpaceAfter=No
+37	.	.	PUNCT	.	_	4	punct	_	start_char=1782|end_char=1783|SpacesAfter=\n\n
+
+# text = And these interactive portraits are aware of each other.
+# sent_id = 13
+1	And	and	CCONJ	CC	_	6	cc	_	start_char=1785|end_char=1788
+2	these	this	DET	DT	Number=Plur|PronType=Dem	4	det	_	start_char=1789|end_char=1794
+3	interactive	interactive	ADJ	JJ	Degree=Pos	4	amod	_	start_char=1795|end_char=1806
+4	portraits	portrait	NOUN	NNS	Number=Plur	6	nsubj	_	start_char=1807|end_char=1816
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1817|end_char=1820
+6	aware	aware	ADJ	JJ	Degree=Pos	0	root	_	start_char=1821|end_char=1826
+7	of	of	ADP	IN	_	8	case	_	start_char=1827|end_char=1829
+8	each	each	DET	DT	ExtPos=PRON|PronType=Rcp	6	obl	_	start_char=1830|end_char=1834
+9	other	other	ADJ	JJ	Degree=Pos	8	fixed	_	start_char=1835|end_char=1840|SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	start_char=1840|end_char=1841|SpacesAfter=\n\n
+
+# text = So if I put them next to each other, they get interested.
+# sent_id = 14
+1	So	so	ADV	RB	_	12	advmod	_	start_char=1843|end_char=1845
+2	if	if	SCONJ	IN	_	4	mark	_	start_char=1846|end_char=1848
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=1849|end_char=1850
+4	put	put	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	12	advcl	_	start_char=1851|end_char=1854
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	start_char=1855|end_char=1859
+6	next	next	ADV	RB	_	4	advmod	_	start_char=1860|end_char=1864
+7	to	to	ADP	IN	_	8	case	_	start_char=1865|end_char=1867
+8	each	each	DET	DT	ExtPos=PRON|PronType=Rcp	4	obl	_	start_char=1868|end_char=1872
+9	other	other	ADJ	JJ	Degree=Pos	8	fixed	_	start_char=1873|end_char=1878|SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	start_char=1878|end_char=1879
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	start_char=1880|end_char=1884
+12	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1885|end_char=1888
+13	interested	interested	ADJ	JJ	Degree=Pos	12	xcomp	_	start_char=1889|end_char=1899|SpaceAfter=No
+14	.	.	PUNCT	.	_	12	punct	_	start_char=1899|end_char=1900|SpacesAfter=\n\n
+
+# text = If they get surrounded, they notice that too, they might get a little flustered.
+# sent_id = 15
+1	If	if	SCONJ	IN	_	4	mark	_	start_char=1902|end_char=1904
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj:pass	_	start_char=1905|end_char=1909
+3	get	get	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	start_char=1910|end_char=1913
+4	surrounded	surround	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	advcl	_	start_char=1914|end_char=1924|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=1924|end_char=1925
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=1926|end_char=1930
+7	notice	notice	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1931|end_char=1937
+8	that	that	SCONJ	IN	_	13	mark	_	start_char=1938|end_char=1942
+9	too	too	ADV	RB	_	13	advmod	_	start_char=1943|end_char=1946|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	start_char=1946|end_char=1947
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	start_char=1948|end_char=1952
+12	might	might	AUX	MD	VerbForm=Fin	13	aux	_	start_char=1953|end_char=1958
+13	get	get	VERB	VB	VerbForm=Inf	7	ccomp	_	start_char=1959|end_char=1962
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=1963|end_char=1964
+15	little	little	ADJ	JJ	Degree=Pos	16	obl:unmarked	_	start_char=1965|end_char=1971
+16	flustered	flustered	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	xcomp	_	start_char=1972|end_char=1981|SpaceAfter=No
+17	.	.	PUNCT	.	_	7	punct	_	start_char=1981|end_char=1982|SpacesAfter=\n\n
+
+# text = And they can also sense their motion and tilt.
+# sent_id = 16
+1	And	and	CCONJ	CC	_	5	cc	_	start_char=1984|end_char=1987
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=1988|end_char=1992
+3	can	can	AUX	MD	VerbForm=Fin	5	aux	_	start_char=1993|end_char=1996
+4	also	also	ADV	RB	_	5	advmod	_	start_char=1997|end_char=2001
+5	sense	sense	VERB	VB	VerbForm=Inf	0	root	_	start_char=2002|end_char=2007
+6	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=2008|end_char=2013
+7	motion	motion	NOUN	NN	Number=Sing	5	obj	_	start_char=2014|end_char=2020
+8	and	and	CCONJ	CC	_	9	cc	_	start_char=2021|end_char=2024
+9	tilt	tilt	VERB	VB	VerbForm=Inf	5	conj	_	start_char=2025|end_char=2029|SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	start_char=2029|end_char=2030|SpacesAfter=\n\n
+
+# text = One of the interesting implications on interaction, we started to realize, was that we could use everyday gestures on data, like pouring a color the way we might pour a liquid.
+# sent_id = 17
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	18	nsubj:outer	_	start_char=2032|end_char=2035
+2	of	of	ADP	IN	_	5	case	_	start_char=2036|end_char=2038
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=2039|end_char=2042
+4	interesting	interesting	ADJ	JJ	Degree=Pos	5	amod	_	start_char=2043|end_char=2054
+5	implications	implication	NOUN	NNS	Number=Plur	1	nmod	_	start_char=2055|end_char=2067
+6	on	on	ADP	IN	_	7	case	_	start_char=2068|end_char=2070
+7	interaction	interaction	NOUN	NN	Number=Sing	5	nmod	_	start_char=2071|end_char=2082|SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	start_char=2082|end_char=2083
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	start_char=2084|end_char=2086
+10	started	start	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	1	acl:relcl	_	start_char=2087|end_char=2094
+11	to	to	PART	TO	_	12	mark	_	start_char=2095|end_char=2097
+12	realize	realize	VERB	VB	VerbForm=Inf	10	xcomp	_	start_char=2098|end_char=2105|SpaceAfter=No
+13	,	,	PUNCT	,	_	1	punct	_	start_char=2105|end_char=2106
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	start_char=2107|end_char=2110
+15	that	that	SCONJ	IN	_	18	mark	_	start_char=2111|end_char=2115
+16	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	start_char=2116|end_char=2118
+17	could	could	AUX	MD	VerbForm=Fin	18	aux	_	start_char=2119|end_char=2124
+18	use	use	VERB	VB	VerbForm=Inf	0	root	_	start_char=2125|end_char=2128
+19	everyday	everyday	ADJ	JJ	Degree=Pos	20	amod	_	start_char=2129|end_char=2137
+20	gestures	gesture	NOUN	NNS	Number=Plur	18	obj	_	start_char=2138|end_char=2146
+21	on	on	ADP	IN	_	22	case	_	start_char=2147|end_char=2149
+22	data	datum	NOUN	NNS	Number=Plur	18	obl	_	start_char=2150|end_char=2154|SpaceAfter=No
+23	,	,	PUNCT	,	_	25	punct	_	start_char=2154|end_char=2155
+24	like	like	SCONJ	IN	_	25	mark	_	start_char=2156|end_char=2160
+25	pouring	pour	VERB	VBG	Tense=Pres|VerbForm=Part	18	advcl	_	start_char=2161|end_char=2168
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	start_char=2169|end_char=2170
+27	color	color	NOUN	NN	Number=Sing	25	obj	_	start_char=2171|end_char=2176
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	start_char=2177|end_char=2180
+29	way	way	NOUN	NN	Number=Sing	25	obl:unmarked	_	start_char=2181|end_char=2184
+30	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	32	nsubj	_	start_char=2185|end_char=2187
+31	might	might	AUX	MD	VerbForm=Fin	32	aux	_	start_char=2188|end_char=2193
+32	pour	pour	VERB	VB	VerbForm=Inf	29	acl:relcl	_	start_char=2194|end_char=2198
+33	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	start_char=2199|end_char=2200
+34	liquid	liquid	NOUN	NN	Number=Sing	32	obj	_	start_char=2201|end_char=2207|SpaceAfter=No
+35	.	.	PUNCT	.	_	18	punct	_	start_char=2207|end_char=2208|SpacesAfter=\n\n
+
+# text = So in this case, we've got three Siftables configured to be paint buckets and I can use them to pour color into that central one, where they get mixed.
+# sent_id = 18
+1	So	so	ADV	RB	_	8	advmod	_	start_char=2210|end_char=2212
+2	in	in	ADP	IN	_	4	case	_	start_char=2213|end_char=2215
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	start_char=2216|end_char=2220
+4	case	case	NOUN	NN	Number=Sing	8	obl	_	start_char=2221|end_char=2225|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=2225|end_char=2226
+6-7	we've	_	_	_	_	_	_	_	start_char=2227|end_char=2232
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=2227|end_char=2229
+7	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=2229|end_char=2232
+8	got	get	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=2233|end_char=2236
+9	three	three	NUM	CD	NumForm=Word|NumType=Card	10	nummod	_	start_char=2237|end_char=2242
+10	Siftables	siftable	NOUN	NNS	Number=Plur	8	obj	_	start_char=2243|end_char=2252
+11	configured	configure	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	start_char=2253|end_char=2263
+12	to	to	PART	TO	_	15	mark	_	start_char=2264|end_char=2266
+13	be	be	AUX	VB	VerbForm=Inf	15	cop	_	start_char=2267|end_char=2269
+14	paint	paint	NOUN	NN	Number=Sing	15	compound	_	start_char=2270|end_char=2275
+15	buckets	bucket	NOUN	NNS	Number=Plur	11	xcomp	_	start_char=2276|end_char=2283
+16	and	and	CCONJ	CC	_	19	cc	_	start_char=2284|end_char=2287
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	start_char=2288|end_char=2289
+18	can	can	AUX	MD	VerbForm=Fin	19	aux	_	start_char=2290|end_char=2293
+19	use	use	VERB	VB	VerbForm=Inf	8	conj	_	start_char=2294|end_char=2297
+20	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	obj	_	start_char=2298|end_char=2302
+21	to	to	PART	TO	_	22	mark	_	start_char=2303|end_char=2305
+22	pour	pour	VERB	VB	VerbForm=Inf	19	xcomp	_	start_char=2306|end_char=2310
+23	color	color	NOUN	NN	Number=Sing	22	obj	_	start_char=2311|end_char=2316
+24	into	into	ADP	IN	_	27	case	_	start_char=2317|end_char=2321
+25	that	that	DET	DT	Number=Sing|PronType=Dem	27	det	_	start_char=2322|end_char=2326
+26	central	central	ADJ	JJ	Degree=Pos	27	amod	_	start_char=2327|end_char=2334
+27	one	one	NOUN	NN	Number=Sing	22	obl	_	start_char=2335|end_char=2338|SpaceAfter=No
+28	,	,	PUNCT	,	_	32	punct	_	start_char=2338|end_char=2339
+29	where	where	ADV	WRB	PronType=Rel	32	advmod	_	start_char=2340|end_char=2345
+30	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	32	nsubj:pass	_	start_char=2346|end_char=2350
+31	get	get	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	aux:pass	_	start_char=2351|end_char=2354
+32	mixed	mix	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	27	acl:relcl	_	start_char=2355|end_char=2360|SpaceAfter=No
+33	.	.	PUNCT	.	_	8	punct	_	start_char=2360|end_char=2361|SpacesAfter=\n\n
+
+# text = If we overshoot, we can pour a little bit back.
+# sent_id = 19
+1	If	if	SCONJ	IN	_	3	mark	_	start_char=2363|end_char=2365
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=2366|end_char=2368
+3	overshoot	overshoot	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	advcl	_	start_char=2369|end_char=2378|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=2378|end_char=2379
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=2380|end_char=2382
+6	can	can	AUX	MD	VerbForm=Fin	7	aux	_	start_char=2383|end_char=2386
+7	pour	pour	VERB	VB	VerbForm=Inf	0	root	_	start_char=2387|end_char=2391
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=2392|end_char=2393
+9	little	little	ADJ	JJ	Degree=Pos	10	amod	_	start_char=2394|end_char=2400
+10	bit	bit	NOUN	NN	Number=Sing	7	obj	_	start_char=2401|end_char=2404
+11	back	back	ADV	RB	_	7	advmod	_	start_char=2405|end_char=2409|SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	start_char=2409|end_char=2410|SpacesAfter=\n\n
+
+# text = There are also some neat possibilities for education, like language, math and logic games where we want to give people the ability to try things quickly, and view the results immediately.
+# sent_id = 20
+1	There	there	PRON	EX	_	2	expl	_	start_char=2412|end_char=2417
+2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2418|end_char=2421
+3	also	also	ADV	RB	_	2	advmod	_	start_char=2422|end_char=2426
+4	some	some	DET	DT	PronType=Ind	6	det	_	start_char=2427|end_char=2431
+5	neat	neat	ADJ	JJ	Degree=Pos	6	amod	_	start_char=2432|end_char=2436
+6	possibilities	possibility	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=2437|end_char=2450
+7	for	for	ADP	IN	_	8	case	_	start_char=2451|end_char=2454
+8	education	education	NOUN	NN	Number=Sing	6	nmod	_	start_char=2455|end_char=2464|SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	start_char=2464|end_char=2465
+10	like	like	ADP	IN	_	11	case	_	start_char=2466|end_char=2470
+11	language	language	NOUN	NN	Number=Sing	6	nmod	_	start_char=2471|end_char=2479|SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	start_char=2479|end_char=2480
+13	math	math	NOUN	NN	Number=Sing	11	conj	_	start_char=2481|end_char=2485
+14	and	and	CCONJ	CC	_	15	cc	_	start_char=2486|end_char=2489
+15	logic	logic	NOUN	NN	Number=Sing	13	conj	_	start_char=2490|end_char=2495
+16	games	game	NOUN	NNS	Number=Plur	11	conj	_	start_char=2496|end_char=2501
+17	where	where	ADV	WRB	PronType=Rel	19	advmod	_	start_char=2502|end_char=2507
+18	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	start_char=2508|end_char=2510
+19	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	start_char=2511|end_char=2515
+20	to	to	PART	TO	_	21	mark	_	start_char=2516|end_char=2518
+21	give	give	VERB	VB	VerbForm=Inf	19	xcomp	_	start_char=2519|end_char=2523
+22	people	person	NOUN	NNS	Number=Plur	21	iobj	_	start_char=2524|end_char=2530
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	start_char=2531|end_char=2534
+24	ability	ability	NOUN	NN	Number=Sing	21	obj	_	start_char=2535|end_char=2542
+25	to	to	PART	TO	_	26	mark	_	start_char=2543|end_char=2545
+26	try	try	VERB	VB	VerbForm=Inf	24	acl	_	start_char=2546|end_char=2549
+27	things	thing	NOUN	NNS	Number=Plur	26	obj	_	start_char=2550|end_char=2556
+28	quickly	quickly	ADV	RB	_	26	advmod	_	start_char=2557|end_char=2564|SpaceAfter=No
+29	,	,	PUNCT	,	_	31	punct	_	start_char=2564|end_char=2565
+30	and	and	CCONJ	CC	_	31	cc	_	start_char=2566|end_char=2569
+31	view	view	VERB	VB	VerbForm=Inf	19	conj	_	start_char=2570|end_char=2574
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	start_char=2575|end_char=2578
+33	results	result	NOUN	NNS	Number=Plur	31	obj	_	start_char=2579|end_char=2586
+34	immediately	immediately	ADV	RB	_	31	advmod	_	start_char=2587|end_char=2598|SpaceAfter=No
+35	.	.	PUNCT	.	_	2	punct	_	start_char=2598|end_char=2599|SpacesAfter=\n\n
+
+# text = So here I'm -- This is a Fibonacci sequence that I'm making with a simple equation program.
+# sent_id = 21
+1	So	so	ADV	RB	_	2	advmod	_	start_char=2601|end_char=2603
+2	here	here	ADV	RB	PronType=Dem	10	reparandum	_	start_char=2604|end_char=2608
+3-4	I'm	_	_	_	_	_	_	_	start_char=2609|end_char=2612
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=2609|end_char=2610
+4	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=2610|end_char=2612
+5	--	--	PUNCT	:	_	2	punct	_	start_char=2613|end_char=2615
+6	This	this	PRON	DT	Number=Sing|PronType=Dem	10	nsubj	_	start_char=2616|end_char=2620
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=2621|end_char=2623
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=2624|end_char=2625
+9	Fibonacci	Fibonacci	ADJ	JJ	Degree=Pos	10	amod	_	start_char=2626|end_char=2635
+10	sequence	sequence	NOUN	NN	Number=Sing	0	root	_	start_char=2636|end_char=2644
+11	that	that	PRON	WDT	PronType=Rel	14	obj	_	start_char=2645|end_char=2649
+12-13	I'm	_	_	_	_	_	_	_	start_char=2650|end_char=2653
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=2650|end_char=2651
+13	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=2651|end_char=2653
+14	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	10	acl:relcl	_	start_char=2654|end_char=2660
+15	with	with	ADP	IN	_	19	case	_	start_char=2661|end_char=2665
+16	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	start_char=2666|end_char=2667
+17	simple	simple	ADJ	JJ	Degree=Pos	19	amod	_	start_char=2668|end_char=2674
+18	equation	equation	NOUN	NN	Number=Sing	19	compound	_	start_char=2675|end_char=2683
+19	program	program	NOUN	NN	Number=Sing	14	obl	_	start_char=2684|end_char=2691|SpaceAfter=No
+20	.	.	PUNCT	.	_	10	punct	_	start_char=2691|end_char=2692|SpacesAfter=\n\n
+
+# text = Here we have a word game that's kind of like a mash-up between Scrabble and Boggle.
+# sent_id = 22
+1	Here	here	ADV	RB	PronType=Dem	3	advmod	_	start_char=2694|end_char=2698
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=2699|end_char=2701
+3	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2702|end_char=2706
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=2707|end_char=2708
+5	word	word	NOUN	NN	Number=Sing	6	compound	_	start_char=2709|end_char=2713
+6	game	game	NOUN	NN	Number=Sing	3	obj	_	start_char=2714|end_char=2718
+7-8	that's	_	_	_	_	_	_	_	start_char=2719|end_char=2725
+7	that	that	PRON	WDT	PronType=Rel	15	nsubj	_	start_char=2719|end_char=2723
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=2723|end_char=2725
+9	kind	kind	NOUN	NN	ExtPos=ADV|Number=Sing	15	advmod	_	start_char=2726|end_char=2730
+10	of	of	ADP	IN	_	9	fixed	_	start_char=2731|end_char=2733
+11	like	like	ADP	IN	_	15	case	_	start_char=2734|end_char=2738
+12	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=2739|end_char=2740
+13	mash	mash	NOUN	NN	Number=Sing	15	compound	_	start_char=2741|end_char=2745|SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	13	punct	_	start_char=2745|end_char=2746|SpaceAfter=No
+15	up	up	NOUN	NN	Number=Sing	6	acl:relcl	_	start_char=2746|end_char=2748
+16	between	between	ADP	IN	_	17	case	_	start_char=2749|end_char=2756
+17	Scrabble	Scrabble	PROPN	NNP	Number=Sing	15	nmod	_	start_char=2757|end_char=2765
+18	and	and	CCONJ	CC	_	19	cc	_	start_char=2766|end_char=2769
+19	Boggle	Boggle	PROPN	NNP	Number=Sing	17	conj	_	start_char=2770|end_char=2776|SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	start_char=2776|end_char=2777|SpacesAfter=\n\n
+
+# text = Basically, in every round you get a randomly assigned letter on each Siftable, and as you try to make words it checks against a dictionary.
+# sent_id = 23
+1	Basically	basically	ADV	RB	_	7	advmod	_	start_char=2779|end_char=2788|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=2788|end_char=2789
+3	in	in	ADP	IN	_	5	case	_	start_char=2790|end_char=2792
+4	every	every	DET	DT	PronType=Tot	5	det	_	start_char=2793|end_char=2798
+5	round	round	NOUN	NN	Number=Sing	7	obl	_	start_char=2799|end_char=2804
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	start_char=2805|end_char=2808
+7	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2809|end_char=2812
+8	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=2813|end_char=2814
+9	randomly	randomly	ADV	RB	_	10	advmod	_	start_char=2815|end_char=2823
+10	assigned	assign	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	start_char=2824|end_char=2832
+11	letter	letter	NOUN	NN	Number=Sing	7	obj	_	start_char=2833|end_char=2839
+12	on	on	ADP	IN	_	14	case	_	start_char=2840|end_char=2842
+13	each	each	DET	DT	PronType=Tot	14	det	_	start_char=2843|end_char=2847
+14	Siftable	Siftable	PROPN	NNP	Number=Sing	11	nmod	_	start_char=2848|end_char=2856|SpaceAfter=No
+15	,	,	PUNCT	,	_	24	punct	_	start_char=2856|end_char=2857
+16	and	and	CCONJ	CC	_	24	cc	_	start_char=2858|end_char=2861
+17	as	as	SCONJ	IN	_	19	mark	_	start_char=2862|end_char=2864
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	start_char=2865|end_char=2868
+19	try	try	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	24	advcl	_	start_char=2869|end_char=2872
+20	to	to	PART	TO	_	21	mark	_	start_char=2873|end_char=2875
+21	make	make	VERB	VB	VerbForm=Inf	19	xcomp	_	start_char=2876|end_char=2880
+22	words	word	NOUN	NNS	Number=Plur	21	obj	_	start_char=2881|end_char=2886
+23	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	start_char=2887|end_char=2889
+24	checks	check	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	start_char=2890|end_char=2896
+25	against	against	ADP	IN	_	27	case	_	start_char=2897|end_char=2904
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	start_char=2905|end_char=2906
+27	dictionary	dictionary	NOUN	NN	Number=Sing	24	obl	_	start_char=2907|end_char=2917|SpaceAfter=No
+28	.	.	PUNCT	.	_	7	punct	_	start_char=2917|end_char=2918|SpacesAfter=\n\n
+
+# text = Then, after about 30 seconds, it reshuffles, and you have a new set of letters and new possibilities to try.
+# sent_id = 24
+1	Then	then	ADV	RB	PronType=Dem	9	advmod	_	start_char=2920|end_char=2924|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=2924|end_char=2925
+3	after	after	ADP	IN	_	6	case	_	start_char=2926|end_char=2931
+4	about	about	ADV	RB	_	5	advmod	_	start_char=2932|end_char=2937
+5	30	30	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	_	start_char=2938|end_char=2940
+6	seconds	second	NOUN	NNS	Number=Plur	9	obl	_	start_char=2941|end_char=2948|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	start_char=2948|end_char=2949
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=2950|end_char=2952
+9	reshuffles	reshuffle	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2953|end_char=2963|SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	start_char=2963|end_char=2964
+11	and	and	CCONJ	CC	_	13	cc	_	start_char=2965|end_char=2968
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	start_char=2969|end_char=2972
+13	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	conj	_	start_char=2973|end_char=2977
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	start_char=2978|end_char=2979
+15	new	new	ADJ	JJ	Degree=Pos	16	amod	_	start_char=2980|end_char=2983
+16	set	set	NOUN	NN	Number=Sing	13	obj	_	start_char=2984|end_char=2987
+17	of	of	ADP	IN	_	18	case	_	start_char=2988|end_char=2990
+18	letters	letter	NOUN	NNS	Number=Plur	16	nmod	_	start_char=2991|end_char=2998
+19	and	and	CCONJ	CC	_	21	cc	_	start_char=2999|end_char=3002
+20	new	new	ADJ	JJ	Degree=Pos	21	amod	_	start_char=3003|end_char=3006
+21	possibilities	possibility	NOUN	NNS	Number=Plur	18	conj	_	start_char=3007|end_char=3020
+22	to	to	PART	TO	_	23	mark	_	start_char=3021|end_char=3023
+23	try	try	VERB	VB	VerbForm=Inf	21	acl	_	start_char=3024|end_char=3027|SpaceAfter=No
+24	.	.	PUNCT	.	_	9	punct	_	start_char=3027|end_char=3028|SpacesAfter=\n\n
+
+# text = Thank you.
+# sent_id = 25
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3030|end_char=3035
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	start_char=3036|end_char=3039|SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	_	start_char=3039|end_char=3040|SpacesAfter=\n\n
+
+# text = So these are some kids that came on a field trip to the Media Lab, and I managed to get them to try it out, and shoot a video.
+# sent_id = 26
+1	So	so	ADV	RB	_	5	discourse	_	start_char=3042|end_char=3044
+2	these	this	PRON	DT	Number=Plur|PronType=Dem	5	nsubj	_	start_char=3045|end_char=3050
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=3051|end_char=3054
+4	some	some	DET	DT	PronType=Ind	5	det	_	start_char=3055|end_char=3059
+5	kids	kid	NOUN	NNS	Number=Plur	0	root	_	start_char=3060|end_char=3064
+6	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	start_char=3065|end_char=3069
+7	came	come	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	start_char=3070|end_char=3074
+8	on	on	ADP	IN	_	11	case	_	start_char=3075|end_char=3077
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=3078|end_char=3079
+10	field	field	NOUN	NN	Number=Sing	11	compound	_	start_char=3080|end_char=3085
+11	trip	trip	NOUN	NN	Number=Sing	7	obl	_	start_char=3086|end_char=3090
+12	to	to	ADP	IN	_	15	case	_	start_char=3091|end_char=3093
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=3094|end_char=3097
+14	Media	Media	PROPN	NNP	Number=Sing	15	compound	_	start_char=3098|end_char=3103
+15	Lab	Lab	PROPN	NNP	Number=Sing	11	nmod	_	start_char=3104|end_char=3107|SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	start_char=3107|end_char=3108
+17	and	and	CCONJ	CC	_	19	cc	_	start_char=3109|end_char=3112
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	start_char=3113|end_char=3114
+19	managed	manage	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	conj	_	start_char=3115|end_char=3122
+20	to	to	PART	TO	_	21	mark	_	start_char=3123|end_char=3125
+21	get	get	VERB	VB	VerbForm=Inf	19	xcomp	_	start_char=3126|end_char=3129
+22	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	21	obj	_	start_char=3130|end_char=3134
+23	to	to	PART	TO	_	24	mark	_	start_char=3135|end_char=3137
+24	try	try	VERB	VB	VerbForm=Inf	21	advcl	_	start_char=3138|end_char=3141
+25	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	obj	_	start_char=3142|end_char=3144
+26	out	out	ADP	RP	_	24	compound:prt	_	start_char=3145|end_char=3148|SpaceAfter=No
+27	,	,	PUNCT	,	_	29	punct	_	start_char=3148|end_char=3149
+28	and	and	CCONJ	CC	_	29	cc	_	start_char=3150|end_char=3153
+29	shoot	shoot	VERB	VB	VerbForm=Inf	21	conj	_	start_char=3154|end_char=3159
+30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	start_char=3160|end_char=3161
+31	video	video	NOUN	NN	Number=Sing	29	obj	_	start_char=3162|end_char=3167|SpaceAfter=No
+32	.	.	PUNCT	.	_	5	punct	_	start_char=3167|end_char=3168|SpacesAfter=\n\n
+
+# text = They really loved it.
+# sent_id = 27
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=3170|end_char=3174
+2	really	really	ADV	RB	_	3	advmod	_	start_char=3175|end_char=3181
+3	loved	love	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3182|end_char=3187
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=3188|end_char=3190|SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	start_char=3190|end_char=3191|SpacesAfter=\n\n
+
+# text = And, one of the interesting things about this kind of application is that you don't have to give people many instructions.
+# sent_id = 28
+1	And	and	CCONJ	CC	_	18	cc	_	start_char=3193|end_char=3196|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=3196|end_char=3197
+3	one	one	NUM	CD	NumForm=Word|NumType=Card	18	nsubj:outer	_	start_char=3198|end_char=3201
+4	of	of	ADP	IN	_	7	case	_	start_char=3202|end_char=3204
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=3205|end_char=3208
+6	interesting	interesting	ADJ	JJ	Degree=Pos	7	amod	_	start_char=3209|end_char=3220
+7	things	thing	NOUN	NNS	Number=Plur	3	nmod	_	start_char=3221|end_char=3227
+8	about	about	ADP	IN	_	10	case	_	start_char=3228|end_char=3233
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	start_char=3234|end_char=3238
+10	kind	kind	NOUN	NN	Number=Sing	7	nmod	_	start_char=3239|end_char=3243
+11	of	of	ADP	IN	_	12	case	_	start_char=3244|end_char=3246
+12	application	application	NOUN	NN	Number=Sing	10	nmod	_	start_char=3247|end_char=3258
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=3259|end_char=3261
+14	that	that	SCONJ	IN	_	18	mark	_	start_char=3262|end_char=3266
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	nsubj	_	start_char=3267|end_char=3270
+16-17	don't	_	_	_	_	_	_	_	start_char=3271|end_char=3276
+16	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=3271|end_char=3273
+17	n't	not	PART	RB	Polarity=Neg	18	advmod	_	start_char=3273|end_char=3276
+18	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=3277|end_char=3281
+19	to	to	PART	TO	_	20	mark	_	start_char=3282|end_char=3284
+20	give	give	VERB	VB	VerbForm=Inf	18	xcomp	_	start_char=3285|end_char=3289
+21	people	person	NOUN	NNS	Number=Plur	20	iobj	_	start_char=3290|end_char=3296
+22	many	many	ADJ	JJ	Degree=Pos	23	amod	_	start_char=3297|end_char=3301
+23	instructions	instruction	NOUN	NNS	Number=Plur	20	obj	_	start_char=3302|end_char=3314|SpaceAfter=No
+24	.	.	PUNCT	.	_	18	punct	_	start_char=3314|end_char=3315|SpacesAfter=\n\n
+
+# text = All you have to say is, "Make words," and they know exactly what to do.
+# sent_id = 29
+1	All	all	DET	DT	PronType=Tot	9	nsubj:outer	_	start_char=3317|end_char=3320
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=3321|end_char=3324
+3	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	start_char=3325|end_char=3329
+4	to	to	PART	TO	_	5	mark	_	start_char=3330|end_char=3332
+5	say	say	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=3333|end_char=3336
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=3337|end_char=3339|SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	start_char=3339|end_char=3340
+8	"	"	PUNCT	``	_	9	punct	_	start_char=3341|end_char=3342|SpaceAfter=No
+9	Make	make	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=3342|end_char=3346
+10	words	word	NOUN	NNS	Number=Plur	9	obj	_	start_char=3347|end_char=3352|SpaceAfter=No
+11	,	,	PUNCT	,	_	9	punct	_	start_char=3352|end_char=3353|SpaceAfter=No
+12	"	"	PUNCT	''	_	9	punct	_	start_char=3353|end_char=3354
+13	and	and	CCONJ	CC	_	15	cc	_	start_char=3355|end_char=3358
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	start_char=3359|end_char=3363
+15	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	start_char=3364|end_char=3368
+16	exactly	exactly	ADV	RB	_	17	advmod	_	start_char=3369|end_char=3376
+17	what	what	PRON	WP	PronType=Int	15	obj	_	start_char=3377|end_char=3381
+18	to	to	PART	TO	_	19	mark	_	start_char=3382|end_char=3384
+19	do	do	VERB	VB	VerbForm=Inf	17	acl	_	start_char=3385|end_char=3387|SpaceAfter=No
+20	.	.	PUNCT	.	_	9	punct	_	start_char=3387|end_char=3388|SpacesAfter=\n\n
+
+# text = So here's another few people trying it out.
+# sent_id = 30
+1	So	so	ADV	RB	_	2	discourse	_	start_char=3390|end_char=3392
+2-3	here's	_	_	_	_	_	_	_	start_char=3393|end_char=3399
+2	here	here	ADV	RB	PronType=Dem	0	root	_	start_char=3393|end_char=3397
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=3397|end_char=3399
+4	another	another	DET	DT	PronType=Ind	6	det	_	start_char=3400|end_char=3407
+5	few	few	ADJ	JJ	Degree=Pos	6	amod	_	start_char=3408|end_char=3411
+6	people	person	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=3412|end_char=3418
+7	trying	try	VERB	VBG	VerbForm=Ger	6	acl	_	start_char=3419|end_char=3425
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	start_char=3426|end_char=3428
+9	out	out	ADP	RP	_	7	compound:prt	_	start_char=3429|end_char=3432|SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	start_char=3432|end_char=3433|SpacesAfter=\n\n
+
+# text = That's our youngest beta tester, down there on the right.
+# sent_id = 31
+1-2	That's	_	_	_	_	_	_	_	start_char=3435|end_char=3441
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	start_char=3435|end_char=3439
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=3439|end_char=3441
+3	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=3442|end_char=3445
+4	youngest	young	ADJ	JJS	Degree=Sup	6	amod	_	start_char=3446|end_char=3454
+5	beta	beta	NOUN	NN	Number=Sing	6	compound	_	start_char=3455|end_char=3459
+6	tester	tester	NOUN	NN	Number=Sing	0	root	_	start_char=3460|end_char=3466|SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	start_char=3466|end_char=3467
+8	down	down	ADV	RB	_	9	advmod	_	start_char=3468|end_char=3472
+9	there	there	ADV	RB	PronType=Dem	6	advmod	_	start_char=3473|end_char=3478
+10	on	on	ADP	IN	_	12	case	_	start_char=3479|end_char=3481
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=3482|end_char=3485
+12	right	right	NOUN	NN	Number=Sing	9	obl	_	start_char=3486|end_char=3491|SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	start_char=3491|end_char=3492|SpacesAfter=\n\n
+
+# text = Turns out, all he wanted to do was to stack the Siftables up.
+# sent_id = 32
+1	Turns	turn	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3494|end_char=3499
+2	out	out	ADP	RP	_	1	compound:prt	_	start_char=3500|end_char=3503|SpaceAfter=No
+3	,	,	PUNCT	,	_	11	punct	_	start_char=3503|end_char=3504
+4	all	all	DET	DT	PronType=Tot	11	nsubj:outer	_	start_char=3505|end_char=3508
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=3509|end_char=3511
+6	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	start_char=3512|end_char=3518
+7	to	to	PART	TO	_	8	mark	_	start_char=3519|end_char=3521
+8	do	do	VERB	VB	VerbForm=Inf	6	xcomp	_	start_char=3522|end_char=3524
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	start_char=3525|end_char=3528
+10	to	to	PART	TO	_	11	mark	_	start_char=3529|end_char=3531
+11	stack	stack	VERB	VB	VerbForm=Inf	1	parataxis	_	start_char=3532|end_char=3537
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=3538|end_char=3541
+13	Siftables	Siftables	PROPN	NNPS	Number=Plur	11	obj	_	start_char=3542|end_char=3551
+14	up	up	ADP	RP	_	11	compound:prt	_	start_char=3552|end_char=3554|SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	_	start_char=3554|end_char=3555|SpacesAfter=\n\n
+
+# text = So to him, they were just blocks.
+# sent_id = 33
+1	So	so	ADV	RB	_	8	discourse	_	start_char=3557|end_char=3559
+2	to	to	ADP	IN	_	3	case	_	start_char=3560|end_char=3562
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	start_char=3563|end_char=3566|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=3566|end_char=3567
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=3568|end_char=3572
+6	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	start_char=3573|end_char=3577
+7	just	just	ADV	RB	_	8	advmod	_	start_char=3578|end_char=3582
+8	blocks	block	NOUN	NNS	Number=Plur	0	root	_	start_char=3583|end_char=3589|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	start_char=3589|end_char=3590|SpacesAfter=\n\n
+
+# text = Now, this is an interactive cartoon application.
+# sent_id = 34
+1	Now	now	ADV	RB	_	8	advmod	_	start_char=3592|end_char=3595|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=3595|end_char=3596
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	_	start_char=3597|end_char=3601
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=3602|end_char=3604
+5	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=3605|end_char=3607
+6	interactive	interactive	ADJ	JJ	Degree=Pos	8	amod	_	start_char=3608|end_char=3619
+7	cartoon	cartoon	NOUN	NN	Number=Sing	8	compound	_	start_char=3620|end_char=3627
+8	application	application	NOUN	NN	Number=Sing	0	root	_	start_char=3628|end_char=3639|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	start_char=3639|end_char=3640|SpacesAfter=\n\n
+
+# text = And we wanted to build a learning tool for language learners.
+# sent_id = 35
+1	And	and	CCONJ	CC	_	3	cc	_	start_char=3642|end_char=3645
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=3646|end_char=3648
+3	wanted	want	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3649|end_char=3655
+4	to	to	PART	TO	_	5	mark	_	start_char=3656|end_char=3658
+5	build	build	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=3659|end_char=3664
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=3665|end_char=3666
+7	learning	learning	NOUN	NN	Number=Sing	8	compound	_	start_char=3667|end_char=3675
+8	tool	tool	NOUN	NN	Number=Sing	5	obj	_	start_char=3676|end_char=3680
+9	for	for	ADP	IN	_	11	case	_	start_char=3681|end_char=3684
+10	language	language	NOUN	NN	Number=Sing	11	compound	_	start_char=3685|end_char=3693
+11	learners	learner	NOUN	NNS	Number=Plur	8	nmod	_	start_char=3694|end_char=3702|SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	start_char=3702|end_char=3703|SpacesAfter=\n\n
+
+# text = And this is Felix, actually.
+# sent_id = 36
+1	And	and	CCONJ	CC	_	4	cc	_	start_char=3705|end_char=3708
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	start_char=3709|end_char=3713
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=3714|end_char=3716
+4	Felix	Felix	PROPN	NNP	Number=Sing	0	root	_	start_char=3717|end_char=3722|SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	start_char=3722|end_char=3723
+6	actually	actually	ADV	RB	_	4	advmod	_	start_char=3724|end_char=3732|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=3732|end_char=3733|SpacesAfter=\n\n
+
+# text = And he can bring new characters into the scene, just by lifting the Siftables off the table that have that character shown on them.
+# sent_id = 37
+1	And	and	CCONJ	CC	_	4	cc	_	start_char=3735|end_char=3738
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=3739|end_char=3741
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	start_char=3742|end_char=3745
+4	bring	bring	VERB	VB	VerbForm=Inf	0	root	_	start_char=3746|end_char=3751
+5	new	new	ADJ	JJ	Degree=Pos	6	amod	_	start_char=3752|end_char=3755
+6	characters	character	NOUN	NNS	Number=Plur	4	obj	_	start_char=3756|end_char=3766
+7	into	into	ADP	IN	_	9	case	_	start_char=3767|end_char=3771
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=3772|end_char=3775
+9	scene	scene	NOUN	NN	Number=Sing	4	obl	_	start_char=3776|end_char=3781|SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	start_char=3781|end_char=3782
+11	just	just	ADV	RB	_	13	advmod	_	start_char=3783|end_char=3787
+12	by	by	SCONJ	IN	_	13	mark	_	start_char=3788|end_char=3790
+13	lifting	lift	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	_	start_char=3791|end_char=3798
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=3799|end_char=3802
+15	Siftables	Siftables	PROPN	NNPS	Number=Plur	13	obj	_	start_char=3803|end_char=3812
+16	off	off	ADP	IN	_	18	case	_	start_char=3813|end_char=3816
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=3817|end_char=3820
+18	table	table	NOUN	NN	Number=Sing	13	obl	_	start_char=3821|end_char=3826
+19	that	that	PRON	WDT	PronType=Rel	20	nsubj	_	start_char=3827|end_char=3831
+20	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	start_char=3832|end_char=3836
+21	that	that	DET	DT	Number=Sing|PronType=Dem	22	det	_	start_char=3837|end_char=3841
+22	character	character	NOUN	NN	Number=Sing	20	obj	_	start_char=3842|end_char=3851
+23	shown	show	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	acl	_	start_char=3852|end_char=3857
+24	on	on	ADP	IN	_	25	case	_	start_char=3858|end_char=3860
+25	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	23	obl	_	start_char=3861|end_char=3865|SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	start_char=3865|end_char=3866|SpacesAfter=\n\n
+
+# text = Here, he's bringing the sun out.
+# sent_id = 38
+1	Here	here	ADV	RB	PronType=Dem	5	advmod	_	start_char=3868|end_char=3872|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=3872|end_char=3873
+3-4	he's	_	_	_	_	_	_	_	start_char=3874|end_char=3878
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=3874|end_char=3876
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=3876|end_char=3878
+5	bringing	bring	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=3879|end_char=3887
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=3888|end_char=3891
+7	sun	sun	NOUN	NN	Number=Sing	5	obj	_	start_char=3892|end_char=3895
+8	out	out	ADP	RP	_	5	compound:prt	_	start_char=3896|end_char=3899|SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	start_char=3899|end_char=3900|SpacesAfter=\n\n
+
+# text = So, the last example I have time to show you today is a music sequencing and live performance tool that we've built recently, in which Siftables act as sounds like lead, bass and drums.
+# sent_id = 39
+1	So	so	ADV	RB	_	16	discourse	_	start_char=3902|end_char=3904|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=3904|end_char=3905
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=3906|end_char=3909
+4	last	last	ADJ	JJ	Degree=Pos	5	amod	_	start_char=3910|end_char=3914
+5	example	example	NOUN	NN	Number=Sing	16	nsubj	_	start_char=3915|end_char=3922
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=3923|end_char=3924
+7	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	start_char=3925|end_char=3929
+8	time	time	NOUN	NN	Number=Sing	7	obj	_	start_char=3930|end_char=3934
+9	to	to	PART	TO	_	10	mark	_	start_char=3935|end_char=3937
+10	show	show	VERB	VB	VerbForm=Inf	8	acl	_	start_char=3938|end_char=3942
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	iobj	_	start_char=3943|end_char=3946
+12	today	today	NOUN	NN	Number=Sing	10	obl:unmarked	_	start_char=3947|end_char=3952
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=3953|end_char=3955
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	start_char=3956|end_char=3957
+15	music	music	NOUN	NN	Number=Sing	16	compound	_	start_char=3958|end_char=3963
+16	sequencing	sequencing	NOUN	NN	Number=Sing	0	root	_	start_char=3964|end_char=3974
+17	and	and	CCONJ	CC	_	20	cc	_	start_char=3975|end_char=3978
+18	live	live	ADJ	JJ	Degree=Pos	19	amod	_	start_char=3979|end_char=3983
+19	performance	performance	NOUN	NN	Number=Sing	20	compound	_	start_char=3984|end_char=3995
+20	tool	tool	NOUN	NN	Number=Sing	16	conj	_	start_char=3996|end_char=4000
+21	that	that	PRON	WDT	PronType=Rel	24	obj	_	start_char=4001|end_char=4005
+22-23	we've	_	_	_	_	_	_	_	start_char=4006|end_char=4011
+22	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	start_char=4006|end_char=4008
+23	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	aux	_	start_char=4008|end_char=4011
+24	built	build	VERB	VBN	Tense=Past|VerbForm=Part	20	acl:relcl	_	start_char=4012|end_char=4017
+25	recently	recently	ADV	RB	_	24	advmod	_	start_char=4018|end_char=4026|SpaceAfter=No
+26	,	,	PUNCT	,	_	30	punct	_	start_char=4026|end_char=4027
+27	in	in	ADP	IN	_	28	case	_	start_char=4028|end_char=4030
+28	which	which	PRON	WDT	PronType=Rel	30	obl	_	start_char=4031|end_char=4036
+29	Siftables	siftable	NOUN	NNS	Number=Plur	30	nsubj	_	start_char=4037|end_char=4046
+30	act	act	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	start_char=4047|end_char=4050
+31	as	as	ADP	IN	_	32	mark	_	start_char=4051|end_char=4053
+32	sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	advcl	_	start_char=4054|end_char=4060
+33	like	like	ADP	IN	_	34	case	_	start_char=4061|end_char=4065
+34	lead	lead	NOUN	NN	Number=Sing	32	obl	_	start_char=4066|end_char=4070|SpaceAfter=No
+35	,	,	PUNCT	,	_	36	punct	_	start_char=4070|end_char=4071
+36	bass	bass	NOUN	NN	Number=Sing	34	conj	_	start_char=4072|end_char=4076
+37	and	and	CCONJ	CC	_	38	cc	_	start_char=4077|end_char=4080
+38	drums	drum	NOUN	NNS	Number=Plur	34	conj	_	start_char=4081|end_char=4086|SpaceAfter=No
+39	.	.	PUNCT	.	_	20	punct	_	start_char=4086|end_char=4087|SpacesAfter=\n\n
+
+# text = Each of these has four different variations, you get to choose which one you want to use.
+# sent_id = 40
+1	Each	each	DET	DT	PronType=Tot	4	nsubj	_	start_char=4089|end_char=4093
+2	of	of	ADP	IN	_	3	case	_	start_char=4094|end_char=4096
+3	these	this	PRON	DT	Number=Plur|PronType=Dem	1	nmod	_	start_char=4097|end_char=4102
+4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4103|end_char=4106
+5	four	four	NUM	CD	NumForm=Word|NumType=Card	7	nummod	_	start_char=4107|end_char=4111
+6	different	different	ADJ	JJ	Degree=Pos	7	amod	_	start_char=4112|end_char=4121
+7	variations	variation	NOUN	NNS	Number=Plur	4	obj	_	start_char=4122|end_char=4132|SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	start_char=4132|end_char=4133
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	start_char=4134|end_char=4137
+10	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=4138|end_char=4141
+11	to	to	PART	TO	_	12	mark	_	start_char=4142|end_char=4144
+12	choose	choose	VERB	VB	VerbForm=Inf	10	xcomp	_	start_char=4145|end_char=4151
+13	which	which	DET	WDT	PronType=Int	14	det	_	start_char=4152|end_char=4157
+14	one	one	NOUN	NN	Number=Sing	12	obj	_	start_char=4158|end_char=4161
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	start_char=4162|end_char=4165
+16	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	start_char=4166|end_char=4170
+17	to	to	PART	TO	_	18	mark	_	start_char=4171|end_char=4173
+18	use	use	VERB	VB	VerbForm=Inf	16	xcomp	_	start_char=4174|end_char=4177|SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	start_char=4177|end_char=4178|SpacesAfter=\n\n
+
+# text = And you can inject these sounds into a sequence that you can assemble into the pattern that you want.
+# sent_id = 41
+1	And	and	CCONJ	CC	_	4	cc	_	start_char=4180|end_char=4183
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=4184|end_char=4187
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	start_char=4188|end_char=4191
+4	inject	inject	VERB	VB	VerbForm=Inf	0	root	_	start_char=4192|end_char=4198
+5	these	this	DET	DT	Number=Plur|PronType=Dem	6	det	_	start_char=4199|end_char=4204
+6	sounds	sound	NOUN	NNS	Number=Plur	4	obj	_	start_char=4205|end_char=4211
+7	into	into	ADP	IN	_	9	case	_	start_char=4212|end_char=4216
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=4217|end_char=4218
+9	sequence	sequence	NOUN	NN	Number=Sing	4	obl	_	start_char=4219|end_char=4227
+10	that	that	PRON	WDT	PronType=Rel	13	obj	_	start_char=4228|end_char=4232
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	start_char=4233|end_char=4236
+12	can	can	AUX	MD	VerbForm=Fin	13	aux	_	start_char=4237|end_char=4240
+13	assemble	assemble	VERB	VB	VerbForm=Inf	9	acl:relcl	_	start_char=4241|end_char=4249
+14	into	into	ADP	IN	_	16	case	_	start_char=4250|end_char=4254
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=4255|end_char=4258
+16	pattern	pattern	NOUN	NN	Number=Sing	13	obl	_	start_char=4259|end_char=4266
+17	that	that	PRON	WDT	PronType=Rel	19	obj	_	start_char=4267|end_char=4271
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	start_char=4272|end_char=4275
+19	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	start_char=4276|end_char=4280|SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	start_char=4280|end_char=4281|SpacesAfter=\n\n
+
+# text = And you inject it by just bumping up the sound Siftable against a sequence Siftable.
+# sent_id = 42
+1	And	and	CCONJ	CC	_	3	cc	_	start_char=4283|end_char=4286
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=4287|end_char=4290
+3	inject	inject	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4291|end_char=4297
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=4298|end_char=4300
+5	by	by	SCONJ	IN	_	7	mark	_	start_char=4301|end_char=4303
+6	just	just	ADV	RB	_	7	advmod	_	start_char=4304|end_char=4308
+7	bumping	bump	VERB	VBG	Tense=Pres|VerbForm=Part	3	advcl	_	start_char=4309|end_char=4316
+8	up	up	ADP	RP	_	7	compound:prt	_	start_char=4317|end_char=4319
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=4320|end_char=4323
+10	sound	sound	NOUN	NN	Number=Sing	7	obj	_	start_char=4324|end_char=4329
+11	Siftable	siftable	NOUN	NN	Number=Sing	7	obj	_	start_char=4330|end_char=4338
+12	against	against	ADP	IN	_	14	case	_	start_char=4339|end_char=4346
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	start_char=4347|end_char=4348
+14	sequence	sequence	NOUN	NN	Number=Sing	7	obl	_	start_char=4349|end_char=4357
+15	Siftable	Siftable	PROPN	NNP	Number=Sing	14	appos	_	start_char=4358|end_char=4366|SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	start_char=4366|end_char=4367|SpacesAfter=\n\n
+
+# text = There are effects that you can control live, like reverb and filter.
+# sent_id = 43
+1	There	there	PRON	EX	_	2	expl	_	start_char=4369|end_char=4374
+2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4375|end_char=4378
+3	effects	effect	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=4379|end_char=4386
+4	that	that	PRON	WDT	PronType=Rel	7	obj	_	start_char=4387|end_char=4391
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	start_char=4392|end_char=4395
+6	can	can	AUX	MD	VerbForm=Fin	7	aux	_	start_char=4396|end_char=4399
+7	control	control	VERB	VB	VerbForm=Inf	3	acl:relcl	_	start_char=4400|end_char=4407
+8	live	live	ADJ	JJ	Degree=Pos	7	xcomp	_	start_char=4408|end_char=4412|SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	start_char=4412|end_char=4413
+10	like	like	ADP	IN	_	11	case	_	start_char=4414|end_char=4418
+11	reverb	reverb	NOUN	NN	Number=Sing	7	obl	_	start_char=4419|end_char=4425
+12	and	and	CCONJ	CC	_	13	cc	_	start_char=4426|end_char=4429
+13	filter	filter	NOUN	NN	Number=Sing	11	conj	_	start_char=4430|end_char=4436|SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	start_char=4436|end_char=4437|SpacesAfter=\n\n
+
+# text = You attach it to a particular sound and then tilt to adjust it.
+# sent_id = 44
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	start_char=4439|end_char=4442
+2	attach	attach	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4443|end_char=4449
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=4450|end_char=4452
+4	to	to	ADP	IN	_	7	case	_	start_char=4453|end_char=4455
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=4456|end_char=4457
+6	particular	particular	ADJ	JJ	Degree=Pos	7	amod	_	start_char=4458|end_char=4468
+7	sound	sound	NOUN	NN	Number=Sing	2	obl	_	start_char=4469|end_char=4474
+8	and	and	CCONJ	CC	_	10	cc	_	start_char=4475|end_char=4478
+9	then	then	ADV	RB	PronType=Dem	10	advmod	_	start_char=4479|end_char=4483
+10	tilt	tilt	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=4484|end_char=4488
+11	to	to	PART	TO	_	12	mark	_	start_char=4489|end_char=4491
+12	adjust	adjust	VERB	VB	VerbForm=Inf	10	advcl	_	start_char=4492|end_char=4498
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	start_char=4499|end_char=4501|SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	start_char=4501|end_char=4502|SpacesAfter=\n\n
+
+# text = And then, overall effects like tempo and volume that apply to the entire sequence.
+# sent_id = 45
+1	And	and	CCONJ	CC	_	5	cc	_	start_char=4504|end_char=4507
+2	then	then	ADV	RB	PronType=Dem	5	advmod	_	start_char=4508|end_char=4512|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=4512|end_char=4513
+4	overall	overall	ADJ	JJ	Degree=Pos	5	amod	_	start_char=4514|end_char=4521
+5	effects	effect	NOUN	NNS	Number=Plur	0	root	_	start_char=4522|end_char=4529
+6	like	like	ADP	IN	_	7	case	_	start_char=4530|end_char=4534
+7	tempo	tempo	NOUN	NN	Number=Sing	5	nmod	_	start_char=4535|end_char=4540
+8	and	and	CCONJ	CC	_	9	cc	_	start_char=4541|end_char=4544
+9	volume	volume	NOUN	NN	Number=Sing	7	conj	_	start_char=4545|end_char=4551
+10	that	that	PRON	WDT	PronType=Rel	11	nsubj	_	start_char=4552|end_char=4556
+11	apply	apply	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	start_char=4557|end_char=4562
+12	to	to	ADP	IN	_	15	case	_	start_char=4563|end_char=4565
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=4566|end_char=4569
+14	entire	entire	ADJ	JJ	Degree=Pos	15	amod	_	start_char=4570|end_char=4576
+15	sequence	sequence	NOUN	NN	Number=Sing	11	obl	_	start_char=4577|end_char=4585|SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	start_char=4585|end_char=4586|SpacesAfter=\n\n
+
+# text = So let's have a look.
+# sent_id = 46
+1	So	so	ADV	RB	_	2	discourse	_	start_char=4588|end_char=4590
+2-3	let's	_	_	_	_	_	_	_	start_char=4591|end_char=4596
+2	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=4591|end_char=4594
+3	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	obj	_	start_char=4594|end_char=4596
+4	have	have	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=4597|end_char=4601
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=4602|end_char=4603
+6	look	look	NOUN	NN	Number=Sing	4	obj	_	start_char=4604|end_char=4608|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=4608|end_char=4609|SpacesAfter=\n\n
+
+# text = We'll start by putting a lead into two sequence Siftables, arrange them into a series, extend it, add a little more lead.
+# sent_id = 47
+1-2	We'll	_	_	_	_	_	_	_	start_char=4611|end_char=4616
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=4611|end_char=4613
+2	'll	will	AUX	MD	VerbForm=Fin	3	aux	_	start_char=4613|end_char=4616
+3	start	start	VERB	VB	VerbForm=Inf	0	root	_	start_char=4617|end_char=4622
+4	by	by	SCONJ	IN	_	5	mark	_	start_char=4623|end_char=4625
+5	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part	3	advcl	_	start_char=4626|end_char=4633
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=4634|end_char=4635
+7	lead	lead	NOUN	NN	Number=Sing	5	obj	_	start_char=4636|end_char=4640
+8	into	into	ADP	IN	_	11	case	_	start_char=4641|end_char=4645
+9	two	two	NUM	CD	NumForm=Word|NumType=Card	11	nummod	_	start_char=4646|end_char=4649
+10	sequence	sequence	NOUN	NN	Number=Sing	11	compound	_	start_char=4650|end_char=4658
+11	Siftables	Siftables	PROPN	NNPS	Number=Plur	5	obl	_	start_char=4659|end_char=4668|SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	start_char=4668|end_char=4669
+13	arrange	arrange	VERB	VB	VerbForm=Inf	5	conj	_	start_char=4670|end_char=4677
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obj	_	start_char=4678|end_char=4682
+15	into	into	ADP	IN	_	17	case	_	start_char=4683|end_char=4687
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	start_char=4688|end_char=4689
+17	series	series	NOUN	NN	Number=Sing	13	obl	_	start_char=4690|end_char=4696|SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	_	start_char=4696|end_char=4697
+19	extend	extend	VERB	VB	VerbForm=Inf	13	conj	_	start_char=4698|end_char=4704
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	_	start_char=4705|end_char=4707|SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	_	start_char=4707|end_char=4708
+22	add	add	VERB	VB	Mood=Imp|VerbForm=Fin	3	parataxis	_	start_char=4709|end_char=4712
+23	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	start_char=4713|end_char=4714
+24	little	little	ADJ	JJ	Degree=Pos	26	amod	_	start_char=4715|end_char=4721
+25	more	more	ADJ	JJR	Degree=Cmp	26	amod	_	start_char=4722|end_char=4726
+26	lead	lead	NOUN	NN	Number=Sing	22	obj	_	start_char=4727|end_char=4731|SpaceAfter=No
+27	.	.	PUNCT	.	_	3	punct	_	start_char=4731|end_char=4732|SpacesAfter=\n\n
+
+# text = Now I put a bass line in.
+# sent_id = 48
+1	Now	now	ADV	RB	_	3	advmod	_	start_char=4734|end_char=4737
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=4738|end_char=4739
+3	put	put	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=4740|end_char=4743
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=4744|end_char=4745
+5	bass	bass	NOUN	NN	Number=Sing	6	compound	_	start_char=4746|end_char=4750
+6	line	line	NOUN	NN	Number=Sing	3	obj	_	start_char=4751|end_char=4755
+7	in	in	ADP	RP	_	3	compound:prt	_	start_char=4756|end_char=4758|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=4758|end_char=4759|SpacesAfter=\n\n
+
+# text = Now I'll put some percussion in.
+# sent_id = 49
+1	Now	now	ADV	RB	_	4	advmod	_	start_char=4761|end_char=4764
+2-3	I'll	_	_	_	_	_	_	_	start_char=4765|end_char=4769
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=4765|end_char=4766
+3	'll	will	AUX	MD	VerbForm=Fin	4	aux	_	start_char=4766|end_char=4769
+4	put	put	VERB	VB	VerbForm=Inf	0	root	_	start_char=4770|end_char=4773
+5	some	some	DET	DT	PronType=Ind	6	det	_	start_char=4774|end_char=4778
+6	percussion	percussion	NOUN	NN	Number=Sing	4	obj	_	start_char=4779|end_char=4789
+7	in	in	ADP	IN	_	4	compound:prt	_	start_char=4790|end_char=4792|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=4792|end_char=4793|SpacesAfter=\n\n
+
+# text = And now I'll attach the filter to the drums, so I can control the effect live.
+# sent_id = 50
+1	And	and	CCONJ	CC	_	5	cc	_	start_char=4795|end_char=4798
+2	now	now	ADV	RB	_	5	advmod	_	start_char=4799|end_char=4802
+3-4	I'll	_	_	_	_	_	_	_	start_char=4803|end_char=4807
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=4803|end_char=4804
+4	'll	will	AUX	MD	VerbForm=Fin	5	aux	_	start_char=4804|end_char=4807
+5	attach	attach	VERB	VB	VerbForm=Inf	0	root	_	start_char=4808|end_char=4814
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=4815|end_char=4818
+7	filter	filter	NOUN	NN	Number=Sing	5	obj	_	start_char=4819|end_char=4825
+8	to	to	ADP	IN	_	10	case	_	start_char=4826|end_char=4828
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=4829|end_char=4832
+10	drums	drum	NOUN	NNS	Number=Plur	5	obl	_	start_char=4833|end_char=4838|SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	start_char=4838|end_char=4839
+12	so	so	ADV	RB	_	15	advmod	_	start_char=4840|end_char=4842
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=4843|end_char=4844
+14	can	can	AUX	MD	VerbForm=Fin	15	aux	_	start_char=4845|end_char=4848
+15	control	control	VERB	VB	VerbForm=Inf	5	parataxis	_	start_char=4849|end_char=4856
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=4857|end_char=4860
+17	effect	effect	NOUN	NN	Number=Sing	15	obj	_	start_char=4861|end_char=4867
+18	live	live	ADJ	JJ	Degree=Pos	17	amod	_	start_char=4868|end_char=4872|SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	start_char=4872|end_char=4873|SpacesAfter=\n\n
+
+# text = I can speed up the whole sequence by tilting the tempo one way or the other.
+# sent_id = 51
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=4875|end_char=4876
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=4877|end_char=4880
+3	speed	speed	VERB	VB	VerbForm=Inf	0	root	_	start_char=4881|end_char=4886
+4	up	up	ADP	RP	_	3	compound:prt	_	start_char=4887|end_char=4889
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=4890|end_char=4893
+6	whole	whole	ADJ	JJ	Degree=Pos	7	amod	_	start_char=4894|end_char=4899
+7	sequence	sequence	NOUN	NN	Number=Sing	3	obj	_	start_char=4900|end_char=4908
+8	by	by	SCONJ	IN	_	9	mark	_	start_char=4909|end_char=4911
+9	tilting	tilt	VERB	VBG	Tense=Pres|VerbForm=Part	3	advcl	_	start_char=4912|end_char=4919
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=4920|end_char=4923
+11	tempo	tempo	NOUN	NN	Number=Sing	9	obj	_	start_char=4924|end_char=4929
+12	one	one	NUM	CD	NumForm=Word|NumType=Card	13	nummod	_	start_char=4930|end_char=4933
+13	way	way	NOUN	NN	Number=Sing	9	obl:unmarked	_	start_char=4934|end_char=4937
+14	or	or	CCONJ	CC	_	16	cc	_	start_char=4938|end_char=4940
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=4941|end_char=4944
+16	other	other	ADJ	JJ	Degree=Pos	13	conj	_	start_char=4945|end_char=4950|SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	start_char=4950|end_char=4951|SpacesAfter=\n\n
+
+# text = And now I'll attach the filter to the bass for some more expression.
+# sent_id = 52
+1	And	and	CCONJ	CC	_	5	cc	_	start_char=4953|end_char=4956
+2	now	now	ADV	RB	_	5	advmod	_	start_char=4957|end_char=4960
+3-4	I'll	_	_	_	_	_	_	_	start_char=4961|end_char=4965
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=4961|end_char=4962
+4	'll	will	AUX	MD	VerbForm=Fin	5	aux	_	start_char=4962|end_char=4965
+5	attach	attach	VERB	VB	VerbForm=Inf	0	root	_	start_char=4966|end_char=4972
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=4973|end_char=4976
+7	filter	filter	NOUN	NN	Number=Sing	5	obj	_	start_char=4977|end_char=4983
+8	to	to	ADP	IN	_	10	case	_	start_char=4984|end_char=4986
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=4987|end_char=4990
+10	bass	bass	NOUN	NN	Number=Sing	5	obl	_	start_char=4991|end_char=4995
+11	for	for	ADP	IN	_	14	case	_	start_char=4996|end_char=4999
+12	some	some	DET	DT	PronType=Ind	14	det	_	start_char=5000|end_char=5004
+13	more	more	ADJ	JJR	Degree=Cmp	14	amod	_	start_char=5005|end_char=5009
+14	expression	expression	NOUN	NN	Number=Sing	5	obl	_	start_char=5010|end_char=5020|SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	start_char=5020|end_char=5021|SpacesAfter=\n\n
+
+# text = I can rearrange the sequence while it plays.
+# sent_id = 53
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=5023|end_char=5024
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=5025|end_char=5028
+3	rearrange	rearrange	VERB	VB	VerbForm=Inf	0	root	_	start_char=5029|end_char=5038
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=5039|end_char=5042
+5	sequence	sequence	NOUN	NN	Number=Sing	3	obj	_	start_char=5043|end_char=5051
+6	while	while	SCONJ	IN	_	8	mark	_	start_char=5052|end_char=5057
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=5058|end_char=5060
+8	plays	play	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=5061|end_char=5066|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	start_char=5066|end_char=5067|SpacesAfter=\n\n
+
+# text = So I don't have to plan it out in advance, but I can improvise, making it longer or shorter as I go.
+# sent_id = 54
+1	So	so	ADV	RB	_	5	advmod	_	start_char=5069|end_char=5071
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=5072|end_char=5073
+3-4	don't	_	_	_	_	_	_	_	start_char=5074|end_char=5079
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=5074|end_char=5076
+4	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=5076|end_char=5079
+5	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=5080|end_char=5084
+6	to	to	PART	TO	_	7	mark	_	start_char=5085|end_char=5087
+7	plan	plan	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=5088|end_char=5092
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	start_char=5093|end_char=5095
+9	out	out	ADP	RP	_	7	compound:prt	_	start_char=5096|end_char=5099
+10	in	in	ADP	IN	_	11	case	_	start_char=5100|end_char=5102
+11	advance	advance	NOUN	NN	Number=Sing	7	obl	_	start_char=5103|end_char=5110|SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	start_char=5110|end_char=5111
+13	but	but	CCONJ	CC	_	16	cc	_	start_char=5112|end_char=5115
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	start_char=5116|end_char=5117
+15	can	can	AUX	MD	VerbForm=Fin	16	aux	_	start_char=5118|end_char=5121
+16	improvise	improvise	VERB	VB	VerbForm=Inf	5	conj	_	start_char=5122|end_char=5131|SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	start_char=5131|end_char=5132
+18	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	16	advcl	_	start_char=5133|end_char=5139
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obj	_	start_char=5140|end_char=5142
+20	longer	long	ADV	RBR	Degree=Cmp	18	advmod	_	start_char=5143|end_char=5149
+21	or	or	CCONJ	CC	_	22	cc	_	start_char=5150|end_char=5152
+22	shorter	short	ADJ	JJR	Degree=Cmp	20	conj	_	start_char=5153|end_char=5160
+23	as	as	SCONJ	IN	_	25	mark	_	start_char=5161|end_char=5163
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	start_char=5164|end_char=5165
+25	go	go	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	advcl	_	start_char=5166|end_char=5168|SpaceAfter=No
+26	.	.	PUNCT	.	_	5	punct	_	start_char=5168|end_char=5169|SpacesAfter=\n\n
+
+# text = And now, finally, I can fade the whole sequence out using the volume Siftable, tilted to the left.
+# sent_id = 55
+1	And	and	CCONJ	CC	_	8	cc	_	start_char=5171|end_char=5174
+2	now	now	ADV	RB	_	8	advmod	_	start_char=5175|end_char=5178|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=5178|end_char=5179
+4	finally	finally	ADV	RB	Degree=Pos	8	advmod	_	start_char=5180|end_char=5187|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=5187|end_char=5188
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=5189|end_char=5190
+7	can	can	AUX	MD	VerbForm=Fin	8	aux	_	start_char=5191|end_char=5194
+8	fade	fade	VERB	VB	VerbForm=Inf	0	root	_	start_char=5195|end_char=5199
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=5200|end_char=5203
+10	whole	whole	ADJ	JJ	Degree=Pos	11	amod	_	start_char=5204|end_char=5209
+11	sequence	sequence	NOUN	NN	Number=Sing	8	obj	_	start_char=5210|end_char=5218
+12	out	out	ADP	RP	_	8	compound:prt	_	start_char=5219|end_char=5222
+13	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	8	advcl	_	start_char=5223|end_char=5228
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=5229|end_char=5232
+15	volume	volume	NOUN	NN	Number=Sing	13	obj	_	start_char=5233|end_char=5239
+16	Siftable	Siftable	PROPN	NNP	Number=Sing	15	appos	_	start_char=5240|end_char=5248|SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	start_char=5248|end_char=5249
+18	tilted	tilt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	acl	_	start_char=5250|end_char=5256
+19	to	to	ADP	IN	_	21	case	_	start_char=5257|end_char=5259
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=5260|end_char=5263
+21	left	left	NOUN	NN	Number=Sing	18	obl	_	start_char=5264|end_char=5268|SpaceAfter=No
+22	.	.	PUNCT	.	_	8	punct	_	start_char=5268|end_char=5269|SpacesAfter=\n\n
+
+# text = Thank you.
+# sent_id = 56
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5271|end_char=5276
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	start_char=5277|end_char=5280|SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	_	start_char=5280|end_char=5281|SpacesAfter=\n\n
+
+# text = So, as you can see, my passion is for making new human-computer interfaces that are a better match to the ways our brains and bodies work.
+# sent_id = 57
+1	So	so	ADV	RB	_	12	discourse	_	start_char=5283|end_char=5285|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=5285|end_char=5286
+3	as	as	SCONJ	IN	_	6	mark	_	start_char=5287|end_char=5289
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	start_char=5290|end_char=5293
+5	can	can	AUX	MD	VerbForm=Fin	6	aux	_	start_char=5294|end_char=5297
+6	see	see	VERB	VB	VerbForm=Inf	12	advcl	_	start_char=5298|end_char=5301|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	start_char=5301|end_char=5302
+8	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=5303|end_char=5305
+9	passion	passion	NOUN	NN	Number=Sing	12	nsubj:outer	_	start_char=5306|end_char=5313
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=5314|end_char=5316
+11	for	for	SCONJ	IN	_	12	mark	_	start_char=5317|end_char=5320
+12	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=5321|end_char=5327
+13	new	new	ADJ	JJ	Degree=Pos	17	amod	_	start_char=5328|end_char=5331
+14	human	human	ADJ	JJ	Degree=Pos	16	amod	_	start_char=5332|end_char=5337|SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	14	punct	_	start_char=5337|end_char=5338|SpaceAfter=No
+16	computer	computer	NOUN	NN	Number=Sing	17	compound	_	start_char=5338|end_char=5346
+17	interfaces	interface	NOUN	NNS	Number=Plur	12	obj	_	start_char=5347|end_char=5357
+18	that	that	PRON	WDT	PronType=Rel	22	nsubj	_	start_char=5358|end_char=5362
+19	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	start_char=5363|end_char=5366
+20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	start_char=5367|end_char=5368
+21	better	good	ADJ	JJR	Degree=Cmp	22	amod	_	start_char=5369|end_char=5375
+22	match	match	NOUN	NN	Number=Sing	17	acl:relcl	_	start_char=5376|end_char=5381
+23	to	to	ADP	IN	_	25	case	_	start_char=5382|end_char=5384
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	start_char=5385|end_char=5388
+25	ways	way	NOUN	NNS	Number=Plur	22	nmod	_	start_char=5389|end_char=5393
+26	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	start_char=5394|end_char=5397
+27	brains	brain	NOUN	NNS	Number=Plur	30	nsubj	_	start_char=5398|end_char=5404
+28	and	and	CCONJ	CC	_	29	cc	_	start_char=5405|end_char=5408
+29	bodies	body	NOUN	NNS	Number=Plur	27	conj	_	start_char=5409|end_char=5415
+30	work	work	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	start_char=5416|end_char=5420|SpaceAfter=No
+31	.	.	PUNCT	.	_	12	punct	_	start_char=5420|end_char=5421|SpacesAfter=\n\n
+
+# text = And today, I had time to show you one point in this new design space, and a few of the possibilities that we're working to bring out of the laboratory.
+# sent_id = 58
+1	And	and	CCONJ	CC	_	5	cc	_	start_char=5423|end_char=5426
+2	today	today	NOUN	NN	Number=Sing	5	obl:unmarked	_	start_char=5427|end_char=5432|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=5432|end_char=5433
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=5434|end_char=5435
+5	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=5436|end_char=5439
+6	time	time	NOUN	NN	Number=Sing	5	obj	_	start_char=5440|end_char=5444
+7	to	to	PART	TO	_	8	mark	_	start_char=5445|end_char=5447
+8	show	show	VERB	VB	VerbForm=Inf	6	acl	_	start_char=5448|end_char=5452
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	iobj	_	start_char=5453|end_char=5456
+10	one	one	NUM	CD	NumForm=Word|NumType=Card	11	nummod	_	start_char=5457|end_char=5460
+11	point	point	NOUN	NN	Number=Sing	8	obj	_	start_char=5461|end_char=5466
+12	in	in	ADP	IN	_	16	case	_	start_char=5467|end_char=5469
+13	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	_	start_char=5470|end_char=5474
+14	new	new	ADJ	JJ	Degree=Pos	16	amod	_	start_char=5475|end_char=5478
+15	design	design	NOUN	NN	Number=Sing	16	compound	_	start_char=5479|end_char=5485
+16	space	space	NOUN	NN	Number=Sing	8	obl	_	start_char=5486|end_char=5491|SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	start_char=5491|end_char=5492
+18	and	and	CCONJ	CC	_	20	cc	_	start_char=5493|end_char=5496
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	start_char=5497|end_char=5498
+20	few	few	ADJ	JJ	Degree=Pos	11	conj	_	start_char=5499|end_char=5502
+21	of	of	ADP	IN	_	23	case	_	start_char=5503|end_char=5505
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	start_char=5506|end_char=5509
+23	possibilities	possibility	NOUN	NNS	Number=Plur	20	nmod	_	start_char=5510|end_char=5523
+24	that	that	PRON	WDT	PronType=Rel	29	obj	_	start_char=5524|end_char=5528
+25-26	we're	_	_	_	_	_	_	_	start_char=5529|end_char=5534
+25	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	start_char=5529|end_char=5531
+26	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	27	aux	_	start_char=5531|end_char=5534
+27	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	23	acl:relcl	_	start_char=5535|end_char=5542
+28	to	to	PART	TO	_	29	mark	_	start_char=5543|end_char=5545
+29	bring	bring	VERB	VB	VerbForm=Inf	27	advcl	_	start_char=5546|end_char=5551
+30	out	out	ADP	IN	_	33	case	_	start_char=5552|end_char=5555
+31	of	of	ADP	IN	_	33	case	_	start_char=5556|end_char=5558
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	start_char=5559|end_char=5562
+33	laboratory	laboratory	NOUN	NN	Number=Sing	29	obl	_	start_char=5563|end_char=5573|SpaceAfter=No
+34	.	.	PUNCT	.	_	5	punct	_	start_char=5573|end_char=5574|SpacesAfter=\n\n
+
+# text = So the thought I want to leave you with is that we're on the cusp of this new generation of tools for interacting with digital media that are going to bring information into our world on our terms.
+# sent_id = 59
+1	So	so	ADV	RB	_	16	advmod	_	start_char=5576|end_char=5578
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=5579|end_char=5582
+3	thought	thought	NOUN	NN	Number=Sing	16	nsubj:outer	_	start_char=5583|end_char=5590
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=5591|end_char=5592
+5	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	start_char=5593|end_char=5597
+6	to	to	PART	TO	_	7	mark	_	start_char=5598|end_char=5600
+7	leave	leave	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=5601|end_char=5606
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	obj	_	start_char=5607|end_char=5610
+9	with	with	ADP	IN	_	7	obl	_	start_char=5611|end_char=5615
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=5616|end_char=5618
+11	that	that	SCONJ	IN	_	16	mark	_	start_char=5619|end_char=5623
+12-13	we're	_	_	_	_	_	_	_	start_char=5624|end_char=5629
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	start_char=5624|end_char=5626
+13	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=5626|end_char=5629
+14	on	on	ADP	IN	_	16	case	_	start_char=5630|end_char=5632
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=5633|end_char=5636
+16	cusp	cusp	NOUN	NN	Number=Sing	0	root	_	start_char=5637|end_char=5641
+17	of	of	ADP	IN	_	20	case	_	start_char=5642|end_char=5644
+18	this	this	DET	DT	Number=Sing|PronType=Dem	20	det	_	start_char=5645|end_char=5649
+19	new	new	ADJ	JJ	Degree=Pos	20	amod	_	start_char=5650|end_char=5653
+20	generation	generation	NOUN	NN	Number=Sing	16	nmod	_	start_char=5654|end_char=5664
+21	of	of	ADP	IN	_	22	case	_	start_char=5665|end_char=5667
+22	tools	tool	NOUN	NNS	Number=Plur	20	nmod	_	start_char=5668|end_char=5673
+23	for	for	SCONJ	IN	_	24	mark	_	start_char=5674|end_char=5677
+24	interacting	interact	VERB	VBG	VerbForm=Ger	16	acl	_	start_char=5678|end_char=5689
+25	with	with	ADP	IN	_	27	case	_	start_char=5690|end_char=5694
+26	digital	digital	ADJ	JJ	Degree=Pos	27	amod	_	start_char=5695|end_char=5702
+27	media	media	NOUN	NN	Number=Sing	24	obl	_	start_char=5703|end_char=5708
+28	that	that	PRON	WDT	PronType=Rel	30	nsubj	_	start_char=5709|end_char=5713
+29	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	start_char=5714|end_char=5717
+30	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	27	acl:relcl	_	start_char=5718|end_char=5723
+31	to	to	PART	TO	_	32	mark	_	start_char=5724|end_char=5726
+32	bring	bring	VERB	VB	VerbForm=Inf	30	xcomp	_	start_char=5727|end_char=5732
+33	information	information	NOUN	NN	Number=Sing	32	obj	_	start_char=5733|end_char=5744
+34	into	into	ADP	IN	_	36	case	_	start_char=5745|end_char=5749
+35	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	36	nmod:poss	_	start_char=5750|end_char=5753
+36	world	world	NOUN	NN	Number=Sing	32	obl	_	start_char=5754|end_char=5759
+37	on	on	ADP	IN	_	39	case	_	start_char=5760|end_char=5762
+38	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	39	nmod:poss	_	start_char=5763|end_char=5766
+39	terms	term	NOUN	NNS	Number=Plur	32	obl	_	start_char=5767|end_char=5772|SpaceAfter=No
+40	.	.	PUNCT	.	_	16	punct	_	start_char=5772|end_char=5773|SpacesAfter=\n\n
+
+# text = Thank you very much. I look forward to talking with all of you.
+# sent_id = 60
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5775|end_char=5780
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	start_char=5781|end_char=5784
+3	very	very	ADV	RB	_	4	advmod	_	start_char=5785|end_char=5789
+4	much	much	ADV	RB	Degree=Pos	1	advmod	_	start_char=5790|end_char=5794|SpaceAfter=No
+5	.	.	PUNCT	.	_	7	punct	_	start_char=5794|end_char=5795
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=5796|end_char=5797
+7	look	look	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	parataxis	_	start_char=5798|end_char=5802
+8	forward	forward	ADV	RB	_	7	advmod	_	start_char=5803|end_char=5810
+9	to	to	SCONJ	IN	_	10	mark	_	start_char=5811|end_char=5813
+10	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	7	advcl	_	start_char=5814|end_char=5821
+11	with	with	ADP	IN	_	12	case	_	start_char=5822|end_char=5826
+12	all	all	DET	DT	PronType=Tot	10	obl	_	start_char=5827|end_char=5830
+13	of	of	ADP	IN	_	14	case	_	start_char=5831|end_char=5833
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	nmod	_	start_char=5834|end_char=5837|SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	_	start_char=5837|end_char=5838|SpaceAfter=No

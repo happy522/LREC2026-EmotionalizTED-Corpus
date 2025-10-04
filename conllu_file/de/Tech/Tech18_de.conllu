@@ -1,0 +1,1324 @@
+# conllu_stats: begin
+# conllu_tokens: 1136
+# conllu_sentences: 58
+# Avrage tokens per senteces: 19.586206896551722
+# conllu_stats: end
+
+
+# text = Wie ein Computer lernt, Objekte in Echtzeit zu erkennen
+# sent_id = 0
+1	Wie	wie	SCONJ	KOUS	_	4	mark	_	start_char=0|end_char=3
+2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=4|end_char=7
+3	Computer	Computer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=8|end_char=16
+4	lernt	lernen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=17|end_char=22|SpaceAfter=No
+5	,	,	PUNCT	$,	_	10	punct	_	start_char=22|end_char=23
+6	Objekte	Objekt	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	start_char=24|end_char=31
+7	in	in	ADP	APPR	_	8	case	_	start_char=32|end_char=34
+8	Echtzeit	Echtzeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	start_char=35|end_char=43
+9	zu	zu	PART	PTKZU	_	10	mark	_	start_char=44|end_char=46
+10	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	start_char=47|end_char=55|SpacesAfter=\n\n
+
+# text = Vor zehn Jahren gingen Forscher für Maschinelles Sehen davon aus, dass es für einen Computer kaum möglich sei, eine Katze von einem Hund zu unterscheiden, trotz großer Fortschritte auf dem Feld der Künstlichen Intelligenz.
+# sent_id = 1
+1	Vor	vor	ADP	APPR	_	3	case	_	start_char=57|end_char=60
+2	zehn	zehn	NUM	CARD	NumType=Card	3	nummod	_	start_char=61|end_char=65
+3	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	4	obl	_	start_char=66|end_char=72
+4	gingen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=73|end_char=79
+5	Forscher	Forscher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=80|end_char=88
+6	für	für	ADP	APPR	_	7	case	_	start_char=89|end_char=92
+7	Maschinelles	Maschinelles	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	8	amod	_	start_char=93|end_char=105
+8	Sehen	Sehen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	start_char=106|end_char=111
+9	davon	davon	ADV	PAV	PronType=Dem	4	advmod	_	start_char=112|end_char=117
+10	aus	aus	ADP	PTKVZ	_	4	compound:prt	_	start_char=118|end_char=121|SpaceAfter=No
+11	,	,	PUNCT	$,	_	18	punct	_	start_char=121|end_char=122
+12	dass	dass	SCONJ	KOUS	_	18	mark	_	start_char=123|end_char=127
+13	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	start_char=128|end_char=130
+14	für	für	ADP	APPR	_	16	case	_	start_char=131|end_char=134
+15	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	16	det	_	start_char=135|end_char=140
+16	Computer	Computer	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	nmod	_	start_char=141|end_char=149
+17	kaum	kaum	ADV	ADV	_	18	advmod	_	start_char=150|end_char=154
+18	möglich	möglich	ADJ	ADJD	Degree=Pos	4	ccomp	_	start_char=155|end_char=162
+19	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=163|end_char=166|SpaceAfter=No
+20	,	,	PUNCT	$,	_	27	punct	_	start_char=166|end_char=167
+21	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	22	det	_	start_char=168|end_char=172
+22	Katze	Katze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	obj	_	start_char=173|end_char=178
+23	von	von	ADP	APPR	_	25	case	_	start_char=179|end_char=182
+24	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	25	det	_	start_char=183|end_char=188
+25	Hund	Hund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	22	nmod	_	start_char=189|end_char=193
+26	zu	zu	PART	PTKZU	_	27	mark	_	start_char=194|end_char=196
+27	unterscheiden	unterscheiden	VERB	VVINF	VerbForm=Inf	18	csubj	_	start_char=197|end_char=210|SpaceAfter=No
+28	,	,	PUNCT	$,	_	31	punct	_	start_char=210|end_char=211
+29	trotz	trotz	ADP	APPR	_	31	case	_	start_char=212|end_char=217
+30	großer	groß	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	31	amod	_	start_char=218|end_char=224
+31	Fortschritte	Fortschritt	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	start_char=225|end_char=237
+32	auf	auf	ADP	APPR	_	34	case	_	start_char=238|end_char=241
+33	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	34	det	_	start_char=242|end_char=245
+34	Feld	Feld	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	31	nmod	_	start_char=246|end_char=250
+35	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	start_char=251|end_char=254
+36	Künstlichen	künstlich	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	start_char=255|end_char=266
+37	Intelligenz	Intelligenz	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	start_char=267|end_char=278|SpaceAfter=No
+38	.	.	PUNCT	$.	_	4	punct	_	start_char=278|end_char=279|SpacesAfter=\n\n
+
+# text = Mittlerweile ist das zu über 99% möglich. Man nennt diese Aufgabe "Bildklassifikation".
+# sent_id = 2
+1	Mittlerweile	mittlerweile	ADV	ADV	_	7	advmod	_	start_char=281|end_char=293
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=294|end_char=297
+3	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	7	nsubj	_	start_char=298|end_char=301
+4	zu	zu	ADP	APPR	_	6	case	_	start_char=302|end_char=304
+5	über	über	ADV	ADV	_	6	advmod	_	start_char=305|end_char=309
+6	99%	99%	NUM	CARD	NumType=Card	7	nmod	_	start_char=310|end_char=313
+7	möglich	möglich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=314|end_char=321|SpaceAfter=No
+8	.	.	PUNCT	$.	_	10	punct	_	start_char=321|end_char=322
+9	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	start_char=323|end_char=326
+10	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	start_char=327|end_char=332
+11	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	start_char=333|end_char=338
+12	Aufgabe	Aufgabe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=339|end_char=346
+13	"	"	PUNCT	$(	_	14	punct	_	start_char=347|end_char=348|SpaceAfter=No
+14	Bildklassifikation	Bildklassifikation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=348|end_char=366|SpaceAfter=No
+15	"	"	PUNCT	$(	_	14	punct	_	start_char=366|end_char=367|SpaceAfter=No
+16	.	.	PUNCT	$.	_	7	punct	_	start_char=367|end_char=368|SpacesAfter=\n\n
+
+# text = Sie geben dem Computer ein Bild mit einer expliziten Bezeichnung, und der Computer kennt zusätzlich tausende weiterer Kategorien dafür.
+# sent_id = 3
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=370|end_char=373
+2	geben	geben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=374|end_char=379
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=380|end_char=383
+4	Computer	Computer	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl:arg	_	start_char=384|end_char=392
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=393|end_char=396
+6	Bild	Bild	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=397|end_char=401
+7	mit	mit	ADP	APPR	_	10	case	_	start_char=402|end_char=405
+8	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=406|end_char=411
+9	expliziten	explizit	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=412|end_char=422
+10	Bezeichnung	Bezeichnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	start_char=423|end_char=434|SpaceAfter=No
+11	,	,	PUNCT	$,	_	15	punct	_	start_char=434|end_char=435
+12	und	und	CCONJ	KON	_	15	cc	_	start_char=436|end_char=439
+13	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=440|end_char=443
+14	Computer	Computer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	start_char=444|end_char=452
+15	kennt	kennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=453|end_char=458
+16	zusätzlich	zusätzlich	ADJ	ADJD	Degree=Pos	15	advmod	_	start_char=459|end_char=469
+17	tausende	tausende	NUM	CARD	Case=Acc|NumType=Card|Number=Sing	15	obj	_	start_char=470|end_char=478
+18	weiterer	weit	ADJ	ADJA	Case=Gen|Degree=Cmp|Gender=Fem|Number=Plur	19	amod	_	start_char=479|end_char=487
+19	Kategorien	Kategorie	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	start_char=488|end_char=498
+20	dafür	dafür	ADV	PAV	PronType=Dem	15	advmod	_	start_char=499|end_char=504|SpaceAfter=No
+21	.	.	PUNCT	$.	_	2	punct	_	start_char=504|end_char=505|SpacesAfter=\n\n
+
+# text = Ich studiere an der Universität von Washington und arbeite an einem Projekt namens "Darknet", einem Framework für neurale Netzwerke, mit dem Modelle zur Bilderkennung trainiert und getestet werden.
+# sent_id = 4
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=507|end_char=510
+2	studiere	studieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=511|end_char=519
+3	an	an	ADP	APPR	_	5	case	_	start_char=520|end_char=522
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=523|end_char=526
+5	Universität	Universität	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=527|end_char=538
+6	von	von	ADP	APPR	_	7	case	_	start_char=539|end_char=542
+7	Washington	Washington	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=543|end_char=553
+8	und	und	CCONJ	KON	_	9	cc	_	start_char=554|end_char=557
+9	arbeite	arbeiten	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=558|end_char=565
+10	an	an	ADP	APPR	_	12	case	_	start_char=566|end_char=568
+11	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=569|end_char=574
+12	Projekt	Projekt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	start_char=575|end_char=582
+13	namens	namens	ADP	APPR	_	15	case	_	start_char=583|end_char=589
+14	"	"	PUNCT	$(	_	15	punct	_	start_char=590|end_char=591|SpaceAfter=No
+15	Darknet	Darknet	PROPN	NE	Foreign=Yes	12	nmod	_	start_char=591|end_char=598|SpaceAfter=No
+16	"	"	PUNCT	$(	_	15	punct	_	start_char=598|end_char=599|SpaceAfter=No
+17	,	,	PUNCT	$,	_	19	punct	_	start_char=599|end_char=600
+18	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	19	det	_	start_char=601|end_char=606
+19	Framework	Framework	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	appos	_	start_char=607|end_char=616
+20	für	für	ADP	APPR	_	22	case	_	start_char=617|end_char=620
+21	neurale	neural	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	22	amod	_	start_char=621|end_char=628
+22	Netzwerke	Netzwerk	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	19	nmod	_	start_char=629|end_char=638|SpaceAfter=No
+23	,	,	PUNCT	$,	_	30	punct	_	start_char=638|end_char=639
+24	mit	mit	ADP	APPR	_	25	case	_	start_char=640|end_char=643
+25	dem	der	PRON	PRELS	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem,Rel	30	obl	_	start_char=644|end_char=647
+26	Modelle	Modell	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	30	nsubj:pass	_	start_char=648|end_char=655
+27-28	zur	_	_	_	_	_	_	_	start_char=656|end_char=659
+27	zu	zu	ADP	APPR	_	29	case	_	_
+28	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Bilderkennung	Bilderkennung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	30	obl	_	start_char=660|end_char=673
+30	trainiert	trainieren	VERB	VVPP	VerbForm=Part	22	acl	_	start_char=674|end_char=683
+31	und	und	CCONJ	KON	_	32	cc	_	start_char=684|end_char=687
+32	getestet	testen	VERB	VVPP	VerbForm=Part	30	conj	_	start_char=688|end_char=696
+33	werden	werden	AUX	VAFIN	VerbForm=Inf|Voice=Pass	30	aux:pass	_	start_char=697|end_char=703|SpaceAfter=No
+34	.	.	PUNCT	$.	_	2	punct	_	start_char=703|end_char=704|SpacesAfter=\n\n
+
+# text = Sehen wir mal, was Darknet über das Bild denkt, das wir hier haben.
+# sent_id = 5
+1	Sehen	Sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=706|end_char=711
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	nsubj	_	start_char=712|end_char=715
+3	mal	mal	ADV	ADV	_	1	advmod	_	start_char=716|end_char=719|SpaceAfter=No
+4	,	,	PUNCT	$,	_	10	punct	_	start_char=719|end_char=720
+5	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	10	obj	_	start_char=721|end_char=724
+6	Darknet	Darknet	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	start_char=725|end_char=732
+7	über	über	ADP	APPR	_	9	case	_	start_char=733|end_char=737
+8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=738|end_char=741
+9	Bild	Bild	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	start_char=742|end_char=746
+10	denkt	denken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	start_char=747|end_char=752|SpaceAfter=No
+11	,	,	PUNCT	$,	_	15	punct	_	start_char=752|end_char=753
+12	das	der	SCONJ	KOUS	Typo=Yes	15	mark	_	start_char=754|end_char=757
+13	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	start_char=758|end_char=761
+14	hier	hier	ADV	ADV	_	15	advmod	_	start_char=762|end_char=766
+15	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	start_char=767|end_char=772|SpaceAfter=No
+16	.	.	PUNCT	$.	_	1	punct	_	start_char=772|end_char=773|SpacesAfter=\n\n
+
+# text = Wenn wir unseren Klassifikator auf dieses Bild loslassen, sehen wir, dass nicht nur "Hund" oder "Katze" vorausgesagt wird, er gibt sogar eine Aussage über die konkrete Rasse.
+# sent_id = 6
+1	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=775|end_char=779
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=780|end_char=783
+3	unseren	unser	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	start_char=784|end_char=791
+4	Klassifikator	Klassifikator	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	start_char=792|end_char=805
+5	auf	auf	ADP	APPR	_	7	case	_	start_char=806|end_char=809
+6	dieses	dieser	DET	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	start_char=810|end_char=816
+7	Bild	Bild	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	start_char=817|end_char=821
+8	loslassen	loslassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	start_char=822|end_char=831|SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	start_char=831|end_char=832
+10	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=833|end_char=838
+11	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	start_char=839|end_char=842|SpaceAfter=No
+12	,	,	PUNCT	$,	_	23	punct	_	start_char=842|end_char=843
+13	dass	dass	SCONJ	KOUS	_	23	mark	_	start_char=844|end_char=848
+14	nicht	nicht	PART	PTKNEG	Polarity=Neg	23	advmod	_	start_char=849|end_char=854
+15	nur	nur	ADV	ADV	_	17	advmod	_	start_char=855|end_char=858
+16	"	"	PUNCT	$(	_	17	punct	_	start_char=859|end_char=860|SpaceAfter=No
+17	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	nsubj:pass	_	start_char=860|end_char=864|SpaceAfter=No
+18	"	"	PUNCT	$(	_	17	punct	_	start_char=864|end_char=865
+19	oder	oder	CCONJ	KON	_	21	cc	_	start_char=866|end_char=870
+20	"	"	PUNCT	$(	_	21	punct	_	start_char=871|end_char=872|SpaceAfter=No
+21	Katze	Katze	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	conj	_	start_char=872|end_char=877|SpaceAfter=No
+22	"	"	PUNCT	$(	_	21	punct	_	start_char=877|end_char=878
+23	vorausgesagt	voraussagen	VERB	VVPP	VerbForm=Part	10	ccomp	_	start_char=879|end_char=891
+24	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	23	aux:pass	_	start_char=892|end_char=896|SpaceAfter=No
+25	,	,	PUNCT	$,	_	27	punct	_	start_char=896|end_char=897
+26	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	start_char=898|end_char=900
+27	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	start_char=901|end_char=905
+28	sogar	sogar	ADV	ADV	_	27	advmod	_	start_char=906|end_char=911
+29	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	30	det	_	start_char=912|end_char=916
+30	Aussage	Aussage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	obj	_	start_char=917|end_char=924
+31	über	über	ADP	APPR	_	34	case	_	start_char=925|end_char=929
+32	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	start_char=930|end_char=933
+33	konkrete	konkret	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	start_char=934|end_char=942
+34	Rasse	Rasse	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	30	nmod	_	start_char=943|end_char=948|SpaceAfter=No
+35	.	.	PUNCT	$.	_	10	punct	_	start_char=948|end_char=949|SpacesAfter=\n\n
+
+# text = Dieser Genauigkeitsgrad ist im Moment möglich.
+# sent_id = 7
+1	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=951|end_char=957
+2	Genauigkeitsgrad	Genauigkeitsgrad	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=958|end_char=974
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=975|end_char=978
+4-5	im	_	_	_	_	_	_	_	start_char=979|end_char=981
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Moment	Moment	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	start_char=982|end_char=988
+7	möglich	möglich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=989|end_char=996|SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=996|end_char=997|SpacesAfter=\n\n
+
+# text = Und es stimmt -- es handelt sich tatsächlich um einen Alaskan Malamute.
+# sent_id = 8
+1	Und	und	CCONJ	KON	_	3	cc	_	start_char=999|end_char=1002
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=1003|end_char=1005
+3	stimmt	stimmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1006|end_char=1012
+4	--	--	PUNCT	$(	_	6	punct	_	start_char=1013|end_char=1015
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=1016|end_char=1018
+6	handelt	handeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=1019|end_char=1026
+7	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	start_char=1027|end_char=1031
+8	tatsächlich	tatsächlich	ADJ	ADV	Degree=Pos	6	advmod	_	start_char=1032|end_char=1043
+9	um	um	ADP	APPR	_	11	case	_	start_char=1044|end_char=1046
+10	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=1047|end_char=1052
+11	Alaskan	Alaskan	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	start_char=1053|end_char=1060
+12	Malamute	Malamute	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	11	appos	_	start_char=1061|end_char=1069|SpaceAfter=No
+13	.	.	PUNCT	$.	_	3	punct	_	start_char=1069|end_char=1070|SpacesAfter=\n\n
+
+# text = Wir haben beachtliche Fortschritte in der Bildklassifikation gemacht. Was aber passiert, wenn wir unserem Klassifikator ein solches Bild vorlegen?
+# sent_id = 9
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=1072|end_char=1075
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=1076|end_char=1081
+3	beachtliche	beachtlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=1082|end_char=1093
+4	Fortschritte	Fortschritt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	start_char=1094|end_char=1106
+5	in	in	ADP	APPR	_	7	case	_	start_char=1107|end_char=1109
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=1110|end_char=1113
+7	Bildklassifikation	Bildklassifikation	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	start_char=1114|end_char=1132
+8	gemacht	machen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1133|end_char=1140|SpaceAfter=No
+9	.	.	PUNCT	$.	_	12	punct	_	start_char=1140|end_char=1141
+10	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	12	nsubj	_	start_char=1142|end_char=1145
+11	aber	aber	ADV	ADV	_	12	advmod	_	start_char=1146|end_char=1150
+12	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	start_char=1151|end_char=1159|SpaceAfter=No
+13	,	,	PUNCT	$,	_	21	punct	_	start_char=1159|end_char=1160
+14	wenn	wenn	SCONJ	KOUS	_	21	mark	_	start_char=1161|end_char=1165
+15	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	start_char=1166|end_char=1169
+16	unserem	unser	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	17	det:poss	_	start_char=1170|end_char=1177
+17	Klassifikator	Klassifikator	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	21	obl:arg	_	start_char=1178|end_char=1191
+18	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	20	det	_	start_char=1192|end_char=1195
+19	solches	solcher	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	20	det	_	start_char=1196|end_char=1203
+20	Bild	Bild	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	start_char=1204|end_char=1208
+21	vorlegen	vorlegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	start_char=1209|end_char=1217|SpaceAfter=No
+22	?	?	PUNCT	$.	_	8	punct	_	start_char=1217|end_char=1218|SpacesAfter=\n\n
+
+# text = Nun...
+# sent_id = 10
+1	Nun	nun	ADV	ADV	_	0	root	_	start_char=1220|end_char=1223|SpaceAfter=No
+2	...	...	PUNCT	$(	_	1	punct	_	start_char=1223|end_char=1226|SpacesAfter=\n\n
+
+# text = Wir sehen, dass der Klassifikator so ziemlich das gleiche Ergebnis liefert.
+# sent_id = 11
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=1228|end_char=1231
+2	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1232|end_char=1237|SpaceAfter=No
+3	,	,	PUNCT	$,	_	12	punct	_	start_char=1237|end_char=1238
+4	dass	dass	SCONJ	KOUS	_	12	mark	_	start_char=1239|end_char=1243
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=1244|end_char=1247
+6	Klassifikator	Klassifikator	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=1248|end_char=1261
+7	so	so	ADV	ADV	_	8	advmod	_	start_char=1262|end_char=1264
+8	ziemlich	ziemlich	ADV	ADV	_	12	advmod	_	start_char=1265|end_char=1273
+9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	start_char=1274|end_char=1277
+10	gleiche	gleich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=1278|end_char=1285
+11	Ergebnis	Ergebnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	start_char=1286|end_char=1294
+12	liefert	liefern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=1295|end_char=1302|SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=1302|end_char=1303|SpacesAfter=\n\n
+
+# text = Und es stimmt wieder -- da ist ein Malamute abgebildet. Doch mit dieser Aussage allein wissen wir noch nicht viel darüber, was sich genau in dem Bild abspielt.
+# sent_id = 12
+1	Und	und	CCONJ	KON	_	3	cc	_	start_char=1305|end_char=1308
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=1309|end_char=1311
+3	stimmt	stimmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1312|end_char=1318
+4	wieder	wieder	ADV	ADV	_	3	advmod	_	start_char=1319|end_char=1325
+5	--	--	PUNCT	$(	_	10	punct	_	start_char=1326|end_char=1328
+6	da	da	ADV	ADV	_	10	advmod	_	start_char=1329|end_char=1331
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=1332|end_char=1335
+8	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=1336|end_char=1339
+9	Malamute	Malamute	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=1340|end_char=1348
+10	abgebildet	abbilden	ADJ	VVPP	Degree=Pos|VerbForm=Part	3	parataxis	_	start_char=1349|end_char=1359|SpaceAfter=No
+11	.	.	PUNCT	$.	_	17	punct	_	start_char=1359|end_char=1360
+12	Doch	doch	CCONJ	KON	_	17	cc	_	start_char=1361|end_char=1365
+13	mit	mit	ADP	APPR	_	15	case	_	start_char=1366|end_char=1369
+14	dieser	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	15	det	_	start_char=1370|end_char=1376
+15	Aussage	Aussage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	start_char=1377|end_char=1384
+16	allein	allein	ADV	ADV	_	17	advmod	_	start_char=1385|end_char=1391
+17	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	conj	_	start_char=1392|end_char=1398
+18	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	start_char=1399|end_char=1402
+19	noch	noch	ADV	ADV	_	20	advmod	_	start_char=1403|end_char=1407
+20	nicht	nicht	PART	PTKNEG	Polarity=Neg	17	advmod	_	start_char=1408|end_char=1413
+21	viel	viel	DET	PIS	PronType=Ind	17	obj	_	start_char=1414|end_char=1418
+22	darüber	darüber	ADV	PAV	PronType=Dem	17	advmod	_	start_char=1419|end_char=1426|SpaceAfter=No
+23	,	,	PUNCT	$,	_	30	punct	_	start_char=1426|end_char=1427
+24	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	30	nsubj	_	start_char=1428|end_char=1431
+25	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	30	obj	_	start_char=1432|end_char=1436
+26	genau	genau	ADJ	ADV	Degree=Pos	30	advmod	_	start_char=1437|end_char=1442
+27	in	in	ADP	APPR	_	29	case	_	start_char=1443|end_char=1445
+28	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	29	det	_	start_char=1446|end_char=1449
+29	Bild	Bild	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	30	obl	_	start_char=1450|end_char=1454
+30	abspielt	abspielen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl	_	start_char=1455|end_char=1463|SpaceAfter=No
+31	.	.	PUNCT	$.	_	3	punct	_	start_char=1463|end_char=1464|SpacesAfter=\n\n
+
+# text = Wir brauchen etwas Leisungsfähigeres.
+# sent_id = 13
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=1466|end_char=1469
+2	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1470|end_char=1478
+3	etwas	etwas	PRON	PIAT	Gender=Neut|Number=Sing|PronType=Ind	4	nummod	_	start_char=1479|end_char=1484
+4	Leisungsfähigeres	Leisungsfähiger	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=1485|end_char=1502|SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=1502|end_char=1503|SpacesAfter=\n\n
+
+# text = Ich arbeite an einer Aufgabe namens "Objekterkennung". Hier versuchen wir, alle Objekte in einem Bild zu erkennen. Wir ziehen um jedes Objekt eine Markierungsbox und versehen sie mit einer Bezeichnung.
+# sent_id = 14
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=1505|end_char=1508
+2	arbeite	arbeiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1509|end_char=1516
+3	an	an	ADP	APPR	_	5	case	_	start_char=1517|end_char=1519
+4	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=1520|end_char=1525
+5	Aufgabe	Aufgabe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=1526|end_char=1533
+6	namens	namens	ADP	APPR	_	8	case	_	start_char=1534|end_char=1540
+7	"	"	PUNCT	$(	_	8	punct	_	start_char=1541|end_char=1542|SpaceAfter=No
+8	Objekterkennung	Objekterkennung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	start_char=1542|end_char=1557|SpaceAfter=No
+9	"	"	PUNCT	$(	_	8	punct	_	start_char=1557|end_char=1558|SpaceAfter=No
+10	.	.	PUNCT	$.	_	12	punct	_	start_char=1558|end_char=1559
+11	Hier	hier	ADV	ADV	_	12	advmod	_	start_char=1560|end_char=1564
+12	versuchen	versuchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=1565|end_char=1574
+13	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	start_char=1575|end_char=1578|SpaceAfter=No
+14	,	,	PUNCT	$,	_	21	punct	_	start_char=1578|end_char=1579
+15	alle	alle	DET	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Tot	16	det	_	start_char=1580|end_char=1584
+16	Objekte	Objekt	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	21	obj	_	start_char=1585|end_char=1592
+17	in	in	ADP	APPR	_	19	case	_	start_char=1593|end_char=1595
+18	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	19	det	_	start_char=1596|end_char=1601
+19	Bild	Bild	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	start_char=1602|end_char=1606
+20	zu	zu	PART	PTKZU	_	21	mark	_	start_char=1607|end_char=1609
+21	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	12	xcomp	_	start_char=1610|end_char=1618|SpaceAfter=No
+22	.	.	PUNCT	$.	_	24	punct	_	start_char=1618|end_char=1619
+23	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	start_char=1620|end_char=1623
+24	ziehen	ziehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	parataxis	_	start_char=1624|end_char=1630
+25	um	um	ADP	APPR	_	27	case	_	start_char=1631|end_char=1633
+26	jedes	jeder	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	27	det	_	start_char=1634|end_char=1639
+27	Objekt	Objekt	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	24	obl	_	start_char=1640|end_char=1646
+28	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	29	det	_	start_char=1647|end_char=1651
+29	Markierungsbox	Markierungsbox	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	obj	_	start_char=1652|end_char=1666
+30	und	und	CCONJ	KON	_	31	cc	_	start_char=1667|end_char=1670
+31	versehen	versehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	start_char=1671|end_char=1679
+32	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	31	obj	_	start_char=1680|end_char=1683
+33	mit	mit	ADP	APPR	_	35	case	_	start_char=1684|end_char=1687
+34	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	35	det	_	start_char=1688|end_char=1693
+35	Bezeichnung	Bezeichnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	31	obl	_	start_char=1694|end_char=1705|SpaceAfter=No
+36	.	.	PUNCT	$.	_	2	punct	_	start_char=1705|end_char=1706|SpacesAfter=\n\n
+
+# text = Jetzt sehen wir, was der Erkenner über das Bild sagt.
+# sent_id = 15
+1	Jetzt	jetzt	ADV	ADV	_	2	advmod	_	start_char=1708|end_char=1713
+2	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1714|end_char=1719
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=1720|end_char=1723|SpaceAfter=No
+4	,	,	PUNCT	$,	_	11	punct	_	start_char=1723|end_char=1724
+5	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	11	obj	_	start_char=1725|end_char=1728
+6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=1729|end_char=1732
+7	Erkenner	Erkenner	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=1733|end_char=1741
+8	über	über	ADP	APPR	_	10	case	_	start_char=1742|end_char=1746
+9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	start_char=1747|end_char=1750
+10	Bild	Bild	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	start_char=1751|end_char=1755
+11	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=1756|end_char=1760|SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=1760|end_char=1761|SpacesAfter=\n\n
+
+# text = Mit dieser Art Ergebnis können wir viel mehr mit den Algorithmen des Maschinellen Sehens anfangen.
+# sent_id = 16
+1	Mit	mit	ADP	APPR	_	3	case	_	start_char=1763|end_char=1766
+2	dieser	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=1767|end_char=1773
+3	Art	Art	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	start_char=1774|end_char=1777
+4	Ergebnis	Ergebnis	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	start_char=1778|end_char=1786
+5	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=1787|end_char=1793
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	start_char=1794|end_char=1797
+7	viel	viel	DET	PIS	PronType=Ind	8	advmod	_	start_char=1798|end_char=1802
+8	mehr	mehr	ADV	ADV	_	15	advmod	_	start_char=1803|end_char=1807
+9	mit	mit	ADP	APPR	_	11	case	_	start_char=1808|end_char=1811
+10	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=1812|end_char=1815
+11	Algorithmen	Algorithmus	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	15	obl	_	start_char=1816|end_char=1827
+12	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=1828|end_char=1831
+13	Maschinellen	Maschinellen	PROPN	ADJA	Case=Gen|Gender=Masc|Number=Sing	14	amod	_	start_char=1832|end_char=1844
+14	Sehens	Sehen	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=1845|end_char=1851
+15	anfangen	anfangen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1852|end_char=1860|SpaceAfter=No
+16	.	.	PUNCT	$.	_	15	punct	_	start_char=1860|end_char=1861|SpacesAfter=\n\n
+
+# text = Wir sehen, dass eine Katze und ein Hund erkannt wird.
+# sent_id = 17
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=1863|end_char=1866
+2	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1867|end_char=1872|SpaceAfter=No
+3	,	,	PUNCT	$,	_	10	punct	_	start_char=1872|end_char=1873
+4	dass	dass	SCONJ	KOUS	_	10	mark	_	start_char=1874|end_char=1878
+5	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=1879|end_char=1883
+6	Katze	Katze	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj:pass	_	start_char=1884|end_char=1889
+7	und	und	CCONJ	KON	_	9	cc	_	start_char=1890|end_char=1893
+8	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=1894|end_char=1897
+9	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	start_char=1898|end_char=1902
+10	erkannt	erkennen	VERB	VVPP	VerbForm=Part	2	ccomp	_	start_char=1903|end_char=1910
+11	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	aux:pass	_	start_char=1911|end_char=1915|SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=1915|end_char=1916|SpacesAfter=\n\n
+
+# text = Der Erkenner liefert ihre relativen Positionen im Bild, ihre Größe, und vielleicht sogar noch mehr:
+# sent_id = 18
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=1918|end_char=1921
+2	Erkenner	Erkenner	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=1922|end_char=1930
+3	liefert	liefern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1931|end_char=1938
+4	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	start_char=1939|end_char=1943
+5	relativen	relativ	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=1944|end_char=1953
+6	Positionen	Position	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=1954|end_char=1964
+7-8	im	_	_	_	_	_	_	_	start_char=1965|end_char=1967
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Bild	Bild	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	start_char=1968|end_char=1972|SpaceAfter=No
+10	,	,	PUNCT	$,	_	12	punct	_	start_char=1972|end_char=1973
+11	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	start_char=1974|end_char=1978
+12	Größe	Größe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	conj	_	start_char=1979|end_char=1984|SpaceAfter=No
+13	,	,	PUNCT	$,	_	18	punct	_	start_char=1984|end_char=1985
+14	und	und	CCONJ	KON	_	18	cc	_	start_char=1986|end_char=1989
+15	vielleicht	vielleicht	ADV	ADV	_	18	advmod	_	start_char=1990|end_char=2000
+16	sogar	sogar	ADV	ADV	_	17	advmod	_	start_char=2001|end_char=2006
+17	noch	noch	ADV	ADV	_	18	advmod	_	start_char=2007|end_char=2011
+18	mehr	mehr	ADV	ADV	_	9	conj	_	start_char=2012|end_char=2016|SpaceAfter=No
+19	:	:	PUNCT	$.	_	3	punct	_	start_char=2016|end_char=2017|SpacesAfter=\n\n
+
+# text = Im Hintergrund ist ein Buch zu sehen.
+# sent_id = 19
+1-2	Im	_	_	_	_	_	_	_	start_char=2019|end_char=2021
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Hintergrund	Hintergrund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	start_char=2022|end_char=2033
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	start_char=2034|end_char=2037
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=2038|end_char=2041
+6	Buch	Buch	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj:pass	_	start_char=2042|end_char=2046
+7	zu	zu	PART	PTKZU	_	8	mark	_	start_char=2047|end_char=2049
+8	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2050|end_char=2055|SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=2055|end_char=2056|SpacesAfter=\n\n
+
+# text = Wenn man das Maschinelle Sehen in einem größeren System nutzen will, etwa in einem selbstfahrenden Fahrzeug oder einem Robotsystem, braucht man genau solche Informationen, auf deren Basis man mit der physischen Welt interagieren kann.
+# sent_id = 20
+1	Wenn	wenn	SCONJ	KOUS	_	10	mark	_	start_char=2058|end_char=2062
+2	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	start_char=2063|end_char=2066
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=2067|end_char=2070
+4	Maschinelle	maschinell	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=2071|end_char=2082
+5	Sehen	Sehen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	start_char=2083|end_char=2088
+6	in	in	ADP	APPR	_	9	case	_	start_char=2089|end_char=2091
+7	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=2092|end_char=2097
+8	größeren	groß	ADJ	ADJA	Case=Dat|Degree=Cmp|Gender=Neut|Number=Sing	9	amod	_	start_char=2098|end_char=2106
+9	System	System	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	start_char=2107|end_char=2113
+10	nutzen	nutzen	VERB	VVINF	VerbForm=Inf	22	advcl	_	start_char=2114|end_char=2120
+11	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=2121|end_char=2125|SpaceAfter=No
+12	,	,	PUNCT	$,	_	17	punct	_	start_char=2125|end_char=2126
+13	etwa	etwa	ADV	ADV	_	17	advmod	_	start_char=2127|end_char=2131
+14	in	in	ADP	APPR	_	17	case	_	start_char=2132|end_char=2134
+15	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	17	det	_	start_char=2135|end_char=2140
+16	selbstfahrenden	selbstfahrend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	start_char=2141|end_char=2156
+17	Fahrzeug	Fahrzeug	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	start_char=2157|end_char=2165
+18	oder	oder	CCONJ	KON	_	20	cc	_	start_char=2166|end_char=2170
+19	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	20	det	_	start_char=2171|end_char=2176
+20	Robotsystem	Robotsystem	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	conj	_	start_char=2177|end_char=2188|SpaceAfter=No
+21	,	,	PUNCT	$,	_	10	punct	_	start_char=2188|end_char=2189
+22	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2190|end_char=2197
+23	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	22	nsubj	_	start_char=2198|end_char=2201
+24	genau	genau	ADV	ADV	_	22	advmod	_	start_char=2202|end_char=2207
+25	solche	solcher	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	26	det	_	start_char=2208|end_char=2214
+26	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	22	obj	_	start_char=2215|end_char=2228|SpaceAfter=No
+27	,	,	PUNCT	$,	_	36	punct	_	start_char=2228|end_char=2229
+28	auf	auf	ADP	APPR	_	30	case	_	start_char=2230|end_char=2233
+29	deren	der	PRON	PRELAT	Case=Gen|Number=Plur|PronType=Dem,Rel	30	nmod:poss	_	start_char=2234|end_char=2239
+30	Basis	Basis	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	36	obl	_	start_char=2240|end_char=2245
+31	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	36	nsubj	_	start_char=2246|end_char=2249
+32	mit	mit	ADP	APPR	_	35	case	_	start_char=2250|end_char=2253
+33	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	start_char=2254|end_char=2257
+34	physischen	physisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	start_char=2258|end_char=2268
+35	Welt	Welt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	36	obl	_	start_char=2269|end_char=2273
+36	interagieren	interagieren	VERB	VVINF	VerbForm=Inf	26	acl	_	start_char=2274|end_char=2286
+37	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	start_char=2287|end_char=2291|SpaceAfter=No
+38	.	.	PUNCT	$.	_	22	punct	_	start_char=2291|end_char=2292|SpacesAfter=\n\n
+
+# text = Als ich damit anfing, in der Objekterkennung zu arbeiten, dauerte die Verarbeitung zwanzig Sekunden für jedes einzelne Bild.
+# sent_id = 21
+1	Als	als	SCONJ	KOUS	_	4	mark	_	start_char=2294|end_char=2297
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=2298|end_char=2301
+3	damit	damit	ADV	PAV	PronType=Dem	4	advmod	_	start_char=2302|end_char=2307
+4	anfing	anfangen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	advcl	_	start_char=2308|end_char=2314|SpaceAfter=No
+5	,	,	PUNCT	$,	_	10	punct	_	start_char=2314|end_char=2315
+6	in	in	ADP	APPR	_	8	case	_	start_char=2316|end_char=2318
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=2319|end_char=2322
+8	Objekterkennung	Objekterkennung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	start_char=2323|end_char=2338
+9	zu	zu	PART	PTKZU	_	10	mark	_	start_char=2339|end_char=2341
+10	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	4	xcomp	_	start_char=2342|end_char=2350|SpaceAfter=No
+11	,	,	PUNCT	$,	_	4	punct	_	start_char=2350|end_char=2351
+12	dauerte	dauern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2352|end_char=2359
+13	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=2360|end_char=2363
+14	Verarbeitung	Verarbeitung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=2364|end_char=2376
+15	zwanzig	zwanzig	NUM	CARD	NumType=Card	16	nummod	_	start_char=2377|end_char=2384
+16	Sekunden	Sekunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	start_char=2385|end_char=2393
+17	für	für	ADP	APPR	_	20	case	_	start_char=2394|end_char=2397
+18	jedes	jeder	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	20	det	_	start_char=2398|end_char=2403
+19	einzelne	einzeln	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	start_char=2404|end_char=2412
+20	Bild	Bild	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	start_char=2413|end_char=2417|SpaceAfter=No
+21	.	.	PUNCT	$.	_	12	punct	_	start_char=2417|end_char=2418|SpacesAfter=\n\n
+
+# text = Um ein Gefühl dafür zu bekommen, warum Geschwindigkeit hier so wichtig ist, zeige ich Ihnen einen Objekterkenner, der zwei Sekunden braucht, um ein Einzelbild zu verarbeiten -- was bereits zehnmal schneller ist als der Zwanzig-Sekunden-Klassifikator. Bis dieser Erkenner seine Voraussagen bekannt gibt, hat sich der Zustand der Welt bereits völlig verändert. Das wäre für die praktische Anwendung völlig ungeeignet.
+# sent_id = 22
+1	Um	um	ADP	KOUI	_	6	mark	_	start_char=2420|end_char=2422
+2	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=2423|end_char=2426
+3	Gefühl	Gefühl	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=2427|end_char=2433
+4	dafür	dafür	ADV	PAV	PronType=Dem	6	advmod	_	start_char=2434|end_char=2439
+5	zu	zu	PART	PTKZU	_	6	mark	_	start_char=2440|end_char=2442
+6	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	15	advcl	_	start_char=2443|end_char=2451|SpaceAfter=No
+7	,	,	PUNCT	$,	_	12	punct	_	start_char=2451|end_char=2452
+8	warum	warum	ADV	PWAV	PronType=Int	12	advmod	_	start_char=2453|end_char=2458
+9	Geschwindigkeit	Geschwindigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=2459|end_char=2474
+10	hier	hier	ADV	ADV	_	12	advmod	_	start_char=2475|end_char=2479
+11	so	so	ADV	ADV	_	12	advmod	_	start_char=2480|end_char=2482
+12	wichtig	wichtig	ADJ	ADJD	Degree=Pos	6	ccomp	_	start_char=2483|end_char=2490
+13	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=2491|end_char=2494|SpaceAfter=No
+14	,	,	PUNCT	$,	_	6	punct	_	start_char=2494|end_char=2495
+15	zeige	zeigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2496|end_char=2501
+16	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=2502|end_char=2505
+17	Ihnen	Sie	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Form|PronType=Prs	15	obl:arg	_	start_char=2506|end_char=2511
+18	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	19	det	_	start_char=2512|end_char=2517
+19	Objekterkenner	Objekterkenner	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	start_char=2518|end_char=2532|SpaceAfter=No
+20	,	,	PUNCT	$,	_	24	punct	_	start_char=2532|end_char=2533
+21	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	24	nsubj	_	start_char=2534|end_char=2537
+22	zwei	zwei	NUM	CARD	NumType=Card	23	nummod	_	start_char=2538|end_char=2542
+23	Sekunden	Sekunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	24	obj	_	start_char=2543|end_char=2551
+24	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl	_	start_char=2552|end_char=2559|SpaceAfter=No
+25	,	,	PUNCT	$,	_	30	punct	_	start_char=2559|end_char=2560
+26	um	um	ADP	KOUI	_	30	mark	_	start_char=2561|end_char=2563
+27	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	28	det	_	start_char=2564|end_char=2567
+28	Einzelbild	Einzelbild	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	30	obj	_	start_char=2568|end_char=2578
+29	zu	zu	PART	PTKZU	_	30	mark	_	start_char=2579|end_char=2581
+30	verarbeiten	verarbeiten	VERB	VVINF	VerbForm=Inf	24	advcl	_	start_char=2582|end_char=2593
+31	--	--	PUNCT	$(	_	35	punct	_	start_char=2594|end_char=2596
+32	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	35	nsubj	_	start_char=2597|end_char=2600
+33	bereits	bereits	ADV	ADV	_	34	advmod	_	start_char=2601|end_char=2608
+34	zehnmal	zehnmal	ADV	ADV	_	35	advmod	_	start_char=2609|end_char=2616
+35	schneller	schnell	ADJ	ADJD	Degree=Cmp	30	acl	_	start_char=2617|end_char=2626
+36	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	start_char=2627|end_char=2630
+37	als	als	ADP	KOKOM	_	43	case	_	start_char=2631|end_char=2634
+38	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	start_char=2635|end_char=2638
+39	Zwanzig	Zwanzig	NUM	NN	Case=Nom|Gender=Masc|NumType=Card|Number=Sing	43	compound	_	start_char=2639|end_char=2646|SpaceAfter=No
+40	-	-	PUNCT	$(	_	39	punct	_	start_char=2646|end_char=2647|SpaceAfter=No
+41	Sekunden	Sekunde	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	43	compound	_	start_char=2647|end_char=2655|SpaceAfter=No
+42	-	-	PUNCT	$(	_	41	punct	_	start_char=2655|end_char=2656|SpaceAfter=No
+43	Klassifikator	Klassifikator	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	35	nmod	_	start_char=2656|end_char=2669|SpaceAfter=No
+44	.	.	PUNCT	$.	_	51	punct	_	start_char=2669|end_char=2670
+45	Bis	bis	SCONJ	KOUS	_	51	mark	_	start_char=2671|end_char=2674
+46	dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	47	det	_	start_char=2675|end_char=2681
+47	Erkenner	Erkenner	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	51	nsubj	_	start_char=2682|end_char=2690
+48	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	49	det:poss	_	start_char=2691|end_char=2696
+49	Voraussagen	Voraussage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	50	nsubj	_	start_char=2697|end_char=2708
+50	bekannt	bekennen	ADJ	ADJD	Degree=Pos	51	xcomp	_	start_char=2709|end_char=2716
+51	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	advcl	_	start_char=2717|end_char=2721|SpaceAfter=No
+52	,	,	PUNCT	$,	_	51	punct	_	start_char=2721|end_char=2722
+53	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	aux	_	start_char=2723|end_char=2726
+54	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	61	obj	_	start_char=2727|end_char=2731
+55	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	start_char=2732|end_char=2735
+56	Zustand	Zustand	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	61	nsubj	_	start_char=2736|end_char=2743
+57	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	start_char=2744|end_char=2747
+58	Welt	Welt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	56	nmod	_	start_char=2748|end_char=2752
+59	bereits	bereits	ADV	ADV	_	60	advmod	_	start_char=2753|end_char=2760
+60	völlig	völlig	ADJ	ADJD	Degree=Pos	61	advmod	_	start_char=2761|end_char=2767
+61	verändert	verändern	VERB	VVPP	VerbForm=Part	15	parataxis	_	start_char=2768|end_char=2777|SpaceAfter=No
+62	.	.	PUNCT	$.	_	70	punct	_	start_char=2777|end_char=2778
+63	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	70	nsubj	_	start_char=2779|end_char=2782
+64	wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	70	cop	_	start_char=2783|end_char=2787
+65	für	für	ADP	APPR	_	68	case	_	start_char=2788|end_char=2791
+66	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	68	det	_	start_char=2792|end_char=2795
+67	praktische	praktisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	68	amod	_	start_char=2796|end_char=2806
+68	Anwendung	Anwendung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	70	nmod	_	start_char=2807|end_char=2816
+69	völlig	völlig	ADJ	ADJD	Degree=Pos	70	advmod	_	start_char=2817|end_char=2823
+70	ungeeignet	ungeeignet	ADJ	ADJD	Degree=Pos	61	parataxis	_	start_char=2824|end_char=2834|SpaceAfter=No
+71	.	.	PUNCT	$.	_	15	punct	_	start_char=2834|end_char=2835|SpacesAfter=\n\n
+
+# text = Wenn wir ihn noch einmal zehnmal schneller machen, verarbeitet der Erkenner fünf Bilder pro Sekunde.
+# sent_id = 23
+1	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=2837|end_char=2841
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=2842|end_char=2845
+3	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	start_char=2846|end_char=2849
+4	noch	noch	ADV	ADV	_	5	advmod	_	start_char=2850|end_char=2854
+5	einmal	einmal	ADV	ADV	_	8	advmod	_	start_char=2855|end_char=2861
+6	zehnmal	zehnmal	ADV	ADV	_	8	advmod	_	start_char=2862|end_char=2869
+7	schneller	schnell	ADJ	ADJD	Degree=Cmp	8	xcomp	_	start_char=2870|end_char=2879
+8	machen	machen	VERB	VVINF	VerbForm=Inf	10	advcl	_	start_char=2880|end_char=2886|SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	start_char=2886|end_char=2887
+10	verarbeitet	verarbeiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2888|end_char=2899
+11	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=2900|end_char=2903
+12	Erkenner	Erkenner	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=2904|end_char=2912
+13	fünf	fünf	NUM	CARD	NumType=Card	14	nummod	_	start_char=2913|end_char=2917
+14	Bilder	Bild	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	start_char=2918|end_char=2924
+15	pro	pro	ADP	APPR	_	16	case	_	start_char=2925|end_char=2928
+16	Sekunde	Sekunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	start_char=2929|end_char=2936|SpaceAfter=No
+17	.	.	PUNCT	$.	_	10	punct	_	start_char=2936|end_char=2937|SpacesAfter=\n\n
+
+# text = Das ist deutlich besser. Wenn jedoch beispielsweise eine nennenswerte Bewegung stattfindet -- Ich würde nicht wollen, dass ein solches System mein Auto steuert.
+# sent_id = 24
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	nsubj	_	start_char=2939|end_char=2942
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=2943|end_char=2946
+3	deutlich	deutlich	ADJ	ADJD	Degree=Pos	4	advmod	_	start_char=2947|end_char=2955
+4	besser	gut	ADJ	ADJD	Degree=Cmp	0	root	_	start_char=2956|end_char=2962|SpaceAfter=No
+5	.	.	PUNCT	$.	_	12	punct	_	start_char=2962|end_char=2963
+6	Wenn	wenn	SCONJ	KOUS	_	12	mark	_	start_char=2964|end_char=2968
+7	jedoch	jedoch	ADV	ADV	_	12	advmod	_	start_char=2969|end_char=2975
+8	beispielsweise	beispielsweise	ADV	ADV	_	12	advmod	_	start_char=2976|end_char=2990
+9	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=2991|end_char=2995
+10	nennenswerte	nennenswert	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=2996|end_char=3008
+11	Bewegung	Bewegung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=3009|end_char=3017
+12	stattfindet	stattfinden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	start_char=3018|end_char=3029
+13	--	--	PUNCT	$(	_	17	punct	_	start_char=3030|end_char=3032
+14	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	start_char=3033|end_char=3036
+15	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	17	aux	_	start_char=3037|end_char=3042
+16	nicht	nicht	PART	PTKNEG	Polarity=Neg	17	advmod	_	start_char=3043|end_char=3048
+17	wollen	wollen	AUX	VMINF	VerbForm=Inf	4	parataxis	_	start_char=3049|end_char=3055|SpaceAfter=No
+18	,	,	PUNCT	$,	_	25	punct	_	start_char=3055|end_char=3056
+19	dass	dass	SCONJ	KOUS	_	25	mark	_	start_char=3057|end_char=3061
+20	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	22	det	_	start_char=3062|end_char=3065
+21	solches	solcher	DET	PIAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	22	det	_	start_char=3066|end_char=3073
+22	System	System	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	25	nsubj	_	start_char=3074|end_char=3080
+23	mein	mein	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	24	det:poss	_	start_char=3081|end_char=3085
+24	Auto	Auto	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	25	obj	_	start_char=3086|end_char=3090
+25	steuert	steuern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	start_char=3091|end_char=3098|SpaceAfter=No
+26	.	.	PUNCT	$.	_	4	punct	_	start_char=3098|end_char=3099|SpacesAfter=\n\n
+
+# text = Das ist unser Erkennungssystem. Es läuft in Echtzeit auf meinem Laptop.
+# sent_id = 25
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	nsubj	_	start_char=3101|end_char=3104
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=3105|end_char=3108
+3	unser	unser	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	start_char=3109|end_char=3114
+4	Erkennungssystem	Erkennungssystem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=3115|end_char=3131|SpaceAfter=No
+5	.	.	PUNCT	$.	_	7	punct	_	start_char=3131|end_char=3132
+6	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=3133|end_char=3135
+7	läuft	laufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=3136|end_char=3141
+8	in	in	ADP	APPR	_	9	case	_	start_char=3142|end_char=3144
+9	Echtzeit	Echtzeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	start_char=3145|end_char=3153
+10	auf	auf	ADP	APPR	_	12	case	_	start_char=3154|end_char=3157
+11	meinem	mein	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	start_char=3158|end_char=3164
+12	Laptop	Laptop	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	start_char=3165|end_char=3171|SpaceAfter=No
+13	.	.	PUNCT	$.	_	4	punct	_	start_char=3171|end_char=3172|SpacesAfter=\n\n
+
+# text = Es verfolgt mich flüssig, während ich mich im Bildbereich bewege, ist robust gegenüber Veränderungen der Größe, der Stellung, Vorder- oder Rückseite.
+# sent_id = 26
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=3174|end_char=3176
+2	verfolgt	verfolgen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3177|end_char=3185
+3	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	start_char=3186|end_char=3190
+4	flüssig	flüssig	ADJ	ADJD	Degree=Pos	2	xcomp	_	start_char=3191|end_char=3198|SpaceAfter=No
+5	,	,	PUNCT	$,	_	12	punct	_	start_char=3198|end_char=3199
+6	während	während	SCONJ	KOUS	_	12	mark	_	start_char=3200|end_char=3207
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=3208|end_char=3211
+8	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	12	obj	_	start_char=3212|end_char=3216
+9-10	im	_	_	_	_	_	_	_	start_char=3217|end_char=3219
+9	in	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Bildbereich	Bildbereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	start_char=3220|end_char=3231
+12	bewege	bewegen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=3232|end_char=3238|SpaceAfter=No
+13	,	,	PUNCT	$,	_	12	punct	_	start_char=3238|end_char=3239
+14	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=3240|end_char=3243
+15	robust	robust	ADJ	ADJD	Degree=Pos	2	conj	_	start_char=3244|end_char=3250
+16	gegenüber	gegenüber	ADP	APPR	_	17	case	_	start_char=3251|end_char=3260
+17	Veränderungen	Veränderung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	15	nmod	_	start_char=3261|end_char=3274
+18	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=3275|end_char=3278
+19	Größe	Größe	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	start_char=3279|end_char=3284|SpaceAfter=No
+20	,	,	PUNCT	$,	_	22	punct	_	start_char=3284|end_char=3285
+21	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=3286|end_char=3289
+22	Stellung	Stellung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	19	conj	_	start_char=3290|end_char=3298|SpaceAfter=No
+23	,	,	PUNCT	$,	_	24	punct	_	start_char=3298|end_char=3299
+24	Vorder	Vorder	NOUN	TRUNC	_	17	conj	_	start_char=3300|end_char=3306|SpaceAfter=No
+25	-	-	PUNCT	$(	_	27	punct	_	start_char=3306|end_char=3307
+26	oder	oder	CCONJ	KON	_	27	cc	_	start_char=3308|end_char=3312
+27	Rückseite	Rückseite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	conj	_	start_char=3313|end_char=3322|SpaceAfter=No
+28	.	.	PUNCT	$.	_	2	punct	_	start_char=3322|end_char=3323|SpacesAfter=\n\n
+
+# text = Das ist großartig.
+# sent_id = 27
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=3325|end_char=3328
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=3329|end_char=3332
+3	großartig	großartig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3333|end_char=3342|SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=3342|end_char=3343|SpacesAfter=\n\n
+
+# text = So etwas brauchen wir, wenn wir das Maschinelle Sehen in Systeme einbauen wollen.
+# sent_id = 28
+1	So	so	ADV	ADV	_	2	advmod	_	start_char=3345|end_char=3347
+2	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	3	obj	_	start_char=3348|end_char=3353
+3	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3354|end_char=3362
+4	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=3363|end_char=3366|SpaceAfter=No
+5	,	,	PUNCT	$,	_	13	punct	_	start_char=3366|end_char=3367
+6	wenn	wenn	SCONJ	KOUS	_	13	mark	_	start_char=3368|end_char=3372
+7	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	start_char=3373|end_char=3376
+8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	start_char=3377|end_char=3380
+9	Maschinelle	maschinell	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	start_char=3381|end_char=3392
+10	Sehen	Sehen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	start_char=3393|end_char=3398
+11	in	in	ADP	APPR	_	12	case	_	start_char=3399|end_char=3401
+12	Systeme	System	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	obl	_	start_char=3402|end_char=3409
+13	einbauen	einbauen	VERB	VVINF	VerbForm=Inf	3	advcl	_	start_char=3410|end_char=3418
+14	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=3419|end_char=3425|SpaceAfter=No
+15	.	.	PUNCT	$.	_	3	punct	_	start_char=3425|end_char=3426|SpacesAfter=\n\n
+
+# text = In nur ein paar Jahren haben wir es von zwanzig Sekunden pro Bild zu zwanzig Millisekunden pro Bild geschafft. Eintausendmal schneller.
+# sent_id = 29
+1	In	in	ADP	APPR	_	5	case	_	start_char=3428|end_char=3430
+2	nur	nur	ADV	ADV	_	3	advmod	_	start_char=3431|end_char=3434
+3	ein	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=3435|end_char=3438
+4	paar	paar	ADJ	PIAT	Degree=Pos	5	nmod	_	start_char=3439|end_char=3443
+5	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	19	obl	_	start_char=3444|end_char=3450
+6	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=3451|end_char=3456
+7	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	start_char=3457|end_char=3460
+8	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	_	start_char=3461|end_char=3463
+9	von	von	ADP	APPR	_	11	case	_	start_char=3464|end_char=3467
+10	zwanzig	zwanzig	NUM	CARD	NumType=Card	11	nummod	_	start_char=3468|end_char=3475
+11	Sekunden	Sekunde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	19	obl	_	start_char=3476|end_char=3484
+12	pro	pro	ADP	APPR	_	13	case	_	start_char=3485|end_char=3488
+13	Bild	Bild	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	start_char=3489|end_char=3493
+14	zu	zu	ADP	APPR	_	16	case	_	start_char=3494|end_char=3496
+15	zwanzig	zwanzig	NUM	CARD	NumType=Card	16	nummod	_	start_char=3497|end_char=3504
+16	Millisekunden	Millisekunde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	19	obl	_	start_char=3505|end_char=3518
+17	pro	pro	ADP	APPR	_	18	case	_	start_char=3519|end_char=3522
+18	Bild	Bild	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	19	obl	_	start_char=3523|end_char=3527
+19	geschafft	schaffen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3528|end_char=3537|SpaceAfter=No
+20	.	.	PUNCT	$.	_	22	punct	_	start_char=3537|end_char=3538
+21	Eintausendmal	eintausendmal	ADV	ADV	_	22	advmod	_	start_char=3539|end_char=3552
+22	schneller	schnell	ADJ	ADJD	Degree=Cmp	19	parataxis	_	start_char=3553|end_char=3562|SpaceAfter=No
+23	.	.	PUNCT	$.	_	19	punct	_	start_char=3562|end_char=3563|SpacesAfter=\n\n
+
+# text = Wie haben wir das gemacht?
+# sent_id = 30
+1	Wie	wie	ADV	PWAV	PronType=Int	5	advmod	_	start_char=3565|end_char=3568
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=3569|end_char=3574
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=3575|end_char=3578
+4	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	obj	_	start_char=3579|end_char=3582
+5	gemacht	machen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3583|end_char=3590|SpaceAfter=No
+6	?	?	PUNCT	$.	_	5	punct	_	start_char=3590|end_char=3591|SpacesAfter=\n\n
+
+# text = Nun, in der Vergangenheit nahmen Objekterkenner ein solches Bild und teilten es in viele kleinere Bereiche ein. Der Klassifikator verarbeitete jeden einzelnen dieser Bereiche. Erreichte etwas einen hohen Score im Klassifikator, wurde es als erkanntes Objekt gewertet.
+# sent_id = 31
+1	Nun	nun	ADV	ADV	_	6	advmod	_	start_char=3593|end_char=3596|SpaceAfter=No
+2	,	,	PUNCT	$,	_	1	punct	_	start_char=3596|end_char=3597
+3	in	in	ADP	APPR	_	5	case	_	start_char=3598|end_char=3600
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=3601|end_char=3604
+5	Vergangenheit	Vergangenheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	start_char=3605|end_char=3618
+6	nahmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3619|end_char=3625
+7	Objekterkenner	Objekterkenner	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=3626|end_char=3640
+8	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=3641|end_char=3644
+9	solches	solcher	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	10	det	_	start_char=3645|end_char=3652
+10	Bild	Bild	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=3653|end_char=3657
+11	und	und	CCONJ	KON	_	12	cc	_	start_char=3658|end_char=3661
+12	teilten	teilen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	start_char=3662|end_char=3669
+13	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	start_char=3670|end_char=3672
+14	in	in	ADP	APPR	_	17	case	_	start_char=3673|end_char=3675
+15	viele	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	17	det	_	start_char=3676|end_char=3681
+16	kleinere	klein	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Masc|Number=Plur	17	amod	_	start_char=3682|end_char=3690
+17	Bereiche	Bereich	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obl	_	start_char=3691|end_char=3699
+18	ein	ein	ADV	PTKVZ	_	12	compound:prt	_	start_char=3700|end_char=3703|SpaceAfter=No
+19	.	.	PUNCT	$.	_	22	punct	_	start_char=3703|end_char=3704
+20	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	start_char=3705|end_char=3708
+21	Klassifikator	Klassifikator	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	start_char=3709|end_char=3722
+22	verarbeitete	verarbeiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	parataxis	_	start_char=3723|end_char=3735
+23	jeden	jeder	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	24	det	_	start_char=3736|end_char=3741
+24	einzelnen	einzeln	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	obl:arg	_	start_char=3742|end_char=3751
+25	dieser	dieser	DET	PDAT	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	26	det	_	start_char=3752|end_char=3758
+26	Bereiche	Bereich	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	start_char=3759|end_char=3767|SpaceAfter=No
+27	.	.	PUNCT	$.	_	28	punct	_	start_char=3767|end_char=3768
+28	Erreichte	erreichen	VERB	VVIMP	Mood=Ind|Number=Sing|Person=3|VerbForm=Fin	22	parataxis	_	start_char=3769|end_char=3778
+29	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	28	nsubj	_	start_char=3779|end_char=3784
+30	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	32	det	_	start_char=3785|end_char=3790
+31	hohen	hoch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	start_char=3791|end_char=3796
+32	Score	Score	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	28	obj	_	start_char=3797|end_char=3802
+33-34	im	_	_	_	_	_	_	_	start_char=3803|end_char=3805
+33	in	in	ADP	APPR	_	35	case	_	_
+34	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	Klassifikator	Klassifikator	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	32	nmod	_	start_char=3806|end_char=3819|SpaceAfter=No
+36	,	,	PUNCT	$,	_	28	punct	_	start_char=3819|end_char=3820
+37	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	42	aux:pass	_	start_char=3821|end_char=3826
+38	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	42	nsubj:pass	_	start_char=3827|end_char=3829
+39	als	als	ADP	KOKOM	_	41	case	_	start_char=3830|end_char=3833
+40	erkanntes	erkannt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	41	amod	_	start_char=3834|end_char=3843
+41	Objekt	Objekt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	42	obl	_	start_char=3844|end_char=3850
+42	gewertet	werten	VERB	VVPP	VerbForm=Part	6	conj	_	start_char=3851|end_char=3859|SpaceAfter=No
+43	.	.	PUNCT	$.	_	42	punct	_	start_char=3859|end_char=3860|SpacesAfter=\n\n
+
+# text = Dies bedeutete aber, den Klassifikator tausende Male für ein Bild anzuwenden. Tausende von Auswertungen neuraler Netzwerke für die Erkennung.
+# sent_id = 32
+1	Dies	dieser	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=3862|end_char=3866
+2	bedeutete	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3867|end_char=3876
+3	aber	aber	ADV	ADV	_	2	advmod	_	start_char=3877|end_char=3881|SpaceAfter=No
+4	,	,	PUNCT	$,	_	12	punct	_	start_char=3881|end_char=3882
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=3883|end_char=3886
+6	Klassifikator	Klassifikator	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=3887|end_char=3900
+7	tausende	tausende	NUM	CARD	NumType=Card	8	nummod	_	start_char=3901|end_char=3909
+8	Male	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	obl	_	start_char=3910|end_char=3914
+9	für	für	ADP	APPR	_	11	case	_	start_char=3915|end_char=3918
+10	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=3919|end_char=3922
+11	Bild	Bild	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	start_char=3923|end_char=3927
+12	anzuwenden	anwenden	VERB	VVIZU	VerbForm=Inf	2	xcomp	_	start_char=3928|end_char=3938|SpaceAfter=No
+13	.	.	PUNCT	$.	_	14	punct	_	start_char=3938|end_char=3939
+14	Tausende	Tausend	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	appos	_	start_char=3940|end_char=3948
+15	von	von	ADP	APPR	_	16	case	_	start_char=3949|end_char=3952
+16	Auswertungen	Auswertung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	14	nmod	_	start_char=3953|end_char=3965
+17	neuraler	neural	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	18	amod	_	start_char=3966|end_char=3974
+18	Netzwerke	Netzwerk	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	start_char=3975|end_char=3984
+19	für	für	ADP	APPR	_	21	case	_	start_char=3985|end_char=3988
+20	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=3989|end_char=3992
+21	Erkennung	Erkennung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	start_char=3993|end_char=4002|SpaceAfter=No
+22	.	.	PUNCT	$.	_	2	punct	_	start_char=4002|end_char=4003|SpacesAfter=\n\n
+
+# text = Wir haben stattdessen ein einzelnes neurales Netzwerk trainiert, das alle Markierungsboxen und Wahrscheinlichkeiten simultan berechnet.
+# sent_id = 33
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=4005|end_char=4008
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=4009|end_char=4014
+3	stattdessen	stattdessen	ADV	PAV	_	8	advmod	_	start_char=4015|end_char=4026
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=4027|end_char=4030
+5	einzelnes	einzeln	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=4031|end_char=4040
+6	neurales	neural	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=4041|end_char=4049
+7	Netzwerk	Netzwerk	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	start_char=4050|end_char=4058
+8	trainiert	trainieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=4059|end_char=4068|SpaceAfter=No
+9	,	,	PUNCT	$,	_	16	punct	_	start_char=4068|end_char=4069
+10	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	16	nsubj	_	start_char=4070|end_char=4073
+11	alle	alle	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	12	det	_	start_char=4074|end_char=4078
+12	Markierungsboxen	Markierungsbox	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	obj	_	start_char=4079|end_char=4095
+13	und	und	CCONJ	KON	_	14	cc	_	start_char=4096|end_char=4099
+14	Wahrscheinlichkeiten	Wahrscheinlichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	conj	_	start_char=4100|end_char=4120
+15	simultan	simultan	ADJ	ADJD	Degree=Pos	16	advmod	_	start_char=4121|end_char=4129
+16	berechnet	berechnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	start_char=4130|end_char=4139|SpaceAfter=No
+17	.	.	PUNCT	$.	_	8	punct	_	start_char=4139|end_char=4140|SpacesAfter=\n\n
+
+# text = Unser System ermöglicht es, statt tausende Male ein Bild anzusehen, um die Objekte darin zu erkennen, das Bild nur ein einziges Mal anzusehen. Deswegen nennen wir unsere Methode der Objekterkennung "YOLO".
+# sent_id = 34
+1	Unser	unser	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=4142|end_char=4147
+2	System	System	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=4148|end_char=4154
+3	ermöglicht	ermöglichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4155|end_char=4165
+4	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=4166|end_char=4168|SpaceAfter=No
+5	,	,	PUNCT	$,	_	11	punct	_	start_char=4168|end_char=4169
+6	statt	statt	ADP	APPR	_	8	case	_	start_char=4170|end_char=4175
+7	tausende	tausende	NUM	ADJA	Case=Acc|NumType=Card|Number=Plur	8	nummod	_	start_char=4176|end_char=4184
+8	Male	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	obl	_	start_char=4185|end_char=4189
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=4190|end_char=4193
+10	Bild	Bild	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=4194|end_char=4198
+11	anzusehen	ansehen	VERB	VVIZU	VerbForm=Inf	3	xcomp	_	start_char=4199|end_char=4208|SpaceAfter=No
+12	,	,	PUNCT	$,	_	18	punct	_	start_char=4208|end_char=4209
+13	um	um	ADP	KOUI	_	18	mark	_	start_char=4210|end_char=4212
+14	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	15	det	_	start_char=4213|end_char=4216
+15	Objekte	Objekt	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	18	obj	_	start_char=4217|end_char=4224
+16	darin	darin	ADV	PAV	PronType=Dem	18	advmod	_	start_char=4225|end_char=4230
+17	zu	zu	PART	PTKZU	_	18	mark	_	start_char=4231|end_char=4233
+18	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	3	advcl	_	start_char=4234|end_char=4242|SpaceAfter=No
+19	,	,	PUNCT	$,	_	26	punct	_	start_char=4242|end_char=4243
+20	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	21	det	_	start_char=4244|end_char=4247
+21	Bild	Bild	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	26	obj	_	start_char=4248|end_char=4252
+22	nur	nur	ADV	ADV	_	26	advmod	_	start_char=4253|end_char=4256
+23	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	25	det	_	start_char=4257|end_char=4260
+24	einziges	einzig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	start_char=4261|end_char=4269
+25	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	26	obl	_	start_char=4270|end_char=4273
+26	anzusehen	ansehen	VERB	VVIZU	VerbForm=Inf	18	xcomp	_	start_char=4274|end_char=4283|SpaceAfter=No
+27	.	.	PUNCT	$.	_	29	punct	_	start_char=4283|end_char=4284
+28	Deswegen	deswegen	ADV	PAV	_	29	advmod	_	start_char=4285|end_char=4293
+29	nennen	nennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=4294|end_char=4300
+30	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	29	nsubj	_	start_char=4301|end_char=4304
+31	unsere	unser	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	32	det:poss	_	start_char=4305|end_char=4311
+32	Methode	Methode	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	29	obj	_	start_char=4312|end_char=4319
+33	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	start_char=4320|end_char=4323
+34	Objekterkennung	Objekterkennung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	start_char=4324|end_char=4339
+35	"	"	PUNCT	$(	_	36	punct	_	start_char=4340|end_char=4341|SpaceAfter=No
+36	YOLO	YOLO	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	34	appos	_	start_char=4341|end_char=4345|SpaceAfter=No
+37	"	"	PUNCT	$(	_	36	punct	_	start_char=4345|end_char=4346|SpaceAfter=No
+38	.	.	PUNCT	$.	_	3	punct	_	start_char=4346|end_char=4347|SpacesAfter=\n\n
+
+# text = Mit einer solchen Geschwindigkeit sind wir nicht auf Bilder beschränkt -- wir können ganze Videos in Echtzeit verarbeiten.
+# sent_id = 35
+1	Mit	mit	ADP	APPR	_	4	case	_	start_char=4349|end_char=4352
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=4353|end_char=4358
+3	solchen	solcher	DET	PIAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=4359|end_char=4366
+4	Geschwindigkeit	Geschwindigkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	start_char=4367|end_char=4382
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=4383|end_char=4387
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	start_char=4388|end_char=4391
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=4392|end_char=4397
+8	auf	auf	ADP	APPR	_	9	case	_	start_char=4398|end_char=4401
+9	Bilder	Bild	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	nmod	_	start_char=4402|end_char=4408
+10	beschränkt	beschränken	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	start_char=4409|end_char=4419
+11	--	--	PUNCT	$(	_	18	punct	_	start_char=4420|end_char=4422
+12	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	start_char=4423|end_char=4426
+13	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=4427|end_char=4433
+14	ganze	ganz	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	15	amod	_	start_char=4434|end_char=4439
+15	Videos	Video	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	18	obj	_	start_char=4440|end_char=4446
+16	in	in	ADP	APPR	_	17	case	_	start_char=4447|end_char=4449
+17	Echtzeit	Echtzeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	start_char=4450|end_char=4458
+18	verarbeiten	verarbeiten	VERB	VVINF	VerbForm=Inf	10	parataxis	_	start_char=4459|end_char=4470|SpaceAfter=No
+19	.	.	PUNCT	$.	_	10	punct	_	start_char=4470|end_char=4471|SpacesAfter=\n\n
+
+# text = Statt nur eine Katze und einen Hund zu sehen, können wir beobachten, wie sie sich bewegen und interagieren.
+# sent_id = 36
+1	Statt	statt	ADP	KOUI	_	9	mark	_	start_char=4473|end_char=4478
+2	nur	nur	ADV	ADV	_	9	advmod	_	start_char=4479|end_char=4482
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=4483|end_char=4487
+4	Katze	Katze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=4488|end_char=4493
+5	und	und	CCONJ	KON	_	7	cc	_	start_char=4494|end_char=4497
+6	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=4498|end_char=4503
+7	Hund	Hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	conj	_	start_char=4504|end_char=4508
+8	zu	zu	PART	PTKZU	_	9	mark	_	start_char=4509|end_char=4511
+9	sehen	sehen	VERB	VVINF	VerbForm=Inf	13	advcl	_	start_char=4512|end_char=4517|SpaceAfter=No
+10	,	,	PUNCT	$,	_	9	punct	_	start_char=4517|end_char=4518
+11	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=4519|end_char=4525
+12	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	start_char=4526|end_char=4529
+13	beobachten	beobachten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4530|end_char=4540|SpaceAfter=No
+14	,	,	PUNCT	$,	_	18	punct	_	start_char=4540|end_char=4541
+15	wie	wie	ADV	PWAV	PronType=Int	18	advmod	_	start_char=4542|end_char=4545
+16	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	start_char=4546|end_char=4549
+17	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	18	obj	_	start_char=4550|end_char=4554
+18	bewegen	bewegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	start_char=4555|end_char=4562
+19	und	und	CCONJ	KON	_	20	cc	_	start_char=4563|end_char=4566
+20	interagieren	interagieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	start_char=4567|end_char=4579|SpaceAfter=No
+21	.	.	PUNCT	$.	_	13	punct	_	start_char=4579|end_char=4580|SpacesAfter=\n\n
+
+# text = Diesen Erkenner haben wir auf 80 verschiedene Klassen aus Microsofts COCO-Daten trainiert.
+# sent_id = 37
+1	Diesen	dieser	DET	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=4582|end_char=4588
+2	Erkenner	Erkenner	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=4589|end_char=4597
+3	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=4598|end_char=4603
+4	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	start_char=4604|end_char=4607
+5	auf	auf	ADP	APPR	_	8	case	_	start_char=4608|end_char=4611
+6	80	80	NUM	CARD	NumType=Card	8	nummod	_	start_char=4612|end_char=4614
+7	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=4615|end_char=4627
+8	Klassen	Klasse	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	obl	_	start_char=4628|end_char=4635
+9	aus	aus	ADP	APPR	_	11	case	_	start_char=4636|end_char=4639
+10	Microsofts	Microsoft	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=4640|end_char=4650
+11	COCO	COCO	PROPN	NN	Case=Dat|Gender=Neut|Number=Plur	14	obl	_	start_char=4651|end_char=4655|SpaceAfter=No
+12	-	-	PUNCT	$(	_	13	punct	_	start_char=4655|end_char=4656|SpaceAfter=No
+13	Daten	Datum	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	11	flat	_	start_char=4656|end_char=4661
+14	trainiert	trainieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=4662|end_char=4671|SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	start_char=4671|end_char=4672|SpacesAfter=\n\n
+
+# text = Er kennt alle möglichen Objekte wie Löffel, Gabel, Schüssel -- alltägliche Gegenstände, aber auch exotischere: Tiere, Autos, Zebras, Giraffen.
+# sent_id = 38
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=4674|end_char=4676
+2	kennt	kennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4677|end_char=4682
+3	alle	alle	DET	PIAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Tot	5	det	_	start_char=4683|end_char=4687
+4	möglichen	möglich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	5	amod	_	start_char=4688|end_char=4697
+5	Objekte	Objekt	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=4698|end_char=4705
+6	wie	wie	ADP	KOKOM	_	7	case	_	start_char=4706|end_char=4709
+7	Löffel	Löffel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	start_char=4710|end_char=4716|SpaceAfter=No
+8	,	,	PUNCT	$,	_	9	punct	_	start_char=4716|end_char=4717
+9	Gabel	Gabel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	conj	_	start_char=4718|end_char=4723|SpaceAfter=No
+10	,	,	PUNCT	$,	_	11	punct	_	start_char=4723|end_char=4724
+11	Schüssel	Schüssel	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	conj	_	start_char=4725|end_char=4733
+12	--	--	PUNCT	$(	_	14	punct	_	start_char=4734|end_char=4736
+13	alltägliche	alltäglich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	start_char=4737|end_char=4748
+14	Gegenstände	Gegenstand	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	conj	_	start_char=4749|end_char=4760|SpaceAfter=No
+15	,	,	PUNCT	$,	_	18	punct	_	start_char=4760|end_char=4761
+16	aber	aber	CCONJ	KON	_	18	cc	_	start_char=4762|end_char=4766
+17	auch	auch	ADV	ADV	_	18	advmod	_	start_char=4767|end_char=4771
+18	exotischere	exotisch	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	conj	_	start_char=4772|end_char=4783|SpaceAfter=No
+19	:	:	PUNCT	$.	_	20	punct	_	start_char=4783|end_char=4784
+20	Tiere	Tier	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	18	appos	_	start_char=4785|end_char=4790|SpaceAfter=No
+21	,	,	PUNCT	$,	_	22	punct	_	start_char=4790|end_char=4791
+22	Autos	Auto	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	20	conj	_	start_char=4792|end_char=4797|SpaceAfter=No
+23	,	,	PUNCT	$,	_	24	punct	_	start_char=4797|end_char=4798
+24	Zebras	Zebra	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	20	conj	_	start_char=4799|end_char=4805|SpaceAfter=No
+25	,	,	PUNCT	$,	_	26	punct	_	start_char=4805|end_char=4806
+26	Giraffen	Giraffe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	20	conj	_	start_char=4807|end_char=4815|SpaceAfter=No
+27	.	.	PUNCT	$.	_	2	punct	_	start_char=4815|end_char=4816|SpacesAfter=\n\n
+
+# text = Jetzt machen wir etwas Lustiges.
+# sent_id = 39
+1	Jetzt	jetzt	ADV	ADV	_	2	advmod	_	start_char=4818|end_char=4823
+2	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4824|end_char=4830
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=4831|end_char=4834
+4	etwas	etwas	PRON	PIAT	Gender=Neut|Number=Sing|PronType=Ind	5	nummod	_	start_char=4835|end_char=4840
+5	Lustiges	Lustige	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=4841|end_char=4849|SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=4849|end_char=4850|SpacesAfter=\n\n
+
+# text = Wir richten die Kamera auf das Publikum und sehen, was wir erkennen können.
+# sent_id = 40
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=4852|end_char=4855
+2	richten	richten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4856|end_char=4863
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=4864|end_char=4867
+4	Kamera	Kamera	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=4868|end_char=4874
+5	auf	auf	ADP	APPR	_	7	case	_	start_char=4875|end_char=4878
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=4879|end_char=4882
+7	Publikum	Publikum	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	start_char=4883|end_char=4891
+8	und	und	CCONJ	KON	_	9	cc	_	start_char=4892|end_char=4895
+9	sehen	sehen	VERB	VVINF	VerbForm=Inf	2	conj	_	start_char=4896|end_char=4901|SpaceAfter=No
+10	,	,	PUNCT	$,	_	13	punct	_	start_char=4901|end_char=4902
+11	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	13	obj	_	start_char=4903|end_char=4906
+12	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	start_char=4907|end_char=4910
+13	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	9	ccomp	_	start_char=4911|end_char=4919
+14	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=4920|end_char=4926|SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	start_char=4926|end_char=4927|SpacesAfter=\n\n
+
+# text = Möchte jemand ein Plüschtier?
+# sent_id = 41
+1	Möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=4929|end_char=4935
+2	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	1	nsubj	_	start_char=4936|end_char=4942
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=4943|end_char=4946
+4	Plüschtier	Plüschtier	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	0	root	_	start_char=4947|end_char=4957|SpaceAfter=No
+5	?	?	PUNCT	$.	_	1	punct	_	start_char=4957|end_char=4958|SpacesAfter=\n\n
+
+# text = Hier sind ein paar Teddybären.
+# sent_id = 42
+1	Hier	hier	ADV	ADV	_	2	advmod	_	start_char=4960|end_char=4964
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4965|end_char=4969
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=4970|end_char=4973
+4	paar	paar	ADJ	PIAT	Degree=Pos	5	nmod	_	start_char=4974|end_char=4978
+5	Teddybären	Teddybär	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=4979|end_char=4989|SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=4989|end_char=4990|SpacesAfter=\n\n
+
+# text = Wir können die Empfindlichkeit des Erkenners ein wenig senken, um mehr einzelne Personen im Publikum zu erkennen.
+# sent_id = 43
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=4992|end_char=4995
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=4996|end_char=5002
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=5003|end_char=5006
+4	Empfindlichkeit	Empfindlichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=5007|end_char=5022
+5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=5023|end_char=5026
+6	Erkenners	Erkenner	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=5027|end_char=5036
+7	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=5037|end_char=5040
+8	wenig	wenig	DET	PIS	PronType=Ind	9	advmod	_	start_char=5041|end_char=5046
+9	senken	senken	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5047|end_char=5053|SpaceAfter=No
+10	,	,	PUNCT	$,	_	19	punct	_	start_char=5053|end_char=5054
+11	um	um	ADP	KOUI	_	19	mark	_	start_char=5055|end_char=5057
+12	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	14	det	_	start_char=5058|end_char=5062
+13	einzelne	einzeln	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=5063|end_char=5071
+14	Personen	Person	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	start_char=5072|end_char=5080
+15-16	im	_	_	_	_	_	_	_	start_char=5081|end_char=5083
+15	in	in	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Publikum	Publikum	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	start_char=5084|end_char=5092
+18	zu	zu	PART	PTKZU	_	19	mark	_	start_char=5093|end_char=5095
+19	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	9	advcl	_	start_char=5096|end_char=5104|SpaceAfter=No
+20	.	.	PUNCT	$.	_	9	punct	_	start_char=5104|end_char=5105|SpacesAfter=\n\n
+
+# text = Lassen Sie uns sehen, ob wir diese Stoppschilder bekommen.
+# sent_id = 44
+1	Lassen	lassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5107|end_char=5113
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=5114|end_char=5117
+3	uns	wir	PRON	PRF	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	1	obj	_	start_char=5118|end_char=5121
+4	sehen	sehen	VERB	VVINF	VerbForm=Inf	1	xcomp	_	start_char=5122|end_char=5127|SpaceAfter=No
+5	,	,	PUNCT	$,	_	10	punct	_	start_char=5127|end_char=5128
+6	ob	ob	SCONJ	KOUS	_	10	mark	_	start_char=5129|end_char=5131
+7	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	start_char=5132|end_char=5135
+8	diese	dieser	DET	PDAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	9	det	_	start_char=5136|end_char=5141
+9	Stoppschilder	Stoppschild	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	start_char=5142|end_char=5155
+10	bekommen	bekommen	VERB	VVPP	VerbForm=Part	1	ccomp	_	start_char=5156|end_char=5164|SpaceAfter=No
+11	.	.	PUNCT	$.	_	1	punct	_	start_char=5164|end_char=5165|SpacesAfter=\n\n
+
+# text = Wir sehen einige Rucksäcke...
+# sent_id = 45
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=5167|end_char=5170
+2	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5171|end_char=5176
+3	einige	einige	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	4	det	_	start_char=5177|end_char=5183
+4	Rucksäcke	Rucksack	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=5184|end_char=5193|SpaceAfter=No
+5	...	...	PUNCT	$(	_	2	punct	_	start_char=5193|end_char=5196|SpacesAfter=\n\n
+
+# text = Wir zoomen etwas hinein...
+# sent_id = 46
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=5198|end_char=5201
+2	zoomen	zoomen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5202|end_char=5208
+3	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	2	obj	_	start_char=5209|end_char=5214
+4	hinein	hinein	ADV	PTKVZ	_	2	compound:prt	_	start_char=5215|end_char=5221|SpaceAfter=No
+5	...	...	PUNCT	$(	_	2	punct	_	start_char=5221|end_char=5224|SpacesAfter=\n\n
+
+# text = Das ist großartig.
+# sent_id = 47
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=5226|end_char=5229
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=5230|end_char=5233
+3	großartig	großartig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5234|end_char=5243|SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=5243|end_char=5244|SpacesAfter=\n\n
+
+# text = Die gesamte Verarbeitung passiert in Echtzeit auf dem Laptop.
+# sent_id = 48
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=5246|end_char=5249
+2	gesamte	gesamt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=5250|end_char=5257
+3	Verarbeitung	Verarbeitung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=5258|end_char=5270
+4	passiert	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5271|end_char=5279
+5	in	in	ADP	APPR	_	6	case	_	start_char=5280|end_char=5282
+6	Echtzeit	Echtzeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=5283|end_char=5291
+7	auf	auf	ADP	APPR	_	9	case	_	start_char=5292|end_char=5295
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=5296|end_char=5299
+9	Laptop	Laptop	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	start_char=5300|end_char=5306|SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	start_char=5306|end_char=5307|SpacesAfter=\n\n
+
+# text = Man darf nicht vergessen, dass das ein ganz allgemeines Objekterkennungssystem ist. Wir können es also für jede Art von Bildern trainieren.
+# sent_id = 49
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	4	nsubj	_	start_char=5309|end_char=5312
+2	darf	dürfen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=5313|end_char=5317
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	start_char=5318|end_char=5323
+4	vergessen	vergessen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5324|end_char=5333|SpaceAfter=No
+5	,	,	PUNCT	$,	_	11	punct	_	start_char=5333|end_char=5334
+6	dass	dass	SCONJ	KOUS	_	11	mark	_	start_char=5335|end_char=5339
+7	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	11	nsubj	_	start_char=5340|end_char=5343
+8	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=5344|end_char=5347
+9	ganz	ganz	ADJ	ADV	Degree=Pos	10	advmod	_	start_char=5348|end_char=5352
+10	allgemeines	allgemein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=5353|end_char=5364
+11	Objekterkennungssystem	Objekterkennungssystem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	ccomp	_	start_char=5365|end_char=5387
+12	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=5388|end_char=5391|SpaceAfter=No
+13	.	.	PUNCT	$.	_	23	punct	_	start_char=5391|end_char=5392
+14	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	23	nsubj	_	start_char=5393|end_char=5396
+15	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	start_char=5397|end_char=5403
+16	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	obj	_	start_char=5404|end_char=5406
+17	also	also	ADV	ADV	_	23	advmod	_	start_char=5407|end_char=5411
+18	für	für	ADP	APPR	_	20	case	_	start_char=5412|end_char=5415
+19	jede	jeder	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	20	det	_	start_char=5416|end_char=5420
+20	Art	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obl	_	start_char=5421|end_char=5424
+21	von	von	ADP	APPR	_	22	case	_	start_char=5425|end_char=5428
+22	Bildern	Bild	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	20	nmod	_	start_char=5429|end_char=5436
+23	trainieren	trainieren	VERB	VVINF	VerbForm=Inf	4	ccomp	_	start_char=5437|end_char=5447|SpaceAfter=No
+24	.	.	PUNCT	$.	_	4	punct	_	start_char=5447|end_char=5448|SpacesAfter=\n\n
+
+# text = Denselben Code, den wir benutzen, damit ein selbstfahrendes Fahrzeug Stoppschilder, Fußgänger oder Fahrräder erkennen kann, kann man auch nutzen, um Krebszellen in einer Gewebeprobe ausfindig zu machen.
+# sent_id = 50
+1	Denselben	derselbe	DET	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=5450|end_char=5459
+2	Code	Code	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	23	nsubj	_	start_char=5460|end_char=5464|SpaceAfter=No
+3	,	,	PUNCT	$,	_	6	punct	_	start_char=5464|end_char=5465
+4	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem,Rel	6	obj	_	start_char=5466|end_char=5469
+5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=5470|end_char=5473
+6	benutzen	benutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	start_char=5474|end_char=5482|SpaceAfter=No
+7	,	,	PUNCT	$,	_	17	punct	_	start_char=5482|end_char=5483
+8	damit	damit	SCONJ	KOUS	_	17	mark	_	start_char=5484|end_char=5489
+9	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=5490|end_char=5493
+10	selbstfahrendes	selbstfahrend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=5494|end_char=5509
+11	Fahrzeug	Fahrzeug	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	start_char=5510|end_char=5518
+12	Stoppschilder	Stoppschild	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	17	obj	_	start_char=5519|end_char=5532|SpaceAfter=No
+13	,	,	PUNCT	$,	_	14	punct	_	start_char=5532|end_char=5533
+14	Fußgänger	Fußgänger	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	conj	_	start_char=5534|end_char=5543
+15	oder	oder	CCONJ	KON	_	16	cc	_	start_char=5544|end_char=5548
+16	Fahrräder	Fahrrad	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	conj	_	start_char=5549|end_char=5558
+17	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	23	advcl	_	start_char=5559|end_char=5567
+18	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=5568|end_char=5572|SpaceAfter=No
+19	,	,	PUNCT	$,	_	6	punct	_	start_char=5572|end_char=5573
+20	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	start_char=5574|end_char=5578
+21	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	23	nsubj	_	start_char=5579|end_char=5582
+22	auch	auch	ADV	ADV	_	23	advmod	_	start_char=5583|end_char=5587
+23	nutzen	nutzen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5588|end_char=5594|SpaceAfter=No
+24	,	,	PUNCT	$,	_	32	punct	_	start_char=5594|end_char=5595
+25	um	um	ADP	KOUI	_	32	mark	_	start_char=5596|end_char=5598
+26	Krebszellen	Krebszelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	32	obj	_	start_char=5599|end_char=5610
+27	in	in	ADP	APPR	_	29	case	_	start_char=5611|end_char=5613
+28	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	29	det	_	start_char=5614|end_char=5619
+29	Gewebeprobe	Gewebeprobe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	32	obl	_	start_char=5620|end_char=5631
+30	ausfindig	ausfindig	ADJ	ADJD	Degree=Pos	32	xcomp	_	start_char=5632|end_char=5641
+31	zu	zu	PART	PTKZU	_	32	mark	_	start_char=5642|end_char=5644
+32	machen	machen	VERB	VVINF	VerbForm=Inf	23	advcl	_	start_char=5645|end_char=5651|SpaceAfter=No
+33	.	.	PUNCT	$.	_	23	punct	_	start_char=5651|end_char=5652|SpacesAfter=\n\n
+
+# text = Forscher auf der ganzen Welt nutzen diese Technologie bereits, um Fortschritte auf Gebieten wie Medizin oder Robotik zu erzielen.
+# sent_id = 51
+1	Forscher	Forscher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=5654|end_char=5662
+2	auf	auf	ADP	APPR	_	5	case	_	start_char=5663|end_char=5666
+3	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=5667|end_char=5670
+4	ganzen	ganz	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=5671|end_char=5677
+5	Welt	Welt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	start_char=5678|end_char=5682
+6	nutzen	nutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5683|end_char=5689
+7	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	start_char=5690|end_char=5695
+8	Technologie	Technologie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=5696|end_char=5707
+9	bereits	bereits	ADV	ADV	_	6	advmod	_	start_char=5708|end_char=5715|SpaceAfter=No
+10	,	,	PUNCT	$,	_	20	punct	_	start_char=5715|end_char=5716
+11	um	um	ADP	KOUI	_	20	mark	_	start_char=5717|end_char=5719
+12	Fortschritte	Fortschritt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	20	obj	_	start_char=5720|end_char=5732
+13	auf	auf	ADP	APPR	_	14	case	_	start_char=5733|end_char=5736
+14	Gebieten	Gebiet	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	12	nmod	_	start_char=5737|end_char=5745
+15	wie	wie	ADP	KOKOM	_	16	case	_	start_char=5746|end_char=5749
+16	Medizin	Medizin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nmod	_	start_char=5750|end_char=5757
+17	oder	oder	CCONJ	KON	_	18	cc	_	start_char=5758|end_char=5762
+18	Robotik	Robotik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	conj	_	start_char=5763|end_char=5770
+19	zu	zu	PART	PTKZU	_	20	mark	_	start_char=5771|end_char=5773
+20	erzielen	erzielen	VERB	VVINF	VerbForm=Inf	6	advcl	_	start_char=5774|end_char=5782|SpaceAfter=No
+21	.	.	PUNCT	$.	_	6	punct	_	start_char=5782|end_char=5783|SpacesAfter=\n\n
+
+# text = Heute morgen habe ich einen Fachartikel gelesen: Im Nationalpark von Nairobi wurde eine Zählung der Tiere vorgenommen, mit YOLO als Teil des Erkennungssystems.
+# sent_id = 52
+1	Heute	heute	ADV	ADV	_	7	advmod	_	start_char=5785|end_char=5790
+2	morgen	morgen	ADV	ADV	_	1	advmod	_	start_char=5791|end_char=5797
+3	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=5798|end_char=5802
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=5803|end_char=5806
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=5807|end_char=5812
+6	Fachartikel	Fachartikel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=5813|end_char=5824
+7	gelesen	lesen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=5825|end_char=5832|SpaceAfter=No
+8	:	:	PUNCT	$.	_	19	punct	_	start_char=5832|end_char=5833
+9-10	Im	_	_	_	_	_	_	_	start_char=5834|end_char=5836
+9	In	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Nationalpark	Nationalpark	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	obl	_	start_char=5837|end_char=5849
+12	von	von	ADP	APPR	_	13	case	_	start_char=5850|end_char=5853
+13	Nairobi	Nairobi	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	start_char=5854|end_char=5861
+14	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	19	aux:pass	_	start_char=5862|end_char=5867
+15	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	16	det	_	start_char=5868|end_char=5872
+16	Zählung	Zählung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj:pass	_	start_char=5873|end_char=5880
+17	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	18	det	_	start_char=5881|end_char=5884
+18	Tiere	Tier	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	start_char=5885|end_char=5890
+19	vorgenommen	vornehmen	VERB	VVPP	VerbForm=Part	7	parataxis	_	start_char=5891|end_char=5902|SpaceAfter=No
+20	,	,	PUNCT	$,	_	22	punct	_	start_char=5902|end_char=5903
+21	mit	mit	ADP	APPR	_	22	case	_	start_char=5904|end_char=5907
+22	YOLO	YOLO	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	19	obl	_	start_char=5908|end_char=5912
+23	als	als	ADP	KOKOM	_	24	case	_	start_char=5913|end_char=5916
+24	Teil	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	nmod	_	start_char=5917|end_char=5921
+25	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	start_char=5922|end_char=5925
+26	Erkennungssystems	Erkennungssystem	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	start_char=5926|end_char=5943|SpaceAfter=No
+27	.	.	PUNCT	$.	_	7	punct	_	start_char=5943|end_char=5944|SpacesAfter=\n\n
+
+# text = Das ist möglich, weil Darknet quelloffen, frei zugänglich und für alle verwendbar ist.
+# sent_id = 53
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=5946|end_char=5949
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=5950|end_char=5953
+3	möglich	möglich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5954|end_char=5961|SpaceAfter=No
+4	,	,	PUNCT	$,	_	7	punct	_	start_char=5961|end_char=5962
+5	weil	weil	SCONJ	KOUS	_	7	mark	_	start_char=5963|end_char=5967
+6	Darknet	Darknet	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=5968|end_char=5975
+7	quelloffen	quelloffen	ADJ	ADJD	Degree=Pos	3	advcl	_	start_char=5976|end_char=5986|SpaceAfter=No
+8	,	,	PUNCT	$,	_	10	punct	_	start_char=5986|end_char=5987
+9	frei	frei	ADJ	ADJD	Degree=Pos	10	advmod	_	start_char=5988|end_char=5992
+10	zugänglich	zugänglich	ADJ	ADJD	Degree=Pos	7	conj	_	start_char=5993|end_char=6003
+11	und	und	CCONJ	KON	_	14	cc	_	start_char=6004|end_char=6007
+12	für	für	ADP	APPR	_	13	case	_	start_char=6008|end_char=6011
+13	alle	alle	DET	PIS	Case=Acc|Number=Plur|PronType=Tot	14	det	_	start_char=6012|end_char=6016
+14	verwendbar	verwendbar	ADJ	ADJD	Degree=Pos	7	conj	_	start_char=6017|end_char=6027
+15	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=6028|end_char=6031|SpaceAfter=No
+16	.	.	PUNCT	$.	_	3	punct	_	start_char=6031|end_char=6032|SpacesAfter=\n\n
+
+# text = Aber wir wollten Bilderkennung sogar noch leichter nutzbar machen. Daher haben wir durch Modelloptimierung, Binarisierung des neuralen Netzes und Approximation erreicht, dass die Objekterkennung sogar auf einem Mobiltelefon läuft.
+# sent_id = 54
+1	Aber	aber	CCONJ	KON	_	9	cc	_	start_char=6034|end_char=6038
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=6039|end_char=6042
+3	wollten	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	9	aux	_	start_char=6043|end_char=6050
+4	Bilderkennung	Bilderkennung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=6051|end_char=6064
+5	sogar	sogar	ADV	ADV	_	6	advmod	_	start_char=6065|end_char=6070
+6	noch	noch	ADV	ADV	_	7	advmod	_	start_char=6071|end_char=6075
+7	leichter	leicht	ADJ	ADJD	Degree=Cmp	9	advmod	_	start_char=6076|end_char=6084
+8	nutzbar	nutzbar	ADJ	ADJD	Degree=Pos	9	xcomp	_	start_char=6085|end_char=6092
+9	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6093|end_char=6099|SpaceAfter=No
+10	.	.	PUNCT	$.	_	23	punct	_	start_char=6099|end_char=6100
+11	Daher	daher	ADV	PAV	PronType=Dem	23	advmod	_	start_char=6101|end_char=6106
+12	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	start_char=6107|end_char=6112
+13	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	23	nsubj	_	start_char=6113|end_char=6116
+14	durch	durch	ADP	APPR	_	15	case	_	start_char=6117|end_char=6122
+15	Modelloptimierung	Modelloptimierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obl	_	start_char=6123|end_char=6140|SpaceAfter=No
+16	,	,	PUNCT	$,	_	17	punct	_	start_char=6140|end_char=6141
+17	Binarisierung	Binarisierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	conj	_	start_char=6142|end_char=6155
+18	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	start_char=6156|end_char=6159
+19	neuralen	neuralen	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=6160|end_char=6168
+20	Netzes	Netz	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	start_char=6169|end_char=6175
+21	und	und	CCONJ	KON	_	22	cc	_	start_char=6176|end_char=6179
+22	Approximation	Approximation	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	15	conj	_	start_char=6180|end_char=6193
+23	erreicht	erreichen	VERB	VVPP	VerbForm=Part	9	conj	_	start_char=6194|end_char=6202|SpaceAfter=No
+24	,	,	PUNCT	$,	_	32	punct	_	start_char=6202|end_char=6203
+25	dass	dass	SCONJ	KOUS	_	32	mark	_	start_char=6204|end_char=6208
+26	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	start_char=6209|end_char=6212
+27	Objekterkennung	Objekterkennung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	32	nsubj	_	start_char=6213|end_char=6228
+28	sogar	sogar	ADV	ADV	_	32	advmod	_	start_char=6229|end_char=6234
+29	auf	auf	ADP	APPR	_	31	case	_	start_char=6235|end_char=6238
+30	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	31	det	_	start_char=6239|end_char=6244
+31	Mobiltelefon	Mobiltelefon	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	32	obl	_	start_char=6245|end_char=6257
+32	läuft	laufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	_	start_char=6258|end_char=6263|SpaceAfter=No
+33	.	.	PUNCT	$.	_	23	punct	_	start_char=6263|end_char=6264|SpacesAfter=\n\n
+
+# text = Das ist aufregend, weil wir damit eine ziemlich mächtige Lösung für dieses grundlegende Problem des Maschinellen Sehens haben.
+# sent_id = 55
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=6266|end_char=6269
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=6270|end_char=6273
+3	aufregend	aufregend	ADJ	ADJD	Degree=Pos	0	root	_	start_char=6274|end_char=6283|SpaceAfter=No
+4	,	,	PUNCT	$,	_	19	punct	_	start_char=6283|end_char=6284
+5	weil	weil	SCONJ	KOUS	_	19	mark	_	start_char=6285|end_char=6289
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	start_char=6290|end_char=6293
+7	damit	damit	ADV	PAV	PronType=Dem	19	advmod	_	start_char=6294|end_char=6299
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=6300|end_char=6304
+9	ziemlich	ziemlich	ADV	ADV	_	10	advmod	_	start_char=6305|end_char=6313
+10	mächtige	mächtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=6314|end_char=6322
+11	Lösung	Lösung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	start_char=6323|end_char=6329
+12	für	für	ADP	APPR	_	15	case	_	start_char=6330|end_char=6333
+13	dieses	dieser	DET	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	15	det	_	start_char=6334|end_char=6340
+14	grundlegende	grundlegend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	start_char=6341|end_char=6353
+15	Problem	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	nmod	_	start_char=6354|end_char=6361
+16	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=6362|end_char=6365
+17	Maschinellen	Maschinellen	PROPN	ADJA	Case=Gen|Gender=Masc|Number=Sing	18	amod	_	start_char=6366|end_char=6378
+18	Sehens	Sehen	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	start_char=6379|end_char=6385
+19	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=6386|end_char=6391|SpaceAfter=No
+20	.	.	PUNCT	$.	_	3	punct	_	start_char=6391|end_char=6392|SpacesAfter=\n\n
+
+# text = Jeder kann sie nutzen und etwas damit bauen. Nun liegt es bei Ihnen und allen Menschen auf der Welt mit Zugang zu dieser Software. Ich bin gespannt zu sehen, welche Ideen sie mit dieser Technologie umsetzen.
+# sent_id = 56
+1	Jeder	jeder	DET	PIS	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	4	nsubj	_	start_char=6394|end_char=6399
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=6400|end_char=6404
+3	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	start_char=6405|end_char=6408
+4	nutzen	nutzen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6409|end_char=6415
+5	und	und	CCONJ	KON	_	8	cc	_	start_char=6416|end_char=6419
+6	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	8	obj	_	start_char=6420|end_char=6425
+7	damit	damit	ADV	PAV	PronType=Dem	8	advmod	_	start_char=6426|end_char=6431
+8	bauen	bauen	VERB	VVINF	VerbForm=Inf	4	conj	_	start_char=6432|end_char=6437|SpaceAfter=No
+9	.	.	PUNCT	$.	_	11	punct	_	start_char=6437|end_char=6438
+10	Nun	nun	ADV	ADV	_	11	advmod	_	start_char=6439|end_char=6442
+11	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=6443|end_char=6448
+12	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	start_char=6449|end_char=6451
+13	bei	bei	ADP	APPR	_	14	case	_	start_char=6452|end_char=6455
+14	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	11	obl	_	start_char=6456|end_char=6461
+15	und	und	CCONJ	KON	_	17	cc	_	start_char=6462|end_char=6465
+16	allen	alle	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	17	det	_	start_char=6466|end_char=6471
+17	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	conj	_	start_char=6472|end_char=6480
+18	auf	auf	ADP	APPR	_	20	case	_	start_char=6481|end_char=6484
+19	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=6485|end_char=6488
+20	Welt	Welt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	nmod	_	start_char=6489|end_char=6493
+21	mit	mit	ADP	APPR	_	22	case	_	start_char=6494|end_char=6497
+22	Zugang	Zugang	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	start_char=6498|end_char=6504
+23	zu	zu	ADP	APPR	_	25	case	_	start_char=6505|end_char=6507
+24	dieser	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	25	det	_	start_char=6508|end_char=6514
+25	Software	Software	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	22	nmod	_	start_char=6515|end_char=6523|SpaceAfter=No
+26	.	.	PUNCT	$.	_	31	punct	_	start_char=6523|end_char=6524
+27	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	_	start_char=6525|end_char=6528
+28	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	31	cop	_	start_char=6529|end_char=6532
+29	gespannt	spannen	ADJ	ADJD	Degree=Pos	31	advmod	_	start_char=6533|end_char=6541
+30	zu	zu	PART	PTKZU	_	31	mark	_	start_char=6542|end_char=6544
+31	sehen	sehen	VERB	VVINF	VerbForm=Inf	11	conj	_	start_char=6545|end_char=6550|SpaceAfter=No
+32	,	,	PUNCT	$,	_	39	punct	_	start_char=6550|end_char=6551
+33	welche	welcher	DET	PWAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	34	det	_	start_char=6552|end_char=6558
+34	Ideen	Idee	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	39	obj	_	start_char=6559|end_char=6564
+35	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	39	obj	_	start_char=6565|end_char=6568
+36	mit	mit	ADP	APPR	_	38	case	_	start_char=6569|end_char=6572
+37	dieser	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	38	det	_	start_char=6573|end_char=6579
+38	Technologie	Technologie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	39	obl	_	start_char=6580|end_char=6591
+39	umsetzen	umsetzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	ccomp	_	start_char=6592|end_char=6600|SpaceAfter=No
+40	.	.	PUNCT	$.	_	4	punct	_	start_char=6600|end_char=6601|SpacesAfter=\n\n
+
+# text = Vielen Dank.
+# sent_id = 57
+1	Vielen	viel	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	2	det	_	start_char=6603|end_char=6609
+2	Dank	Dank	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	0	root	_	start_char=6610|end_char=6614|SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	start_char=6614|end_char=6615|SpaceAfter=No

@@ -1,0 +1,1800 @@
+# conllu_stats: begin
+# conllu_tokens: 1479
+# conllu_sentences: 87
+# Avrage tokens per senteces: 17.0
+# conllu_stats: end
+
+
+# text = Protecting Twitter users (sometimes from themselves)
+# sent_id = 0
+1	Protecting	protect	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=0|end_char=10
+2	Twitter	Twitter	PROPN	NNP	Number=Sing	3	compound	_	start_char=11|end_char=18
+3	users	user	NOUN	NNS	Number=Plur	1	obj	_	start_char=19|end_char=24
+4	(	(	PUNCT	-LRB-	_	7	punct	_	start_char=25|end_char=26|SpaceAfter=No
+5	sometimes	sometimes	ADV	RB	_	7	advmod	_	start_char=26|end_char=35
+6	from	from	ADP	IN	_	7	case	_	start_char=36|end_char=40
+7	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	1	obl	_	start_char=41|end_char=51|SpaceAfter=No
+8	)	)	PUNCT	-RRB-	_	7	punct	_	start_char=51|end_char=52|SpacesAfter=\n\n
+
+# text = My job at Twitter is to ensure user trust, protect user rights and keep users safe, both from each other and, at times, from themselves.
+# sent_id = 1
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=54|end_char=56
+2	job	job	NOUN	NN	Number=Sing	7	nsubj:outer	_	start_char=57|end_char=60
+3	at	at	ADP	IN	_	4	case	_	start_char=61|end_char=63
+4	Twitter	Twitter	PROPN	NNP	Number=Sing	2	nmod	_	start_char=64|end_char=71
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=72|end_char=74
+6	to	to	PART	TO	_	7	mark	_	start_char=75|end_char=77
+7	ensure	ensure	VERB	VB	VerbForm=Inf	0	root	_	start_char=78|end_char=84
+8	user	user	NOUN	NN	Number=Sing	9	compound	_	start_char=85|end_char=89
+9	trust	trust	NOUN	NN	Number=Sing	7	obj	_	start_char=90|end_char=95|SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	start_char=95|end_char=96
+11	protect	protect	VERB	VB	VerbForm=Inf	7	conj	_	start_char=97|end_char=104
+12	user	user	NOUN	NN	Number=Sing	13	compound	_	start_char=105|end_char=109
+13	rights	right	NOUN	NNS	Number=Plur	11	obj	_	start_char=110|end_char=116
+14	and	and	CCONJ	CC	_	15	cc	_	start_char=117|end_char=120
+15	keep	keep	VERB	VB	VerbForm=Inf	7	conj	_	start_char=121|end_char=125
+16	users	user	NOUN	NNS	Number=Plur	15	obj	_	start_char=126|end_char=131
+17	safe	safe	ADJ	JJ	Degree=Pos	15	xcomp	_	start_char=132|end_char=136|SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	_	start_char=136|end_char=137
+19	both	both	CCONJ	CC	_	21	cc:preconj	_	start_char=138|end_char=142
+20	from	from	ADP	IN	_	21	case	_	start_char=143|end_char=147
+21	each	each	DET	DT	ExtPos=PRON|PronType=Rcp	15	obl	_	start_char=148|end_char=152
+22	other	other	ADJ	JJ	Degree=Pos	21	fixed	_	start_char=153|end_char=158
+23	and	and	CCONJ	CC	_	29	cc	_	start_char=159|end_char=162|SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	start_char=162|end_char=163
+25	at	at	ADP	IN	_	26	case	_	start_char=164|end_char=166
+26	times	time	NOUN	NNS	Number=Plur	29	nmod	_	start_char=167|end_char=172|SpaceAfter=No
+27	,	,	PUNCT	,	_	26	punct	_	start_char=172|end_char=173
+28	from	from	ADP	IN	_	29	case	_	start_char=174|end_char=178
+29	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	21	conj	_	start_char=179|end_char=189|SpaceAfter=No
+30	.	.	PUNCT	.	_	7	punct	_	start_char=189|end_char=190|SpacesAfter=\n\n
+
+# text = Let's talk about what scale looks like at Twitter.
+# sent_id = 2
+1-2	Let's	_	_	_	_	_	_	_	start_char=192|end_char=197
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=192|end_char=195
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	start_char=195|end_char=197
+3	talk	talk	VERB	VB	VerbForm=Inf	1	xcomp	_	start_char=198|end_char=202
+4	about	about	ADP	IN	_	7	mark	_	start_char=203|end_char=208
+5	what	what	DET	WDT	PronType=Int	6	det	_	start_char=209|end_char=213
+6	scale	scale	NOUN	NN	Number=Sing	7	nsubj	_	start_char=214|end_char=219
+7	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=220|end_char=225
+8	like	like	ADP	IN	_	7	obl	_	start_char=226|end_char=230
+9	at	at	ADP	IN	_	10	case	_	start_char=231|end_char=233
+10	Twitter	Twitter	PROPN	NNP	Number=Sing	7	obl	_	start_char=234|end_char=241|SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	_	start_char=241|end_char=242|SpacesAfter=\n\n
+
+# text = Back in January 2009, we saw more than two million new tweets each day on the platform.
+# sent_id = 3
+1	Back	back	ADV	RB	_	7	advmod	_	start_char=244|end_char=248
+2	in	in	ADP	IN	_	3	case	_	start_char=249|end_char=251
+3	January	January	PROPN	NNP	Number=Sing	7	obl	_	start_char=252|end_char=259
+4	2009	2009	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	_	start_char=260|end_char=264|SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	start_char=264|end_char=265
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=266|end_char=268
+7	saw	see	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=269|end_char=272
+8	more	more	ADJ	JJR	Degree=Cmp|ExtPos=ADV	11	advmod	_	start_char=273|end_char=277
+9	than	than	ADP	IN	_	8	fixed	_	start_char=278|end_char=282
+10	two	two	NUM	CD	NumForm=Word|NumType=Card	11	compound	_	start_char=283|end_char=286
+11	million	million	NUM	CD	NumForm=Word|NumType=Card	13	nummod	_	start_char=287|end_char=294
+12	new	new	ADJ	JJ	Degree=Pos	13	amod	_	start_char=295|end_char=298
+13	tweets	tweet	NOUN	NNS	Number=Plur	7	obj	_	start_char=299|end_char=305
+14	each	each	DET	DT	PronType=Tot	15	det	_	start_char=306|end_char=310
+15	day	day	NOUN	NN	Number=Sing	7	obl:unmarked	_	start_char=311|end_char=314
+16	on	on	ADP	IN	_	18	case	_	start_char=315|end_char=317
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=318|end_char=321
+18	platform	platform	NOUN	NN	Number=Sing	7	obl	_	start_char=322|end_char=330|SpaceAfter=No
+19	.	.	PUNCT	.	_	7	punct	_	start_char=330|end_char=331|SpacesAfter=\n\n
+
+# text = January 2014, more than 500 million.
+# sent_id = 4
+1	January	January	PROPN	NNP	Number=Sing	0	root	_	start_char=333|end_char=340
+2	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	1	nummod	_	start_char=341|end_char=345|SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	start_char=345|end_char=346
+4	more	more	ADJ	JJR	Degree=Cmp|ExtPos=ADV	6	advmod	_	start_char=347|end_char=351
+5	than	than	ADP	IN	_	4	fixed	_	start_char=352|end_char=356
+6	500	500	NUM	CD	NumForm=Digit|NumType=Card	7	compound	_	start_char=357|end_char=360
+7	million	million	NUM	CD	NumForm=Word|NumType=Card	1	nummod	_	start_char=361|end_char=368|SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	_	start_char=368|end_char=369|SpacesAfter=\n\n
+
+# text = We were seeing two million tweets in less than six minutes.
+# sent_id = 5
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=371|end_char=373
+2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	start_char=374|end_char=378
+3	seeing	see	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=379|end_char=385
+4	two	two	NUM	CD	NumForm=Word|NumType=Card	5	compound	_	start_char=386|end_char=389
+5	million	million	NUM	CD	NumForm=Word|NumType=Card	6	nummod	_	start_char=390|end_char=397
+6	tweets	tweet	NOUN	NNS	Number=Plur	3	obj	_	start_char=398|end_char=404
+7	in	in	ADP	IN	_	11	case	_	start_char=405|end_char=407
+8	less	less	ADJ	JJR	Degree=Cmp|ExtPos=ADV	10	advmod	_	start_char=408|end_char=412
+9	than	than	ADP	IN	_	8	fixed	_	start_char=413|end_char=417
+10	six	six	NUM	CD	NumForm=Word|NumType=Card	11	nummod	_	start_char=418|end_char=421
+11	minutes	minute	NOUN	NNS	Number=Plur	3	obl	_	start_char=422|end_char=429|SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	start_char=429|end_char=430|SpacesAfter=\n\n
+
+# text = That's a 24,900-percent increase.
+# sent_id = 6
+1-2	That's	_	_	_	_	_	_	_	start_char=432|end_char=438
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	start_char=432|end_char=436
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=436|end_char=438
+3	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=439|end_char=440
+4	24,900	24900	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	_	start_char=441|end_char=447|SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	4	punct	_	start_char=447|end_char=448|SpaceAfter=No
+6	percent	percent	NOUN	NN	Number=Sing	7	compound	_	start_char=448|end_char=455
+7	increase	increase	NOUN	NN	Number=Sing	0	root	_	start_char=456|end_char=464|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	start_char=464|end_char=465|SpacesAfter=\n\n
+
+# text = Now, the vast majority of activity on Twitter puts no one in harm's way.
+# sent_id = 7
+1	Now	now	ADV	RB	_	10	advmod	_	start_char=467|end_char=470|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=470|end_char=471
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=472|end_char=475
+4	vast	vast	ADJ	JJ	Degree=Pos	5	amod	_	start_char=476|end_char=480
+5	majority	majority	NOUN	NN	Number=Sing	10	nsubj	_	start_char=481|end_char=489
+6	of	of	ADP	IN	_	7	case	_	start_char=490|end_char=492
+7	activity	activity	NOUN	NN	Number=Sing	5	nmod	_	start_char=493|end_char=501
+8	on	on	ADP	IN	_	9	case	_	start_char=502|end_char=504
+9	Twitter	Twitter	PROPN	NNP	Number=Sing	7	nmod	_	start_char=505|end_char=512
+10	puts	put	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=513|end_char=517
+11	no	no	DET	DT	PronType=Neg	12	det	_	start_char=518|end_char=520
+12	one	one	PRON	NN	Number=Sing|PronType=Neg	10	obj	_	start_char=521|end_char=524
+13	in	in	ADP	IN	_	16	case	_	start_char=525|end_char=527
+14-15	harm's	_	_	_	_	_	_	_	start_char=528|end_char=534
+14	harm	harm	NOUN	NN	Number=Sing	16	nmod:poss	_	start_char=528|end_char=532
+15	's	's	PART	POS	_	14	case	_	start_char=532|end_char=534
+16	way	way	NOUN	NN	Number=Sing	10	obl	_	start_char=535|end_char=538|SpaceAfter=No
+17	.	.	PUNCT	.	_	10	punct	_	start_char=538|end_char=539|SpacesAfter=\n\n
+
+# text = There's no risk involved.
+# sent_id = 8
+1-2	There's	_	_	_	_	_	_	_	start_char=541|end_char=548
+1	There	there	PRON	EX	_	2	expl	_	start_char=541|end_char=546
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=546|end_char=548
+3	no	no	DET	DT	PronType=Neg	4	det	_	start_char=549|end_char=551
+4	risk	risk	NOUN	NN	Number=Sing	2	nsubj	_	start_char=552|end_char=556
+5	involved	involve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	start_char=557|end_char=565|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=565|end_char=566|SpacesAfter=\n\n
+
+# text = My job is to root out and prevent activity that might.
+# sent_id = 9
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=568|end_char=570
+2	job	job	NOUN	NN	Number=Sing	5	nsubj:outer	_	start_char=571|end_char=574
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=575|end_char=577
+4	to	to	PART	TO	_	5	mark	_	start_char=578|end_char=580
+5	root	root	VERB	VB	VerbForm=Inf	0	root	_	start_char=581|end_char=585
+6	out	out	ADP	RP	_	5	compound:prt	_	start_char=586|end_char=589
+7	and	and	CCONJ	CC	_	8	cc	_	start_char=590|end_char=593
+8	prevent	prevent	VERB	VB	VerbForm=Inf	5	conj	_	start_char=594|end_char=601
+9	activity	activity	NOUN	NN	Number=Sing	8	obj	_	start_char=602|end_char=610
+10	that	that	PRON	WDT	PronType=Rel	11	nsubj	_	start_char=611|end_char=615
+11	might	might	AUX	MD	VerbForm=Fin	9	acl:relcl	_	start_char=616|end_char=621|SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	start_char=621|end_char=622|SpacesAfter=\n\n
+
+# text = Sounds straightforward, right?
+# sent_id = 10
+1	Sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=624|end_char=630
+2	straightforward	straightforward	ADJ	JJ	Degree=Pos	1	xcomp	_	start_char=631|end_char=646|SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	start_char=646|end_char=647
+4	right	right	ADJ	JJ	Degree=Pos	1	discourse	_	start_char=648|end_char=653|SpaceAfter=No
+5	?	?	PUNCT	.	_	1	punct	_	start_char=653|end_char=654|SpacesAfter=\n\n
+
+# text = You might even think it'd be easy, given that I just said the vast majority of activity on Twitter puts no one in harm's way.
+# sent_id = 11
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=656|end_char=659
+2	might	might	AUX	MD	VerbForm=Fin	4	aux	_	start_char=660|end_char=665
+3	even	even	ADV	RB	_	4	advmod	_	start_char=666|end_char=670
+4	think	think	VERB	VB	VerbForm=Inf	0	root	_	start_char=671|end_char=676
+5-6	it'd	_	_	_	_	_	_	_	start_char=677|end_char=681
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=677|end_char=679
+6	'd	would	AUX	MD	VerbForm=Fin	8	aux	_	start_char=679|end_char=681
+7	be	be	AUX	VB	VerbForm=Inf	8	cop	_	start_char=682|end_char=684
+8	easy	easy	ADJ	JJ	Degree=Pos	4	ccomp	_	start_char=685|end_char=689|SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	start_char=689|end_char=690
+10	given	give	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	_	start_char=691|end_char=696
+11	that	that	SCONJ	IN	_	14	mark	_	start_char=697|end_char=701
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=702|end_char=703
+13	just	just	ADV	RB	_	14	advmod	_	start_char=704|end_char=708
+14	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	ccomp	_	start_char=709|end_char=713
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=714|end_char=717
+16	vast	vast	ADJ	JJ	Degree=Pos	17	amod	_	start_char=718|end_char=722
+17	majority	majority	NOUN	NN	Number=Sing	22	nsubj	_	start_char=723|end_char=731
+18	of	of	ADP	IN	_	19	case	_	start_char=732|end_char=734
+19	activity	activity	NOUN	NN	Number=Sing	17	nmod	_	start_char=735|end_char=743
+20	on	on	ADP	IN	_	21	case	_	start_char=744|end_char=746
+21	Twitter	Twitter	PROPN	NNP	Number=Sing	19	nmod	_	start_char=747|end_char=754
+22	puts	put	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	start_char=755|end_char=759
+23	no	no	DET	DT	PronType=Neg	24	det	_	start_char=760|end_char=762
+24	one	one	PRON	NN	Number=Sing|PronType=Neg	22	obj	_	start_char=763|end_char=766
+25	in	in	ADP	IN	_	28	case	_	start_char=767|end_char=769
+26-27	harm's	_	_	_	_	_	_	_	start_char=770|end_char=776
+26	harm	harm	NOUN	NN	Number=Sing	28	nmod:poss	_	start_char=770|end_char=774
+27	's	's	PART	POS	_	26	case	_	start_char=774|end_char=776
+28	way	way	NOUN	NN	Number=Sing	22	obl	_	start_char=777|end_char=780|SpaceAfter=No
+29	.	.	PUNCT	.	_	4	punct	_	start_char=780|end_char=781|SpacesAfter=\n\n
+
+# text = Why spend so much time searching for potential calamities in innocuous activities?
+# sent_id = 12
+1	Why	why	ADV	WRB	PronType=Int	2	advmod	_	start_char=783|end_char=786
+2	spend	spend	VERB	VB	VerbForm=Inf	0	root	_	start_char=787|end_char=792
+3	so	so	ADV	RB	_	4	advmod	_	start_char=793|end_char=795
+4	much	much	ADJ	JJ	Degree=Pos	5	amod	_	start_char=796|end_char=800
+5	time	time	NOUN	NN	Number=Sing	2	obj	_	start_char=801|end_char=805
+6	searching	search	VERB	VBG	Tense=Pres|VerbForm=Part	5	acl	_	start_char=806|end_char=815
+7	for	for	ADP	IN	_	9	case	_	start_char=816|end_char=819
+8	potential	potential	ADJ	JJ	Degree=Pos	9	amod	_	start_char=820|end_char=829
+9	calamities	calamity	NOUN	NNS	Number=Plur	6	obl	_	start_char=830|end_char=840
+10	in	in	ADP	IN	_	12	case	_	start_char=841|end_char=843
+11	innocuous	innocuous	ADJ	JJ	Degree=Pos	12	amod	_	start_char=844|end_char=853
+12	activities	activity	NOUN	NNS	Number=Plur	9	nmod	_	start_char=854|end_char=864|SpaceAfter=No
+13	?	?	PUNCT	.	_	2	punct	_	start_char=864|end_char=865|SpacesAfter=\n\n
+
+# text = Given the scale that Twitter is at, a one-in-a-million chance happens 500 times a day.
+# sent_id = 13
+1	Given	give	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	advcl	_	start_char=867|end_char=872
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=873|end_char=876
+3	scale	scale	NOUN	NN	Number=Sing	18	obl	_	start_char=877|end_char=882
+4	that	that	PRON	WDT	PronType=Rel	1	obj	_	start_char=883|end_char=887
+5	Twitter	Twitter	PROPN	NNP	Number=Sing	7	nsubj	_	start_char=888|end_char=895
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=896|end_char=898
+7	at	at	ADP	IN	_	4	case	_	start_char=899|end_char=901|SpaceAfter=No
+8	,	,	PUNCT	,	_	1	punct	_	start_char=901|end_char=902
+9	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	start_char=903|end_char=904
+10	one	one	NUM	CD	NumForm=Word|NumType=Card	17	nummod	_	start_char=905|end_char=908|SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	start_char=908|end_char=909|SpaceAfter=No
+12	in	in	ADP	IN	_	16	case	_	start_char=909|end_char=911|SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	_	start_char=911|end_char=912|SpaceAfter=No
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	start_char=912|end_char=913|SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	14	punct	_	start_char=913|end_char=914|SpaceAfter=No
+16	million	million	NUM	CD	NumForm=Word|NumType=Card	10	nmod	_	start_char=914|end_char=921
+17	chance	chance	NOUN	NN	Number=Sing	18	nsubj	_	start_char=922|end_char=928
+18	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=929|end_char=936
+19	500	500	NUM	CD	NumForm=Digit|NumType=Card	20	nummod	_	start_char=937|end_char=940
+20	times	time	NOUN	NNS	Number=Plur	18	obl:unmarked	_	start_char=941|end_char=946
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	start_char=947|end_char=948
+22	day	day	NOUN	NN	Number=Sing	18	obl:unmarked	_	start_char=949|end_char=952|SpaceAfter=No
+23	.	.	PUNCT	.	_	18	punct	_	start_char=952|end_char=953|SpacesAfter=\n\n
+
+# text = It's the same for other companies dealing at this sort of scale.
+# sent_id = 14
+1-2	It's	_	_	_	_	_	_	_	start_char=955|end_char=959
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	start_char=955|end_char=957
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=957|end_char=959
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=960|end_char=963
+4	same	same	ADJ	JJ	Degree=Pos	0	root	_	start_char=964|end_char=968
+5	for	for	SCONJ	IN	_	8	mark	_	start_char=969|end_char=972
+6	other	other	ADJ	JJ	Degree=Pos	7	amod	_	start_char=973|end_char=978
+7	companies	company	NOUN	NNS	Number=Plur	8	nsubj	_	start_char=979|end_char=988
+8	dealing	deal	VERB	VBG	VerbForm=Ger	4	advcl	_	start_char=989|end_char=996
+9	at	at	ADP	IN	_	11	case	_	start_char=997|end_char=999
+10	this	this	DET	DT	Number=Sing|PronType=Dem	11	det	_	start_char=1000|end_char=1004
+11	sort	sort	NOUN	NN	Number=Sing	8	obl	_	start_char=1005|end_char=1009
+12	of	of	ADP	IN	_	13	case	_	start_char=1010|end_char=1012
+13	scale	scale	NOUN	NN	Number=Sing	11	nmod	_	start_char=1013|end_char=1018|SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	start_char=1018|end_char=1019|SpacesAfter=\n\n
+
+# text = For us, edge cases, those rare situations that are unlikely to occur, are more like norms.
+# sent_id = 15
+1	For	for	ADP	IN	_	2	case	_	start_char=1021|end_char=1024
+2	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	19	obl	_	start_char=1025|end_char=1027|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=1027|end_char=1028
+4	edge	edge	NOUN	NN	Number=Sing	5	compound	_	start_char=1029|end_char=1033
+5	cases	case	NOUN	NNS	Number=Plur	19	nsubj	_	start_char=1034|end_char=1039|SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	start_char=1039|end_char=1040
+7	those	that	DET	DT	Number=Plur|PronType=Dem	9	det	_	start_char=1041|end_char=1046
+8	rare	rare	ADJ	JJ	Degree=Pos	9	amod	_	start_char=1047|end_char=1051
+9	situations	situation	NOUN	NNS	Number=Plur	5	appos	_	start_char=1052|end_char=1062
+10	that	that	PRON	WDT	PronType=Rel	12	nsubj	_	start_char=1063|end_char=1067
+11	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=1068|end_char=1071
+12	unlikely	unlikely	ADJ	JJ	Degree=Pos	9	acl:relcl	_	start_char=1072|end_char=1080
+13	to	to	PART	TO	_	14	mark	_	start_char=1081|end_char=1083
+14	occur	occur	VERB	VB	VerbForm=Inf	12	xcomp	_	start_char=1084|end_char=1089|SpaceAfter=No
+15	,	,	PUNCT	,	_	5	punct	_	start_char=1089|end_char=1090
+16	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=1091|end_char=1094
+17	more	more	ADV	RBR	Degree=Cmp	19	advmod	_	start_char=1095|end_char=1099
+18	like	like	ADP	IN	_	19	case	_	start_char=1100|end_char=1104
+19	norms	norm	NOUN	NNS	Number=Plur	0	root	_	start_char=1105|end_char=1110|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	punct	_	start_char=1110|end_char=1111|SpacesAfter=\n\n
+
+# text = Say 99.999 percent of tweets pose no risk to anyone.
+# sent_id = 16
+1	Say	say	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=1113|end_char=1116
+2	99.999	99.999	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	_	start_char=1117|end_char=1123
+3	percent	percent	NOUN	NN	Number=Sing	6	nsubj	_	start_char=1124|end_char=1131
+4	of	of	ADP	IN	_	5	case	_	start_char=1132|end_char=1134
+5	tweets	tweet	NOUN	NNS	Number=Plur	3	nmod	_	start_char=1135|end_char=1141
+6	pose	pose	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	start_char=1142|end_char=1146
+7	no	no	DET	DT	PronType=Neg	8	det	_	start_char=1147|end_char=1149
+8	risk	risk	NOUN	NN	Number=Sing	6	obj	_	start_char=1150|end_char=1154
+9	to	to	ADP	IN	_	10	case	_	start_char=1155|end_char=1157
+10	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	8	nmod	_	start_char=1158|end_char=1164|SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	_	start_char=1164|end_char=1165|SpacesAfter=\n\n
+
+# text = There's no threat involved.
+# sent_id = 17
+1-2	There's	_	_	_	_	_	_	_	start_char=1167|end_char=1174
+1	There	there	PRON	EX	_	2	expl	_	start_char=1167|end_char=1172
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1172|end_char=1174
+3	no	no	DET	DT	PronType=Neg	4	det	_	start_char=1175|end_char=1177
+4	threat	threat	NOUN	NN	Number=Sing	2	nsubj	_	start_char=1178|end_char=1184
+5	involved	involve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	start_char=1185|end_char=1193|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=1193|end_char=1194|SpacesAfter=\n\n
+
+# text = Maybe people are documenting travel landmarks like Australia's Heart Reef, or tweeting about a concert they're attending, or sharing pictures of cute baby animals.
+# sent_id = 18
+1	Maybe	maybe	ADV	RB	_	4	advmod	_	start_char=1196|end_char=1201
+2	people	person	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=1202|end_char=1208
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=1209|end_char=1212
+4	documenting	document	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=1213|end_char=1224
+5	travel	travel	NOUN	NN	Number=Sing	6	compound	_	start_char=1225|end_char=1231
+6	landmarks	landmark	NOUN	NNS	Number=Plur	4	obj	_	start_char=1232|end_char=1241
+7	like	like	ADP	IN	_	11	case	_	start_char=1242|end_char=1246
+8-9	Australia's	_	_	_	_	_	_	_	start_char=1247|end_char=1258
+8	Australia	Australia	PROPN	NNP	Number=Sing	11	nmod:poss	_	start_char=1247|end_char=1256
+9	's	's	PART	POS	_	8	case	_	start_char=1256|end_char=1258
+10	Heart	heart	PROPN	NNP	Number=Sing	11	compound	_	start_char=1259|end_char=1264
+11	Reef	Reef	PROPN	NNP	Number=Sing	6	nmod	_	start_char=1265|end_char=1269|SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	start_char=1269|end_char=1270
+13	or	or	CCONJ	CC	_	14	cc	_	start_char=1271|end_char=1273
+14	tweeting	tweet	VERB	VBG	Tense=Pres|VerbForm=Part	4	conj	_	start_char=1274|end_char=1282
+15	about	about	ADP	IN	_	17	case	_	start_char=1283|end_char=1288
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	start_char=1289|end_char=1290
+17	concert	concert	NOUN	NN	Number=Sing	14	obl	_	start_char=1291|end_char=1298
+18-19	they're	_	_	_	_	_	_	_	start_char=1299|end_char=1306
+18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	start_char=1299|end_char=1303
+19	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	start_char=1303|end_char=1306
+20	attending	attend	VERB	VBG	Tense=Pres|VerbForm=Part	17	acl:relcl	_	start_char=1307|end_char=1316|SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	start_char=1316|end_char=1317
+22	or	or	CCONJ	CC	_	23	cc	_	start_char=1318|end_char=1320
+23	sharing	share	VERB	VBG	Tense=Pres|VerbForm=Part	4	conj	_	start_char=1321|end_char=1328
+24	pictures	picture	NOUN	NNS	Number=Plur	23	obj	_	start_char=1329|end_char=1337
+25	of	of	ADP	IN	_	28	case	_	start_char=1338|end_char=1340
+26	cute	cute	ADJ	JJ	Degree=Pos	28	amod	_	start_char=1341|end_char=1345
+27	baby	baby	NOUN	NN	Number=Sing	28	compound	_	start_char=1346|end_char=1350
+28	animals	animal	NOUN	NNS	Number=Plur	24	nmod	_	start_char=1351|end_char=1358|SpaceAfter=No
+29	.	.	PUNCT	.	_	4	punct	_	start_char=1358|end_char=1359|SpacesAfter=\n\n
+
+# text = After you take out that 99.999 percent, that tiny percentage of tweets remaining works out to roughly 150,000 per month.
+# sent_id = 19
+1	After	after	SCONJ	IN	_	3	mark	_	start_char=1361|end_char=1366
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=1367|end_char=1370
+3	take	take	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	advcl	_	start_char=1371|end_char=1375
+4	out	out	ADP	RP	_	3	compound:prt	_	start_char=1376|end_char=1379
+5	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	start_char=1380|end_char=1384
+6	99.999	99.999	NUM	CD	NumForm=Digit|NumType=Frac	7	nummod	_	start_char=1385|end_char=1391
+7	percent	percent	NOUN	NN	Number=Sing	3	obj	_	start_char=1392|end_char=1399|SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	start_char=1399|end_char=1400
+9	that	that	DET	DT	Number=Sing|PronType=Dem	11	det	_	start_char=1401|end_char=1405
+10	tiny	tiny	ADJ	JJ	Degree=Pos	11	amod	_	start_char=1406|end_char=1410
+11	percentage	percentage	NOUN	NN	Number=Sing	15	nsubj	_	start_char=1411|end_char=1421
+12	of	of	ADP	IN	_	13	case	_	start_char=1422|end_char=1424
+13	tweets	tweet	NOUN	NNS	Number=Plur	11	nmod	_	start_char=1425|end_char=1431
+14	remaining	remain	VERB	VBG	VerbForm=Ger	11	amod	_	start_char=1432|end_char=1441
+15	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1442|end_char=1447
+16	out	out	ADP	RP	_	15	compound:prt	_	start_char=1448|end_char=1451
+17	to	to	ADP	IN	_	19	case	_	start_char=1452|end_char=1454
+18	roughly	roughly	ADV	RB	_	19	advmod	_	start_char=1455|end_char=1462
+19	150,000	150000	NUM	CD	NumForm=Digit|NumType=Card	15	obl	_	start_char=1463|end_char=1470
+20	per	per	ADP	IN	_	21	case	_	start_char=1471|end_char=1474
+21	month	month	NOUN	NN	Number=Sing	19	nmod	_	start_char=1475|end_char=1480|SpaceAfter=No
+22	.	.	PUNCT	.	_	15	punct	_	start_char=1480|end_char=1481|SpacesAfter=\n\n
+
+# text = The sheer scale of what we're dealing with makes for a challenge.
+# sent_id = 20
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=1483|end_char=1486
+2	sheer	sheer	ADJ	JJ	Degree=Pos	3	amod	_	start_char=1487|end_char=1492
+3	scale	scale	NOUN	NN	Number=Sing	10	nsubj	_	start_char=1493|end_char=1498
+4	of	of	ADP	IN	_	5	case	_	start_char=1499|end_char=1501
+5	what	what	PRON	WP	PronType=Rel	3	nmod	_	start_char=1502|end_char=1506
+6-7	we're	_	_	_	_	_	_	_	start_char=1507|end_char=1512
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=1507|end_char=1509
+7	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=1509|end_char=1512
+8	dealing	deal	VERB	VBG	Tense=Pres|VerbForm=Part	5	acl:relcl	_	start_char=1513|end_char=1520
+9	with	with	ADP	IN	_	8	obl	_	start_char=1521|end_char=1525
+10	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1526|end_char=1531
+11	for	for	ADP	IN	_	13	case	_	start_char=1532|end_char=1535
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=1536|end_char=1537
+13	challenge	challenge	NOUN	NN	Number=Sing	10	obl	_	start_char=1538|end_char=1547|SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	start_char=1547|end_char=1548|SpacesAfter=\n\n
+
+# text = You know what else makes my role particularly challenging?
+# sent_id = 21
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	start_char=1550|end_char=1553
+2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1554|end_char=1558
+3	what	what	PRON	WP	PronType=Int	5	nsubj	_	start_char=1559|end_char=1563
+4	else	else	ADV	RB	Degree=Pos	3	advmod	_	start_char=1564|end_char=1568
+5	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=1569|end_char=1574
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=1575|end_char=1577
+7	role	role	NOUN	NN	Number=Sing	5	obj	_	start_char=1578|end_char=1582
+8	particularly	particularly	ADV	RB	_	9	advmod	_	start_char=1583|end_char=1595
+9	challenging	challenging	ADJ	JJ	Degree=Pos	5	xcomp	_	start_char=1596|end_char=1607|SpaceAfter=No
+10	?	?	PUNCT	.	_	2	punct	_	start_char=1607|end_char=1608|SpacesAfter=\n\n
+
+# text = People do weird things.
+# sent_id = 22
+1	People	person	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=1610|end_char=1616
+2	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1617|end_char=1619
+3	weird	weird	ADJ	JJ	Degree=Pos	4	amod	_	start_char=1620|end_char=1625
+4	things	thing	NOUN	NNS	Number=Plur	2	obj	_	start_char=1626|end_char=1632|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=1632|end_char=1633|SpacesAfter=\n\n
+
+# text = And I have to figure out what they're doing, why, and whether or not there's risk involved, often without much in terms of context or background.
+# sent_id = 23
+1	And	and	CCONJ	CC	_	3	cc	_	start_char=1635|end_char=1638
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=1639|end_char=1640
+3	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1641|end_char=1645
+4	to	to	PART	TO	_	5	mark	_	start_char=1646|end_char=1648
+5	figure	figure	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=1649|end_char=1655
+6	out	out	ADP	RP	_	5	compound:prt	_	start_char=1656|end_char=1659
+7	what	what	PRON	WP	PronType=Rel	5	obj	_	start_char=1660|end_char=1664
+8-9	they're	_	_	_	_	_	_	_	start_char=1665|end_char=1672
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=1665|end_char=1669
+9	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=1669|end_char=1672
+10	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	7	acl:relcl	_	start_char=1673|end_char=1678|SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	start_char=1678|end_char=1679
+12	why	why	ADV	WRB	PronType=Int	19	advmod	_	start_char=1680|end_char=1683|SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	start_char=1683|end_char=1684
+14	and	and	CCONJ	CC	_	19	cc	_	start_char=1685|end_char=1688
+15	whether	whether	SCONJ	IN	_	19	mark	_	start_char=1689|end_char=1696
+16	or	or	CCONJ	CC	_	15	fixed	_	start_char=1697|end_char=1699
+17	not	not	PART	RB	Polarity=Neg	15	fixed	_	start_char=1700|end_char=1703
+18-19	there's	_	_	_	_	_	_	_	start_char=1704|end_char=1711
+18	there	there	PRON	EX	_	19	expl	_	start_char=1704|end_char=1709
+19	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=1709|end_char=1711
+20	risk	risk	NOUN	NN	Number=Sing	19	nsubj	_	start_char=1712|end_char=1716
+21	involved	involve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	acl	_	start_char=1717|end_char=1725|SpaceAfter=No
+22	,	,	PUNCT	,	_	23	punct	_	start_char=1725|end_char=1726
+23	often	often	ADV	RB	_	19	advmod	_	start_char=1727|end_char=1732
+24	without	without	ADP	IN	_	25	case	_	start_char=1733|end_char=1740
+25	much	much	ADJ	JJ	Degree=Pos	23	obl	_	start_char=1741|end_char=1745
+26	in	in	ADP	IN	_	27	case	_	start_char=1746|end_char=1748
+27	terms	term	NOUN	NNS	Number=Plur	25	obl	_	start_char=1749|end_char=1754
+28	of	of	ADP	IN	_	29	case	_	start_char=1755|end_char=1757
+29	context	context	NOUN	NN	Number=Sing	27	nmod	_	start_char=1758|end_char=1765
+30	or	or	CCONJ	CC	_	31	cc	_	start_char=1766|end_char=1768
+31	background	background	NOUN	NN	Number=Sing	29	conj	_	start_char=1769|end_char=1779|SpaceAfter=No
+32	.	.	PUNCT	.	_	3	punct	_	start_char=1779|end_char=1780|SpacesAfter=\n\n
+
+# text = I'm going to show you some examples that I've run into during my time at Twitter -- these are all real examples — of situations that at first seemed cut and dried, but the truth of the matter was something altogether different.
+# sent_id = 24
+1-2	I'm	_	_	_	_	_	_	_	start_char=1782|end_char=1785
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=1782|end_char=1783
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=1783|end_char=1785
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=1786|end_char=1791
+4	to	to	PART	TO	_	5	mark	_	start_char=1792|end_char=1794
+5	show	show	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=1795|end_char=1799
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	iobj	_	start_char=1800|end_char=1803
+7	some	some	DET	DT	PronType=Ind	8	det	_	start_char=1804|end_char=1808
+8	examples	example	NOUN	NNS	Number=Plur	5	obj	_	start_char=1809|end_char=1817
+9	that	that	PRON	WDT	PronType=Rel	12	obj	_	start_char=1818|end_char=1822
+10-11	I've	_	_	_	_	_	_	_	start_char=1823|end_char=1827
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=1823|end_char=1824
+11	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=1824|end_char=1827
+12	run	run	VERB	VBN	Tense=Past|VerbForm=Part	8	acl:relcl	_	start_char=1828|end_char=1831
+13	into	into	ADP	IN	_	9	case	_	start_char=1832|end_char=1836
+14	during	during	ADP	IN	_	16	case	_	start_char=1837|end_char=1843
+15	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=1844|end_char=1846
+16	time	time	NOUN	NN	Number=Sing	12	obl	_	start_char=1847|end_char=1851
+17	at	at	ADP	IN	_	18	case	_	start_char=1852|end_char=1854
+18	Twitter	Twitter	PROPN	NNP	Number=Sing	16	nmod	_	start_char=1855|end_char=1862
+19	--	--	PUNCT	,	_	24	punct	_	start_char=1863|end_char=1865
+20	these	this	PRON	DT	Number=Plur|PronType=Dem	24	nsubj	_	start_char=1866|end_char=1871
+21	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	start_char=1872|end_char=1875
+22	all	all	DET	DT	PronType=Tot	24	det	_	start_char=1876|end_char=1879
+23	real	real	ADJ	JJ	Degree=Pos	24	amod	_	start_char=1880|end_char=1884
+24	examples	example	NOUN	NNS	Number=Plur	3	parataxis	_	start_char=1885|end_char=1893
+25	—	—	PUNCT	:	_	27	punct	_	start_char=1894|end_char=1895
+26	of	of	ADP	IN	_	27	case	_	start_char=1896|end_char=1898
+27	situations	situation	NOUN	NNS	Number=Plur	24	nmod	_	start_char=1899|end_char=1909
+28	that	that	PRON	WDT	PronType=Rel	31	nsubj	_	start_char=1910|end_char=1914
+29	at	at	ADP	IN	_	30	case	_	start_char=1915|end_char=1917
+30	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	31	obl	_	start_char=1918|end_char=1923
+31	seemed	seem	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	27	acl:relcl	_	start_char=1924|end_char=1930
+32	cut	cut	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	31	xcomp	_	start_char=1931|end_char=1934
+33	and	and	CCONJ	CC	_	34	cc	_	start_char=1935|end_char=1938
+34	dried	dry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	32	conj	_	start_char=1939|end_char=1944|SpaceAfter=No
+35	,	,	PUNCT	,	_	43	punct	_	start_char=1944|end_char=1945
+36	but	but	CCONJ	CC	_	43	cc	_	start_char=1946|end_char=1949
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	start_char=1950|end_char=1953
+38	truth	truth	NOUN	NN	Number=Sing	43	nsubj	_	start_char=1954|end_char=1959
+39	of	of	ADP	IN	_	41	case	_	start_char=1960|end_char=1962
+40	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	start_char=1963|end_char=1966
+41	matter	matter	NOUN	NN	Number=Sing	38	nmod	_	start_char=1967|end_char=1973
+42	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	43	cop	_	start_char=1974|end_char=1977
+43	something	something	PRON	NN	Number=Sing|PronType=Ind	24	conj	_	start_char=1978|end_char=1987
+44	altogether	altogether	ADV	RB	_	45	advmod	_	start_char=1988|end_char=1998
+45	different	different	ADJ	JJ	Degree=Pos	43	amod	_	start_char=1999|end_char=2008|SpaceAfter=No
+46	.	.	PUNCT	.	_	3	punct	_	start_char=2008|end_char=2009|SpacesAfter=\n\n
+
+# text = The details have been changed to protect the innocent and sometimes the guilty.
+# sent_id = 25
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=2011|end_char=2014
+2	details	detail	NOUN	NNS	Number=Plur	5	nsubj:pass	_	start_char=2015|end_char=2022
+3	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=2023|end_char=2027
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux:pass	_	start_char=2028|end_char=2032
+5	changed	change	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=2033|end_char=2040
+6	to	to	PART	TO	_	7	mark	_	start_char=2041|end_char=2043
+7	protect	protect	VERB	VB	VerbForm=Inf	5	advcl	_	start_char=2044|end_char=2051
+8	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=2052|end_char=2055
+9	innocent	innocent	ADJ	JJ	Degree=Pos	13	amod	_	start_char=2056|end_char=2064
+10	and	and	CCONJ	CC	_	13	cc	_	start_char=2065|end_char=2068
+11	sometimes	sometimes	ADV	RB	PronType=Ind	13	advmod	_	start_char=2069|end_char=2078
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=2079|end_char=2082
+13	guilty	guilty	NOUN	NN	Number=Sing	7	obj	_	start_char=2083|end_char=2089|SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	start_char=2089|end_char=2090|SpacesAfter=\n\n
+
+# text = We'll start off easy.
+# sent_id = 26
+1-2	We'll	_	_	_	_	_	_	_	start_char=2092|end_char=2097
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=2092|end_char=2094
+2	'll	will	AUX	MD	VerbForm=Fin	3	aux	_	start_char=2094|end_char=2097
+3	start	start	VERB	VB	VerbForm=Inf	0	root	_	start_char=2098|end_char=2103
+4	off	off	ADP	RP	_	3	compound:prt	_	start_char=2104|end_char=2107
+5	easy	easy	ADJ	JJ	Degree=Pos	3	xcomp	_	start_char=2108|end_char=2112|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=2112|end_char=2113|SpacesAfter=\n\n
+
+# text = ["Yo bitch"]
+# sent_id = 27
+1	[	[	PUNCT	-LRB-	_	4	punct	_	start_char=2115|end_char=2116|SpaceAfter=No
+2	"	"	PUNCT	``	_	4	punct	_	start_char=2116|end_char=2117|SpaceAfter=No
+3	Yo	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=2117|end_char=2119
+4	bitch	bitch	NOUN	NN	Number=Sing	0	root	_	start_char=2120|end_char=2125|SpaceAfter=No
+5	"	"	PUNCT	''	_	4	punct	_	start_char=2125|end_char=2126|SpaceAfter=No
+6	]	]	PUNCT	-RRB-	_	4	punct	_	start_char=2126|end_char=2127|SpacesAfter=\n\n
+
+# text = If you saw a Tweet that only said this, you might think to yourself, "That looks like abuse."
+# sent_id = 28
+1	If	if	SCONJ	IN	_	3	mark	_	start_char=2129|end_char=2131
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=2132|end_char=2135
+3	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	13	advcl	_	start_char=2136|end_char=2139
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=2140|end_char=2141
+5	Tweet	tweet	NOUN	NN	Number=Sing	3	obj	_	start_char=2142|end_char=2147
+6	that	that	PRON	WDT	PronType=Rel	8	nsubj	_	start_char=2148|end_char=2152
+7	only	only	ADV	RB	_	8	advmod	_	start_char=2153|end_char=2157
+8	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	start_char=2158|end_char=2162
+9	this	this	PRON	DT	Number=Sing|PronType=Dem	8	obj	_	start_char=2163|end_char=2167|SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	start_char=2167|end_char=2168
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	start_char=2169|end_char=2172
+12	might	might	AUX	MD	VerbForm=Fin	13	aux	_	start_char=2173|end_char=2178
+13	think	think	VERB	VB	VerbForm=Inf	0	root	_	start_char=2179|end_char=2184
+14	to	to	ADP	IN	_	15	case	_	start_char=2185|end_char=2187
+15	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	13	obl	_	start_char=2188|end_char=2196|SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	start_char=2196|end_char=2197
+17	"	"	PUNCT	``	_	19	punct	_	start_char=2198|end_char=2199|SpaceAfter=No
+18	That	that	PRON	DT	Number=Sing|PronType=Dem	19	nsubj	_	start_char=2199|end_char=2203
+19	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	start_char=2204|end_char=2209
+20	like	like	ADP	IN	_	21	case	_	start_char=2210|end_char=2214
+21	abuse	abuse	NOUN	NN	Number=Sing	19	obl	_	start_char=2215|end_char=2220|SpaceAfter=No
+22	.	.	PUNCT	.	_	19	punct	_	start_char=2220|end_char=2221|SpaceAfter=No
+23	"	"	PUNCT	''	_	19	punct	_	start_char=2221|end_char=2222|SpacesAfter=\n\n
+
+# text = After all, why would you want to receive the message, "Yo, bitch."
+# sent_id = 29
+1	After	after	ADP	IN	_	2	case	_	start_char=2224|end_char=2229
+2	all	all	DET	DT	PronType=Tot	7	obl	_	start_char=2230|end_char=2233|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=2233|end_char=2234
+4	why	why	ADV	WRB	PronType=Int	7	advmod	_	start_char=2235|end_char=2238
+5	would	would	AUX	MD	VerbForm=Fin	7	aux	_	start_char=2239|end_char=2244
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	start_char=2245|end_char=2248
+7	want	want	VERB	VB	VerbForm=Inf	0	root	_	start_char=2249|end_char=2253
+8	to	to	PART	TO	_	9	mark	_	start_char=2254|end_char=2256
+9	receive	receive	VERB	VB	VerbForm=Inf	7	xcomp	_	start_char=2257|end_char=2264
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=2265|end_char=2268
+11	message	message	NOUN	NN	Number=Sing	9	obj	_	start_char=2269|end_char=2276|SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	start_char=2276|end_char=2277
+13	"	"	PUNCT	``	_	14	punct	_	start_char=2278|end_char=2279|SpaceAfter=No
+14	Yo	your	PRON	PRP	Case=Gen|Number=Sing|Person=2|PronType=Prs	11	appos	_	start_char=2279|end_char=2281|SpaceAfter=No
+15	,	,	PUNCT	,	_	16	punct	_	start_char=2281|end_char=2282
+16	bitch	bitch	NOUN	NN	Number=Sing	14	appos	_	start_char=2283|end_char=2288|SpaceAfter=No
+17	.	.	PUNCT	.	_	14	punct	_	start_char=2288|end_char=2289|SpaceAfter=No
+18	"	"	PUNCT	''	_	14	punct	_	start_char=2289|end_char=2290|SpacesAfter=\n\n
+
+# text = Now, I try to stay relatively hip to the latest trends and memes, so I knew that "yo, bitch" was also often a common greeting between friends, as well as being a popular "Breaking Bad" reference.
+# sent_id = 30
+1	Now	now	ADV	RB	_	4	advmod	_	start_char=2292|end_char=2295|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=2295|end_char=2296
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=2297|end_char=2298
+4	try	try	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2299|end_char=2302
+5	to	to	PART	TO	_	6	mark	_	start_char=2303|end_char=2305
+6	stay	stay	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=2306|end_char=2310
+7	relatively	relatively	ADV	RB	_	8	advmod	_	start_char=2311|end_char=2321
+8	hip	hip	ADJ	JJ	Degree=Pos	6	xcomp	_	start_char=2322|end_char=2325
+9	to	to	ADP	IN	_	12	case	_	start_char=2326|end_char=2328
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=2329|end_char=2332
+11	latest	late	ADJ	JJS	Degree=Sup	12	amod	_	start_char=2333|end_char=2339
+12	trends	trend	NOUN	NNS	Number=Plur	6	obl	_	start_char=2340|end_char=2346
+13	and	and	CCONJ	CC	_	14	cc	_	start_char=2347|end_char=2350
+14	memes	meme	NOUN	NNS	Number=Plur	12	conj	_	start_char=2351|end_char=2356|SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	start_char=2356|end_char=2357
+16	so	so	ADV	RB	_	18	advmod	_	start_char=2358|end_char=2360
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	start_char=2361|end_char=2362
+18	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	parataxis	_	start_char=2363|end_char=2367
+19	that	that	SCONJ	IN	_	30	mark	_	start_char=2368|end_char=2372
+20	"	"	PUNCT	``	_	30	punct	_	start_char=2373|end_char=2374|SpaceAfter=No
+21	yo	yo	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	30	nsubj	_	start_char=2374|end_char=2376|SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	start_char=2376|end_char=2377
+23	bitch	bitch	NOUN	NN	Number=Sing	30	nsubj	_	start_char=2378|end_char=2383|SpaceAfter=No
+24	"	"	PUNCT	''	_	23	punct	_	start_char=2383|end_char=2384
+25	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	cop	_	start_char=2385|end_char=2388
+26	also	also	ADV	RB	_	30	advmod	_	start_char=2389|end_char=2393
+27	often	often	ADV	RB	_	30	advmod	_	start_char=2394|end_char=2399
+28	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	start_char=2400|end_char=2401
+29	common	common	ADJ	JJ	Degree=Pos	30	amod	_	start_char=2402|end_char=2408
+30	greeting	greeting	NOUN	NN	Number=Sing	18	ccomp	_	start_char=2409|end_char=2417
+31	between	between	ADP	IN	_	32	case	_	start_char=2418|end_char=2425
+32	friends	friend	NOUN	NNS	Number=Plur	30	nmod	_	start_char=2426|end_char=2433|SpaceAfter=No
+33	,	,	PUNCT	,	_	44	punct	_	start_char=2433|end_char=2434
+34	as	as	ADV	RB	ExtPos=CCONJ	44	cc	_	start_char=2435|end_char=2437
+35	well	well	ADV	RB	Degree=Pos	34	fixed	_	start_char=2438|end_char=2442
+36	as	as	SCONJ	IN	_	34	fixed	_	start_char=2443|end_char=2445
+37	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	44	cop	_	start_char=2446|end_char=2451
+38	a	a	DET	DT	Definite=Ind|PronType=Art	44	det	_	start_char=2452|end_char=2453
+39	popular	popular	ADJ	JJ	Degree=Pos	44	amod	_	start_char=2454|end_char=2461
+40	"	"	PUNCT	``	_	42	punct	_	start_char=2462|end_char=2463|SpaceAfter=No
+41	Breaking	break	VERB	VBG	VerbForm=Ger	44	amod	_	start_char=2463|end_char=2471
+42	Bad	bad	ADJ	JJ	Degree=Pos	44	amod	_	start_char=2472|end_char=2475|SpaceAfter=No
+43	"	"	PUNCT	''	_	42	punct	_	start_char=2475|end_char=2476
+44	reference	reference	NOUN	NN	Number=Sing	30	conj	_	start_char=2477|end_char=2486|SpaceAfter=No
+45	.	.	PUNCT	.	_	4	punct	_	start_char=2486|end_char=2487|SpacesAfter=\n\n
+
+# text = I will admit that I did not expect to encounter a fourth use case.
+# sent_id = 31
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=2489|end_char=2490
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	start_char=2491|end_char=2495
+3	admit	admit	VERB	VB	VerbForm=Inf	0	root	_	start_char=2496|end_char=2501
+4	that	that	SCONJ	IN	_	8	mark	_	start_char=2502|end_char=2506
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=2507|end_char=2508
+6	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	aux	_	start_char=2509|end_char=2512
+7	not	not	PART	RB	Polarity=Neg	8	advmod	_	start_char=2513|end_char=2516
+8	expect	expect	VERB	VB	VerbForm=Inf	3	ccomp	_	start_char=2517|end_char=2523
+9	to	to	PART	TO	_	10	mark	_	start_char=2524|end_char=2526
+10	encounter	encounter	VERB	VB	VerbForm=Inf	8	xcomp	_	start_char=2527|end_char=2536
+11	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	start_char=2537|end_char=2538
+12	fourth	fourth	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	14	amod	_	start_char=2539|end_char=2545
+13	use	use	NOUN	NN	Number=Sing	14	compound	_	start_char=2546|end_char=2549
+14	case	case	NOUN	NN	Number=Sing	10	obj	_	start_char=2550|end_char=2554|SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	start_char=2554|end_char=2555|SpacesAfter=\n\n
+
+# text = It turns out it is also used on Twitter when people are role-playing as dogs.
+# sent_id = 32
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=2557|end_char=2559
+2	turns	turn	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2560|end_char=2565
+3	out	out	ADP	RP	_	2	compound:prt	_	start_char=2566|end_char=2569
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	_	start_char=2570|end_char=2572
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	start_char=2573|end_char=2575
+6	also	also	ADV	RB	_	7	advmod	_	start_char=2576|end_char=2580
+7	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	start_char=2581|end_char=2585
+8	on	on	ADP	IN	_	9	case	_	start_char=2586|end_char=2588
+9	Twitter	Twitter	PROPN	NNP	Number=Sing	7	obl	_	start_char=2589|end_char=2596
+10	when	when	ADV	WRB	PronType=Int	15	advmod	_	start_char=2597|end_char=2601
+11	people	person	NOUN	NNS	Number=Plur	15	nsubj	_	start_char=2602|end_char=2608
+12	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=2609|end_char=2612
+13	role	role	NOUN	NN	Number=Sing	15	compound	_	start_char=2613|end_char=2617|SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	13	punct	_	start_char=2617|end_char=2618|SpaceAfter=No
+15	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part	7	advcl	_	start_char=2618|end_char=2625
+16	as	as	ADP	IN	_	17	case	_	start_char=2626|end_char=2628
+17	dogs	dog	NOUN	NNS	Number=Plur	15	obl	_	start_char=2629|end_char=2633|SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	start_char=2633|end_char=2634|SpacesAfter=\n\n
+
+# text = And in fact, in that case, it's not only not abusive, it's technically just an accurate greeting.
+# sent_id = 33
+1	And	and	CCONJ	CC	_	14	cc	_	start_char=2636|end_char=2639
+2	in	in	ADP	IN	_	3	case	_	start_char=2640|end_char=2642
+3	fact	fact	NOUN	NN	Number=Sing	14	obl	_	start_char=2643|end_char=2647|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=2647|end_char=2648
+5	in	in	ADP	IN	_	7	case	_	start_char=2649|end_char=2651
+6	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	start_char=2652|end_char=2656
+7	case	case	NOUN	NN	Number=Sing	14	obl	_	start_char=2657|end_char=2661|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	start_char=2661|end_char=2662
+9-10	it's	_	_	_	_	_	_	_	start_char=2663|end_char=2667
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=2663|end_char=2665
+10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=2665|end_char=2667
+11	not	not	PART	RB	Polarity=Neg	14	advmod	_	start_char=2668|end_char=2671
+12	only	only	ADV	RB	_	14	advmod	_	start_char=2672|end_char=2676
+13	not	not	PART	RB	Polarity=Neg	14	advmod	_	start_char=2677|end_char=2680
+14	abusive	abusive	ADJ	JJ	Degree=Pos	0	root	_	start_char=2681|end_char=2688|SpaceAfter=No
+15	,	,	PUNCT	,	_	22	punct	_	start_char=2688|end_char=2689
+16-17	it's	_	_	_	_	_	_	_	start_char=2690|end_char=2694
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	start_char=2690|end_char=2692
+17	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	start_char=2692|end_char=2694
+18	technically	technically	ADV	RB	_	22	advmod	_	start_char=2695|end_char=2706
+19	just	just	ADV	RB	_	22	advmod	_	start_char=2707|end_char=2711
+20	an	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	start_char=2712|end_char=2714
+21	accurate	accurate	ADJ	JJ	Degree=Pos	22	amod	_	start_char=2715|end_char=2723
+22	greeting	greeting	NOUN	NN	Number=Sing	14	parataxis	_	start_char=2724|end_char=2732|SpaceAfter=No
+23	.	.	PUNCT	.	_	14	punct	_	start_char=2732|end_char=2733|SpacesAfter=\n\n
+
+# text = So okay, determining whether or not something is abusive without context, definitely hard.
+# sent_id = 34
+1	So	so	ADV	RB	_	4	advmod	_	start_char=2735|end_char=2737
+2	okay	okay	INTJ	UH	_	4	discourse	_	start_char=2738|end_char=2742|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=2742|end_char=2743
+4	determining	determine	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=2744|end_char=2755
+5	whether	whether	SCONJ	IN	_	10	mark	_	start_char=2756|end_char=2763
+6	or	or	CCONJ	CC	_	5	fixed	_	start_char=2764|end_char=2766
+7	not	not	PART	RB	Polarity=Neg	5	fixed	_	start_char=2767|end_char=2770
+8	something	something	PRON	NN	Number=Sing|PronType=Ind	10	nsubj	_	start_char=2771|end_char=2780
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=2781|end_char=2783
+10	abusive	abusive	ADJ	JJ	Degree=Pos	4	ccomp	_	start_char=2784|end_char=2791
+11	without	without	ADP	IN	_	12	case	_	start_char=2792|end_char=2799
+12	context	context	NOUN	NN	Number=Sing	10	obl	_	start_char=2800|end_char=2807|SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	start_char=2807|end_char=2808
+14	definitely	definitely	ADV	RB	_	15	advmod	_	start_char=2809|end_char=2819
+15	hard	hard	ADJ	JJ	Degree=Pos	10	parataxis	_	start_char=2820|end_char=2824|SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	start_char=2824|end_char=2825|SpacesAfter=\n\n
+
+# text = Let's look at spam.
+# sent_id = 35
+1-2	Let's	_	_	_	_	_	_	_	start_char=2827|end_char=2832
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=2827|end_char=2830
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	start_char=2830|end_char=2832
+3	look	look	VERB	VB	VerbForm=Inf	1	xcomp	_	start_char=2833|end_char=2837
+4	at	at	ADP	IN	_	5	case	_	start_char=2838|end_char=2840
+5	spam	spam	NOUN	NN	Number=Sing	3	obl	_	start_char=2841|end_char=2845|SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	start_char=2845|end_char=2846|SpacesAfter=\n\n
+
+# text = Here's an example of an account engaged in classic spammer behavior, sending the exact same message to thousands of people.
+# sent_id = 36
+1-2	Here's	_	_	_	_	_	_	_	start_char=2848|end_char=2854
+1	Here	here	ADV	RB	PronType=Dem	0	root	_	start_char=2848|end_char=2852
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=2852|end_char=2854
+3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=2855|end_char=2857
+4	example	example	NOUN	NN	Number=Sing	1	nsubj	_	start_char=2858|end_char=2865
+5	of	of	ADP	IN	_	7	case	_	start_char=2866|end_char=2868
+6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=2869|end_char=2871
+7	account	account	NOUN	NN	Number=Sing	4	nmod	_	start_char=2872|end_char=2879
+8	engaged	engage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	start_char=2880|end_char=2887
+9	in	in	ADP	IN	_	12	case	_	start_char=2888|end_char=2890
+10	classic	classic	ADJ	JJ	Degree=Pos	12	amod	_	start_char=2891|end_char=2898
+11	spammer	spammer	NOUN	NN	Number=Sing	12	compound	_	start_char=2899|end_char=2906
+12	behavior	behavior	NOUN	NN	Number=Sing	8	obl	_	start_char=2907|end_char=2915|SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	start_char=2915|end_char=2916
+14	sending	send	VERB	VBG	Tense=Pres|VerbForm=Part	1	advcl	_	start_char=2917|end_char=2924
+15	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=2925|end_char=2928
+16	exact	exact	ADJ	JJ	Degree=Pos	18	amod	_	start_char=2929|end_char=2934
+17	same	same	ADJ	JJ	Degree=Pos	18	amod	_	start_char=2935|end_char=2939
+18	message	message	NOUN	NN	Number=Sing	14	obj	_	start_char=2940|end_char=2947
+19	to	to	ADP	IN	_	20	case	_	start_char=2948|end_char=2950
+20	thousands	thousand	NOUN	NNS	Number=Plur	14	obl	_	start_char=2951|end_char=2960
+21	of	of	ADP	IN	_	22	case	_	start_char=2961|end_char=2963
+22	people	person	NOUN	NNS	Number=Plur	20	nmod	_	start_char=2964|end_char=2970|SpaceAfter=No
+23	.	.	PUNCT	.	_	1	punct	_	start_char=2970|end_char=2971|SpacesAfter=\n\n
+
+# text = While this is a mockup I put together using my account, we see accounts doing this all the time.
+# sent_id = 37
+1	While	while	SCONJ	IN	_	5	mark	_	start_char=2973|end_char=2978
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	start_char=2979|end_char=2983
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=2984|end_char=2986
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=2987|end_char=2988
+5	mockup	mockup	NOUN	NN	Number=Sing	14	advcl	_	start_char=2989|end_char=2995
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=2996|end_char=2997
+7	put	put	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	acl:relcl	_	start_char=2998|end_char=3001
+8	together	together	ADV	RB	_	7	advmod	_	start_char=3002|end_char=3010
+9	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	7	advcl	_	start_char=3011|end_char=3016
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=3017|end_char=3019
+11	account	account	NOUN	NN	Number=Sing	9	obj	_	start_char=3020|end_char=3027|SpaceAfter=No
+12	,	,	PUNCT	,	_	5	punct	_	start_char=3027|end_char=3028
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	start_char=3029|end_char=3031
+14	see	see	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3032|end_char=3035
+15	accounts	account	NOUN	NNS	Number=Plur	14	obj	_	start_char=3036|end_char=3044
+16	doing	do	VERB	VBG	VerbForm=Ger	15	acl	_	start_char=3045|end_char=3050
+17	this	this	PRON	DT	Number=Sing|PronType=Dem	16	obj	_	start_char=3051|end_char=3055
+18	all	all	DET	PDT	PronType=Tot	20	det:predet	_	start_char=3056|end_char=3059
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=3060|end_char=3063
+20	time	time	NOUN	NN	Number=Sing	16	obl:unmarked	_	start_char=3064|end_char=3068|SpaceAfter=No
+21	.	.	PUNCT	.	_	14	punct	_	start_char=3068|end_char=3069|SpacesAfter=\n\n
+
+# text = Seems pretty straightforward.
+# sent_id = 38
+1	Seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3071|end_char=3076
+2	pretty	pretty	ADV	RB	_	3	advmod	_	start_char=3077|end_char=3083
+3	straightforward	straightforward	ADJ	JJ	Degree=Pos	1	xcomp	_	start_char=3084|end_char=3099|SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	start_char=3099|end_char=3100|SpacesAfter=\n\n
+
+# text = We should just automatically suspend accounts engaging in this kind of behavior.
+# sent_id = 39
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=3102|end_char=3104
+2	should	should	AUX	MD	VerbForm=Fin	5	aux	_	start_char=3105|end_char=3111
+3	just	just	ADV	RB	_	5	advmod	_	start_char=3112|end_char=3116
+4	automatically	automatically	ADV	RB	_	5	advmod	_	start_char=3117|end_char=3130
+5	suspend	suspend	VERB	VB	VerbForm=Inf	0	root	_	start_char=3131|end_char=3138
+6	accounts	account	NOUN	NNS	Number=Plur	5	obj	_	start_char=3139|end_char=3147
+7	engaging	engage	VERB	VBG	VerbForm=Ger	6	acl	_	start_char=3148|end_char=3156
+8	in	in	ADP	IN	_	10	case	_	start_char=3157|end_char=3159
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	start_char=3160|end_char=3164
+10	kind	kind	NOUN	NN	Number=Sing	7	obl	_	start_char=3165|end_char=3169
+11	of	of	ADP	IN	_	12	case	_	start_char=3170|end_char=3172
+12	behavior	behavior	NOUN	NN	Number=Sing	10	nmod	_	start_char=3173|end_char=3181|SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	start_char=3181|end_char=3182|SpacesAfter=\n\n
+
+# text = Turns out there's some exceptions to that rule.
+# sent_id = 40
+1	Turns	turn	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3184|end_char=3189
+2	out	out	ADP	RP	_	1	compound:prt	_	start_char=3190|end_char=3193
+3-4	there's	_	_	_	_	_	_	_	start_char=3194|end_char=3201
+3	there	there	PRON	EX	_	4	expl	_	start_char=3194|end_char=3199
+4	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	start_char=3199|end_char=3201
+5	some	some	DET	DT	PronType=Ind	6	det	_	start_char=3202|end_char=3206
+6	exceptions	exception	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=3207|end_char=3217
+7	to	to	ADP	IN	_	9	case	_	start_char=3218|end_char=3220
+8	that	that	DET	DT	Number=Sing|PronType=Dem	9	det	_	start_char=3221|end_char=3225
+9	rule	rule	NOUN	NN	Number=Sing	6	nmod	_	start_char=3226|end_char=3230|SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	start_char=3230|end_char=3231|SpacesAfter=\n\n
+
+# text = Turns out that that message could also be a notification you signed up for that the International Space Station is passing overhead because you wanted to go outside and see if you could see it.
+# sent_id = 41
+1	Turns	turn	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3233|end_char=3238
+2	out	out	ADP	RP	_	1	compound:prt	_	start_char=3239|end_char=3242
+3	that	that	SCONJ	IN	_	10	mark	_	start_char=3243|end_char=3247
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	start_char=3248|end_char=3252
+5	message	message	NOUN	NN	Number=Sing	10	nsubj	_	start_char=3253|end_char=3260
+6	could	could	AUX	MD	VerbForm=Fin	10	aux	_	start_char=3261|end_char=3266
+7	also	also	ADV	RB	_	10	advmod	_	start_char=3267|end_char=3271
+8	be	be	AUX	VB	VerbForm=Inf	10	cop	_	start_char=3272|end_char=3274
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=3275|end_char=3276
+10	notification	notification	NOUN	NN	Number=Sing	1	ccomp	_	start_char=3277|end_char=3289
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	start_char=3290|end_char=3293
+12	signed	sign	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	10	acl:relcl	_	start_char=3294|end_char=3300
+13	up	up	ADP	RP	_	12	compound:prt	_	start_char=3301|end_char=3303
+14	for	for	ADP	IN	_	21	mark	_	start_char=3304|end_char=3307
+15	that	that	SCONJ	IN	_	21	mark	_	start_char=3308|end_char=3312
+16	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=3313|end_char=3316
+17	International	International	ADJ	NNP	Degree=Pos	19	amod	_	start_char=3317|end_char=3330
+18	Space	Space	PROPN	NNP	Number=Sing	19	compound	_	start_char=3331|end_char=3336
+19	Station	Station	PROPN	NNP	Number=Sing	21	nsubj	_	start_char=3337|end_char=3344
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	start_char=3345|end_char=3347
+21	passing	pass	VERB	VBG	Tense=Pres|VerbForm=Part	12	advcl	_	start_char=3348|end_char=3355
+22	overhead	overhead	ADV	RB	_	21	advmod	_	start_char=3356|end_char=3364
+23	because	because	SCONJ	IN	_	25	mark	_	start_char=3365|end_char=3372
+24	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	25	nsubj	_	start_char=3373|end_char=3376
+25	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	21	advcl	_	start_char=3377|end_char=3383
+26	to	to	PART	TO	_	27	mark	_	start_char=3384|end_char=3386
+27	go	go	VERB	VB	VerbForm=Inf	25	xcomp	_	start_char=3387|end_char=3389
+28	outside	outside	ADV	RB	_	27	advmod	_	start_char=3390|end_char=3397
+29	and	and	CCONJ	CC	_	30	cc	_	start_char=3398|end_char=3401
+30	see	see	VERB	VB	VerbForm=Inf	27	conj	_	start_char=3402|end_char=3405
+31	if	if	SCONJ	IN	_	34	mark	_	start_char=3406|end_char=3408
+32	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	34	nsubj	_	start_char=3409|end_char=3412
+33	could	could	AUX	MD	VerbForm=Fin	34	aux	_	start_char=3413|end_char=3418
+34	see	see	VERB	VB	VerbForm=Inf	30	ccomp	_	start_char=3419|end_char=3422
+35	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	34	obj	_	start_char=3423|end_char=3425|SpaceAfter=No
+36	.	.	PUNCT	.	_	1	punct	_	start_char=3425|end_char=3426|SpacesAfter=\n\n
+
+# text = You're not going to get that chance if we mistakenly suspend the account thinking it's spam.
+# sent_id = 42
+1-2	You're	_	_	_	_	_	_	_	start_char=3428|end_char=3434
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=3428|end_char=3431
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=3431|end_char=3434
+3	not	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=3435|end_char=3438
+4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=3439|end_char=3444
+5	to	to	PART	TO	_	6	mark	_	start_char=3445|end_char=3447
+6	get	get	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=3448|end_char=3451
+7	that	that	DET	DT	Number=Sing|PronType=Dem	8	det	_	start_char=3452|end_char=3456
+8	chance	chance	NOUN	NN	Number=Sing	6	obj	_	start_char=3457|end_char=3463
+9	if	if	SCONJ	IN	_	12	mark	_	start_char=3464|end_char=3466
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	start_char=3467|end_char=3469
+11	mistakenly	mistakenly	ADV	RB	_	12	advmod	_	start_char=3470|end_char=3480
+12	suspend	suspend	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	advcl	_	start_char=3481|end_char=3488
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=3489|end_char=3492
+14	account	account	NOUN	NN	Number=Sing	12	obj	_	start_char=3493|end_char=3500
+15	thinking	think	VERB	VBG	VerbForm=Ger	12	advcl	_	start_char=3501|end_char=3509
+16-17	it's	_	_	_	_	_	_	_	start_char=3510|end_char=3514
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	start_char=3510|end_char=3512
+17	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=3512|end_char=3514
+18	spam	spam	NOUN	NN	Number=Sing	15	ccomp	_	start_char=3515|end_char=3519|SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	start_char=3519|end_char=3520|SpacesAfter=\n\n
+
+# text = Okay.
+# sent_id = 43
+1	Okay	okay	INTJ	UH	_	0	root	_	start_char=3522|end_char=3526|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	start_char=3526|end_char=3527|SpacesAfter=\n\n
+
+# text = Let's make the stakes higher.
+# sent_id = 44
+1-2	Let's	_	_	_	_	_	_	_	start_char=3529|end_char=3534
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=3529|end_char=3532
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	start_char=3532|end_char=3534
+3	make	make	VERB	VB	VerbForm=Inf	1	xcomp	_	start_char=3535|end_char=3539
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=3540|end_char=3543
+5	stakes	stake	NOUN	NNS	Number=Plur	3	obj	_	start_char=3544|end_char=3550
+6	higher	high	ADJ	JJR	Degree=Cmp	3	xcomp	_	start_char=3551|end_char=3557|SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	start_char=3557|end_char=3558|SpacesAfter=\n\n
+
+# text = Back to my account, again exhibiting classic behavior.
+# sent_id = 45
+1	Back	back	ADV	RB	_	0	root	_	start_char=3560|end_char=3564
+2	to	to	ADP	IN	_	4	case	_	start_char=3565|end_char=3567
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=3568|end_char=3570
+4	account	account	NOUN	NN	Number=Sing	1	obl	_	start_char=3571|end_char=3578|SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	start_char=3578|end_char=3579
+6	again	again	ADV	RB	_	7	advmod	_	start_char=3580|end_char=3585
+7	exhibiting	exhibit	VERB	VBG	Tense=Pres|VerbForm=Part	1	parataxis	_	start_char=3586|end_char=3596
+8	classic	classic	ADJ	JJ	Degree=Pos	9	amod	_	start_char=3597|end_char=3604
+9	behavior	behavior	NOUN	NN	Number=Sing	7	obj	_	start_char=3605|end_char=3613|SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	start_char=3613|end_char=3614|SpacesAfter=\n\n
+
+# text = This time it's sending the same message and link. This is often indicative of something called phishing, somebody trying to steal another person's account information by directing them to another website.
+# sent_id = 46
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	start_char=3616|end_char=3620
+2	time	time	NOUN	NN	Number=Sing	5	obl:unmarked	_	start_char=3621|end_char=3625
+3-4	it's	_	_	_	_	_	_	_	start_char=3626|end_char=3630
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=3626|end_char=3628
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=3628|end_char=3630
+5	sending	send	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=3631|end_char=3638
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=3639|end_char=3642
+7	same	same	ADJ	JJ	Degree=Pos	8	amod	_	start_char=3643|end_char=3647
+8	message	message	NOUN	NN	Number=Sing	5	obj	_	start_char=3648|end_char=3655
+9	and	and	CCONJ	CC	_	10	cc	_	start_char=3656|end_char=3659
+10	link	link	NOUN	NN	Number=Sing	8	conj	_	start_char=3660|end_char=3664|SpaceAfter=No
+11	.	.	PUNCT	.	_	15	punct	_	start_char=3664|end_char=3665
+12	This	this	PRON	DT	Number=Sing|PronType=Dem	15	nsubj	_	start_char=3666|end_char=3670
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=3671|end_char=3673
+14	often	often	ADV	RB	_	15	advmod	_	start_char=3674|end_char=3679
+15	indicative	indicative	ADJ	JJ	Degree=Pos	5	parataxis	_	start_char=3680|end_char=3690
+16	of	of	ADP	IN	_	17	case	_	start_char=3691|end_char=3693
+17	something	something	PRON	NN	Number=Sing|PronType=Ind	15	obl	_	start_char=3694|end_char=3703
+18	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	acl	_	start_char=3704|end_char=3710
+19	phishing	phishing	NOUN	NN	Number=Sing	18	xcomp	_	start_char=3711|end_char=3719|SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	_	start_char=3719|end_char=3720
+21	somebody	somebody	PRON	NN	Number=Sing|PronType=Ind	17	appos	_	start_char=3721|end_char=3729
+22	trying	try	VERB	VBG	VerbForm=Ger	21	acl	_	start_char=3730|end_char=3736
+23	to	to	PART	TO	_	24	mark	_	start_char=3737|end_char=3739
+24	steal	steal	VERB	VB	VerbForm=Inf	22	xcomp	_	start_char=3740|end_char=3745
+25	another	another	DET	DT	PronType=Ind	26	det	_	start_char=3746|end_char=3753
+26-27	person's	_	_	_	_	_	_	_	start_char=3754|end_char=3762
+26	person	person	NOUN	NN	Number=Sing	29	nmod:poss	_	start_char=3754|end_char=3760
+27	's	's	PART	POS	_	26	case	_	start_char=3760|end_char=3762
+28	account	account	NOUN	NN	Number=Sing	29	compound	_	start_char=3763|end_char=3770
+29	information	information	NOUN	NN	Number=Sing	24	obj	_	start_char=3771|end_char=3782
+30	by	by	SCONJ	IN	_	31	mark	_	start_char=3783|end_char=3785
+31	directing	direct	VERB	VBG	Tense=Pres|VerbForm=Part	24	advcl	_	start_char=3786|end_char=3795
+32	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	31	obj	_	start_char=3796|end_char=3800
+33	to	to	ADP	IN	_	35	case	_	start_char=3801|end_char=3803
+34	another	another	DET	DT	PronType=Ind	35	det	_	start_char=3804|end_char=3811
+35	website	website	NOUN	NN	Number=Sing	31	obl	_	start_char=3812|end_char=3819|SpaceAfter=No
+36	.	.	PUNCT	.	_	5	punct	_	start_char=3819|end_char=3820|SpacesAfter=\n\n
+
+# text = That's pretty clearly not a good thing.
+# sent_id = 47
+1-2	That's	_	_	_	_	_	_	_	start_char=3822|end_char=3828
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	_	start_char=3822|end_char=3826
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=3826|end_char=3828
+3	pretty	pretty	ADV	RB	_	4	advmod	_	start_char=3829|end_char=3835
+4	clearly	clearly	ADV	RB	_	8	advmod	_	start_char=3836|end_char=3843
+5	not	not	PART	RB	Polarity=Neg	8	advmod	_	start_char=3844|end_char=3847
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=3848|end_char=3849
+7	good	good	ADJ	JJ	Degree=Pos	8	amod	_	start_char=3850|end_char=3854
+8	thing	thing	NOUN	NN	Number=Sing	0	root	_	start_char=3855|end_char=3860|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	start_char=3860|end_char=3861|SpacesAfter=\n\n
+
+# text = We want to, and do, suspend accounts engaging in that kind of behavior.
+# sent_id = 48
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=3863|end_char=3865
+2	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3866|end_char=3870
+3	to	to	PART	TO	_	2	xcomp	_	start_char=3871|end_char=3873|SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	start_char=3873|end_char=3874
+5	and	and	CCONJ	CC	_	6	cc	_	start_char=3875|end_char=3878
+6	do	do	VERB	VB	VerbForm=Inf	2	conj	_	start_char=3879|end_char=3881|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	start_char=3881|end_char=3882
+8	suspend	suspend	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=3883|end_char=3890
+9	accounts	account	NOUN	NNS	Number=Plur	8	obj	_	start_char=3891|end_char=3899
+10	engaging	engage	VERB	VBG	VerbForm=Ger	9	acl	_	start_char=3900|end_char=3908
+11	in	in	ADP	IN	_	13	case	_	start_char=3909|end_char=3911
+12	that	that	DET	DT	Number=Sing|PronType=Dem	13	det	_	start_char=3912|end_char=3916
+13	kind	kind	NOUN	NN	Number=Sing	10	obl	_	start_char=3917|end_char=3921
+14	of	of	ADP	IN	_	15	case	_	start_char=3922|end_char=3924
+15	behavior	behavior	NOUN	NN	Number=Sing	13	nmod	_	start_char=3925|end_char=3933|SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	start_char=3933|end_char=3934|SpacesAfter=\n\n
+
+# text = So why are the stakes higher for this?
+# sent_id = 49
+1	So	so	ADV	RB	_	6	advmod	_	start_char=3936|end_char=3938
+2	why	why	ADV	WRB	PronType=Int	6	advmod	_	start_char=3939|end_char=3942
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=3943|end_char=3946
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=3947|end_char=3950
+5	stakes	stake	NOUN	NNS	Number=Plur	6	nsubj	_	start_char=3951|end_char=3957
+6	higher	high	ADJ	JJR	Degree=Cmp	0	root	_	start_char=3958|end_char=3964
+7	for	for	ADP	IN	_	8	case	_	start_char=3965|end_char=3968
+8	this	this	PRON	DT	Number=Sing|PronType=Dem	6	obl	_	start_char=3969|end_char=3973|SpaceAfter=No
+9	?	?	PUNCT	.	_	6	punct	_	start_char=3973|end_char=3974|SpacesAfter=\n\n
+
+# text = Well, this could also be a bystander at a rally who managed to record a video of a police officer beating a non-violent protester who's trying to let the world know what's happening.
+# sent_id = 50
+1	Well	well	INTJ	UH	_	8	discourse	_	start_char=3976|end_char=3980|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=3980|end_char=3981
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	_	start_char=3982|end_char=3986
+4	could	could	AUX	MD	VerbForm=Fin	8	aux	_	start_char=3987|end_char=3992
+5	also	also	ADV	RB	_	8	advmod	_	start_char=3993|end_char=3997
+6	be	be	AUX	VB	VerbForm=Inf	8	cop	_	start_char=3998|end_char=4000
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=4001|end_char=4002
+8	bystander	bystander	NOUN	NN	Number=Sing	0	root	_	start_char=4003|end_char=4012
+9	at	at	ADP	IN	_	11	case	_	start_char=4013|end_char=4015
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=4016|end_char=4017
+11	rally	rally	NOUN	NN	Number=Sing	8	nmod	_	start_char=4018|end_char=4023
+12	who	who	PRON	WP	PronType=Rel	13	nsubj	_	start_char=4024|end_char=4027
+13	managed	manage	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	start_char=4028|end_char=4035
+14	to	to	PART	TO	_	15	mark	_	start_char=4036|end_char=4038
+15	record	record	VERB	VB	VerbForm=Inf	13	xcomp	_	start_char=4039|end_char=4045
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	start_char=4046|end_char=4047
+17	video	video	NOUN	NN	Number=Sing	15	obj	_	start_char=4048|end_char=4053
+18	of	of	ADP	IN	_	21	case	_	start_char=4054|end_char=4056
+19	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	start_char=4057|end_char=4058
+20	police	police	NOUN	NN	Number=Sing	21	compound	_	start_char=4059|end_char=4065
+21	officer	officer	NOUN	NN	Number=Sing	17	nmod	_	start_char=4066|end_char=4073
+22	beating	beat	VERB	VBG	VerbForm=Ger	21	acl	_	start_char=4074|end_char=4081
+23	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	start_char=4082|end_char=4083
+24	non-violent	non-violent	ADJ	JJ	Degree=Pos	25	amod	_	start_char=4084|end_char=4095
+25	protester	protester	NOUN	NN	Number=Sing	22	obj	_	start_char=4096|end_char=4105
+26-27	who's	_	_	_	_	_	_	_	start_char=4106|end_char=4111
+26	who	who	PRON	WP	PronType=Rel	28	nsubj	_	start_char=4106|end_char=4109
+27	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	start_char=4109|end_char=4111
+28	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	25	acl:relcl	_	start_char=4112|end_char=4118
+29	to	to	PART	TO	_	30	mark	_	start_char=4119|end_char=4121
+30	let	let	VERB	VB	VerbForm=Inf	28	xcomp	_	start_char=4122|end_char=4125
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	start_char=4126|end_char=4129
+32	world	world	NOUN	NN	Number=Sing	30	obj	_	start_char=4130|end_char=4135
+33	know	know	VERB	VB	VerbForm=Inf	30	xcomp	_	start_char=4136|end_char=4140
+34-35	what's	_	_	_	_	_	_	_	start_char=4141|end_char=4147
+34	what	what	PRON	WP	PronType=Int	36	nsubj	_	start_char=4141|end_char=4145
+35	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	start_char=4145|end_char=4147
+36	happening	happen	VERB	VBG	Tense=Pres|VerbForm=Part	33	ccomp	_	start_char=4148|end_char=4157|SpaceAfter=No
+37	.	.	PUNCT	.	_	8	punct	_	start_char=4157|end_char=4158|SpacesAfter=\n\n
+
+# text = We don't want to gamble on potentially silencing that crucial speech by classifying it as spam and suspending it.
+# sent_id = 51
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=4160|end_char=4162
+2-3	don't	_	_	_	_	_	_	_	start_char=4163|end_char=4168
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=4163|end_char=4165
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=4165|end_char=4168
+4	want	want	VERB	VB	VerbForm=Inf	0	root	_	start_char=4169|end_char=4173
+5	to	to	PART	TO	_	6	mark	_	start_char=4174|end_char=4176
+6	gamble	gamble	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=4177|end_char=4183
+7	on	on	SCONJ	IN	_	9	mark	_	start_char=4184|end_char=4186
+8	potentially	potentially	ADV	RB	_	9	advmod	_	start_char=4187|end_char=4198
+9	silencing	silence	VERB	VBG	Tense=Pres|VerbForm=Part	6	advcl	_	start_char=4199|end_char=4208
+10	that	that	DET	DT	Number=Sing|PronType=Dem	12	det	_	start_char=4209|end_char=4213
+11	crucial	crucial	ADJ	JJ	Degree=Pos	12	amod	_	start_char=4214|end_char=4221
+12	speech	speech	NOUN	NN	Number=Sing	9	obj	_	start_char=4222|end_char=4228
+13	by	by	SCONJ	IN	_	14	mark	_	start_char=4229|end_char=4231
+14	classifying	classify	VERB	VBG	Tense=Pres|VerbForm=Part	9	advcl	_	start_char=4232|end_char=4243
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	start_char=4244|end_char=4246
+16	as	as	ADP	IN	_	17	case	_	start_char=4247|end_char=4249
+17	spam	spam	NOUN	NN	Number=Sing	14	obl	_	start_char=4250|end_char=4254
+18	and	and	CCONJ	CC	_	19	cc	_	start_char=4255|end_char=4258
+19	suspending	suspend	VERB	VBG	Tense=Pres|VerbForm=Part	14	conj	_	start_char=4259|end_char=4269
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	_	start_char=4270|end_char=4272|SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	start_char=4272|end_char=4273|SpacesAfter=\n\n
+
+# text = That means we evaluate hundreds of parameters when looking at account behaviors, and even then, we can still get it wrong and have to reevaluate.
+# sent_id = 52
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	start_char=4275|end_char=4279
+2	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4280|end_char=4285
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=4286|end_char=4288
+4	evaluate	evaluate	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=4289|end_char=4297
+5	hundreds	hundred	NOUN	NNS	Number=Plur	4	obj	_	start_char=4298|end_char=4306
+6	of	of	ADP	IN	_	7	case	_	start_char=4307|end_char=4309
+7	parameters	parameter	NOUN	NNS	Number=Plur	5	nmod	_	start_char=4310|end_char=4320
+8	when	when	ADV	WRB	PronType=Int	9	advmod	_	start_char=4321|end_char=4325
+9	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	_	start_char=4326|end_char=4333
+10	at	at	ADP	IN	_	12	case	_	start_char=4334|end_char=4336
+11	account	account	NOUN	NN	Number=Sing	12	compound	_	start_char=4337|end_char=4344
+12	behaviors	behavior	NOUN	NNS	Number=Plur	9	obl	_	start_char=4345|end_char=4354|SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	start_char=4354|end_char=4355
+14	and	and	CCONJ	CC	_	21	cc	_	start_char=4356|end_char=4359
+15	even	even	ADV	RB	_	16	advmod	_	start_char=4360|end_char=4364
+16	then	then	ADV	RB	PronType=Dem	21	advmod	_	start_char=4365|end_char=4369|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	start_char=4369|end_char=4370
+18	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	start_char=4371|end_char=4373
+19	can	can	AUX	MD	VerbForm=Fin	21	aux	_	start_char=4374|end_char=4377
+20	still	still	ADV	RB	_	21	advmod	_	start_char=4378|end_char=4383
+21	get	get	VERB	VB	VerbForm=Inf	2	conj	_	start_char=4384|end_char=4387
+22	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obj	_	start_char=4388|end_char=4390
+23	wrong	wrong	ADJ	JJ	Degree=Pos	21	xcomp	_	start_char=4391|end_char=4396
+24	and	and	CCONJ	CC	_	25	cc	_	start_char=4397|end_char=4400
+25	have	have	VERB	VB	VerbForm=Inf	21	conj	_	start_char=4401|end_char=4405
+26	to	to	PART	TO	_	27	mark	_	start_char=4406|end_char=4408
+27	reevaluate	reevaluate	VERB	VB	VerbForm=Inf	25	xcomp	_	start_char=4409|end_char=4419|SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	start_char=4419|end_char=4420|SpacesAfter=\n\n
+
+# text = Now, given the sorts of challenges I'm up against, it's crucial that I not only predict but also design protections for the unexpected.
+# sent_id = 53
+1	Now	now	ADV	RB	_	15	advmod	_	start_char=4422|end_char=4425|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=4425|end_char=4426
+3	given	give	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	case	_	start_char=4427|end_char=4432
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=4433|end_char=4436
+5	sorts	sort	NOUN	NNS	Number=Plur	15	obl	_	start_char=4437|end_char=4442
+6	of	of	ADP	IN	_	7	case	_	start_char=4443|end_char=4445
+7	challenges	challenge	NOUN	NNS	Number=Plur	5	nmod	_	start_char=4446|end_char=4456
+8-9	I'm	_	_	_	_	_	_	_	start_char=4457|end_char=4460
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=4457|end_char=4458
+9	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=4458|end_char=4460
+10	up	up	ADV	RB	_	7	acl:relcl	_	start_char=4461|end_char=4463
+11	against	against	ADP	IN	_	10	obl	_	start_char=4464|end_char=4471|SpaceAfter=No
+12	,	,	PUNCT	,	_	5	punct	_	start_char=4471|end_char=4472
+13-14	it's	_	_	_	_	_	_	_	start_char=4473|end_char=4477
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	expl	_	start_char=4473|end_char=4475
+14	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=4475|end_char=4477
+15	crucial	crucial	ADJ	JJ	Degree=Pos	0	root	_	start_char=4478|end_char=4485
+16	that	that	SCONJ	IN	_	20	mark	_	start_char=4486|end_char=4490
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	start_char=4491|end_char=4492
+18	not	not	PART	RB	Polarity=Neg	20	advmod	_	start_char=4493|end_char=4496
+19	only	only	ADV	RB	_	20	advmod	_	start_char=4497|end_char=4501
+20	predict	predict	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	csubj	_	start_char=4502|end_char=4509
+21	but	but	CCONJ	CC	_	23	cc	_	start_char=4510|end_char=4513
+22	also	also	ADV	RB	_	23	advmod	_	start_char=4514|end_char=4518
+23	design	design	VERB	VB	VerbForm=Fin	20	conj	_	start_char=4519|end_char=4525
+24	protections	protection	NOUN	NNS	Number=Plur	23	obj	_	start_char=4526|end_char=4537
+25	for	for	ADP	IN	_	27	case	_	start_char=4538|end_char=4541
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	start_char=4542|end_char=4545
+27	unexpected	unexpected	ADJ	JJ	Degree=Pos	23	obl	_	start_char=4546|end_char=4556|SpaceAfter=No
+28	.	.	PUNCT	.	_	15	punct	_	start_char=4556|end_char=4557|SpacesAfter=\n\n
+
+# text = And that's not just an issue for me, or for Twitter, it's an issue for you.
+# sent_id = 54
+1	And	and	CCONJ	CC	_	7	cc	_	start_char=4559|end_char=4562
+2-3	that's	_	_	_	_	_	_	_	start_char=4563|end_char=4569
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	start_char=4563|end_char=4567
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=4567|end_char=4569
+4	not	not	PART	RB	Polarity=Neg	7	advmod	_	start_char=4570|end_char=4573
+5	just	just	ADV	RB	_	7	advmod	_	start_char=4574|end_char=4578
+6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=4579|end_char=4581
+7	issue	issue	NOUN	NN	Number=Sing	0	root	_	start_char=4582|end_char=4587
+8	for	for	ADP	IN	_	9	case	_	start_char=4588|end_char=4591
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	nmod	_	start_char=4592|end_char=4594|SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	start_char=4594|end_char=4595
+11	or	or	CCONJ	CC	_	18	cc	_	start_char=4596|end_char=4598
+12	for	for	ADP	IN	_	13	case	_	start_char=4599|end_char=4602
+13	Twitter	Twitter	PROPN	NNP	Number=Sing	18	obl	_	start_char=4603|end_char=4610|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	start_char=4610|end_char=4611
+15-16	it's	_	_	_	_	_	_	_	start_char=4612|end_char=4616
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	start_char=4612|end_char=4614
+16	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=4614|end_char=4616
+17	an	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	start_char=4617|end_char=4619
+18	issue	issue	NOUN	NN	Number=Sing	7	conj	_	start_char=4620|end_char=4625
+19	for	for	ADP	IN	_	20	case	_	start_char=4626|end_char=4629
+20	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	18	nmod	_	start_char=4630|end_char=4633|SpaceAfter=No
+21	.	.	PUNCT	.	_	7	punct	_	start_char=4633|end_char=4634|SpacesAfter=\n\n
+
+# text = It's an issue for anybody who's building or creating something that you think is going to be amazing and will let people do awesome things.
+# sent_id = 55
+1-2	It's	_	_	_	_	_	_	_	start_char=4636|end_char=4640
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=4636|end_char=4638
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=4638|end_char=4640
+3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=4641|end_char=4643
+4	issue	issue	NOUN	NN	Number=Sing	0	root	_	start_char=4644|end_char=4649
+5	for	for	ADP	IN	_	6	case	_	start_char=4650|end_char=4653
+6	anybody	anybody	PRON	NN	Number=Sing|PronType=Ind	4	nmod	_	start_char=4654|end_char=4661
+7-8	who's	_	_	_	_	_	_	_	start_char=4662|end_char=4667
+7	who	who	PRON	WP	PronType=Rel	9	nsubj	_	start_char=4662|end_char=4665
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=4665|end_char=4667
+9	building	build	VERB	VBG	Tense=Pres|VerbForm=Part	6	acl:relcl	_	start_char=4668|end_char=4676
+10	or	or	CCONJ	CC	_	11	cc	_	start_char=4677|end_char=4679
+11	creating	create	VERB	VBG	Tense=Pres|VerbForm=Part	9	conj	_	start_char=4680|end_char=4688
+12	something	something	PRON	NN	Number=Sing|PronType=Ind	11	obj	_	start_char=4689|end_char=4698
+13	that	that	PRON	WDT	PronType=Rel	17	obj	_	start_char=4699|end_char=4703
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	start_char=4704|end_char=4707
+15	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	start_char=4708|end_char=4713
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=4714|end_char=4716
+17	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	12	acl:relcl	_	start_char=4717|end_char=4722
+18	to	to	PART	TO	_	20	mark	_	start_char=4723|end_char=4725
+19	be	be	AUX	VB	VerbForm=Inf	20	cop	_	start_char=4726|end_char=4728
+20	amazing	amazing	ADJ	JJ	Degree=Pos	17	xcomp	_	start_char=4729|end_char=4736
+21	and	and	CCONJ	CC	_	23	cc	_	start_char=4737|end_char=4740
+22	will	will	AUX	MD	VerbForm=Fin	23	aux	_	start_char=4741|end_char=4745
+23	let	let	VERB	VB	VerbForm=Inf	17	conj	_	start_char=4746|end_char=4749
+24	people	person	NOUN	NNS	Number=Plur	23	obj	_	start_char=4750|end_char=4756
+25	do	do	VERB	VB	VerbForm=Inf	23	xcomp	_	start_char=4757|end_char=4759
+26	awesome	awesome	ADJ	JJ	Degree=Pos	27	amod	_	start_char=4760|end_char=4767
+27	things	thing	NOUN	NNS	Number=Plur	25	obj	_	start_char=4768|end_char=4774|SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	start_char=4774|end_char=4775|SpacesAfter=\n\n
+
+# text = So what do I do?
+# sent_id = 56
+1	So	so	ADV	RB	_	5	advmod	_	start_char=4777|end_char=4779
+2	what	what	PRON	WP	PronType=Int	5	obj	_	start_char=4780|end_char=4784
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=4785|end_char=4787
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=4788|end_char=4789
+5	do	do	VERB	VB	VerbForm=Inf	0	root	_	start_char=4790|end_char=4792|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	punct	_	start_char=4792|end_char=4793|SpacesAfter=\n\n
+
+# text = I pause and I think, how could all of this go horribly wrong?
+# sent_id = 57
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=4795|end_char=4796
+2	pause	pause	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4797|end_char=4802
+3	and	and	CCONJ	CC	_	5	cc	_	start_char=4803|end_char=4806
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=4807|end_char=4808
+5	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=4809|end_char=4814|SpaceAfter=No
+6	,	,	PUNCT	,	_	12	punct	_	start_char=4814|end_char=4815
+7	how	how	ADV	WRB	PronType=Int	12	advmod	_	start_char=4816|end_char=4819
+8	could	could	AUX	MD	VerbForm=Fin	12	aux	_	start_char=4820|end_char=4825
+9	all	all	DET	DT	PronType=Tot	12	nsubj	_	start_char=4826|end_char=4829
+10	of	of	ADP	IN	_	11	case	_	start_char=4830|end_char=4832
+11	this	this	PRON	DT	Number=Sing|PronType=Dem	9	nmod	_	start_char=4833|end_char=4837
+12	go	go	VERB	VB	VerbForm=Inf	2	parataxis	_	start_char=4838|end_char=4840
+13	horribly	horribly	ADV	RB	_	14	advmod	_	start_char=4841|end_char=4849
+14	wrong	wrong	ADJ	JJ	Degree=Pos	12	xcomp	_	start_char=4850|end_char=4855|SpaceAfter=No
+15	?	?	PUNCT	.	_	2	punct	_	start_char=4855|end_char=4856|SpacesAfter=\n\n
+
+# text = I visualize catastrophe.
+# sent_id = 58
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=4858|end_char=4859
+2	visualize	visualize	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4860|end_char=4869
+3	catastrophe	catastrophe	NOUN	NN	Number=Sing	2	obj	_	start_char=4870|end_char=4881|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=4881|end_char=4882|SpacesAfter=\n\n
+
+# text = And that's hard.
+# sent_id = 59
+1	And	and	CCONJ	CC	_	4	cc	_	start_char=4884|end_char=4887
+2-3	that's	_	_	_	_	_	_	_	start_char=4888|end_char=4894
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	start_char=4888|end_char=4892
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=4892|end_char=4894
+4	hard	hard	ADJ	JJ	Degree=Pos	0	root	_	start_char=4895|end_char=4899|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=4899|end_char=4900|SpacesAfter=\n\n
+
+# text = There's a sort of inherent cognitive dissonance in doing that, like when you're writing your wedding vows at the same time as your prenuptial agreement.
+# sent_id = 60
+1-2	There's	_	_	_	_	_	_	_	start_char=4902|end_char=4909
+1	There	there	PRON	EX	_	2	expl	_	start_char=4902|end_char=4907
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4907|end_char=4909
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=4910|end_char=4911
+4	sort	sort	NOUN	NN	Number=Sing	2	nsubj	_	start_char=4912|end_char=4916
+5	of	of	ADP	IN	_	8	case	_	start_char=4917|end_char=4919
+6	inherent	inherent	ADJ	JJ	Degree=Pos	8	amod	_	start_char=4920|end_char=4928
+7	cognitive	cognitive	ADJ	JJ	Degree=Pos	8	amod	_	start_char=4929|end_char=4938
+8	dissonance	dissonance	NOUN	NN	Number=Sing	4	nmod	_	start_char=4939|end_char=4949
+9	in	in	SCONJ	IN	_	10	mark	_	start_char=4950|end_char=4952
+10	doing	do	VERB	VBG	VerbForm=Ger	8	acl	_	start_char=4953|end_char=4958
+11	that	that	PRON	DT	Number=Sing|PronType=Dem	10	obj	_	start_char=4959|end_char=4963|SpaceAfter=No
+12	,	,	PUNCT	,	_	17	punct	_	start_char=4963|end_char=4964
+13	like	like	INTJ	UH	_	17	discourse	_	start_char=4965|end_char=4969
+14	when	when	ADV	WRB	PronType=Int	17	advmod	_	start_char=4970|end_char=4974
+15-16	you're	_	_	_	_	_	_	_	start_char=4975|end_char=4981
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	start_char=4975|end_char=4978
+16	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=4978|end_char=4981
+17	writing	write	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	_	start_char=4982|end_char=4989
+18	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	20	nmod:poss	_	start_char=4990|end_char=4994
+19	wedding	wedding	NOUN	NN	Number=Sing	20	compound	_	start_char=4995|end_char=5002
+20	vows	vow	NOUN	NNS	Number=Plur	17	obj	_	start_char=5003|end_char=5007
+21	at	at	ADP	IN	_	24	case	_	start_char=5008|end_char=5010
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	start_char=5011|end_char=5014
+23	same	same	ADJ	JJ	Degree=Pos	24	amod	_	start_char=5015|end_char=5019
+24	time	time	NOUN	NN	Number=Sing	17	obl	_	start_char=5020|end_char=5024
+25	as	as	ADP	IN	_	28	case	_	start_char=5025|end_char=5027
+26	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	28	nmod:poss	_	start_char=5028|end_char=5032
+27	prenuptial	prenuptial	ADJ	JJ	Degree=Pos	28	amod	_	start_char=5033|end_char=5043
+28	agreement	agreement	NOUN	NN	Number=Sing	24	nmod	_	start_char=5044|end_char=5053|SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	start_char=5053|end_char=5054|SpacesAfter=\n\n
+
+# text = But you still have to do it, particularly if you're marrying 500 million tweets per day.
+# sent_id = 61
+1	But	but	CCONJ	CC	_	4	cc	_	start_char=5056|end_char=5059
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=5060|end_char=5063
+3	still	still	ADV	RB	_	4	advmod	_	start_char=5064|end_char=5069
+4	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5070|end_char=5074
+5	to	to	PART	TO	_	6	mark	_	start_char=5075|end_char=5077
+6	do	do	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=5078|end_char=5080
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	start_char=5081|end_char=5083|SpaceAfter=No
+8	,	,	PUNCT	,	_	13	punct	_	start_char=5083|end_char=5084
+9	particularly	particularly	ADV	RB	_	13	advmod	_	start_char=5085|end_char=5097
+10	if	if	SCONJ	IN	_	13	mark	_	start_char=5098|end_char=5100
+11-12	you're	_	_	_	_	_	_	_	start_char=5101|end_char=5107
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	start_char=5101|end_char=5104
+12	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=5104|end_char=5107
+13	marrying	marry	VERB	VBG	Tense=Pres|VerbForm=Part	6	advcl	_	start_char=5108|end_char=5116
+14	500	500	NUM	CD	NumForm=Digit|NumType=Card	15	compound	_	start_char=5117|end_char=5120
+15	million	million	NUM	CD	NumForm=Word|NumType=Card	16	nummod	_	start_char=5121|end_char=5128
+16	tweets	tweet	NOUN	NNS	Number=Plur	13	obj	_	start_char=5129|end_char=5135
+17	per	per	ADP	IN	_	18	case	_	start_char=5136|end_char=5139
+18	day	day	NOUN	NN	Number=Sing	13	obl	_	start_char=5140|end_char=5143|SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	start_char=5143|end_char=5144|SpacesAfter=\n\n
+
+# text = What do I mean by "visualize catastrophe?"
+# sent_id = 62
+1	What	what	PRON	WP	PronType=Int	7	obj	_	start_char=5146|end_char=5150
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=5151|end_char=5153
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=5154|end_char=5155
+4	mean	mean	VERB	VB	VerbForm=Inf	0	root	_	start_char=5156|end_char=5160
+5	by	by	ADP	IN	_	7	mark	_	start_char=5161|end_char=5163
+6	"	"	PUNCT	``	_	7	punct	_	start_char=5164|end_char=5165|SpaceAfter=No
+7	visualize	visualize	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=5165|end_char=5174
+8	catastrophe	catastrophe	NOUN	NN	Number=Sing	7	obj	_	start_char=5175|end_char=5186|SpaceAfter=No
+9	?	?	PUNCT	.	_	7	punct	_	start_char=5186|end_char=5187|SpaceAfter=No
+10	"	"	PUNCT	''	_	7	punct	_	start_char=5187|end_char=5188|SpacesAfter=\n\n
+
+# text = I try to think of how something as benign and innocuous as a picture of a cat could lead to death, and what to do to prevent that.
+# sent_id = 63
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=5190|end_char=5191
+2	try	try	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5192|end_char=5195
+3	to	to	PART	TO	_	4	mark	_	start_char=5196|end_char=5198
+4	think	think	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=5199|end_char=5204
+5	of	of	ADP	IN	_	6	case	_	start_char=5205|end_char=5207
+6	how	how	ADV	WRB	PronType=Int	4	obl	_	start_char=5208|end_char=5211
+7	something	something	PRON	NN	Number=Sing|PronType=Ind	19	nsubj	_	start_char=5212|end_char=5221
+8	as	as	ADP	IN	_	9	case	_	start_char=5222|end_char=5224
+9	benign	benign	ADJ	JJ	Degree=Pos	7	nmod	_	start_char=5225|end_char=5231
+10	and	and	CCONJ	CC	_	11	cc	_	start_char=5232|end_char=5235
+11	innocuous	innocuous	ADJ	JJ	Degree=Pos	9	conj	_	start_char=5236|end_char=5245
+12	as	as	SCONJ	IN	_	19	mark	_	start_char=5246|end_char=5248
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	start_char=5249|end_char=5250
+14	picture	picture	NOUN	NN	Number=Sing	19	nsubj	_	start_char=5251|end_char=5258
+15	of	of	ADP	IN	_	17	case	_	start_char=5259|end_char=5261
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	start_char=5262|end_char=5263
+17	cat	cat	NOUN	NN	Number=Sing	14	nmod	_	start_char=5264|end_char=5267
+18	could	could	AUX	MD	VerbForm=Fin	19	aux	_	start_char=5268|end_char=5273
+19	lead	lead	VERB	VB	VerbForm=Inf	4	advcl	_	start_char=5274|end_char=5278
+20	to	to	ADP	IN	_	21	case	_	start_char=5279|end_char=5281
+21	death	death	NOUN	NN	Number=Sing	19	obl	_	start_char=5282|end_char=5287|SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	start_char=5287|end_char=5288
+23	and	and	CCONJ	CC	_	24	cc	_	start_char=5289|end_char=5292
+24	what	what	PRON	WP	PronType=Int	19	conj	_	start_char=5293|end_char=5297
+25	to	to	PART	TO	_	26	mark	_	start_char=5298|end_char=5300
+26	do	do	VERB	VB	VerbForm=Inf	24	acl	_	start_char=5301|end_char=5303
+27	to	to	PART	TO	_	28	mark	_	start_char=5304|end_char=5306
+28	prevent	prevent	VERB	VB	VerbForm=Inf	26	advcl	_	start_char=5307|end_char=5314
+29	that	that	PRON	DT	Number=Sing|PronType=Dem	28	obj	_	start_char=5315|end_char=5319|SpaceAfter=No
+30	.	.	PUNCT	.	_	2	punct	_	start_char=5319|end_char=5320|SpacesAfter=\n\n
+
+# text = Which happens to be my next example.
+# sent_id = 64
+1	Which	which	PRON	WDT	PronType=Int	2	nsubj	_	start_char=5322|end_char=5327
+2	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5328|end_char=5335
+3	to	to	PART	TO	_	7	mark	_	start_char=5336|end_char=5338
+4	be	be	AUX	VB	VerbForm=Inf	7	cop	_	start_char=5339|end_char=5341
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=5342|end_char=5344
+6	next	next	ADJ	JJ	Degree=Pos	7	amod	_	start_char=5345|end_char=5349
+7	example	example	NOUN	NN	Number=Sing	2	xcomp	_	start_char=5350|end_char=5357|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=5357|end_char=5358|SpacesAfter=\n\n
+
+# text = This is my cat, Eli.
+# sent_id = 65
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	start_char=5360|end_char=5364
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=5365|end_char=5367
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=5368|end_char=5370
+4	cat	cat	NOUN	NN	Number=Sing	0	root	_	start_char=5371|end_char=5374|SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	start_char=5374|end_char=5375
+6	Eli	Eli	PROPN	NNP	Number=Sing	4	vocative	_	start_char=5376|end_char=5379|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=5379|end_char=5380|SpacesAfter=\n\n
+
+# text = We wanted to give users the ability to add photos to their tweets.
+# sent_id = 66
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=5382|end_char=5384
+2	wanted	want	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=5385|end_char=5391
+3	to	to	PART	TO	_	4	mark	_	start_char=5392|end_char=5394
+4	give	give	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=5395|end_char=5399
+5	users	user	NOUN	NNS	Number=Plur	4	iobj	_	start_char=5400|end_char=5405
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=5406|end_char=5409
+7	ability	ability	NOUN	NN	Number=Sing	4	obj	_	start_char=5410|end_char=5417
+8	to	to	PART	TO	_	9	mark	_	start_char=5418|end_char=5420
+9	add	add	VERB	VB	VerbForm=Inf	7	acl	_	start_char=5421|end_char=5424
+10	photos	photo	NOUN	NNS	Number=Plur	9	obj	_	start_char=5425|end_char=5431
+11	to	to	ADP	IN	_	13	case	_	start_char=5432|end_char=5434
+12	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=5435|end_char=5440
+13	tweets	tweet	NOUN	NNS	Number=Plur	9	obl	_	start_char=5441|end_char=5447|SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	start_char=5447|end_char=5448|SpacesAfter=\n\n
+
+# text = A picture is worth a thousand words.
+# sent_id = 67
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	start_char=5450|end_char=5451
+2	picture	picture	NOUN	NN	Number=Sing	4	nsubj	_	start_char=5452|end_char=5459
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=5460|end_char=5462
+4	worth	worth	ADJ	JJ	Degree=Pos	0	root	_	start_char=5463|end_char=5468
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=5469|end_char=5470
+6	thousand	thousand	NUM	CD	NumForm=Word|NumType=Card	7	nummod	_	start_char=5471|end_char=5479
+7	words	word	NOUN	NNS	Number=Plur	4	obj	_	start_char=5480|end_char=5485|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=5485|end_char=5486|SpacesAfter=\n\n
+
+# text = You only get 140 characters.
+# sent_id = 68
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=5488|end_char=5491
+2	only	only	ADV	RB	_	3	advmod	_	start_char=5492|end_char=5496
+3	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5497|end_char=5500
+4	140	140	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	_	start_char=5501|end_char=5504
+5	characters	character	NOUN	NNS	Number=Plur	3	obj	_	start_char=5505|end_char=5515|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=5515|end_char=5516|SpacesAfter=\n\n
+
+# text = You add a photo to your tweet, look at how much more content you've got now.
+# sent_id = 69
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	start_char=5518|end_char=5521
+2	add	add	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5522|end_char=5525
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=5526|end_char=5527
+4	photo	photo	NOUN	NN	Number=Sing	2	obj	_	start_char=5528|end_char=5533
+5	to	to	ADP	IN	_	7	case	_	start_char=5534|end_char=5536
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=5537|end_char=5541
+7	tweet	tweet	NOUN	NN	Number=Sing	2	obl	_	start_char=5542|end_char=5547|SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	start_char=5547|end_char=5548
+9	look	look	VERB	VB	Mood=Imp|VerbForm=Fin	2	parataxis	_	start_char=5549|end_char=5553
+10	at	at	ADP	IN	_	14	case	_	start_char=5554|end_char=5556
+11	how	how	ADV	WRB	PronType=Int	12	advmod	_	start_char=5557|end_char=5560
+12	much	much	ADV	RB	Degree=Pos	13	advmod	_	start_char=5561|end_char=5565
+13	more	more	ADJ	JJR	Degree=Cmp	14	amod	_	start_char=5566|end_char=5570
+14	content	content	NOUN	NN	Number=Sing	9	obl	_	start_char=5571|end_char=5578
+15-16	you've	_	_	_	_	_	_	_	start_char=5579|end_char=5585
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	start_char=5579|end_char=5582
+16	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=5582|end_char=5585
+17	got	get	VERB	VBN	Tense=Past|VerbForm=Part	14	acl:relcl	_	start_char=5586|end_char=5589
+18	now	now	ADV	RB	_	17	advmod	_	start_char=5590|end_char=5593|SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	start_char=5593|end_char=5594|SpacesAfter=\n\n
+
+# text = There's all sorts of great things you can do by adding a photo to a tweet.
+# sent_id = 70
+1-2	There's	_	_	_	_	_	_	_	start_char=5596|end_char=5603
+1	There	there	PRON	EX	_	2	expl	_	start_char=5596|end_char=5601
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5601|end_char=5603
+3	all	all	DET	DT	PronType=Tot	4	det	_	start_char=5604|end_char=5607
+4	sorts	sort	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=5608|end_char=5613
+5	of	of	ADP	IN	_	7	case	_	start_char=5614|end_char=5616
+6	great	great	ADJ	JJ	Degree=Pos	7	amod	_	start_char=5617|end_char=5622
+7	things	thing	NOUN	NNS	Number=Plur	4	nmod	_	start_char=5623|end_char=5629
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	start_char=5630|end_char=5633
+9	can	can	AUX	MD	VerbForm=Fin	10	aux	_	start_char=5634|end_char=5637
+10	do	do	VERB	VB	VerbForm=Inf	7	acl:relcl	_	start_char=5638|end_char=5640
+11	by	by	SCONJ	IN	_	12	mark	_	start_char=5641|end_char=5643
+12	adding	add	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	_	start_char=5644|end_char=5650
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	start_char=5651|end_char=5652
+14	photo	photo	NOUN	NN	Number=Sing	12	obj	_	start_char=5653|end_char=5658
+15	to	to	ADP	IN	_	17	case	_	start_char=5659|end_char=5661
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	start_char=5662|end_char=5663
+17	tweet	tweet	NOUN	NN	Number=Sing	12	obl	_	start_char=5664|end_char=5669|SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	start_char=5669|end_char=5670|SpacesAfter=\n\n
+
+# text = My job isn't to think of those.
+# sent_id = 71
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=5672|end_char=5674
+2	job	job	NOUN	NN	Number=Sing	6	nsubj:outer	_	start_char=5675|end_char=5678
+3-4	isn't	_	_	_	_	_	_	_	start_char=5679|end_char=5684
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=5679|end_char=5681
+4	n't	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=5681|end_char=5684
+5	to	to	PART	TO	_	6	mark	_	start_char=5685|end_char=5687
+6	think	think	VERB	VB	VerbForm=Inf	0	root	_	start_char=5688|end_char=5693
+7	of	of	ADP	IN	_	8	case	_	start_char=5694|end_char=5696
+8	those	that	PRON	DT	Number=Plur|PronType=Dem	6	obl	_	start_char=5697|end_char=5702|SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	start_char=5702|end_char=5703|SpacesAfter=\n\n
+
+# text = It's to think of what could go wrong.
+# sent_id = 72
+1-2	It's	_	_	_	_	_	_	_	start_char=5705|end_char=5709
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj:outer	_	start_char=5705|end_char=5707
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=5707|end_char=5709
+3	to	to	PART	TO	_	4	mark	_	start_char=5710|end_char=5712
+4	think	think	VERB	VB	VerbForm=Inf	0	root	_	start_char=5713|end_char=5718
+5	of	of	ADP	IN	_	6	case	_	start_char=5719|end_char=5721
+6	what	what	PRON	WP	PronType=Int	4	obl	_	start_char=5722|end_char=5726
+7	could	could	AUX	MD	VerbForm=Fin	8	aux	_	start_char=5727|end_char=5732
+8	go	go	VERB	VB	VerbForm=Inf	6	acl:relcl	_	start_char=5733|end_char=5735
+9	wrong	wrong	ADJ	JJ	Degree=Pos	8	xcomp	_	start_char=5736|end_char=5741|SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	start_char=5741|end_char=5742|SpacesAfter=\n\n
+
+# text = How could this picture lead to my death?
+# sent_id = 73
+1	How	how	ADV	WRB	PronType=Int	5	advmod	_	start_char=5744|end_char=5747
+2	could	could	AUX	MD	VerbForm=Fin	5	aux	_	start_char=5748|end_char=5753
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	start_char=5754|end_char=5758
+4	picture	picture	NOUN	NN	Number=Sing	5	nsubj	_	start_char=5759|end_char=5766
+5	lead	lead	VERB	VB	VerbForm=Inf	0	root	_	start_char=5767|end_char=5771
+6	to	to	ADP	IN	_	8	case	_	start_char=5772|end_char=5774
+7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=5775|end_char=5777
+8	death	death	NOUN	NN	Number=Sing	5	obl	_	start_char=5778|end_char=5783|SpaceAfter=No
+9	?	?	PUNCT	.	_	5	punct	_	start_char=5783|end_char=5784|SpacesAfter=\n\n
+
+# text = Well, here's one possibility.
+# sent_id = 74
+1	Well	well	INTJ	UH	_	3	discourse	_	start_char=5786|end_char=5790|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=5790|end_char=5791
+3-4	here's	_	_	_	_	_	_	_	start_char=5792|end_char=5798
+3	here	here	ADV	RB	PronType=Dem	0	root	_	start_char=5792|end_char=5796
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=5796|end_char=5798
+5	one	one	NUM	CD	NumForm=Word|NumType=Card	6	nummod	_	start_char=5799|end_char=5802
+6	possibility	possibility	NOUN	NN	Number=Sing	3	nsubj	_	start_char=5803|end_char=5814|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=5814|end_char=5815|SpacesAfter=\n\n
+
+# text = There's more in that picture than just a cat.
+# sent_id = 75
+1-2	There's	_	_	_	_	_	_	_	start_char=5817|end_char=5824
+1	There	there	PRON	EX	_	2	expl	_	start_char=5817|end_char=5822
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5822|end_char=5824
+3	more	more	ADJ	JJR	Degree=Cmp	2	nsubj	_	start_char=5825|end_char=5829
+4	in	in	ADP	IN	_	6	case	_	start_char=5830|end_char=5832
+5	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	start_char=5833|end_char=5837
+6	picture	picture	NOUN	NN	Number=Sing	3	obl	_	start_char=5838|end_char=5845
+7	than	than	ADP	IN	_	10	case	_	start_char=5846|end_char=5850
+8	just	just	ADV	RB	_	10	advmod	_	start_char=5851|end_char=5855
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=5856|end_char=5857
+10	cat	cat	NOUN	NN	Number=Sing	2	obl	_	start_char=5858|end_char=5861|SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	start_char=5861|end_char=5862|SpacesAfter=\n\n
+
+# text = There's geodata.
+# sent_id = 76
+1-2	There's	_	_	_	_	_	_	_	start_char=5864|end_char=5871
+1	There	there	PRON	EX	_	2	expl	_	start_char=5864|end_char=5869
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5869|end_char=5871
+3	geodata	geodata	NOUN	NN	Number=Sing	2	nsubj	_	start_char=5872|end_char=5879|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=5879|end_char=5880|SpacesAfter=\n\n
+
+# text = When you take a picture with your smartphone or digital camera, there's a lot of additional information saved along in that image.
+# sent_id = 77
+1	When	when	ADV	WRB	PronType=Int	3	advmod	_	start_char=5882|end_char=5886
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=5887|end_char=5890
+3	take	take	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	advcl	_	start_char=5891|end_char=5895
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=5896|end_char=5897
+5	picture	picture	NOUN	NN	Number=Sing	3	obj	_	start_char=5898|end_char=5905
+6	with	with	ADP	IN	_	11	case	_	start_char=5906|end_char=5910
+7	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=5911|end_char=5915
+8	smartphone	smartphone	NOUN	NN	Number=Sing	11	compound	_	start_char=5916|end_char=5926
+9	or	or	CCONJ	CC	_	10	cc	_	start_char=5927|end_char=5929
+10	digital	digital	ADJ	JJ	Degree=Pos	8	conj	_	start_char=5930|end_char=5937
+11	camera	camera	NOUN	NN	Number=Sing	5	nmod	_	start_char=5938|end_char=5944|SpaceAfter=No
+12	,	,	PUNCT	,	_	3	punct	_	start_char=5944|end_char=5945
+13-14	there's	_	_	_	_	_	_	_	start_char=5946|end_char=5953
+13	there	there	PRON	EX	_	14	expl	_	start_char=5946|end_char=5951
+14	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5951|end_char=5953
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	start_char=5954|end_char=5955
+16	lot	lot	NOUN	NN	Number=Sing	14	nsubj	_	start_char=5956|end_char=5959
+17	of	of	ADP	IN	_	19	case	_	start_char=5960|end_char=5962
+18	additional	additional	ADJ	JJ	Degree=Pos	19	amod	_	start_char=5963|end_char=5973
+19	information	information	NOUN	NN	Number=Sing	16	nmod	_	start_char=5974|end_char=5985
+20	saved	save	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	acl	_	start_char=5986|end_char=5991
+21	along	along	ADV	RB	_	20	advmod	_	start_char=5992|end_char=5997
+22	in	in	ADP	IN	_	24	case	_	start_char=5998|end_char=6000
+23	that	that	DET	DT	Number=Sing|PronType=Dem	24	det	_	start_char=6001|end_char=6005
+24	image	image	NOUN	NN	Number=Sing	20	obl	_	start_char=6006|end_char=6011|SpaceAfter=No
+25	.	.	PUNCT	.	_	14	punct	_	start_char=6011|end_char=6012|SpacesAfter=\n\n
+
+# text = In fact, this image also contains the equivalent of this, more specifically, this.
+# sent_id = 78
+1	In	in	ADP	IN	_	2	case	_	start_char=6014|end_char=6016
+2	fact	fact	NOUN	NN	Number=Sing	7	obl	_	start_char=6017|end_char=6021|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=6021|end_char=6022
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	start_char=6023|end_char=6027
+5	image	image	NOUN	NN	Number=Sing	7	nsubj	_	start_char=6028|end_char=6033
+6	also	also	ADV	RB	_	7	advmod	_	start_char=6034|end_char=6038
+7	contains	contain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6039|end_char=6047
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=6048|end_char=6051
+9	equivalent	equivalent	NOUN	NN	Number=Sing	7	obj	_	start_char=6052|end_char=6062
+10	of	of	ADP	IN	_	11	case	_	start_char=6063|end_char=6065
+11	this	this	PRON	DT	Number=Sing|PronType=Dem	9	nmod	_	start_char=6066|end_char=6070|SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	start_char=6070|end_char=6071
+13	more	more	ADV	RBR	Degree=Cmp	14	advmod	_	start_char=6072|end_char=6076
+14	specifically	specifically	ADV	RB	_	7	advmod	_	start_char=6077|end_char=6089|SpaceAfter=No
+15	,	,	PUNCT	,	_	16	punct	_	start_char=6089|end_char=6090
+16	this	this	PRON	DT	Number=Sing|PronType=Dem	9	appos	_	start_char=6091|end_char=6095|SpaceAfter=No
+17	.	.	PUNCT	.	_	7	punct	_	start_char=6095|end_char=6096|SpacesAfter=\n\n
+
+# text = Sure, it's not likely that someone's going to try to track me down and do me harm based upon image data associated with a picture I took of my cat, but I start by assuming the worst will happen.
+# sent_id = 79
+1	Sure	sure	INTJ	UH	_	6	discourse	_	start_char=6098|end_char=6102|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=6102|end_char=6103
+3-4	it's	_	_	_	_	_	_	_	start_char=6104|end_char=6108
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	start_char=6104|end_char=6106
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=6106|end_char=6108
+5	not	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=6109|end_char=6112
+6	likely	likely	ADJ	JJ	Degree=Pos	0	root	_	start_char=6113|end_char=6119
+7	that	that	SCONJ	IN	_	10	mark	_	start_char=6120|end_char=6124
+8-9	someone's	_	_	_	_	_	_	_	start_char=6125|end_char=6134
+8	someone	someone	PRON	NN	Number=Sing|PronType=Ind	10	nsubj	_	start_char=6125|end_char=6132
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=6132|end_char=6134
+10	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	6	csubj	_	start_char=6135|end_char=6140
+11	to	to	PART	TO	_	12	mark	_	start_char=6141|end_char=6143
+12	try	try	VERB	VB	VerbForm=Inf	10	xcomp	_	start_char=6144|end_char=6147
+13	to	to	PART	TO	_	14	mark	_	start_char=6148|end_char=6150
+14	track	track	VERB	VB	VerbForm=Inf	12	xcomp	_	start_char=6151|end_char=6156
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	_	start_char=6157|end_char=6159
+16	down	down	ADP	RP	_	14	compound:prt	_	start_char=6160|end_char=6164
+17	and	and	CCONJ	CC	_	18	cc	_	start_char=6165|end_char=6168
+18	do	do	VERB	VB	VerbForm=Inf	14	conj	_	start_char=6169|end_char=6171
+19	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	iobj	_	start_char=6172|end_char=6174
+20	harm	harm	NOUN	NN	Number=Sing	18	obj	_	start_char=6175|end_char=6179
+21	based	base	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	24	case	_	start_char=6180|end_char=6185
+22	upon	upon	ADP	IN	_	24	case	_	start_char=6186|end_char=6190
+23	image	image	NOUN	NN	Number=Sing	24	compound	_	start_char=6191|end_char=6196
+24	data	datum	NOUN	NNS	Number=Plur	18	obl	_	start_char=6197|end_char=6201
+25	associated	associate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	24	acl	_	start_char=6202|end_char=6212
+26	with	with	ADP	IN	_	28	case	_	start_char=6213|end_char=6217
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	start_char=6218|end_char=6219
+28	picture	picture	NOUN	NN	Number=Sing	25	obl	_	start_char=6220|end_char=6227
+29	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	nsubj	_	start_char=6228|end_char=6229
+30	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	28	acl:relcl	_	start_char=6230|end_char=6234
+31	of	of	ADP	IN	_	33	case	_	start_char=6235|end_char=6237
+32	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	33	nmod:poss	_	start_char=6238|end_char=6240
+33	cat	cat	NOUN	NN	Number=Sing	30	obl	_	start_char=6241|end_char=6244|SpaceAfter=No
+34	,	,	PUNCT	,	_	37	punct	_	start_char=6244|end_char=6245
+35	but	but	CCONJ	CC	_	37	cc	_	start_char=6246|end_char=6249
+36	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	37	nsubj	_	start_char=6250|end_char=6251
+37	start	start	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	start_char=6252|end_char=6257
+38	by	by	SCONJ	IN	_	39	mark	_	start_char=6258|end_char=6260
+39	assuming	assume	VERB	VBG	Tense=Pres|VerbForm=Part	37	advcl	_	start_char=6261|end_char=6269
+40	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	start_char=6270|end_char=6273
+41	worst	bad	ADJ	JJS	Degree=Sup	43	nsubj	_	start_char=6274|end_char=6279
+42	will	will	AUX	MD	VerbForm=Fin	43	aux	_	start_char=6280|end_char=6284
+43	happen	happen	VERB	VB	VerbForm=Inf	39	ccomp	_	start_char=6285|end_char=6291|SpaceAfter=No
+44	.	.	PUNCT	.	_	6	punct	_	start_char=6291|end_char=6292|SpacesAfter=\n\n
+
+# text = That's why, when we launched photos on Twitter, we made the decision to strip that geodata out.
+# sent_id = 80
+1-2	That's	_	_	_	_	_	_	_	start_char=6294|end_char=6300
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	start_char=6294|end_char=6298
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=6298|end_char=6300
+3	why	why	ADV	WRB	PronType=Rel	0	root	_	start_char=6301|end_char=6304|SpaceAfter=No
+4	,	,	PUNCT	,	_	13	punct	_	start_char=6304|end_char=6305
+5	when	when	ADV	WRB	PronType=Int	7	advmod	_	start_char=6306|end_char=6310
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=6311|end_char=6313
+7	launched	launch	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	13	advcl	_	start_char=6314|end_char=6322
+8	photos	photo	NOUN	NNS	Number=Plur	7	obj	_	start_char=6323|end_char=6329
+9	on	on	ADP	IN	_	10	case	_	start_char=6330|end_char=6332
+10	Twitter	Twitter	PROPN	NNP	Number=Sing	7	obl	_	start_char=6333|end_char=6340|SpaceAfter=No
+11	,	,	PUNCT	,	_	7	punct	_	start_char=6340|end_char=6341
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	start_char=6342|end_char=6344
+13	made	make	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	parataxis	_	start_char=6345|end_char=6349
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=6350|end_char=6353
+15	decision	decision	NOUN	NN	Number=Sing	13	obj	_	start_char=6354|end_char=6362
+16	to	to	PART	TO	_	17	mark	_	start_char=6363|end_char=6365
+17	strip	strip	VERB	VB	VerbForm=Inf	15	acl	_	start_char=6366|end_char=6371
+18	that	that	DET	DT	Number=Sing|PronType=Dem	19	det	_	start_char=6372|end_char=6376
+19	geodata	geodata	NOUN	NN	Number=Sing	17	obj	_	start_char=6377|end_char=6384
+20	out	out	ADP	RP	_	17	compound:prt	_	start_char=6385|end_char=6388|SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	start_char=6388|end_char=6389|SpacesAfter=\n\n
+
+# text = If I start by assuming the worst and work backwards, I can make sure that the protections we build work for both expected and unexpected use cases.
+# sent_id = 81
+1	If	if	SCONJ	IN	_	3	mark	_	start_char=6391|end_char=6393
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=6394|end_char=6395
+3	start	start	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	advcl	_	start_char=6396|end_char=6401
+4	by	by	SCONJ	IN	_	5	mark	_	start_char=6402|end_char=6404
+5	assuming	assume	VERB	VBG	Tense=Pres|VerbForm=Part	3	advcl	_	start_char=6405|end_char=6413
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=6414|end_char=6417
+7	worst	bad	ADJ	JJS	Degree=Sup	5	obj	_	start_char=6418|end_char=6423
+8	and	and	CCONJ	CC	_	9	cc	_	start_char=6424|end_char=6427
+9	work	work	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=6428|end_char=6432
+10	backwards	backwards	ADV	RB	_	9	advmod	_	start_char=6433|end_char=6442|SpaceAfter=No
+11	,	,	PUNCT	,	_	3	punct	_	start_char=6442|end_char=6443
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=6444|end_char=6445
+13	can	can	AUX	MD	VerbForm=Fin	14	aux	_	start_char=6446|end_char=6449
+14	make	make	VERB	VB	VerbForm=Inf	0	root	_	start_char=6450|end_char=6454
+15	sure	sure	ADJ	JJ	Degree=Pos	14	xcomp	_	start_char=6455|end_char=6459
+16	that	that	SCONJ	IN	_	21	mark	_	start_char=6460|end_char=6464
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=6465|end_char=6468
+18	protections	protection	NOUN	NNS	Number=Plur	21	nsubj	_	start_char=6469|end_char=6480
+19	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	start_char=6481|end_char=6483
+20	build	build	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	start_char=6484|end_char=6489
+21	work	work	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin	15	ccomp	_	start_char=6490|end_char=6494
+22	for	for	ADP	IN	_	28	case	_	start_char=6495|end_char=6498
+23	both	both	CCONJ	CC	_	28	cc:preconj	_	start_char=6499|end_char=6503
+24	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	28	amod	_	start_char=6504|end_char=6512
+25	and	and	CCONJ	CC	_	26	cc	_	start_char=6513|end_char=6516
+26	unexpected	unexpected	ADJ	JJ	Degree=Pos	24	conj	_	start_char=6517|end_char=6527
+27	use	use	NOUN	NN	Number=Sing	28	compound	_	start_char=6528|end_char=6531
+28	cases	case	NOUN	NNS	Number=Plur	21	obl	_	start_char=6532|end_char=6537|SpaceAfter=No
+29	.	.	PUNCT	.	_	14	punct	_	start_char=6537|end_char=6538|SpacesAfter=\n\n
+
+# text = Given that I spend my days and nights imagining the worst that could happen, it wouldn't be surprising if my worldview was gloomy.
+# sent_id = 82
+1	Given	give	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	advcl	_	start_char=6540|end_char=6545
+2	that	that	SCONJ	IN	_	4	mark	_	start_char=6546|end_char=6550
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=6551|end_char=6552
+4	spend	spend	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	ccomp	_	start_char=6553|end_char=6558
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=6559|end_char=6561
+6	days	day	NOUN	NNS	Number=Plur	4	obj	_	start_char=6562|end_char=6566
+7	and	and	CCONJ	CC	_	8	cc	_	start_char=6567|end_char=6570
+8	nights	night	NOUN	NNS	Number=Plur	6	conj	_	start_char=6571|end_char=6577
+9	imagining	imagin	VERB	VBG	VerbForm=Ger	4	advcl	_	start_char=6578|end_char=6587
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=6588|end_char=6591
+11	worst	bad	ADJ	JJS	Degree=Sup	9	obj	_	start_char=6592|end_char=6597
+12	that	that	PRON	WDT	PronType=Rel	14	nsubj	_	start_char=6598|end_char=6602
+13	could	could	AUX	MD	VerbForm=Fin	14	aux	_	start_char=6603|end_char=6608
+14	happen	happen	VERB	VB	VerbForm=Inf	11	acl:relcl	_	start_char=6609|end_char=6615|SpaceAfter=No
+15	,	,	PUNCT	,	_	1	punct	_	start_char=6615|end_char=6616
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	expl	_	start_char=6617|end_char=6619
+17-18	wouldn't	_	_	_	_	_	_	_	start_char=6620|end_char=6628
+17	would	would	AUX	MD	VerbForm=Fin	20	aux	_	start_char=6620|end_char=6625
+18	n't	not	PART	RB	Polarity=Neg	20	advmod	_	start_char=6625|end_char=6628
+19	be	be	AUX	VB	VerbForm=Inf	20	cop	_	start_char=6629|end_char=6631
+20	surprising	surprising	ADJ	JJ	Degree=Pos	0	root	_	start_char=6632|end_char=6642
+21	if	if	SCONJ	IN	_	25	mark	_	start_char=6643|end_char=6645
+22	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	_	start_char=6646|end_char=6648
+23	worldview	worldview	NOUN	NN	Number=Sing	25	nsubj	_	start_char=6649|end_char=6658
+24	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	cop	_	start_char=6659|end_char=6662
+25	gloomy	gloomy	ADJ	JJ	Degree=Pos	20	advcl	_	start_char=6663|end_char=6669|SpaceAfter=No
+26	.	.	PUNCT	.	_	20	punct	_	start_char=6669|end_char=6670|SpacesAfter=\n\n
+
+# text = It's not.
+# sent_id = 83
+1-2	It's	_	_	_	_	_	_	_	start_char=6672|end_char=6676
+1	It	it	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=6672|end_char=6674
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6674|end_char=6676
+3	not	not	PART	RB	Polarity=Neg	2	advmod	_	start_char=6677|end_char=6680|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=6680|end_char=6681|SpacesAfter=\n\n
+
+# text = The vast majority of interactions I see -- and I see a lot, believe me -- are positive, people reaching out to help or to connect or share information with each other.
+# sent_id = 84
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=6683|end_char=6686
+2	vast	vast	ADJ	JJ	Degree=Pos	3	amod	_	start_char=6687|end_char=6691
+3	majority	majority	NOUN	NN	Number=Sing	19	nsubj	_	start_char=6692|end_char=6700
+4	of	of	ADP	IN	_	5	case	_	start_char=6701|end_char=6703
+5	interactions	interaction	NOUN	NNS	Number=Plur	3	nmod	_	start_char=6704|end_char=6716
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=6717|end_char=6718
+7	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	start_char=6719|end_char=6722
+8	--	--	PUNCT	,	_	11	punct	_	start_char=6723|end_char=6725
+9	and	and	CCONJ	CC	_	11	cc	_	start_char=6726|end_char=6729
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=6730|end_char=6731
+11	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	conj	_	start_char=6732|end_char=6735
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=6736|end_char=6737
+13	lot	lot	NOUN	NN	Number=Sing	11	obj	_	start_char=6738|end_char=6741|SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	start_char=6741|end_char=6742
+15	believe	believe	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	parataxis	_	start_char=6743|end_char=6750
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obj	_	start_char=6751|end_char=6753
+17	--	--	PUNCT	,	_	3	punct	_	start_char=6754|end_char=6756
+18	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=6757|end_char=6760
+19	positive	positive	ADJ	JJ	Degree=Pos	0	root	_	start_char=6761|end_char=6769|SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	start_char=6769|end_char=6770
+21	people	person	NOUN	NNS	Number=Plur	19	nsubj	_	start_char=6771|end_char=6777
+22	reaching	reach	VERB	VBG	VerbForm=Ger	21	acl	_	start_char=6778|end_char=6786
+23	out	out	ADP	RP	_	22	compound:prt	_	start_char=6787|end_char=6790
+24	to	to	PART	TO	_	25	mark	_	start_char=6791|end_char=6793
+25	help	help	VERB	VB	VerbForm=Inf	22	advcl	_	start_char=6794|end_char=6798
+26	or	or	CCONJ	CC	_	28	cc	_	start_char=6799|end_char=6801
+27	to	to	PART	TO	_	28	mark	_	start_char=6802|end_char=6804
+28	connect	connect	VERB	VB	VerbForm=Inf	25	conj	_	start_char=6805|end_char=6812
+29	or	or	CCONJ	CC	_	30	cc	_	start_char=6813|end_char=6815
+30	share	share	VERB	VB	VerbForm=Inf	28	conj	_	start_char=6816|end_char=6821
+31	information	information	NOUN	NN	Number=Sing	28	obj	_	start_char=6822|end_char=6833
+32	with	with	ADP	IN	_	33	case	_	start_char=6834|end_char=6838
+33	each	each	DET	DT	ExtPos=PRON|PronType=Rcp	30	obl	_	start_char=6839|end_char=6843
+34	other	other	ADJ	JJ	Degree=Pos	33	fixed	_	start_char=6844|end_char=6849|SpaceAfter=No
+35	.	.	PUNCT	.	_	19	punct	_	start_char=6849|end_char=6850|SpacesAfter=\n\n
+
+# text = It's just that for those of us dealing with scale, for those of us tasked with keeping people safe, we have to assume the worst will happen, because for us, a one-in-a-million chance is pretty good odds.
+# sent_id = 85
+1-2	It's	_	_	_	_	_	_	_	start_char=6852|end_char=6856
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj:outer	_	start_char=6852|end_char=6854
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	start_char=6854|end_char=6856
+3	just	just	ADV	RB	_	24	advmod	_	start_char=6857|end_char=6861
+4	that	that	SCONJ	IN	_	24	mark	_	start_char=6862|end_char=6866
+5	for	for	ADP	IN	_	6	case	_	start_char=6867|end_char=6870
+6	those	that	PRON	DT	Number=Plur|PronType=Dem	24	obl	_	start_char=6871|end_char=6876
+7	of	of	ADP	IN	_	8	case	_	start_char=6877|end_char=6879
+8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	nmod	_	start_char=6880|end_char=6882
+9	dealing	deal	VERB	VBG	VerbForm=Ger	6	acl	_	start_char=6883|end_char=6890
+10	with	with	ADP	IN	_	11	case	_	start_char=6891|end_char=6895
+11	scale	scale	NOUN	NN	Number=Sing	9	obl	_	start_char=6896|end_char=6901|SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	start_char=6901|end_char=6902
+13	for	for	ADP	IN	_	14	case	_	start_char=6903|end_char=6906
+14	those	that	PRON	DT	Number=Plur|PronType=Dem	24	obl	_	start_char=6907|end_char=6912
+15	of	of	ADP	IN	_	16	case	_	start_char=6913|end_char=6915
+16	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	14	nmod	_	start_char=6916|end_char=6918
+17	tasked	task	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	acl	_	start_char=6919|end_char=6925
+18	with	with	SCONJ	IN	_	19	mark	_	start_char=6926|end_char=6930
+19	keeping	keep	VERB	VBG	Tense=Pres|VerbForm=Part	17	advcl	_	start_char=6931|end_char=6938
+20	people	person	NOUN	NNS	Number=Plur	19	obj	_	start_char=6939|end_char=6945
+21	safe	safe	ADJ	JJ	Degree=Pos	19	xcomp	_	start_char=6946|end_char=6950|SpaceAfter=No
+22	,	,	PUNCT	,	_	14	punct	_	start_char=6950|end_char=6951
+23	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	start_char=6952|end_char=6954
+24	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6955|end_char=6959
+25	to	to	PART	TO	_	26	mark	_	start_char=6960|end_char=6962
+26	assume	assume	VERB	VB	VerbForm=Inf	24	xcomp	_	start_char=6963|end_char=6969
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	start_char=6970|end_char=6973
+28	worst	bad	ADJ	JJS	Degree=Sup	30	nsubj	_	start_char=6974|end_char=6979
+29	will	will	AUX	MD	VerbForm=Fin	30	aux	_	start_char=6980|end_char=6984
+30	happen	happen	VERB	VB	VerbForm=Inf	26	ccomp	_	start_char=6985|end_char=6991|SpaceAfter=No
+31	,	,	PUNCT	,	_	48	punct	_	start_char=6991|end_char=6992
+32	because	because	SCONJ	IN	_	48	mark	_	start_char=6993|end_char=7000
+33	for	for	ADP	IN	_	34	case	_	start_char=7001|end_char=7004
+34	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	48	obl	_	start_char=7005|end_char=7007|SpaceAfter=No
+35	,	,	PUNCT	,	_	34	punct	_	start_char=7007|end_char=7008
+36	a	a	DET	DT	Definite=Ind|PronType=Art	44	det	_	start_char=7009|end_char=7010
+37	one	one	NUM	CD	NumForm=Word|NumType=Card	44	nummod	_	start_char=7011|end_char=7014|SpaceAfter=No
+38	-	-	PUNCT	HYPH	_	39	punct	_	start_char=7014|end_char=7015|SpaceAfter=No
+39	in	in	ADP	IN	_	43	case	_	start_char=7015|end_char=7017|SpaceAfter=No
+40	-	-	PUNCT	HYPH	_	41	punct	_	start_char=7017|end_char=7018|SpaceAfter=No
+41	a	a	DET	DT	Definite=Ind|PronType=Art	43	det	_	start_char=7018|end_char=7019|SpaceAfter=No
+42	-	-	PUNCT	HYPH	_	41	punct	_	start_char=7019|end_char=7020|SpaceAfter=No
+43	million	million	NUM	CD	NumForm=Word|NumType=Card	37	nmod	_	start_char=7020|end_char=7027
+44	chance	chance	NOUN	NN	Number=Sing	48	nsubj	_	start_char=7028|end_char=7034
+45	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	cop	_	start_char=7035|end_char=7037
+46	pretty	pretty	ADV	RB	_	47	advmod	_	start_char=7038|end_char=7044
+47	good	good	ADJ	JJ	Degree=Pos	48	amod	_	start_char=7045|end_char=7049
+48	odds	odd	NOUN	NNS	Number=Plur	26	advcl	_	start_char=7050|end_char=7054|SpaceAfter=No
+49	.	.	PUNCT	.	_	24	punct	_	start_char=7054|end_char=7055|SpacesAfter=\n\n
+
+# text = Thank you.
+# sent_id = 86
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7057|end_char=7062
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	start_char=7063|end_char=7066|SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	_	start_char=7066|end_char=7067|SpaceAfter=No

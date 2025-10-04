@@ -1,0 +1,1352 @@
+# conllu_stats: begin
+# conllu_tokens: 1151
+# conllu_sentences: 57
+# Avrage tokens per senteces: 20.19298245614035
+# conllu_stats: end
+
+
+# text = How to avoid surveillance... with the phone in your pocket
+# sent_id = 0
+1	How	how	ADV	WRB	PronType=Int	0	root	_	start_char=0|end_char=3
+2	to	to	PART	TO	_	3	mark	_	start_char=4|end_char=6
+3	avoid	avoid	VERB	VB	VerbForm=Inf	1	acl	_	start_char=7|end_char=12
+4	surveillance	surveillance	NOUN	NN	Number=Sing	3	obj	_	start_char=13|end_char=25|SpaceAfter=No
+5	...	...	PUNCT	,	_	8	punct	_	start_char=25|end_char=28
+6	with	with	ADP	IN	_	8	case	_	start_char=29|end_char=33
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=34|end_char=37
+8	phone	phone	NOUN	NN	Number=Sing	3	obl	_	start_char=38|end_char=43
+9	in	in	ADP	IN	_	11	case	_	start_char=44|end_char=46
+10	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=47|end_char=51
+11	pocket	pocket	NOUN	NN	Number=Sing	8	nmod	_	start_char=52|end_char=58|SpacesAfter=\n\n
+
+# text = For more than 100 years, the telephone companies have provided wiretapping assistance to governments.
+# sent_id = 1
+1	For	for	ADP	IN	_	5	case	_	start_char=60|end_char=63
+2	more	more	ADJ	JJR	Degree=Cmp|ExtPos=ADV	4	advmod	_	start_char=64|end_char=68
+3	than	than	ADP	IN	_	2	fixed	_	start_char=69|end_char=73
+4	100	100	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	_	start_char=74|end_char=77
+5	years	year	NOUN	NNS	Number=Plur	11	obl	_	start_char=78|end_char=83|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	start_char=83|end_char=84
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=85|end_char=88
+8	telephone	telephone	NOUN	NN	Number=Sing	9	compound	_	start_char=89|end_char=98
+9	companies	company	NOUN	NNS	Number=Plur	11	nsubj	_	start_char=99|end_char=108
+10	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=109|end_char=113
+11	provided	provide	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=114|end_char=122
+12	wiretapping	wiretapping	NOUN	NN	Number=Sing	13	compound	_	start_char=123|end_char=134
+13	assistance	assistance	NOUN	NN	Number=Sing	11	obj	_	start_char=135|end_char=145
+14	to	to	ADP	IN	_	15	case	_	start_char=146|end_char=148
+15	governments	government	NOUN	NNS	Number=Plur	11	obl	_	start_char=149|end_char=160|SpaceAfter=No
+16	.	.	PUNCT	.	_	11	punct	_	start_char=160|end_char=161|SpacesAfter=\n\n
+
+# text = For much of this time, this assistance was manual.
+# sent_id = 2
+1	For	for	ADP	IN	_	2	case	_	start_char=163|end_char=166
+2	much	much	ADJ	JJ	Degree=Pos	10	obl	_	start_char=167|end_char=171
+3	of	of	ADP	IN	_	5	case	_	start_char=172|end_char=174
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	start_char=175|end_char=179
+5	time	time	NOUN	NN	Number=Sing	2	nmod	_	start_char=180|end_char=184|SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	start_char=184|end_char=185
+7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	start_char=186|end_char=190
+8	assistance	assistance	NOUN	NN	Number=Sing	10	nsubj	_	start_char=191|end_char=201
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	start_char=202|end_char=205
+10	manual	manual	ADJ	JJ	Degree=Pos	0	root	_	start_char=206|end_char=212|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	start_char=212|end_char=213|SpacesAfter=\n\n
+
+# text = Surveillance took place manually and wires were connected by hand.
+# sent_id = 3
+1	Surveillance	surveillance	NOUN	NN	Number=Sing	2	nsubj	_	start_char=215|end_char=227
+2	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=228|end_char=232
+3	place	place	NOUN	NN	Number=Sing	2	obj	_	start_char=233|end_char=238
+4	manually	manually	ADV	RB	_	2	advmod	_	start_char=239|end_char=247
+5	and	and	CCONJ	CC	_	8	cc	_	start_char=248|end_char=251
+6	wires	wire	NOUN	NNS	Number=Plur	8	nsubj:pass	_	start_char=252|end_char=257
+7	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	start_char=258|end_char=262
+8	connected	connect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	start_char=263|end_char=272
+9	by	by	ADP	IN	_	10	case	_	start_char=273|end_char=275
+10	hand	hand	NOUN	NN	Number=Sing	8	obl:agent	_	start_char=276|end_char=280|SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	start_char=280|end_char=281|SpacesAfter=\n\n
+
+# text = Calls were recorded to tape.
+# sent_id = 4
+1	Calls	call	NOUN	NNS	Number=Plur	3	nsubj:pass	_	start_char=283|end_char=288
+2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	start_char=289|end_char=293
+3	recorded	record	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=294|end_char=302
+4	to	to	PART	TO	_	5	mark	_	start_char=303|end_char=305
+5	tape	tape	VERB	VB	VerbForm=Inf	3	advcl	_	start_char=306|end_char=310|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=310|end_char=311|SpacesAfter=\n\n
+
+# text = But as in so many other industries, computing has changed everything.
+# sent_id = 5
+1	But	but	CCONJ	CC	_	11	cc	_	start_char=313|end_char=316
+2	as	as	ADP	IN	_	7	case	_	start_char=317|end_char=319
+3	in	in	ADP	IN	_	7	case	_	start_char=320|end_char=322
+4	so	so	ADV	RB	_	5	advmod	_	start_char=323|end_char=325
+5	many	many	ADJ	JJ	Degree=Pos	7	amod	_	start_char=326|end_char=330
+6	other	other	ADJ	JJ	Degree=Pos	7	amod	_	start_char=331|end_char=336
+7	industries	industry	NOUN	NNS	Number=Plur	11	obl	_	start_char=337|end_char=347|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	start_char=347|end_char=348
+9	computing	computing	NOUN	NN	Number=Sing	11	nsubj	_	start_char=349|end_char=358
+10	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=359|end_char=362
+11	changed	change	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=363|end_char=370
+12	everything	everything	PRON	NN	Number=Sing|PronType=Tot	11	obj	_	start_char=371|end_char=381|SpaceAfter=No
+13	.	.	PUNCT	.	_	11	punct	_	start_char=381|end_char=382|SpacesAfter=\n\n
+
+# text = The telephone companies built surveillance features into the very core of their networks.
+# sent_id = 6
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=384|end_char=387
+2	telephone	telephone	NOUN	NN	Number=Sing	3	compound	_	start_char=388|end_char=397
+3	companies	company	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=398|end_char=407
+4	built	build	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=408|end_char=413
+5	surveillance	surveillance	NOUN	NN	Number=Sing	6	compound	_	start_char=414|end_char=426
+6	features	feature	NOUN	NNS	Number=Plur	4	obj	_	start_char=427|end_char=435
+7	into	into	ADP	IN	_	10	case	_	start_char=436|end_char=440
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=441|end_char=444
+9	very	very	ADJ	JJ	Degree=Pos	10	amod	_	start_char=445|end_char=449
+10	core	core	NOUN	NN	Number=Sing	4	obl	_	start_char=450|end_char=454
+11	of	of	ADP	IN	_	13	case	_	start_char=455|end_char=457
+12	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=458|end_char=463
+13	networks	network	NOUN	NNS	Number=Plur	10	nmod	_	start_char=464|end_char=472|SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	start_char=472|end_char=473|SpacesAfter=\n\n
+
+# text = I want that to sink in for a second:
+# sent_id = 7
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=475|end_char=476
+2	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=477|end_char=481
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	obj	_	start_char=482|end_char=486
+4	to	to	PART	TO	_	5	mark	_	start_char=487|end_char=489
+5	sink	sink	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=490|end_char=494
+6	in	in	ADP	RP	_	5	compound:prt	_	start_char=495|end_char=497
+7	for	for	ADP	IN	_	9	case	_	start_char=498|end_char=501
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=502|end_char=503
+9	second	second	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	5	obl	_	start_char=504|end_char=510|SpaceAfter=No
+10	:	:	PUNCT	:	_	2	punct	_	start_char=510|end_char=511|SpacesAfter=\n\n
+
+# text = Our telephones and the networks that carry our calls were wired for surveillance first.
+# sent_id = 8
+1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=513|end_char=516
+2	telephones	telephone	NOUN	NNS	Number=Plur	11	nsubj:pass	_	start_char=517|end_char=527
+3	and	and	CCONJ	CC	_	5	cc	_	start_char=528|end_char=531
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=532|end_char=535
+5	networks	network	NOUN	NNS	Number=Plur	2	conj	_	start_char=536|end_char=544
+6	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	start_char=545|end_char=549
+7	carry	carry	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	start_char=550|end_char=555
+8	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=556|end_char=559
+9	calls	call	NOUN	NNS	Number=Plur	7	obj	_	start_char=560|end_char=565
+10	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	start_char=566|end_char=570
+11	wired	wire	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=571|end_char=576
+12	for	for	ADP	IN	_	13	case	_	start_char=577|end_char=580
+13	surveillance	surveillance	NOUN	NN	Number=Sing	11	obl	_	start_char=581|end_char=593
+14	first	first	ADV	RB	Degree=Pos|NumForm=Word|NumType=Ord	11	advmod	_	start_char=594|end_char=599|SpaceAfter=No
+15	.	.	PUNCT	.	_	11	punct	_	start_char=599|end_char=600|SpacesAfter=\n\n
+
+# text = First and foremost.
+# sent_id = 9
+1	First	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	0	root	_	start_char=602|end_char=607
+2	and	and	CCONJ	CC	_	3	cc	_	start_char=608|end_char=611
+3	foremost	foremost	ADJ	JJS	Degree=Sup	1	conj	_	start_char=612|end_char=620|SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	start_char=620|end_char=621|SpacesAfter=\n\n
+
+# text = So what that means is that when you're talking to your spouse, your children, a colleague or your doctor on the telephone, someone could be listening.
+# sent_id = 10
+1	So	so	ADV	RB	_	30	advmod	_	start_char=623|end_char=625
+2	what	what	PRON	WP	PronType=Int	30	nsubj:outer	_	start_char=626|end_char=630
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	start_char=631|end_char=635
+4	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	start_char=636|end_char=641
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	start_char=642|end_char=644
+6	that	that	SCONJ	IN	_	30	mark	_	start_char=645|end_char=649
+7	when	when	ADV	WRB	PronType=Int	10	advmod	_	start_char=650|end_char=654
+8-9	you're	_	_	_	_	_	_	_	start_char=655|end_char=661
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	start_char=655|end_char=658
+9	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=658|end_char=661
+10	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	30	advcl	_	start_char=662|end_char=669
+11	to	to	ADP	IN	_	13	case	_	start_char=670|end_char=672
+12	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=673|end_char=677
+13	spouse	spouse	NOUN	NN	Number=Sing	10	obl	_	start_char=678|end_char=684|SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	start_char=684|end_char=685
+15	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=686|end_char=690
+16	children	child	NOUN	NNS	Number=Plur	13	conj	_	start_char=691|end_char=699|SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	start_char=699|end_char=700
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	start_char=701|end_char=702
+19	colleague	colleague	NOUN	NN	Number=Sing	13	conj	_	start_char=703|end_char=712
+20	or	or	CCONJ	CC	_	22	cc	_	start_char=713|end_char=715
+21	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	22	nmod:poss	_	start_char=716|end_char=720
+22	doctor	doctor	NOUN	NN	Number=Sing	13	conj	_	start_char=721|end_char=727
+23	on	on	ADP	IN	_	25	case	_	start_char=728|end_char=730
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	start_char=731|end_char=734
+25	telephone	telephone	NOUN	NN	Number=Sing	22	nmod	_	start_char=735|end_char=744|SpaceAfter=No
+26	,	,	PUNCT	,	_	10	punct	_	start_char=744|end_char=745
+27	someone	someone	PRON	NN	Number=Sing|PronType=Ind	30	nsubj	_	start_char=746|end_char=753
+28	could	could	AUX	MD	VerbForm=Fin	30	aux	_	start_char=754|end_char=759
+29	be	be	AUX	VB	VerbForm=Inf	30	aux	_	start_char=760|end_char=762
+30	listening	listen	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=763|end_char=772|SpaceAfter=No
+31	.	.	PUNCT	.	_	30	punct	_	start_char=772|end_char=773|SpacesAfter=\n\n
+
+# text = Now, that someone might be your own government; it could also be another government, a foreign intelligence service, or a hacker, or a criminal, or a stalker or any other party that breaks into the surveillance system, that hacks into the surveillance system of the telephone companies.
+# sent_id = 11
+1	Now	now	ADV	RB	_	9	advmod	_	start_char=775|end_char=778|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=778|end_char=779
+3	that	that	SCONJ	IN	_	9	mark	_	start_char=780|end_char=784
+4	someone	someone	PRON	NN	Number=Sing|PronType=Ind	9	nsubj	_	start_char=785|end_char=792
+5	might	might	AUX	MD	VerbForm=Fin	9	aux	_	start_char=793|end_char=798
+6	be	be	AUX	VB	VerbForm=Inf	9	cop	_	start_char=799|end_char=801
+7	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=802|end_char=806
+8	own	own	ADJ	JJ	Degree=Pos	9	amod	_	start_char=807|end_char=810
+9	government	government	NOUN	NN	Number=Sing	0	root	_	start_char=811|end_char=821|SpaceAfter=No
+10	;	;	PUNCT	,	_	16	punct	_	start_char=821|end_char=822
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	start_char=823|end_char=825
+12	could	could	AUX	MD	VerbForm=Fin	16	aux	_	start_char=826|end_char=831
+13	also	also	ADV	RB	_	16	advmod	_	start_char=832|end_char=836
+14	be	be	AUX	VB	VerbForm=Inf	16	cop	_	start_char=837|end_char=839
+15	another	another	DET	DT	PronType=Ind	16	det	_	start_char=840|end_char=847
+16	government	government	NOUN	NN	Number=Sing	9	parataxis	_	start_char=848|end_char=858|SpaceAfter=No
+17	,	,	PUNCT	,	_	21	punct	_	start_char=858|end_char=859
+18	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	start_char=860|end_char=861
+19	foreign	foreign	ADJ	JJ	Degree=Pos	21	amod	_	start_char=862|end_char=869
+20	intelligence	intelligence	NOUN	NN	Number=Sing	21	compound	_	start_char=870|end_char=882
+21	service	service	NOUN	NN	Number=Sing	16	conj	_	start_char=883|end_char=890|SpaceAfter=No
+22	,	,	PUNCT	,	_	25	punct	_	start_char=890|end_char=891
+23	or	or	CCONJ	CC	_	25	cc	_	start_char=892|end_char=894
+24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	start_char=895|end_char=896
+25	hacker	hacker	NOUN	NN	Number=Sing	16	conj	_	start_char=897|end_char=903|SpaceAfter=No
+26	,	,	PUNCT	,	_	29	punct	_	start_char=903|end_char=904
+27	or	or	CCONJ	CC	_	29	cc	_	start_char=905|end_char=907
+28	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	start_char=908|end_char=909
+29	criminal	criminal	NOUN	NN	Number=Sing	16	conj	_	start_char=910|end_char=918|SpaceAfter=No
+30	,	,	PUNCT	,	_	33	punct	_	start_char=918|end_char=919
+31	or	or	CCONJ	CC	_	33	cc	_	start_char=920|end_char=922
+32	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	start_char=923|end_char=924
+33	stalker	stalker	NOUN	NN	Number=Sing	16	conj	_	start_char=925|end_char=932
+34	or	or	CCONJ	CC	_	37	cc	_	start_char=933|end_char=935
+35	any	any	DET	DT	PronType=Ind	37	det	_	start_char=936|end_char=939
+36	other	other	ADJ	JJ	Degree=Pos	37	amod	_	start_char=940|end_char=945
+37	party	party	NOUN	NN	Number=Sing	33	conj	_	start_char=946|end_char=951
+38	that	that	PRON	WDT	PronType=Rel	39	nsubj	_	start_char=952|end_char=956
+39	breaks	break	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	acl:relcl	_	start_char=957|end_char=963
+40	into	into	ADP	IN	_	43	case	_	start_char=964|end_char=968
+41	the	the	DET	DT	Definite=Def|PronType=Art	43	det	_	start_char=969|end_char=972
+42	surveillance	surveillance	NOUN	NN	Number=Sing	43	compound	_	start_char=973|end_char=985
+43	system	system	NOUN	NN	Number=Sing	39	obl	_	start_char=986|end_char=992|SpaceAfter=No
+44	,	,	PUNCT	,	_	46	punct	_	start_char=992|end_char=993
+45	that	that	PRON	WDT	PronType=Rel	46	nsubj	_	start_char=994|end_char=998
+46	hacks	hack	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	acl:relcl	_	start_char=999|end_char=1004
+47	into	into	ADP	IN	_	50	case	_	start_char=1005|end_char=1009
+48	the	the	DET	DT	Definite=Def|PronType=Art	50	det	_	start_char=1010|end_char=1013
+49	surveillance	surveillance	NOUN	NN	Number=Sing	50	compound	_	start_char=1014|end_char=1026
+50	system	system	NOUN	NN	Number=Sing	46	obl	_	start_char=1027|end_char=1033
+51	of	of	ADP	IN	_	54	case	_	start_char=1034|end_char=1036
+52	the	the	DET	DT	Definite=Def|PronType=Art	54	det	_	start_char=1037|end_char=1040
+53	telephone	telephone	NOUN	NN	Number=Sing	54	compound	_	start_char=1041|end_char=1050
+54	companies	company	NOUN	NNS	Number=Plur	50	nmod	_	start_char=1051|end_char=1060|SpaceAfter=No
+55	.	.	PUNCT	.	_	9	punct	_	start_char=1060|end_char=1061|SpacesAfter=\n\n
+
+# text = But while the telephone companies have built surveillance as a priority, Silicon Valley companies have not.
+# sent_id = 12
+1	But	but	CCONJ	CC	_	16	cc	_	start_char=1063|end_char=1066
+2	while	while	SCONJ	IN	_	7	mark	_	start_char=1067|end_char=1072
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=1073|end_char=1076
+4	telephone	telephone	NOUN	NN	Number=Sing	5	compound	_	start_char=1077|end_char=1086
+5	companies	company	NOUN	NNS	Number=Plur	7	nsubj	_	start_char=1087|end_char=1096
+6	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1097|end_char=1101
+7	built	build	VERB	VBN	Tense=Past|VerbForm=Part	16	advcl	_	start_char=1102|end_char=1107
+8	surveillance	surveillance	NOUN	NN	Number=Sing	7	obj	_	start_char=1108|end_char=1120
+9	as	as	ADP	IN	_	11	case	_	start_char=1121|end_char=1123
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=1124|end_char=1125
+11	priority	priority	NOUN	NN	Number=Sing	7	obl	_	start_char=1126|end_char=1134|SpaceAfter=No
+12	,	,	PUNCT	,	_	7	punct	_	start_char=1134|end_char=1135
+13	Silicon	Silicon	PROPN	NNP	Number=Sing	14	compound	_	start_char=1136|end_char=1143
+14	Valley	Valley	PROPN	NNP	Number=Sing	15	compound	_	start_char=1144|end_char=1150
+15	companies	company	NOUN	NNS	Number=Plur	16	nsubj	_	start_char=1151|end_char=1160
+16	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1161|end_char=1165
+17	not	not	PART	RB	Polarity=Neg	16	advmod	_	start_char=1166|end_char=1169|SpaceAfter=No
+18	.	.	PUNCT	.	_	16	punct	_	start_char=1169|end_char=1170|SpacesAfter=\n\n
+
+# text = And increasingly, over the last couple years, Silicon Valley companies have built strong encryption technology into their communications products that makes surveillance extremely difficult.
+# sent_id = 13
+1	And	and	CCONJ	CC	_	14	cc	_	start_char=1172|end_char=1175
+2	increasingly	increasingly	ADV	RB	_	14	advmod	_	start_char=1176|end_char=1188|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=1188|end_char=1189
+4	over	over	ADP	IN	_	8	case	_	start_char=1190|end_char=1194
+5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=1195|end_char=1198
+6	last	last	ADJ	JJ	Degree=Pos	7	amod	_	start_char=1199|end_char=1203
+7	couple	couple	NOUN	NN	Number=Sing	8	compound	_	start_char=1204|end_char=1210
+8	years	year	NOUN	NNS	Number=Plur	14	obl	_	start_char=1211|end_char=1216|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	start_char=1216|end_char=1217
+10	Silicon	Silicon	PROPN	NNP	Number=Sing	11	compound	_	start_char=1218|end_char=1225
+11	Valley	Valley	PROPN	NNP	Number=Sing	12	compound	_	start_char=1226|end_char=1232
+12	companies	company	NOUN	NNS	Number=Plur	14	nsubj	_	start_char=1233|end_char=1242
+13	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=1243|end_char=1247
+14	built	build	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=1248|end_char=1253
+15	strong	strong	ADJ	JJ	Degree=Pos	17	amod	_	start_char=1254|end_char=1260
+16	encryption	encryption	NOUN	NN	Number=Sing	17	compound	_	start_char=1261|end_char=1271
+17	technology	technology	NOUN	NN	Number=Sing	14	obj	_	start_char=1272|end_char=1282
+18	into	into	ADP	IN	_	21	case	_	start_char=1283|end_char=1287
+19	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	start_char=1288|end_char=1293
+20	communications	communication	NOUN	NNS	Number=Plur	21	compound	_	start_char=1294|end_char=1308
+21	products	product	NOUN	NNS	Number=Plur	14	obl	_	start_char=1309|end_char=1317
+22	that	that	PRON	WDT	PronType=Rel	23	nsubj	_	start_char=1318|end_char=1322
+23	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	start_char=1323|end_char=1328
+24	surveillance	surveillance	NOUN	NN	Number=Sing	23	obj	_	start_char=1329|end_char=1341
+25	extremely	extremely	ADV	RB	_	26	advmod	_	start_char=1342|end_char=1351
+26	difficult	difficult	ADJ	JJ	Degree=Pos	23	xcomp	_	start_char=1352|end_char=1361|SpaceAfter=No
+27	.	.	PUNCT	.	_	14	punct	_	start_char=1361|end_char=1362|SpacesAfter=\n\n
+
+# text = For example, many of you might have an iPhone, and if you use an iPhone to send a text message to other people who have an iPhone, those text messages cannot easily be wiretapped.
+# sent_id = 14
+1	For	for	ADP	IN	_	2	case	_	start_char=1364|end_char=1367
+2	example	example	NOUN	NN	Number=Sing	8	obl	_	start_char=1368|end_char=1375|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=1375|end_char=1376
+4	many	many	ADJ	JJ	Degree=Pos	8	nsubj	_	start_char=1377|end_char=1381
+5	of	of	ADP	IN	_	6	case	_	start_char=1382|end_char=1384
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	nmod	_	start_char=1385|end_char=1388
+7	might	might	AUX	MD	VerbForm=Fin	8	aux	_	start_char=1389|end_char=1394
+8	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=1395|end_char=1399
+9	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=1400|end_char=1402
+10	iPhone	iPhone	PROPN	NNP	Number=Sing	8	obj	_	start_char=1403|end_char=1409|SpaceAfter=No
+11	,	,	PUNCT	,	_	38	punct	_	start_char=1409|end_char=1410
+12	and	and	CCONJ	CC	_	38	cc	_	start_char=1411|end_char=1414
+13	if	if	SCONJ	IN	_	15	mark	_	start_char=1415|end_char=1417
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	start_char=1418|end_char=1421
+15	use	use	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	38	advcl	_	start_char=1422|end_char=1425
+16	an	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	start_char=1426|end_char=1428
+17	iPhone	iPhone	PROPN	NNP	Number=Sing	15	obj	_	start_char=1429|end_char=1435
+18	to	to	PART	TO	_	19	mark	_	start_char=1436|end_char=1438
+19	send	send	VERB	VB	VerbForm=Inf	15	advcl	_	start_char=1439|end_char=1443
+20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	start_char=1444|end_char=1445
+21	text	text	NOUN	NN	Number=Sing	22	compound	_	start_char=1446|end_char=1450
+22	message	message	NOUN	NN	Number=Sing	19	obj	_	start_char=1451|end_char=1458
+23	to	to	ADP	IN	_	25	case	_	start_char=1459|end_char=1461
+24	other	other	ADJ	JJ	Degree=Pos	25	amod	_	start_char=1462|end_char=1467
+25	people	person	NOUN	NNS	Number=Plur	19	obl	_	start_char=1468|end_char=1474
+26	who	who	PRON	WP	PronType=Rel	27	nsubj	_	start_char=1475|end_char=1478
+27	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	start_char=1479|end_char=1483
+28	an	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	start_char=1484|end_char=1486
+29	iPhone	iPhone	PROPN	NNP	Number=Sing	27	obj	_	start_char=1487|end_char=1493|SpaceAfter=No
+30	,	,	PUNCT	,	_	15	punct	_	start_char=1493|end_char=1494
+31	those	that	DET	DT	Number=Plur|PronType=Dem	33	det	_	start_char=1495|end_char=1500
+32	text	text	NOUN	NN	Number=Sing	33	compound	_	start_char=1501|end_char=1505
+33	messages	message	NOUN	NNS	Number=Plur	38	nsubj:pass	_	start_char=1506|end_char=1514
+34-35	cannot	_	_	_	_	_	_	_	start_char=1515|end_char=1521
+34	can	can	AUX	MD	VerbForm=Fin	38	aux	_	start_char=1515|end_char=1518
+35	not	not	PART	RB	Polarity=Neg	38	advmod	_	start_char=1518|end_char=1521
+36	easily	easily	ADV	RB	_	38	advmod	_	start_char=1522|end_char=1528
+37	be	be	AUX	VB	VerbForm=Inf	38	aux:pass	_	start_char=1529|end_char=1531
+38	wiretapped	wiretapp	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	conj	_	start_char=1532|end_char=1542|SpaceAfter=No
+39	.	.	PUNCT	.	_	8	punct	_	start_char=1542|end_char=1543|SpacesAfter=\n\n
+
+# text = And in fact, according to Apple, they're not able to even see the text messages themselves.
+# sent_id = 15
+1	And	and	CCONJ	CC	_	12	cc	_	start_char=1545|end_char=1548
+2	in	in	ADP	IN	_	3	case	_	start_char=1549|end_char=1551
+3	fact	fact	NOUN	NN	Number=Sing	12	obl	_	start_char=1552|end_char=1556|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=1556|end_char=1557
+5	according	accord	VERB	VBG	ExtPos=ADP|Tense=Pres|VerbForm=Part	7	case	_	start_char=1558|end_char=1567
+6	to	to	ADP	IN	_	5	fixed	_	start_char=1568|end_char=1570
+7	Apple	Apple	PROPN	NNP	Number=Sing	12	obl	_	start_char=1571|end_char=1576|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	start_char=1576|end_char=1577
+9-10	they're	_	_	_	_	_	_	_	start_char=1578|end_char=1585
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	start_char=1578|end_char=1582
+10	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=1582|end_char=1585
+11	not	not	PART	RB	Polarity=Neg	12	advmod	_	start_char=1586|end_char=1589
+12	able	able	ADJ	JJ	Degree=Pos	0	root	_	start_char=1590|end_char=1594
+13	to	to	PART	TO	_	15	mark	_	start_char=1595|end_char=1597
+14	even	even	ADV	RB	_	15	advmod	_	start_char=1598|end_char=1602
+15	see	see	VERB	VB	VerbForm=Inf	12	xcomp	_	start_char=1603|end_char=1606
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=1607|end_char=1610
+17	text	text	NOUN	NN	Number=Sing	18	compound	_	start_char=1611|end_char=1615
+18	messages	message	NOUN	NNS	Number=Plur	15	obj	_	start_char=1616|end_char=1624
+19	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Emp|Reflex=Yes	15	obl:unmarked	_	start_char=1625|end_char=1635|SpaceAfter=No
+20	.	.	PUNCT	.	_	12	punct	_	start_char=1635|end_char=1636|SpacesAfter=\n\n
+
+# text = Likewise, if you use FaceTime to make an audio call or a video call with one of your friends or loved ones, that, too, cannot be easily wiretapped.
+# sent_id = 16
+1	Likewise	likewise	ADV	RB	_	33	advmod	_	start_char=1638|end_char=1646|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=1646|end_char=1647
+3	if	if	SCONJ	IN	_	5	mark	_	start_char=1648|end_char=1650
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=1651|end_char=1654
+5	use	use	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	33	advcl	_	start_char=1655|end_char=1658
+6	FaceTime	FaceTime	PROPN	NNP	Number=Sing	5	obj	_	start_char=1659|end_char=1667
+7	to	to	PART	TO	_	8	mark	_	start_char=1668|end_char=1670
+8	make	make	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=1671|end_char=1675
+9	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=1676|end_char=1678
+10	audio	audio	NOUN	NN	Number=Sing	11	compound	_	start_char=1679|end_char=1684
+11	call	call	NOUN	NN	Number=Sing	8	obj	_	start_char=1685|end_char=1689
+12	or	or	CCONJ	CC	_	15	cc	_	start_char=1690|end_char=1692
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=1693|end_char=1694
+14	video	video	NOUN	NN	Number=Sing	15	compound	_	start_char=1695|end_char=1700
+15	call	call	NOUN	NN	Number=Sing	11	conj	_	start_char=1701|end_char=1705
+16	with	with	ADP	IN	_	17	case	_	start_char=1706|end_char=1710
+17	one	one	NUM	CD	NumForm=Word|NumType=Card	8	obl	_	start_char=1711|end_char=1714
+18	of	of	ADP	IN	_	20	case	_	start_char=1715|end_char=1717
+19	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	20	nmod:poss	_	start_char=1718|end_char=1722
+20	friends	friend	NOUN	NNS	Number=Plur	17	nmod	_	start_char=1723|end_char=1730
+21	or	or	CCONJ	CC	_	23	cc	_	start_char=1731|end_char=1733
+22	loved	love	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	amod	_	start_char=1734|end_char=1739
+23	ones	one	NOUN	NNS	Number=Plur	20	conj	_	start_char=1740|end_char=1744|SpaceAfter=No
+24	,	,	PUNCT	,	_	5	punct	_	start_char=1744|end_char=1745
+25	that	that	PRON	DT	Number=Sing|PronType=Dem	33	nsubj:pass	_	start_char=1746|end_char=1750|SpaceAfter=No
+26	,	,	PUNCT	,	_	25	punct	_	start_char=1750|end_char=1751
+27	too	too	ADV	RB	_	33	advmod	_	start_char=1752|end_char=1755|SpaceAfter=No
+28	,	,	PUNCT	,	_	27	punct	_	start_char=1755|end_char=1756
+29-30	cannot	_	_	_	_	_	_	_	start_char=1757|end_char=1763
+29	can	can	AUX	MD	VerbForm=Fin	33	aux	_	start_char=1757|end_char=1760
+30	not	not	PART	RB	Polarity=Neg	33	advmod	_	start_char=1760|end_char=1763
+31	be	be	AUX	VB	VerbForm=Inf	33	aux:pass	_	start_char=1764|end_char=1766
+32	easily	easily	ADV	RB	_	33	advmod	_	start_char=1767|end_char=1773
+33	wiretapped	wiretapp	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=1774|end_char=1784|SpaceAfter=No
+34	.	.	PUNCT	.	_	33	punct	_	start_char=1784|end_char=1785|SpacesAfter=\n\n
+
+# text = And it's not just Apple.
+# sent_id = 17
+1	And	and	CCONJ	CC	_	6	cc	_	start_char=1787|end_char=1790
+2-3	it's	_	_	_	_	_	_	_	start_char=1791|end_char=1795
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=1791|end_char=1793
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1793|end_char=1795
+4	not	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=1796|end_char=1799
+5	just	just	ADV	RB	_	6	advmod	_	start_char=1800|end_char=1804
+6	Apple	Apple	PROPN	NNP	Number=Sing	0	root	_	start_char=1805|end_char=1810|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=1810|end_char=1811|SpacesAfter=\n\n
+
+# text = WhatsApp, which is now owned by Facebook and used by hundreds of millions of people around the world, also has built strong encryption technology into its product, which means that people in the Global South can easily communicate without their governments, often authoritarian, wiretapping their text messages.
+# sent_id = 18
+1	WhatsApp	WhatsApp	PROPN	NNP	Number=Sing	23	nsubj	_	start_char=1813|end_char=1821|SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	start_char=1821|end_char=1822
+3	which	which	PRON	WDT	PronType=Rel	6	nsubj:pass	_	start_char=1823|end_char=1828
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	start_char=1829|end_char=1831
+5	now	now	ADV	RB	PronType=Dem	6	advmod	_	start_char=1832|end_char=1835
+6	owned	own	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	acl:relcl	_	start_char=1836|end_char=1841
+7	by	by	ADP	IN	_	8	case	_	start_char=1842|end_char=1844
+8	Facebook	Facebook	PROPN	NNP	Number=Sing	6	obl:agent	_	start_char=1845|end_char=1853
+9	and	and	CCONJ	CC	_	10	cc	_	start_char=1854|end_char=1857
+10	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	conj	_	start_char=1858|end_char=1862
+11	by	by	ADP	IN	_	12	case	_	start_char=1863|end_char=1865
+12	hundreds	hundred	NOUN	NNS	Number=Plur	10	obl:agent	_	start_char=1866|end_char=1874
+13	of	of	ADP	IN	_	14	case	_	start_char=1875|end_char=1877
+14	millions	million	NOUN	NNS	Number=Plur	12	nmod	_	start_char=1878|end_char=1886
+15	of	of	ADP	IN	_	16	case	_	start_char=1887|end_char=1889
+16	people	person	NOUN	NNS	Number=Plur	14	nmod	_	start_char=1890|end_char=1896
+17	around	around	ADP	IN	_	19	case	_	start_char=1897|end_char=1903
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=1904|end_char=1907
+19	world	world	NOUN	NN	Number=Sing	14	nmod	_	start_char=1908|end_char=1913|SpaceAfter=No
+20	,	,	PUNCT	,	_	1	punct	_	start_char=1913|end_char=1914
+21	also	also	ADV	RB	_	23	advmod	_	start_char=1915|end_char=1919
+22	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	start_char=1920|end_char=1923
+23	built	build	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=1924|end_char=1929
+24	strong	strong	ADJ	JJ	Degree=Pos	26	amod	_	start_char=1930|end_char=1936
+25	encryption	encryption	NOUN	NN	Number=Sing	26	compound	_	start_char=1937|end_char=1947
+26	technology	technology	NOUN	NN	Number=Sing	23	obj	_	start_char=1948|end_char=1958
+27	into	into	ADP	IN	_	29	case	_	start_char=1959|end_char=1963
+28	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	start_char=1964|end_char=1967
+29	product	product	NOUN	NN	Number=Sing	23	obl	_	start_char=1968|end_char=1975|SpaceAfter=No
+30	,	,	PUNCT	,	_	32	punct	_	start_char=1975|end_char=1976
+31	which	which	PRON	WDT	PronType=Rel	32	nsubj	_	start_char=1977|end_char=1982
+32	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	start_char=1983|end_char=1988
+33	that	that	SCONJ	IN	_	41	mark	_	start_char=1989|end_char=1993
+34	people	person	NOUN	NNS	Number=Plur	41	nsubj	_	start_char=1994|end_char=2000
+35	in	in	ADP	IN	_	38	case	_	start_char=2001|end_char=2003
+36	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	start_char=2004|end_char=2007
+37	Global	Global	ADJ	JJ	Degree=Pos	38	amod	_	start_char=2008|end_char=2014
+38	South	South	PROPN	NNP	Number=Sing	34	nmod	_	start_char=2015|end_char=2020
+39	can	can	AUX	MD	VerbForm=Fin	41	aux	_	start_char=2021|end_char=2024
+40	easily	easily	ADV	RB	_	41	advmod	_	start_char=2025|end_char=2031
+41	communicate	communicate	VERB	VB	VerbForm=Inf	32	ccomp	_	start_char=2032|end_char=2043
+42	without	without	ADP	IN	_	44	case	_	start_char=2044|end_char=2051
+43	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	44	nmod:poss	_	start_char=2052|end_char=2057
+44	governments	government	NOUN	NNS	Number=Plur	41	obl	_	start_char=2058|end_char=2069|SpaceAfter=No
+45	,	,	PUNCT	,	_	47	punct	_	start_char=2069|end_char=2070
+46	often	often	ADV	RB	_	47	advmod	_	start_char=2071|end_char=2076
+47	authoritarian	authoritarian	ADJ	JJ	Degree=Pos	44	amod	_	start_char=2077|end_char=2090|SpaceAfter=No
+48	,	,	PUNCT	,	_	49	punct	_	start_char=2090|end_char=2091
+49	wiretapping	wiretapp	VERB	VBG	Tense=Pres|VerbForm=Part	41	conj	_	start_char=2092|end_char=2103
+50	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	52	nmod:poss	_	start_char=2104|end_char=2109
+51	text	text	NOUN	NN	Number=Sing	52	compound	_	start_char=2110|end_char=2114
+52	messages	message	NOUN	NNS	Number=Plur	49	obj	_	start_char=2115|end_char=2123|SpaceAfter=No
+53	.	.	PUNCT	.	_	23	punct	_	start_char=2123|end_char=2124|SpacesAfter=\n\n
+
+# text = So, after 100 years of being able to listen to any telephone call -- anytime, anywhere -- you might imagine that government officials are not very happy.
+# sent_id = 19
+1	So	so	ADV	RB	_	22	advmod	_	start_char=2126|end_char=2128|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=2128|end_char=2129
+3	after	after	ADP	IN	_	5	case	_	start_char=2130|end_char=2135
+4	100	100	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	_	start_char=2136|end_char=2139
+5	years	year	NOUN	NNS	Number=Plur	22	obl	_	start_char=2140|end_char=2145
+6	of	of	SCONJ	IN	_	8	mark	_	start_char=2146|end_char=2148
+7	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	8	cop	_	start_char=2149|end_char=2154
+8	able	able	ADJ	JJ	Degree=Pos	5	acl	_	start_char=2155|end_char=2159
+9	to	to	PART	TO	_	10	mark	_	start_char=2160|end_char=2162
+10	listen	listen	VERB	VB	VerbForm=Inf	8	xcomp	_	start_char=2163|end_char=2169
+11	to	to	ADP	IN	_	14	case	_	start_char=2170|end_char=2172
+12	any	any	DET	DT	PronType=Ind	14	det	_	start_char=2173|end_char=2176
+13	telephone	telephone	NOUN	NN	Number=Sing	14	compound	_	start_char=2177|end_char=2186
+14	call	call	NOUN	NN	Number=Sing	10	obl	_	start_char=2187|end_char=2191
+15	--	--	PUNCT	,	_	16	punct	_	start_char=2192|end_char=2194
+16	anytime	anytime	ADV	RB	_	22	advmod	_	start_char=2195|end_char=2202|SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	start_char=2202|end_char=2203
+18	anywhere	anywhere	ADV	RB	PronType=Ind	16	advmod	_	start_char=2204|end_char=2212
+19	--	--	PUNCT	,	_	5	punct	_	start_char=2213|end_char=2215
+20	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	nsubj	_	start_char=2216|end_char=2219
+21	might	might	AUX	MD	VerbForm=Fin	22	aux	_	start_char=2220|end_char=2225
+22	imagine	imagine	VERB	VB	VerbForm=Inf	0	root	_	start_char=2226|end_char=2233
+23	that	that	SCONJ	IN	_	29	mark	_	start_char=2234|end_char=2238
+24	government	government	NOUN	NN	Number=Sing	25	compound	_	start_char=2239|end_char=2249
+25	officials	official	NOUN	NNS	Number=Plur	29	nsubj	_	start_char=2250|end_char=2259
+26	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	start_char=2260|end_char=2263
+27	not	not	PART	RB	Polarity=Neg	29	advmod	_	start_char=2264|end_char=2267
+28	very	very	ADV	RB	_	29	advmod	_	start_char=2268|end_char=2272
+29	happy	happy	ADJ	JJ	Degree=Pos	22	ccomp	_	start_char=2273|end_char=2278|SpaceAfter=No
+30	.	.	PUNCT	.	_	22	punct	_	start_char=2278|end_char=2279|SpacesAfter=\n\n
+
+# text = And in fact, that's what's happening. Government officials are extremely mad.
+# sent_id = 20
+1	And	and	CCONJ	CC	_	7	cc	_	start_char=2281|end_char=2284
+2	in	in	ADP	IN	_	3	case	_	start_char=2285|end_char=2287
+3	fact	fact	NOUN	NN	Number=Sing	7	obl	_	start_char=2288|end_char=2292|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=2292|end_char=2293
+5-6	that's	_	_	_	_	_	_	_	start_char=2294|end_char=2300
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	start_char=2294|end_char=2298
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=2298|end_char=2300
+7-8	what's	_	_	_	_	_	_	_	start_char=2301|end_char=2307
+7	what	what	PRON	WP	PronType=Rel	0	root	_	start_char=2301|end_char=2305
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=2305|end_char=2307
+9	happening	happen	VERB	VBG	Tense=Pres|VerbForm=Part	7	acl:relcl	_	start_char=2308|end_char=2317|SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	start_char=2317|end_char=2318
+11	Government	government	NOUN	NN	Number=Sing	12	compound	_	start_char=2319|end_char=2329
+12	officials	official	NOUN	NNS	Number=Plur	15	nsubj	_	start_char=2330|end_char=2339
+13	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=2340|end_char=2343
+14	extremely	extremely	ADV	RB	_	15	advmod	_	start_char=2344|end_char=2353
+15	mad	mad	ADJ	JJ	Degree=Pos	7	parataxis	_	start_char=2354|end_char=2357|SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	_	start_char=2357|end_char=2358|SpacesAfter=\n\n
+
+# text = And they're not mad because these encryption tools are now available.
+# sent_id = 21
+1	And	and	CCONJ	CC	_	5	cc	_	start_char=2360|end_char=2363
+2-3	they're	_	_	_	_	_	_	_	start_char=2364|end_char=2371
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=2364|end_char=2368
+3	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=2368|end_char=2371
+4	not	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=2372|end_char=2375
+5	mad	mad	ADJ	JJ	Degree=Pos	0	root	_	start_char=2376|end_char=2379
+6	because	because	SCONJ	IN	_	12	mark	_	start_char=2380|end_char=2387
+7	these	this	DET	DT	Number=Plur|PronType=Dem	9	det	_	start_char=2388|end_char=2393
+8	encryption	encryption	NOUN	NN	Number=Sing	9	compound	_	start_char=2394|end_char=2404
+9	tools	tool	NOUN	NNS	Number=Plur	12	nsubj	_	start_char=2405|end_char=2410
+10	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=2411|end_char=2414
+11	now	now	ADV	RB	_	12	advmod	_	start_char=2415|end_char=2418
+12	available	available	ADJ	JJ	Degree=Pos	5	advcl	_	start_char=2419|end_char=2428|SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	start_char=2428|end_char=2429|SpacesAfter=\n\n
+
+# text = What upsets them the most is that the tech companies have built encryption features into their products and turned them on by default.
+# sent_id = 22
+1	What	what	PRON	WP	PronType=Int	12	nsubj:outer	_	start_char=2431|end_char=2435
+2	upsets	upset	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	start_char=2436|end_char=2442
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	start_char=2443|end_char=2447
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=2448|end_char=2451
+5	most	most	ADJ	JJS	Degree=Sup	2	obl:unmarked	_	start_char=2452|end_char=2456
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=2457|end_char=2459
+7	that	that	SCONJ	IN	_	12	mark	_	start_char=2460|end_char=2464
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=2465|end_char=2468
+9	tech	tech	NOUN	NN	Number=Sing	10	compound	_	start_char=2469|end_char=2473
+10	companies	company	NOUN	NNS	Number=Plur	12	nsubj	_	start_char=2474|end_char=2483
+11	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=2484|end_char=2488
+12	built	build	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=2489|end_char=2494
+13	encryption	encryption	NOUN	NN	Number=Sing	14	compound	_	start_char=2495|end_char=2505
+14	features	feature	NOUN	NNS	Number=Plur	12	obj	_	start_char=2506|end_char=2514
+15	into	into	ADP	IN	_	17	case	_	start_char=2515|end_char=2519
+16	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	start_char=2520|end_char=2525
+17	products	product	NOUN	NNS	Number=Plur	12	obl	_	start_char=2526|end_char=2534
+18	and	and	CCONJ	CC	_	19	cc	_	start_char=2535|end_char=2538
+19	turned	turn	VERB	VBD	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	start_char=2539|end_char=2545
+20	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	obj	_	start_char=2546|end_char=2550
+21	on	on	ADP	RP	_	19	compound:prt	_	start_char=2551|end_char=2553
+22	by	by	ADP	IN	_	23	case	_	start_char=2554|end_char=2556
+23	default	default	NOUN	NN	Number=Sing	19	obl	_	start_char=2557|end_char=2564|SpaceAfter=No
+24	.	.	PUNCT	.	_	12	punct	_	start_char=2564|end_char=2565|SpacesAfter=\n\n
+
+# text = It's the default piece that matters.
+# sent_id = 23
+1-2	It's	_	_	_	_	_	_	_	start_char=2567|end_char=2571
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=2567|end_char=2569
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=2569|end_char=2571
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=2572|end_char=2575
+4	default	default	NOUN	NN	Number=Sing	5	compound	_	start_char=2576|end_char=2583
+5	piece	piece	NOUN	NN	Number=Sing	0	root	_	start_char=2584|end_char=2589
+6	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	start_char=2590|end_char=2594
+7	matters	matter	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	start_char=2595|end_char=2602|SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	start_char=2602|end_char=2603|SpacesAfter=\n\n
+
+# text = In short, the tech companies have democratized encryption.
+# sent_id = 24
+1	In	in	ADP	IN	_	2	case	_	start_char=2605|end_char=2607
+2	short	short	ADJ	JJ	Degree=Pos	7	obl	_	start_char=2608|end_char=2613|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=2613|end_char=2614
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=2615|end_char=2618
+5	tech	tech	NOUN	NN	Number=Sing	6	compound	_	start_char=2619|end_char=2623
+6	companies	company	NOUN	NNS	Number=Plur	7	nsubj	_	start_char=2624|end_char=2633
+7	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2634|end_char=2638
+8	democratized	democratize	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	start_char=2639|end_char=2651
+9	encryption	encryption	NOUN	NN	Number=Sing	7	obj	_	start_char=2652|end_char=2662|SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	start_char=2662|end_char=2663|SpacesAfter=\n\n
+
+# text = And so, government officials like British Prime Minister David Cameron, they believe that all communications -- emails, texts, voice calls -- all of these should be available to governments, and encryption is making that difficult.
+# sent_id = 25
+1	And	and	CCONJ	CC	_	14	cc	_	start_char=2665|end_char=2668
+2	so	so	ADV	RB	_	14	advmod	_	start_char=2669|end_char=2671|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=2671|end_char=2672
+4	government	government	NOUN	NN	Number=Sing	5	compound	_	start_char=2673|end_char=2683
+5	officials	official	NOUN	NNS	Number=Plur	14	nsubj	_	start_char=2684|end_char=2693
+6	like	like	ADP	IN	_	9	case	_	start_char=2694|end_char=2698
+7	British	British	ADJ	JJ	Degree=Pos	9	amod	_	start_char=2699|end_char=2706
+8	Prime	Prime	ADJ	NNP	Degree=Pos	9	amod	_	start_char=2707|end_char=2712
+9	Minister	Minister	PROPN	NNP	Number=Sing	5	nmod	_	start_char=2713|end_char=2721
+10	David	David	PROPN	NNP	Number=Sing	9	flat	_	start_char=2722|end_char=2727
+11	Cameron	Cameron	PROPN	NNP	Number=Sing	9	flat	_	start_char=2728|end_char=2735|SpaceAfter=No
+12	,	,	PUNCT	,	_	5	punct	_	start_char=2735|end_char=2736
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	start_char=2737|end_char=2741
+14	believe	believe	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2742|end_char=2749
+15	that	that	SCONJ	IN	_	31	mark	_	start_char=2750|end_char=2754
+16	all	all	DET	DT	PronType=Tot	17	det	_	start_char=2755|end_char=2758
+17	communications	communication	NOUN	NNS	Number=Plur	31	nsubj	_	start_char=2759|end_char=2773
+18	--	--	PUNCT	,	_	19	punct	_	start_char=2774|end_char=2776
+19	emails	email	NOUN	NNS	Number=Plur	17	appos	_	start_char=2777|end_char=2783|SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	_	start_char=2783|end_char=2784
+21	texts	text	NOUN	NNS	Number=Plur	19	conj	_	start_char=2785|end_char=2790|SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	start_char=2790|end_char=2791
+23	voice	voice	NOUN	NN	Number=Sing	24	compound	_	start_char=2792|end_char=2797
+24	calls	call	NOUN	NNS	Number=Plur	17	conj	_	start_char=2798|end_char=2803
+25	--	--	PUNCT	,	_	17	punct	_	start_char=2804|end_char=2806
+26	all	all	DET	DT	PronType=Tot	31	nsubj	_	start_char=2807|end_char=2810
+27	of	of	ADP	IN	_	28	case	_	start_char=2811|end_char=2813
+28	these	this	PRON	DT	Number=Plur|PronType=Dem	26	nmod	_	start_char=2814|end_char=2819
+29	should	should	AUX	MD	VerbForm=Fin	31	aux	_	start_char=2820|end_char=2826
+30	be	be	AUX	VB	VerbForm=Inf	31	cop	_	start_char=2827|end_char=2829
+31	available	available	ADJ	JJ	Degree=Pos	14	ccomp	_	start_char=2830|end_char=2839
+32	to	to	ADP	IN	_	33	case	_	start_char=2840|end_char=2842
+33	governments	government	NOUN	NNS	Number=Plur	31	obl	_	start_char=2843|end_char=2854|SpaceAfter=No
+34	,	,	PUNCT	,	_	38	punct	_	start_char=2854|end_char=2855
+35	and	and	CCONJ	CC	_	38	cc	_	start_char=2856|end_char=2859
+36	encryption	encryption	NOUN	NN	Number=Sing	38	nsubj	_	start_char=2860|end_char=2870
+37	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	start_char=2871|end_char=2873
+38	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	31	conj	_	start_char=2874|end_char=2880
+39	that	that	PRON	DT	Number=Sing|PronType=Dem	38	obj	_	start_char=2881|end_char=2885
+40	difficult	difficult	ADJ	JJ	Degree=Pos	38	xcomp	_	start_char=2886|end_char=2895|SpaceAfter=No
+41	.	.	PUNCT	.	_	14	punct	_	start_char=2895|end_char=2896|SpacesAfter=\n\n
+
+# text = Now, look -- I'm extremely sympathetic to their point of view.
+# sent_id = 26
+1	Now	now	ADV	RB	_	3	advmod	_	start_char=2898|end_char=2901|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=2901|end_char=2902
+3	look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=2903|end_char=2907
+4	--	--	PUNCT	,	_	8	punct	_	start_char=2908|end_char=2910
+5-6	I'm	_	_	_	_	_	_	_	start_char=2911|end_char=2914
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=2911|end_char=2912
+6	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=2912|end_char=2914
+7	extremely	extremely	ADV	RB	_	8	advmod	_	start_char=2915|end_char=2924
+8	sympathetic	sympathetic	ADJ	JJ	Degree=Pos	3	parataxis	_	start_char=2925|end_char=2936
+9	to	to	ADP	IN	_	11	case	_	start_char=2937|end_char=2939
+10	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=2940|end_char=2945
+11	point	point	NOUN	NN	Number=Sing	8	obl	_	start_char=2946|end_char=2951
+12	of	of	ADP	IN	_	13	case	_	start_char=2952|end_char=2954
+13	view	view	NOUN	NN	Number=Sing	11	nmod	_	start_char=2955|end_char=2959|SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	start_char=2959|end_char=2960|SpacesAfter=\n\n
+
+# text = We live in a dangerous time in a dangerous world, and there really are bad people out there.
+# sent_id = 27
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=2962|end_char=2964
+2	live	live	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2965|end_char=2969
+3	in	in	ADP	IN	_	6	case	_	start_char=2970|end_char=2972
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=2973|end_char=2974
+5	dangerous	dangerous	ADJ	JJ	Degree=Pos	6	amod	_	start_char=2975|end_char=2984
+6	time	time	NOUN	NN	Number=Sing	2	obl	_	start_char=2985|end_char=2989
+7	in	in	ADP	IN	_	10	case	_	start_char=2990|end_char=2992
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=2993|end_char=2994
+9	dangerous	dangerous	ADJ	JJ	Degree=Pos	10	amod	_	start_char=2995|end_char=3004
+10	world	world	NOUN	NN	Number=Sing	2	obl	_	start_char=3005|end_char=3010|SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	start_char=3010|end_char=3011
+12	and	and	CCONJ	CC	_	15	cc	_	start_char=3012|end_char=3015
+13	there	there	PRON	EX	_	15	expl	_	start_char=3016|end_char=3021
+14	really	really	ADV	RB	_	15	advmod	_	start_char=3022|end_char=3028
+15	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=3029|end_char=3032
+16	bad	bad	ADJ	JJ	Degree=Pos	17	amod	_	start_char=3033|end_char=3036
+17	people	person	NOUN	NNS	Number=Plur	15	nsubj	_	start_char=3037|end_char=3043
+18	out	out	ADV	RB	_	19	advmod	_	start_char=3044|end_char=3047
+19	there	there	ADV	RB	PronType=Dem	15	advmod	_	start_char=3048|end_char=3053|SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	start_char=3053|end_char=3054|SpacesAfter=\n\n
+
+# text = There are terrorists and other serious national security threats that I suspect we all want the FBI and the NSA to monitor.
+# sent_id = 28
+1	There	there	PRON	EX	_	2	expl	_	start_char=3056|end_char=3061
+2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3062|end_char=3065
+3	terrorists	terrorist	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=3066|end_char=3076
+4	and	and	CCONJ	CC	_	9	cc	_	start_char=3077|end_char=3080
+5	other	other	ADJ	JJ	Degree=Pos	9	amod	_	start_char=3081|end_char=3086
+6	serious	serious	ADJ	JJ	Degree=Pos	9	amod	_	start_char=3087|end_char=3094
+7	national	national	ADJ	JJ	Degree=Pos	9	amod	_	start_char=3095|end_char=3103
+8	security	security	NOUN	NN	Number=Sing	9	compound	_	start_char=3104|end_char=3112
+9	threats	threat	NOUN	NNS	Number=Plur	3	conj	_	start_char=3113|end_char=3120
+10	that	that	PRON	WDT	PronType=Rel	15	obj	_	start_char=3121|end_char=3125
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=3126|end_char=3127
+12	suspect	suspect	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	start_char=3128|end_char=3135
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	start_char=3136|end_char=3138
+14	all	all	DET	DT	PronType=Tot	13	det	_	start_char=3139|end_char=3142
+15	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	ccomp	_	start_char=3143|end_char=3147
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=3148|end_char=3151
+17	FBI	FBI	PROPN	NNP	Number=Sing	15	obj	_	start_char=3152|end_char=3155
+18	and	and	CCONJ	CC	_	20	cc	_	start_char=3156|end_char=3159
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=3160|end_char=3163
+20	NSA	NSA	PROPN	NNP	Number=Sing	17	conj	_	start_char=3164|end_char=3167
+21	to	to	PART	TO	_	22	mark	_	start_char=3168|end_char=3170
+22	monitor	monitor	VERB	VB	VerbForm=Inf	15	xcomp	_	start_char=3171|end_char=3178|SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	start_char=3178|end_char=3179|SpacesAfter=\n\n
+
+# text = But those surveillance features come at a cost.
+# sent_id = 29
+1	But	but	CCONJ	CC	_	5	cc	_	start_char=3181|end_char=3184
+2	those	that	DET	DT	Number=Plur|PronType=Dem	4	det	_	start_char=3185|end_char=3190
+3	surveillance	surveillance	NOUN	NN	Number=Sing	4	compound	_	start_char=3191|end_char=3203
+4	features	feature	NOUN	NNS	Number=Plur	5	nsubj	_	start_char=3204|end_char=3212
+5	come	come	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3213|end_char=3217
+6	at	at	ADP	IN	_	8	case	_	start_char=3218|end_char=3220
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=3221|end_char=3222
+8	cost	cost	NOUN	NN	Number=Sing	5	obl	_	start_char=3223|end_char=3227|SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	start_char=3227|end_char=3228|SpacesAfter=\n\n
+
+# text = The reason for that is that there is no such thing as a terrorist laptop, or a drug dealer's cell phone.
+# sent_id = 30
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=3230|end_char=3233
+2	reason	reason	NOUN	NN	Number=Sing	8	nsubj:outer	_	start_char=3234|end_char=3240
+3	for	for	ADP	IN	_	4	case	_	start_char=3241|end_char=3244
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	2	nmod	_	start_char=3245|end_char=3249
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=3250|end_char=3252
+6	that	that	SCONJ	IN	_	8	mark	_	start_char=3253|end_char=3257
+7	there	there	PRON	EX	_	8	expl	_	start_char=3258|end_char=3263
+8	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3264|end_char=3266
+9	no	no	DET	DT	PronType=Neg	11	det	_	start_char=3267|end_char=3269
+10	such	such	ADJ	JJ	Degree=Pos	11	amod	_	start_char=3270|end_char=3274
+11	thing	thing	NOUN	NN	Number=Sing	8	nsubj	_	start_char=3275|end_char=3280
+12	as	as	ADP	IN	_	15	case	_	start_char=3281|end_char=3283
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=3284|end_char=3285
+14	terrorist	terrorist	ADJ	JJ	Degree=Pos	15	amod	_	start_char=3286|end_char=3295
+15	laptop	laptop	NOUN	NN	Number=Sing	11	nmod	_	start_char=3296|end_char=3302|SpaceAfter=No
+16	,	,	PUNCT	,	_	23	punct	_	start_char=3302|end_char=3303
+17	or	or	CCONJ	CC	_	23	cc	_	start_char=3304|end_char=3306
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	start_char=3307|end_char=3308
+19	drug	drug	NOUN	NN	Number=Sing	20	compound	_	start_char=3309|end_char=3313
+20-21	dealer's	_	_	_	_	_	_	_	start_char=3314|end_char=3322
+20	dealer	dealer	NOUN	NN	Number=Sing	23	nmod:poss	_	start_char=3314|end_char=3320
+21	's	's	PART	POS	_	20	case	_	start_char=3320|end_char=3322
+22	cell	cell	NOUN	NN	Number=Sing	23	compound	_	start_char=3323|end_char=3327
+23	phone	phone	NOUN	NN	Number=Sing	15	conj	_	start_char=3328|end_char=3333|SpaceAfter=No
+24	.	.	PUNCT	.	_	8	punct	_	start_char=3333|end_char=3334|SpacesAfter=\n\n
+
+# text = We all use the same communications devices.
+# sent_id = 31
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=3336|end_char=3338
+2	all	all	DET	DT	PronType=Tot	1	det	_	start_char=3339|end_char=3342
+3	use	use	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3343|end_char=3346
+4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=3347|end_char=3350
+5	same	same	ADJ	JJ	Degree=Pos	7	amod	_	start_char=3351|end_char=3355
+6	communications	communication	NOUN	NNS	Number=Plur	7	compound	_	start_char=3356|end_char=3370
+7	devices	device	NOUN	NNS	Number=Plur	3	obj	_	start_char=3371|end_char=3378|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=3378|end_char=3379|SpacesAfter=\n\n
+
+# text = What that means is that if the drug dealers' telephone calls or the terrorists' telephone calls can be intercepted, then so can the rest of ours, too.
+# sent_id = 32
+1	What	what	PRON	WP	PronType=Int	21	nsubj:outer	_	start_char=3381|end_char=3385
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	start_char=3386|end_char=3390
+3	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	start_char=3391|end_char=3396
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	start_char=3397|end_char=3399
+5	that	that	SCONJ	IN	_	21	mark	_	start_char=3400|end_char=3404
+6	if	if	SCONJ	IN	_	21	mark	_	start_char=3405|end_char=3407
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=3408|end_char=3411
+8	drug	drug	NOUN	NN	Number=Sing	9	compound	_	start_char=3412|end_char=3416
+9-10	dealers'	_	_	_	_	_	_	_	start_char=3417|end_char=3425
+9	dealers	dealer	NOUN	NNS	Number=Plur	12	nmod:poss	_	start_char=3417|end_char=3424
+10	'	's	PART	POS	_	9	case	_	start_char=3424|end_char=3425
+11	telephone	telephone	NOUN	NN	Number=Sing	12	compound	_	start_char=3426|end_char=3435
+12	calls	call	NOUN	NNS	Number=Plur	21	nsubj:pass	_	start_char=3436|end_char=3441
+13	or	or	CCONJ	CC	_	18	cc	_	start_char=3442|end_char=3444
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=3445|end_char=3448
+15	terrorists	terrorist	NOUN	NNS	Number=Plur	18	nmod:poss	_	start_char=3449|end_char=3459|SpaceAfter=No
+16	'	's	PART	POS	_	15	case	_	start_char=3459|end_char=3460
+17	telephone	telephone	NOUN	NN	Number=Sing	18	compound	_	start_char=3461|end_char=3470
+18	calls	call	NOUN	NNS	Number=Plur	12	conj	_	start_char=3471|end_char=3476
+19	can	can	AUX	MD	VerbForm=Fin	21	aux	_	start_char=3477|end_char=3480
+20	be	be	AUX	VB	VerbForm=Inf	21	aux:pass	_	start_char=3481|end_char=3483
+21	intercepted	intercept	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	25	advcl	_	start_char=3484|end_char=3495|SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	start_char=3495|end_char=3496
+23	then	then	ADV	RB	PronType=Dem	27	advmod	_	start_char=3497|end_char=3501
+24	so	so	ADV	RB	_	27	advmod	_	start_char=3502|end_char=3504
+25	can	can	AUX	MD	VerbForm=Fin	27	aux	_	start_char=3505|end_char=3508
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	start_char=3509|end_char=3512
+27	rest	rest	NOUN	NN	Number=Sing	0	root	_	start_char=3513|end_char=3517
+28	of	of	ADP	IN	_	29	case	_	start_char=3518|end_char=3520
+29	ours	our	PRON	PRP	Number=Plur|Person=1|Poss=Yes|PronType=Prs	27	nmod	_	start_char=3521|end_char=3525|SpaceAfter=No
+30	,	,	PUNCT	,	_	31	punct	_	start_char=3525|end_char=3526
+31	too	too	ADV	RB	_	27	advmod	_	start_char=3527|end_char=3530|SpaceAfter=No
+32	.	.	PUNCT	.	_	25	punct	_	start_char=3530|end_char=3531|SpacesAfter=\n\n
+
+# text = And I think we really need to ask:
+# sent_id = 33
+1	And	and	CCONJ	CC	_	3	cc	_	start_char=3533|end_char=3536
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=3537|end_char=3538
+3	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3539|end_char=3544
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=3545|end_char=3547
+5	really	really	ADV	RB	_	6	advmod	_	start_char=3548|end_char=3554
+6	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	ccomp	_	start_char=3555|end_char=3559
+7	to	to	PART	TO	_	8	mark	_	start_char=3560|end_char=3562
+8	ask	ask	VERB	VB	VerbForm=Inf	6	xcomp	_	start_char=3563|end_char=3566|SpaceAfter=No
+9	:	:	PUNCT	:	_	3	punct	_	start_char=3566|end_char=3567|SpacesAfter=\n\n
+
+# text = Should a billion people around the world be using devices that are wiretap friendly?
+# sent_id = 34
+1	Should	should	AUX	MD	VerbForm=Fin	9	aux	_	start_char=3569|end_char=3575
+2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=3576|end_char=3577
+3	billion	billion	NUM	CD	NumForm=Word|NumType=Card	4	nummod	_	start_char=3578|end_char=3585
+4	people	person	NOUN	NNS	Number=Plur	9	nsubj	_	start_char=3586|end_char=3592
+5	around	around	ADP	IN	_	7	case	_	start_char=3593|end_char=3599
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=3600|end_char=3603
+7	world	world	NOUN	NN	Number=Sing	4	nmod	_	start_char=3604|end_char=3609
+8	be	be	AUX	VB	VerbForm=Inf	9	aux	_	start_char=3610|end_char=3612
+9	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=3613|end_char=3618
+10	devices	device	NOUN	NNS	Number=Plur	9	obj	_	start_char=3619|end_char=3626
+11	that	that	PRON	WDT	PronType=Rel	14	nsubj	_	start_char=3627|end_char=3631
+12	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=3632|end_char=3635
+13	wiretap	wiretap	NOUN	NN	Number=Sing	14	obl:unmarked	_	start_char=3636|end_char=3643
+14	friendly	friendly	ADJ	JJ	Degree=Pos	10	acl:relcl	_	start_char=3644|end_char=3652|SpaceAfter=No
+15	?	?	PUNCT	.	_	9	punct	_	start_char=3652|end_char=3653|SpacesAfter=\n\n
+
+# text = So the scenario of hacking of surveillance systems that I've described -- this is not imaginary.
+# sent_id = 35
+1	So	so	ADV	RB	_	17	advmod	_	start_char=3655|end_char=3657
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=3658|end_char=3661
+3	scenario	scenario	NOUN	NN	Number=Sing	17	nsubj	_	start_char=3662|end_char=3670
+4	of	of	ADP	IN	_	5	case	_	start_char=3671|end_char=3673
+5	hacking	hack	NOUN	NN	Number=Sing	3	nmod	_	start_char=3674|end_char=3681
+6	of	of	ADP	IN	_	8	case	_	start_char=3682|end_char=3684
+7	surveillance	surveillance	NOUN	NN	Number=Sing	8	compound	_	start_char=3685|end_char=3697
+8	systems	system	NOUN	NNS	Number=Plur	5	nmod	_	start_char=3698|end_char=3705
+9	that	that	PRON	WDT	PronType=Rel	12	obj	_	start_char=3706|end_char=3710
+10-11	I've	_	_	_	_	_	_	_	start_char=3711|end_char=3715
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=3711|end_char=3712
+11	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=3712|end_char=3715
+12	described	describe	VERB	VBN	Tense=Past|VerbForm=Part	8	acl:relcl	_	start_char=3716|end_char=3725
+13	--	--	PUNCT	:	_	3	punct	_	start_char=3726|end_char=3728
+14	this	this	PRON	DT	Number=Sing|PronType=Dem	17	nsubj	_	start_char=3729|end_char=3733
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=3734|end_char=3736
+16	not	not	PART	RB	Polarity=Neg	17	advmod	_	start_char=3737|end_char=3740
+17	imaginary	imaginary	ADJ	JJ	Degree=Pos	0	root	_	start_char=3741|end_char=3750|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	punct	_	start_char=3750|end_char=3751|SpacesAfter=\n\n
+
+# text = In 2009, the surveillance systems that Google and Microsoft built into their networks -- the systems that they use to respond to lawful surveillance requests from the police -- those systems were compromised by the Chinese government, because the Chinese government wanted to figure out which of their own agents the US government was monitoring.
+# sent_id = 36
+1	In	in	ADP	IN	_	2	case	_	start_char=3753|end_char=3755
+2	2009	2009	NUM	CD	NumForm=Digit|NumType=Card	34	obl	_	start_char=3756|end_char=3760|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=3760|end_char=3761
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=3762|end_char=3765
+5	surveillance	surveillance	NOUN	NN	Number=Sing	6	compound	_	start_char=3766|end_char=3778
+6	systems	system	NOUN	NNS	Number=Plur	34	nsubj:pass	_	start_char=3779|end_char=3786
+7	that	that	PRON	WDT	PronType=Rel	11	obj	_	start_char=3787|end_char=3791
+8	Google	Google	PROPN	NNP	Number=Sing	11	nsubj	_	start_char=3792|end_char=3798
+9	and	and	CCONJ	CC	_	10	cc	_	start_char=3799|end_char=3802
+10	Microsoft	Microsoft	PROPN	NNP	Number=Sing	8	conj	_	start_char=3803|end_char=3812
+11	built	build	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	start_char=3813|end_char=3818
+12	into	into	ADP	IN	_	14	case	_	start_char=3819|end_char=3823
+13	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=3824|end_char=3829
+14	networks	network	NOUN	NNS	Number=Plur	11	obl	_	start_char=3830|end_char=3838
+15	--	--	PUNCT	,	_	17	punct	_	start_char=3839|end_char=3841
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=3842|end_char=3845
+17	systems	system	NOUN	NNS	Number=Plur	6	appos	_	start_char=3846|end_char=3853
+18	that	that	PRON	WDT	PronType=Rel	22	obj	_	start_char=3854|end_char=3858
+19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	start_char=3859|end_char=3863
+20	use	use	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	start_char=3864|end_char=3867
+21	to	to	PART	TO	_	22	mark	_	start_char=3868|end_char=3870
+22	respond	respond	VERB	VB	VerbForm=Inf	20	xcomp	_	start_char=3871|end_char=3878
+23	to	to	ADP	IN	_	26	case	_	start_char=3879|end_char=3881
+24	lawful	lawful	ADJ	JJ	Degree=Pos	26	amod	_	start_char=3882|end_char=3888
+25	surveillance	surveillance	NOUN	NN	Number=Sing	26	compound	_	start_char=3889|end_char=3901
+26	requests	request	NOUN	NNS	Number=Plur	22	obl	_	start_char=3902|end_char=3910
+27	from	from	ADP	IN	_	29	case	_	start_char=3911|end_char=3915
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	start_char=3916|end_char=3919
+29	police	police	NOUN	NN	Number=Sing	26	nmod	_	start_char=3920|end_char=3926
+30	--	--	PUNCT	,	_	6	punct	_	start_char=3927|end_char=3929
+31	those	that	DET	DT	Number=Plur|PronType=Dem	32	det	_	start_char=3930|end_char=3935
+32	systems	system	NOUN	NNS	Number=Plur	34	nsubj:pass	_	start_char=3936|end_char=3943
+33	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	34	aux:pass	_	start_char=3944|end_char=3948
+34	compromised	compromise	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=3949|end_char=3960
+35	by	by	ADP	IN	_	38	case	_	start_char=3961|end_char=3963
+36	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	start_char=3964|end_char=3967
+37	Chinese	Chinese	ADJ	JJ	Degree=Pos	38	amod	_	start_char=3968|end_char=3975
+38	government	government	NOUN	NN	Number=Sing	34	obl:agent	_	start_char=3976|end_char=3986|SpaceAfter=No
+39	,	,	PUNCT	,	_	44	punct	_	start_char=3986|end_char=3987
+40	because	because	SCONJ	IN	_	44	mark	_	start_char=3988|end_char=3995
+41	the	the	DET	DT	Definite=Def|PronType=Art	43	det	_	start_char=3996|end_char=3999
+42	Chinese	Chinese	ADJ	JJ	Degree=Pos	43	amod	_	start_char=4000|end_char=4007
+43	government	government	NOUN	NN	Number=Sing	44	nsubj	_	start_char=4008|end_char=4018
+44	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	advcl	_	start_char=4019|end_char=4025
+45	to	to	PART	TO	_	46	mark	_	start_char=4026|end_char=4028
+46	figure	figure	VERB	VB	VerbForm=Inf	44	xcomp	_	start_char=4029|end_char=4035
+47	out	out	ADP	RP	_	46	compound:prt	_	start_char=4036|end_char=4039
+48	which	which	DET	WDT	PronType=Int	46	obj	_	start_char=4040|end_char=4045
+49	of	of	ADP	IN	_	52	case	_	start_char=4046|end_char=4048
+50	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	52	nmod:poss	_	start_char=4049|end_char=4054
+51	own	own	ADJ	JJ	Degree=Pos	52	amod	_	start_char=4055|end_char=4058
+52	agents	agent	NOUN	NNS	Number=Plur	48	nmod	_	start_char=4059|end_char=4065
+53	the	the	DET	DT	Definite=Def|PronType=Art	55	det	_	start_char=4066|end_char=4069
+54	US	US	PROPN	NNP	Number=Sing	55	compound	_	start_char=4070|end_char=4072
+55	government	government	NOUN	NN	Number=Sing	57	nsubj	_	start_char=4073|end_char=4083
+56	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	57	aux	_	start_char=4084|end_char=4087
+57	monitoring	monitor	VERB	VBG	Tense=Pres|VerbForm=Part	52	acl:relcl	_	start_char=4088|end_char=4098|SpaceAfter=No
+58	.	.	PUNCT	.	_	34	punct	_	start_char=4098|end_char=4099|SpacesAfter=\n\n
+
+# text = By the same token, in 2004, the surveillance system built into the network of Vodafone Greece -- Greece's largest telephone company -- was compromised by an unknown entity, and that feature, the surveillance feature, was used to wiretap the Greek Prime Minister and members of the Greek cabinet.
+# sent_id = 37
+1	By	by	ADP	IN	_	4	case	_	start_char=4101|end_char=4103
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=4104|end_char=4107
+3	same	same	ADJ	JJ	Degree=Pos	4	amod	_	start_char=4108|end_char=4112
+4	token	token	NOUN	NN	Number=Sing	27	obl	_	start_char=4113|end_char=4118|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=4118|end_char=4119
+6	in	in	ADP	IN	_	7	case	_	start_char=4120|end_char=4122
+7	2004	2004	NUM	CD	NumForm=Digit|NumType=Card	12	obl	_	start_char=4123|end_char=4127|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	start_char=4127|end_char=4128
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=4129|end_char=4132
+10	surveillance	surveillance	NOUN	NN	Number=Sing	11	compound	_	start_char=4133|end_char=4145
+11	system	system	NOUN	NN	Number=Sing	12	nsubj	_	start_char=4146|end_char=4152
+12	built	build	VERB	VBD	Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=4153|end_char=4158
+13	into	into	ADP	IN	_	15	case	_	start_char=4159|end_char=4163
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=4164|end_char=4167
+15	network	network	NOUN	NN	Number=Sing	12	obl	_	start_char=4168|end_char=4175
+16	of	of	ADP	IN	_	18	case	_	start_char=4176|end_char=4178
+17	Vodafone	Vodafone	PROPN	NNP	Number=Sing	18	compound	_	start_char=4179|end_char=4187
+18	Greece	Greece	PROPN	NNP	Number=Sing	15	nmod	_	start_char=4188|end_char=4194
+19	--	--	PUNCT	,	_	24	punct	_	start_char=4195|end_char=4197
+20-21	Greece's	_	_	_	_	_	_	_	start_char=4198|end_char=4206
+20	Greece	Greece	PROPN	NNP	Number=Sing	24	nmod:poss	_	start_char=4198|end_char=4204
+21	's	's	PART	POS	_	20	case	_	start_char=4204|end_char=4206
+22	largest	large	ADJ	JJS	Degree=Sup	24	amod	_	start_char=4207|end_char=4214
+23	telephone	telephone	NOUN	NN	Number=Sing	24	compound	_	start_char=4215|end_char=4224
+24	company	company	NOUN	NN	Number=Sing	18	appos	_	start_char=4225|end_char=4232
+25	--	--	PUNCT	,	_	24	punct	_	start_char=4233|end_char=4235
+26	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	aux:pass	_	start_char=4236|end_char=4239
+27	compromised	compromise	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	parataxis	_	start_char=4240|end_char=4251
+28	by	by	ADP	IN	_	31	case	_	start_char=4252|end_char=4254
+29	an	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	start_char=4255|end_char=4257
+30	unknown	unknown	ADJ	JJ	Degree=Pos	31	amod	_	start_char=4258|end_char=4265
+31	entity	entity	NOUN	NN	Number=Sing	27	obl:agent	_	start_char=4266|end_char=4272|SpaceAfter=No
+32	,	,	PUNCT	,	_	42	punct	_	start_char=4272|end_char=4273
+33	and	and	CCONJ	CC	_	42	cc	_	start_char=4274|end_char=4277
+34	that	that	DET	DT	Number=Sing|PronType=Dem	35	det	_	start_char=4278|end_char=4282
+35	feature	feature	NOUN	NN	Number=Sing	42	nsubj:pass	_	start_char=4283|end_char=4290|SpaceAfter=No
+36	,	,	PUNCT	,	_	39	punct	_	start_char=4290|end_char=4291
+37	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	start_char=4292|end_char=4295
+38	surveillance	surveillance	NOUN	NN	Number=Sing	39	compound	_	start_char=4296|end_char=4308
+39	feature	feature	NOUN	NN	Number=Sing	35	appos	_	start_char=4309|end_char=4316|SpaceAfter=No
+40	,	,	PUNCT	,	_	35	punct	_	start_char=4316|end_char=4317
+41	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	42	aux:pass	_	start_char=4318|end_char=4321
+42	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	27	conj	_	start_char=4322|end_char=4326
+43	to	to	PART	TO	_	44	mark	_	start_char=4327|end_char=4329
+44	wiretap	wiretap	VERB	VB	VerbForm=Inf	42	advcl	_	start_char=4330|end_char=4337
+45	the	the	DET	DT	Definite=Def|PronType=Art	48	det	_	start_char=4338|end_char=4341
+46	Greek	Greek	ADJ	JJ	Degree=Pos	48	amod	_	start_char=4342|end_char=4347
+47	Prime	Prime	ADJ	NNP	Degree=Pos	48	amod	_	start_char=4348|end_char=4353
+48	Minister	Minister	PROPN	NNP	Number=Sing	44	obj	_	start_char=4354|end_char=4362
+49	and	and	CCONJ	CC	_	50	cc	_	start_char=4363|end_char=4366
+50	members	member	NOUN	NNS	Number=Plur	48	conj	_	start_char=4367|end_char=4374
+51	of	of	ADP	IN	_	54	case	_	start_char=4375|end_char=4377
+52	the	the	DET	DT	Definite=Def|PronType=Art	54	det	_	start_char=4378|end_char=4381
+53	Greek	Greek	ADJ	JJ	Degree=Pos	54	amod	_	start_char=4382|end_char=4387
+54	cabinet	cabinet	NOUN	NN	Number=Sing	50	nmod	_	start_char=4388|end_char=4395|SpaceAfter=No
+55	.	.	PUNCT	.	_	27	punct	_	start_char=4395|end_char=4396|SpacesAfter=\n\n
+
+# text = The foreign government or hackers who did that were never caught.
+# sent_id = 38
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=4398|end_char=4401
+2	foreign	foreign	ADJ	JJ	Degree=Pos	3	amod	_	start_char=4402|end_char=4409
+3	government	government	NOUN	NN	Number=Sing	11	nsubj:pass	_	start_char=4410|end_char=4420
+4	or	or	CCONJ	CC	_	5	cc	_	start_char=4421|end_char=4423
+5	hackers	hacker	NOUN	NNS	Number=Plur	3	conj	_	start_char=4424|end_char=4431
+6	who	who	PRON	WP	PronType=Rel	7	nsubj	_	start_char=4432|end_char=4435
+7	did	do	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	start_char=4436|end_char=4439
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	7	obj	_	start_char=4440|end_char=4444
+9	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	start_char=4445|end_char=4449
+10	never	never	ADV	RB	PronType=Neg	11	advmod	_	start_char=4450|end_char=4455
+11	caught	catch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=4456|end_char=4462|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	punct	_	start_char=4462|end_char=4463|SpacesAfter=\n\n
+
+# text = And really, this gets to the very problem with these surveillance features, or backdoors.
+# sent_id = 39
+1	And	and	CCONJ	CC	_	5	cc	_	start_char=4465|end_char=4468
+2	really	really	ADV	RB	Degree=Pos	5	advmod	_	start_char=4469|end_char=4475|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=4475|end_char=4476
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	start_char=4477|end_char=4481
+5	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4482|end_char=4486
+6	to	to	ADP	IN	_	9	case	_	start_char=4487|end_char=4489
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=4490|end_char=4493
+8	very	very	ADJ	JJ	Degree=Pos	9	amod	_	start_char=4494|end_char=4498
+9	problem	problem	NOUN	NN	Number=Sing	5	obl	_	start_char=4499|end_char=4506
+10	with	with	ADP	IN	_	13	case	_	start_char=4507|end_char=4511
+11	these	this	DET	DT	Number=Plur|PronType=Dem	13	det	_	start_char=4512|end_char=4517
+12	surveillance	surveillance	NOUN	NN	Number=Sing	13	compound	_	start_char=4518|end_char=4530
+13	features	feature	NOUN	NNS	Number=Plur	9	nmod	_	start_char=4531|end_char=4539|SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	start_char=4539|end_char=4540
+15	or	or	CCONJ	CC	_	16	cc	_	start_char=4541|end_char=4543
+16	backdoors	backdoor	NOUN	NNS	Number=Plur	13	conj	_	start_char=4544|end_char=4553|SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	start_char=4553|end_char=4554|SpacesAfter=\n\n
+
+# text = When you build a backdoor into a communications network or piece of technology, you have no way of controlling who's going to go through it.
+# sent_id = 40
+1	When	when	ADV	WRB	PronType=Int	3	advmod	_	start_char=4556|end_char=4560
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=4561|end_char=4564
+3	build	build	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	advcl	_	start_char=4565|end_char=4570
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=4571|end_char=4572
+5	backdoor	backdoor	NOUN	NN	Number=Sing	3	obj	_	start_char=4573|end_char=4581
+6	into	into	ADP	IN	_	9	case	_	start_char=4582|end_char=4586
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=4587|end_char=4588
+8	communications	communication	NOUN	NN	Number=Sing	9	compound	_	start_char=4589|end_char=4603
+9	network	network	NOUN	NN	Number=Sing	3	obl	_	start_char=4604|end_char=4611
+10	or	or	CCONJ	CC	_	11	cc	_	start_char=4612|end_char=4614
+11	piece	piece	NOUN	NN	Number=Sing	9	conj	_	start_char=4615|end_char=4620
+12	of	of	ADP	IN	_	13	case	_	start_char=4621|end_char=4623
+13	technology	technology	NOUN	NN	Number=Sing	11	nmod	_	start_char=4624|end_char=4634|SpaceAfter=No
+14	,	,	PUNCT	,	_	3	punct	_	start_char=4634|end_char=4635
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	start_char=4636|end_char=4639
+16	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4640|end_char=4644
+17	no	no	DET	DT	PronType=Neg	18	det	_	start_char=4645|end_char=4647
+18	way	way	NOUN	NN	Number=Sing	16	obj	_	start_char=4648|end_char=4651
+19	of	of	SCONJ	IN	_	20	mark	_	start_char=4652|end_char=4654
+20	controlling	control	VERB	VBG	VerbForm=Ger	18	acl	_	start_char=4655|end_char=4666
+21-22	who's	_	_	_	_	_	_	_	start_char=4667|end_char=4672
+21	who	who	PRON	WP	PronType=Int	23	nsubj	_	start_char=4667|end_char=4670
+22	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	start_char=4670|end_char=4672
+23	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	20	ccomp	_	start_char=4673|end_char=4678
+24	to	to	PART	TO	_	25	mark	_	start_char=4679|end_char=4681
+25	go	go	VERB	VB	VerbForm=Inf	23	xcomp	_	start_char=4682|end_char=4684
+26	through	through	ADP	IN	_	27	case	_	start_char=4685|end_char=4692
+27	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	obl	_	start_char=4693|end_char=4695|SpaceAfter=No
+28	.	.	PUNCT	.	_	16	punct	_	start_char=4695|end_char=4696|SpacesAfter=\n\n
+
+# text = You have no way of controlling whether it'll be used by your side or the other side, by good guys, or by bad guys.
+# sent_id = 41
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	start_char=4698|end_char=4701
+2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4702|end_char=4706
+3	no	no	DET	DT	PronType=Neg	4	det	_	start_char=4707|end_char=4709
+4	way	way	NOUN	NN	Number=Sing	2	obj	_	start_char=4710|end_char=4713
+5	of	of	SCONJ	IN	_	6	mark	_	start_char=4714|end_char=4716
+6	controlling	control	VERB	VBG	VerbForm=Ger	4	acl	_	start_char=4717|end_char=4728
+7	whether	whether	SCONJ	IN	_	11	mark	_	start_char=4729|end_char=4736
+8-9	it'll	_	_	_	_	_	_	_	start_char=4737|end_char=4742
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj:pass	_	start_char=4737|end_char=4739
+9	'll	will	AUX	MD	VerbForm=Fin	11	aux	_	start_char=4739|end_char=4742
+10	be	be	AUX	VB	VerbForm=Inf	11	aux:pass	_	start_char=4743|end_char=4745
+11	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	ccomp	_	start_char=4746|end_char=4750
+12	by	by	ADP	IN	_	14	case	_	start_char=4751|end_char=4753
+13	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=4754|end_char=4758
+14	side	side	NOUN	NN	Number=Sing	11	obl:agent	_	start_char=4759|end_char=4763
+15	or	or	CCONJ	CC	_	18	cc	_	start_char=4764|end_char=4766
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=4767|end_char=4770
+17	other	other	ADJ	JJ	Degree=Pos	18	amod	_	start_char=4771|end_char=4776
+18	side	side	NOUN	NN	Number=Sing	14	conj	_	start_char=4777|end_char=4781|SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	start_char=4781|end_char=4782
+20	by	by	ADP	IN	_	22	case	_	start_char=4783|end_char=4785
+21	good	good	ADJ	JJ	Degree=Pos	22	amod	_	start_char=4786|end_char=4790
+22	guys	guy	NOUN	NNS	Number=Plur	14	conj	_	start_char=4791|end_char=4795|SpaceAfter=No
+23	,	,	PUNCT	,	_	27	punct	_	start_char=4795|end_char=4796
+24	or	or	CCONJ	CC	_	27	cc	_	start_char=4797|end_char=4799
+25	by	by	ADP	IN	_	27	case	_	start_char=4800|end_char=4802
+26	bad	bad	ADJ	JJ	Degree=Pos	27	amod	_	start_char=4803|end_char=4806
+27	guys	guy	NOUN	NNS	Number=Plur	22	conj	_	start_char=4807|end_char=4811|SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	start_char=4811|end_char=4812|SpacesAfter=\n\n
+
+# text = And so for that reason, I think that it's better to build networks to be as secure as possible.
+# sent_id = 42
+1	And	and	CCONJ	CC	_	8	cc	_	start_char=4814|end_char=4817
+2	so	so	ADV	RB	_	8	advmod	_	start_char=4818|end_char=4820
+3	for	for	ADP	IN	_	5	case	_	start_char=4821|end_char=4824
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	start_char=4825|end_char=4829
+5	reason	reason	NOUN	NN	Number=Sing	8	obl	_	start_char=4830|end_char=4836|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	start_char=4836|end_char=4837
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=4838|end_char=4839
+8	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4840|end_char=4845
+9	that	that	SCONJ	IN	_	12	mark	_	start_char=4846|end_char=4850
+10-11	it's	_	_	_	_	_	_	_	start_char=4851|end_char=4855
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	start_char=4851|end_char=4853
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=4853|end_char=4855
+12	better	good	ADJ	JJR	Degree=Cmp	8	ccomp	_	start_char=4856|end_char=4862
+13	to	to	PART	TO	_	14	mark	_	start_char=4863|end_char=4865
+14	build	build	VERB	VB	VerbForm=Inf	12	csubj	_	start_char=4866|end_char=4871
+15	networks	network	NOUN	NNS	Number=Plur	14	obj	_	start_char=4872|end_char=4880
+16	to	to	PART	TO	_	19	mark	_	start_char=4881|end_char=4883
+17	be	be	AUX	VB	VerbForm=Inf	19	cop	_	start_char=4884|end_char=4886
+18	as	as	ADV	RB	_	19	advmod	_	start_char=4887|end_char=4889
+19	secure	secure	ADJ	JJ	Degree=Pos	14	xcomp	_	start_char=4890|end_char=4896
+20	as	as	SCONJ	IN	_	21	mark	_	start_char=4897|end_char=4899
+21	possible	possible	ADJ	JJ	Degree=Pos	19	advcl	_	start_char=4900|end_char=4908|SpaceAfter=No
+22	.	.	PUNCT	.	_	8	punct	_	start_char=4908|end_char=4909|SpacesAfter=\n\n
+
+# text = Yes, this means that in the future, encryption is going to make wiretapping more difficult.
+# sent_id = 43
+1	Yes	yes	INTJ	UH	Polarity=Pos	4	discourse	_	start_char=4911|end_char=4914|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=4914|end_char=4915
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	start_char=4916|end_char=4920
+4	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4921|end_char=4926
+5	that	that	SCONJ	IN	_	12	mark	_	start_char=4927|end_char=4931
+6	in	in	ADP	IN	_	8	case	_	start_char=4932|end_char=4934
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=4935|end_char=4938
+8	future	future	NOUN	NN	Number=Sing	12	obl	_	start_char=4939|end_char=4945|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	start_char=4945|end_char=4946
+10	encryption	encryption	NOUN	NN	Number=Sing	12	nsubj	_	start_char=4947|end_char=4957
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=4958|end_char=4960
+12	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	4	ccomp	_	start_char=4961|end_char=4966
+13	to	to	PART	TO	_	14	mark	_	start_char=4967|end_char=4969
+14	make	make	VERB	VB	VerbForm=Inf	12	xcomp	_	start_char=4970|end_char=4974
+15	wiretapping	wiretapping	NOUN	NN	Number=Sing	14	obj	_	start_char=4975|end_char=4986
+16	more	more	ADV	RBR	Degree=Cmp	17	advmod	_	start_char=4987|end_char=4991
+17	difficult	difficult	ADJ	JJ	Degree=Pos	14	xcomp	_	start_char=4992|end_char=5001|SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	start_char=5001|end_char=5002|SpacesAfter=\n\n
+
+# text = It means that the police are going to have a tougher time catching bad guys.
+# sent_id = 44
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=5004|end_char=5006
+2	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5007|end_char=5012
+3	that	that	SCONJ	IN	_	7	mark	_	start_char=5013|end_char=5017
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=5018|end_char=5021
+5	police	police	NOUN	NNS	Number=Plur	7	nsubj	_	start_char=5022|end_char=5028
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=5029|end_char=5032
+7	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	ccomp	_	start_char=5033|end_char=5038
+8	to	to	PART	TO	_	9	mark	_	start_char=5039|end_char=5041
+9	have	have	VERB	VB	VerbForm=Inf	7	xcomp	_	start_char=5042|end_char=5046
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=5047|end_char=5048
+11	tougher	tougher	ADJ	JJR	Degree=Cmp	12	amod	_	start_char=5049|end_char=5056
+12	time	time	NOUN	NN	Number=Sing	9	obj	_	start_char=5057|end_char=5061
+13	catching	catching	VERB	VBG	VerbForm=Ger	12	acl	_	start_char=5062|end_char=5070
+14	bad	bad	ADJ	JJ	Degree=Pos	15	amod	_	start_char=5071|end_char=5074
+15	guys	guy	NOUN	NNS	Number=Plur	13	obj	_	start_char=5075|end_char=5079|SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	start_char=5079|end_char=5080|SpacesAfter=\n\n
+
+# text = But the alternative would mean to live in a world where anyone's calls or anyone's text messages could be surveilled by criminals, by stalkers and by foreign intelligence agencies.
+# sent_id = 45
+1	But	but	CCONJ	CC	_	5	cc	_	start_char=5082|end_char=5085
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=5086|end_char=5089
+3	alternative	alternative	NOUN	NN	Number=Sing	5	nsubj	_	start_char=5090|end_char=5101
+4	would	would	AUX	MD	VerbForm=Fin	5	aux	_	start_char=5102|end_char=5107
+5	mean	mean	VERB	VB	VerbForm=Inf	0	root	_	start_char=5108|end_char=5112
+6	to	to	PART	TO	_	7	mark	_	start_char=5113|end_char=5115
+7	live	live	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=5116|end_char=5120
+8	in	in	ADP	IN	_	10	case	_	start_char=5121|end_char=5123
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=5124|end_char=5125
+10	world	world	NOUN	NN	Number=Sing	7	obl	_	start_char=5126|end_char=5131
+11	where	where	ADV	WRB	PronType=Rel	22	advmod	_	start_char=5132|end_char=5137
+12-13	anyone's	_	_	_	_	_	_	_	start_char=5138|end_char=5146
+12	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	14	nmod:poss	_	start_char=5138|end_char=5144
+13	's	's	PART	POS	_	12	case	_	start_char=5144|end_char=5146
+14	calls	call	NOUN	NNS	Number=Plur	22	nsubj:pass	_	start_char=5147|end_char=5152
+15	or	or	CCONJ	CC	_	19	cc	_	start_char=5153|end_char=5155
+16-17	anyone's	_	_	_	_	_	_	_	start_char=5156|end_char=5164
+16	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	19	nmod:poss	_	start_char=5156|end_char=5162
+17	's	's	PART	POS	_	16	case	_	start_char=5162|end_char=5164
+18	text	text	NOUN	NN	Number=Sing	19	compound	_	start_char=5165|end_char=5169
+19	messages	message	NOUN	NNS	Number=Plur	14	conj	_	start_char=5170|end_char=5178
+20	could	could	AUX	MD	VerbForm=Fin	22	aux	_	start_char=5179|end_char=5184
+21	be	be	AUX	VB	VerbForm=Inf	22	aux:pass	_	start_char=5185|end_char=5187
+22	surveilled	surveill	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	acl:relcl	_	start_char=5188|end_char=5198
+23	by	by	ADP	IN	_	24	case	_	start_char=5199|end_char=5201
+24	criminals	criminal	NOUN	NNS	Number=Plur	22	obl:agent	_	start_char=5202|end_char=5211|SpaceAfter=No
+25	,	,	PUNCT	,	_	27	punct	_	start_char=5211|end_char=5212
+26	by	by	ADP	IN	_	27	case	_	start_char=5213|end_char=5215
+27	stalkers	stalker	NOUN	NNS	Number=Plur	22	obl:agent	_	start_char=5216|end_char=5224
+28	and	and	CCONJ	CC	_	32	cc	_	start_char=5225|end_char=5228
+29	by	by	ADP	IN	_	32	case	_	start_char=5229|end_char=5231
+30	foreign	foreign	ADJ	JJ	Degree=Pos	32	amod	_	start_char=5232|end_char=5239
+31	intelligence	intelligence	NOUN	NN	Number=Sing	32	compound	_	start_char=5240|end_char=5252
+32	agencies	agency	NOUN	NNS	Number=Plur	27	conj	_	start_char=5253|end_char=5261|SpaceAfter=No
+33	.	.	PUNCT	.	_	5	punct	_	start_char=5261|end_char=5262|SpacesAfter=\n\n
+
+# text = And I don't want to live in that kind of world.
+# sent_id = 46
+1	And	and	CCONJ	CC	_	5	cc	_	start_char=5264|end_char=5267
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=5268|end_char=5269
+3-4	don't	_	_	_	_	_	_	_	start_char=5270|end_char=5275
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=5270|end_char=5272
+4	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=5272|end_char=5275
+5	want	want	VERB	VB	VerbForm=Inf	0	root	_	start_char=5276|end_char=5280
+6	to	to	PART	TO	_	7	mark	_	start_char=5281|end_char=5283
+7	live	live	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=5284|end_char=5288
+8	in	in	ADP	IN	_	10	case	_	start_char=5289|end_char=5291
+9	that	that	DET	DT	Number=Sing|PronType=Dem	10	det	_	start_char=5292|end_char=5296
+10	kind	kind	NOUN	NN	Number=Sing	7	obl	_	start_char=5297|end_char=5301
+11	of	of	ADP	IN	_	12	case	_	start_char=5302|end_char=5304
+12	world	world	NOUN	NN	Number=Sing	10	nmod	_	start_char=5305|end_char=5310|SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	start_char=5310|end_char=5311|SpacesAfter=\n\n
+
+# text = And so right now, you probably have the tools to thwart many kinds of government surveillance already on your phones and already in your pockets, you just might not realize how strong and how secure those tools are, or how weak the other ways you've used to communicate really are.
+# sent_id = 47
+1	And	and	CCONJ	CC	_	8	cc	_	start_char=5313|end_char=5316
+2	so	so	ADV	RB	_	8	advmod	_	start_char=5317|end_char=5319
+3	right	right	ADV	RB	Degree=Pos	4	advmod	_	start_char=5320|end_char=5325
+4	now	now	ADV	RB	_	8	advmod	_	start_char=5326|end_char=5329|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=5329|end_char=5330
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	start_char=5331|end_char=5334
+7	probably	probably	ADV	RB	_	8	advmod	_	start_char=5335|end_char=5343
+8	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5344|end_char=5348
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=5349|end_char=5352
+10	tools	tool	NOUN	NNS	Number=Plur	8	obj	_	start_char=5353|end_char=5358
+11	to	to	PART	TO	_	12	mark	_	start_char=5359|end_char=5361
+12	thwart	thwart	VERB	VB	VerbForm=Inf	10	acl	_	start_char=5362|end_char=5368
+13	many	many	ADJ	JJ	Degree=Pos	14	amod	_	start_char=5369|end_char=5373
+14	kinds	kind	NOUN	NNS	Number=Plur	12	obj	_	start_char=5374|end_char=5379
+15	of	of	ADP	IN	_	17	case	_	start_char=5380|end_char=5382
+16	government	government	NOUN	NN	Number=Sing	17	compound	_	start_char=5383|end_char=5393
+17	surveillance	surveillance	NOUN	NN	Number=Sing	14	nmod	_	start_char=5394|end_char=5406
+18	already	already	ADV	RB	_	21	advmod	_	start_char=5407|end_char=5414
+19	on	on	ADP	IN	_	21	case	_	start_char=5415|end_char=5417
+20	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	21	nmod:poss	_	start_char=5418|end_char=5422
+21	phones	phone	NOUN	NNS	Number=Plur	12	obl	_	start_char=5423|end_char=5429
+22	and	and	CCONJ	CC	_	26	cc	_	start_char=5430|end_char=5433
+23	already	already	ADV	RB	_	26	advmod	_	start_char=5434|end_char=5441
+24	in	in	ADP	IN	_	26	case	_	start_char=5442|end_char=5444
+25	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	26	nmod:poss	_	start_char=5445|end_char=5449
+26	pockets	pocket	NOUN	NNS	Number=Plur	21	conj	_	start_char=5450|end_char=5457|SpaceAfter=No
+27	,	,	PUNCT	,	_	26	punct	_	start_char=5457|end_char=5458
+28	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	32	nsubj	_	start_char=5459|end_char=5462
+29	just	just	ADV	RB	_	32	advmod	_	start_char=5463|end_char=5467
+30	might	might	AUX	MD	VerbForm=Fin	32	aux	_	start_char=5468|end_char=5473
+31	not	not	PART	RB	Polarity=Neg	32	advmod	_	start_char=5474|end_char=5477
+32	realize	realize	VERB	VB	VerbForm=Inf	8	conj	_	start_char=5478|end_char=5485
+33	how	how	ADV	WRB	PronType=Int	34	advmod	_	start_char=5486|end_char=5489
+34	strong	strong	ADJ	JJ	Degree=Pos	32	obj	_	start_char=5490|end_char=5496
+35	and	and	CCONJ	CC	_	37	cc	_	start_char=5497|end_char=5500
+36	how	how	ADV	WRB	PronType=Int	37	advmod	_	start_char=5501|end_char=5504
+37	secure	secure	ADJ	JJ	Degree=Pos	34	conj	_	start_char=5505|end_char=5511
+38	those	that	DET	DT	Number=Plur|PronType=Dem	39	det	_	start_char=5512|end_char=5517
+39	tools	tool	NOUN	NNS	Number=Plur	37	nsubj	_	start_char=5518|end_char=5523
+40	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	start_char=5524|end_char=5527|SpaceAfter=No
+41	,	,	PUNCT	,	_	44	punct	_	start_char=5527|end_char=5528
+42	or	or	CCONJ	CC	_	44	cc	_	start_char=5529|end_char=5531
+43	how	how	ADV	WRB	PronType=Int	44	advmod	_	start_char=5532|end_char=5535
+44	weak	weak	ADJ	JJ	Degree=Pos	32	conj	_	start_char=5536|end_char=5540
+45	the	the	DET	DT	Definite=Def|PronType=Art	47	det	_	start_char=5541|end_char=5544
+46	other	other	ADJ	JJ	Degree=Pos	47	amod	_	start_char=5545|end_char=5550
+47	ways	way	NOUN	NNS	Number=Plur	54	nsubj	_	start_char=5551|end_char=5555
+48-49	you've	_	_	_	_	_	_	_	start_char=5556|end_char=5562
+48	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	50	nsubj	_	start_char=5556|end_char=5559
+49	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	50	aux	_	start_char=5559|end_char=5562
+50	used	use	VERB	VBN	Tense=Past|VerbForm=Part	47	acl:relcl	_	start_char=5563|end_char=5567
+51	to	to	PART	TO	_	52	mark	_	start_char=5568|end_char=5570
+52	communicate	communicate	VERB	VB	VerbForm=Inf	50	advcl	_	start_char=5571|end_char=5582
+53	really	really	ADV	RB	_	52	advmod	_	start_char=5583|end_char=5589
+54	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	cop	_	start_char=5590|end_char=5593|SpaceAfter=No
+55	.	.	PUNCT	.	_	8	punct	_	start_char=5593|end_char=5594|SpacesAfter=\n\n
+
+# text = And so, my message to you is this:
+# sent_id = 48
+1	And	and	CCONJ	CC	_	9	cc	_	start_char=5596|end_char=5599
+2	so	so	ADV	RB	_	9	advmod	_	start_char=5600|end_char=5602|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=5602|end_char=5603
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=5604|end_char=5606
+5	message	message	NOUN	NN	Number=Sing	9	nsubj	_	start_char=5607|end_char=5614
+6	to	to	ADP	IN	_	7	case	_	start_char=5615|end_char=5617
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	nmod	_	start_char=5618|end_char=5621
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=5622|end_char=5624
+9	this	this	PRON	DT	Number=Sing|PronType=Dem	0	root	_	start_char=5625|end_char=5629|SpaceAfter=No
+10	:	:	PUNCT	:	_	9	punct	_	start_char=5629|end_char=5630|SpacesAfter=\n\n
+
+# text = We need to use these tools.
+# sent_id = 49
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=5632|end_char=5634
+2	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5635|end_char=5639
+3	to	to	PART	TO	_	4	mark	_	start_char=5640|end_char=5642
+4	use	use	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=5643|end_char=5646
+5	these	this	DET	DT	Number=Plur|PronType=Dem	6	det	_	start_char=5647|end_char=5652
+6	tools	tool	NOUN	NNS	Number=Plur	4	obj	_	start_char=5653|end_char=5658|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=5658|end_char=5659|SpacesAfter=\n\n
+
+# text = We need to secure our telephone calls.
+# sent_id = 50
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=5661|end_char=5663
+2	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5664|end_char=5668
+3	to	to	PART	TO	_	4	mark	_	start_char=5669|end_char=5671
+4	secure	secure	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=5672|end_char=5678
+5	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=5679|end_char=5682
+6	telephone	telephone	NOUN	NN	Number=Sing	7	compound	_	start_char=5683|end_char=5692
+7	calls	call	NOUN	NNS	Number=Plur	4	obj	_	start_char=5693|end_char=5698|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=5698|end_char=5699|SpacesAfter=\n\n
+
+# text = We need to secure our text messages.
+# sent_id = 51
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=5701|end_char=5703
+2	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5704|end_char=5708
+3	to	to	PART	TO	_	4	mark	_	start_char=5709|end_char=5711
+4	secure	secure	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=5712|end_char=5718
+5	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=5719|end_char=5722
+6	text	text	NOUN	NN	Number=Sing	7	compound	_	start_char=5723|end_char=5727
+7	messages	message	NOUN	NNS	Number=Plur	4	obj	_	start_char=5728|end_char=5736|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=5736|end_char=5737|SpacesAfter=\n\n
+
+# text = I want you to use these tools.
+# sent_id = 52
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=5739|end_char=5740
+2	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5741|end_char=5745
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obj	_	start_char=5746|end_char=5749
+4	to	to	PART	TO	_	5	mark	_	start_char=5750|end_char=5752
+5	use	use	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=5753|end_char=5756
+6	these	this	DET	DT	Number=Plur|PronType=Dem	7	det	_	start_char=5757|end_char=5762
+7	tools	tool	NOUN	NNS	Number=Plur	5	obj	_	start_char=5763|end_char=5768|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=5768|end_char=5769|SpacesAfter=\n\n
+
+# text = I want you to tell your loved ones, I want you to tell your colleagues:
+# sent_id = 53
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=5771|end_char=5772
+2	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5773|end_char=5777
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obj	_	start_char=5778|end_char=5781
+4	to	to	PART	TO	_	5	mark	_	start_char=5782|end_char=5784
+5	tell	tell	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=5785|end_char=5789
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=5790|end_char=5794
+7	loved	love	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	start_char=5795|end_char=5800
+8	ones	one	NOUN	NNS	Number=Plur	5	obj	_	start_char=5801|end_char=5805|SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	start_char=5805|end_char=5806
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=5807|end_char=5808
+11	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=5809|end_char=5813
+12	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	11	obj	_	start_char=5814|end_char=5817
+13	to	to	PART	TO	_	14	mark	_	start_char=5818|end_char=5820
+14	tell	tell	VERB	VB	VerbForm=Inf	11	xcomp	_	start_char=5821|end_char=5825
+15	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=5826|end_char=5830
+16	colleagues	colleague	NOUN	NNS	Number=Plur	14	obj	_	start_char=5831|end_char=5841|SpaceAfter=No
+17	:	:	PUNCT	:	_	2	punct	_	start_char=5841|end_char=5842|SpacesAfter=\n\n
+
+# text = Use these encrypted communications tools.
+# sent_id = 54
+1	Use	use	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=5844|end_char=5847
+2	these	this	DET	DT	Number=Plur|PronType=Dem	5	det	_	start_char=5848|end_char=5853
+3	encrypted	encrypt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	start_char=5854|end_char=5863
+4	communications	communication	NOUN	NNS	Number=Plur	5	compound	_	start_char=5864|end_char=5878
+5	tools	tool	NOUN	NNS	Number=Plur	1	obj	_	start_char=5879|end_char=5884|SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	start_char=5884|end_char=5885|SpacesAfter=\n\n
+
+# text = Don't just use them because they're cheap and easy, but use them because they're secure.
+# sent_id = 55
+1-2	Don't	_	_	_	_	_	_	_	start_char=5887|end_char=5892
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	4	aux	_	start_char=5887|end_char=5889
+2	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=5889|end_char=5892
+3	just	just	ADV	RB	_	4	advmod	_	start_char=5893|end_char=5897
+4	use	use	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=5898|end_char=5901
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	start_char=5902|end_char=5906
+6	because	because	SCONJ	IN	_	9	mark	_	start_char=5907|end_char=5914
+7-8	they're	_	_	_	_	_	_	_	start_char=5915|end_char=5922
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=5915|end_char=5919
+8	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=5919|end_char=5922
+9	cheap	cheap	ADJ	JJ	Degree=Pos	4	advcl	_	start_char=5923|end_char=5928
+10	and	and	CCONJ	CC	_	11	cc	_	start_char=5929|end_char=5932
+11	easy	easy	ADJ	JJ	Degree=Pos	9	conj	_	start_char=5933|end_char=5937|SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	start_char=5937|end_char=5938
+13	but	but	CCONJ	CC	_	14	cc	_	start_char=5939|end_char=5942
+14	use	use	VERB	VB	Mood=Imp|VerbForm=Fin	4	conj	_	start_char=5943|end_char=5946
+15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obj	_	start_char=5947|end_char=5951
+16	because	because	SCONJ	IN	_	19	mark	_	start_char=5952|end_char=5959
+17-18	they're	_	_	_	_	_	_	_	start_char=5960|end_char=5967
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	start_char=5960|end_char=5964
+18	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=5964|end_char=5967
+19	secure	secure	ADJ	JJ	Degree=Pos	14	advcl	_	start_char=5968|end_char=5974|SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	start_char=5974|end_char=5975|SpacesAfter=\n\n
+
+# text = Thank you.
+# sent_id = 56
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5977|end_char=5982
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	start_char=5983|end_char=5986|SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	_	start_char=5986|end_char=5987|SpaceAfter=No

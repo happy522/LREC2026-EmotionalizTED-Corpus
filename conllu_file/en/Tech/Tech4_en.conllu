@@ -1,0 +1,1558 @@
+# conllu_stats: begin
+# conllu_tokens: 1305
+# conllu_sentences: 75
+# Avrage tokens per senteces: 17.4
+# conllu_stats: end
+
+
+# text = What if all US health care costs were transparent?
+# sent_id = 0
+1	What	what	PRON	WP	PronType=Int	0	root	_	start_char=0|end_char=4
+2	if	if	SCONJ	IN	_	9	mark	_	start_char=5|end_char=7
+3	all	all	DET	DT	PronType=Tot	7	det	_	start_char=8|end_char=11
+4	US	US	PROPN	NNP	Number=Sing	7	compound	_	start_char=12|end_char=14
+5	health	health	NOUN	NN	Number=Sing	6	compound	_	start_char=15|end_char=21
+6	care	care	NOUN	NN	Number=Sing	7	compound	_	start_char=22|end_char=26
+7	costs	cost	NOUN	NNS	Number=Plur	9	nsubj	_	start_char=27|end_char=32
+8	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	start_char=33|end_char=37
+9	transparent	transparent	ADJ	JJ	Degree=Pos	1	advcl	_	start_char=38|end_char=49|SpaceAfter=No
+10	?	?	PUNCT	.	_	1	punct	_	start_char=49|end_char=50|SpacesAfter=\n\n
+
+# text = So, a little while ago, members of my family had three bits of minor surgery, about a half hour each, and we got three sets of bills.
+# sent_id = 1
+1	So	so	ADV	RB	_	12	advmod	_	start_char=52|end_char=54|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=54|end_char=55
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=56|end_char=57
+4	little	little	ADJ	JJ	Degree=Pos	5	amod	_	start_char=58|end_char=64
+5	while	while	NOUN	NN	Number=Sing	6	obl:unmarked	_	start_char=65|end_char=70
+6	ago	ago	ADV	RB	Degree=Pos	12	advmod	_	start_char=71|end_char=74|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	start_char=74|end_char=75
+8	members	member	NOUN	NNS	Number=Plur	12	nsubj	_	start_char=76|end_char=83
+9	of	of	ADP	IN	_	11	case	_	start_char=84|end_char=86
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=87|end_char=89
+11	family	family	NOUN	NN	Number=Sing	8	nmod	_	start_char=90|end_char=96
+12	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=97|end_char=100
+13	three	three	NUM	CD	NumForm=Word|NumType=Card	14	nummod	_	start_char=101|end_char=106
+14	bits	bit	NOUN	NNS	Number=Plur	12	obj	_	start_char=107|end_char=111
+15	of	of	ADP	IN	_	17	case	_	start_char=112|end_char=114
+16	minor	minor	ADJ	JJ	Degree=Pos	17	amod	_	start_char=115|end_char=120
+17	surgery	surgery	NOUN	NN	Number=Sing	14	nmod	_	start_char=121|end_char=128|SpaceAfter=No
+18	,	,	PUNCT	,	_	22	punct	_	start_char=128|end_char=129
+19	about	about	ADV	RB	_	21	advmod	_	start_char=130|end_char=135
+20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	start_char=136|end_char=137
+21	half	half	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	22	nummod	_	start_char=138|end_char=142
+22	hour	hour	NOUN	NN	Number=Sing	14	appos	_	start_char=143|end_char=147
+23	each	each	DET	DT	PronType=Tot	22	nmod:unmarked	_	start_char=148|end_char=152|SpaceAfter=No
+24	,	,	PUNCT	,	_	27	punct	_	start_char=152|end_char=153
+25	and	and	CCONJ	CC	_	27	cc	_	start_char=154|end_char=157
+26	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	start_char=158|end_char=160
+27	got	get	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	12	conj	_	start_char=161|end_char=164
+28	three	three	NUM	CD	NumForm=Word|NumType=Card	29	nummod	_	start_char=165|end_char=170
+29	sets	set	NOUN	NNS	Number=Plur	27	obj	_	start_char=171|end_char=175
+30	of	of	ADP	IN	_	31	case	_	start_char=176|end_char=178
+31	bills	bill	NOUN	NNS	Number=Plur	29	nmod	_	start_char=179|end_char=184|SpaceAfter=No
+32	.	.	PUNCT	.	_	12	punct	_	start_char=184|end_char=185|SpacesAfter=\n\n
+
+# text = For the first one, the anesthesia bill alone was 2,000 dollars; the second one, 2,000 dollars; the third one, 6,000 dollars.
+# sent_id = 2
+1	For	for	ADP	IN	_	4	case	_	start_char=187|end_char=190
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=191|end_char=194
+3	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	4	amod	_	start_char=195|end_char=200
+4	one	one	NOUN	NN	Number=Sing	12	obl	_	start_char=201|end_char=204|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=204|end_char=205
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=206|end_char=209
+7	anesthesia	anesthesia	NOUN	NN	Number=Sing	8	compound	_	start_char=210|end_char=220
+8	bill	bill	NOUN	NN	Number=Sing	12	nsubj	_	start_char=221|end_char=225
+9	alone	alone	ADV	RB	Degree=Pos	8	advmod	_	start_char=226|end_char=231
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	start_char=232|end_char=235
+11	2,000	2000	NUM	CD	NumForm=Digit|NumType=Card	12	nummod	_	start_char=236|end_char=241
+12	dollars	dollar	NOUN	NNS	Number=Plur	0	root	_	start_char=242|end_char=249|SpaceAfter=No
+13	;	;	PUNCT	:	_	16	punct	_	start_char=249|end_char=250
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=251|end_char=254
+15	second	second	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	16	amod	_	start_char=255|end_char=261
+16	one	one	NOUN	NN	Number=Sing	12	appos	_	start_char=262|end_char=265|SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	start_char=265|end_char=266
+18	2,000	2000	NUM	CD	NumForm=Digit|NumType=Card	19	nummod	_	start_char=267|end_char=272
+19	dollars	dollar	NOUN	NNS	Number=Plur	16	conj	_	start_char=273|end_char=280|SpaceAfter=No
+20	;	;	PUNCT	:	_	23	punct	_	start_char=280|end_char=281
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	start_char=282|end_char=285
+22	third	third	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	23	amod	_	start_char=286|end_char=291
+23	one	one	NOUN	NN	Number=Sing	16	conj	_	start_char=292|end_char=295|SpaceAfter=No
+24	,	,	PUNCT	,	_	26	punct	_	start_char=295|end_char=296
+25	6,000	6000	NUM	CD	NumForm=Digit|NumType=Card	26	nummod	_	start_char=297|end_char=302
+26	dollars	dollar	NOUN	NNS	Number=Plur	23	appos	_	start_char=303|end_char=310|SpaceAfter=No
+27	.	.	PUNCT	.	_	12	punct	_	start_char=310|end_char=311|SpacesAfter=\n\n
+
+# text = So I'm a journalist.
+# sent_id = 3
+1	So	so	ADV	RB	_	5	discourse	_	start_char=313|end_char=315
+2-3	I'm	_	_	_	_	_	_	_	start_char=316|end_char=319
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=316|end_char=317
+3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=317|end_char=319
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=320|end_char=321
+5	journalist	journalist	NOUN	NN	Number=Sing	0	root	_	start_char=322|end_char=332|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=332|end_char=333|SpacesAfter=\n\n
+
+# text = I'm like, what's up with that?
+# sent_id = 4
+1-2	I'm	_	_	_	_	_	_	_	start_char=335|end_char=338
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=335|end_char=336
+2	'm	be	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=336|end_char=338
+3	like	like	ADP	RP	_	2	compound:prt	_	start_char=339|end_char=343|SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	start_char=343|end_char=344
+5-6	what's	_	_	_	_	_	_	_	start_char=345|end_char=351
+5	what	what	PRON	WP	PronType=Int	7	nsubj	_	start_char=345|end_char=349
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=349|end_char=351
+7	up	up	ADP	RP	_	2	ccomp	_	start_char=352|end_char=354
+8	with	with	ADP	IN	_	9	case	_	start_char=355|end_char=359
+9	that	that	PRON	DT	Number=Sing|PronType=Dem	7	obl	_	start_char=360|end_char=364|SpaceAfter=No
+10	?	?	PUNCT	.	_	2	punct	_	start_char=364|end_char=365|SpacesAfter=\n\n
+
+# text = I found out that I was actually, for the expensive one, being charged 1,419 dollars for a generic anti-nausea drug that I could buy online for two dollars and forty-nine cents.
+# sent_id = 5
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=367|end_char=368
+2	found	find	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=369|end_char=374
+3	out	out	ADP	RP	_	2	compound:prt	_	start_char=375|end_char=378
+4	that	that	SCONJ	IN	_	15	mark	_	start_char=379|end_char=383
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj:pass	_	start_char=384|end_char=385
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	15	aux:pass	_	start_char=386|end_char=389
+7	actually	actually	ADV	RB	_	15	advmod	_	start_char=390|end_char=398|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	start_char=398|end_char=399
+9	for	for	ADP	IN	_	12	case	_	start_char=400|end_char=403
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=404|end_char=407
+11	expensive	expensive	ADJ	JJ	Degree=Pos	12	amod	_	start_char=408|end_char=417
+12	one	one	NOUN	NN	Number=Sing	15	obl	_	start_char=418|end_char=421|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	start_char=421|end_char=422
+14	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	15	aux:pass	_	start_char=423|end_char=428
+15	charged	charge	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	start_char=429|end_char=436
+16	1,419	1,419	NUM	CD	NumForm=Digit|NumType=Card	17	nummod	_	start_char=437|end_char=442
+17	dollars	dollar	NOUN	NNS	Number=Plur	15	obl:unmarked	_	start_char=443|end_char=450
+18	for	for	ADP	IN	_	22	case	_	start_char=451|end_char=454
+19	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	start_char=455|end_char=456
+20	generic	generic	ADJ	JJ	Degree=Pos	22	amod	_	start_char=457|end_char=464
+21	anti-nausea	anti-nausea	ADJ	JJ	Degree=Pos	22	amod	_	start_char=465|end_char=476
+22	drug	drug	NOUN	NN	Number=Sing	15	obl	_	start_char=477|end_char=481
+23	that	that	PRON	WDT	PronType=Rel	26	obj	_	start_char=482|end_char=486
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	start_char=487|end_char=488
+25	could	could	AUX	MD	VerbForm=Fin	26	aux	_	start_char=489|end_char=494
+26	buy	buy	VERB	VB	VerbForm=Inf	22	acl:relcl	_	start_char=495|end_char=498
+27	online	online	ADV	RB	_	26	advmod	_	start_char=499|end_char=505
+28	for	for	ADP	IN	_	30	case	_	start_char=506|end_char=509
+29	two	two	NUM	CD	NumForm=Word|NumType=Card	30	nummod	_	start_char=510|end_char=513
+30	dollars	dollar	NOUN	NNS	Number=Plur	26	obl	_	start_char=514|end_char=521
+31	and	and	CCONJ	CC	_	35	cc	_	start_char=522|end_char=525
+32	forty	forty	NUM	CD	NumForm=Word|NumType=Card	34	compound	_	start_char=526|end_char=531|SpaceAfter=No
+33	-	-	PUNCT	HYPH	_	32	punct	_	start_char=531|end_char=532|SpaceAfter=No
+34	nine	nine	NUM	CD	NumForm=Word|NumType=Card	35	nummod	_	start_char=532|end_char=536
+35	cents	cent	NOUN	NNS	Number=Plur	30	conj	_	start_char=537|end_char=542|SpaceAfter=No
+36	.	.	PUNCT	.	_	2	punct	_	start_char=542|end_char=543|SpacesAfter=\n\n
+
+# text = I had a long and unsatisfactory argument with the hospital, the insurer and my employer.
+# sent_id = 6
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=545|end_char=546
+2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=547|end_char=550
+3	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=551|end_char=552
+4	long	long	ADJ	JJ	Degree=Pos	7	amod	_	start_char=553|end_char=557
+5	and	and	CCONJ	CC	_	6	cc	_	start_char=558|end_char=561
+6	unsatisfactory	unsatisfactory	ADJ	JJ	Degree=Pos	4	conj	_	start_char=562|end_char=576
+7	argument	argument	NOUN	NN	Number=Sing	2	obj	_	start_char=577|end_char=585
+8	with	with	ADP	IN	_	10	case	_	start_char=586|end_char=590
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=591|end_char=594
+10	hospital	hospital	NOUN	NN	Number=Sing	7	nmod	_	start_char=595|end_char=603|SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	start_char=603|end_char=604
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=605|end_char=608
+13	insurer	insurer	NOUN	NN	Number=Sing	10	conj	_	start_char=609|end_char=616
+14	and	and	CCONJ	CC	_	16	cc	_	start_char=617|end_char=620
+15	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=621|end_char=623
+16	employer	employer	NOUN	NN	Number=Sing	10	conj	_	start_char=624|end_char=632|SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	start_char=632|end_char=633|SpacesAfter=\n\n
+
+# text = Everybody agreed that this was totally fine.
+# sent_id = 7
+1	Everybody	everybody	PRON	NN	Number=Sing|PronType=Tot	2	nsubj	_	start_char=635|end_char=644
+2	agreed	agree	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=645|end_char=651
+3	that	that	SCONJ	IN	_	7	mark	_	start_char=652|end_char=656
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	start_char=657|end_char=661
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	start_char=662|end_char=665
+6	totally	totally	ADV	RB	_	7	advmod	_	start_char=666|end_char=673
+7	fine	fine	ADJ	JJ	Degree=Pos	2	ccomp	_	start_char=674|end_char=678|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=678|end_char=679|SpacesAfter=\n\n
+
+# text = But it got me thinking, and the more I talked to people, the more I realized: nobody has any idea what stuff costs in health care.
+# sent_id = 8
+1	But	but	CCONJ	CC	_	3	cc	_	start_char=681|end_char=684
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=685|end_char=687
+3	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=688|end_char=691
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	start_char=692|end_char=694
+5	thinking	think	VERB	VBG	VerbForm=Ger	3	xcomp	_	start_char=695|end_char=703|SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	start_char=703|end_char=704
+7	and	and	CCONJ	CC	_	21	cc	_	start_char=705|end_char=708
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=709|end_char=712
+9	more	more	ADJ	JJR	Degree=Cmp	21	nsubj:outer	_	start_char=713|end_char=717
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=718|end_char=719
+11	talked	talk	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	acl:relcl	_	start_char=720|end_char=726
+12	to	to	ADP	IN	_	13	case	_	start_char=727|end_char=729
+13	people	person	NOUN	NNS	Number=Plur	11	obl	_	start_char=730|end_char=736|SpaceAfter=No
+14	,	,	PUNCT	,	_	9	punct	_	start_char=736|end_char=737
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=738|end_char=741
+16	more	more	ADJ	JJR	Degree=Cmp	21	nsubj:outer	_	start_char=742|end_char=746
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	start_char=747|end_char=748
+18	realized	realize	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	16	acl:relcl	_	start_char=749|end_char=757|SpaceAfter=No
+19	:	:	PUNCT	:	_	21	punct	_	start_char=757|end_char=758
+20	nobody	nobody	PRON	NN	Number=Sing|PronType=Neg	21	nsubj	_	start_char=759|end_char=765
+21	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=766|end_char=769
+22	any	any	DET	DT	PronType=Ind	23	det	_	start_char=770|end_char=773
+23	idea	idea	NOUN	NN	Number=Sing	21	obj	_	start_char=774|end_char=778
+24	what	what	DET	WDT	PronType=Int	26	obj	_	start_char=779|end_char=783
+25	stuff	stuff	NOUN	NN	Number=Sing	26	nsubj	_	start_char=784|end_char=789
+26	costs	cost	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	start_char=790|end_char=795
+27	in	in	ADP	IN	_	29	case	_	start_char=796|end_char=798
+28	health	health	NOUN	NN	Number=Sing	29	compound	_	start_char=799|end_char=805
+29	care	care	NOUN	NN	Number=Sing	26	obl	_	start_char=806|end_char=810|SpaceAfter=No
+30	.	.	PUNCT	.	_	3	punct	_	start_char=810|end_char=811|SpacesAfter=\n\n
+
+# text = Not before, during or after that procedure or test do you have any idea what it's going to cost.
+# sent_id = 9
+1	Not	not	PART	RB	Polarity=Neg	2	advmod	_	start_char=813|end_char=816
+2	before	before	ADV	RB	_	13	advmod	_	start_char=817|end_char=823|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=823|end_char=824
+4	during	during	ADP	IN	_	8	case	_	start_char=825|end_char=831
+5	or	or	CCONJ	CC	_	6	cc	_	start_char=832|end_char=834
+6	after	after	ADP	IN	_	4	conj	_	start_char=835|end_char=840
+7	that	that	DET	DT	Number=Sing|PronType=Dem	8	det	_	start_char=841|end_char=845
+8	procedure	procedure	NOUN	NN	Number=Sing	13	obl	_	start_char=846|end_char=855
+9	or	or	CCONJ	CC	_	10	cc	_	start_char=856|end_char=858
+10	test	test	NOUN	NN	Number=Sing	8	conj	_	start_char=859|end_char=863
+11	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=864|end_char=866
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	start_char=867|end_char=870
+13	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=871|end_char=875
+14	any	any	DET	DT	PronType=Ind	15	det	_	start_char=876|end_char=879
+15	idea	idea	NOUN	NN	Number=Sing	13	obj	_	start_char=880|end_char=884
+16	what	what	PRON	WP	PronType=Rel	21	obj	_	start_char=885|end_char=889
+17-18	it's	_	_	_	_	_	_	_	start_char=890|end_char=894
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	start_char=890|end_char=892
+18	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=892|end_char=894
+19	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	15	acl	_	start_char=895|end_char=900
+20	to	to	PART	TO	_	21	mark	_	start_char=901|end_char=903
+21	cost	cost	VERB	VB	VerbForm=Inf	19	xcomp	_	start_char=904|end_char=908|SpaceAfter=No
+22	.	.	PUNCT	.	_	13	punct	_	start_char=908|end_char=909|SpacesAfter=\n\n
+
+# text = It's only months later that you get an "explanation of benefits" that explains exactly nothing.
+# sent_id = 10
+1-2	It's	_	_	_	_	_	_	_	start_char=911|end_char=915
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	start_char=911|end_char=913
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=913|end_char=915
+3	only	only	ADV	RB	_	4	advmod	_	start_char=916|end_char=920
+4	months	month	NOUN	NNS	Number=Plur	5	obl:unmarked	_	start_char=921|end_char=927
+5	later	late	ADV	RBR	Degree=Cmp	0	root	_	start_char=928|end_char=933
+6	that	that	SCONJ	IN	_	8	mark	_	start_char=934|end_char=938
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	start_char=939|end_char=942
+8	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	csubj	_	start_char=943|end_char=946
+9	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=947|end_char=949
+10	"	"	PUNCT	``	_	11	punct	_	start_char=950|end_char=951|SpaceAfter=No
+11	explanation	explanation	NOUN	NN	Number=Sing	8	obj	_	start_char=951|end_char=962
+12	of	of	ADP	IN	_	13	case	_	start_char=963|end_char=965
+13	benefits	benefit	NOUN	NNS	Number=Plur	11	nmod	_	start_char=966|end_char=974|SpaceAfter=No
+14	"	"	PUNCT	''	_	11	punct	_	start_char=974|end_char=975
+15	that	that	PRON	WDT	PronType=Rel	16	nsubj	_	start_char=976|end_char=980
+16	explains	explain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	start_char=981|end_char=989
+17	exactly	exactly	ADV	RB	_	18	advmod	_	start_char=990|end_char=997
+18	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	16	obj	_	start_char=998|end_char=1005|SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	start_char=1005|end_char=1006|SpacesAfter=\n\n
+
+# text = So this came back to me a little while later.
+# sent_id = 11
+1	So	so	ADV	RB	_	3	advmod	_	start_char=1008|end_char=1010
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	start_char=1011|end_char=1015
+3	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1016|end_char=1020
+4	back	back	ADV	RB	_	3	advmod	_	start_char=1021|end_char=1025
+5	to	to	ADP	IN	_	6	case	_	start_char=1026|end_char=1028
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obl	_	start_char=1029|end_char=1031
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=1032|end_char=1033
+8	little	little	ADJ	JJ	Degree=Pos	9	amod	_	start_char=1034|end_char=1040
+9	while	while	NOUN	NN	Number=Sing	10	obl:unmarked	_	start_char=1041|end_char=1046
+10	later	late	ADV	RBR	Degree=Cmp	3	advmod	_	start_char=1047|end_char=1052|SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	start_char=1052|end_char=1053|SpacesAfter=\n\n
+
+# text = I had volunteered for a buyout from the New York Times, where I had worked for more than 20 years as a journalist.
+# sent_id = 12
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=1055|end_char=1056
+2	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	start_char=1057|end_char=1060
+3	volunteered	volunteer	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=1061|end_char=1072
+4	for	for	ADP	IN	_	6	case	_	start_char=1073|end_char=1076
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=1077|end_char=1078
+6	buyout	buyout	NOUN	NN	Number=Sing	3	obl	_	start_char=1079|end_char=1085
+7	from	from	ADP	IN	_	11	case	_	start_char=1086|end_char=1090
+8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=1091|end_char=1094
+9	New	New	ADJ	NNP	Degree=Pos	10	amod	_	start_char=1095|end_char=1098
+10	York	York	PROPN	NNP	Number=Sing	11	compound	_	start_char=1099|end_char=1103
+11	Times	Times	PROPN	NNP	Number=Sing	6	nmod	_	start_char=1104|end_char=1109|SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	start_char=1109|end_char=1110
+13	where	where	ADV	WRB	PronType=Rel	16	advmod	_	start_char=1111|end_char=1116
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	start_char=1117|end_char=1118
+15	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	16	aux	_	start_char=1119|end_char=1122
+16	worked	work	VERB	VBN	Tense=Past|VerbForm=Part	11	acl:relcl	_	start_char=1123|end_char=1129
+17	for	for	ADP	IN	_	21	case	_	start_char=1130|end_char=1133
+18	more	more	ADJ	JJR	Degree=Cmp|ExtPos=ADV	20	advmod	_	start_char=1134|end_char=1138
+19	than	than	ADP	IN	_	18	fixed	_	start_char=1139|end_char=1143
+20	20	20	NUM	CD	NumForm=Digit|NumType=Card	21	nummod	_	start_char=1144|end_char=1146
+21	years	year	NOUN	NNS	Number=Plur	16	obl	_	start_char=1147|end_char=1152
+22	as	as	ADP	IN	_	24	case	_	start_char=1153|end_char=1155
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	start_char=1156|end_char=1157
+24	journalist	journalist	NOUN	NN	Number=Sing	16	obl	_	start_char=1158|end_char=1168|SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	start_char=1168|end_char=1169|SpacesAfter=\n\n
+
+# text = I was looking for my next act.
+# sent_id = 13
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=1171|end_char=1172
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	start_char=1173|end_char=1176
+3	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=1177|end_char=1184
+4	for	for	ADP	IN	_	7	case	_	start_char=1185|end_char=1188
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=1189|end_char=1191
+6	next	next	ADJ	JJ	Degree=Pos	7	amod	_	start_char=1192|end_char=1196
+7	act	act	NOUN	NN	Number=Sing	3	obl	_	start_char=1197|end_char=1200|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=1200|end_char=1201|SpacesAfter=\n\n
+
+# text = It turned out that next act was to build a company telling people what stuff costs in health care.
+# sent_id = 14
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=1203|end_char=1205
+2	turned	turn	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1206|end_char=1212
+3	out	out	ADP	RP	_	2	compound:prt	_	start_char=1213|end_char=1216
+4	that	that	SCONJ	IN	_	9	mark	_	start_char=1217|end_char=1221
+5	next	next	ADJ	JJ	Degree=Pos	6	amod	_	start_char=1222|end_char=1226
+6	act	act	NOUN	NN	Number=Sing	9	nsubj:outer	_	start_char=1227|end_char=1230
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	start_char=1231|end_char=1234
+8	to	to	PART	TO	_	9	mark	_	start_char=1235|end_char=1237
+9	build	build	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=1238|end_char=1243
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=1244|end_char=1245
+11	company	company	NOUN	NN	Number=Sing	9	obj	_	start_char=1246|end_char=1253
+12	telling	tell	VERB	VBG	VerbForm=Ger	11	acl	_	start_char=1254|end_char=1261
+13	people	person	NOUN	NNS	Number=Plur	12	iobj	_	start_char=1262|end_char=1268
+14	what	what	DET	WDT	PronType=Int	16	obj	_	start_char=1269|end_char=1273
+15	stuff	stuff	NOUN	NN	Number=Sing	16	nsubj	_	start_char=1274|end_char=1279
+16	costs	cost	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	start_char=1280|end_char=1285
+17	in	in	ADP	IN	_	19	case	_	start_char=1286|end_char=1288
+18	health	health	NOUN	NN	Number=Sing	19	compound	_	start_char=1289|end_char=1295
+19	care	care	NOUN	NN	Number=Sing	16	obl	_	start_char=1296|end_char=1300|SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	start_char=1300|end_char=1301|SpacesAfter=\n\n
+
+# text = I won a "Shark Tank"-type pitch contest to do just that.
+# sent_id = 15
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=1303|end_char=1304
+2	won	win	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=1305|end_char=1308
+3	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=1309|end_char=1310
+4	"	"	PUNCT	``	_	6	punct	_	start_char=1311|end_char=1312|SpaceAfter=No
+5	Shark	Shark	PROPN	NNP	Number=Sing	6	compound	_	start_char=1312|end_char=1317
+6	Tank	Tank	PROPN	NNP	Number=Sing	11	compound	_	start_char=1318|end_char=1322|SpaceAfter=No
+7	"	"	PUNCT	''	_	6	punct	_	start_char=1322|end_char=1323|SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	6	punct	_	start_char=1323|end_char=1324|SpaceAfter=No
+9	type	type	NOUN	NN	Number=Sing	11	compound	_	start_char=1324|end_char=1328
+10	pitch	pitch	NOUN	NN	Number=Sing	11	compound	_	start_char=1329|end_char=1334
+11	contest	contest	NOUN	NN	Number=Sing	2	obj	_	start_char=1335|end_char=1342
+12	to	to	PART	TO	_	13	mark	_	start_char=1343|end_char=1345
+13	do	do	VERB	VB	VerbForm=Inf	2	advcl	_	start_char=1346|end_char=1348
+14	just	just	ADV	RB	_	15	advmod	_	start_char=1349|end_char=1353
+15	that	that	PRON	DT	Number=Sing|PronType=Dem	13	obj	_	start_char=1354|end_char=1358|SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	start_char=1358|end_char=1359|SpacesAfter=\n\n
+
+# text = Health costs ate up almost 18 percent of our gross domestic product last year, but nobody has any idea what stuff costs.
+# sent_id = 16
+1	Health	health	NOUN	NN	Number=Sing	2	compound	_	start_char=1361|end_char=1367
+2	costs	cost	NOUN	NNS	Number=Plur	3	nsubj	_	start_char=1368|end_char=1373
+3	ate	eat	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1374|end_char=1377
+4	up	up	ADP	RP	_	3	compound:prt	_	start_char=1378|end_char=1380
+5	almost	almost	ADV	RB	_	6	advmod	_	start_char=1381|end_char=1387
+6	18	18	NUM	CD	NumForm=Digit|NumType=Card	7	nummod	_	start_char=1388|end_char=1390
+7	percent	percent	NOUN	NN	Number=Sing	3	obj	_	start_char=1391|end_char=1398
+8	of	of	ADP	IN	_	12	case	_	start_char=1399|end_char=1401
+9	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=1402|end_char=1405
+10	gross	gross	ADJ	JJ	Degree=Pos	12	amod	_	start_char=1406|end_char=1411
+11	domestic	domestic	ADJ	JJ	Degree=Pos	12	amod	_	start_char=1412|end_char=1420
+12	product	product	NOUN	NN	Number=Sing	7	nmod	_	start_char=1421|end_char=1428
+13	last	last	ADJ	JJ	Degree=Pos	14	amod	_	start_char=1429|end_char=1433
+14	year	year	NOUN	NN	Number=Sing	3	obl:unmarked	_	start_char=1434|end_char=1438|SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	start_char=1438|end_char=1439
+16	but	but	CCONJ	CC	_	18	cc	_	start_char=1440|end_char=1443
+17	nobody	nobody	PRON	NN	Number=Sing|PronType=Neg	18	nsubj	_	start_char=1444|end_char=1450
+18	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=1451|end_char=1454
+19	any	any	DET	DT	PronType=Ind	20	det	_	start_char=1455|end_char=1458
+20	idea	idea	NOUN	NN	Number=Sing	18	obj	_	start_char=1459|end_char=1463
+21	what	what	DET	WDT	PronType=Int	23	obj	_	start_char=1464|end_char=1468
+22	stuff	stuff	NOUN	NN	Number=Sing	23	nsubj	_	start_char=1469|end_char=1474
+23	costs	cost	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	start_char=1475|end_char=1480|SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	start_char=1480|end_char=1481|SpacesAfter=\n\n
+
+# text = But what if we did know?
+# sent_id = 17
+1	But	but	CCONJ	CC	_	2	cc	_	start_char=1483|end_char=1486
+2	what	what	PRON	WP	PronType=Int	0	root	_	start_char=1487|end_char=1491
+3	if	if	SCONJ	IN	_	6	mark	_	start_char=1492|end_char=1494
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=1495|end_char=1497
+5	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	6	aux	_	start_char=1498|end_char=1501
+6	know	know	VERB	VB	VerbForm=Inf	2	advcl	_	start_char=1502|end_char=1506|SpaceAfter=No
+7	?	?	PUNCT	.	_	2	punct	_	start_char=1506|end_char=1507|SpacesAfter=\n\n
+
+# text = So we started out small.
+# sent_id = 18
+1	So	so	ADV	RB	_	3	discourse	_	start_char=1509|end_char=1511
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=1512|end_char=1514
+3	started	start	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=1515|end_char=1522
+4	out	out	ADP	RP	_	3	compound:prt	_	start_char=1523|end_char=1526
+5	small	small	ADJ	JJ	Degree=Pos	3	xcomp	_	start_char=1527|end_char=1532|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=1532|end_char=1533|SpacesAfter=\n\n
+
+# text = We called doctors and hospitals and asked them what they would accept as a cash payment for simple procedures.
+# sent_id = 19
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=1535|end_char=1537
+2	called	call	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=1538|end_char=1544
+3	doctors	doctor	NOUN	NNS	Number=Plur	2	obj	_	start_char=1545|end_char=1552
+4	and	and	CCONJ	CC	_	5	cc	_	start_char=1553|end_char=1556
+5	hospitals	hospital	NOUN	NNS	Number=Plur	3	conj	_	start_char=1557|end_char=1566
+6	and	and	CCONJ	CC	_	7	cc	_	start_char=1567|end_char=1570
+7	asked	ask	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	2	conj	_	start_char=1571|end_char=1576
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	iobj	_	start_char=1577|end_char=1581
+9	what	what	PRON	WP	PronType=Rel	12	obj	_	start_char=1582|end_char=1586
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	start_char=1587|end_char=1591
+11	would	would	AUX	MD	VerbForm=Fin	12	aux	_	start_char=1592|end_char=1597
+12	accept	accept	VERB	VB	VerbForm=Inf	7	ccomp	_	start_char=1598|end_char=1604
+13	as	as	ADP	IN	_	16	case	_	start_char=1605|end_char=1607
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	start_char=1608|end_char=1609
+15	cash	cash	NOUN	NN	Number=Sing	16	compound	_	start_char=1610|end_char=1614
+16	payment	payment	NOUN	NN	Number=Sing	12	obl	_	start_char=1615|end_char=1622
+17	for	for	ADP	IN	_	19	case	_	start_char=1623|end_char=1626
+18	simple	simple	ADJ	JJ	Degree=Pos	19	amod	_	start_char=1627|end_char=1633
+19	procedures	procedure	NOUN	NNS	Number=Plur	16	nmod	_	start_char=1634|end_char=1644|SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	start_char=1644|end_char=1645|SpacesAfter=\n\n
+
+# text = Some people were helpful.
+# sent_id = 20
+1	Some	some	DET	DT	PronType=Ind	2	det	_	start_char=1647|end_char=1651
+2	people	person	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=1652|end_char=1658
+3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=1659|end_char=1663
+4	helpful	helpful	ADJ	JJ	Degree=Pos	0	root	_	start_char=1664|end_char=1671|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=1671|end_char=1672|SpacesAfter=\n\n
+
+# text = A lot of people hung up on us.
+# sent_id = 21
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	start_char=1674|end_char=1675
+2	lot	lot	NOUN	NN	Number=Sing	5	nsubj	_	start_char=1676|end_char=1679
+3	of	of	ADP	IN	_	4	case	_	start_char=1680|end_char=1682
+4	people	person	NOUN	NNS	Number=Plur	2	nmod	_	start_char=1683|end_char=1689
+5	hung	hang	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1690|end_char=1694
+6	up	up	ADP	RP	_	5	compound:prt	_	start_char=1695|end_char=1697
+7	on	on	ADP	IN	_	8	case	_	start_char=1698|end_char=1700
+8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	obl	_	start_char=1701|end_char=1703|SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	start_char=1703|end_char=1704|SpacesAfter=\n\n
+
+# text = Some people were just plain rude.
+# sent_id = 22
+1	Some	some	DET	DT	PronType=Ind	2	det	_	start_char=1706|end_char=1710
+2	people	person	NOUN	NNS	Number=Plur	6	nsubj	_	start_char=1711|end_char=1717
+3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	start_char=1718|end_char=1722
+4	just	just	ADV	RB	_	6	advmod	_	start_char=1723|end_char=1727
+5	plain	plain	ADV	RB	_	6	advmod	_	start_char=1728|end_char=1733
+6	rude	rude	ADJ	JJ	Degree=Pos	0	root	_	start_char=1734|end_char=1738|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=1738|end_char=1739|SpacesAfter=\n\n
+
+# text = They said, "We don't know," or, "Our lawyers won't let us tell you that," though we did get a lot of information.
+# sent_id = 23
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=1741|end_char=1745
+2	said	say	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1746|end_char=1750|SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	start_char=1750|end_char=1751
+4	"	"	PUNCT	``	_	8	punct	_	start_char=1752|end_char=1753|SpaceAfter=No
+5	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=1753|end_char=1755
+6-7	don't	_	_	_	_	_	_	_	start_char=1756|end_char=1761
+6	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=1756|end_char=1758
+7	n't	not	PART	RB	Polarity=Neg	8	advmod	_	start_char=1758|end_char=1761
+8	know	know	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=1762|end_char=1766|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	start_char=1766|end_char=1767|SpaceAfter=No
+10	"	"	PUNCT	''	_	8	punct	_	start_char=1767|end_char=1768
+11	or	or	CCONJ	CC	_	18	cc	_	start_char=1769|end_char=1771|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	start_char=1771|end_char=1772
+13	"	"	PUNCT	``	_	18	punct	_	start_char=1773|end_char=1774|SpaceAfter=No
+14	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=1774|end_char=1777
+15	lawyers	lawyer	NOUN	NNS	Number=Plur	18	nsubj	_	start_char=1778|end_char=1785
+16-17	won't	_	_	_	_	_	_	_	start_char=1786|end_char=1791
+16	wo	will	AUX	MD	VerbForm=Fin	18	aux	_	start_char=1786|end_char=1788
+17	n't	not	PART	RB	Polarity=Neg	18	advmod	_	start_char=1788|end_char=1791
+18	let	let	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=1792|end_char=1795
+19	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	18	obj	_	start_char=1796|end_char=1798
+20	tell	tell	VERB	VB	VerbForm=Inf	18	xcomp	_	start_char=1799|end_char=1803
+21	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	20	iobj	_	start_char=1804|end_char=1807
+22	that	that	PRON	DT	Number=Sing|PronType=Dem	20	obj	_	start_char=1808|end_char=1812|SpaceAfter=No
+23	,	,	PUNCT	,	_	18	punct	_	start_char=1812|end_char=1813|SpaceAfter=No
+24	"	"	PUNCT	''	_	18	punct	_	start_char=1813|end_char=1814
+25	though	though	SCONJ	IN	_	28	mark	_	start_char=1815|end_char=1821
+26	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	28	nsubj	_	start_char=1822|end_char=1824
+27	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	28	aux	_	start_char=1825|end_char=1828
+28	get	get	VERB	VB	VerbForm=Inf	18	advcl	_	start_char=1829|end_char=1832
+29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	start_char=1833|end_char=1834
+30	lot	lot	NOUN	NN	Number=Sing	28	obj	_	start_char=1835|end_char=1838
+31	of	of	ADP	IN	_	32	case	_	start_char=1839|end_char=1841
+32	information	information	NOUN	NN	Number=Sing	30	nmod	_	start_char=1842|end_char=1853|SpaceAfter=No
+33	.	.	PUNCT	.	_	2	punct	_	start_char=1853|end_char=1854|SpacesAfter=\n\n
+
+# text = We found, for example, that here in the New York area, you could get an echocardiogram for 200 dollars in Brooklyn or for 2,150 dollars in Manhattan, just a few miles away.
+# sent_id = 24
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=1856|end_char=1858
+2	found	find	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=1859|end_char=1864|SpaceAfter=No
+3	,	,	PUNCT	,	_	17	punct	_	start_char=1864|end_char=1865
+4	for	for	ADP	IN	_	5	case	_	start_char=1866|end_char=1869
+5	example	example	NOUN	NN	Number=Sing	17	obl	_	start_char=1870|end_char=1877|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	start_char=1877|end_char=1878
+7	that	that	SCONJ	IN	_	17	mark	_	start_char=1879|end_char=1883
+8	here	here	ADV	RB	PronType=Dem	17	advmod	_	start_char=1884|end_char=1888
+9	in	in	ADP	IN	_	13	case	_	start_char=1889|end_char=1891
+10	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=1892|end_char=1895
+11	New	New	ADJ	NNP	Degree=Pos	12	amod	_	start_char=1896|end_char=1899
+12	York	York	PROPN	NNP	Number=Sing	13	compound	_	start_char=1900|end_char=1904
+13	area	area	NOUN	NN	Number=Sing	8	obl	_	start_char=1905|end_char=1909|SpaceAfter=No
+14	,	,	PUNCT	,	_	8	punct	_	start_char=1909|end_char=1910
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	start_char=1911|end_char=1914
+16	could	could	AUX	MD	VerbForm=Fin	17	aux	_	start_char=1915|end_char=1920
+17	get	get	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=1921|end_char=1924
+18	an	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	start_char=1925|end_char=1927
+19	echocardiogram	echocardiogram	NOUN	NN	Number=Sing	17	obj	_	start_char=1928|end_char=1942
+20	for	for	ADP	IN	_	22	case	_	start_char=1943|end_char=1946
+21	200	200	NUM	CD	NumForm=Digit|NumType=Card	22	nummod	_	start_char=1947|end_char=1950
+22	dollars	dollar	NOUN	NNS	Number=Plur	17	obl	_	start_char=1951|end_char=1958
+23	in	in	ADP	IN	_	24	case	_	start_char=1959|end_char=1961
+24	Brooklyn	Brooklyn	PROPN	NNP	Number=Sing	22	nmod	_	start_char=1962|end_char=1970
+25	or	or	CCONJ	CC	_	28	cc	_	start_char=1971|end_char=1973
+26	for	for	ADP	IN	_	28	case	_	start_char=1974|end_char=1977
+27	2,150	2,150	NUM	CD	NumForm=Digit|NumType=Card	28	nummod	_	start_char=1978|end_char=1983
+28	dollars	dollar	NOUN	NNS	Number=Plur	22	conj	_	start_char=1984|end_char=1991
+29	in	in	ADP	IN	_	30	case	_	start_char=1992|end_char=1994
+30	Manhattan	Manhattan	PROPN	NNP	Number=Sing	28	nmod	_	start_char=1995|end_char=2004|SpaceAfter=No
+31	,	,	PUNCT	,	_	36	punct	_	start_char=2004|end_char=2005
+32	just	just	ADV	RB	_	36	advmod	_	start_char=2006|end_char=2010
+33	a	a	DET	DT	Definite=Ind|PronType=Art	35	det	_	start_char=2011|end_char=2012
+34	few	few	ADJ	JJ	Degree=Pos	35	amod	_	start_char=2013|end_char=2016
+35	miles	mile	NOUN	NNS	Number=Plur	36	obl:unmarked	_	start_char=2017|end_char=2022
+36	away	away	ADV	RB	_	28	advmod	_	start_char=2023|end_char=2027|SpaceAfter=No
+37	.	.	PUNCT	.	_	2	punct	_	start_char=2027|end_char=2028|SpacesAfter=\n\n
+
+# text = New Orleans, the same simple blood test, 19 dollars over here, 522 dollars just a few blocks away.
+# sent_id = 25
+1	New	New	ADJ	NNP	Degree=Pos	2	amod	_	start_char=2030|end_char=2033
+2	Orleans	Orleans	PROPN	NNP	Number=Sing	0	root	_	start_char=2034|end_char=2041|SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	start_char=2041|end_char=2042
+4	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=2043|end_char=2046
+5	same	same	ADJ	JJ	Degree=Pos	8	amod	_	start_char=2047|end_char=2051
+6	simple	simple	ADJ	JJ	Degree=Pos	8	amod	_	start_char=2052|end_char=2058
+7	blood	blood	NOUN	NN	Number=Sing	8	compound	_	start_char=2059|end_char=2064
+8	test	test	NOUN	NN	Number=Sing	2	appos	_	start_char=2065|end_char=2069|SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	start_char=2069|end_char=2070
+10	19	19	NUM	CD	NumForm=Digit|NumType=Card	11	nummod	_	start_char=2071|end_char=2073
+11	dollars	dollar	NOUN	NNS	Number=Plur	2	appos	_	start_char=2074|end_char=2081
+12	over	over	ADP	IN	_	13	case	_	start_char=2082|end_char=2086
+13	here	here	ADV	RB	PronType=Dem	11	nmod	_	start_char=2087|end_char=2091|SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	start_char=2091|end_char=2092
+15	522	522	NUM	CD	NumForm=Digit|NumType=Card	16	nummod	_	start_char=2093|end_char=2096
+16	dollars	dollar	NOUN	NNS	Number=Plur	2	appos	_	start_char=2097|end_char=2104
+17	just	just	ADV	RB	_	21	advmod	_	start_char=2105|end_char=2109
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	start_char=2110|end_char=2111
+19	few	few	ADJ	JJ	Degree=Pos	20	amod	_	start_char=2112|end_char=2115
+20	blocks	block	NOUN	NNS	Number=Plur	21	obl:unmarked	_	start_char=2116|end_char=2122
+21	away	away	ADV	RB	_	16	advmod	_	start_char=2123|end_char=2127|SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	start_char=2127|end_char=2128|SpacesAfter=\n\n
+
+# text = San Francisco, the same MRI, 475 dollars or 6,221 dollars just 25 miles away.
+# sent_id = 26
+1	San	San	PROPN	NNP	Number=Sing	0	root	_	start_char=2130|end_char=2133
+2	Francisco	Francisco	PROPN	NNP	Number=Sing	1	flat	_	start_char=2134|end_char=2143|SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	start_char=2143|end_char=2144
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=2145|end_char=2148
+5	same	same	ADJ	JJ	Degree=Pos	6	amod	_	start_char=2149|end_char=2153
+6	MRI	MRI	PROPN	NNP	Number=Sing	1	appos	_	start_char=2154|end_char=2157|SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	start_char=2157|end_char=2158
+8	475	475	NUM	CD	NumForm=Digit|NumType=Card	9	nummod	_	start_char=2159|end_char=2162
+9	dollars	dollar	NOUN	NNS	Number=Plur	1	list	_	start_char=2163|end_char=2170
+10	or	or	CCONJ	CC	_	12	cc	_	start_char=2171|end_char=2173
+11	6,221	6,221	NUM	CD	NumForm=Digit|NumType=Card	12	nummod	_	start_char=2174|end_char=2179
+12	dollars	dollar	NOUN	NNS	Number=Plur	9	conj	_	start_char=2180|end_char=2187
+13	just	just	ADV	RB	_	15	advmod	_	start_char=2188|end_char=2192
+14	25	25	NUM	CD	NumForm=Digit|NumType=Card	15	nummod	_	start_char=2193|end_char=2195
+15	miles	mile	NOUN	NNS	Number=Plur	16	obl:unmarked	_	start_char=2196|end_char=2201
+16	away	away	ADV	RB	_	1	advmod	_	start_char=2202|end_char=2206|SpaceAfter=No
+17	.	.	PUNCT	.	_	1	punct	_	start_char=2206|end_char=2207|SpacesAfter=\n\n
+
+# text = These pricing variations existed for all the procedures and all the cities that we surveyed.
+# sent_id = 27
+1	These	this	DET	DT	Number=Plur|PronType=Dem	3	det	_	start_char=2209|end_char=2214
+2	pricing	pricing	NOUN	NN	Number=Sing	3	compound	_	start_char=2215|end_char=2222
+3	variations	variation	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=2223|end_char=2233
+4	existed	exist	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2234|end_char=2241
+5	for	for	ADP	IN	_	8	case	_	start_char=2242|end_char=2245
+6	all	all	DET	PDT	PronType=Tot	8	det:predet	_	start_char=2246|end_char=2249
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=2250|end_char=2253
+8	procedures	procedure	NOUN	NNS	Number=Plur	4	obl	_	start_char=2254|end_char=2264
+9	and	and	CCONJ	CC	_	12	cc	_	start_char=2265|end_char=2268
+10	all	all	DET	PDT	PronType=Tot	12	det:predet	_	start_char=2269|end_char=2272
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=2273|end_char=2276
+12	cities	city	NOUN	NNS	Number=Plur	8	conj	_	start_char=2277|end_char=2283
+13	that	that	PRON	WDT	PronType=Rel	15	obj	_	start_char=2284|end_char=2288
+14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	start_char=2289|end_char=2291
+15	surveyed	survey	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	12	acl:relcl	_	start_char=2292|end_char=2300|SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	start_char=2300|end_char=2301|SpacesAfter=\n\n
+
+# text = Then we started to ask people to tell us their health bills.
+# sent_id = 28
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	start_char=2303|end_char=2307
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=2308|end_char=2310
+3	started	start	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=2311|end_char=2318
+4	to	to	PART	TO	_	5	mark	_	start_char=2319|end_char=2321
+5	ask	ask	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=2322|end_char=2325
+6	people	person	NOUN	NNS	Number=Plur	5	iobj	_	start_char=2326|end_char=2332
+7	to	to	PART	TO	_	8	mark	_	start_char=2333|end_char=2335
+8	tell	tell	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=2336|end_char=2340
+9	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	8	iobj	_	start_char=2341|end_char=2343
+10	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=2344|end_char=2349
+11	health	health	NOUN	NN	Number=Sing	12	compound	_	start_char=2350|end_char=2356
+12	bills	bill	NOUN	NNS	Number=Plur	8	obj	_	start_char=2357|end_char=2362|SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	start_char=2362|end_char=2363|SpacesAfter=\n\n
+
+# text = In partnership with public radio station WNYC here in New York, we asked women to tell us the prices of their mammograms.
+# sent_id = 29
+1	In	in	ADP	IN	_	2	case	_	start_char=2365|end_char=2367
+2	partnership	partnership	NOUN	NN	Number=Sing	14	obl	_	start_char=2368|end_char=2379
+3	with	with	ADP	IN	_	6	case	_	start_char=2380|end_char=2384
+4	public	public	ADJ	JJ	Degree=Pos	6	amod	_	start_char=2385|end_char=2391
+5	radio	radio	NOUN	NN	Number=Sing	6	compound	_	start_char=2392|end_char=2397
+6	station	station	NOUN	NN	Number=Sing	2	nmod	_	start_char=2398|end_char=2405
+7	WNYC	WNYC	PROPN	NNP	Number=Sing	6	appos	_	start_char=2406|end_char=2410
+8	here	here	ADV	RB	PronType=Dem	2	advmod	_	start_char=2411|end_char=2415
+9	in	in	ADP	IN	_	11	case	_	start_char=2416|end_char=2418
+10	New	New	ADJ	NNP	Degree=Pos	11	amod	_	start_char=2419|end_char=2422
+11	York	York	PROPN	NNP	Number=Sing	8	obl	_	start_char=2423|end_char=2427|SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	start_char=2427|end_char=2428
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	start_char=2429|end_char=2431
+14	asked	ask	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=2432|end_char=2437
+15	women	woman	NOUN	NNS	Number=Plur	14	iobj	_	start_char=2438|end_char=2443
+16	to	to	PART	TO	_	17	mark	_	start_char=2444|end_char=2446
+17	tell	tell	VERB	VB	VerbForm=Inf	14	xcomp	_	start_char=2447|end_char=2451
+18	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	17	iobj	_	start_char=2452|end_char=2454
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=2455|end_char=2458
+20	prices	price	NOUN	NNS	Number=Plur	17	obj	_	start_char=2459|end_char=2465
+21	of	of	ADP	IN	_	23	case	_	start_char=2466|end_char=2468
+22	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	start_char=2469|end_char=2474
+23	mammograms	mammogram	NOUN	NNS	Number=Plur	20	nmod	_	start_char=2475|end_char=2485|SpaceAfter=No
+24	.	.	PUNCT	.	_	14	punct	_	start_char=2485|end_char=2486|SpacesAfter=\n\n
+
+# text = People told us nobody would do that, that it was too personal.
+# sent_id = 30
+1	People	person	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=2488|end_char=2494
+2	told	tell	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2495|end_char=2499
+3	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	iobj	_	start_char=2500|end_char=2502
+4	nobody	nobody	PRON	NN	Number=Sing|PronType=Neg	6	nsubj	_	start_char=2503|end_char=2509
+5	would	would	AUX	MD	VerbForm=Fin	6	aux	_	start_char=2510|end_char=2515
+6	do	do	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=2516|end_char=2518
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	6	obj	_	start_char=2519|end_char=2523|SpaceAfter=No
+8	,	,	PUNCT	,	_	13	punct	_	start_char=2523|end_char=2524
+9	that	that	SCONJ	IN	_	13	mark	_	start_char=2525|end_char=2529
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	start_char=2530|end_char=2532
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	start_char=2533|end_char=2536
+12	too	too	ADV	RB	_	13	advmod	_	start_char=2537|end_char=2540
+13	personal	personal	ADJ	JJ	Degree=Pos	6	advcl	_	start_char=2541|end_char=2549|SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	start_char=2549|end_char=2550|SpacesAfter=\n\n
+
+# text = But in the space of three weeks, 400 women told us about their prices.
+# sent_id = 31
+1	But	but	CCONJ	CC	_	11	cc	_	start_char=2552|end_char=2555
+2	in	in	ADP	IN	_	4	case	_	start_char=2556|end_char=2558
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=2559|end_char=2562
+4	space	space	NOUN	NN	Number=Sing	11	obl	_	start_char=2563|end_char=2568
+5	of	of	ADP	IN	_	7	case	_	start_char=2569|end_char=2571
+6	three	three	NUM	CD	NumForm=Word|NumType=Card	7	nummod	_	start_char=2572|end_char=2577
+7	weeks	week	NOUN	NNS	Number=Plur	4	nmod	_	start_char=2578|end_char=2583|SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	start_char=2583|end_char=2584
+9	400	400	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	_	start_char=2585|end_char=2588
+10	women	woman	NOUN	NNS	Number=Plur	11	nsubj	_	start_char=2589|end_char=2594
+11	told	tell	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2595|end_char=2599
+12	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	iobj	_	start_char=2600|end_char=2602
+13	about	about	ADP	IN	_	15	case	_	start_char=2603|end_char=2608
+14	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=2609|end_char=2614
+15	prices	price	NOUN	NNS	Number=Plur	11	obl	_	start_char=2615|end_char=2621|SpaceAfter=No
+16	.	.	PUNCT	.	_	11	punct	_	start_char=2621|end_char=2622|SpacesAfter=\n\n
+
+# text = Then we started to make it easier for people to share their data into our online searchable database.
+# sent_id = 32
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	start_char=2624|end_char=2628
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=2629|end_char=2631
+3	started	start	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=2632|end_char=2639
+4	to	to	PART	TO	_	5	mark	_	start_char=2640|end_char=2642
+5	make	make	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=2643|end_char=2647
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=2648|end_char=2650
+7	easier	easy	ADJ	JJR	Degree=Cmp	5	xcomp	_	start_char=2651|end_char=2657
+8	for	for	SCONJ	IN	_	11	mark	_	start_char=2658|end_char=2661
+9	people	person	NOUN	NNS	Number=Plur	11	nsubj	_	start_char=2662|end_char=2668
+10	to	to	PART	TO	_	11	mark	_	start_char=2669|end_char=2671
+11	share	share	VERB	VB	VerbForm=Inf	7	advcl	_	start_char=2672|end_char=2677
+12	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=2678|end_char=2683
+13	data	datum	NOUN	NNS	Number=Plur	11	obj	_	start_char=2684|end_char=2688
+14	into	into	ADP	IN	_	18	case	_	start_char=2689|end_char=2693
+15	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	start_char=2694|end_char=2697
+16	online	online	ADJ	JJ	Degree=Pos	18	amod	_	start_char=2698|end_char=2704
+17	searchable	searchable	ADJ	JJ	Degree=Pos	18	amod	_	start_char=2705|end_char=2715
+18	database	database	NOUN	NN	Number=Sing	11	obl	_	start_char=2716|end_char=2724|SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	start_char=2724|end_char=2725|SpacesAfter=\n\n
+
+# text = It's sort of like a mash-up of Kayak.com and the Waze traffic app for health care.
+# sent_id = 33
+1-2	It's	_	_	_	_	_	_	_	start_char=2727|end_char=2731
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=2727|end_char=2729
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=2729|end_char=2731
+3	sort	sort	NOUN	NN	ExtPos=ADV|Number=Sing	9	advmod	_	start_char=2732|end_char=2736
+4	of	of	ADP	IN	_	3	fixed	_	start_char=2737|end_char=2739
+5	like	like	ADP	IN	_	9	case	_	start_char=2740|end_char=2744
+6	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=2745|end_char=2746
+7	mash	mash	NOUN	NN	Number=Sing	9	compound	_	start_char=2747|end_char=2751|SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	7	punct	_	start_char=2751|end_char=2752|SpaceAfter=No
+9	up	up	NOUN	NN	Number=Sing	0	root	_	start_char=2752|end_char=2754
+10	of	of	ADP	IN	_	11	case	_	start_char=2755|end_char=2757
+11	Kayak.com	Kayak.com	PROPN	NNP	Number=Sing	9	nmod	_	start_char=2758|end_char=2767
+12	and	and	CCONJ	CC	_	16	cc	_	start_char=2768|end_char=2771
+13	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=2772|end_char=2775
+14	Waze	Waze	PROPN	NNP	Number=Sing	16	compound	_	start_char=2776|end_char=2780
+15	traffic	traffic	NOUN	NN	Number=Sing	16	compound	_	start_char=2781|end_char=2788
+16	app	app	NOUN	NN	Number=Sing	11	conj	_	start_char=2789|end_char=2792
+17	for	for	ADP	IN	_	19	case	_	start_char=2793|end_char=2796
+18	health	health	NOUN	NN	Number=Sing	19	compound	_	start_char=2797|end_char=2803
+19	care	care	NOUN	NN	Number=Sing	16	nmod	_	start_char=2804|end_char=2808|SpaceAfter=No
+20	.	.	PUNCT	.	_	9	punct	_	start_char=2808|end_char=2809|SpacesAfter=\n\n
+
+# text = We call it a community-created guide to health costs.
+# sent_id = 34
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=2811|end_char=2813
+2	call	call	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2814|end_char=2818
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=2819|end_char=2821
+4	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=2822|end_char=2823
+5	community	community	NOUN	NN	Number=Sing	7	compound	_	start_char=2824|end_char=2833|SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	5	punct	_	start_char=2833|end_char=2834|SpaceAfter=No
+7	created	create	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	start_char=2834|end_char=2841
+8	guide	guide	NOUN	NN	Number=Sing	2	xcomp	_	start_char=2842|end_char=2847
+9	to	to	ADP	IN	_	11	case	_	start_char=2848|end_char=2850
+10	health	health	NOUN	NN	Number=Sing	11	compound	_	start_char=2851|end_char=2857
+11	costs	cost	NOUN	NNS	Number=Plur	8	nmod	_	start_char=2858|end_char=2863|SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	start_char=2863|end_char=2864|SpacesAfter=\n\n
+
+# text = Our survey and crowdsourcing work grew into partnerships with top newsrooms nationwide -- in New Orleans, Philadelphia, San Francisco, Los Angeles, Miami and other places.
+# sent_id = 35
+1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=2866|end_char=2869
+2	survey	survey	NOUN	NN	Number=Sing	6	nsubj	_	start_char=2870|end_char=2876
+3	and	and	CCONJ	CC	_	5	cc	_	start_char=2877|end_char=2880
+4	crowdsourcing	crowdsourcing	NOUN	NN	Number=Sing	5	compound	_	start_char=2881|end_char=2894
+5	work	work	NOUN	NN	Number=Sing	2	conj	_	start_char=2895|end_char=2899
+6	grew	grow	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2900|end_char=2904
+7	into	into	ADP	IN	_	8	case	_	start_char=2905|end_char=2909
+8	partnerships	partnership	NOUN	NNS	Number=Plur	6	obl	_	start_char=2910|end_char=2922
+9	with	with	ADP	IN	_	11	case	_	start_char=2923|end_char=2927
+10	top	top	ADJ	JJ	Degree=Pos	11	amod	_	start_char=2928|end_char=2931
+11	newsrooms	newsroom	NOUN	NNS	Number=Plur	8	nmod	_	start_char=2932|end_char=2941
+12	nationwide	nationwide	ADV	RB	_	11	advmod	_	start_char=2942|end_char=2952
+13	--	--	PUNCT	,	_	16	punct	_	start_char=2953|end_char=2955
+14	in	in	ADP	IN	_	16	case	_	start_char=2956|end_char=2958
+15	New	New	ADJ	NNP	Degree=Pos	16	amod	_	start_char=2959|end_char=2962
+16	Orleans	Orleans	PROPN	NNP	Number=Sing	6	obl	_	start_char=2963|end_char=2970|SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	start_char=2970|end_char=2971
+18	Philadelphia	Philadelphia	PROPN	NNP	Number=Sing	16	conj	_	start_char=2972|end_char=2984|SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	start_char=2984|end_char=2985
+20	San	San	PROPN	NNP	Number=Sing	16	conj	_	start_char=2986|end_char=2989
+21	Francisco	Francisco	PROPN	NNP	Number=Sing	20	flat	_	start_char=2990|end_char=2999|SpaceAfter=No
+22	,	,	PUNCT	,	_	23	punct	_	start_char=2999|end_char=3000
+23	Los	Los	PROPN	NNP	Number=Sing	16	conj	_	start_char=3001|end_char=3004
+24	Angeles	Angeles	PROPN	NNP	Number=Sing	23	flat	_	start_char=3005|end_char=3012|SpaceAfter=No
+25	,	,	PUNCT	,	_	26	punct	_	start_char=3012|end_char=3013
+26	Miami	Miami	PROPN	NNP	Number=Sing	16	conj	_	start_char=3014|end_char=3019
+27	and	and	CCONJ	CC	_	29	cc	_	start_char=3020|end_char=3023
+28	other	other	ADJ	JJ	Degree=Pos	29	amod	_	start_char=3024|end_char=3029
+29	places	place	NOUN	NNS	Number=Plur	16	conj	_	start_char=3030|end_char=3036|SpaceAfter=No
+30	.	.	PUNCT	.	_	6	punct	_	start_char=3036|end_char=3037|SpacesAfter=\n\n
+
+# text = We used the data to tell stories about people who were suffering and how to avoid that suffering, to avoid that "gotcha" bill.
+# sent_id = 36
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=3039|end_char=3041
+2	used	use	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3042|end_char=3046
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=3047|end_char=3050
+4	data	datum	NOUN	NNS	Number=Plur	2	obj	_	start_char=3051|end_char=3055
+5	to	to	PART	TO	_	6	mark	_	start_char=3056|end_char=3058
+6	tell	tell	VERB	VB	VerbForm=Inf	2	advcl	_	start_char=3059|end_char=3063
+7	stories	story	NOUN	NNS	Number=Plur	6	obj	_	start_char=3064|end_char=3071
+8	about	about	ADP	IN	_	9	case	_	start_char=3072|end_char=3077
+9	people	person	NOUN	NNS	Number=Plur	7	nmod	_	start_char=3078|end_char=3084
+10	who	who	PRON	WP	PronType=Rel	12	nsubj	_	start_char=3085|end_char=3088
+11	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	start_char=3089|end_char=3093
+12	suffering	suffer	VERB	VBG	Tense=Pres|VerbForm=Part	9	acl:relcl	_	start_char=3094|end_char=3103
+13	and	and	CCONJ	CC	_	14	cc	_	start_char=3104|end_char=3107
+14	how	how	ADV	WRB	PronType=Int	16	advmod	_	start_char=3108|end_char=3111
+15	to	to	PART	TO	_	16	mark	_	start_char=3112|end_char=3114
+16	avoid	avoid	VERB	VB	VerbForm=Inf	12	conj	_	start_char=3115|end_char=3120
+17	that	that	DET	DT	Number=Sing|PronType=Dem	18	det	_	start_char=3121|end_char=3125
+18	suffering	suffering	NOUN	NN	Number=Sing	16	obj	_	start_char=3126|end_char=3135|SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	start_char=3135|end_char=3136
+20	to	to	PART	TO	_	21	mark	_	start_char=3137|end_char=3139
+21	avoid	avoid	VERB	VB	VerbForm=Inf	6	advcl	_	start_char=3140|end_char=3145
+22	that	that	DET	DT	Number=Sing|PronType=Dem	26	det	_	start_char=3146|end_char=3150
+23	"	"	PUNCT	``	_	24	punct	_	start_char=3151|end_char=3152|SpaceAfter=No
+24	gotcha	gotcha	NOUN	NN	Number=Sing	26	compound	_	start_char=3152|end_char=3158|SpaceAfter=No
+25	"	"	PUNCT	''	_	24	punct	_	start_char=3158|end_char=3159
+26	bill	bill	NOUN	NN	Number=Sing	21	obj	_	start_char=3160|end_char=3164|SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	start_char=3164|end_char=3165|SpacesAfter=\n\n
+
+# text = A woman in New Orleans saved nearly 4,000 dollars using our data.
+# sent_id = 37
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	start_char=3167|end_char=3168
+2	woman	woman	NOUN	NN	Number=Sing	6	nsubj	_	start_char=3169|end_char=3174
+3	in	in	ADP	IN	_	5	case	_	start_char=3175|end_char=3177
+4	New	New	ADJ	NNP	Degree=Pos	5	amod	_	start_char=3178|end_char=3181
+5	Orleans	Orleans	PROPN	NNP	Number=Sing	2	nmod	_	start_char=3182|end_char=3189
+6	saved	save	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3190|end_char=3195
+7	nearly	nearly	ADV	RB	_	8	advmod	_	start_char=3196|end_char=3202
+8	4,000	4000	NUM	CD	NumForm=Digit|NumType=Card	9	nummod	_	start_char=3203|end_char=3208
+9	dollars	dollar	NOUN	NNS	Number=Plur	6	obj	_	start_char=3209|end_char=3216
+10	using	use	VERB	VBG	VerbForm=Ger	6	advcl	_	start_char=3217|end_char=3222
+11	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=3223|end_char=3226
+12	data	datum	NOUN	NNS	Number=Plur	10	obj	_	start_char=3227|end_char=3231|SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	start_char=3231|end_char=3232|SpacesAfter=\n\n
+
+# text = A San Francisco contributor saved nearly 1,300 dollars by putting away his insurance card and paying cash.
+# sent_id = 38
+1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=3234|end_char=3235
+2	San	San	PROPN	NNP	Number=Sing	4	compound	_	start_char=3236|end_char=3239
+3	Francisco	Francisco	PROPN	NNP	Number=Sing	2	flat	_	start_char=3240|end_char=3249
+4	contributor	contributor	NOUN	NN	Number=Sing	5	nsubj	_	start_char=3250|end_char=3261
+5	saved	save	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3262|end_char=3267
+6	nearly	nearly	ADV	RB	_	7	advmod	_	start_char=3268|end_char=3274
+7	1,300	1300	NUM	CD	NumForm=Digit|NumType=Card	8	nummod	_	start_char=3275|end_char=3280
+8	dollars	dollar	NOUN	NNS	Number=Plur	5	obj	_	start_char=3281|end_char=3288
+9	by	by	SCONJ	IN	_	10	mark	_	start_char=3289|end_char=3291
+10	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part	5	advcl	_	start_char=3292|end_char=3299
+11	away	away	ADP	RP	_	10	compound:prt	_	start_char=3300|end_char=3304
+12	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=3305|end_char=3308
+13	insurance	insurance	NOUN	NN	Number=Sing	14	compound	_	start_char=3309|end_char=3318
+14	card	card	NOUN	NN	Number=Sing	10	obj	_	start_char=3319|end_char=3323
+15	and	and	CCONJ	CC	_	16	cc	_	start_char=3324|end_char=3327
+16	paying	pay	VERB	VBG	Tense=Pres|VerbForm=Part	10	conj	_	start_char=3328|end_char=3334
+17	cash	cash	NOUN	NN	Number=Sing	16	obj	_	start_char=3335|end_char=3339|SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	start_char=3339|end_char=3340|SpacesAfter=\n\n
+
+# text = There are a lot of people who are going to in-network hospitals and getting out-of-network bills.
+# sent_id = 39
+1	There	there	PRON	EX	_	2	expl	_	start_char=3342|end_char=3347
+2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3348|end_char=3351
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=3352|end_char=3353
+4	lot	lot	NOUN	NN	Number=Sing	2	nsubj	_	start_char=3354|end_char=3357
+5	of	of	ADP	IN	_	6	case	_	start_char=3358|end_char=3360
+6	people	person	NOUN	NNS	Number=Plur	4	nmod	_	start_char=3361|end_char=3367
+7	who	who	PRON	WP	PronType=Rel	9	nsubj	_	start_char=3368|end_char=3371
+8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=3372|end_char=3375
+9	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	6	acl:relcl	_	start_char=3376|end_char=3381
+10	to	to	ADP	IN	_	14	case	_	start_char=3382|end_char=3384
+11	in	in	ADP	IN	_	13	case	_	start_char=3385|end_char=3387|SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	11	punct	_	start_char=3387|end_char=3388|SpaceAfter=No
+13	network	network	NOUN	NN	Number=Sing	14	compound	_	start_char=3388|end_char=3395
+14	hospitals	hospital	NOUN	NNS	Number=Plur	9	obl	_	start_char=3396|end_char=3405
+15	and	and	CCONJ	CC	_	16	cc	_	start_char=3406|end_char=3409
+16	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	9	conj	_	start_char=3410|end_char=3417
+17	out	out	ADP	RP	_	16	compound:prt	_	start_char=3418|end_char=3421|SpaceAfter=No
+18	-	-	PUNCT	HYPH	_	19	punct	_	start_char=3421|end_char=3422|SpaceAfter=No
+19	of	of	ADP	IN	_	21	case	_	start_char=3422|end_char=3424|SpaceAfter=No
+20	-	-	PUNCT	HYPH	_	19	punct	_	start_char=3424|end_char=3425|SpaceAfter=No
+21	network	network	NOUN	NN	Number=Sing	22	compound	_	start_char=3425|end_char=3432
+22	bills	bill	NOUN	NNS	Number=Plur	16	obj	_	start_char=3433|end_char=3438|SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	start_char=3438|end_char=3439|SpacesAfter=\n\n
+
+# text = And then there was the hospital that continued to bill a dead man.
+# sent_id = 40
+1	And	and	CCONJ	CC	_	4	cc	_	start_char=3441|end_char=3444
+2	then	then	ADV	RB	PronType=Dem	4	advmod	_	start_char=3445|end_char=3449
+3	there	there	PRON	EX	_	4	expl	_	start_char=3450|end_char=3455
+4	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3456|end_char=3459
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=3460|end_char=3463
+6	hospital	hospital	NOUN	NN	Number=Sing	4	nsubj	_	start_char=3464|end_char=3472
+7	that	that	PRON	WDT	PronType=Rel	8	nsubj	_	start_char=3473|end_char=3477
+8	continued	continue	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	start_char=3478|end_char=3487
+9	to	to	PART	TO	_	10	mark	_	start_char=3488|end_char=3490
+10	bill	bill	VERB	VB	VerbForm=Inf	8	xcomp	_	start_char=3491|end_char=3495
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=3496|end_char=3497
+12	dead	dead	ADJ	JJ	Degree=Pos	13	amod	_	start_char=3498|end_char=3502
+13	man	man	NOUN	NN	Number=Sing	10	obj	_	start_char=3503|end_char=3506|SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	start_char=3506|end_char=3507|SpacesAfter=\n\n
+
+# text = We learned that thousands of people wanted to tell us their prices.
+# sent_id = 41
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=3509|end_char=3511
+2	learned	learn	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3512|end_char=3519
+3	that	that	SCONJ	IN	_	7	mark	_	start_char=3520|end_char=3524
+4	thousands	thousand	NOUN	NNS	Number=Plur	7	nsubj	_	start_char=3525|end_char=3534
+5	of	of	ADP	IN	_	6	case	_	start_char=3535|end_char=3537
+6	people	person	NOUN	NNS	Number=Plur	4	nmod	_	start_char=3538|end_char=3544
+7	wanted	want	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	start_char=3545|end_char=3551
+8	to	to	PART	TO	_	9	mark	_	start_char=3552|end_char=3554
+9	tell	tell	VERB	VB	VerbForm=Inf	7	xcomp	_	start_char=3555|end_char=3559
+10	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	iobj	_	start_char=3560|end_char=3562
+11	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=3563|end_char=3568
+12	prices	price	NOUN	NNS	Number=Plur	9	obj	_	start_char=3569|end_char=3575|SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	start_char=3575|end_char=3576|SpacesAfter=\n\n
+
+# text = They want to learn what stuff costs, find out how to argue a bill, help us solve this problem that's hurting them and their friends and families.
+# sent_id = 42
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=3578|end_char=3582
+2	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3583|end_char=3587
+3	to	to	PART	TO	_	4	mark	_	start_char=3588|end_char=3590
+4	learn	learn	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=3591|end_char=3596
+5	what	what	DET	WDT	PronType=Int	6	det	_	start_char=3597|end_char=3601
+6	stuff	stuff	NOUN	NN	Number=Sing	7	nsubj	_	start_char=3602|end_char=3607
+7	costs	cost	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	start_char=3608|end_char=3613|SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	start_char=3613|end_char=3614
+9	find	find	VERB	VB	VerbForm=Fin	2	conj	_	start_char=3615|end_char=3619
+10	out	out	ADP	RP	_	9	compound:prt	_	start_char=3620|end_char=3623
+11	how	how	ADV	WRB	PronType=Int	9	obj	_	start_char=3624|end_char=3627
+12	to	to	PART	TO	_	13	mark	_	start_char=3628|end_char=3630
+13	argue	argue	VERB	VB	VerbForm=Inf	11	acl	_	start_char=3631|end_char=3636
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=3637|end_char=3638
+15	bill	bill	NOUN	NN	Number=Sing	13	obj	_	start_char=3639|end_char=3643|SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	start_char=3643|end_char=3644
+17	help	help	VERB	VB	VerbForm=Inf	2	parataxis	_	start_char=3645|end_char=3649
+18	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	17	obj	_	start_char=3650|end_char=3652
+19	solve	solve	VERB	VB	VerbForm=Inf	17	xcomp	_	start_char=3653|end_char=3658
+20	this	this	DET	DT	Number=Sing|PronType=Dem	21	det	_	start_char=3659|end_char=3663
+21	problem	problem	NOUN	NN	Number=Sing	19	obj	_	start_char=3664|end_char=3671
+22-23	that's	_	_	_	_	_	_	_	start_char=3672|end_char=3678
+22	that	that	PRON	WDT	PronType=Rel	24	nsubj	_	start_char=3672|end_char=3676
+23	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	start_char=3676|end_char=3678
+24	hurting	hurt	VERB	VBG	Tense=Pres|VerbForm=Part	21	acl:relcl	_	start_char=3679|end_char=3686
+25	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	24	obj	_	start_char=3687|end_char=3691
+26	and	and	CCONJ	CC	_	28	cc	_	start_char=3692|end_char=3695
+27	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	start_char=3696|end_char=3701
+28	friends	friend	NOUN	NNS	Number=Plur	25	conj	_	start_char=3702|end_char=3709
+29	and	and	CCONJ	CC	_	30	cc	_	start_char=3710|end_char=3713
+30	families	family	NOUN	NNS	Number=Plur	28	conj	_	start_char=3714|end_char=3722|SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	start_char=3722|end_char=3723|SpacesAfter=\n\n
+
+# text = We talked to people who had to sell a car to pay a health bill, go into bankruptcy, skip a treatment because of the cost.
+# sent_id = 43
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=3725|end_char=3727
+2	talked	talk	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3728|end_char=3734
+3	to	to	ADP	IN	_	4	case	_	start_char=3735|end_char=3737
+4	people	person	NOUN	NNS	Number=Plur	2	obl	_	start_char=3738|end_char=3744
+5	who	who	PRON	WP	PronType=Rel	6	nsubj	_	start_char=3745|end_char=3748
+6	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	start_char=3749|end_char=3752
+7	to	to	PART	TO	_	8	mark	_	start_char=3753|end_char=3755
+8	sell	sell	VERB	VB	VerbForm=Inf	6	xcomp	_	start_char=3756|end_char=3760
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=3761|end_char=3762
+10	car	car	NOUN	NN	Number=Sing	8	obj	_	start_char=3763|end_char=3766
+11	to	to	PART	TO	_	12	mark	_	start_char=3767|end_char=3769
+12	pay	pay	VERB	VB	VerbForm=Inf	8	advcl	_	start_char=3770|end_char=3773
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=3774|end_char=3775
+14	health	health	NOUN	NN	Number=Sing	15	compound	_	start_char=3776|end_char=3782
+15	bill	bill	NOUN	NN	Number=Sing	12	obj	_	start_char=3783|end_char=3787|SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	start_char=3787|end_char=3788
+17	go	go	VERB	VB	VerbForm=Inf	2	parataxis	_	start_char=3789|end_char=3791
+18	into	into	ADP	IN	_	19	case	_	start_char=3792|end_char=3796
+19	bankruptcy	bankruptcy	NOUN	NN	Number=Sing	17	obl	_	start_char=3797|end_char=3807|SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	_	start_char=3807|end_char=3808
+21	skip	skip	VERB	VB	VerbForm=Inf	17	conj	_	start_char=3809|end_char=3813
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	start_char=3814|end_char=3815
+23	treatment	treatment	NOUN	NN	Number=Sing	21	obj	_	start_char=3816|end_char=3825
+24	because	because	ADP	IN	ExtPos=ADP	27	case	_	start_char=3826|end_char=3833
+25	of	of	ADP	IN	_	24	fixed	_	start_char=3834|end_char=3836
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	start_char=3837|end_char=3840
+27	cost	cost	NOUN	NN	Number=Sing	21	obl	_	start_char=3841|end_char=3845|SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	start_char=3845|end_char=3846|SpacesAfter=\n\n
+
+# text = Imagine if you could afford the diagnosis but not the cure.
+# sent_id = 44
+1	Imagine	imagine	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=3848|end_char=3855
+2	if	if	SCONJ	IN	_	5	mark	_	start_char=3856|end_char=3858
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=3859|end_char=3862
+4	could	could	AUX	MD	VerbForm=Fin	5	aux	_	start_char=3863|end_char=3868
+5	afford	afford	VERB	VB	VerbForm=Inf	1	ccomp	_	start_char=3869|end_char=3875
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=3876|end_char=3879
+7	diagnosis	diagnosis	NOUN	NN	Number=Sing	5	obj	_	start_char=3880|end_char=3889
+8	but	but	CCONJ	CC	_	11	cc	_	start_char=3890|end_char=3893
+9	not	not	PART	RB	Polarity=Neg	11	advmod	_	start_char=3894|end_char=3897
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=3898|end_char=3901
+11	cure	cure	NOUN	NN	Number=Sing	7	conj	_	start_char=3902|end_char=3906|SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	_	start_char=3906|end_char=3907|SpacesAfter=\n\n
+
+# text = We set off a huge conversation about costs involving doctors and hospitals, yes, but also their patients, or as we like to call them, people.
+# sent_id = 45
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=3909|end_char=3911
+2	set	set	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3912|end_char=3915
+3	off	off	ADP	RP	_	2	compound:prt	_	start_char=3916|end_char=3919
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=3920|end_char=3921
+5	huge	huge	ADJ	JJ	Degree=Pos	6	amod	_	start_char=3922|end_char=3926
+6	conversation	conversation	NOUN	NN	Number=Sing	2	obj	_	start_char=3927|end_char=3939
+7	about	about	ADP	IN	_	8	case	_	start_char=3940|end_char=3945
+8	costs	cost	NOUN	NNS	Number=Plur	6	nmod	_	start_char=3946|end_char=3951
+9	involving	involve	VERB	VBG	VerbForm=Ger	8	acl	_	start_char=3952|end_char=3961
+10	doctors	doctor	NOUN	NNS	Number=Plur	9	obj	_	start_char=3962|end_char=3969
+11	and	and	CCONJ	CC	_	12	cc	_	start_char=3970|end_char=3973
+12	hospitals	hospital	NOUN	NNS	Number=Plur	10	conj	_	start_char=3974|end_char=3983|SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	start_char=3983|end_char=3984
+14	yes	yes	INTJ	UH	Polarity=Pos	2	discourse	_	start_char=3985|end_char=3988|SpaceAfter=No
+15	,	,	PUNCT	,	_	19	punct	_	start_char=3988|end_char=3989
+16	but	but	CCONJ	CC	_	19	cc	_	start_char=3990|end_char=3993
+17	also	also	ADV	RB	_	19	advmod	_	start_char=3994|end_char=3998
+18	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	start_char=3999|end_char=4004
+19	patients	patient	NOUN	NNS	Number=Plur	10	conj	_	start_char=4005|end_char=4013|SpaceAfter=No
+20	,	,	PUNCT	,	_	24	punct	_	start_char=4013|end_char=4014
+21	or	or	CCONJ	CC	_	24	cc	_	start_char=4015|end_char=4017
+22	as	as	SCONJ	IN	_	24	mark	_	start_char=4018|end_char=4020
+23	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	start_char=4021|end_char=4023
+24	like	like	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=4024|end_char=4028
+25	to	to	PART	TO	_	26	mark	_	start_char=4029|end_char=4031
+26	call	call	VERB	VB	VerbForm=Inf	24	xcomp	_	start_char=4032|end_char=4036
+27	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	26	obj	_	start_char=4037|end_char=4041|SpaceAfter=No
+28	,	,	PUNCT	,	_	24	punct	_	start_char=4041|end_char=4042
+29	people	person	NOUN	NNS	Number=Plur	2	parataxis	_	start_char=4043|end_char=4049|SpaceAfter=No
+30	.	.	PUNCT	.	_	2	punct	_	start_char=4049|end_char=4050|SpacesAfter=\n\n
+
+# text = We changed policy.
+# sent_id = 46
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=4052|end_char=4054
+2	changed	change	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=4055|end_char=4062
+3	policy	policy	NOUN	NN	Number=Sing	2	obj	_	start_char=4063|end_char=4069|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=4069|end_char=4070|SpacesAfter=\n\n
+
+# text = A consumer protection bill that had been stalled in the Louisiana legislature for 10 years passed after we launched.
+# sent_id = 47
+1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=4072|end_char=4073
+2	consumer	consumer	NOUN	NN	Number=Sing	3	compound	_	start_char=4074|end_char=4082
+3	protection	protection	NOUN	NN	Number=Sing	4	compound	_	start_char=4083|end_char=4093
+4	bill	bill	NOUN	NN	Number=Sing	16	nsubj	_	start_char=4094|end_char=4098
+5	that	that	PRON	WDT	PronType=Rel	8	nsubj:pass	_	start_char=4099|end_char=4103
+6	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	start_char=4104|end_char=4107
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	8	aux:pass	_	start_char=4108|end_char=4112
+8	stalled	stall	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl:relcl	_	start_char=4113|end_char=4120
+9	in	in	ADP	IN	_	12	case	_	start_char=4121|end_char=4123
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=4124|end_char=4127
+11	Louisiana	Louisiana	PROPN	NNP	Number=Sing	12	compound	_	start_char=4128|end_char=4137
+12	legislature	legislature	NOUN	NN	Number=Sing	8	obl	_	start_char=4138|end_char=4149
+13	for	for	ADP	IN	_	15	case	_	start_char=4150|end_char=4153
+14	10	10	NUM	CD	NumForm=Digit|NumType=Card	15	nummod	_	start_char=4154|end_char=4156
+15	years	year	NOUN	NNS	Number=Plur	8	obl	_	start_char=4157|end_char=4162
+16	passed	pass	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=4163|end_char=4169
+17	after	after	SCONJ	IN	_	19	mark	_	start_char=4170|end_char=4175
+18	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	start_char=4176|end_char=4178
+19	launched	launch	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	16	advcl	_	start_char=4179|end_char=4187|SpaceAfter=No
+20	.	.	PUNCT	.	_	16	punct	_	start_char=4187|end_char=4188|SpacesAfter=\n\n
+
+# text = Let's face it: this huge, slow-rolling public health crisis is a national emergency.
+# sent_id = 48
+1-2	Let's	_	_	_	_	_	_	_	start_char=4190|end_char=4195
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=4190|end_char=4193
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	start_char=4193|end_char=4195
+3	face	face	VERB	VB	VerbForm=Inf	1	xcomp	_	start_char=4196|end_char=4200
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=4201|end_char=4203|SpaceAfter=No
+5	:	:	PUNCT	:	_	18	punct	_	start_char=4203|end_char=4204
+6	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	_	start_char=4205|end_char=4209
+7	huge	huge	ADJ	JJ	Degree=Pos	14	amod	_	start_char=4210|end_char=4214|SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	start_char=4214|end_char=4215
+9	slow	slow	ADJ	JJ	Degree=Pos	11	amod	_	start_char=4216|end_char=4220|SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	9	punct	_	start_char=4220|end_char=4221|SpaceAfter=No
+11	rolling	roll	VERB	VBG	VerbForm=Ger	14	amod	_	start_char=4221|end_char=4228
+12	public	public	ADJ	JJ	Degree=Pos	14	amod	_	start_char=4229|end_char=4235
+13	health	health	NOUN	NN	Number=Sing	14	compound	_	start_char=4236|end_char=4242
+14	crisis	crisis	NOUN	NN	Number=Sing	18	nsubj	_	start_char=4243|end_char=4249
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=4250|end_char=4252
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	start_char=4253|end_char=4254
+17	national	national	ADJ	JJ	Degree=Pos	18	amod	_	start_char=4255|end_char=4263
+18	emergency	emergency	NOUN	NN	Number=Sing	1	parataxis	_	start_char=4264|end_char=4273|SpaceAfter=No
+19	.	.	PUNCT	.	_	1	punct	_	start_char=4273|end_char=4274|SpacesAfter=\n\n
+
+# text = And I don't think government's going to help us out anytime soon.
+# sent_id = 49
+1	And	and	CCONJ	CC	_	5	cc	_	start_char=4276|end_char=4279
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=4280|end_char=4281
+3-4	don't	_	_	_	_	_	_	_	start_char=4282|end_char=4287
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=4282|end_char=4284
+4	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=4284|end_char=4287
+5	think	think	VERB	VB	VerbForm=Inf	0	root	_	start_char=4288|end_char=4293
+6-7	government's	_	_	_	_	_	_	_	start_char=4294|end_char=4306
+6	government	government	NOUN	NN	Number=Sing	8	nsubj	_	start_char=4294|end_char=4304
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=4304|end_char=4306
+8	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	5	ccomp	_	start_char=4307|end_char=4312
+9	to	to	PART	TO	_	10	mark	_	start_char=4313|end_char=4315
+10	help	help	VERB	VB	VerbForm=Inf	8	xcomp	_	start_char=4316|end_char=4320
+11	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	obj	_	start_char=4321|end_char=4323
+12	out	out	ADP	RP	_	10	compound:prt	_	start_char=4324|end_char=4327
+13	anytime	anytime	ADV	RB	PronType=Ind	10	advmod	_	start_char=4328|end_char=4335
+14	soon	soon	ADV	RB	Degree=Pos	10	advmod	_	start_char=4336|end_char=4340|SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	start_char=4340|end_char=4341|SpacesAfter=\n\n
+
+# text = But what if the answer was really simple: make all the prices public all the time.
+# sent_id = 50
+1	But	but	CCONJ	CC	_	2	cc	_	start_char=4343|end_char=4346
+2	what	what	PRON	WP	PronType=Int	0	root	_	start_char=4347|end_char=4351
+3	if	if	SCONJ	IN	_	8	mark	_	start_char=4352|end_char=4354
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=4355|end_char=4358
+5	answer	answer	NOUN	NN	Number=Sing	8	nsubj	_	start_char=4359|end_char=4365
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	start_char=4366|end_char=4369
+7	really	really	ADV	RB	_	8	advmod	_	start_char=4370|end_char=4376
+8	simple	simple	ADJ	JJ	Degree=Pos	2	advcl	_	start_char=4377|end_char=4383|SpaceAfter=No
+9	:	:	PUNCT	:	_	10	punct	_	start_char=4383|end_char=4384
+10	make	make	VERB	VB	Mood=Imp|VerbForm=Fin	2	parataxis	_	start_char=4385|end_char=4389
+11	all	all	DET	PDT	PronType=Tot	13	det:predet	_	start_char=4390|end_char=4393
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=4394|end_char=4397
+13	prices	price	NOUN	NNS	Number=Plur	10	obj	_	start_char=4398|end_char=4404
+14	public	public	ADJ	JJ	Degree=Pos	10	xcomp	_	start_char=4405|end_char=4411
+15	all	all	DET	PDT	PronType=Tot	17	det:predet	_	start_char=4412|end_char=4415
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=4416|end_char=4419
+17	time	time	NOUN	NN	Number=Sing	10	obl:unmarked	_	start_char=4420|end_char=4424|SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	start_char=4424|end_char=4425|SpacesAfter=\n\n
+
+# text = Would our individual bills go down?
+# sent_id = 51
+1	Would	would	AUX	MD	VerbForm=Fin	5	aux	_	start_char=4427|end_char=4432
+2	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=4433|end_char=4436
+3	individual	individual	ADJ	JJ	Degree=Pos	4	amod	_	start_char=4437|end_char=4447
+4	bills	bill	NOUN	NNS	Number=Plur	5	nsubj	_	start_char=4448|end_char=4453
+5	go	go	VERB	VB	VerbForm=Inf	0	root	_	start_char=4454|end_char=4456
+6	down	down	ADP	RP	_	5	compound:prt	_	start_char=4457|end_char=4461|SpaceAfter=No
+7	?	?	PUNCT	.	_	5	punct	_	start_char=4461|end_char=4462|SpacesAfter=\n\n
+
+# text = Our health premiums?
+# sent_id = 52
+1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=4464|end_char=4467
+2	health	health	NOUN	NN	Number=Sing	3	compound	_	start_char=4468|end_char=4474
+3	premiums	premium	NOUN	NNS	Number=Plur	0	root	_	start_char=4475|end_char=4483|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	start_char=4483|end_char=4484|SpacesAfter=\n\n
+
+# text = Be really clear about this: this is a United States problem.
+# sent_id = 53
+1	Be	be	AUX	VB	Mood=Imp|VerbForm=Fin	3	cop	_	start_char=4486|end_char=4488
+2	really	really	ADV	RB	_	3	advmod	_	start_char=4489|end_char=4495
+3	clear	clear	ADJ	JJ	Degree=Pos	0	root	_	start_char=4496|end_char=4501
+4	about	about	ADP	IN	_	5	case	_	start_char=4502|end_char=4507
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	3	obl	_	start_char=4508|end_char=4512|SpaceAfter=No
+6	:	:	PUNCT	:	_	12	punct	_	start_char=4512|end_char=4513
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	12	nsubj	_	start_char=4514|end_char=4518
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=4519|end_char=4521
+9	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=4522|end_char=4523
+10	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	11	amod	_	start_char=4524|end_char=4530
+11	States	State	PROPN	NNPS	Number=Plur	12	compound	_	start_char=4531|end_char=4537
+12	problem	problem	NOUN	NN	Number=Sing	3	parataxis	_	start_char=4538|end_char=4545|SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	start_char=4545|end_char=4546|SpacesAfter=\n\n
+
+# text = In most of the rest of the developed world, sick people don't have to worry about money.
+# sent_id = 54
+1	In	in	ADP	IN	_	2	case	_	start_char=4548|end_char=4550
+2	most	most	ADJ	JJS	Degree=Sup	15	obl	_	start_char=4551|end_char=4555
+3	of	of	ADP	IN	_	5	case	_	start_char=4556|end_char=4558
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=4559|end_char=4562
+5	rest	rest	NOUN	NN	Number=Sing	2	nmod	_	start_char=4563|end_char=4567
+6	of	of	ADP	IN	_	9	case	_	start_char=4568|end_char=4570
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=4571|end_char=4574
+8	developed	develop	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	start_char=4575|end_char=4584
+9	world	world	NOUN	NN	Number=Sing	5	nmod	_	start_char=4585|end_char=4590|SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	start_char=4590|end_char=4591
+11	sick	sick	ADJ	JJ	Degree=Pos	12	amod	_	start_char=4592|end_char=4596
+12	people	person	NOUN	NNS	Number=Plur	15	nsubj	_	start_char=4597|end_char=4603
+13-14	don't	_	_	_	_	_	_	_	start_char=4604|end_char=4609
+13	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=4604|end_char=4606
+14	n't	not	PART	RB	Polarity=Neg	15	advmod	_	start_char=4606|end_char=4609
+15	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=4610|end_char=4614
+16	to	to	PART	TO	_	17	mark	_	start_char=4615|end_char=4617
+17	worry	worry	VERB	VB	VerbForm=Inf	15	xcomp	_	start_char=4618|end_char=4623
+18	about	about	ADP	IN	_	19	case	_	start_char=4624|end_char=4629
+19	money	money	NOUN	NN	Number=Sing	17	obl	_	start_char=4630|end_char=4635|SpaceAfter=No
+20	.	.	PUNCT	.	_	15	punct	_	start_char=4635|end_char=4636|SpacesAfter=\n\n
+
+# text = It's also true that price transparency will not solve every problem.
+# sent_id = 55
+1-2	It's	_	_	_	_	_	_	_	start_char=4638|end_char=4642
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	start_char=4638|end_char=4640
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=4640|end_char=4642
+3	also	also	ADV	RB	_	4	advmod	_	start_char=4643|end_char=4647
+4	true	true	ADJ	JJ	Degree=Pos	0	root	_	start_char=4648|end_char=4652
+5	that	that	SCONJ	IN	_	10	mark	_	start_char=4653|end_char=4657
+6	price	price	NOUN	NN	Number=Sing	7	compound	_	start_char=4658|end_char=4663
+7	transparency	transparency	NOUN	NN	Number=Sing	10	nsubj	_	start_char=4664|end_char=4676
+8	will	will	AUX	MD	VerbForm=Fin	10	aux	_	start_char=4677|end_char=4681
+9	not	not	PART	RB	Polarity=Neg	10	advmod	_	start_char=4682|end_char=4685
+10	solve	solve	VERB	VB	VerbForm=Inf	4	csubj	_	start_char=4686|end_char=4691
+11	every	every	DET	DT	PronType=Tot	12	det	_	start_char=4692|end_char=4697
+12	problem	problem	NOUN	NN	Number=Sing	10	obj	_	start_char=4698|end_char=4705|SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	start_char=4705|end_char=4706|SpacesAfter=\n\n
+
+# text = There will still be expensive treatments, huge friction from our insurance system.
+# sent_id = 56
+1	There	there	PRON	EX	_	4	expl	_	start_char=4708|end_char=4713
+2	will	will	AUX	MD	VerbForm=Fin	4	aux	_	start_char=4714|end_char=4718
+3	still	still	ADV	RB	_	4	advmod	_	start_char=4719|end_char=4724
+4	be	be	VERB	VB	VerbForm=Inf	0	root	_	start_char=4725|end_char=4727
+5	expensive	expensive	ADJ	JJ	Degree=Pos	6	amod	_	start_char=4728|end_char=4737
+6	treatments	treatment	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=4738|end_char=4748|SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	start_char=4748|end_char=4749
+8	huge	huge	ADJ	JJ	Degree=Pos	9	amod	_	start_char=4750|end_char=4754
+9	friction	friction	NOUN	NN	Number=Sing	6	conj	_	start_char=4755|end_char=4763
+10	from	from	ADP	IN	_	13	case	_	start_char=4764|end_char=4768
+11	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=4769|end_char=4772
+12	insurance	insurance	NOUN	NN	Number=Sing	13	compound	_	start_char=4773|end_char=4782
+13	system	system	NOUN	NN	Number=Sing	9	nmod	_	start_char=4783|end_char=4789|SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	start_char=4789|end_char=4790|SpacesAfter=\n\n
+
+# text = There will still be fraud and a massive problem with overtreatment and overdiagnosis.
+# sent_id = 57
+1	There	there	PRON	EX	_	4	expl	_	start_char=4792|end_char=4797
+2	will	will	AUX	MD	VerbForm=Fin	4	aux	_	start_char=4798|end_char=4802
+3	still	still	ADV	RB	_	4	advmod	_	start_char=4803|end_char=4808
+4	be	be	VERB	VB	VerbForm=Inf	0	root	_	start_char=4809|end_char=4811
+5	fraud	fraud	NOUN	NN	Number=Sing	4	nsubj	_	start_char=4812|end_char=4817
+6	and	and	CCONJ	CC	_	9	cc	_	start_char=4818|end_char=4821
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=4822|end_char=4823
+8	massive	massive	ADJ	JJ	Degree=Pos	9	amod	_	start_char=4824|end_char=4831
+9	problem	problem	NOUN	NN	Number=Sing	5	conj	_	start_char=4832|end_char=4839
+10	with	with	ADP	IN	_	11	case	_	start_char=4840|end_char=4844
+11	overtreatment	overtreatment	NOUN	NN	Number=Sing	9	nmod	_	start_char=4845|end_char=4858
+12	and	and	CCONJ	CC	_	13	cc	_	start_char=4859|end_char=4862
+13	overdiagnosis	overdiagnosis	NOUN	NN	Number=Sing	11	conj	_	start_char=4863|end_char=4876|SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	start_char=4876|end_char=4877|SpacesAfter=\n\n
+
+# text = And not everything is shoppable.
+# sent_id = 58
+1	And	and	CCONJ	CC	_	5	cc	_	start_char=4879|end_char=4882
+2	not	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=4883|end_char=4886
+3	everything	everything	PRON	NN	Number=Sing|PronType=Tot	5	nsubj	_	start_char=4887|end_char=4897
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=4898|end_char=4900
+5	shoppable	shoppable	ADJ	JJ	Degree=Pos	0	root	_	start_char=4901|end_char=4910|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=4910|end_char=4911|SpacesAfter=\n\n
+
+# text = Not everybody wants the cheapest appendectomy or the cheapest cancer care.
+# sent_id = 59
+1	Not	not	PART	RB	Polarity=Neg	3	advmod	_	start_char=4913|end_char=4916
+2	everybody	everybody	PRON	NN	Number=Sing|PronType=Tot	3	nsubj	_	start_char=4917|end_char=4926
+3	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4927|end_char=4932
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=4933|end_char=4936
+5	cheapest	cheap	ADJ	JJS	Degree=Sup	6	amod	_	start_char=4937|end_char=4945
+6	appendectomy	appendectomy	NOUN	NN	Number=Sing	3	obj	_	start_char=4946|end_char=4958
+7	or	or	CCONJ	CC	_	11	cc	_	start_char=4959|end_char=4961
+8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=4962|end_char=4965
+9	cheapest	cheap	ADJ	JJS	Degree=Sup	11	amod	_	start_char=4966|end_char=4974
+10	cancer	cancer	NOUN	NN	Number=Sing	11	compound	_	start_char=4975|end_char=4981
+11	care	care	NOUN	NN	Number=Sing	6	conj	_	start_char=4982|end_char=4986|SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	start_char=4986|end_char=4987|SpacesAfter=\n\n
+
+# text = But when we talk about these clear effects, we're looking at a real issue that's actually very simple.
+# sent_id = 60
+1	But	but	CCONJ	CC	_	12	cc	_	start_char=4989|end_char=4992
+2	when	when	ADV	WRB	PronType=Int	4	advmod	_	start_char=4993|end_char=4997
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=4998|end_char=5000
+4	talk	talk	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	advcl	_	start_char=5001|end_char=5005
+5	about	about	ADP	IN	_	8	case	_	start_char=5006|end_char=5011
+6	these	this	DET	DT	Number=Plur|PronType=Dem	8	det	_	start_char=5012|end_char=5017
+7	clear	clear	ADJ	JJ	Degree=Pos	8	amod	_	start_char=5018|end_char=5023
+8	effects	effect	NOUN	NNS	Number=Plur	4	obl	_	start_char=5024|end_char=5031|SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	start_char=5031|end_char=5032
+10-11	we're	_	_	_	_	_	_	_	start_char=5033|end_char=5038
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	start_char=5033|end_char=5035
+11	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=5035|end_char=5038
+12	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=5039|end_char=5046
+13	at	at	ADP	IN	_	16	case	_	start_char=5047|end_char=5049
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	start_char=5050|end_char=5051
+15	real	real	ADJ	JJ	Degree=Pos	16	amod	_	start_char=5052|end_char=5056
+16	issue	issue	NOUN	NN	Number=Sing	12	obl	_	start_char=5057|end_char=5062
+17-18	that's	_	_	_	_	_	_	_	start_char=5063|end_char=5069
+17	that	that	PRON	WDT	PronType=Rel	21	nsubj	_	start_char=5063|end_char=5067
+18	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	start_char=5067|end_char=5069
+19	actually	actually	ADV	RB	_	21	advmod	_	start_char=5070|end_char=5078
+20	very	very	ADV	RB	_	21	advmod	_	start_char=5079|end_char=5083
+21	simple	simple	ADJ	JJ	Degree=Pos	16	acl:relcl	_	start_char=5084|end_char=5090|SpaceAfter=No
+22	.	.	PUNCT	.	_	12	punct	_	start_char=5090|end_char=5091|SpacesAfter=\n\n
+
+# text = When we first started calling for prices, we actually felt like we were going to be arrested.
+# sent_id = 61
+1	When	when	ADV	WRB	PronType=Int	4	advmod	_	start_char=5093|end_char=5097
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=5098|end_char=5100
+3	first	first	ADV	RB	Degree=Pos|NumForm=Word|NumType=Ord	4	advmod	_	start_char=5101|end_char=5106
+4	started	start	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	11	advcl	_	start_char=5107|end_char=5114
+5	calling	call	VERB	VBG	VerbForm=Ger	4	xcomp	_	start_char=5115|end_char=5122
+6	for	for	ADP	IN	_	7	case	_	start_char=5123|end_char=5126
+7	prices	price	NOUN	NNS	Number=Plur	5	obl	_	start_char=5127|end_char=5133|SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	start_char=5133|end_char=5134
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	start_char=5135|end_char=5137
+10	actually	actually	ADV	RB	_	11	advmod	_	start_char=5138|end_char=5146
+11	felt	feel	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=5147|end_char=5151
+12	like	like	SCONJ	IN	_	15	mark	_	start_char=5152|end_char=5156
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	start_char=5157|end_char=5159
+14	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	15	aux	_	start_char=5160|end_char=5164
+15	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	11	advcl	_	start_char=5165|end_char=5170
+16	to	to	PART	TO	_	18	mark	_	start_char=5171|end_char=5173
+17	be	be	AUX	VB	VerbForm=Inf	18	aux:pass	_	start_char=5174|end_char=5176
+18	arrested	arrest	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	xcomp	_	start_char=5177|end_char=5185|SpaceAfter=No
+19	.	.	PUNCT	.	_	11	punct	_	start_char=5185|end_char=5186|SpacesAfter=\n\n
+
+# text = It seemed kind of transgressive to talk about medicine and health care in the same breath, and yet it became liberating, because we found not only data but also good and honest people out there in the system who want to help folks get the care they need at a price they can afford.
+# sent_id = 62
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=5188|end_char=5190
+2	seemed	seem	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=5191|end_char=5197
+3	kind	kind	NOUN	NN	ExtPos=ADV|Number=Sing	5	advmod	_	start_char=5198|end_char=5202
+4	of	of	ADP	IN	_	3	fixed	_	start_char=5203|end_char=5205
+5	transgressive	transgressive	ADJ	JJ	Degree=Pos	2	xcomp	_	start_char=5206|end_char=5219
+6	to	to	PART	TO	_	7	mark	_	start_char=5220|end_char=5222
+7	talk	talk	VERB	VB	VerbForm=Inf	5	csubj	_	start_char=5223|end_char=5227
+8	about	about	ADP	IN	_	9	case	_	start_char=5228|end_char=5233
+9	medicine	medicine	NOUN	NN	Number=Sing	7	obl	_	start_char=5234|end_char=5242
+10	and	and	CCONJ	CC	_	12	cc	_	start_char=5243|end_char=5246
+11	health	health	NOUN	NN	Number=Sing	12	compound	_	start_char=5247|end_char=5253
+12	care	care	NOUN	NN	Number=Sing	9	conj	_	start_char=5254|end_char=5258
+13	in	in	ADP	IN	_	16	case	_	start_char=5259|end_char=5261
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=5262|end_char=5265
+15	same	same	ADJ	JJ	Degree=Pos	16	amod	_	start_char=5266|end_char=5270
+16	breath	breath	NOUN	NN	Number=Sing	7	obl	_	start_char=5271|end_char=5277|SpaceAfter=No
+17	,	,	PUNCT	,	_	21	punct	_	start_char=5277|end_char=5278
+18	and	and	CCONJ	CC	_	21	cc	_	start_char=5279|end_char=5282
+19	yet	yet	ADV	RB	_	21	advmod	_	start_char=5283|end_char=5286
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	expl	_	start_char=5287|end_char=5289
+21	became	become	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=5290|end_char=5296
+22	liberating	liberating	ADJ	JJ	Degree=Pos	21	xcomp	_	start_char=5297|end_char=5307|SpaceAfter=No
+23	,	,	PUNCT	,	_	26	punct	_	start_char=5307|end_char=5308
+24	because	because	SCONJ	IN	_	26	mark	_	start_char=5309|end_char=5316
+25	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	26	nsubj	_	start_char=5317|end_char=5319
+26	found	find	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	21	advcl	_	start_char=5320|end_char=5325
+27	not	not	PART	RB	Polarity=Neg	29	advmod	_	start_char=5326|end_char=5329
+28	only	only	ADV	RB	_	29	advmod	_	start_char=5330|end_char=5334
+29	data	datum	NOUN	NNS	Number=Plur	26	obj	_	start_char=5335|end_char=5339
+30	but	but	CCONJ	CC	_	35	cc	_	start_char=5340|end_char=5343
+31	also	also	ADV	RB	_	35	advmod	_	start_char=5344|end_char=5348
+32	good	good	ADJ	JJ	Degree=Pos	35	amod	_	start_char=5349|end_char=5353
+33	and	and	CCONJ	CC	_	34	cc	_	start_char=5354|end_char=5357
+34	honest	honest	ADJ	JJ	Degree=Pos	32	conj	_	start_char=5358|end_char=5364
+35	people	person	NOUN	NNS	Number=Plur	29	conj	_	start_char=5365|end_char=5371
+36	out	out	ADV	RB	_	37	advmod	_	start_char=5372|end_char=5375
+37	there	there	ADV	RB	PronType=Dem	35	advmod	_	start_char=5376|end_char=5381
+38	in	in	ADP	IN	_	40	case	_	start_char=5382|end_char=5384
+39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	_	start_char=5385|end_char=5388
+40	system	system	NOUN	NN	Number=Sing	35	nmod	_	start_char=5389|end_char=5395
+41	who	who	PRON	WP	PronType=Rel	42	nsubj	_	start_char=5396|end_char=5399
+42	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	acl:relcl	_	start_char=5400|end_char=5404
+43	to	to	PART	TO	_	44	mark	_	start_char=5405|end_char=5407
+44	help	help	VERB	VB	VerbForm=Inf	42	xcomp	_	start_char=5408|end_char=5412
+45	folks	folk	NOUN	NNS	Number=Plur	44	obj	_	start_char=5413|end_char=5418
+46	get	get	VERB	VB	VerbForm=Inf	44	xcomp	_	start_char=5419|end_char=5422
+47	the	the	DET	DT	Definite=Def|PronType=Art	48	det	_	start_char=5423|end_char=5426
+48	care	care	NOUN	NN	Number=Sing	46	obj	_	start_char=5427|end_char=5431
+49	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	50	nsubj	_	start_char=5432|end_char=5436
+50	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	48	acl:relcl	_	start_char=5437|end_char=5441
+51	at	at	ADP	IN	_	53	case	_	start_char=5442|end_char=5444
+52	a	a	DET	DT	Definite=Ind|PronType=Art	53	det	_	start_char=5445|end_char=5446
+53	price	price	NOUN	NN	Number=Sing	50	obl	_	start_char=5447|end_char=5452
+54	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	56	nsubj	_	start_char=5453|end_char=5457
+55	can	can	AUX	MD	VerbForm=Fin	56	aux	_	start_char=5458|end_char=5461
+56	afford	afford	VERB	VB	VerbForm=Inf	53	acl:relcl	_	start_char=5462|end_char=5468|SpaceAfter=No
+57	.	.	PUNCT	.	_	2	punct	_	start_char=5468|end_char=5469|SpacesAfter=\n\n
+
+# text = And it got easier to ask.
+# sent_id = 63
+1	And	and	CCONJ	CC	_	3	cc	_	start_char=5471|end_char=5474
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=5475|end_char=5477
+3	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=5478|end_char=5481
+4	easier	easy	ADJ	JJR	Degree=Cmp	3	xcomp	_	start_char=5482|end_char=5488
+5	to	to	PART	TO	_	6	mark	_	start_char=5489|end_char=5491
+6	ask	ask	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=5492|end_char=5495|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=5495|end_char=5496|SpacesAfter=\n\n
+
+# text = So I'll leave you with some questions.
+# sent_id = 64
+1	So	so	ADV	RB	_	4	advmod	_	start_char=5498|end_char=5500
+2-3	I'll	_	_	_	_	_	_	_	start_char=5501|end_char=5505
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=5501|end_char=5502
+3	'll	will	AUX	MD	VerbForm=Fin	4	aux	_	start_char=5502|end_char=5505
+4	leave	leave	VERB	VB	VerbForm=Inf	0	root	_	start_char=5506|end_char=5511
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	start_char=5512|end_char=5515
+6	with	with	ADP	IN	_	8	case	_	start_char=5516|end_char=5520
+7	some	some	DET	DT	PronType=Ind	8	det	_	start_char=5521|end_char=5525
+8	questions	question	NOUN	NNS	Number=Plur	4	obl	_	start_char=5526|end_char=5535|SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	start_char=5535|end_char=5536|SpacesAfter=\n\n
+
+# text = What if we all knew what stuff cost in health care in advance?
+# sent_id = 65
+1	What	what	PRON	WP	PronType=Int	0	root	_	start_char=5538|end_char=5542
+2	if	if	SCONJ	IN	_	5	mark	_	start_char=5543|end_char=5545
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=5546|end_char=5548
+4	all	all	DET	DT	PronType=Tot	3	det	_	start_char=5549|end_char=5552
+5	knew	know	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	1	advcl	_	start_char=5553|end_char=5557
+6	what	what	DET	WDT	PronType=Int	7	det	_	start_char=5558|end_char=5562
+7	stuff	stuff	NOUN	NN	Number=Sing	8	nsubj	_	start_char=5563|end_char=5568
+8	cost	cost	VERB	VB	Tense=Past|VerbForm=Inf	5	ccomp	_	start_char=5569|end_char=5573
+9	in	in	ADP	IN	_	11	case	_	start_char=5574|end_char=5576
+10	health	health	NOUN	NN	Number=Sing	11	compound	_	start_char=5577|end_char=5583
+11	care	care	NOUN	NN	Number=Sing	8	obl	_	start_char=5584|end_char=5588
+12	in	in	ADP	IN	_	13	case	_	start_char=5589|end_char=5591
+13	advance	advance	NOUN	NN	Number=Sing	8	obl	_	start_char=5592|end_char=5599|SpaceAfter=No
+14	?	?	PUNCT	.	_	1	punct	_	start_char=5599|end_char=5600|SpacesAfter=\n\n
+
+# text = What if, every time you Googled for an MRI, you got drop-downs telling you where to buy and for how much, the way you do when you Google for a laser printer?
+# sent_id = 66
+1	What	what	PRON	WP	PronType=Int	13	nsubj:outer	_	start_char=5602|end_char=5606
+2	if	if	SCONJ	IN	_	13	mark	_	start_char=5607|end_char=5609|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=5609|end_char=5610
+4	every	every	DET	DT	PronType=Tot	5	det	_	start_char=5611|end_char=5616
+5	time	time	NOUN	NN	Number=Sing	13	obl:unmarked	_	start_char=5617|end_char=5621
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	start_char=5622|end_char=5625
+7	Googled	google	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	5	acl:relcl	_	start_char=5626|end_char=5633
+8	for	for	ADP	IN	_	10	case	_	start_char=5634|end_char=5637
+9	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=5638|end_char=5640
+10	MRI	mri	NOUN	NN	Number=Sing	7	obl	_	start_char=5641|end_char=5644|SpaceAfter=No
+11	,	,	PUNCT	,	_	5	punct	_	start_char=5644|end_char=5645
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	start_char=5646|end_char=5649
+13	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	_	start_char=5650|end_char=5653
+14	drop	drop	NOUN	NN	Number=Sing	16	compound	_	start_char=5654|end_char=5658|SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	14	punct	_	start_char=5658|end_char=5659|SpaceAfter=No
+16	downs	down	NOUN	NNS	Number=Plur	13	obj	_	start_char=5659|end_char=5664
+17	telling	tell	VERB	VBG	Tense=Pres|VerbForm=Part	13	advcl	_	start_char=5665|end_char=5672
+18	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	17	iobj	_	start_char=5673|end_char=5676
+19	where	where	ADV	WRB	PronType=Int	21	advmod	_	start_char=5677|end_char=5682
+20	to	to	PART	TO	_	21	mark	_	start_char=5683|end_char=5685
+21	buy	buy	VERB	VB	VerbForm=Inf	17	ccomp	_	start_char=5686|end_char=5689
+22	and	and	CCONJ	CC	_	28	cc	_	start_char=5690|end_char=5693
+23	for	for	ADP	IN	_	25	case	_	start_char=5694|end_char=5697
+24	how	how	ADV	WRB	PronType=Int	25	advmod	_	start_char=5698|end_char=5701
+25	much	much	ADJ	JJ	Degree=Pos	28	nmod	_	start_char=5702|end_char=5706|SpaceAfter=No
+26	,	,	PUNCT	,	_	25	punct	_	start_char=5706|end_char=5707
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	start_char=5708|end_char=5711
+28	way	way	NOUN	NN	Number=Sing	21	conj	_	start_char=5712|end_char=5715
+29	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	30	nsubj	_	start_char=5716|end_char=5719
+30	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	start_char=5720|end_char=5722
+31	when	when	ADV	WRB	PronType=Int	33	advmod	_	start_char=5723|end_char=5727
+32	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	33	nsubj	_	start_char=5728|end_char=5731
+33	Google	Google	PROPN	NNP	Number=Sing	30	advcl	_	start_char=5732|end_char=5738
+34	for	for	ADP	IN	_	37	case	_	start_char=5739|end_char=5742
+35	a	a	DET	DT	Definite=Ind|PronType=Art	37	det	_	start_char=5743|end_char=5744
+36	laser	laser	NOUN	NN	Number=Sing	37	compound	_	start_char=5745|end_char=5750
+37	printer	printer	NOUN	NN	Number=Sing	30	obl	_	start_char=5751|end_char=5758|SpaceAfter=No
+38	?	?	PUNCT	.	_	13	punct	_	start_char=5758|end_char=5759|SpacesAfter=\n\n
+
+# text = What if all of the time and energy and money that's spent hiding prices was squeezed out of the system?
+# sent_id = 67
+1	What	what	PRON	WP	PronType=Int	17	nsubj:pass	_	start_char=5761|end_char=5765
+2	if	if	ADP	IN	_	17	mark	_	start_char=5766|end_char=5768
+3	all	all	DET	DT	PronType=Tot	17	nsubj:pass	_	start_char=5769|end_char=5772
+4	of	of	ADP	IN	_	6	case	_	start_char=5773|end_char=5775
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=5776|end_char=5779
+6	time	time	NOUN	NN	Number=Sing	3	nmod	_	start_char=5780|end_char=5784
+7	and	and	CCONJ	CC	_	8	cc	_	start_char=5785|end_char=5788
+8	energy	energy	NOUN	NN	Number=Sing	6	conj	_	start_char=5789|end_char=5795
+9	and	and	CCONJ	CC	_	10	cc	_	start_char=5796|end_char=5799
+10	money	money	NOUN	NN	Number=Sing	6	conj	_	start_char=5800|end_char=5805
+11-12	that's	_	_	_	_	_	_	_	start_char=5806|end_char=5812
+11	that	that	PRON	WDT	PronType=Rel	13	nsubj:pass	_	start_char=5806|end_char=5810
+12	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	start_char=5810|end_char=5812
+13	spent	spend	VERB	VBN	Tense=Past|VerbForm=Part	10	acl:relcl	_	start_char=5813|end_char=5818
+14	hiding	hide	VERB	VBG	VerbForm=Ger	13	xcomp	_	start_char=5819|end_char=5825
+15	prices	price	NOUN	NNS	Number=Plur	14	obj	_	start_char=5826|end_char=5832
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	start_char=5833|end_char=5836
+17	squeezed	squeeze	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=5837|end_char=5845
+18	out	out	ADP	IN	_	21	case	_	start_char=5846|end_char=5849
+19	of	of	ADP	IN	_	21	case	_	start_char=5850|end_char=5852
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=5853|end_char=5856
+21	system	system	NOUN	NN	Number=Sing	17	obl	_	start_char=5857|end_char=5863|SpaceAfter=No
+22	?	?	PUNCT	.	_	17	punct	_	start_char=5863|end_char=5864|SpacesAfter=\n\n
+
+# text = What if each one of us could pick the $19 test every time instead of the $522 one?
+# sent_id = 68
+1	What	what	PRON	WP	PronType=Int	0	root	_	start_char=5866|end_char=5870
+2	if	if	SCONJ	IN	_	8	mark	_	start_char=5871|end_char=5873
+3	each	each	DET	DT	PronType=Tot	4	det	_	start_char=5874|end_char=5878
+4	one	one	NOUN	NN	Number=Sing	8	nsubj	_	start_char=5879|end_char=5882
+5	of	of	ADP	IN	_	6	case	_	start_char=5883|end_char=5885
+6	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	nmod	_	start_char=5886|end_char=5888
+7	could	could	AUX	MD	VerbForm=Fin	8	aux	_	start_char=5889|end_char=5894
+8	pick	pick	VERB	VB	VerbForm=Inf	1	advcl	_	start_char=5895|end_char=5899
+9	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=5900|end_char=5903
+10	$	$	SYM	$	_	12	compound	_	start_char=5904|end_char=5905|SpaceAfter=No
+11	19	19	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	_	start_char=5905|end_char=5907
+12	test	test	NOUN	NN	Number=Sing	8	obj	_	start_char=5908|end_char=5912
+13	every	every	DET	DT	PronType=Tot	14	det	_	start_char=5913|end_char=5918
+14	time	time	NOUN	NN	Number=Sing	8	obl:unmarked	_	start_char=5919|end_char=5923
+15	instead	instead	ADV	RB	ExtPos=ADP	20	case	_	start_char=5924|end_char=5931
+16	of	of	ADP	IN	_	15	fixed	_	start_char=5932|end_char=5934
+17	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=5935|end_char=5938
+18	$	$	SYM	$	_	20	compound	_	start_char=5939|end_char=5940|SpaceAfter=No
+19	522	522	NUM	CD	NumForm=Digit|NumType=Card	18	nummod	_	start_char=5940|end_char=5943
+20	one	one	NOUN	NN	Number=Sing	8	obl	_	start_char=5944|end_char=5947|SpaceAfter=No
+21	?	?	PUNCT	.	_	1	punct	_	start_char=5947|end_char=5948|SpacesAfter=\n\n
+
+# text = Would our individual bills go down?
+# sent_id = 69
+1	Would	would	AUX	MD	VerbForm=Fin	5	aux	_	start_char=5950|end_char=5955
+2	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=5956|end_char=5959
+3	individual	individual	ADJ	JJ	Degree=Pos	4	amod	_	start_char=5960|end_char=5970
+4	bills	bill	NOUN	NNS	Number=Plur	5	nsubj	_	start_char=5971|end_char=5976
+5	go	go	VERB	VB	VerbForm=Inf	0	root	_	start_char=5977|end_char=5979
+6	down	down	ADP	RP	_	5	compound:prt	_	start_char=5980|end_char=5984|SpaceAfter=No
+7	?	?	PUNCT	.	_	5	punct	_	start_char=5984|end_char=5985|SpacesAfter=\n\n
+
+# text = Our premiums?
+# sent_id = 70
+1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=5987|end_char=5990
+2	premiums	premium	NOUN	NNS	Number=Plur	0	root	_	start_char=5991|end_char=5999|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	_	start_char=5999|end_char=6000|SpacesAfter=\n\n
+
+# text = I don't know, but if you don't ask, you'll never know.
+# sent_id = 71
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=6002|end_char=6003
+2-3	don't	_	_	_	_	_	_	_	start_char=6004|end_char=6009
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=6004|end_char=6006
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=6006|end_char=6009
+4	know	know	VERB	VB	VerbForm=Inf	0	root	_	start_char=6010|end_char=6014|SpaceAfter=No
+5	,	,	PUNCT	,	_	16	punct	_	start_char=6014|end_char=6015
+6	but	but	CCONJ	CC	_	16	cc	_	start_char=6016|end_char=6019
+7	if	if	SCONJ	IN	_	11	mark	_	start_char=6020|end_char=6022
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	start_char=6023|end_char=6026
+9-10	don't	_	_	_	_	_	_	_	start_char=6027|end_char=6032
+9	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=6027|end_char=6029
+10	n't	not	PART	RB	Polarity=Neg	11	advmod	_	start_char=6029|end_char=6032
+11	ask	ask	VERB	VB	VerbForm=Inf	16	advcl	_	start_char=6033|end_char=6036|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	start_char=6036|end_char=6037
+13-14	you'll	_	_	_	_	_	_	_	start_char=6038|end_char=6044
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	start_char=6038|end_char=6041
+14	'll	will	AUX	MD	VerbForm=Fin	16	aux	_	start_char=6041|end_char=6044
+15	never	never	ADV	RB	PronType=Neg	16	advmod	_	start_char=6045|end_char=6050
+16	know	know	VERB	VB	VerbForm=Inf	4	conj	_	start_char=6051|end_char=6055|SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	start_char=6055|end_char=6056|SpacesAfter=\n\n
+
+# text = And you might save a ton of money.
+# sent_id = 72
+1	And	and	CCONJ	CC	_	4	cc	_	start_char=6058|end_char=6061
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=6062|end_char=6065
+3	might	might	AUX	MD	VerbForm=Fin	4	aux	_	start_char=6066|end_char=6071
+4	save	save	VERB	VB	VerbForm=Inf	0	root	_	start_char=6072|end_char=6076
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=6077|end_char=6078
+6	ton	ton	NOUN	NN	Number=Sing	4	obj	_	start_char=6079|end_char=6082
+7	of	of	ADP	IN	_	8	case	_	start_char=6083|end_char=6085
+8	money	money	NOUN	NN	Number=Sing	6	nmod	_	start_char=6086|end_char=6091|SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	start_char=6091|end_char=6092|SpacesAfter=\n\n
+
+# text = And I've got to think that a lot of us and the system itself would be a lot healthier.
+# sent_id = 73
+1	And	and	CCONJ	CC	_	4	cc	_	start_char=6094|end_char=6097
+2-3	I've	_	_	_	_	_	_	_	start_char=6098|end_char=6102
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=6098|end_char=6099
+3	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=6099|end_char=6102
+4	got	get	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=6103|end_char=6106
+5	to	to	PART	TO	_	6	mark	_	start_char=6107|end_char=6109
+6	think	think	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=6110|end_char=6115
+7	that	that	SCONJ	IN	_	20	mark	_	start_char=6116|end_char=6120
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=6121|end_char=6122
+9	lot	lot	NOUN	NN	Number=Sing	20	nsubj	_	start_char=6123|end_char=6126
+10	of	of	ADP	IN	_	11	case	_	start_char=6127|end_char=6129
+11	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	nmod	_	start_char=6130|end_char=6132
+12	and	and	CCONJ	CC	_	14	cc	_	start_char=6133|end_char=6136
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=6137|end_char=6140
+14	system	system	NOUN	NN	Number=Sing	11	conj	_	start_char=6141|end_char=6147
+15	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Emp|Reflex=Yes	14	nmod:unmarked	_	start_char=6148|end_char=6154
+16	would	would	AUX	MD	VerbForm=Fin	20	aux	_	start_char=6155|end_char=6160
+17	be	be	AUX	VB	VerbForm=Inf	20	cop	_	start_char=6161|end_char=6163
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	start_char=6164|end_char=6165
+19	lot	lot	NOUN	NN	Number=Sing	20	obl:unmarked	_	start_char=6166|end_char=6169
+20	healthier	healthy	ADJ	JJR	Degree=Cmp	6	ccomp	_	start_char=6170|end_char=6179|SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	start_char=6179|end_char=6180|SpacesAfter=\n\n
+
+# text = Thank you.
+# sent_id = 74
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6182|end_char=6187
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	start_char=6188|end_char=6191|SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	_	start_char=6191|end_char=6192|SpaceAfter=No

@@ -1,0 +1,1457 @@
+# conllu_stats: begin
+# conllu_tokens: 1254
+# conllu_sentences: 62
+# Avrage tokens per senteces: 20.225806451612904
+# conllu_stats: end
+
+
+# text = Könnten wir Verletzungen des Rückenmarks mit Spargel behandeln?
+# sent_id = 0
+1	Könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	start_char=0|end_char=7
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=8|end_char=11
+3	Verletzungen	Verletzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=12|end_char=24
+4	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=25|end_char=28
+5	Rückenmarks	Rückenmark	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=29|end_char=40
+6	mit	mit	ADP	APPR	_	7	case	_	start_char=41|end_char=44
+7	Spargel	Spargel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	start_char=45|end_char=52
+8	behandeln	behandeln	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=53|end_char=62|SpaceAfter=No
+9	?	?	PUNCT	$.	_	8	punct	_	start_char=62|end_char=63|SpacesAfter=\n\n
+
+# text = Ich bin heute hier, umgeben von all diesem Obst und Gemüse, weil sie der Gegenstand meiner Experimente sind.
+# sent_id = 1
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=65|end_char=68
+2	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=69|end_char=72
+3	heute	heute	ADV	ADV	_	2	advmod	_	start_char=73|end_char=78
+4	hier	hier	ADV	ADV	_	2	advmod	_	start_char=79|end_char=83|SpaceAfter=No
+5	,	,	PUNCT	$,	_	6	punct	_	start_char=83|end_char=84
+6	umgeben	umgeben	VERB	VVPP	VerbForm=Part	4	acl	_	start_char=85|end_char=92
+7	von	von	ADP	APPR	_	10	case	_	start_char=93|end_char=96
+8	all	alle	DET	PIAT	Case=Dat|PronType=Ind	10	det	_	start_char=97|end_char=100
+9	diesem	dieser	DET	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	10	det	_	start_char=101|end_char=107
+10	Obst	Obst	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	start_char=108|end_char=112
+11	und	und	CCONJ	KON	_	12	cc	_	start_char=113|end_char=116
+12	Gemüse	Gemüse	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	conj	_	start_char=117|end_char=123|SpaceAfter=No
+13	,	,	PUNCT	$,	_	17	punct	_	start_char=123|end_char=124
+14	weil	weil	SCONJ	KOUS	_	17	mark	_	start_char=125|end_char=129
+15	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	start_char=130|end_char=133
+16	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=134|end_char=137
+17	Gegenstand	Gegenstand	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	advcl	_	start_char=138|end_char=148
+18	meiner	mein	DET	PPOSAT	Case=Gen|Gender=Neut|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	19	det:poss	_	start_char=149|end_char=155
+19	Experimente	Experiment	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	start_char=156|end_char=167
+20	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=168|end_char=172|SpaceAfter=No
+21	.	.	PUNCT	$.	_	2	punct	_	start_char=172|end_char=173|SpacesAfter=\n\n
+
+# text = Nun, sehen Sie es mir nach, aber vor ca. 10 Jahren begann mein Team die Herstellungsweise von Materialien zu überdenken, um beschädigtes oder krankes menschliches Gewebe zu rekonstruieren -- und wir machten die vollkommen unerwartete Entdeckung, dass Pflanzen für diesen Zweck genutzt werden könnten.
+# sent_id = 2
+1	Nun	nun	ADV	ADV	_	3	advmod	_	start_char=175|end_char=178|SpaceAfter=No
+2	,	,	PUNCT	$,	_	1	punct	_	start_char=178|end_char=179
+3	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=180|end_char=185
+4	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	start_char=186|end_char=189
+5	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=190|end_char=192
+6	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	obl:arg	_	start_char=193|end_char=196
+7	nach	nach	ADP	PTKVZ	_	3	compound:prt	_	start_char=197|end_char=201|SpaceAfter=No
+8	,	,	PUNCT	$,	_	15	punct	_	start_char=201|end_char=202
+9	aber	aber	CCONJ	KON	_	15	cc	_	start_char=203|end_char=207
+10	vor	vor	ADP	APPR	_	14	case	_	start_char=208|end_char=211
+11	ca	ca	ADJ	ADJD	Case=Dat|Degree=Pos	13	advmod	_	start_char=212|end_char=214|SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=214|end_char=215
+13	10	10	NUM	CARD	NumType=Card	14	nummod	_	start_char=216|end_char=218
+14	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	15	obl	_	start_char=219|end_char=225
+15	begann	beginnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	start_char=226|end_char=232
+16	mein	mein	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	17	det:poss	_	start_char=233|end_char=237
+17	Team	Team	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	start_char=238|end_char=242
+18	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=243|end_char=246
+19	Herstellungsweise	Herstellungsweise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	start_char=247|end_char=264
+20	von	von	ADP	APPR	_	21	case	_	start_char=265|end_char=268
+21	Materialien	Material	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	19	nmod	_	start_char=269|end_char=280
+22	zu	zu	PART	PTKZU	_	23	mark	_	start_char=281|end_char=283
+23	überdenken	überdenken	VERB	VVINF	VerbForm=Inf	15	xcomp	_	start_char=284|end_char=294|SpaceAfter=No
+24	,	,	PUNCT	$,	_	32	punct	_	start_char=294|end_char=295
+25	um	um	ADP	KOUI	_	32	mark	_	start_char=296|end_char=298
+26	beschädigtes	beschädigen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	start_char=299|end_char=311
+27	oder	oder	CCONJ	KON	_	28	cc	_	start_char=312|end_char=316
+28	krankes	krank	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	26	conj	_	start_char=317|end_char=324
+29	menschliches	menschlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	26	conj	_	start_char=325|end_char=337
+30	Gewebe	Gewebe	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	32	obj	_	start_char=338|end_char=344
+31	zu	zu	PART	PTKZU	_	32	mark	_	start_char=345|end_char=347
+32	rekonstruieren	rekonstruieren	VERB	VVINF	VerbForm=Inf	23	advcl	_	start_char=348|end_char=362
+33	--	--	PUNCT	$(	_	36	punct	_	start_char=363|end_char=365
+34	und	und	CCONJ	KON	_	36	cc	_	start_char=366|end_char=369
+35	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	36	nsubj	_	start_char=370|end_char=373
+36	machten	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	conj	_	start_char=374|end_char=381
+37	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	start_char=382|end_char=385
+38	vollkommen	vollkommen	ADJ	ADJD	Degree=Pos	39	advmod	_	start_char=386|end_char=396
+39	unerwartete	unerwartet	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	40	amod	_	start_char=397|end_char=408
+40	Entdeckung	Entdeckung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	36	obj	_	start_char=409|end_char=419|SpaceAfter=No
+41	,	,	PUNCT	$,	_	47	punct	_	start_char=419|end_char=420
+42	dass	dass	SCONJ	KOUS	_	47	mark	_	start_char=421|end_char=425
+43	Pflanzen	Pflanze	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	47	nsubj:pass	_	start_char=426|end_char=434
+44	für	für	ADP	APPR	_	46	case	_	start_char=435|end_char=438
+45	diesen	dieser	DET	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	46	det	_	start_char=439|end_char=445
+46	Zweck	Zweck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	47	obl	_	start_char=446|end_char=451
+47	genutzt	nutzen	VERB	VVPP	VerbForm=Part	40	ccomp	_	start_char=452|end_char=459
+48	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	47	aux:pass	_	start_char=460|end_char=466
+49	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	47	aux	_	start_char=467|end_char=474|SpaceAfter=No
+50	.	.	PUNCT	$.	_	3	punct	_	start_char=474|end_char=475|SpacesAfter=\n\n
+
+# text = Tatsächlich haben wir eine Methode erfunden, wie wir diesen Pflanzen ihre komplette DNA und ihre Zellen entnehmen können, sodass natürliche Fasern zurückbleiben.
+# sent_id = 3
+1	Tatsächlich	tatsächlich	ADJ	ADV	Degree=Pos	6	advmod	_	start_char=477|end_char=488
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=489|end_char=494
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=495|end_char=498
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=499|end_char=503
+5	Methode	Methode	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=504|end_char=511
+6	erfunden	erfinden	VERB	VVPP	VerbForm=Part	0	root	_	start_char=512|end_char=520|SpaceAfter=No
+7	,	,	PUNCT	$,	_	18	punct	_	start_char=520|end_char=521
+8	wie	wie	SCONJ	KOUS	_	18	mark	_	start_char=522|end_char=525
+9	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	start_char=526|end_char=529
+10	diesen	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Dem	11	det	_	start_char=530|end_char=536
+11	Pflanzen	Pflanze	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	18	obl:arg	_	start_char=537|end_char=545
+12	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	start_char=546|end_char=550
+13	komplette	komplett	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=551|end_char=560
+14	DNA	DNA	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	start_char=561|end_char=564
+15	und	und	CCONJ	KON	_	17	cc	_	start_char=565|end_char=568
+16	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	start_char=569|end_char=573
+17	Zellen	Zelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	conj	_	start_char=574|end_char=580
+18	entnehmen	entnehmen	VERB	VVINF	VerbForm=Inf	6	ccomp	_	start_char=581|end_char=590
+19	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=591|end_char=597|SpaceAfter=No
+20	,	,	PUNCT	$,	_	24	punct	_	start_char=597|end_char=598
+21	sodass	sodass	SCONJ	KOUS	_	24	mark	_	start_char=599|end_char=605
+22	natürliche	natürlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	start_char=606|end_char=616
+23	Fasern	Faser	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	24	nsubj	_	start_char=617|end_char=623
+24	zurückbleiben	zurückbleiben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	start_char=624|end_char=637|SpaceAfter=No
+25	.	.	PUNCT	$.	_	6	punct	_	start_char=637|end_char=638|SpacesAfter=\n\n
+
+# text = Und diese Fasern können als "Gerüst" genutzt werden, um lebendiges Gewebe zu rekonstruieren.
+# sent_id = 4
+1	Und	und	CCONJ	KON	_	9	cc	_	start_char=640|end_char=643
+2	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	start_char=644|end_char=649
+3	Fasern	Faser	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj:pass	_	start_char=650|end_char=656
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=657|end_char=663
+5	als	als	ADP	KOKOM	_	7	case	_	start_char=664|end_char=667
+6	"	"	PUNCT	$(	_	7	punct	_	start_char=668|end_char=669|SpaceAfter=No
+7	Gerüst	Gerüst	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	obl	_	start_char=669|end_char=675|SpaceAfter=No
+8	"	"	PUNCT	$(	_	7	punct	_	start_char=675|end_char=676
+9	genutzt	nutzen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=677|end_char=684
+10	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	9	aux:pass	_	start_char=685|end_char=691|SpaceAfter=No
+11	,	,	PUNCT	$,	_	16	punct	_	start_char=691|end_char=692
+12	um	um	ADP	KOUI	_	16	mark	_	start_char=693|end_char=695
+13	lebendiges	lebendig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	start_char=696|end_char=706
+14	Gewebe	Gewebe	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	start_char=707|end_char=713
+15	zu	zu	PART	PTKZU	_	16	mark	_	start_char=714|end_char=716
+16	rekonstruieren	rekonstruieren	VERB	VVINF	VerbForm=Inf	9	advcl	_	start_char=717|end_char=731|SpaceAfter=No
+17	.	.	PUNCT	$.	_	9	punct	_	start_char=731|end_char=732|SpacesAfter=\n\n
+
+# text = Ich weiß, das klingt etwas seltsam, aber in unserer allerersten Machbarkeitsstudie nahmen wir einen Apfel, schnitzten ihn in die Form eines menschlichen Ohrs und nahmen dann dieses ohrenförmige Gerüst, sterilisierten es, verarbeiteten es und brachten menschliche Zellen dazu, darin heranzuwachsen.
+# sent_id = 5
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=734|end_char=737
+2	weiß	wissen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=738|end_char=742|SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	start_char=742|end_char=743
+4	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=744|end_char=747
+5	klingt	klingen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=748|end_char=754
+6	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	7	advmod	_	start_char=755|end_char=760
+7	seltsam	seltsam	ADJ	ADJD	Degree=Pos	5	xcomp	_	start_char=761|end_char=768|SpaceAfter=No
+8	,	,	PUNCT	$,	_	14	punct	_	start_char=768|end_char=769
+9	aber	aber	CCONJ	KON	_	14	cc	_	start_char=770|end_char=774
+10	in	in	ADP	APPR	_	13	case	_	start_char=775|end_char=777
+11	unserer	unser	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	start_char=778|end_char=785
+12	allerersten	allerer	ADJ	ADJA	Case=Dat|Degree=Sup|Gender=Fem|Number=Sing	13	amod	_	start_char=786|end_char=797
+13	Machbarkeitsstudie	Machbarkeitsstudie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	start_char=798|end_char=816
+14	nahmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	2	conj	_	start_char=817|end_char=823
+15	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	start_char=824|end_char=827
+16	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	17	det	_	start_char=828|end_char=833
+17	Apfel	Apfel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=834|end_char=839|SpaceAfter=No
+18	,	,	PUNCT	$,	_	19	punct	_	start_char=839|end_char=840
+19	schnitzten	schnitzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=841|end_char=851
+20	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	start_char=852|end_char=855
+21	in	in	ADP	APPR	_	23	case	_	start_char=856|end_char=858
+22	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=859|end_char=862
+23	Form	Form	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	start_char=863|end_char=867
+24	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	26	det	_	start_char=868|end_char=873
+25	menschlichen	menschlich	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=874|end_char=886
+26	Ohrs	Ohr	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	start_char=887|end_char=891
+27	und	und	CCONJ	KON	_	28	cc	_	start_char=892|end_char=895
+28	nahmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=896|end_char=902
+29	dann	dann	ADV	ADV	_	28	advmod	_	start_char=903|end_char=907
+30	dieses	dieser	DET	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	32	det	_	start_char=908|end_char=914
+31	ohrenförmige	ohrenförmig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	start_char=915|end_char=927
+32	Gerüst	Gerüst	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	28	obj	_	start_char=928|end_char=934|SpaceAfter=No
+33	,	,	PUNCT	$,	_	34	punct	_	start_char=934|end_char=935
+34	sterilisierten	sterilisieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=936|end_char=950
+35	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	34	obj	_	start_char=951|end_char=953|SpaceAfter=No
+36	,	,	PUNCT	$,	_	37	punct	_	start_char=953|end_char=954
+37	verarbeiteten	verarbeiten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	34	conj	_	start_char=955|end_char=968
+38	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	37	obj	_	start_char=969|end_char=971
+39	und	und	CCONJ	KON	_	40	cc	_	start_char=972|end_char=975
+40	brachten	bringen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=976|end_char=984
+41	menschliche	menschlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	42	amod	_	start_char=985|end_char=996
+42	Zellen	Zelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	40	obj	_	start_char=997|end_char=1003
+43	dazu	dazu	ADV	PAV	PronType=Dem	40	advmod	_	start_char=1004|end_char=1008|SpaceAfter=No
+44	,	,	PUNCT	$,	_	46	punct	_	start_char=1008|end_char=1009
+45	darin	darin	ADV	PAV	PronType=Dem	46	advmod	_	start_char=1010|end_char=1015
+46	heranzuwachsen	heranwachsen	VERB	VVIZU	VerbForm=Inf	40	xcomp	_	start_char=1016|end_char=1030|SpaceAfter=No
+47	.	.	PUNCT	$.	_	2	punct	_	start_char=1030|end_char=1031|SpacesAfter=\n\n
+
+# text = Dann machten wir den nächsten Schritt und implantierten es, und wir konnten zeigen, dass das Gerüst die Bildung von Blutgefäßen anregte, die dem Herz erlaubten, das Gewerbe am Leben zu erhalten.
+# sent_id = 6
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=1033|end_char=1037
+2	machten	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=1038|end_char=1045
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=1046|end_char=1049
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=1050|end_char=1053
+5	nächsten	nah	ADJ	ADJA	Case=Acc|Degree=Sup|Gender=Masc|Number=Sing	6	amod	_	start_char=1054|end_char=1062
+6	Schritt	Schritt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=1063|end_char=1070
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=1071|end_char=1074
+8	implantierten	implantieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=1075|end_char=1088
+9	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	start_char=1089|end_char=1091|SpaceAfter=No
+10	,	,	PUNCT	$,	_	14	punct	_	start_char=1091|end_char=1092
+11	und	und	CCONJ	KON	_	14	cc	_	start_char=1093|end_char=1096
+12	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	start_char=1097|end_char=1100
+13	konnten	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	14	aux	_	start_char=1101|end_char=1108
+14	zeigen	zeigen	VERB	VVINF	VerbForm=Inf	2	conj	_	start_char=1109|end_char=1115|SpaceAfter=No
+15	,	,	PUNCT	$,	_	23	punct	_	start_char=1115|end_char=1116
+16	dass	dass	SCONJ	KOUS	_	23	mark	_	start_char=1117|end_char=1121
+17	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	start_char=1122|end_char=1125
+18	Gerüst	Gerüst	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	start_char=1126|end_char=1132
+19	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=1133|end_char=1136
+20	Bildung	Bildung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	start_char=1137|end_char=1144
+21	von	von	ADP	APPR	_	22	case	_	start_char=1145|end_char=1148
+22	Blutgefäßen	Blutgefäß	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	20	nmod	_	start_char=1149|end_char=1160
+23	anregte	anregen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	ccomp	_	start_char=1161|end_char=1168|SpaceAfter=No
+24	,	,	PUNCT	$,	_	28	punct	_	start_char=1168|end_char=1169
+25	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	28	nsubj	_	start_char=1170|end_char=1173
+26	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	27	det	_	start_char=1174|end_char=1177
+27	Herz	Herz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	28	obl:arg	_	start_char=1178|end_char=1182
+28	erlaubten	erlauben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	acl	_	start_char=1183|end_char=1192|SpaceAfter=No
+29	,	,	PUNCT	$,	_	36	punct	_	start_char=1192|end_char=1193
+30	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	31	det	_	start_char=1194|end_char=1197
+31	Gewerbe	Gewerbe	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	36	obj	_	start_char=1198|end_char=1205
+32-33	am	_	_	_	_	_	_	_	start_char=1206|end_char=1208
+32	an	an	ADP	APPR	_	34	case	_	_
+33	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	34	det	_	_
+34	Leben	Leben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	31	nmod	_	start_char=1209|end_char=1214
+35	zu	zu	PART	PTKZU	_	36	mark	_	start_char=1215|end_char=1217
+36	erhalten	erhalten	VERB	VVINF	VerbForm=Inf	28	xcomp	_	start_char=1218|end_char=1226|SpaceAfter=No
+37	.	.	PUNCT	$.	_	2	punct	_	start_char=1226|end_char=1227|SpacesAfter=\n\n
+
+# text = Nicht lange, nachdem wir diese Entdeckungen gemacht hatten, war ich zu Hause, kochte Spargel zum Abendessen und als ich die Enden abschnitt, fiel mir auf, dass der Strunk voller mikrokanalisierter Gefäßbündel war.
+# sent_id = 7
+1	Nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=1229|end_char=1234
+2	lange	lange	ADV	ADV	_	11	advmod	_	start_char=1235|end_char=1240|SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	start_char=1240|end_char=1241
+4	nachdem	nachdem	SCONJ	KOUS	_	8	mark	_	start_char=1242|end_char=1249
+5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=1250|end_char=1253
+6	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	7	det	_	start_char=1254|end_char=1259
+7	Entdeckungen	Entdeckung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=1260|end_char=1272
+8	gemacht	machen	VERB	VVPP	VerbForm=Part	11	advcl	_	start_char=1273|end_char=1280
+9	hatten	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	start_char=1281|end_char=1287|SpaceAfter=No
+10	,	,	PUNCT	$,	_	8	punct	_	start_char=1287|end_char=1288
+11	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=1289|end_char=1292
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=1293|end_char=1296
+13	zu	zu	ADP	APPR	_	14	case	_	start_char=1297|end_char=1299
+14	Hause	Haus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	start_char=1300|end_char=1305|SpaceAfter=No
+15	,	,	PUNCT	$,	_	16	punct	_	start_char=1305|end_char=1306
+16	kochte	kochen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	start_char=1307|end_char=1313
+17	Spargel	Spargel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	start_char=1314|end_char=1321
+18-19	zum	_	_	_	_	_	_	_	start_char=1322|end_char=1325
+18	zu	zu	ADP	APPR	_	20	case	_	_
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Abendessen	Abendessen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	start_char=1326|end_char=1336
+21	und	und	CCONJ	KON	_	26	cc	_	start_char=1337|end_char=1340
+22	als	als	SCONJ	KOUS	_	26	mark	_	start_char=1341|end_char=1344
+23	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	start_char=1345|end_char=1348
+24	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	25	det	_	start_char=1349|end_char=1352
+25	Enden	Ende	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	26	obj	_	start_char=1353|end_char=1358
+26	abschnitt	abschneiden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	start_char=1359|end_char=1368|SpaceAfter=No
+27	,	,	PUNCT	$,	_	26	punct	_	start_char=1368|end_char=1369
+28	fiel	fallen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	start_char=1370|end_char=1374
+29	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	28	obl:arg	_	start_char=1375|end_char=1378
+30	auf	auf	ADP	PTKVZ	_	28	compound:prt	_	start_char=1379|end_char=1382|SpaceAfter=No
+31	,	,	PUNCT	$,	_	38	punct	_	start_char=1382|end_char=1383
+32	dass	dass	SCONJ	KOUS	_	38	mark	_	start_char=1384|end_char=1388
+33	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	start_char=1389|end_char=1392
+34	Strunk	Strunk	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	38	nsubj	_	start_char=1393|end_char=1399
+35	voller	voll	ADJ	ADJA	Degree=Pos	37	amod	_	start_char=1400|end_char=1406
+36	mikrokanalisierter	mikrokanalisiert	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	37	amod	_	start_char=1407|end_char=1425
+37	Gefäßbündel	Gefäßbündel	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	28	ccomp	_	start_char=1426|end_char=1437
+38	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	37	cop	_	start_char=1438|end_char=1441|SpaceAfter=No
+39	.	.	PUNCT	$.	_	11	punct	_	start_char=1441|end_char=1442|SpacesAfter=\n\n
+
+# text = Und ich musste an die Bemühungen der Biotechnologie denken, die zum Ziel haben, Rückenmarksverletzungen zu behandeln.
+# sent_id = 8
+1	Und	und	CCONJ	KON	_	9	cc	_	start_char=1444|end_char=1447
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=1448|end_char=1451
+3	musste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	aux	_	start_char=1452|end_char=1458
+4	an	an	ADP	APPR	_	6	case	_	start_char=1459|end_char=1461
+5	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=1462|end_char=1465
+6	Bemühungen	Bemühung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obl	_	start_char=1466|end_char=1476
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=1477|end_char=1480
+8	Biotechnologie	Biotechnologie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=1481|end_char=1495
+9	denken	denken	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1496|end_char=1502|SpaceAfter=No
+10	,	,	PUNCT	$,	_	15	punct	_	start_char=1502|end_char=1503
+11	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	15	nsubj	_	start_char=1504|end_char=1507
+12-13	zum	_	_	_	_	_	_	_	start_char=1508|end_char=1511
+12	zu	zu	ADP	APPR	_	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Ziel	Ziel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	start_char=1512|end_char=1516
+15	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	start_char=1517|end_char=1522|SpaceAfter=No
+16	,	,	PUNCT	$,	_	19	punct	_	start_char=1522|end_char=1523
+17	Rückenmarksverletzungen	Rückenmarksverletzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	start_char=1524|end_char=1547
+18	zu	zu	PART	PTKZU	_	19	mark	_	start_char=1548|end_char=1550
+19	behandeln	behandeln	VERB	VVINF	VerbForm=Inf	15	xcomp	_	start_char=1551|end_char=1560|SpaceAfter=No
+20	.	.	PUNCT	$.	_	9	punct	_	start_char=1560|end_char=1561|SpacesAfter=\n\n
+
+# text = Bis zu eine halbe Million Menschen pro Jahr leidet an solchen Verletzungen, und die Symptome reichen von Schmerz und Taubheit bis hin zu verheerenden Traumata, die zum vollständigen Verlust motorischer Funktion und Unabhängigkeit führen.
+# sent_id = 9
+1	Bis	bis	ADP	APPR	_	6	case	_	start_char=1563|end_char=1566
+2	zu	zu	ADP	ADV	_	6	case	_	start_char=1567|end_char=1569
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=1570|end_char=1574
+4	halbe	halbe	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=1575|end_char=1580
+5	Million	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	start_char=1581|end_char=1588
+6	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	nsubj	_	start_char=1589|end_char=1597
+7	pro	pro	ADP	APPR	_	8	case	_	start_char=1598|end_char=1601
+8	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	start_char=1602|end_char=1606
+9	leidet	leiden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1607|end_char=1613
+10	an	an	ADP	APPR	_	12	case	_	start_char=1614|end_char=1616
+11	solchen	solcher	DET	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Dem	12	det	_	start_char=1617|end_char=1624
+12	Verletzungen	Verletzung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	obl	_	start_char=1625|end_char=1637|SpaceAfter=No
+13	,	,	PUNCT	$,	_	17	punct	_	start_char=1637|end_char=1638
+14	und	und	CCONJ	KON	_	17	cc	_	start_char=1639|end_char=1642
+15	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	16	det	_	start_char=1643|end_char=1646
+16	Symptome	Symptom	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	start_char=1647|end_char=1655
+17	reichen	reichen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	start_char=1656|end_char=1663
+18	von	von	ADP	APPR	_	19	case	_	start_char=1664|end_char=1667
+19	Schmerz	Schmerz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	start_char=1668|end_char=1675
+20	und	und	CCONJ	KON	_	21	cc	_	start_char=1676|end_char=1679
+21	Taubheit	Taubheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	conj	_	start_char=1680|end_char=1688
+22	bis	bis	ADP	APPR	_	26	case	_	start_char=1689|end_char=1692
+23	hin	hin	ADV	ADV	_	26	advmod	_	start_char=1693|end_char=1696
+24	zu	zu	ADP	APPR	_	26	case	_	start_char=1697|end_char=1699
+25	verheerenden	verheerend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	start_char=1700|end_char=1712
+26	Traumata	Trauma	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	17	obl	_	start_char=1713|end_char=1721|SpaceAfter=No
+27	,	,	PUNCT	$,	_	37	punct	_	start_char=1721|end_char=1722
+28	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	37	nsubj	_	start_char=1723|end_char=1726
+29-30	zum	_	_	_	_	_	_	_	start_char=1727|end_char=1730
+29	zu	zu	ADP	APPR	_	32	case	_	_
+30	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	vollständigen	vollständig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	start_char=1731|end_char=1744
+32	Verlust	Verlust	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	37	obl	_	start_char=1745|end_char=1752
+33	motorischer	motorisch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	start_char=1753|end_char=1764
+34	Funktion	Funktion	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	start_char=1765|end_char=1773
+35	und	und	CCONJ	KON	_	36	cc	_	start_char=1774|end_char=1777
+36	Unabhängigkeit	Unabhängigkeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	34	conj	_	start_char=1778|end_char=1792
+37	führen	führen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl	_	start_char=1793|end_char=1799|SpaceAfter=No
+38	.	.	PUNCT	$.	_	9	punct	_	start_char=1799|end_char=1800|SpacesAfter=\n\n
+
+# text = Für diese Formen der Lähmung gibt es keine anerkannte Behandlungsstrategie -- aber eine mögliche Lösung könnte der Einsatz von einem Gerüst mit Mikrokanälen sein, die die Neubildung von Neuronen lenken könnten.
+# sent_id = 10
+1	Für	für	ADP	APPR	_	3	case	_	start_char=1802|end_char=1805
+2	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	start_char=1806|end_char=1811
+3	Formen	Form	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obl	_	start_char=1812|end_char=1818
+4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1819|end_char=1822
+5	Lähmung	Lähmung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=1823|end_char=1830
+6	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1831|end_char=1835
+7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	start_char=1836|end_char=1838
+8	keine	kein	DET	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	10	det	_	start_char=1839|end_char=1844
+9	anerkannte	anerkannt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=1845|end_char=1855
+10	Behandlungsstrategie	Behandlungsstrategie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nsubj	_	start_char=1856|end_char=1876
+11	--	--	PUNCT	$(	_	24	punct	_	start_char=1877|end_char=1879
+12	aber	aber	CCONJ	KON	_	24	cc	_	start_char=1880|end_char=1884
+13	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	15	det	_	start_char=1885|end_char=1889
+14	mögliche	möglich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=1890|end_char=1898
+15	Lösung	Lösung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	nsubj	_	start_char=1899|end_char=1905
+16	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux	_	start_char=1906|end_char=1912
+17	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=1913|end_char=1916
+18	Einsatz	Einsatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	start_char=1917|end_char=1924
+19	von	von	ADP	APPR	_	21	case	_	start_char=1925|end_char=1928
+20	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	21	det	_	start_char=1929|end_char=1934
+21	Gerüst	Gerüst	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	18	nmod	_	start_char=1935|end_char=1941
+22	mit	mit	ADP	APPR	_	23	case	_	start_char=1942|end_char=1945
+23	Mikrokanälen	Mikrokanal	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	21	nmod	_	start_char=1946|end_char=1958
+24	sein	sein	AUX	VAINF	VerbForm=Inf	6	advcl	_	start_char=1959|end_char=1963|SpaceAfter=No
+25	,	,	PUNCT	$,	_	31	punct	_	start_char=1963|end_char=1964
+26	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	31	nsubj	_	start_char=1965|end_char=1968
+27	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	start_char=1969|end_char=1972
+28	Neubildung	Neubildung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	31	obj	_	start_char=1973|end_char=1983
+29	von	von	ADP	APPR	_	30	case	_	start_char=1984|end_char=1987
+30	Neuronen	Neuron	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	28	nmod	_	start_char=1988|end_char=1996
+31	lenken	lenken	VERB	VVINF	VerbForm=Inf	21	acl	_	start_char=1997|end_char=2003
+32	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	31	aux	_	start_char=2004|end_char=2011|SpaceAfter=No
+33	.	.	PUNCT	$.	_	6	punct	_	start_char=2011|end_char=2012|SpacesAfter=\n\n
+
+# text = Könnten wir also den Spargel und seine Gefäßbündel benutzen, um das Rückenmark zu heilen?
+# sent_id = 11
+1	Könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	9	aux	_	start_char=2014|end_char=2021
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=2022|end_char=2025
+3	also	also	ADV	ADV	_	9	advmod	_	start_char=2026|end_char=2030
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=2031|end_char=2034
+5	Spargel	Spargel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=2035|end_char=2042
+6	und	und	CCONJ	KON	_	8	cc	_	start_char=2043|end_char=2046
+7	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=2047|end_char=2052
+8	Gefäßbündel	Gefäßbündel	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	start_char=2053|end_char=2064
+9	benutzen	benutzen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2065|end_char=2073|SpaceAfter=No
+10	,	,	PUNCT	$,	_	15	punct	_	start_char=2073|end_char=2074
+11	um	um	ADP	KOUI	_	15	mark	_	start_char=2075|end_char=2077
+12	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	start_char=2078|end_char=2081
+13	Rückenmark	Rückenmark	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	start_char=2082|end_char=2092
+14	zu	zu	PART	PTKZU	_	15	mark	_	start_char=2093|end_char=2095
+15	heilen	heilen	VERB	VVINF	VerbForm=Inf	9	advcl	_	start_char=2096|end_char=2102|SpaceAfter=No
+16	?	?	PUNCT	$.	_	9	punct	_	start_char=2102|end_char=2103|SpacesAfter=\n\n
+
+# text = Das ist eine wirklich dumme Idee.
+# sent_id = 12
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	6	nsubj	_	start_char=2105|end_char=2108
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=2109|end_char=2112
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=2113|end_char=2117
+4	wirklich	wirklich	ADV	ADV	_	5	advmod	_	start_char=2118|end_char=2126
+5	dumme	dumme	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=2127|end_char=2132
+6	Idee	Idee	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=2133|end_char=2137|SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=2137|end_char=2138|SpacesAfter=\n\n
+
+# text = Erstens, Menschen sind keine Pflanzen.
+# sent_id = 13
+1	Erstens	erstens	ADV	ADV	_	6	advmod	_	start_char=2140|end_char=2147|SpaceAfter=No
+2	,	,	PUNCT	$,	_	1	punct	_	start_char=2147|end_char=2148
+3	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=2149|end_char=2157
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=2158|end_char=2162
+5	keine	kein	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Neg	6	det	_	start_char=2163|end_char=2168
+6	Pflanzen	Pflanze	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=2169|end_char=2177|SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=2177|end_char=2178|SpacesAfter=\n\n
+
+# text = Unsere Zellen sind nicht dafür gemacht, auf Pflanzenpolymeren zu wachsen, und Pflanzengewebe hat im Rückenmark nichts zu suchen.
+# sent_id = 14
+1	Unsere	unser	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=2180|end_char=2186
+2	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=2187|end_char=2193
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=2194|end_char=2198
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=2199|end_char=2204
+5	dafür	dafür	ADV	PAV	PronType=Dem	6	advmod	_	start_char=2205|end_char=2210
+6	gemacht	machen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=2211|end_char=2218|SpaceAfter=No
+7	,	,	PUNCT	$,	_	11	punct	_	start_char=2218|end_char=2219
+8	auf	auf	ADP	APPR	_	9	case	_	start_char=2220|end_char=2223
+9	Pflanzenpolymeren	Pflanzenpolymer	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	obl	_	start_char=2224|end_char=2241
+10	zu	zu	PART	PTKZU	_	11	mark	_	start_char=2242|end_char=2244
+11	wachsen	wachsen	VERB	VVINF	VerbForm=Inf	5	acl	_	start_char=2245|end_char=2252|SpaceAfter=No
+12	,	,	PUNCT	$,	_	15	punct	_	start_char=2252|end_char=2253
+13	und	und	CCONJ	KON	_	15	cc	_	start_char=2254|end_char=2257
+14	Pflanzengewebe	Pflanzengewebe	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	start_char=2258|end_char=2272
+15	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	start_char=2273|end_char=2276
+16-17	im	_	_	_	_	_	_	_	start_char=2277|end_char=2279
+16	in	in	ADP	APPR	_	18	case	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
+18	Rückenmark	Rückenmark	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	start_char=2280|end_char=2290
+19	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	21	obj	_	start_char=2291|end_char=2297
+20	zu	zu	PART	PTKZU	_	21	mark	_	start_char=2298|end_char=2300
+21	suchen	suchen	VERB	VVINF	VerbForm=Inf	15	xcomp	_	start_char=2301|end_char=2307|SpaceAfter=No
+22	.	.	PUNCT	$.	_	6	punct	_	start_char=2307|end_char=2308|SpacesAfter=\n\n
+
+# text = Und zweitens, im Idealfall sollten solche Gerüste mit der Zeit verschwinden und natürliches, gesundes Gewebe zurücklassen.
+# sent_id = 15
+1	Und	und	CCONJ	KON	_	13	cc	_	start_char=2310|end_char=2313
+2	zweitens	zweitens	ADV	ADV	_	13	advmod	_	start_char=2314|end_char=2322|SpaceAfter=No
+3	,	,	PUNCT	$,	_	13	punct	_	start_char=2322|end_char=2323
+4-5	im	_	_	_	_	_	_	_	start_char=2324|end_char=2326
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Idealfall	Idealfall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	start_char=2327|end_char=2336
+7	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	start_char=2337|end_char=2344
+8	solche	solcher	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	9	det	_	start_char=2345|end_char=2351
+9	Gerüste	Gerüst	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	13	nsubj	_	start_char=2352|end_char=2359
+10	mit	mit	ADP	APPR	_	12	case	_	start_char=2360|end_char=2363
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=2364|end_char=2367
+12	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	start_char=2368|end_char=2372
+13	verschwinden	verschwinden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2373|end_char=2385
+14	und	und	CCONJ	KON	_	19	cc	_	start_char=2386|end_char=2389
+15	natürliches	natürlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	start_char=2390|end_char=2401|SpaceAfter=No
+16	,	,	PUNCT	$,	_	17	punct	_	start_char=2401|end_char=2402
+17	gesundes	gesundes	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	conj	_	start_char=2403|end_char=2411
+18	Gewebe	Gewebe	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	19	obj	_	start_char=2412|end_char=2418
+19	zurücklassen	zurücklassen	VERB	VVINF	VerbForm=Inf	13	conj	_	start_char=2419|end_char=2431|SpaceAfter=No
+20	.	.	PUNCT	$.	_	13	punct	_	start_char=2431|end_char=2432|SpacesAfter=\n\n
+
+# text = Aber pflanzliche Gerüste tun das nicht, weil uns die Enzyme fehlen, um sie aufzubrechen.
+# sent_id = 16
+1	Aber	aber	CCONJ	KON	_	4	cc	_	start_char=2434|end_char=2438
+2	pflanzliche	pflanzlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	3	amod	_	start_char=2439|end_char=2450
+3	Gerüste	Gerüst	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	start_char=2451|end_char=2458
+4	tun	tun	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2459|end_char=2462
+5	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	obj	_	start_char=2463|end_char=2466
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	start_char=2467|end_char=2472|SpaceAfter=No
+7	,	,	PUNCT	$,	_	12	punct	_	start_char=2472|end_char=2473
+8	weil	weil	SCONJ	KOUS	_	12	mark	_	start_char=2474|end_char=2478
+9	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	12	obl:arg	_	start_char=2479|end_char=2482
+10	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=2483|end_char=2486
+11	Enzyme	Enzym	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	start_char=2487|end_char=2493
+12	fehlen	fehlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	start_char=2494|end_char=2500|SpaceAfter=No
+13	,	,	PUNCT	$,	_	16	punct	_	start_char=2500|end_char=2501
+14	um	um	ADP	KOUI	_	16	mark	_	start_char=2502|end_char=2504
+15	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	obj	_	start_char=2505|end_char=2508
+16	aufzubrechen	aufbrechen	VERB	VVIZU	VerbForm=Inf	12	advcl	_	start_char=2509|end_char=2521|SpaceAfter=No
+17	.	.	PUNCT	$.	_	4	punct	_	start_char=2521|end_char=2522|SpacesAfter=\n\n
+
+# text = Lustigerweise waren es genau diese Eigenschaften, weshalb wir so viel Erfolg hatten.
+# sent_id = 17
+1	Lustigerweise	lustigerweise	ADV	ADV	_	2	advmod	_	start_char=2524|end_char=2537
+2	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2538|end_char=2543
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=2544|end_char=2546
+4	genau	genau	ADJ	ADV	Degree=Pos	5	advmod	_	start_char=2547|end_char=2552
+5	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	6	det	_	start_char=2553|end_char=2558
+6	Eigenschaften	Eigenschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	start_char=2559|end_char=2572|SpaceAfter=No
+7	,	,	PUNCT	$,	_	13	punct	_	start_char=2572|end_char=2573
+8	weshalb	weshalb	ADV	PWAV	PronType=Int	13	advmod	_	start_char=2574|end_char=2581
+9	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	start_char=2582|end_char=2585
+10	so	so	ADV	ADV	_	11	advmod	_	start_char=2586|end_char=2588
+11	viel	viel	DET	PIAT	PronType=Ind	12	det	_	start_char=2589|end_char=2593
+12	Erfolg	Erfolg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=2594|end_char=2600
+13	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	start_char=2601|end_char=2607|SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=2607|end_char=2608|SpacesAfter=\n\n
+
+# text = Im Verlauf dieser vielen Experimente konnten wir zeigen, dass gerade diese Trägheit der Grund ist, weshalb das Pflanzengewebe so biokompatibel ist.
+# sent_id = 18
+1-2	Im	_	_	_	_	_	_	_	start_char=2610|end_char=2612
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Verlauf	Verlauf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	start_char=2613|end_char=2620
+4	dieser	dieser	DET	PDAT	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	6	det	_	start_char=2621|end_char=2627
+5	vielen	viel	DET	PIAT	Case=Gen|Gender=Fem|Number=Plur|PronType=Ind	6	det	_	start_char=2628|end_char=2634
+6	Experimente	Experiment	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	start_char=2635|end_char=2646
+7	konnten	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	9	aux	_	start_char=2647|end_char=2654
+8	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=2655|end_char=2658
+9	zeigen	zeigen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2659|end_char=2665|SpaceAfter=No
+10	,	,	PUNCT	$,	_	16	punct	_	start_char=2665|end_char=2666
+11	dass	dass	SCONJ	KOUS	_	16	mark	_	start_char=2667|end_char=2671
+12	gerade	gerade	ADV	ADV	_	16	advmod	_	start_char=2672|end_char=2678
+13	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	14	det	_	start_char=2679|end_char=2684
+14	Trägheit	Trägheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	start_char=2685|end_char=2693
+15	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=2694|end_char=2697
+16	Grund	Grund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	ccomp	_	start_char=2698|end_char=2703
+17	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=2704|end_char=2707|SpaceAfter=No
+18	,	,	PUNCT	$,	_	23	punct	_	start_char=2707|end_char=2708
+19	weshalb	weshalb	ADV	PWAV	PronType=Int	23	advmod	_	start_char=2709|end_char=2716
+20	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	21	det	_	start_char=2717|end_char=2720
+21	Pflanzengewebe	Pflanzengewebe	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	start_char=2721|end_char=2735
+22	so	so	ADV	ADV	_	23	advmod	_	start_char=2736|end_char=2738
+23	biokompatibel	biokompatibel	ADJ	ADJD	Degree=Pos	16	advcl	_	start_char=2739|end_char=2752
+24	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	start_char=2753|end_char=2756|SpaceAfter=No
+25	.	.	PUNCT	$.	_	9	punct	_	start_char=2756|end_char=2757|SpacesAfter=\n\n
+
+# text = Gewissermaßen sieht der Körper es kaum, aber die neugebildeten Zellen profitieren von seiner Form und Stabilität.
+# sent_id = 19
+1	Gewissermaßen	Gewissermaßen	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=2759|end_char=2772
+2	sieht	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2773|end_char=2778
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=2779|end_char=2782
+4	Körper	Körper	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=2783|end_char=2789
+5	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=2790|end_char=2792
+6	kaum	kaum	ADV	ADV	_	2	advmod	_	start_char=2793|end_char=2797|SpaceAfter=No
+7	,	,	PUNCT	$,	_	12	punct	_	start_char=2797|end_char=2798
+8	aber	aber	CCONJ	KON	_	12	cc	_	start_char=2799|end_char=2803
+9	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=2804|end_char=2807
+10	neugebildeten	neugebildet	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=2808|end_char=2821
+11	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	start_char=2822|end_char=2828
+12	profitieren	profitieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=2829|end_char=2840
+13	von	von	ADP	APPR	_	15	case	_	start_char=2841|end_char=2844
+14	seiner	sein	DET	PPOSAT	Case=Dat|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	start_char=2845|end_char=2851
+15	Form	Form	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	start_char=2852|end_char=2856
+16	und	und	CCONJ	KON	_	17	cc	_	start_char=2857|end_char=2860
+17	Stabilität	Stabilität	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	conj	_	start_char=2861|end_char=2871|SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	start_char=2871|end_char=2872|SpacesAfter=\n\n
+
+# text = Nun ist das alles schön und gut, aber ich spürte ständig starke Zweifel wenn ich dann an das Rückenmark dachte.
+# sent_id = 20
+1	Nun	nun	ADV	ADV	_	5	advmod	_	start_char=2874|end_char=2877
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=2878|end_char=2881
+3	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=2882|end_char=2885
+4	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	5	advmod	_	start_char=2886|end_char=2891
+5	schön	schön	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2892|end_char=2897
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=2898|end_char=2901
+7	gut	gut	ADJ	ADJD	Degree=Pos	5	conj	_	start_char=2902|end_char=2905|SpaceAfter=No
+8	,	,	PUNCT	$,	_	11	punct	_	start_char=2905|end_char=2906
+9	aber	aber	CCONJ	KON	_	11	cc	_	start_char=2907|end_char=2911
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=2912|end_char=2915
+11	spürte	spüren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	conj	_	start_char=2916|end_char=2922
+12	ständig	ständig	ADJ	ADJD	Degree=Pos	11	advmod	_	start_char=2923|end_char=2930
+13	starke	stark	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	start_char=2931|end_char=2937
+14	Zweifel	Zweifel	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	start_char=2938|end_char=2945
+15	wenn	wenn	SCONJ	KOUS	_	21	mark	_	start_char=2946|end_char=2950
+16	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	start_char=2951|end_char=2954
+17	dann	dann	ADV	ADV	_	21	advmod	_	start_char=2955|end_char=2959
+18	an	an	ADP	APPR	_	20	case	_	start_char=2960|end_char=2962
+19	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	start_char=2963|end_char=2966
+20	Rückenmark	Rückenmark	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	21	obl	_	start_char=2967|end_char=2977
+21	dachte	denken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	advcl	_	start_char=2978|end_char=2984|SpaceAfter=No
+22	.	.	PUNCT	$.	_	5	punct	_	start_char=2984|end_char=2985|SpacesAfter=\n\n
+
+# text = So viele Wissenschaftler haben Materialien aus den üblichen Quellen benutzt, z.B. synthetische Polymere und Tierprodukte; sogar menschliche Kadaver.
+# sent_id = 21
+1	So	so	ADV	ADV	_	2	advmod	_	start_char=2987|end_char=2989
+2	viele	viel	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	start_char=2990|end_char=2995
+3	Wissenschaftler	Wissenschaftler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	start_char=2996|end_char=3011
+4	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=3012|end_char=3017
+5	Materialien	Material	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	start_char=3018|end_char=3029
+6	aus	aus	ADP	APPR	_	9	case	_	start_char=3030|end_char=3033
+7	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=3034|end_char=3037
+8	üblichen	üblich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=3038|end_char=3046
+9	Quellen	Quelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	nmod	_	start_char=3047|end_char=3054
+10	benutzt	benutzen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3055|end_char=3062|SpaceAfter=No
+11	,	,	PUNCT	$,	_	14	punct	_	start_char=3062|end_char=3063
+12	z.B.	z.B.	X	ADV	_	14	advmod	_	start_char=3064|end_char=3068
+13	synthetische	synthetisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	14	amod	_	start_char=3069|end_char=3081
+14	Polymere	Polymere	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	appos	_	start_char=3082|end_char=3090
+15	und	und	CCONJ	KON	_	16	cc	_	start_char=3091|end_char=3094
+16	Tierprodukte	Tierprodukt	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	14	conj	_	start_char=3095|end_char=3107|SpaceAfter=No
+17	;	;	PUNCT	$.	_	20	punct	_	start_char=3107|end_char=3108
+18	sogar	sogar	ADV	ADV	_	20	advmod	_	start_char=3109|end_char=3114
+19	menschliche	menschlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	20	amod	_	start_char=3115|end_char=3126
+20	Kadaver	Kadaver	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	appos	_	start_char=3127|end_char=3134|SpaceAfter=No
+21	.	.	PUNCT	$.	_	10	punct	_	start_char=3134|end_char=3135|SpacesAfter=\n\n
+
+# text = Ich fühlte mich wie ein totaler Außenseiter, der kein wirkliches Recht hatte, an so einem schwierigen Problem zu arbeiten.
+# sent_id = 22
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=3137|end_char=3140
+2	fühlte	fühlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3141|end_char=3147
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	start_char=3148|end_char=3152
+4	wie	wie	ADP	KOKOM	_	7	case	_	start_char=3153|end_char=3156
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=3157|end_char=3160
+6	totaler	total	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=3161|end_char=3168
+7	Außenseiter	Außenseiter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	obl	_	start_char=3169|end_char=3180|SpaceAfter=No
+8	,	,	PUNCT	$,	_	13	punct	_	start_char=3180|end_char=3181
+9	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	13	nsubj	_	start_char=3182|end_char=3185
+10	kein	kein	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	12	det	_	start_char=3186|end_char=3190
+11	wirkliches	wirklich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=3191|end_char=3201
+12	Recht	Recht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	start_char=3202|end_char=3207
+13	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl	_	start_char=3208|end_char=3213|SpaceAfter=No
+14	,	,	PUNCT	$,	_	21	punct	_	start_char=3213|end_char=3214
+15	an	an	ADP	APPR	_	19	case	_	start_char=3215|end_char=3217
+16	so	so	ADV	ADV	_	21	advmod	_	start_char=3218|end_char=3220
+17	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	19	det	_	start_char=3221|end_char=3226
+18	schwierigen	schwierig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	start_char=3227|end_char=3238
+19	Problem	Problem	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	start_char=3239|end_char=3246
+20	zu	zu	PART	PTKZU	_	21	mark	_	start_char=3247|end_char=3249
+21	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	12	acl	_	start_char=3250|end_char=3258|SpaceAfter=No
+22	.	.	PUNCT	$.	_	2	punct	_	start_char=3258|end_char=3259|SpacesAfter=\n\n
+
+# text = Aber wegen dieser Zweifel umgab ich mich mit Neurochirurgen und Klinikern, Biochemikern und Bioingenieuren, und wir begannen, Experimente zu planen.
+# sent_id = 23
+1	Aber	aber	CCONJ	KON	_	5	cc	_	start_char=3261|end_char=3265
+2	wegen	wegen	ADP	APPR	_	4	case	_	start_char=3266|end_char=3271
+3	dieser	dieser	DET	PDAT	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	start_char=3272|end_char=3278
+4	Zweifel	Zweifel	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	5	obl	_	start_char=3279|end_char=3286
+5	umgab	umgeben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3287|end_char=3292
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=3293|end_char=3296
+7	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	obj	_	start_char=3297|end_char=3301
+8	mit	mit	ADP	APPR	_	9	case	_	start_char=3302|end_char=3305
+9	Neurochirurgen	Neurochirurg	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	start_char=3306|end_char=3320
+10	und	und	CCONJ	KON	_	11	cc	_	start_char=3321|end_char=3324
+11	Klinikern	Kliniker	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	conj	_	start_char=3325|end_char=3334|SpaceAfter=No
+12	,	,	PUNCT	$,	_	13	punct	_	start_char=3334|end_char=3335
+13	Biochemikern	Biochemikern	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	conj	_	start_char=3336|end_char=3348
+14	und	und	CCONJ	KON	_	15	cc	_	start_char=3349|end_char=3352
+15	Bioingenieuren	Bioingenieur	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	conj	_	start_char=3353|end_char=3367|SpaceAfter=No
+16	,	,	PUNCT	$,	_	19	punct	_	start_char=3367|end_char=3368
+17	und	und	CCONJ	KON	_	19	cc	_	start_char=3369|end_char=3372
+18	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	start_char=3373|end_char=3376
+19	begannen	beginnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	5	conj	_	start_char=3377|end_char=3385|SpaceAfter=No
+20	,	,	PUNCT	$,	_	23	punct	_	start_char=3385|end_char=3386
+21	Experimente	Experiment	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	23	obj	_	start_char=3387|end_char=3398
+22	zu	zu	PART	PTKZU	_	23	mark	_	start_char=3399|end_char=3401
+23	planen	planen	VERB	VVINF	VerbForm=Inf	19	xcomp	_	start_char=3402|end_char=3408|SpaceAfter=No
+24	.	.	PUNCT	$.	_	5	punct	_	start_char=3408|end_char=3409|SpacesAfter=\n\n
+
+# text = Die Grundidee war, dass wir ein Tier nehmen, es betäuben würden, das Rückenmark offenlegen und es auf Brusthöhe durchtrennen würden, sodass das Tier querschnittsgelähmt wäre.
+# sent_id = 24
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=3411|end_char=3414
+2	Grundidee	Grundidee	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=3415|end_char=3424
+3	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	start_char=3425|end_char=3428|SpaceAfter=No
+4	,	,	PUNCT	$,	_	9	punct	_	start_char=3428|end_char=3429
+5	dass	dass	SCONJ	KOUS	_	9	mark	_	start_char=3430|end_char=3434
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=3435|end_char=3438
+7	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=3439|end_char=3442
+8	Tier	Tier	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=3443|end_char=3447
+9	nehmen	nehmen	VERB	VVFIN	VerbForm=Inf	2	csubj	_	start_char=3448|end_char=3454|SpaceAfter=No
+10	,	,	PUNCT	$,	_	12	punct	_	start_char=3454|end_char=3455
+11	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=3456|end_char=3458
+12	betäuben	betäuben	VERB	VVINF	VerbForm=Inf	9	conj	_	start_char=3459|end_char=3467
+13	würden	werden	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	start_char=3468|end_char=3474|SpaceAfter=No
+14	,	,	PUNCT	$,	_	17	punct	_	start_char=3474|end_char=3475
+15	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	start_char=3476|end_char=3479
+16	Rückenmark	Rückenmark	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	start_char=3480|end_char=3490
+17	offenlegen	offenlegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	start_char=3491|end_char=3501
+18	und	und	CCONJ	KON	_	22	cc	_	start_char=3502|end_char=3505
+19	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obj	_	start_char=3506|end_char=3508
+20	auf	auf	ADP	APPR	_	21	case	_	start_char=3509|end_char=3512
+21	Brusthöhe	Brusthöhe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obl	_	start_char=3513|end_char=3522
+22	durchtrennen	durchtrennen	VERB	VVINF	VerbForm=Inf	17	conj	_	start_char=3523|end_char=3535
+23	würden	werden	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	start_char=3536|end_char=3542|SpaceAfter=No
+24	,	,	PUNCT	$,	_	28	punct	_	start_char=3542|end_char=3543
+25	sodass	sodass	SCONJ	KOUS	_	28	mark	_	start_char=3544|end_char=3550
+26	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	27	det	_	start_char=3551|end_char=3554
+27	Tier	Tier	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	28	nsubj	_	start_char=3555|end_char=3559
+28	querschnittsgelähmt	querschnittsgelähmt	ADJ	VVPP	Degree=Pos|VerbForm=Part	22	advcl	_	start_char=3560|end_char=3579
+29	wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	cop	_	start_char=3580|end_char=3584|SpaceAfter=No
+30	.	.	PUNCT	$.	_	3	punct	_	start_char=3584|end_char=3585|SpacesAfter=\n\n
+
+# text = Dann würden wir ein Spargel-Gerüst zwischen den durchtrennten Enden implantieren, das als Brücke fungieren würde.
+# sent_id = 25
+1	Dann	dann	ADV	ADV	_	12	advmod	_	start_char=3587|end_char=3591
+2	würden	werden	AUX	VAFIN	Mood=Sub|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	12	aux	_	start_char=3592|end_char=3598
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	start_char=3599|end_char=3602
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=3603|end_char=3606
+5	Spargel	Spargel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	compound	_	start_char=3607|end_char=3614|SpaceAfter=No
+6	-	-	PUNCT	$(	_	5	punct	_	start_char=3614|end_char=3615|SpaceAfter=No
+7	Gerüst	Gerüst	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	start_char=3615|end_char=3621
+8	zwischen	zwischen	ADP	APPR	_	11	case	_	start_char=3622|end_char=3630
+9	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=3631|end_char=3634
+10	durchtrennten	durchtrennen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=3635|end_char=3648
+11	Enden	Ende	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	nmod	_	start_char=3649|end_char=3654
+12	implantieren	implantieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3655|end_char=3667|SpaceAfter=No
+13	,	,	PUNCT	$,	_	17	punct	_	start_char=3667|end_char=3668
+14	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	17	nsubj	_	start_char=3669|end_char=3672
+15	als	als	ADP	KOKOM	_	16	case	_	start_char=3673|end_char=3676
+16	Brücke	Brücke	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	obl	_	start_char=3677|end_char=3683
+17	fungieren	fungieren	VERB	VVINF	VerbForm=Inf	11	acl	_	start_char=3684|end_char=3693
+18	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	start_char=3694|end_char=3699|SpaceAfter=No
+19	.	.	PUNCT	$.	_	12	punct	_	start_char=3699|end_char=3700|SpacesAfter=\n\n
+
+# text = Das ist von entscheidender Wichtigkeit:
+# sent_id = 26
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=3702|end_char=3705
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=3706|end_char=3709
+3	von	von	ADP	APPR	_	5	case	_	start_char=3710|end_char=3713
+4	entscheidender	entscheidend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=3714|end_char=3728
+5	Wichtigkeit	Wichtigkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	0	root	_	start_char=3729|end_char=3740|SpaceAfter=No
+6	:	:	PUNCT	$.	_	5	punct	_	start_char=3740|end_char=3741|SpacesAfter=\n\n
+
+# text = Wir benutzen nur Spargel.
+# sent_id = 27
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=3743|end_char=3746
+2	benutzen	benutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3747|end_char=3755
+3	nur	nur	ADV	ADV	_	2	advmod	_	start_char=3756|end_char=3759
+4	Spargel	Spargel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=3760|end_char=3767|SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=3767|end_char=3768|SpacesAfter=\n\n
+
+# text = Wir fügen weder Stammzellen noch elektrische Stimulation hinzu, noch Außenskelette, noch Physiotherapie, noch Medikamente.
+# sent_id = 28
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=3770|end_char=3773
+2	fügen	fügen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3774|end_char=3779
+3	weder	weder	CCONJ	KON	_	4	cc	_	start_char=3780|end_char=3785
+4	Stammzellen	Stammzelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=3786|end_char=3797
+5	noch	noch	ADV	ADV	_	2	advmod	_	start_char=3798|end_char=3802
+6	elektrische	elektrisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=3803|end_char=3814
+7	Stimulation	Stimulation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=3815|end_char=3826
+8	hinzu	hinzu	ADV	PTKVZ	_	2	compound:prt	_	start_char=3827|end_char=3832|SpaceAfter=No
+9	,	,	PUNCT	$,	_	11	punct	_	start_char=3832|end_char=3833
+10	noch	noch	CCONJ	KON	_	11	cc	_	start_char=3834|end_char=3838
+11	Außenskelette	Außenskelett	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	appos	_	start_char=3839|end_char=3852|SpaceAfter=No
+12	,	,	PUNCT	$,	_	14	punct	_	start_char=3852|end_char=3853
+13	noch	noch	ADV	ADV	_	14	advmod	_	start_char=3854|end_char=3858
+14	Physiotherapie	Physiotherapie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	conj	_	start_char=3859|end_char=3873|SpaceAfter=No
+15	,	,	PUNCT	$,	_	17	punct	_	start_char=3873|end_char=3874
+16	noch	noch	ADV	ADV	_	17	advmod	_	start_char=3875|end_char=3879
+17	Medikamente	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	11	conj	_	start_char=3880|end_char=3891|SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	start_char=3891|end_char=3892|SpacesAfter=\n\n
+
+# text = Wir untersuchen lediglich, ob die Mikrokanäle im Gerüst allein dazu reichen, um die Neubildung von Neuronen anzuleiten.
+# sent_id = 29
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=3894|end_char=3897
+2	untersuchen	untersuchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3898|end_char=3909
+3	lediglich	lediglich	ADV	ADV	_	2	advmod	_	start_char=3910|end_char=3919|SpaceAfter=No
+4	,	,	PUNCT	$,	_	13	punct	_	start_char=3919|end_char=3920
+5	ob	ob	SCONJ	KOUS	_	13	mark	_	start_char=3921|end_char=3923
+6	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=3924|end_char=3927
+7	Mikrokanäle	Mikrokanal	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	start_char=3928|end_char=3939
+8-9	im	_	_	_	_	_	_	_	start_char=3940|end_char=3942
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Gerüst	Gerüst	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	start_char=3943|end_char=3949
+11	allein	allein	ADV	ADV	_	12	advmod	_	start_char=3950|end_char=3956
+12	dazu	dazu	ADV	PAV	PronType=Dem	13	advmod	_	start_char=3957|end_char=3961
+13	reichen	reichen	VERB	VVFIN	VerbForm=Inf	2	ccomp	_	start_char=3962|end_char=3969|SpaceAfter=No
+14	,	,	PUNCT	$,	_	20	punct	_	start_char=3969|end_char=3970
+15	um	um	ADP	KOUI	_	20	mark	_	start_char=3971|end_char=3973
+16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=3974|end_char=3977
+17	Neubildung	Neubildung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	start_char=3978|end_char=3988
+18	von	von	ADP	APPR	_	19	case	_	start_char=3989|end_char=3992
+19	Neuronen	Neuron	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	17	nmod	_	start_char=3993|end_char=4001
+20	anzuleiten	anleiten	VERB	VVIZU	VerbForm=Inf	13	advcl	_	start_char=4002|end_char=4012|SpaceAfter=No
+21	.	.	PUNCT	$.	_	2	punct	_	start_char=4012|end_char=4013|SpacesAfter=\n\n
+
+# text = Und das sind die wichtigsten Resultate:
+# sent_id = 30
+1	Und	und	CCONJ	KON	_	6	cc	_	start_char=4015|end_char=4018
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	6	nsubj	_	start_char=4019|end_char=4022
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=4023|end_char=4027
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=4028|end_char=4031
+5	wichtigsten	wichtig	ADJ	ADJA	Case=Nom|Degree=Sup|Gender=Neut|Number=Plur	6	amod	_	start_char=4032|end_char=4043
+6	Resultate	Resultat	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	start_char=4044|end_char=4053|SpaceAfter=No
+7	:	:	PUNCT	$.	_	6	punct	_	start_char=4053|end_char=4054|SpacesAfter=\n\n
+
+# text = In diesem Video sehen Sie ein Tier ca. 8 Wochen, nachdem es gelähmt wurde.
+# sent_id = 31
+1	In	in	ADP	APPR	_	3	case	_	start_char=4056|end_char=4058
+2	diesem	dieser	DET	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	start_char=4059|end_char=4065
+3	Video	Video	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=4066|end_char=4071
+4	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4072|end_char=4077
+5	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	start_char=4078|end_char=4081
+6	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=4082|end_char=4085
+7	Tier	Tier	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	start_char=4086|end_char=4090
+8	ca.	ca.	ADV	ADV	_	9	advmod	_	start_char=4091|end_char=4094
+9	8	8	NUM	CARD	NumType=Card	10	nummod	_	start_char=4095|end_char=4096
+10	Wochen	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obl	_	start_char=4097|end_char=4103|SpaceAfter=No
+11	,	,	PUNCT	$,	_	14	punct	_	start_char=4103|end_char=4104
+12	nachdem	nachdem	SCONJ	KOUS	_	14	mark	_	start_char=4105|end_char=4112
+13	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj:pass	_	start_char=4113|end_char=4115
+14	gelähmt	lähmen	VERB	VVPP	VerbForm=Part	4	advcl	_	start_char=4116|end_char=4123
+15	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	14	aux:pass	_	start_char=4124|end_char=4129|SpaceAfter=No
+16	.	.	PUNCT	$.	_	4	punct	_	start_char=4129|end_char=4130|SpacesAfter=\n\n
+
+# text = Sie sehen, sie kann ihre Hinterbeine nicht benutzen und sich nicht aufrichten.
+# sent_id = 32
+1	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=4132|end_char=4135
+2	sehen	sehen	VERB	VVINF	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4136|end_char=4141|SpaceAfter=No
+3	,	,	PUNCT	$,	_	9	punct	_	start_char=4141|end_char=4142
+4	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=4143|end_char=4146
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=4147|end_char=4151
+6	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=4152|end_char=4156
+7	Hinterbeine	Hinterbein	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	start_char=4157|end_char=4168
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=4169|end_char=4174
+9	benutzen	benutzen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	start_char=4175|end_char=4183
+10	und	und	CCONJ	KON	_	13	cc	_	start_char=4184|end_char=4187
+11	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	13	obj	_	start_char=4188|end_char=4192
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	start_char=4193|end_char=4198
+13	aufrichten	aufrichten	VERB	VVINF	VerbForm=Inf	9	conj	_	start_char=4199|end_char=4209|SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=4209|end_char=4210|SpacesAfter=\n\n
+
+# text = Ich weiß, wie schwer es ist, dieses Video anzuschauen.
+# sent_id = 33
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=4212|end_char=4215
+2	weiß	wissen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4216|end_char=4220|SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	start_char=4220|end_char=4221
+4	wie	wie	ADV	PWAV	PronType=Int	5	advmod	_	start_char=4222|end_char=4225
+5	schwer	schwer	ADJ	ADJD	Degree=Pos	2	ccomp	_	start_char=4226|end_char=4232
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	start_char=4233|end_char=4235
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=4236|end_char=4239|SpaceAfter=No
+8	,	,	PUNCT	$,	_	11	punct	_	start_char=4239|end_char=4240
+9	dieses	dieser	DET	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	10	det	_	start_char=4241|end_char=4247
+10	Video	Video	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=4248|end_char=4253
+11	anzuschauen	anschauen	VERB	VVIZU	VerbForm=Inf	5	xcomp	_	start_char=4254|end_char=4265|SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=4265|end_char=4266|SpacesAfter=\n\n
+
+# text = Mein Team hatte jeden Tag Probleme mit dieser Art von Experimenten und wir fragten uns ständig, warum wir so etwas machten -- bis wir etwas zu beobachten begannen.
+# sent_id = 34
+1	Mein	mein	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=4268|end_char=4272
+2	Team	Team	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=4273|end_char=4277
+3	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=4278|end_char=4283
+4	jeden	jeder	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	5	det	_	start_char=4284|end_char=4289
+5	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	start_char=4290|end_char=4293
+6	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=4294|end_char=4302
+7	mit	mit	ADP	APPR	_	9	case	_	start_char=4303|end_char=4306
+8	dieser	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	start_char=4307|end_char=4313
+9	Art	Art	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	start_char=4314|end_char=4317
+10	von	von	ADP	APPR	_	11	case	_	start_char=4318|end_char=4321
+11	Experimenten	Experiment	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	9	nmod	_	start_char=4322|end_char=4334
+12	und	und	CCONJ	KON	_	14	cc	_	start_char=4335|end_char=4338
+13	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	start_char=4339|end_char=4342
+14	fragten	fragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	conj	_	start_char=4343|end_char=4350
+15	uns	wir	PRON	PRF	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	14	obj	_	start_char=4351|end_char=4354
+16	ständig	ständig	ADJ	ADJD	Degree=Pos	14	advmod	_	start_char=4355|end_char=4362|SpaceAfter=No
+17	,	,	PUNCT	$,	_	22	punct	_	start_char=4362|end_char=4363
+18	warum	warum	ADV	PWAV	PronType=Int	22	advmod	_	start_char=4364|end_char=4369
+19	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	start_char=4370|end_char=4373
+20	so	so	ADV	ADV	_	22	advmod	_	start_char=4374|end_char=4376
+21	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	22	obj	_	start_char=4377|end_char=4382
+22	machten	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	ccomp	_	start_char=4383|end_char=4390
+23	--	--	PUNCT	$(	_	29	punct	_	start_char=4391|end_char=4393
+24	bis	bis	SCONJ	KOUS	_	29	mark	_	start_char=4394|end_char=4397
+25	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	29	nsubj	_	start_char=4398|end_char=4401
+26	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	29	obj	_	start_char=4402|end_char=4407
+27	zu	zu	PART	PTKZU	_	28	mark	_	start_char=4408|end_char=4410
+28	beobachten	beobachten	VERB	VVINF	VerbForm=Inf	29	xcomp	_	start_char=4411|end_char=4421
+29	begannen	beginnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	22	advcl	_	start_char=4422|end_char=4430|SpaceAfter=No
+30	.	.	PUNCT	$.	_	3	punct	_	start_char=4430|end_char=4431|SpacesAfter=\n\n
+
+# text = Das hier ist ein Tier, das ein Implantat bekommen hat.
+# sent_id = 35
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=4433|end_char=4436
+2	hier	hier	ADV	ADV	_	5	advmod	_	start_char=4437|end_char=4441
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=4442|end_char=4445
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=4446|end_char=4449
+5	Tier	Tier	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=4450|end_char=4454|SpaceAfter=No
+6	,	,	PUNCT	$,	_	10	punct	_	start_char=4454|end_char=4455
+7	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	10	nsubj	_	start_char=4456|end_char=4459
+8	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=4460|end_char=4463
+9	Implantat	Implantat	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	start_char=4464|end_char=4473
+10	bekommen	bekommen	VERB	VVPP	VerbForm=Part	5	acl	_	start_char=4474|end_char=4482
+11	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=4483|end_char=4486|SpaceAfter=No
+12	.	.	PUNCT	$.	_	5	punct	_	start_char=4486|end_char=4487|SpacesAfter=\n\n
+
+# text = Sie läuft zwar nicht perfekt, aber sie bewegt ihre Hinterbeine und sie beginnt sogar, sich aufzurichten.
+# sent_id = 36
+1	Sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=4489|end_char=4492
+2	läuft	laufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4493|end_char=4498
+3	zwar	zwar	ADV	ADV	_	2	advmod	_	start_char=4499|end_char=4503
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=4504|end_char=4509
+5	perfekt	perfekt	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=4510|end_char=4517|SpaceAfter=No
+6	,	,	PUNCT	$,	_	9	punct	_	start_char=4517|end_char=4518
+7	aber	aber	CCONJ	KON	_	9	cc	_	start_char=4519|end_char=4523
+8	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=4524|end_char=4527
+9	bewegt	bewegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=4528|end_char=4534
+10	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	start_char=4535|end_char=4539
+11	Hinterbeine	Hinterbein	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	start_char=4540|end_char=4551
+12	und	und	CCONJ	KON	_	14	cc	_	start_char=4552|end_char=4555
+13	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=4556|end_char=4559
+14	beginnt	beginnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=4560|end_char=4567
+15	sogar	sogar	ADV	ADV	_	14	advmod	_	start_char=4568|end_char=4573|SpaceAfter=No
+16	,	,	PUNCT	$,	_	18	punct	_	start_char=4573|end_char=4574
+17	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	18	obj	_	start_char=4575|end_char=4579
+18	aufzurichten	aufrichten	VERB	VVIZU	VerbForm=Inf	14	xcomp	_	start_char=4580|end_char=4592|SpaceAfter=No
+19	.	.	PUNCT	$.	_	2	punct	_	start_char=4592|end_char=4593|SpacesAfter=\n\n
+
+# text = Und auf einem Laufband kann man sehen, wie die Beine sich koordiniert bewegen.
+# sent_id = 37
+1	Und	und	CCONJ	KON	_	7	cc	_	start_char=4595|end_char=4598
+2	auf	auf	ADP	APPR	_	4	case	_	start_char=4599|end_char=4602
+3	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=4603|end_char=4608
+4	Laufband	Laufband	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	start_char=4609|end_char=4617
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=4618|end_char=4622
+6	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=4623|end_char=4626
+7	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4627|end_char=4632|SpaceAfter=No
+8	,	,	PUNCT	$,	_	14	punct	_	start_char=4632|end_char=4633
+9	wie	wie	SCONJ	KOUS	_	14	mark	_	start_char=4634|end_char=4637
+10	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=4638|end_char=4641
+11	Beine	Bein	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	start_char=4642|end_char=4647
+12	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	14	obj	_	start_char=4648|end_char=4652
+13	koordiniert	koordinieren	VERB	VVPP	VerbForm=Part	14	xcomp	_	start_char=4653|end_char=4664
+14	bewegen	bewegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	start_char=4665|end_char=4672|SpaceAfter=No
+15	.	.	PUNCT	$.	_	7	punct	_	start_char=4672|end_char=4673|SpacesAfter=\n\n
+
+# text = Das sind wichtige Anzeichen der Genesung.
+# sent_id = 38
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	nsubj	_	start_char=4675|end_char=4678
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=4679|end_char=4683
+3	wichtige	wichtig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=4684|end_char=4692
+4	Anzeichen	Anzeichen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=4693|end_char=4702
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=4703|end_char=4706
+6	Genesung	Genesung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=4707|end_char=4715|SpaceAfter=No
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=4715|end_char=4716|SpacesAfter=\n\n
+
+# text = Wir haben immer noch eine Menge Arbeit vor uns, und es gibt eine Menge Fragen zu beantworten, aber das war das erste Mal, dass jemand zeigen konnte, dass Pflanzengewebe genutzt werden kann, um so eine komplexe Verletzung zu heilen.
+# sent_id = 39
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=4718|end_char=4721
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4722|end_char=4727
+3	immer	immer	ADV	ADV	_	4	advmod	_	start_char=4728|end_char=4733
+4	noch	noch	ADV	ADV	_	2	advmod	_	start_char=4734|end_char=4738
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=4739|end_char=4743
+6	Menge	Menge	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	start_char=4744|end_char=4749
+7	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=4750|end_char=4756
+8	vor	vor	ADP	APPR	_	9	case	_	start_char=4757|end_char=4760
+9	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	7	nmod	_	start_char=4761|end_char=4764|SpaceAfter=No
+10	,	,	PUNCT	$,	_	13	punct	_	start_char=4764|end_char=4765
+11	und	und	CCONJ	KON	_	13	cc	_	start_char=4766|end_char=4769
+12	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	start_char=4770|end_char=4772
+13	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=4773|end_char=4777
+14	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	15	det	_	start_char=4778|end_char=4782
+15	Menge	Menge	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	start_char=4783|end_char=4788
+16	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	obj	_	start_char=4789|end_char=4795
+17	zu	zu	PART	PTKZU	_	18	mark	_	start_char=4796|end_char=4798
+18	beantworten	beantworten	VERB	VVINF	VerbForm=Inf	13	xcomp	_	start_char=4799|end_char=4810|SpaceAfter=No
+19	,	,	PUNCT	$,	_	25	punct	_	start_char=4810|end_char=4811
+20	aber	aber	CCONJ	KON	_	25	cc	_	start_char=4812|end_char=4816
+21	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	25	nsubj	_	start_char=4817|end_char=4820
+22	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	cop	_	start_char=4821|end_char=4824
+23	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	25	det	_	start_char=4825|end_char=4828
+24	erste	erst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|NumType=Ord|Number=Sing	25	amod	_	start_char=4829|end_char=4834
+25	Mal	Mal	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	start_char=4835|end_char=4838|SpaceAfter=No
+26	,	,	PUNCT	$,	_	29	punct	_	start_char=4838|end_char=4839
+27	dass	dass	SCONJ	KOUS	_	29	mark	_	start_char=4840|end_char=4844
+28	jemand	jemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	29	nsubj	_	start_char=4845|end_char=4851
+29	zeigen	zeigen	VERB	VVINF	VerbForm=Inf	25	ccomp	_	start_char=4852|end_char=4858
+30	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	aux	_	start_char=4859|end_char=4865|SpaceAfter=No
+31	,	,	PUNCT	$,	_	34	punct	_	start_char=4865|end_char=4866
+32	dass	dass	SCONJ	KOUS	_	34	mark	_	start_char=4867|end_char=4871
+33	Pflanzengewebe	Pflanzengewebe	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	34	nsubj:pass	_	start_char=4872|end_char=4886
+34	genutzt	nutzen	VERB	VVPP	VerbForm=Part	29	ccomp	_	start_char=4887|end_char=4894
+35	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	34	aux:pass	_	start_char=4895|end_char=4901
+36	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	start_char=4902|end_char=4906|SpaceAfter=No
+37	,	,	PUNCT	$,	_	44	punct	_	start_char=4906|end_char=4907
+38	um	um	ADP	KOUI	_	44	mark	_	start_char=4908|end_char=4910
+39	so	so	ADV	ADV	_	44	advmod	_	start_char=4911|end_char=4913
+40	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	42	det	_	start_char=4914|end_char=4918
+41	komplexe	komplex	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	start_char=4919|end_char=4927
+42	Verletzung	Verletzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	44	obj	_	start_char=4928|end_char=4938
+43	zu	zu	PART	PTKZU	_	44	mark	_	start_char=4939|end_char=4941
+44	heilen	heilen	VERB	VVINF	VerbForm=Inf	34	advcl	_	start_char=4942|end_char=4948|SpaceAfter=No
+45	.	.	PUNCT	$.	_	2	punct	_	start_char=4948|end_char=4949|SpacesAfter=\n\n
+
+# text = Trotzdem sitzen wir seit über 5 Jahren an diesen Daten.
+# sent_id = 40
+1	Trotzdem	trotzdem	ADV	PAV	_	2	advmod	_	start_char=4951|end_char=4959
+2	sitzen	sitzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4960|end_char=4966
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=4967|end_char=4970
+4	seit	seit	ADP	APPR	_	7	case	_	start_char=4971|end_char=4975
+5	über	über	ADV	ADV	_	6	advmod	_	start_char=4976|end_char=4980
+6	5	5	NUM	CARD	NumType=Card	7	nummod	_	start_char=4981|end_char=4982
+7	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	start_char=4983|end_char=4989
+8	an	an	ADP	APPR	_	10	case	_	start_char=4990|end_char=4992
+9	diesen	dieser	DET	PDAT	Case=Dat|Gender=Neut|Number=Plur|PronType=Dem	10	det	_	start_char=4993|end_char=4999
+10	Daten	Datum	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	start_char=5000|end_char=5005|SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=5005|end_char=5006|SpacesAfter=\n\n
+
+# text = Zweifel haben uns dazu angetrieben, diese Experimente ständig zu wiederholen, bis mein Labor fast bankrott ging.
+# sent_id = 41
+1	Zweifel	Zweifel	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=5008|end_char=5015
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=5016|end_char=5021
+3	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	5	obj	_	start_char=5022|end_char=5025
+4	dazu	dazu	ADV	PAV	PronType=Dem	5	advmod	_	start_char=5026|end_char=5030
+5	angetrieben	antreiben	VERB	VVPP	VerbForm=Part	0	root	_	start_char=5031|end_char=5042|SpaceAfter=No
+6	,	,	PUNCT	$,	_	11	punct	_	start_char=5042|end_char=5043
+7	diese	dieser	DET	PDAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	8	det	_	start_char=5044|end_char=5049
+8	Experimente	Experiment	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	start_char=5050|end_char=5061
+9	ständig	ständig	ADJ	ADJD	Degree=Pos	11	advmod	_	start_char=5062|end_char=5069
+10	zu	zu	PART	PTKZU	_	11	mark	_	start_char=5070|end_char=5072
+11	wiederholen	wiederholen	VERB	VVINF	VerbForm=Inf	5	xcomp	_	start_char=5073|end_char=5084|SpaceAfter=No
+12	,	,	PUNCT	$,	_	18	punct	_	start_char=5084|end_char=5085
+13	bis	bis	SCONJ	KOUS	_	18	mark	_	start_char=5086|end_char=5089
+14	mein	mein	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	15	det:poss	_	start_char=5090|end_char=5094
+15	Labor	Labor	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	start_char=5095|end_char=5100
+16	fast	fast	ADV	ADV	_	17	advmod	_	start_char=5101|end_char=5105
+17	bankrott	bankrott	ADJ	ADJD	Degree=Pos	18	xcomp	_	start_char=5106|end_char=5114
+18	ging	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	advcl	_	start_char=5115|end_char=5119|SpaceAfter=No
+19	.	.	PUNCT	$.	_	5	punct	_	start_char=5119|end_char=5120|SpacesAfter=\n\n
+
+# text = Aber ich trieb es weiter voran, weil ich wusste: Diese Resultate könnten der Beginn von etwas Außergewöhnlichem sein.
+# sent_id = 42
+1	Aber	aber	CCONJ	KON	_	3	cc	_	start_char=5122|end_char=5126
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=5127|end_char=5130
+3	trieb	treiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=5131|end_char=5136
+4	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=5137|end_char=5139
+5	weiter	weiter	ADV	ADV	_	3	advmod	_	start_char=5140|end_char=5146
+6	voran	voran	ADV	PTKVZ	_	3	compound:prt	_	start_char=5147|end_char=5152|SpaceAfter=No
+7	,	,	PUNCT	$,	_	10	punct	_	start_char=5152|end_char=5153
+8	weil	weil	SCONJ	KOUS	_	10	mark	_	start_char=5154|end_char=5158
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=5159|end_char=5162
+10	wusste	wissen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	advcl	_	start_char=5163|end_char=5169|SpaceAfter=No
+11	:	:	PUNCT	$.	_	16	punct	_	start_char=5169|end_char=5170
+12	Diese	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	13	det	_	start_char=5171|end_char=5176
+13	Resultate	Resultat	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	19	nsubj	_	start_char=5177|end_char=5186
+14	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	start_char=5187|end_char=5194
+15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=5195|end_char=5198
+16	Beginn	Beginn	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	ccomp	_	start_char=5199|end_char=5205
+17	von	von	ADP	APPR	_	18	case	_	start_char=5206|end_char=5209
+18	etwas	etwas	PRON	PIAT	Gender=Neut|Number=Sing|PronType=Ind	16	nmod	_	start_char=5210|end_char=5215
+19	Außergewöhnlichem	Außergewöhnlichem	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	nmod	_	start_char=5216|end_char=5233
+20	sein	sein	AUX	VAINF	VerbForm=Inf	16	cop	_	start_char=5234|end_char=5238|SpaceAfter=No
+21	.	.	PUNCT	$.	_	3	punct	_	start_char=5238|end_char=5239|SpacesAfter=\n\n
+
+# text = Und genauso aufregend ist es, dass mein Unternehmen diese Entdeckungen jetzt auf die Klinik übertragen -- auf die echte Welt.
+# sent_id = 43
+1	Und	und	CCONJ	KON	_	3	cc	_	start_char=5241|end_char=5244
+2	genauso	genauso	ADV	ADV	_	3	advmod	_	start_char=5245|end_char=5252
+3	aufregend	aufregend	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5253|end_char=5262
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=5263|end_char=5266
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=5267|end_char=5269|SpaceAfter=No
+6	,	,	PUNCT	$,	_	16	punct	_	start_char=5269|end_char=5270
+7	dass	dass	SCONJ	KOUS	_	16	mark	_	start_char=5271|end_char=5275
+8	mein	mein	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	start_char=5276|end_char=5280
+9	Unternehmen	Unternehmen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	start_char=5281|end_char=5292
+10	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	11	det	_	start_char=5293|end_char=5298
+11	Entdeckungen	Entdeckung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	obj	_	start_char=5299|end_char=5311
+12	jetzt	jetzt	ADV	ADV	_	16	advmod	_	start_char=5312|end_char=5317
+13	auf	auf	ADP	APPR	_	15	case	_	start_char=5318|end_char=5321
+14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=5322|end_char=5325
+15	Klinik	Klinik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	start_char=5326|end_char=5332
+16	übertragen	übertragen	VERB	VVPP	VerbForm=Part	3	csubj	_	start_char=5333|end_char=5343
+17	--	--	PUNCT	$(	_	21	punct	_	start_char=5344|end_char=5346
+18	auf	auf	ADP	APPR	_	21	case	_	start_char=5347|end_char=5350
+19	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=5351|end_char=5354
+20	echte	echt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=5355|end_char=5360
+21	Welt	Welt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	start_char=5361|end_char=5365|SpaceAfter=No
+22	.	.	PUNCT	$.	_	3	punct	_	start_char=5365|end_char=5366|SpacesAfter=\n\n
+
+# text = Die Technologie wurde von der FDA kürzlich als medizinischer Durchbruch bezeichnet.
+# sent_id = 44
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=5368|end_char=5371
+2	Technologie	Technologie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj:pass	_	start_char=5372|end_char=5383
+3	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	11	aux:pass	_	start_char=5384|end_char=5389
+4	von	von	ADP	APPR	_	6	case	_	start_char=5390|end_char=5393
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=5394|end_char=5397
+6	FDA	FDA	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	start_char=5398|end_char=5401
+7	kürzlich	kürzlich	ADJ	ADJD	Degree=Pos	11	advmod	_	start_char=5402|end_char=5410
+8	als	als	ADP	KOKOM	_	10	case	_	start_char=5411|end_char=5414
+9	medizinischer	medizinisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=5415|end_char=5428
+10	Durchbruch	Durchbruch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	xcomp	_	start_char=5429|end_char=5439
+11	bezeichnet	bezeichnen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=5440|end_char=5450|SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=5450|end_char=5451|SpacesAfter=\n\n
+
+# text = Und diese Bezeichnung bedeutet, dass wir momentan mitten in der Planung klinischer Versuche am Menschen sind, die in ca. 2 Jahren beginnen sollen.
+# sent_id = 45
+1	Und	und	CCONJ	KON	_	4	cc	_	start_char=5453|end_char=5456
+2	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=5457|end_char=5462
+3	Bezeichnung	Bezeichnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=5463|end_char=5474
+4	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5475|end_char=5483|SpaceAfter=No
+5	,	,	PUNCT	$,	_	18	punct	_	start_char=5483|end_char=5484
+6	dass	dass	SCONJ	KOUS	_	18	mark	_	start_char=5485|end_char=5489
+7	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	start_char=5490|end_char=5493
+8	momentan	momentan	ADV	ADV	_	18	advmod	_	start_char=5494|end_char=5502
+9	mitten	mitten	ADV	ADV	_	12	advmod	_	start_char=5503|end_char=5509
+10	in	in	ADP	APPR	_	12	case	_	start_char=5510|end_char=5512
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=5513|end_char=5516
+12	Planung	Planung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	start_char=5517|end_char=5524
+13	klinischer	klinisch	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	start_char=5525|end_char=5535
+14	Versuche	Versuch	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	start_char=5536|end_char=5544
+15-16	am	_	_	_	_	_	_	_	start_char=5545|end_char=5547
+15	an	an	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	nmod	_	start_char=5548|end_char=5556
+18	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	start_char=5557|end_char=5561|SpaceAfter=No
+19	,	,	PUNCT	$,	_	25	punct	_	start_char=5561|end_char=5562
+20	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	25	nsubj	_	start_char=5563|end_char=5566
+21	in	in	ADP	APPR	_	24	case	_	start_char=5567|end_char=5569
+22	ca.	ca.	ADV	ADV	_	23	advmod	_	start_char=5570|end_char=5573
+23	2	2	NUM	CARD	NumType=Card	24	nummod	_	start_char=5574|end_char=5575
+24	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	25	obl	_	start_char=5576|end_char=5582
+25	beginnen	beginnen	VERB	VVINF	VerbForm=Inf	14	acl	_	start_char=5583|end_char=5591
+26	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	start_char=5592|end_char=5598|SpaceAfter=No
+27	.	.	PUNCT	$.	_	4	punct	_	start_char=5598|end_char=5599|SpacesAfter=\n\n
+
+# text = Ich möchte Ihnen gerne einen Prototyp eines unserer neuesten Rückenmarks-Implantate zeigen.
+# sent_id = 46
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=5601|end_char=5604
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	aux	_	start_char=5605|end_char=5611
+3	Ihnen	Sie	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Form|PronType=Prs	13	obl:arg	_	start_char=5612|end_char=5617
+4	gerne	gerne	ADV	ADV	_	13	advmod	_	start_char=5618|end_char=5623
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=5624|end_char=5629
+6	Prototyp	Prototyp	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=5630|end_char=5638
+7	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=5639|end_char=5644
+8	unserer	unser	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	start_char=5645|end_char=5652
+9	neuesten	neu	ADJ	ADJA	Case=Gen|Degree=Sup|Gender=Fem|Number=Plur	12	amod	_	start_char=5653|end_char=5661
+10	Rückenmarks	Rückenmark	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	12	compound	_	start_char=5662|end_char=5673|SpaceAfter=No
+11	-	-	PUNCT	$(	_	10	punct	_	start_char=5673|end_char=5674|SpaceAfter=No
+12	Implantate	Implantat	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	start_char=5674|end_char=5684
+13	zeigen	zeigen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5685|end_char=5691|SpaceAfter=No
+14	.	.	PUNCT	$.	_	13	punct	_	start_char=5691|end_char=5692|SpacesAfter=\n\n
+
+# text = Es besteht noch immer aus Spargel und enthält all diese Mikrokanäle.
+# sent_id = 47
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=5694|end_char=5696
+2	besteht	bestehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5697|end_char=5704
+3	noch	noch	ADV	ADV	_	4	advmod	_	start_char=5705|end_char=5709
+4	immer	immer	ADV	ADV	_	2	advmod	_	start_char=5710|end_char=5715
+5	aus	aus	ADP	APPR	_	6	case	_	start_char=5716|end_char=5719
+6	Spargel	Spargel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=5720|end_char=5727
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=5728|end_char=5731
+8	enthält	enthalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=5732|end_char=5739
+9	all	alle	DET	PIAT	PronType=Ind	11	det	_	start_char=5740|end_char=5743
+10	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	11	det	_	start_char=5744|end_char=5749
+11	Mikrokanäle	Mikrokanal	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	start_char=5750|end_char=5761|SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=5761|end_char=5762|SpacesAfter=\n\n
+
+# text = Man sieht, dass es sich bewegen und biegen lässt und sich anfühlt wie menschliches Gewebe.
+# sent_id = 48
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=5764|end_char=5767
+2	sieht	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5768|end_char=5773|SpaceAfter=No
+3	,	,	PUNCT	$,	_	7	punct	_	start_char=5773|end_char=5774
+4	dass	dass	SCONJ	KOUS	_	7	mark	_	start_char=5775|end_char=5779
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=5780|end_char=5782
+6	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	start_char=5783|end_char=5787
+7	bewegen	bewegen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	start_char=5788|end_char=5795
+8	und	und	CCONJ	KON	_	9	cc	_	start_char=5796|end_char=5799
+9	biegen	biegen	VERB	VVINF	VerbForm=Inf	7	conj	_	start_char=5800|end_char=5806
+10	lässt	lassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	start_char=5807|end_char=5812
+11	und	und	CCONJ	KON	_	13	cc	_	start_char=5813|end_char=5816
+12	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	13	obj	_	start_char=5817|end_char=5821
+13	anfühlt	anfühlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	start_char=5822|end_char=5829
+14	wie	wie	ADP	KOKOM	_	16	case	_	start_char=5830|end_char=5833
+15	menschliches	menschlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	start_char=5834|end_char=5846
+16	Gewebe	Gewebe	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	obl	_	start_char=5847|end_char=5853|SpaceAfter=No
+17	.	.	PUNCT	$.	_	2	punct	_	start_char=5853|end_char=5854|SpacesAfter=\n\n
+
+# text = Und wissen Sie, ich denke, die eigentliche Innovation ist, dass wir nun in der Lage sind, Aufbau und Struktur von Pflanzengewebe so zu designen oder zu programmieren, dass sie Zellwachstum steuern und medizinische Bedürfnisse erfüllen können.
+# sent_id = 49
+1	Und	und	CCONJ	KON	_	2	cc	_	start_char=5856|end_char=5859
+2	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5860|end_char=5866
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=5867|end_char=5870|SpaceAfter=No
+4	,	,	PUNCT	$,	_	6	punct	_	start_char=5870|end_char=5871
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=5872|end_char=5875
+6	denke	denken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=5876|end_char=5881|SpaceAfter=No
+7	,	,	PUNCT	$,	_	11	punct	_	start_char=5881|end_char=5882
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=5883|end_char=5886
+9	eigentliche	eigentlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=5887|end_char=5898
+10	Innovation	Innovation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=5899|end_char=5909
+11	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	start_char=5910|end_char=5913|SpaceAfter=No
+12	,	,	PUNCT	$,	_	16	punct	_	start_char=5913|end_char=5914
+13	dass	dass	SCONJ	KOUS	_	16	mark	_	start_char=5915|end_char=5919
+14	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	start_char=5920|end_char=5923
+15	nun	nun	ADV	ADV	_	16	advmod	_	start_char=5924|end_char=5927
+16	in	in	ADP	APPR	_	11	xcomp	_	start_char=5928|end_char=5930
+17	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=5931|end_char=5934
+18	Lage	Lage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	nmod	_	start_char=5935|end_char=5939
+19	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=5940|end_char=5944|SpaceAfter=No
+20	,	,	PUNCT	$,	_	28	punct	_	start_char=5944|end_char=5945
+21	Aufbau	Aufbau	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	28	obj	_	start_char=5946|end_char=5952
+22	und	und	CCONJ	KON	_	23	cc	_	start_char=5953|end_char=5956
+23	Struktur	Struktur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	conj	_	start_char=5957|end_char=5965
+24	von	von	ADP	APPR	_	25	case	_	start_char=5966|end_char=5969
+25	Pflanzengewebe	Pflanzengewebe	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	21	nmod	_	start_char=5970|end_char=5984
+26	so	so	ADV	ADV	_	28	advmod	_	start_char=5985|end_char=5987
+27	zu	zu	PART	PTKZU	_	28	mark	_	start_char=5988|end_char=5990
+28	designen	designen	VERB	VVINF	VerbForm=Inf	19	xcomp	_	start_char=5991|end_char=5999
+29	oder	oder	CCONJ	KON	_	31	cc	_	start_char=6000|end_char=6004
+30	zu	zu	PART	PTKZU	_	31	mark	_	start_char=6005|end_char=6007
+31	programmieren	programmieren	VERB	VVINF	VerbForm=Inf	28	conj	_	start_char=6008|end_char=6021|SpaceAfter=No
+32	,	,	PUNCT	$,	_	36	punct	_	start_char=6021|end_char=6022
+33	dass	dass	SCONJ	KOUS	_	36	mark	_	start_char=6023|end_char=6027
+34	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	36	nsubj	_	start_char=6028|end_char=6031
+35	Zellwachstum	Zellwachstum	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	36	obj	_	start_char=6032|end_char=6044
+36	steuern	steuern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	ccomp	_	start_char=6045|end_char=6052
+37	und	und	CCONJ	KON	_	40	cc	_	start_char=6053|end_char=6056
+38	medizinische	medizinisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	39	amod	_	start_char=6057|end_char=6069
+39	Bedürfnisse	Bedürfnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	40	obj	_	start_char=6070|end_char=6081
+40	erfüllen	erfüllen	VERB	VVINF	VerbForm=Inf	36	conj	_	start_char=6082|end_char=6090
+41	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	start_char=6091|end_char=6097|SpaceAfter=No
+42	.	.	PUNCT	$.	_	2	punct	_	start_char=6097|end_char=6098|SpacesAfter=\n\n
+
+# text = Als Wissenschaftler verbringen wir unser Leben auf Messers Schneide.
+# sent_id = 50
+1	Als	als	ADP	KOKOM	_	2	case	_	start_char=6100|end_char=6103
+2	Wissenschaftler	Wissenschaftler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	obl	_	start_char=6104|end_char=6119
+3	verbringen	verbringen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6120|end_char=6130
+4	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=6131|end_char=6134
+5	unser	unser	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	start_char=6135|end_char=6140
+6	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=6141|end_char=6146
+7	auf	auf	ADP	APPR	_	9	case	_	start_char=6147|end_char=6150
+8	Messers	Messer	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=6151|end_char=6158
+9	Schneide	Schneide	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=6159|end_char=6167|SpaceAfter=No
+10	.	.	PUNCT	$.	_	3	punct	_	start_char=6167|end_char=6168|SpacesAfter=\n\n
+
+# text = Einerseits ist es unser Job, den Horizont menschlichen Wissens grundlegend zu erweitern; zugleich werden wir dazu ausgebildet, zu zweifeln: unsere Daten anzuzweifeln, unsere Experimente anzuzweifeln, unsere Schlussfolgerungen anzuzweifeln.
+# sent_id = 51
+1	Einerseits	einerseits	ADV	ADV	_	2	advmod	_	start_char=6170|end_char=6180
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=6181|end_char=6184
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=6185|end_char=6187
+4	unser	unser	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	start_char=6188|end_char=6193
+5	Job	Job	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=6194|end_char=6197|SpaceAfter=No
+6	,	,	PUNCT	$,	_	13	punct	_	start_char=6197|end_char=6198
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=6199|end_char=6202
+8	Horizont	Horizont	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=6203|end_char=6211
+9	menschlichen	menschlich	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=6212|end_char=6224
+10	Wissens	Wissen	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	start_char=6225|end_char=6232
+11	grundlegend	grundlegend	ADJ	ADJD	Degree=Pos	13	advmod	_	start_char=6233|end_char=6244
+12	zu	zu	PART	PTKZU	_	13	mark	_	start_char=6245|end_char=6247
+13	erweitern	erweitern	VERB	VVINF	VerbForm=Inf	5	xcomp	_	start_char=6248|end_char=6257|SpaceAfter=No
+14	;	;	PUNCT	$.	_	19	punct	_	start_char=6257|end_char=6258
+15	zugleich	zugleich	ADV	ADV	_	19	advmod	_	start_char=6259|end_char=6267
+16	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	19	aux:pass	_	start_char=6268|end_char=6274
+17	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj:pass	_	start_char=6275|end_char=6278
+18	dazu	dazu	ADV	PAV	PronType=Dem	19	advmod	_	start_char=6279|end_char=6283
+19	ausgebildet	ausbilden	VERB	VVPP	VerbForm=Part	2	conj	_	start_char=6284|end_char=6295|SpaceAfter=No
+20	,	,	PUNCT	$,	_	22	punct	_	start_char=6295|end_char=6296
+21	zu	zu	PART	PTKZU	_	22	mark	_	start_char=6297|end_char=6299
+22	zweifeln	zweifeln	VERB	VVINF	VerbForm=Inf	19	xcomp	_	start_char=6300|end_char=6308|SpaceAfter=No
+23	:	:	PUNCT	$.	_	26	punct	_	start_char=6308|end_char=6309
+24	unsere	unser	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	25	det:poss	_	start_char=6310|end_char=6316
+25	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	26	obj	_	start_char=6317|end_char=6322
+26	anzuzweifeln	anzweifeln	VERB	VVIZU	VerbForm=Inf	19	csubj:pass	_	start_char=6323|end_char=6335|SpaceAfter=No
+27	,	,	PUNCT	$,	_	30	punct	_	start_char=6335|end_char=6336
+28	unsere	unser	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	29	det:poss	_	start_char=6337|end_char=6343
+29	Experimente	Experiment	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	30	obj	_	start_char=6344|end_char=6355
+30	anzuzweifeln	anzweifeln	VERB	VVIZU	VerbForm=Inf	26	xcomp	_	start_char=6356|end_char=6368|SpaceAfter=No
+31	,	,	PUNCT	$,	_	34	punct	_	start_char=6368|end_char=6369
+32	unsere	unser	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	33	det:poss	_	start_char=6370|end_char=6376
+33	Schlussfolgerungen	Schlussfolgerung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	34	obj	_	start_char=6377|end_char=6395
+34	anzuzweifeln	anzweifeln	VERB	VVIZU	VerbForm=Inf	30	xcomp	_	start_char=6396|end_char=6408|SpaceAfter=No
+35	.	.	PUNCT	$.	_	2	punct	_	start_char=6408|end_char=6409|SpacesAfter=\n\n
+
+# text = Wir verbringen unser Leben zerdrückt von der Last von ständiger, unerbittlicher, endloser Angst, Ungewissheit und Selbstzweifel.
+# sent_id = 52
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=6411|end_char=6414
+2	verbringen	verbringen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6415|end_char=6425
+3	unser	unser	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	start_char=6426|end_char=6431
+4	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=6432|end_char=6437
+5	zerdrückt	zerdrücken	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=6438|end_char=6447
+6	von	von	ADP	APPR	_	8	case	_	start_char=6448|end_char=6451
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=6452|end_char=6455
+8	Last	Last	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=6456|end_char=6460
+9	von	von	ADP	APPR	_	15	case	_	start_char=6461|end_char=6464
+10	ständiger	ständig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=6465|end_char=6474|SpaceAfter=No
+11	,	,	PUNCT	$,	_	12	punct	_	start_char=6474|end_char=6475
+12	unerbittlicher	unerbittlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	conj	_	start_char=6476|end_char=6490|SpaceAfter=No
+13	,	,	PUNCT	$,	_	14	punct	_	start_char=6490|end_char=6491
+14	endloser	endlos	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	conj	_	start_char=6492|end_char=6500
+15	Angst	Angst	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	start_char=6501|end_char=6506|SpaceAfter=No
+16	,	,	PUNCT	$,	_	17	punct	_	start_char=6506|end_char=6507
+17	Ungewissheit	Ungewissheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	conj	_	start_char=6508|end_char=6520
+18	und	und	CCONJ	KON	_	19	cc	_	start_char=6521|end_char=6524
+19	Selbstzweifel	Selbstzweifel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	conj	_	start_char=6525|end_char=6538|SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	start_char=6538|end_char=6539|SpacesAfter=\n\n
+
+# text = Und damit habe ich wirklich Probleme.
+# sent_id = 53
+1	Und	und	CCONJ	KON	_	3	cc	_	start_char=6541|end_char=6544
+2	damit	damit	ADV	PAV	PronType=Dem	3	advmod	_	start_char=6545|end_char=6550
+3	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6551|end_char=6555
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=6556|end_char=6559
+5	wirklich	wirklich	ADV	ADV	_	3	advmod	_	start_char=6560|end_char=6568
+6	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=6569|end_char=6577|SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=6577|end_char=6578|SpacesAfter=\n\n
+
+# text = Aber ich denke, fast jeder Wissenschaftler kann davon erzählen, wie man diese Zweifel ignoriert und das Experiment gemacht hat, das nie funktionierte.
+# sent_id = 54
+1	Aber	aber	CCONJ	KON	_	3	cc	_	start_char=6580|end_char=6584
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=6585|end_char=6588
+3	denke	denken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6589|end_char=6594|SpaceAfter=No
+4	,	,	PUNCT	$,	_	10	punct	_	start_char=6594|end_char=6595
+5	fast	fast	ADV	ADV	_	6	advmod	_	start_char=6596|end_char=6600
+6	jeder	jeder	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	7	det	_	start_char=6601|end_char=6606
+7	Wissenschaftler	Wissenschaftler	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=6607|end_char=6622
+8	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=6623|end_char=6627
+9	davon	davon	ADV	PAV	PronType=Dem	10	advmod	_	start_char=6628|end_char=6633
+10	erzählen	erzählen	VERB	VVINF	VerbForm=Inf	3	ccomp	_	start_char=6634|end_char=6642|SpaceAfter=No
+11	,	,	PUNCT	$,	_	16	punct	_	start_char=6642|end_char=6643
+12	wie	wie	SCONJ	KOUS	_	16	mark	_	start_char=6644|end_char=6647
+13	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	16	nsubj	_	start_char=6648|end_char=6651
+14	diese	dieser	DET	PDAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	15	det	_	start_char=6652|end_char=6657
+15	Zweifel	Zweifel	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	16	obj	_	start_char=6658|end_char=6665
+16	ignoriert	ignorieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	start_char=6666|end_char=6675
+17	und	und	CCONJ	KON	_	20	cc	_	start_char=6676|end_char=6679
+18	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	start_char=6680|end_char=6683
+19	Experiment	Experiment	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	20	obj	_	start_char=6684|end_char=6694
+20	gemacht	machen	VERB	VVPP	VerbForm=Part	16	conj	_	start_char=6695|end_char=6702
+21	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	start_char=6703|end_char=6706|SpaceAfter=No
+22	,	,	PUNCT	$,	_	25	punct	_	start_char=6706|end_char=6707
+23	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	25	nsubj	_	start_char=6708|end_char=6711
+24	nie	nie	ADV	ADV	_	25	advmod	_	start_char=6712|end_char=6715
+25	funktionierte	funktionieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	acl	_	start_char=6716|end_char=6729|SpaceAfter=No
+26	.	.	PUNCT	$.	_	3	punct	_	start_char=6729|end_char=6730|SpacesAfter=\n\n
+
+# text = Und: Von Zeit zu Zeit funktioniert eines dieser Experimente.
+# sent_id = 55
+1	Und	und	CCONJ	KON	_	7	cc	_	start_char=6732|end_char=6735|SpaceAfter=No
+2	:	:	PUNCT	$.	_	7	punct	_	start_char=6735|end_char=6736
+3	Von	von	ADP	APPR	_	4	case	_	start_char=6737|end_char=6740
+4	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	start_char=6741|end_char=6745
+5	zu	zu	ADP	APPR	_	6	case	_	start_char=6746|end_char=6748
+6	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	start_char=6749|end_char=6753
+7	funktioniert	funktionieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6754|end_char=6766
+8	eines	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	7	nsubj	_	start_char=6767|end_char=6772
+9	dieser	dieser	DET	PDAT	Case=Gen|Gender=Neut|Number=Plur|PronType=Dem	10	det	_	start_char=6773|end_char=6779
+10	Experimente	Experiment	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	start_char=6780|end_char=6791|SpaceAfter=No
+11	.	.	PUNCT	$.	_	7	punct	_	start_char=6791|end_char=6792|SpacesAfter=\n\n
+
+# text = Unsere Herausforderung ist: Während Zweifel destruktiv für unsere psychische Gesundheit sein können, sind sie auch der Grund, weshalb wissenschaftliche Genauigkeit so wirkungsvoll für Entdeckungen ist.
+# sent_id = 56
+1	Unsere	unser	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=6794|end_char=6800
+2	Herausforderung	Herausforderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	start_char=6801|end_char=6816
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=6817|end_char=6820|SpaceAfter=No
+4	:	:	PUNCT	$.	_	19	punct	_	start_char=6820|end_char=6821
+5	Während	während	SCONJ	KOUS	_	7	mark	_	start_char=6822|end_char=6829
+6	Zweifel	Zweifel	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=6830|end_char=6837
+7	destruktiv	destruktiv	ADJ	ADJD	Degree=Pos	2	advcl	_	start_char=6838|end_char=6848
+8	für	für	ADP	APPR	_	11	case	_	start_char=6849|end_char=6852
+9	unsere	unser	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	11	det:poss	_	start_char=6853|end_char=6859
+10	psychische	psychisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=6860|end_char=6870
+11	Gesundheit	Gesundheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	start_char=6871|end_char=6881
+12	sein	sein	AUX	VAINF	VerbForm=Inf	7	cop	_	start_char=6882|end_char=6886
+13	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=6887|end_char=6893|SpaceAfter=No
+14	,	,	PUNCT	$,	_	7	punct	_	start_char=6893|end_char=6894
+15	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=6895|end_char=6899
+16	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	start_char=6900|end_char=6903
+17	auch	auch	ADV	ADV	_	19	advmod	_	start_char=6904|end_char=6908
+18	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=6909|end_char=6912
+19	Grund	Grund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=6913|end_char=6918|SpaceAfter=No
+20	,	,	PUNCT	$,	_	25	punct	_	start_char=6918|end_char=6919
+21	weshalb	weshalb	ADV	PWAV	PronType=Int	25	advmod	_	start_char=6920|end_char=6927
+22	wissenschaftliche	wissenschaftlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=6928|end_char=6945
+23	Genauigkeit	Genauigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	start_char=6946|end_char=6957
+24	so	so	ADV	ADV	_	25	advmod	_	start_char=6958|end_char=6960
+25	wirkungsvoll	wirkungsvoll	ADJ	ADJD	Degree=Pos	19	advcl	_	start_char=6961|end_char=6973
+26	für	für	ADP	APPR	_	27	case	_	start_char=6974|end_char=6977
+27	Entdeckungen	Entdeckung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	25	nmod	_	start_char=6978|end_char=6990
+28	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	start_char=6991|end_char=6994|SpaceAfter=No
+29	.	.	PUNCT	$.	_	19	punct	_	start_char=6994|end_char=6995|SpacesAfter=\n\n
+
+# text = Sie zwingt uns dazu, wichtige Fragen zu stellen und Experimente zu wiederholen.
+# sent_id = 57
+1	Sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=6997|end_char=7000
+2	zwingt	zwingen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7001|end_char=7007
+3	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	obj	_	start_char=7008|end_char=7011
+4	dazu	dazu	ADV	PAV	PronType=Dem	2	advmod	_	start_char=7012|end_char=7016|SpaceAfter=No
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=7016|end_char=7017
+6	wichtige	wichtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=7018|end_char=7026
+7	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	start_char=7027|end_char=7033
+8	zu	zu	PART	PTKZU	_	9	mark	_	start_char=7034|end_char=7036
+9	stellen	stellen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	start_char=7037|end_char=7044
+10	und	und	CCONJ	KON	_	13	cc	_	start_char=7045|end_char=7048
+11	Experimente	Experiment	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	obj	_	start_char=7049|end_char=7060
+12	zu	zu	PART	PTKZU	_	13	mark	_	start_char=7061|end_char=7063
+13	wiederholen	wiederholen	VERB	VVINF	VerbForm=Inf	9	conj	_	start_char=7064|end_char=7075|SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=7075|end_char=7076|SpacesAfter=\n\n
+
+# text = Nichts daran ist einfach.
+# sent_id = 58
+1	Nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	4	nsubj	_	start_char=7078|end_char=7084
+2	daran	daran	ADV	PAV	PronType=Dem	1	advmod	_	start_char=7085|end_char=7090
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=7091|end_char=7094
+4	einfach	einfach	ADJ	ADJD	Degree=Pos	0	root	_	start_char=7095|end_char=7102|SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=7102|end_char=7103|SpacesAfter=\n\n
+
+# text = Und oft wird es zu unserer Verantwortung, die Last der schwierigen und manchmal herzzerreißenden Experimente zu tragen.
+# sent_id = 59
+1	Und	und	CCONJ	KON	_	3	cc	_	start_char=7105|end_char=7108
+2	oft	oft	ADV	ADV	_	3	advmod	_	start_char=7109|end_char=7112
+3	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7113|end_char=7117
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=7118|end_char=7120
+5	zu	zu	ADP	APPR	_	7	case	_	start_char=7121|end_char=7123
+6	unserer	unser	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=7124|end_char=7131
+7	Verantwortung	Verantwortung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=7132|end_char=7145|SpaceAfter=No
+8	,	,	PUNCT	$,	_	18	punct	_	start_char=7145|end_char=7146
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=7147|end_char=7150
+10	Last	Last	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	start_char=7151|end_char=7155
+11	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=7156|end_char=7159
+12	schwierigen	schwierig	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	start_char=7160|end_char=7171
+13	und	und	CCONJ	KON	_	15	cc	_	start_char=7172|end_char=7175
+14	manchmal	manchmal	ADV	ADV	_	15	advmod	_	start_char=7176|end_char=7184
+15	herzzerreißenden	herzzerreißend	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	12	conj	_	start_char=7185|end_char=7201
+16	Experimente	Experiment	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	start_char=7202|end_char=7213
+17	zu	zu	PART	PTKZU	_	18	mark	_	start_char=7214|end_char=7216
+18	tragen	tragen	VERB	VVINF	VerbForm=Inf	7	acl	_	start_char=7217|end_char=7223|SpaceAfter=No
+19	.	.	PUNCT	$.	_	3	punct	_	start_char=7223|end_char=7224|SpacesAfter=\n\n
+
+# text = Am Ende führt das zur Erschaffung von neuem Wissen, und in manchen, wirklich seltenen Fällen, zu einer Innovation, die das Leben eines Menschen verändern könnte.
+# sent_id = 60
+1-2	Am	_	_	_	_	_	_	_	start_char=7226|end_char=7228
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Ende	Ende	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=7229|end_char=7233
+4	führt	führen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7234|end_char=7239
+5	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	nsubj	_	start_char=7240|end_char=7243
+6-7	zur	_	_	_	_	_	_	_	start_char=7244|end_char=7247
+6	zu	zu	ADP	APPR	_	8	case	_	_
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Erschaffung	Erschaffung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=7248|end_char=7259
+9	von	von	ADP	APPR	_	11	case	_	start_char=7260|end_char=7263
+10	neuem	neu	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=7264|end_char=7269
+11	Wissen	Wissen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	start_char=7270|end_char=7276|SpaceAfter=No
+12	,	,	PUNCT	$,	_	19	punct	_	start_char=7276|end_char=7277
+13	und	und	CCONJ	KON	_	19	cc	_	start_char=7278|end_char=7281
+14	in	in	ADP	APPR	_	19	case	_	start_char=7282|end_char=7284
+15	manchen	mancher	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	19	det	_	start_char=7285|end_char=7292|SpaceAfter=No
+16	,	,	PUNCT	$,	_	18	punct	_	start_char=7292|end_char=7293
+17	wirklich	wirklich	ADJ	ADV	Degree=Pos	18	advmod	_	start_char=7294|end_char=7302
+18	seltenen	selten	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	19	amod	_	start_char=7303|end_char=7311
+19	Fällen	Fall|Fällen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	conj	_	start_char=7312|end_char=7318|SpaceAfter=No
+20	,	,	PUNCT	$,	_	23	punct	_	start_char=7318|end_char=7319
+21	zu	zu	ADP	APPR	_	23	case	_	start_char=7320|end_char=7322
+22	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	23	det	_	start_char=7323|end_char=7328
+23	Innovation	Innovation	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=7329|end_char=7339|SpaceAfter=No
+24	,	,	PUNCT	$,	_	30	punct	_	start_char=7339|end_char=7340
+25	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	30	nsubj	_	start_char=7341|end_char=7344
+26	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	27	det	_	start_char=7345|end_char=7348
+27	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	30	obj	_	start_char=7349|end_char=7354
+28	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	29	det	_	start_char=7355|end_char=7360
+29	Menschen	Mensch	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	start_char=7361|end_char=7369
+30	verändern	verändern	VERB	VVINF	VerbForm=Inf	23	acl	_	start_char=7370|end_char=7379
+31	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	aux	_	start_char=7380|end_char=7386|SpaceAfter=No
+32	.	.	PUNCT	$.	_	4	punct	_	start_char=7386|end_char=7387|SpacesAfter=\n\n
+
+# text = Danke.
+# sent_id = 61
+1	Danke	Dank	NOUN	PTKANT	_	0	root	_	start_char=7389|end_char=7394|SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_	start_char=7394|end_char=7395|SpaceAfter=No
