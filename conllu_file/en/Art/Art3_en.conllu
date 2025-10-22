@@ -1,12 +1,9 @@
 # conllu_stats: begin
 # conllu_tokens: 1539
 # conllu_sentences: 76
-# Average tokens per senteces: 20.25
-# sentece_pairs: 3
+# Average tokens per sentence: 20.25
+# sentence_pairs: 3
 # conllu_stats: end
-
-
-
 
 
 # text = Fashion that celebrates all body types -- boldly and unapologetically
@@ -20,13 +17,13 @@
 7	--	--	PUNCT	,	_	8	punct	_	start_char=39|end_char=41
 8	boldly	boldly	ADV	RB	_	3	advmod	_	start_char=42|end_char=48
 9	and	and	CCONJ	CC	_	10	cc	_	start_char=49|end_char=52
-10	unapologetically	unapologetically	ADV	RB	Degree=Pos	8	conj	_	start_char=53|end_char=69|SpacesAfter=\n\n
+10	unapologetically	unapologetically	ADV	RB	Degree=Pos	8	conj	_	SpacesAfter=\n\n|start_char=53|end_char=69
 
 # text = As fashion designers, our decisions have the power to change our culture.
 # sent_id = 1
 1	As	as	ADP	IN	_	3	case	_	start_char=71|end_char=73
 2	fashion	fashion	NOUN	NN	Number=Sing	3	compound	_	start_char=74|end_char=81
-3	designers	designer	NOUN	NNS	Number=Plur	7	obl	_	start_char=82|end_char=91|SpaceAfter=No
+3	designers	designer	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No|start_char=82|end_char=91
 4	,	,	PUNCT	,	_	3	punct	_	start_char=91|end_char=92
 5	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=93|end_char=96
 6	decisions	decision	NOUN	NNS	Number=Plur	7	nsubj	_	start_char=97|end_char=106
@@ -36,8 +33,8 @@
 10	to	to	PART	TO	_	11	mark	_	start_char=122|end_char=124
 11	change	change	VERB	VB	VerbForm=Inf	9	acl	_	start_char=125|end_char=131
 12	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=132|end_char=135
-13	culture	culture	NOUN	NN	Number=Sing	11	obj	_	start_char=136|end_char=143|SpaceAfter=No
-14	.	.	PUNCT	.	_	7	punct	_	start_char=143|end_char=144|SpacesAfter=\n\n
+13	culture	culture	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No|start_char=136|end_char=143
+14	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=143|end_char=144
 
 # text = We choose who is cast in our runway shows and campaigns, and ultimately, who is celebrated and considered beautiful, and who is not.
 # sent_id = 2
@@ -51,23 +48,23 @@
 8	runway	runway	NOUN	NN	Number=Sing	9	compound	_	start_char=175|end_char=181
 9	shows	show	NOUN	NNS	Number=Plur	5	obl	_	start_char=182|end_char=187
 10	and	and	CCONJ	CC	_	11	cc	_	start_char=188|end_char=191
-11	campaigns	campaign	NOUN	NNS	Number=Plur	9	conj	_	start_char=192|end_char=201|SpaceAfter=No
+11	campaigns	campaign	NOUN	NNS	Number=Plur	9	conj	_	SpaceAfter=No|start_char=192|end_char=201
 12	,	,	PUNCT	,	_	13	punct	_	start_char=201|end_char=202
 13	and	and	CCONJ	CC	_	18	cc	_	start_char=203|end_char=206
-14	ultimately	ultimately	ADV	RB	_	18	advmod	_	start_char=207|end_char=217|SpaceAfter=No
+14	ultimately	ultimately	ADV	RB	_	18	advmod	_	SpaceAfter=No|start_char=207|end_char=217
 15	,	,	PUNCT	,	_	14	punct	_	start_char=217|end_char=218
 16	who	who	PRON	WP	PronType=Int	18	nsubj:pass	_	start_char=219|end_char=222
 17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	start_char=223|end_char=225
 18	celebrated	celebrate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	acl:relcl	_	start_char=226|end_char=236
 19	and	and	CCONJ	CC	_	20	cc	_	start_char=237|end_char=240
 20	considered	consider	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	conj	_	start_char=241|end_char=251
-21	beautiful	beautiful	ADJ	JJ	Degree=Pos	20	xcomp	_	start_char=252|end_char=261|SpaceAfter=No
+21	beautiful	beautiful	ADJ	JJ	Degree=Pos	20	xcomp	_	SpaceAfter=No|start_char=252|end_char=261
 22	,	,	PUNCT	,	_	25	punct	_	start_char=261|end_char=262
 23	and	and	CCONJ	CC	_	25	cc	_	start_char=263|end_char=266
 24	who	who	PRON	WP	PronType=Int	25	nsubj	_	start_char=267|end_char=270
 25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	start_char=271|end_char=273
-26	not	not	PART	RB	Polarity=Neg	25	advmod	_	start_char=274|end_char=277|SpaceAfter=No
-27	.	.	PUNCT	.	_	2	punct	_	start_char=277|end_char=278|SpacesAfter=\n\n
+26	not	not	PART	RB	Polarity=Neg	25	advmod	_	SpaceAfter=No|start_char=274|end_char=277
+27	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=277|end_char=278
 
 # text = Having this platform is a responsibility.
 # sent_id = 3
@@ -76,8 +73,8 @@
 3	platform	platform	NOUN	NN	Number=Sing	1	obj	_	start_char=292|end_char=300
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=301|end_char=303
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=304|end_char=305
-6	responsibility	responsibility	NOUN	NN	Number=Sing	0	root	_	start_char=306|end_char=320|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	punct	_	start_char=320|end_char=321|SpacesAfter=\n\n
+6	responsibility	responsibility	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=306|end_char=320
+7	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=320|end_char=321
 
 # text = One that can be utilized to exclude people or to empower others.
 # sent_id = 4
@@ -92,20 +89,20 @@
 9	or	or	CCONJ	CC	_	11	cc	_	start_char=366|end_char=368
 10	to	to	PART	TO	_	11	mark	_	start_char=369|end_char=371
 11	empower	empower	VERB	VB	VerbForm=Inf	7	conj	_	start_char=372|end_char=379
-12	others	other	NOUN	NNS	Number=Plur	11	obj	_	start_char=380|end_char=386|SpaceAfter=No
-13	.	.	PUNCT	.	_	1	punct	_	start_char=386|end_char=387|SpacesAfter=\n\n
+12	others	other	NOUN	NNS	Number=Plur	11	obj	_	SpaceAfter=No|start_char=380|end_char=386
+13	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n|start_char=386|end_char=387
 
 # text = Growing up, I was obsessed with fashion.
 # sent_id = 5
 1	Growing	grow	VERB	VBG	Tense=Pres|VerbForm=Part	6	advcl	_	start_char=389|end_char=396
-2	up	up	ADP	RP	_	1	compound:prt	_	start_char=397|end_char=399|SpaceAfter=No
+2	up	up	ADP	RP	_	1	compound:prt	_	SpaceAfter=No|start_char=397|end_char=399
 3	,	,	PUNCT	,	_	1	punct	_	start_char=399|end_char=400
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj:pass	_	start_char=401|end_char=402
 5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux:pass	_	start_char=403|end_char=406
 6	obsessed	obsess	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=407|end_char=415
 7	with	with	ADP	IN	_	8	case	_	start_char=416|end_char=420
-8	fashion	fashion	NOUN	NN	Number=Sing	6	obl	_	start_char=421|end_char=428|SpaceAfter=No
-9	.	.	PUNCT	.	_	6	punct	_	start_char=428|end_char=429|SpacesAfter=\n\n
+8	fashion	fashion	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No|start_char=421|end_char=428
+9	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=428|end_char=429
 
 # text = I pored over all different types of fashion magazines at my local Barnes and Noble.
 # sent_id = 6
@@ -123,8 +120,8 @@
 12	local	local	ADJ	JJ	Degree=Pos	13	amod	_	start_char=491|end_char=496
 13	Barnes	Barnes	PROPN	NNP	Number=Sing	6	nmod	_	start_char=497|end_char=503
 14	and	and	CCONJ	CC	_	15	cc	_	start_char=504|end_char=507
-15	Noble	Noble	PROPN	NNP	Number=Sing	13	conj	_	start_char=508|end_char=513|SpaceAfter=No
-16	.	.	PUNCT	.	_	2	punct	_	start_char=513|end_char=514|SpacesAfter=\n\n
+15	Noble	Noble	PROPN	NNP	Number=Sing	13	conj	_	SpaceAfter=No|start_char=508|end_char=513
+16	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=513|end_char=514
 
 # text = To be fashionable was to be tall, skinny, with long, shiny hair.
 # sent_id = 7
@@ -134,16 +131,16 @@
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	start_char=534|end_char=537
 5	to	to	PART	TO	_	7	mark	_	start_char=538|end_char=540
 6	be	be	AUX	VB	VerbForm=Inf	7	cop	_	start_char=541|end_char=543
-7	tall	tall	ADJ	JJ	Degree=Pos	0	root	_	start_char=544|end_char=548|SpaceAfter=No
+7	tall	tall	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No|start_char=544|end_char=548
 8	,	,	PUNCT	,	_	9	punct	_	start_char=548|end_char=549
-9	skinny	skinny	ADJ	JJ	Degree=Pos	7	conj	_	start_char=550|end_char=556|SpaceAfter=No
+9	skinny	skinny	ADJ	JJ	Degree=Pos	7	conj	_	SpaceAfter=No|start_char=550|end_char=556
 10	,	,	PUNCT	,	_	15	punct	_	start_char=556|end_char=557
 11	with	with	ADP	IN	_	15	case	_	start_char=558|end_char=562
-12	long	long	ADJ	JJ	Degree=Pos	15	amod	_	start_char=563|end_char=567|SpaceAfter=No
+12	long	long	ADJ	JJ	Degree=Pos	15	amod	_	SpaceAfter=No|start_char=563|end_char=567
 13	,	,	PUNCT	,	_	12	punct	_	start_char=567|end_char=568
 14	shiny	shiny	ADJ	JJ	Degree=Pos	15	amod	_	start_char=569|end_char=574
-15	hair	hair	NOUN	NN	Number=Sing	7	obl	_	start_char=575|end_char=579|SpaceAfter=No
-16	.	.	PUNCT	.	_	7	punct	_	start_char=579|end_char=580|SpacesAfter=\n\n
+15	hair	hair	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No|start_char=575|end_char=579
+16	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=579|end_char=580
 
 # text = That's what I saw as the ideal, and it was reinforced everywhere I looked.
 # sent_id = 8
@@ -155,7 +152,7 @@
 5	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	acl:relcl	_	start_char=596|end_char=599
 6	as	as	ADP	IN	_	8	case	_	start_char=600|end_char=602
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=603|end_char=606
-8	ideal	ideal	NOUN	NN	Number=Sing	5	obl	_	start_char=607|end_char=612|SpaceAfter=No
+8	ideal	ideal	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No|start_char=607|end_char=612
 9	,	,	PUNCT	,	_	13	punct	_	start_char=612|end_char=613
 10	and	and	CCONJ	CC	_	13	cc	_	start_char=614|end_char=617
 11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj:pass	_	start_char=618|end_char=620
@@ -163,20 +160,20 @@
 13	reinforced	reinforce	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	start_char=625|end_char=635
 14	everywhere	everywhere	ADV	RB	_	13	advmod	_	start_char=636|end_char=646
 15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	start_char=647|end_char=648
-16	looked	look	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	parataxis	_	start_char=649|end_char=655|SpaceAfter=No
-17	.	.	PUNCT	.	_	3	punct	_	start_char=655|end_char=656|SpacesAfter=\n\n
+16	looked	look	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	parataxis	_	SpaceAfter=No|start_char=649|end_char=655
+17	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=655|end_char=656
 
 # text = And to be honest, it still is.
 # sent_id = 9
 1	And	and	CCONJ	CC	_	8	cc	_	start_char=658|end_char=661
 2	to	to	PART	TO	_	4	mark	_	start_char=662|end_char=664
 3	be	be	AUX	VB	VerbForm=Inf	4	cop	_	start_char=665|end_char=667
-4	honest	honest	ADJ	JJ	Degree=Pos	8	advcl	_	start_char=668|end_char=674|SpaceAfter=No
+4	honest	honest	ADJ	JJ	Degree=Pos	8	advcl	_	SpaceAfter=No|start_char=668|end_char=674
 5	,	,	PUNCT	,	_	4	punct	_	start_char=674|end_char=675
 6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=676|end_char=678
 7	still	still	ADV	RB	_	8	advmod	_	start_char=679|end_char=684
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=685|end_char=687|SpaceAfter=No
-9	.	.	PUNCT	.	_	8	punct	_	start_char=687|end_char=688|SpacesAfter=\n\n
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=685|end_char=687
+9	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n\n|start_char=687|end_char=688
 
 # text = I wanted to be like the models, so I stopped eating.
 # sent_id = 10
@@ -186,13 +183,13 @@
 4	be	be	AUX	VB	VerbForm=Inf	7	cop	_	start_char=702|end_char=704
 5	like	like	ADP	IN	_	7	case	_	start_char=705|end_char=709
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=710|end_char=713
-7	models	model	NOUN	NNS	Number=Plur	2	xcomp	_	start_char=714|end_char=720|SpaceAfter=No
+7	models	model	NOUN	NNS	Number=Plur	2	xcomp	_	SpaceAfter=No|start_char=714|end_char=720
 8	,	,	PUNCT	,	_	11	punct	_	start_char=720|end_char=721
 9	so	so	ADV	RB	_	11	advmod	_	start_char=722|end_char=724
 10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=725|end_char=726
 11	stopped	stop	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	parataxis	_	start_char=727|end_char=734
-12	eating	eat	VERB	VBG	VerbForm=Ger	11	xcomp	_	start_char=735|end_char=741|SpaceAfter=No
-13	.	.	PUNCT	.	_	2	punct	_	start_char=741|end_char=742|SpacesAfter=\n\n
+12	eating	eat	VERB	VBG	VerbForm=Ger	11	xcomp	_	SpaceAfter=No|start_char=735|end_char=741
+13	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=741|end_char=742
 
 # text = It was a dark time in my life; my eating disorder consumed me.
 # sent_id = 11
@@ -203,14 +200,14 @@
 5	time	time	NOUN	NN	Number=Sing	0	root	_	start_char=758|end_char=762
 6	in	in	ADP	IN	_	8	case	_	start_char=763|end_char=765
 7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=766|end_char=768
-8	life	life	NOUN	NN	Number=Sing	5	nmod	_	start_char=769|end_char=773|SpaceAfter=No
+8	life	life	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No|start_char=769|end_char=773
 9	;	;	PUNCT	,	_	13	punct	_	start_char=773|end_char=774
 10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=775|end_char=777
 11	eating	eating	NOUN	NN	Number=Sing	12	compound	_	start_char=778|end_char=784
 12	disorder	disorder	NOUN	NN	Number=Sing	13	nsubj	_	start_char=785|end_char=793
 13	consumed	consume	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	parataxis	_	start_char=794|end_char=802
-14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obj	_	start_char=803|end_char=805|SpaceAfter=No
-15	.	.	PUNCT	.	_	5	punct	_	start_char=805|end_char=806|SpacesAfter=\n\n
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obj	_	SpaceAfter=No|start_char=803|end_char=805
+15	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=805|end_char=806
 
 # text = All I could think about was counting every single calorie, and waking up early before school every day so I could run a few miles.
 # sent_id = 12
@@ -223,7 +220,7 @@
 7	counting	count	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=836|end_char=844
 8	every	every	DET	DT	PronType=Tot	10	det	_	start_char=845|end_char=850
 9	single	single	ADJ	JJ	Degree=Pos	10	amod	_	start_char=851|end_char=857
-10	calorie	calorie	NOUN	NN	Number=Sing	7	obj	_	start_char=858|end_char=865|SpaceAfter=No
+10	calorie	calorie	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No|start_char=858|end_char=865
 11	,	,	PUNCT	,	_	13	punct	_	start_char=865|end_char=866
 12	and	and	CCONJ	CC	_	13	cc	_	start_char=867|end_char=870
 13	waking	wake	VERB	VBG	Tense=Pres|VerbForm=Part	7	conj	_	start_char=871|end_char=877
@@ -239,8 +236,8 @@
 23	run	run	VERB	VB	VerbForm=Inf	7	parataxis	_	start_char=922|end_char=925
 24	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	start_char=926|end_char=927
 25	few	few	ADJ	JJ	Degree=Pos	26	amod	_	start_char=928|end_char=931
-26	miles	mile	NOUN	NNS	Number=Plur	23	obl:unmarked	_	start_char=932|end_char=937|SpaceAfter=No
-27	.	.	PUNCT	.	_	7	punct	_	start_char=937|end_char=938|SpacesAfter=\n\n
+26	miles	mile	NOUN	NNS	Number=Plur	23	obl:unmarked	_	SpaceAfter=No|start_char=932|end_char=937
+27	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=937|end_char=938
 
 # text = It took me years to finally release the grip that the eating disorder had over my life.
 # sent_id = 13
@@ -260,15 +257,15 @@
 14	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl	_	start_char=1010|end_char=1013
 15	over	over	ADP	IN	_	17	case	_	start_char=1014|end_char=1018
 16	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	start_char=1019|end_char=1021
-17	life	life	NOUN	NN	Number=Sing	14	obl	_	start_char=1022|end_char=1026|SpaceAfter=No
-18	.	.	PUNCT	.	_	2	punct	_	start_char=1026|end_char=1027|SpacesAfter=\n\n
+17	life	life	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No|start_char=1022|end_char=1026
+18	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=1026|end_char=1027
 
 # text = But when it did, it freed up so much brain space to think about what I was truly passionate about.
 # sent_id = 14
 1	But	but	CCONJ	CC	_	7	cc	_	start_char=1029|end_char=1032
 2	when	when	ADV	WRB	PronType=Int	4	advmod	_	start_char=1033|end_char=1037
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=1038|end_char=1040
-4	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	start_char=1041|end_char=1044|SpaceAfter=No
+4	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	SpaceAfter=No|start_char=1041|end_char=1044
 5	,	,	PUNCT	,	_	4	punct	_	start_char=1044|end_char=1045
 6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=1046|end_char=1048
 7	freed	free	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1049|end_char=1054
@@ -285,14 +282,14 @@
 18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	20	cop	_	start_char=1100|end_char=1103
 19	truly	truly	ADV	RB	_	20	advmod	_	start_char=1104|end_char=1109
 20	passionate	passionate	ADJ	JJ	Degree=Pos	16	acl:relcl	_	start_char=1110|end_char=1120
-21	about	about	ADP	IN	_	20	obl	_	start_char=1121|end_char=1126|SpaceAfter=No
-22	.	.	PUNCT	.	_	7	punct	_	start_char=1126|end_char=1127|SpacesAfter=\n\n
+21	about	about	ADP	IN	_	20	obl	_	SpaceAfter=No|start_char=1121|end_char=1126
+22	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=1126|end_char=1127
 
 # text = For so long, the fashion industry has worked hard to set an ideal of beauty that celebrates thin, young, white, cisgender, able-bodied models as the ideal.
 # sent_id = 15
 1	For	for	ADP	IN	_	3	case	_	start_char=1129|end_char=1132
 2	so	so	ADV	RB	_	3	advmod	_	start_char=1133|end_char=1135
-3	long	long	ADV	RB	Degree=Pos	9	obl	_	start_char=1136|end_char=1140|SpaceAfter=No
+3	long	long	ADV	RB	Degree=Pos	9	obl	_	SpaceAfter=No|start_char=1136|end_char=1140
 4	,	,	PUNCT	,	_	3	punct	_	start_char=1140|end_char=1141
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=1142|end_char=1145
 6	fashion	fashion	NOUN	NN	Number=Sing	7	compound	_	start_char=1146|end_char=1153
@@ -308,22 +305,22 @@
 16	beauty	beauty	NOUN	NN	Number=Sing	14	nmod	_	start_char=1198|end_char=1204
 17	that	that	PRON	WDT	PronType=Rel	18	nsubj	_	start_char=1205|end_char=1209
 18	celebrates	celebrate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	start_char=1210|end_char=1220
-19	thin	thin	ADJ	JJ	Degree=Pos	30	amod	_	start_char=1221|end_char=1225|SpaceAfter=No
+19	thin	thin	ADJ	JJ	Degree=Pos	30	amod	_	SpaceAfter=No|start_char=1221|end_char=1225
 20	,	,	PUNCT	,	_	19	punct	_	start_char=1225|end_char=1226
-21	young	young	ADJ	JJ	Degree=Pos	30	amod	_	start_char=1227|end_char=1232|SpaceAfter=No
+21	young	young	ADJ	JJ	Degree=Pos	30	amod	_	SpaceAfter=No|start_char=1227|end_char=1232
 22	,	,	PUNCT	,	_	23	punct	_	start_char=1232|end_char=1233
-23	white	white	ADJ	JJ	Degree=Pos	19	conj	_	start_char=1234|end_char=1239|SpaceAfter=No
+23	white	white	ADJ	JJ	Degree=Pos	19	conj	_	SpaceAfter=No|start_char=1234|end_char=1239
 24	,	,	PUNCT	,	_	25	punct	_	start_char=1239|end_char=1240
-25	cisgender	cisgender	ADJ	JJ	Degree=Pos	19	conj	_	start_char=1241|end_char=1250|SpaceAfter=No
+25	cisgender	cisgender	ADJ	JJ	Degree=Pos	19	conj	_	SpaceAfter=No|start_char=1241|end_char=1250
 26	,	,	PUNCT	,	_	27	punct	_	start_char=1250|end_char=1251
-27	able	able	ADJ	JJ	Degree=Pos	29	amod	_	start_char=1252|end_char=1256|SpaceAfter=No
-28	-	-	PUNCT	HYPH	_	27	punct	_	start_char=1256|end_char=1257|SpaceAfter=No
+27	able	able	ADJ	JJ	Degree=Pos	29	amod	_	SpaceAfter=No|start_char=1252|end_char=1256
+28	-	-	PUNCT	HYPH	_	27	punct	_	SpaceAfter=No|start_char=1256|end_char=1257
 29	bodied	bodied	ADJ	JJ	Degree=Pos	19	conj	_	start_char=1257|end_char=1263
 30	models	model	NOUN	NNS	Number=Plur	18	obj	_	start_char=1264|end_char=1270
 31	as	as	ADP	IN	_	33	case	_	start_char=1271|end_char=1273
 32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	start_char=1274|end_char=1277
-33	ideal	ideal	NOUN	NN	Number=Sing	18	obl	_	start_char=1278|end_char=1283|SpaceAfter=No
-34	.	.	PUNCT	.	_	9	punct	_	start_char=1283|end_char=1284|SpacesAfter=\n\n
+33	ideal	ideal	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No|start_char=1278|end_char=1283
+34	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n\n|start_char=1283|end_char=1284
 
 # text = It's impossible not to be bombarded with images of models that have been photoshopped to where there's not a single pore, fat roll or stretch mark in sight.
 # sent_id = 16
@@ -351,7 +348,7 @@
 20	not	not	PART	RB	Polarity=Neg	19	advmod	_	start_char=1389|end_char=1392
 21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	start_char=1393|end_char=1394
 22	single	single	ADJ	JJ	Degree=Pos	23	amod	_	start_char=1395|end_char=1401
-23	pore	pore	NOUN	NN	Number=Sing	19	nsubj	_	start_char=1402|end_char=1406|SpaceAfter=No
+23	pore	pore	NOUN	NN	Number=Sing	19	nsubj	_	SpaceAfter=No|start_char=1402|end_char=1406
 24	,	,	PUNCT	,	_	26	punct	_	start_char=1406|end_char=1407
 25	fat	fat	ADJ	JJ	Degree=Pos	26	amod	_	start_char=1408|end_char=1411
 26	roll	roll	NOUN	NN	Number=Sing	23	conj	_	start_char=1412|end_char=1416
@@ -359,8 +356,8 @@
 28	stretch	stretch	NOUN	NN	Number=Sing	29	compound	_	start_char=1420|end_char=1427
 29	mark	mark	NOUN	NN	Number=Sing	23	conj	_	start_char=1428|end_char=1432
 30	in	in	ADP	IN	_	31	case	_	start_char=1433|end_char=1435
-31	sight	sight	NOUN	NN	Number=Sing	23	nmod	_	start_char=1436|end_char=1441|SpaceAfter=No
-32	.	.	PUNCT	.	_	3	punct	_	start_char=1441|end_char=1442|SpacesAfter=\n\n
+31	sight	sight	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No|start_char=1436|end_char=1441
+32	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=1441|end_char=1442
 
 # text = You don't need to look hard to find examples.
 # sent_id = 17
@@ -374,8 +371,8 @@
 7	hard	hard	ADJ	JJ	Degree=Pos	6	xcomp	_	start_char=1467|end_char=1471
 8	to	to	PART	TO	_	9	mark	_	start_char=1472|end_char=1474
 9	find	find	VERB	VB	VerbForm=Inf	6	advcl	_	start_char=1475|end_char=1479
-10	examples	example	NOUN	NNS	Number=Plur	9	obj	_	start_char=1480|end_char=1488|SpaceAfter=No
-11	.	.	PUNCT	.	_	4	punct	_	start_char=1488|end_char=1489|SpacesAfter=\n\n
+10	examples	example	NOUN	NNS	Number=Plur	9	obj	_	SpaceAfter=No|start_char=1480|end_char=1488
+11	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=1488|end_char=1489
 
 # text = This definition of beauty is damaging, dangerous and destructive, and we need to explode it immediately.
 # sent_id = 18
@@ -384,11 +381,11 @@
 3	of	of	ADP	IN	_	4	case	_	start_char=1507|end_char=1509
 4	beauty	beauty	NOUN	NN	Number=Sing	2	nmod	_	start_char=1510|end_char=1516
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1517|end_char=1519
-6	damaging	damaging	ADJ	JJ	Degree=Pos	0	root	_	start_char=1520|end_char=1528|SpaceAfter=No
+6	damaging	damaging	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1520|end_char=1528
 7	,	,	PUNCT	,	_	8	punct	_	start_char=1528|end_char=1529
 8	dangerous	dangerous	ADJ	JJ	Degree=Pos	6	conj	_	start_char=1530|end_char=1539
 9	and	and	CCONJ	CC	_	10	cc	_	start_char=1540|end_char=1543
-10	destructive	destructive	ADJ	JJ	Degree=Pos	6	conj	_	start_char=1544|end_char=1555|SpaceAfter=No
+10	destructive	destructive	ADJ	JJ	Degree=Pos	6	conj	_	SpaceAfter=No|start_char=1544|end_char=1555
 11	,	,	PUNCT	,	_	14	punct	_	start_char=1555|end_char=1556
 12	and	and	CCONJ	CC	_	14	cc	_	start_char=1557|end_char=1560
 13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	start_char=1561|end_char=1563
@@ -396,8 +393,8 @@
 15	to	to	PART	TO	_	16	mark	_	start_char=1569|end_char=1571
 16	explode	explode	VERB	VB	VerbForm=Inf	14	xcomp	_	start_char=1572|end_char=1579
 17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	start_char=1580|end_char=1582
-18	immediately	immediately	ADV	RB	_	16	advmod	_	start_char=1583|end_char=1594|SpaceAfter=No
-19	.	.	PUNCT	.	_	6	punct	_	start_char=1594|end_char=1595|SpacesAfter=\n\n
+18	immediately	immediately	ADV	RB	_	16	advmod	_	SpaceAfter=No|start_char=1583|end_char=1594
+19	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=1594|end_char=1595
 
 # text = I'm glad you agree.
 # sent_id = 19
@@ -406,8 +403,8 @@
 2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=1598|end_char=1600
 3	glad	glad	ADJ	JJ	Degree=Pos	0	root	_	start_char=1601|end_char=1605
 4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=1606|end_char=1609
-5	agree	agree	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	ccomp	_	start_char=1610|end_char=1615|SpaceAfter=No
-6	.	.	PUNCT	.	_	3	punct	_	start_char=1615|end_char=1616|SpacesAfter=\n\n
+5	agree	agree	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No|start_char=1610|end_char=1615
+6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=1615|end_char=1616
 
 # text = One of the worst things I've realized over the years is that my experience with disordered eating is not an anomaly.
 # sent_id = 20
@@ -433,13 +430,13 @@
 19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	start_char=1716|end_char=1718
 20	not	not	PART	RB	Polarity=Neg	22	advmod	_	start_char=1719|end_char=1722
 21	an	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	start_char=1723|end_char=1725
-22	anomaly	anomaly	NOUN	NN	Number=Sing	0	root	_	start_char=1726|end_char=1733|SpaceAfter=No
-23	.	.	PUNCT	.	_	22	punct	_	start_char=1733|end_char=1734|SpacesAfter=\n\n
+22	anomaly	anomaly	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=1726|end_char=1733
+23	.	.	PUNCT	.	_	22	punct	_	SpacesAfter=\n\n|start_char=1733|end_char=1734
 
 # text = In fact, it's par for the course.
 # sent_id = 21
 1	In	in	ADP	IN	_	2	case	_	start_char=1736|end_char=1738
-2	fact	fact	NOUN	NN	Number=Sing	6	obl	_	start_char=1739|end_char=1743|SpaceAfter=No
+2	fact	fact	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No|start_char=1739|end_char=1743
 3	,	,	PUNCT	,	_	2	punct	_	start_char=1743|end_char=1744
 4-5	it's	_	_	_	_	_	_	_	start_char=1745|end_char=1749
 4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=1745|end_char=1747
@@ -447,8 +444,8 @@
 6	par	par	NOUN	NN	Number=Sing	0	root	_	start_char=1750|end_char=1753
 7	for	for	ADP	IN	_	9	case	_	start_char=1754|end_char=1757
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=1758|end_char=1761
-9	course	course	NOUN	NN	Number=Sing	6	obl	_	start_char=1762|end_char=1768|SpaceAfter=No
-10	.	.	PUNCT	.	_	6	punct	_	start_char=1768|end_char=1769|SpacesAfter=\n\n
+9	course	course	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No|start_char=1762|end_char=1768
+10	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=1768|end_char=1769
 
 # text = I think there's a study that says 91 percent of women, and likely those of all gender identities, are unhappy with the way they look.
 # sent_id = 22
@@ -464,7 +461,7 @@
 9	91	91	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	_	start_char=1805|end_char=1807
 10	percent	percent	NOUN	NN	Number=Sing	23	nsubj	_	start_char=1808|end_char=1815
 11	of	of	ADP	IN	_	12	case	_	start_char=1816|end_char=1818
-12	women	woman	NOUN	NNS	Number=Plur	10	nmod	_	start_char=1819|end_char=1824|SpaceAfter=No
+12	women	woman	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No|start_char=1819|end_char=1824
 13	,	,	PUNCT	,	_	16	punct	_	start_char=1824|end_char=1825
 14	and	and	CCONJ	CC	_	16	cc	_	start_char=1826|end_char=1829
 15	likely	likely	ADJ	JJ	Degree=Pos	16	amod	_	start_char=1830|end_char=1836
@@ -472,7 +469,7 @@
 17	of	of	ADP	IN	_	20	case	_	start_char=1843|end_char=1845
 18	all	all	DET	DT	PronType=Tot	20	det	_	start_char=1846|end_char=1849
 19	gender	gender	NOUN	NN	Number=Sing	20	compound	_	start_char=1850|end_char=1856
-20	identities	identity	NOUN	NNS	Number=Plur	16	nmod	_	start_char=1857|end_char=1867|SpaceAfter=No
+20	identities	identity	NOUN	NNS	Number=Plur	16	nmod	_	SpaceAfter=No|start_char=1857|end_char=1867
 21	,	,	PUNCT	,	_	16	punct	_	start_char=1867|end_char=1868
 22	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	start_char=1869|end_char=1872
 23	unhappy	unhappy	ADJ	JJ	Degree=Pos	8	ccomp	_	start_char=1873|end_char=1880
@@ -480,8 +477,8 @@
 25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	start_char=1886|end_char=1889
 26	way	way	NOUN	NN	Number=Sing	23	obl	_	start_char=1890|end_char=1893
 27	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	28	nsubj	_	start_char=1894|end_char=1898
-28	look	look	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	start_char=1899|end_char=1903|SpaceAfter=No
-29	.	.	PUNCT	.	_	2	punct	_	start_char=1903|end_char=1904|SpacesAfter=\n\n
+28	look	look	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	SpaceAfter=No|start_char=1899|end_char=1903
+29	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=1903|end_char=1904
 
 # text = It's unforgivable that we live in a society where it's normal or expected for teenagers to grow up hating themselves.
 # sent_id = 23
@@ -508,8 +505,8 @@
 19	grow	grow	VERB	VB	VerbForm=Inf	15	advcl	_	start_char=1997|end_char=2001
 20	up	up	ADP	RP	_	19	compound:prt	_	start_char=2002|end_char=2004
 21	hating	hate	VERB	VBG	VerbForm=Ger	19	xcomp	_	start_char=2005|end_char=2011
-22	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	21	obj	_	start_char=2012|end_char=2022|SpaceAfter=No
-23	.	.	PUNCT	.	_	3	punct	_	start_char=2022|end_char=2023|SpacesAfter=\n\n
+22	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	21	obj	_	SpaceAfter=No|start_char=2012|end_char=2022
+23	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=2022|end_char=2023
 
 # text = We've been fighting for fat acceptance and women's body autonomy since the '60s.
 # sent_id = 24
@@ -529,9 +526,9 @@
 12	autonomy	autonomy	NOUN	NN	Number=Sing	7	conj	_	start_char=2081|end_char=2089
 13	since	since	ADP	IN	_	16	case	_	start_char=2090|end_char=2095
 14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=2096|end_char=2099
-15	'	'	ADJ	JJ	Degree=Pos	16	amod	_	start_char=2100|end_char=2101|SpaceAfter=No
-16	60s	60	NOUN	NNS	NumForm=Combi|NumType=Card|Number=Ptan	4	obl	_	start_char=2101|end_char=2104|SpaceAfter=No
-17	.	.	PUNCT	.	_	4	punct	_	start_char=2104|end_char=2105|SpacesAfter=\n\n
+15	'	'	ADJ	JJ	Degree=Pos	16	amod	_	SpaceAfter=No|start_char=2100|end_char=2101
+16	60s	60	NOUN	NNS	Number=Ptan|NumForm=Combi|NumType=Card	4	obl	_	SpaceAfter=No|start_char=2101|end_char=2104
+17	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=2104|end_char=2105
 
 # text = And there has been headway.
 # sent_id = 25
@@ -539,15 +536,15 @@
 2	there	there	PRON	EX	_	4	expl	_	start_char=2111|end_char=2116
 3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=2117|end_char=2120
 4	been	be	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=2121|end_char=2125
-5	headway	headway	NOUN	NN	Number=Sing	4	nsubj	_	start_char=2126|end_char=2133|SpaceAfter=No
-6	.	.	PUNCT	.	_	4	punct	_	start_char=2133|end_char=2134|SpacesAfter=\n\n
+5	headway	headway	NOUN	NN	Number=Sing	4	nsubj	_	SpaceAfter=No|start_char=2126|end_char=2133
+6	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=2133|end_char=2134
 
 # text = We have plus-size models like Ashley Graham and musicians with body-positive messages, like Lizzo, breaking into the mainstream.
 # sent_id = 26
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=2136|end_char=2138
 2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2139|end_char=2143
-3	plus	plus	CCONJ	CC	_	5	cc	_	start_char=2144|end_char=2148|SpaceAfter=No
-4	-	-	PUNCT	HYPH	_	3	punct	_	start_char=2148|end_char=2149|SpaceAfter=No
+3	plus	plus	CCONJ	CC	_	5	cc	_	SpaceAfter=No|start_char=2144|end_char=2148
+4	-	-	PUNCT	HYPH	_	3	punct	_	SpaceAfter=No|start_char=2148|end_char=2149
 5	size	size	NOUN	NN	Number=Sing	6	compound	_	start_char=2149|end_char=2153
 6	models	model	NOUN	NNS	Number=Plur	2	obj	_	start_char=2154|end_char=2160
 7	like	like	ADP	IN	_	8	case	_	start_char=2161|end_char=2165
@@ -556,25 +553,25 @@
 10	and	and	CCONJ	CC	_	11	cc	_	start_char=2180|end_char=2183
 11	musicians	musician	NOUN	NNS	Number=Plur	8	conj	_	start_char=2184|end_char=2193
 12	with	with	ADP	IN	_	16	case	_	start_char=2194|end_char=2198
-13	body	body	NOUN	NN	Number=Sing	15	compound	_	start_char=2199|end_char=2203|SpaceAfter=No
-14	-	-	PUNCT	HYPH	_	13	punct	_	start_char=2203|end_char=2204|SpaceAfter=No
+13	body	body	NOUN	NN	Number=Sing	15	compound	_	SpaceAfter=No|start_char=2199|end_char=2203
+14	-	-	PUNCT	HYPH	_	13	punct	_	SpaceAfter=No|start_char=2203|end_char=2204
 15	positive	positive	ADJ	JJ	Degree=Pos	16	amod	_	start_char=2204|end_char=2212
-16	messages	message	NOUN	NNS	Number=Plur	11	nmod	_	start_char=2213|end_char=2221|SpaceAfter=No
+16	messages	message	NOUN	NNS	Number=Plur	11	nmod	_	SpaceAfter=No|start_char=2213|end_char=2221
 17	,	,	PUNCT	,	_	19	punct	_	start_char=2221|end_char=2222
 18	like	like	ADP	IN	_	19	case	_	start_char=2223|end_char=2227
-19	Lizzo	Lizzo	PROPN	NNP	Number=Sing	16	nmod	_	start_char=2228|end_char=2233|SpaceAfter=No
+19	Lizzo	Lizzo	PROPN	NNP	Number=Sing	16	nmod	_	SpaceAfter=No|start_char=2228|end_char=2233
 20	,	,	PUNCT	,	_	21	punct	_	start_char=2233|end_char=2234
 21	breaking	break	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	_	start_char=2235|end_char=2243
 22	into	into	ADP	IN	_	24	case	_	start_char=2244|end_char=2248
 23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	start_char=2249|end_char=2252
-24	mainstream	mainstream	NOUN	NN	Number=Sing	21	obl	_	start_char=2253|end_char=2263|SpaceAfter=No
-25	.	.	PUNCT	.	_	2	punct	_	start_char=2263|end_char=2264|SpacesAfter=\n\n
+24	mainstream	mainstream	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No|start_char=2253|end_char=2263
+25	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=2263|end_char=2264
 
 # text = Thank God.
 # sent_id = 27
 1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2266|end_char=2271
-2	God	God	PROPN	NNP	Number=Sing	1	obj	_	start_char=2272|end_char=2275|SpaceAfter=No
-3	.	.	PUNCT	.	_	1	punct	_	start_char=2275|end_char=2276|SpacesAfter=\n\n
+2	God	God	PROPN	NNP	Number=Sing	1	obj	_	SpaceAfter=No|start_char=2272|end_char=2275
+3	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n|start_char=2275|end_char=2276
 
 # text = There's brands like Area that have released campaigns without any Photoshop retouching.
 # sent_id = 28
@@ -591,8 +588,8 @@
 10	without	without	ADP	IN	_	13	mark	_	start_char=2332|end_char=2339
 11	any	any	DET	DT	PronType=Ind	12	det	_	start_char=2340|end_char=2343
 12	Photoshop	photoshop	NOUN	NN	Number=Sing	13	nsubj	_	start_char=2344|end_char=2353
-13	retouching	retouch	VERB	VBG	VerbForm=Ger	8	advcl	_	start_char=2354|end_char=2364|SpaceAfter=No
-14	.	.	PUNCT	.	_	2	punct	_	start_char=2364|end_char=2365|SpacesAfter=\n\n
+13	retouching	retouch	VERB	VBG	VerbForm=Ger	8	advcl	_	SpaceAfter=No|start_char=2354|end_char=2364
+14	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=2364|end_char=2365
 
 # text = But we're still inundated with unrealistic expectations.
 # sent_id = 29
@@ -604,8 +601,8 @@
 5	inundated	inundate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=2383|end_char=2392
 6	with	with	ADP	IN	_	8	case	_	start_char=2393|end_char=2397
 7	unrealistic	unrealistic	ADJ	JJ	Degree=Pos	8	amod	_	start_char=2398|end_char=2409
-8	expectations	expectation	NOUN	NNS	Number=Plur	5	obl	_	start_char=2410|end_char=2422|SpaceAfter=No
-9	.	.	PUNCT	.	_	5	punct	_	start_char=2422|end_char=2423|SpacesAfter=\n\n
+8	expectations	expectation	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No|start_char=2410|end_char=2422
+9	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=2422|end_char=2423
 
 # text = I love this quote by Lizzo, who said, "Body positivity only exists because body negativity is the norm."
 # sent_id = 30
@@ -614,12 +611,12 @@
 3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	start_char=2432|end_char=2436
 4	quote	quote	NOUN	NN	Number=Sing	2	obj	_	start_char=2437|end_char=2442
 5	by	by	ADP	IN	_	6	case	_	start_char=2443|end_char=2445
-6	Lizzo	Lizzo	PROPN	NNP	Number=Sing	2	obl	_	start_char=2446|end_char=2451|SpaceAfter=No
+6	Lizzo	Lizzo	PROPN	NNP	Number=Sing	2	obl	_	SpaceAfter=No|start_char=2446|end_char=2451
 7	,	,	PUNCT	,	_	9	punct	_	start_char=2451|end_char=2452
 8	who	who	PRON	WP	PronType=Rel	9	nsubj	_	start_char=2453|end_char=2456
-9	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	start_char=2457|end_char=2461|SpaceAfter=No
+9	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No|start_char=2457|end_char=2461
 10	,	,	PUNCT	,	_	15	punct	_	start_char=2461|end_char=2462
-11	"	"	PUNCT	``	_	15	punct	_	start_char=2463|end_char=2464|SpaceAfter=No
+11	"	"	PUNCT	``	_	15	punct	_	SpaceAfter=No|start_char=2463|end_char=2464
 12	Body	body	NOUN	NN	Number=Sing	13	compound	_	start_char=2464|end_char=2468
 13	positivity	positivity	NOUN	NN	Number=Sing	15	nsubj	_	start_char=2469|end_char=2479
 14	only	only	ADV	RB	_	15	advmod	_	start_char=2480|end_char=2484
@@ -629,9 +626,9 @@
 18	negativity	negativity	NOUN	NN	Number=Sing	21	nsubj	_	start_char=2505|end_char=2515
 19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	start_char=2516|end_char=2518
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=2519|end_char=2522
-21	norm	norm	NOUN	NN	Number=Sing	15	advcl	_	start_char=2523|end_char=2527|SpaceAfter=No
-22	.	.	PUNCT	.	_	15	punct	_	start_char=2527|end_char=2528|SpaceAfter=No
-23	"	"	PUNCT	''	_	15	punct	_	start_char=2528|end_char=2529|SpacesAfter=\n\n
+21	norm	norm	NOUN	NN	Number=Sing	15	advcl	_	SpaceAfter=No|start_char=2523|end_char=2527
+22	.	.	PUNCT	.	_	15	punct	_	SpaceAfter=No|start_char=2527|end_char=2528
+23	"	"	PUNCT	''	_	15	punct	_	SpacesAfter=\n\n|start_char=2528|end_char=2529
 
 # text = So how do we change the stigma around looking different or not fitting into this narrow definition of beauty?
 # sent_id = 31
@@ -653,8 +650,8 @@
 16	narrow	narrow	ADJ	JJ	Degree=Pos	17	amod	_	start_char=2612|end_char=2618
 17	definition	definition	NOUN	NN	Number=Sing	13	obl	_	start_char=2619|end_char=2629
 18	of	of	ADP	IN	_	19	case	_	start_char=2630|end_char=2632
-19	beauty	beauty	NOUN	NN	Number=Sing	17	nmod	_	start_char=2633|end_char=2639|SpaceAfter=No
-20	?	?	PUNCT	.	_	5	punct	_	start_char=2639|end_char=2640|SpacesAfter=\n\n
+19	beauty	beauty	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No|start_char=2633|end_char=2639
+20	?	?	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=2639|end_char=2640
 
 # text = I believe it's by celebrating beauty in all different forms, bold and unapologetically.
 # sent_id = 32
@@ -669,12 +666,12 @@
 8	in	in	ADP	IN	_	11	case	_	start_char=2679|end_char=2681
 9	all	all	DET	DT	PronType=Tot	11	det	_	start_char=2682|end_char=2685
 10	different	different	ADJ	JJ	Degree=Pos	11	amod	_	start_char=2686|end_char=2695
-11	forms	form	NOUN	NNS	Number=Plur	6	obl	_	start_char=2696|end_char=2701|SpaceAfter=No
+11	forms	form	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No|start_char=2696|end_char=2701
 12	,	,	PUNCT	,	_	13	punct	_	start_char=2701|end_char=2702
 13	bold	bold	ADJ	JJ	Degree=Pos	11	amod	_	start_char=2703|end_char=2707
 14	and	and	CCONJ	CC	_	15	cc	_	start_char=2708|end_char=2711
-15	unapologetically	unapologetically	ADV	RB	_	13	conj	_	start_char=2712|end_char=2728|SpaceAfter=No
-16	.	.	PUNCT	.	_	2	punct	_	start_char=2728|end_char=2729|SpacesAfter=\n\n
+15	unapologetically	unapologetically	ADV	RB	_	13	conj	_	SpaceAfter=No|start_char=2712|end_char=2728
+16	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=2728|end_char=2729
 
 # text = But many fashion designers continue to reinforce this narrow definition of beauty.
 # sent_id = 33
@@ -689,8 +686,8 @@
 9	narrow	narrow	ADJ	JJ	Degree=Pos	10	amod	_	start_char=2785|end_char=2791
 10	definition	definition	NOUN	NN	Number=Sing	7	obj	_	start_char=2792|end_char=2802
 11	of	of	ADP	IN	_	12	case	_	start_char=2803|end_char=2805
-12	beauty	beauty	NOUN	NN	Number=Sing	10	nmod	_	start_char=2806|end_char=2812|SpaceAfter=No
-13	.	.	PUNCT	.	_	5	punct	_	start_char=2812|end_char=2813|SpacesAfter=\n\n
+12	beauty	beauty	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No|start_char=2806|end_char=2812
+13	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=2812|end_char=2813
 
 # text = From the way they are taught in school and into the real world, they drape on mannequins that are only size four, or sketch on bodies that are super stretched out and not anatomically proportioned.
 # sent_id = 34
@@ -706,7 +703,7 @@
 10	into	into	ADP	IN	_	13	case	_	start_char=2858|end_char=2862
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=2863|end_char=2866
 12	real	real	ADJ	JJ	Degree=Pos	13	amod	_	start_char=2867|end_char=2871
-13	world	world	NOUN	NN	Number=Sing	8	conj	_	start_char=2872|end_char=2877|SpaceAfter=No
+13	world	world	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No|start_char=2872|end_char=2877
 14	,	,	PUNCT	,	_	3	punct	_	start_char=2877|end_char=2878
 15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	start_char=2879|end_char=2883
 16	drape	drape	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2884|end_char=2889
@@ -716,7 +713,7 @@
 20	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	start_char=2909|end_char=2912
 21	only	only	ADV	RB	_	23	advmod	_	start_char=2913|end_char=2917
 22	size	size	NOUN	NN	Number=Sing	23	compound	_	start_char=2918|end_char=2922
-23	four	four	NUM	CD	NumForm=Word|NumType=Card	18	acl:relcl	_	start_char=2923|end_char=2927|SpaceAfter=No
+23	four	four	NUM	CD	NumForm=Word|NumType=Card	18	acl:relcl	_	SpaceAfter=No|start_char=2923|end_char=2927
 24	,	,	PUNCT	,	_	26	punct	_	start_char=2927|end_char=2928
 25	or	or	CCONJ	CC	_	26	cc	_	start_char=2929|end_char=2931
 26	sketch	sketch	NOUN	NN	Number=Sing	18	conj	_	start_char=2932|end_char=2938
@@ -730,13 +727,13 @@
 34	and	and	CCONJ	CC	_	37	cc	_	start_char=2978|end_char=2981
 35	not	not	PART	RB	Polarity=Neg	37	advmod	_	start_char=2982|end_char=2985
 36	anatomically	anatomically	ADV	RB	_	37	advmod	_	start_char=2986|end_char=2998
-37	proportioned	proportion	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	32	conj	_	start_char=2999|end_char=3011|SpaceAfter=No
-38	.	.	PUNCT	.	_	16	punct	_	start_char=3011|end_char=3012|SpacesAfter=\n\n
+37	proportioned	proportion	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	32	conj	_	SpaceAfter=No|start_char=2999|end_char=3011
+38	.	.	PUNCT	.	_	16	punct	_	SpacesAfter=\n\n|start_char=3011|end_char=3012
 
 # text = Different-size bodies aren't taken into account during the design process.
 # sent_id = 35
-1	Different	different	ADJ	JJ	Degree=Pos	3	amod	_	start_char=3014|end_char=3023|SpaceAfter=No
-2	-	-	PUNCT	HYPH	_	1	punct	_	start_char=3023|end_char=3024|SpaceAfter=No
+1	Different	different	ADJ	JJ	Degree=Pos	3	amod	_	SpaceAfter=No|start_char=3014|end_char=3023
+2	-	-	PUNCT	HYPH	_	1	punct	_	SpaceAfter=No|start_char=3023|end_char=3024
 3	size	size	NOUN	NN	Number=Sing	4	compound	_	start_char=3024|end_char=3028
 4	bodies	body	NOUN	NNS	Number=Plur	7	nsubj:pass	_	start_char=3029|end_char=3035
 5-6	aren't	_	_	_	_	_	_	_	start_char=3036|end_char=3042
@@ -748,8 +745,8 @@
 10	during	during	ADP	IN	_	13	case	_	start_char=3062|end_char=3068
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=3069|end_char=3072
 12	design	design	NOUN	NN	Number=Sing	13	compound	_	start_char=3073|end_char=3079
-13	process	process	NOUN	NN	Number=Sing	7	obl	_	start_char=3080|end_char=3087|SpaceAfter=No
-14	.	.	PUNCT	.	_	7	punct	_	start_char=3087|end_char=3088|SpacesAfter=\n\n
+13	process	process	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No|start_char=3080|end_char=3087
+14	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=3087|end_char=3088
 
 # text = They're not thought of.
 # sent_id = 36
@@ -758,8 +755,8 @@
 2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	start_char=3094|end_char=3097
 3	not	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=3098|end_char=3101
 4	thought	think	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=3102|end_char=3109
-5	of	of	ADP	IN	_	4	obl	_	start_char=3110|end_char=3112|SpaceAfter=No
-6	.	.	PUNCT	.	_	4	punct	_	start_char=3112|end_char=3113|SpacesAfter=\n\n
+5	of	of	ADP	IN	_	4	obl	_	SpaceAfter=No|start_char=3110|end_char=3112
+6	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=3112|end_char=3113
 
 # text = So who are these designers designing for?
 # sent_id = 37
@@ -769,8 +766,8 @@
 4	these	this	DET	DT	Number=Plur|PronType=Dem	5	det	_	start_char=3126|end_char=3131
 5	designers	designer	NOUN	NNS	Number=Plur	6	nsubj	_	start_char=3132|end_char=3141
 6	designing	design	VERB	VBG	VerbForm=Ger	0	root	_	start_char=3142|end_char=3151
-7	for	for	ADP	IN	_	2	case	_	start_char=3152|end_char=3155|SpaceAfter=No
-8	?	?	PUNCT	.	_	6	punct	_	start_char=3155|end_char=3156|SpacesAfter=\n\n
+7	for	for	ADP	IN	_	2	case	_	SpaceAfter=No|start_char=3152|end_char=3155
+8	?	?	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=3155|end_char=3156
 
 # text = But the conversation around exclusivity in fashion doesn't begin and end with size.
 # sent_id = 38
@@ -788,8 +785,8 @@
 11	and	and	CCONJ	CC	_	12	cc	_	start_char=3223|end_char=3226
 12	end	end	VERB	VB	VerbForm=Inf	10	conj	_	start_char=3227|end_char=3230
 13	with	with	ADP	IN	_	14	case	_	start_char=3231|end_char=3235
-14	size	size	NOUN	NN	Number=Sing	12	obl	_	start_char=3236|end_char=3240|SpaceAfter=No
-15	.	.	PUNCT	.	_	10	punct	_	start_char=3240|end_char=3241|SpacesAfter=\n\n
+14	size	size	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No|start_char=3236|end_char=3240
+15	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n|start_char=3240|end_char=3241
 
 # text = It's about seeing people of all different gender expressions, different ability levels, different ages, different races and ethnicities, celebrated for their own unique beauty.
 # sent_id = 39
@@ -803,27 +800,27 @@
 7	all	all	DET	DT	PronType=Tot	10	det	_	start_char=3271|end_char=3274
 8	different	different	ADJ	JJ	Degree=Pos	10	amod	_	start_char=3275|end_char=3284
 9	gender	gender	NOUN	NN	Number=Sing	10	compound	_	start_char=3285|end_char=3291
-10	expressions	expression	NOUN	NNS	Number=Plur	5	nmod	_	start_char=3292|end_char=3303|SpaceAfter=No
+10	expressions	expression	NOUN	NNS	Number=Plur	5	nmod	_	SpaceAfter=No|start_char=3292|end_char=3303
 11	,	,	PUNCT	,	_	14	punct	_	start_char=3303|end_char=3304
 12	different	different	ADJ	JJ	Degree=Pos	14	amod	_	start_char=3305|end_char=3314
 13	ability	ability	NOUN	NN	Number=Sing	14	compound	_	start_char=3315|end_char=3322
-14	levels	level	NOUN	NNS	Number=Plur	10	conj	_	start_char=3323|end_char=3329|SpaceAfter=No
+14	levels	level	NOUN	NNS	Number=Plur	10	conj	_	SpaceAfter=No|start_char=3323|end_char=3329
 15	,	,	PUNCT	,	_	17	punct	_	start_char=3329|end_char=3330
 16	different	different	ADJ	JJ	Degree=Pos	17	amod	_	start_char=3331|end_char=3340
-17	ages	age	NOUN	NNS	Number=Plur	10	conj	_	start_char=3341|end_char=3345|SpaceAfter=No
+17	ages	age	NOUN	NNS	Number=Plur	10	conj	_	SpaceAfter=No|start_char=3341|end_char=3345
 18	,	,	PUNCT	,	_	20	punct	_	start_char=3345|end_char=3346
 19	different	different	ADJ	JJ	Degree=Pos	20	amod	_	start_char=3347|end_char=3356
 20	races	race	NOUN	NNS	Number=Plur	10	conj	_	start_char=3357|end_char=3362
 21	and	and	CCONJ	CC	_	22	cc	_	start_char=3363|end_char=3366
-22	ethnicities	ethnicity	NOUN	NNS	Number=Plur	20	conj	_	start_char=3367|end_char=3378|SpaceAfter=No
+22	ethnicities	ethnicity	NOUN	NNS	Number=Plur	20	conj	_	SpaceAfter=No|start_char=3367|end_char=3378
 23	,	,	PUNCT	,	_	24	punct	_	start_char=3378|end_char=3379
 24	celebrated	celebrate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	_	start_char=3380|end_char=3390
 25	for	for	ADP	IN	_	29	case	_	start_char=3391|end_char=3394
 26	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	start_char=3395|end_char=3400
 27	own	own	ADJ	JJ	Degree=Pos	29	amod	_	start_char=3401|end_char=3404
 28	unique	unique	ADJ	JJ	Degree=Pos	29	amod	_	start_char=3405|end_char=3411
-29	beauty	beauty	NOUN	NN	Number=Sing	24	obl	_	start_char=3412|end_char=3418|SpaceAfter=No
-30	.	.	PUNCT	.	_	4	punct	_	start_char=3418|end_char=3419|SpacesAfter=\n\n
+29	beauty	beauty	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No|start_char=3412|end_char=3418
+30	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=3418|end_char=3419
 
 # text = In my own work as a fashion designer, I started a brand called Chromat, and we're committed to empowering women, femmes and nonbinary #ChromatBABES, of all shapes and sizes, through perfectly fit garments for every body.
 # sent_id = 40
@@ -834,14 +831,14 @@
 5	as	as	ADP	IN	_	8	case	_	start_char=3436|end_char=3438
 6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=3439|end_char=3440
 7	fashion	fashion	NOUN	NN	Number=Sing	8	compound	_	start_char=3441|end_char=3448
-8	designer	designer	NOUN	NN	Number=Sing	4	nmod	_	start_char=3449|end_char=3457|SpaceAfter=No
+8	designer	designer	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No|start_char=3449|end_char=3457
 9	,	,	PUNCT	,	_	4	punct	_	start_char=3457|end_char=3458
 10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=3459|end_char=3460
 11	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3461|end_char=3468
 12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=3469|end_char=3470
 13	brand	brand	NOUN	NN	Number=Sing	11	obj	_	start_char=3471|end_char=3476
 14	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	acl	_	start_char=3477|end_char=3483
-15	Chromat	Chromat	PROPN	NNP	Number=Sing	14	xcomp	_	start_char=3484|end_char=3491|SpaceAfter=No
+15	Chromat	Chromat	PROPN	NNP	Number=Sing	14	xcomp	_	SpaceAfter=No|start_char=3484|end_char=3491
 16	,	,	PUNCT	,	_	20	punct	_	start_char=3491|end_char=3492
 17	and	and	CCONJ	CC	_	20	cc	_	start_char=3493|end_char=3496
 18-19	we're	_	_	_	_	_	_	_	start_char=3497|end_char=3502
@@ -850,19 +847,19 @@
 20	committed	commit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	conj	_	start_char=3503|end_char=3512
 21	to	to	SCONJ	IN	_	22	mark	_	start_char=3513|end_char=3515
 22	empowering	empowering	VERB	VBG	Tense=Pres|VerbForm=Part	20	advcl	_	start_char=3516|end_char=3526
-23	women	woman	NOUN	NNS	Number=Plur	22	obj	_	start_char=3527|end_char=3532|SpaceAfter=No
+23	women	woman	NOUN	NNS	Number=Plur	22	obj	_	SpaceAfter=No|start_char=3527|end_char=3532
 24	,	,	PUNCT	,	_	25	punct	_	start_char=3532|end_char=3533
 25	femmes	femme	NOUN	NNS	Number=Plur	23	conj	_	start_char=3534|end_char=3540
 26	and	and	CCONJ	CC	_	28	cc	_	start_char=3541|end_char=3544
 27	nonbinary	nonbinary	NOUN	NN	Number=Sing	28	compound	_	start_char=3545|end_char=3554
-28	#	#	SYM	NN	Number=Sing	23	conj	_	start_char=3555|end_char=3556|SpaceAfter=No
-29	ChromatBABES	ChromatBABES	PROPN	NNP	Number=Sing	23	conj	_	start_char=3556|end_char=3568|SpaceAfter=No
+28	#	#	SYM	NN	Number=Sing	23	conj	_	SpaceAfter=No|start_char=3555|end_char=3556
+29	ChromatBABES	ChromatBABES	PROPN	NNP	Number=Sing	23	conj	_	SpaceAfter=No|start_char=3556|end_char=3568
 30	,	,	PUNCT	,	_	33	punct	_	start_char=3568|end_char=3569
 31	of	of	ADP	IN	_	33	case	_	start_char=3570|end_char=3572
 32	all	all	DET	DT	PronType=Tot	33	det	_	start_char=3573|end_char=3576
 33	shapes	shape	NOUN	NNS	Number=Plur	22	obl	_	start_char=3577|end_char=3583
 34	and	and	CCONJ	CC	_	35	cc	_	start_char=3584|end_char=3587
-35	sizes	size	NOUN	NNS	Number=Plur	33	conj	_	start_char=3588|end_char=3593|SpaceAfter=No
+35	sizes	size	NOUN	NNS	Number=Plur	33	conj	_	SpaceAfter=No|start_char=3588|end_char=3593
 36	,	,	PUNCT	,	_	40	punct	_	start_char=3593|end_char=3594
 37	through	through	ADP	IN	_	40	case	_	start_char=3595|end_char=3602
 38	perfectly	perfectly	ADV	RB	_	39	advmod	_	start_char=3603|end_char=3612
@@ -870,8 +867,8 @@
 40	garments	garment	NOUN	NNS	Number=Plur	33	nmod	_	start_char=3617|end_char=3625
 41	for	for	ADP	IN	_	43	case	_	start_char=3626|end_char=3629
 42	every	every	DET	DT	PronType=Tot	43	det	_	start_char=3630|end_char=3635
-43	body	body	NOUN	NN	Number=Sing	40	nmod	_	start_char=3636|end_char=3640|SpaceAfter=No
-44	.	.	PUNCT	.	_	11	punct	_	start_char=3640|end_char=3641|SpacesAfter=\n\n
+43	body	body	NOUN	NN	Number=Sing	40	nmod	_	SpaceAfter=No|start_char=3636|end_char=3640
+44	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n\n|start_char=3640|end_char=3641
 
 # text = Swimwear has become a huge focus for me, because of the power that this single garment can have over the way people feel about themselves.
 # sent_id = 41
@@ -882,7 +879,7 @@
 5	huge	huge	ADJ	JJ	Degree=Pos	6	amod	_	start_char=3665|end_char=3669
 6	focus	focus	NOUN	NN	Number=Sing	3	xcomp	_	start_char=3670|end_char=3675
 7	for	for	ADP	IN	_	8	case	_	start_char=3676|end_char=3679
-8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	nmod	_	start_char=3680|end_char=3682|SpaceAfter=No
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	nmod	_	SpaceAfter=No|start_char=3680|end_char=3682
 9	,	,	PUNCT	,	_	13	punct	_	start_char=3682|end_char=3683
 10	because	because	ADP	IN	ExtPos=ADP	13	case	_	start_char=3684|end_char=3691
 11	of	of	ADP	IN	_	10	fixed	_	start_char=3692|end_char=3694
@@ -900,8 +897,8 @@
 23	people	person	NOUN	NNS	Number=Plur	24	nsubj	_	start_char=3752|end_char=3758
 24	feel	feel	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	start_char=3759|end_char=3763
 25	about	about	ADP	IN	_	26	case	_	start_char=3764|end_char=3769
-26	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	24	obl	_	start_char=3770|end_char=3780|SpaceAfter=No
-27	.	.	PUNCT	.	_	3	punct	_	start_char=3780|end_char=3781|SpacesAfter=\n\n
+26	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	24	obl	_	SpaceAfter=No|start_char=3770|end_char=3780
+27	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=3780|end_char=3781
 
 # text = We wanted to take our focus on celebrating all body types to a garment that's fraught with insecurity.
 # sent_id = 42
@@ -924,25 +921,25 @@
 16	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=3858|end_char=3860
 17	fraught	fraught	ADJ	JJ	Degree=Pos	14	acl:relcl	_	start_char=3861|end_char=3868
 18	with	with	ADP	IN	_	19	case	_	start_char=3869|end_char=3873
-19	insecurity	insecurity	NOUN	NN	Number=Sing	17	obl	_	start_char=3874|end_char=3884|SpaceAfter=No
-20	.	.	PUNCT	.	_	2	punct	_	start_char=3884|end_char=3885|SpacesAfter=\n\n
+19	insecurity	insecurity	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No|start_char=3874|end_char=3884
+20	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=3884|end_char=3885
 
 # text = On our runways, you see curves, cellulite and scars worn proudly.
 # sent_id = 43
 1	On	on	ADP	IN	_	3	case	_	start_char=3887|end_char=3889
 2	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=3890|end_char=3893
-3	runways	runway	NOUN	NNS	Number=Plur	6	obl	_	start_char=3894|end_char=3901|SpaceAfter=No
+3	runways	runway	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No|start_char=3894|end_char=3901
 4	,	,	PUNCT	,	_	3	punct	_	start_char=3901|end_char=3902
 5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	start_char=3903|end_char=3906
 6	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3907|end_char=3910
-7	curves	curve	NOUN	NNS	Number=Plur	6	obj	_	start_char=3911|end_char=3917|SpaceAfter=No
+7	curves	curve	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No|start_char=3911|end_char=3917
 8	,	,	PUNCT	,	_	9	punct	_	start_char=3917|end_char=3918
 9	cellulite	cellulite	NOUN	NN	Number=Sing	7	conj	_	start_char=3919|end_char=3928
 10	and	and	CCONJ	CC	_	11	cc	_	start_char=3929|end_char=3932
 11	scars	scar	NOUN	NNS	Number=Plur	7	conj	_	start_char=3933|end_char=3938
 12	worn	wear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	start_char=3939|end_char=3943
-13	proudly	proudly	ADV	RB	_	12	advmod	_	start_char=3944|end_char=3951|SpaceAfter=No
-14	.	.	PUNCT	.	_	6	punct	_	start_char=3951|end_char=3952|SpacesAfter=\n\n
+13	proudly	proudly	ADV	RB	_	12	advmod	_	SpaceAfter=No|start_char=3944|end_char=3951
+14	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=3951|end_char=3952
 
 # text = We're a runway show, yes, but we're also a celebration.
 # sent_id = 44
@@ -951,9 +948,9 @@
 2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=3956|end_char=3959
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=3960|end_char=3961
 4	runway	runway	NOUN	NN	Number=Sing	5	compound	_	start_char=3962|end_char=3968
-5	show	show	NOUN	NN	Number=Sing	0	root	_	start_char=3969|end_char=3973|SpaceAfter=No
+5	show	show	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=3969|end_char=3973
 6	,	,	PUNCT	,	_	7	punct	_	start_char=3973|end_char=3974
-7	yes	yes	INTJ	UH	Polarity=Pos	5	discourse	_	start_char=3975|end_char=3978|SpaceAfter=No
+7	yes	yes	INTJ	UH	Polarity=Pos	5	discourse	_	SpaceAfter=No|start_char=3975|end_char=3978
 8	,	,	PUNCT	,	_	14	punct	_	start_char=3978|end_char=3979
 9	but	but	CCONJ	CC	_	14	cc	_	start_char=3980|end_char=3983
 10-11	we're	_	_	_	_	_	_	_	start_char=3984|end_char=3989
@@ -961,8 +958,8 @@
 11	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=3986|end_char=3989
 12	also	also	ADV	RB	_	14	advmod	_	start_char=3990|end_char=3994
 13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	start_char=3995|end_char=3996
-14	celebration	celebration	NOUN	NN	Number=Sing	5	conj	_	start_char=3997|end_char=4008|SpaceAfter=No
-15	.	.	PUNCT	.	_	5	punct	_	start_char=4008|end_char=4009|SpacesAfter=\n\n
+14	celebration	celebration	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No|start_char=3997|end_char=4008
+15	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=4008|end_char=4009
 
 # text = I didn't start designing 10 years ago with the mission to change the entire industry.
 # sent_id = 45
@@ -982,8 +979,8 @@
 13	change	change	VERB	VB	VerbForm=Inf	11	acl	_	start_char=4069|end_char=4075
 14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=4076|end_char=4079
 15	entire	entire	ADJ	JJ	Degree=Pos	16	amod	_	start_char=4080|end_char=4086
-16	industry	industry	NOUN	NN	Number=Sing	13	obj	_	start_char=4087|end_char=4095|SpaceAfter=No
-17	.	.	PUNCT	.	_	4	punct	_	start_char=4095|end_char=4096|SpacesAfter=\n\n
+16	industry	industry	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No|start_char=4087|end_char=4095
+17	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=4095|end_char=4096
 
 # text = But the models we cast at the time, who just happened to be my friends who had begged to be in my shows, were so radical to some people, and, unfortunately, still are different or strange to some, that it became a huge part of what we're known for.
 # sent_id = 46
@@ -994,7 +991,7 @@
 5	cast	cast	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	start_char=4116|end_char=4120
 6	at	at	ADP	IN	_	8	case	_	start_char=4121|end_char=4123
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=4124|end_char=4127
-8	time	time	NOUN	NN	Number=Sing	5	obl	_	start_char=4128|end_char=4132|SpaceAfter=No
+8	time	time	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No|start_char=4128|end_char=4132
 9	,	,	PUNCT	,	_	12	punct	_	start_char=4132|end_char=4133
 10	who	who	PRON	WP	PronType=Rel	12	nsubj	_	start_char=4134|end_char=4137
 11	just	just	ADV	RB	_	12	advmod	_	start_char=4138|end_char=4142
@@ -1010,18 +1007,18 @@
 21	be	be	AUX	VB	VerbForm=Inf	24	cop	_	start_char=4187|end_char=4189
 22	in	in	ADP	IN	_	24	case	_	start_char=4190|end_char=4192
 23	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	_	start_char=4193|end_char=4195
-24	shows	show	NOUN	NNS	Number=Plur	19	xcomp	_	start_char=4196|end_char=4201|SpaceAfter=No
+24	shows	show	NOUN	NNS	Number=Plur	19	xcomp	_	SpaceAfter=No|start_char=4196|end_char=4201
 25	,	,	PUNCT	,	_	3	punct	_	start_char=4201|end_char=4202
 26	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	28	cop	_	start_char=4203|end_char=4207
 27	so	so	ADV	RB	_	28	advmod	_	start_char=4208|end_char=4210
 28	radical	radical	ADJ	JJ	Degree=Pos	0	root	_	start_char=4211|end_char=4218
 29	to	to	ADP	IN	_	31	case	_	start_char=4219|end_char=4221
 30	some	some	DET	DT	PronType=Ind	31	det	_	start_char=4222|end_char=4226
-31	people	person	NOUN	NNS	Number=Plur	28	obl	_	start_char=4227|end_char=4233|SpaceAfter=No
+31	people	person	NOUN	NNS	Number=Plur	28	obl	_	SpaceAfter=No|start_char=4227|end_char=4233
 32	,	,	PUNCT	,	_	33	punct	_	start_char=4233|end_char=4234
-33	and	and	CCONJ	CC	_	39	cc	_	start_char=4235|end_char=4238|SpaceAfter=No
+33	and	and	CCONJ	CC	_	39	cc	_	SpaceAfter=No|start_char=4235|end_char=4238
 34	,	,	PUNCT	,	_	33	punct	_	start_char=4238|end_char=4239
-35	unfortunately	unfortunately	ADV	RB	_	39	advmod	_	start_char=4240|end_char=4253|SpaceAfter=No
+35	unfortunately	unfortunately	ADV	RB	_	39	advmod	_	SpaceAfter=No|start_char=4240|end_char=4253
 36	,	,	PUNCT	,	_	35	punct	_	start_char=4253|end_char=4254
 37	still	still	ADV	RB	_	39	advmod	_	start_char=4255|end_char=4260
 38	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	start_char=4261|end_char=4264
@@ -1029,7 +1026,7 @@
 40	or	or	CCONJ	CC	_	41	cc	_	start_char=4275|end_char=4277
 41	strange	strange	ADJ	JJ	Degree=Pos	39	conj	_	start_char=4278|end_char=4285
 42	to	to	ADP	IN	_	43	case	_	start_char=4286|end_char=4288
-43	some	some	DET	DT	PronType=Ind	39	obl	_	start_char=4289|end_char=4293|SpaceAfter=No
+43	some	some	DET	DT	PronType=Ind	39	obl	_	SpaceAfter=No|start_char=4289|end_char=4293
 44	,	,	PUNCT	,	_	47	punct	_	start_char=4293|end_char=4294
 45	that	that	SCONJ	IN	_	47	mark	_	start_char=4295|end_char=4299
 46	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	47	expl	_	start_char=4300|end_char=4302
@@ -1043,12 +1040,12 @@
 53	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	55	nsubj:pass	_	start_char=4330|end_char=4332
 54	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	55	aux:pass	_	start_char=4332|end_char=4335
 55	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	52	acl:relcl	_	start_char=4336|end_char=4341
-56	for	for	ADP	IN	_	55	obl	_	start_char=4342|end_char=4345|SpaceAfter=No
-57	.	.	PUNCT	.	_	28	punct	_	start_char=4345|end_char=4346|SpacesAfter=\n\n
+56	for	for	ADP	IN	_	55	obl	_	SpaceAfter=No|start_char=4342|end_char=4345
+57	.	.	PUNCT	.	_	28	punct	_	SpacesAfter=\n\n|start_char=4345|end_char=4346
 
 # text = However, inclusivity means nothing if it's only surface level.
 # sent_id = 47
-1	However	however	ADV	RB	_	4	advmod	_	start_char=4348|end_char=4355|SpaceAfter=No
+1	However	however	ADV	RB	_	4	advmod	_	SpaceAfter=No|start_char=4348|end_char=4355
 2	,	,	PUNCT	,	_	1	punct	_	start_char=4355|end_char=4356
 3	inclusivity	inclusivity	NOUN	NN	Number=Sing	4	nsubj	_	start_char=4357|end_char=4368
 4	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4369|end_char=4374
@@ -1059,27 +1056,27 @@
 8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=4388|end_char=4390
 9	only	only	ADV	RB	_	11	advmod	_	start_char=4391|end_char=4395
 10	surface	surface	NOUN	NN	Number=Sing	11	compound	_	start_char=4396|end_char=4403
-11	level	level	NOUN	NN	Number=Sing	4	advcl	_	start_char=4404|end_char=4409|SpaceAfter=No
-12	.	.	PUNCT	.	_	4	punct	_	start_char=4409|end_char=4410|SpacesAfter=\n\n
+11	level	level	NOUN	NN	Number=Sing	4	advcl	_	SpaceAfter=No|start_char=4404|end_char=4409
+12	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=4409|end_char=4410
 
 # text = Behind the scenes, from the photographer, to the casting director, to the interns, who is making the decisions behind the scenes is just as important.
 # sent_id = 48
 1	Behind	behind	ADP	IN	_	3	case	_	start_char=4412|end_char=4418
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=4419|end_char=4422
-3	scenes	scene	NOUN	NNS	Number=Plur	29	obl	_	start_char=4423|end_char=4429|SpaceAfter=No
+3	scenes	scene	NOUN	NNS	Number=Plur	29	obl	_	SpaceAfter=No|start_char=4423|end_char=4429
 4	,	,	PUNCT	,	_	3	punct	_	start_char=4429|end_char=4430
 5	from	from	ADP	IN	_	7	case	_	start_char=4431|end_char=4435
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=4436|end_char=4439
-7	photographer	photographer	NOUN	NN	Number=Sing	29	obl	_	start_char=4440|end_char=4452|SpaceAfter=No
+7	photographer	photographer	NOUN	NN	Number=Sing	29	obl	_	SpaceAfter=No|start_char=4440|end_char=4452
 8	,	,	PUNCT	,	_	12	punct	_	start_char=4452|end_char=4453
 9	to	to	ADP	IN	_	12	case	_	start_char=4454|end_char=4456
 10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=4457|end_char=4460
 11	casting	casting	NOUN	NN	Number=Sing	12	compound	_	start_char=4461|end_char=4468
-12	director	director	NOUN	NN	Number=Sing	7	nmod	_	start_char=4469|end_char=4477|SpaceAfter=No
+12	director	director	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No|start_char=4469|end_char=4477
 13	,	,	PUNCT	,	_	16	punct	_	start_char=4477|end_char=4478
 14	to	to	ADP	IN	_	16	case	_	start_char=4479|end_char=4481
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=4482|end_char=4485
-16	interns	intern	NOUN	NNS	Number=Plur	12	nmod	_	start_char=4486|end_char=4493|SpaceAfter=No
+16	interns	intern	NOUN	NNS	Number=Plur	12	nmod	_	SpaceAfter=No|start_char=4486|end_char=4493
 17	,	,	PUNCT	,	_	20	punct	_	start_char=4493|end_char=4494
 18	who	who	PRON	WP	PronType=Rel	20	nsubj	_	start_char=4495|end_char=4498
 19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	start_char=4499|end_char=4501
@@ -1092,8 +1089,8 @@
 26	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	start_char=4541|end_char=4543
 27	just	just	ADV	RB	_	29	advmod	_	start_char=4544|end_char=4548
 28	as	as	ADV	RB	_	29	advmod	_	start_char=4549|end_char=4551
-29	important	important	ADJ	JJ	Degree=Pos	0	root	_	start_char=4552|end_char=4561|SpaceAfter=No
-30	.	.	PUNCT	.	_	29	punct	_	start_char=4561|end_char=4562|SpacesAfter=\n\n
+29	important	important	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No|start_char=4552|end_char=4561
+30	.	.	PUNCT	.	_	29	punct	_	SpacesAfter=\n\n|start_char=4561|end_char=4562
 
 # text = It's imperative to include diverse decision-makers in the process, and it's always better to collaborate with different communities, rather than trying to speak for them.
 # sent_id = 49
@@ -1104,12 +1101,12 @@
 4	to	to	PART	TO	_	5	mark	_	start_char=4580|end_char=4582
 5	include	include	VERB	VB	VerbForm=Inf	3	csubj	_	start_char=4583|end_char=4590
 6	diverse	diverse	ADJ	JJ	Degree=Pos	9	amod	_	start_char=4591|end_char=4598
-7	decision	decision	NOUN	NN	Number=Sing	9	compound	_	start_char=4599|end_char=4607|SpaceAfter=No
-8	-	-	PUNCT	HYPH	_	7	punct	_	start_char=4607|end_char=4608|SpaceAfter=No
+7	decision	decision	NOUN	NN	Number=Sing	9	compound	_	SpaceAfter=No|start_char=4599|end_char=4607
+8	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No|start_char=4607|end_char=4608
 9	makers	maker	NOUN	NNS	Number=Plur	5	obj	_	start_char=4608|end_char=4614
 10	in	in	ADP	IN	_	12	case	_	start_char=4615|end_char=4617
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=4618|end_char=4621
-12	process	process	NOUN	NN	Number=Sing	5	obl	_	start_char=4622|end_char=4629|SpaceAfter=No
+12	process	process	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No|start_char=4622|end_char=4629
 13	,	,	PUNCT	,	_	18	punct	_	start_char=4629|end_char=4630
 14	and	and	CCONJ	CC	_	18	cc	_	start_char=4631|end_char=4634
 15-16	it's	_	_	_	_	_	_	_	start_char=4635|end_char=4639
@@ -1121,7 +1118,7 @@
 20	collaborate	collaborate	VERB	VB	VerbForm=Inf	18	csubj	_	start_char=4657|end_char=4668
 21	with	with	ADP	IN	_	23	case	_	start_char=4669|end_char=4673
 22	different	different	ADJ	JJ	Degree=Pos	23	amod	_	start_char=4674|end_char=4683
-23	communities	community	NOUN	NNS	Number=Plur	20	obl	_	start_char=4684|end_char=4695|SpaceAfter=No
+23	communities	community	NOUN	NNS	Number=Plur	20	obl	_	SpaceAfter=No|start_char=4684|end_char=4695
 24	,	,	PUNCT	,	_	27	punct	_	start_char=4695|end_char=4696
 25	rather	rather	ADV	RB	ExtPos=CCONJ	27	cc	_	start_char=4697|end_char=4703
 26	than	than	ADP	IN	_	25	fixed	_	start_char=4704|end_char=4708
@@ -1129,8 +1126,8 @@
 28	to	to	PART	TO	_	29	mark	_	start_char=4716|end_char=4718
 29	speak	speak	VERB	VB	VerbForm=Inf	27	xcomp	_	start_char=4719|end_char=4724
 30	for	for	ADP	IN	_	31	case	_	start_char=4725|end_char=4728
-31	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	29	obl	_	start_char=4729|end_char=4733|SpaceAfter=No
-32	.	.	PUNCT	.	_	3	punct	_	start_char=4733|end_char=4734|SpacesAfter=\n\n
+31	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	29	obl	_	SpaceAfter=No|start_char=4729|end_char=4733
+32	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=4733|end_char=4734
 
 # text = And this is an important piece of the puzzle that many young designers may not think about when they're first starting their careers, but hiring a plus-size or a transgender photographer, or a woman of color as your casting director, or a black makeup artist -- hey, Fatima Thomas -- who intimately understands how important it is to be able to work with all skin tones: it's essential to creating a holistically inclusive output, like this one.
 # sent_id = 50
@@ -1158,18 +1155,18 @@
 21	first	first	ADV	RB	Degree=Pos|NumForm=Word|NumType=Ord	22	advmod	_	start_char=4840|end_char=4845
 22	starting	start	VERB	VBG	Tense=Pres|VerbForm=Part	16	advcl	_	start_char=4846|end_char=4854
 23	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	start_char=4855|end_char=4860
-24	careers	career	NOUN	NNS	Number=Plur	22	obj	_	start_char=4861|end_char=4868|SpaceAfter=No
+24	careers	career	NOUN	NNS	Number=Plur	22	obj	_	SpaceAfter=No|start_char=4861|end_char=4868
 25	,	,	PUNCT	,	_	27	punct	_	start_char=4868|end_char=4869
 26	but	but	CCONJ	CC	_	27	cc	_	start_char=4870|end_char=4873
 27	hiring	hire	VERB	VBG	Tense=Pres|VerbForm=Part	6	conj	_	start_char=4874|end_char=4880
 28	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	start_char=4881|end_char=4882
-29	plus	plus	NOUN	NN	Number=Sing	31	compound	_	start_char=4883|end_char=4887|SpaceAfter=No
-30	-	-	PUNCT	HYPH	_	29	punct	_	start_char=4887|end_char=4888|SpaceAfter=No
+29	plus	plus	NOUN	NN	Number=Sing	31	compound	_	SpaceAfter=No|start_char=4883|end_char=4887
+30	-	-	PUNCT	HYPH	_	29	punct	_	SpaceAfter=No|start_char=4887|end_char=4888
 31	size	size	NOUN	NN	Number=Sing	27	obj	_	start_char=4888|end_char=4892
 32	or	or	CCONJ	CC	_	35	cc	_	start_char=4893|end_char=4895
 33	a	a	DET	DT	Definite=Ind|PronType=Art	35	det	_	start_char=4896|end_char=4897
 34	transgender	transgender	ADJ	JJ	Degree=Pos	35	amod	_	start_char=4898|end_char=4909
-35	photographer	photographer	NOUN	NN	Number=Sing	31	conj	_	start_char=4910|end_char=4922|SpaceAfter=No
+35	photographer	photographer	NOUN	NN	Number=Sing	31	conj	_	SpaceAfter=No|start_char=4910|end_char=4922
 36	,	,	PUNCT	,	_	39	punct	_	start_char=4922|end_char=4923
 37	or	or	CCONJ	CC	_	39	cc	_	start_char=4924|end_char=4926
 38	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	start_char=4927|end_char=4928
@@ -1179,7 +1176,7 @@
 42	as	as	ADP	IN	_	45	case	_	start_char=4944|end_char=4946
 43	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	45	nmod:poss	_	start_char=4947|end_char=4951
 44	casting	casting	NOUN	NN	Number=Sing	45	compound	_	start_char=4952|end_char=4959
-45	director	director	NOUN	NN	Number=Sing	39	nmod	_	start_char=4960|end_char=4968|SpaceAfter=No
+45	director	director	NOUN	NN	Number=Sing	39	nmod	_	SpaceAfter=No|start_char=4960|end_char=4968
 46	,	,	PUNCT	,	_	51	punct	_	start_char=4968|end_char=4969
 47	or	or	CCONJ	CC	_	51	cc	_	start_char=4970|end_char=4972
 48	a	a	DET	DT	Definite=Ind|PronType=Art	51	det	_	start_char=4973|end_char=4974
@@ -1187,7 +1184,7 @@
 50	makeup	makeup	NOUN	NN	Number=Sing	51	compound	_	start_char=4981|end_char=4987
 51	artist	artist	NOUN	NN	Number=Sing	31	conj	_	start_char=4988|end_char=4994
 52	--	--	PUNCT	,	_	55	punct	_	start_char=4995|end_char=4997
-53	hey	hey	INTJ	UH	_	55	discourse	_	start_char=4998|end_char=5001|SpaceAfter=No
+53	hey	hey	INTJ	UH	_	55	discourse	_	SpaceAfter=No|start_char=4998|end_char=5001
 54	,	,	PUNCT	,	_	53	punct	_	start_char=5001|end_char=5002
 55	Fatima	Fatima	PROPN	NNP	Number=Sing	51	appos	_	start_char=5003|end_char=5009
 56	Thomas	Thomas	PROPN	NNP	Number=Sing	55	flat	_	start_char=5010|end_char=5016
@@ -1207,7 +1204,7 @@
 70	with	with	ADP	IN	_	73	case	_	start_char=5086|end_char=5090
 71	all	all	DET	DT	PronType=Tot	73	det	_	start_char=5091|end_char=5094
 72	skin	skin	NOUN	NN	Number=Sing	73	compound	_	start_char=5095|end_char=5099
-73	tones	tone	NOUN	NNS	Number=Plur	69	obl	_	start_char=5100|end_char=5105|SpaceAfter=No
+73	tones	tone	NOUN	NNS	Number=Plur	69	obl	_	SpaceAfter=No|start_char=5100|end_char=5105
 74	:	:	PUNCT	:	_	77	punct	_	start_char=5105|end_char=5106
 75-76	it's	_	_	_	_	_	_	_	start_char=5107|end_char=5111
 75	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	77	expl	_	start_char=5107|end_char=5109
@@ -1218,12 +1215,12 @@
 80	a	a	DET	DT	Definite=Ind|PronType=Art	83	det	_	start_char=5134|end_char=5135
 81	holistically	holistically	ADV	RB	_	82	advmod	_	start_char=5136|end_char=5148
 82	inclusive	inclusive	ADJ	JJ	Degree=Pos	83	amod	_	start_char=5149|end_char=5158
-83	output	output	NOUN	NN	Number=Sing	79	obj	_	start_char=5159|end_char=5165|SpaceAfter=No
+83	output	output	NOUN	NN	Number=Sing	79	obj	_	SpaceAfter=No|start_char=5159|end_char=5165
 84	,	,	PUNCT	,	_	87	punct	_	start_char=5165|end_char=5166
 85	like	like	ADP	IN	_	87	case	_	start_char=5167|end_char=5171
 86	this	this	DET	DT	Number=Sing|PronType=Dem	87	det	_	start_char=5172|end_char=5176
-87	one	one	NOUN	NN	Number=Sing	83	nmod	_	start_char=5177|end_char=5180|SpaceAfter=No
-88	.	.	PUNCT	.	_	6	punct	_	start_char=5180|end_char=5181|SpacesAfter=\n\n
+87	one	one	NOUN	NN	Number=Sing	83	nmod	_	SpaceAfter=No|start_char=5177|end_char=5180
+88	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=5180|end_char=5181
 
 # text = As a fashion designers that do a lot of swim, we wanted to rewrite the rules around having a bikini body.
 # sent_id = 51
@@ -1236,7 +1233,7 @@
 7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=5214|end_char=5215
 8	lot	lot	NOUN	NN	Number=Sing	6	obj	_	start_char=5216|end_char=5219
 9	of	of	ADP	IN	_	10	case	_	start_char=5220|end_char=5222
-10	swim	swim	NOUN	NN	Number=Sing	8	nmod	_	start_char=5223|end_char=5227|SpaceAfter=No
+10	swim	swim	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No|start_char=5223|end_char=5227
 11	,	,	PUNCT	,	_	4	punct	_	start_char=5227|end_char=5228
 12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	start_char=5229|end_char=5231
 13	wanted	want	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=5232|end_char=5238
@@ -1248,8 +1245,8 @@
 19	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	15	advcl	_	start_char=5267|end_char=5273
 20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	start_char=5274|end_char=5275
 21	bikini	bikini	NOUN	NN	Number=Sing	22	compound	_	start_char=5276|end_char=5282
-22	body	body	NOUN	NN	Number=Sing	19	obj	_	start_char=5283|end_char=5287|SpaceAfter=No
-23	.	.	PUNCT	.	_	13	punct	_	start_char=5287|end_char=5288|SpacesAfter=\n\n
+22	body	body	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No|start_char=5283|end_char=5287
+23	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\n\n|start_char=5287|end_char=5288
 
 # text = So we cast a team of babe guards to enforce guidelines around inclusion and acceptance at the pool.
 # sent_id = 52
@@ -1270,43 +1267,43 @@
 15	acceptance	acceptance	NOUN	NN	Number=Sing	13	conj	_	start_char=5366|end_char=5376
 16	at	at	ADP	IN	_	18	case	_	start_char=5377|end_char=5379
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=5380|end_char=5383
-18	pool	pool	NOUN	NN	Number=Sing	13	nmod	_	start_char=5384|end_char=5388|SpaceAfter=No
-19	.	.	PUNCT	.	_	3	punct	_	start_char=5388|end_char=5389|SpacesAfter=\n\n
+18	pool	pool	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No|start_char=5384|end_char=5388
+19	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=5388|end_char=5389
 
 # text = Instead of "no diving" and "no running," how about "celebrate cellulite," "body policing prohibited," and "intolerance not tolerated."
 # sent_id = 53
 1	Instead	instead	ADV	RB	_	5	case	_	start_char=5391|end_char=5398
 2	of	of	ADP	IN	_	1	fixed	_	start_char=5399|end_char=5401
-3	"	"	PUNCT	``	_	5	punct	_	start_char=5402|end_char=5403|SpaceAfter=No
+3	"	"	PUNCT	``	_	5	punct	_	SpaceAfter=No|start_char=5402|end_char=5403
 4	no	no	DET	DT	PronType=Neg	5	det	_	start_char=5403|end_char=5405
-5	diving	diving	NOUN	NN	Number=Sing	13	obl	_	start_char=5406|end_char=5412|SpaceAfter=No
+5	diving	diving	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No|start_char=5406|end_char=5412
 6	"	"	PUNCT	''	_	5	punct	_	start_char=5412|end_char=5413
 7	and	and	CCONJ	CC	_	10	cc	_	start_char=5414|end_char=5417
-8	"	"	PUNCT	``	_	10	punct	_	start_char=5418|end_char=5419|SpaceAfter=No
+8	"	"	PUNCT	``	_	10	punct	_	SpaceAfter=No|start_char=5418|end_char=5419
 9	no	no	DET	DT	PronType=Neg	10	det	_	start_char=5419|end_char=5421
-10	running	running	NOUN	NN	Number=Sing	5	conj	_	start_char=5422|end_char=5429|SpaceAfter=No
-11	,	,	PUNCT	,	_	10	punct	_	start_char=5429|end_char=5430|SpaceAfter=No
+10	running	running	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No|start_char=5422|end_char=5429
+11	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No|start_char=5429|end_char=5430
 12	"	"	PUNCT	''	_	10	punct	_	start_char=5430|end_char=5431
 13	how	how	ADV	WRB	PronType=Int	0	root	_	start_char=5432|end_char=5435
 14	about	about	ADP	IN	_	16	mark	_	start_char=5436|end_char=5441
-15	"	"	PUNCT	``	_	16	punct	_	start_char=5442|end_char=5443|SpaceAfter=No
+15	"	"	PUNCT	``	_	16	punct	_	SpaceAfter=No|start_char=5442|end_char=5443
 16	celebrate	celebrate	VERB	VB	VerbForm=Inf	13	acl	_	start_char=5443|end_char=5452
-17	cellulite	cellulite	NOUN	NN	Number=Sing	16	obj	_	start_char=5453|end_char=5462|SpaceAfter=No
-18	,	,	PUNCT	,	_	16	punct	_	start_char=5462|end_char=5463|SpaceAfter=No
+17	cellulite	cellulite	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No|start_char=5453|end_char=5462
+18	,	,	PUNCT	,	_	16	punct	_	SpaceAfter=No|start_char=5462|end_char=5463
 19	"	"	PUNCT	''	_	16	punct	_	start_char=5463|end_char=5464
-20	"	"	PUNCT	``	_	23	punct	_	start_char=5465|end_char=5466|SpaceAfter=No
+20	"	"	PUNCT	``	_	23	punct	_	SpaceAfter=No|start_char=5465|end_char=5466
 21	body	body	NOUN	NN	Number=Sing	22	compound	_	start_char=5466|end_char=5470
 22	policing	policing	NOUN	NN	Number=Sing	23	compound	_	start_char=5471|end_char=5479
-23	prohibited	prohibit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	xcomp	_	start_char=5480|end_char=5490|SpaceAfter=No
-24	,	,	PUNCT	,	_	23	punct	_	start_char=5490|end_char=5491|SpaceAfter=No
+23	prohibited	prohibit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	xcomp	_	SpaceAfter=No|start_char=5480|end_char=5490
+24	,	,	PUNCT	,	_	23	punct	_	SpaceAfter=No|start_char=5490|end_char=5491
 25	"	"	PUNCT	''	_	23	punct	_	start_char=5491|end_char=5492
 26	and	and	CCONJ	CC	_	28	cc	_	start_char=5493|end_char=5496
-27	"	"	PUNCT	``	_	28	punct	_	start_char=5497|end_char=5498|SpaceAfter=No
+27	"	"	PUNCT	``	_	28	punct	_	SpaceAfter=No|start_char=5497|end_char=5498
 28	intolerance	intolerance	NOUN	NN	Number=Sing	5	conj	_	start_char=5498|end_char=5509
 29	not	not	PART	RB	Polarity=Neg	30	advmod	_	start_char=5510|end_char=5513
-30	tolerated	tolerate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	28	acl	_	start_char=5514|end_char=5523|SpaceAfter=No
-31	.	.	PUNCT	.	_	16	punct	_	start_char=5523|end_char=5524|SpaceAfter=No
-32	"	"	PUNCT	''	_	16	punct	_	start_char=5524|end_char=5525|SpacesAfter=\n\n
+30	tolerated	tolerate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	28	acl	_	SpaceAfter=No|start_char=5514|end_char=5523
+31	.	.	PUNCT	.	_	16	punct	_	SpaceAfter=No|start_char=5523|end_char=5524
+32	"	"	PUNCT	''	_	16	punct	_	SpacesAfter=\n\n|start_char=5524|end_char=5525
 
 # text = And this was enforced by babe guards Mama Cax, Denise Bidot, Geena Rocero, Ericka Hart and Emme, all activists in their own right.
 # sent_id = 54
@@ -1318,26 +1315,26 @@
 6	babe	babe	NOUN	NN	Number=Sing	7	compound	_	start_char=5552|end_char=5556
 7	guards	guard	NOUN	NNS	Number=Plur	4	obl:agent	_	start_char=5557|end_char=5563
 8	Mama	Mama	PROPN	NNP	Number=Sing	7	appos	_	start_char=5564|end_char=5568
-9	Cax	Cax	PROPN	NNP	Number=Sing	8	flat	_	start_char=5569|end_char=5572|SpaceAfter=No
+9	Cax	Cax	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No|start_char=5569|end_char=5572
 10	,	,	PUNCT	,	_	11	punct	_	start_char=5572|end_char=5573
 11	Denise	Denise	PROPN	NNP	Number=Sing	8	conj	_	start_char=5574|end_char=5580
-12	Bidot	Bidot	PROPN	NNP	Number=Sing	11	flat	_	start_char=5581|end_char=5586|SpaceAfter=No
+12	Bidot	Bidot	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No|start_char=5581|end_char=5586
 13	,	,	PUNCT	,	_	14	punct	_	start_char=5586|end_char=5587
 14	Geena	Geena	PROPN	NNP	Number=Sing	8	conj	_	start_char=5588|end_char=5593
-15	Rocero	Rocero	PROPN	NNP	Number=Sing	14	flat	_	start_char=5594|end_char=5600|SpaceAfter=No
+15	Rocero	Rocero	PROPN	NNP	Number=Sing	14	flat	_	SpaceAfter=No|start_char=5594|end_char=5600
 16	,	,	PUNCT	,	_	17	punct	_	start_char=5600|end_char=5601
 17	Ericka	Ericka	PROPN	NNP	Number=Sing	8	conj	_	start_char=5602|end_char=5608
 18	Hart	Hart	PROPN	NNP	Number=Sing	17	flat	_	start_char=5609|end_char=5613
 19	and	and	CCONJ	CC	_	20	cc	_	start_char=5614|end_char=5617
-20	Emme	Emme	PROPN	NNP	Number=Sing	8	conj	_	start_char=5618|end_char=5622|SpaceAfter=No
+20	Emme	Emme	PROPN	NNP	Number=Sing	8	conj	_	SpaceAfter=No|start_char=5618|end_char=5622
 21	,	,	PUNCT	,	_	23	punct	_	start_char=5622|end_char=5623
 22	all	all	DET	DT	PronType=Tot	23	det	_	start_char=5624|end_char=5627
 23	activists	activist	NOUN	NNS	Number=Plur	7	appos	_	start_char=5628|end_char=5637
 24	in	in	ADP	IN	_	27	case	_	start_char=5638|end_char=5640
 25	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	start_char=5641|end_char=5646
 26	own	own	ADJ	JJ	Degree=Pos	27	amod	_	start_char=5647|end_char=5650
-27	right	right	NOUN	NN	Number=Sing	23	nmod	_	start_char=5651|end_char=5656|SpaceAfter=No
-28	.	.	PUNCT	.	_	4	punct	_	start_char=5656|end_char=5657|SpacesAfter=\n\n
+27	right	right	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No|start_char=5651|end_char=5656
+28	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=5656|end_char=5657
 
 # text = I've always felt it was important to show a range of different bodies in our runway shows and campaigns.
 # sent_id = 55
@@ -1361,8 +1358,8 @@
 17	runway	runway	NOUN	NN	Number=Sing	18	compound	_	start_char=5736|end_char=5742
 18	shows	show	NOUN	NNS	Number=Plur	14	nmod	_	start_char=5743|end_char=5748
 19	and	and	CCONJ	CC	_	20	cc	_	start_char=5749|end_char=5752
-20	campaigns	campaign	NOUN	NNS	Number=Plur	18	conj	_	start_char=5753|end_char=5762|SpaceAfter=No
-21	.	.	PUNCT	.	_	4	punct	_	start_char=5762|end_char=5763|SpacesAfter=\n\n
+20	campaigns	campaign	NOUN	NNS	Number=Plur	18	conj	_	SpaceAfter=No|start_char=5753|end_char=5762
+21	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=5762|end_char=5763
 
 # text = But it actually wasn't until recently that we were able to expand our size range in a major way.
 # sent_id = 56
@@ -1386,8 +1383,8 @@
 17	in	in	ADP	IN	_	20	case	_	start_char=5846|end_char=5848
 18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	start_char=5849|end_char=5850
 19	major	major	ADJ	JJ	Degree=Pos	20	amod	_	start_char=5851|end_char=5856
-20	way	way	NOUN	NN	Number=Sing	13	obl	_	start_char=5857|end_char=5860|SpaceAfter=No
-21	.	.	PUNCT	.	_	11	punct	_	start_char=5860|end_char=5861|SpacesAfter=\n\n
+20	way	way	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No|start_char=5857|end_char=5860
+21	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n\n|start_char=5860|end_char=5861
 
 # text = We first launched our curve collection five years ago; we were so excited.
 # sent_id = 57
@@ -1399,32 +1396,32 @@
 6	collection	collection	NOUN	NN	Number=Sing	3	obj	_	start_char=5891|end_char=5901
 7	five	five	NUM	CD	NumForm=Word|NumType=Card	8	nummod	_	start_char=5902|end_char=5906
 8	years	year	NOUN	NNS	Number=Plur	9	obl:unmarked	_	start_char=5907|end_char=5912
-9	ago	ago	ADV	RB	_	3	advmod	_	start_char=5913|end_char=5916|SpaceAfter=No
+9	ago	ago	ADV	RB	_	3	advmod	_	SpaceAfter=No|start_char=5913|end_char=5916
 10	;	;	PUNCT	:	_	14	punct	_	start_char=5916|end_char=5917
 11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	start_char=5918|end_char=5920
 12	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	14	cop	_	start_char=5921|end_char=5925
 13	so	so	ADV	RB	_	14	advmod	_	start_char=5926|end_char=5928
-14	excited	excited	ADJ	JJ	Degree=Pos	3	parataxis	_	start_char=5929|end_char=5936|SpaceAfter=No
-15	.	.	PUNCT	.	_	3	punct	_	start_char=5936|end_char=5937|SpacesAfter=\n\n
+14	excited	excited	ADJ	JJ	Degree=Pos	3	parataxis	_	SpaceAfter=No|start_char=5929|end_char=5936
+15	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=5936|end_char=5937
 
 # text = But when it launched, it fell flat.
 # sent_id = 58
 1	But	but	CCONJ	CC	_	7	cc	_	start_char=5939|end_char=5942
 2	when	when	ADV	WRB	PronType=Int	4	advmod	_	start_char=5943|end_char=5947
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=5948|end_char=5950
-4	launched	launch	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	start_char=5951|end_char=5959|SpaceAfter=No
+4	launched	launch	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	SpaceAfter=No|start_char=5951|end_char=5959
 5	,	,	PUNCT	,	_	4	punct	_	start_char=5959|end_char=5960
 6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=5961|end_char=5963
 7	fell	fall	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=5964|end_char=5968
-8	flat	flat	ADJ	JJ	Degree=Pos	7	xcomp	_	start_char=5969|end_char=5973|SpaceAfter=No
-9	.	.	PUNCT	.	_	7	punct	_	start_char=5973|end_char=5974|SpacesAfter=\n\n
+8	flat	flat	ADJ	JJ	Degree=Pos	7	xcomp	_	SpaceAfter=No|start_char=5969|end_char=5973
+9	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=5973|end_char=5974
 
 # text = Nobody was interested.
 # sent_id = 59
 1	Nobody	nobody	PRON	NN	Number=Sing|PronType=Neg	3	nsubj	_	start_char=5976|end_char=5982
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	start_char=5983|end_char=5986
-3	interested	interested	ADJ	JJ	Degree=Pos	0	root	_	start_char=5987|end_char=5997|SpaceAfter=No
-4	.	.	PUNCT	.	_	3	punct	_	start_char=5997|end_char=5998|SpacesAfter=\n\n
+3	interested	interested	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No|start_char=5987|end_char=5997
+4	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=5997|end_char=5998
 
 # text = None of our department stores stocked above a size large, and if they did, it was somewhere else in the building entirely.
 # sent_id = 60
@@ -1437,12 +1434,12 @@
 7	above	above	ADP	IN	_	10	case	_	start_char=6038|end_char=6043
 8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=6044|end_char=6045
 9	size	size	NOUN	NN	Number=Sing	10	obl:unmarked	_	start_char=6046|end_char=6050
-10	large	large	ADJ	JJ	Degree=Pos	6	obl	_	start_char=6051|end_char=6056|SpaceAfter=No
+10	large	large	ADJ	JJ	Degree=Pos	6	obl	_	SpaceAfter=No|start_char=6051|end_char=6056
 11	,	,	PUNCT	,	_	12	punct	_	start_char=6056|end_char=6057
 12	and	and	CCONJ	CC	_	19	cc	_	start_char=6058|end_char=6061
 13	if	if	SCONJ	IN	_	15	mark	_	start_char=6062|end_char=6064
 14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	start_char=6065|end_char=6069
-15	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	advcl	_	start_char=6070|end_char=6073|SpaceAfter=No
+15	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	advcl	_	SpaceAfter=No|start_char=6070|end_char=6073
 16	,	,	PUNCT	,	_	15	punct	_	start_char=6073|end_char=6074
 17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	start_char=6075|end_char=6077
 18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	start_char=6078|end_char=6081
@@ -1451,24 +1448,24 @@
 21	in	in	ADP	IN	_	23	case	_	start_char=6097|end_char=6099
 22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	start_char=6100|end_char=6103
 23	building	building	NOUN	NN	Number=Sing	19	obl	_	start_char=6104|end_char=6112
-24	entirely	entirely	ADV	RB	_	19	advmod	_	start_char=6113|end_char=6121|SpaceAfter=No
-25	.	.	PUNCT	.	_	6	punct	_	start_char=6121|end_char=6122|SpacesAfter=\n\n
+24	entirely	entirely	ADV	RB	_	19	advmod	_	SpaceAfter=No|start_char=6113|end_char=6121
+25	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=6121|end_char=6122
 
 # text = In fact, one time our sales team said, "You know, it's so cool you have trans models and curve models on the runway -- I love what you're doing.
 # sent_id = 61
 1	In	in	ADP	IN	_	2	case	_	start_char=6124|end_char=6126
-2	fact	fact	NOUN	NN	Number=Sing	18	obl	_	start_char=6127|end_char=6131|SpaceAfter=No
+2	fact	fact	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No|start_char=6127|end_char=6131
 3	,	,	PUNCT	,	_	2	punct	_	start_char=6131|end_char=6132
 4	one	one	NUM	CD	NumForm=Word|NumType=Card	5	nummod	_	start_char=6133|end_char=6136
 5	time	time	NOUN	NN	Number=Sing	18	obl:unmarked	_	start_char=6137|end_char=6141
 6	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=6142|end_char=6145
 7	sales	sale	NOUN	NN	Number=Plur	8	compound	_	start_char=6146|end_char=6151
 8	team	team	NOUN	NN	Number=Sing	9	nsubj	_	start_char=6152|end_char=6156
-9	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	start_char=6157|end_char=6161|SpaceAfter=No
+9	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No|start_char=6157|end_char=6161
 10	,	,	PUNCT	,	_	18	punct	_	start_char=6161|end_char=6162
-11	"	"	PUNCT	``	_	13	punct	_	start_char=6163|end_char=6164|SpaceAfter=No
+11	"	"	PUNCT	``	_	13	punct	_	SpaceAfter=No|start_char=6163|end_char=6164
 12	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	start_char=6164|end_char=6167
-13	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	parataxis	_	start_char=6168|end_char=6172|SpaceAfter=No
+13	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	parataxis	_	SpaceAfter=No|start_char=6168|end_char=6172
 14	,	,	PUNCT	,	_	13	punct	_	start_char=6172|end_char=6173
 15-16	it's	_	_	_	_	_	_	_	start_char=6174|end_char=6178
 15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	start_char=6174|end_char=6176
@@ -1492,8 +1489,8 @@
 33-34	you're	_	_	_	_	_	_	_	start_char=6255|end_char=6261
 33	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	35	nsubj	_	start_char=6255|end_char=6258
 34	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	35	aux	_	start_char=6258|end_char=6261
-35	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	32	acl:relcl	_	start_char=6262|end_char=6267|SpaceAfter=No
-36	.	.	PUNCT	.	_	18	punct	_	start_char=6267|end_char=6268|SpacesAfter=\n\n
+35	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	32	acl:relcl	_	SpaceAfter=No|start_char=6262|end_char=6267
+36	.	.	PUNCT	.	_	18	punct	_	SpacesAfter=\n\n|start_char=6267|end_char=6268
 
 # text = But when the buyers come in to see the collection for market, they want to be sold a dream, they want to see something that they aspire to be."
 # sent_id = 62
@@ -1508,7 +1505,7 @@
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=6305|end_char=6308
 10	collection	collection	NOUN	NN	Number=Sing	8	obj	_	start_char=6309|end_char=6319
 11	for	for	ADP	IN	_	12	case	_	start_char=6320|end_char=6323
-12	market	market	NOUN	NN	Number=Sing	8	obl	_	start_char=6324|end_char=6330|SpaceAfter=No
+12	market	market	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No|start_char=6324|end_char=6330
 13	,	,	PUNCT	,	_	5	punct	_	start_char=6330|end_char=6331
 14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	start_char=6332|end_char=6336
 15	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6337|end_char=6341
@@ -1516,7 +1513,7 @@
 17	be	be	AUX	VB	VerbForm=Inf	18	aux:pass	_	start_char=6345|end_char=6347
 18	sold	sell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	xcomp	_	start_char=6348|end_char=6352
 19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	start_char=6353|end_char=6354
-20	dream	dream	NOUN	NN	Number=Sing	18	obj	_	start_char=6355|end_char=6360|SpaceAfter=No
+20	dream	dream	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No|start_char=6355|end_char=6360
 21	,	,	PUNCT	,	_	23	punct	_	start_char=6360|end_char=6361
 22	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	start_char=6362|end_char=6366
 23	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	start_char=6367|end_char=6371
@@ -1527,9 +1524,9 @@
 28	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	29	nsubj	_	start_char=6394|end_char=6398
 29	aspire	aspire	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	start_char=6399|end_char=6405
 30	to	to	PART	TO	_	27	mark	_	start_char=6406|end_char=6408
-31	be	be	AUX	VB	VerbForm=Inf	29	xcomp	_	start_char=6409|end_char=6411|SpaceAfter=No
-32	.	.	PUNCT	.	_	15	punct	_	start_char=6411|end_char=6412|SpaceAfter=No
-33	"	"	PUNCT	''	_	15	punct	_	start_char=6412|end_char=6413|SpacesAfter=\n\n
+31	be	be	AUX	VB	VerbForm=Inf	29	xcomp	_	SpaceAfter=No|start_char=6409|end_char=6411
+32	.	.	PUNCT	.	_	15	punct	_	SpaceAfter=No|start_char=6411|end_char=6412
+33	"	"	PUNCT	''	_	15	punct	_	SpacesAfter=\n\n|start_char=6412|end_char=6413
 
 # text = Implying that our models weren't that.
 # sent_id = 63
@@ -1540,8 +1537,8 @@
 5-6	weren't	_	_	_	_	_	_	_	start_char=6440|end_char=6447
 5	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	start_char=6440|end_char=6444
 6	n't	not	PART	RB	Polarity=Neg	7	advmod	_	start_char=6444|end_char=6447
-7	that	that	PRON	DT	Number=Sing|PronType=Dem	1	ccomp	_	start_char=6448|end_char=6452|SpaceAfter=No
-8	.	.	PUNCT	.	_	1	punct	_	start_char=6452|end_char=6453|SpacesAfter=\n\n
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	1	ccomp	_	SpaceAfter=No|start_char=6448|end_char=6452
+8	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n|start_char=6452|end_char=6453
 
 # text = But I've realized it's so much more important to open up this dream to more people.
 # sent_id = 64
@@ -1564,8 +1561,8 @@
 15	dream	dream	NOUN	NN	Number=Sing	12	obj	_	start_char=6517|end_char=6522
 16	to	to	ADP	IN	_	18	case	_	start_char=6523|end_char=6525
 17	more	more	ADJ	JJR	Degree=Cmp	18	amod	_	start_char=6526|end_char=6530
-18	people	person	NOUN	NNS	Number=Plur	12	obl	_	start_char=6531|end_char=6537|SpaceAfter=No
-19	.	.	PUNCT	.	_	4	punct	_	start_char=6537|end_char=6538|SpacesAfter=\n\n
+18	people	person	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No|start_char=6531|end_char=6537
+19	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=6537|end_char=6538
 
 # text = I want the consumer to know that it's not your body that needs to change -- it's the clothes.
 # sent_id = 65
@@ -1591,8 +1588,8 @@
 18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	start_char=6616|end_char=6618
 19	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	start_char=6618|end_char=6620
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=6621|end_char=6624
-21	clothes	clothes	NOUN	NNS	Number=Ptan	2	parataxis	_	start_char=6625|end_char=6632|SpaceAfter=No
-22	.	.	PUNCT	.	_	2	punct	_	start_char=6632|end_char=6633|SpacesAfter=\n\n
+21	clothes	clothes	NOUN	NNS	Number=Ptan	2	parataxis	_	SpaceAfter=No|start_char=6625|end_char=6632
+22	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=6632|end_char=6633
 
 # text = There needs to be more fashion options at all sizes and in all retailers.
 # sent_id = 66
@@ -1609,16 +1606,16 @@
 11	and	and	CCONJ	CC	_	14	cc	_	start_char=6687|end_char=6690
 12	in	in	ADP	IN	_	14	case	_	start_char=6691|end_char=6693
 13	all	all	DET	DT	PronType=Tot	14	det	_	start_char=6694|end_char=6697
-14	retailers	retailer	NOUN	NNS	Number=Plur	10	conj	_	start_char=6698|end_char=6707|SpaceAfter=No
-15	.	.	PUNCT	.	_	2	punct	_	start_char=6707|end_char=6708|SpacesAfter=\n\n
+14	retailers	retailer	NOUN	NNS	Number=Plur	10	conj	_	SpaceAfter=No|start_char=6698|end_char=6707
+15	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=6707|end_char=6708
 
 # text = So finally, in 2018, Nordstrom actually placed an order up to 3X.
 # sent_id = 67
 1	So	so	ADV	RB	_	9	advmod	_	start_char=6710|end_char=6712
-2	finally	finally	ADV	RB	_	9	advmod	_	start_char=6713|end_char=6720|SpaceAfter=No
+2	finally	finally	ADV	RB	_	9	advmod	_	SpaceAfter=No|start_char=6713|end_char=6720
 3	,	,	PUNCT	,	_	2	punct	_	start_char=6720|end_char=6721
 4	in	in	ADP	IN	_	5	case	_	start_char=6722|end_char=6724
-5	2018	2018	NUM	CD	NumForm=Digit|NumType=Card	9	obl	_	start_char=6725|end_char=6729|SpaceAfter=No
+5	2018	2018	NUM	CD	NumForm=Digit|NumType=Card	9	obl	_	SpaceAfter=No|start_char=6725|end_char=6729
 6	,	,	PUNCT	,	_	5	punct	_	start_char=6729|end_char=6730
 7	Nordstrom	Nordstrom	PROPN	NNP	Number=Sing	9	nsubj	_	start_char=6731|end_char=6740
 8	actually	actually	ADV	RB	_	9	advmod	_	start_char=6741|end_char=6749
@@ -1627,8 +1624,8 @@
 11	order	order	NOUN	NN	Number=Sing	9	obj	_	start_char=6760|end_char=6765
 12	up	up	ADP	IN	_	14	case	_	start_char=6766|end_char=6768
 13	to	to	ADP	IN	_	14	case	_	start_char=6769|end_char=6771
-14	3X	3X	NOUN	NN	Number=Sing	9	obl	_	start_char=6772|end_char=6774|SpaceAfter=No
-15	.	.	PUNCT	.	_	9	punct	_	start_char=6774|end_char=6775|SpacesAfter=\n\n
+14	3X	3X	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No|start_char=6772|end_char=6774
+15	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n\n|start_char=6774|end_char=6775
 
 # text = And this was a huge game changer for us to have a major retailer invest in adding these units, so we could go to the factory -- now we go up to 4X, which is about a size 32.
 # sent_id = 68
@@ -1650,7 +1647,7 @@
 16	in	in	SCONJ	IN	_	17	mark	_	start_char=6849|end_char=6851
 17	adding	add	VERB	VBG	Tense=Pres|VerbForm=Part	15	acl	_	start_char=6852|end_char=6858
 18	these	this	DET	DT	Number=Plur|PronType=Dem	19	det	_	start_char=6859|end_char=6864
-19	units	unit	NOUN	NNS	Number=Plur	17	obj	_	start_char=6865|end_char=6870|SpaceAfter=No
+19	units	unit	NOUN	NNS	Number=Plur	17	obj	_	SpaceAfter=No|start_char=6865|end_char=6870
 20	,	,	PUNCT	,	_	24	punct	_	start_char=6870|end_char=6871
 21	so	so	ADV	RB	_	24	advmod	_	start_char=6872|end_char=6874
 22	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	start_char=6875|end_char=6877
@@ -1665,15 +1662,15 @@
 31	go	go	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	parataxis	_	start_char=6912|end_char=6914
 32	up	up	ADP	RP	_	31	compound:prt	_	start_char=6915|end_char=6917
 33	to	to	ADP	IN	_	34	case	_	start_char=6918|end_char=6920
-34	4X	4X	NOUN	NN	Number=Sing	31	obl	_	start_char=6921|end_char=6923|SpaceAfter=No
+34	4X	4X	NOUN	NN	Number=Sing	31	obl	_	SpaceAfter=No|start_char=6921|end_char=6923
 35	,	,	PUNCT	,	_	40	punct	_	start_char=6923|end_char=6924
 36	which	which	PRON	WDT	PronType=Rel	40	nsubj	_	start_char=6925|end_char=6930
 37	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	start_char=6931|end_char=6933
 38	about	about	ADV	RB	_	40	advmod	_	start_char=6934|end_char=6939
 39	a	a	DET	DT	Definite=Ind|PronType=Art	40	det	_	start_char=6940|end_char=6941
 40	size	size	NOUN	NN	Number=Sing	34	acl:relcl	_	start_char=6942|end_char=6946
-41	32	32	NUM	CD	NumForm=Digit|NumType=Card	40	nummod	_	start_char=6947|end_char=6949|SpaceAfter=No
-42	.	.	PUNCT	.	_	7	punct	_	start_char=6949|end_char=6950|SpacesAfter=\n\n
+41	32	32	NUM	CD	NumForm=Digit|NumType=Card	40	nummod	_	SpaceAfter=No|start_char=6947|end_char=6949
+42	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=6949|end_char=6950
 
 # text = Having that investment helped us to change and realign our entire design process.
 # sent_id = 69
@@ -1689,16 +1686,16 @@
 10	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=7007|end_char=7010
 11	entire	entire	ADJ	JJ	Degree=Pos	13	amod	_	start_char=7011|end_char=7017
 12	design	design	NOUN	NN	Number=Sing	13	compound	_	start_char=7018|end_char=7024
-13	process	process	NOUN	NN	Number=Sing	9	obj	_	start_char=7025|end_char=7032|SpaceAfter=No
-14	.	.	PUNCT	.	_	4	punct	_	start_char=7032|end_char=7033|SpacesAfter=\n\n
+13	process	process	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No|start_char=7025|end_char=7032
+14	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=7032|end_char=7033
 
 # text = We now have different-sized bodies to sketch and drape on in the studio.
 # sent_id = 70
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=7035|end_char=7037
 2	now	now	ADV	RB	_	3	advmod	_	start_char=7038|end_char=7041
 3	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7042|end_char=7046
-4	different	different	ADJ	JJ	Degree=Pos	6	amod	_	start_char=7047|end_char=7056|SpaceAfter=No
-5	-	-	PUNCT	HYPH	_	4	punct	_	start_char=7056|end_char=7057|SpaceAfter=No
+4	different	different	ADJ	JJ	Degree=Pos	6	amod	_	SpaceAfter=No|start_char=7047|end_char=7056
+5	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No|start_char=7056|end_char=7057
 6	sized	sized	ADJ	JJ	Degree=Pos	7	amod	_	start_char=7057|end_char=7062
 7	bodies	body	NOUN	NNS	Number=Plur	3	obj	_	start_char=7063|end_char=7069
 8	to	to	PART	TO	_	9	mark	_	start_char=7070|end_char=7072
@@ -1708,8 +1705,8 @@
 12	on	on	ADP	RP	_	11	compound:prt	_	start_char=7090|end_char=7092
 13	in	in	ADP	IN	_	15	case	_	start_char=7093|end_char=7095
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=7096|end_char=7099
-15	studio	studio	NOUN	NN	Number=Sing	11	obl	_	start_char=7100|end_char=7106|SpaceAfter=No
-16	.	.	PUNCT	.	_	3	punct	_	start_char=7106|end_char=7107|SpacesAfter=\n\n
+15	studio	studio	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No|start_char=7100|end_char=7106
+16	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=7106|end_char=7107
 
 # text = And if more fashion schools taught these skills, more designers would have the ability to design for all bodies.
 # sent_id = 71
@@ -1720,7 +1717,7 @@
 5	schools	school	NOUN	NNS	Number=Plur	6	nsubj	_	start_char=7129|end_char=7136
 6	taught	teach	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	advcl	_	start_char=7137|end_char=7143
 7	these	this	DET	DT	Number=Plur|PronType=Dem	8	det	_	start_char=7144|end_char=7149
-8	skills	skill	NOUN	NNS	Number=Plur	6	obj	_	start_char=7150|end_char=7156|SpaceAfter=No
+8	skills	skill	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No|start_char=7150|end_char=7156
 9	,	,	PUNCT	,	_	6	punct	_	start_char=7156|end_char=7157
 10	more	more	ADJ	JJR	Degree=Cmp	11	amod	_	start_char=7158|end_char=7162
 11	designers	designer	NOUN	NNS	Number=Plur	13	nsubj	_	start_char=7163|end_char=7172
@@ -1732,15 +1729,15 @@
 17	design	design	VERB	VB	VerbForm=Inf	15	acl	_	start_char=7199|end_char=7205
 18	for	for	ADP	IN	_	20	case	_	start_char=7206|end_char=7209
 19	all	all	DET	DT	PronType=Tot	20	det	_	start_char=7210|end_char=7213
-20	bodies	body	NOUN	NNS	Number=Plur	17	obl	_	start_char=7214|end_char=7220|SpaceAfter=No
-21	.	.	PUNCT	.	_	13	punct	_	start_char=7220|end_char=7221|SpacesAfter=\n\n
+20	bodies	body	NOUN	NNS	Number=Plur	17	obl	_	SpaceAfter=No|start_char=7214|end_char=7220
+21	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\n\n|start_char=7220|end_char=7221
 
 # text = So as fashion designers, it's our job to utilize our platform to explode this narrow and restrictive definition of beauty.
 # sent_id = 72
 1	So	so	ADV	RB	_	9	advmod	_	start_char=7223|end_char=7225
 2	as	as	ADP	IN	_	4	case	_	start_char=7226|end_char=7228
 3	fashion	fashion	NOUN	NN	Number=Sing	4	compound	_	start_char=7229|end_char=7236
-4	designers	designer	NOUN	NNS	Number=Plur	9	obl	_	start_char=7237|end_char=7246|SpaceAfter=No
+4	designers	designer	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No|start_char=7237|end_char=7246
 5	,	,	PUNCT	,	_	4	punct	_	start_char=7246|end_char=7247
 6-7	it's	_	_	_	_	_	_	_	start_char=7248|end_char=7252
 6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	start_char=7248|end_char=7250
@@ -1759,8 +1756,8 @@
 19	restrictive	restrictive	ADJ	JJ	Degree=Pos	17	conj	_	start_char=7312|end_char=7323
 20	definition	definition	NOUN	NN	Number=Sing	15	obj	_	start_char=7324|end_char=7334
 21	of	of	ADP	IN	_	22	case	_	start_char=7335|end_char=7337
-22	beauty	beauty	NOUN	NN	Number=Sing	20	nmod	_	start_char=7338|end_char=7344|SpaceAfter=No
-23	.	.	PUNCT	.	_	9	punct	_	start_char=7344|end_char=7345|SpacesAfter=\n\n
+22	beauty	beauty	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No|start_char=7338|end_char=7344
+23	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n\n|start_char=7344|end_char=7345
 
 # text = My goal is that one day, teenagers growing up don't feel the same pressure that I did to conform.
 # sent_id = 73
@@ -1769,7 +1766,7 @@
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=7355|end_char=7357
 4	that	that	SCONJ	IN	_	13	mark	_	start_char=7358|end_char=7362
 5	one	one	NUM	CD	NumForm=Word|NumType=Card	6	nummod	_	start_char=7363|end_char=7366
-6	day	day	NOUN	NN	Number=Sing	13	obl:unmarked	_	start_char=7367|end_char=7370|SpaceAfter=No
+6	day	day	NOUN	NN	Number=Sing	13	obl:unmarked	_	SpaceAfter=No|start_char=7367|end_char=7370
 7	,	,	PUNCT	,	_	6	punct	_	start_char=7370|end_char=7371
 8	teenagers	teenager	NOUN	NNS	Number=Plur	13	nsubj	_	start_char=7372|end_char=7381
 9	growing	grow	VERB	VBG	VerbForm=Ger	8	acl	_	start_char=7382|end_char=7389
@@ -1785,8 +1782,8 @@
 18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	start_char=7427|end_char=7428
 19	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	16	acl:relcl	_	start_char=7429|end_char=7432
 20	to	to	PART	TO	_	21	mark	_	start_char=7433|end_char=7435
-21	conform	conform	VERB	VB	VerbForm=Inf	19	xcomp	_	start_char=7436|end_char=7443|SpaceAfter=No
-22	.	.	PUNCT	.	_	13	punct	_	start_char=7443|end_char=7444|SpacesAfter=\n\n
+21	conform	conform	VERB	VB	VerbForm=Inf	19	xcomp	_	SpaceAfter=No|start_char=7436|end_char=7443
+22	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\n\n|start_char=7443|end_char=7444
 
 # text = And I hope that our work contributes to the fashion industry's opening up to celebrate many different identities.
 # sent_id = 74
@@ -1809,11 +1806,11 @@
 16	celebrate	celebrate	VERB	VB	VerbForm=Inf	7	advcl	_	start_char=7523|end_char=7532
 17	many	many	ADJ	JJ	Degree=Pos	19	amod	_	start_char=7533|end_char=7537
 18	different	different	ADJ	JJ	Degree=Pos	19	amod	_	start_char=7538|end_char=7547
-19	identities	identity	NOUN	NNS	Number=Plur	16	obj	_	start_char=7548|end_char=7558|SpaceAfter=No
-20	.	.	PUNCT	.	_	3	punct	_	start_char=7558|end_char=7559|SpacesAfter=\n\n
+19	identities	identity	NOUN	NNS	Number=Plur	16	obj	_	SpaceAfter=No|start_char=7548|end_char=7558
+20	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=7558|end_char=7559
 
 # text = Thank you.
 # sent_id = 75
 1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7561|end_char=7566
-2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	start_char=7567|end_char=7570|SpaceAfter=No
-3	.	.	PUNCT	.	_	1	punct	_	start_char=7570|end_char=7571|SpaceAfter=No
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	SpaceAfter=No|start_char=7567|end_char=7570
+3	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|start_char=7570|end_char=7571

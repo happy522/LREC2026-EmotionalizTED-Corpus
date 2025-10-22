@@ -1,10 +1,9 @@
 # conllu_stats: begin
 # conllu_tokens: 1916
 # conllu_sentences: 97
-# Average tokens per senteces: 19.75257731958763
-# sentece_pairs: 13
+# Average tokens per sentence: 19.75257731958763
+# sentence_pairs: 13
 # conllu_stats: end
-
 
 
 # text = Comics belong in the classroom
@@ -13,7 +12,7 @@
 2	belong	belong	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7|end_char=13
 3	in	in	ADP	IN	_	5	case	_	start_char=14|end_char=16
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=17|end_char=20
-5	classroom	classroom	NOUN	NN	Number=Sing	2	obl	_	start_char=21|end_char=30|SpacesAfter=\n\n
+5	classroom	classroom	NOUN	NN	Number=Sing	2	obl	_	SpacesAfter=\n\n|start_char=21|end_char=30
 
 # text = When I was in the fifth grade, I bought an issue of "DC Comics Presents #57" off of a spinner rack at my local bookstore, and that comic book changed my life.
 # sent_id = 1
@@ -23,19 +22,19 @@
 4	in	in	ADP	IN	_	7	case	_	start_char=43|end_char=45
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=46|end_char=49
 6	fifth	fifth	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	7	amod	_	start_char=50|end_char=55
-7	grade	grade	NOUN	NN	Number=Sing	10	advcl	_	start_char=56|end_char=61|SpaceAfter=No
+7	grade	grade	NOUN	NN	Number=Sing	10	advcl	_	SpaceAfter=No|start_char=56|end_char=61
 8	,	,	PUNCT	,	_	7	punct	_	start_char=61|end_char=62
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=63|end_char=64
 10	bought	buy	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=65|end_char=71
 11	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=72|end_char=74
 12	issue	issue	NOUN	NN	Number=Sing	10	obj	_	start_char=75|end_char=80
 13	of	of	ADP	IN	_	18	case	_	start_char=81|end_char=83
-14	"	"	PUNCT	``	_	18	punct	_	start_char=84|end_char=85|SpaceAfter=No
+14	"	"	PUNCT	``	_	18	punct	_	SpaceAfter=No|start_char=84|end_char=85
 15	DC	DC	PROPN	NNP	Number=Sing	18	compound	_	start_char=85|end_char=87
 16	Comics	Comics	PROPN	NNP	Number=Sing	15	flat	_	start_char=88|end_char=94
 17	Presents	Present	PROPN	NNPS	Number=Sing	18	compound	_	start_char=95|end_char=103
-18	#	#	SYM	NN	Number=Sing	12	nmod	_	start_char=104|end_char=105|SpaceAfter=No
-19	57	57	NUM	CD	NumForm=Digit|NumType=Card	18	nummod	_	start_char=105|end_char=107|SpaceAfter=No
+18	#	#	SYM	NN	Number=Sing	12	nmod	_	SpaceAfter=No|start_char=104|end_char=105
+19	57	57	NUM	CD	NumForm=Digit|NumType=Card	18	nummod	_	SpaceAfter=No|start_char=105|end_char=107
 20	"	"	PUNCT	''	_	18	punct	_	start_char=107|end_char=108
 21	off	off	ADP	IN	_	25	case	_	start_char=109|end_char=112
 22	of	of	ADP	IN	_	25	case	_	start_char=113|end_char=115
@@ -45,7 +44,7 @@
 26	at	at	ADP	IN	_	29	case	_	start_char=131|end_char=133
 27	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	29	nmod:poss	_	start_char=134|end_char=136
 28	local	local	ADJ	JJ	Degree=Pos	29	amod	_	start_char=137|end_char=142
-29	bookstore	bookstore	NOUN	NN	Number=Sing	25	nmod	_	start_char=143|end_char=152|SpaceAfter=No
+29	bookstore	bookstore	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No|start_char=143|end_char=152
 30	,	,	PUNCT	,	_	35	punct	_	start_char=152|end_char=153
 31	and	and	CCONJ	CC	_	35	cc	_	start_char=154|end_char=157
 32	that	that	DET	DT	Number=Sing|PronType=Dem	34	det	_	start_char=158|end_char=162
@@ -53,8 +52,8 @@
 34	book	book	NOUN	NN	Number=Sing	35	nsubj	_	start_char=169|end_char=173
 35	changed	change	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	start_char=174|end_char=181
 36	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	37	nmod:poss	_	start_char=182|end_char=184
-37	life	life	NOUN	NN	Number=Sing	35	obj	_	start_char=185|end_char=189|SpaceAfter=No
-38	.	.	PUNCT	.	_	10	punct	_	start_char=189|end_char=190|SpacesAfter=\n\n
+37	life	life	NOUN	NN	Number=Sing	35	obj	_	SpaceAfter=No|start_char=185|end_char=189
+38	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n|start_char=189|end_char=190
 
 # text = The combination of words and pictures did something inside my head that had never been done before, and I immediately fell in love with the medium of comics.
 # sent_id = 2
@@ -74,7 +73,7 @@
 14	never	never	ADV	RB	PronType=Neg	16	advmod	_	start_char=268|end_char=273
 15	been	be	AUX	VBN	Tense=Past|VerbForm=Part	16	aux:pass	_	start_char=274|end_char=278
 16	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	acl:relcl	_	start_char=279|end_char=283
-17	before	before	ADV	RB	_	16	advmod	_	start_char=284|end_char=290|SpaceAfter=No
+17	before	before	ADV	RB	_	16	advmod	_	SpaceAfter=No|start_char=284|end_char=290
 18	,	,	PUNCT	,	_	22	punct	_	start_char=290|end_char=291
 19	and	and	CCONJ	CC	_	22	cc	_	start_char=292|end_char=295
 20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	start_char=296|end_char=297
@@ -86,8 +85,8 @@
 26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	start_char=328|end_char=331
 27	medium	medium	NOUN	NN	Number=Sing	22	obl	_	start_char=332|end_char=338
 28	of	of	ADP	IN	_	29	case	_	start_char=339|end_char=341
-29	comics	comic	NOUN	NNS	Number=Plur	27	nmod	_	start_char=342|end_char=348|SpaceAfter=No
-30	.	.	PUNCT	.	_	7	punct	_	start_char=348|end_char=349|SpacesAfter=\n\n
+29	comics	comic	NOUN	NNS	Number=Plur	27	nmod	_	SpaceAfter=No|start_char=342|end_char=348
+30	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=348|end_char=349
 
 # text = I became a voracious comic book reader, but I never brought them to school.
 # sent_id = 3
@@ -97,7 +96,7 @@
 4	voracious	voracious	ADJ	JJ	Degree=Pos	7	amod	_	start_char=362|end_char=371
 5	comic	comic	ADJ	JJ	Degree=Pos	6	amod	_	start_char=372|end_char=377
 6	book	book	NOUN	NN	Number=Sing	7	compound	_	start_char=378|end_char=382
-7	reader	reader	NOUN	NN	Number=Sing	2	xcomp	_	start_char=383|end_char=389|SpaceAfter=No
+7	reader	reader	NOUN	NN	Number=Sing	2	xcomp	_	SpaceAfter=No|start_char=383|end_char=389
 8	,	,	PUNCT	,	_	12	punct	_	start_char=389|end_char=390
 9	but	but	CCONJ	CC	_	12	cc	_	start_char=391|end_char=394
 10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=395|end_char=396
@@ -105,12 +104,12 @@
 12	brought	bring	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj	_	start_char=403|end_char=410
 13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	obj	_	start_char=411|end_char=415
 14	to	to	ADP	IN	_	15	case	_	start_char=416|end_char=418
-15	school	school	NOUN	NN	Number=Sing	12	obl	_	start_char=419|end_char=425|SpaceAfter=No
-16	.	.	PUNCT	.	_	2	punct	_	start_char=425|end_char=426|SpacesAfter=\n\n
+15	school	school	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No|start_char=419|end_char=425
+16	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=425|end_char=426
 
 # text = Instinctively, I knew that comic books didn't belong in the classroom.
 # sent_id = 4
-1	Instinctively	instinctively	ADV	RB	_	4	advmod	_	start_char=428|end_char=441|SpaceAfter=No
+1	Instinctively	instinctively	ADV	RB	_	4	advmod	_	SpaceAfter=No|start_char=428|end_char=441
 2	,	,	PUNCT	,	_	1	punct	_	start_char=441|end_char=442
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=443|end_char=444
 4	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=445|end_char=449
@@ -123,8 +122,8 @@
 10	belong	belong	VERB	VB	VerbForm=Inf	4	ccomp	_	start_char=474|end_char=480
 11	in	in	ADP	IN	_	13	case	_	start_char=481|end_char=483
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=484|end_char=487
-13	classroom	classroom	NOUN	NN	Number=Sing	10	obl	_	start_char=488|end_char=497|SpaceAfter=No
-14	.	.	PUNCT	.	_	4	punct	_	start_char=497|end_char=498|SpacesAfter=\n\n
+13	classroom	classroom	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No|start_char=488|end_char=497
+14	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=497|end_char=498
 
 # text = My parents definitely were not fans, and I was certain that my teachers wouldn't be either.
 # sent_id = 5
@@ -133,7 +132,7 @@
 3	definitely	definitely	ADV	RB	_	6	advmod	_	start_char=511|end_char=521
 4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	start_char=522|end_char=526
 5	not	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=527|end_char=530
-6	fans	fan	NOUN	NNS	Number=Plur	0	root	_	start_char=531|end_char=535|SpaceAfter=No
+6	fans	fan	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No|start_char=531|end_char=535
 7	,	,	PUNCT	,	_	11	punct	_	start_char=535|end_char=536
 8	and	and	CCONJ	CC	_	11	cc	_	start_char=537|end_char=540
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=541|end_char=542
@@ -146,20 +145,20 @@
 15	would	would	AUX	MD	VerbForm=Fin	17	aux	_	start_char=572|end_char=577
 16	n't	not	PART	RB	Polarity=Neg	17	advmod	_	start_char=577|end_char=580
 17	be	be	AUX	VB	VerbForm=Inf	11	ccomp	_	start_char=581|end_char=583
-18	either	either	CCONJ	CC	_	17	advmod	_	start_char=584|end_char=590|SpaceAfter=No
-19	.	.	PUNCT	.	_	6	punct	_	start_char=590|end_char=591|SpacesAfter=\n\n
+18	either	either	CCONJ	CC	_	17	advmod	_	SpaceAfter=No|start_char=584|end_char=590
+19	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=590|end_char=591
 
 # text = After all, they never used them to teach, comic books and graphic novels were never allowed during silent sustained reading, and they were never sold at our annual book fair.
 # sent_id = 6
 1	After	after	ADP	IN	_	2	case	_	start_char=593|end_char=598
-2	all	all	DET	DT	PronType=Tot	6	obl	_	start_char=599|end_char=602|SpaceAfter=No
+2	all	all	DET	DT	PronType=Tot	6	obl	_	SpaceAfter=No|start_char=599|end_char=602
 3	,	,	PUNCT	,	_	2	punct	_	start_char=602|end_char=603
 4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=604|end_char=608
 5	never	never	ADV	RB	PronType=Neg	6	advmod	_	start_char=609|end_char=614
 6	used	use	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=615|end_char=619
 7	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obj	_	start_char=620|end_char=624
 8	to	to	PART	TO	_	9	mark	_	start_char=625|end_char=627
-9	teach	teach	VERB	VB	VerbForm=Inf	6	xcomp	_	start_char=628|end_char=633|SpaceAfter=No
+9	teach	teach	VERB	VB	VerbForm=Inf	6	xcomp	_	SpaceAfter=No|start_char=628|end_char=633
 10	,	,	PUNCT	,	_	18	punct	_	start_char=633|end_char=634
 11	comic	comic	ADJ	JJ	Degree=Pos	12	amod	_	start_char=635|end_char=640
 12	books	book	NOUN	NNS	Number=Plur	18	nsubj:pass	_	start_char=641|end_char=646
@@ -172,7 +171,7 @@
 19	during	during	ADP	IN	_	22	case	_	start_char=685|end_char=691
 20	silent	silent	ADJ	JJ	Degree=Pos	22	amod	_	start_char=692|end_char=698
 21	sustained	sustain	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	amod	_	start_char=699|end_char=708
-22	reading	reading	NOUN	NN	Number=Sing	18	obl	_	start_char=709|end_char=716|SpaceAfter=No
+22	reading	reading	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No|start_char=709|end_char=716
 23	,	,	PUNCT	,	_	28	punct	_	start_char=716|end_char=717
 24	and	and	CCONJ	CC	_	28	cc	_	start_char=718|end_char=721
 25	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	28	nsubj:pass	_	start_char=722|end_char=726
@@ -183,26 +182,26 @@
 30	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	33	nmod:poss	_	start_char=746|end_char=749
 31	annual	annual	ADJ	JJ	Degree=Pos	33	amod	_	start_char=750|end_char=756
 32	book	book	NOUN	NN	Number=Sing	33	compound	_	start_char=757|end_char=761
-33	fair	fair	NOUN	NN	Number=Sing	28	obl	_	start_char=762|end_char=766|SpaceAfter=No
-34	.	.	PUNCT	.	_	6	punct	_	start_char=766|end_char=767|SpacesAfter=\n\n
+33	fair	fair	NOUN	NN	Number=Sing	28	obl	_	SpaceAfter=No|start_char=762|end_char=766
+34	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=766|end_char=767
 
 # text = Even so, I kept reading comics, and I even started making them.
 # sent_id = 7
 1	Even	even	ADV	RB	_	2	advmod	_	start_char=769|end_char=773
-2	so	so	ADV	RB	_	5	advmod	_	start_char=774|end_char=776|SpaceAfter=No
+2	so	so	ADV	RB	_	5	advmod	_	SpaceAfter=No|start_char=774|end_char=776
 3	,	,	PUNCT	,	_	2	punct	_	start_char=776|end_char=777
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=778|end_char=779
 5	kept	keep	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=780|end_char=784
 6	reading	read	VERB	VBG	VerbForm=Ger	5	xcomp	_	start_char=785|end_char=792
-7	comics	comic	NOUN	NNS	Number=Plur	6	obj	_	start_char=793|end_char=799|SpaceAfter=No
+7	comics	comic	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No|start_char=793|end_char=799
 8	,	,	PUNCT	,	_	12	punct	_	start_char=799|end_char=800
 9	and	and	CCONJ	CC	_	12	cc	_	start_char=801|end_char=804
 10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=805|end_char=806
 11	even	even	ADV	RB	_	12	advmod	_	start_char=807|end_char=811
 12	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	conj	_	start_char=812|end_char=819
 13	making	make	VERB	VBG	VerbForm=Ger	12	xcomp	_	start_char=820|end_char=826
-14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obj	_	start_char=827|end_char=831|SpaceAfter=No
-15	.	.	PUNCT	.	_	5	punct	_	start_char=831|end_char=832|SpacesAfter=\n\n
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obj	_	SpaceAfter=No|start_char=827|end_char=831
+15	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=831|end_char=832
 
 # text = Eventually I became a published cartoonist, writing and drawing comic books for a living.
 # sent_id = 8
@@ -211,7 +210,7 @@
 3	became	become	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=847|end_char=853
 4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=854|end_char=855
 5	published	publish	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	start_char=856|end_char=865
-6	cartoonist	cartoonist	NOUN	NN	Number=Sing	3	xcomp	_	start_char=866|end_char=876|SpaceAfter=No
+6	cartoonist	cartoonist	NOUN	NN	Number=Sing	3	xcomp	_	SpaceAfter=No|start_char=866|end_char=876
 7	,	,	PUNCT	,	_	8	punct	_	start_char=876|end_char=877
 8	writing	write	VERB	VBG	Tense=Pres|VerbForm=Part	6	conj	_	start_char=878|end_char=885
 9	and	and	CCONJ	CC	_	10	cc	_	start_char=886|end_char=889
@@ -220,8 +219,8 @@
 12	books	book	NOUN	NNS	Number=Plur	10	obj	_	start_char=904|end_char=909
 13	for	for	ADP	IN	_	15	case	_	start_char=910|end_char=913
 14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=914|end_char=915
-15	living	living	NOUN	NN	Number=Sing	10	obl	_	start_char=916|end_char=922|SpaceAfter=No
-16	.	.	PUNCT	.	_	3	punct	_	start_char=922|end_char=923|SpacesAfter=\n\n
+15	living	living	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No|start_char=916|end_char=922
+16	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=922|end_char=923
 
 # text = I also became a high school teacher.
 # sent_id = 9
@@ -231,8 +230,8 @@
 4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=939|end_char=940
 5	high	high	ADJ	JJ	Degree=Pos	6	amod	_	start_char=941|end_char=945
 6	school	school	NOUN	NN	Number=Sing	7	compound	_	start_char=946|end_char=952
-7	teacher	teacher	NOUN	NN	Number=Sing	3	xcomp	_	start_char=953|end_char=960|SpaceAfter=No
-8	.	.	PUNCT	.	_	3	punct	_	start_char=960|end_char=961|SpacesAfter=\n\n
+7	teacher	teacher	NOUN	NN	Number=Sing	3	xcomp	_	SpaceAfter=No|start_char=953|end_char=960
+8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=960|end_char=961
 
 # text = This is where I taught:
 # sent_id = 10
@@ -240,8 +239,8 @@
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=968|end_char=970
 3	where	where	ADV	WRB	PronType=Rel	0	root	_	start_char=971|end_char=976
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=977|end_char=978
-5	taught	teach	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	advcl:relcl	_	start_char=979|end_char=985|SpaceAfter=No
-6	:	:	PUNCT	:	_	3	punct	_	start_char=985|end_char=986|SpacesAfter=\n\n
+5	taught	teach	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	advcl:relcl	_	SpaceAfter=No|start_char=979|end_char=985
+6	:	:	PUNCT	:	_	3	punct	_	SpacesAfter=\n\n|start_char=985|end_char=986
 
 # text = Bishop O'Dowd High School in Oakland, California.
 # sent_id = 11
@@ -250,10 +249,10 @@
 3	High	high	ADJ	NNP	Degree=Pos	4	amod	_	start_char=1002|end_char=1006
 4	School	School	PROPN	NNP	Number=Sing	1	appos	_	start_char=1007|end_char=1013
 5	in	in	ADP	IN	_	6	case	_	start_char=1014|end_char=1016
-6	Oakland	Oakland	PROPN	NNP	Number=Sing	4	nmod	_	start_char=1017|end_char=1024|SpaceAfter=No
+6	Oakland	Oakland	PROPN	NNP	Number=Sing	4	nmod	_	SpaceAfter=No|start_char=1017|end_char=1024
 7	,	,	PUNCT	,	_	8	punct	_	start_char=1024|end_char=1025
-8	California	California	PROPN	NNP	Number=Sing	6	appos	_	start_char=1026|end_char=1036|SpaceAfter=No
-9	.	.	PUNCT	.	_	1	punct	_	start_char=1036|end_char=1037|SpacesAfter=\n\n
+8	California	California	PROPN	NNP	Number=Sing	6	appos	_	SpaceAfter=No|start_char=1026|end_char=1036
+9	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n|start_char=1036|end_char=1037
 
 # text = I taught a little bit of math and a little bit of art, but mostly computer science, and I was there for 17 years.
 # sent_id = 12
@@ -269,12 +268,12 @@
 10	little	little	ADJ	JJ	Degree=Pos	11	amod	_	start_char=1075|end_char=1081
 11	bit	bit	NOUN	NN	Number=Sing	5	conj	_	start_char=1082|end_char=1085
 12	of	of	ADP	IN	_	13	case	_	start_char=1086|end_char=1088
-13	art	art	NOUN	NN	Number=Sing	11	nmod	_	start_char=1089|end_char=1092|SpaceAfter=No
+13	art	art	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No|start_char=1089|end_char=1092
 14	,	,	PUNCT	,	_	18	punct	_	start_char=1092|end_char=1093
 15	but	but	CCONJ	CC	_	18	cc	_	start_char=1094|end_char=1097
 16	mostly	mostly	ADV	RB	_	18	advmod	_	start_char=1098|end_char=1104
 17	computer	computer	NOUN	NN	Number=Sing	18	compound	_	start_char=1105|end_char=1113
-18	science	science	NOUN	NN	Number=Sing	13	conj	_	start_char=1114|end_char=1121|SpaceAfter=No
+18	science	science	NOUN	NN	Number=Sing	13	conj	_	SpaceAfter=No|start_char=1114|end_char=1121
 19	,	,	PUNCT	,	_	23	punct	_	start_char=1121|end_char=1122
 20	and	and	CCONJ	CC	_	23	cc	_	start_char=1123|end_char=1126
 21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	start_char=1127|end_char=1128
@@ -282,8 +281,8 @@
 23	there	there	ADV	RB	PronType=Dem	2	conj	_	start_char=1133|end_char=1138
 24	for	for	ADP	IN	_	26	case	_	start_char=1139|end_char=1142
 25	17	17	NUM	CD	NumForm=Digit|NumType=Card	26	nummod	_	start_char=1143|end_char=1145
-26	years	year	NOUN	NNS	Number=Plur	23	obl	_	start_char=1146|end_char=1151|SpaceAfter=No
-27	.	.	PUNCT	.	_	2	punct	_	start_char=1151|end_char=1152|SpacesAfter=\n\n
+26	years	year	NOUN	NNS	Number=Plur	23	obl	_	SpaceAfter=No|start_char=1146|end_char=1151
+27	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=1151|end_char=1152
 
 # text = When I was a brand new teacher, I tried bringing comic books into my classroom.
 # sent_id = 13
@@ -293,7 +292,7 @@
 4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=1165|end_char=1166
 5	brand	brand	NOUN	NN	Number=Sing	6	compound	_	start_char=1167|end_char=1172
 6	new	new	ADJ	JJ	Degree=Pos	7	amod	_	start_char=1173|end_char=1176
-7	teacher	teacher	NOUN	NN	Number=Sing	10	advcl	_	start_char=1177|end_char=1184|SpaceAfter=No
+7	teacher	teacher	NOUN	NN	Number=Sing	10	advcl	_	SpaceAfter=No|start_char=1177|end_char=1184
 8	,	,	PUNCT	,	_	7	punct	_	start_char=1184|end_char=1185
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=1186|end_char=1187
 10	tried	try	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=1188|end_char=1193
@@ -302,8 +301,8 @@
 13	books	book	NOUN	NNS	Number=Plur	11	obj	_	start_char=1209|end_char=1214
 14	into	into	ADP	IN	_	16	case	_	start_char=1215|end_char=1219
 15	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=1220|end_char=1222
-16	classroom	classroom	NOUN	NN	Number=Sing	11	obl	_	start_char=1223|end_char=1232|SpaceAfter=No
-17	.	.	PUNCT	.	_	10	punct	_	start_char=1232|end_char=1233|SpacesAfter=\n\n
+16	classroom	classroom	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No|start_char=1223|end_char=1232
+17	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n|start_char=1232|end_char=1233
 
 # text = I remember telling my students on the first day of every class that I was also a cartoonist.
 # sent_id = 14
@@ -324,8 +323,8 @@
 15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	18	cop	_	start_char=1305|end_char=1308
 16	also	also	ADV	RB	_	18	advmod	_	start_char=1309|end_char=1313
 17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	start_char=1314|end_char=1315
-18	cartoonist	cartoonist	NOUN	NN	Number=Sing	12	acl	_	start_char=1316|end_char=1326|SpaceAfter=No
-19	.	.	PUNCT	.	_	2	punct	_	start_char=1326|end_char=1327|SpacesAfter=\n\n
+18	cartoonist	cartoonist	NOUN	NN	Number=Sing	12	acl	_	SpaceAfter=No|start_char=1316|end_char=1326
+19	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=1326|end_char=1327
 
 # text = It wasn't so much that I was planning to teach them with comics, it was more that I was hoping comics would make them think that I was cool.
 # sent_id = 15
@@ -343,7 +342,7 @@
 11	teach	teach	VERB	VB	VerbForm=Inf	9	xcomp	_	start_char=1370|end_char=1375
 12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obj	_	start_char=1376|end_char=1380
 13	with	with	ADP	IN	_	14	case	_	start_char=1381|end_char=1385
-14	comics	comic	NOUN	NNS	Number=Plur	11	obl	_	start_char=1386|end_char=1392|SpaceAfter=No
+14	comics	comic	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No|start_char=1386|end_char=1392
 15	,	,	PUNCT	,	_	18	punct	_	start_char=1392|end_char=1393
 16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	start_char=1394|end_char=1396
 17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	start_char=1397|end_char=1400
@@ -360,23 +359,23 @@
 28	that	that	SCONJ	IN	_	31	mark	_	start_char=1453|end_char=1457
 29	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	_	start_char=1458|end_char=1459
 30	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	31	cop	_	start_char=1460|end_char=1463
-31	cool	cool	ADJ	JJ	Degree=Pos	27	ccomp	_	start_char=1464|end_char=1468|SpaceAfter=No
-32	.	.	PUNCT	.	_	5	punct	_	start_char=1468|end_char=1469|SpacesAfter=\n\n
+31	cool	cool	ADJ	JJ	Degree=Pos	27	ccomp	_	SpaceAfter=No|start_char=1464|end_char=1468
+32	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=1468|end_char=1469
 
 # text = I was wrong.
 # sent_id = 16
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=1471|end_char=1472
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	cop	_	start_char=1473|end_char=1476
-3	wrong	wrong	ADJ	JJ	Degree=Pos	0	root	_	start_char=1477|end_char=1482|SpaceAfter=No
-4	.	.	PUNCT	.	_	3	punct	_	start_char=1482|end_char=1483|SpacesAfter=\n\n
+3	wrong	wrong	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1477|end_char=1482
+4	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=1482|end_char=1483
 
 # text = This was the '90s, so comic books didn't have the cultural cachet that they do today.
 # sent_id = 17
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	start_char=1485|end_char=1489
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=1490|end_char=1493
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=1494|end_char=1497
-4	'	'	PUNCT	``	_	5	punct	_	start_char=1498|end_char=1499|SpaceAfter=No
-5	90s	90s	NOUN	NNS	NumForm=Combi|NumType=Card|Number=Ptan	0	root	_	start_char=1499|end_char=1502|SpaceAfter=No
+4	'	'	PUNCT	``	_	5	punct	_	SpaceAfter=No|start_char=1498|end_char=1499
+5	90s	90s	NOUN	NNS	Number=Ptan|NumForm=Combi|NumType=Card	0	root	_	SpaceAfter=No|start_char=1499|end_char=1502
 6	,	,	PUNCT	,	_	12	punct	_	start_char=1502|end_char=1503
 7	so	so	ADV	RB	_	12	advmod	_	start_char=1504|end_char=1506
 8	comic	comic	ADJ	JJ	Degree=Pos	9	amod	_	start_char=1507|end_char=1512
@@ -391,8 +390,8 @@
 16	that	that	PRON	WDT	PronType=Rel	18	obj	_	start_char=1551|end_char=1555
 17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	start_char=1556|end_char=1560
 18	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	start_char=1561|end_char=1563
-19	today	today	NOUN	NN	Number=Sing	18	obl:unmarked	_	start_char=1564|end_char=1569|SpaceAfter=No
-20	.	.	PUNCT	.	_	5	punct	_	start_char=1569|end_char=1570|SpacesAfter=\n\n
+19	today	today	NOUN	NN	Number=Sing	18	obl:unmarked	_	SpaceAfter=No|start_char=1564|end_char=1569
+20	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=1569|end_char=1570
 
 # text = My students didn't think I was cool.
 # sent_id = 18
@@ -404,8 +403,8 @@
 5	think	think	VERB	VB	VerbForm=Inf	0	root	_	start_char=1591|end_char=1596
 6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=1597|end_char=1598
 7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	cop	_	start_char=1599|end_char=1602
-8	cool	cool	ADJ	JJ	Degree=Pos	5	ccomp	_	start_char=1603|end_char=1607|SpaceAfter=No
-9	.	.	PUNCT	.	_	5	punct	_	start_char=1607|end_char=1608|SpacesAfter=\n\n
+8	cool	cool	ADJ	JJ	Degree=Pos	5	ccomp	_	SpaceAfter=No|start_char=1603|end_char=1607
+9	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=1607|end_char=1608
 
 # text = They thought I was kind of a dork.
 # sent_id = 19
@@ -416,14 +415,14 @@
 5	kind	kind	NOUN	NN	ExtPos=ADV|Number=Sing	8	advmod	_	start_char=1629|end_char=1633
 6	of	of	ADP	IN	_	5	fixed	_	start_char=1634|end_char=1636
 7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=1637|end_char=1638
-8	dork	dork	NOUN	NN	Number=Sing	2	ccomp	_	start_char=1639|end_char=1643|SpaceAfter=No
-9	.	.	PUNCT	.	_	2	punct	_	start_char=1643|end_char=1644|SpacesAfter=\n\n
+8	dork	dork	NOUN	NN	Number=Sing	2	ccomp	_	SpaceAfter=No|start_char=1639|end_char=1643
+9	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=1643|end_char=1644
 
 # text = And even worse, when stuff got hard in my class, they would use comic books as a way of distracting me.
 # sent_id = 20
 1	And	and	CCONJ	CC	_	15	cc	_	start_char=1646|end_char=1649
 2	even	even	ADV	RB	_	3	advmod	_	start_char=1650|end_char=1654
-3	worse	bad	ADJ	JJR	Degree=Cmp	15	advmod	_	start_char=1655|end_char=1660|SpaceAfter=No
+3	worse	bad	ADJ	JJR	Degree=Cmp	15	advmod	_	SpaceAfter=No|start_char=1655|end_char=1660
 4	,	,	PUNCT	,	_	3	punct	_	start_char=1660|end_char=1661
 5	when	when	ADV	WRB	PronType=Int	7	advmod	_	start_char=1662|end_char=1666
 6	stuff	stuff	NOUN	NN	Number=Sing	7	nsubj	_	start_char=1667|end_char=1672
@@ -431,7 +430,7 @@
 8	hard	hard	ADV	RB	Degree=Pos	7	advmod	_	start_char=1677|end_char=1681
 9	in	in	ADP	IN	_	11	case	_	start_char=1682|end_char=1684
 10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=1685|end_char=1687
-11	class	class	NOUN	NN	Number=Sing	7	obl	_	start_char=1688|end_char=1693|SpaceAfter=No
+11	class	class	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No|start_char=1688|end_char=1693
 12	,	,	PUNCT	,	_	7	punct	_	start_char=1693|end_char=1694
 13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	start_char=1695|end_char=1699
 14	would	would	AUX	MD	VerbForm=Fin	15	aux	_	start_char=1700|end_char=1705
@@ -443,8 +442,8 @@
 20	way	way	NOUN	NN	Number=Sing	15	obl	_	start_char=1727|end_char=1730
 21	of	of	SCONJ	IN	_	22	mark	_	start_char=1731|end_char=1733
 22	distracting	distract	VERB	VBG	VerbForm=Ger	20	acl	_	start_char=1734|end_char=1745
-23	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	22	obj	_	start_char=1746|end_char=1748|SpaceAfter=No
-24	.	.	PUNCT	.	_	15	punct	_	start_char=1748|end_char=1749|SpacesAfter=\n\n
+23	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	22	obj	_	SpaceAfter=No|start_char=1746|end_char=1748
+24	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\n\n|start_char=1748|end_char=1749
 
 # text = They would raise their hands and ask me questions like, "Mr. Yang, who do you think would win in a fight, Superman or the Hulk?"
 # sent_id = 21
@@ -457,11 +456,11 @@
 7	ask	ask	VERB	VB	VerbForm=Inf	3	conj	_	start_char=1784|end_char=1787
 8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	iobj	_	start_char=1788|end_char=1790
 9	questions	question	NOUN	NNS	Number=Plur	7	obj	_	start_char=1791|end_char=1800
-10	like	like	ADP	IN	_	13	case	_	start_char=1801|end_char=1805|SpaceAfter=No
+10	like	like	ADP	IN	_	13	case	_	SpaceAfter=No|start_char=1801|end_char=1805
 11	,	,	PUNCT	,	_	10	punct	_	start_char=1805|end_char=1806
-12	"	"	PUNCT	``	_	13	punct	_	start_char=1807|end_char=1808|SpaceAfter=No
+12	"	"	PUNCT	``	_	13	punct	_	SpaceAfter=No|start_char=1807|end_char=1808
 13	Mr.	Mr.	PROPN	NNP	Number=Sing	9	nmod	_	start_char=1808|end_char=1811
-14	Yang	Yang	PROPN	NNP	Number=Sing	13	flat	_	start_char=1812|end_char=1816|SpaceAfter=No
+14	Yang	Yang	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No|start_char=1812|end_char=1816
 15	,	,	PUNCT	,	_	19	punct	_	start_char=1816|end_char=1817
 16	who	who	PRON	WP	PronType=Int	21	obj	_	start_char=1818|end_char=1821
 17	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=1822|end_char=1824
@@ -471,14 +470,14 @@
 21	win	win	VERB	VB	VerbForm=Inf	19	ccomp	_	start_char=1841|end_char=1844
 22	in	in	ADP	IN	_	24	case	_	start_char=1845|end_char=1847
 23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	start_char=1848|end_char=1849
-24	fight	fight	NOUN	NN	Number=Sing	21	obl	_	start_char=1850|end_char=1855|SpaceAfter=No
+24	fight	fight	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No|start_char=1850|end_char=1855
 25	,	,	PUNCT	,	_	26	punct	_	start_char=1855|end_char=1856
 26	Superman	Superman	PROPN	NNP	Number=Sing	24	conj	_	start_char=1857|end_char=1865
 27	or	or	CCONJ	CC	_	29	cc	_	start_char=1866|end_char=1868
 28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	start_char=1869|end_char=1872
-29	Hulk	Hulk	PROPN	NNP	Number=Sing	26	conj	_	start_char=1873|end_char=1877|SpaceAfter=No
-30	?	?	PUNCT	.	_	19	punct	_	start_char=1877|end_char=1878|SpaceAfter=No
-31	"	"	PUNCT	''	_	19	punct	_	start_char=1878|end_char=1879|SpacesAfter=\n\n
+29	Hulk	Hulk	PROPN	NNP	Number=Sing	26	conj	_	SpaceAfter=No|start_char=1873|end_char=1877
+30	?	?	PUNCT	.	_	19	punct	_	SpaceAfter=No|start_char=1877|end_char=1878
+31	"	"	PUNCT	''	_	19	punct	_	SpacesAfter=\n\n|start_char=1878|end_char=1879
 
 # text = I very quickly realized I had to keep my teaching and my cartooning separate.
 # sent_id = 22
@@ -495,8 +494,8 @@
 11	and	and	CCONJ	CC	_	13	cc	_	start_char=1931|end_char=1934
 12	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=1935|end_char=1937
 13	cartooning	cartooning	NOUN	NN	Number=Sing	10	conj	_	start_char=1938|end_char=1948
-14	separate	separate	ADJ	JJ	Degree=Pos	8	xcomp	_	start_char=1949|end_char=1957|SpaceAfter=No
-15	.	.	PUNCT	.	_	4	punct	_	start_char=1957|end_char=1958|SpacesAfter=\n\n
+14	separate	separate	ADJ	JJ	Degree=Pos	8	xcomp	_	SpaceAfter=No|start_char=1949|end_char=1957
+15	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=1957|end_char=1958
 
 # text = It seemed like my instincts in fifth grade were correct.
 # sent_id = 23
@@ -509,8 +508,8 @@
 7	fifth	fifth	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	8	amod	_	start_char=1991|end_char=1996
 8	grade	grade	NOUN	NN	Number=Sing	5	nmod	_	start_char=1997|end_char=2002
 9	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	start_char=2003|end_char=2007
-10	correct	correct	ADJ	JJ	Degree=Pos	2	advcl	_	start_char=2008|end_char=2015|SpaceAfter=No
-11	.	.	PUNCT	.	_	2	punct	_	start_char=2015|end_char=2016|SpacesAfter=\n\n
+10	correct	correct	ADJ	JJ	Degree=Pos	2	advcl	_	SpaceAfter=No|start_char=2008|end_char=2015
+11	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=2015|end_char=2016
 
 # text = Comic books didn't belong in the classroom.
 # sent_id = 24
@@ -522,18 +521,18 @@
 5	belong	belong	VERB	VB	VerbForm=Inf	0	root	_	start_char=2037|end_char=2043
 6	in	in	ADP	IN	_	8	case	_	start_char=2044|end_char=2046
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=2047|end_char=2050
-8	classroom	classroom	NOUN	NN	Number=Sing	5	obl	_	start_char=2051|end_char=2060|SpaceAfter=No
-9	.	.	PUNCT	.	_	5	punct	_	start_char=2060|end_char=2061|SpacesAfter=\n\n
+8	classroom	classroom	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No|start_char=2051|end_char=2060
+9	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=2060|end_char=2061
 
 # text = But again, I was wrong.
 # sent_id = 25
 1	But	but	CCONJ	CC	_	6	cc	_	start_char=2063|end_char=2066
-2	again	again	ADV	RB	_	6	advmod	_	start_char=2067|end_char=2072|SpaceAfter=No
+2	again	again	ADV	RB	_	6	advmod	_	SpaceAfter=No|start_char=2067|end_char=2072
 3	,	,	PUNCT	,	_	2	punct	_	start_char=2072|end_char=2073
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=2074|end_char=2075
 5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	cop	_	start_char=2076|end_char=2079
-6	wrong	wrong	ADJ	JJ	Degree=Pos	0	root	_	start_char=2080|end_char=2085|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	punct	_	start_char=2085|end_char=2086|SpacesAfter=\n\n
+6	wrong	wrong	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No|start_char=2080|end_char=2085
+7	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=2085|end_char=2086
 
 # text = A few years into my teaching career, I learned firsthand the educational potential of comics.
 # sent_id = 26
@@ -543,7 +542,7 @@
 4	into	into	ADP	IN	_	7	case	_	start_char=2100|end_char=2104
 5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=2105|end_char=2107
 6	teaching	teaching	NOUN	NN	Number=Sing	7	compound	_	start_char=2108|end_char=2116
-7	career	career	NOUN	NN	Number=Sing	3	nmod	_	start_char=2117|end_char=2123|SpaceAfter=No
+7	career	career	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No|start_char=2117|end_char=2123
 8	,	,	PUNCT	,	_	3	punct	_	start_char=2123|end_char=2124
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=2125|end_char=2126
 10	learned	learn	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=2127|end_char=2134
@@ -552,13 +551,13 @@
 13	educational	educational	ADJ	JJ	Degree=Pos	14	amod	_	start_char=2149|end_char=2160
 14	potential	potential	NOUN	NN	Number=Sing	10	obj	_	start_char=2161|end_char=2170
 15	of	of	ADP	IN	_	16	case	_	start_char=2171|end_char=2173
-16	comics	comic	NOUN	NNS	Number=Plur	14	nmod	_	start_char=2174|end_char=2180|SpaceAfter=No
-17	.	.	PUNCT	.	_	10	punct	_	start_char=2180|end_char=2181|SpacesAfter=\n\n
+16	comics	comic	NOUN	NNS	Number=Plur	14	nmod	_	SpaceAfter=No|start_char=2174|end_char=2180
+17	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n|start_char=2180|end_char=2181
 
 # text = One semester, I was asked to sub for this Algebra 2 class.
 # sent_id = 27
 1	One	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	_	start_char=2183|end_char=2186
-2	semester	semester	NOUN	NN	Number=Sing	6	obl:unmarked	_	start_char=2187|end_char=2195|SpaceAfter=No
+2	semester	semester	NOUN	NN	Number=Sing	6	obl:unmarked	_	SpaceAfter=No|start_char=2187|end_char=2195
 3	,	,	PUNCT	,	_	2	punct	_	start_char=2195|end_char=2196
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj:pass	_	start_char=2197|end_char=2198
 5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux:pass	_	start_char=2199|end_char=2202
@@ -569,8 +568,8 @@
 10	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	start_char=2220|end_char=2224
 11	Algebra	Algebra	PROPN	NNP	Number=Sing	13	compound	_	start_char=2225|end_char=2232
 12	2	2	NUM	CD	NumForm=Digit|NumType=Card	11	nummod	_	start_char=2233|end_char=2234
-13	class	class	NOUN	NN	Number=Sing	8	obl	_	start_char=2235|end_char=2240|SpaceAfter=No
-14	.	.	PUNCT	.	_	6	punct	_	start_char=2240|end_char=2241|SpacesAfter=\n\n
+13	class	class	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No|start_char=2235|end_char=2240
+14	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=2240|end_char=2241
 
 # text = I was asked to long-term sub it, and I said yes, but there was a problem.
 # sent_id = 28
@@ -578,29 +577,29 @@
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux:pass	_	start_char=2245|end_char=2248
 3	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=2249|end_char=2254
 4	to	to	ADP	IN	_	7	case	_	start_char=2255|end_char=2257
-5	long	long	ADJ	JJ	Degree=Pos	7	amod	_	start_char=2258|end_char=2262|SpaceAfter=No
-6	-	-	PUNCT	HYPH	_	5	punct	_	start_char=2262|end_char=2263|SpaceAfter=No
+5	long	long	ADJ	JJ	Degree=Pos	7	amod	_	SpaceAfter=No|start_char=2258|end_char=2262
+6	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No|start_char=2262|end_char=2263
 7	term	term	NOUN	NN	Number=Sing	3	obl	_	start_char=2263|end_char=2267
 8	sub	sub	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=2268|end_char=2271
-9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	start_char=2272|end_char=2274|SpaceAfter=No
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No|start_char=2272|end_char=2274
 10	,	,	PUNCT	,	_	13	punct	_	start_char=2274|end_char=2275
 11	and	and	CCONJ	CC	_	13	cc	_	start_char=2276|end_char=2279
 12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=2280|end_char=2281
 13	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	conj	_	start_char=2282|end_char=2286
-14	yes	yes	INTJ	UH	Polarity=Pos	13	discourse	_	start_char=2287|end_char=2290|SpaceAfter=No
+14	yes	yes	INTJ	UH	Polarity=Pos	13	discourse	_	SpaceAfter=No|start_char=2287|end_char=2290
 15	,	,	PUNCT	,	_	18	punct	_	start_char=2290|end_char=2291
 16	but	but	CCONJ	CC	_	18	cc	_	start_char=2292|end_char=2295
 17	there	there	PRON	EX	_	18	expl	_	start_char=2296|end_char=2301
 18	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	start_char=2302|end_char=2305
 19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	start_char=2306|end_char=2307
-20	problem	problem	NOUN	NN	Number=Sing	18	nsubj	_	start_char=2308|end_char=2315|SpaceAfter=No
-21	.	.	PUNCT	.	_	3	punct	_	start_char=2315|end_char=2316|SpacesAfter=\n\n
+20	problem	problem	NOUN	NN	Number=Sing	18	nsubj	_	SpaceAfter=No|start_char=2308|end_char=2315
+21	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=2315|end_char=2316
 
 # text = At the time, I was also the school's educational technologist, which meant every couple of weeks I had to miss one or two periods of this Algebra 2 class because I was in another classroom helping another teacher with a computer-related activity.
 # sent_id = 29
 1	At	at	ADP	IN	_	3	case	_	start_char=2318|end_char=2320
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=2321|end_char=2324
-3	time	time	NOUN	NN	Number=Sing	12	obl	_	start_char=2325|end_char=2329|SpaceAfter=No
+3	time	time	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No|start_char=2325|end_char=2329
 4	,	,	PUNCT	,	_	3	punct	_	start_char=2329|end_char=2330
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=2331|end_char=2332
 6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	12	cop	_	start_char=2333|end_char=2336
@@ -610,7 +609,7 @@
 9	school	school	NOUN	NN	Number=Sing	12	nmod:poss	_	start_char=2346|end_char=2352
 10	's	's	PART	POS	_	9	case	_	start_char=2352|end_char=2354
 11	educational	educational	ADJ	JJ	Degree=Pos	12	amod	_	start_char=2355|end_char=2366
-12	technologist	technologist	NOUN	NN	Number=Sing	0	root	_	start_char=2367|end_char=2379|SpaceAfter=No
+12	technologist	technologist	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=2367|end_char=2379
 13	,	,	PUNCT	,	_	15	punct	_	start_char=2379|end_char=2380
 14	which	which	PRON	WDT	PronType=Rel	15	nsubj	_	start_char=2381|end_char=2386
 15	meant	mean	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	_	start_char=2387|end_char=2392
@@ -642,11 +641,11 @@
 41	teacher	teacher	NOUN	NN	Number=Sing	39	obj	_	start_char=2523|end_char=2530
 42	with	with	ADP	IN	_	47	case	_	start_char=2531|end_char=2535
 43	a	a	DET	DT	Definite=Ind|PronType=Art	47	det	_	start_char=2536|end_char=2537
-44	computer	computer	NOUN	NN	Number=Sing	46	compound	_	start_char=2538|end_char=2546|SpaceAfter=No
-45	-	-	PUNCT	HYPH	_	44	punct	_	start_char=2546|end_char=2547|SpaceAfter=No
+44	computer	computer	NOUN	NN	Number=Sing	46	compound	_	SpaceAfter=No|start_char=2538|end_char=2546
+45	-	-	PUNCT	HYPH	_	44	punct	_	SpaceAfter=No|start_char=2546|end_char=2547
 46	related	related	ADJ	JJ	Degree=Pos	47	amod	_	start_char=2547|end_char=2554
-47	activity	activity	NOUN	NN	Number=Sing	39	obl	_	start_char=2555|end_char=2563|SpaceAfter=No
-48	.	.	PUNCT	.	_	12	punct	_	start_char=2563|end_char=2564|SpacesAfter=\n\n
+47	activity	activity	NOUN	NN	Number=Sing	39	obl	_	SpaceAfter=No|start_char=2555|end_char=2563
+48	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n\n|start_char=2563|end_char=2564
 
 # text = For these Algebra 2 students, that was terrible.
 # sent_id = 30
@@ -654,27 +653,27 @@
 2	these	this	DET	DT	Number=Plur|PronType=Dem	5	det	_	start_char=2570|end_char=2575
 3	Algebra	Algebra	PROPN	NNP	Number=Sing	5	compound	_	start_char=2576|end_char=2583
 4	2	2	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	_	start_char=2584|end_char=2585
-5	students	student	NOUN	NNS	Number=Plur	9	obl	_	start_char=2586|end_char=2594|SpaceAfter=No
+5	students	student	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No|start_char=2586|end_char=2594
 6	,	,	PUNCT	,	_	5	punct	_	start_char=2594|end_char=2595
 7	that	that	PRON	DT	Number=Sing|PronType=Dem	9	nsubj	_	start_char=2596|end_char=2600
 8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	start_char=2601|end_char=2604
-9	terrible	terrible	ADJ	JJ	Degree=Pos	0	root	_	start_char=2605|end_char=2613|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	punct	_	start_char=2613|end_char=2614|SpacesAfter=\n\n
+9	terrible	terrible	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No|start_char=2605|end_char=2613
+10	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n\n|start_char=2613|end_char=2614
 
 # text = I mean, having a long-term sub is bad enough, but having a sub for your sub? That's the worst.
 # sent_id = 31
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=2616|end_char=2617
-2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	parataxis	_	start_char=2618|end_char=2622|SpaceAfter=No
+2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	parataxis	_	SpaceAfter=No|start_char=2618|end_char=2622
 3	,	,	PUNCT	,	_	2	punct	_	start_char=2622|end_char=2623
 4	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	11	csubj	_	start_char=2624|end_char=2630
 5	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=2631|end_char=2632
-6	long	long	ADJ	JJ	Degree=Pos	8	amod	_	start_char=2633|end_char=2637|SpaceAfter=No
-7	-	-	PUNCT	HYPH	_	6	punct	_	start_char=2637|end_char=2638|SpaceAfter=No
+6	long	long	ADJ	JJ	Degree=Pos	8	amod	_	SpaceAfter=No|start_char=2633|end_char=2637
+7	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No|start_char=2637|end_char=2638
 8	term	term	NOUN	NN	Number=Sing	9	compound	_	start_char=2638|end_char=2642
 9	sub	sub	NOUN	NN	Number=Sing	4	obj	_	start_char=2643|end_char=2646
 10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=2647|end_char=2649
 11	bad	bad	ADJ	JJ	Degree=Pos	0	root	_	start_char=2650|end_char=2653
-12	enough	enough	ADV	RB	_	11	advmod	_	start_char=2654|end_char=2660|SpaceAfter=No
+12	enough	enough	ADV	RB	_	11	advmod	_	SpaceAfter=No|start_char=2654|end_char=2660
 13	,	,	PUNCT	,	_	15	punct	_	start_char=2660|end_char=2661
 14	but	but	CCONJ	CC	_	15	cc	_	start_char=2662|end_char=2665
 15	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	25	advcl	_	start_char=2666|end_char=2672
@@ -682,14 +681,14 @@
 17	sub	sub	NOUN	NN	Number=Sing	15	obj	_	start_char=2675|end_char=2678
 18	for	for	ADP	IN	_	20	case	_	start_char=2679|end_char=2682
 19	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	20	nmod:poss	_	start_char=2683|end_char=2687
-20	sub	sub	NOUN	NN	Number=Sing	17	nmod	_	start_char=2688|end_char=2691|SpaceAfter=No
+20	sub	sub	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No|start_char=2688|end_char=2691
 21	?	?	PUNCT	.	_	15	punct	_	start_char=2691|end_char=2692
 22-23	That's	_	_	_	_	_	_	_	start_char=2693|end_char=2699
 22	That	that	PRON	DT	Number=Sing|PronType=Dem	25	nsubj	_	start_char=2693|end_char=2697
 23	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	start_char=2697|end_char=2699
 24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	start_char=2700|end_char=2703
-25	worst	bad	ADJ	JJS	Degree=Sup	11	parataxis	_	start_char=2704|end_char=2709|SpaceAfter=No
-26	.	.	PUNCT	.	_	11	punct	_	start_char=2709|end_char=2710|SpacesAfter=\n\n
+25	worst	bad	ADJ	JJS	Degree=Sup	11	parataxis	_	SpaceAfter=No|start_char=2704|end_char=2709
+26	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n\n|start_char=2709|end_char=2710
 
 # text = In an effort to provide some sort of consistency for my students, I began videotaping myself giving lectures.
 # sent_id = 32
@@ -704,15 +703,15 @@
 9	consistency	consistency	NOUN	NN	Number=Sing	7	nmod	_	start_char=2749|end_char=2760
 10	for	for	ADP	IN	_	12	case	_	start_char=2761|end_char=2764
 11	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=2765|end_char=2767
-12	students	student	NOUN	NNS	Number=Plur	9	nmod	_	start_char=2768|end_char=2776|SpaceAfter=No
+12	students	student	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No|start_char=2768|end_char=2776
 13	,	,	PUNCT	,	_	3	punct	_	start_char=2776|end_char=2777
 14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=2778|end_char=2779
 15	began	begin	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=2780|end_char=2785
 16	videotaping	videotape	VERB	VBG	VerbForm=Ger	15	xcomp	_	start_char=2786|end_char=2797
 17	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	16	obj	_	start_char=2798|end_char=2804
 18	giving	give	VERB	VBG	VerbForm=Ger	16	advcl	_	start_char=2805|end_char=2811
-19	lectures	lecture	NOUN	NNS	Number=Plur	18	obj	_	start_char=2812|end_char=2820|SpaceAfter=No
-20	.	.	PUNCT	.	_	15	punct	_	start_char=2820|end_char=2821|SpacesAfter=\n\n
+19	lectures	lecture	NOUN	NNS	Number=Plur	18	obj	_	SpaceAfter=No|start_char=2812|end_char=2820
+20	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\n\n|start_char=2820|end_char=2821
 
 # text = I'd then give these videos to my sub to play for my students.
 # sent_id = 33
@@ -730,8 +729,8 @@
 11	play	play	VERB	VB	VerbForm=Inf	4	advcl	_	start_char=2863|end_char=2867
 12	for	for	ADP	IN	_	14	case	_	start_char=2868|end_char=2871
 13	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=2872|end_char=2874
-14	students	student	NOUN	NNS	Number=Plur	11	obl	_	start_char=2875|end_char=2883|SpaceAfter=No
-15	.	.	PUNCT	.	_	4	punct	_	start_char=2883|end_char=2884|SpacesAfter=\n\n
+14	students	student	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No|start_char=2875|end_char=2883
+15	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=2883|end_char=2884
 
 # text = I tried to make these videos as engaging as possible.
 # sent_id = 34
@@ -744,8 +743,8 @@
 7	as	as	SCONJ	IN	_	8	mark	_	start_char=2915|end_char=2917
 8	engaging	engage	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	_	start_char=2918|end_char=2926
 9	as	as	SCONJ	IN	_	10	mark	_	start_char=2927|end_char=2929
-10	possible	possible	ADJ	JJ	Degree=Pos	8	advcl	_	start_char=2930|end_char=2938|SpaceAfter=No
-11	.	.	PUNCT	.	_	2	punct	_	start_char=2938|end_char=2939|SpacesAfter=\n\n
+10	possible	possible	ADJ	JJ	Degree=Pos	8	advcl	_	SpaceAfter=No|start_char=2930|end_char=2938
+11	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=2938|end_char=2939
 
 # text = I even included these little special effects.
 # sent_id = 35
@@ -755,13 +754,13 @@
 4	these	this	DET	DT	Number=Plur|PronType=Dem	7	det	_	start_char=2957|end_char=2962
 5	little	little	ADJ	JJ	Degree=Pos	7	amod	_	start_char=2963|end_char=2969
 6	special	special	ADJ	JJ	Degree=Pos	7	amod	_	start_char=2970|end_char=2977
-7	effects	effect	NOUN	NNS	Number=Plur	3	obj	_	start_char=2978|end_char=2985|SpaceAfter=No
-8	.	.	PUNCT	.	_	3	punct	_	start_char=2985|end_char=2986|SpacesAfter=\n\n
+7	effects	effect	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No|start_char=2978|end_char=2985
+8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=2985|end_char=2986
 
 # text = For instance, after I finished a problem on the board, I'd clap my hands, and the board would magically erase.
 # sent_id = 36
 1	For	for	ADP	IN	_	2	case	_	start_char=2988|end_char=2991
-2	instance	instance	NOUN	NN	Number=Sing	15	obl	_	start_char=2992|end_char=3000|SpaceAfter=No
+2	instance	instance	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No|start_char=2992|end_char=3000
 3	,	,	PUNCT	,	_	2	punct	_	start_char=3000|end_char=3001
 4	after	after	SCONJ	IN	_	6	mark	_	start_char=3002|end_char=3007
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=3008|end_char=3009
@@ -770,22 +769,22 @@
 8	problem	problem	NOUN	NN	Number=Sing	6	obj	_	start_char=3021|end_char=3028
 9	on	on	ADP	IN	_	11	case	_	start_char=3029|end_char=3031
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=3032|end_char=3035
-11	board	board	NOUN	NN	Number=Sing	6	obl	_	start_char=3036|end_char=3041|SpaceAfter=No
+11	board	board	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No|start_char=3036|end_char=3041
 12	,	,	PUNCT	,	_	6	punct	_	start_char=3041|end_char=3042
 13-14	I'd	_	_	_	_	_	_	_	start_char=3043|end_char=3046
 13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=3043|end_char=3044
 14	'd	would	AUX	MD	VerbForm=Fin	15	aux	_	start_char=3044|end_char=3046
 15	clap	clap	VERB	VB	VerbForm=Inf	0	root	_	start_char=3047|end_char=3051
 16	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	start_char=3052|end_char=3054
-17	hands	hand	NOUN	NNS	Number=Plur	15	obj	_	start_char=3055|end_char=3060|SpaceAfter=No
+17	hands	hand	NOUN	NNS	Number=Plur	15	obj	_	SpaceAfter=No|start_char=3055|end_char=3060
 18	,	,	PUNCT	,	_	24	punct	_	start_char=3060|end_char=3061
 19	and	and	CCONJ	CC	_	24	cc	_	start_char=3062|end_char=3065
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=3066|end_char=3069
 21	board	board	NOUN	NN	Number=Sing	24	nsubj	_	start_char=3070|end_char=3075
 22	would	would	AUX	MD	VerbForm=Fin	24	aux	_	start_char=3076|end_char=3081
 23	magically	magically	ADV	RB	_	24	advmod	_	start_char=3082|end_char=3091
-24	erase	erase	VERB	VB	VerbForm=Inf	15	conj	_	start_char=3092|end_char=3097|SpaceAfter=No
-25	.	.	PUNCT	.	_	15	punct	_	start_char=3097|end_char=3098|SpacesAfter=\n\n
+24	erase	erase	VERB	VB	VerbForm=Inf	15	conj	_	SpaceAfter=No|start_char=3092|end_char=3097
+25	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\n\n|start_char=3097|end_char=3098
 
 # text = I thought it was pretty awesome. I was pretty certain that my students would love it, but I was wrong.
 # sent_id = 37
@@ -794,7 +793,7 @@
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=3110|end_char=3112
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	start_char=3113|end_char=3116
 5	pretty	pretty	ADV	RB	_	6	advmod	_	start_char=3117|end_char=3123
-6	awesome	awesome	ADJ	JJ	Degree=Pos	2	ccomp	_	start_char=3124|end_char=3131|SpaceAfter=No
+6	awesome	awesome	ADJ	JJ	Degree=Pos	2	ccomp	_	SpaceAfter=No|start_char=3124|end_char=3131
 7	.	.	PUNCT	.	_	11	punct	_	start_char=3131|end_char=3132
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=3133|end_char=3134
 9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	cop	_	start_char=3135|end_char=3138
@@ -805,13 +804,13 @@
 14	students	student	NOUN	NNS	Number=Plur	16	nsubj	_	start_char=3162|end_char=3170
 15	would	would	AUX	MD	VerbForm=Fin	16	aux	_	start_char=3171|end_char=3176
 16	love	love	VERB	VB	VerbForm=Inf	11	ccomp	_	start_char=3177|end_char=3181
-17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	start_char=3182|end_char=3184|SpaceAfter=No
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	SpaceAfter=No|start_char=3182|end_char=3184
 18	,	,	PUNCT	,	_	22	punct	_	start_char=3184|end_char=3185
 19	but	but	CCONJ	CC	_	22	cc	_	start_char=3186|end_char=3189
 20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	start_char=3190|end_char=3191
 21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	22	cop	_	start_char=3192|end_char=3195
-22	wrong	wrong	ADJ	JJ	Degree=Pos	2	conj	_	start_char=3196|end_char=3201|SpaceAfter=No
-23	.	.	PUNCT	.	_	2	punct	_	start_char=3201|end_char=3202|SpacesAfter=\n\n
+22	wrong	wrong	ADJ	JJ	Degree=Pos	2	conj	_	SpaceAfter=No|start_char=3196|end_char=3201
+23	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=3201|end_char=3202
 
 # text = These video lectures were a disaster.
 # sent_id = 38
@@ -820,8 +819,8 @@
 3	lectures	lecture	NOUN	NNS	Number=Plur	6	nsubj	_	start_char=3216|end_char=3224
 4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	start_char=3225|end_char=3229
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=3230|end_char=3231
-6	disaster	disaster	NOUN	NN	Number=Sing	0	root	_	start_char=3232|end_char=3240|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	punct	_	start_char=3240|end_char=3241|SpacesAfter=\n\n
+6	disaster	disaster	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=3232|end_char=3240
+7	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=3240|end_char=3241
 
 # text = I had students coming up to me and saying things like, "Mr. Yang, we thought you were boring in person, but on video, you are just unbearable."
 # sent_id = 39
@@ -835,11 +834,11 @@
 8	and	and	CCONJ	CC	_	9	cc	_	start_char=3274|end_char=3277
 9	saying	say	VERB	VBG	Tense=Pres|VerbForm=Part	2	conj	_	start_char=3278|end_char=3284
 10	things	thing	NOUN	NNS	Number=Plur	9	obj	_	start_char=3285|end_char=3291
-11	like	like	ADP	IN	_	14	case	_	start_char=3292|end_char=3296|SpaceAfter=No
+11	like	like	ADP	IN	_	14	case	_	SpaceAfter=No|start_char=3292|end_char=3296
 12	,	,	PUNCT	,	_	11	punct	_	start_char=3296|end_char=3297
-13	"	"	PUNCT	``	_	18	punct	_	start_char=3298|end_char=3299|SpaceAfter=No
+13	"	"	PUNCT	``	_	18	punct	_	SpaceAfter=No|start_char=3298|end_char=3299
 14	Mr.	Mr.	PROPN	NNP	Number=Sing	18	vocative	_	start_char=3299|end_char=3302
-15	Yang	Yang	PROPN	NNP	Number=Sing	14	flat	_	start_char=3303|end_char=3307|SpaceAfter=No
+15	Yang	Yang	PROPN	NNP	Number=Sing	14	flat	_	SpaceAfter=No|start_char=3303|end_char=3307
 16	,	,	PUNCT	,	_	14	punct	_	start_char=3307|end_char=3308
 17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	start_char=3309|end_char=3311
 18	thought	think	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	10	acl	_	start_char=3312|end_char=3319
@@ -847,18 +846,18 @@
 20	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	21	cop	_	start_char=3324|end_char=3328
 21	boring	boring	ADJ	JJ	Degree=Pos	18	ccomp	_	start_char=3329|end_char=3335
 22	in	in	ADP	IN	_	23	case	_	start_char=3336|end_char=3338
-23	person	person	NOUN	NN	Number=Sing	21	obl	_	start_char=3339|end_char=3345|SpaceAfter=No
+23	person	person	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No|start_char=3339|end_char=3345
 24	,	,	PUNCT	,	_	25	punct	_	start_char=3345|end_char=3346
 25	but	but	CCONJ	CC	_	32	cc	_	start_char=3347|end_char=3350
 26	on	on	ADP	IN	_	27	case	_	start_char=3351|end_char=3353
-27	video	video	NOUN	NN	Number=Sing	32	obl	_	start_char=3354|end_char=3359|SpaceAfter=No
+27	video	video	NOUN	NN	Number=Sing	32	obl	_	SpaceAfter=No|start_char=3354|end_char=3359
 28	,	,	PUNCT	,	_	27	punct	_	start_char=3359|end_char=3360
 29	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	32	nsubj	_	start_char=3361|end_char=3364
 30	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	32	cop	_	start_char=3365|end_char=3368
 31	just	just	ADV	RB	_	32	advmod	_	start_char=3369|end_char=3373
-32	unbearable	unbearable	ADJ	JJ	Degree=Pos	18	conj	_	start_char=3374|end_char=3384|SpaceAfter=No
-33	.	.	PUNCT	.	_	2	punct	_	start_char=3384|end_char=3385|SpaceAfter=No
-34	"	"	PUNCT	''	_	18	punct	_	start_char=3385|end_char=3386|SpacesAfter=\n\n
+32	unbearable	unbearable	ADJ	JJ	Degree=Pos	18	conj	_	SpaceAfter=No|start_char=3374|end_char=3384
+33	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|start_char=3384|end_char=3385
+34	"	"	PUNCT	''	_	18	punct	_	SpacesAfter=\n\n|start_char=3385|end_char=3386
 
 # text = So as a desperate second attempt, I began drawing these lectures as comics.
 # sent_id = 40
@@ -867,7 +866,7 @@
 3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=3394|end_char=3395
 4	desperate	desperate	ADJ	JJ	Degree=Pos	6	amod	_	start_char=3396|end_char=3405
 5	second	second	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	6	amod	_	start_char=3406|end_char=3412
-6	attempt	attempt	NOUN	NN	Number=Sing	9	obl	_	start_char=3413|end_char=3420|SpaceAfter=No
+6	attempt	attempt	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No|start_char=3413|end_char=3420
 7	,	,	PUNCT	,	_	6	punct	_	start_char=3420|end_char=3421
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=3422|end_char=3423
 9	began	begin	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3424|end_char=3429
@@ -875,8 +874,8 @@
 11	these	this	DET	DT	Number=Plur|PronType=Dem	12	det	_	start_char=3438|end_char=3443
 12	lectures	lecture	NOUN	NNS	Number=Plur	10	obj	_	start_char=3444|end_char=3452
 13	as	as	ADP	IN	_	14	case	_	start_char=3453|end_char=3455
-14	comics	comic	NOUN	NNS	Number=Plur	10	obl	_	start_char=3456|end_char=3462|SpaceAfter=No
-15	.	.	PUNCT	.	_	9	punct	_	start_char=3462|end_char=3463|SpacesAfter=\n\n
+14	comics	comic	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No|start_char=3456|end_char=3462
+15	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n\n|start_char=3462|end_char=3463
 
 # text = I'd do these very quickly with very little planning.
 # sent_id = 41
@@ -890,8 +889,8 @@
 7	with	with	ADP	IN	_	10	case	_	start_char=3491|end_char=3495
 8	very	very	ADV	RB	_	9	advmod	_	start_char=3496|end_char=3500
 9	little	little	ADJ	JJ	Degree=Pos	10	amod	_	start_char=3501|end_char=3507
-10	planning	planning	NOUN	NN	Number=Sing	3	obl	_	start_char=3508|end_char=3516|SpaceAfter=No
-11	.	.	PUNCT	.	_	3	punct	_	start_char=3516|end_char=3517|SpacesAfter=\n\n
+10	planning	planning	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No|start_char=3508|end_char=3516
+11	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=3516|end_char=3517
 
 # text = I'd just take a sharpie, draw one panel after the other, figuring out what I wanted to say as I went.
 # sent_id = 42
@@ -901,14 +900,14 @@
 3	just	just	ADV	RB	_	4	advmod	_	start_char=3523|end_char=3527
 4	take	take	VERB	VB	VerbForm=Inf	0	root	_	start_char=3528|end_char=3532
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=3533|end_char=3534
-6	sharpie	sharpie	NOUN	NN	Number=Sing	4	obj	_	start_char=3535|end_char=3542|SpaceAfter=No
+6	sharpie	sharpie	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No|start_char=3535|end_char=3542
 7	,	,	PUNCT	,	_	8	punct	_	start_char=3542|end_char=3543
 8	draw	draw	VERB	VB	VerbForm=Inf	4	conj	_	start_char=3544|end_char=3548
 9	one	one	NUM	CD	NumForm=Word|NumType=Card	10	nummod	_	start_char=3549|end_char=3552
 10	panel	panel	NOUN	NN	Number=Sing	8	obj	_	start_char=3553|end_char=3558
 11	after	after	ADP	IN	_	13	case	_	start_char=3559|end_char=3564
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=3565|end_char=3568
-13	other	other	ADJ	JJ	Degree=Pos	8	obl	_	start_char=3569|end_char=3574|SpaceAfter=No
+13	other	other	ADJ	JJ	Degree=Pos	8	obl	_	SpaceAfter=No|start_char=3569|end_char=3574
 14	,	,	PUNCT	,	_	15	punct	_	start_char=3574|end_char=3575
 15	figuring	figure	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	_	start_char=3576|end_char=3584
 16	out	out	ADP	RP	_	15	compound:prt	_	start_char=3585|end_char=3588
@@ -919,8 +918,8 @@
 21	say	say	VERB	VB	VerbForm=Inf	19	xcomp	_	start_char=3606|end_char=3609
 22	as	as	SCONJ	IN	_	24	mark	_	start_char=3610|end_char=3612
 23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	start_char=3613|end_char=3614
-24	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	21	advcl	_	start_char=3615|end_char=3619|SpaceAfter=No
-25	.	.	PUNCT	.	_	4	punct	_	start_char=3619|end_char=3620|SpacesAfter=\n\n
+24	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	21	advcl	_	SpaceAfter=No|start_char=3615|end_char=3619
+25	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=3619|end_char=3620
 
 # text = These comics lectures would come out to anywhere between four and six pages long, I'd xerox these, give them to my sub to hand to my students.
 # sent_id = 43
@@ -937,13 +936,13 @@
 11	and	and	CCONJ	CC	_	12	cc	_	start_char=3684|end_char=3687
 12	six	six	NUM	CD	NumForm=Word|NumType=Card	10	conj	_	start_char=3688|end_char=3691
 13	pages	page	NOUN	NNS	Number=Plur	14	obl:unmarked	_	start_char=3692|end_char=3697
-14	long	long	ADV	RB	Degree=Pos	5	advmod	_	start_char=3698|end_char=3702|SpaceAfter=No
+14	long	long	ADV	RB	Degree=Pos	5	advmod	_	SpaceAfter=No|start_char=3698|end_char=3702
 15	,	,	PUNCT	,	_	18	punct	_	start_char=3702|end_char=3703
 16-17	I'd	_	_	_	_	_	_	_	start_char=3704|end_char=3707
 16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	start_char=3704|end_char=3705
 17	'd	would	AUX	MD	VerbForm=Fin	18	aux	_	start_char=3705|end_char=3707
 18	xerox	xerox	VERB	VB	VerbForm=Inf	5	parataxis	_	start_char=3708|end_char=3713
-19	these	this	PRON	DT	Number=Plur|PronType=Dem	18	obj	_	start_char=3714|end_char=3719|SpaceAfter=No
+19	these	this	PRON	DT	Number=Plur|PronType=Dem	18	obj	_	SpaceAfter=No|start_char=3714|end_char=3719
 20	,	,	PUNCT	,	_	21	punct	_	start_char=3719|end_char=3720
 21	give	give	VERB	VB	VerbForm=Inf	18	conj	_	start_char=3721|end_char=3725
 22	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	21	iobj	_	start_char=3726|end_char=3730
@@ -954,8 +953,8 @@
 27	hand	hand	NOUN	NN	Number=Sing	21	obl	_	start_char=3744|end_char=3748
 28	to	to	ADP	IN	_	30	case	_	start_char=3749|end_char=3751
 29	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	30	nmod:poss	_	start_char=3752|end_char=3754
-30	students	student	NOUN	NNS	Number=Plur	21	obl	_	start_char=3755|end_char=3763|SpaceAfter=No
-31	.	.	PUNCT	.	_	5	punct	_	start_char=3763|end_char=3764|SpacesAfter=\n\n
+30	students	student	NOUN	NNS	Number=Plur	21	obl	_	SpaceAfter=No|start_char=3755|end_char=3763
+31	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=3763|end_char=3764
 
 # text = And much to my surprise, these comics lectures were a hit.
 # sent_id = 44
@@ -963,15 +962,15 @@
 2	much	much	ADJ	JJ	Degree=Pos	12	advmod	_	start_char=3770|end_char=3774
 3	to	to	ADP	IN	_	5	case	_	start_char=3775|end_char=3777
 4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=3778|end_char=3780
-5	surprise	surprise	NOUN	NN	Number=Sing	2	obl	_	start_char=3781|end_char=3789|SpaceAfter=No
+5	surprise	surprise	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No|start_char=3781|end_char=3789
 6	,	,	PUNCT	,	_	2	punct	_	start_char=3789|end_char=3790
 7	these	this	DET	DT	Number=Plur|PronType=Dem	9	det	_	start_char=3791|end_char=3796
 8	comics	comic	NOUN	NNS	Number=Plur	9	compound	_	start_char=3797|end_char=3803
 9	lectures	lecture	NOUN	NNS	Number=Plur	12	nsubj	_	start_char=3804|end_char=3812
 10	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	start_char=3813|end_char=3817
 11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=3818|end_char=3819
-12	hit	hit	NOUN	NN	Number=Sing	0	root	_	start_char=3820|end_char=3823|SpaceAfter=No
-13	.	.	PUNCT	.	_	12	punct	_	start_char=3823|end_char=3824|SpacesAfter=\n\n
+12	hit	hit	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=3820|end_char=3823
+13	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n\n|start_char=3823|end_char=3824
 
 # text = My students would ask me to make these for them even when I could be there in person.
 # sent_id = 45
@@ -992,8 +991,8 @@
 15	be	be	AUX	VB	VerbForm=Inf	16	cop	_	start_char=3892|end_char=3894
 16	there	there	ADV	RB	PronType=Dem	7	advcl	_	start_char=3895|end_char=3900
 17	in	in	ADP	IN	_	18	case	_	start_char=3901|end_char=3903
-18	person	person	NOUN	NN	Number=Sing	16	obl	_	start_char=3904|end_char=3910|SpaceAfter=No
-19	.	.	PUNCT	.	_	4	punct	_	start_char=3910|end_char=3911|SpacesAfter=\n\n
+18	person	person	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No|start_char=3904|end_char=3910
+19	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=3910|end_char=3911
 
 # text = It was like they liked cartoon me more than actual me.
 # sent_id = 46
@@ -1007,14 +1006,14 @@
 8	more	more	ADJ	JJR	Degree=Cmp	6	advmod	_	start_char=3947|end_char=3951
 9	than	than	ADP	IN	_	10	mark	_	start_char=3952|end_char=3956
 10	actual	actual	VERB	VB	VerbForm=Inf	6	advcl	_	start_char=3957|end_char=3963
-11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	start_char=3964|end_char=3966|SpaceAfter=No
-12	.	.	PUNCT	.	_	5	punct	_	start_char=3966|end_char=3967|SpacesAfter=\n\n
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	SpaceAfter=No|start_char=3964|end_char=3966
+12	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=3966|end_char=3967
 
 # text = This surprised me, because my students are part of a generation that was raised on screens, so I thought for sure they would like learning from a screen better than learning from a page.
 # sent_id = 47
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	start_char=3969|end_char=3973
 2	surprised	surprise	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3974|end_char=3983
-3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	start_char=3984|end_char=3986|SpaceAfter=No
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	SpaceAfter=No|start_char=3984|end_char=3986
 4	,	,	PUNCT	,	_	9	punct	_	start_char=3986|end_char=3987
 5	because	because	SCONJ	IN	_	9	mark	_	start_char=3988|end_char=3995
 6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=3996|end_char=3998
@@ -1028,7 +1027,7 @@
 14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	start_char=4038|end_char=4041
 15	raised	raise	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	acl:relcl	_	start_char=4042|end_char=4048
 16	on	on	ADP	IN	_	17	case	_	start_char=4049|end_char=4051
-17	screens	screen	NOUN	NNS	Number=Plur	15	obl	_	start_char=4052|end_char=4059|SpaceAfter=No
+17	screens	screen	NOUN	NNS	Number=Plur	15	obl	_	SpaceAfter=No|start_char=4052|end_char=4059
 18	,	,	PUNCT	,	_	21	punct	_	start_char=4059|end_char=4060
 19	so	so	ADV	RB	_	21	advmod	_	start_char=4061|end_char=4063
 20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	start_char=4064|end_char=4065
@@ -1047,8 +1046,8 @@
 33	learning	learn	VERB	VBG	Tense=Pres|VerbForm=Part	31	advcl	_	start_char=4134|end_char=4142
 34	from	from	ADP	IN	_	36	case	_	start_char=4143|end_char=4147
 35	a	a	DET	DT	Definite=Ind|PronType=Art	36	det	_	start_char=4148|end_char=4149
-36	page	page	NOUN	NN	Number=Sing	33	obl	_	start_char=4150|end_char=4154|SpaceAfter=No
-37	.	.	PUNCT	.	_	2	punct	_	start_char=4154|end_char=4155|SpacesAfter=\n\n
+36	page	page	NOUN	NN	Number=Sing	33	obl	_	SpaceAfter=No|start_char=4150|end_char=4154
+37	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=4154|end_char=4155
 
 # text = But when I talked to my students about why they liked these comics lectures so much, I began to understand the educational potential of comics.
 # sent_id = 48
@@ -1067,7 +1066,7 @@
 13	comics	comic	NOUN	NNS	Number=Sing	14	compound	_	start_char=4217|end_char=4223
 14	lectures	lecture	NOUN	NNS	Number=Plur	11	obj	_	start_char=4224|end_char=4232
 15	so	so	ADV	RB	_	16	advmod	_	start_char=4233|end_char=4235
-16	much	much	ADV	RB	Degree=Pos	11	advmod	_	start_char=4236|end_char=4240|SpaceAfter=No
+16	much	much	ADV	RB	Degree=Pos	11	advmod	_	SpaceAfter=No|start_char=4236|end_char=4240
 17	,	,	PUNCT	,	_	4	punct	_	start_char=4240|end_char=4241
 18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	start_char=4242|end_char=4243
 19	began	begin	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=4244|end_char=4249
@@ -1077,24 +1076,24 @@
 23	educational	educational	ADJ	JJ	Degree=Pos	24	amod	_	start_char=4268|end_char=4279
 24	potential	potential	NOUN	NN	Number=Sing	21	obj	_	start_char=4280|end_char=4289
 25	of	of	ADP	IN	_	26	case	_	start_char=4290|end_char=4292
-26	comics	comic	NOUN	NNS	Number=Plur	24	nmod	_	start_char=4293|end_char=4299|SpaceAfter=No
-27	.	.	PUNCT	.	_	19	punct	_	start_char=4299|end_char=4300|SpacesAfter=\n\n
+26	comics	comic	NOUN	NNS	Number=Plur	24	nmod	_	SpaceAfter=No|start_char=4293|end_char=4299
+27	.	.	PUNCT	.	_	19	punct	_	SpacesAfter=\n\n|start_char=4299|end_char=4300
 
 # text = First, unlike their math textbooks, these comics lectures taught visually.
 # sent_id = 49
-1	First	first	ADV	RB	Degree=Pos|NumForm=Word|NumType=Ord	11	advmod	_	start_char=4302|end_char=4307|SpaceAfter=No
+1	First	first	ADV	RB	Degree=Pos|NumForm=Word|NumType=Ord	11	advmod	_	SpaceAfter=No|start_char=4302|end_char=4307
 2	,	,	PUNCT	,	_	1	punct	_	start_char=4307|end_char=4308
 3	unlike	unlike	ADP	IN	_	6	case	_	start_char=4309|end_char=4315
 4	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=4316|end_char=4321
 5	math	math	NOUN	NN	Number=Sing	6	compound	_	start_char=4322|end_char=4326
-6	textbooks	textbook	NOUN	NNS	Number=Plur	11	obl	_	start_char=4327|end_char=4336|SpaceAfter=No
+6	textbooks	textbook	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No|start_char=4327|end_char=4336
 7	,	,	PUNCT	,	_	6	punct	_	start_char=4336|end_char=4337
 8	these	this	DET	DT	Number=Plur|PronType=Dem	10	det	_	start_char=4338|end_char=4343
 9	comics	comic	NOUN	NNS	Number=Plur	10	compound	_	start_char=4344|end_char=4350
 10	lectures	lecture	NOUN	NNS	Number=Plur	11	nsubj:pass	_	start_char=4351|end_char=4359
 11	taught	teach	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=4360|end_char=4366
-12	visually	visually	ADV	RB	_	11	advmod	_	start_char=4367|end_char=4375|SpaceAfter=No
-13	.	.	PUNCT	.	_	11	punct	_	start_char=4375|end_char=4376|SpacesAfter=\n\n
+12	visually	visually	ADV	RB	_	11	advmod	_	SpaceAfter=No|start_char=4367|end_char=4375
+13	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n\n|start_char=4375|end_char=4376
 
 # text = Our students grow up in a visual culture, so they're used to taking in information that way.
 # sent_id = 50
@@ -1105,7 +1104,7 @@
 5	in	in	ADP	IN	_	8	case	_	start_char=4399|end_char=4401
 6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=4402|end_char=4403
 7	visual	visual	ADJ	JJ	Degree=Pos	8	amod	_	start_char=4404|end_char=4410
-8	culture	culture	NOUN	NN	Number=Sing	3	obl	_	start_char=4411|end_char=4418|SpaceAfter=No
+8	culture	culture	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No|start_char=4411|end_char=4418
 9	,	,	PUNCT	,	_	13	punct	_	start_char=4418|end_char=4419
 10	so	so	ADV	RB	_	13	advmod	_	start_char=4420|end_char=4422
 11-12	they're	_	_	_	_	_	_	_	start_char=4423|end_char=4430
@@ -1117,8 +1116,8 @@
 16	in	in	ADP	RP	_	15	compound:prt	_	start_char=4446|end_char=4448
 17	information	information	NOUN	NN	Number=Sing	15	obj	_	start_char=4449|end_char=4460
 18	that	that	DET	DT	Number=Sing|PronType=Dem	19	det	_	start_char=4461|end_char=4465
-19	way	way	NOUN	NN	Number=Sing	15	obl:unmarked	_	start_char=4466|end_char=4469|SpaceAfter=No
-20	.	.	PUNCT	.	_	3	punct	_	start_char=4469|end_char=4470|SpacesAfter=\n\n
+19	way	way	NOUN	NN	Number=Sing	15	obl:unmarked	_	SpaceAfter=No|start_char=4466|end_char=4469
+20	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=4469|end_char=4470
 
 # text = But unlike other visual narratives, like film or television or animation or video, comics are what I call permanent.
 # sent_id = 51
@@ -1126,7 +1125,7 @@
 2	unlike	unlike	ADP	IN	_	5	case	_	start_char=4476|end_char=4482
 3	other	other	ADJ	JJ	Degree=Pos	5	amod	_	start_char=4483|end_char=4488
 4	visual	visual	ADJ	JJ	Degree=Pos	5	amod	_	start_char=4489|end_char=4495
-5	narratives	narrative	NOUN	NNS	Number=Plur	18	obl	_	start_char=4496|end_char=4506|SpaceAfter=No
+5	narratives	narrative	NOUN	NNS	Number=Plur	18	obl	_	SpaceAfter=No|start_char=4496|end_char=4506
 6	,	,	PUNCT	,	_	8	punct	_	start_char=4506|end_char=4507
 7	like	like	ADP	IN	_	8	case	_	start_char=4508|end_char=4512
 8	film	film	NOUN	NN	Number=Sing	5	nmod	_	start_char=4513|end_char=4517
@@ -1135,23 +1134,23 @@
 11	or	or	CCONJ	CC	_	12	cc	_	start_char=4532|end_char=4534
 12	animation	animation	NOUN	NN	Number=Sing	8	conj	_	start_char=4535|end_char=4544
 13	or	or	CCONJ	CC	_	14	cc	_	start_char=4545|end_char=4547
-14	video	video	NOUN	NN	Number=Sing	12	conj	_	start_char=4548|end_char=4553|SpaceAfter=No
+14	video	video	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No|start_char=4548|end_char=4553
 15	,	,	PUNCT	,	_	5	punct	_	start_char=4553|end_char=4554
 16	comics	comic	NOUN	NNS	Number=Plur	18	nsubj	_	start_char=4555|end_char=4561
 17	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=4562|end_char=4565
 18	what	what	PRON	WP	PronType=Rel	0	root	_	start_char=4566|end_char=4570
 19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	start_char=4571|end_char=4572
 20	call	call	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	start_char=4573|end_char=4577
-21	permanent	permanent	ADJ	JJ	Degree=Pos	20	xcomp	_	start_char=4578|end_char=4587|SpaceAfter=No
-22	.	.	PUNCT	.	_	18	punct	_	start_char=4587|end_char=4588|SpacesAfter=\n\n
+21	permanent	permanent	ADJ	JJ	Degree=Pos	20	xcomp	_	SpaceAfter=No|start_char=4578|end_char=4587
+22	.	.	PUNCT	.	_	18	punct	_	SpacesAfter=\n\n|start_char=4587|end_char=4588
 
 # text = In a comic, past, present and future all sit side by side on the same page.
 # sent_id = 52
 1	In	in	ADP	IN	_	3	case	_	start_char=4590|end_char=4592
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=4593|end_char=4594
-3	comic	comic	NOUN	NN	Number=Sing	11	obl	_	start_char=4595|end_char=4600|SpaceAfter=No
+3	comic	comic	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No|start_char=4595|end_char=4600
 4	,	,	PUNCT	,	_	5	punct	_	start_char=4600|end_char=4601
-5	past	past	NOUN	NN	Number=Sing	3	conj	_	start_char=4602|end_char=4606|SpaceAfter=No
+5	past	past	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No|start_char=4602|end_char=4606
 6	,	,	PUNCT	,	_	3	punct	_	start_char=4606|end_char=4607
 7	present	present	ADJ	JJ	Degree=Pos	11	nsubj	_	start_char=4608|end_char=4615
 8	and	and	CCONJ	CC	_	9	cc	_	start_char=4616|end_char=4619
@@ -1164,8 +1163,8 @@
 15	on	on	ADP	IN	_	18	case	_	start_char=4648|end_char=4650
 16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=4651|end_char=4654
 17	same	same	ADJ	JJ	Degree=Pos	18	amod	_	start_char=4655|end_char=4659
-18	page	page	NOUN	NN	Number=Sing	11	obl	_	start_char=4660|end_char=4664|SpaceAfter=No
-19	.	.	PUNCT	.	_	11	punct	_	start_char=4664|end_char=4665|SpacesAfter=\n\n
+18	page	page	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No|start_char=4660|end_char=4664
+19	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n\n|start_char=4664|end_char=4665
 
 # text = This means that the rate of information flow is firmly in the hands of the reader.
 # sent_id = 53
@@ -1184,8 +1183,8 @@
 13	hands	hand	NOUN	NNS	Number=Plur	2	ccomp	_	start_char=4729|end_char=4734
 14	of	of	ADP	IN	_	16	case	_	start_char=4735|end_char=4737
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=4738|end_char=4741
-16	reader	reader	NOUN	NN	Number=Sing	13	nmod	_	start_char=4742|end_char=4748|SpaceAfter=No
-17	.	.	PUNCT	.	_	2	punct	_	start_char=4748|end_char=4749|SpacesAfter=\n\n
+16	reader	reader	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No|start_char=4742|end_char=4748
+17	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=4748|end_char=4749
 
 # text = When my students didn't understand something in my comics lecture, they could just reread that passage as quickly or as slowly as they needed.
 # sent_id = 54
@@ -1200,7 +1199,7 @@
 8	in	in	ADP	IN	_	11	case	_	start_char=4796|end_char=4798
 9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=4799|end_char=4801
 10	comics	comic	NOUN	NN	Number=Sing	11	compound	_	start_char=4802|end_char=4808
-11	lecture	lecture	NOUN	NN	Number=Sing	6	obl	_	start_char=4809|end_char=4816|SpaceAfter=No
+11	lecture	lecture	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No|start_char=4809|end_char=4816
 12	,	,	PUNCT	,	_	6	punct	_	start_char=4816|end_char=4817
 13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	start_char=4818|end_char=4822
 14	could	could	AUX	MD	VerbForm=Fin	16	aux	_	start_char=4823|end_char=4828
@@ -1215,8 +1214,8 @@
 23	slowly	slowly	ADV	RB	Degree=Pos	20	conj	_	start_char=4871|end_char=4877
 24	as	as	SCONJ	IN	_	26	mark	_	start_char=4878|end_char=4880
 25	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	start_char=4881|end_char=4885
-26	needed	need	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	advcl	_	start_char=4886|end_char=4892|SpaceAfter=No
-27	.	.	PUNCT	.	_	16	punct	_	start_char=4892|end_char=4893|SpacesAfter=\n\n
+26	needed	need	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	advcl	_	SpaceAfter=No|start_char=4886|end_char=4892
+27	.	.	PUNCT	.	_	16	punct	_	SpacesAfter=\n\n|start_char=4892|end_char=4893
 
 # text = It was like I was giving them a remote control over the information.
 # sent_id = 55
@@ -1232,8 +1231,8 @@
 10	control	control	NOUN	NN	Number=Sing	6	obj	_	start_char=4934|end_char=4941
 11	over	over	ADP	IN	_	13	case	_	start_char=4942|end_char=4946
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=4947|end_char=4950
-13	information	information	NOUN	NN	Number=Sing	10	nmod	_	start_char=4951|end_char=4962|SpaceAfter=No
-14	.	.	PUNCT	.	_	6	punct	_	start_char=4962|end_char=4963|SpacesAfter=\n\n
+13	information	information	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No|start_char=4951|end_char=4962
+14	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=4962|end_char=4963
 
 # text = The same was not true of my video lectures, and it wasn't even true of my in-person lectures.
 # sent_id = 56
@@ -1245,7 +1244,7 @@
 6	of	of	ADP	IN	_	9	case	_	start_char=4987|end_char=4989
 7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=4990|end_char=4992
 8	video	video	NOUN	NN	Number=Sing	9	compound	_	start_char=4993|end_char=4998
-9	lectures	lecture	NOUN	NNS	Number=Plur	5	obl	_	start_char=4999|end_char=5007|SpaceAfter=No
+9	lectures	lecture	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No|start_char=4999|end_char=5007
 10	,	,	PUNCT	,	_	16	punct	_	start_char=5007|end_char=5008
 11	and	and	CCONJ	CC	_	16	cc	_	start_char=5009|end_char=5012
 12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	start_char=5013|end_char=5015
@@ -1256,17 +1255,17 @@
 16	true	true	ADJ	JJ	Degree=Pos	5	conj	_	start_char=5028|end_char=5032
 17	of	of	ADP	IN	_	22	case	_	start_char=5033|end_char=5035
 18	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	start_char=5036|end_char=5038
-19	in	in	ADP	IN	_	21	case	_	start_char=5039|end_char=5041|SpaceAfter=No
-20	-	-	PUNCT	HYPH	_	19	punct	_	start_char=5041|end_char=5042|SpaceAfter=No
+19	in	in	ADP	IN	_	21	case	_	SpaceAfter=No|start_char=5039|end_char=5041
+20	-	-	PUNCT	HYPH	_	19	punct	_	SpaceAfter=No|start_char=5041|end_char=5042
 21	person	person	NOUN	NN	Number=Sing	22	compound	_	start_char=5042|end_char=5048
-22	lectures	lecture	NOUN	NNS	Number=Plur	16	obl	_	start_char=5049|end_char=5057|SpaceAfter=No
-23	.	.	PUNCT	.	_	5	punct	_	start_char=5057|end_char=5058|SpacesAfter=\n\n
+22	lectures	lecture	NOUN	NNS	Number=Plur	16	obl	_	SpaceAfter=No|start_char=5049|end_char=5057
+23	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=5057|end_char=5058
 
 # text = When I speak, I deliver the information as quickly or slowly as I want.
 # sent_id = 57
 1	When	when	ADV	WRB	PronType=Int	3	advmod	_	start_char=5060|end_char=5064
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=5065|end_char=5066
-3	speak	speak	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	advcl	_	start_char=5067|end_char=5072|SpaceAfter=No
+3	speak	speak	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No|start_char=5067|end_char=5072
 4	,	,	PUNCT	,	_	3	punct	_	start_char=5072|end_char=5073
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=5074|end_char=5075
 6	deliver	deliver	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5076|end_char=5083
@@ -1278,8 +1277,8 @@
 12	slowly	slowly	ADV	RB	Degree=Pos	10	conj	_	start_char=5114|end_char=5120
 13	as	as	SCONJ	IN	_	15	mark	_	start_char=5121|end_char=5123
 14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=5124|end_char=5125
-15	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	advcl	_	start_char=5126|end_char=5130|SpaceAfter=No
-16	.	.	PUNCT	.	_	6	punct	_	start_char=5130|end_char=5131|SpacesAfter=\n\n
+15	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	advcl	_	SpaceAfter=No|start_char=5126|end_char=5130
+16	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=5130|end_char=5131
 
 # text = So for certain students and certain kinds of information, these two aspects of the comics medium, its visual nature and its permanence, make it an incredibly powerful educational tool.
 # sent_id = 58
@@ -1291,7 +1290,7 @@
 6	certain	certain	ADJ	JJ	Degree=Pos	7	amod	_	start_char=5161|end_char=5168
 7	kinds	kind	NOUN	NNS	Number=Plur	4	conj	_	start_char=5169|end_char=5174
 8	of	of	ADP	IN	_	9	case	_	start_char=5175|end_char=5177
-9	information	information	NOUN	NN	Number=Sing	7	nmod	_	start_char=5178|end_char=5189|SpaceAfter=No
+9	information	information	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No|start_char=5178|end_char=5189
 10	,	,	PUNCT	,	_	4	punct	_	start_char=5189|end_char=5190
 11	these	this	DET	DT	Number=Plur|PronType=Dem	13	det	_	start_char=5191|end_char=5196
 12	two	two	NUM	CD	NumForm=Word|NumType=Card	13	nummod	_	start_char=5197|end_char=5200
@@ -1299,14 +1298,14 @@
 14	of	of	ADP	IN	_	17	case	_	start_char=5209|end_char=5211
 15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=5212|end_char=5215
 16	comics	comic	NOUN	NN	Number=Sing	17	compound	_	start_char=5216|end_char=5222
-17	medium	medium	NOUN	NN	Number=Sing	13	nmod	_	start_char=5223|end_char=5229|SpaceAfter=No
+17	medium	medium	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No|start_char=5223|end_char=5229
 18	,	,	PUNCT	,	_	21	punct	_	start_char=5229|end_char=5230
 19	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	start_char=5231|end_char=5234
 20	visual	visual	ADJ	JJ	Degree=Pos	21	amod	_	start_char=5235|end_char=5241
 21	nature	nature	NOUN	NN	Number=Sing	17	conj	_	start_char=5242|end_char=5248
 22	and	and	CCONJ	CC	_	24	cc	_	start_char=5249|end_char=5252
 23	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	start_char=5253|end_char=5256
-24	permanence	permanence	NOUN	NN	Number=Sing	17	conj	_	start_char=5257|end_char=5267|SpaceAfter=No
+24	permanence	permanence	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No|start_char=5257|end_char=5267
 25	,	,	PUNCT	,	_	13	punct	_	start_char=5267|end_char=5268
 26	make	make	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5269|end_char=5273
 27	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	obj	_	start_char=5274|end_char=5276
@@ -1314,8 +1313,8 @@
 29	incredibly	incredibly	ADV	RB	_	30	advmod	_	start_char=5280|end_char=5290
 30	powerful	powerful	ADJ	JJ	Degree=Pos	32	amod	_	start_char=5291|end_char=5299
 31	educational	educational	ADJ	JJ	Degree=Pos	32	amod	_	start_char=5300|end_char=5311
-32	tool	tool	NOUN	NN	Number=Sing	26	xcomp	_	start_char=5312|end_char=5316|SpaceAfter=No
-33	.	.	PUNCT	.	_	26	punct	_	start_char=5316|end_char=5317|SpacesAfter=\n\n
+32	tool	tool	NOUN	NN	Number=Sing	26	xcomp	_	SpaceAfter=No|start_char=5312|end_char=5316
+33	.	.	PUNCT	.	_	26	punct	_	SpacesAfter=\n\n|start_char=5316|end_char=5317
 
 # text = When I was teaching this Algebra 2 class, I was also working on my master's in education at Cal State East Bay.
 # sent_id = 59
@@ -1326,7 +1325,7 @@
 5	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	start_char=5339|end_char=5343
 6	Algebra	Algebra	PROPN	NNP	Number=Sing	8	compound	_	start_char=5344|end_char=5351
 7	2	2	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	_	start_char=5352|end_char=5353
-8	class	class	NOUN	NN	Number=Sing	4	obj	_	start_char=5354|end_char=5359|SpaceAfter=No
+8	class	class	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No|start_char=5354|end_char=5359
 9	,	,	PUNCT	,	_	4	punct	_	start_char=5359|end_char=5360
 10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=5361|end_char=5362
 11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	aux	_	start_char=5363|end_char=5366
@@ -1343,8 +1342,8 @@
 21	Cal	Cal	PROPN	NNP	Number=Sing	24	compound	_	start_char=5411|end_char=5414
 22	State	State	PROPN	NNP	Number=Sing	24	compound	_	start_char=5415|end_char=5420
 23	East	East	PROPN	NNP	Number=Sing	24	compound	_	start_char=5421|end_char=5425
-24	Bay	Bay	PROPN	NNP	Number=Sing	13	obl	_	start_char=5426|end_char=5429|SpaceAfter=No
-25	.	.	PUNCT	.	_	13	punct	_	start_char=5429|end_char=5430|SpacesAfter=\n\n
+24	Bay	Bay	PROPN	NNP	Number=Sing	13	obl	_	SpaceAfter=No|start_char=5426|end_char=5429
+25	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\n\n|start_char=5429|end_char=5430
 
 # text = And I was so intrigued by this experience that I had with these comics lectures that I decided to focus my final master's project on comics.
 # sent_id = 60
@@ -1375,8 +1374,8 @@
 24	's	's	PART	POS	_	23	case	_	start_char=5551|end_char=5553
 25	project	project	NOUN	NN	Number=Sing	20	obj	_	start_char=5554|end_char=5561
 26	on	on	ADP	IN	_	27	case	_	start_char=5562|end_char=5564
-27	comics	comic	NOUN	NNS	Number=Plur	20	obl	_	start_char=5565|end_char=5571|SpaceAfter=No
-28	.	.	PUNCT	.	_	5	punct	_	start_char=5571|end_char=5572|SpacesAfter=\n\n
+27	comics	comic	NOUN	NNS	Number=Plur	20	obl	_	SpaceAfter=No|start_char=5565|end_char=5571
+28	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=5571|end_char=5572
 
 # text = I wanted to figure out why American educators have historically been so reluctant to use comic books in their classrooms.
 # sent_id = 61
@@ -1399,8 +1398,8 @@
 17	books	book	NOUN	NNS	Number=Plur	15	obj	_	start_char=5669|end_char=5674
 18	in	in	ADP	IN	_	20	case	_	start_char=5675|end_char=5677
 19	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	start_char=5678|end_char=5683
-20	classrooms	classroom	NOUN	NNS	Number=Plur	15	obl	_	start_char=5684|end_char=5694|SpaceAfter=No
-21	.	.	PUNCT	.	_	2	punct	_	start_char=5694|end_char=5695|SpacesAfter=\n\n
+20	classrooms	classroom	NOUN	NNS	Number=Plur	15	obl	_	SpaceAfter=No|start_char=5684|end_char=5694
+21	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=5694|end_char=5695
 
 # text = Here's what I discovered.
 # sent_id = 62
@@ -1409,8 +1408,8 @@
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=5701|end_char=5703
 3	what	what	PRON	WP	PronType=Rel	1	nsubj	_	start_char=5704|end_char=5708
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=5709|end_char=5710
-5	discovered	discover	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	acl:relcl	_	start_char=5711|end_char=5721|SpaceAfter=No
-6	.	.	PUNCT	.	_	1	punct	_	start_char=5721|end_char=5722|SpacesAfter=\n\n
+5	discovered	discover	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No|start_char=5711|end_char=5721
+6	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n|start_char=5721|end_char=5722
 
 # text = Comic books first became a mass medium in the 1940s, with millions of copies selling every month, and educators back then took notice.
 # sent_id = 63
@@ -1423,7 +1422,7 @@
 7	medium	medium	NOUN	NN	Number=Sing	4	xcomp	_	start_char=5756|end_char=5762
 8	in	in	ADP	IN	_	10	case	_	start_char=5763|end_char=5765
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=5766|end_char=5769
-10	1940s	1940s	NOUN	NNS	NumForm=Combi|NumType=Card|Number=Ptan	7	nmod	_	start_char=5770|end_char=5775|SpaceAfter=No
+10	1940s	1940s	NOUN	NNS	Number=Ptan|NumForm=Combi|NumType=Card	7	nmod	_	SpaceAfter=No|start_char=5770|end_char=5775
 11	,	,	PUNCT	,	_	16	punct	_	start_char=5775|end_char=5776
 12	with	with	SCONJ	IN	_	16	mark	_	start_char=5777|end_char=5781
 13	millions	million	NOUN	NNS	Number=Plur	16	nsubj	_	start_char=5782|end_char=5790
@@ -1431,15 +1430,15 @@
 15	copies	copy	NOUN	NNS	Number=Plur	13	nmod	_	start_char=5794|end_char=5800
 16	selling	sell	VERB	VBG	VerbForm=Ger	4	advcl	_	start_char=5801|end_char=5808
 17	every	every	DET	DT	PronType=Tot	18	det	_	start_char=5809|end_char=5814
-18	month	month	NOUN	NN	Number=Sing	16	obl:unmarked	_	start_char=5815|end_char=5820|SpaceAfter=No
+18	month	month	NOUN	NN	Number=Sing	16	obl:unmarked	_	SpaceAfter=No|start_char=5815|end_char=5820
 19	,	,	PUNCT	,	_	24	punct	_	start_char=5820|end_char=5821
 20	and	and	CCONJ	CC	_	24	cc	_	start_char=5822|end_char=5825
 21	educators	educator	NOUN	NNS	Number=Plur	24	nsubj	_	start_char=5826|end_char=5835
 22	back	back	ADV	RB	_	24	advmod	_	start_char=5836|end_char=5840
 23	then	then	ADV	RB	PronType=Dem	24	advmod	_	start_char=5841|end_char=5845
 24	took	take	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	start_char=5846|end_char=5850
-25	notice	notice	NOUN	NN	Number=Sing	24	obj	_	start_char=5851|end_char=5857|SpaceAfter=No
-26	.	.	PUNCT	.	_	4	punct	_	start_char=5857|end_char=5858|SpacesAfter=\n\n
+25	notice	notice	NOUN	NN	Number=Sing	24	obj	_	SpaceAfter=No|start_char=5851|end_char=5857
+26	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=5857|end_char=5858
 
 # text = A lot of innovative teachers began bringing comics into their classrooms to experiment.
 # sent_id = 64
@@ -1455,20 +1454,20 @@
 10	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=5916|end_char=5921
 11	classrooms	classroom	NOUN	NNS	Number=Plur	7	obl	_	start_char=5922|end_char=5932
 12	to	to	PART	TO	_	13	mark	_	start_char=5933|end_char=5935
-13	experiment	experiment	VERB	VB	VerbForm=Inf	7	advcl	_	start_char=5936|end_char=5946|SpaceAfter=No
-14	.	.	PUNCT	.	_	6	punct	_	start_char=5946|end_char=5947|SpacesAfter=\n\n
+13	experiment	experiment	VERB	VB	VerbForm=Inf	7	advcl	_	SpaceAfter=No|start_char=5936|end_char=5946
+14	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=5946|end_char=5947
 
 # text = In 1944, the "Journal of Educational Sociology" even devoted an entire issue to this topic.
 # sent_id = 65
 1	In	in	ADP	IN	_	2	case	_	start_char=5949|end_char=5951
-2	1944	1944	NUM	CD	NumForm=Digit|NumType=Card	12	obl	_	start_char=5952|end_char=5956|SpaceAfter=No
+2	1944	1944	NUM	CD	NumForm=Digit|NumType=Card	12	obl	_	SpaceAfter=No|start_char=5952|end_char=5956
 3	,	,	PUNCT	,	_	2	punct	_	start_char=5956|end_char=5957
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=5958|end_char=5961
-5	"	"	PUNCT	``	_	6	punct	_	start_char=5962|end_char=5963|SpaceAfter=No
+5	"	"	PUNCT	``	_	6	punct	_	SpaceAfter=No|start_char=5962|end_char=5963
 6	Journal	Journal	PROPN	NNP	Number=Sing	12	nsubj	_	start_char=5963|end_char=5970
 7	of	of	ADP	IN	_	9	case	_	start_char=5971|end_char=5973
 8	Educational	Educational	ADJ	NNP	Degree=Pos	9	amod	_	start_char=5974|end_char=5985
-9	Sociology	Sociology	PROPN	NNP	Number=Sing	6	nmod	_	start_char=5986|end_char=5995|SpaceAfter=No
+9	Sociology	Sociology	PROPN	NNP	Number=Sing	6	nmod	_	SpaceAfter=No|start_char=5986|end_char=5995
 10	"	"	PUNCT	''	_	6	punct	_	start_char=5995|end_char=5996
 11	even	even	ADV	RB	_	12	advmod	_	start_char=5997|end_char=6001
 12	devoted	devote	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=6002|end_char=6009
@@ -1477,8 +1476,8 @@
 15	issue	issue	NOUN	NN	Number=Sing	12	obj	_	start_char=6020|end_char=6025
 16	to	to	ADP	IN	_	18	case	_	start_char=6026|end_char=6028
 17	this	this	DET	DT	Number=Sing|PronType=Dem	18	det	_	start_char=6029|end_char=6033
-18	topic	topic	NOUN	NN	Number=Sing	12	obl	_	start_char=6034|end_char=6039|SpaceAfter=No
-19	.	.	PUNCT	.	_	12	punct	_	start_char=6039|end_char=6040|SpacesAfter=\n\n
+18	topic	topic	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No|start_char=6034|end_char=6039
+19	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n\n|start_char=6039|end_char=6040
 
 # text = Things seemed to be progressing.
 # sent_id = 66
@@ -1486,8 +1485,8 @@
 2	seemed	seem	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=6049|end_char=6055
 3	to	to	PART	TO	_	5	mark	_	start_char=6056|end_char=6058
 4	be	be	AUX	VB	VerbForm=Inf	5	aux	_	start_char=6059|end_char=6061
-5	progressing	progress	VERB	VBG	Tense=Pres|VerbForm=Part	2	xcomp	_	start_char=6062|end_char=6073|SpaceAfter=No
-6	.	.	PUNCT	.	_	2	punct	_	start_char=6073|end_char=6074|SpacesAfter=\n\n
+5	progressing	progress	VERB	VBG	Tense=Pres|VerbForm=Part	2	xcomp	_	SpaceAfter=No|start_char=6062|end_char=6073
+6	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=6073|end_char=6074
 
 # text = Teachers were starting to figure things out.
 # sent_id = 67
@@ -1497,8 +1496,8 @@
 4	to	to	PART	TO	_	5	mark	_	start_char=6099|end_char=6101
 5	figure	figure	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=6102|end_char=6108
 6	things	thing	NOUN	NNS	Number=Plur	5	obj	_	start_char=6109|end_char=6115
-7	out	out	ADP	RP	_	5	compound:prt	_	start_char=6116|end_char=6119|SpaceAfter=No
-8	.	.	PUNCT	.	_	3	punct	_	start_char=6119|end_char=6120|SpacesAfter=\n\n
+7	out	out	ADP	RP	_	5	compound:prt	_	SpaceAfter=No|start_char=6116|end_char=6119
+8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=6119|end_char=6120
 
 # text = But then along comes this guy.
 # sent_id = 68
@@ -1507,8 +1506,8 @@
 3	along	along	ADV	RB	_	4	advmod	_	start_char=6131|end_char=6136
 4	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6137|end_char=6142
 5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	start_char=6143|end_char=6147
-6	guy	guy	NOUN	NN	Number=Sing	4	obj	_	start_char=6148|end_char=6151|SpaceAfter=No
-7	.	.	PUNCT	.	_	4	punct	_	start_char=6151|end_char=6152|SpacesAfter=\n\n
+6	guy	guy	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No|start_char=6148|end_char=6151
+7	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=6151|end_char=6152
 
 # text = This is child psychologist Dr. Fredric Wertham, and in 1954, he wrote a book called "Seduction of the Innocent," where he argues that comic books cause juvenile delinquency.
 # sent_id = 69
@@ -1518,23 +1517,23 @@
 4	psychologist	psychologist	NOUN	NN	Number=Sing	0	root	_	start_char=6168|end_char=6180
 5	Dr.	Dr.	PROPN	NNP	Number=Sing	4	flat	_	start_char=6181|end_char=6184
 6	Fredric	Fredric	PROPN	NNP	Number=Sing	5	flat	_	start_char=6185|end_char=6192
-7	Wertham	Wertham	PROPN	NNP	Number=Sing	5	flat	_	start_char=6193|end_char=6200|SpaceAfter=No
+7	Wertham	Wertham	PROPN	NNP	Number=Sing	5	flat	_	SpaceAfter=No|start_char=6193|end_char=6200
 8	,	,	PUNCT	,	_	9	punct	_	start_char=6200|end_char=6201
 9	and	and	CCONJ	CC	_	14	cc	_	start_char=6202|end_char=6205
 10	in	in	ADP	IN	_	11	case	_	start_char=6206|end_char=6208
-11	1954	1954	NUM	CD	NumForm=Digit|NumType=Card	14	obl	_	start_char=6209|end_char=6213|SpaceAfter=No
+11	1954	1954	NUM	CD	NumForm=Digit|NumType=Card	14	obl	_	SpaceAfter=No|start_char=6209|end_char=6213
 12	,	,	PUNCT	,	_	11	punct	_	start_char=6213|end_char=6214
 13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=6215|end_char=6217
 14	wrote	write	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	start_char=6218|end_char=6223
 15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	start_char=6224|end_char=6225
 16	book	book	NOUN	NN	Number=Sing	14	obj	_	start_char=6226|end_char=6230
 17	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	acl	_	start_char=6231|end_char=6237
-18	"	"	PUNCT	``	_	19	punct	_	start_char=6238|end_char=6239|SpaceAfter=No
+18	"	"	PUNCT	``	_	19	punct	_	SpaceAfter=No|start_char=6238|end_char=6239
 19	Seduction	Seduction	PROPN	NNP	Number=Sing	17	xcomp	_	start_char=6239|end_char=6248
 20	of	of	ADP	IN	_	22	case	_	start_char=6249|end_char=6251
 21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	start_char=6252|end_char=6255
-22	Innocent	Innocent	PROPN	NNP	Number=Sing	19	nmod	_	start_char=6256|end_char=6264|SpaceAfter=No
-23	,	,	PUNCT	,	_	19	punct	_	start_char=6264|end_char=6265|SpaceAfter=No
+22	Innocent	Innocent	PROPN	NNP	Number=Sing	19	nmod	_	SpaceAfter=No|start_char=6256|end_char=6264
+23	,	,	PUNCT	,	_	19	punct	_	SpaceAfter=No|start_char=6264|end_char=6265
 24	"	"	PUNCT	''	_	19	punct	_	start_char=6265|end_char=6266
 25	where	where	ADV	WRB	PronType=Rel	27	advmod	_	start_char=6267|end_char=6272
 26	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	start_char=6273|end_char=6275
@@ -1544,19 +1543,19 @@
 30	books	book	NOUN	NNS	Number=Plur	31	nsubj	_	start_char=6294|end_char=6299
 31	cause	cause	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	ccomp	_	start_char=6300|end_char=6305
 32	juvenile	juvenile	ADJ	JJ	Degree=Pos	33	amod	_	start_char=6306|end_char=6314
-33	delinquency	delinquency	NOUN	NN	Number=Sing	31	obj	_	start_char=6315|end_char=6326|SpaceAfter=No
-34	.	.	PUNCT	.	_	4	punct	_	start_char=6326|end_char=6327|SpacesAfter=\n\n
+33	delinquency	delinquency	NOUN	NN	Number=Sing	31	obj	_	SpaceAfter=No|start_char=6315|end_char=6326
+34	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=6326|end_char=6327
 
 # text = He was wrong.
 # sent_id = 70
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=6329|end_char=6331
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	start_char=6332|end_char=6335
-3	wrong	wrong	ADJ	JJ	Degree=Pos	0	root	_	start_char=6336|end_char=6341|SpaceAfter=No
-4	.	.	PUNCT	.	_	3	punct	_	start_char=6341|end_char=6342|SpacesAfter=\n\n
+3	wrong	wrong	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No|start_char=6336|end_char=6341
+4	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=6341|end_char=6342
 
 # text = Now, Dr. Wertham was actually a pretty decent guy.
 # sent_id = 71
-1	Now	now	ADV	RB	_	10	advmod	_	start_char=6344|end_char=6347|SpaceAfter=No
+1	Now	now	ADV	RB	_	10	advmod	_	SpaceAfter=No|start_char=6344|end_char=6347
 2	,	,	PUNCT	,	_	1	punct	_	start_char=6347|end_char=6348
 3	Dr.	Dr.	PROPN	NNP	Number=Sing	10	nsubj	_	start_char=6349|end_char=6352
 4	Wertham	Wertham	PROPN	NNP	Number=Sing	3	flat	_	start_char=6353|end_char=6360
@@ -1565,8 +1564,8 @@
 7	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=6374|end_char=6375
 8	pretty	pretty	ADV	RB	_	9	advmod	_	start_char=6376|end_char=6382
 9	decent	decent	ADJ	JJ	Degree=Pos	10	amod	_	start_char=6383|end_char=6389
-10	guy	guy	NOUN	NN	Number=Sing	0	root	_	start_char=6390|end_char=6393|SpaceAfter=No
-11	.	.	PUNCT	.	_	10	punct	_	start_char=6393|end_char=6394|SpacesAfter=\n\n
+10	guy	guy	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=6390|end_char=6393
+11	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n|start_char=6393|end_char=6394
 
 # text = He spent most of his career working with juvenile delinquents, and in his work he noticed that most of his clients read comic books.
 # sent_id = 72
@@ -1579,7 +1578,7 @@
 7	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	_	start_char=6424|end_char=6431
 8	with	with	ADP	IN	_	10	case	_	start_char=6432|end_char=6436
 9	juvenile	juvenile	ADJ	JJ	Degree=Pos	10	amod	_	start_char=6437|end_char=6445
-10	delinquents	delinquent	NOUN	NNS	Number=Plur	7	obl	_	start_char=6446|end_char=6457|SpaceAfter=No
+10	delinquents	delinquent	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No|start_char=6446|end_char=6457
 11	,	,	PUNCT	,	_	17	punct	_	start_char=6457|end_char=6458
 12	and	and	CCONJ	CC	_	17	cc	_	start_char=6459|end_char=6462
 13	in	in	ADP	IN	_	15	case	_	start_char=6463|end_char=6465
@@ -1594,8 +1593,8 @@
 22	clients	client	NOUN	NNS	Number=Plur	19	nmod	_	start_char=6503|end_char=6510
 23	read	read	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	ccomp	_	start_char=6511|end_char=6515
 24	comic	comic	ADJ	JJ	Degree=Pos	25	amod	_	start_char=6516|end_char=6521
-25	books	book	NOUN	NNS	Number=Plur	23	obj	_	start_char=6522|end_char=6527|SpaceAfter=No
-26	.	.	PUNCT	.	_	2	punct	_	start_char=6527|end_char=6528|SpacesAfter=\n\n
+25	books	book	NOUN	NNS	Number=Plur	23	obj	_	SpaceAfter=No|start_char=6522|end_char=6527
+26	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=6527|end_char=6528
 
 # text = What Dr. Wertham failed to realize was in the 1940s and '50s, almost every kid in America read comic books.
 # sent_id = 73
@@ -1608,10 +1607,10 @@
 7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	start_char=6565|end_char=6568
 8	in	in	ADP	IN	_	10	case	_	start_char=6569|end_char=6571
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=6572|end_char=6575
-10	1940s	1940s	NOUN	NNS	NumForm=Combi|NumType=Card|Number=Ptan	0	root	_	start_char=6576|end_char=6581
+10	1940s	1940s	NOUN	NNS	Number=Ptan|NumForm=Combi|NumType=Card	0	root	_	start_char=6576|end_char=6581
 11	and	and	CCONJ	CC	_	13	cc	_	start_char=6582|end_char=6585
-12	'	'	ADJ	JJ	Degree=Pos	13	amod	_	start_char=6586|end_char=6587|SpaceAfter=No
-13	50s	50s	NOUN	NNS	NumForm=Combi|NumType=Card|Number=Ptan	10	conj	_	start_char=6587|end_char=6590|SpaceAfter=No
+12	'	'	ADJ	JJ	Degree=Pos	13	amod	_	SpaceAfter=No|start_char=6586|end_char=6587
+13	50s	50s	NOUN	NNS	Number=Ptan|NumForm=Combi|NumType=Card	10	conj	_	SpaceAfter=No|start_char=6587|end_char=6590
 14	,	,	PUNCT	,	_	20	punct	_	start_char=6590|end_char=6591
 15	almost	almost	ADV	RB	_	17	advmod	_	start_char=6592|end_char=6598
 16	every	every	DET	DT	PronType=Tot	17	det	_	start_char=6599|end_char=6604
@@ -1620,8 +1619,8 @@
 19	America	America	PROPN	NNP	Number=Sing	17	nmod	_	start_char=6612|end_char=6619
 20	read	read	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	parataxis	_	start_char=6620|end_char=6624
 21	comic	comic	NOUN	NN	Number=Sing	22	compound	_	start_char=6625|end_char=6630
-22	books	book	NOUN	NNS	Number=Plur	20	obj	_	start_char=6631|end_char=6636|SpaceAfter=No
-23	.	.	PUNCT	.	_	10	punct	_	start_char=6636|end_char=6637|SpacesAfter=\n\n
+22	books	book	NOUN	NNS	Number=Plur	20	obj	_	SpaceAfter=No|start_char=6631|end_char=6636
+23	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n|start_char=6636|end_char=6637
 
 # text = Dr. Wertham does a pretty dubious job of proving his case, but his book does inspire the Senate of the United States to hold a series of hearings to see if in fact comic books caused juvenile delinquency.
 # sent_id = 74
@@ -1635,7 +1634,7 @@
 8	of	of	SCONJ	IN	_	9	mark	_	start_char=6677|end_char=6679
 9	proving	prove	VERB	VBG	VerbForm=Ger	7	acl	_	start_char=6680|end_char=6687
 10	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=6688|end_char=6691
-11	case	case	NOUN	NN	Number=Sing	9	obj	_	start_char=6692|end_char=6696|SpaceAfter=No
+11	case	case	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No|start_char=6692|end_char=6696
 12	,	,	PUNCT	,	_	17	punct	_	start_char=6696|end_char=6697
 13	but	but	CCONJ	CC	_	17	cc	_	start_char=6698|end_char=6701
 14	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=6702|end_char=6705
@@ -1663,8 +1662,8 @@
 36	books	book	NOUN	NNS	Number=Plur	37	nsubj	_	start_char=6809|end_char=6814
 37	caused	cause	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	31	ccomp	_	start_char=6815|end_char=6821
 38	juvenile	juvenile	ADJ	JJ	Degree=Pos	39	amod	_	start_char=6822|end_char=6830
-39	delinquency	delinquency	NOUN	NN	Number=Sing	37	obj	_	start_char=6831|end_char=6842|SpaceAfter=No
-40	.	.	PUNCT	.	_	3	punct	_	start_char=6842|end_char=6843|SpacesAfter=\n\n
+39	delinquency	delinquency	NOUN	NN	Number=Sing	37	obj	_	SpaceAfter=No|start_char=6831|end_char=6842
+40	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=6842|end_char=6843
 
 # text = These hearings lasted for almost two months.
 # sent_id = 75
@@ -1674,14 +1673,14 @@
 4	for	for	ADP	IN	_	7	case	_	start_char=6867|end_char=6870
 5	almost	almost	ADV	RB	_	6	advmod	_	start_char=6871|end_char=6877
 6	two	two	NUM	CD	NumForm=Word|NumType=Card	7	nummod	_	start_char=6878|end_char=6881
-7	months	month	NOUN	NNS	Number=Plur	3	obl	_	start_char=6882|end_char=6888|SpaceAfter=No
-8	.	.	PUNCT	.	_	3	punct	_	start_char=6888|end_char=6889|SpacesAfter=\n\n
+7	months	month	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No|start_char=6882|end_char=6888
+8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=6888|end_char=6889
 
 # text = They ended inconclusively, but not before doing tremendous damage to the reputation of comic books in the eyes of the American public.
 # sent_id = 76
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=6891|end_char=6895
 2	ended	end	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=6896|end_char=6901
-3	inconclusively	inconclusively	ADV	RB	_	2	advmod	_	start_char=6902|end_char=6916|SpaceAfter=No
+3	inconclusively	inconclusively	ADV	RB	_	2	advmod	_	SpaceAfter=No|start_char=6902|end_char=6916
 4	,	,	PUNCT	,	_	8	punct	_	start_char=6916|end_char=6917
 5	but	but	CCONJ	CC	_	8	cc	_	start_char=6918|end_char=6921
 6	not	not	PART	RB	Polarity=Neg	8	advmod	_	start_char=6922|end_char=6925
@@ -1701,28 +1700,28 @@
 20	of	of	ADP	IN	_	23	case	_	start_char=7002|end_char=7004
 21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	start_char=7005|end_char=7008
 22	American	American	ADJ	JJ	Degree=Pos	23	amod	_	start_char=7009|end_char=7017
-23	public	public	NOUN	NN	Number=Sing	19	nmod	_	start_char=7018|end_char=7024|SpaceAfter=No
-24	.	.	PUNCT	.	_	2	punct	_	start_char=7024|end_char=7025|SpacesAfter=\n\n
+23	public	public	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No|start_char=7018|end_char=7024
+24	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=7024|end_char=7025
 
 # text = After this, respectable American educators all backed away, and they stayed away for decades.
 # sent_id = 77
 1	After	after	ADP	IN	_	2	case	_	start_char=7027|end_char=7032
-2	this	this	PRON	DT	Number=Sing|PronType=Dem	8	obl	_	start_char=7033|end_char=7037|SpaceAfter=No
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	8	obl	_	SpaceAfter=No|start_char=7033|end_char=7037
 3	,	,	PUNCT	,	_	2	punct	_	start_char=7037|end_char=7038
 4	respectable	respectable	ADJ	JJ	Degree=Pos	6	amod	_	start_char=7039|end_char=7050
 5	American	American	ADJ	JJ	Degree=Pos	6	amod	_	start_char=7051|end_char=7059
 6	educators	educator	NOUN	NNS	Number=Plur	8	nsubj	_	start_char=7060|end_char=7069
 7	all	all	DET	DT	PronType=Tot	6	det	_	start_char=7070|end_char=7073
 8	backed	back	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=7074|end_char=7080
-9	away	away	ADV	RB	_	8	advmod	_	start_char=7081|end_char=7085|SpaceAfter=No
+9	away	away	ADV	RB	_	8	advmod	_	SpaceAfter=No|start_char=7081|end_char=7085
 10	,	,	PUNCT	,	_	13	punct	_	start_char=7085|end_char=7086
 11	and	and	CCONJ	CC	_	13	cc	_	start_char=7087|end_char=7090
 12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	start_char=7091|end_char=7095
 13	stayed	stay	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	start_char=7096|end_char=7102
 14	away	away	ADV	RB	_	13	advmod	_	start_char=7103|end_char=7107
 15	for	for	ADP	IN	_	16	case	_	start_char=7108|end_char=7111
-16	decades	decade	NOUN	NNS	Number=Plur	13	obl	_	start_char=7112|end_char=7119|SpaceAfter=No
-17	.	.	PUNCT	.	_	8	punct	_	start_char=7119|end_char=7120|SpacesAfter=\n\n
+16	decades	decade	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No|start_char=7112|end_char=7119
+17	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n\n|start_char=7119|end_char=7120
 
 # text = It wasn't until the 1970s that a few brave souls started making their way back in.
 # sent_id = 78
@@ -1732,7 +1731,7 @@
 3	n't	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=7128|end_char=7131
 4	until	until	ADP	IN	_	6	case	_	start_char=7132|end_char=7137
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=7138|end_char=7141
-6	1970s	1970s	NOUN	NNS	NumForm=Combi|NumType=Card|Number=Ptan	0	root	_	start_char=7142|end_char=7147
+6	1970s	1970s	NOUN	NNS	Number=Ptan|NumForm=Combi|NumType=Card	0	root	_	start_char=7142|end_char=7147
 7	that	that	SCONJ	IN	_	12	mark	_	start_char=7148|end_char=7152
 8	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=7153|end_char=7154
 9	few	few	ADJ	JJ	Degree=Pos	11	amod	_	start_char=7155|end_char=7158
@@ -1743,8 +1742,8 @@
 14	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=7186|end_char=7191
 15	way	way	NOUN	NN	Number=Sing	13	obj	_	start_char=7192|end_char=7195
 16	back	back	ADV	RB	_	13	advmod	_	start_char=7196|end_char=7200
-17	in	in	ADP	IN	_	13	compound:prt	_	start_char=7201|end_char=7203|SpaceAfter=No
-18	.	.	PUNCT	.	_	6	punct	_	start_char=7203|end_char=7204|SpacesAfter=\n\n
+17	in	in	ADP	IN	_	13	compound:prt	_	SpaceAfter=No|start_char=7201|end_char=7203
+18	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=7203|end_char=7204
 
 # text = And it really wasn't until pretty recently, maybe the last decade or so, that comics have seen more widespread acceptance among American educators.
 # sent_id = 79
@@ -1756,14 +1755,14 @@
 5	n't	not	PART	RB	Polarity=Neg	8	advmod	_	start_char=7223|end_char=7226
 6	until	until	ADP	IN	_	8	case	_	start_char=7227|end_char=7232
 7	pretty	pretty	ADV	RB	_	8	advmod	_	start_char=7233|end_char=7239
-8	recently	recently	ADV	RB	_	0	root	_	start_char=7240|end_char=7248|SpaceAfter=No
+8	recently	recently	ADV	RB	_	0	root	_	SpaceAfter=No|start_char=7240|end_char=7248
 9	,	,	PUNCT	,	_	20	punct	_	start_char=7248|end_char=7249
 10	maybe	maybe	ADV	RB	_	13	advmod	_	start_char=7250|end_char=7255
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=7256|end_char=7259
 12	last	last	ADJ	JJ	Degree=Pos	13	amod	_	start_char=7260|end_char=7264
 13	decade	decade	NOUN	NN	Number=Sing	20	obl:unmarked	_	start_char=7265|end_char=7271
 14	or	or	CCONJ	CC	_	15	cc	_	start_char=7272|end_char=7274
-15	so	so	ADV	RB	_	13	conj	_	start_char=7275|end_char=7277|SpaceAfter=No
+15	so	so	ADV	RB	_	13	conj	_	SpaceAfter=No|start_char=7275|end_char=7277
 16	,	,	PUNCT	,	_	20	punct	_	start_char=7277|end_char=7278
 17	that	that	SCONJ	IN	_	20	mark	_	start_char=7279|end_char=7283
 18	comics	comic	NOUN	NNS	Number=Plur	20	nsubj	_	start_char=7284|end_char=7290
@@ -1774,8 +1773,8 @@
 23	acceptance	acceptance	NOUN	NN	Number=Sing	20	obj	_	start_char=7317|end_char=7327
 24	among	among	ADP	IN	_	26	case	_	start_char=7328|end_char=7333
 25	American	American	ADJ	JJ	Degree=Pos	26	amod	_	start_char=7334|end_char=7342
-26	educators	educator	NOUN	NNS	Number=Plur	23	nmod	_	start_char=7343|end_char=7352|SpaceAfter=No
-27	.	.	PUNCT	.	_	8	punct	_	start_char=7352|end_char=7353|SpacesAfter=\n\n
+26	educators	educator	NOUN	NNS	Number=Plur	23	nmod	_	SpaceAfter=No|start_char=7343|end_char=7352
+27	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n\n|start_char=7352|end_char=7353
 
 # text = Comic books and graphic novels are now finally making their way back into American classrooms and this is even happening at Bishop O'Dowd, where I used to teach.
 # sent_id = 80
@@ -1801,41 +1800,41 @@
 20	happening	happen	VERB	VBG	Tense=Pres|VerbForm=Part	9	conj	_	start_char=7466|end_char=7475
 21	at	at	ADP	IN	_	22	case	_	start_char=7476|end_char=7478
 22	Bishop	Bishop	PROPN	NNP	Number=Sing	20	obl	_	start_char=7479|end_char=7485
-23	O'Dowd	O'Dowd	PROPN	NNP	Number=Sing	22	flat	_	start_char=7486|end_char=7492|SpaceAfter=No
+23	O'Dowd	O'Dowd	PROPN	NNP	Number=Sing	22	flat	_	SpaceAfter=No|start_char=7486|end_char=7492
 24	,	,	PUNCT	,	_	27	punct	_	start_char=7492|end_char=7493
 25	where	where	ADV	WRB	PronType=Rel	27	advmod	_	start_char=7494|end_char=7499
 26	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	start_char=7500|end_char=7501
 27	used	use	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	22	acl:relcl	_	start_char=7502|end_char=7506
 28	to	to	PART	TO	_	29	mark	_	start_char=7507|end_char=7509
-29	teach	teach	VERB	VB	VerbForm=Inf	27	xcomp	_	start_char=7510|end_char=7515|SpaceAfter=No
-30	.	.	PUNCT	.	_	9	punct	_	start_char=7515|end_char=7516|SpacesAfter=\n\n
+29	teach	teach	VERB	VB	VerbForm=Inf	27	xcomp	_	SpaceAfter=No|start_char=7510|end_char=7515
+30	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n\n|start_char=7515|end_char=7516
 
 # text = Mr. Smith, one of my former colleagues, uses Scott McCloud's "Understanding Comics" in his literature and film class, because that book gives his students the language with which to discuss the relationship between words and images.
 # sent_id = 81
 1	Mr.	Mr.	PROPN	NNP	Number=Sing	10	nsubj	_	start_char=7518|end_char=7521
-2	Smith	Smith	PROPN	NNP	Number=Sing	1	flat	_	start_char=7522|end_char=7527|SpaceAfter=No
+2	Smith	Smith	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No|start_char=7522|end_char=7527
 3	,	,	PUNCT	,	_	4	punct	_	start_char=7527|end_char=7528
 4	one	one	NUM	CD	NumForm=Word|NumType=Card	1	appos	_	start_char=7529|end_char=7532
 5	of	of	ADP	IN	_	8	case	_	start_char=7533|end_char=7535
 6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=7536|end_char=7538
 7	former	former	ADJ	JJ	Degree=Pos	8	amod	_	start_char=7539|end_char=7545
-8	colleagues	colleague	NOUN	NNS	Number=Plur	4	nmod	_	start_char=7546|end_char=7556|SpaceAfter=No
+8	colleagues	colleague	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No|start_char=7546|end_char=7556
 9	,	,	PUNCT	,	_	1	punct	_	start_char=7556|end_char=7557
 10	uses	use	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7558|end_char=7562
 11	Scott	Scott	PROPN	NNP	Number=Sing	16	nmod:poss	_	start_char=7563|end_char=7568
 12-13	McCloud's	_	_	_	_	_	_	_	start_char=7569|end_char=7578
 12	McCloud	McCloud	PROPN	NNP	Number=Sing	11	flat	_	start_char=7569|end_char=7576
 13	's	's	PART	POS	_	11	case	_	start_char=7576|end_char=7578
-14	"	"	PUNCT	``	_	16	punct	_	start_char=7579|end_char=7580|SpaceAfter=No
+14	"	"	PUNCT	``	_	16	punct	_	SpaceAfter=No|start_char=7579|end_char=7580
 15	Understanding	Understanding	PROPN	NNP	Number=Sing	16	compound	_	start_char=7580|end_char=7593
-16	Comics	Comics	PROPN	NNP	Number=Sing	10	obj	_	start_char=7594|end_char=7600|SpaceAfter=No
+16	Comics	Comics	PROPN	NNP	Number=Sing	10	obj	_	SpaceAfter=No|start_char=7594|end_char=7600
 17	"	"	PUNCT	''	_	16	punct	_	start_char=7600|end_char=7601
 18	in	in	ADP	IN	_	20	case	_	start_char=7602|end_char=7604
 19	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	start_char=7605|end_char=7608
 20	literature	literature	NOUN	NN	Number=Sing	10	obl	_	start_char=7609|end_char=7619
 21	and	and	CCONJ	CC	_	23	cc	_	start_char=7620|end_char=7623
 22	film	film	NOUN	NN	Number=Sing	23	compound	_	start_char=7624|end_char=7628
-23	class	class	NOUN	NN	Number=Sing	20	conj	_	start_char=7629|end_char=7634|SpaceAfter=No
+23	class	class	NOUN	NN	Number=Sing	20	conj	_	SpaceAfter=No|start_char=7629|end_char=7634
 24	,	,	PUNCT	,	_	28	punct	_	start_char=7634|end_char=7635
 25	because	because	SCONJ	IN	_	28	mark	_	start_char=7636|end_char=7643
 26	that	that	DET	DT	Number=Sing|PronType=Dem	27	det	_	start_char=7644|end_char=7648
@@ -1854,8 +1853,8 @@
 39	between	between	ADP	IN	_	40	case	_	start_char=7725|end_char=7732
 40	words	word	NOUN	NNS	Number=Plur	38	nmod	_	start_char=7733|end_char=7738
 41	and	and	CCONJ	CC	_	42	cc	_	start_char=7739|end_char=7742
-42	images	image	NOUN	NNS	Number=Plur	40	conj	_	start_char=7743|end_char=7749|SpaceAfter=No
-43	.	.	PUNCT	.	_	10	punct	_	start_char=7749|end_char=7750|SpacesAfter=\n\n
+42	images	image	NOUN	NNS	Number=Plur	40	conj	_	SpaceAfter=No|start_char=7743|end_char=7749
+43	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n|start_char=7749|end_char=7750
 
 # text = Mr. Burns assigns a comics essay to his students every year. By asking his students to process a prose novel using images, Mr. Burns asks them to think deeply not just about the story but also about how that story is told.
 # sent_id = 82
@@ -1869,7 +1868,7 @@
 8	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=7788|end_char=7791
 9	students	student	NOUN	NNS	Number=Plur	3	obl	_	start_char=7792|end_char=7800
 10	every	every	DET	DT	PronType=Tot	11	det	_	start_char=7801|end_char=7806
-11	year	year	NOUN	NN	Number=Sing	3	obl:unmarked	_	start_char=7807|end_char=7811|SpaceAfter=No
+11	year	year	NOUN	NN	Number=Sing	3	obl:unmarked	_	SpaceAfter=No|start_char=7807|end_char=7811
 12	.	.	PUNCT	.	_	3	punct	_	start_char=7811|end_char=7812
 13	By	by	SCONJ	IN	_	14	mark	_	start_char=7813|end_char=7815
 14	asking	ask	VERB	VBG	Tense=Pres|VerbForm=Part	27	advcl	_	start_char=7816|end_char=7822
@@ -1881,7 +1880,7 @@
 20	prose	prose	NOUN	NN	Number=Sing	21	compound	_	start_char=7849|end_char=7854
 21	novel	novel	NOUN	NN	Number=Sing	18	obj	_	start_char=7855|end_char=7860
 22	using	use	VERB	VBG	VerbForm=Ger	18	advcl	_	start_char=7861|end_char=7866
-23	images	image	NOUN	NNS	Number=Plur	22	obj	_	start_char=7867|end_char=7873|SpaceAfter=No
+23	images	image	NOUN	NNS	Number=Plur	22	obj	_	SpaceAfter=No|start_char=7867|end_char=7873
 24	,	,	PUNCT	,	_	14	punct	_	start_char=7873|end_char=7874
 25	Mr.	Mr.	PROPN	NNP	Number=Sing	27	nsubj	_	start_char=7875|end_char=7878
 26	Burns	Burns	PROPN	NNP	Number=Sing	25	flat	_	start_char=7879|end_char=7884
@@ -1902,8 +1901,8 @@
 41	that	that	DET	DT	Number=Sing|PronType=Dem	42	det	_	start_char=7955|end_char=7959
 42	story	story	NOUN	NN	Number=Sing	44	nsubj:pass	_	start_char=7960|end_char=7965
 43	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	aux:pass	_	start_char=7966|end_char=7968
-44	told	tell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	40	advcl:relcl	_	start_char=7969|end_char=7973|SpaceAfter=No
-45	.	.	PUNCT	.	_	27	punct	_	start_char=7973|end_char=7974|SpacesAfter=\n\n
+44	told	tell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	40	advcl:relcl	_	SpaceAfter=No|start_char=7969|end_char=7973
+45	.	.	PUNCT	.	_	27	punct	_	SpacesAfter=\n\n|start_char=7973|end_char=7974
 
 # text = And Ms. Murrock uses my own "American Born Chinese" with her English 1 students.
 # sent_id = 83
@@ -1913,22 +1912,22 @@
 4	uses	use	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7992|end_char=7996
 5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=7997|end_char=7999
 6	own	own	ADJ	JJ	Degree=Pos	10	amod	_	start_char=8000|end_char=8003
-7	"	"	PUNCT	``	_	10	punct	_	start_char=8004|end_char=8005|SpaceAfter=No
+7	"	"	PUNCT	``	_	10	punct	_	SpaceAfter=No|start_char=8004|end_char=8005
 8	American	American	ADJ	JJ	Degree=Pos	10	amod	_	start_char=8005|end_char=8013
 9	Born	bear	ADJ	JJ	Degree=Pos	10	amod	_	start_char=8014|end_char=8018
-10	Chinese	Chinese	PROPN	NNP	Number=Sing	4	obj	_	start_char=8019|end_char=8026|SpaceAfter=No
+10	Chinese	Chinese	PROPN	NNP	Number=Sing	4	obj	_	SpaceAfter=No|start_char=8019|end_char=8026
 11	"	"	PUNCT	''	_	10	punct	_	start_char=8026|end_char=8027
 12	with	with	ADP	IN	_	16	case	_	start_char=8028|end_char=8032
 13	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=8033|end_char=8036
 14	English	English	ADJ	JJ	Degree=Pos	16	amod	_	start_char=8037|end_char=8044
 15	1	1	NUM	CD	NumForm=Digit|NumType=Card	16	nummod	_	start_char=8045|end_char=8046
-16	students	student	NOUN	NNS	Number=Plur	4	obl	_	start_char=8047|end_char=8055|SpaceAfter=No
-17	.	.	PUNCT	.	_	4	punct	_	start_char=8055|end_char=8056|SpacesAfter=\n\n
+16	students	student	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No|start_char=8047|end_char=8055
+17	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=8055|end_char=8056
 
 # text = For her, graphic novels are a great way of fulfilling a Common Core Standard.
 # sent_id = 84
 1	For	for	ADP	IN	_	2	case	_	start_char=8058|end_char=8061
-2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl	_	start_char=8062|end_char=8065|SpaceAfter=No
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No|start_char=8062|end_char=8065
 3	,	,	PUNCT	,	_	2	punct	_	start_char=8065|end_char=8066
 4	graphic	graphic	ADJ	JJ	Degree=Pos	5	amod	_	start_char=8067|end_char=8074
 5	novels	novel	NOUN	NNS	Number=Plur	9	nsubj	_	start_char=8075|end_char=8081
@@ -1941,8 +1940,8 @@
 12	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=8112|end_char=8113
 13	Common	common	ADJ	NNP	Degree=Pos	14	amod	_	start_char=8114|end_char=8120
 14	Core	Core	PROPN	NNP	Number=Sing	15	compound	_	start_char=8121|end_char=8125
-15	Standard	Standard	PROPN	NNP	Number=Sing	11	obj	_	start_char=8126|end_char=8134|SpaceAfter=No
-16	.	.	PUNCT	.	_	9	punct	_	start_char=8134|end_char=8135|SpacesAfter=\n\n
+15	Standard	Standard	PROPN	NNP	Number=Sing	11	obj	_	SpaceAfter=No|start_char=8126|end_char=8134
+16	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n\n|start_char=8134|end_char=8135
 
 # text = The Standard states that students ought to be able to analyze how visual elements contribute to the meaning, tone and beauty of a text.
 # sent_id = 85
@@ -1963,22 +1962,22 @@
 15	contribute	contribute	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	start_char=8219|end_char=8229
 16	to	to	ADP	IN	_	18	case	_	start_char=8230|end_char=8232
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=8233|end_char=8236
-18	meaning	meaning	NOUN	NN	Number=Sing	15	obl	_	start_char=8237|end_char=8244|SpaceAfter=No
+18	meaning	meaning	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No|start_char=8237|end_char=8244
 19	,	,	PUNCT	,	_	20	punct	_	start_char=8244|end_char=8245
 20	tone	tone	NOUN	NN	Number=Sing	18	conj	_	start_char=8246|end_char=8250
 21	and	and	CCONJ	CC	_	22	cc	_	start_char=8251|end_char=8254
 22	beauty	beauty	NOUN	NN	Number=Sing	18	conj	_	start_char=8255|end_char=8261
 23	of	of	ADP	IN	_	25	case	_	start_char=8262|end_char=8264
 24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	start_char=8265|end_char=8266
-25	text	text	NOUN	NN	Number=Sing	18	nmod	_	start_char=8267|end_char=8271|SpaceAfter=No
-26	.	.	PUNCT	.	_	3	punct	_	start_char=8271|end_char=8272|SpacesAfter=\n\n
+25	text	text	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No|start_char=8267|end_char=8271
+26	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=8271|end_char=8272
 
 # text = Over in the library, Ms. Counts has built a pretty impressive graphic novel collection for Bishop O'Dowd.
 # sent_id = 86
 1	Over	over	ADV	RB	_	4	advmod	_	start_char=8274|end_char=8278
 2	in	in	ADP	IN	_	4	case	_	start_char=8279|end_char=8281
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=8282|end_char=8285
-4	library	library	NOUN	NN	Number=Sing	9	obl	_	start_char=8286|end_char=8293|SpaceAfter=No
+4	library	library	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No|start_char=8286|end_char=8293
 5	,	,	PUNCT	,	_	4	punct	_	start_char=8293|end_char=8294
 6	Ms.	Ms.	PROPN	NNP	Number=Sing	9	nsubj	_	start_char=8295|end_char=8298
 7	Counts	Count	PROPN	NNPS	Number=Plur	6	flat	_	start_char=8299|end_char=8305
@@ -1992,12 +1991,12 @@
 15	collection	collection	NOUN	NN	Number=Sing	9	obj	_	start_char=8350|end_char=8360
 16	for	for	ADP	IN	_	17	case	_	start_char=8361|end_char=8364
 17	Bishop	Bishop	PROPN	NNP	Number=Sing	9	obl	_	start_char=8365|end_char=8371
-18	O'Dowd	O'Dowd	PROPN	NNP	Number=Sing	17	flat	_	start_char=8372|end_char=8378|SpaceAfter=No
-19	.	.	PUNCT	.	_	9	punct	_	start_char=8378|end_char=8379|SpacesAfter=\n\n
+18	O'Dowd	O'Dowd	PROPN	NNP	Number=Sing	17	flat	_	SpaceAfter=No|start_char=8372|end_char=8378
+19	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n\n|start_char=8378|end_char=8379
 
 # text = Now, Ms. Counts and all of her librarian colleagues have really been at the forefront of comics advocacy, really since the early '80s, when a school library journal article stated that the mere presence of graphic novels in the library increased usage by about 80 percent and increased the circulation of noncomics material by about 30 percent.
 # sent_id = 87
-1	Now	now	ADV	RB	_	16	advmod	_	start_char=8381|end_char=8384|SpaceAfter=No
+1	Now	now	ADV	RB	_	16	advmod	_	SpaceAfter=No|start_char=8381|end_char=8384
 2	,	,	PUNCT	,	_	1	punct	_	start_char=8384|end_char=8385
 3	Ms.	Ms.	PROPN	NNP	Number=Sing	16	nsubj	_	start_char=8386|end_char=8389
 4	Counts	Count	PROPN	NNPS	Number=Plur	3	flat	_	start_char=8390|end_char=8396
@@ -2015,14 +2014,14 @@
 16	forefront	forefront	NOUN	NN	Number=Sing	0	root	_	start_char=8457|end_char=8466
 17	of	of	ADP	IN	_	19	case	_	start_char=8467|end_char=8469
 18	comics	comic	NOUN	NN	Number=Sing	19	compound	_	start_char=8470|end_char=8476
-19	advocacy	advocacy	NOUN	NN	Number=Sing	16	nmod	_	start_char=8477|end_char=8485|SpaceAfter=No
+19	advocacy	advocacy	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No|start_char=8477|end_char=8485
 20	,	,	PUNCT	,	_	21	punct	_	start_char=8485|end_char=8486
 21	really	really	ADV	RB	_	26	advmod	_	start_char=8487|end_char=8493
 22	since	since	ADP	IN	_	26	case	_	start_char=8494|end_char=8499
 23	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	start_char=8500|end_char=8503
 24	early	early	ADJ	JJ	Degree=Pos	26	amod	_	start_char=8504|end_char=8509
-25	'	'	NOUN	NN	Number=Sing	26	compound	_	start_char=8510|end_char=8511|SpaceAfter=No
-26	80s	80s	NOUN	NNS	NumForm=Combi|NumType=Card|Number=Ptan	16	obl	_	start_char=8511|end_char=8514|SpaceAfter=No
+25	'	'	NOUN	NN	Number=Sing	26	compound	_	SpaceAfter=No|start_char=8510|end_char=8511
+26	80s	80s	NOUN	NNS	Number=Ptan|NumForm=Combi|NumType=Card	16	obl	_	SpaceAfter=No|start_char=8511|end_char=8514
 27	,	,	PUNCT	,	_	34	punct	_	start_char=8514|end_char=8515
 28	when	when	ADV	WRB	PronType=Int	34	advmod	_	start_char=8516|end_char=8520
 29	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	start_char=8521|end_char=8522
@@ -2057,8 +2056,8 @@
 58	by	by	ADP	IN	_	61	case	_	start_char=8705|end_char=8707
 59	about	about	ADV	RB	_	60	advmod	_	start_char=8708|end_char=8713
 60	30	30	NUM	CD	NumForm=Digit|NumType=Card	61	nummod	_	start_char=8714|end_char=8716
-61	percent	percent	NOUN	NN	Number=Sing	52	obl	_	start_char=8717|end_char=8724|SpaceAfter=No
-62	.	.	PUNCT	.	_	16	punct	_	start_char=8724|end_char=8725|SpacesAfter=\n\n
+61	percent	percent	NOUN	NN	Number=Sing	52	obl	_	SpaceAfter=No|start_char=8717|end_char=8724
+62	.	.	PUNCT	.	_	16	punct	_	SpacesAfter=\n\n|start_char=8724|end_char=8725
 
 # text = Inspired by this renewed interest from American educators, American cartoonists are now producing more explicitly educational content for the K-12 market than ever before.
 # sent_id = 88
@@ -2069,7 +2068,7 @@
 5	interest	interest	NOUN	NN	Number=Sing	1	obl:agent	_	start_char=8752|end_char=8760
 6	from	from	ADP	IN	_	8	case	_	start_char=8761|end_char=8765
 7	American	American	ADJ	JJ	Degree=Pos	8	amod	_	start_char=8766|end_char=8774
-8	educators	educator	NOUN	NNS	Number=Plur	5	nmod	_	start_char=8775|end_char=8784|SpaceAfter=No
+8	educators	educator	NOUN	NNS	Number=Plur	5	nmod	_	SpaceAfter=No|start_char=8775|end_char=8784
 9	,	,	PUNCT	,	_	1	punct	_	start_char=8784|end_char=8785
 10	American	American	ADJ	JJ	Degree=Pos	11	amod	_	start_char=8786|end_char=8794
 11	cartoonists	cartoonist	NOUN	NNS	Number=Plur	14	nsubj	_	start_char=8795|end_char=8806
@@ -2082,14 +2081,14 @@
 18	content	content	NOUN	NN	Number=Sing	14	obj	_	start_char=8853|end_char=8860
 19	for	for	ADP	IN	_	24	case	_	start_char=8861|end_char=8864
 20	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	start_char=8865|end_char=8868
-21	K	K	PROPN	NNP	Number=Sing	24	compound	_	start_char=8869|end_char=8870|SpaceAfter=No
-22	-	-	PUNCT	HYPH	_	23	punct	_	start_char=8870|end_char=8871|SpaceAfter=No
+21	K	K	PROPN	NNP	Number=Sing	24	compound	_	SpaceAfter=No|start_char=8869|end_char=8870
+22	-	-	PUNCT	HYPH	_	23	punct	_	SpaceAfter=No|start_char=8870|end_char=8871
 23	12	12	NUM	CD	NumForm=Digit|NumType=Card	21	nummod	_	start_char=8871|end_char=8873
 24	market	market	NOUN	NN	Number=Sing	18	nmod	_	start_char=8874|end_char=8880
 25	than	than	ADP	IN	_	27	case	_	start_char=8881|end_char=8885
 26	ever	ever	ADV	RB	PronType=Ind	27	advmod	_	start_char=8886|end_char=8890
-27	before	before	ADV	RB	_	14	obl	_	start_char=8891|end_char=8897|SpaceAfter=No
-28	.	.	PUNCT	.	_	14	punct	_	start_char=8897|end_char=8898|SpacesAfter=\n\n
+27	before	before	ADV	RB	_	14	obl	_	SpaceAfter=No|start_char=8891|end_char=8897
+28	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\n\n|start_char=8897|end_char=8898
 
 # text = A lot of this is directed at language arts, but more and more comics and graphic novels are starting to tackle math and science topics.
 # sent_id = 89
@@ -2101,7 +2100,7 @@
 6	directed	direct	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=8917|end_char=8925
 7	at	at	ADP	IN	_	9	case	_	start_char=8926|end_char=8928
 8	language	language	NOUN	NN	Number=Sing	9	compound	_	start_char=8929|end_char=8937
-9	arts	art	NOUN	NNS	Number=Plur	6	obl	_	start_char=8938|end_char=8942|SpaceAfter=No
+9	arts	art	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No|start_char=8938|end_char=8942
 10	,	,	PUNCT	,	_	20	punct	_	start_char=8942|end_char=8943
 11	but	but	CCONJ	CC	_	20	cc	_	start_char=8944|end_char=8947
 12	more	more	ADJ	JJR	Degree=Cmp	15	amod	_	start_char=8948|end_char=8952
@@ -2118,8 +2117,8 @@
 23	math	math	NOUN	NN	Number=Sing	26	compound	_	start_char=9011|end_char=9015
 24	and	and	CCONJ	CC	_	25	cc	_	start_char=9016|end_char=9019
 25	science	science	NOUN	NN	Number=Sing	23	conj	_	start_char=9020|end_char=9027
-26	topics	topic	NOUN	NNS	Number=Plur	22	obj	_	start_char=9028|end_char=9034|SpaceAfter=No
-27	.	.	PUNCT	.	_	6	punct	_	start_char=9034|end_char=9035|SpacesAfter=\n\n
+26	topics	topic	NOUN	NNS	Number=Plur	22	obj	_	SpaceAfter=No|start_char=9028|end_char=9034
+27	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=9034|end_char=9035
 
 # text = STEM comics graphics novels really are like this uncharted territory, ready to be explored.
 # sent_id = 90
@@ -2132,13 +2131,13 @@
 7	like	like	ADP	IN	_	10	case	_	start_char=9076|end_char=9080
 8	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	start_char=9081|end_char=9085
 9	uncharted	uncharted	ADJ	JJ	Degree=Pos	10	amod	_	start_char=9086|end_char=9095
-10	territory	territory	NOUN	NN	Number=Sing	0	root	_	start_char=9096|end_char=9105|SpaceAfter=No
+10	territory	territory	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=9096|end_char=9105
 11	,	,	PUNCT	,	_	12	punct	_	start_char=9105|end_char=9106
 12	ready	ready	ADJ	JJ	Degree=Pos	10	parataxis	_	start_char=9107|end_char=9112
 13	to	to	PART	TO	_	15	mark	_	start_char=9113|end_char=9115
 14	be	be	AUX	VB	VerbForm=Inf	15	aux:pass	_	start_char=9116|end_char=9118
-15	explored	explore	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	xcomp	_	start_char=9119|end_char=9127|SpaceAfter=No
-16	.	.	PUNCT	.	_	10	punct	_	start_char=9127|end_char=9128|SpacesAfter=\n\n
+15	explored	explore	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	xcomp	_	SpaceAfter=No|start_char=9119|end_char=9127
+16	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n|start_char=9127|end_char=9128
 
 # text = America is finally waking up to the fact that comic books do not cause juvenile delinquency.
 # sent_id = 91
@@ -2157,8 +2156,8 @@
 13	not	not	PART	RB	Polarity=Neg	14	advmod	_	start_char=9191|end_char=9194
 14	cause	cause	VERB	VB	VerbForm=Inf	8	acl	_	start_char=9195|end_char=9200
 15	juvenile	juvenile	ADJ	JJ	Degree=Pos	16	amod	_	start_char=9201|end_char=9209
-16	delinquency	delinquency	NOUN	NN	Number=Sing	14	obj	_	start_char=9210|end_char=9221|SpaceAfter=No
-17	.	.	PUNCT	.	_	4	punct	_	start_char=9221|end_char=9222|SpacesAfter=\n\n
+16	delinquency	delinquency	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No|start_char=9210|end_char=9221
+17	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=9221|end_char=9222
 
 # text = That they really do belong in every educator's toolkit.
 # sent_id = 92
@@ -2172,8 +2171,8 @@
 8-9	educator's	_	_	_	_	_	_	_	start_char=9260|end_char=9270
 8	educator	educator	NOUN	NN	Number=Sing	10	nmod:poss	_	start_char=9260|end_char=9268
 9	's	's	PART	POS	_	8	case	_	start_char=9268|end_char=9270
-10	toolkit	toolkit	NOUN	NN	Number=Sing	5	obl	_	start_char=9271|end_char=9278|SpaceAfter=No
-11	.	.	PUNCT	.	_	5	punct	_	start_char=9278|end_char=9279|SpacesAfter=\n\n
+10	toolkit	toolkit	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No|start_char=9271|end_char=9278
+11	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=9278|end_char=9279
 
 # text = There's no good reason to keep comic books and graphic novels out of K-12 education.
 # sent_id = 93
@@ -2192,17 +2191,17 @@
 12	novels	novel	NOUN	NNS	Number=Plur	9	conj	_	start_char=9336|end_char=9342
 13	out	out	ADP	IN	_	18	case	_	start_char=9343|end_char=9346
 14	of	of	ADP	IN	_	13	fixed	_	start_char=9347|end_char=9349
-15	K	thousand	NUM	CD	Abbr=Yes|NumForm=Word|NumType=Card	18	nummod	_	start_char=9350|end_char=9351|SpaceAfter=No
-16	-	-	PUNCT	HYPH	_	17	punct	_	start_char=9351|end_char=9352|SpaceAfter=No
+15	K	thousand	NUM	CD	Abbr=Yes|NumForm=Word|NumType=Card	18	nummod	_	SpaceAfter=No|start_char=9350|end_char=9351
+16	-	-	PUNCT	HYPH	_	17	punct	_	SpaceAfter=No|start_char=9351|end_char=9352
 17	12	12	NUM	CD	NumForm=Digit|NumType=Card	15	nummod	_	start_char=9352|end_char=9354
-18	education	education	NOUN	NN	Number=Sing	7	obl	_	start_char=9355|end_char=9364|SpaceAfter=No
-19	.	.	PUNCT	.	_	2	punct	_	start_char=9364|end_char=9365|SpacesAfter=\n\n
+18	education	education	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No|start_char=9355|end_char=9364
+19	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=9364|end_char=9365
 
 # text = They teach visually, they give our students that remote control.
 # sent_id = 94
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=9367|end_char=9371
 2	teach	teach	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9372|end_char=9377
-3	visually	visually	ADV	RB	_	2	advmod	_	start_char=9378|end_char=9386|SpaceAfter=No
+3	visually	visually	ADV	RB	_	2	advmod	_	SpaceAfter=No|start_char=9378|end_char=9386
 4	,	,	PUNCT	,	_	6	punct	_	start_char=9386|end_char=9387
 5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=9388|end_char=9392
 6	give	give	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=9393|end_char=9397
@@ -2210,8 +2209,8 @@
 8	students	student	NOUN	NNS	Number=Plur	6	iobj	_	start_char=9402|end_char=9410
 9	that	that	DET	DT	Number=Sing|PronType=Dem	11	det	_	start_char=9411|end_char=9415
 10	remote	remote	ADJ	JJ	Degree=Pos	11	amod	_	start_char=9416|end_char=9422
-11	control	control	NOUN	NN	Number=Sing	6	obj	_	start_char=9423|end_char=9430|SpaceAfter=No
-12	.	.	PUNCT	.	_	2	punct	_	start_char=9430|end_char=9431|SpacesAfter=\n\n
+11	control	control	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No|start_char=9423|end_char=9430
+12	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=9430|end_char=9431
 
 # text = The educational potential is there just waiting to be tapped by creative people like you.
 # sent_id = 95
@@ -2229,11 +2228,11 @@
 12	creative	creative	ADJ	JJ	Degree=Pos	13	amod	_	start_char=9497|end_char=9505
 13	people	person	NOUN	NNS	Number=Plur	10	obl:agent	_	start_char=9506|end_char=9512
 14	like	like	ADP	IN	_	15	case	_	start_char=9513|end_char=9517
-15	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	nmod	_	start_char=9518|end_char=9521|SpaceAfter=No
-16	.	.	PUNCT	.	_	5	punct	_	start_char=9521|end_char=9522|SpacesAfter=\n\n
+15	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	nmod	_	SpaceAfter=No|start_char=9518|end_char=9521
+16	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=9521|end_char=9522
 
 # text = Thank you.
 # sent_id = 96
 1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9524|end_char=9529
-2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	start_char=9530|end_char=9533|SpaceAfter=No
-3	.	.	PUNCT	.	_	1	punct	_	start_char=9533|end_char=9534|SpaceAfter=No
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	SpaceAfter=No|start_char=9530|end_char=9533
+3	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|start_char=9533|end_char=9534
