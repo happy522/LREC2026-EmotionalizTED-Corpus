@@ -1,10 +1,9 @@
 # conllu_stats: begin
-# conllu_tokens: 829
+# conllu_tokens: 830
 # conllu_sentences: 58
-# Average tokens per senteces: 14.293103448275861
-# sentece_pairs: 5
+# Average tokens per sentence: 14.310344827586206
+# sentence_pairs: 5
 # conllu_stats: end
-
 
 # text = Die nächste globale landwirtschaftliche Revolution
 # sent_id = 0
@@ -12,7 +11,7 @@
 2	nächste	nah	ADJ	ADJA	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	5	amod	_	start_char=4|end_char=11
 3	globale	global	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=12|end_char=19
 4	landwirtschaftliche	landwirtschaftlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=20|end_char=39
-5	Revolution	Revolution	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=40|end_char=50|SpacesAfter=\n\n
+5	Revolution	Revolution	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n\n|start_char=40|end_char=50
 
 # text = 2019 erhielt die Menschheit eine Warnung:
 # sent_id = 1
@@ -20,9 +19,9 @@
 2	erhielt	erhalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=57|end_char=64
 3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=65|end_char=68
 4	Menschheit	Menschheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=69|end_char=79
-5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=80|end_char=84
-6	Warnung	Warnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=85|end_char=92|SpaceAfter=No
-7	:	:	PUNCT	$.	_	2	punct	_	start_char=92|end_char=93|SpacesAfter=\n\n
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=80|end_char=84
+6	Warnung	Warnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|start_char=85|end_char=92
+7	:	:	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=92|end_char=93
 
 # text = 30 führende Forscher veröffentlichten die Ergebnisse einer großangelegten 3-jährigen globalen Landwirtschaftsstudie und zeigten, dass Fleischerzeugung unseren Planeten zerstört und die globale Gesundheit gefährdet.
 # sent_id = 2
@@ -32,14 +31,14 @@
 4	veröffentlichten	veröffentlichen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=116|end_char=132
 5	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=133|end_char=136
 6	Ergebnisse	Ergebnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	start_char=137|end_char=147
-7	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=148|end_char=153
+7	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	12	det	_	start_char=148|end_char=153
 8	großangelegten	großangelegt	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=154|end_char=168
-9	3-	3-	NUM	CARD	NumType=Card	10	nummod	_	start_char=169|end_char=171|SpaceAfter=No
+9	3-	3-	NUM	CARD	NumType=Card	10	nummod	_	SpaceAfter=No|start_char=169|end_char=171
 10	jährigen	jährigen	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=171|end_char=179
 11	globalen	global	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=180|end_char=188
 12	Landwirtschaftsstudie	Landwirtschaftsstudie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=189|end_char=210
 13	und	und	CCONJ	KON	_	14	cc	_	start_char=211|end_char=214
-14	zeigten	zeigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	start_char=215|end_char=222|SpaceAfter=No
+14	zeigten	zeigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No|start_char=215|end_char=222
 15	,	,	PUNCT	$,	_	20	punct	_	start_char=222|end_char=223
 16	dass	dass	SCONJ	KOUS	_	20	mark	_	start_char=224|end_char=228
 17	Fleischerzeugung	Fleischerzeugung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	start_char=229|end_char=245
@@ -50,43 +49,43 @@
 22	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	start_char=276|end_char=279
 23	globale	global	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=280|end_char=287
 24	Gesundheit	Gesundheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	start_char=288|end_char=298
-25	gefährdet	gefährden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	start_char=299|end_char=308|SpaceAfter=No
-26	.	.	PUNCT	$.	_	4	punct	_	start_char=308|end_char=309|SpacesAfter=\n\n
+25	gefährdet	gefährden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	SpaceAfter=No|start_char=299|end_char=308
+26	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n|start_char=308|end_char=309
 
 # text = Einer der Autoren erklärte, dass "die Menschheit eine Gefahr für die Stabilität des Planeten darstelle. [Dies bedarf] nichts weniger als eine neue globale landwirtschaftliche Revolution."
 # sent_id = 3
-1	Einer	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	nsubj	_	start_char=311|end_char=316
+1	Einer	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	4	nsubj	_	start_char=311|end_char=316
 2	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=317|end_char=320
 3	Autoren	Autor	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	start_char=321|end_char=328
-4	erklärte	erklären	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=329|end_char=337|SpaceAfter=No
+4	erklärte	erklären	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=329|end_char=337
 5	,	,	PUNCT	$,	_	17	punct	_	start_char=337|end_char=338
 6	dass	dass	SCONJ	KOUS	_	17	mark	_	start_char=339|end_char=343
-7	"	"	PUNCT	$(	_	17	punct	_	start_char=344|end_char=345|SpaceAfter=No
+7	"	"	PUNCT	$(	_	17	punct	_	SpaceAfter=No|start_char=344|end_char=345
 8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=345|end_char=348
 9	Menschheit	Menschheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	start_char=349|end_char=359
-10	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=360|end_char=364
+10	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	11	det	_	start_char=360|end_char=364
 11	Gefahr	Gefahr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	start_char=365|end_char=371
 12	für	für	ADP	APPR	_	14	case	_	start_char=372|end_char=375
 13	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=376|end_char=379
 14	Stabilität	Stabilität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	start_char=380|end_char=390
 15	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=391|end_char=394
 16	Planeten	Planet	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=395|end_char=403
-17	darstelle	darstellen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	start_char=404|end_char=413|SpaceAfter=No
+17	darstelle	darstellen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	SpaceAfter=No|start_char=404|end_char=413
 18	.	.	PUNCT	$.	_	21	punct	_	start_char=413|end_char=414
-19	[	[	PUNCT	$(	_	21	punct	_	start_char=415|end_char=416|SpaceAfter=No
+19	[	[	PUNCT	$(	_	21	punct	_	SpaceAfter=No|start_char=415|end_char=416
 20	Dies	dieser	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	21	nsubj	_	start_char=416|end_char=420
-21	bedarf	bedarf	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=421|end_char=427|SpaceAfter=No
+21	bedarf	bedarf	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No|start_char=421|end_char=427
 22	]	]	PUNCT	$(	_	21	punct	_	start_char=427|end_char=428
 23	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	21	obj	_	start_char=429|end_char=435
 24	weniger	wenig	DET	PIS	PronType=Ind	21	advmod	_	start_char=436|end_char=443
 25	als	als	ADP	KOKOM	_	30	case	_	start_char=444|end_char=447
-26	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	30	det	_	start_char=448|end_char=452
+26	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	30	det	_	start_char=448|end_char=452
 27	neue	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	start_char=453|end_char=457
 28	globale	global	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	start_char=458|end_char=465
 29	landwirtschaftliche	landwirtschaftlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	start_char=466|end_char=485
-30	Revolution	Revolution	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	obl	_	start_char=486|end_char=496|SpaceAfter=No
-31	.	.	PUNCT	$.	_	21	punct	_	start_char=496|end_char=497|SpaceAfter=No
-32	"	"	PUNCT	$(	_	21	punct	_	start_char=497|end_char=498|SpacesAfter=\n\n
+30	Revolution	Revolution	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No|start_char=486|end_char=496
+31	.	.	PUNCT	$.	_	21	punct	_	SpaceAfter=No|start_char=496|end_char=497
+32	"	"	PUNCT	$(	_	21	punct	_	SpacesAfter=\n\n|start_char=497|end_char=498
 
 # text = Ich habe mich die letzten 2 Jahrzehnte für eine Abwendung von industrieller Fleischerzeugung eingesetzt. Ich wollte glauben, dass dieser Weckruf etwas bewirken würde.
 # sent_id = 4
@@ -98,24 +97,24 @@
 6	2	2	NUM	CARD	NumType=Card	7	nummod	_	start_char=526|end_char=527
 7	Jahrzehnte	Jahrzehnt	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	start_char=528|end_char=538
 8	für	für	ADP	APPR	_	10	case	_	start_char=539|end_char=542
-9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=543|end_char=547
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=543|end_char=547
 10	Abwendung	Abwendung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	start_char=548|end_char=557
 11	von	von	ADP	APPR	_	13	case	_	start_char=558|end_char=561
 12	industrieller	industriell	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=562|end_char=575
 13	Fleischerzeugung	Fleischerzeugung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	start_char=576|end_char=592
-14	eingesetzt	einsetzen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=593|end_char=603|SpaceAfter=No
+14	eingesetzt	einsetzen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=593|end_char=603
 15	.	.	PUNCT	$.	_	18	punct	_	start_char=603|end_char=604
 16	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	start_char=605|end_char=608
 17	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	18	aux	_	start_char=609|end_char=615
-18	glauben	glauben	VERB	VVINF	VerbForm=Inf	14	parataxis	_	start_char=616|end_char=623|SpaceAfter=No
+18	glauben	glauben	VERB	VVINF	VerbForm=Inf	14	parataxis	_	SpaceAfter=No|start_char=616|end_char=623
 19	,	,	PUNCT	$,	_	24	punct	_	start_char=623|end_char=624
 20	dass	dass	SCONJ	KOUS	_	24	mark	_	start_char=625|end_char=629
 21	dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	22	det	_	start_char=630|end_char=636
 22	Weckruf	Weckruf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	start_char=637|end_char=644
 23	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	24	obj	_	start_char=645|end_char=650
 24	bewirken	bewirken	VERB	VVINF	VerbForm=Inf	18	ccomp	_	start_char=651|end_char=659
-25	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux	_	start_char=660|end_char=665|SpaceAfter=No
-26	.	.	PUNCT	$.	_	14	punct	_	start_char=665|end_char=666|SpacesAfter=\n\n
+25	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux	_	SpaceAfter=No|start_char=660|end_char=665
+26	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n\n|start_char=665|end_char=666
 
 # text = Allerdings habe ich sowas seit Jahrzehnten immer wieder gesehen.
 # sent_id = 5
@@ -127,8 +126,8 @@
 6	Jahrzehnten	Jahrzehnt	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	9	obl	_	start_char=699|end_char=710
 7	immer	immer	ADV	ADV	_	8	advmod	_	start_char=711|end_char=716
 8	wieder	wieder	ADV	ADV	_	9	advmod	_	start_char=717|end_char=723
-9	gesehen	sehen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=724|end_char=731|SpaceAfter=No
-10	.	.	PUNCT	$.	_	9	punct	_	start_char=731|end_char=732|SpacesAfter=\n\n
+9	gesehen	sehen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=724|end_char=731
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n|start_char=731|end_char=732
 
 # text = Hier 2018 aus dem Magazin "Nature". [Reduktion des Fleischkonsums essentiell] 2017 aus dem "Bioscience Journal". [16.000 Wissenschaftler warnen] 2016 von der National Academy of Sciences. [Die tiefgreifende Folgen ...]
 # sent_id = 6
@@ -137,28 +136,28 @@
 3	aus	aus	ADP	APPR	_	5	case	_	start_char=744|end_char=747
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=748|end_char=751
 5	Magazin	Magazin	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	0	root	_	start_char=752|end_char=759
-6	"	"	PUNCT	$(	_	7	punct	_	start_char=760|end_char=761|SpaceAfter=No
-7	Nature	Nature	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	5	appos	_	start_char=761|end_char=767|SpaceAfter=No
-8	"	"	PUNCT	$(	_	7	punct	_	start_char=767|end_char=768|SpaceAfter=No
+6	"	"	PUNCT	$(	_	7	punct	_	SpaceAfter=No|start_char=760|end_char=761
+7	Nature	Nature	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No|start_char=761|end_char=767
+8	"	"	PUNCT	$(	_	7	punct	_	SpaceAfter=No|start_char=767|end_char=768
 9	.	.	PUNCT	$.	_	11	punct	_	start_char=768|end_char=769
-10	[	[	PUNCT	$(	_	11	punct	_	start_char=770|end_char=771|SpaceAfter=No
+10	[	[	PUNCT	$(	_	11	punct	_	SpaceAfter=No|start_char=770|end_char=771
 11	Reduktion	Reduktion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	start_char=771|end_char=780
 12	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=781|end_char=784
 13	Fleischkonsums	Fleischkonsum	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=785|end_char=799
-14	essentiell	essentiell	ADJ	ADJD	Degree=Pos	11	amod	_	start_char=800|end_char=810|SpaceAfter=No
+14	essentiell	essentiell	ADJ	ADJD	Degree=Pos	11	amod	_	SpaceAfter=No|start_char=800|end_char=810
 15	]	]	PUNCT	$(	_	11	punct	_	start_char=810|end_char=811
 16	2017	wichtigtuerisch	NUM	CARD	NumType=Card	11	nmod	_	start_char=812|end_char=816
 17	aus	aus	ADP	APPR	_	20	case	_	start_char=817|end_char=820
 18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	start_char=821|end_char=824
-19	"	"	PUNCT	$(	_	20	punct	_	start_char=825|end_char=826|SpaceAfter=No
-20	Bioscience	Bioscience	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	start_char=826|end_char=836
-21	Journal	Journal	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	20	flat	_	start_char=837|end_char=844|SpaceAfter=No
-22	"	"	PUNCT	$(	_	20	punct	_	start_char=844|end_char=845|SpaceAfter=No
+19	"	"	PUNCT	$(	_	20	punct	_	SpaceAfter=No|start_char=825|end_char=826
+20	Bioscience	Bioscience	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	27	obl	_	start_char=826|end_char=836
+21	Journal	Journal	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	20	flat	_	SpaceAfter=No|start_char=837|end_char=844
+22	"	"	PUNCT	$(	_	20	punct	_	SpaceAfter=No|start_char=844|end_char=845
 23	.	.	PUNCT	$.	_	27	punct	_	start_char=845|end_char=846
-24	[	[	PUNCT	$(	_	27	punct	_	start_char=847|end_char=848|SpaceAfter=No
+24	[	[	PUNCT	$(	_	27	punct	_	SpaceAfter=No|start_char=847|end_char=848
 25	16.000	16.000	NUM	CARD	NumType=Card	26	nummod	_	start_char=848|end_char=854
 26	Wissenschaftler	Wissenschaftler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	start_char=855|end_char=870
-27	warnen	warnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	parataxis	_	start_char=871|end_char=877|SpaceAfter=No
+27	warnen	warnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	SpaceAfter=No|start_char=871|end_char=877
 28	]	]	PUNCT	$(	_	27	punct	_	start_char=877|end_char=878
 29	2016	2016	NUM	CARD	NumType=Card	27	obl	_	start_char=879|end_char=883
 30	von	von	ADP	APPR	_	32	case	_	start_char=884|end_char=887
@@ -166,14 +165,15 @@
 32	National	National	PROPN	NE	Foreign=Yes	27	obl	_	start_char=892|end_char=900
 33	Academy	Academy	PROPN	NE	Foreign=Yes	32	flat	_	start_char=901|end_char=908
 34	of	of	PROPN	NE	Foreign=Yes	32	flat	_	start_char=909|end_char=911
-35	Sciences	Sciences	PROPN	NE	Foreign=Yes	32	flat	_	start_char=912|end_char=920|SpaceAfter=No
+35	Sciences	Sciences	PROPN	NE	Foreign=Yes	32	flat	_	SpaceAfter=No|start_char=912|end_char=920
 36	.	.	PUNCT	$.	_	40	punct	_	start_char=920|end_char=921
-37	[	[	PUNCT	$(	_	40	punct	_	start_char=922|end_char=923|SpaceAfter=No
+37	[	[	PUNCT	$(	_	40	punct	_	SpaceAfter=No|start_char=922|end_char=923
 38	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	40	det	_	start_char=923|end_char=926
 39	tiefgreifende	tiefgreifend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	40	amod	_	start_char=927|end_char=940
 40	Folgen	Folge	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	32	appos	_	start_char=941|end_char=947
-41	...	...	PUNCT	$(	_	40	punct	_	start_char=948|end_char=951|SpaceAfter=No
-42	]	]	PUNCT	$(	_	40	punct	_	start_char=951|end_char=952|SpacesAfter=\n\n
+41	.	.	PUNCT	$.	_	40	punct	_	SpaceAfter=No|start_char=948|end_char=949
+42	..	..	PUNCT	$(	_	40	punct	_	SpaceAfter=No|start_char=949|end_char=951
+43	]	]	PUNCT	$(	_	40	punct	_	SpacesAfter=\n\n|start_char=951|end_char=952
 
 # text = Der Fokus dieser Studien ist normalerweise der Klimawandel.
 # sent_id = 7
@@ -184,20 +184,20 @@
 5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=979|end_char=982
 6	normalerweise	normalerweise	ADV	ADV	_	8	advmod	_	start_char=983|end_char=996
 7	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=997|end_char=1000
-8	Klimawandel	Klimawandel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=1001|end_char=1012|SpaceAfter=No
-9	.	.	PUNCT	$.	_	8	punct	_	start_char=1012|end_char=1013|SpacesAfter=\n\n
+8	Klimawandel	Klimawandel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=1001|end_char=1012
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n|start_char=1012|end_char=1013
 
 # text = Aber Antibiotikaresistenz stellt eine genauso große Gefahr dar.
 # sent_id = 8
 1	Aber	aber	CCONJ	KON	_	3	cc	_	start_char=1015|end_char=1019
 2	Antibiotikaresistenz	Antibiotikaresistenz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=1020|end_char=1040
 3	stellt	stellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1041|end_char=1047
-4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=1048|end_char=1052
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=1048|end_char=1052
 5	genauso	genauso	ADV	ADV	_	6	advmod	_	start_char=1053|end_char=1060
 6	große	groß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=1061|end_char=1066
 7	Gefahr	Gefahr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=1067|end_char=1073
-8	dar	dar	ADV	PTKVZ	_	3	compound:prt	_	start_char=1074|end_char=1077|SpaceAfter=No
-9	.	.	PUNCT	$.	_	3	punct	_	start_char=1077|end_char=1078|SpacesAfter=\n\n
+8	dar	dar	ADV	PTKVZ	_	3	compound:prt	_	SpaceAfter=No|start_char=1074|end_char=1077
+9	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n|start_char=1077|end_char=1078
 
 # text = Wir verfüttern gewaltige Mengen von Antibiotika an Nutztiere.
 # sent_id = 9
@@ -208,8 +208,8 @@
 5	von	von	ADP	APPR	_	6	case	_	start_char=1112|end_char=1115
 6	Antibiotika	Antibiotikum	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	nmod	_	start_char=1116|end_char=1127
 7	an	an	ADP	APPR	_	8	case	_	start_char=1128|end_char=1130
-8	Nutztiere	Nutztier	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	6	nmod	_	start_char=1131|end_char=1140|SpaceAfter=No
-9	.	.	PUNCT	$.	_	2	punct	_	start_char=1140|end_char=1141|SpacesAfter=\n\n
+8	Nutztiere	Nutztier	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No|start_char=1131|end_char=1140
+9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=1140|end_char=1141
 
 # text = Diese Antibiotika mutieren dann zu Supererregern, die die Wirksamkeit von Antibiotika noch zu unseren Lebenszeiten gefährden.
 # sent_id = 10
@@ -218,7 +218,7 @@
 3	mutieren	mutieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1161|end_char=1169
 4	dann	dann	ADV	ADV	_	3	advmod	_	start_char=1170|end_char=1174
 5	zu	zu	ADP	APPR	_	6	case	_	start_char=1175|end_char=1177
-6	Supererregern	Supererreger	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	start_char=1178|end_char=1191|SpaceAfter=No
+6	Supererregern	Supererreger	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No|start_char=1178|end_char=1191
 7	,	,	PUNCT	$,	_	17	punct	_	start_char=1191|end_char=1192
 8	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	17	nsubj	_	start_char=1193|end_char=1196
 9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=1197|end_char=1200
@@ -229,27 +229,27 @@
 14	zu	zu	ADP	APPR	_	16	case	_	start_char=1234|end_char=1236
 15	unseren	unser	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	16	det:poss	_	start_char=1237|end_char=1244
 16	Lebenszeiten	Lebenszeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	17	obl	_	start_char=1245|end_char=1257
-17	gefährden	gefährden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	start_char=1258|end_char=1267|SpaceAfter=No
-18	.	.	PUNCT	$.	_	3	punct	_	start_char=1267|end_char=1268|SpacesAfter=\n\n
+17	gefährden	gefährden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	SpaceAfter=No|start_char=1258|end_char=1267
+18	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n|start_char=1267|end_char=1268
 
 # text = Schock gefällig?
 # sent_id = 11
 1	Schock	Schock	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	dep	_	start_char=1270|end_char=1276
-2	gefällig	gefällig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1277|end_char=1285|SpaceAfter=No
-3	?	?	PUNCT	$.	_	2	punct	_	start_char=1285|end_char=1286|SpacesAfter=\n\n
+2	gefällig	gefällig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1277|end_char=1285
+3	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=1285|end_char=1286
 
 # text = Googlen Sie: "Das Ende wirksamer Antibiotika."
 # sent_id = 12
 1	Googlen	Googlen	PROPN	NE	Case=Nom|Number=Sing	0	root	_	start_char=1288|end_char=1295
-2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=1296|end_char=1299|SpaceAfter=No
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	SpaceAfter=No|start_char=1296|end_char=1299
 3	:	:	PUNCT	$.	_	6	punct	_	start_char=1299|end_char=1300
-4	"	"	PUNCT	$(	_	6	punct	_	start_char=1301|end_char=1302|SpaceAfter=No
+4	"	"	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=1301|end_char=1302
 5	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=1302|end_char=1305
 6	Ende	Ende	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	appos	_	start_char=1306|end_char=1310
 7	wirksamer	wirksam	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=1311|end_char=1320
-8	Antibiotika	Antibiotikum	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	start_char=1321|end_char=1332|SpaceAfter=No
-9	.	.	PUNCT	$.	_	6	punct	_	start_char=1332|end_char=1333|SpaceAfter=No
-10	"	"	PUNCT	$(	_	6	punct	_	start_char=1333|end_char=1334|SpacesAfter=\n\n
+8	Antibiotika	Antibiotikum	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No|start_char=1321|end_char=1332
+9	.	.	PUNCT	$.	_	6	punct	_	SpaceAfter=No|start_char=1332|end_char=1333
+10	"	"	PUNCT	$(	_	6	punct	_	SpacesAfter=\n\n|start_char=1333|end_char=1334
 
 # text = Ich möchte etwas klar stellen:
 # sent_id = 13
@@ -257,8 +257,8 @@
 2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	aux	_	start_char=1340|end_char=1346
 3	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	5	obj	_	start_char=1347|end_char=1352
 4	klar	klar	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=1353|end_char=1357
-5	stellen	stellen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1358|end_char=1365|SpaceAfter=No
-6	:	:	PUNCT	$.	_	5	punct	_	start_char=1365|end_char=1366|SpacesAfter=\n\n
+5	stellen	stellen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1358|end_char=1365
+6	:	:	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n|start_char=1365|end_char=1366
 
 # text = Ich will niemandem vorschreiben was er essen soll.
 # sent_id = 14
@@ -269,15 +269,15 @@
 5	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	7	obj	_	start_char=1400|end_char=1403
 6	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=1404|end_char=1406
 7	essen	essen	VERB	VVINF	VerbForm=Inf	4	ccomp	_	start_char=1407|end_char=1412
-8	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=1413|end_char=1417|SpaceAfter=No
-9	.	.	PUNCT	$.	_	4	punct	_	start_char=1417|end_char=1418|SpacesAfter=\n\n
+8	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No|start_char=1413|end_char=1417
+9	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n|start_char=1417|end_char=1418
 
 # text = Individueller Einsatz ist großartig, aber Antibiotikaresistenzen und Klimawandel -- dafür bedarf es mehr.
 # sent_id = 15
 1	Individueller	Individueller	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=1420|end_char=1433
 2	Einsatz	Einsatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=1434|end_char=1441
 3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1442|end_char=1445
-4	großartig	großartig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1446|end_char=1455|SpaceAfter=No
+4	großartig	großartig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1446|end_char=1455
 5	,	,	PUNCT	$,	_	12	punct	_	start_char=1455|end_char=1456
 6	aber	aber	CCONJ	KON	_	12	cc	_	start_char=1457|end_char=1461
 7	Antibiotikaresistenzen	Antibiotikaresistenz	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	conj	_	start_char=1462|end_char=1484
@@ -287,28 +287,28 @@
 11	dafür	dafür	ADV	PAV	PronType=Dem	12	advmod	_	start_char=1504|end_char=1509
 12	bedarf	bedarf	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=1510|end_char=1516
 13	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=1517|end_char=1519
-14	mehr	mehr	ADV	ADV	_	12	advmod	_	start_char=1520|end_char=1524|SpaceAfter=No
-15	.	.	PUNCT	$.	_	4	punct	_	start_char=1524|end_char=1525|SpacesAfter=\n\n
+14	mehr	mehr	ADV	ADV	_	12	advmod	_	SpaceAfter=No|start_char=1520|end_char=1524
+15	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n|start_char=1524|end_char=1525
 
 # text = Nebenbei: Die Welt zu überzeugen, weniger Fleisch zu essen, hat bisher nie funktioniert.
 # sent_id = 16
-1	Nebenbei	nebenbei	ADV	ADV	_	16	advmod	_	start_char=1527|end_char=1535|SpaceAfter=No
+1	Nebenbei	nebenbei	ADV	ADV	_	16	advmod	_	SpaceAfter=No|start_char=1527|end_char=1535
 2	:	:	PUNCT	$.	_	1	punct	_	start_char=1535|end_char=1536
 3	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=1537|end_char=1540
 4	Welt	Welt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	start_char=1541|end_char=1545
 5	zu	zu	PART	PTKZU	_	6	mark	_	start_char=1546|end_char=1548
-6	überzeugen	überzeugen	VERB	VVINF	VerbForm=Inf	16	advcl	_	start_char=1549|end_char=1559|SpaceAfter=No
+6	überzeugen	überzeugen	VERB	VVINF	VerbForm=Inf	16	advcl	_	SpaceAfter=No|start_char=1549|end_char=1559
 7	,	,	PUNCT	$,	_	11	punct	_	start_char=1559|end_char=1560
 8	weniger	wenig	DET	PIAT	PronType=Ind	9	det	_	start_char=1561|end_char=1568
 9	Fleisch	Fleisch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=1569|end_char=1576
 10	zu	zu	PART	PTKZU	_	11	mark	_	start_char=1577|end_char=1579
-11	essen	essen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	start_char=1580|end_char=1585|SpaceAfter=No
+11	essen	essen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	SpaceAfter=No|start_char=1580|end_char=1585
 12	,	,	PUNCT	$,	_	6	punct	_	start_char=1585|end_char=1586
 13	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=1587|end_char=1590
 14	bisher	bisher	ADV	ADV	_	16	advmod	_	start_char=1591|end_char=1597
 15	nie	nie	ADV	ADV	_	16	advmod	_	start_char=1598|end_char=1601
-16	funktioniert	funktionieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1602|end_char=1614|SpaceAfter=No
-17	.	.	PUNCT	$.	_	16	punct	_	start_char=1614|end_char=1615|SpacesAfter=\n\n
+16	funktioniert	funktionieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=1602|end_char=1614
+17	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n\n|start_char=1614|end_char=1615
 
 # text = Seit 50 Jahren flehen Umweltschützer, Gesundheitsexperten und Tierschützer die Öffentlichkeit an, weniger Fleisch zu essen.
 # sent_id = 17
@@ -316,20 +316,20 @@
 2	50	50	NUM	CARD	NumType=Card	3	nummod	_	start_char=1622|end_char=1624
 3	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	4	obl	_	start_char=1625|end_char=1631
 4	flehen	flehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1632|end_char=1638
-5	Umweltschützer	Umweltschützer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=1639|end_char=1653|SpaceAfter=No
+5	Umweltschützer	Umweltschützer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No|start_char=1639|end_char=1653
 6	,	,	PUNCT	$,	_	7	punct	_	start_char=1653|end_char=1654
 7	Gesundheitsexperten	Gesundheitsexperte	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	conj	_	start_char=1655|end_char=1674
 8	und	und	CCONJ	KON	_	9	cc	_	start_char=1675|end_char=1678
 9	Tierschützer	Tierschützer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	conj	_	start_char=1679|end_char=1691
 10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=1692|end_char=1695
 11	Öffentlichkeit	Öffentlichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=1696|end_char=1710
-12	an	an	ADP	PTKVZ	_	4	compound:prt	_	start_char=1711|end_char=1713|SpaceAfter=No
+12	an	an	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No|start_char=1711|end_char=1713
 13	,	,	PUNCT	$,	_	17	punct	_	start_char=1713|end_char=1714
 14	weniger	wenig	DET	PIAT	PronType=Ind	15	det	_	start_char=1715|end_char=1722
 15	Fleisch	Fleisch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	start_char=1723|end_char=1730
 16	zu	zu	PART	PTKZU	_	17	mark	_	start_char=1731|end_char=1733
-17	essen	essen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	start_char=1734|end_char=1739|SpaceAfter=No
-18	.	.	PUNCT	$.	_	4	punct	_	start_char=1739|end_char=1740|SpacesAfter=\n\n
+17	essen	essen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No|start_char=1734|end_char=1739
+18	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n|start_char=1739|end_char=1740
 
 # text = Trotzdem ist der Fleischverbrauch pro Kopf so hoch wie noch nie seit Beginn der Aufzeichnung.
 # sent_id = 18
@@ -347,8 +347,8 @@
 12	seit	seit	ADP	APPR	_	13	case	_	start_char=1806|end_char=1810
 13	Beginn	Beginn	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	start_char=1811|end_char=1817
 14	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=1818|end_char=1821
-15	Aufzeichnung	Aufzeichnung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=1822|end_char=1834|SpaceAfter=No
-16	.	.	PUNCT	$.	_	8	punct	_	start_char=1834|end_char=1835|SpacesAfter=\n\n
+15	Aufzeichnung	Aufzeichnung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No|start_char=1822|end_char=1834
+16	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n|start_char=1834|end_char=1835
 
 # text = Im Durchschnitt aß ein Nordamerikaner letztes Jahr mehr als 200 Pfund Fleisch.
 # sent_id = 19
@@ -357,7 +357,7 @@
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Durchschnitt	Durchschnitt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	start_char=1840|end_char=1852
 4	aß	essen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1853|end_char=1855
-5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=1856|end_char=1859
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=1856|end_char=1859
 6	Nordamerikaner	Nordamerikaner	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=1860|end_char=1874
 7	letztes	letzt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=1875|end_char=1882
 8	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	start_char=1883|end_char=1887
@@ -365,8 +365,8 @@
 10	als	als	ADP	KOKOM	_	12	case	_	start_char=1893|end_char=1896
 11	200	200	NUM	CARD	NumType=Card	12	nummod	_	start_char=1897|end_char=1900
 12	Pfund	Pfund	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	nmod	_	start_char=1901|end_char=1906
-13	Fleisch	Fleisch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	start_char=1907|end_char=1914|SpaceAfter=No
-14	.	.	PUNCT	$.	_	4	punct	_	start_char=1914|end_char=1915|SpacesAfter=\n\n
+13	Fleisch	Fleisch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No|start_char=1907|end_char=1914
+14	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n|start_char=1914|end_char=1915
 
 # text = Und ich habe keins gegessen.
 # sent_id = 20
@@ -374,13 +374,13 @@
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=1921|end_char=1924
 3	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=1925|end_char=1929
 4	keins	kein	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	5	obj	_	start_char=1930|end_char=1935
-5	gegessen	essen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1936|end_char=1944|SpaceAfter=No
-6	.	.	PUNCT	$.	_	5	punct	_	start_char=1944|end_char=1945|SpacesAfter=\n\n
+5	gegessen	essen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=1936|end_char=1944
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n|start_char=1944|end_char=1945
 
 # text = Was bedeutet, dass irgendjemand 400 Pfund Fleisch gegessen hat.
 # sent_id = 21
 1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	2	nsubj	_	start_char=1947|end_char=1950
-2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1951|end_char=1959|SpaceAfter=No
+2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=1951|end_char=1959
 3	,	,	PUNCT	$,	_	9	punct	_	start_char=1959|end_char=1960
 4	dass	dass	SCONJ	KOUS	_	9	mark	_	start_char=1961|end_char=1965
 5	irgendjemand	irgendjemand	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	start_char=1966|end_char=1978
@@ -388,8 +388,8 @@
 7	Pfund	Pfund	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	start_char=1983|end_char=1988
 8	Fleisch	Fleisch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=1989|end_char=1996
 9	gegessen	essen	VERB	VVPP	VerbForm=Part	2	ccomp	_	start_char=1997|end_char=2005
-10	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=2006|end_char=2009|SpaceAfter=No
-11	.	.	PUNCT	$.	_	2	punct	_	start_char=2009|end_char=2010|SpacesAfter=\n\n
+10	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No|start_char=2006|end_char=2009
+11	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=2009|end_char=2010
 
 # text = Mit den aktuellen Steigerungsraten müssen wir bis 2050 70-100 % mehr Fleisch produzieren.
 # sent_id = 22
@@ -405,18 +405,18 @@
 10	%	%	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	obl	_	start_char=2074|end_char=2075
 11	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	12	det	_	start_char=2076|end_char=2080
 12	Fleisch	Fleisch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	start_char=2081|end_char=2088
-13	produzieren	produzieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2089|end_char=2100|SpaceAfter=No
-14	.	.	PUNCT	$.	_	13	punct	_	start_char=2100|end_char=2101|SpacesAfter=\n\n
+13	produzieren	produzieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2089|end_char=2100
+14	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n\n|start_char=2100|end_char=2101
 
 # text = Dafür brauchen wir eine weltweite Lösung.
 # sent_id = 23
 1	Dafür	dafür	ADV	PAV	PronType=Dem	2	advmod	_	start_char=2103|end_char=2108
 2	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2109|end_char=2117
 3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=2118|end_char=2121
-4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	6	det	_	start_char=2122|end_char=2126
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=2122|end_char=2126
 5	weltweite	weltweit	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=2127|end_char=2136
-6	Lösung	Lösung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=2137|end_char=2143|SpaceAfter=No
-7	.	.	PUNCT	$.	_	2	punct	_	start_char=2143|end_char=2144|SpacesAfter=\n\n
+6	Lösung	Lösung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|start_char=2137|end_char=2143
+7	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=2143|end_char=2144
 
 # text = Wir müssen das Fleisch produzieren, das die Menschen so lieben, allerdings auf eine ganz neue Art.
 # sent_id = 24
@@ -424,42 +424,42 @@
 2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=2150|end_char=2156
 3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=2157|end_char=2160
 4	Fleisch	Fleisch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=2161|end_char=2168
-5	produzieren	produzieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2169|end_char=2180|SpaceAfter=No
+5	produzieren	produzieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2169|end_char=2180
 6	,	,	PUNCT	$,	_	11	punct	_	start_char=2180|end_char=2181
 7	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	11	nsubj	_	start_char=2182|end_char=2185
 8	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=2186|end_char=2189
 9	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	start_char=2190|end_char=2198
 10	so	so	ADV	ADV	_	11	advmod	_	start_char=2199|end_char=2201
-11	lieben	lieben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=2202|end_char=2208|SpaceAfter=No
+11	lieben	lieben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	SpaceAfter=No|start_char=2202|end_char=2208
 12	,	,	PUNCT	$,	_	18	punct	_	start_char=2208|end_char=2209
 13	allerdings	allerdings	ADV	ADV	_	18	advmod	_	start_char=2210|end_char=2220
 14	auf	auf	ADP	APPR	_	18	case	_	start_char=2221|end_char=2224
-15	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	18	det	_	start_char=2225|end_char=2229
+15	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	18	det	_	start_char=2225|end_char=2229
 16	ganz	ganz	ADV	ADV	_	17	advmod	_	start_char=2230|end_char=2234
 17	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=2235|end_char=2239
-18	Art	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	start_char=2240|end_char=2243|SpaceAfter=No
-19	.	.	PUNCT	$.	_	5	punct	_	start_char=2243|end_char=2244|SpacesAfter=\n\n
+18	Art	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|start_char=2240|end_char=2243
+19	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n|start_char=2243|end_char=2244
 
 # text = Ich habe ein paar Ideen.
 # sent_id = 25
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=2246|end_char=2249
 2	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2250|end_char=2254
-3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=2255|end_char=2258
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=2255|end_char=2258
 4	paar	paar	ADJ	PIAT	Degree=Pos	5	nmod	_	start_char=2259|end_char=2263
-5	Ideen	Idee	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=2264|end_char=2269|SpaceAfter=No
-6	.	.	PUNCT	$.	_	2	punct	_	start_char=2269|end_char=2270|SpacesAfter=\n\n
+5	Ideen	Idee	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No|start_char=2264|end_char=2269
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=2269|end_char=2270
 
 # text = Idee Nummer eins: Fleisch aus Pflanzen herstellen.
 # sent_id = 26
 1	Idee	Idee	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=2272|end_char=2276
 2	Nummer	Nummer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	start_char=2277|end_char=2283
-3	eins	ein	NUM	CARD	NumType=Card	2	appos	_	start_char=2284|end_char=2288|SpaceAfter=No
+3	eins	ein	NUM	CARD	NumType=Card	2	appos	_	SpaceAfter=No|start_char=2284|end_char=2288
 4	:	:	PUNCT	$.	_	8	punct	_	start_char=2288|end_char=2289
 5	Fleisch	Fleisch	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	obj	_	start_char=2290|end_char=2297
 6	aus	aus	ADP	APPR	_	7	case	_	start_char=2298|end_char=2301
 7	Pflanzen	Pflanze	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	nmod	_	start_char=2302|end_char=2310
-8	herstellen	herstellen	VERB	VVINF	VerbForm=Inf	1	appos	_	start_char=2311|end_char=2321|SpaceAfter=No
-9	.	.	PUNCT	$.	_	1	punct	_	start_char=2321|end_char=2322|SpacesAfter=\n\n
+8	herstellen	herstellen	VERB	VVINF	VerbForm=Inf	1	appos	_	SpaceAfter=No|start_char=2311|end_char=2321
+9	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n|start_char=2321|end_char=2322
 
 # text = Anstatt Pflanzen ganz ineffizient als Tierfutter anzubauen, sollten wir mit diesen Pflanzen Fleisch biomimetisch herstellen. Lasst uns pflanzliches Fleisch herstellen.
 # sent_id = 27
@@ -469,7 +469,7 @@
 4	ineffizient	ineffizient	ADJ	ADJD	Degree=Pos	7	advmod	_	start_char=2346|end_char=2357
 5	als	als	ADP	KOKOM	_	6	case	_	start_char=2358|end_char=2361
 6	Tierfutter	Tierfutter	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	start_char=2362|end_char=2372
-7	anzubauen	anbauen	VERB	VVIZU	VerbForm=Inf	16	advcl	_	start_char=2373|end_char=2382|SpaceAfter=No
+7	anzubauen	anbauen	VERB	VVIZU	VerbForm=Inf	16	advcl	_	SpaceAfter=No|start_char=2373|end_char=2382
 8	,	,	PUNCT	$,	_	7	punct	_	start_char=2382|end_char=2383
 9	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	16	aux	_	start_char=2384|end_char=2391
 10	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	start_char=2392|end_char=2395
@@ -478,20 +478,20 @@
 13	Pflanzen	Pflanze	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	16	obl	_	start_char=2407|end_char=2415
 14	Fleisch	Fleisch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	start_char=2416|end_char=2423
 15	biomimetisch	biomimetisch	ADJ	ADJD	Degree=Pos	16	advmod	_	start_char=2424|end_char=2436
-16	herstellen	herstellen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2437|end_char=2447|SpaceAfter=No
+16	herstellen	herstellen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2437|end_char=2447
 17	.	.	PUNCT	$.	_	18	punct	_	start_char=2447|end_char=2448
 18	Lasst	lassen	VERB	VVIMP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	start_char=2449|end_char=2454
 19	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	18	obj	_	start_char=2455|end_char=2458
 20	pflanzliches	pflanzlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	start_char=2459|end_char=2471
 21	Fleisch	Fleisch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	22	obj	_	start_char=2472|end_char=2479
-22	herstellen	herstellen	VERB	VVINF	VerbForm=Inf	18	xcomp	_	start_char=2480|end_char=2490|SpaceAfter=No
-23	.	.	PUNCT	$.	_	16	punct	_	start_char=2490|end_char=2491|SpacesAfter=\n\n
+22	herstellen	herstellen	VERB	VVINF	VerbForm=Inf	18	xcomp	_	SpaceAfter=No|start_char=2480|end_char=2490
+23	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n\n|start_char=2490|end_char=2491
 
 # text = Idee Nummer zwei: richtiges Fleisch kann direkt von Zellen erzeugt werden.
 # sent_id = 28
 1	Idee	Idee	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=2493|end_char=2497
 2	Nummer	Nummer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	start_char=2498|end_char=2504
-3	zwei	zwei	NUM	CARD	NumType=Card	2	appos	_	start_char=2505|end_char=2509|SpaceAfter=No
+3	zwei	zwei	NUM	CARD	NumType=Card	2	appos	_	SpaceAfter=No|start_char=2505|end_char=2509
 4	:	:	PUNCT	$.	_	11	punct	_	start_char=2509|end_char=2510
 5	richtiges	richtig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=2511|end_char=2520
 6	Fleisch	Fleisch	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj:pass	_	start_char=2521|end_char=2528
@@ -500,15 +500,15 @@
 9	von	von	ADP	APPR	_	10	case	_	start_char=2541|end_char=2544
 10	Zellen	Zelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	obl:agent	_	start_char=2545|end_char=2551
 11	erzeugt	erzeugen	VERB	VVPP	VerbForm=Part	1	parataxis	_	start_char=2552|end_char=2559
-12	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	11	aux:pass	_	start_char=2560|end_char=2566|SpaceAfter=No
-13	.	.	PUNCT	$.	_	1	punct	_	start_char=2566|end_char=2567|SpacesAfter=\n\n
+12	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	11	aux:pass	_	SpaceAfter=No|start_char=2560|end_char=2566
+13	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n|start_char=2566|end_char=2567
 
 # text = Anstatt lebende Tiere aufzuziehen, lassen Sie uns die Zellen direkt züchten.
 # sent_id = 29
 1	Anstatt	anstatt	ADP	KOUI	_	4	mark	_	start_char=2569|end_char=2576
 2	lebende	lebend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	3	amod	_	start_char=2577|end_char=2584
 3	Tiere	Tier	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	start_char=2585|end_char=2590
-4	aufzuziehen	aufziehen	VERB	VVIZU	VerbForm=Inf	6	advcl	_	start_char=2591|end_char=2602|SpaceAfter=No
+4	aufzuziehen	aufziehen	VERB	VVIZU	VerbForm=Inf	6	advcl	_	SpaceAfter=No|start_char=2591|end_char=2602
 5	,	,	PUNCT	$,	_	4	punct	_	start_char=2602|end_char=2603
 6	lassen	lassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2604|end_char=2610
 7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	6	nsubj	_	start_char=2611|end_char=2614
@@ -516,8 +516,8 @@
 9	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	10	det	_	start_char=2619|end_char=2622
 10	Zellen	Zelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	start_char=2623|end_char=2629
 11	direkt	direkt	ADJ	ADJD	Degree=Pos	12	advmod	_	start_char=2630|end_char=2636
-12	züchten	züchten	VERB	VVINF	VerbForm=Inf	6	xcomp	_	start_char=2637|end_char=2644|SpaceAfter=No
-13	.	.	PUNCT	$.	_	6	punct	_	start_char=2644|end_char=2645|SpacesAfter=\n\n
+12	züchten	züchten	VERB	VVINF	VerbForm=Inf	6	xcomp	_	SpaceAfter=No|start_char=2637|end_char=2644
+13	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n|start_char=2644|end_char=2645
 
 # text = Es dauert 6 Wochen bis ein Huhn Schlachtgewicht erreicht.
 # sent_id = 30
@@ -526,11 +526,11 @@
 3	6	6	NUM	CARD	NumType=Card	4	nummod	_	start_char=2657|end_char=2658
 4	Wochen	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	start_char=2659|end_char=2665
 5	bis	bis	ADP	APPR	_	7	case	_	start_char=2666|end_char=2669
-6	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=2670|end_char=2673
+6	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=2670|end_char=2673
 7	Huhn	Huhn	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	start_char=2674|end_char=2678
 8	Schlachtgewicht	Schlachtgewicht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=2679|end_char=2694
-9	erreicht	erreichen	VERB	VVPP	VerbForm=Part	2	xcomp	_	start_char=2695|end_char=2703|SpaceAfter=No
-10	.	.	PUNCT	$.	_	2	punct	_	start_char=2703|end_char=2704|SpacesAfter=\n\n
+9	erreicht	erreichen	VERB	VVPP	VerbForm=Part	2	xcomp	_	SpaceAfter=No|start_char=2695|end_char=2703
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=2703|end_char=2704
 
 # text = Wenn die Zellen direkt gezüchtet werden, kann man die gleiche Masse in 6 Tagen erreichen.
 # sent_id = 31
@@ -539,7 +539,7 @@
 3	Zellen	Zelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj:pass	_	start_char=2715|end_char=2721
 4	direkt	direkt	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=2722|end_char=2728
 5	gezüchtet	züchten	VERB	VVPP	VerbForm=Part	16	advcl	_	start_char=2729|end_char=2738
-6	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	aux:pass	_	start_char=2739|end_char=2745|SpaceAfter=No
+6	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	aux:pass	_	SpaceAfter=No|start_char=2739|end_char=2745
 7	,	,	PUNCT	$,	_	5	punct	_	start_char=2745|end_char=2746
 8	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=2747|end_char=2751
 9	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	16	nsubj	_	start_char=2752|end_char=2755
@@ -549,8 +549,8 @@
 13	in	in	ADP	APPR	_	15	case	_	start_char=2774|end_char=2776
 14	6	6	NUM	CARD	NumType=Card	15	nummod	_	start_char=2777|end_char=2778
 15	Tagen	Tag	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	16	obl	_	start_char=2779|end_char=2784
-16	erreichen	erreichen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2785|end_char=2794|SpaceAfter=No
-17	.	.	PUNCT	$.	_	16	punct	_	start_char=2794|end_char=2795|SpacesAfter=\n\n
+16	erreichen	erreichen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2785|end_char=2794
+17	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n\n|start_char=2794|end_char=2795
 
 # text = So sieht das im großen Maßstab aus.
 # sent_id = 32
@@ -562,8 +562,8 @@
 5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	großen	groß	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=2813|end_char=2819
 7	Maßstab	Maßstab	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=2820|end_char=2827
-8	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	start_char=2828|end_char=2831|SpaceAfter=No
-9	.	.	PUNCT	$.	_	2	punct	_	start_char=2831|end_char=2832|SpacesAfter=\n\n
+8	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No|start_char=2828|end_char=2831
+9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=2831|end_char=2832
 
 # text = Das ist Ihre nette Fleischbrauerei um die Ecke.
 # sent_id = 33
@@ -574,8 +574,8 @@
 5	Fleischbrauerei	Fleischbrauerei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=2853|end_char=2868
 6	um	um	ADP	APPR	_	8	case	_	start_char=2869|end_char=2871
 7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=2872|end_char=2875
-8	Ecke	Ecke	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	start_char=2876|end_char=2880|SpaceAfter=No
-9	.	.	PUNCT	$.	_	5	punct	_	start_char=2880|end_char=2881|SpacesAfter=\n\n
+8	Ecke	Ecke	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=2876|end_char=2880
+9	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n|start_char=2880|end_char=2881
 
 # text = Ich möchte auf 2 Dinge hinweisen.
 # sent_id = 34
@@ -584,20 +584,20 @@
 3	auf	auf	ADP	APPR	_	5	case	_	start_char=2894|end_char=2897
 4	2	2	NUM	CARD	NumType=Card	5	nummod	_	start_char=2898|end_char=2899
 5	Dinge	Ding	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	start_char=2900|end_char=2905
-6	hinweisen	hinweisen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2906|end_char=2915|SpaceAfter=No
-7	.	.	PUNCT	$.	_	6	punct	_	start_char=2915|end_char=2916|SpacesAfter=\n\n
+6	hinweisen	hinweisen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2906|end_char=2915
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n|start_char=2915|end_char=2916
 
 # text = Erstens, wir glauben, wir können es.
 # sent_id = 35
-1	Erstens	erstens	ADV	ADV	_	4	advmod	_	start_char=2918|end_char=2925|SpaceAfter=No
+1	Erstens	erstens	ADV	ADV	_	4	advmod	_	SpaceAfter=No|start_char=2918|end_char=2925
 2	,	,	PUNCT	$,	_	1	punct	_	start_char=2925|end_char=2926
 3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=2927|end_char=2930
-4	glauben	glauben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2931|end_char=2938|SpaceAfter=No
+4	glauben	glauben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=2931|end_char=2938
 5	,	,	PUNCT	$,	_	7	punct	_	start_char=2938|end_char=2939
 6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=2940|end_char=2943
 7	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	ccomp	_	start_char=2944|end_char=2950
-8	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	start_char=2951|end_char=2953|SpaceAfter=No
-9	.	.	PUNCT	$.	_	4	punct	_	start_char=2953|end_char=2954|SpacesAfter=\n\n
+8	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No|start_char=2951|end_char=2953
+9	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n|start_char=2953|end_char=2954
 
 # text = Seit einigen Jahren stellen mehrere Firmen Fleisch aus Pflanzen her, das Verbraucher nicht mehr von richtigem Fleisch unterscheiden können, und es gibt inzwischen dutzende von Firmen, die richtiges tierisches Fleisch direkt aus Zellen züchten.
 # sent_id = 36
@@ -610,7 +610,7 @@
 7	Fleisch	Fleisch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	start_char=2999|end_char=3006
 8	aus	aus	ADP	APPR	_	9	case	_	start_char=3007|end_char=3010
 9	Pflanzen	Pflanze	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	7	nmod	_	start_char=3011|end_char=3019
-10	her	her	ADV	PTKVZ	_	4	compound:prt	_	start_char=3020|end_char=3023|SpaceAfter=No
+10	her	her	ADV	PTKVZ	_	4	compound:prt	_	SpaceAfter=No|start_char=3020|end_char=3023
 11	,	,	PUNCT	$,	_	19	punct	_	start_char=3023|end_char=3024
 12	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	19	nsubj	_	start_char=3025|end_char=3028
 13	Verbraucher	Verbraucher	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obj	_	start_char=3029|end_char=3040
@@ -620,7 +620,7 @@
 17	richtigem	richtigem	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	start_char=3056|end_char=3065
 18	Fleisch	Fleisch	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	start_char=3066|end_char=3073
 19	unterscheiden	unterscheiden	VERB	VVINF	VerbForm=Inf	7	acl	_	start_char=3074|end_char=3087
-20	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=3088|end_char=3094|SpaceAfter=No
+20	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	SpaceAfter=No|start_char=3088|end_char=3094
 21	,	,	PUNCT	$,	_	24	punct	_	start_char=3094|end_char=3095
 22	und	und	CCONJ	KON	_	24	cc	_	start_char=3096|end_char=3099
 23	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	expl	_	start_char=3100|end_char=3102
@@ -628,7 +628,7 @@
 25	inzwischen	inzwischen	ADV	ADV	_	24	advmod	_	start_char=3108|end_char=3118
 26	dutzende	dutzend	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	24	nsubj	_	start_char=3119|end_char=3127
 27	von	von	ADP	APPR	_	28	case	_	start_char=3128|end_char=3131
-28	Firmen	Firma	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	26	nmod	_	start_char=3132|end_char=3138|SpaceAfter=No
+28	Firmen	Firma	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	26	nmod	_	SpaceAfter=No|start_char=3132|end_char=3138
 29	,	,	PUNCT	$,	_	37	punct	_	start_char=3138|end_char=3139
 30	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	37	nsubj	_	start_char=3140|end_char=3143
 31	richtiges	richtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	33	amod	_	start_char=3144|end_char=3153
@@ -637,8 +637,8 @@
 34	direkt	direkt	ADJ	ADJD	Degree=Pos	37	advmod	_	start_char=3173|end_char=3179
 35	aus	aus	ADP	APPR	_	36	case	_	start_char=3180|end_char=3183
 36	Zellen	Zelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	37	obl	_	start_char=3184|end_char=3190
-37	züchten	züchten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl	_	start_char=3191|end_char=3198|SpaceAfter=No
-38	.	.	PUNCT	$.	_	4	punct	_	start_char=3198|end_char=3199|SpacesAfter=\n\n
+37	züchten	züchten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl	_	SpaceAfter=No|start_char=3191|end_char=3198
+38	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n|start_char=3198|end_char=3199
 
 # text = Dieses pflanzliche und zellbasierte Fleisch gibt den Verbrauchern alles was sie am Fleisch lieben -- den Geschmack, Konsistenz und so weiter -- aber ohne Antibiotika und mit einem Bruchteil von negativen Auswirkungen für das Klima.
 # sent_id = 37
@@ -660,7 +660,7 @@
 15	lieben	lieben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	start_char=3292|end_char=3298
 16	--	--	PUNCT	$(	_	18	punct	_	start_char=3299|end_char=3301
 17	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	start_char=3302|end_char=3305
-18	Geschmack	Geschmack	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	conj	_	start_char=3306|end_char=3315|SpaceAfter=No
+18	Geschmack	Geschmack	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No|start_char=3306|end_char=3315
 19	,	,	PUNCT	$,	_	20	punct	_	start_char=3315|end_char=3316
 20	Konsistenz	Konsistenz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	conj	_	start_char=3317|end_char=3327
 21	und	und	CCONJ	KON	_	23	cc	_	start_char=3328|end_char=3331
@@ -672,15 +672,15 @@
 27	Antibiotika	Antibiotikum	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	conj	_	start_char=3355|end_char=3366
 28	und	und	CCONJ	KON	_	31	cc	_	start_char=3367|end_char=3370
 29	mit	mit	ADP	APPR	_	31	case	_	start_char=3371|end_char=3374
-30	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	31	det	_	start_char=3375|end_char=3380
+30	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	31	det	_	start_char=3375|end_char=3380
 31	Bruchteil	Bruchteil	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	27	conj	_	start_char=3381|end_char=3390
 32	von	von	ADP	APPR	_	34	case	_	start_char=3391|end_char=3394
 33	negativen	negativ	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	34	amod	_	start_char=3395|end_char=3404
 34	Auswirkungen	Auswirkung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	31	nmod	_	start_char=3405|end_char=3417
 35	für	für	ADP	APPR	_	37	case	_	start_char=3418|end_char=3421
 36	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	37	det	_	start_char=3422|end_char=3425
-37	Klima	Klima	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	34	nmod	_	start_char=3426|end_char=3431|SpaceAfter=No
-38	.	.	PUNCT	$.	_	6	punct	_	start_char=3431|end_char=3432|SpacesAfter=\n\n
+37	Klima	Klima	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	34	nmod	_	SpaceAfter=No|start_char=3426|end_char=3431
+38	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n|start_char=3431|end_char=3432
 
 # text = Und weil diese zwei Technologien so viel effizienter sind, im Produktionsmaßstab, werden diese Produkte billiger sein.
 # sent_id = 38
@@ -692,24 +692,24 @@
 6	so	so	ADV	ADV	_	7	advmod	_	start_char=3467|end_char=3469
 7	viel	viel	DET	ADV	PronType=Ind	8	advmod	_	start_char=3470|end_char=3474
 8	effizienter	effizient	ADJ	ADJD	Degree=Cmp	18	advcl	_	start_char=3475|end_char=3486
-9	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=3487|end_char=3491|SpaceAfter=No
+9	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No|start_char=3487|end_char=3491
 10	,	,	PUNCT	$,	_	13	punct	_	start_char=3491|end_char=3492
 11-12	im	_	_	_	_	_	_	_	start_char=3493|end_char=3495
 11	in	in	ADP	APPR	_	13	case	_	_
 12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	Produktionsmaßstab	Produktionsmaßstab	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	start_char=3496|end_char=3514|SpaceAfter=No
+13	Produktionsmaßstab	Produktionsmaßstab	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No|start_char=3496|end_char=3514
 14	,	,	PUNCT	$,	_	8	punct	_	start_char=3514|end_char=3515
 15	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	18	aux	_	start_char=3516|end_char=3522
 16	diese	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	17	det	_	start_char=3523|end_char=3528
 17	Produkte	Produkt	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	18	nsubj	_	start_char=3529|end_char=3537
 18	billiger	billig	ADJ	ADJD	Degree=Cmp	0	root	_	start_char=3538|end_char=3546
-19	sein	sein	AUX	VAINF	VerbForm=Inf	18	cop	_	start_char=3547|end_char=3551|SpaceAfter=No
-20	.	.	PUNCT	$.	_	18	punct	_	start_char=3551|end_char=3552|SpacesAfter=\n\n
+19	sein	sein	AUX	VAINF	VerbForm=Inf	18	cop	_	SpaceAfter=No|start_char=3547|end_char=3551
+20	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n\n|start_char=3551|end_char=3552
 
 # text = Aber ein kurzer Punkt dazu -- es wird nicht einfach sein.
 # sent_id = 39
 1	Aber	aber	CCONJ	KON	_	4	cc	_	start_char=3554|end_char=3558
-2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=3559|end_char=3562
+2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=3559|end_char=3562
 3	kurzer	kurz	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=3563|end_char=3569
 4	Punkt	Punkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=3570|end_char=3575
 5	dazu	dazu	ADV	PAV	PronType=Dem	4	advmod	_	start_char=3576|end_char=3580
@@ -718,8 +718,8 @@
 8	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	aux	_	start_char=3587|end_char=3591
 9	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=3592|end_char=3597
 10	einfach	einfach	ADJ	ADJD	Degree=Pos	4	parataxis	_	start_char=3598|end_char=3605
-11	sein	sein	AUX	VAINF	VerbForm=Inf	10	cop	_	start_char=3606|end_char=3610|SpaceAfter=No
-12	.	.	PUNCT	$.	_	4	punct	_	start_char=3610|end_char=3611|SpacesAfter=\n\n
+11	sein	sein	AUX	VAINF	VerbForm=Inf	10	cop	_	SpaceAfter=No|start_char=3606|end_char=3610
+12	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n|start_char=3610|end_char=3611
 
 # text = Diese pflanzlichen Firmen haben kleine Vermögen an ihren Burgern ausgegeben, und zellbasiertes Fleisch ist bislang noch nicht kommerziell erhältlich.
 # sent_id = 40
@@ -732,7 +732,7 @@
 7	an	an	ADP	APPR	_	9	case	_	start_char=3661|end_char=3663
 8	ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	start_char=3664|end_char=3669
 9	Burgern	Burger	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	obl	_	start_char=3670|end_char=3677
-10	ausgegeben	ausgeben	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3678|end_char=3688|SpaceAfter=No
+10	ausgegeben	ausgeben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=3678|end_char=3688
 11	,	,	PUNCT	$,	_	20	punct	_	start_char=3688|end_char=3689
 12	und	und	CCONJ	KON	_	20	cc	_	start_char=3690|end_char=3693
 13	zellbasiertes	zellbasiertes	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	start_char=3694|end_char=3707
@@ -742,8 +742,8 @@
 17	noch	noch	ADV	ADV	_	18	advmod	_	start_char=3728|end_char=3732
 18	nicht	nicht	PART	PTKNEG	Polarity=Neg	20	advmod	_	start_char=3733|end_char=3738
 19	kommerziell	kommerziell	ADJ	ADJD	Degree=Pos	20	advmod	_	start_char=3739|end_char=3750
-20	erhältlich	erhältlich	ADJ	ADJD	Degree=Pos	10	conj	_	start_char=3751|end_char=3761|SpaceAfter=No
-21	.	.	PUNCT	$.	_	10	punct	_	start_char=3761|end_char=3762|SpacesAfter=\n\n
+20	erhältlich	erhältlich	ADJ	ADJD	Degree=Pos	10	conj	_	SpaceAfter=No|start_char=3751|end_char=3761
+21	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n|start_char=3761|end_char=3762
 
 # text = Wir brauchen also alle Mann an Deck um dies weltweit zu verbreiten.
 # sent_id = 41
@@ -758,8 +758,8 @@
 9	dies	dieser	DET	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	12	obj	_	start_char=3803|end_char=3807
 10	weltweit	weltweit	ADJ	ADJD	Degree=Pos	12	advmod	_	start_char=3808|end_char=3816
 11	zu	zu	PART	PTKZU	_	12	mark	_	start_char=3817|end_char=3819
-12	verbreiten	verbreiten	VERB	VVINF	VerbForm=Inf	2	advcl	_	start_char=3820|end_char=3830|SpaceAfter=No
-13	.	.	PUNCT	$.	_	2	punct	_	start_char=3830|end_char=3831|SpacesAfter=\n\n
+12	verbreiten	verbreiten	VERB	VVINF	VerbForm=Inf	2	advcl	_	SpaceAfter=No|start_char=3820|end_char=3830
+13	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=3830|end_char=3831
 
 # text = Erstmal brauchen wir die derzeitige Fleischindustrie.
 # sent_id = 42
@@ -768,8 +768,8 @@
 3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=3850|end_char=3853
 4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=3854|end_char=3857
 5	derzeitige	derzeitig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=3858|end_char=3868
-6	Fleischindustrie	Fleischindustrie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=3869|end_char=3885|SpaceAfter=No
-7	.	.	PUNCT	$.	_	2	punct	_	start_char=3885|end_char=3886|SpacesAfter=\n\n
+6	Fleischindustrie	Fleischindustrie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|start_char=3869|end_char=3885
+7	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=3885|end_char=3886
 
 # text = Wir wollen die Fleischindustrie nicht zerstören, wir wollen sie verändern.
 # sent_id = 43
@@ -778,42 +778,42 @@
 3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=3899|end_char=3902
 4	Fleischindustrie	Fleischindustrie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=3903|end_char=3919
 5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=3920|end_char=3925
-6	zerstören	zerstören	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3926|end_char=3935|SpaceAfter=No
+6	zerstören	zerstören	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=3926|end_char=3935
 7	,	,	PUNCT	$,	_	11	punct	_	start_char=3935|end_char=3936
 8	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	start_char=3937|end_char=3940
 9	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=3941|end_char=3947
 10	sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obj	_	start_char=3948|end_char=3951
-11	verändern	verändern	VERB	VVINF	VerbForm=Inf	6	ccomp	_	start_char=3952|end_char=3961|SpaceAfter=No
-12	.	.	PUNCT	$.	_	6	punct	_	start_char=3961|end_char=3962|SpacesAfter=\n\n
+11	verändern	verändern	VERB	VVINF	VerbForm=Inf	6	ccomp	_	SpaceAfter=No|start_char=3952|end_char=3961
+12	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n|start_char=3961|end_char=3962
 
 # text = Wir brauchen ihre Massenproduktionsvorteile, ihre Versorgungskette, ihre Marketing-Erfahrung, und den riesigen Kundenstamm.
 # sent_id = 44
 1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=3964|end_char=3967
 2	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3968|end_char=3976
 3	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	start_char=3977|end_char=3981
-4	Massenproduktionsvorteile	Massenproduktionsvorteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=3982|end_char=4007|SpaceAfter=No
+4	Massenproduktionsvorteile	Massenproduktionsvorteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No|start_char=3982|end_char=4007
 5	,	,	PUNCT	$,	_	7	punct	_	start_char=4007|end_char=4008
 6	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=4009|end_char=4013
-7	Versorgungskette	Versorgungskette	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	start_char=4014|end_char=4030|SpaceAfter=No
+7	Versorgungskette	Versorgungskette	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No|start_char=4014|end_char=4030
 8	,	,	PUNCT	$,	_	12	punct	_	start_char=4030|end_char=4031
 9	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	start_char=4032|end_char=4036
-10	Marketing	Marketing	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	compound	_	start_char=4037|end_char=4046|SpaceAfter=No
-11	-	-	PUNCT	$(	_	10	punct	_	start_char=4046|end_char=4047|SpaceAfter=No
-12	Erfahrung	Erfahrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	start_char=4047|end_char=4056|SpaceAfter=No
+10	Marketing	Marketing	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	compound	_	SpaceAfter=No|start_char=4037|end_char=4046
+11	-	-	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=4046|end_char=4047
+12	Erfahrung	Erfahrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No|start_char=4047|end_char=4056
 13	,	,	PUNCT	$,	_	17	punct	_	start_char=4056|end_char=4057
 14	und	und	CCONJ	KON	_	17	cc	_	start_char=4058|end_char=4061
 15	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=4062|end_char=4065
 16	riesigen	riesig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=4066|end_char=4074
-17	Kundenstamm	Kundenstamm	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	conj	_	start_char=4075|end_char=4086|SpaceAfter=No
-18	.	.	PUNCT	$.	_	2	punct	_	start_char=4086|end_char=4087|SpacesAfter=\n\n
+17	Kundenstamm	Kundenstamm	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No|start_char=4075|end_char=4086
+18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=4086|end_char=4087
 
 # text = Wir brauchen auch Regierungen.
 # sent_id = 45
 1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=4089|end_char=4092
 2	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4093|end_char=4101
 3	auch	auch	ADV	ADV	_	2	advmod	_	start_char=4102|end_char=4106
-4	Regierungen	Regierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=4107|end_char=4118|SpaceAfter=No
-5	.	.	PUNCT	$.	_	2	punct	_	start_char=4118|end_char=4119|SpacesAfter=\n\n
+4	Regierungen	Regierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No|start_char=4107|end_char=4118
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=4118|end_char=4119
 
 # text = Regierungen geben jedes Jahr Milliarden von Dollar für Forschung und Entwicklung aus mit Schwerpunkt auf globaler Gesundheit und Umwelt.
 # sent_id = 46
@@ -835,14 +835,14 @@
 16	globaler	global	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=4226|end_char=4234
 17	Gesundheit	Gesundheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	start_char=4235|end_char=4245
 18	und	und	CCONJ	KON	_	19	cc	_	start_char=4246|end_char=4249
-19	Umwelt	Umwelt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	conj	_	start_char=4250|end_char=4256|SpaceAfter=No
-20	.	.	PUNCT	$.	_	2	punct	_	start_char=4256|end_char=4257|SpacesAfter=\n\n
+19	Umwelt	Umwelt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No|start_char=4250|end_char=4256
+20	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=4256|end_char=4257
 
 # text = Die sollten einen Teil des Geldes für die Optimierung und Perfektion von pflanzlichem und zellbasiertem Fleisch stecken.
 # sent_id = 47
 1	Die	der	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem,Rel	17	nsubj	_	start_char=4259|end_char=4262
 2	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	start_char=4263|end_char=4270
-3	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=4271|end_char=4276
+3	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=4271|end_char=4276
 4	Teil	Teil	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	start_char=4277|end_char=4281
 5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=4282|end_char=4285
 6	Geldes	Geld	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=4286|end_char=4292
@@ -856,8 +856,8 @@
 14	und	und	CCONJ	KON	_	15	cc	_	start_char=4345|end_char=4348
 15	zellbasiertem	zellbasiert	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	13	conj	_	start_char=4349|end_char=4362
 16	Fleisch	Fleisch	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	start_char=4363|end_char=4370
-17	stecken	stecken	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4371|end_char=4378|SpaceAfter=No
-18	.	.	PUNCT	$.	_	17	punct	_	start_char=4378|end_char=4379|SpacesAfter=\n\n
+17	stecken	stecken	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=4371|end_char=4378
+18	.	.	PUNCT	$.	_	17	punct	_	SpacesAfter=\n\n|start_char=4378|end_char=4379
 
 # text = Zehntausende von Amerikanern starben letztes Jahr an anitbiotikaresistenten Superbugs.
 # sent_id = 48
@@ -869,8 +869,8 @@
 6	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	start_char=4426|end_char=4430
 7	an	an	ADP	APPR	_	9	case	_	start_char=4431|end_char=4433
 8	anitbiotikaresistenten	anitbiotikaresistent	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=4434|end_char=4456
-9	Superbugs	Superbug	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	start_char=4457|end_char=4466|SpaceAfter=No
-10	.	.	PUNCT	$.	_	4	punct	_	start_char=4466|end_char=4467|SpacesAfter=\n\n
+9	Superbugs	Superbug	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No|start_char=4457|end_char=4466
+10	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n|start_char=4466|end_char=4467
 
 # text = Bis 2050 wird diese Zahl auf weltweit jährlich 10 Millionen ansteigen.
 # sent_id = 49
@@ -884,8 +884,8 @@
 8	jährlich	jährlich	ADJ	ADJD	Degree=Pos	9	advmod	_	start_char=4507|end_char=4515
 9	10	10	NUM	CARD	NumType=Card	10	nummod	_	start_char=4516|end_char=4518
 10	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obl	_	start_char=4519|end_char=4528
-11	ansteigen	ansteigen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4529|end_char=4538|SpaceAfter=No
-12	.	.	PUNCT	$.	_	11	punct	_	start_char=4538|end_char=4539|SpacesAfter=\n\n
+11	ansteigen	ansteigen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=4529|end_char=4538
+12	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n\n|start_char=4538|end_char=4539
 
 # text = Und der Klimawandel stellt eine existentielle Gefahr dar für riesige Teile unserer globalen Familie, einschließlich einiger der ärmsten Menschen auf dieser Erde.
 # sent_id = 50
@@ -893,7 +893,7 @@
 2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=4545|end_char=4548
 3	Klimawandel	Klimawandel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=4549|end_char=4560
 4	stellt	stellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4561|end_char=4567
-5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=4568|end_char=4572
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=4568|end_char=4572
 6	existentielle	existentiell	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=4573|end_char=4586
 7	Gefahr	Gefahr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=4587|end_char=4593
 8	dar	dar	ADV	PTKVZ	_	4	compound:prt	_	start_char=4594|end_char=4597
@@ -902,7 +902,7 @@
 11	Teile	Teil	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	nmod	_	start_char=4610|end_char=4615
 12	unserer	unser	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	start_char=4616|end_char=4623
 13	globalen	global	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=4624|end_char=4632
-14	Familie	Familie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=4633|end_char=4640|SpaceAfter=No
+14	Familie	Familie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No|start_char=4633|end_char=4640
 15	,	,	PUNCT	$,	_	17	punct	_	start_char=4640|end_char=4641
 16	einschließlich	einschließlich	ADP	APPR	_	17	case	_	start_char=4642|end_char=4656
 17	einiger	einige	DET	PIS	Case=Gen|Number=Plur|PronType=Ind	4	obl	_	start_char=4657|end_char=4664
@@ -911,20 +911,20 @@
 20	Menschen	Mensch	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	start_char=4677|end_char=4685
 21	auf	auf	ADP	APPR	_	23	case	_	start_char=4686|end_char=4689
 22	dieser	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	23	det	_	start_char=4690|end_char=4696
-23	Erde	Erde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	nmod	_	start_char=4697|end_char=4701|SpaceAfter=No
-24	.	.	PUNCT	$.	_	4	punct	_	start_char=4701|end_char=4702|SpacesAfter=\n\n
+23	Erde	Erde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No|start_char=4697|end_char=4701
+24	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n|start_char=4701|end_char=4702
 
 # text = Klimawandel, Antibiotikaresistenz -- das sind globale Notstände.
 # sent_id = 51
-1	Klimawandel	Klimawandel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=4704|end_char=4715|SpaceAfter=No
+1	Klimawandel	Klimawandel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No|start_char=4704|end_char=4715
 2	,	,	PUNCT	$,	_	3	punct	_	start_char=4715|end_char=4716
 3	Antibiotikaresistenz	Antibiotikaresistenz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	start_char=4717|end_char=4737
 4	--	--	PUNCT	$(	_	1	punct	_	start_char=4738|end_char=4740
 5	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	8	nsubj	_	start_char=4741|end_char=4744
 6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=4745|end_char=4749
 7	globale	global	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=4750|end_char=4757
-8	Notstände	Notstand	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=4758|end_char=4767|SpaceAfter=No
-9	.	.	PUNCT	$.	_	8	punct	_	start_char=4767|end_char=4768|SpacesAfter=\n\n
+8	Notstände	Notstand	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|start_char=4758|end_char=4767
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n|start_char=4767|end_char=4768
 
 # text = Die Fleischproduktion verschlimmert diese Notstände weltweit.
 # sent_id = 52
@@ -933,8 +933,8 @@
 3	verschlimmert	verschlimmern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4792|end_char=4805
 4	diese	dieser	DET	PDAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	5	det	_	start_char=4806|end_char=4811
 5	Notstände	Notstand	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=4812|end_char=4821
-6	weltweit	weltweit	ADJ	ADJD	Degree=Pos	3	advmod	_	start_char=4822|end_char=4830|SpaceAfter=No
-7	.	.	PUNCT	$.	_	3	punct	_	start_char=4830|end_char=4831|SpacesAfter=\n\n
+6	weltweit	weltweit	ADJ	ADJD	Degree=Pos	3	advmod	_	SpaceAfter=No|start_char=4822|end_char=4830
+7	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n|start_char=4830|end_char=4831
 
 # text = Aber wir werden den Fleischkonsum nicht reduzieren wenn wir den Verbrauchern keine Alternativen bieten die das gleiche oder weniger kosten und genauso oder besser schmecken.
 # sent_id = 53
@@ -962,16 +962,16 @@
 22	genauso	genauso	ADV	ADV	_	25	advmod	_	start_char=4976|end_char=4983
 23	oder	oder	CCONJ	KON	_	24	cc	_	start_char=4984|end_char=4988
 24	besser	gut	ADJ	ADJD	Degree=Cmp	22	conj	_	start_char=4989|end_char=4995
-25	schmecken	schmecken	VERB	VVINF	VerbForm=Inf	20	conj	_	start_char=4996|end_char=5005|SpaceAfter=No
-26	.	.	PUNCT	$.	_	7	punct	_	start_char=5005|end_char=5006|SpacesAfter=\n\n
+25	schmecken	schmecken	VERB	VVINF	VerbForm=Inf	20	conj	_	SpaceAfter=No|start_char=4996|end_char=5005
+26	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n|start_char=5005|end_char=5006
 
 # text = Wir haben die Lösung.
 # sent_id = 54
 1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=5008|end_char=5011
 2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5012|end_char=5017
 3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=5018|end_char=5021
-4	Lösung	Lösung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=5022|end_char=5028|SpaceAfter=No
-5	.	.	PUNCT	$.	_	2	punct	_	start_char=5028|end_char=5029|SpacesAfter=\n\n
+4	Lösung	Lösung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|start_char=5022|end_char=5028
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=5028|end_char=5029
 
 # text = Lassen Sie uns Fleisch aus Pflanzen herstellen und direkt aus Zellen züchten.
 # sent_id = 55
@@ -986,8 +986,8 @@
 9	direkt	direkt	ADJ	ADJD	Degree=Pos	12	advmod	_	start_char=5082|end_char=5088
 10	aus	aus	ADP	APPR	_	11	case	_	start_char=5089|end_char=5092
 11	Zellen	Zelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	12	obl	_	start_char=5093|end_char=5099
-12	züchten	züchten	VERB	VVINF	VerbForm=Inf	7	conj	_	start_char=5100|end_char=5107|SpaceAfter=No
-13	.	.	PUNCT	$.	_	1	punct	_	start_char=5107|end_char=5108|SpacesAfter=\n\n
+12	züchten	züchten	VERB	VVINF	VerbForm=Inf	7	conj	_	SpaceAfter=No|start_char=5100|end_char=5107
+13	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n|start_char=5107|end_char=5108
 
 # text = Wir sind spät dran um die notwendigen Ressourcen für die nächste landwirtschaftliche Revolution zu mobilisieren.
 # sent_id = 56
@@ -1005,10 +1005,10 @@
 12	landwirtschaftliche	landwirtschaftlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=5175|end_char=5194
 13	Revolution	Revolution	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	start_char=5195|end_char=5205
 14	zu	zu	PART	PTKZU	_	15	mark	_	start_char=5206|end_char=5208
-15	mobilisieren	mobilisieren	VERB	VVINF	VerbForm=Inf	2	advcl	_	start_char=5209|end_char=5221|SpaceAfter=No
-16	.	.	PUNCT	$.	_	2	punct	_	start_char=5221|end_char=5222|SpacesAfter=\n\n
+15	mobilisieren	mobilisieren	VERB	VVINF	VerbForm=Inf	2	advcl	_	SpaceAfter=No|start_char=5209|end_char=5221
+16	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=5221|end_char=5222
 
 # text = Dankeschön.
 # sent_id = 57
-1	Dankeschön	Dankeschön	NOUN	NN	_	0	root	_	start_char=5224|end_char=5234|SpaceAfter=No
-2	.	.	PUNCT	$.	_	1	punct	_	start_char=5234|end_char=5235|SpaceAfter=No
+1	Dankeschön	Dankeschön	NOUN	NN	_	0	root	_	SpaceAfter=No|start_char=5224|end_char=5234
+2	.	.	PUNCT	$.	_	1	punct	_	SpaceAfter=No|start_char=5234|end_char=5235

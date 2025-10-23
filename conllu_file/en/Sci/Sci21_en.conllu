@@ -1,10 +1,9 @@
 # conllu_stats: begin
 # conllu_tokens: 874
 # conllu_sentences: 47
-# Average tokens per senteces: 18.595744680851062
-# sentece_pairs: 0
+# Average tokens per sentence: 18.595744680851062
+# sentence_pairs: 0
 # conllu_stats: end
-
 
 # text = How we'll find life on other planets
 # sent_id = 0
@@ -16,7 +15,7 @@
 5	life	life	NOUN	NN	Number=Sing	4	obj	_	start_char=15|end_char=19
 6	on	on	ADP	IN	_	8	case	_	start_char=20|end_char=22
 7	other	other	ADJ	JJ	Degree=Pos	8	amod	_	start_char=23|end_char=28
-8	planets	planet	NOUN	NNS	Number=Plur	4	obl	_	start_char=29|end_char=36|SpacesAfter=\n\n
+8	planets	planet	NOUN	NNS	Number=Plur	4	obl	_	SpacesAfter=\n\n|start_char=29|end_char=36
 
 # text = I am in search of another planet in the universe where life exists.
 # sent_id = 1
@@ -32,8 +31,8 @@
 10	universe	universe	NOUN	NN	Number=Sing	7	nmod	_	start_char=78|end_char=86
 11	where	where	ADV	WRB	PronType=Rel	13	advmod	_	start_char=87|end_char=92
 12	life	life	NOUN	NN	Number=Sing	13	nsubj	_	start_char=93|end_char=97
-13	exists	exist	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	start_char=98|end_char=104|SpaceAfter=No
-14	.	.	PUNCT	.	_	4	punct	_	start_char=104|end_char=105|SpacesAfter=\n\n
+13	exists	exist	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No|start_char=98|end_char=104
+14	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=104|end_char=105
 
 # text = I can't see this planet with my naked eyes or even with the most powerful telescopes we currently possess.
 # sent_id = 2
@@ -57,8 +56,8 @@
 17	telescopes	telescope	NOUN	NNS	Number=Plur	10	conj	_	start_char=181|end_char=191
 18	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	start_char=192|end_char=194
 19	currently	currently	ADV	RB	_	20	advmod	_	start_char=195|end_char=204
-20	possess	possess	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	start_char=205|end_char=212|SpaceAfter=No
-21	.	.	PUNCT	.	_	4	punct	_	start_char=212|end_char=213|SpacesAfter=\n\n
+20	possess	possess	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	SpaceAfter=No|start_char=205|end_char=212
+21	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=212|end_char=213
 
 # text = But I know that it's there.
 # sent_id = 3
@@ -69,8 +68,8 @@
 5-6	it's	_	_	_	_	_	_	_	start_char=231|end_char=235
 5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=231|end_char=233
 6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=233|end_char=235
-7	there	there	ADV	RB	PronType=Dem	3	ccomp	_	start_char=236|end_char=241|SpaceAfter=No
-8	.	.	PUNCT	.	_	3	punct	_	start_char=241|end_char=242|SpacesAfter=\n\n
+7	there	there	ADV	RB	PronType=Dem	3	ccomp	_	SpaceAfter=No|start_char=236|end_char=241
+8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=241|end_char=242
 
 # text = And understanding contradictions that occur in nature will help us find it.
 # sent_id = 4
@@ -85,26 +84,26 @@
 9	help	help	VERB	VB	VerbForm=Inf	0	root	_	start_char=303|end_char=307
 10	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	obj	_	start_char=308|end_char=310
 11	find	find	VERB	VB	VerbForm=Inf	9	xcomp	_	start_char=311|end_char=315
-12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	start_char=316|end_char=318|SpaceAfter=No
-13	.	.	PUNCT	.	_	9	punct	_	start_char=318|end_char=319|SpacesAfter=\n\n
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No|start_char=316|end_char=318
+13	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n\n|start_char=318|end_char=319
 
 # text = On our planet, where there's water, there's life.
 # sent_id = 5
 1	On	on	ADP	IN	_	3	case	_	start_char=321|end_char=323
 2	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=324|end_char=327
-3	planet	planet	NOUN	NN	Number=Sing	11	obl	_	start_char=328|end_char=334|SpaceAfter=No
+3	planet	planet	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No|start_char=328|end_char=334
 4	,	,	PUNCT	,	_	3	punct	_	start_char=334|end_char=335
 5	where	where	ADV	WRB	PronType=Rel	7	advmod	_	start_char=336|end_char=341
 6-7	there's	_	_	_	_	_	_	_	start_char=342|end_char=349
 6	there	there	PRON	EX	_	7	expl	_	start_char=342|end_char=347
 7	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	start_char=347|end_char=349
-8	water	water	NOUN	NN	Number=Sing	7	nsubj	_	start_char=350|end_char=355|SpaceAfter=No
+8	water	water	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No|start_char=350|end_char=355
 9	,	,	PUNCT	,	_	3	punct	_	start_char=355|end_char=356
 10-11	there's	_	_	_	_	_	_	_	start_char=357|end_char=364
 10	there	there	PRON	EX	_	11	expl	_	start_char=357|end_char=362
 11	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=362|end_char=364
-12	life	life	NOUN	NN	Number=Sing	11	nsubj	_	start_char=365|end_char=369|SpaceAfter=No
-13	.	.	PUNCT	.	_	11	punct	_	start_char=369|end_char=370|SpacesAfter=\n\n
+12	life	life	NOUN	NN	Number=Sing	11	nsubj	_	SpaceAfter=No|start_char=365|end_char=369
+13	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n\n|start_char=369|end_char=370
 
 # text = So we look for planets that orbit at just the right distance from their stars.
 # sent_id = 6
@@ -122,14 +121,14 @@
 12	distance	distance	NOUN	NN	Number=Sing	7	obl	_	start_char=424|end_char=432
 13	from	from	ADP	IN	_	15	case	_	start_char=433|end_char=437
 14	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=438|end_char=443
-15	stars	star	NOUN	NNS	Number=Plur	12	nmod	_	start_char=444|end_char=449|SpaceAfter=No
-16	.	.	PUNCT	.	_	3	punct	_	start_char=449|end_char=450|SpacesAfter=\n\n
+15	stars	star	NOUN	NNS	Number=Plur	12	nmod	_	SpaceAfter=No|start_char=444|end_char=449
+16	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=449|end_char=450
 
 # text = At this distance, shown in blue on this diagram for stars of different temperatures, planets could be warm enough for water to flow on their surfaces as lakes and oceans where life might reside.
 # sent_id = 7
 1	At	at	ADP	IN	_	3	case	_	start_char=452|end_char=454
 2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	start_char=455|end_char=459
-3	distance	distance	NOUN	NN	Number=Sing	20	obl	_	start_char=460|end_char=468|SpaceAfter=No
+3	distance	distance	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No|start_char=460|end_char=468
 4	,	,	PUNCT	,	_	3	punct	_	start_char=468|end_char=469
 5	shown	show	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	advcl	_	start_char=470|end_char=475
 6	in	in	ADP	IN	_	7	case	_	start_char=476|end_char=478
@@ -141,7 +140,7 @@
 12	stars	star	NOUN	NNS	Number=Plur	10	nmod	_	start_char=504|end_char=509
 13	of	of	ADP	IN	_	15	case	_	start_char=510|end_char=512
 14	different	different	ADJ	JJ	Degree=Pos	15	amod	_	start_char=513|end_char=522
-15	temperatures	temperature	NOUN	NNS	Number=Plur	12	nmod	_	start_char=523|end_char=535|SpaceAfter=No
+15	temperatures	temperature	NOUN	NNS	Number=Plur	12	nmod	_	SpaceAfter=No|start_char=523|end_char=535
 16	,	,	PUNCT	,	_	3	punct	_	start_char=535|end_char=536
 17	planets	planet	NOUN	NNS	Number=Plur	20	nsubj	_	start_char=537|end_char=544
 18	could	could	AUX	MD	VerbForm=Fin	20	aux	_	start_char=545|end_char=550
@@ -162,8 +161,8 @@
 33	where	where	ADV	WRB	PronType=Rel	36	advmod	_	start_char=622|end_char=627
 34	life	life	NOUN	NN	Number=Sing	36	nsubj	_	start_char=628|end_char=632
 35	might	might	AUX	MD	VerbForm=Fin	36	aux	_	start_char=633|end_char=638
-36	reside	reside	VERB	VB	VerbForm=Inf	30	acl:relcl	_	start_char=639|end_char=645|SpaceAfter=No
-37	.	.	PUNCT	.	_	20	punct	_	start_char=645|end_char=646|SpacesAfter=\n\n
+36	reside	reside	VERB	VB	VerbForm=Inf	30	acl:relcl	_	SpaceAfter=No|start_char=639|end_char=645
+37	.	.	PUNCT	.	_	20	punct	_	SpacesAfter=\n\n|start_char=645|end_char=646
 
 # text = Some astronomers focus their time and energy on finding planets at these distances from their stars.
 # sent_id = 8
@@ -182,8 +181,8 @@
 13	distances	distance	NOUN	NNS	Number=Plur	9	obl	_	start_char=721|end_char=730
 14	from	from	ADP	IN	_	16	case	_	start_char=731|end_char=735
 15	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=736|end_char=741
-16	stars	star	NOUN	NNS	Number=Plur	9	obl	_	start_char=742|end_char=747|SpaceAfter=No
-17	.	.	PUNCT	.	_	3	punct	_	start_char=747|end_char=748|SpacesAfter=\n\n
+16	stars	star	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No|start_char=742|end_char=747
+17	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=747|end_char=748
 
 # text = What I do picks up where their job ends.
 # sent_id = 9
@@ -195,8 +194,8 @@
 6	where	where	ADV	WRB	PronType=Rel	9	advmod	_	start_char=769|end_char=774
 7	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=775|end_char=780
 8	job	job	NOUN	NN	Number=Sing	9	nsubj	_	start_char=781|end_char=784
-9	ends	end	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	start_char=785|end_char=789|SpaceAfter=No
-10	.	.	PUNCT	.	_	4	punct	_	start_char=789|end_char=790|SpacesAfter=\n\n
+9	ends	end	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No|start_char=785|end_char=789
+10	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=789|end_char=790
 
 # text = I model the possible climates of exoplanets.
 # sent_id = 10
@@ -206,8 +205,8 @@
 4	possible	possible	ADJ	JJ	Degree=Pos	5	amod	_	start_char=804|end_char=812
 5	climates	climate	NOUN	NNS	Number=Plur	2	obj	_	start_char=813|end_char=821
 6	of	of	ADP	IN	_	7	case	_	start_char=822|end_char=824
-7	exoplanets	exoplanet	NOUN	NNS	Number=Plur	5	nmod	_	start_char=825|end_char=835|SpaceAfter=No
-8	.	.	PUNCT	.	_	2	punct	_	start_char=835|end_char=836|SpacesAfter=\n\n
+7	exoplanets	exoplanet	NOUN	NNS	Number=Plur	5	nmod	_	SpaceAfter=No|start_char=825|end_char=835
+8	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=835|end_char=836
 
 # text = And here's why that's important: there are many factors besides distance from its star that control whether a planet can support life.
 # sent_id = 11
@@ -219,7 +218,7 @@
 5-6	that's	_	_	_	_	_	_	_	start_char=853|end_char=859
 5	that	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	start_char=853|end_char=857
 6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=857|end_char=859
-7	important	important	ADJ	JJ	Degree=Pos	4	advcl:relcl	_	start_char=860|end_char=869|SpaceAfter=No
+7	important	important	ADJ	JJ	Degree=Pos	4	advcl:relcl	_	SpaceAfter=No|start_char=860|end_char=869
 8	:	:	PUNCT	:	_	10	punct	_	start_char=869|end_char=870
 9	there	there	PRON	EX	_	10	expl	_	start_char=871|end_char=876
 10	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=877|end_char=880
@@ -237,16 +236,16 @@
 22	planet	planet	NOUN	NN	Number=Sing	24	nsubj	_	start_char=948|end_char=954
 23	can	can	AUX	MD	VerbForm=Fin	24	aux	_	start_char=955|end_char=958
 24	support	support	VERB	VB	VerbForm=Inf	19	ccomp	_	start_char=959|end_char=966
-25	life	life	NOUN	NN	Number=Sing	24	obj	_	start_char=967|end_char=971|SpaceAfter=No
-26	.	.	PUNCT	.	_	2	punct	_	start_char=971|end_char=972|SpacesAfter=\n\n
+25	life	life	NOUN	NN	Number=Sing	24	obj	_	SpaceAfter=No|start_char=967|end_char=971
+26	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=971|end_char=972
 
 # text = Take the planet Venus.
 # sent_id = 12
 1	Take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=974|end_char=978
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=979|end_char=982
 3	planet	planet	NOUN	NN	Number=Sing	1	obj	_	start_char=983|end_char=989
-4	Venus	Venus	PROPN	NNP	Number=Sing	1	vocative	_	start_char=990|end_char=995|SpaceAfter=No
-5	.	.	PUNCT	.	_	1	punct	_	start_char=995|end_char=996|SpacesAfter=\n\n
+4	Venus	Venus	PROPN	NNP	Number=Sing	1	vocative	_	SpaceAfter=No|start_char=990|end_char=995
+5	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n|start_char=995|end_char=996
 
 # text = It's named after the Roman goddess of love and beauty, because of its benign, ethereal appearance in the sky.
 # sent_id = 13
@@ -261,19 +260,19 @@
 8	of	of	ADP	IN	_	9	case	_	start_char=1033|end_char=1035
 9	love	love	NOUN	NN	Number=Sing	7	nmod	_	start_char=1036|end_char=1040
 10	and	and	CCONJ	CC	_	11	cc	_	start_char=1041|end_char=1044
-11	beauty	beauty	NOUN	NN	Number=Sing	9	conj	_	start_char=1045|end_char=1051|SpaceAfter=No
+11	beauty	beauty	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No|start_char=1045|end_char=1051
 12	,	,	PUNCT	,	_	19	punct	_	start_char=1051|end_char=1052
 13	because	because	ADP	IN	ExtPos=ADP	19	case	_	start_char=1053|end_char=1060
 14	of	of	ADP	IN	_	13	fixed	_	start_char=1061|end_char=1063
 15	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	start_char=1064|end_char=1067
-16	benign	benign	ADJ	JJ	Degree=Pos	19	amod	_	start_char=1068|end_char=1074|SpaceAfter=No
+16	benign	benign	ADJ	JJ	Degree=Pos	19	amod	_	SpaceAfter=No|start_char=1068|end_char=1074
 17	,	,	PUNCT	,	_	16	punct	_	start_char=1074|end_char=1075
 18	ethereal	ethereal	ADJ	JJ	Degree=Pos	19	amod	_	start_char=1076|end_char=1084
 19	appearance	appearance	NOUN	NN	Number=Sing	3	obl	_	start_char=1085|end_char=1095
 20	in	in	ADP	IN	_	22	case	_	start_char=1096|end_char=1098
 21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	start_char=1099|end_char=1102
-22	sky	sky	NOUN	NN	Number=Sing	19	nmod	_	start_char=1103|end_char=1106|SpaceAfter=No
-23	.	.	PUNCT	.	_	3	punct	_	start_char=1106|end_char=1107|SpacesAfter=\n\n
+22	sky	sky	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No|start_char=1103|end_char=1106
+23	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=1106|end_char=1107
 
 # text = But spacecraft measurements revealed a different story.
 # sent_id = 14
@@ -283,8 +282,8 @@
 4	revealed	reveal	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1137|end_char=1145
 5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=1146|end_char=1147
 6	different	different	ADJ	JJ	Degree=Pos	7	amod	_	start_char=1148|end_char=1157
-7	story	story	NOUN	NN	Number=Sing	4	obj	_	start_char=1158|end_char=1163|SpaceAfter=No
-8	.	.	PUNCT	.	_	4	punct	_	start_char=1163|end_char=1164|SpacesAfter=\n\n
+7	story	story	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No|start_char=1158|end_char=1163
+8	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=1163|end_char=1164
 
 # text = The surface temperature is close to 900 degrees Fahrenheit, 500 Celsius.
 # sent_id = 15
@@ -296,11 +295,11 @@
 6	to	to	ADP	IN	_	8	case	_	start_char=1199|end_char=1201
 7	900	900	NUM	CD	NumForm=Digit|NumType=Card	8	nummod	_	start_char=1202|end_char=1205
 8	degrees	degree	NOUN	NNS	Number=Plur	5	obl	_	start_char=1206|end_char=1213
-9	Fahrenheit	Fahrenheit	PROPN	NNP	Number=Sing	8	nummod	_	start_char=1214|end_char=1224|SpaceAfter=No
+9	Fahrenheit	Fahrenheit	PROPN	NNP	Number=Sing	8	nummod	_	SpaceAfter=No|start_char=1214|end_char=1224
 10	,	,	PUNCT	,	_	12	punct	_	start_char=1224|end_char=1225
 11	500	500	NUM	CD	NumForm=Digit|NumType=Card	12	nummod	_	start_char=1226|end_char=1229
-12	Celsius	Celsius	PROPN	NNP	Number=Sing	8	appos	_	start_char=1230|end_char=1237|SpaceAfter=No
-13	.	.	PUNCT	.	_	5	punct	_	start_char=1237|end_char=1238|SpacesAfter=\n\n
+12	Celsius	Celsius	PROPN	NNP	Number=Sing	8	appos	_	SpaceAfter=No|start_char=1230|end_char=1237
+13	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=1237|end_char=1238
 
 # text = That's hot enough to melt lead.
 # sent_id = 16
@@ -311,8 +310,8 @@
 4	enough	enough	ADV	RB	_	3	advmod	_	start_char=1251|end_char=1257
 5	to	to	PART	TO	_	6	mark	_	start_char=1258|end_char=1260
 6	melt	melt	VERB	VB	VerbForm=Inf	3	advcl	_	start_char=1261|end_char=1265
-7	lead	lead	NOUN	NN	Number=Sing	6	obj	_	start_char=1266|end_char=1270|SpaceAfter=No
-8	.	.	PUNCT	.	_	3	punct	_	start_char=1270|end_char=1271|SpacesAfter=\n\n
+7	lead	lead	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No|start_char=1266|end_char=1270
+8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=1270|end_char=1271
 
 # text = Its thick atmosphere, not its distance from the sun, is the reason.
 # sent_id = 17
@@ -320,19 +319,19 @@
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=1273|end_char=1275
 2	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	4	cop	_	start_char=1275|end_char=1276
 3	thick	thick	ADJ	JJ	Degree=Pos	4	amod	_	start_char=1277|end_char=1282
-4	atmosphere	atmosphere	NOUN	NN	Number=Sing	0	root	_	start_char=1283|end_char=1293|SpaceAfter=No
+4	atmosphere	atmosphere	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=1283|end_char=1293
 5	,	,	PUNCT	,	_	8	punct	_	start_char=1293|end_char=1294
 6	not	not	PART	RB	Polarity=Neg	8	advmod	_	start_char=1295|end_char=1298
 7	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=1299|end_char=1302
 8	distance	distance	NOUN	NN	Number=Sing	4	appos	_	start_char=1303|end_char=1311
 9	from	from	ADP	IN	_	11	case	_	start_char=1312|end_char=1316
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=1317|end_char=1320
-11	sun	sun	NOUN	NN	Number=Sing	8	nmod	_	start_char=1321|end_char=1324|SpaceAfter=No
+11	sun	sun	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No|start_char=1321|end_char=1324
 12	,	,	PUNCT	,	_	15	punct	_	start_char=1324|end_char=1325
 13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=1326|end_char=1328
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=1329|end_char=1332
-15	reason	reason	NOUN	NN	Number=Sing	4	parataxis	_	start_char=1333|end_char=1339|SpaceAfter=No
-16	.	.	PUNCT	.	_	4	punct	_	start_char=1339|end_char=1340|SpacesAfter=\n\n
+15	reason	reason	NOUN	NN	Number=Sing	4	parataxis	_	SpaceAfter=No|start_char=1333|end_char=1339
+16	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=1339|end_char=1340
 
 # text = It causes a greenhouse effect on steroids, trapping heat from the sun and scorching the planet's surface.
 # sent_id = 18
@@ -342,7 +341,7 @@
 4	greenhouse	greenhouse	NOUN	NN	Number=Sing	5	compound	_	start_char=1354|end_char=1364
 5	effect	effect	NOUN	NN	Number=Sing	2	obj	_	start_char=1365|end_char=1371
 6	on	on	ADP	IN	_	7	case	_	start_char=1372|end_char=1374
-7	steroids	steroid	NOUN	NNS	Number=Plur	5	nmod	_	start_char=1375|end_char=1383|SpaceAfter=No
+7	steroids	steroid	NOUN	NNS	Number=Plur	5	nmod	_	SpaceAfter=No|start_char=1375|end_char=1383
 8	,	,	PUNCT	,	_	9	punct	_	start_char=1383|end_char=1384
 9	trapping	trapp	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	_	start_char=1385|end_char=1393
 10	heat	heat	NOUN	NN	Number=Sing	9	obj	_	start_char=1394|end_char=1398
@@ -355,8 +354,8 @@
 17-18	planet's	_	_	_	_	_	_	_	start_char=1430|end_char=1438
 17	planet	planet	NOUN	NN	Number=Sing	19	nmod:poss	_	start_char=1430|end_char=1436
 18	's	's	PART	POS	_	17	case	_	start_char=1436|end_char=1438
-19	surface	surface	NOUN	NN	Number=Sing	15	obj	_	start_char=1439|end_char=1446|SpaceAfter=No
-20	.	.	PUNCT	.	_	2	punct	_	start_char=1446|end_char=1447|SpacesAfter=\n\n
+19	surface	surface	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No|start_char=1439|end_char=1446
+20	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=1446|end_char=1447
 
 # text = The reality totally contradicted initial perceptions of this planet.
 # sent_id = 19
@@ -368,8 +367,8 @@
 6	perceptions	perception	NOUN	NNS	Number=Plur	4	obj	_	start_char=1490|end_char=1501
 7	of	of	ADP	IN	_	9	case	_	start_char=1502|end_char=1504
 8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	start_char=1505|end_char=1509
-9	planet	planet	NOUN	NN	Number=Sing	6	nmod	_	start_char=1510|end_char=1516|SpaceAfter=No
-10	.	.	PUNCT	.	_	4	punct	_	start_char=1516|end_char=1517|SpacesAfter=\n\n
+9	planet	planet	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No|start_char=1510|end_char=1516
+10	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=1516|end_char=1517
 
 # text = From these lessons from our own solar system, we've learned that a planet's atmosphere is crucial to its climate and potential to host life.
 # sent_id = 20
@@ -380,7 +379,7 @@
 5	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=1543|end_char=1546
 6	own	own	ADJ	JJ	Degree=Pos	8	amod	_	start_char=1547|end_char=1550
 7	solar	solar	ADJ	JJ	Degree=Pos	8	amod	_	start_char=1551|end_char=1556
-8	system	system	NOUN	NN	Number=Sing	3	nmod	_	start_char=1557|end_char=1563|SpaceAfter=No
+8	system	system	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No|start_char=1557|end_char=1563
 9	,	,	PUNCT	,	_	3	punct	_	start_char=1563|end_char=1564
 10-11	we've	_	_	_	_	_	_	_	start_char=1565|end_char=1570
 10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	start_char=1565|end_char=1567
@@ -401,8 +400,8 @@
 24	potential	potential	NOUN	NN	Number=Sing	22	conj	_	start_char=1636|end_char=1645
 25	to	to	PART	TO	_	26	mark	_	start_char=1646|end_char=1648
 26	host	host	VERB	VB	VerbForm=Inf	19	advcl	_	start_char=1649|end_char=1653
-27	life	life	NOUN	NN	Number=Sing	26	obj	_	start_char=1654|end_char=1658|SpaceAfter=No
-28	.	.	PUNCT	.	_	12	punct	_	start_char=1658|end_char=1659|SpacesAfter=\n\n
+27	life	life	NOUN	NN	Number=Sing	26	obj	_	SpaceAfter=No|start_char=1654|end_char=1658
+28	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n\n|start_char=1658|end_char=1659
 
 # text = We don't know what the atmospheres of these planets are like because the planets are so small and dim compared to their stars and so far away from us.
 # sent_id = 21
@@ -436,13 +435,13 @@
 27	far	far	ADV	RB	Degree=Pos	28	advmod	_	start_char=1794|end_char=1797
 28	away	away	ADV	RB	_	21	conj	_	start_char=1798|end_char=1802
 29	from	from	ADP	IN	_	30	case	_	start_char=1803|end_char=1807
-30	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	28	obl	_	start_char=1808|end_char=1810|SpaceAfter=No
-31	.	.	PUNCT	.	_	4	punct	_	start_char=1810|end_char=1811|SpacesAfter=\n\n
+30	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	28	obl	_	SpaceAfter=No|start_char=1808|end_char=1810
+31	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=1810|end_char=1811
 
 # text = For example, one of the closest planets that could support surface water -- it's called Gliese 667 Cc -- such a glamorous name, right, nice phone number for a name -- it's 23 light years away.
 # sent_id = 22
 1	For	for	ADP	IN	_	2	case	_	start_char=1813|end_char=1816
-2	example	example	NOUN	NN	Number=Sing	17	obl	_	start_char=1817|end_char=1824|SpaceAfter=No
+2	example	example	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No|start_char=1817|end_char=1824
 3	,	,	PUNCT	,	_	2	punct	_	start_char=1824|end_char=1825
 4	one	one	NUM	CD	NumForm=Word|NumType=Card	17	nsubj:pass	_	start_char=1826|end_char=1829
 5	of	of	ADP	IN	_	8	case	_	start_char=1830|end_char=1832
@@ -466,9 +465,9 @@
 22	such	such	DET	PDT	PronType=Ind	25	det:predet	_	start_char=1918|end_char=1922
 23	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	start_char=1923|end_char=1924
 24	glamorous	glamorous	ADJ	JJ	Degree=Pos	25	amod	_	start_char=1925|end_char=1934
-25	name	name	NOUN	NN	Number=Sing	17	parataxis	_	start_char=1935|end_char=1939|SpaceAfter=No
+25	name	name	NOUN	NN	Number=Sing	17	parataxis	_	SpaceAfter=No|start_char=1935|end_char=1939
 26	,	,	PUNCT	,	_	27	punct	_	start_char=1939|end_char=1940
-27	right	right	ADJ	JJ	Degree=Pos	31	discourse	_	start_char=1941|end_char=1946|SpaceAfter=No
+27	right	right	ADJ	JJ	Degree=Pos	31	discourse	_	SpaceAfter=No|start_char=1941|end_char=1946
 28	,	,	PUNCT	,	_	27	punct	_	start_char=1946|end_char=1947
 29	nice	nice	ADJ	JJ	Degree=Pos	31	amod	_	start_char=1948|end_char=1952
 30	phone	phone	NOUN	NN	Number=Sing	31	compound	_	start_char=1953|end_char=1958
@@ -483,8 +482,8 @@
 38	23	23	NUM	CD	NumForm=Digit|NumType=Card	40	nummod	_	start_char=1985|end_char=1987
 39	light	light	ADJ	JJ	Degree=Pos	40	amod	_	start_char=1988|end_char=1993
 40	years	year	NOUN	NNS	Number=Plur	41	obl:unmarked	_	start_char=1994|end_char=1999
-41	away	away	ADV	RB	_	17	parataxis	_	start_char=2000|end_char=2004|SpaceAfter=No
-42	.	.	PUNCT	.	_	17	punct	_	start_char=2004|end_char=2005|SpacesAfter=\n\n
+41	away	away	ADV	RB	_	17	parataxis	_	SpaceAfter=No|start_char=2000|end_char=2004
+42	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\n\n|start_char=2004|end_char=2005
 
 # text = So that's more than 100 trillion miles.
 # sent_id = 23
@@ -496,8 +495,8 @@
 5	than	than	ADP	IN	_	4	fixed	_	start_char=2022|end_char=2026
 6	100	100	NUM	CD	NumForm=Digit|NumType=Card	7	compound	_	start_char=2027|end_char=2030
 7	trillion	trillion	NUM	CD	NumForm=Word|NumType=Card	8	nummod	_	start_char=2031|end_char=2039
-8	miles	mile	NOUN	NNS	Number=Plur	0	root	_	start_char=2040|end_char=2045|SpaceAfter=No
-9	.	.	PUNCT	.	_	8	punct	_	start_char=2045|end_char=2046|SpacesAfter=\n\n
+8	miles	mile	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No|start_char=2040|end_char=2045
+9	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n\n|start_char=2045|end_char=2046
 
 # text = Trying to measure the atmospheric composition of an exoplanet passing in front of its host star is hard.
 # sent_id = 24
@@ -518,8 +517,8 @@
 15	host	host	NOUN	NN	Number=Sing	16	compound	_	start_char=2134|end_char=2138
 16	star	star	NOUN	NN	Number=Sing	12	nmod	_	start_char=2139|end_char=2143
 17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=2144|end_char=2146
-18	hard	hard	ADJ	JJ	Degree=Pos	0	root	_	start_char=2147|end_char=2151|SpaceAfter=No
-19	.	.	PUNCT	.	_	18	punct	_	start_char=2151|end_char=2152|SpacesAfter=\n\n
+18	hard	hard	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No|start_char=2147|end_char=2151
+19	.	.	PUNCT	.	_	18	punct	_	SpacesAfter=\n\n|start_char=2151|end_char=2152
 
 # text = It's like trying to see a fruit fly passing in front of a car's headlight.
 # sent_id = 25
@@ -541,12 +540,12 @@
 15-16	car's	_	_	_	_	_	_	_	start_char=2212|end_char=2217
 15	car	car	NOUN	NN	Number=Sing	17	nmod:poss	_	start_char=2212|end_char=2215
 16	's	's	PART	POS	_	15	case	_	start_char=2215|end_char=2217
-17	headlight	headlight	NOUN	NN	Number=Sing	12	nmod	_	start_char=2218|end_char=2227|SpaceAfter=No
-18	.	.	PUNCT	.	_	4	punct	_	start_char=2227|end_char=2228|SpacesAfter=\n\n
+17	headlight	headlight	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No|start_char=2218|end_char=2227
+18	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=2227|end_char=2228
 
 # text = OK, now imagine that car is 100 trillion miles away, and you want to know the precise color of that fly.
 # sent_id = 26
-1	OK	ok	INTJ	UH	_	4	discourse	_	start_char=2230|end_char=2232|SpaceAfter=No
+1	OK	ok	INTJ	UH	_	4	discourse	_	SpaceAfter=No|start_char=2230|end_char=2232
 2	,	,	PUNCT	,	_	1	punct	_	start_char=2232|end_char=2233
 3	now	now	ADV	RB	PronType=Dem	4	advmod	_	start_char=2234|end_char=2237
 4	imagine	imagine	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=2238|end_char=2245
@@ -556,7 +555,7 @@
 8	100	100	NUM	CD	NumForm=Digit|NumType=Card	9	compound	_	start_char=2258|end_char=2261
 9	trillion	trillion	NUM	CD	NumForm=Word|NumType=Card	10	nummod	_	start_char=2262|end_char=2270
 10	miles	mile	NOUN	NNS	Number=Plur	11	obl:unmarked	_	start_char=2271|end_char=2276
-11	away	away	ADV	RB	_	4	ccomp	_	start_char=2277|end_char=2281|SpaceAfter=No
+11	away	away	ADV	RB	_	4	ccomp	_	SpaceAfter=No|start_char=2277|end_char=2281
 12	,	,	PUNCT	,	_	15	punct	_	start_char=2281|end_char=2282
 13	and	and	CCONJ	CC	_	15	cc	_	start_char=2283|end_char=2286
 14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	start_char=2287|end_char=2290
@@ -568,8 +567,8 @@
 20	color	color	NOUN	NN	Number=Sing	17	obj	_	start_char=2316|end_char=2321
 21	of	of	ADP	IN	_	23	case	_	start_char=2322|end_char=2324
 22	that	that	DET	DT	Number=Sing|PronType=Dem	23	det	_	start_char=2325|end_char=2329
-23	fly	fly	NOUN	NN	Number=Sing	20	nmod	_	start_char=2330|end_char=2333|SpaceAfter=No
-24	.	.	PUNCT	.	_	4	punct	_	start_char=2333|end_char=2334|SpacesAfter=\n\n
+23	fly	fly	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No|start_char=2330|end_char=2333
+24	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=2333|end_char=2334
 
 # text = So I use computer models to calculate the kind of atmosphere a planet would need to have a suitable climate for water and life.
 # sent_id = 27
@@ -596,8 +595,8 @@
 21	for	for	ADP	IN	_	22	case	_	start_char=2444|end_char=2447
 22	water	water	NOUN	NN	Number=Sing	20	nmod	_	start_char=2448|end_char=2453
 23	and	and	CCONJ	CC	_	24	cc	_	start_char=2454|end_char=2457
-24	life	life	NOUN	NN	Number=Sing	22	conj	_	start_char=2458|end_char=2462|SpaceAfter=No
-25	.	.	PUNCT	.	_	3	punct	_	start_char=2462|end_char=2463|SpacesAfter=\n\n
+24	life	life	NOUN	NN	Number=Sing	22	conj	_	SpaceAfter=No|start_char=2458|end_char=2462
+25	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=2462|end_char=2463
 
 # text = Here's an artist's concept of the planet Kepler-62f, with the Earth for reference.
 # sent_id = 28
@@ -612,16 +611,16 @@
 7	of	of	ADP	IN	_	9	case	_	start_char=2492|end_char=2494
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=2495|end_char=2498
 9	planet	planet	NOUN	NN	Number=Sing	6	nmod	_	start_char=2499|end_char=2505
-10	Kepler	Kepler	PROPN	NNP	Number=Sing	9	appos	_	start_char=2506|end_char=2512|SpaceAfter=No
-11	-	-	PUNCT	HYPH	_	12	punct	_	start_char=2512|end_char=2513|SpaceAfter=No
-12	62f	62f	NOUN	NN	Number=Sing	9	appos	_	start_char=2513|end_char=2516|SpaceAfter=No
+10	Kepler	Kepler	PROPN	NNP	Number=Sing	9	appos	_	SpaceAfter=No|start_char=2506|end_char=2512
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No|start_char=2512|end_char=2513
+12	62f	62f	NOUN	NN	Number=Sing	9	appos	_	SpaceAfter=No|start_char=2513|end_char=2516
 13	,	,	PUNCT	,	_	16	punct	_	start_char=2516|end_char=2517
 14	with	with	ADP	IN	_	16	case	_	start_char=2518|end_char=2522
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=2523|end_char=2526
 16	Earth	Earth	PROPN	NNP	Number=Sing	9	nmod	_	start_char=2527|end_char=2532
 17	for	for	ADP	IN	_	18	case	_	start_char=2533|end_char=2536
-18	reference	reference	NOUN	NN	Number=Sing	16	nmod	_	start_char=2537|end_char=2546|SpaceAfter=No
-19	.	.	PUNCT	.	_	1	punct	_	start_char=2546|end_char=2547|SpacesAfter=\n\n
+18	reference	reference	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No|start_char=2537|end_char=2546
+19	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n|start_char=2546|end_char=2547
 
 # text = It's 1,200 light years away, and just 40 percent larger than Earth.
 # sent_id = 29
@@ -631,7 +630,7 @@
 3	1,200	1200	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	_	start_char=2554|end_char=2559
 4	light	light	ADJ	JJ	Degree=Pos	5	amod	_	start_char=2560|end_char=2565
 5	years	year	NOUN	NNS	Number=Plur	6	obl:unmarked	_	start_char=2566|end_char=2571
-6	away	away	ADV	RB	_	0	root	_	start_char=2572|end_char=2576|SpaceAfter=No
+6	away	away	ADV	RB	_	0	root	_	SpaceAfter=No|start_char=2572|end_char=2576
 7	,	,	PUNCT	,	_	12	punct	_	start_char=2576|end_char=2577
 8	and	and	CCONJ	CC	_	12	cc	_	start_char=2578|end_char=2581
 9	just	just	ADV	RB	_	10	advmod	_	start_char=2582|end_char=2586
@@ -639,14 +638,14 @@
 11	percent	percent	NOUN	NN	Number=Sing	12	obl:unmarked	_	start_char=2590|end_char=2597
 12	larger	large	ADJ	JJR	Degree=Cmp	6	conj	_	start_char=2598|end_char=2604
 13	than	than	ADP	IN	_	14	case	_	start_char=2605|end_char=2609
-14	Earth	Earth	PROPN	NNP	Number=Sing	12	obl	_	start_char=2610|end_char=2615|SpaceAfter=No
-15	.	.	PUNCT	.	_	6	punct	_	start_char=2615|end_char=2616|SpacesAfter=\n\n
+14	Earth	Earth	PROPN	NNP	Number=Sing	12	obl	_	SpaceAfter=No|start_char=2610|end_char=2615
+15	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=2615|end_char=2616
 
 # text = Our NSF-funded work found that it could be warm enough for open water from many types of atmospheres and orientations of its orbit.
 # sent_id = 30
 1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=2618|end_char=2621
-2	NSF	NSF	PROPN	NNP	Number=Sing	4	compound	_	start_char=2622|end_char=2625|SpaceAfter=No
-3	-	-	PUNCT	HYPH	_	2	punct	_	start_char=2625|end_char=2626|SpaceAfter=No
+2	NSF	NSF	PROPN	NNP	Number=Sing	4	compound	_	SpaceAfter=No|start_char=2622|end_char=2625
+3	-	-	PUNCT	HYPH	_	2	punct	_	SpaceAfter=No|start_char=2625|end_char=2626
 4	funded	fund	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	start_char=2626|end_char=2632
 5	work	work	NOUN	NN	Number=Sing	6	nsubj	_	start_char=2633|end_char=2637
 6	found	find	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2638|end_char=2643
@@ -668,8 +667,8 @@
 22	orientations	orientation	NOUN	NNS	Number=Plur	20	conj	_	start_char=2723|end_char=2735
 23	of	of	ADP	IN	_	25	case	_	start_char=2736|end_char=2738
 24	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	start_char=2739|end_char=2742
-25	orbit	orbit	NOUN	NN	Number=Sing	22	nmod	_	start_char=2743|end_char=2748|SpaceAfter=No
-26	.	.	PUNCT	.	_	6	punct	_	start_char=2748|end_char=2749|SpacesAfter=\n\n
+25	orbit	orbit	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No|start_char=2743|end_char=2748
+26	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=2748|end_char=2749
 
 # text = So I'd like future telescopes to follow up on this planet to look for signs of life.
 # sent_id = 31
@@ -691,8 +690,8 @@
 15	for	for	ADP	IN	_	16	case	_	start_char=2817|end_char=2820
 16	signs	sign	NOUN	NNS	Number=Plur	14	obl	_	start_char=2821|end_char=2826
 17	of	of	ADP	IN	_	18	case	_	start_char=2827|end_char=2829
-18	life	life	NOUN	NN	Number=Sing	16	nmod	_	start_char=2830|end_char=2834|SpaceAfter=No
-19	.	.	PUNCT	.	_	4	punct	_	start_char=2834|end_char=2835|SpacesAfter=\n\n
+18	life	life	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No|start_char=2830|end_char=2834
+19	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=2834|end_char=2835
 
 # text = Ice on a planet's surface is also important for climate.
 # sent_id = 32
@@ -707,27 +706,27 @@
 8	also	also	ADV	RB	_	9	advmod	_	start_char=2866|end_char=2870
 9	important	important	ADJ	JJ	Degree=Pos	0	root	_	start_char=2871|end_char=2880
 10	for	for	ADP	IN	_	11	case	_	start_char=2881|end_char=2884
-11	climate	climate	NOUN	NN	Number=Sing	9	obl	_	start_char=2885|end_char=2892|SpaceAfter=No
-12	.	.	PUNCT	.	_	9	punct	_	start_char=2892|end_char=2893|SpacesAfter=\n\n
+11	climate	climate	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No|start_char=2885|end_char=2892
+12	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n\n|start_char=2892|end_char=2893
 
 # text = Ice absorbs longer, redder wavelengths of light, and reflects shorter, bluer light.
 # sent_id = 33
 1	Ice	Ice	NOUN	NN	Number=Sing	2	nsubj	_	start_char=2895|end_char=2898
 2	absorbs	absorb	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2899|end_char=2906
-3	longer	long	ADJ	JJR	Degree=Cmp	6	amod	_	start_char=2907|end_char=2913|SpaceAfter=No
+3	longer	long	ADJ	JJR	Degree=Cmp	6	amod	_	SpaceAfter=No|start_char=2907|end_char=2913
 4	,	,	PUNCT	,	_	3	punct	_	start_char=2913|end_char=2914
 5	redder	redder	ADJ	JJR	Degree=Cmp	6	amod	_	start_char=2915|end_char=2921
 6	wavelengths	wavelengths	NOUN	NNS	Number=Plur	2	obj	_	start_char=2922|end_char=2933
 7	of	of	ADP	IN	_	8	case	_	start_char=2934|end_char=2936
-8	light	light	NOUN	NN	Number=Sing	6	nmod	_	start_char=2937|end_char=2942|SpaceAfter=No
+8	light	light	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No|start_char=2937|end_char=2942
 9	,	,	PUNCT	,	_	11	punct	_	start_char=2942|end_char=2943
 10	and	and	CCONJ	CC	_	11	cc	_	start_char=2944|end_char=2947
 11	reflects	reflect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=2948|end_char=2956
-12	shorter	short	ADJ	JJR	Degree=Cmp	15	amod	_	start_char=2957|end_char=2964|SpaceAfter=No
+12	shorter	short	ADJ	JJR	Degree=Cmp	15	amod	_	SpaceAfter=No|start_char=2957|end_char=2964
 13	,	,	PUNCT	,	_	12	punct	_	start_char=2964|end_char=2965
 14	bluer	bluer	ADJ	JJR	Degree=Cmp	15	amod	_	start_char=2966|end_char=2971
-15	light	light	NOUN	NN	Number=Sing	11	obj	_	start_char=2972|end_char=2977|SpaceAfter=No
-16	.	.	PUNCT	.	_	2	punct	_	start_char=2977|end_char=2978|SpacesAfter=\n\n
+15	light	light	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No|start_char=2972|end_char=2977
+16	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=2977|end_char=2978
 
 # text = That's why the iceberg in this photo looks so blue.
 # sent_id = 34
@@ -742,8 +741,8 @@
 8	photo	photo	NOUN	NN	Number=Sing	5	nmod	_	start_char=3011|end_char=3016
 9	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl:relcl	_	start_char=3017|end_char=3022
 10	so	so	ADV	RB	_	11	advmod	_	start_char=3023|end_char=3025
-11	blue	blue	ADJ	JJ	Degree=Pos	9	xcomp	_	start_char=3026|end_char=3030|SpaceAfter=No
-12	.	.	PUNCT	.	_	3	punct	_	start_char=3030|end_char=3031|SpacesAfter=\n\n
+11	blue	blue	ADJ	JJ	Degree=Pos	9	xcomp	_	SpaceAfter=No|start_char=3026|end_char=3030
+12	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=3030|end_char=3031
 
 # text = The redder light from the sun is absorbed on its way through the ice.
 # sent_id = 35
@@ -760,8 +759,8 @@
 11	way	way	NOUN	NN	Number=Sing	8	obl	_	start_char=3082|end_char=3085
 12	through	through	ADP	IN	_	14	case	_	start_char=3086|end_char=3093
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=3094|end_char=3097
-14	ice	ice	NOUN	NN	Number=Sing	8	obl	_	start_char=3098|end_char=3101|SpaceAfter=No
-15	.	.	PUNCT	.	_	8	punct	_	start_char=3101|end_char=3102|SpacesAfter=\n\n
+14	ice	ice	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No|start_char=3098|end_char=3101
+15	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n\n|start_char=3101|end_char=3102
 
 # text = Only the blue light makes it all the way to the bottom.
 # sent_id = 36
@@ -776,8 +775,8 @@
 9	way	way	NOUN	NN	Number=Sing	5	obl:unmarked	_	start_char=3141|end_char=3144
 10	to	to	ADP	IN	_	12	case	_	start_char=3145|end_char=3147
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=3148|end_char=3151
-12	bottom	bottom	NOUN	NN	Number=Sing	5	obl	_	start_char=3152|end_char=3158|SpaceAfter=No
-13	.	.	PUNCT	.	_	5	punct	_	start_char=3158|end_char=3159|SpacesAfter=\n\n
+12	bottom	bottom	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No|start_char=3152|end_char=3158
+13	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=3158|end_char=3159
 
 # text = Then it gets reflected back to up to our eyes and we see blue ice.
 # sent_id = 37
@@ -795,8 +794,8 @@
 12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	start_char=3211|end_char=3213
 13	see	see	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=3214|end_char=3217
 14	blue	blue	ADJ	JJ	Degree=Pos	15	amod	_	start_char=3218|end_char=3222
-15	ice	ice	NOUN	NN	Number=Sing	13	obj	_	start_char=3223|end_char=3226|SpaceAfter=No
-16	.	.	PUNCT	.	_	4	punct	_	start_char=3226|end_char=3227|SpacesAfter=\n\n
+15	ice	ice	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No|start_char=3223|end_char=3226
+16	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=3226|end_char=3227
 
 # text = My models show that planets orbiting cooler stars could actually be warmer than planets orbiting hotter stars.
 # sent_id = 38
@@ -816,8 +815,8 @@
 14	planets	planet	NOUN	NNS	Number=Plur	12	obl	_	start_char=3309|end_char=3316
 15	orbiting	orbit	VERB	VBG	VerbForm=Ger	14	acl	_	start_char=3317|end_char=3325
 16	hotter	hot	ADJ	JJR	Degree=Cmp	17	amod	_	start_char=3326|end_char=3332
-17	stars	star	NOUN	NNS	Number=Plur	15	obj	_	start_char=3333|end_char=3338|SpaceAfter=No
-18	.	.	PUNCT	.	_	3	punct	_	start_char=3338|end_char=3339|SpacesAfter=\n\n
+17	stars	star	NOUN	NNS	Number=Plur	15	obj	_	SpaceAfter=No|start_char=3333|end_char=3338
+18	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=3338|end_char=3339
 
 # text = There's another contradiction -- that ice absorbs the longer wavelength light from cooler stars, and that light, that energy, heats the ice.
 # sent_id = 39
@@ -836,19 +835,19 @@
 12	light	light	NOUN	NN	Number=Sing	8	obj	_	start_char=3413|end_char=3418
 13	from	from	ADP	IN	_	15	case	_	start_char=3419|end_char=3423
 14	cooler	cool	ADJ	JJR	Degree=Cmp	15	amod	_	start_char=3424|end_char=3430
-15	stars	star	NOUN	NNS	Number=Plur	8	obl	_	start_char=3431|end_char=3436|SpaceAfter=No
+15	stars	star	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No|start_char=3431|end_char=3436
 16	,	,	PUNCT	,	_	24	punct	_	start_char=3436|end_char=3437
 17	and	and	CCONJ	CC	_	24	cc	_	start_char=3438|end_char=3441
 18	that	that	DET	DT	Number=Sing|PronType=Dem	19	det	_	start_char=3442|end_char=3446
-19	light	light	NOUN	NN	Number=Sing	24	nsubj	_	start_char=3447|end_char=3452|SpaceAfter=No
+19	light	light	NOUN	NN	Number=Sing	24	nsubj	_	SpaceAfter=No|start_char=3447|end_char=3452
 20	,	,	PUNCT	,	_	22	punct	_	start_char=3452|end_char=3453
 21	that	that	DET	DT	Number=Sing|PronType=Dem	22	det	_	start_char=3454|end_char=3458
-22	energy	energy	NOUN	NN	Number=Sing	19	appos	_	start_char=3459|end_char=3465|SpaceAfter=No
+22	energy	energy	NOUN	NN	Number=Sing	19	appos	_	SpaceAfter=No|start_char=3459|end_char=3465
 23	,	,	PUNCT	,	_	19	punct	_	start_char=3465|end_char=3466
 24	heats	heat	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=3467|end_char=3472
 25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	start_char=3473|end_char=3476
-26	ice	ice	NOUN	NN	Number=Sing	24	obj	_	start_char=3477|end_char=3480|SpaceAfter=No
-27	.	.	PUNCT	.	_	2	punct	_	start_char=3480|end_char=3481|SpacesAfter=\n\n
+26	ice	ice	NOUN	NN	Number=Sing	24	obj	_	SpaceAfter=No|start_char=3477|end_char=3480
+27	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=3480|end_char=3481
 
 # text = Using climate models to explore how these contradictions can affect planetary climate is vital to the search for life elsewhere.
 # sent_id = 40
@@ -871,8 +870,8 @@
 17	search	search	NOUN	NN	Number=Sing	14	obl	_	start_char=3585|end_char=3591
 18	for	for	ADP	IN	_	19	case	_	start_char=3592|end_char=3595
 19	life	life	NOUN	NN	Number=Sing	17	nmod	_	start_char=3596|end_char=3600
-20	elsewhere	elsewhere	ADV	RB	_	17	advmod	_	start_char=3601|end_char=3610|SpaceAfter=No
-21	.	.	PUNCT	.	_	14	punct	_	start_char=3610|end_char=3611|SpacesAfter=\n\n
+20	elsewhere	elsewhere	ADV	RB	_	17	advmod	_	SpaceAfter=No|start_char=3601|end_char=3610
+21	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\n\n|start_char=3610|end_char=3611
 
 # text = And it's no surprise that this is my specialty.
 # sent_id = 41
@@ -886,8 +885,8 @@
 7	this	this	PRON	DT	Number=Sing|PronType=Dem	10	nsubj	_	start_char=3639|end_char=3643
 8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=3644|end_char=3646
 9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=3647|end_char=3649
-10	specialty	specialty	NOUN	NN	Number=Sing	5	acl	_	start_char=3650|end_char=3659|SpaceAfter=No
-11	.	.	PUNCT	.	_	5	punct	_	start_char=3659|end_char=3660|SpacesAfter=\n\n
+10	specialty	specialty	NOUN	NN	Number=Sing	5	acl	_	SpaceAfter=No|start_char=3650|end_char=3659
+11	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=3659|end_char=3660
 
 # text = I'm an African-American female astronomer and a classically trained actor who loves to wear makeup and read fashion magazines, so I am uniquely positioned to appreciate contradictions in nature --
 # sent_id = 42
@@ -895,8 +894,8 @@
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=3662|end_char=3663
 2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=3663|end_char=3665
 3	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=3666|end_char=3668
-4	African	African	ADJ	JJ	Degree=Pos	6	amod	_	start_char=3669|end_char=3676|SpaceAfter=No
-5	-	-	PUNCT	HYPH	_	4	punct	_	start_char=3676|end_char=3677|SpaceAfter=No
+4	African	African	ADJ	JJ	Degree=Pos	6	amod	_	SpaceAfter=No|start_char=3669|end_char=3676
+5	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No|start_char=3676|end_char=3677
 6	American	American	ADJ	JJ	Degree=Pos	8	amod	_	start_char=3677|end_char=3685
 7	female	female	ADJ	JJ	Degree=Pos	8	amod	_	start_char=3686|end_char=3692
 8	astronomer	astronomer	NOUN	NN	Number=Sing	0	root	_	start_char=3693|end_char=3703
@@ -913,7 +912,7 @@
 19	and	and	CCONJ	CC	_	20	cc	_	start_char=3761|end_char=3764
 20	read	read	VERB	VB	VerbForm=Inf	17	conj	_	start_char=3765|end_char=3769
 21	fashion	fashion	NOUN	NN	Number=Sing	22	compound	_	start_char=3770|end_char=3777
-22	magazines	magazine	NOUN	NNS	Number=Plur	20	obj	_	start_char=3778|end_char=3787|SpaceAfter=No
+22	magazines	magazine	NOUN	NNS	Number=Plur	20	obj	_	SpaceAfter=No|start_char=3778|end_char=3787
 23	,	,	PUNCT	,	_	28	punct	_	start_char=3787|end_char=3788
 24	so	so	ADV	RB	_	28	advmod	_	start_char=3789|end_char=3791
 25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj:pass	_	start_char=3792|end_char=3793
@@ -925,11 +924,11 @@
 31	contradictions	contradiction	NOUN	NNS	Number=Plur	30	obj	_	start_char=3831|end_char=3845
 32	in	in	ADP	IN	_	33	case	_	start_char=3846|end_char=3848
 33	nature	nature	NOUN	NN	Number=Sing	30	obl	_	start_char=3849|end_char=3855
-34	--	--	PUNCT	:	_	8	punct	_	start_char=3856|end_char=3858|SpacesAfter=\n\n
+34	--	--	PUNCT	:	_	8	punct	_	SpacesAfter=\n\n|start_char=3856|end_char=3858
 
 # text = ...and how they can inform our search for the next planet where life exists.
 # sent_id = 43
-1	...	...	PUNCT	,	_	6	punct	_	start_char=3860|end_char=3863|SpaceAfter=No
+1	...	...	PUNCT	,	_	6	punct	_	SpaceAfter=No|start_char=3860|end_char=3863
 2	and	and	CCONJ	CC	_	6	cc	_	start_char=3863|end_char=3866
 3	how	how	ADV	WRB	PronType=Int	6	advmod	_	start_char=3867|end_char=3870
 4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=3871|end_char=3875
@@ -943,35 +942,35 @@
 12	planet	planet	NOUN	NN	Number=Sing	8	nmod	_	start_char=3911|end_char=3917
 13	where	where	ADV	WRB	PronType=Rel	15	advmod	_	start_char=3918|end_char=3923
 14	life	life	NOUN	NN	Number=Sing	15	nsubj	_	start_char=3924|end_char=3928
-15	exists	exist	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	start_char=3929|end_char=3935|SpaceAfter=No
-16	.	.	PUNCT	.	_	6	punct	_	start_char=3935|end_char=3936|SpacesAfter=\n\n
+15	exists	exist	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No|start_char=3929|end_char=3935
+16	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=3935|end_char=3936
 
 # text = My organization, Rising Stargirls, teaches astronomy to middle-school girls of color, using theater, writing and visual art.
 # sent_id = 44
 1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=3938|end_char=3940
-2	organization	organization	NOUN	NN	Number=Sing	7	nsubj	_	start_char=3941|end_char=3953|SpaceAfter=No
+2	organization	organization	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No|start_char=3941|end_char=3953
 3	,	,	PUNCT	,	_	5	punct	_	start_char=3953|end_char=3954
 4	Rising	rise	VERB	NNP	VerbForm=Ger	5	amod	_	start_char=3955|end_char=3961
-5	Stargirls	Stargirls	PROPN	NNPS	Number=Sing	2	appos	_	start_char=3962|end_char=3971|SpaceAfter=No
+5	Stargirls	Stargirls	PROPN	NNPS	Number=Sing	2	appos	_	SpaceAfter=No|start_char=3962|end_char=3971
 6	,	,	PUNCT	,	_	2	punct	_	start_char=3971|end_char=3972
 7	teaches	teach	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3973|end_char=3980
 8	astronomy	astronomy	NOUN	NN	Number=Sing	7	obj	_	start_char=3981|end_char=3990
 9	to	to	ADP	IN	_	13	case	_	start_char=3991|end_char=3993
-10	middle	middle	ADJ	JJ	Degree=Pos	12	amod	_	start_char=3994|end_char=4000|SpaceAfter=No
-11	-	-	PUNCT	HYPH	_	10	punct	_	start_char=4000|end_char=4001|SpaceAfter=No
+10	middle	middle	ADJ	JJ	Degree=Pos	12	amod	_	SpaceAfter=No|start_char=3994|end_char=4000
+11	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No|start_char=4000|end_char=4001
 12	school	school	NOUN	NN	Number=Sing	13	compound	_	start_char=4001|end_char=4007
 13	girls	girl	NOUN	NNS	Number=Plur	7	obl	_	start_char=4008|end_char=4013
 14	of	of	ADP	IN	_	15	case	_	start_char=4014|end_char=4016
-15	color	color	NOUN	NN	Number=Sing	13	nmod	_	start_char=4017|end_char=4022|SpaceAfter=No
+15	color	color	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No|start_char=4017|end_char=4022
 16	,	,	PUNCT	,	_	17	punct	_	start_char=4022|end_char=4023
 17	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	7	advcl	_	start_char=4024|end_char=4029
-18	theater	theater	NOUN	NN	Number=Sing	17	obj	_	start_char=4030|end_char=4037|SpaceAfter=No
+18	theater	theater	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No|start_char=4030|end_char=4037
 19	,	,	PUNCT	,	_	20	punct	_	start_char=4037|end_char=4038
 20	writing	writing	NOUN	NN	Number=Sing	18	conj	_	start_char=4039|end_char=4046
 21	and	and	CCONJ	CC	_	23	cc	_	start_char=4047|end_char=4050
 22	visual	visual	ADJ	JJ	Degree=Pos	23	amod	_	start_char=4051|end_char=4057
-23	art	art	NOUN	NN	Number=Sing	18	conj	_	start_char=4058|end_char=4061|SpaceAfter=No
-24	.	.	PUNCT	.	_	7	punct	_	start_char=4061|end_char=4062|SpacesAfter=\n\n
+23	art	art	NOUN	NN	Number=Sing	18	conj	_	SpaceAfter=No|start_char=4058|end_char=4061
+24	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=4061|end_char=4062
 
 # text = That's another contradiction -- science and art don't often go together, but interweaving them can help these girls bring their whole selves to what they learn, and maybe one day join the ranks of astronomers who are full of contradictions, and use their backgrounds to discover, once and for all, that we are truly not alone in the universe.
 # sent_id = 45
@@ -989,7 +988,7 @@
 10	n't	not	PART	RB	Polarity=Neg	12	advmod	_	start_char=4114|end_char=4117
 11	often	often	ADV	RB	_	12	advmod	_	start_char=4118|end_char=4123
 12	go	go	VERB	VB	VerbForm=Inf	4	parataxis	_	start_char=4124|end_char=4126
-13	together	together	ADV	RB	_	12	advmod	_	start_char=4127|end_char=4135|SpaceAfter=No
+13	together	together	ADV	RB	_	12	advmod	_	SpaceAfter=No|start_char=4127|end_char=4135
 14	,	,	PUNCT	,	_	19	punct	_	start_char=4135|end_char=4136
 15	but	but	CCONJ	CC	_	19	cc	_	start_char=4137|end_char=4140
 16	interweaving	interweave	VERB	VBG	VerbForm=Ger	19	csubj	_	start_char=4141|end_char=4153
@@ -1005,7 +1004,7 @@
 26	to	to	ADP	IN	_	27	case	_	start_char=4205|end_char=4207
 27	what	what	PRON	WP	PronType=Rel	22	obl	_	start_char=4208|end_char=4212
 28	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	29	nsubj	_	start_char=4213|end_char=4217
-29	learn	learn	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	start_char=4218|end_char=4223|SpaceAfter=No
+29	learn	learn	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	SpaceAfter=No|start_char=4218|end_char=4223
 30	,	,	PUNCT	,	_	35	punct	_	start_char=4223|end_char=4224
 31	and	and	CCONJ	CC	_	35	cc	_	start_char=4225|end_char=4228
 32	maybe	maybe	ADV	RB	_	35	advmod	_	start_char=4229|end_char=4234
@@ -1020,19 +1019,19 @@
 41	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	start_char=4277|end_char=4280
 42	full	full	ADJ	JJ	Degree=Pos	39	acl:relcl	_	start_char=4281|end_char=4285
 43	of	of	ADP	IN	_	44	case	_	start_char=4286|end_char=4288
-44	contradictions	contradiction	NOUN	NNS	Number=Plur	42	obl	_	start_char=4289|end_char=4303|SpaceAfter=No
+44	contradictions	contradiction	NOUN	NNS	Number=Plur	42	obl	_	SpaceAfter=No|start_char=4289|end_char=4303
 45	,	,	PUNCT	,	_	47	punct	_	start_char=4303|end_char=4304
 46	and	and	CCONJ	CC	_	47	cc	_	start_char=4305|end_char=4308
 47	use	use	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	conj	_	start_char=4309|end_char=4312
 48	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	49	nmod:poss	_	start_char=4313|end_char=4318
 49	backgrounds	background	NOUN	NNS	Number=Plur	47	obj	_	start_char=4319|end_char=4330
 50	to	to	PART	TO	_	51	mark	_	start_char=4331|end_char=4333
-51	discover	discover	VERB	VB	VerbForm=Inf	47	advcl	_	start_char=4334|end_char=4342|SpaceAfter=No
+51	discover	discover	VERB	VB	VerbForm=Inf	47	advcl	_	SpaceAfter=No|start_char=4334|end_char=4342
 52	,	,	PUNCT	,	_	53	punct	_	start_char=4342|end_char=4343
 53	once	once	ADV	RB	NumForm=Word|NumType=Mult	51	advmod	_	start_char=4344|end_char=4348
 54	and	and	CCONJ	CC	_	55	cc	_	start_char=4349|end_char=4352
 55	for	for	ADP	IN	_	53	conj	_	start_char=4353|end_char=4356
-56	all	all	DET	DT	PronType=Tot	53	conj	_	start_char=4357|end_char=4360|SpaceAfter=No
+56	all	all	DET	DT	PronType=Tot	53	conj	_	SpaceAfter=No|start_char=4357|end_char=4360
 57	,	,	PUNCT	,	_	63	punct	_	start_char=4360|end_char=4361
 58	that	that	SCONJ	IN	_	63	mark	_	start_char=4362|end_char=4366
 59	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	63	nsubj	_	start_char=4367|end_char=4369
@@ -1042,11 +1041,11 @@
 63	alone	alone	ADJ	JJ	Degree=Pos	51	ccomp	_	start_char=4384|end_char=4389
 64	in	in	ADP	IN	_	66	case	_	start_char=4390|end_char=4392
 65	the	the	DET	DT	Definite=Def|PronType=Art	66	det	_	start_char=4393|end_char=4396
-66	universe	universe	NOUN	NN	Number=Sing	63	obl	_	start_char=4397|end_char=4405|SpaceAfter=No
-67	.	.	PUNCT	.	_	4	punct	_	start_char=4405|end_char=4406|SpacesAfter=\n\n
+66	universe	universe	NOUN	NN	Number=Sing	63	obl	_	SpaceAfter=No|start_char=4397|end_char=4405
+67	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=4405|end_char=4406
 
 # text = Thank you.
 # sent_id = 46
 1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4408|end_char=4413
-2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	start_char=4414|end_char=4417|SpaceAfter=No
-3	.	.	PUNCT	.	_	1	punct	_	start_char=4417|end_char=4418|SpaceAfter=No
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	SpaceAfter=No|start_char=4414|end_char=4417
+3	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|start_char=4417|end_char=4418

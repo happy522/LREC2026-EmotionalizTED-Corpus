@@ -1,10 +1,9 @@
 # conllu_stats: begin
 # conllu_tokens: 1731
 # conllu_sentences: 83
-# Average tokens per senteces: 20.85542168674699
-# sentece_pairs: 13
+# Average tokens per sentence: 20.85542168674699
+# sentence_pairs: 13
 # conllu_stats: end
-
 
 # text = Wie verkleinerte Atomuhren die Erkundung des Weltraums revolutionieren könnten
 # sent_id = 0
@@ -16,7 +15,7 @@
 6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=41|end_char=44
 7	Weltraums	Weltraum	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	start_char=45|end_char=54
 8	revolutionieren	revolutionieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=55|end_char=70
-9	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	start_char=71|end_char=78|SpacesAfter=\n\n
+9	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	SpacesAfter=\n\n|start_char=71|end_char=78
 
 # text = Vor sechs Monaten sah ich mit angehaltenem Atem zu, wie NASAs InSight Landemodul, auf die Marsoberfläche herabstieg.
 # sent_id = 1
@@ -28,53 +27,53 @@
 6	mit	mit	ADP	APPR	_	8	case	_	start_char=106|end_char=109
 7	angehaltenem	angehalten	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=110|end_char=122
 8	Atem	Atem	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	start_char=123|end_char=127
-9	zu	zu	ADP	PTKVZ	_	4	compound:prt	_	start_char=128|end_char=130|SpaceAfter=No
+9	zu	zu	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No|start_char=128|end_char=130
 10	,	,	PUNCT	$,	_	19	punct	_	start_char=130|end_char=131
 11	wie	wie	SCONJ	KOUS	_	19	advmod	_	start_char=132|end_char=135
 12	NASAs	NASAs	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	start_char=136|end_char=141
 13	InSight	InSight	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	start_char=142|end_char=149
-14	Landemodul	Landemodul	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	start_char=150|end_char=160|SpaceAfter=No
+14	Landemodul	Landemodul	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	SpaceAfter=No|start_char=150|end_char=160
 15	,	,	PUNCT	$,	_	13	punct	_	start_char=160|end_char=161
 16	auf	auf	ADP	APPR	_	18	case	_	start_char=162|end_char=165
 17	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=166|end_char=169
 18	Marsoberfläche	Marsoberfläche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	start_char=170|end_char=184
-19	herabstieg	herabsteigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	start_char=185|end_char=195|SpaceAfter=No
-20	.	.	PUNCT	$.	_	4	punct	_	start_char=195|end_char=196|SpacesAfter=\n\n
+19	herabstieg	herabsteigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	SpaceAfter=No|start_char=185|end_char=195
+20	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n|start_char=195|end_char=196
 
 # text = 200 Meter, 80 Meter, 60, 40, 20, 17 Meter.
 # sent_id = 2
 1	200	200	NUM	CARD	NumType=Card	2	nummod	_	start_char=198|end_char=201
-2	Meter	Meter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	0	root	_	start_char=202|end_char=207|SpaceAfter=No
+2	Meter	Meter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|start_char=202|end_char=207
 3	,	,	PUNCT	$,	_	5	punct	_	start_char=207|end_char=208
 4	80	80	NUM	CARD	NumType=Card	5	nummod	_	start_char=209|end_char=211
-5	Meter	Meter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	conj	_	start_char=212|end_char=217|SpaceAfter=No
+5	Meter	Meter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No|start_char=212|end_char=217
 6	,	,	PUNCT	$,	_	7	punct	_	start_char=217|end_char=218
-7	60	60	NUM	CARD	NumType=Card	2	nummod	_	start_char=219|end_char=221|SpaceAfter=No
+7	60	60	NUM	CARD	NumType=Card	2	nummod	_	SpaceAfter=No|start_char=219|end_char=221
 8	,	,	PUNCT	$,	_	9	punct	_	start_char=221|end_char=222
-9	40	40	NUM	CARD	NumType=Card	7	conj	_	start_char=223|end_char=225|SpaceAfter=No
+9	40	40	NUM	CARD	NumType=Card	7	conj	_	SpaceAfter=No|start_char=223|end_char=225
 10	,	,	PUNCT	$,	_	11	punct	_	start_char=225|end_char=226
-11	20	20	NUM	CARD	NumType=Card	7	conj	_	start_char=227|end_char=229|SpaceAfter=No
+11	20	20	NUM	CARD	NumType=Card	7	conj	_	SpaceAfter=No|start_char=227|end_char=229
 12	,	,	PUNCT	$,	_	14	punct	_	start_char=229|end_char=230
 13	17	17	NUM	CARD	NumType=Card	14	nummod	_	start_char=231|end_char=233
-14	Meter	Meter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	conj	_	start_char=234|end_char=239|SpaceAfter=No
-15	.	.	PUNCT	$.	_	2	punct	_	start_char=239|end_char=240|SpacesAfter=\n\n
+14	Meter	Meter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No|start_char=234|end_char=239
+15	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=239|end_char=240
 
 # text = Die Nachricht einer erfolgreichen Landung, war einer der fantastischsten Momente meines Lebens.
 # sent_id = 3
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=242|end_char=245
 2	Nachricht	Nachricht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=246|end_char=255
-3	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=256|end_char=261
+3	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=256|end_char=261
 4	erfolgreichen	erfolgreich	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=262|end_char=275
-5	Landung	Landung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=276|end_char=283|SpaceAfter=No
+5	Landung	Landung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No|start_char=276|end_char=283
 6	,	,	PUNCT	$,	_	2	punct	_	start_char=283|end_char=284
 7	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	start_char=285|end_char=288
-8	einer	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	0	root	_	start_char=289|end_char=294
+8	einer	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	0	root	_	start_char=289|end_char=294
 9	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=295|end_char=298
 10	fantastischsten	fantastisch	ADJ	ADJA	Case=Gen|Degree=Sup|Gender=Masc|Number=Plur	11	amod	_	start_char=299|end_char=314
 11	Momente	Moment	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	start_char=315|end_char=322
 12	meines	mein	DET	PPOSAT	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	start_char=323|end_char=329
-13	Lebens	Leben	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	start_char=330|end_char=336|SpaceAfter=No
-14	.	.	PUNCT	$.	_	8	punct	_	start_char=336|end_char=337|SpacesAfter=\n\n
+13	Lebens	Leben	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No|start_char=330|end_char=336
+14	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n|start_char=336|end_char=337
 
 # text = Und diese Nachricht zu hören war nur möglich, durch zwei Würfel, die bei der Reise zum Mars dabei waren.
 # sent_id = 4
@@ -85,11 +84,11 @@
 5	hören	hören	VERB	VVINF	VerbForm=Inf	8	csubj	_	start_char=362|end_char=367
 6	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	start_char=368|end_char=371
 7	nur	nur	ADV	ADV	_	8	advmod	_	start_char=372|end_char=375
-8	möglich	möglich	ADJ	ADJD	Degree=Pos	0	root	_	start_char=376|end_char=383|SpaceAfter=No
+8	möglich	möglich	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=376|end_char=383
 9	,	,	PUNCT	$,	_	12	punct	_	start_char=383|end_char=384
 10	durch	durch	ADP	APPR	_	12	case	_	start_char=385|end_char=390
 11	zwei	zwei	NUM	CARD	NumType=Card	12	nummod	_	start_char=391|end_char=395
-12	Würfel	Würfel	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	start_char=396|end_char=402|SpaceAfter=No
+12	Würfel	Würfel	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No|start_char=396|end_char=402
 13	,	,	PUNCT	$,	_	22	punct	_	start_char=402|end_char=403
 14	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	22	nsubj	_	start_char=404|end_char=407
 15	bei	bei	ADP	APPR	_	17	case	_	start_char=408|end_char=411
@@ -100,14 +99,14 @@
 19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	Mars	Mars	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	start_char=426|end_char=430
 21	dabei	dabei	ADV	PAV	_	22	advmod	_	start_char=431|end_char=436
-22	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	acl	_	start_char=437|end_char=442|SpaceAfter=No
-23	.	.	PUNCT	$.	_	8	punct	_	start_char=442|end_char=443|SpacesAfter=\n\n
+22	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	acl	_	SpaceAfter=No|start_char=437|end_char=442
+23	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n|start_char=442|end_char=443
 
 # text = Diese beiden Würfel, sendeten InSights Messwerte live zurück an die Erde, sodass wir in beinahe Echtzeit beobachten konnten wie das InSight Landemodul, auf den roten Planeten zusteuerte. Es erreichte die Marsatmosphäre mit einer Höchstgeschwindigkeit von etwa 19.000 Stundenkilometern.
 # sent_id = 5
 1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	start_char=445|end_char=450
-2	beiden	beide	DET	PIAT	Case=Nom|Gender=Fem|NumType=Card|Number=Plur|PronType=Tot	3	det	_	start_char=451|end_char=457
-3	Würfel	Würfel	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	obj	_	start_char=458|end_char=464|SpaceAfter=No
+2	beiden	beide	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|NumType=Card|PronType=Tot	3	det	_	start_char=451|end_char=457
+3	Würfel	Würfel	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No|start_char=458|end_char=464
 4	,	,	PUNCT	$,	_	3	punct	_	start_char=464|end_char=465
 5	sendeten	senden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=466|end_char=474
 6	InSights	InSights	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=475|end_char=483
@@ -116,7 +115,7 @@
 9	zurück	zurück	ADV	ADV	_	5	advmod	_	start_char=499|end_char=505
 10	an	an	ADP	APPR	_	12	case	_	start_char=506|end_char=508
 11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=509|end_char=512
-12	Erde	Erde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	start_char=513|end_char=517|SpaceAfter=No
+12	Erde	Erde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|start_char=513|end_char=517
 13	,	,	PUNCT	$,	_	19	punct	_	start_char=517|end_char=518
 14	sodass	sodass	SCONJ	KOUS	_	19	mark	_	start_char=519|end_char=525
 15	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	start_char=526|end_char=529
@@ -128,26 +127,26 @@
 21	wie	wie	ADP	KOKOM	_	23	case	_	start_char=569|end_char=572
 22	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	start_char=573|end_char=576
 23	InSight	InSight	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	19	obl	_	start_char=577|end_char=584
-24	Landemodul	Landemodul	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	23	flat	_	start_char=585|end_char=595|SpaceAfter=No
+24	Landemodul	Landemodul	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	23	flat	_	SpaceAfter=No|start_char=585|end_char=595
 25	,	,	PUNCT	$,	_	23	punct	_	start_char=595|end_char=596
 26	auf	auf	ADP	APPR	_	29	case	_	start_char=597|end_char=600
 27	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	start_char=601|end_char=604
 28	roten	rot	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	start_char=605|end_char=610
 29	Planeten	Planet	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	30	obl	_	start_char=611|end_char=619
-30	zusteuerte	zusteuern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	conj	_	start_char=620|end_char=630|SpaceAfter=No
+30	zusteuerte	zusteuern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	conj	_	SpaceAfter=No|start_char=620|end_char=630
 31	.	.	PUNCT	$.	_	33	punct	_	start_char=630|end_char=631
 32	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	expl	_	start_char=632|end_char=634
 33	erreichte	erreichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	parataxis	_	start_char=635|end_char=644
 34	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	start_char=645|end_char=648
 35	Marsatmosphäre	Marsatmosphäre	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	33	nsubj	_	start_char=649|end_char=663
 36	mit	mit	ADP	APPR	_	38	case	_	start_char=664|end_char=667
-37	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	38	det	_	start_char=668|end_char=673
+37	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	38	det	_	start_char=668|end_char=673
 38	Höchstgeschwindigkeit	Höchstgeschwindigkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	33	obl	_	start_char=674|end_char=695
 39	von	von	ADP	APPR	_	42	case	_	start_char=696|end_char=699
 40	etwa	etwa	ADV	ADV	_	41	advmod	_	start_char=700|end_char=704
 41	19.000	19.000	NUM	CARD	NumType=Card	42	nummod	_	start_char=705|end_char=711
-42	Stundenkilometern	Stundenkilometer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	38	nmod	_	start_char=712|end_char=729|SpaceAfter=No
-43	.	.	PUNCT	$.	_	5	punct	_	start_char=729|end_char=730|SpacesAfter=\n\n
+42	Stundenkilometern	Stundenkilometer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	38	nmod	_	SpaceAfter=No|start_char=712|end_char=729
+43	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n|start_char=729|end_char=730
 
 # text = Dieses Ereignis wurde für uns live übertragen. Aus einer Distanz von über 140 Millionen Kilometern.
 # sent_id = 6
@@ -157,17 +156,17 @@
 4	für	für	ADP	APPR	_	5	case	_	start_char=754|end_char=757
 5	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	obl	_	start_char=758|end_char=761
 6	live	live	ADJ	ADJD	Degree=Pos	7	advmod	_	start_char=762|end_char=766
-7	übertragen	übertragen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=767|end_char=777|SpaceAfter=No
+7	übertragen	übertragen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=767|end_char=777
 8	.	.	PUNCT	$.	_	11	punct	_	start_char=777|end_char=778
 9	Aus	aus	ADP	APPR	_	11	case	_	start_char=779|end_char=782
-10	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	11	det	_	start_char=783|end_char=788
+10	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	11	det	_	start_char=783|end_char=788
 11	Distanz	Distanz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	start_char=789|end_char=796
 12	von	von	ADP	APPR	_	16	case	_	start_char=797|end_char=800
 13	über	über	ADV	ADV	_	14	advmod	_	start_char=801|end_char=805
 14	140	140	NUM	CARD	NumType=Card	15	nummod	_	start_char=806|end_char=809
 15	Millionen	Million	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	16	nmod	_	start_char=810|end_char=819
-16	Kilometern	Kilometer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	nmod	_	start_char=820|end_char=830|SpaceAfter=No
-17	.	.	PUNCT	$.	_	7	punct	_	start_char=830|end_char=831|SpacesAfter=\n\n
+16	Kilometern	Kilometer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No|start_char=820|end_char=830
+17	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n|start_char=830|end_char=831
 
 # text = Es wurde vom Mars aus live übertragen.
 # sent_id = 7
@@ -179,8 +178,8 @@
 5	Mars	Mars	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	8	obl:agent	_	start_char=846|end_char=850
 6	aus	aus	ADP	APZR	_	5	fixed	_	start_char=851|end_char=854
 7	live	live	ADJ	ADJD	Degree=Pos	8	advmod	_	start_char=855|end_char=859
-8	übertragen	übertragen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=860|end_char=870|SpaceAfter=No
-9	.	.	PUNCT	$.	_	8	punct	_	start_char=870|end_char=871|SpacesAfter=\n\n
+8	übertragen	übertragen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=860|end_char=870
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n|start_char=870|end_char=871
 
 # text = Und dann gibt es noch diese beiden Voyager Raumsonden -- das sind diese beiden fast unglaublich furchtlosen Erkunder.
 # sent_id = 8
@@ -190,19 +189,19 @@
 4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=887|end_char=889
 5	noch	noch	ADV	ADV	_	3	advmod	_	start_char=890|end_char=894
 6	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	9	det	_	start_char=895|end_char=900
-7	beiden	beide	DET	PIAT	Case=Acc|Gender=Fem|NumType=Card|Number=Plur|PronType=Tot	8	det	_	start_char=901|end_char=907
+7	beiden	beide	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|NumType=Card|PronType=Tot	8	det	_	start_char=901|end_char=907
 8	Voyager	Voyager	PROPN	ADJA	Case=Acc|Gender=Fem|Number=Plur	3	nsubj	_	start_char=908|end_char=915
 9	Raumsonden	Raumsonde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	nsubj	_	start_char=916|end_char=926
 10	--	--	PUNCT	$(	_	18	punct	_	start_char=927|end_char=929
 11	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	18	nsubj	_	start_char=930|end_char=933
 12	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=934|end_char=938
 13	diese	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	18	det	_	start_char=939|end_char=944
-14	beiden	beide	DET	PIAT	Case=Nom|Gender=Masc|NumType=Card|Number=Plur|PronType=Tot	18	det	_	start_char=945|end_char=951
+14	beiden	beide	DET	PIAT	Case=Nom|Gender=Masc|Number=Plur|NumType=Card|PronType=Tot	18	det	_	start_char=945|end_char=951
 15	fast	fast	ADV	ADV	_	16	advmod	_	start_char=952|end_char=956
 16	unglaublich	unglaublich	ADJ	ADJD	Degree=Pos	17	advmod	_	start_char=957|end_char=968
 17	furchtlosen	furchtlos	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	18	amod	_	start_char=969|end_char=980
-18	Erkunder	Erkunder	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	parataxis	_	start_char=981|end_char=989|SpaceAfter=No
-19	.	.	PUNCT	$.	_	3	punct	_	start_char=989|end_char=990|SpacesAfter=\n\n
+18	Erkunder	Erkunder	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	parataxis	_	SpaceAfter=No|start_char=981|end_char=989
+19	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n|start_char=989|end_char=990
 
 # text = Sie wurden im selben Jahr gestartet, in dem wir alle Han Solo kennenlernten.
 # sent_id = 9
@@ -213,7 +212,7 @@
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
 5	selben	selber	DET	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Emp	6	det	_	start_char=1006|end_char=1012
 6	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	start_char=1013|end_char=1017
-7	gestartet	starten	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1018|end_char=1027|SpaceAfter=No
+7	gestartet	starten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=1018|end_char=1027
 8	,	,	PUNCT	$,	_	15	punct	_	start_char=1027|end_char=1028
 9	in	in	ADP	APPR	_	10	case	_	start_char=1029|end_char=1031
 10	dem	der	PRON	PRELS	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem,Rel	15	obl	_	start_char=1032|end_char=1035
@@ -221,8 +220,8 @@
 12	alle	alle	DET	PIS	Case=Acc|Number=Plur|PronType=Tot	13	det	_	start_char=1040|end_char=1044
 13	Han	Han	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	start_char=1045|end_char=1048
 14	Solo	Solo	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	13	flat	_	start_char=1049|end_char=1053
-15	kennenlernten	kennenlernen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	acl	_	start_char=1054|end_char=1067|SpaceAfter=No
-16	.	.	PUNCT	$.	_	7	punct	_	start_char=1067|end_char=1068|SpacesAfter=\n\n
+15	kennenlernten	kennenlernen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	acl	_	SpaceAfter=No|start_char=1054|end_char=1067
+16	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n|start_char=1067|end_char=1068
 
 # text = Und sie senden immer noch Daten aus dem Weltraum und das nach über 40 Jahren
 # sent_id = 10
@@ -240,24 +239,24 @@
 12	nach	nach	ADP	APPR	_	15	case	_	start_char=1127|end_char=1131
 13	über	über	ADV	ADV	_	14	advmod	_	start_char=1132|end_char=1136
 14	40	40	NUM	CARD	NumType=Card	15	nummod	_	start_char=1137|end_char=1139
-15	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	11	nmod	_	start_char=1140|end_char=1146|SpacesAfter=\n\n
+15	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	11	nmod	_	SpacesAfter=\n\n|start_char=1140|end_char=1146
 
 # text = Wir senden mehr Raumsonden, tiefer in den Weltraum, als jemals zuvor.
 # sent_id = 11
 1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=1148|end_char=1151
 2	senden	senden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1152|end_char=1158
 3	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	4	det	_	start_char=1159|end_char=1163
-4	Raumsonden	Raumsonde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=1164|end_char=1174|SpaceAfter=No
+4	Raumsonden	Raumsonde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No|start_char=1164|end_char=1174
 5	,	,	PUNCT	$,	_	6	punct	_	start_char=1174|end_char=1175
 6	tiefer	tief	ADJ	ADJD	Degree=Cmp	4	amod	_	start_char=1176|end_char=1182
 7	in	in	ADP	APPR	_	9	case	_	start_char=1183|end_char=1185
 8	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=1186|end_char=1189
-9	Weltraum	Weltraum	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	start_char=1190|end_char=1198|SpaceAfter=No
+9	Weltraum	Weltraum	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No|start_char=1190|end_char=1198
 10	,	,	PUNCT	$,	_	13	punct	_	start_char=1198|end_char=1199
 11	als	als	ADP	KOKOM	_	13	case	_	start_char=1200|end_char=1203
 12	jemals	jemals	ADV	ADV	_	13	advmod	_	start_char=1204|end_char=1210
-13	zuvor	zuvor	ADV	ADV	_	2	advmod	_	start_char=1211|end_char=1216|SpaceAfter=No
-14	.	.	PUNCT	$.	_	2	punct	_	start_char=1216|end_char=1217|SpacesAfter=\n\n
+13	zuvor	zuvor	ADV	ADV	_	2	advmod	_	SpaceAfter=No|start_char=1211|end_char=1216
+14	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=1216|end_char=1217
 
 # text = Aber jede dieser Raumsonden da draußen, muss direkt hier von der Erde aus gesteuert werden. Nur so weiß die Sonde, wo sie ist, und noch wichtiger, wo sie hin muss.
 # sent_id = 12
@@ -266,7 +265,7 @@
 3	dieser	dieser	DET	PDAT	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	start_char=1229|end_char=1235
 4	Raumsonden	Raumsonde	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	start_char=1236|end_char=1246
 5	da	da	ADV	ADV	_	6	advmod	_	start_char=1247|end_char=1249
-6	draußen	draußen	ADV	ADV	_	15	advmod	_	start_char=1250|end_char=1257|SpaceAfter=No
+6	draußen	draußen	ADV	ADV	_	15	advmod	_	SpaceAfter=No|start_char=1250|end_char=1257
 7	,	,	PUNCT	$,	_	6	punct	_	start_char=1257|end_char=1258
 8	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=1259|end_char=1263
 9	direkt	direkt	ADJ	ADJD	Degree=Pos	10	advmod	_	start_char=1264|end_char=1270
@@ -276,27 +275,27 @@
 13	Erde	Erde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl:agent	_	start_char=1284|end_char=1288
 14	aus	aus	ADP	APZR	_	13	fixed	_	start_char=1289|end_char=1292
 15	gesteuert	steuern	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1293|end_char=1302
-16	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	15	aux:pass	_	start_char=1303|end_char=1309|SpaceAfter=No
+16	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	15	aux:pass	_	SpaceAfter=No|start_char=1303|end_char=1309
 17	.	.	PUNCT	$.	_	20	punct	_	start_char=1309|end_char=1310
 18	Nur	nur	ADV	ADV	_	20	advmod	_	start_char=1311|end_char=1314
 19	so	so	ADV	ADV	_	20	advmod	_	start_char=1315|end_char=1317
 20	weiß	wissen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	start_char=1318|end_char=1322
 21	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=1323|end_char=1326
-22	Sonde	Sonde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	start_char=1327|end_char=1332|SpaceAfter=No
+22	Sonde	Sonde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	SpaceAfter=No|start_char=1327|end_char=1332
 23	,	,	PUNCT	$,	_	26	punct	_	start_char=1332|end_char=1333
 24	wo	wo	ADV	PWAV	PronType=Int	26	advmod	_	start_char=1334|end_char=1336
 25	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	start_char=1337|end_char=1340
-26	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl	_	start_char=1341|end_char=1344|SpaceAfter=No
+26	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl	_	SpaceAfter=No|start_char=1341|end_char=1344
 27	,	,	PUNCT	$,	_	30	punct	_	start_char=1344|end_char=1345
 28	und	und	CCONJ	KON	_	30	cc	_	start_char=1346|end_char=1349
 29	noch	noch	ADV	ADV	_	30	advmod	_	start_char=1350|end_char=1354
-30	wichtiger	wichtig	ADJ	ADJD	Degree=Cmp	20	conj	_	start_char=1355|end_char=1364|SpaceAfter=No
+30	wichtiger	wichtig	ADJ	ADJD	Degree=Cmp	20	conj	_	SpaceAfter=No|start_char=1355|end_char=1364
 31	,	,	PUNCT	$,	_	34	punct	_	start_char=1364|end_char=1365
 32	wo	wo	ADV	PWAV	PronType=Int	30	advmod	_	start_char=1366|end_char=1368
 33	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	35	nsubj	_	start_char=1369|end_char=1372
 34	hin	hin	ADV	ADV	_	30	advmod	_	start_char=1373|end_char=1376
-35	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	start_char=1377|end_char=1381|SpaceAfter=No
-36	.	.	PUNCT	$.	_	15	punct	_	start_char=1381|end_char=1382|SpacesAfter=\n\n
+35	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	SpaceAfter=No|start_char=1377|end_char=1381
+36	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\n\n|start_char=1381|end_char=1382
 
 # text = Die Navigation muss hier auf der Erde erfolgen. Das hat einen einfachen Grund: Raumsonden können nur sehr schlecht die Zeit messen.
 # sent_id = 13
@@ -307,13 +306,13 @@
 5	auf	auf	ADP	APPR	_	7	case	_	start_char=1409|end_char=1412
 6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=1413|end_char=1416
 7	Erde	Erde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	start_char=1417|end_char=1421
-8	erfolgen	erfolgen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1422|end_char=1430|SpaceAfter=No
+8	erfolgen	erfolgen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1422|end_char=1430
 9	.	.	PUNCT	$.	_	11	punct	_	start_char=1430|end_char=1431
 10	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	11	nsubj	_	start_char=1432|end_char=1435
 11	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	start_char=1436|end_char=1439
-12	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	14	det	_	start_char=1440|end_char=1445
+12	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	14	det	_	start_char=1440|end_char=1445
 13	einfachen	einfach	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=1446|end_char=1455
-14	Grund	Grund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=1456|end_char=1461|SpaceAfter=No
+14	Grund	Grund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No|start_char=1456|end_char=1461
 15	:	:	PUNCT	$.	_	23	punct	_	start_char=1461|end_char=1462
 16	Raumsonden	Raumsonde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	23	nsubj	_	start_char=1463|end_char=1473
 17	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	start_char=1474|end_char=1480
@@ -322,81 +321,81 @@
 20	schlecht	schlecht	ADJ	ADJD	Degree=Pos	23	advmod	_	start_char=1490|end_char=1498
 21	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=1499|end_char=1502
 22	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	start_char=1503|end_char=1507
-23	messen	messen	VERB	VVINF	VerbForm=Inf	11	ccomp	_	start_char=1508|end_char=1514|SpaceAfter=No
-24	.	.	PUNCT	$.	_	8	punct	_	start_char=1514|end_char=1515|SpacesAfter=\n\n
+23	messen	messen	VERB	VVINF	VerbForm=Inf	11	ccomp	_	SpaceAfter=No|start_char=1508|end_char=1514
+24	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n|start_char=1514|end_char=1515
 
 # text = Aber, wenn wir das ändern können, wird es unsere Art, den Weltraum zu erkunden, revolutionieren.
 # sent_id = 14
-1	Aber	aber	CCONJ	KON	_	19	cc	_	start_char=1517|end_char=1521|SpaceAfter=No
+1	Aber	aber	CCONJ	KON	_	19	cc	_	SpaceAfter=No|start_char=1517|end_char=1521
 2	,	,	PUNCT	$,	_	6	punct	_	start_char=1521|end_char=1522
 3	wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=1523|end_char=1527
 4	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=1528|end_char=1531
 5	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	6	obj	_	start_char=1532|end_char=1535
 6	ändern	ändern	VERB	VVINF	VerbForm=Inf	19	advcl	_	start_char=1536|end_char=1542
-7	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=1543|end_char=1549|SpaceAfter=No
+7	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No|start_char=1543|end_char=1549
 8	,	,	PUNCT	$,	_	6	punct	_	start_char=1549|end_char=1550
 9	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=1551|end_char=1555
 10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	start_char=1556|end_char=1558
 11	unsere	unser	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	start_char=1559|end_char=1565
-12	Art	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	start_char=1566|end_char=1569|SpaceAfter=No
+12	Art	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No|start_char=1566|end_char=1569
 13	,	,	PUNCT	$,	_	17	punct	_	start_char=1569|end_char=1570
 14	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=1571|end_char=1574
 15	Weltraum	Weltraum	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	start_char=1575|end_char=1583
 16	zu	zu	PART	PTKZU	_	17	mark	_	start_char=1584|end_char=1586
-17	erkunden	erkunden	VERB	VVINF	VerbForm=Inf	12	acl	_	start_char=1587|end_char=1595|SpaceAfter=No
+17	erkunden	erkunden	VERB	VVINF	VerbForm=Inf	12	acl	_	SpaceAfter=No|start_char=1587|end_char=1595
 18	,	,	PUNCT	$,	_	17	punct	_	start_char=1595|end_char=1596
-19	revolutionieren	revolutionieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=1597|end_char=1612|SpaceAfter=No
-20	.	.	PUNCT	$.	_	19	punct	_	start_char=1612|end_char=1613|SpacesAfter=\n\n
+19	revolutionieren	revolutionieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1597|end_char=1612
+20	.	.	PUNCT	$.	_	19	punct	_	SpacesAfter=\n\n|start_char=1612|end_char=1613
 
 # text = Ich bin Weltraumnavigatorin. Jetzt denken Sie wahrscheinlich: "Was ist das denn für ein Job?"
 # sent_id = 15
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=1615|end_char=1618
 2	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=1619|end_char=1622
-3	Weltraumnavigatorin	Weltraumnavigatorin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=1623|end_char=1642|SpaceAfter=No
+3	Weltraumnavigatorin	Weltraumnavigatorin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=1623|end_char=1642
 4	.	.	PUNCT	$.	_	6	punct	_	start_char=1642|end_char=1643
 5	Jetzt	jetzt	ADV	ADV	_	6	advmod	_	start_char=1644|end_char=1649
 6	denken	denken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=1650|end_char=1656
 7	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	start_char=1657|end_char=1660
-8	wahrscheinlich	wahrscheinlich	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=1661|end_char=1675|SpaceAfter=No
+8	wahrscheinlich	wahrscheinlich	ADJ	ADJD	Degree=Pos	6	advmod	_	SpaceAfter=No|start_char=1661|end_char=1675
 9	:	:	PUNCT	$.	_	13	punct	_	start_char=1675|end_char=1676
-10	"	"	PUNCT	$(	_	13	punct	_	start_char=1677|end_char=1678|SpaceAfter=No
+10	"	"	PUNCT	$(	_	13	punct	_	SpaceAfter=No|start_char=1677|end_char=1678
 11	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	13	nsubj	_	start_char=1678|end_char=1681
 12	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=1682|end_char=1685
 13	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	6	parataxis	_	start_char=1686|end_char=1689
 14	denn	denn	ADV	ADV	_	13	advmod	_	start_char=1690|end_char=1694
 15	für	für	ADP	APPR	_	17	case	_	start_char=1695|end_char=1698
-16	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	17	det	_	start_char=1699|end_char=1702
-17	Job	Job	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	start_char=1703|end_char=1706|SpaceAfter=No
-18	?	?	PUNCT	$.	_	13	punct	_	start_char=1706|end_char=1707|SpaceAfter=No
-19	"	"	PUNCT	$(	_	13	punct	_	start_char=1707|end_char=1708|SpacesAfter=\n\n
+16	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	17	det	_	start_char=1699|end_char=1702
+17	Job	Job	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No|start_char=1703|end_char=1706
+18	?	?	PUNCT	$.	_	13	punct	_	SpaceAfter=No|start_char=1706|end_char=1707
+19	"	"	PUNCT	$(	_	13	punct	_	SpacesAfter=\n\n|start_char=1707|end_char=1708
 
 # text = Nun ja, es ist ein einzigartiger Job, der viel Spaß macht.
 # sent_id = 16
 1	Nun	nun	ADV	ADV	_	8	advmod	_	start_char=1710|end_char=1713
-2	ja	ja	ADV	ADV	_	8	advmod	_	start_char=1714|end_char=1716|SpaceAfter=No
+2	ja	ja	ADV	ADV	_	8	advmod	_	SpaceAfter=No|start_char=1714|end_char=1716
 3	,	,	PUNCT	$,	_	8	punct	_	start_char=1716|end_char=1717
 4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=1718|end_char=1720
 5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=1721|end_char=1724
-6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=1725|end_char=1728
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=1725|end_char=1728
 7	einzigartiger	einzigartig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=1729|end_char=1742
-8	Job	Job	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=1743|end_char=1746|SpaceAfter=No
+8	Job	Job	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=1743|end_char=1746
 9	,	,	PUNCT	$,	_	13	punct	_	start_char=1746|end_char=1747
 10	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	13	nsubj	_	start_char=1748|end_char=1751
 11	viel	viel	DET	PIAT	PronType=Ind	12	det	_	start_char=1752|end_char=1756
 12	Spaß	Spaß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=1757|end_char=1761
-13	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	start_char=1762|end_char=1767|SpaceAfter=No
-14	.	.	PUNCT	$.	_	8	punct	_	start_char=1767|end_char=1768|SpacesAfter=\n\n
+13	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	SpaceAfter=No|start_char=1762|end_char=1767
+14	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n|start_char=1767|end_char=1768
 
 # text = Ich steuere Raumsonden, vom Moment, in dem sie sich von der Trägerrakete trennen bis zu ihrem Ziel im Weltraum.
 # sent_id = 17
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=1770|end_char=1773
 2	steuere	steuern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1774|end_char=1781
-3	Raumsonden	Raumsonde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=1782|end_char=1792|SpaceAfter=No
+3	Raumsonden	Raumsonde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No|start_char=1782|end_char=1792
 4	,	,	PUNCT	$,	_	7	punct	_	start_char=1792|end_char=1793
 5-6	vom	_	_	_	_	_	_	_	start_char=1794|end_char=1797
 5	von	von	ADP	APPR	_	7	case	_	_
 6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	Moment	Moment	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=1798|end_char=1804|SpaceAfter=No
+7	Moment	Moment	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|start_char=1798|end_char=1804
 8	,	,	PUNCT	$,	_	16	punct	_	start_char=1804|end_char=1805
 9	in	in	ADP	APPR	_	10	case	_	start_char=1806|end_char=1808
 10	dem	der	PRON	PRELS	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem,Rel	16	obl	_	start_char=1809|end_char=1812
@@ -413,8 +412,8 @@
 21-22	im	_	_	_	_	_	_	_	start_char=1869|end_char=1871
 21	in	in	ADP	APPR	_	23	case	_	_
 22	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	Weltraum	Weltraum	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	nmod	_	start_char=1872|end_char=1880|SpaceAfter=No
-24	.	.	PUNCT	$.	_	2	punct	_	start_char=1880|end_char=1881|SpacesAfter=\n\n
+23	Weltraum	Weltraum	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No|start_char=1872|end_char=1880
+24	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=1880|end_char=1881
 
 # text = Und diese Ziele -- zum Beispiel Mars, oder Jupiter, sind richtig weit weg.
 # sent_id = 18
@@ -426,16 +425,16 @@
 5	zu	zu	ADP	APPR	_	7	case	_	_
 6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 7	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	start_char=1906|end_char=1914
-8	Mars	Mars	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	start_char=1915|end_char=1919|SpaceAfter=No
+8	Mars	Mars	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No|start_char=1915|end_char=1919
 9	,	,	PUNCT	$,	_	11	punct	_	start_char=1919|end_char=1920
 10	oder	oder	CCONJ	KON	_	11	cc	_	start_char=1921|end_char=1925
-11	Jupiter	Jupiter	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	start_char=1926|end_char=1933|SpaceAfter=No
+11	Jupiter	Jupiter	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No|start_char=1926|end_char=1933
 12	,	,	PUNCT	$,	_	3	punct	_	start_char=1933|end_char=1934
 13	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=1935|end_char=1939
 14	richtig	richtig	ADJ	ADJD	Degree=Pos	15	advmod	_	start_char=1940|end_char=1947
 15	weit	weit	ADJ	ADJD	Degree=Pos	16	advmod	_	start_char=1948|end_char=1952
-16	weg	weg	ADV	PTKVZ	_	0	root	_	start_char=1953|end_char=1956|SpaceAfter=No
-17	.	.	PUNCT	$.	_	16	punct	_	start_char=1956|end_char=1957|SpacesAfter=\n\n
+16	weg	weg	ADV	PTKVZ	_	0	root	_	SpaceAfter=No|start_char=1953|end_char=1956
+17	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n\n|start_char=1956|end_char=1957
 
 # text = Um Ihnen meinen Beruf zu veranschaulichen: Es ist als würde ich hier in Los Angeles einen Pfeil abschießen, mit dem ich eine münzgroße Zielscheibe treffe. Und diese Zielscheibe steht auf dem Times Square, in New York.
 # sent_id = 19
@@ -444,7 +443,7 @@
 3	meinen	mein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	start_char=1968|end_char=1974
 4	Beruf	Beruf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=1975|end_char=1980
 5	zu	zu	PART	PTKZU	_	6	mark	_	start_char=1981|end_char=1983
-6	veranschaulichen	veranschaulichen	VERB	VVINF	VerbForm=Inf	9	advcl	_	start_char=1984|end_char=2000|SpaceAfter=No
+6	veranschaulichen	veranschaulichen	VERB	VVINF	VerbForm=Inf	9	advcl	_	SpaceAfter=No|start_char=1984|end_char=2000
 7	:	:	PUNCT	$.	_	9	punct	_	start_char=2000|end_char=2001
 8	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	start_char=2002|end_char=2004
 9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	parataxis	_	start_char=2005|end_char=2008
@@ -455,17 +454,17 @@
 14	in	in	ADP	APPR	_	15	case	_	start_char=2028|end_char=2030
 15	Los	Los	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	start_char=2031|end_char=2034
 16	Angeles	Angeles	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	15	flat	_	start_char=2035|end_char=2042
-17	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	18	det	_	start_char=2043|end_char=2048
+17	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	18	det	_	start_char=2043|end_char=2048
 18	Pfeil	Pfeil	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obj	_	start_char=2049|end_char=2054
-19	abschießen	abschießen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2055|end_char=2065|SpaceAfter=No
+19	abschießen	abschießen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2055|end_char=2065
 20	,	,	PUNCT	$,	_	27	punct	_	start_char=2065|end_char=2066
 21	mit	mit	ADP	APPR	_	22	case	_	start_char=2067|end_char=2070
 22	dem	der	PRON	PRELS	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem,Rel	27	obl	_	start_char=2071|end_char=2074
 23	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	start_char=2075|end_char=2078
-24	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	26	det	_	start_char=2079|end_char=2083
+24	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	26	det	_	start_char=2079|end_char=2083
 25	münzgroße	münzgroß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	start_char=2084|end_char=2093
 26	Zielscheibe	Zielscheibe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	obj	_	start_char=2094|end_char=2105
-27	treffe	treffen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl	_	start_char=2106|end_char=2112|SpaceAfter=No
+27	treffe	treffen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl	_	SpaceAfter=No|start_char=2106|end_char=2112
 28	.	.	PUNCT	$.	_	32	punct	_	start_char=2112|end_char=2113
 29	Und	und	CCONJ	KON	_	32	cc	_	start_char=2114|end_char=2117
 30	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	31	det	_	start_char=2118|end_char=2123
@@ -474,75 +473,75 @@
 33	auf	auf	ADP	APPR	_	35	case	_	start_char=2142|end_char=2145
 34	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	start_char=2146|end_char=2149
 35	Times	Times	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	32	obl	_	start_char=2150|end_char=2155
-36	Square	Square	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	35	flat	_	start_char=2156|end_char=2162|SpaceAfter=No
+36	Square	Square	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	35	flat	_	SpaceAfter=No|start_char=2156|end_char=2162
 37	,	,	PUNCT	$,	_	39	punct	_	start_char=2162|end_char=2163
 38	in	in	ADP	APPR	_	39	case	_	start_char=2164|end_char=2166
 39	New	New	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	35	nmod	_	start_char=2167|end_char=2170
-40	York	York	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	39	flat	_	start_char=2171|end_char=2175|SpaceAfter=No
-41	.	.	PUNCT	$.	_	19	punct	_	start_char=2175|end_char=2176|SpacesAfter=\n\n
+40	York	York	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	39	flat	_	SpaceAfter=No|start_char=2171|end_char=2175
+41	.	.	PUNCT	$.	_	19	punct	_	SpacesAfter=\n\n|start_char=2175|end_char=2176
 
 # text = Ich habe die Möglichkeit, die Richtung meiner Sonde, während der Reise ein paar Mal anzupassen. Aber um das zu tun, muss ich wissen, wo sie ist.
 # sent_id = 20
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=2178|end_char=2181
 2	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2182|end_char=2186
 3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=2187|end_char=2190
-4	Möglichkeit	Möglichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=2191|end_char=2202|SpaceAfter=No
+4	Möglichkeit	Möglichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|start_char=2191|end_char=2202
 5	,	,	PUNCT	$,	_	17	punct	_	start_char=2202|end_char=2203
 6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=2204|end_char=2207
 7	Richtung	Richtung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	start_char=2208|end_char=2216
 8	meiner	mein	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	start_char=2217|end_char=2223
-9	Sonde	Sonde	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=2224|end_char=2229|SpaceAfter=No
+9	Sonde	Sonde	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No|start_char=2224|end_char=2229
 10	,	,	PUNCT	$,	_	17	punct	_	start_char=2229|end_char=2230
 11	während	während	SCONJ	KOUS	_	17	mark	_	start_char=2231|end_char=2238
 12	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=2239|end_char=2242
 13	Reise	Reise	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	17	obl:arg	_	start_char=2243|end_char=2248
-14	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	16	det	_	start_char=2249|end_char=2252
+14	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	16	det	_	start_char=2249|end_char=2252
 15	paar	paar	ADJ	PIAT	Degree=Pos	16	nmod	_	start_char=2253|end_char=2257
 16	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	17	obl	_	start_char=2258|end_char=2261
-17	anzupassen	anpassen	VERB	VVIZU	VerbForm=Inf	2	advcl	_	start_char=2262|end_char=2272|SpaceAfter=No
+17	anzupassen	anpassen	VERB	VVIZU	VerbForm=Inf	2	advcl	_	SpaceAfter=No|start_char=2262|end_char=2272
 18	.	.	PUNCT	$.	_	23	punct	_	start_char=2272|end_char=2273
 19	Aber	aber	CCONJ	KON	_	23	cc	_	start_char=2274|end_char=2278
 20	um	um	ADP	KOUI	_	23	mark	_	start_char=2279|end_char=2281
 21	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	23	obj	_	start_char=2282|end_char=2285
 22	zu	zu	PART	PTKZU	_	23	mark	_	start_char=2286|end_char=2288
-23	tun	tun	VERB	VVINF	VerbForm=Inf	17	conj	_	start_char=2289|end_char=2292|SpaceAfter=No
+23	tun	tun	VERB	VVINF	VerbForm=Inf	17	conj	_	SpaceAfter=No|start_char=2289|end_char=2292
 24	,	,	PUNCT	$,	_	23	punct	_	start_char=2292|end_char=2293
 25	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	aux	_	start_char=2294|end_char=2298
 26	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	start_char=2299|end_char=2302
-27	wissen	wissen	VERB	VVINF	VerbForm=Inf	2	conj	_	start_char=2303|end_char=2309|SpaceAfter=No
+27	wissen	wissen	VERB	VVINF	VerbForm=Inf	2	conj	_	SpaceAfter=No|start_char=2303|end_char=2309
 28	,	,	PUNCT	$,	_	31	punct	_	start_char=2309|end_char=2310
 29	wo	wo	ADV	PWAV	PronType=Int	31	advmod	_	start_char=2311|end_char=2313
 30	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	start_char=2314|end_char=2317
-31	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	ccomp	_	start_char=2318|end_char=2321|SpaceAfter=No
-32	.	.	PUNCT	$.	_	2	punct	_	start_char=2321|end_char=2322|SpacesAfter=\n\n
+31	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	ccomp	_	SpaceAfter=No|start_char=2318|end_char=2321
+32	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=2321|end_char=2322
 
 # text = Und die Frage, wie ich eine Sonde im Weltraum nachverfolge, ist im Grunde, eine Frage der Zeit.
 # sent_id = 21
 1	Und	und	CCONJ	KON	_	20	cc	_	start_char=2324|end_char=2327
 2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=2328|end_char=2331
-3	Frage	Frage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	start_char=2332|end_char=2337|SpaceAfter=No
+3	Frage	Frage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	SpaceAfter=No|start_char=2332|end_char=2337
 4	,	,	PUNCT	$,	_	12	punct	_	start_char=2337|end_char=2338
 5	wie	wie	SCONJ	KOUS	_	12	mark	_	start_char=2339|end_char=2342
 6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=2343|end_char=2346
-7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	8	det	_	start_char=2347|end_char=2351
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=2347|end_char=2351
 8	Sonde	Sonde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=2352|end_char=2357
 9-10	im	_	_	_	_	_	_	_	start_char=2358|end_char=2360
 9	in	in	ADP	APPR	_	11	case	_	_
 10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Weltraum	Weltraum	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	start_char=2361|end_char=2369
-12	nachverfolge	nachverfolgen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	start_char=2370|end_char=2382|SpaceAfter=No
+12	nachverfolge	nachverfolgen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No|start_char=2370|end_char=2382
 13	,	,	PUNCT	$,	_	12	punct	_	start_char=2382|end_char=2383
 14	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	start_char=2384|end_char=2387
 15-16	im	_	_	_	_	_	_	_	start_char=2388|end_char=2390
 15	in	in	ADP	APPR	_	17	case	_	_
 16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	Grunde	Grund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	nmod	_	start_char=2391|end_char=2397|SpaceAfter=No
+17	Grunde	Grund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No|start_char=2391|end_char=2397
 18	,	,	PUNCT	$,	_	20	punct	_	start_char=2397|end_char=2398
-19	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	20	det	_	start_char=2399|end_char=2403
+19	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	20	det	_	start_char=2399|end_char=2403
 20	Frage	Frage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=2404|end_char=2409
 21	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	start_char=2410|end_char=2413
-22	Zeit	Zeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	start_char=2414|end_char=2418|SpaceAfter=No
-23	.	.	PUNCT	$.	_	20	punct	_	start_char=2418|end_char=2419|SpacesAfter=\n\n
+22	Zeit	Zeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No|start_char=2414|end_char=2418
+23	.	.	PUNCT	$.	_	20	punct	_	SpacesAfter=\n\n|start_char=2418|end_char=2419
 
 # text = Ich kann ja nicht einfach mit dem Lineal messen, wie weit meine Sonde entfernt ist.
 # sent_id = 22
@@ -554,35 +553,35 @@
 6	mit	mit	ADP	APPR	_	8	case	_	start_char=2447|end_char=2450
 7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=2451|end_char=2454
 8	Lineal	Lineal	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	start_char=2455|end_char=2461
-9	messen	messen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2462|end_char=2468|SpaceAfter=No
+9	messen	messen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2462|end_char=2468
 10	,	,	PUNCT	$,	_	15	punct	_	start_char=2468|end_char=2469
 11	wie	wie	ADV	PWAV	PronType=Int	15	advmod	_	start_char=2470|end_char=2473
 12	weit	weit	ADJ	ADJD	Degree=Pos	15	advmod	_	start_char=2474|end_char=2478
 13	meine	mein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	start_char=2479|end_char=2484
 14	Sonde	Sonde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	start_char=2485|end_char=2490
 15	entfernt	entfernt	ADJ	ADJD	Degree=Pos	9	ccomp	_	start_char=2491|end_char=2499
-16	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=2500|end_char=2503|SpaceAfter=No
-17	.	.	PUNCT	$.	_	9	punct	_	start_char=2503|end_char=2504|SpacesAfter=\n\n
+16	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	SpaceAfter=No|start_char=2500|end_char=2503
+17	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n|start_char=2503|end_char=2504
 
 # text = Aber ich kann messen, wie lange es dauert bis ein Signal hin- und zurückkommt.
 # sent_id = 23
 1	Aber	aber	CCONJ	KON	_	4	cc	_	start_char=2506|end_char=2510
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=2511|end_char=2514
 3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=2515|end_char=2519
-4	messen	messen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2520|end_char=2526|SpaceAfter=No
+4	messen	messen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2520|end_char=2526
 5	,	,	PUNCT	$,	_	9	punct	_	start_char=2526|end_char=2527
 6	wie	wie	SCONJ	KOUS	_	9	mark	_	start_char=2528|end_char=2531
 7	lange	lange	ADV	ADV	_	9	advmod	_	start_char=2532|end_char=2537
 8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=2538|end_char=2540
 9	dauert	dauern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	start_char=2541|end_char=2547
 10	bis	bis	ADP	APPR	_	12	case	_	start_char=2548|end_char=2551
-11	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=2552|end_char=2555
+11	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	12	det	_	start_char=2552|end_char=2555
 12	Signal	Signal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	obl	_	start_char=2556|end_char=2562
-13	hin	hin	NOUN	TRUNC	_	9	xcomp	_	start_char=2563|end_char=2566|SpaceAfter=No
+13	hin	hin	NOUN	TRUNC	_	9	xcomp	_	SpaceAfter=No|start_char=2563|end_char=2566
 14	-	-	PUNCT	$(	_	16	punct	_	start_char=2566|end_char=2567
 15	und	und	CCONJ	KON	_	16	cc	_	start_char=2568|end_char=2571
-16	zurückkommt	zurückkommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	start_char=2572|end_char=2583|SpaceAfter=No
-17	.	.	PUNCT	$.	_	4	punct	_	start_char=2583|end_char=2584|SpacesAfter=\n\n
+16	zurückkommt	zurückkommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	SpaceAfter=No|start_char=2572|end_char=2583
+17	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n|start_char=2583|end_char=2584
 
 # text = Es ist das gleiche Prinzip wie beim Echo.
 # sent_id = 24
@@ -595,21 +594,21 @@
 7-8	beim	_	_	_	_	_	_	_	start_char=2617|end_char=2621
 7	bei	bei	ADP	APPR	_	9	case	_	_
 8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
-9	Echo	Echo	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=2622|end_char=2626|SpaceAfter=No
-10	.	.	PUNCT	$.	_	5	punct	_	start_char=2626|end_char=2627|SpacesAfter=\n\n
+9	Echo	Echo	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=2622|end_char=2626
+10	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n|start_char=2626|end_char=2627
 
 # text = Wenn ich vor einem Berg stehe, und etwas rufe, dauert es umso länger bis mein Echo zurückkommt, je nachdem, wie weit der Berg entfernt ist.
 # sent_id = 25
 1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=2629|end_char=2633
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=2634|end_char=2637
 3	vor	vor	ADP	APPR	_	5	case	_	start_char=2638|end_char=2641
-4	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=2642|end_char=2647
+4	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=2642|end_char=2647
 5	Berg	Berg	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	start_char=2648|end_char=2652
-6	stehe	stehen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	start_char=2653|end_char=2658|SpaceAfter=No
+6	stehe	stehen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	SpaceAfter=No|start_char=2653|end_char=2658
 7	,	,	PUNCT	$,	_	10	punct	_	start_char=2658|end_char=2659
 8	und	und	CCONJ	KON	_	10	cc	_	start_char=2660|end_char=2663
 9	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	10	obj	_	start_char=2664|end_char=2669
-10	rufe	rufen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	start_char=2670|end_char=2674|SpaceAfter=No
+10	rufe	rufen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No|start_char=2670|end_char=2674
 11	,	,	PUNCT	$,	_	6	punct	_	start_char=2674|end_char=2675
 12	dauert	dauern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2676|end_char=2682
 13	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=2683|end_char=2685
@@ -618,18 +617,18 @@
 16	bis	bis	SCONJ	KOUS	_	19	mark	_	start_char=2698|end_char=2701
 17	mein	mein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	18	det:poss	_	start_char=2702|end_char=2706
 18	Echo	Echo	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	start_char=2707|end_char=2711
-19	zurückkommt	zurückkommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	start_char=2712|end_char=2723|SpaceAfter=No
+19	zurückkommt	zurückkommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	SpaceAfter=No|start_char=2712|end_char=2723
 20	,	,	PUNCT	$,	_	28	punct	_	start_char=2723|end_char=2724
 21	je	je	ADV	ADV	_	28	advmod	_	start_char=2725|end_char=2727
-22	nachdem	nachdem	SCONJ	KOUS	_	28	mark	_	start_char=2728|end_char=2735|SpaceAfter=No
+22	nachdem	nachdem	SCONJ	KOUS	_	28	mark	_	SpaceAfter=No|start_char=2728|end_char=2735
 23	,	,	PUNCT	$,	_	28	punct	_	start_char=2735|end_char=2736
 24	wie	wie	ADV	KOUS	PronType=Int	28	advmod	_	start_char=2737|end_char=2740
 25	weit	weit	ADJ	ADJD	Degree=Pos	28	advmod	_	start_char=2741|end_char=2745
 26	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	start_char=2746|end_char=2749
 27	Berg	Berg	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	start_char=2750|end_char=2754
 28	entfernt	entfernt	ADJ	ADJD	Degree=Pos	19	advcl	_	start_char=2755|end_char=2763
-29	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	start_char=2764|end_char=2767|SpaceAfter=No
-30	.	.	PUNCT	$.	_	12	punct	_	start_char=2767|end_char=2768|SpacesAfter=\n\n
+29	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	SpaceAfter=No|start_char=2764|end_char=2767
+30	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n|start_char=2767|end_char=2768
 
 # text = Wir messen diese Signalzeit sehr, sehr genau. Denn ein Rechenfehler um den Bruchteil einer Sekunde, könnte aus einer sicheren Landung auf der Oberfläche eines anderen Planeten einen weiteren Krater auf dieser Oberfläche machen.
 # sent_id = 26
@@ -637,57 +636,57 @@
 2	messen	messen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2774|end_char=2780
 3	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=2781|end_char=2786
 4	Signalzeit	Signalzeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=2787|end_char=2797
-5	sehr	sehr	ADV	ADV	_	2	advmod	_	start_char=2798|end_char=2802|SpaceAfter=No
+5	sehr	sehr	ADV	ADV	_	2	advmod	_	SpaceAfter=No|start_char=2798|end_char=2802
 6	,	,	PUNCT	$,	_	8	punct	_	start_char=2802|end_char=2803
 7	sehr	sehr	ADV	ADV	_	8	advmod	_	start_char=2804|end_char=2808
-8	genau	genau	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=2809|end_char=2814|SpaceAfter=No
+8	genau	genau	ADJ	ADJD	Degree=Pos	2	advmod	_	SpaceAfter=No|start_char=2809|end_char=2814
 9	.	.	PUNCT	$.	_	2	punct	_	start_char=2814|end_char=2815
 10	Denn	denn	CCONJ	KON	_	36	cc	_	start_char=2816|end_char=2820
-11	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=2821|end_char=2824
+11	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	12	det	_	start_char=2821|end_char=2824
 12	Rechenfehler	Rechenfehler	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	36	nsubj	_	start_char=2825|end_char=2837
 13	um	um	ADP	APPR	_	15	case	_	start_char=2838|end_char=2840
 14	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=2841|end_char=2844
 15	Bruchteil	Bruchteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	start_char=2845|end_char=2854
-16	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	17	det	_	start_char=2855|end_char=2860
-17	Sekunde	Sekunde	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	start_char=2861|end_char=2868|SpaceAfter=No
+16	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	17	det	_	start_char=2855|end_char=2860
+17	Sekunde	Sekunde	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No|start_char=2861|end_char=2868
 18	,	,	PUNCT	$,	_	12	punct	_	start_char=2868|end_char=2869
 19	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	aux	_	start_char=2870|end_char=2876
 20	aus	aus	ADP	APPR	_	23	case	_	start_char=2877|end_char=2880
-21	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	23	det	_	start_char=2881|end_char=2886
+21	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	23	det	_	start_char=2881|end_char=2886
 22	sicheren	sicher	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=2887|end_char=2895
 23	Landung	Landung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	36	obl	_	start_char=2896|end_char=2903
 24	auf	auf	ADP	APPR	_	26	case	_	start_char=2904|end_char=2907
 25	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	start_char=2908|end_char=2911
 26	Oberfläche	Oberfläche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	nmod	_	start_char=2912|end_char=2922
-27	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	29	det	_	start_char=2923|end_char=2928
+27	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	29	det	_	start_char=2923|end_char=2928
 28	anderen	anderer	DET	ADJA	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind	29	det	_	start_char=2929|end_char=2936
 29	Planeten	Planet	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	start_char=2937|end_char=2945
-30	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	32	det	_	start_char=2946|end_char=2951
+30	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	32	det	_	start_char=2946|end_char=2951
 31	weiteren	weit	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Masc|Number=Sing	32	amod	_	start_char=2952|end_char=2960
 32	Krater	Krater	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	36	obj	_	start_char=2961|end_char=2967
 33	auf	auf	ADP	APPR	_	35	case	_	start_char=2968|end_char=2971
 34	dieser	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	35	det	_	start_char=2972|end_char=2978
 35	Oberfläche	Oberfläche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	32	nmod	_	start_char=2979|end_char=2989
-36	machen	machen	VERB	VVINF	VerbForm=Inf	2	conj	_	start_char=2990|end_char=2996|SpaceAfter=No
-37	.	.	PUNCT	$.	_	2	punct	_	start_char=2996|end_char=2997|SpacesAfter=\n\n
+36	machen	machen	VERB	VVINF	VerbForm=Inf	2	conj	_	SpaceAfter=No|start_char=2990|end_char=2996
+37	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=2996|end_char=2997
 
 # text = Nur ein Bruchteil einer Sekunde, kann über Erfolg oder Scheitern einer Mission entscheiden.
 # sent_id = 27
 1	Nur	nur	ADV	ADV	_	3	advmod	_	start_char=2999|end_char=3002
-2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	3	det	_	start_char=3003|end_char=3006
+2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	3	det	_	start_char=3003|end_char=3006
 3	Bruchteil	Bruchteil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	obj	_	start_char=3007|end_char=3016
-4	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=3017|end_char=3022
-5	Sekunde	Sekunde	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=3023|end_char=3030|SpaceAfter=No
+4	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=3017|end_char=3022
+5	Sekunde	Sekunde	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No|start_char=3023|end_char=3030
 6	,	,	PUNCT	$,	_	3	punct	_	start_char=3030|end_char=3031
 7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=3032|end_char=3036
 8	über	über	ADP	APPR	_	9	case	_	start_char=3037|end_char=3041
 9	Erfolg	Erfolg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	start_char=3042|end_char=3048
 10	oder	oder	CCONJ	KON	_	11	cc	_	start_char=3049|end_char=3053
 11	Scheitern	Scheitern	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	conj	_	start_char=3054|end_char=3063
-12	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	13	det	_	start_char=3064|end_char=3069
+12	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	13	det	_	start_char=3064|end_char=3069
 13	Mission	Mission	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=3070|end_char=3077
-14	entscheiden	entscheiden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3078|end_char=3089|SpaceAfter=No
-15	.	.	PUNCT	$.	_	14	punct	_	start_char=3089|end_char=3090|SpacesAfter=\n\n
+14	entscheiden	entscheiden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=3078|end_char=3089
+15	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n\n|start_char=3089|end_char=3090
 
 # text = Auf der Erde können wir Signalzeit sehr sehr genau messen, auf eine milliardstel Sekunde genau.
 # sent_id = 28
@@ -700,14 +699,14 @@
 7	sehr	sehr	ADV	ADV	_	8	advmod	_	start_char=3127|end_char=3131
 8	sehr	sehr	ADV	ADV	_	9	advmod	_	start_char=3132|end_char=3136
 9	genau	genau	ADJ	ADJD	Degree=Pos	10	advmod	_	start_char=3137|end_char=3142
-10	messen	messen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=3143|end_char=3149|SpaceAfter=No
+10	messen	messen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=3143|end_char=3149
 11	,	,	PUNCT	$,	_	16	punct	_	start_char=3149|end_char=3150
 12	auf	auf	ADP	APPR	_	15	case	_	start_char=3151|end_char=3154
-13	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	15	det	_	start_char=3155|end_char=3159
+13	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	15	det	_	start_char=3155|end_char=3159
 14	milliardstel	milliardstel	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=3160|end_char=3172
 15	Sekunde	Sekunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	start_char=3173|end_char=3180
-16	genau	genau	ADJ	ADJD	Degree=Pos	10	conj	_	start_char=3181|end_char=3186|SpaceAfter=No
-17	.	.	PUNCT	$.	_	10	punct	_	start_char=3186|end_char=3187|SpacesAfter=\n\n
+16	genau	genau	ADJ	ADJD	Degree=Pos	10	conj	_	SpaceAfter=No|start_char=3181|end_char=3186
+17	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n|start_char=3186|end_char=3187
 
 # text = Aber sie muss hier auf der Erde gemessen werden.
 # sent_id = 29
@@ -719,8 +718,8 @@
 6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=3212|end_char=3215
 7	Erde	Erde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	start_char=3216|end_char=3220
 8	gemessen	messen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3221|end_char=3229
-9	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	8	aux:pass	_	start_char=3230|end_char=3236|SpaceAfter=No
-10	.	.	PUNCT	$.	_	8	punct	_	start_char=3236|end_char=3237|SpacesAfter=\n\n
+9	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	8	aux:pass	_	SpaceAfter=No|start_char=3230|end_char=3236
+10	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n|start_char=3236|end_char=3237
 
 # text = Es gibt diese Ungleichverteilung von Größenordnungen in der Weltraumerkundung.
 # sent_id = 30
@@ -732,8 +731,8 @@
 6	Größenordnungen	Größenordnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	nmod	_	start_char=3276|end_char=3291
 7	in	in	ADP	APPR	_	9	case	_	start_char=3292|end_char=3294
 8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=3295|end_char=3298
-9	Weltraumerkundung	Weltraumerkundung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	start_char=3299|end_char=3316|SpaceAfter=No
-10	.	.	PUNCT	$.	_	2	punct	_	start_char=3316|end_char=3317|SpacesAfter=\n\n
+9	Weltraumerkundung	Weltraumerkundung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No|start_char=3299|end_char=3316
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=3316|end_char=3317
 
 # text = Um kleinere Dinge extrem weit wegzusenden, brauchen wir sehr große Dinge auf unserem Heimatplaneten.
 # sent_id = 31
@@ -742,7 +741,7 @@
 3	Dinge	Ding	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	start_char=3331|end_char=3336
 4	extrem	extrem	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=3337|end_char=3343
 5	weit	weit	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=3344|end_char=3348
-6	wegzusenden	wegsenden	VERB	VVIZU	VerbForm=Inf	8	advcl	_	start_char=3349|end_char=3360|SpaceAfter=No
+6	wegzusenden	wegsenden	VERB	VVIZU	VerbForm=Inf	8	advcl	_	SpaceAfter=No|start_char=3349|end_char=3360
 7	,	,	PUNCT	$,	_	6	punct	_	start_char=3360|end_char=3361
 8	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3362|end_char=3370
 9	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=3371|end_char=3374
@@ -751,8 +750,8 @@
 12	Dinge	Ding	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	start_char=3386|end_char=3391
 13	auf	auf	ADP	APPR	_	15	case	_	start_char=3392|end_char=3395
 14	unserem	unser	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	15	det:poss	_	start_char=3396|end_char=3403
-15	Heimatplaneten	Heimatplanet	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	start_char=3404|end_char=3418|SpaceAfter=No
-16	.	.	PUNCT	$.	_	8	punct	_	start_char=3418|end_char=3419|SpacesAfter=\n\n
+15	Heimatplaneten	Heimatplanet	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|start_char=3404|end_char=3418
+16	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n|start_char=3418|end_char=3419
 
 # text = Das ist zum Beispiel, die Größe einer Satellitenschüssel, über die wir mit den Raumsonden im Weltraum kommunizieren.
 # sent_id = 32
@@ -761,12 +760,12 @@
 3-4	zum	_	_	_	_	_	_	_	start_char=3429|end_char=3432
 3	zu	zu	ADP	APPR	_	5	case	_	_
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
-5	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	start_char=3433|end_char=3441|SpaceAfter=No
+5	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No|start_char=3433|end_char=3441
 6	,	,	PUNCT	$,	_	8	punct	_	start_char=3441|end_char=3442
 7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=3443|end_char=3446
 8	Größe	Größe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=3447|end_char=3452
-9	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	10	det	_	start_char=3453|end_char=3458
-10	Satellitenschüssel	Satellitenschüssel	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=3459|end_char=3477|SpaceAfter=No
+9	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=3453|end_char=3458
+10	Satellitenschüssel	Satellitenschüssel	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No|start_char=3459|end_char=3477
 11	,	,	PUNCT	$,	_	21	punct	_	start_char=3477|end_char=3478
 12	über	über	ADP	APPR	_	13	case	_	start_char=3479|end_char=3483
 13	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem,Rel	21	obl	_	start_char=3484|end_char=3487
@@ -778,45 +777,45 @@
 18	in	in	ADP	APPR	_	20	case	_	_
 19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	Weltraum	Weltraum	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	21	obl	_	start_char=3514|end_char=3522
-21	kommunizieren	kommunizieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	start_char=3523|end_char=3536|SpaceAfter=No
-22	.	.	PUNCT	$.	_	8	punct	_	start_char=3536|end_char=3537|SpacesAfter=\n\n
+21	kommunizieren	kommunizieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	SpaceAfter=No|start_char=3523|end_char=3536
+22	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n|start_char=3536|end_char=3537
 
 # text = Und die atomischen Uhren, die wir für die Navigation nutzen, sind auch groß.
 # sent_id = 33
 1	Und	und	CCONJ	KON	_	15	cc	_	start_char=3539|end_char=3542
 2	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=3543|end_char=3546
 3	atomischen	atomisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=3547|end_char=3557
-4	Uhren	Uhr	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	start_char=3558|end_char=3563|SpaceAfter=No
+4	Uhren	Uhr	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	SpaceAfter=No|start_char=3558|end_char=3563
 5	,	,	PUNCT	$,	_	11	punct	_	start_char=3563|end_char=3564
 6	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Dem,Rel	11	obj	_	start_char=3565|end_char=3568
 7	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	start_char=3569|end_char=3572
 8	für	für	ADP	APPR	_	10	case	_	start_char=3573|end_char=3576
 9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=3577|end_char=3580
 10	Navigation	Navigation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	start_char=3581|end_char=3591
-11	nutzen	nutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=3592|end_char=3598|SpaceAfter=No
+11	nutzen	nutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	SpaceAfter=No|start_char=3592|end_char=3598
 12	,	,	PUNCT	$,	_	4	punct	_	start_char=3598|end_char=3599
 13	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=3600|end_char=3604
 14	auch	auch	ADV	ADV	_	15	advmod	_	start_char=3605|end_char=3609
-15	groß	groß	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3610|end_char=3614|SpaceAfter=No
-16	.	.	PUNCT	$.	_	15	punct	_	start_char=3614|end_char=3615|SpacesAfter=\n\n
+15	groß	groß	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=3610|end_char=3614
+16	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\n\n|start_char=3614|end_char=3615
 
 # text = Eine Uhr mit all ihrer Apparatur, kann so groß wie ein Kühlschrank sein.
 # sent_id = 34
-1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	2	det	_	start_char=3617|end_char=3621
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	2	det	_	start_char=3617|end_char=3621
 2	Uhr	Uhr	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=3622|end_char=3625
 3	mit	mit	ADP	APPR	_	6	case	_	start_char=3626|end_char=3629
 4	all	alle	DET	PIS	PronType=Ind	6	det	_	start_char=3630|end_char=3633
 5	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	start_char=3634|end_char=3639
-6	Apparatur	Apparatur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	start_char=3640|end_char=3649|SpaceAfter=No
+6	Apparatur	Apparatur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No|start_char=3640|end_char=3649
 7	,	,	PUNCT	$,	_	2	punct	_	start_char=3649|end_char=3650
 8	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=3651|end_char=3655
 9	so	so	ADV	ADV	_	10	advmod	_	start_char=3656|end_char=3658
 10	groß	groß	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3659|end_char=3663
 11	wie	wie	ADP	KOKOM	_	13	case	_	start_char=3664|end_char=3667
-12	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	13	det	_	start_char=3668|end_char=3671
+12	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	13	det	_	start_char=3668|end_char=3671
 13	Kühlschrank	Kühlschrank	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	start_char=3672|end_char=3683
-14	sein	sein	AUX	VAINF	VerbForm=Inf	10	cop	_	start_char=3684|end_char=3688|SpaceAfter=No
-15	.	.	PUNCT	$.	_	10	punct	_	start_char=3688|end_char=3689|SpacesAfter=\n\n
+14	sein	sein	AUX	VAINF	VerbForm=Inf	10	cop	_	SpaceAfter=No|start_char=3684|end_char=3688
+15	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n|start_char=3688|end_char=3689
 
 # text = Wenn wir mit dem Gedanken spielen, diese Technik in den Weltraum zu senden, muss dieser Kühlschrank so sehr verkleinert werden, dass er ins Gemüsefach passt.
 # sent_id = 35
@@ -825,7 +824,7 @@
 3	mit	mit	ADP	APPR	_	5	case	_	start_char=3700|end_char=3703
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=3704|end_char=3707
 5	Gedanken	Gedanke	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	start_char=3708|end_char=3716
-6	spielen	spielen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	start_char=3717|end_char=3724|SpaceAfter=No
+6	spielen	spielen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	SpaceAfter=No|start_char=3717|end_char=3724
 7	,	,	PUNCT	$,	_	14	punct	_	start_char=3724|end_char=3725
 8	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	start_char=3726|end_char=3731
 9	Technik	Technik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=3732|end_char=3739
@@ -833,7 +832,7 @@
 11	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=3743|end_char=3746
 12	Weltraum	Weltraum	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	start_char=3747|end_char=3755
 13	zu	zu	PART	PTKZU	_	14	mark	_	start_char=3756|end_char=3758
-14	senden	senden	VERB	VVINF	VerbForm=Inf	6	xcomp	_	start_char=3759|end_char=3765|SpaceAfter=No
+14	senden	senden	VERB	VVINF	VerbForm=Inf	6	xcomp	_	SpaceAfter=No|start_char=3759|end_char=3765
 15	,	,	PUNCT	$,	_	6	punct	_	start_char=3765|end_char=3766
 16	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	start_char=3767|end_char=3771
 17	dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	18	det	_	start_char=3772|end_char=3778
@@ -841,7 +840,7 @@
 19	so	so	ADV	ADV	_	20	advmod	_	start_char=3791|end_char=3793
 20	sehr	sehr	ADV	ADV	_	21	advmod	_	start_char=3794|end_char=3798
 21	verkleinert	verkleinern	VERB	VVPP	VerbForm=Part	0	root	_	start_char=3799|end_char=3810
-22	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	21	aux:pass	_	start_char=3811|end_char=3817|SpaceAfter=No
+22	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	21	aux:pass	_	SpaceAfter=No|start_char=3811|end_char=3817
 23	,	,	PUNCT	$,	_	29	punct	_	start_char=3817|end_char=3818
 24	dass	dass	SCONJ	KOUS	_	29	mark	_	start_char=3819|end_char=3823
 25	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	start_char=3824|end_char=3826
@@ -849,8 +848,8 @@
 26	in	in	ADP	APPR	_	28	case	_	_
 27	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	28	det	_	_
 28	Gemüsefach	Gemüsefach	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	29	obl	_	start_char=3831|end_char=3841
-29	passt	passen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	csubj:pass	_	start_char=3842|end_char=3847|SpaceAfter=No
-30	.	.	PUNCT	$.	_	21	punct	_	start_char=3847|end_char=3848|SpacesAfter=\n\n
+29	passt	passen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	csubj:pass	_	SpaceAfter=No|start_char=3842|end_char=3847
+30	.	.	PUNCT	$.	_	21	punct	_	SpacesAfter=\n\n|start_char=3847|end_char=3848
 
 # text = Aber warum ist das wichtig?
 # sent_id = 36
@@ -858,22 +857,22 @@
 2	warum	warum	ADV	PWAV	PronType=Int	5	advmod	_	start_char=3855|end_char=3860
 3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=3861|end_char=3864
 4	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=3865|end_char=3868
-5	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3869|end_char=3876|SpaceAfter=No
-6	?	?	PUNCT	$.	_	5	punct	_	start_char=3876|end_char=3877|SpacesAfter=\n\n
+5	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=3869|end_char=3876
+6	?	?	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n|start_char=3876|end_char=3877
 
 # text = Denken wir an einen unserer furchtlosen Erkunder, Voyager 1.
 # sent_id = 37
 1	Denken	Denken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3879|end_char=3885
 2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	nsubj	_	start_char=3886|end_char=3889
 3	an	an	ADP	APPR	_	4	case	_	start_char=3890|end_char=3892
-4	einen	ein	DET	PIS	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	1	obl	_	start_char=3893|end_char=3898
+4	einen	ein	DET	PIS	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	1	obl	_	start_char=3893|end_char=3898
 5	unserer	unser	DET	PPOSAT	Case=Gen|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=3899|end_char=3906
 6	furchtlosen	furchtlos	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=3907|end_char=3918
-7	Erkunder	Erkunder	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=3919|end_char=3927|SpaceAfter=No
+7	Erkunder	Erkunder	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No|start_char=3919|end_char=3927
 8	,	,	PUNCT	$,	_	9	punct	_	start_char=3927|end_char=3928
 9	Voyager	Voyager	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	start_char=3929|end_char=3936
-10	1	1	PROPN	CARD	NumType=Card	9	appos	_	start_char=3937|end_char=3938|SpaceAfter=No
-11	.	.	PUNCT	$.	_	1	punct	_	start_char=3938|end_char=3939|SpacesAfter=\n\n
+10	1	1	PROPN	CARD	NumType=Card	9	appos	_	SpaceAfter=No|start_char=3937|end_char=3938
+11	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n|start_char=3938|end_char=3939
 
 # text = Voyager 1 ist zur Zeit etwa 21 Milliarden Kilometer entfernt.
 # sent_id = 38
@@ -888,14 +887,14 @@
 8	21	21	NUM	CARD	NumType=Card	9	nummod	_	start_char=3969|end_char=3971
 9	Milliarden	Milliarde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	nmod	_	start_char=3972|end_char=3982
 10	Kilometer	Kilometer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	nmod	_	start_char=3983|end_char=3992
-11	entfernt	entfernt	ADJ	ADJD	Degree=Pos	0	root	_	start_char=3993|end_char=4001|SpaceAfter=No
-12	.	.	PUNCT	$.	_	11	punct	_	start_char=4001|end_char=4002|SpacesAfter=\n\n
+11	entfernt	entfernt	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=3993|end_char=4001
+12	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n\n|start_char=4001|end_char=4002
 
 # text = Wie Sie wissen, hat er dafür etwa 40 Jahre gebraucht, und für ein Signal mit Lichtgeschwindigkeit dauert es über 40 Stunden, um hin und wieder zurückzukommen.
 # sent_id = 39
 1	Wie	wie	SCONJ	KOUS	_	3	mark	_	start_char=4004|end_char=4007
 2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	start_char=4008|end_char=4011
-3	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	start_char=4012|end_char=4018|SpaceAfter=No
+3	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	SpaceAfter=No|start_char=4012|end_char=4018
 4	,	,	PUNCT	$,	_	3	punct	_	start_char=4018|end_char=4019
 5	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=4020|end_char=4023
 6	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	start_char=4024|end_char=4026
@@ -903,11 +902,11 @@
 8	etwa	etwa	ADV	ADV	_	9	advmod	_	start_char=4033|end_char=4037
 9	40	40	NUM	CARD	NumType=Card	10	nummod	_	start_char=4038|end_char=4040
 10	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	obl	_	start_char=4041|end_char=4046
-11	gebraucht	brauchen|gebrauchen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=4047|end_char=4056|SpaceAfter=No
+11	gebraucht	brauchen|gebrauchen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=4047|end_char=4056
 12	,	,	PUNCT	$,	_	19	punct	_	start_char=4056|end_char=4057
 13	und	und	CCONJ	KON	_	19	cc	_	start_char=4058|end_char=4061
 14	für	für	ADP	APPR	_	16	case	_	start_char=4062|end_char=4065
-15	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	16	det	_	start_char=4066|end_char=4069
+15	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	16	det	_	start_char=4066|end_char=4069
 16	Signal	Signal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	19	obl	_	start_char=4070|end_char=4076
 17	mit	mit	ADP	APPR	_	18	case	_	start_char=4077|end_char=4080
 18	Lichtgeschwindigkeit	Lichtgeschwindigkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	nmod	_	start_char=4081|end_char=4101
@@ -915,14 +914,14 @@
 20	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	start_char=4109|end_char=4111
 21	über	über	ADP	ADV	_	23	case	_	start_char=4112|end_char=4116
 22	40	40	NUM	CARD	NumType=Card	23	nummod	_	start_char=4117|end_char=4119
-23	Stunden	Stunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	obl	_	start_char=4120|end_char=4127|SpaceAfter=No
+23	Stunden	Stunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No|start_char=4120|end_char=4127
 24	,	,	PUNCT	$,	_	29	punct	_	start_char=4127|end_char=4128
 25	um	um	ADP	KOUI	_	29	mark	_	start_char=4129|end_char=4131
 26	hin	hin	ADV	ADV	_	29	mark	_	start_char=4132|end_char=4135
 27	und	und	CCONJ	KON	_	28	cc	_	start_char=4136|end_char=4139
 28	wieder	wieder	ADV	ADV	_	26	conj	_	start_char=4140|end_char=4146
-29	zurückzukommen	zurückkommen	VERB	VVIZU	VerbForm=Inf	19	advcl	_	start_char=4147|end_char=4161|SpaceAfter=No
-30	.	.	PUNCT	$.	_	11	punct	_	start_char=4161|end_char=4162|SpacesAfter=\n\n
+29	zurückzukommen	zurückkommen	VERB	VVIZU	VerbForm=Inf	19	advcl	_	SpaceAfter=No|start_char=4147|end_char=4161
+30	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n\n|start_char=4161|end_char=4162
 
 # text = Und das Problem bei diesen Raumsonden ist: Sie bewegen sich sehr schnell vorwärts.
 # sent_id = 40
@@ -932,15 +931,15 @@
 4	bei	bei	ADP	APPR	_	6	case	_	start_char=4180|end_char=4183
 5	diesen	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Dem	6	det	_	start_char=4184|end_char=4190
 6	Raumsonden	Raumsonde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	nmod	_	start_char=4191|end_char=4201
-7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=4202|end_char=4205|SpaceAfter=No
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No|start_char=4202|end_char=4205
 8	:	:	PUNCT	$.	_	10	punct	_	start_char=4205|end_char=4206
 9	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=4207|end_char=4210
 10	bewegen	bewegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=4211|end_char=4218
 11	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	start_char=4219|end_char=4223
 12	sehr	sehr	ADV	ADV	_	13	advmod	_	start_char=4224|end_char=4228
 13	schnell	schnell	ADJ	ADJD	Degree=Pos	10	advmod	_	start_char=4229|end_char=4236
-14	vorwärts	vorwärts	ADV	PTKVZ	_	10	compound:prt	_	start_char=4237|end_char=4245|SpaceAfter=No
-15	.	.	PUNCT	$.	_	3	punct	_	start_char=4245|end_char=4246|SpacesAfter=\n\n
+14	vorwärts	vorwärts	ADV	PTKVZ	_	10	compound:prt	_	SpaceAfter=No|start_char=4237|end_char=4245
+15	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n|start_char=4245|end_char=4246
 
 # text = Voyager 1 hält nicht an und wartet, bis wir ihm von der Erde aus die Richtung sagen.
 # sent_id = 41
@@ -950,7 +949,7 @@
 4	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	start_char=4263|end_char=4268
 5	an	an	ADP	PTKVZ	_	3	compound:prt	_	start_char=4269|end_char=4271
 6	und	und	CCONJ	KON	_	7	cc	_	start_char=4272|end_char=4275
-7	wartet	warten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=4276|end_char=4282|SpaceAfter=No
+7	wartet	warten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No|start_char=4276|end_char=4282
 8	,	,	PUNCT	$,	_	18	punct	_	start_char=4282|end_char=4283
 9	bis	bis	SCONJ	KOUS	_	18	mark	_	start_char=4284|end_char=4287
 10	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	start_char=4288|end_char=4291
@@ -961,8 +960,8 @@
 15	aus	aus	ADP	APZR	_	14	fixed	_	start_char=4309|end_char=4312
 16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	start_char=4313|end_char=4316
 17	Richtung	Richtung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	start_char=4317|end_char=4325
-18	sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	start_char=4326|end_char=4331|SpaceAfter=No
-19	.	.	PUNCT	$.	_	3	punct	_	start_char=4331|end_char=4332|SpacesAfter=\n\n
+18	sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No|start_char=4326|end_char=4331
+19	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n|start_char=4331|end_char=4332
 
 # text = Voyager 1 bewegt sich weiter.
 # sent_id = 42
@@ -970,8 +969,8 @@
 2	1	1	PROPN	CARD	NumType=Card	1	appos	_	start_char=4342|end_char=4343
 3	bewegt	bewegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4344|end_char=4350
 4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	start_char=4351|end_char=4355
-5	weiter	weiter	ADV	PTKVZ	_	3	compound:prt	_	start_char=4356|end_char=4362|SpaceAfter=No
-6	.	.	PUNCT	$.	_	3	punct	_	start_char=4362|end_char=4363|SpacesAfter=\n\n
+5	weiter	weiter	ADV	PTKVZ	_	3	compound:prt	_	SpaceAfter=No|start_char=4356|end_char=4362
+6	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n|start_char=4362|end_char=4363
 
 # text = Also hat er sich in den 40 Stunden, die wir warten, um das Echo auf der Erde zu hören, 2,4 Millionen Kilometer weiter bewegt.
 # sent_id = 43
@@ -982,11 +981,11 @@
 5	in	in	ADP	APPR	_	8	case	_	start_char=4382|end_char=4384
 6	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=4385|end_char=4388
 7	40	40	NUM	CARD	NumType=Card	8	nummod	_	start_char=4389|end_char=4391
-8	Stunden	Stunde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	start_char=4392|end_char=4399|SpaceAfter=No
+8	Stunden	Stunde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No|start_char=4392|end_char=4399
 9	,	,	PUNCT	$,	_	12	punct	_	start_char=4399|end_char=4400
 10	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Dem,Rel	12	obj	_	start_char=4401|end_char=4404
 11	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	start_char=4405|end_char=4408
-12	warten	warten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	start_char=4409|end_char=4415|SpaceAfter=No
+12	warten	warten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	SpaceAfter=No|start_char=4409|end_char=4415
 13	,	,	PUNCT	$,	_	21	punct	_	start_char=4415|end_char=4416
 14	um	um	ADP	KOUI	_	21	mark	_	start_char=4417|end_char=4419
 15	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	start_char=4420|end_char=4423
@@ -995,14 +994,14 @@
 18	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=4433|end_char=4436
 19	Erde	Erde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	start_char=4437|end_char=4441
 20	zu	zu	PART	PTKZU	_	21	mark	_	start_char=4442|end_char=4444
-21	hören	hören	VERB	VVINF	VerbForm=Inf	12	advcl	_	start_char=4445|end_char=4450|SpaceAfter=No
+21	hören	hören	VERB	VVINF	VerbForm=Inf	12	advcl	_	SpaceAfter=No|start_char=4445|end_char=4450
 22	,	,	PUNCT	$,	_	27	punct	_	start_char=4450|end_char=4451
 23	2,4	2,4	NUM	CARD	NumType=Card	24	nummod	_	start_char=4452|end_char=4455
 24	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	25	nmod	_	start_char=4456|end_char=4465
 25	Kilometer	Kilometer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	27	obl	_	start_char=4466|end_char=4475
 26	weiter	weit	ADJ	ADV	Degree=Cmp	27	advmod	_	start_char=4476|end_char=4482
-27	bewegt	bewegen	VERB	VVPP	VerbForm=Part	21	conj	_	start_char=4483|end_char=4489|SpaceAfter=No
-28	.	.	PUNCT	$.	_	2	punct	_	start_char=4489|end_char=4490|SpacesAfter=\n\n
+27	bewegt	bewegen	VERB	VVPP	VerbForm=Part	21	conj	_	SpaceAfter=No|start_char=4483|end_char=4489
+28	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=4489|end_char=4490
 
 # text = Das sind 2,4 Millionen Kilometer in unbekanntes Gebiet.
 # sent_id = 44
@@ -1013,15 +1012,15 @@
 5	Kilometer	Kilometer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=4515|end_char=4524
 6	in	in	ADP	APPR	_	8	case	_	start_char=4525|end_char=4527
 7	unbekanntes	unbekannt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=4528|end_char=4539
-8	Gebiet	Gebiet	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	start_char=4540|end_char=4546|SpaceAfter=No
-9	.	.	PUNCT	$.	_	2	punct	_	start_char=4546|end_char=4547|SpacesAfter=\n\n
+8	Gebiet	Gebiet	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|start_char=4540|end_char=4546
+9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=4546|end_char=4547
 
 # text = Deshalb wäre es toll, wenn wir die Signalzeit direkt in der Raumsonde messen könnten.
 # sent_id = 45
 1	Deshalb	deshalb	ADV	PAV	_	4	advmod	_	start_char=4549|end_char=4556
 2	wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=4557|end_char=4561
 3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	start_char=4562|end_char=4564
-4	toll	toll	ADJ	ADJD	Degree=Pos	0	root	_	start_char=4565|end_char=4569|SpaceAfter=No
+4	toll	toll	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=4565|end_char=4569
 5	,	,	PUNCT	$,	_	14	punct	_	start_char=4569|end_char=4570
 6	wenn	wenn	SCONJ	KOUS	_	14	mark	_	start_char=4571|end_char=4575
 7	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	start_char=4576|end_char=4579
@@ -1032,8 +1031,8 @@
 12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=4605|end_char=4608
 13	Raumsonde	Raumsonde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	start_char=4609|end_char=4618
 14	messen	messen	VERB	VVINF	VerbForm=Inf	4	advcl	_	start_char=4619|end_char=4625
-15	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	start_char=4626|end_char=4633|SpaceAfter=No
-16	.	.	PUNCT	$.	_	4	punct	_	start_char=4633|end_char=4634|SpacesAfter=\n\n
+15	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	SpaceAfter=No|start_char=4626|end_char=4633
+16	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n|start_char=4633|end_char=4634
 
 # text = Aber die atomische Uhr zu verkleinern, ist nicht so einfach.
 # sent_id = 46
@@ -1042,13 +1041,13 @@
 3	atomische	atomisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=4645|end_char=4654
 4	Uhr	Uhr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=4655|end_char=4658
 5	zu	zu	PART	PTKZU	_	6	mark	_	start_char=4659|end_char=4661
-6	verkleinern	verkleinern	VERB	VVINF	VerbForm=Inf	11	csubj	_	start_char=4662|end_char=4673|SpaceAfter=No
+6	verkleinern	verkleinern	VERB	VVINF	VerbForm=Inf	11	csubj	_	SpaceAfter=No|start_char=4662|end_char=4673
 7	,	,	PUNCT	$,	_	6	punct	_	start_char=4673|end_char=4674
 8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=4675|end_char=4678
 9	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	start_char=4679|end_char=4684
 10	so	so	ADV	ADV	_	11	advmod	_	start_char=4685|end_char=4687
-11	einfach	einfach	ADJ	ADJD	Degree=Pos	0	root	_	start_char=4688|end_char=4695|SpaceAfter=No
-12	.	.	PUNCT	$.	_	11	punct	_	start_char=4695|end_char=4696|SpacesAfter=\n\n
+11	einfach	einfach	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=4688|end_char=4695
+12	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n\n|start_char=4695|end_char=4696
 
 # text = Nicht nur müssen wir die Uhr und seine Apparatur verkleinern, sie muss danach auch noch funktionieren.
 # sent_id = 47
@@ -1061,51 +1060,51 @@
 7	und	und	CCONJ	KON	_	9	cc	_	start_char=4727|end_char=4730
 8	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	start_char=4731|end_char=4736
 9	Apparatur	Apparatur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	start_char=4737|end_char=4746
-10	verkleinern	verkleinern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4747|end_char=4758|SpaceAfter=No
+10	verkleinern	verkleinern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=4747|end_char=4758
 11	,	,	PUNCT	$,	_	17	punct	_	start_char=4758|end_char=4759
 12	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	start_char=4760|end_char=4763
 13	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=4764|end_char=4768
 14	danach	danach	ADV	PAV	_	17	advmod	_	start_char=4769|end_char=4775
 15	auch	auch	ADV	ADV	_	16	advmod	_	start_char=4776|end_char=4780
 16	noch	noch	ADV	ADV	_	17	advmod	_	start_char=4781|end_char=4785
-17	funktionieren	funktionieren	VERB	VVINF	VerbForm=Inf	10	parataxis	_	start_char=4786|end_char=4799|SpaceAfter=No
-18	.	.	PUNCT	$.	_	10	punct	_	start_char=4799|end_char=4800|SpacesAfter=\n\n
+17	funktionieren	funktionieren	VERB	VVINF	VerbForm=Inf	10	parataxis	_	SpaceAfter=No|start_char=4786|end_char=4799
+18	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n|start_char=4799|end_char=4800
 
 # text = Der Weltraum ist eine unglaublich harsche Umgebung, und wenn an diesem Instrument ein Teil kaputt geht, können wir nicht einfach einen Techniker vorbeischicken, der es austauscht und dann weiterfahren.
 # sent_id = 48
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=4802|end_char=4805
 2	Weltraum	Weltraum	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=4806|end_char=4814
 3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=4815|end_char=4818
-4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	7	det	_	start_char=4819|end_char=4823
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=4819|end_char=4823
 5	unglaublich	unglaublich	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=4824|end_char=4835
 6	harsche	harsch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=4836|end_char=4843
-7	Umgebung	Umgebung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=4844|end_char=4852|SpaceAfter=No
+7	Umgebung	Umgebung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=4844|end_char=4852
 8	,	,	PUNCT	$,	_	17	punct	_	start_char=4852|end_char=4853
 9	und	und	CCONJ	KON	_	17	cc	_	start_char=4854|end_char=4857
 10	wenn	wenn	SCONJ	KOUS	_	17	mark	_	start_char=4858|end_char=4862
 11	an	an	ADP	APPR	_	13	case	_	start_char=4863|end_char=4865
 12	diesem	dieser	DET	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	13	det	_	start_char=4866|end_char=4872
 13	Instrument	Instrument	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	start_char=4873|end_char=4883
-14	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	15	det	_	start_char=4884|end_char=4887
+14	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	15	det	_	start_char=4884|end_char=4887
 15	Teil	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	start_char=4888|end_char=4892
 16	kaputt	kaputt	ADJ	ADJD	Degree=Pos	17	xcomp	_	start_char=4893|end_char=4899
-17	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	start_char=4900|end_char=4904|SpaceAfter=No
+17	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No|start_char=4900|end_char=4904
 18	,	,	PUNCT	$,	_	17	punct	_	start_char=4904|end_char=4905
 19	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	25	aux	_	start_char=4906|end_char=4912
 20	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	start_char=4913|end_char=4916
 21	nicht	nicht	PART	PTKNEG	Polarity=Neg	22	advmod	_	start_char=4917|end_char=4922
 22	einfach	einfach	ADV	ADV	_	25	advmod	_	start_char=4923|end_char=4930
-23	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	24	det	_	start_char=4931|end_char=4936
+23	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	24	det	_	start_char=4931|end_char=4936
 24	Techniker	Techniker	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	25	obj	_	start_char=4937|end_char=4946
-25	vorbeischicken	vorbeischicken	VERB	VVINF	VerbForm=Inf	7	parataxis	_	start_char=4947|end_char=4961|SpaceAfter=No
+25	vorbeischicken	vorbeischicken	VERB	VVINF	VerbForm=Inf	7	parataxis	_	SpaceAfter=No|start_char=4947|end_char=4961
 26	,	,	PUNCT	$,	_	29	punct	_	start_char=4961|end_char=4962
 27	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	29	nsubj	_	start_char=4963|end_char=4966
 28	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	obj	_	start_char=4967|end_char=4969
 29	austauscht	austauschen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl	_	start_char=4970|end_char=4980
 30	und	und	CCONJ	KON	_	32	cc	_	start_char=4981|end_char=4984
 31	dann	dann	ADV	ADV	_	32	advmod	_	start_char=4985|end_char=4989
-32	weiterfahren	weiterfahren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	conj	_	start_char=4990|end_char=5002|SpaceAfter=No
-33	.	.	PUNCT	$.	_	7	punct	_	start_char=5002|end_char=5003|SpacesAfter=\n\n
+32	weiterfahren	weiterfahren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	conj	_	SpaceAfter=No|start_char=4990|end_char=5002
+33	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n|start_char=5002|end_char=5003
 
 # text = Die Reise dieser Raumsonden kann Monate, Jahre, sogar Jahrzehnte dauern.
 # sent_id = 49
@@ -1114,33 +1113,33 @@
 3	dieser	dieser	DET	PDAT	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	start_char=5015|end_char=5021
 4	Raumsonden	Raumsonde	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	start_char=5022|end_char=5032
 5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=5033|end_char=5037
-6	Monate	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obl	_	start_char=5038|end_char=5044|SpaceAfter=No
+6	Monate	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No|start_char=5038|end_char=5044
 7	,	,	PUNCT	$,	_	8	punct	_	start_char=5044|end_char=5045
-8	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	conj	_	start_char=5046|end_char=5051|SpaceAfter=No
+8	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	conj	_	SpaceAfter=No|start_char=5046|end_char=5051
 9	,	,	PUNCT	$,	_	6	punct	_	start_char=5051|end_char=5052
 10	sogar	sogar	ADV	ADV	_	11	advmod	_	start_char=5053|end_char=5058
 11	Jahrzehnte	Jahrzehnt	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	obj	_	start_char=5059|end_char=5069
-12	dauern	dauern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5070|end_char=5076|SpaceAfter=No
-13	.	.	PUNCT	$.	_	12	punct	_	start_char=5076|end_char=5077|SpacesAfter=\n\n
+12	dauern	dauern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=5070|end_char=5076
+13	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n|start_char=5076|end_char=5077
 
 # text = Und ein geeignetes Präzisionsinstrument zu entwerfen, ist ebenso Kunst, wie Wissenschaft und Handwerk.
 # sent_id = 50
 1	Und	und	CCONJ	KON	_	6	cc	_	start_char=5079|end_char=5082
-2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	4	det	_	start_char=5083|end_char=5086
+2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=5083|end_char=5086
 3	geeignetes	geeignet	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=5087|end_char=5097
 4	Präzisionsinstrument	Präzisionsinstrument	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	obj	_	start_char=5098|end_char=5118
 5	zu	zu	PART	PTKZU	_	6	mark	_	start_char=5119|end_char=5121
-6	entwerfen	entwerfen	VERB	VVINF	VerbForm=Inf	10	csubj	_	start_char=5122|end_char=5131|SpaceAfter=No
+6	entwerfen	entwerfen	VERB	VVINF	VerbForm=Inf	10	csubj	_	SpaceAfter=No|start_char=5122|end_char=5131
 7	,	,	PUNCT	$,	_	6	punct	_	start_char=5131|end_char=5132
 8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=5133|end_char=5136
 9	ebenso	ebenso	ADV	ADV	_	10	advmod	_	start_char=5137|end_char=5143
-10	Kunst	Kunst	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=5144|end_char=5149|SpaceAfter=No
+10	Kunst	Kunst	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=5144|end_char=5149
 11	,	,	PUNCT	$,	_	13	punct	_	start_char=5149|end_char=5150
 12	wie	wie	ADP	KOKOM	_	13	case	_	start_char=5151|end_char=5154
 13	Wissenschaft	Wissenschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nmod	_	start_char=5155|end_char=5167
 14	und	und	CCONJ	KON	_	15	cc	_	start_char=5168|end_char=5171
-15	Handwerk	Handwerk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	conj	_	start_char=5172|end_char=5180|SpaceAfter=No
-16	.	.	PUNCT	$.	_	10	punct	_	start_char=5180|end_char=5181|SpacesAfter=\n\n
+15	Handwerk	Handwerk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	conj	_	SpaceAfter=No|start_char=5172|end_char=5180
+16	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n|start_char=5180|end_char=5181
 
 # text = Aber es gibt gute Nachrichten: Wir machen erstaunliche Fortschritte. Wir sind gerade dabei, die ersten Schritte, in ein neues Zeitalter von Atomuhren im Weltraum zu gehen.
 # sent_id = 51
@@ -1148,24 +1147,24 @@
 2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=5188|end_char=5190
 3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5191|end_char=5195
 4	gute	gut	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=5196|end_char=5200
-5	Nachrichten	Nachricht	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=5201|end_char=5212|SpaceAfter=No
+5	Nachrichten	Nachricht	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No|start_char=5201|end_char=5212
 6	:	:	PUNCT	$.	_	8	punct	_	start_char=5212|end_char=5213
 7	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=5214|end_char=5217
 8	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=5218|end_char=5224
 9	erstaunliche	erstaunlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	start_char=5225|end_char=5237
-10	Fortschritte	Fortschritt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	start_char=5238|end_char=5250|SpaceAfter=No
+10	Fortschritte	Fortschritt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No|start_char=5238|end_char=5250
 11	.	.	PUNCT	$.	_	13	punct	_	start_char=5250|end_char=5251
 12	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	start_char=5252|end_char=5255
 13	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	parataxis	_	start_char=5256|end_char=5260
 14	gerade	gerade	ADV	ADV	_	13	advmod	_	start_char=5261|end_char=5267
-15	dabei	dabei	ADV	PAV	_	13	advmod	_	start_char=5268|end_char=5273|SpaceAfter=No
+15	dabei	dabei	ADV	PAV	_	13	advmod	_	SpaceAfter=No|start_char=5268|end_char=5273
 16	,	,	PUNCT	$,	_	31	punct	_	start_char=5273|end_char=5274
 17	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	19	det	_	start_char=5275|end_char=5278
-18	ersten	erst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|NumType=Ord|Number=Plur	19	amod	_	start_char=5279|end_char=5285
-19	Schritte	Schritt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	31	obj	_	start_char=5286|end_char=5294|SpaceAfter=No
+18	ersten	erst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|NumType=Ord	19	amod	_	start_char=5279|end_char=5285
+19	Schritte	Schritt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	31	obj	_	SpaceAfter=No|start_char=5286|end_char=5294
 20	,	,	PUNCT	$,	_	24	punct	_	start_char=5294|end_char=5295
 21	in	in	ADP	APPR	_	24	case	_	start_char=5296|end_char=5298
-22	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	24	det	_	start_char=5299|end_char=5302
+22	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	24	det	_	start_char=5299|end_char=5302
 23	neues	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	start_char=5303|end_char=5308
 24	Zeitalter	Zeitalter	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	31	obl	_	start_char=5309|end_char=5318
 25	von	von	ADP	APPR	_	26	case	_	start_char=5319|end_char=5322
@@ -1175,29 +1174,29 @@
 28	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	Weltraum	Weltraum	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	26	nmod	_	start_char=5336|end_char=5344
 30	zu	zu	PART	PTKZU	_	31	mark	_	start_char=5345|end_char=5347
-31	gehen	gehen	VERB	VVINF	VerbForm=Inf	13	xcomp	_	start_char=5348|end_char=5353|SpaceAfter=No
-32	.	.	PUNCT	$.	_	3	punct	_	start_char=5353|end_char=5354|SpacesAfter=\n\n
+31	gehen	gehen	VERB	VVINF	VerbForm=Inf	13	xcomp	_	SpaceAfter=No|start_char=5348|end_char=5353
+32	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n|start_char=5353|end_char=5354
 
 # text = Bald schicken wir eine ionen- basierte atomare Uhr los, die geeignet für den Weltraum ist.
 # sent_id = 52
 1	Bald	bald	ADV	ADV	_	2	advmod	_	start_char=5356|end_char=5360
 2	schicken	schicken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5361|end_char=5369
 3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=5370|end_char=5373
-4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=5374|end_char=5378
-5	ionen	ionen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	compound	_	start_char=5379|end_char=5384|SpaceAfter=No
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=5374|end_char=5378
+5	ionen	ionen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	compound	_	SpaceAfter=No|start_char=5379|end_char=5384
 6	-	-	PUNCT	$(	_	5	punct	_	start_char=5384|end_char=5385
 7	basierte	basieren	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=5386|end_char=5394
 8	atomare	atomar	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=5395|end_char=5402
 9	Uhr	Uhr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=5403|end_char=5406
-10	los	los	ADV	PTKVZ	_	2	compound:prt	_	start_char=5407|end_char=5410|SpaceAfter=No
+10	los	los	ADV	PTKVZ	_	2	compound:prt	_	SpaceAfter=No|start_char=5407|end_char=5410
 11	,	,	PUNCT	$,	_	13	punct	_	start_char=5410|end_char=5411
 12	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	13	nsubj	_	start_char=5412|end_char=5415
 13	geeignet	geeignet	ADJ	ADJD	Degree=Pos	9	acl	_	start_char=5416|end_char=5424
 14	für	für	ADP	APPR	_	16	case	_	start_char=5425|end_char=5428
 15	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=5429|end_char=5432
 16	Weltraum	Weltraum	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	start_char=5433|end_char=5441
-17	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=5442|end_char=5445|SpaceAfter=No
-18	.	.	PUNCT	$.	_	2	punct	_	start_char=5445|end_char=5446|SpacesAfter=\n\n
+17	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	SpaceAfter=No|start_char=5442|end_char=5445
+18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=5445|end_char=5446
 
 # text = Diese Uhr könnte unsere Art zu navigieren komplett verändern.
 # sent_id = 53
@@ -1209,8 +1208,8 @@
 6	zu	zu	PART	PTKZU	_	7	mark	_	start_char=5476|end_char=5478
 7	navigieren	navigieren	VERB	VVINF	VerbForm=Inf	9	xcomp	_	start_char=5479|end_char=5489
 8	komplett	komplett	ADJ	ADJD	Degree=Pos	9	advmod	_	start_char=5490|end_char=5498
-9	verändern	verändern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5499|end_char=5508|SpaceAfter=No
-10	.	.	PUNCT	$.	_	9	punct	_	start_char=5508|end_char=5509|SpacesAfter=\n\n
+9	verändern	verändern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=5499|end_char=5508
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n|start_char=5508|end_char=5509
 
 # text = Die Uhr ist so stabil, sie misst die Zeit so gut, dass, wenn ich sie jetzt hier hinlege und weglaufe, dann müsste ich in mehr als neun Millionen Jahren zurückkommen, dass sie um eine Sekunde falsch geht.
 # sent_id = 54
@@ -1218,16 +1217,16 @@
 2	Uhr	Uhr	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=5515|end_char=5518
 3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=5519|end_char=5522
 4	so	so	ADV	ADV	_	5	advmod	_	start_char=5523|end_char=5525
-5	stabil	stabil	ADJ	ADJD	Degree=Pos	0	root	_	start_char=5526|end_char=5532|SpaceAfter=No
+5	stabil	stabil	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=5526|end_char=5532
 6	,	,	PUNCT	$,	_	8	punct	_	start_char=5532|end_char=5533
 7	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=5534|end_char=5537
 8	misst	messen|missen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	start_char=5538|end_char=5543
 9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=5544|end_char=5547
 10	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=5548|end_char=5552
 11	so	so	ADV	ADV	_	12	advmod	_	start_char=5553|end_char=5555
-12	gut	gut	ADJ	ADJD	Degree=Pos	8	advmod	_	start_char=5556|end_char=5559|SpaceAfter=No
+12	gut	gut	ADJ	ADJD	Degree=Pos	8	advmod	_	SpaceAfter=No|start_char=5556|end_char=5559
 13	,	,	PUNCT	$,	_	21	punct	_	start_char=5559|end_char=5560
-14	dass	dass	SCONJ	KOUS	_	21	mark	_	start_char=5561|end_char=5565|SpaceAfter=No
+14	dass	dass	SCONJ	KOUS	_	21	mark	_	SpaceAfter=No|start_char=5561|end_char=5565
 15	,	,	PUNCT	$,	_	21	punct	_	start_char=5565|end_char=5566
 16	wenn	wenn	SCONJ	KOUS	_	21	mark	_	start_char=5567|end_char=5571
 17	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	start_char=5572|end_char=5575
@@ -1236,7 +1235,7 @@
 20	hier	hier	ADV	ADV	_	21	advmod	_	start_char=5586|end_char=5590
 21	hinlege	hinlegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	start_char=5591|end_char=5598
 22	und	und	CCONJ	KON	_	23	cc	_	start_char=5599|end_char=5602
-23	weglaufe	weglaufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	start_char=5603|end_char=5611|SpaceAfter=No
+23	weglaufe	weglaufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	SpaceAfter=No|start_char=5603|end_char=5611
 24	,	,	PUNCT	$,	_	21	punct	_	start_char=5611|end_char=5612
 25	dann	dann	ADV	ADV	_	34	advmod	_	start_char=5613|end_char=5617
 26	müsste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	34	aux	_	start_char=5618|end_char=5624
@@ -1247,35 +1246,35 @@
 31	neun	neun	NUM	CARD	NumType=Card	32	nummod	_	start_char=5641|end_char=5645
 32	Millionen	Million	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	33	nmod	_	start_char=5646|end_char=5655
 33	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	34	obl	_	start_char=5656|end_char=5662
-34	zurückkommen	zurückkommen	VERB	VVINF	VerbForm=Inf	5	parataxis	_	start_char=5663|end_char=5675|SpaceAfter=No
+34	zurückkommen	zurückkommen	VERB	VVINF	VerbForm=Inf	5	parataxis	_	SpaceAfter=No|start_char=5663|end_char=5675
 35	,	,	PUNCT	$,	_	42	punct	_	start_char=5675|end_char=5676
 36	dass	dass	SCONJ	KOUS	_	42	mark	_	start_char=5677|end_char=5681
 37	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	42	nsubj	_	start_char=5682|end_char=5685
 38	um	um	ADP	APPR	_	40	case	_	start_char=5686|end_char=5688
-39	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	40	det	_	start_char=5689|end_char=5693
+39	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	40	det	_	start_char=5689|end_char=5693
 40	Sekunde	Sekunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	42	obl	_	start_char=5694|end_char=5701
 41	falsch	falsch	ADJ	ADJD	Degree=Pos	42	advmod	_	start_char=5702|end_char=5708
-42	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	ccomp	_	start_char=5709|end_char=5713|SpaceAfter=No
-43	.	.	PUNCT	$.	_	5	punct	_	start_char=5713|end_char=5714|SpacesAfter=\n\n
+42	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	ccomp	_	SpaceAfter=No|start_char=5709|end_char=5713
+43	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n|start_char=5713|end_char=5714
 
 # text = Also, was können wir mit so einer Uhr machen?
 # sent_id = 55
-1	Also	also	ADV	ADV	_	10	advmod	_	start_char=5716|end_char=5720|SpaceAfter=No
+1	Also	also	ADV	ADV	_	10	advmod	_	SpaceAfter=No|start_char=5716|end_char=5720
 2	,	,	PUNCT	$,	_	1	punct	_	start_char=5720|end_char=5721
 3	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	10	obj	_	start_char=5722|end_char=5725
 4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=5726|end_char=5732
 5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	start_char=5733|end_char=5736
 6	mit	mit	ADP	APPR	_	9	case	_	start_char=5737|end_char=5740
 7	so	so	ADV	ADV	_	10	advmod	_	start_char=5741|end_char=5743
-8	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=5744|end_char=5749
+8	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=5744|end_char=5749
 9	Uhr	Uhr	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	start_char=5750|end_char=5753
-10	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5754|end_char=5760|SpaceAfter=No
-11	?	?	PUNCT	$.	_	10	punct	_	start_char=5760|end_char=5761|SpacesAfter=\n\n
+10	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=5754|end_char=5760
+11	?	?	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n|start_char=5760|end_char=5761
 
 # text = Nun ja, statt die Navigation der Raumsonde von der Erde aus zu machen, sollte die Sonde sich nicht selbst navigieren?
 # sent_id = 56
 1	Nun	nun	ADV	ADV	_	14	advmod	_	start_char=5763|end_char=5766
-2	ja	ja	ADV	ADV	_	22	advmod	_	start_char=5767|end_char=5769|SpaceAfter=No
+2	ja	ja	ADV	ADV	_	22	advmod	_	SpaceAfter=No|start_char=5767|end_char=5769
 3	,	,	PUNCT	$,	_	14	punct	_	start_char=5769|end_char=5770
 4	statt	statt	ADP	KOUI	_	14	mark	_	start_char=5771|end_char=5776
 5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=5777|end_char=5780
@@ -1287,7 +1286,7 @@
 11	Erde	Erde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	start_char=5814|end_char=5818
 12	aus	aus	ADP	PTKVZ	_	14	compound:prt	_	start_char=5819|end_char=5822
 13	zu	zu	PART	PTKZU	_	14	mark	_	start_char=5823|end_char=5825
-14	machen	machen	VERB	VVINF	VerbForm=Inf	22	advcl	_	start_char=5826|end_char=5832|SpaceAfter=No
+14	machen	machen	VERB	VVINF	VerbForm=Inf	22	advcl	_	SpaceAfter=No|start_char=5826|end_char=5832
 15	,	,	PUNCT	$,	_	14	punct	_	start_char=5832|end_char=5833
 16	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	start_char=5834|end_char=5840
 17	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=5841|end_char=5844
@@ -1295,27 +1294,27 @@
 19	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	22	obj	_	start_char=5851|end_char=5855
 20	nicht	nicht	PART	PTKNEG	Polarity=Neg	22	advmod	_	start_char=5856|end_char=5861
 21	selbst	selbst	ADV	ADV	_	20	advmod	_	start_char=5862|end_char=5868
-22	navigieren	navigieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=5869|end_char=5879|SpaceAfter=No
-23	?	?	PUNCT	$.	_	22	punct	_	start_char=5879|end_char=5880|SpacesAfter=\n\n
+22	navigieren	navigieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=5869|end_char=5879
+23	?	?	PUNCT	$.	_	22	punct	_	SpacesAfter=\n\n|start_char=5879|end_char=5880
 
 # text = Autonome Navigation, also selbstfahrende Raumfahrzeuge, ist eine der wichtigsten Technologien, die wir brauchen, um im Weltraum zu überleben.
 # sent_id = 57
 1	Autonome	autonom	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=5882|end_char=5890
-2	Navigation	Navigation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=5891|end_char=5901|SpaceAfter=No
+2	Navigation	Navigation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No|start_char=5891|end_char=5901
 3	,	,	PUNCT	$,	_	6	punct	_	start_char=5901|end_char=5902
 4	also	also	ADV	ADV	_	6	advmod	_	start_char=5903|end_char=5907
 5	selbstfahrende	selbstfahrend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	6	amod	_	start_char=5908|end_char=5922
-6	Raumfahrzeuge	Raumfahrzeug	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	appos	_	start_char=5923|end_char=5936|SpaceAfter=No
+6	Raumfahrzeuge	Raumfahrzeug	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	appos	_	SpaceAfter=No|start_char=5923|end_char=5936
 7	,	,	PUNCT	$,	_	2	punct	_	start_char=5936|end_char=5937
 8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=5938|end_char=5941
-9	eine	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	0	root	_	start_char=5942|end_char=5946
+9	eine	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	0	root	_	start_char=5942|end_char=5946
 10	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	12	det	_	start_char=5947|end_char=5950
 11	wichtigsten	wichtig	ADJ	ADJA	Case=Gen|Degree=Sup|Gender=Fem|Number=Plur	12	amod	_	start_char=5951|end_char=5962
-12	Technologien	Technologie	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	start_char=5963|end_char=5975|SpaceAfter=No
+12	Technologien	Technologie	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No|start_char=5963|end_char=5975
 13	,	,	PUNCT	$,	_	16	punct	_	start_char=5975|end_char=5976
 14	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Dem,Rel	16	obj	_	start_char=5977|end_char=5980
 15	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	start_char=5981|end_char=5984
-16	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	start_char=5985|end_char=5993|SpaceAfter=No
+16	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	SpaceAfter=No|start_char=5985|end_char=5993
 17	,	,	PUNCT	$,	_	23	punct	_	start_char=5993|end_char=5994
 18	um	um	ADP	KOUI	_	23	mark	_	start_char=5995|end_char=5997
 19-20	im	_	_	_	_	_	_	_	start_char=5998|end_char=6000
@@ -1323,8 +1322,8 @@
 20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	Weltraum	Weltraum	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	23	obl	_	start_char=6001|end_char=6009
 22	zu	zu	PART	PTKZU	_	23	mark	_	start_char=6010|end_char=6012
-23	überleben	überleben	VERB	VVINF	VerbForm=Inf	16	advcl	_	start_char=6013|end_char=6022|SpaceAfter=No
-24	.	.	PUNCT	$.	_	9	punct	_	start_char=6022|end_char=6023|SpacesAfter=\n\n
+23	überleben	überleben	VERB	VVINF	VerbForm=Inf	16	advcl	_	SpaceAfter=No|start_char=6013|end_char=6022
+24	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n|start_char=6022|end_char=6023
 
 # text = Wenn wir irgendwann Menschen auf den Mars oder weiter senden, muss das Raumschiff in Echtzeit navigiert werden, statt auf Richtungsanweisungen auf der Erde zu warten.
 # sent_id = 58
@@ -1337,7 +1336,7 @@
 7	Mars	Mars	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	start_char=6062|end_char=6066
 8	oder	oder	CCONJ	KON	_	10	cc	_	start_char=6067|end_char=6071
 9	weiter	weit	ADJ	ADV	Degree=Cmp	10	advmod	_	start_char=6072|end_char=6078
-10	senden	senden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	start_char=6079|end_char=6085|SpaceAfter=No
+10	senden	senden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	SpaceAfter=No|start_char=6079|end_char=6085
 11	,	,	PUNCT	$,	_	10	punct	_	start_char=6085|end_char=6086
 12	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=6087|end_char=6091
 13	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	start_char=6092|end_char=6095
@@ -1345,7 +1344,7 @@
 15	in	in	ADP	APPR	_	16	case	_	start_char=6107|end_char=6109
 16	Echtzeit	Echtzeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	start_char=6110|end_char=6118
 17	navigiert	navigieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=6119|end_char=6128
-18	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	17	aux:pass	_	start_char=6129|end_char=6135|SpaceAfter=No
+18	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	17	aux:pass	_	SpaceAfter=No|start_char=6129|end_char=6135
 19	,	,	PUNCT	$,	_	27	punct	_	start_char=6135|end_char=6136
 20	statt	statt	ADP	KOUI	_	27	mark	_	start_char=6137|end_char=6142
 21	auf	auf	ADP	APPR	_	22	case	_	start_char=6143|end_char=6146
@@ -1354,8 +1353,8 @@
 24	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	start_char=6172|end_char=6175
 25	Erde	Erde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	22	nmod	_	start_char=6176|end_char=6180
 26	zu	zu	PART	PTKZU	_	27	mark	_	start_char=6181|end_char=6183
-27	warten	warten	VERB	VVINF	VerbForm=Inf	17	advcl	_	start_char=6184|end_char=6190|SpaceAfter=No
-28	.	.	PUNCT	$.	_	17	punct	_	start_char=6190|end_char=6191|SpacesAfter=\n\n
+27	warten	warten	VERB	VVINF	VerbForm=Inf	17	advcl	_	SpaceAfter=No|start_char=6184|end_char=6190
+28	.	.	PUNCT	$.	_	17	punct	_	SpacesAfter=\n\n|start_char=6190|end_char=6191
 
 # text = Wenn die Messung auch nur den Bruchteil einer Sekunde falsch ist, kann das über Erfolg oder Scheitern der Mission entscheiden. Das ist schlimm genug für eine Robotermission, aber stellen Sie sich die Konsequenzen vor, wenn wir eine menschliche Besatzung haben.
 # sent_id = 59
@@ -1366,10 +1365,10 @@
 5	nur	nur	ADV	ADV	_	10	advmod	_	start_char=6215|end_char=6218
 6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=6219|end_char=6222
 7	Bruchteil	Bruchteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	nsubj	_	start_char=6223|end_char=6232
-8	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	9	det	_	start_char=6233|end_char=6238
+8	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=6233|end_char=6238
 9	Sekunde	Sekunde	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=6239|end_char=6246
 10	falsch	falsch	ADJ	ADJD	Degree=Pos	21	advcl	_	start_char=6247|end_char=6253
-11	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=6254|end_char=6257|SpaceAfter=No
+11	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	SpaceAfter=No|start_char=6254|end_char=6257
 12	,	,	PUNCT	$,	_	10	punct	_	start_char=6257|end_char=6258
 13	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	start_char=6259|end_char=6263
 14	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	21	nsubj	_	start_char=6264|end_char=6267
@@ -1379,15 +1378,15 @@
 18	Scheitern	Scheitern	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	16	conj	_	start_char=6285|end_char=6294
 19	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	start_char=6295|end_char=6298
 20	Mission	Mission	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	start_char=6299|end_char=6306
-21	entscheiden	entscheiden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6307|end_char=6318|SpaceAfter=No
+21	entscheiden	entscheiden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=6307|end_char=6318
 22	.	.	PUNCT	$.	_	25	punct	_	start_char=6318|end_char=6319
 23	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	25	nsubj	_	start_char=6320|end_char=6323
 24	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	start_char=6324|end_char=6327
 25	schlimm	schlimm	ADJ	ADJD	Degree=Pos	21	parataxis	_	start_char=6328|end_char=6335
 26	genug	genug	ADV	ADV	PronType=Ind	25	advmod	_	start_char=6336|end_char=6341
 27	für	für	ADP	APPR	_	29	case	_	start_char=6342|end_char=6345
-28	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	29	det	_	start_char=6346|end_char=6350
-29	Robotermission	Robotermission	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	nmod	_	start_char=6351|end_char=6365|SpaceAfter=No
+28	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	29	det	_	start_char=6346|end_char=6350
+29	Robotermission	Robotermission	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No|start_char=6351|end_char=6365
 30	,	,	PUNCT	$,	_	32	punct	_	start_char=6365|end_char=6366
 31	aber	aber	CCONJ	KON	_	32	cc	_	start_char=6367|end_char=6371
 32	stellen	stellen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	conj	_	start_char=6372|end_char=6379
@@ -1395,30 +1394,30 @@
 34	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	32	obl:arg	_	start_char=6384|end_char=6388
 35	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	36	det	_	start_char=6389|end_char=6392
 36	Konsequenzen	Konsequenz	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	32	obj	_	start_char=6393|end_char=6405
-37	vor	vor	ADP	PTKVZ	_	32	compound:prt	_	start_char=6406|end_char=6409|SpaceAfter=No
+37	vor	vor	ADP	PTKVZ	_	32	compound:prt	_	SpaceAfter=No|start_char=6406|end_char=6409
 38	,	,	PUNCT	$,	_	44	punct	_	start_char=6409|end_char=6410
 39	wenn	wenn	SCONJ	KOUS	_	44	mark	_	start_char=6411|end_char=6415
 40	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	44	nsubj	_	start_char=6416|end_char=6419
-41	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	43	det	_	start_char=6420|end_char=6424
+41	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	43	det	_	start_char=6420|end_char=6424
 42	menschliche	menschlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	43	amod	_	start_char=6425|end_char=6436
 43	Besatzung	Besatzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	44	obj	_	start_char=6437|end_char=6446
-44	haben	haben	VERB	VAINF	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	advcl	_	start_char=6447|end_char=6452|SpaceAfter=No
-45	.	.	PUNCT	$.	_	21	punct	_	start_char=6452|end_char=6453|SpacesAfter=\n\n
+44	haben	haben	VERB	VAINF	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	advcl	_	SpaceAfter=No|start_char=6447|end_char=6452
+45	.	.	PUNCT	$.	_	21	punct	_	SpacesAfter=\n\n|start_char=6452|end_char=6453
 
 # text = Aber nehmen wir an, unsere Astronauten erreichen sicher die Planetenoberfläche.
 # sent_id = 60
 1	Aber	aber	CCONJ	KON	_	2	cc	_	start_char=6455|end_char=6459
 2	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6460|end_char=6466
 3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=6467|end_char=6470
-4	an	an	ADP	PTKVZ	_	2	compound:prt	_	start_char=6471|end_char=6473|SpaceAfter=No
+4	an	an	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No|start_char=6471|end_char=6473
 5	,	,	PUNCT	$,	_	8	punct	_	start_char=6473|end_char=6474
 6	unsere	unser	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=6475|end_char=6481
 7	Astronauten	Astronaut	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=6482|end_char=6493
 8	erreichen	erreichen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=6494|end_char=6503
 9	sicher	sicher	ADJ	ADV	Degree=Pos	8	advmod	_	start_char=6504|end_char=6510
 10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=6511|end_char=6514
-11	Planetenoberfläche	Planetenoberfläche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=6515|end_char=6533|SpaceAfter=No
-12	.	.	PUNCT	$.	_	2	punct	_	start_char=6533|end_char=6534|SpacesAfter=\n\n
+11	Planetenoberfläche	Planetenoberfläche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No|start_char=6515|end_char=6533
+12	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=6533|end_char=6534
 
 # text = Wenn Sie mal da sind, müssen sie sich zurechtfinden.
 # sent_id = 61
@@ -1426,28 +1425,28 @@
 2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	start_char=6541|end_char=6544
 3	mal	mal	ADV	ADV	_	5	advmod	_	start_char=6545|end_char=6548
 4	da	da	ADV	ADV	_	5	advmod	_	start_char=6549|end_char=6551
-5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	start_char=6552|end_char=6556|SpaceAfter=No
+5	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	SpaceAfter=No|start_char=6552|end_char=6556
 6	,	,	PUNCT	$,	_	5	punct	_	start_char=6556|end_char=6557
 7	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=6558|end_char=6564
 8	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=6565|end_char=6568
 9	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	start_char=6569|end_char=6573
-10	zurechtfinden	zurechtfinden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6574|end_char=6587|SpaceAfter=No
-11	.	.	PUNCT	$.	_	10	punct	_	start_char=6587|end_char=6588|SpacesAfter=\n\n
+10	zurechtfinden	zurechtfinden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=6574|end_char=6587
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n|start_char=6587|end_char=6588
 
 # text = Nun, mit dieser Uhr, können wir jetzt ein GPS-artiges Navigationssystem auf anderen Planeten und Monden entwickeln.
 # sent_id = 62
-1	Nun	nun	ADV	ADV	_	20	advmod	_	start_char=6590|end_char=6593|SpaceAfter=No
+1	Nun	nun	ADV	ADV	_	20	advmod	_	SpaceAfter=No|start_char=6590|end_char=6593
 2	,	,	PUNCT	$,	_	1	punct	_	start_char=6593|end_char=6594
 3	mit	mit	ADP	APPR	_	5	case	_	start_char=6595|end_char=6598
 4	dieser	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=6599|end_char=6605
-5	Uhr	Uhr	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	start_char=6606|end_char=6609|SpaceAfter=No
+5	Uhr	Uhr	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No|start_char=6606|end_char=6609
 6	,	,	PUNCT	$,	_	5	punct	_	start_char=6609|end_char=6610
 7	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	start_char=6611|end_char=6617
 8	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	start_char=6618|end_char=6621
 9	jetzt	jetzt	ADV	ADV	_	20	advmod	_	start_char=6622|end_char=6627
-10	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	14	det	_	start_char=6628|end_char=6631
-11	GPS	GPS	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	14	compound	_	start_char=6632|end_char=6635|SpaceAfter=No
-12	-	-	PUNCT	$(	_	11	punct	_	start_char=6635|end_char=6636|SpaceAfter=No
+10	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	14	det	_	start_char=6628|end_char=6631
+11	GPS	GPS	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	14	compound	_	SpaceAfter=No|start_char=6632|end_char=6635
+12	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No|start_char=6635|end_char=6636
 13	artiges	artig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	flat	_	start_char=6636|end_char=6643
 14	Navigationssystem	Navigationssystem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	20	obj	_	start_char=6644|end_char=6661
 15	auf	auf	ADP	APPR	_	17	case	_	start_char=6662|end_char=6665
@@ -1455,45 +1454,45 @@
 17	Planeten	Planet	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	14	nmod	_	start_char=6674|end_char=6682
 18	und	und	CCONJ	KON	_	19	cc	_	start_char=6683|end_char=6686
 19	Monden	Mond	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	17	conj	_	start_char=6687|end_char=6693
-20	entwickeln	entwickeln	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6694|end_char=6704|SpaceAfter=No
-21	.	.	PUNCT	$.	_	20	punct	_	start_char=6704|end_char=6705|SpacesAfter=\n\n
+20	entwickeln	entwickeln	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=6694|end_char=6704
+21	.	.	PUNCT	$.	_	20	punct	_	SpacesAfter=\n\n|start_char=6704|end_char=6705
 
 # text = Stellen Sie sich vor, auf dem Mond oder Mars ein GPS zu haben.
 # sent_id = 63
 1	Stellen	Stelle	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6707|end_char=6714
 2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=6715|end_char=6718
 3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	1	obj	_	start_char=6719|end_char=6723
-4	vor	vor	ADP	PTKVZ	_	1	compound:prt	_	start_char=6724|end_char=6727|SpaceAfter=No
+4	vor	vor	ADP	PTKVZ	_	1	compound:prt	_	SpaceAfter=No|start_char=6724|end_char=6727
 5	,	,	PUNCT	$,	_	14	punct	_	start_char=6727|end_char=6728
 6	auf	auf	ADP	APPR	_	8	case	_	start_char=6729|end_char=6732
 7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=6733|end_char=6736
 8	Mond	Mond	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	start_char=6737|end_char=6741
 9	oder	oder	CCONJ	KON	_	10	cc	_	start_char=6742|end_char=6746
 10	Mars	Mars	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	8	conj	_	start_char=6747|end_char=6751
-11	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=6752|end_char=6755
+11	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	12	det	_	start_char=6752|end_char=6755
 12	GPS	GPS	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	14	obj	_	start_char=6756|end_char=6759
 13	zu	zu	PART	PTKZU	_	14	mark	_	start_char=6760|end_char=6762
-14	haben	haben	VERB	VAINF	VerbForm=Inf	1	xcomp	_	start_char=6763|end_char=6768|SpaceAfter=No
-15	.	.	PUNCT	$.	_	1	punct	_	start_char=6768|end_char=6769|SpacesAfter=\n\n
+14	haben	haben	VERB	VAINF	VerbForm=Inf	1	xcomp	_	SpaceAfter=No|start_char=6763|end_char=6768
+15	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n|start_char=6768|end_char=6769
 
 # text = Stellen Sie sich eine Astronautin auf der Marsoberfläche vor, im Hintergrund Olympus Mons, und sie schaut runter auf die Mars Edition von Google Maps, um zu sehen, wo sie ist, und den Weg zu ihrem Ziel zu planen.
 # sent_id = 64
 1	Stellen	Stelle	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6771|end_char=6778
 2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|PronType=Prs	1	nsubj	_	start_char=6779|end_char=6782
 3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	1	obj	_	start_char=6783|end_char=6787
-4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=6788|end_char=6792
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=6788|end_char=6792
 5	Astronautin	Astronautin	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=6793|end_char=6804
 6	auf	auf	ADP	APPR	_	8	case	_	start_char=6805|end_char=6808
 7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=6809|end_char=6812
 8	Marsoberfläche	Marsoberfläche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	start_char=6813|end_char=6827
-9	vor	vor	ADP	PTKVZ	_	1	compound:prt	_	start_char=6828|end_char=6831|SpaceAfter=No
+9	vor	vor	ADP	PTKVZ	_	1	compound:prt	_	SpaceAfter=No|start_char=6828|end_char=6831
 10	,	,	PUNCT	$,	_	13	punct	_	start_char=6831|end_char=6832
 11-12	im	_	_	_	_	_	_	_	start_char=6833|end_char=6835
 11	in	in	ADP	APPR	_	13	case	_	_
 12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Hintergrund	Hintergrund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	start_char=6836|end_char=6847
 14	Olympus	Olympus	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	13	appos	_	start_char=6848|end_char=6855
-15	Mons	Mons	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	14	flat	_	start_char=6856|end_char=6860|SpaceAfter=No
+15	Mons	Mons	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	14	flat	_	SpaceAfter=No|start_char=6856|end_char=6860
 16	,	,	PUNCT	$,	_	19	punct	_	start_char=6860|end_char=6861
 17	und	und	CCONJ	KON	_	19	cc	_	start_char=6862|end_char=6865
 18	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	start_char=6866|end_char=6869
@@ -1505,15 +1504,15 @@
 24	Edition	Edition	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	23	flat	_	start_char=6897|end_char=6904
 25	von	von	ADP	APPR	_	26	case	_	start_char=6905|end_char=6908
 26	Google	Google	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	23	nmod	_	start_char=6909|end_char=6915
-27	Maps	Maps	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	26	flat	_	start_char=6916|end_char=6920|SpaceAfter=No
+27	Maps	Maps	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	26	flat	_	SpaceAfter=No|start_char=6916|end_char=6920
 28	,	,	PUNCT	$,	_	31	punct	_	start_char=6920|end_char=6921
 29	um	um	ADP	KOUI	_	31	mark	_	start_char=6922|end_char=6924
 30	zu	zu	PART	PTKZU	_	31	mark	_	start_char=6925|end_char=6927
-31	sehen	sehen	VERB	VVINF	VerbForm=Inf	19	advcl	_	start_char=6928|end_char=6933|SpaceAfter=No
+31	sehen	sehen	VERB	VVINF	VerbForm=Inf	19	advcl	_	SpaceAfter=No|start_char=6928|end_char=6933
 32	,	,	PUNCT	$,	_	35	punct	_	start_char=6933|end_char=6934
 33	wo	wo	ADV	PWAV	PronType=Int	35	advmod	_	start_char=6935|end_char=6937
 34	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	start_char=6938|end_char=6941
-35	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	ccomp	_	start_char=6942|end_char=6945|SpaceAfter=No
+35	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	ccomp	_	SpaceAfter=No|start_char=6942|end_char=6945
 36	,	,	PUNCT	$,	_	44	punct	_	start_char=6945|end_char=6946
 37	und	und	CCONJ	KON	_	44	cc	_	start_char=6947|end_char=6950
 38	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	start_char=6951|end_char=6954
@@ -1522,15 +1521,15 @@
 41	ihrem	ihr	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	42	det:poss	_	start_char=6962|end_char=6967
 42	Ziel	Ziel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	39	nmod	_	start_char=6968|end_char=6972
 43	zu	zu	PART	PTKZU	_	44	mark	_	start_char=6973|end_char=6975
-44	planen	planen	VERB	VVINF	VerbForm=Inf	31	conj	_	start_char=6976|end_char=6982|SpaceAfter=No
-45	.	.	PUNCT	$.	_	1	punct	_	start_char=6982|end_char=6983|SpacesAfter=\n\n
+44	planen	planen	VERB	VVINF	VerbForm=Inf	31	conj	_	SpaceAfter=No|start_char=6976|end_char=6982
+45	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n|start_char=6982|end_char=6983
 
 # text = Lassen Sie mich ein bisschen träumen und über die ganz weit entfernte Zukunft sprechen, wo wir Menschen an Orte viel weiter weg als Mars senden, Orte, an denen es einfach nicht realistisch ist, zur Navigation auf ein Signal von der Erde zu warten.
 # sent_id = 65
 1	Lassen	lassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6985|end_char=6991
 2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=6992|end_char=6995
 3	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	start_char=6996|end_char=7000
-4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	5	det	_	start_char=7001|end_char=7004
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=7001|end_char=7004
 5	bisschen	bisschen	ADV	PIS	PronType=Ind	6	advmod	_	start_char=7005|end_char=7013
 6	träumen	träumen	VERB	VVINF	VerbForm=Inf	1	xcomp	_	start_char=7014|end_char=7021
 7	und	und	CCONJ	KON	_	14	cc	_	start_char=7022|end_char=7025
@@ -1540,7 +1539,7 @@
 11	weit	weit	ADJ	ADJD	Degree=Pos	12	advmod	_	start_char=7040|end_char=7044
 12	entfernte	entfernt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=7045|end_char=7054
 13	Zukunft	Zukunft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	start_char=7055|end_char=7062
-14	sprechen	sprechen	VERB	VVINF	VerbForm=Inf	6	conj	_	start_char=7063|end_char=7071|SpaceAfter=No
+14	sprechen	sprechen	VERB	VVINF	VerbForm=Inf	6	conj	_	SpaceAfter=No|start_char=7063|end_char=7071
 15	,	,	PUNCT	$,	_	26	punct	_	start_char=7071|end_char=7072
 16	wo	wo	ADV	PWAV	PronType=Int	26	advmod	_	start_char=7073|end_char=7075
 17	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	26	nsubj	_	start_char=7076|end_char=7079
@@ -1552,9 +1551,9 @@
 23	weg	weg	ADV	ADV	_	26	advmod	_	start_char=7109|end_char=7112
 24	als	als	ADP	KOKOM	_	25	case	_	start_char=7113|end_char=7116
 25	Mars	Mars	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	26	obl	_	start_char=7117|end_char=7121
-26	senden	senden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl	_	start_char=7122|end_char=7128|SpaceAfter=No
+26	senden	senden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl	_	SpaceAfter=No|start_char=7122|end_char=7128
 27	,	,	PUNCT	$,	_	28	punct	_	start_char=7128|end_char=7129
-28	Orte	Ort	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	25	appos	_	start_char=7130|end_char=7134|SpaceAfter=No
+28	Orte	Ort	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	25	appos	_	SpaceAfter=No|start_char=7130|end_char=7134
 29	,	,	PUNCT	$,	_	35	punct	_	start_char=7134|end_char=7135
 30	an	an	ADP	APPR	_	31	case	_	start_char=7136|end_char=7138
 31	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Dem,Rel	35	nmod	_	start_char=7139|end_char=7144
@@ -1562,38 +1561,38 @@
 33	einfach	einfach	ADV	ADV	_	34	advmod	_	start_char=7148|end_char=7155
 34	nicht	nicht	PART	PTKNEG	Polarity=Neg	35	advmod	_	start_char=7156|end_char=7161
 35	realistisch	realistisch	ADJ	ADJD	Degree=Pos	28	acl	_	start_char=7162|end_char=7173
-36	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	start_char=7174|end_char=7177|SpaceAfter=No
+36	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	SpaceAfter=No|start_char=7174|end_char=7177
 37	,	,	PUNCT	$,	_	48	punct	_	start_char=7177|end_char=7178
 38-39	zur	_	_	_	_	_	_	_	start_char=7179|end_char=7182
 38	zu	zu	ADP	APPR	_	40	case	_	_
 39	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
 40	Navigation	Navigation	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	48	obl	_	start_char=7183|end_char=7193
 41	auf	auf	ADP	APPR	_	43	case	_	start_char=7194|end_char=7197
-42	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	43	det	_	start_char=7198|end_char=7201
+42	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	43	det	_	start_char=7198|end_char=7201
 43	Signal	Signal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	48	obl	_	start_char=7202|end_char=7208
 44	von	von	ADP	APPR	_	46	case	_	start_char=7209|end_char=7212
 45	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	start_char=7213|end_char=7216
 46	Erde	Erde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	43	nmod	_	start_char=7217|end_char=7221
 47	zu	zu	PART	PTKZU	_	48	mark	_	start_char=7222|end_char=7224
-48	warten	warten	VERB	VVINF	VerbForm=Inf	35	csubj	_	start_char=7225|end_char=7231|SpaceAfter=No
-49	.	.	PUNCT	$.	_	1	punct	_	start_char=7231|end_char=7232|SpacesAfter=\n\n
+48	warten	warten	VERB	VVINF	VerbForm=Inf	35	csubj	_	SpaceAfter=No|start_char=7225|end_char=7231
+49	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n|start_char=7231|end_char=7232
 
 # text = Stellen Sie sich vor, wie wir in diesem Szenario eine Ansammlung, ein Netzwerk aus Satelliten im Weltraum haben, die Navigationssignale senden, und jedes Raumfahrzeug, das das Signal empfängt, kann von einem zum nächsten Ziel reisen, ohne direkte Verbindung zur Erde.
 # sent_id = 66
 1	Stellen	Stelle	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7234|end_char=7241
 2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=7242|end_char=7245
 3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	1	obj	_	start_char=7246|end_char=7250
-4	vor	vor	ADP	PTKVZ	_	1	compound:prt	_	start_char=7251|end_char=7254|SpaceAfter=No
+4	vor	vor	ADP	PTKVZ	_	1	compound:prt	_	SpaceAfter=No|start_char=7251|end_char=7254
 5	,	,	PUNCT	$,	_	21	punct	_	start_char=7254|end_char=7255
 6	wie	wie	SCONJ	KOUS	_	21	mark	_	start_char=7256|end_char=7259
 7	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	start_char=7260|end_char=7263
 8	in	in	ADP	APPR	_	10	case	_	start_char=7264|end_char=7266
 9	diesem	dieser	DET	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	10	det	_	start_char=7267|end_char=7273
 10	Szenario	Szenario	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	start_char=7274|end_char=7282
-11	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|NumType=Card|Number=Sing|PronType=Art	12	det	_	start_char=7283|end_char=7287
-12	Ansammlung	Ansammlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	start_char=7288|end_char=7298|SpaceAfter=No
+11	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	12	det	_	start_char=7283|end_char=7287
+12	Ansammlung	Ansammlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No|start_char=7288|end_char=7298
 13	,	,	PUNCT	$,	_	15	punct	_	start_char=7298|end_char=7299
-14	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|NumType=Card|Number=Sing|PronType=Art	15	det	_	start_char=7300|end_char=7303
+14	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	15	det	_	start_char=7300|end_char=7303
 15	Netzwerk	Netzwerk	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	conj	_	start_char=7304|end_char=7312
 16	aus	aus	ADP	APPR	_	17	case	_	start_char=7313|end_char=7316
 17	Satelliten	Satellit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	15	nmod	_	start_char=7317|end_char=7327
@@ -1601,30 +1600,30 @@
 18	in	in	ADP	APPR	_	20	case	_	_
 19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	Weltraum	Weltraum	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	start_char=7331|end_char=7339
-21	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	start_char=7340|end_char=7345|SpaceAfter=No
+21	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	SpaceAfter=No|start_char=7340|end_char=7345
 22	,	,	PUNCT	$,	_	25	punct	_	start_char=7345|end_char=7346
 23	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	25	nsubj	_	start_char=7347|end_char=7350
 24	Navigationssignale	Navigationssignal	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	25	obj	_	start_char=7351|end_char=7369
-25	senden	senden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	start_char=7370|end_char=7376|SpaceAfter=No
+25	senden	senden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	SpaceAfter=No|start_char=7370|end_char=7376
 26	,	,	PUNCT	$,	_	43	punct	_	start_char=7376|end_char=7377
 27	und	und	CCONJ	KON	_	43	cc	_	start_char=7378|end_char=7381
 28	jedes	jeder	DET	PIAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	29	det	_	start_char=7382|end_char=7387
-29	Raumfahrzeug	Raumfahrzeug	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	start_char=7388|end_char=7400|SpaceAfter=No
+29	Raumfahrzeug	Raumfahrzeug	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	SpaceAfter=No|start_char=7388|end_char=7400
 30	,	,	PUNCT	$,	_	34	punct	_	start_char=7400|end_char=7401
 31	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	34	nsubj	_	start_char=7402|end_char=7405
 32	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	33	det	_	start_char=7406|end_char=7409
 33	Signal	Signal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	34	obj	_	start_char=7410|end_char=7416
-34	empfängt	empfangen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl	_	start_char=7417|end_char=7425|SpaceAfter=No
+34	empfängt	empfangen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl	_	SpaceAfter=No|start_char=7417|end_char=7425
 35	,	,	PUNCT	$,	_	29	punct	_	start_char=7425|end_char=7426
 36	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	start_char=7427|end_char=7431
 37	von	von	ADP	APPR	_	42	case	_	start_char=7432|end_char=7435
-38	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	42	det	_	start_char=7436|end_char=7441
+38	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	42	det	_	start_char=7436|end_char=7441
 39-40	zum	_	_	_	_	_	_	_	start_char=7442|end_char=7445
 39	zu	zu	ADP	APPR	_	42	case	_	_
 40	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	42	det	_	_
 41	nächsten	nah	ADJ	ADJA	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	42	amod	_	start_char=7446|end_char=7454
 42	Ziel	Ziel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	43	obl	_	start_char=7455|end_char=7459
-43	reisen	reisen	VERB	VVINF	VerbForm=Inf	1	parataxis	_	start_char=7460|end_char=7466|SpaceAfter=No
+43	reisen	reisen	VERB	VVINF	VerbForm=Inf	1	parataxis	_	SpaceAfter=No|start_char=7460|end_char=7466
 44	,	,	PUNCT	$,	_	47	punct	_	start_char=7466|end_char=7467
 45	ohne	ohne	ADP	APPR	_	47	case	_	start_char=7468|end_char=7472
 46	direkte	direkt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	47	amod	_	start_char=7473|end_char=7480
@@ -1632,8 +1631,8 @@
 48-49	zur	_	_	_	_	_	_	_	start_char=7492|end_char=7495
 48	zu	zu	ADP	APPR	_	50	case	_	_
 49	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
-50	Erde	Erde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	47	nmod	_	start_char=7496|end_char=7500|SpaceAfter=No
-51	.	.	PUNCT	$.	_	1	punct	_	start_char=7500|end_char=7501|SpacesAfter=\n\n
+50	Erde	Erde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	47	nmod	_	SpaceAfter=No|start_char=7496|end_char=7500
+51	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n|start_char=7500|end_char=7501
 
 # text = Die Fähigkeit im Weltraum akkurat die Zeit zu messen, kann für immer verändern, wie wir navigieren.
 # sent_id = 67
@@ -1647,17 +1646,17 @@
 7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=7537|end_char=7540
 8	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=7541|end_char=7545
 9	zu	zu	PART	PTKZU	_	10	mark	_	start_char=7546|end_char=7548
-10	messen	messen	VERB	VVINF	VerbForm=Inf	15	xcomp	_	start_char=7549|end_char=7555|SpaceAfter=No
+10	messen	messen	VERB	VVINF	VerbForm=Inf	15	xcomp	_	SpaceAfter=No|start_char=7549|end_char=7555
 11	,	,	PUNCT	$,	_	10	punct	_	start_char=7555|end_char=7556
 12	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=7557|end_char=7561
 13	für	für	ADP	APPR	_	14	case	_	start_char=7562|end_char=7565
 14	immer	immer	ADV	ADV	_	15	advmod	_	start_char=7566|end_char=7571
-15	verändern	verändern	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7572|end_char=7581|SpaceAfter=No
+15	verändern	verändern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=7572|end_char=7581
 16	,	,	PUNCT	$,	_	19	punct	_	start_char=7581|end_char=7582
 17	wie	wie	SCONJ	KOUS	_	19	mark	_	start_char=7583|end_char=7586
 18	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	start_char=7587|end_char=7590
-19	navigieren	navigieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	start_char=7591|end_char=7601|SpaceAfter=No
-20	.	.	PUNCT	$.	_	15	punct	_	start_char=7601|end_char=7602|SpacesAfter=\n\n
+19	navigieren	navigieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	SpaceAfter=No|start_char=7591|end_char=7601
+20	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\n\n|start_char=7601|end_char=7602
 
 # text = Aber sie kann auch richtig coole Forschung hervorbringen.
 # sent_id = 68
@@ -1668,31 +1667,31 @@
 5	richtig	richtig	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=7623|end_char=7630
 6	coole	cool	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=7631|end_char=7636
 7	Forschung	Forschung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=7637|end_char=7646
-8	hervorbringen	hervorbringen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7647|end_char=7660|SpaceAfter=No
-9	.	.	PUNCT	$.	_	8	punct	_	start_char=7660|end_char=7661|SpacesAfter=\n\n
+8	hervorbringen	hervorbringen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=7647|end_char=7660
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n|start_char=7660|end_char=7661
 
 # text = Sehen Sie, das gleiche Signal, mit dem wir navigieren, sagt uns etwas darüber, wo es herkommt, und über seine Reise von Antenne zu Antenne.
 # sent_id = 69
 1	Sehen	Sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	start_char=7663|end_char=7668
-2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=7669|end_char=7672|SpaceAfter=No
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	SpaceAfter=No|start_char=7669|end_char=7672
 3	,	,	PUNCT	$,	_	1	punct	_	start_char=7672|end_char=7673
 4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=7674|end_char=7677
 5	gleiche	gleich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=7678|end_char=7685
-6	Signal	Signal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	start_char=7686|end_char=7692|SpaceAfter=No
+6	Signal	Signal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	SpaceAfter=No|start_char=7686|end_char=7692
 7	,	,	PUNCT	$,	_	11	punct	_	start_char=7692|end_char=7693
 8	mit	mit	ADP	APPR	_	9	case	_	start_char=7694|end_char=7697
 9	dem	der	PRON	PRELS	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem,Rel	11	obl	_	start_char=7698|end_char=7701
 10	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	start_char=7702|end_char=7705
-11	navigieren	navigieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	start_char=7706|end_char=7716|SpaceAfter=No
+11	navigieren	navigieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	SpaceAfter=No|start_char=7706|end_char=7716
 12	,	,	PUNCT	$,	_	11	punct	_	start_char=7716|end_char=7717
 13	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7718|end_char=7722
 14	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	13	obl:arg	_	start_char=7723|end_char=7726
 15	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	13	nsubj	_	start_char=7727|end_char=7732
-16	darüber	darüber	ADV	PAV	PronType=Dem	13	advmod	_	start_char=7733|end_char=7740|SpaceAfter=No
+16	darüber	darüber	ADV	PAV	PronType=Dem	13	advmod	_	SpaceAfter=No|start_char=7733|end_char=7740
 17	,	,	PUNCT	$,	_	20	punct	_	start_char=7740|end_char=7741
 18	wo	wo	ADV	PWAV	PronType=Int	20	advmod	_	start_char=7742|end_char=7744
 19	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	start_char=7745|end_char=7747
-20	herkommt	herkommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	start_char=7748|end_char=7756|SpaceAfter=No
+20	herkommt	herkommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	SpaceAfter=No|start_char=7748|end_char=7756
 21	,	,	PUNCT	$,	_	25	punct	_	start_char=7756|end_char=7757
 22	und	und	CCONJ	KON	_	25	cc	_	start_char=7758|end_char=7761
 23	über	über	ADP	APPR	_	25	case	_	start_char=7762|end_char=7766
@@ -1701,8 +1700,8 @@
 26	von	von	ADP	APPR	_	27	case	_	start_char=7779|end_char=7782
 27	Antenne	Antenne	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	25	nmod	_	start_char=7783|end_char=7790
 28	zu	zu	ADP	APPR	_	29	case	_	start_char=7791|end_char=7793
-29	Antenne	Antenne	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	25	nmod	_	start_char=7794|end_char=7801|SpaceAfter=No
-30	.	.	PUNCT	$.	_	13	punct	_	start_char=7801|end_char=7802|SpacesAfter=\n\n
+29	Antenne	Antenne	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No|start_char=7794|end_char=7801
+30	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n\n|start_char=7801|end_char=7802
 
 # text = Und diese Reise gibt uns Daten, um bessere Modelle zu entwickeln, Modelle der Atmosphäre von Planeten unseres Sonnensystems.
 # sent_id = 70
@@ -1711,13 +1710,13 @@
 3	Reise	Reise	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=7814|end_char=7819
 4	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7820|end_char=7824
 5	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	4	obl:arg	_	start_char=7825|end_char=7828
-6	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	start_char=7829|end_char=7834|SpaceAfter=No
+6	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	SpaceAfter=No|start_char=7829|end_char=7834
 7	,	,	PUNCT	$,	_	12	punct	_	start_char=7834|end_char=7835
 8	um	um	ADP	KOUI	_	12	mark	_	start_char=7836|end_char=7838
 9	bessere	gut	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Neut|Number=Plur	10	amod	_	start_char=7839|end_char=7846
 10	Modelle	Modell	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	obj	_	start_char=7847|end_char=7854
 11	zu	zu	PART	PTKZU	_	12	mark	_	start_char=7855|end_char=7857
-12	entwickeln	entwickeln	VERB	VVINF	VerbForm=Inf	4	advcl	_	start_char=7858|end_char=7868|SpaceAfter=No
+12	entwickeln	entwickeln	VERB	VVINF	VerbForm=Inf	4	advcl	_	SpaceAfter=No|start_char=7858|end_char=7868
 13	,	,	PUNCT	$,	_	14	punct	_	start_char=7868|end_char=7869
 14	Modelle	Modell	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	12	appos	_	start_char=7870|end_char=7877
 15	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=7878|end_char=7881
@@ -1725,8 +1724,8 @@
 17	von	von	ADP	APPR	_	18	case	_	start_char=7893|end_char=7896
 18	Planeten	Planet	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	16	nmod	_	start_char=7897|end_char=7905
 19	unseres	unser	DET	PPOSAT	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	20	det:poss	_	start_char=7906|end_char=7913
-20	Sonnensystems	Sonnensystem	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	start_char=7914|end_char=7927|SpaceAfter=No
-21	.	.	PUNCT	$.	_	4	punct	_	start_char=7927|end_char=7928|SpacesAfter=\n\n
+20	Sonnensystems	Sonnensystem	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No|start_char=7914|end_char=7927
+21	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n|start_char=7927|end_char=7928
 
 # text = Wir können unterirdische Ozeane auf weit entfernten vereisten Monden entdecken. Vielleicht sogar winzige Gravitationswellen.
 # sent_id = 71
@@ -1739,13 +1738,13 @@
 7	entfernten	entfernt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=7971|end_char=7981
 8	vereisten	vereisen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=7982|end_char=7991
 9	Monden	Mond	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	obl	_	start_char=7992|end_char=7998
-10	entdecken	entdecken	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=7999|end_char=8008|SpaceAfter=No
+10	entdecken	entdecken	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=7999|end_char=8008
 11	.	.	PUNCT	$.	_	15	punct	_	start_char=8008|end_char=8009
 12	Vielleicht	vielleicht	ADV	ADV	_	15	advmod	_	start_char=8010|end_char=8020
 13	sogar	sogar	ADV	ADV	_	15	advmod	_	start_char=8021|end_char=8026
 14	winzige	winzig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=8027|end_char=8034
-15	Gravitationswellen	Gravitationswelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	appos	_	start_char=8035|end_char=8053|SpaceAfter=No
-16	.	.	PUNCT	$.	_	10	punct	_	start_char=8053|end_char=8054|SpacesAfter=\n\n
+15	Gravitationswellen	Gravitationswelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	appos	_	SpaceAfter=No|start_char=8035|end_char=8053
+16	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n|start_char=8053|end_char=8054
 
 # text = Autonome Navigation macht mehr Raumfahrzeuge möglich, mehr Sensoren, um das Universum zu erkunden, und gibt auch Navigatoren -- Leuten wie mir -- mehr Zeit um die Antworten auf andere Fragen zu finden.
 # sent_id = 72
@@ -1754,16 +1753,16 @@
 3	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8076|end_char=8081
 4	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	5	det	_	start_char=8082|end_char=8086
 5	Raumfahrzeuge	Raumfahrzeug	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	nsubj	_	start_char=8087|end_char=8100
-6	möglich	möglich	ADJ	ADJD	Degree=Pos	3	xcomp	_	start_char=8101|end_char=8108|SpaceAfter=No
+6	möglich	möglich	ADJ	ADJD	Degree=Pos	3	xcomp	_	SpaceAfter=No|start_char=8101|end_char=8108
 7	,	,	PUNCT	$,	_	9	punct	_	start_char=8108|end_char=8109
 8	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	9	det	_	start_char=8110|end_char=8114
-9	Sensoren	Sensor	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	obj	_	start_char=8115|end_char=8123|SpaceAfter=No
+9	Sensoren	Sensor	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	obj	_	SpaceAfter=No|start_char=8115|end_char=8123
 10	,	,	PUNCT	$,	_	15	punct	_	start_char=8123|end_char=8124
 11	um	um	ADP	KOUI	_	15	mark	_	start_char=8125|end_char=8127
 12	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	start_char=8128|end_char=8131
 13	Universum	Universum	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	start_char=8132|end_char=8141
 14	zu	zu	PART	PTKZU	_	15	mark	_	start_char=8142|end_char=8144
-15	erkunden	erkunden	VERB	VVINF	VerbForm=Inf	3	advcl	_	start_char=8145|end_char=8153|SpaceAfter=No
+15	erkunden	erkunden	VERB	VVINF	VerbForm=Inf	3	advcl	_	SpaceAfter=No|start_char=8145|end_char=8153
 16	,	,	PUNCT	$,	_	18	punct	_	start_char=8153|end_char=8154
 17	und	und	CCONJ	KON	_	18	cc	_	start_char=8155|end_char=8158
 18	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=8159|end_char=8163
@@ -1783,8 +1782,8 @@
 32	andere	anderer	DET	ADJA	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	33	det	_	start_char=8233|end_char=8239
 33	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	30	nmod	_	start_char=8240|end_char=8246
 34	zu	zu	PART	PTKZU	_	35	mark	_	start_char=8247|end_char=8249
-35	finden	finden	VERB	VVINF	VerbForm=Inf	18	advcl	_	start_char=8250|end_char=8256|SpaceAfter=No
-36	.	.	PUNCT	$.	_	3	punct	_	start_char=8256|end_char=8257|SpacesAfter=\n\n
+35	finden	finden	VERB	VVINF	VerbForm=Inf	18	advcl	_	SpaceAfter=No|start_char=8250|end_char=8256
+36	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n|start_char=8256|end_char=8257
 
 # text = Und es gibt noch viele Fragen zu beantworten.
 # sent_id = 73
@@ -1795,8 +1794,8 @@
 5	viele	viel	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	6	det	_	start_char=8276|end_char=8281
 6	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=8282|end_char=8288
 7	zu	zu	PART	PTKZU	_	8	mark	_	start_char=8289|end_char=8291
-8	beantworten	beantworten	VERB	VVINF	VerbForm=Inf	3	xcomp	_	start_char=8292|end_char=8303|SpaceAfter=No
-9	.	.	PUNCT	$.	_	3	punct	_	start_char=8303|end_char=8304|SpacesAfter=\n\n
+8	beantworten	beantworten	VERB	VVINF	VerbForm=Inf	3	xcomp	_	SpaceAfter=No|start_char=8292|end_char=8303
+9	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n|start_char=8303|end_char=8304
 
 # text = Wir wissen so wenig über das Universum um uns herum.
 # sent_id = 74
@@ -1809,15 +1808,15 @@
 7	Universum	Universum	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	start_char=8335|end_char=8344
 8	um	um	ADP	APPR	_	9	case	_	start_char=8345|end_char=8347
 9	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	7	nmod	_	start_char=8348|end_char=8351
-10	herum	herum	ADV	PTKVZ	_	2	compound:prt	_	start_char=8352|end_char=8357|SpaceAfter=No
-11	.	.	PUNCT	$.	_	2	punct	_	start_char=8357|end_char=8358|SpacesAfter=\n\n
+10	herum	herum	ADV	PTKVZ	_	2	compound:prt	_	SpaceAfter=No|start_char=8352|end_char=8357
+11	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=8357|end_char=8358
 
 # text = In den letzten Jahren, haben wir über 3000 Planetensysteme außerhalb unseres Sonnensystems entdeckt. Und diese Systeme beherbergen fast 4000 Exoplaneten.
 # sent_id = 75
 1	In	in	ADP	APPR	_	4	case	_	start_char=8360|end_char=8362
 2	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=8363|end_char=8366
 3	letzten	letzt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	4	amod	_	start_char=8367|end_char=8374
-4	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	14	obl	_	start_char=8375|end_char=8381|SpaceAfter=No
+4	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	14	obl	_	SpaceAfter=No|start_char=8375|end_char=8381
 5	,	,	PUNCT	$,	_	4	punct	_	start_char=8381|end_char=8382
 6	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=8383|end_char=8388
 7	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	start_char=8389|end_char=8392
@@ -1827,7 +1826,7 @@
 11	außerhalb	außerhalb	ADP	APPR	_	13	case	_	start_char=8419|end_char=8428
 12	unseres	unser	DET	PPOSAT	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	start_char=8429|end_char=8436
 13	Sonnensystems	Sonnensystem	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	14	obl	_	start_char=8437|end_char=8450
-14	entdeckt	entdecken	VERB	VVPP	VerbForm=Part	0	root	_	start_char=8451|end_char=8459|SpaceAfter=No
+14	entdeckt	entdecken	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=8451|end_char=8459
 15	.	.	PUNCT	$.	_	19	punct	_	start_char=8459|end_char=8460
 16	Und	und	CCONJ	KON	_	19	cc	_	start_char=8461|end_char=8464
 17	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	18	det	_	start_char=8465|end_char=8470
@@ -1835,8 +1834,8 @@
 19	beherbergen	beherbergen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	start_char=8479|end_char=8490
 20	fast	fast	ADV	ADV	_	21	advmod	_	start_char=8491|end_char=8495
 21	4000	4000	NUM	CARD	NumType=Card	22	nummod	_	start_char=8496|end_char=8500
-22	Exoplaneten	Exoplaneten	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	obj	_	start_char=8501|end_char=8512|SpaceAfter=No
-23	.	.	PUNCT	$.	_	14	punct	_	start_char=8512|end_char=8513|SpacesAfter=\n\n
+22	Exoplaneten	Exoplaneten	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	obj	_	SpaceAfter=No|start_char=8501|end_char=8512
+23	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n\n|start_char=8512|end_char=8513
 
 # text = Um diese Zahl zu veranschaulichen: Als ich als Kind zum ersten Mal über Planeten lernte, gab es neun davon, oder acht, wenn wir Pluto nicht dazuzählen.
 # sent_id = 76
@@ -1844,7 +1843,7 @@
 2	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=8518|end_char=8523
 3	Zahl	Zahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=8524|end_char=8528
 4	zu	zu	PART	PTKZU	_	5	mark	_	start_char=8529|end_char=8531
-5	veranschaulichen	veranschaulichen	VERB	VVINF	VerbForm=Inf	19	advcl	_	start_char=8532|end_char=8548|SpaceAfter=No
+5	veranschaulichen	veranschaulichen	VERB	VVINF	VerbForm=Inf	19	advcl	_	SpaceAfter=No|start_char=8532|end_char=8548
 6	:	:	PUNCT	$.	_	17	punct	_	start_char=8548|end_char=8549
 7	Als	als	SCONJ	KOUS	_	17	mark	_	start_char=8550|end_char=8553
 8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	start_char=8554|end_char=8557
@@ -1853,34 +1852,34 @@
 11-12	zum	_	_	_	_	_	_	_	start_char=8567|end_char=8570
 11	zu	zu	ADP	APPR	_	14	case	_	_
 12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
-13	ersten	erst	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|NumType=Ord|Number=Sing	14	amod	_	start_char=8571|end_char=8577
+13	ersten	erst	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	14	amod	_	start_char=8571|end_char=8577
 14	Mal	Mal	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	start_char=8578|end_char=8581
 15	über	über	ADP	APPR	_	16	case	_	start_char=8582|end_char=8586
 16	Planeten	Planet	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	17	obl	_	start_char=8587|end_char=8595
-17	lernte	lernen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	advcl	_	start_char=8596|end_char=8602|SpaceAfter=No
+17	lernte	lernen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	advcl	_	SpaceAfter=No|start_char=8596|end_char=8602
 18	,	,	PUNCT	$,	_	17	punct	_	start_char=8602|end_char=8603
 19	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=8604|end_char=8607
 20	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	expl	_	start_char=8608|end_char=8610
 21	neun	neun	NUM	CARD	NumType=Card	22	nummod	_	start_char=8611|end_char=8615
-22	davon	davon	ADV	PAV	PronType=Dem	19	advmod	_	start_char=8616|end_char=8621|SpaceAfter=No
+22	davon	davon	ADV	PAV	PronType=Dem	19	advmod	_	SpaceAfter=No|start_char=8616|end_char=8621
 23	,	,	PUNCT	$,	_	25	punct	_	start_char=8621|end_char=8622
 24	oder	oder	CCONJ	KON	_	25	cc	_	start_char=8623|end_char=8627
-25	acht	acht	NUM	CARD	NumType=Card	22	conj	_	start_char=8628|end_char=8632|SpaceAfter=No
+25	acht	acht	NUM	CARD	NumType=Card	22	conj	_	SpaceAfter=No|start_char=8628|end_char=8632
 26	,	,	PUNCT	$,	_	31	punct	_	start_char=8632|end_char=8633
 27	wenn	wenn	SCONJ	KOUS	_	31	mark	_	start_char=8634|end_char=8638
 28	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	31	nsubj	_	start_char=8639|end_char=8642
 29	Pluto	Pluto	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	31	obj	_	start_char=8643|end_char=8648
 30	nicht	nicht	PART	PTKNEG	Polarity=Neg	31	advmod	_	start_char=8649|end_char=8654
-31	dazuzählen	dazuzählen	VERB	VVINF	VerbForm=Inf	19	advcl	_	start_char=8655|end_char=8665|SpaceAfter=No
-32	.	.	PUNCT	$.	_	19	punct	_	start_char=8665|end_char=8666|SpacesAfter=\n\n
+31	dazuzählen	dazuzählen	VERB	VVINF	VerbForm=Inf	19	advcl	_	SpaceAfter=No|start_char=8655|end_char=8665
+32	.	.	PUNCT	$.	_	19	punct	_	SpacesAfter=\n\n|start_char=8665|end_char=8666
 
 # text = Jetzt gibt es 4000.
 # sent_id = 77
 1	Jetzt	jetzt	ADV	ADV	_	2	advmod	_	start_char=8668|end_char=8673
 2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8674|end_char=8678
 3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=8679|end_char=8681
-4	4000	4000	NUM	CARD	NumType=Card	2	obj	_	start_char=8682|end_char=8686|SpaceAfter=No
-5	.	.	PUNCT	$.	_	2	punct	_	start_char=8686|end_char=8687|SpacesAfter=\n\n
+4	4000	4000	NUM	CARD	NumType=Card	2	obj	_	SpaceAfter=No|start_char=8682|end_char=8686
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=8686|end_char=8687
 
 # text = Schätzungsweise macht dunkle Materie etwa 96 Prozent unseres Universum aus, und wir wissen noch nicht einmal, was es ist.
 # sent_id = 78
@@ -1893,25 +1892,25 @@
 7	Prozent	Prozent	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=8734|end_char=8741
 8	unseres	unser	DET	PPOSAT	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	start_char=8742|end_char=8749
 9	Universum	Universum	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	2	obj	_	start_char=8750|end_char=8759
-10	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	start_char=8760|end_char=8763|SpaceAfter=No
+10	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No|start_char=8760|end_char=8763
 11	,	,	PUNCT	$,	_	14	punct	_	start_char=8763|end_char=8764
 12	und	und	CCONJ	KON	_	14	cc	_	start_char=8765|end_char=8768
 13	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	start_char=8769|end_char=8772
 14	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=8773|end_char=8779
 15	noch	noch	ADV	ADV	_	16	advmod	_	start_char=8780|end_char=8784
 16	nicht	nicht	PART	PTKNEG	Polarity=Neg	14	advmod	_	start_char=8785|end_char=8790
-17	einmal	einmal	ADV	ADV	_	14	advmod	_	start_char=8791|end_char=8797|SpaceAfter=No
+17	einmal	einmal	ADV	ADV	_	14	advmod	_	SpaceAfter=No|start_char=8791|end_char=8797
 18	,	,	PUNCT	$,	_	21	punct	_	start_char=8797|end_char=8798
 19	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	21	obj	_	start_char=8799|end_char=8802
 20	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	start_char=8803|end_char=8805
-21	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	start_char=8806|end_char=8809|SpaceAfter=No
-22	.	.	PUNCT	$.	_	2	punct	_	start_char=8809|end_char=8810|SpacesAfter=\n\n
+21	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	SpaceAfter=No|start_char=8806|end_char=8809
+22	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n|start_char=8809|end_char=8810
 
 # text = All die Erkenntnisse, die wir aus all unseren Weltraumissionen gewannen, sind nur ein einziger Tropfen Wissen in einem weiten Ozean aus Fragen.
 # sent_id = 79
 1	All	all	ADV	ADV	_	3	advmod	_	start_char=8812|end_char=8815
 2	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=8816|end_char=8819
-3	Erkenntnisse	Erkenntnis	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	start_char=8820|end_char=8832|SpaceAfter=No
+3	Erkenntnisse	Erkenntnis	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	SpaceAfter=No|start_char=8820|end_char=8832
 4	,	,	PUNCT	$,	_	11	punct	_	start_char=8832|end_char=8833
 5	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Dem,Rel	11	obj	_	start_char=8834|end_char=8837
 6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	start_char=8838|end_char=8841
@@ -1919,51 +1918,51 @@
 8	all	alle	DET	PIAT	PronType=Ind	10	det	_	start_char=8846|end_char=8849
 9	unseren	unser	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=8850|end_char=8857
 10	Weltraumissionen	Weltraumission	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	obl	_	start_char=8858|end_char=8874
-11	gewannen	gewinnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	acl	_	start_char=8875|end_char=8883|SpaceAfter=No
+11	gewannen	gewinnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	acl	_	SpaceAfter=No|start_char=8875|end_char=8883
 12	,	,	PUNCT	$,	_	11	punct	_	start_char=8883|end_char=8884
 13	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=8885|end_char=8889
 14	nur	nur	ADV	ADV	_	18	advmod	_	start_char=8890|end_char=8893
-15	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	17	det	_	start_char=8894|end_char=8897
+15	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	17	det	_	start_char=8894|end_char=8897
 16	einziger	einzig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=8898|end_char=8906
 17	Tropfen	Tropfen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=8907|end_char=8914
 18	Wissen	Wissen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	17	nmod	_	start_char=8915|end_char=8921
 19	in	in	ADP	APPR	_	22	case	_	start_char=8922|end_char=8924
-20	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	22	det	_	start_char=8925|end_char=8930
+20	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	22	det	_	start_char=8925|end_char=8930
 21	weiten	weit	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=8931|end_char=8937
 22	Ozean	Ozean	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	nmod	_	start_char=8938|end_char=8943
 23	aus	aus	ADP	APPR	_	24	case	_	start_char=8944|end_char=8947
-24	Fragen	Frage	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	22	nmod	_	start_char=8948|end_char=8954|SpaceAfter=No
-25	.	.	PUNCT	$.	_	17	punct	_	start_char=8954|end_char=8955|SpacesAfter=\n\n
+24	Fragen	Frage	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No|start_char=8948|end_char=8954
+25	.	.	PUNCT	$.	_	17	punct	_	SpacesAfter=\n\n|start_char=8954|end_char=8955
 
 # text = Und, wenn wir mehr lernen wollen, mehr entdecken wollen, mehr verstehen wollen, dann müssen wir mehr erkunden.
 # sent_id = 80
-1	Und	und	CCONJ	KON	_	10	cc	_	start_char=8957|end_char=8960|SpaceAfter=No
+1	Und	und	CCONJ	KON	_	10	cc	_	SpaceAfter=No|start_char=8957|end_char=8960
 2	,	,	PUNCT	$,	_	1	punct	_	start_char=8960|end_char=8961
 3	wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=8962|end_char=8966
 4	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=8967|end_char=8970
 5	mehr	mehr	ADV	ADV	_	6	advmod	_	start_char=8971|end_char=8975
 6	lernen	lernen	VERB	VVINF	VerbForm=Inf	10	advcl	_	start_char=8976|end_char=8982
-7	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=8983|end_char=8989|SpaceAfter=No
+7	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No|start_char=8983|end_char=8989
 8	,	,	PUNCT	$,	_	6	punct	_	start_char=8989|end_char=8990
 9	mehr	mehr	DET	ADV	Degree=Cmp|PronType=Ind	10	obj	_	start_char=8991|end_char=8995
 10	entdecken	entdecken	VERB	VVINF	VerbForm=Inf	21	advcl	_	start_char=8996|end_char=9005
-11	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=9006|end_char=9012|SpaceAfter=No
+11	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No|start_char=9006|end_char=9012
 12	,	,	PUNCT	$,	_	14	punct	_	start_char=9012|end_char=9013
 13	mehr	mehr	DET	ADV	Degree=Cmp|PronType=Ind	14	nsubj	_	start_char=9014|end_char=9018
 14	verstehen	verstehen	VERB	VVINF	VerbForm=Inf	10	conj	_	start_char=9019|end_char=9028
-15	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=9029|end_char=9035|SpaceAfter=No
+15	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No|start_char=9029|end_char=9035
 16	,	,	PUNCT	$,	_	10	punct	_	start_char=9035|end_char=9036
 17	dann	dann	ADV	ADV	_	21	advmod	_	start_char=9037|end_char=9041
 18	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	start_char=9042|end_char=9048
 19	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	start_char=9049|end_char=9052
 20	mehr	mehr	ADV	ADV	_	21	advmod	_	start_char=9053|end_char=9057
-21	erkunden	erkunden	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=9058|end_char=9066|SpaceAfter=No
-22	.	.	PUNCT	$.	_	21	punct	_	start_char=9066|end_char=9067|SpacesAfter=\n\n
+21	erkunden	erkunden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=9058|end_char=9066
+22	.	.	PUNCT	$.	_	21	punct	_	SpacesAfter=\n\n|start_char=9066|end_char=9067
 
 # text = Die Fähigkeit, im Weltraum akkurat die Zeit zu messen, wird unsere Erkundung des Universums revolutionieren. Sie könnte einer der Schlüssel sein, um die Geheimnisse, die sich in seiner Tiefe verbergen, zu lüften.
 # sent_id = 81
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=9069|end_char=9072
-2	Fähigkeit	Fähigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	start_char=9073|end_char=9082|SpaceAfter=No
+2	Fähigkeit	Fähigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	SpaceAfter=No|start_char=9073|end_char=9082
 3	,	,	PUNCT	$,	_	11	punct	_	start_char=9082|end_char=9083
 4-5	im	_	_	_	_	_	_	_	start_char=9084|end_char=9086
 4	in	in	ADP	APPR	_	6	case	_	_
@@ -1973,38 +1972,38 @@
 8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=9104|end_char=9107
 9	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=9108|end_char=9112
 10	zu	zu	PART	PTKZU	_	11	mark	_	start_char=9113|end_char=9115
-11	messen	messen	VERB	VVINF	VerbForm=Inf	2	acl	_	start_char=9116|end_char=9122|SpaceAfter=No
+11	messen	messen	VERB	VVINF	VerbForm=Inf	2	acl	_	SpaceAfter=No|start_char=9116|end_char=9122
 12	,	,	PUNCT	$,	_	2	punct	_	start_char=9122|end_char=9123
 13	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	18	aux	_	start_char=9124|end_char=9128
 14	unsere	unser	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	15	det:poss	_	start_char=9129|end_char=9135
 15	Erkundung	Erkundung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	obj	_	start_char=9136|end_char=9145
 16	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	start_char=9146|end_char=9149
 17	Universums	Universum	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	start_char=9150|end_char=9160
-18	revolutionieren	revolutionieren	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=9161|end_char=9176|SpaceAfter=No
+18	revolutionieren	revolutionieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=9161|end_char=9176
 19	.	.	PUNCT	$.	_	24	punct	_	start_char=9176|end_char=9177
 20	Sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	start_char=9178|end_char=9181
 21	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux	_	start_char=9182|end_char=9188
-22	einer	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|PronType=Art	24	det	_	start_char=9189|end_char=9194
+22	einer	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	24	det	_	start_char=9189|end_char=9194
 23	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	24	det	_	start_char=9195|end_char=9198
 24	Schlüssel	Schlüssel	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	18	ccomp	_	start_char=9199|end_char=9208
-25	sein	sein	AUX	VAINF	VerbForm=Inf	24	cop	_	start_char=9209|end_char=9213|SpaceAfter=No
+25	sein	sein	AUX	VAINF	VerbForm=Inf	24	cop	_	SpaceAfter=No|start_char=9209|end_char=9213
 26	,	,	PUNCT	$,	_	39	punct	_	start_char=9213|end_char=9214
 27	um	um	ADP	KOUI	_	39	mark	_	start_char=9215|end_char=9217
 28	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	29	det	_	start_char=9218|end_char=9221
-29	Geheimnisse	Geheimnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	39	obj	_	start_char=9222|end_char=9233|SpaceAfter=No
+29	Geheimnisse	Geheimnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	39	obj	_	SpaceAfter=No|start_char=9222|end_char=9233
 30	,	,	PUNCT	$,	_	36	punct	_	start_char=9233|end_char=9234
 31	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	36	nsubj	_	start_char=9235|end_char=9238
 32	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	36	obj	_	start_char=9239|end_char=9243
 33	in	in	ADP	APPR	_	35	case	_	start_char=9244|end_char=9246
 34	seiner	sein	DET	PPOSAT	Case=Dat|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	35	det:poss	_	start_char=9247|end_char=9253
 35	Tiefe	Tiefe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	36	obl	_	start_char=9254|end_char=9259
-36	verbergen	verbergen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	acl	_	start_char=9260|end_char=9269|SpaceAfter=No
+36	verbergen	verbergen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	acl	_	SpaceAfter=No|start_char=9260|end_char=9269
 37	,	,	PUNCT	$,	_	29	punct	_	start_char=9269|end_char=9270
 38	zu	zu	PART	PTKZU	_	39	mark	_	start_char=9271|end_char=9273
-39	lüften	lüften	VERB	VVINF	VerbForm=Inf	24	csubj	_	start_char=9274|end_char=9280|SpaceAfter=No
-40	.	.	PUNCT	$.	_	18	punct	_	start_char=9280|end_char=9281|SpacesAfter=\n\n
+39	lüften	lüften	VERB	VVINF	VerbForm=Inf	24	csubj	_	SpaceAfter=No|start_char=9274|end_char=9280
+40	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n\n|start_char=9280|end_char=9281
 
 # text = Danke.
 # sent_id = 82
-1	Danke	Dank	NOUN	PTKANT	_	0	root	_	start_char=9283|end_char=9288|SpaceAfter=No
-2	.	.	PUNCT	$.	_	1	punct	_	start_char=9288|end_char=9289|SpaceAfter=No
+1	Danke	Dank	NOUN	PTKANT	_	0	root	_	SpaceAfter=No|start_char=9283|end_char=9288
+2	.	.	PUNCT	$.	_	1	punct	_	SpaceAfter=No|start_char=9288|end_char=9289

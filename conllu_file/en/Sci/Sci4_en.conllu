@@ -1,10 +1,9 @@
 # conllu_stats: begin
 # conllu_tokens: 1336
 # conllu_sentences: 43
-# Average tokens per senteces: 31.069767441860463
-# sentece_pairs: 4
+# Average tokens per sentence: 31.069767441860463
+# sentence_pairs: 4
 # conllu_stats: end
-
 
 # text = A new equation for intelligence
 # sent_id = 0
@@ -12,7 +11,7 @@
 2	new	new	ADJ	JJ	Degree=Pos	3	amod	_	start_char=2|end_char=5
 3	equation	equation	NOUN	NN	Number=Sing	0	root	_	start_char=6|end_char=14
 4	for	for	ADP	IN	_	5	case	_	start_char=15|end_char=18
-5	intelligence	intelligence	NOUN	NN	Number=Sing	3	nmod	_	start_char=19|end_char=31|SpacesAfter=\n\n
+5	intelligence	intelligence	NOUN	NN	Number=Sing	3	nmod	_	SpacesAfter=\n\n|start_char=19|end_char=31
 
 # text = Intelligence -- what is it?
 # sent_id = 1
@@ -20,8 +19,8 @@
 2	--	--	PUNCT	,	_	3	punct	_	start_char=46|end_char=48
 3	what	what	PRON	WP	PronType=Int	1	parataxis	_	start_char=49|end_char=53
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=54|end_char=56
-5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=57|end_char=59|SpaceAfter=No
-6	?	?	PUNCT	.	_	1	punct	_	start_char=59|end_char=60|SpacesAfter=\n\n
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No|start_char=57|end_char=59
+6	?	?	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n|start_char=59|end_char=60
 
 # text = If we take a look back at the history of how intelligence has been viewed, one seminal example has been Edsger Dijkstra's famous quote that "the question of whether a machine can think is about as interesting as the question of whether a submarine can swim."
 # sent_id = 2
@@ -39,7 +38,7 @@
 12	intelligence	intelligence	NOUN	NN	Number=Sing	15	nsubj:pass	_	start_char=107|end_char=119
 13	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=120|end_char=123
 14	been	be	AUX	VBN	Tense=Past|VerbForm=Part	15	aux:pass	_	start_char=124|end_char=128
-15	viewed	view	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	start_char=129|end_char=135|SpaceAfter=No
+15	viewed	view	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	SpaceAfter=No|start_char=129|end_char=135
 16	,	,	PUNCT	,	_	3	punct	_	start_char=135|end_char=136
 17	one	one	NUM	CD	NumForm=Word|NumType=Card	19	nummod	_	start_char=137|end_char=140
 18	seminal	seminal	ADJ	JJ	Degree=Pos	19	amod	_	start_char=141|end_char=148
@@ -53,7 +52,7 @@
 25	famous	famous	ADJ	JJ	Degree=Pos	26	amod	_	start_char=184|end_char=190
 26	quote	quote	NOUN	NN	Number=Sing	0	root	_	start_char=191|end_char=196
 27	that	that	PRON	WDT	PronType=Rel	40	mark	_	start_char=197|end_char=201
-28	"	"	PUNCT	``	_	40	punct	_	start_char=202|end_char=203|SpaceAfter=No
+28	"	"	PUNCT	``	_	40	punct	_	SpaceAfter=No|start_char=202|end_char=203
 29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	start_char=203|end_char=206
 30	question	question	NOUN	NN	Number=Sing	40	nsubj	_	start_char=207|end_char=215
 31	of	of	SCONJ	IN	_	36	mark	_	start_char=216|end_char=218
@@ -74,21 +73,21 @@
 46	a	a	DET	DT	Definite=Ind|PronType=Art	47	det	_	start_char=298|end_char=299
 47	submarine	submarine	NOUN	NN	Number=Sing	49	nsubj	_	start_char=300|end_char=309
 48	can	can	AUX	MD	VerbForm=Fin	49	aux	_	start_char=310|end_char=313
-49	swim	swim	VERB	VB	VerbForm=Inf	43	acl	_	start_char=314|end_char=318|SpaceAfter=No
-50	.	.	PUNCT	.	_	40	punct	_	start_char=318|end_char=319|SpaceAfter=No
-51	"	"	PUNCT	''	_	40	punct	_	start_char=319|end_char=320|SpacesAfter=\n\n
+49	swim	swim	VERB	VB	VerbForm=Inf	43	acl	_	SpaceAfter=No|start_char=314|end_char=318
+50	.	.	PUNCT	.	_	40	punct	_	SpaceAfter=No|start_char=318|end_char=319
+51	"	"	PUNCT	''	_	40	punct	_	SpacesAfter=\n\n|start_char=319|end_char=320
 
 # text = Now, Edsger Dijkstra, when he wrote this, intended it as a criticism of the early pioneers of computer science, like Alan Turing.
 # sent_id = 3
-1	Now	now	ADV	RB	_	11	advmod	_	start_char=322|end_char=325|SpaceAfter=No
+1	Now	now	ADV	RB	_	11	advmod	_	SpaceAfter=No|start_char=322|end_char=325
 2	,	,	PUNCT	,	_	1	punct	_	start_char=325|end_char=326
 3	Edsger	Edsger	PROPN	NNP	Number=Sing	11	nsubj	_	start_char=327|end_char=333
-4	Dijkstra	Dijkstra	PROPN	NNP	Number=Sing	3	flat	_	start_char=334|end_char=342|SpaceAfter=No
+4	Dijkstra	Dijkstra	PROPN	NNP	Number=Sing	3	flat	_	SpaceAfter=No|start_char=334|end_char=342
 5	,	,	PUNCT	,	_	3	punct	_	start_char=342|end_char=343
 6	when	when	ADV	WRB	PronType=Int	8	advmod	_	start_char=344|end_char=348
 7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=349|end_char=351
 8	wrote	write	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	advcl	_	start_char=352|end_char=357
-9	this	this	PRON	DT	Number=Sing|PronType=Dem	8	obj	_	start_char=358|end_char=362|SpaceAfter=No
+9	this	this	PRON	DT	Number=Sing|PronType=Dem	8	obj	_	SpaceAfter=No|start_char=358|end_char=362
 10	,	,	PUNCT	,	_	3	punct	_	start_char=362|end_char=363
 11	intended	intend	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=364|end_char=372
 12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	start_char=373|end_char=375
@@ -101,16 +100,16 @@
 19	pioneers	pioneer	NOUN	NNS	Number=Plur	15	nmod	_	start_char=404|end_char=412
 20	of	of	ADP	IN	_	22	case	_	start_char=413|end_char=415
 21	computer	computer	NOUN	NN	Number=Sing	22	compound	_	start_char=416|end_char=424
-22	science	science	NOUN	NN	Number=Sing	19	nmod	_	start_char=425|end_char=432|SpaceAfter=No
+22	science	science	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No|start_char=425|end_char=432
 23	,	,	PUNCT	,	_	25	punct	_	start_char=432|end_char=433
 24	like	like	ADP	IN	_	25	case	_	start_char=434|end_char=438
 25	Alan	Alan	PROPN	NNP	Number=Sing	19	nmod	_	start_char=439|end_char=443
-26	Turing	Turing	PROPN	NNP	Number=Sing	25	flat	_	start_char=444|end_char=450|SpaceAfter=No
-27	.	.	PUNCT	.	_	11	punct	_	start_char=450|end_char=451|SpacesAfter=\n\n
+26	Turing	Turing	PROPN	NNP	Number=Sing	25	flat	_	SpaceAfter=No|start_char=444|end_char=450
+27	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n\n|start_char=450|end_char=451
 
 # text = However, if you take a look back and think about what have been the most empowering innovations that enabled us to build artificial machines that swim and artificial machines that [fly], you find that it was only through understanding the underlying physical mechanisms of swimming and flight that we were able to build these machines.
 # sent_id = 4
-1	However	however	ADV	RB	_	37	advmod	_	start_char=453|end_char=460|SpaceAfter=No
+1	However	however	ADV	RB	_	37	advmod	_	SpaceAfter=No|start_char=453|end_char=460
 2	,	,	PUNCT	,	_	1	punct	_	start_char=460|end_char=461
 3	if	if	SCONJ	IN	_	5	mark	_	start_char=462|end_char=464
 4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=465|end_char=468
@@ -141,9 +140,9 @@
 29	artificial	artificial	ADJ	JJ	Degree=Pos	30	amod	_	start_char=608|end_char=618
 30	machines	machine	NOUN	NNS	Number=Plur	27	obj	_	start_char=619|end_char=627
 31	that	that	PRON	WDT	PronType=Rel	33	nsubj	_	start_char=628|end_char=632
-32	[	[	PUNCT	-LRB-	_	33	punct	_	start_char=633|end_char=634|SpaceAfter=No
-33	fly	fly	VERB	VB	VerbForm=Inf	30	acl:relcl	_	start_char=634|end_char=637|SpaceAfter=No
-34	]	]	PUNCT	-RRB-	_	33	punct	_	start_char=637|end_char=638|SpaceAfter=No
+32	[	[	PUNCT	-LRB-	_	33	punct	_	SpaceAfter=No|start_char=633|end_char=634
+33	fly	fly	VERB	VB	VerbForm=Inf	30	acl:relcl	_	SpaceAfter=No|start_char=634|end_char=637
+34	]	]	PUNCT	-RRB-	_	33	punct	_	SpaceAfter=No|start_char=637|end_char=638
 35	,	,	PUNCT	,	_	5	punct	_	start_char=638|end_char=639
 36	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	37	nsubj	_	start_char=640|end_char=643
 37	find	find	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=644|end_char=648
@@ -168,17 +167,17 @@
 56	to	to	PART	TO	_	57	mark	_	start_char=764|end_char=766
 57	build	build	VERB	VB	VerbForm=Inf	55	xcomp	_	start_char=767|end_char=772
 58	these	this	DET	DT	Number=Plur|PronType=Dem	59	det	_	start_char=773|end_char=778
-59	machines	machine	NOUN	NNS	Number=Plur	57	obj	_	start_char=779|end_char=787|SpaceAfter=No
-60	.	.	PUNCT	.	_	37	punct	_	start_char=787|end_char=788|SpacesAfter=\n\n
+59	machines	machine	NOUN	NNS	Number=Plur	57	obj	_	SpaceAfter=No|start_char=779|end_char=787
+60	.	.	PUNCT	.	_	37	punct	_	SpacesAfter=\n\n|start_char=787|end_char=788
 
 # text = And so, several years ago, I undertook a program to try to understand the fundamental physical mechanisms underlying intelligence.
 # sent_id = 5
 1	And	and	CCONJ	CC	_	9	cc	_	start_char=790|end_char=793
-2	so	so	ADV	RB	_	9	advmod	_	start_char=794|end_char=796|SpaceAfter=No
+2	so	so	ADV	RB	_	9	advmod	_	SpaceAfter=No|start_char=794|end_char=796
 3	,	,	PUNCT	,	_	2	punct	_	start_char=796|end_char=797
 4	several	several	ADJ	JJ	Degree=Pos	5	amod	_	start_char=798|end_char=805
 5	years	year	NOUN	NNS	Number=Plur	6	obl:unmarked	_	start_char=806|end_char=811
-6	ago	ago	ADV	RB	Degree=Pos	9	advmod	_	start_char=812|end_char=815|SpaceAfter=No
+6	ago	ago	ADV	RB	Degree=Pos	9	advmod	_	SpaceAfter=No|start_char=812|end_char=815
 7	,	,	PUNCT	,	_	6	punct	_	start_char=815|end_char=816
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=817|end_char=818
 9	undertook	undertake	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=819|end_char=828
@@ -193,8 +192,8 @@
 18	physical	physical	ADJ	JJ	Degree=Pos	19	amod	_	start_char=876|end_char=884
 19	mechanisms	mechanism	NOUN	NNS	Number=Plur	15	obj	_	start_char=885|end_char=895
 20	underlying	underlie	VERB	VBG	VerbForm=Ger	21	amod	_	start_char=896|end_char=906
-21	intelligence	intelligence	NOUN	NN	Number=Sing	15	obj	_	start_char=907|end_char=919|SpaceAfter=No
-22	.	.	PUNCT	.	_	9	punct	_	start_char=919|end_char=920|SpacesAfter=\n\n
+21	intelligence	intelligence	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No|start_char=907|end_char=919
+22	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n\n|start_char=919|end_char=920
 
 # text = Let's take a step back. Let's first begin with a thought experiment.
 # sent_id = 6
@@ -204,7 +203,7 @@
 3	take	take	VERB	VB	VerbForm=Inf	1	xcomp	_	start_char=928|end_char=932
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=933|end_char=934
 5	step	step	NOUN	NN	Number=Sing	3	obj	_	start_char=935|end_char=939
-6	back	back	ADV	RB	_	3	advmod	_	start_char=940|end_char=944|SpaceAfter=No
+6	back	back	ADV	RB	_	3	advmod	_	SpaceAfter=No|start_char=940|end_char=944
 7	.	.	PUNCT	.	_	1	punct	_	start_char=944|end_char=945
 8-9	Let's	_	_	_	_	_	_	_	start_char=946|end_char=951
 8	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	1	parataxis	_	start_char=946|end_char=949
@@ -214,8 +213,8 @@
 12	with	with	ADP	IN	_	15	case	_	start_char=964|end_char=968
 13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=969|end_char=970
 14	thought	thought	NOUN	NN	Number=Sing	15	compound	_	start_char=971|end_char=978
-15	experiment	experiment	NOUN	NN	Number=Sing	11	obl	_	start_char=979|end_char=989|SpaceAfter=No
-16	.	.	PUNCT	.	_	1	punct	_	start_char=989|end_char=990|SpacesAfter=\n\n
+15	experiment	experiment	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No|start_char=979|end_char=989
+16	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n|start_char=989|end_char=990
 
 # text = Pretend that you're an alien race that doesn't know anything about Earth biology or Earth neuroscience or Earth intelligence, but you have amazing telescopes and you're able to watch the Earth, and you have amazingly long lives, so you're able to watch the Earth over millions, even billions of years.
 # sent_id = 7
@@ -241,7 +240,7 @@
 18	neuroscience	neuroscience	NOUN	NN	Number=Sing	15	conj	_	start_char=1082|end_char=1094
 19	or	or	CCONJ	CC	_	21	cc	_	start_char=1095|end_char=1097
 20	Earth	Earth	PROPN	NNP	Number=Sing	21	compound	_	start_char=1098|end_char=1103
-21	intelligence	intelligence	NOUN	NN	Number=Sing	15	conj	_	start_char=1104|end_char=1116|SpaceAfter=No
+21	intelligence	intelligence	NOUN	NN	Number=Sing	15	conj	_	SpaceAfter=No|start_char=1104|end_char=1116
 22	,	,	PUNCT	,	_	25	punct	_	start_char=1116|end_char=1117
 23	but	but	CCONJ	CC	_	25	cc	_	start_char=1118|end_char=1121
 24	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	25	nsubj	_	start_char=1122|end_char=1125
@@ -256,14 +255,14 @@
 32	to	to	PART	TO	_	33	mark	_	start_char=1166|end_char=1168
 33	watch	watch	VERB	VB	VerbForm=Inf	31	xcomp	_	start_char=1169|end_char=1174
 34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	start_char=1175|end_char=1178
-35	Earth	Earth	PROPN	NNP	Number=Sing	33	obj	_	start_char=1179|end_char=1184|SpaceAfter=No
+35	Earth	Earth	PROPN	NNP	Number=Sing	33	obj	_	SpaceAfter=No|start_char=1179|end_char=1184
 36	,	,	PUNCT	,	_	39	punct	_	start_char=1184|end_char=1185
 37	and	and	CCONJ	CC	_	39	cc	_	start_char=1186|end_char=1189
 38	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	39	nsubj	_	start_char=1190|end_char=1193
 39	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=1194|end_char=1198
 40	amazingly	amazingly	ADV	RB	_	41	advmod	_	start_char=1199|end_char=1208
 41	long	long	ADJ	JJ	Degree=Pos	42	amod	_	start_char=1209|end_char=1213
-42	lives	life	NOUN	NNS	Number=Plur	39	obj	_	start_char=1214|end_char=1219|SpaceAfter=No
+42	lives	life	NOUN	NNS	Number=Plur	39	obj	_	SpaceAfter=No|start_char=1214|end_char=1219
 43	,	,	PUNCT	,	_	47	punct	_	start_char=1219|end_char=1220
 44	so	so	ADV	RB	_	47	advmod	_	start_char=1221|end_char=1223
 45-46	you're	_	_	_	_	_	_	_	start_char=1224|end_char=1230
@@ -275,13 +274,13 @@
 50	the	the	DET	DT	Definite=Def|PronType=Art	51	det	_	start_char=1245|end_char=1248
 51	Earth	Earth	PROPN	NNP	Number=Sing	49	obj	_	start_char=1249|end_char=1254
 52	over	over	ADP	IN	_	53	case	_	start_char=1255|end_char=1259
-53	millions	million	NOUN	NNS	Number=Plur	49	obl	_	start_char=1260|end_char=1268|SpaceAfter=No
+53	millions	million	NOUN	NNS	Number=Plur	49	obl	_	SpaceAfter=No|start_char=1260|end_char=1268
 54	,	,	PUNCT	,	_	56	punct	_	start_char=1268|end_char=1269
 55	even	even	ADV	RB	_	56	advmod	_	start_char=1270|end_char=1274
 56	billions	billion	NOUN	NNS	Number=Plur	53	appos	_	start_char=1275|end_char=1283
 57	of	of	ADP	IN	_	58	case	_	start_char=1284|end_char=1286
-58	years	year	NOUN	NNS	Number=Plur	56	nmod	_	start_char=1287|end_char=1292|SpaceAfter=No
-59	.	.	PUNCT	.	_	1	punct	_	start_char=1292|end_char=1293|SpacesAfter=\n\n
+58	years	year	NOUN	NNS	Number=Plur	56	nmod	_	SpaceAfter=No|start_char=1287|end_char=1292
+59	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n|start_char=1292|end_char=1293
 
 # text = And you observe a really strange effect. You observe that, over the course of the millennia, Earth is continually bombarded with asteroids up until a point, and that at some point, corresponding roughly to our year, 2000 AD, asteroids that are on a collision course with the Earth that otherwise would have collided mysteriously get deflected or they detonate before they can hit the Earth.
 # sent_id = 8
@@ -291,18 +290,18 @@
 4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=1311|end_char=1312
 5	really	really	ADV	RB	_	6	advmod	_	start_char=1313|end_char=1319
 6	strange	strange	ADJ	JJ	Degree=Pos	7	amod	_	start_char=1320|end_char=1327
-7	effect	effect	NOUN	NN	Number=Sing	3	obj	_	start_char=1328|end_char=1334|SpaceAfter=No
+7	effect	effect	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No|start_char=1328|end_char=1334
 8	.	.	PUNCT	.	_	3	punct	_	start_char=1334|end_char=1335
 9	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	start_char=1336|end_char=1339
 10	observe	observe	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=1340|end_char=1347
-11	that	that	SCONJ	IN	_	23	mark	_	start_char=1348|end_char=1352|SpaceAfter=No
+11	that	that	SCONJ	IN	_	23	mark	_	SpaceAfter=No|start_char=1348|end_char=1352
 12	,	,	PUNCT	,	_	11	punct	_	start_char=1352|end_char=1353
 13	over	over	ADP	IN	_	15	case	_	start_char=1354|end_char=1358
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=1359|end_char=1362
 15	course	course	NOUN	NN	Number=Sing	23	obl	_	start_char=1363|end_char=1369
 16	of	of	ADP	IN	_	18	case	_	start_char=1370|end_char=1372
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=1373|end_char=1376
-18	millennia	millennia	NOUN	NN	Number=Sing	15	nmod	_	start_char=1377|end_char=1386|SpaceAfter=No
+18	millennia	millennia	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No|start_char=1377|end_char=1386
 19	,	,	PUNCT	,	_	15	punct	_	start_char=1386|end_char=1387
 20	Earth	Earth	PROPN	NNP	Number=Sing	23	nsubj:pass	_	start_char=1388|end_char=1393
 21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	_	start_char=1394|end_char=1396
@@ -313,22 +312,22 @@
 26	up	up	ADP	RP	_	23	compound:prt	_	start_char=1434|end_char=1436
 27	until	until	ADP	IN	_	29	case	_	start_char=1437|end_char=1442
 28	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	start_char=1443|end_char=1444
-29	point	point	NOUN	NN	Number=Sing	23	obl	_	start_char=1445|end_char=1450|SpaceAfter=No
+29	point	point	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No|start_char=1445|end_char=1450
 30	,	,	PUNCT	,	_	31	punct	_	start_char=1450|end_char=1451
 31	and	and	CCONJ	CC	_	63	cc	_	start_char=1452|end_char=1455
 32	that	that	SCONJ	IN	_	31	punct	_	start_char=1456|end_char=1460
 33	at	at	ADP	IN	_	35	case	_	start_char=1461|end_char=1463
 34	some	some	DET	DT	PronType=Ind	35	det	_	start_char=1464|end_char=1468
-35	point	point	NOUN	NN	Number=Sing	63	obl	_	start_char=1469|end_char=1474|SpaceAfter=No
+35	point	point	NOUN	NN	Number=Sing	63	obl	_	SpaceAfter=No|start_char=1469|end_char=1474
 36	,	,	PUNCT	,	_	35	punct	_	start_char=1474|end_char=1475
 37	corresponding	corresponding	VERB	VBG	Tense=Pres|VerbForm=Part	23	conj	_	start_char=1476|end_char=1489
 38	roughly	roughly	ADV	RB	_	37	advmod	_	start_char=1490|end_char=1497
 39	to	to	ADP	IN	_	41	case	_	start_char=1498|end_char=1500
 40	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	41	nmod:poss	_	start_char=1501|end_char=1504
-41	year	year	NOUN	NN	Number=Sing	37	obl	_	start_char=1505|end_char=1509|SpaceAfter=No
+41	year	year	NOUN	NN	Number=Sing	37	obl	_	SpaceAfter=No|start_char=1505|end_char=1509
 42	,	,	PUNCT	,	_	43	punct	_	start_char=1509|end_char=1510
 43	2000	2000	NUM	CD	NumForm=Digit|NumType=Card	44	nummod	_	start_char=1511|end_char=1515
-44	AD	ad	NOUN	NN	Number=Sing	37	obl:unmarked	_	start_char=1516|end_char=1518|SpaceAfter=No
+44	AD	ad	NOUN	NN	Number=Sing	37	obl:unmarked	_	SpaceAfter=No|start_char=1516|end_char=1518
 45	,	,	PUNCT	,	_	46	punct	_	start_char=1518|end_char=1519
 46	asteroids	asteroid	NOUN	NNS	Number=Plur	37	nsubj	_	start_char=1520|end_char=1529
 47	that	that	PRON	WDT	PronType=Rel	52	nsubj	_	start_char=1530|end_char=1534
@@ -356,17 +355,17 @@
 69	can	can	AUX	MD	VerbForm=Fin	70	aux	_	start_char=1667|end_char=1670
 70	hit	hit	VERB	VB	VerbForm=Inf	66	advcl	_	start_char=1671|end_char=1674
 71	the	the	DET	DT	Definite=Def|PronType=Art	72	det	_	start_char=1675|end_char=1678
-72	Earth	Earth	PROPN	NNP	Number=Sing	70	obj	_	start_char=1679|end_char=1684|SpaceAfter=No
-73	.	.	PUNCT	.	_	3	punct	_	start_char=1684|end_char=1685|SpacesAfter=\n\n
+72	Earth	Earth	PROPN	NNP	Number=Sing	70	obj	_	SpaceAfter=No|start_char=1679|end_char=1684
+73	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=1684|end_char=1685
 
 # text = Now of course, as earthlings, we know the reason would be that we're trying to save ourselves.
 # sent_id = 9
 1	Now	now	ADV	RB	_	9	advmod	_	start_char=1687|end_char=1690
 2	of	of	ADP	IN	ExtPos=ADV	9	advmod	_	start_char=1691|end_char=1693
-3	course	course	NOUN	NN	Number=Sing	2	fixed	_	start_char=1694|end_char=1700|SpaceAfter=No
+3	course	course	NOUN	NN	Number=Sing	2	fixed	_	SpaceAfter=No|start_char=1694|end_char=1700
 4	,	,	PUNCT	,	_	2	punct	_	start_char=1700|end_char=1701
 5	as	as	ADP	IN	_	6	case	_	start_char=1702|end_char=1704
-6	earthlings	earthling	NOUN	NNS	Number=Plur	9	obl	_	start_char=1705|end_char=1715|SpaceAfter=No
+6	earthlings	earthling	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No|start_char=1705|end_char=1715
 7	,	,	PUNCT	,	_	6	punct	_	start_char=1715|end_char=1716
 8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=1717|end_char=1719
 9	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1720|end_char=1724
@@ -381,8 +380,8 @@
 17	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	9	ccomp	_	start_char=1756|end_char=1762
 18	to	to	PART	TO	_	19	mark	_	start_char=1763|end_char=1765
 19	save	save	VERB	VB	VerbForm=Inf	17	xcomp	_	start_char=1766|end_char=1770
-20	ourselves	ourselves	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	19	obj	_	start_char=1771|end_char=1780|SpaceAfter=No
-21	.	.	PUNCT	.	_	9	punct	_	start_char=1780|end_char=1781|SpacesAfter=\n\n
+20	ourselves	ourselves	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	19	obj	_	SpaceAfter=No|start_char=1771|end_char=1780
+21	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n\n|start_char=1780|end_char=1781
 
 # text = We're trying to prevent an impact.
 # sent_id = 10
@@ -393,8 +392,8 @@
 4	to	to	PART	TO	_	5	mark	_	start_char=1796|end_char=1798
 5	prevent	prevent	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=1799|end_char=1806
 6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=1807|end_char=1809
-7	impact	impact	NOUN	NN	Number=Sing	5	obj	_	start_char=1810|end_char=1816|SpaceAfter=No
-8	.	.	PUNCT	.	_	3	punct	_	start_char=1816|end_char=1817|SpacesAfter=\n\n
+7	impact	impact	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No|start_char=1810|end_char=1816
+8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=1816|end_char=1817
 
 # text = But if you're an alien race who doesn't know any of this, doesn't have any concept of Earth intelligence, you'd be forced to put together a physical theory that explains how, up until a certain point in time, asteroids that would demolish the surface of a planet mysteriously stop doing that.
 # sent_id = 11
@@ -413,7 +412,7 @@
 11	know	know	VERB	VB	VerbForm=Inf	7	acl:relcl	_	start_char=1859|end_char=1863
 12	any	any	DET	DT	PronType=Ind	11	obj	_	start_char=1864|end_char=1867
 13	of	of	ADP	IN	_	14	case	_	start_char=1868|end_char=1870
-14	this	this	PRON	DT	Number=Sing|PronType=Dem	12	nmod	_	start_char=1871|end_char=1875|SpaceAfter=No
+14	this	this	PRON	DT	Number=Sing|PronType=Dem	12	nmod	_	SpaceAfter=No|start_char=1871|end_char=1875
 15	,	,	PUNCT	,	_	7	punct	_	start_char=1875|end_char=1876
 16-17	doesn't	_	_	_	_	_	_	_	start_char=1877|end_char=1884
 16	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=1877|end_char=1881
@@ -423,7 +422,7 @@
 20	concept	concept	NOUN	NN	Number=Sing	18	obj	_	start_char=1894|end_char=1901
 21	of	of	ADP	IN	_	23	case	_	start_char=1902|end_char=1904
 22	Earth	Earth	PROPN	NNP	Number=Sing	23	compound	_	start_char=1905|end_char=1910
-23	intelligence	intelligence	NOUN	NN	Number=Sing	20	nmod	_	start_char=1911|end_char=1923|SpaceAfter=No
+23	intelligence	intelligence	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No|start_char=1911|end_char=1923
 24	,	,	PUNCT	,	_	28	punct	_	start_char=1923|end_char=1924
 25-26	you'd	_	_	_	_	_	_	_	start_char=1925|end_char=1930
 25	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	28	nsubj:pass	_	start_char=1925|end_char=1928
@@ -438,7 +437,7 @@
 34	theory	theory	NOUN	NN	Number=Sing	30	obj	_	start_char=1968|end_char=1974
 35	that	that	PRON	WDT	PronType=Rel	36	nsubj	_	start_char=1975|end_char=1979
 36	explains	explain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	start_char=1980|end_char=1988
-37	how	how	ADV	WRB	PronType=Int	57	advmod	_	start_char=1989|end_char=1992|SpaceAfter=No
+37	how	how	ADV	WRB	PronType=Int	57	advmod	_	SpaceAfter=No|start_char=1989|end_char=1992
 38	,	,	PUNCT	,	_	37	punct	_	start_char=1992|end_char=1993
 39	up	up	ADV	RB	_	57	advmod	_	start_char=1994|end_char=1996
 40	until	until	ADP	IN	_	43	case	_	start_char=1997|end_char=2002
@@ -446,7 +445,7 @@
 42	certain	certain	ADJ	JJ	Degree=Pos	43	amod	_	start_char=2005|end_char=2012
 43	point	point	NOUN	NN	Number=Sing	39	obl	_	start_char=2013|end_char=2018
 44	in	in	ADP	IN	_	45	case	_	start_char=2019|end_char=2021
-45	time	time	NOUN	NN	Number=Sing	43	nmod	_	start_char=2022|end_char=2026|SpaceAfter=No
+45	time	time	NOUN	NN	Number=Sing	43	nmod	_	SpaceAfter=No|start_char=2022|end_char=2026
 46	,	,	PUNCT	,	_	43	punct	_	start_char=2026|end_char=2027
 47	asteroids	asteroid	NOUN	NNS	Number=Plur	57	nsubj	_	start_char=2028|end_char=2037
 48	that	that	PRON	WDT	PronType=Rel	50	nsubj	_	start_char=2038|end_char=2042
@@ -460,8 +459,8 @@
 56	mysteriously	mysteriously	ADV	RB	_	57	advmod	_	start_char=2082|end_char=2094
 57	stop	stop	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	ccomp	_	start_char=2095|end_char=2099
 58	doing	do	VERB	VBG	VerbForm=Ger	57	xcomp	_	start_char=2100|end_char=2105
-59	that	that	PRON	DT	Number=Sing|PronType=Dem	58	obj	_	start_char=2106|end_char=2110|SpaceAfter=No
-60	.	.	PUNCT	.	_	18	punct	_	start_char=2110|end_char=2111|SpacesAfter=\n\n
+59	that	that	PRON	DT	Number=Sing|PronType=Dem	58	obj	_	SpaceAfter=No|start_char=2106|end_char=2110
+60	.	.	PUNCT	.	_	18	punct	_	SpacesAfter=\n\n|start_char=2110|end_char=2111
 
 # text = And so I claim that this is the same question as understanding the physical nature of intelligence.
 # sent_id = 12
@@ -481,8 +480,8 @@
 14	physical	physical	ADJ	JJ	Degree=Pos	15	amod	_	start_char=2180|end_char=2188
 15	nature	nature	NOUN	NN	Number=Sing	12	obj	_	start_char=2189|end_char=2195
 16	of	of	ADP	IN	_	17	case	_	start_char=2196|end_char=2198
-17	intelligence	intelligence	NOUN	NN	Number=Sing	15	nmod	_	start_char=2199|end_char=2211|SpaceAfter=No
-18	.	.	PUNCT	.	_	4	punct	_	start_char=2211|end_char=2212|SpacesAfter=\n\n
+17	intelligence	intelligence	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No|start_char=2199|end_char=2211
+18	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=2211|end_char=2212
 
 # text = So in this program that I undertook several years ago, I looked at a variety of different threads across science, across a variety of disciplines, that were pointing, I think, towards a single, underlying mechanism for intelligence.
 # sent_id = 13
@@ -495,7 +494,7 @@
 7	undertook	undertake	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	acl:relcl	_	start_char=2240|end_char=2249
 8	several	several	ADJ	JJ	Degree=Pos	9	amod	_	start_char=2250|end_char=2257
 9	years	year	NOUN	NNS	Number=Plur	10	obl:unmarked	_	start_char=2258|end_char=2263
-10	ago	ago	ADV	RB	_	7	advmod	_	start_char=2264|end_char=2267|SpaceAfter=No
+10	ago	ago	ADV	RB	_	7	advmod	_	SpaceAfter=No|start_char=2264|end_char=2267
 11	,	,	PUNCT	,	_	4	punct	_	start_char=2267|end_char=2268
 12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=2269|end_char=2270
 13	looked	look	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=2271|end_char=2277
@@ -506,38 +505,38 @@
 18	different	different	ADJ	JJ	Degree=Pos	19	amod	_	start_char=2294|end_char=2303
 19	threads	thread	NOUN	NNS	Number=Plur	16	nmod	_	start_char=2304|end_char=2311
 20	across	across	ADP	IN	_	21	case	_	start_char=2312|end_char=2318
-21	science	science	NOUN	NN	Number=Sing	19	nmod	_	start_char=2319|end_char=2326|SpaceAfter=No
+21	science	science	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No|start_char=2319|end_char=2326
 22	,	,	PUNCT	,	_	25	punct	_	start_char=2326|end_char=2327
 23	across	across	ADP	IN	_	25	case	_	start_char=2328|end_char=2334
 24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	start_char=2335|end_char=2336
 25	variety	variety	NOUN	NN	Number=Sing	19	nmod	_	start_char=2337|end_char=2344
 26	of	of	ADP	IN	_	27	case	_	start_char=2345|end_char=2347
-27	disciplines	discipline	NOUN	NNS	Number=Plur	25	nmod	_	start_char=2348|end_char=2359|SpaceAfter=No
+27	disciplines	discipline	NOUN	NNS	Number=Plur	25	nmod	_	SpaceAfter=No|start_char=2348|end_char=2359
 28	,	,	PUNCT	,	_	31	punct	_	start_char=2359|end_char=2360
 29	that	that	PRON	WDT	PronType=Rel	31	nsubj	_	start_char=2361|end_char=2365
 30	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	31	aux	_	start_char=2366|end_char=2370
-31	pointing	point	VERB	VBG	Tense=Pres|VerbForm=Part	19	acl:relcl	_	start_char=2371|end_char=2379|SpaceAfter=No
+31	pointing	point	VERB	VBG	Tense=Pres|VerbForm=Part	19	acl:relcl	_	SpaceAfter=No|start_char=2371|end_char=2379
 32	,	,	PUNCT	,	_	34	punct	_	start_char=2379|end_char=2380
 33	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	34	nsubj	_	start_char=2381|end_char=2382
-34	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	31	parataxis	_	start_char=2383|end_char=2388|SpaceAfter=No
+34	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	31	parataxis	_	SpaceAfter=No|start_char=2383|end_char=2388
 35	,	,	PUNCT	,	_	41	punct	_	start_char=2388|end_char=2389
 36	towards	towards	ADP	IN	_	41	case	_	start_char=2390|end_char=2397
 37	a	a	DET	DT	Definite=Ind|PronType=Art	41	det	_	start_char=2398|end_char=2399
-38	single	single	ADJ	JJ	Degree=Pos	41	amod	_	start_char=2400|end_char=2406|SpaceAfter=No
+38	single	single	ADJ	JJ	Degree=Pos	41	amod	_	SpaceAfter=No|start_char=2400|end_char=2406
 39	,	,	PUNCT	,	_	38	punct	_	start_char=2406|end_char=2407
 40	underlying	underlying	ADJ	JJ	Degree=Pos	41	amod	_	start_char=2408|end_char=2418
 41	mechanism	mechanism	NOUN	NN	Number=Sing	31	obl	_	start_char=2419|end_char=2428
 42	for	for	ADP	IN	_	43	case	_	start_char=2429|end_char=2432
-43	intelligence	intelligence	NOUN	NN	Number=Sing	41	nmod	_	start_char=2433|end_char=2445|SpaceAfter=No
-44	.	.	PUNCT	.	_	13	punct	_	start_char=2445|end_char=2446|SpacesAfter=\n\n
+43	intelligence	intelligence	NOUN	NN	Number=Sing	41	nmod	_	SpaceAfter=No|start_char=2433|end_char=2445
+44	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\n\n|start_char=2445|end_char=2446
 
 # text = In cosmology, for example, there have been a variety of different threads of evidence that our universe appears to be finely tuned for the development of intelligence, and, in particular, for the development of universal states that maximize the diversity of possible futures.
 # sent_id = 14
 1	In	in	ADP	IN	_	2	case	_	start_char=2448|end_char=2450
-2	cosmology	cosmology	NOUN	NN	Number=Sing	9	obl	_	start_char=2451|end_char=2460|SpaceAfter=No
+2	cosmology	cosmology	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No|start_char=2451|end_char=2460
 3	,	,	PUNCT	,	_	2	punct	_	start_char=2460|end_char=2461
 4	for	for	ADP	IN	_	5	case	_	start_char=2462|end_char=2465
-5	example	example	NOUN	NN	Number=Sing	9	obl	_	start_char=2466|end_char=2473|SpaceAfter=No
+5	example	example	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No|start_char=2466|end_char=2473
 6	,	,	PUNCT	,	_	5	punct	_	start_char=2473|end_char=2474
 7	there	there	PRON	EX	_	9	expl	_	start_char=2475|end_char=2480
 8	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=2481|end_char=2485
@@ -561,12 +560,12 @@
 26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	start_char=2583|end_char=2586
 27	development	development	NOUN	NN	Number=Sing	24	obl	_	start_char=2587|end_char=2598
 28	of	of	ADP	IN	_	29	case	_	start_char=2599|end_char=2601
-29	intelligence	intelligence	NOUN	NN	Number=Sing	27	nmod	_	start_char=2602|end_char=2614|SpaceAfter=No
+29	intelligence	intelligence	NOUN	NN	Number=Sing	27	nmod	_	SpaceAfter=No|start_char=2602|end_char=2614
 30	,	,	PUNCT	,	_	31	punct	_	start_char=2614|end_char=2615
-31	and	and	CCONJ	CC	_	38	cc	_	start_char=2616|end_char=2619|SpaceAfter=No
+31	and	and	CCONJ	CC	_	38	cc	_	SpaceAfter=No|start_char=2616|end_char=2619
 32	,	,	PUNCT	,	_	31	punct	_	start_char=2619|end_char=2620
 33	in	in	ADP	IN	_	34	case	_	start_char=2621|end_char=2623
-34	particular	particular	ADJ	JJ	Degree=Pos	38	nmod	_	start_char=2624|end_char=2634|SpaceAfter=No
+34	particular	particular	ADJ	JJ	Degree=Pos	38	nmod	_	SpaceAfter=No|start_char=2624|end_char=2634
 35	,	,	PUNCT	,	_	34	punct	_	start_char=2634|end_char=2635
 36	for	for	ADP	IN	_	38	case	_	start_char=2636|end_char=2639
 37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	start_char=2640|end_char=2643
@@ -580,17 +579,17 @@
 45	diversity	diversity	NOUN	NN	Number=Sing	43	obj	_	start_char=2694|end_char=2703
 46	of	of	ADP	IN	_	48	case	_	start_char=2704|end_char=2706
 47	possible	possible	ADJ	JJ	Degree=Pos	48	amod	_	start_char=2707|end_char=2715
-48	futures	future	NOUN	NNS	Number=Plur	45	nmod	_	start_char=2716|end_char=2723|SpaceAfter=No
-49	.	.	PUNCT	.	_	9	punct	_	start_char=2723|end_char=2724|SpacesAfter=\n\n
+48	futures	future	NOUN	NNS	Number=Plur	45	nmod	_	SpaceAfter=No|start_char=2716|end_char=2723
+49	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n\n|start_char=2723|end_char=2724
 
 # text = In game play, for example, in Go -- everyone remembers in 1997 when IBM's Deep Blue beat Garry Kasparov at chess -- fewer people are aware that in the past 10 years or so, the game of Go, arguably a much more challenging game because it has a much higher branching factor, has also started to succumb to computer game players for the same reason: the best techniques right now for computers playing Go are techniques that try to maximize future options during game play.
 # sent_id = 15
 1	In	in	ADP	IN	_	3	case	_	start_char=2726|end_char=2728
 2	game	game	NOUN	NN	Number=Sing	3	compound	_	start_char=2729|end_char=2733
-3	play	play	NOUN	NN	Number=Sing	12	obl	_	start_char=2734|end_char=2738|SpaceAfter=No
+3	play	play	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No|start_char=2734|end_char=2738
 4	,	,	PUNCT	,	_	3	punct	_	start_char=2738|end_char=2739
 5	for	for	ADP	IN	_	6	case	_	start_char=2740|end_char=2743
-6	example	example	NOUN	NN	Number=Sing	12	obl	_	start_char=2744|end_char=2751|SpaceAfter=No
+6	example	example	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No|start_char=2744|end_char=2751
 7	,	,	PUNCT	,	_	6	punct	_	start_char=2751|end_char=2752
 8	in	in	ADP	IN	_	9	case	_	start_char=2753|end_char=2755
 9	Go	Go	PROPN	NNP	Number=Sing	12	obl	_	start_char=2756|end_char=2758
@@ -622,12 +621,12 @@
 34	10	10	NUM	CD	NumForm=Digit|NumType=Card	35	nummod	_	start_char=2882|end_char=2884
 35	years	year	NOUN	NNS	Number=Plur	61	obl	_	start_char=2885|end_char=2890
 36	or	or	CCONJ	CC	_	37	cc	_	start_char=2891|end_char=2893
-37	so	so	ADV	RB	_	35	conj	_	start_char=2894|end_char=2896|SpaceAfter=No
+37	so	so	ADV	RB	_	35	conj	_	SpaceAfter=No|start_char=2894|end_char=2896
 38	,	,	PUNCT	,	_	35	punct	_	start_char=2896|end_char=2897
 39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	_	start_char=2898|end_char=2901
 40	game	game	NOUN	NN	Number=Sing	61	nsubj	_	start_char=2902|end_char=2906
 41	of	of	ADP	IN	_	42	case	_	start_char=2907|end_char=2909
-42	Go	Go	PROPN	NNP	Number=Sing	40	nmod	_	start_char=2910|end_char=2912|SpaceAfter=No
+42	Go	Go	PROPN	NNP	Number=Sing	40	nmod	_	SpaceAfter=No|start_char=2910|end_char=2912
 43	,	,	PUNCT	,	_	49	punct	_	start_char=2912|end_char=2913
 44	arguably	arguably	ADV	RB	_	49	advmod	_	start_char=2914|end_char=2922
 45	a	a	DET	DT	Definite=Ind|PronType=Art	49	det	_	start_char=2923|end_char=2924
@@ -642,7 +641,7 @@
 54	much	much	ADV	RB	Degree=Pos	55	advmod	_	start_char=2969|end_char=2973
 55	higher	high	ADJ	JJR	Degree=Cmp	57	amod	_	start_char=2974|end_char=2980
 56	branching	branching	NOUN	NN	Number=Sing	57	compound	_	start_char=2981|end_char=2990
-57	factor	factor	NOUN	NN	Number=Sing	52	obj	_	start_char=2991|end_char=2997|SpaceAfter=No
+57	factor	factor	NOUN	NN	Number=Sing	52	obj	_	SpaceAfter=No|start_char=2991|end_char=2997
 58	,	,	PUNCT	,	_	40	punct	_	start_char=2997|end_char=2998
 59	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	aux	_	start_char=2999|end_char=3002
 60	also	also	ADV	RB	_	61	advmod	_	start_char=3003|end_char=3007
@@ -656,7 +655,7 @@
 68	for	for	ADP	IN	_	71	case	_	start_char=3052|end_char=3055
 69	the	the	DET	DT	Definite=Def|PronType=Art	71	det	_	start_char=3056|end_char=3059
 70	same	same	ADJ	JJ	Degree=Pos	71	amod	_	start_char=3060|end_char=3064
-71	reason	reason	NOUN	NN	Number=Sing	63	obl	_	start_char=3065|end_char=3071|SpaceAfter=No
+71	reason	reason	NOUN	NN	Number=Sing	63	obl	_	SpaceAfter=No|start_char=3065|end_char=3071
 72	:	:	PUNCT	:	_	83	punct	_	start_char=3071|end_char=3072
 73	the	the	DET	DT	Definite=Def|PronType=Art	75	det	_	start_char=3073|end_char=3076
 74	best	good	ADJ	JJS	Degree=Sup	75	amod	_	start_char=3077|end_char=3081
@@ -677,17 +676,17 @@
 89	options	option	NOUN	NNS	Number=Plur	87	obj	_	start_char=3171|end_char=3178
 90	during	during	ADP	IN	_	92	case	_	start_char=3179|end_char=3185
 91	game	game	NOUN	NN	Number=Sing	92	compound	_	start_char=3186|end_char=3190
-92	play	play	NOUN	NN	Number=Sing	87	obl	_	start_char=3191|end_char=3195|SpaceAfter=No
-93	.	.	PUNCT	.	_	12	punct	_	start_char=3195|end_char=3196|SpacesAfter=\n\n
+92	play	play	NOUN	NN	Number=Sing	87	obl	_	SpaceAfter=No|start_char=3191|end_char=3195
+93	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n\n|start_char=3195|end_char=3196
 
 # text = Finally, in robotic motion planning, there have been a variety of recent techniques that have tried to take advantage of abilities of robots to maximize future freedom of action in order to accomplish complex tasks.
 # sent_id = 16
-1	Finally	finally	ADV	RB	_	10	advmod	_	start_char=3198|end_char=3205|SpaceAfter=No
+1	Finally	finally	ADV	RB	_	10	advmod	_	SpaceAfter=No|start_char=3198|end_char=3205
 2	,	,	PUNCT	,	_	1	punct	_	start_char=3205|end_char=3206
 3	in	in	ADP	IN	_	6	case	_	start_char=3207|end_char=3209
 4	robotic	robotic	ADJ	JJ	Degree=Pos	6	amod	_	start_char=3210|end_char=3217
 5	motion	motion	NOUN	NN	Number=Sing	6	compound	_	start_char=3218|end_char=3224
-6	planning	planning	NOUN	NN	Number=Sing	10	obl	_	start_char=3225|end_char=3233|SpaceAfter=No
+6	planning	planning	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No|start_char=3225|end_char=3233
 7	,	,	PUNCT	,	_	6	punct	_	start_char=3233|end_char=3234
 8	there	there	PRON	EX	_	10	expl	_	start_char=3235|end_char=3240
 9	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=3241|end_char=3245
@@ -718,13 +717,13 @@
 34	to	to	PART	TO	_	35	mark	_	start_char=3385|end_char=3387
 35	accomplish	accomplish	VERB	VB	VerbForm=Inf	27	advcl	_	start_char=3388|end_char=3398
 36	complex	complex	ADJ	JJ	Degree=Pos	37	amod	_	start_char=3399|end_char=3406
-37	tasks	task	NOUN	NNS	Number=Plur	35	obj	_	start_char=3407|end_char=3412|SpaceAfter=No
-38	.	.	PUNCT	.	_	10	punct	_	start_char=3412|end_char=3413|SpacesAfter=\n\n
+37	tasks	task	NOUN	NNS	Number=Plur	35	obj	_	SpaceAfter=No|start_char=3407|end_char=3412
+38	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n|start_char=3412|end_char=3413
 
 # text = And so, taking all of these different threads and putting them together, I asked, starting several years ago, is there an underlying mechanism for intelligence that we can factor out of all of these different threads?
 # sent_id = 17
 1	And	and	CCONJ	CC	_	16	cc	_	start_char=3415|end_char=3418
-2	so	so	ADV	RB	_	16	advmod	_	start_char=3419|end_char=3421|SpaceAfter=No
+2	so	so	ADV	RB	_	16	advmod	_	SpaceAfter=No|start_char=3419|end_char=3421
 3	,	,	PUNCT	,	_	2	punct	_	start_char=3421|end_char=3422
 4	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part	16	advcl	_	start_char=3423|end_char=3429
 5	all	all	DET	DT	PronType=Tot	4	obj	_	start_char=3430|end_char=3433
@@ -735,15 +734,15 @@
 10	and	and	CCONJ	CC	_	11	cc	_	start_char=3461|end_char=3464
 11	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part	4	conj	_	start_char=3465|end_char=3472
 12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obj	_	start_char=3473|end_char=3477
-13	together	together	ADV	RB	_	11	advmod	_	start_char=3478|end_char=3486|SpaceAfter=No
+13	together	together	ADV	RB	_	11	advmod	_	SpaceAfter=No|start_char=3478|end_char=3486
 14	,	,	PUNCT	,	_	4	punct	_	start_char=3486|end_char=3487
 15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	start_char=3488|end_char=3489
-16	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3490|end_char=3495|SpaceAfter=No
+16	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=3490|end_char=3495
 17	,	,	PUNCT	,	_	18	punct	_	start_char=3495|end_char=3496
 18	starting	start	VERB	VBG	Tense=Pres|VerbForm=Part	23	advcl	_	start_char=3497|end_char=3505
 19	several	several	ADJ	JJ	Degree=Pos	20	amod	_	start_char=3506|end_char=3513
 20	years	year	NOUN	NNS	Number=Plur	21	obl:unmarked	_	start_char=3514|end_char=3519
-21	ago	ago	ADV	RB	_	18	advmod	_	start_char=3520|end_char=3523|SpaceAfter=No
+21	ago	ago	ADV	RB	_	18	advmod	_	SpaceAfter=No|start_char=3520|end_char=3523
 22	,	,	PUNCT	,	_	18	punct	_	start_char=3523|end_char=3524
 23	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	start_char=3525|end_char=3527
 24	there	there	PRON	EX	_	23	expl	_	start_char=3528|end_char=3533
@@ -762,8 +761,8 @@
 37	of	of	ADP	IN	_	40	case	_	start_char=3605|end_char=3607
 38	these	this	DET	DT	Number=Plur|PronType=Dem	40	det	_	start_char=3608|end_char=3613
 39	different	different	ADJ	JJ	Degree=Pos	40	amod	_	start_char=3614|end_char=3623
-40	threads	thread	NOUN	NNS	Number=Plur	36	nmod	_	start_char=3624|end_char=3631|SpaceAfter=No
-41	?	?	PUNCT	.	_	16	punct	_	start_char=3631|end_char=3632|SpacesAfter=\n\n
+40	threads	thread	NOUN	NNS	Number=Plur	36	nmod	_	SpaceAfter=No|start_char=3624|end_char=3631
+41	?	?	PUNCT	.	_	16	punct	_	SpacesAfter=\n\n|start_char=3631|end_char=3632
 
 # text = Is there a single equation for intelligence?
 # sent_id = 18
@@ -773,29 +772,29 @@
 4	single	single	ADJ	JJ	Degree=Pos	5	amod	_	start_char=3645|end_char=3651
 5	equation	equation	NOUN	NN	Number=Sing	1	nsubj	_	start_char=3652|end_char=3660
 6	for	for	ADP	IN	_	7	case	_	start_char=3661|end_char=3664
-7	intelligence	intelligence	NOUN	NN	Number=Sing	5	nmod	_	start_char=3665|end_char=3677|SpaceAfter=No
-8	?	?	PUNCT	.	_	1	punct	_	start_char=3677|end_char=3678|SpacesAfter=\n\n
+7	intelligence	intelligence	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No|start_char=3665|end_char=3677
+8	?	?	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n|start_char=3677|end_char=3678
 
 # text = And the answer, I believe, is yes. ["F = T ∇ Sτ"] What you're seeing is probably the closest equivalent to an E = mc² for intelligence that I've seen.
 # sent_id = 19
 1	And	and	CCONJ	CC	_	28	cc	_	start_char=3680|end_char=3683
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=3684|end_char=3687
-3	answer	answer	NOUN	NN	Number=Sing	28	nsubj:outer	_	start_char=3688|end_char=3694|SpaceAfter=No
+3	answer	answer	NOUN	NN	Number=Sing	28	nsubj:outer	_	SpaceAfter=No|start_char=3688|end_char=3694
 4	,	,	PUNCT	,	_	6	punct	_	start_char=3694|end_char=3695
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=3696|end_char=3697
-6	believe	believe	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=3698|end_char=3705|SpaceAfter=No
+6	believe	believe	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No|start_char=3698|end_char=3705
 7	,	,	PUNCT	,	_	6	punct	_	start_char=3705|end_char=3706
 8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=3707|end_char=3709
-9	yes	yes	INTJ	UH	Polarity=Pos	14	discourse	_	start_char=3710|end_char=3713|SpaceAfter=No
+9	yes	yes	INTJ	UH	Polarity=Pos	14	discourse	_	SpaceAfter=No|start_char=3710|end_char=3713
 10	.	.	PUNCT	.	_	9	punct	_	start_char=3713|end_char=3714
-11	[	[	PUNCT	-LRB-	_	14	punct	_	start_char=3715|end_char=3716|SpaceAfter=No
-12	"	"	PUNCT	``	_	14	punct	_	start_char=3716|end_char=3717|SpaceAfter=No
+11	[	[	PUNCT	-LRB-	_	14	punct	_	SpaceAfter=No|start_char=3715|end_char=3716
+12	"	"	PUNCT	``	_	14	punct	_	SpaceAfter=No|start_char=3716|end_char=3717
 13	F	F	PROPN	NNP	Number=Sing	14	nsubj	_	start_char=3717|end_char=3718
 14	=	=	SYM	SYM	_	0	root	_	start_char=3719|end_char=3720
 15	T	T	PROPN	NNP	Number=Sing	14	obj	_	start_char=3721|end_char=3722
 16	∇	∇	PUNCT	HYPH	_	17	punct	_	start_char=3723|end_char=3724
-17	Sτ	Sτ	PROPN	NNP	Number=Sing	15	flat	_	start_char=3725|end_char=3727|SpaceAfter=No
-18	"	"	PUNCT	''	_	14	punct	_	start_char=3727|end_char=3728|SpaceAfter=No
+17	Sτ	Sτ	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No|start_char=3725|end_char=3727
+18	"	"	PUNCT	''	_	14	punct	_	SpaceAfter=No|start_char=3727|end_char=3728
 19	]	]	PUNCT	-RRB-	_	14	punct	_	start_char=3728|end_char=3729
 20	What	what	PRON	WP	PronType=Int	28	nsubj	_	start_char=3730|end_char=3734
 21-22	you're	_	_	_	_	_	_	_	start_char=3735|end_char=3741
@@ -818,8 +817,8 @@
 37-38	I've	_	_	_	_	_	_	_	start_char=3820|end_char=3824
 37	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	39	nsubj	_	start_char=3820|end_char=3821
 38	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	39	aux	_	start_char=3821|end_char=3824
-39	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	35	acl:relcl	_	start_char=3825|end_char=3829|SpaceAfter=No
-40	.	.	PUNCT	.	_	28	punct	_	start_char=3829|end_char=3830|SpacesAfter=\n\n
+39	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	35	acl:relcl	_	SpaceAfter=No|start_char=3825|end_char=3829
+40	.	.	PUNCT	.	_	28	punct	_	SpacesAfter=\n\n|start_char=3829|end_char=3830
 
 # text = So what you're seeing here is a statement of correspondence that intelligence is a force, F, that acts so as to maximize future freedom of action.
 # sent_id = 20
@@ -839,9 +838,9 @@
 13	intelligence	intelligence	NOUN	NN	Number=Sing	16	nsubj	_	start_char=3897|end_char=3909
 14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=3910|end_char=3912
 15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	start_char=3913|end_char=3914
-16	force	force	NOUN	NN	Number=Sing	11	acl:relcl	_	start_char=3915|end_char=3920|SpaceAfter=No
+16	force	force	NOUN	NN	Number=Sing	11	acl:relcl	_	SpaceAfter=No|start_char=3915|end_char=3920
 17	,	,	PUNCT	,	_	18	punct	_	start_char=3920|end_char=3921
-18	F	F	PROPN	NNP	Number=Sing	16	appos	_	start_char=3922|end_char=3923|SpaceAfter=No
+18	F	F	PROPN	NNP	Number=Sing	16	appos	_	SpaceAfter=No|start_char=3922|end_char=3923
 19	,	,	PUNCT	,	_	21	punct	_	start_char=3923|end_char=3924
 20	that	that	PRON	WDT	PronType=Rel	21	nsubj	_	start_char=3925|end_char=3929
 21	acts	act	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	start_char=3930|end_char=3934
@@ -852,8 +851,8 @@
 26	future	future	ADJ	JJ	Degree=Pos	27	amod	_	start_char=3953|end_char=3959
 27	freedom	freedom	NOUN	NN	Number=Sing	25	obj	_	start_char=3960|end_char=3967
 28	of	of	ADP	IN	_	29	case	_	start_char=3968|end_char=3970
-29	action	action	NOUN	NN	Number=Sing	27	nmod	_	start_char=3971|end_char=3977|SpaceAfter=No
-30	.	.	PUNCT	.	_	9	punct	_	start_char=3977|end_char=3978|SpacesAfter=\n\n
+29	action	action	NOUN	NN	Number=Sing	27	nmod	_	SpaceAfter=No|start_char=3971|end_char=3977
+30	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n\n|start_char=3977|end_char=3978
 
 # text = It acts to maximize future freedom of action, or keep options open, with some strength T, with the diversity of possible accessible futures, S, up to some future time horizon, tau.
 # sent_id = 21
@@ -864,17 +863,17 @@
 5	future	future	ADJ	JJ	Degree=Pos	6	amod	_	start_char=4000|end_char=4006
 6	freedom	freedom	NOUN	NN	Number=Sing	4	obj	_	start_char=4007|end_char=4014
 7	of	of	ADP	IN	_	8	case	_	start_char=4015|end_char=4017
-8	action	action	NOUN	NN	Number=Sing	6	nmod	_	start_char=4018|end_char=4024|SpaceAfter=No
+8	action	action	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No|start_char=4018|end_char=4024
 9	,	,	PUNCT	,	_	11	punct	_	start_char=4024|end_char=4025
 10	or	or	CCONJ	CC	_	11	cc	_	start_char=4026|end_char=4028
 11	keep	keep	VERB	VB	VerbForm=Inf	4	conj	_	start_char=4029|end_char=4033
 12	options	option	NOUN	NNS	Number=Plur	11	obj	_	start_char=4034|end_char=4041
-13	open	open	ADJ	JJ	Degree=Pos	11	xcomp	_	start_char=4042|end_char=4046|SpaceAfter=No
+13	open	open	ADJ	JJ	Degree=Pos	11	xcomp	_	SpaceAfter=No|start_char=4042|end_char=4046
 14	,	,	PUNCT	,	_	18	punct	_	start_char=4046|end_char=4047
 15	with	with	ADP	IN	_	18	case	_	start_char=4048|end_char=4052
 16	some	some	DET	DT	PronType=Ind	18	det	_	start_char=4053|end_char=4057
 17	strength	strength	NOUN	NN	Number=Sing	18	compound	_	start_char=4058|end_char=4066
-18	T	T	PROPN	NNP	Number=Sing	11	obl	_	start_char=4067|end_char=4068|SpaceAfter=No
+18	T	T	PROPN	NNP	Number=Sing	11	obl	_	SpaceAfter=No|start_char=4067|end_char=4068
 19	,	,	PUNCT	,	_	22	punct	_	start_char=4068|end_char=4069
 20	with	with	ADP	IN	_	22	case	_	start_char=4070|end_char=4074
 21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	start_char=4075|end_char=4078
@@ -882,24 +881,24 @@
 23	of	of	ADP	IN	_	26	case	_	start_char=4089|end_char=4091
 24	possible	possible	ADJ	JJ	Degree=Pos	26	amod	_	start_char=4092|end_char=4100
 25	accessible	accessible	ADJ	JJ	Degree=Pos	26	amod	_	start_char=4101|end_char=4111
-26	futures	future	NOUN	NNS	Number=Plur	22	nmod	_	start_char=4112|end_char=4119|SpaceAfter=No
+26	futures	future	NOUN	NNS	Number=Plur	22	nmod	_	SpaceAfter=No|start_char=4112|end_char=4119
 27	,	,	PUNCT	,	_	28	punct	_	start_char=4119|end_char=4120
-28	S	S	NOUN	NN	Number=Sing	26	appos	_	start_char=4121|end_char=4122|SpaceAfter=No
+28	S	S	NOUN	NN	Number=Sing	26	appos	_	SpaceAfter=No|start_char=4121|end_char=4122
 29	,	,	PUNCT	,	_	28	punct	_	start_char=4122|end_char=4123
 30	up	up	ADV	RB	_	35	advmod	_	start_char=4124|end_char=4126
 31	to	to	ADP	IN	_	35	case	_	start_char=4127|end_char=4129
 32	some	some	DET	DT	PronType=Ind	35	det	_	start_char=4130|end_char=4134
 33	future	future	ADJ	JJ	Degree=Pos	35	amod	_	start_char=4135|end_char=4141
 34	time	time	NOUN	NN	Number=Sing	35	compound	_	start_char=4142|end_char=4146
-35	horizon	horizon	NOUN	NN	Number=Sing	26	nmod	_	start_char=4147|end_char=4154|SpaceAfter=No
+35	horizon	horizon	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No|start_char=4147|end_char=4154
 36	,	,	PUNCT	,	_	37	punct	_	start_char=4154|end_char=4155
-37	tau	tau	NOUN	NN	Number=Sing	35	appos	_	start_char=4156|end_char=4159|SpaceAfter=No
-38	.	.	PUNCT	.	_	2	punct	_	start_char=4159|end_char=4160|SpacesAfter=\n\n
+37	tau	tau	NOUN	NN	Number=Sing	35	appos	_	SpaceAfter=No|start_char=4156|end_char=4159
+38	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=4159|end_char=4160
 
 # text = In short, intelligence doesn't like to get trapped.
 # sent_id = 22
 1	In	in	ADP	IN	_	2	case	_	start_char=4162|end_char=4164
-2	short	short	ADJ	JJ	Degree=Pos	7	obl	_	start_char=4165|end_char=4170|SpaceAfter=No
+2	short	short	ADJ	JJ	Degree=Pos	7	obl	_	SpaceAfter=No|start_char=4165|end_char=4170
 3	,	,	PUNCT	,	_	2	punct	_	start_char=4170|end_char=4171
 4	intelligence	intelligence	NOUN	NN	Number=Sing	7	nsubj	_	start_char=4172|end_char=4184
 5-6	doesn't	_	_	_	_	_	_	_	start_char=4185|end_char=4192
@@ -908,8 +907,8 @@
 7	like	like	VERB	VB	VerbForm=Inf	0	root	_	start_char=4193|end_char=4197
 8	to	to	PART	TO	_	10	mark	_	start_char=4198|end_char=4200
 9	get	get	AUX	VB	VerbForm=Inf	10	aux:pass	_	start_char=4201|end_char=4204
-10	trapped	trap	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	xcomp	_	start_char=4205|end_char=4212|SpaceAfter=No
-11	.	.	PUNCT	.	_	7	punct	_	start_char=4212|end_char=4213|SpacesAfter=\n\n
+10	trapped	trap	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	xcomp	_	SpaceAfter=No|start_char=4205|end_char=4212
+11	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=4212|end_char=4213
 
 # text = Intelligence tries to maximize future freedom of action and keep options open.
 # sent_id = 23
@@ -924,25 +923,25 @@
 9	and	and	CCONJ	CC	_	10	cc	_	start_char=4271|end_char=4274
 10	keep	keep	VERB	VB	VerbForm=Inf	4	conj	_	start_char=4275|end_char=4279
 11	options	option	NOUN	NNS	Number=Plur	10	obj	_	start_char=4280|end_char=4287
-12	open	open	ADJ	JJ	Degree=Pos	10	xcomp	_	start_char=4288|end_char=4292|SpaceAfter=No
-13	.	.	PUNCT	.	_	2	punct	_	start_char=4292|end_char=4293|SpacesAfter=\n\n
+12	open	open	ADJ	JJ	Degree=Pos	10	xcomp	_	SpaceAfter=No|start_char=4288|end_char=4292
+13	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=4292|end_char=4293
 
 # text = And so, given this one equation, it's natural to ask, so what can you do with this?
 # sent_id = 24
 1	And	and	CCONJ	CC	_	11	cc	_	start_char=4295|end_char=4298
-2	so	so	ADV	RB	_	11	advmod	_	start_char=4299|end_char=4301|SpaceAfter=No
+2	so	so	ADV	RB	_	11	advmod	_	SpaceAfter=No|start_char=4299|end_char=4301
 3	,	,	PUNCT	,	_	2	punct	_	start_char=4301|end_char=4302
 4	given	give	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	advcl	_	start_char=4303|end_char=4308
 5	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	start_char=4309|end_char=4313
 6	one	one	NUM	CD	NumForm=Word|NumType=Card	7	nummod	_	start_char=4314|end_char=4317
-7	equation	equation	NOUN	NN	Number=Sing	4	obj	_	start_char=4318|end_char=4326|SpaceAfter=No
+7	equation	equation	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No|start_char=4318|end_char=4326
 8	,	,	PUNCT	,	_	7	punct	_	start_char=4326|end_char=4327
 9-10	it's	_	_	_	_	_	_	_	start_char=4328|end_char=4332
 9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	start_char=4328|end_char=4330
 10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=4330|end_char=4332
 11	natural	natural	ADJ	JJ	Degree=Pos	0	root	_	start_char=4333|end_char=4340
 12	to	to	PART	TO	_	13	mark	_	start_char=4341|end_char=4343
-13	ask	ask	VERB	VB	VerbForm=Inf	11	csubj	_	start_char=4344|end_char=4347|SpaceAfter=No
+13	ask	ask	VERB	VB	VerbForm=Inf	11	csubj	_	SpaceAfter=No|start_char=4344|end_char=4347
 14	,	,	PUNCT	,	_	19	punct	_	start_char=4347|end_char=4348
 15	so	so	ADV	RB	_	19	advmod	_	start_char=4349|end_char=4351
 16	what	what	PRON	WP	PronType=Int	19	obj	_	start_char=4352|end_char=4356
@@ -950,27 +949,27 @@
 18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	start_char=4361|end_char=4364
 19	do	do	VERB	VB	VerbForm=Inf	11	parataxis	_	start_char=4365|end_char=4367
 20	with	with	ADP	IN	_	21	case	_	start_char=4368|end_char=4372
-21	this	this	PRON	DT	Number=Sing|PronType=Dem	19	obl	_	start_char=4373|end_char=4377|SpaceAfter=No
-22	?	?	PUNCT	.	_	11	punct	_	start_char=4377|end_char=4378|SpacesAfter=\n\n
+21	this	this	PRON	DT	Number=Sing|PronType=Dem	19	obl	_	SpaceAfter=No|start_char=4373|end_char=4377
+22	?	?	PUNCT	.	_	11	punct	_	SpacesAfter=\n\n|start_char=4377|end_char=4378
 
 # text = How predictive is it?
 # sent_id = 25
 1	How	how	ADV	WRB	PronType=Int	2	advmod	_	start_char=4380|end_char=4383
 2	predictive	predictive	ADJ	JJ	Degree=Pos	0	root	_	start_char=4384|end_char=4394
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=4395|end_char=4397
-4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=4398|end_char=4400|SpaceAfter=No
-5	?	?	PUNCT	.	_	2	punct	_	start_char=4400|end_char=4401|SpacesAfter=\n\n
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	SpaceAfter=No|start_char=4398|end_char=4400
+5	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=4400|end_char=4401
 
 # text = Does it predict human-level intelligence?
 # sent_id = 26
 1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=4403|end_char=4407
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=4408|end_char=4410
 3	predict	predict	VERB	VB	VerbForm=Inf	0	root	_	start_char=4411|end_char=4418
-4	human	human	ADJ	JJ	Degree=Pos	6	amod	_	start_char=4419|end_char=4424|SpaceAfter=No
-5	-	-	PUNCT	HYPH	_	4	punct	_	start_char=4424|end_char=4425|SpaceAfter=No
+4	human	human	ADJ	JJ	Degree=Pos	6	amod	_	SpaceAfter=No|start_char=4419|end_char=4424
+5	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No|start_char=4424|end_char=4425
 6	level	level	NOUN	NN	Number=Sing	7	compound	_	start_char=4425|end_char=4430
-7	intelligence	intelligence	NOUN	NN	Number=Sing	3	obj	_	start_char=4431|end_char=4443|SpaceAfter=No
-8	?	?	PUNCT	.	_	3	punct	_	start_char=4443|end_char=4444|SpacesAfter=\n\n
+7	intelligence	intelligence	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No|start_char=4431|end_char=4443
+8	?	?	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=4443|end_char=4444
 
 # text = Does it predict artificial intelligence?
 # sent_id = 27
@@ -978,8 +977,8 @@
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=4451|end_char=4453
 3	predict	predict	VERB	VB	VerbForm=Inf	0	root	_	start_char=4454|end_char=4461
 4	artificial	artificial	ADJ	JJ	Degree=Pos	5	amod	_	start_char=4462|end_char=4472
-5	intelligence	intelligence	NOUN	NN	Number=Sing	3	obj	_	start_char=4473|end_char=4485|SpaceAfter=No
-6	?	?	PUNCT	.	_	3	punct	_	start_char=4485|end_char=4486|SpacesAfter=\n\n
+5	intelligence	intelligence	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No|start_char=4473|end_char=4485
+6	?	?	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=4485|end_char=4486
 
 # text = So I'm going to show you now a video that will, I think, demonstrate some of the amazing applications of just this single equation.
 # sent_id = 28
@@ -995,10 +994,10 @@
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=4517|end_char=4518
 10	video	video	NOUN	NN	Number=Sing	6	obj	_	start_char=4519|end_char=4524
 11	that	that	PRON	WDT	PronType=Rel	17	nsubj	_	start_char=4525|end_char=4529
-12	will	will	AUX	MD	VerbForm=Fin	17	aux	_	start_char=4530|end_char=4534|SpaceAfter=No
+12	will	will	AUX	MD	VerbForm=Fin	17	aux	_	SpaceAfter=No|start_char=4530|end_char=4534
 13	,	,	PUNCT	,	_	12	punct	_	start_char=4534|end_char=4535
 14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=4536|end_char=4537
-15	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	parataxis	_	start_char=4538|end_char=4543|SpaceAfter=No
+15	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	parataxis	_	SpaceAfter=No|start_char=4538|end_char=4543
 16	,	,	PUNCT	,	_	15	punct	_	start_char=4543|end_char=4544
 17	demonstrate	demonstrate	VERB	VB	VerbForm=Fin	10	acl:relcl	_	start_char=4545|end_char=4556
 18	some	some	DET	DT	PronType=Ind	17	obj	_	start_char=4557|end_char=4561
@@ -1010,8 +1009,8 @@
 24	just	just	ADV	RB	_	27	advmod	_	start_char=4593|end_char=4597
 25	this	this	DET	DT	Number=Sing|PronType=Dem	27	det	_	start_char=4598|end_char=4602
 26	single	single	ADJ	JJ	Degree=Pos	27	amod	_	start_char=4603|end_char=4609
-27	equation	equation	NOUN	NN	Number=Sing	22	nmod	_	start_char=4610|end_char=4618|SpaceAfter=No
-28	.	.	PUNCT	.	_	4	punct	_	start_char=4618|end_char=4619|SpacesAfter=\n\n
+27	equation	equation	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No|start_char=4610|end_char=4618
+28	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=4618|end_char=4619
 
 # text = So what you've just seen is that a variety of signature human intelligent cognitive behaviors such as tool use and walking upright and social cooperation all follow from a single equation, which drives a system to maximize its future freedom of action.
 # sent_id = 29
@@ -1047,7 +1046,7 @@
 29	from	from	ADP	IN	_	32	case	_	start_char=4786|end_char=4790
 30	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	start_char=4791|end_char=4792
 31	single	single	ADJ	JJ	Degree=Pos	32	amod	_	start_char=4793|end_char=4799
-32	equation	equation	NOUN	NN	Number=Sing	28	obl	_	start_char=4800|end_char=4808|SpaceAfter=No
+32	equation	equation	NOUN	NN	Number=Sing	28	obl	_	SpaceAfter=No|start_char=4800|end_char=4808
 33	,	,	PUNCT	,	_	35	punct	_	start_char=4808|end_char=4809
 34	which	which	PRON	WDT	PronType=Rel	35	nsubj	_	start_char=4810|end_char=4815
 35	drives	drive	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	start_char=4816|end_char=4822
@@ -1059,12 +1058,12 @@
 41	future	future	ADJ	JJ	Degree=Pos	42	amod	_	start_char=4848|end_char=4854
 42	freedom	freedom	NOUN	NN	Number=Sing	39	obj	_	start_char=4855|end_char=4862
 43	of	of	ADP	IN	_	44	case	_	start_char=4863|end_char=4865
-44	action	action	NOUN	NN	Number=Sing	42	nmod	_	start_char=4866|end_char=4872|SpaceAfter=No
-45	.	.	PUNCT	.	_	28	punct	_	start_char=4872|end_char=4873|SpacesAfter=\n\n
+44	action	action	NOUN	NN	Number=Sing	42	nmod	_	SpaceAfter=No|start_char=4866|end_char=4872
+45	.	.	PUNCT	.	_	28	punct	_	SpacesAfter=\n\n|start_char=4872|end_char=4873
 
 # text = Now, there's a profound irony here.
 # sent_id = 30
-1	Now	now	ADV	RB	_	4	advmod	_	start_char=4875|end_char=4878|SpaceAfter=No
+1	Now	now	ADV	RB	_	4	advmod	_	SpaceAfter=No|start_char=4875|end_char=4878
 2	,	,	PUNCT	,	_	1	punct	_	start_char=4878|end_char=4879
 3-4	there's	_	_	_	_	_	_	_	start_char=4880|end_char=4887
 3	there	there	PRON	EX	_	4	expl	_	start_char=4880|end_char=4885
@@ -1072,8 +1071,8 @@
 5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=4888|end_char=4889
 6	profound	profound	ADJ	JJ	Degree=Pos	7	amod	_	start_char=4890|end_char=4898
 7	irony	irony	NOUN	NN	Number=Sing	4	nsubj	_	start_char=4899|end_char=4904
-8	here	here	ADV	RB	PronType=Dem	7	advmod	_	start_char=4905|end_char=4909|SpaceAfter=No
-9	.	.	PUNCT	.	_	4	punct	_	start_char=4909|end_char=4910|SpacesAfter=\n\n
+8	here	here	ADV	RB	PronType=Dem	7	advmod	_	SpaceAfter=No|start_char=4905|end_char=4909
+9	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=4909|end_char=4910
 
 # text = Going back to the beginning of the usage of the term robot, the play "RUR," there was always a concept that if we developed machine intelligence, there would be a cybernetic revolt.
 # sent_id = 31
@@ -1088,13 +1087,13 @@
 9	of	of	ADP	IN	_	12	case	_	start_char=4953|end_char=4955
 10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=4956|end_char=4959
 11	term	term	NOUN	NN	Number=Sing	12	compound	_	start_char=4960|end_char=4964
-12	robot	robot	NOUN	NN	Number=Sing	8	nmod	_	start_char=4965|end_char=4970|SpaceAfter=No
+12	robot	robot	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No|start_char=4965|end_char=4970
 13	,	,	PUNCT	,	_	1	punct	_	start_char=4970|end_char=4971
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=4972|end_char=4975
 15	play	play	NOUN	NN	Number=Sing	21	nsubj	_	start_char=4976|end_char=4980
-16	"	"	PUNCT	``	_	17	punct	_	start_char=4981|end_char=4982|SpaceAfter=No
-17	RUR	RUR	PROPN	NNP	Number=Sing	15	appos	_	start_char=4982|end_char=4985|SpaceAfter=No
-18	,	,	PUNCT	,	_	17	punct	_	start_char=4985|end_char=4986|SpaceAfter=No
+16	"	"	PUNCT	``	_	17	punct	_	SpaceAfter=No|start_char=4981|end_char=4982
+17	RUR	RUR	PROPN	NNP	Number=Sing	15	appos	_	SpaceAfter=No|start_char=4982|end_char=4985
+18	,	,	PUNCT	,	_	17	punct	_	SpaceAfter=No|start_char=4985|end_char=4986
 19	"	"	PUNCT	''	_	17	punct	_	start_char=4986|end_char=4987
 20	there	there	PRON	EX	_	21	expl	_	start_char=4988|end_char=4993
 21	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=4994|end_char=4997
@@ -1106,15 +1105,15 @@
 27	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	28	nsubj	_	start_char=5023|end_char=5025
 28	developed	develop	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	34	advcl	_	start_char=5026|end_char=5035
 29	machine	machine	NOUN	NN	Number=Sing	30	compound	_	start_char=5036|end_char=5043
-30	intelligence	intelligence	NOUN	NN	Number=Sing	28	obj	_	start_char=5044|end_char=5056|SpaceAfter=No
+30	intelligence	intelligence	NOUN	NN	Number=Sing	28	obj	_	SpaceAfter=No|start_char=5044|end_char=5056
 31	,	,	PUNCT	,	_	28	punct	_	start_char=5056|end_char=5057
 32	there	there	PRON	EX	_	34	expl	_	start_char=5058|end_char=5063
 33	would	would	AUX	MD	VerbForm=Fin	34	aux	_	start_char=5064|end_char=5069
 34	be	be	VERB	VB	VerbForm=Inf	21	ccomp	_	start_char=5070|end_char=5072
 35	a	a	DET	DT	Definite=Ind|PronType=Art	37	det	_	start_char=5073|end_char=5074
 36	cybernetic	cybernetic	ADJ	JJ	Degree=Pos	37	amod	_	start_char=5075|end_char=5085
-37	revolt	revolt	NOUN	NN	Number=Sing	34	nsubj	_	start_char=5086|end_char=5092|SpaceAfter=No
-38	.	.	PUNCT	.	_	21	punct	_	start_char=5092|end_char=5093|SpacesAfter=\n\n
+37	revolt	revolt	NOUN	NN	Number=Sing	34	nsubj	_	SpaceAfter=No|start_char=5086|end_char=5092
+38	.	.	PUNCT	.	_	21	punct	_	SpacesAfter=\n\n|start_char=5092|end_char=5093
 
 # text = The machines would rise up against us.
 # sent_id = 32
@@ -1124,8 +1123,8 @@
 4	rise	rise	VERB	VB	VerbForm=Inf	0	root	_	start_char=5114|end_char=5118
 5	up	up	ADP	RP	_	4	compound:prt	_	start_char=5119|end_char=5121
 6	against	against	ADP	IN	_	7	case	_	start_char=5122|end_char=5129
-7	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	obl	_	start_char=5130|end_char=5132|SpaceAfter=No
-8	.	.	PUNCT	.	_	4	punct	_	start_char=5132|end_char=5133|SpacesAfter=\n\n
+7	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No|start_char=5130|end_char=5132
+8	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=5132|end_char=5133
 
 # text = One major consequence of this work is that maybe all of these decades, we've had the whole concept of cybernetic revolt in reverse.
 # sent_id = 33
@@ -1141,7 +1140,7 @@
 10	all	all	DET	DT	PronType=Tot	17	dislocated	_	start_char=5184|end_char=5187
 11	of	of	ADP	IN	_	13	case	_	start_char=5188|end_char=5190
 12	these	this	DET	DT	Number=Plur|PronType=Dem	13	det	_	start_char=5191|end_char=5196
-13	decades	decade	NOUN	NNS	Number=Plur	10	nmod	_	start_char=5197|end_char=5204|SpaceAfter=No
+13	decades	decade	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No|start_char=5197|end_char=5204
 14	,	,	PUNCT	,	_	10	punct	_	start_char=5204|end_char=5205
 15-16	we've	_	_	_	_	_	_	_	start_char=5206|end_char=5211
 15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	start_char=5206|end_char=5208
@@ -1154,8 +1153,8 @@
 22	cybernetic	cybernetic	ADJ	JJ	Degree=Pos	23	amod	_	start_char=5237|end_char=5247
 23	revolt	revolt	NOUN	NN	Number=Sing	20	nmod	_	start_char=5248|end_char=5254
 24	in	in	ADP	IN	_	25	case	_	start_char=5255|end_char=5257
-25	reverse	reverse	NOUN	NN	Number=Sing	17	obl	_	start_char=5258|end_char=5265|SpaceAfter=No
-26	.	.	PUNCT	.	_	17	punct	_	start_char=5265|end_char=5266|SpacesAfter=\n\n
+25	reverse	reverse	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No|start_char=5258|end_char=5265
+26	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\n\n|start_char=5265|end_char=5266
 
 # text = It's not that machines first become intelligent and then megalomaniacal and try to take over the world.
 # sent_id = 34
@@ -1177,8 +1176,8 @@
 15	take	take	VERB	VB	VerbForm=Inf	13	xcomp	_	start_char=5351|end_char=5355
 16	over	over	ADP	RP	_	15	compound:prt	_	start_char=5356|end_char=5360
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=5361|end_char=5364
-18	world	world	NOUN	NN	Number=Sing	15	obj	_	start_char=5365|end_char=5370|SpaceAfter=No
-19	.	.	PUNCT	.	_	7	punct	_	start_char=5370|end_char=5371|SpacesAfter=\n\n
+18	world	world	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No|start_char=5365|end_char=5370
+19	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=5370|end_char=5371
 
 # text = It's quite the opposite, that the urge to take control of all possible futures is a more fundamental principle than that of intelligence, that general intelligence may in fact emerge directly from this sort of control-grabbing, rather than vice versa.
 # sent_id = 35
@@ -1187,7 +1186,7 @@
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=5375|end_char=5377
 3	quite	quite	DET	PDT	PronType=Tot	5	det:predet	_	start_char=5378|end_char=5383
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=5384|end_char=5387
-5	opposite	opposite	NOUN	NN	Number=Sing	0	root	_	start_char=5388|end_char=5396|SpaceAfter=No
+5	opposite	opposite	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=5388|end_char=5396
 6	,	,	PUNCT	,	_	21	punct	_	start_char=5396|end_char=5397
 7	that	that	SCONJ	IN	_	21	mark	_	start_char=5398|end_char=5402
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=5403|end_char=5406
@@ -1207,7 +1206,7 @@
 22	than	than	ADP	IN	_	23	case	_	start_char=5484|end_char=5488
 23	that	that	PRON	DT	Number=Sing|PronType=Dem	21	nmod	_	start_char=5489|end_char=5493
 24	of	of	ADP	IN	_	25	case	_	start_char=5494|end_char=5496
-25	intelligence	intelligence	NOUN	NN	Number=Sing	23	nmod	_	start_char=5497|end_char=5509|SpaceAfter=No
+25	intelligence	intelligence	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No|start_char=5497|end_char=5509
 26	,	,	PUNCT	,	_	33	punct	_	start_char=5509|end_char=5510
 27	that	that	SCONJ	IN	_	33	mark	_	start_char=5511|end_char=5515
 28	general	general	ADJ	JJ	Degree=Pos	29	amod	_	start_char=5516|end_char=5523
@@ -1221,15 +1220,15 @@
 36	this	this	DET	DT	Number=Sing|PronType=Dem	37	det	_	start_char=5570|end_char=5574
 37	sort	sort	NOUN	NN	Number=Sing	33	obl	_	start_char=5575|end_char=5579
 38	of	of	ADP	IN	_	41	case	_	start_char=5580|end_char=5582
-39	control	control	NOUN	NN	Number=Sing	41	compound	_	start_char=5583|end_char=5590|SpaceAfter=No
-40	-	-	PUNCT	HYPH	_	39	punct	_	start_char=5590|end_char=5591|SpaceAfter=No
-41	grabbing	grab	NOUN	NN	Number=Sing	37	nmod	_	start_char=5591|end_char=5599|SpaceAfter=No
+39	control	control	NOUN	NN	Number=Sing	41	compound	_	SpaceAfter=No|start_char=5583|end_char=5590
+40	-	-	PUNCT	HYPH	_	39	punct	_	SpaceAfter=No|start_char=5590|end_char=5591
+41	grabbing	grab	NOUN	NN	Number=Sing	37	nmod	_	SpaceAfter=No|start_char=5591|end_char=5599
 42	,	,	PUNCT	,	_	46	punct	_	start_char=5599|end_char=5600
 43	rather	rather	ADV	RB	ExtPos=CCONJ	46	cc	_	start_char=5601|end_char=5607
 44	than	than	ADP	IN	_	43	fixed	_	start_char=5608|end_char=5612
 45	vice	vice	ADV	RB	_	46	advmod	_	start_char=5613|end_char=5617
-46	versa	versa	ADV	RB	_	41	conj	_	start_char=5618|end_char=5623|SpaceAfter=No
-47	.	.	PUNCT	.	_	5	punct	_	start_char=5623|end_char=5624|SpacesAfter=\n\n
+46	versa	versa	ADV	RB	_	41	conj	_	SpaceAfter=No|start_char=5618|end_char=5623
+47	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=5623|end_char=5624
 
 # text = Another important consequence is goal seeking.
 # sent_id = 36
@@ -1238,8 +1237,8 @@
 3	consequence	consequence	NOUN	NN	Number=Sing	5	nsubj	_	start_char=5644|end_char=5655
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=5656|end_char=5658
 5	goal	goal	NOUN	NN	Number=Sing	0	root	_	start_char=5659|end_char=5663
-6	seeking	seek	VERB	VBG	VerbForm=Ger	5	acl	_	start_char=5664|end_char=5671|SpaceAfter=No
-7	.	.	PUNCT	.	_	5	punct	_	start_char=5671|end_char=5672|SpacesAfter=\n\n
+6	seeking	seek	VERB	VBG	VerbForm=Ger	5	acl	_	SpaceAfter=No|start_char=5664|end_char=5671
+7	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=5671|end_char=5672
 
 # text = I'm often asked, how does the ability to seek goals follow from this sort of framework?
 # sent_id = 37
@@ -1247,7 +1246,7 @@
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	start_char=5674|end_char=5675
 2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	start_char=5675|end_char=5677
 3	often	often	ADV	RB	_	4	advmod	_	start_char=5678|end_char=5683
-4	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=5684|end_char=5689|SpaceAfter=No
+4	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|start_char=5684|end_char=5689
 5	,	,	PUNCT	,	_	13	punct	_	start_char=5689|end_char=5690
 6	how	how	ADV	WRB	PronType=Int	13	advmod	_	start_char=5691|end_char=5694
 7	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=5695|end_char=5699
@@ -1261,15 +1260,15 @@
 15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	_	start_char=5738|end_char=5742
 16	sort	sort	NOUN	NN	Number=Sing	13	obl	_	start_char=5743|end_char=5747
 17	of	of	ADP	IN	_	18	case	_	start_char=5748|end_char=5750
-18	framework	framework	NOUN	NN	Number=Sing	16	nmod	_	start_char=5751|end_char=5760|SpaceAfter=No
-19	?	?	PUNCT	.	_	4	punct	_	start_char=5760|end_char=5761|SpacesAfter=\n\n
+18	framework	framework	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No|start_char=5751|end_char=5760
+19	?	?	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=5760|end_char=5761
 
 # text = And the answer is, the ability to seek goals will follow directly from this in the following sense: just like you would travel through a tunnel, a bottleneck in your future path space, in order to achieve many other diverse objectives later on, or just like you would invest in a financial security, reducing your short-term liquidity in order to increase your wealth over the long term, goal seeking emerges directly from a long-term drive to increase future freedom of action.
 # sent_id = 38
 1	And	and	CCONJ	CC	_	12	cc	_	start_char=5763|end_char=5766
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=5767|end_char=5770
 3	answer	answer	NOUN	NN	Number=Sing	12	nsubj:outer	_	start_char=5771|end_char=5777
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=5778|end_char=5780|SpaceAfter=No
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	SpaceAfter=No|start_char=5778|end_char=5780
 5	,	,	PUNCT	,	_	4	punct	_	start_char=5780|end_char=5781
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=5782|end_char=5785
 7	ability	ability	NOUN	NN	Number=Sing	12	nsubj	_	start_char=5786|end_char=5793
@@ -1284,7 +1283,7 @@
 16	in	in	ADP	IN	_	19	case	_	start_char=5839|end_char=5841
 17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=5842|end_char=5845
 18	following	follow	VERB	VBG	VerbForm=Ger	19	amod	_	start_char=5846|end_char=5855
-19	sense	sense	NOUN	NN	Number=Sing	12	obl	_	start_char=5856|end_char=5861|SpaceAfter=No
+19	sense	sense	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No|start_char=5856|end_char=5861
 20	:	:	PUNCT	:	_	25	punct	_	start_char=5861|end_char=5862
 21	just	just	ADV	RB	_	25	advmod	_	start_char=5863|end_char=5867
 22	like	like	SCONJ	IN	_	25	mark	_	start_char=5868|end_char=5872
@@ -1293,7 +1292,7 @@
 25	travel	travel	VERB	VB	VerbForm=Inf	12	advcl	_	start_char=5883|end_char=5889
 26	through	through	ADP	IN	_	28	case	_	start_char=5890|end_char=5897
 27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	start_char=5898|end_char=5899
-28	tunnel	tunnel	NOUN	NN	Number=Sing	25	obl	_	start_char=5900|end_char=5906|SpaceAfter=No
+28	tunnel	tunnel	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No|start_char=5900|end_char=5906
 29	,	,	PUNCT	,	_	31	punct	_	start_char=5906|end_char=5907
 30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	start_char=5908|end_char=5909
 31	bottleneck	bottleneck	NOUN	NN	Number=Sing	28	appos	_	start_char=5910|end_char=5920
@@ -1301,7 +1300,7 @@
 33	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	36	nmod:poss	_	start_char=5924|end_char=5928
 34	future	future	ADJ	JJ	Degree=Pos	36	amod	_	start_char=5929|end_char=5935
 35	path	path	NOUN	NN	Number=Sing	36	compound	_	start_char=5936|end_char=5940
-36	space	space	NOUN	NN	Number=Sing	31	nmod	_	start_char=5941|end_char=5946|SpaceAfter=No
+36	space	space	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No|start_char=5941|end_char=5946
 37	,	,	PUNCT	,	_	41	punct	_	start_char=5946|end_char=5947
 38	in	in	SCONJ	IN	_	41	mark	_	start_char=5948|end_char=5950
 39	order	order	NOUN	NN	Number=Sing	38	fixed	_	start_char=5951|end_char=5956
@@ -1312,7 +1311,7 @@
 44	diverse	diverse	ADJ	JJ	Degree=Pos	45	amod	_	start_char=5979|end_char=5986
 45	objectives	objective	NOUN	NNS	Number=Plur	41	obj	_	start_char=5987|end_char=5997
 46	later	late	ADV	RBR	Degree=Cmp	47	advmod	_	start_char=5998|end_char=6003
-47	on	on	ADV	RB	_	41	advmod	_	start_char=6004|end_char=6006|SpaceAfter=No
+47	on	on	ADV	RB	_	41	advmod	_	SpaceAfter=No|start_char=6004|end_char=6006
 48	,	,	PUNCT	,	_	49	punct	_	start_char=6006|end_char=6007
 49	or	or	CCONJ	CC	_	54	cc	_	start_char=6008|end_char=6010
 50	just	just	ADV	RB	_	54	advmod	_	start_char=6011|end_char=6015
@@ -1323,12 +1322,12 @@
 55	in	in	ADP	IN	_	58	case	_	start_char=6038|end_char=6040
 56	a	a	DET	DT	Definite=Ind|PronType=Art	58	det	_	start_char=6041|end_char=6042
 57	financial	financial	ADJ	JJ	Degree=Pos	58	amod	_	start_char=6043|end_char=6052
-58	security	security	NOUN	NN	Number=Sing	54	obl	_	start_char=6053|end_char=6061|SpaceAfter=No
+58	security	security	NOUN	NN	Number=Sing	54	obl	_	SpaceAfter=No|start_char=6053|end_char=6061
 59	,	,	PUNCT	,	_	60	punct	_	start_char=6061|end_char=6062
 60	reducing	reduce	VERB	VBG	Tense=Pres|VerbForm=Part	54	advcl	_	start_char=6063|end_char=6071
 61	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	65	nmod:poss	_	start_char=6072|end_char=6076
-62	short	short	ADJ	JJ	Degree=Pos	64	amod	_	start_char=6077|end_char=6082|SpaceAfter=No
-63	-	-	PUNCT	HYPH	_	62	punct	_	start_char=6082|end_char=6083|SpaceAfter=No
+62	short	short	ADJ	JJ	Degree=Pos	64	amod	_	SpaceAfter=No|start_char=6077|end_char=6082
+63	-	-	PUNCT	HYPH	_	62	punct	_	SpaceAfter=No|start_char=6082|end_char=6083
 64	term	term	NOUN	NN	Number=Sing	65	compound	_	start_char=6083|end_char=6087
 65	liquidity	liquidity	NOUN	NN	Number=Sing	60	obj	_	start_char=6088|end_char=6097
 66	in	in	SCONJ	IN	_	69	mark	_	start_char=6098|end_char=6100
@@ -1340,7 +1339,7 @@
 72	over	over	ADP	IN	_	75	case	_	start_char=6131|end_char=6135
 73	the	the	DET	DT	Definite=Def|PronType=Art	75	det	_	start_char=6136|end_char=6139
 74	long	long	ADJ	JJ	Degree=Pos	75	amod	_	start_char=6140|end_char=6144
-75	term	term	NOUN	NN	Number=Sing	69	obl	_	start_char=6145|end_char=6149|SpaceAfter=No
+75	term	term	NOUN	NN	Number=Sing	69	obl	_	SpaceAfter=No|start_char=6145|end_char=6149
 76	,	,	PUNCT	,	_	69	punct	_	start_char=6149|end_char=6150
 77	goal	goal	NOUN	NN	Number=Sing	78	compound	_	start_char=6151|end_char=6155
 78	seeking	seek	NOUN	NN	Number=Sing	79	nsubj	_	start_char=6156|end_char=6163
@@ -1348,8 +1347,8 @@
 80	directly	directly	ADV	RB	_	79	advmod	_	start_char=6172|end_char=6180
 81	from	from	ADP	IN	_	86	case	_	start_char=6181|end_char=6185
 82	a	a	DET	DT	Definite=Ind|PronType=Art	86	det	_	start_char=6186|end_char=6187
-83	long	long	ADJ	JJ	Degree=Pos	85	amod	_	start_char=6188|end_char=6192|SpaceAfter=No
-84	-	-	PUNCT	HYPH	_	83	punct	_	start_char=6192|end_char=6193|SpaceAfter=No
+83	long	long	ADJ	JJ	Degree=Pos	85	amod	_	SpaceAfter=No|start_char=6188|end_char=6192
+84	-	-	PUNCT	HYPH	_	83	punct	_	SpaceAfter=No|start_char=6192|end_char=6193
 85	term	term	NOUN	NN	Number=Sing	86	compound	_	start_char=6193|end_char=6197
 86	drive	drive	NOUN	NN	Number=Sing	79	obl	_	start_char=6198|end_char=6203
 87	to	to	PART	TO	_	88	mark	_	start_char=6204|end_char=6206
@@ -1357,18 +1356,18 @@
 89	future	future	ADJ	JJ	Degree=Pos	90	amod	_	start_char=6216|end_char=6222
 90	freedom	freedom	NOUN	NN	Number=Sing	88	obj	_	start_char=6223|end_char=6230
 91	of	of	ADP	IN	_	92	case	_	start_char=6231|end_char=6233
-92	action	action	NOUN	NN	Number=Sing	90	nmod	_	start_char=6234|end_char=6240|SpaceAfter=No
-93	.	.	PUNCT	.	_	12	punct	_	start_char=6240|end_char=6241|SpacesAfter=\n\n
+92	action	action	NOUN	NN	Number=Sing	90	nmod	_	SpaceAfter=No|start_char=6234|end_char=6240
+93	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n\n|start_char=6240|end_char=6241
 
 # text = Finally, Richard Feynman, famous physicist, once wrote that if human civilization were destroyed and you could pass only a single concept on to our descendants to help them rebuild civilization, that concept should be that all matter around us is made out of tiny elements that attract each other when they're far apart but repel each other when they're close together.
 # sent_id = 39
-1	Finally	finally	ADV	RB	_	10	advmod	_	start_char=6243|end_char=6250|SpaceAfter=No
+1	Finally	finally	ADV	RB	_	10	advmod	_	SpaceAfter=No|start_char=6243|end_char=6250
 2	,	,	PUNCT	,	_	1	punct	_	start_char=6250|end_char=6251
 3	Richard	Richard	PROPN	NNP	Number=Sing	10	nsubj	_	start_char=6252|end_char=6259
-4	Feynman	Feynman	PROPN	NNP	Number=Sing	3	flat	_	start_char=6260|end_char=6267|SpaceAfter=No
+4	Feynman	Feynman	PROPN	NNP	Number=Sing	3	flat	_	SpaceAfter=No|start_char=6260|end_char=6267
 5	,	,	PUNCT	,	_	7	punct	_	start_char=6267|end_char=6268
 6	famous	famous	ADJ	JJ	Degree=Pos	7	amod	_	start_char=6269|end_char=6275
-7	physicist	physicist	NOUN	NN	Number=Sing	3	appos	_	start_char=6276|end_char=6285|SpaceAfter=No
+7	physicist	physicist	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No|start_char=6276|end_char=6285
 8	,	,	PUNCT	,	_	3	punct	_	start_char=6285|end_char=6286
 9	once	once	ADV	RB	NumForm=Word|NumType=Mult	10	advmod	_	start_char=6287|end_char=6291
 10	wrote	write	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=6292|end_char=6297
@@ -1394,7 +1393,7 @@
 30	help	help	VERB	VB	VerbForm=Inf	20	advcl	_	start_char=6406|end_char=6410
 31	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	30	obj	_	start_char=6411|end_char=6415
 32	rebuild	rebuild	VERB	VB	VerbForm=Inf	30	xcomp	_	start_char=6416|end_char=6423
-33	civilization	civilization	NOUN	NN	Number=Sing	32	obj	_	start_char=6424|end_char=6436|SpaceAfter=No
+33	civilization	civilization	NOUN	NN	Number=Sing	32	obj	_	SpaceAfter=No|start_char=6424|end_char=6436
 34	,	,	PUNCT	,	_	16	punct	_	start_char=6436|end_char=6437
 35	that	that	DET	DT	Number=Sing|PronType=Dem	36	det	_	start_char=6438|end_char=6442
 36	concept	concept	NOUN	NN	Number=Sing	45	nsubj:outer	_	start_char=6443|end_char=6450
@@ -1430,8 +1429,8 @@
 64	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	66	nsubj	_	start_char=6589|end_char=6593
 65	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	66	cop	_	start_char=6593|end_char=6596
 66	close	close	ADJ	JJ	Degree=Pos	60	advcl	_	start_char=6597|end_char=6602
-67	together	together	ADV	RB	_	66	advmod	_	start_char=6603|end_char=6611|SpaceAfter=No
-68	.	.	PUNCT	.	_	10	punct	_	start_char=6611|end_char=6612|SpacesAfter=\n\n
+67	together	together	ADV	RB	_	66	advmod	_	SpaceAfter=No|start_char=6603|end_char=6611
+68	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n|start_char=6611|end_char=6612
 
 # text = My equivalent of that statement to pass on to descendants to help them build artificial intelligences or to help them understand human intelligence, is the following:
 # sent_id = 40
@@ -1457,12 +1456,12 @@
 20	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	obj	_	start_char=6727|end_char=6731
 21	understand	understand	VERB	VB	VerbForm=Inf	19	xcomp	_	start_char=6732|end_char=6742
 22	human	human	ADJ	JJ	Degree=Pos	23	amod	_	start_char=6743|end_char=6748
-23	intelligence	intelligence	NOUN	NN	Number=Sing	21	obj	_	start_char=6749|end_char=6761|SpaceAfter=No
+23	intelligence	intelligence	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No|start_char=6749|end_char=6761
 24	,	,	PUNCT	,	_	2	punct	_	start_char=6761|end_char=6762
 25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	start_char=6763|end_char=6765
 26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	start_char=6766|end_char=6769
-27	following	follow	VERB	VBG	VerbForm=Ger	0	root	_	start_char=6770|end_char=6779|SpaceAfter=No
-28	:	:	PUNCT	:	_	27	punct	_	start_char=6779|end_char=6780|SpacesAfter=\n\n
+27	following	follow	VERB	VBG	VerbForm=Ger	0	root	_	SpaceAfter=No|start_char=6770|end_char=6779
+28	:	:	PUNCT	:	_	27	punct	_	SpacesAfter=\n\n|start_char=6779|end_char=6780
 
 # text = Intelligence should be viewed as a physical process that tries to maximize future freedom of action and avoid constraints in its own future.
 # sent_id = 41
@@ -1488,13 +1487,13 @@
 20	in	in	ADP	IN	_	23	case	_	start_char=6904|end_char=6906
 21	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	start_char=6907|end_char=6910
 22	own	own	ADJ	JJ	Degree=Pos	23	amod	_	start_char=6911|end_char=6914
-23	future	future	NOUN	NN	Number=Sing	18	obl	_	start_char=6915|end_char=6921|SpaceAfter=No
-24	.	.	PUNCT	.	_	4	punct	_	start_char=6921|end_char=6922|SpacesAfter=\n\n
+23	future	future	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No|start_char=6915|end_char=6921
+24	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=6921|end_char=6922
 
 # text = Thank you very much.
 # sent_id = 42
 1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6924|end_char=6929
 2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	start_char=6930|end_char=6933
 3	very	very	ADV	RB	_	4	advmod	_	start_char=6934|end_char=6938
-4	much	much	ADV	RB	Degree=Pos	1	advmod	_	start_char=6939|end_char=6943|SpaceAfter=No
-5	.	.	PUNCT	.	_	1	punct	_	start_char=6943|end_char=6944|SpaceAfter=No
+4	much	much	ADV	RB	Degree=Pos	1	advmod	_	SpaceAfter=No|start_char=6939|end_char=6943
+5	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|start_char=6943|end_char=6944

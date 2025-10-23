@@ -1,10 +1,9 @@
 # conllu_stats: begin
 # conllu_tokens: 973
 # conllu_sentences: 58
-# Average tokens per senteces: 16.775862068965516
-# sentece_pairs: 3
+# Average tokens per sentence: 16.775862068965516
+# sentence_pairs: 3
 # conllu_stats: end
-
 
 # text = The next global agricultural revolution
 # sent_id = 0
@@ -12,18 +11,18 @@
 2	next	next	ADJ	JJ	Degree=Pos	5	amod	_	start_char=4|end_char=8
 3	global	global	ADJ	JJ	Degree=Pos	5	amod	_	start_char=9|end_char=15
 4	agricultural	agricultural	ADJ	JJ	Degree=Pos	5	amod	_	start_char=16|end_char=28
-5	revolution	revolution	NOUN	NN	Number=Sing	0	root	_	start_char=29|end_char=39|SpacesAfter=\n\n
+5	revolution	revolution	NOUN	NN	Number=Sing	0	root	_	SpacesAfter=\n\n|start_char=29|end_char=39
 
 # text = In 2019, humanity received a warning:
 # sent_id = 1
 1	In	in	ADP	IN	_	2	case	_	start_char=41|end_char=43
-2	2019	2019	NUM	CD	NumForm=Digit|NumType=Card	5	obl	_	start_char=44|end_char=48|SpaceAfter=No
+2	2019	2019	NUM	CD	NumForm=Digit|NumType=Card	5	obl	_	SpaceAfter=No|start_char=44|end_char=48
 3	,	,	PUNCT	,	_	2	punct	_	start_char=48|end_char=49
 4	humanity	humanity	NOUN	NN	Number=Sing	5	nsubj	_	start_char=50|end_char=58
 5	received	receive	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=59|end_char=67
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=68|end_char=69
-7	warning	warning	NOUN	NN	Number=Sing	5	obj	_	start_char=70|end_char=77|SpaceAfter=No
-8	:	:	PUNCT	:	_	5	punct	_	start_char=77|end_char=78|SpacesAfter=\n\n
+7	warning	warning	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No|start_char=70|end_char=77
+8	:	:	PUNCT	:	_	5	punct	_	SpacesAfter=\n\n|start_char=77|end_char=78
 
 # text = 30 of the world's leading scientists released the results of a massive three-year study into global agriculture and declared that meat production is destroying our planet and jeopardizing global health.
 # sent_id = 2
@@ -41,8 +40,8 @@
 11	of	of	ADP	IN	_	17	case	_	start_char=138|end_char=140
 12	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	start_char=141|end_char=142
 13	massive	massive	ADJ	JJ	Degree=Pos	17	amod	_	start_char=143|end_char=150
-14	three	three	NUM	CD	NumForm=Word|NumType=Card	16	nummod	_	start_char=151|end_char=156|SpaceAfter=No
-15	-	-	PUNCT	HYPH	_	14	punct	_	start_char=156|end_char=157|SpaceAfter=No
+14	three	three	NUM	CD	NumForm=Word|NumType=Card	16	nummod	_	SpaceAfter=No|start_char=151|end_char=156
+15	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No|start_char=156|end_char=157
 16	year	year	NOUN	NN	Number=Sing	17	compound	_	start_char=157|end_char=161
 17	study	study	NOUN	NN	Number=Sing	10	nmod	_	start_char=162|end_char=167
 18	into	into	ADP	IN	_	20	case	_	start_char=168|end_char=172
@@ -60,8 +59,8 @@
 30	and	and	CCONJ	CC	_	31	cc	_	start_char=251|end_char=254
 31	jeopardizing	jeopardize	VERB	VBG	Tense=Pres|VerbForm=Part	27	conj	_	start_char=255|end_char=267
 32	global	global	ADJ	JJ	Degree=Pos	33	amod	_	start_char=268|end_char=274
-33	health	health	NOUN	NN	Number=Sing	31	obj	_	start_char=275|end_char=281|SpaceAfter=No
-34	.	.	PUNCT	.	_	8	punct	_	start_char=281|end_char=282|SpacesAfter=\n\n
+33	health	health	NOUN	NN	Number=Sing	31	obj	_	SpaceAfter=No|start_char=275|end_char=281
+34	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n\n|start_char=281|end_char=282
 
 # text = One of the study's authors explained that "humanity now poses a threat to the stability of the planet ... [This requires] nothing less than a new global agricultural revolution."
 # sent_id = 3
@@ -74,7 +73,7 @@
 6	authors	author	NOUN	NNS	Number=Plur	1	nmod	_	start_char=303|end_char=310
 7	explained	explain	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=311|end_char=320
 8	that	that	SCONJ	IN	_	12	mark	_	start_char=321|end_char=325
-9	"	"	PUNCT	``	_	12	punct	_	start_char=326|end_char=327|SpaceAfter=No
+9	"	"	PUNCT	``	_	12	punct	_	SpaceAfter=No|start_char=326|end_char=327
 10	humanity	humanity	NOUN	NN	Number=Sing	12	nsubj	_	start_char=327|end_char=335
 11	now	now	ADV	RB	_	12	advmod	_	start_char=336|end_char=339
 12	poses	pose	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	start_char=340|end_char=345
@@ -87,9 +86,9 @@
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=375|end_char=378
 20	planet	planet	NOUN	NN	Number=Sing	17	nmod	_	start_char=379|end_char=385
 21	...	...	PUNCT	,	_	24	punct	_	start_char=386|end_char=389
-22	[	[	PUNCT	-LRB-	_	24	punct	_	start_char=390|end_char=391|SpaceAfter=No
+22	[	[	PUNCT	-LRB-	_	24	punct	_	SpaceAfter=No|start_char=390|end_char=391
 23	This	this	PRON	DT	Number=Sing|PronType=Dem	24	nsubj	_	start_char=391|end_char=395
-24	requires	require	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	start_char=396|end_char=404|SpaceAfter=No
+24	requires	require	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	SpaceAfter=No|start_char=396|end_char=404
 25	]	]	PUNCT	-RRB-	_	24	punct	_	start_char=404|end_char=405
 26	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	24	obj	_	start_char=406|end_char=413
 27	less	less	ADJ	JJR	Degree=Cmp	26	amod	_	start_char=414|end_char=418
@@ -98,9 +97,9 @@
 30	new	new	ADJ	JJ	Degree=Pos	33	amod	_	start_char=426|end_char=429
 31	global	global	ADJ	JJ	Degree=Pos	33	amod	_	start_char=430|end_char=436
 32	agricultural	agricultural	ADJ	JJ	Degree=Pos	33	amod	_	start_char=437|end_char=449
-33	revolution	revolution	NOUN	NN	Number=Sing	27	obl	_	start_char=450|end_char=460|SpaceAfter=No
-34	.	.	PUNCT	.	_	24	punct	_	start_char=460|end_char=461|SpaceAfter=No
-35	"	"	PUNCT	''	_	24	punct	_	start_char=461|end_char=462|SpacesAfter=\n\n
+33	revolution	revolution	NOUN	NN	Number=Sing	27	obl	_	SpaceAfter=No|start_char=450|end_char=460
+34	.	.	PUNCT	.	_	24	punct	_	SpaceAfter=No|start_char=460|end_char=461
+35	"	"	PUNCT	''	_	24	punct	_	SpacesAfter=\n\n|start_char=461|end_char=462
 
 # text = As somebody who's spent the last two decades advocating a shift away from industrial meat production, I wanted to believe that this clarion call was going to make a difference.
 # sent_id = 4
@@ -121,7 +120,7 @@
 14	from	from	ADP	IN	_	17	case	_	start_char=533|end_char=537
 15	industrial	industrial	ADJ	JJ	Degree=Pos	17	amod	_	start_char=538|end_char=548
 16	meat	meat	NOUN	NN	Number=Sing	17	compound	_	start_char=549|end_char=553
-17	production	production	NOUN	NN	Number=Sing	13	obl	_	start_char=554|end_char=564|SpaceAfter=No
+17	production	production	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No|start_char=554|end_char=564
 18	,	,	PUNCT	,	_	2	punct	_	start_char=564|end_char=565
 19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	start_char=566|end_char=567
 20	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=568|end_char=574
@@ -136,14 +135,14 @@
 29	to	to	PART	TO	_	30	mark	_	start_char=619|end_char=621
 30	make	make	VERB	VB	VerbForm=Inf	28	xcomp	_	start_char=622|end_char=626
 31	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	start_char=627|end_char=628
-32	difference	difference	NOUN	NN	Number=Sing	30	obj	_	start_char=629|end_char=639|SpaceAfter=No
-33	.	.	PUNCT	.	_	20	punct	_	start_char=639|end_char=640|SpacesAfter=\n\n
+32	difference	difference	NOUN	NN	Number=Sing	30	obj	_	SpaceAfter=No|start_char=629|end_char=639
+33	.	.	PUNCT	.	_	20	punct	_	SpacesAfter=\n\n|start_char=639|end_char=640
 
 # text = The thing is, I've seen this sort of thing again and again and again for decades.
 # sent_id = 5
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=642|end_char=645
 2	thing	thing	NOUN	NN	Number=Sing	7	nsubj:outer	_	start_char=646|end_char=651
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=652|end_char=654|SpaceAfter=No
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No|start_char=652|end_char=654
 4	,	,	PUNCT	,	_	3	punct	_	start_char=654|end_char=655
 5-6	I've	_	_	_	_	_	_	_	start_char=656|end_char=660
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=656|end_char=657
@@ -159,8 +158,8 @@
 15	and	and	CCONJ	CC	_	16	cc	_	start_char=701|end_char=704
 16	again	again	ADV	RB	_	12	conj	_	start_char=705|end_char=710
 17	for	for	ADP	IN	_	18	case	_	start_char=711|end_char=714
-18	decades	decade	NOUN	NNS	Number=Plur	12	conj	_	start_char=715|end_char=722|SpaceAfter=No
-19	.	.	PUNCT	.	_	7	punct	_	start_char=722|end_char=723|SpacesAfter=\n\n
+18	decades	decade	NOUN	NNS	Number=Plur	12	conj	_	SpaceAfter=No|start_char=715|end_char=722
+19	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=722|end_char=723
 
 # text = Here's 2018 from the journal "Nature," 2017 from "Bioscience Journal," 2016 from the National Academy of Sciences.
 # sent_id = 6
@@ -171,16 +170,16 @@
 4	from	from	ADP	IN	_	6	case	_	start_char=737|end_char=741
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=742|end_char=745
 6	journal	journal	NOUN	NN	Number=Sing	1	obl	_	start_char=746|end_char=753
-7	"	"	PUNCT	``	_	8	punct	_	start_char=754|end_char=755|SpaceAfter=No
-8	Nature	Nature	PROPN	NNP	Number=Sing	6	appos	_	start_char=755|end_char=761|SpaceAfter=No
-9	,	,	PUNCT	,	_	8	punct	_	start_char=761|end_char=762|SpaceAfter=No
+7	"	"	PUNCT	``	_	8	punct	_	SpaceAfter=No|start_char=754|end_char=755
+8	Nature	Nature	PROPN	NNP	Number=Sing	6	appos	_	SpaceAfter=No|start_char=755|end_char=761
+9	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No|start_char=761|end_char=762
 10	"	"	PUNCT	''	_	8	punct	_	start_char=762|end_char=763
 11	2017	2017	NUM	CD	NumForm=Digit|NumType=Card	8	nmod:unmarked	_	start_char=764|end_char=768
 12	from	from	ADP	IN	_	15	case	_	start_char=769|end_char=773
-13	"	"	PUNCT	``	_	15	punct	_	start_char=774|end_char=775|SpaceAfter=No
+13	"	"	PUNCT	``	_	15	punct	_	SpaceAfter=No|start_char=774|end_char=775
 14	Bioscience	Bioscience	PROPN	NNP	Number=Sing	15	compound	_	start_char=775|end_char=785
-15	Journal	Journal	PROPN	NNP	Number=Sing	1	obl	_	start_char=786|end_char=793|SpaceAfter=No
-16	,	,	PUNCT	,	_	15	punct	_	start_char=793|end_char=794|SpaceAfter=No
+15	Journal	Journal	PROPN	NNP	Number=Sing	1	obl	_	SpaceAfter=No|start_char=786|end_char=793
+16	,	,	PUNCT	,	_	15	punct	_	SpaceAfter=No|start_char=793|end_char=794
 17	"	"	PUNCT	''	_	15	punct	_	start_char=794|end_char=795
 18	2016	2016	NUM	CD	NumForm=Digit|NumType=Card	15	nmod:unmarked	_	start_char=796|end_char=800
 19	from	from	ADP	IN	_	22	case	_	start_char=801|end_char=805
@@ -188,8 +187,8 @@
 21	National	National	ADJ	NNP	Degree=Pos	22	amod	_	start_char=810|end_char=818
 22	Academy	Academy	PROPN	NNP	Number=Sing	1	obl	_	start_char=819|end_char=826
 23	of	of	ADP	IN	_	24	case	_	start_char=827|end_char=829
-24	Sciences	Science	PROPN	NNPS	Number=Plur	22	nmod	_	start_char=830|end_char=838|SpaceAfter=No
-25	.	.	PUNCT	.	_	1	punct	_	start_char=838|end_char=839|SpacesAfter=\n\n
+24	Sciences	Science	PROPN	NNPS	Number=Plur	22	nmod	_	SpaceAfter=No|start_char=830|end_char=838
+25	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n|start_char=838|end_char=839
 
 # text = The main point of these studies tends to be climate change.
 # sent_id = 7
@@ -203,8 +202,8 @@
 8	to	to	PART	TO	_	11	mark	_	start_char=879|end_char=881
 9	be	be	AUX	VB	VerbForm=Inf	11	cop	_	start_char=882|end_char=884
 10	climate	climate	NOUN	NN	Number=Sing	11	compound	_	start_char=885|end_char=892
-11	change	change	NOUN	NN	Number=Sing	7	xcomp	_	start_char=893|end_char=899|SpaceAfter=No
-12	.	.	PUNCT	.	_	7	punct	_	start_char=899|end_char=900|SpacesAfter=\n\n
+11	change	change	NOUN	NN	Number=Sing	7	xcomp	_	SpaceAfter=No|start_char=893|end_char=899
+12	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=899|end_char=900
 
 # text = But antibiotic resistance represents just as big of a threat.
 # sent_id = 8
@@ -217,8 +216,8 @@
 7	big	big	ADJ	JJ	Degree=Pos	4	xcomp	_	start_char=947|end_char=950
 8	of	of	ADP	IN	_	10	case	_	start_char=951|end_char=953
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=954|end_char=955
-10	threat	threat	NOUN	NN	Number=Sing	7	obl	_	start_char=956|end_char=962|SpaceAfter=No
-11	.	.	PUNCT	.	_	4	punct	_	start_char=962|end_char=963|SpacesAfter=\n\n
+10	threat	threat	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No|start_char=956|end_char=962
+11	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=962|end_char=963
 
 # text = We are feeding massive doses of antibiotics to farm animals.
 # sent_id = 9
@@ -231,8 +230,8 @@
 7	antibiotics	antibiotic	NOUN	NNS	Number=Plur	5	nmod	_	start_char=997|end_char=1008
 8	to	to	ADP	IN	_	10	case	_	start_char=1009|end_char=1011
 9	farm	farm	NOUN	NN	Number=Sing	10	compound	_	start_char=1012|end_char=1016
-10	animals	animal	NOUN	NNS	Number=Plur	3	obl	_	start_char=1017|end_char=1024|SpaceAfter=No
-11	.	.	PUNCT	.	_	3	punct	_	start_char=1024|end_char=1025|SpacesAfter=\n\n
+10	animals	animal	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No|start_char=1017|end_char=1024
+11	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=1024|end_char=1025
 
 # text = These antibiotics are then mutating into superbugs that threaten to render antibiotics obsolete within all of our lifetimes.
 # sent_id = 10
@@ -253,29 +252,29 @@
 15	all	all	DET	DT	PronType=Tot	11	obl	_	start_char=1130|end_char=1133
 16	of	of	ADP	IN	_	18	case	_	start_char=1134|end_char=1136
 17	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	start_char=1137|end_char=1140
-18	lifetimes	lifetime	NOUN	NNS	Number=Plur	15	nmod	_	start_char=1141|end_char=1150|SpaceAfter=No
-19	.	.	PUNCT	.	_	5	punct	_	start_char=1150|end_char=1151|SpacesAfter=\n\n
+18	lifetimes	lifetime	NOUN	NNS	Number=Plur	15	nmod	_	SpaceAfter=No|start_char=1141|end_char=1150
+19	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=1150|end_char=1151
 
 # text = You want a scare?
 # sent_id = 11
 1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	start_char=1153|end_char=1156
 2	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1157|end_char=1161
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=1162|end_char=1163
-4	scare	scare	NOUN	NN	Number=Sing	2	obj	_	start_char=1164|end_char=1169|SpaceAfter=No
-5	?	?	PUNCT	.	_	2	punct	_	start_char=1169|end_char=1170|SpacesAfter=\n\n
+4	scare	scare	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No|start_char=1164|end_char=1169
+5	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=1169|end_char=1170
 
 # text = Google: "the end of working antibiotics."
 # sent_id = 12
-1	Google	Google	PROPN	NNP	Number=Sing	0	root	_	start_char=1172|end_char=1178|SpaceAfter=No
+1	Google	Google	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No|start_char=1172|end_char=1178
 2	:	:	PUNCT	:	_	5	punct	_	start_char=1178|end_char=1179
-3	"	"	PUNCT	``	_	5	punct	_	start_char=1180|end_char=1181|SpaceAfter=No
+3	"	"	PUNCT	``	_	5	punct	_	SpaceAfter=No|start_char=1180|end_char=1181
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=1181|end_char=1184
 5	end	end	NOUN	NN	Number=Sing	1	appos	_	start_char=1185|end_char=1188
 6	of	of	ADP	IN	_	8	case	_	start_char=1189|end_char=1191
 7	working	work	VERB	VBG	VerbForm=Ger	8	amod	_	start_char=1192|end_char=1199
-8	antibiotics	antibiotic	NOUN	NNS	Number=Plur	5	nmod	_	start_char=1200|end_char=1211|SpaceAfter=No
-9	.	.	PUNCT	.	_	5	punct	_	start_char=1211|end_char=1212|SpaceAfter=No
-10	"	"	PUNCT	''	_	5	punct	_	start_char=1212|end_char=1213|SpacesAfter=\n\n
+8	antibiotics	antibiotic	NOUN	NNS	Number=Plur	5	nmod	_	SpaceAfter=No|start_char=1200|end_char=1211
+9	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No|start_char=1211|end_char=1212
+10	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n\n|start_char=1212|end_char=1213
 
 # text = I'm going to get one thing out of the way:
 # sent_id = 13
@@ -290,8 +289,8 @@
 8	out	out	ADP	IN	_	11	case	_	start_char=1242|end_char=1245
 9	of	of	ADP	IN	_	8	fixed	_	start_char=1246|end_char=1248
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=1249|end_char=1252
-11	way	way	NOUN	NN	Number=Sing	5	obl	_	start_char=1253|end_char=1256|SpaceAfter=No
-12	:	:	PUNCT	:	_	3	punct	_	start_char=1256|end_char=1257|SpacesAfter=\n\n
+11	way	way	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No|start_char=1253|end_char=1256
+12	:	:	PUNCT	:	_	3	punct	_	SpacesAfter=\n\n|start_char=1256|end_char=1257
 
 # text = I am not here to tell anybody what to eat.
 # sent_id = 14
@@ -304,15 +303,15 @@
 7	anybody	anybody	PRON	NN	Number=Sing|PronType=Ind	6	iobj	_	start_char=1281|end_char=1288
 8	what	what	PRON	WP	PronType=Int	10	obj	_	start_char=1289|end_char=1293
 9	to	to	PART	TO	_	10	mark	_	start_char=1294|end_char=1296
-10	eat	eat	VERB	VB	VerbForm=Inf	6	ccomp	_	start_char=1297|end_char=1300|SpaceAfter=No
-11	.	.	PUNCT	.	_	4	punct	_	start_char=1300|end_char=1301|SpacesAfter=\n\n
+10	eat	eat	VERB	VB	VerbForm=Inf	6	ccomp	_	SpaceAfter=No|start_char=1297|end_char=1300
+11	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=1300|end_char=1301
 
 # text = Individual action is great, but antibiotic resistance and climate change -- they require more.
 # sent_id = 15
 1	Individual	individual	ADJ	JJ	Degree=Pos	2	amod	_	start_char=1303|end_char=1313
 2	action	action	NOUN	NN	Number=Sing	4	nsubj	_	start_char=1314|end_char=1320
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1321|end_char=1323
-4	great	great	ADJ	JJ	Degree=Pos	0	root	_	start_char=1324|end_char=1329|SpaceAfter=No
+4	great	great	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1324|end_char=1329
 5	,	,	PUNCT	,	_	8	punct	_	start_char=1329|end_char=1330
 6	but	but	CCONJ	CC	_	8	cc	_	start_char=1331|end_char=1334
 7	antibiotic	antibiotic	ADJ	JJ	Degree=Pos	8	amod	_	start_char=1335|end_char=1345
@@ -323,12 +322,12 @@
 12	--	--	PUNCT	,	_	14	punct	_	start_char=1376|end_char=1378
 13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	start_char=1379|end_char=1383
 14	require	require	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=1384|end_char=1391
-15	more	more	ADJ	JJR	Degree=Cmp	14	obj	_	start_char=1392|end_char=1396|SpaceAfter=No
-16	.	.	PUNCT	.	_	4	punct	_	start_char=1396|end_char=1397|SpacesAfter=\n\n
+15	more	more	ADJ	JJR	Degree=Cmp	14	obj	_	SpaceAfter=No|start_char=1392|end_char=1396
+16	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=1396|end_char=1397
 
 # text = Besides, convincing the world to eat less meat hasn't worked.
 # sent_id = 16
-1	Besides	besides	ADV	RB	_	12	advmod	_	start_char=1399|end_char=1406|SpaceAfter=No
+1	Besides	besides	ADV	RB	_	12	advmod	_	SpaceAfter=No|start_char=1399|end_char=1406
 2	,	,	PUNCT	,	_	1	punct	_	start_char=1406|end_char=1407
 3	convincing	convince	VERB	VBG	VerbForm=Ger	12	csubj	_	start_char=1408|end_char=1418
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=1419|end_char=1422
@@ -340,16 +339,16 @@
 10-11	hasn't	_	_	_	_	_	_	_	start_char=1446|end_char=1452
 10	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=1446|end_char=1449
 11	n't	not	PART	RB	Polarity=Neg	12	advmod	_	start_char=1449|end_char=1452
-12	worked	work	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=1453|end_char=1459|SpaceAfter=No
-13	.	.	PUNCT	.	_	12	punct	_	start_char=1459|end_char=1460|SpacesAfter=\n\n
+12	worked	work	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No|start_char=1453|end_char=1459
+13	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n\n|start_char=1459|end_char=1460
 
 # text = For 50 years, environmentalists, global health experts and animal activists have been begging the public to eat less meat.
 # sent_id = 17
 1	For	for	ADP	IN	_	3	case	_	start_char=1462|end_char=1465
 2	50	50	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	_	start_char=1466|end_char=1468
-3	years	year	NOUN	NNS	Number=Plur	15	obl	_	start_char=1469|end_char=1474|SpaceAfter=No
+3	years	year	NOUN	NNS	Number=Plur	15	obl	_	SpaceAfter=No|start_char=1469|end_char=1474
 4	,	,	PUNCT	,	_	3	punct	_	start_char=1474|end_char=1475
-5	environmentalists	environmentalist	NOUN	NNS	Number=Plur	15	nsubj	_	start_char=1476|end_char=1493|SpaceAfter=No
+5	environmentalists	environmentalist	NOUN	NNS	Number=Plur	15	nsubj	_	SpaceAfter=No|start_char=1476|end_char=1493
 6	,	,	PUNCT	,	_	9	punct	_	start_char=1493|end_char=1494
 7	global	global	ADJ	JJ	Degree=Pos	9	amod	_	start_char=1495|end_char=1501
 8	health	health	NOUN	NN	Number=Sing	9	compound	_	start_char=1502|end_char=1508
@@ -365,13 +364,13 @@
 18	to	to	PART	TO	_	19	mark	_	start_char=1567|end_char=1569
 19	eat	eat	VERB	VB	VerbForm=Inf	15	xcomp	_	start_char=1570|end_char=1573
 20	less	less	ADJ	JJR	Degree=Cmp	21	amod	_	start_char=1574|end_char=1578
-21	meat	meat	NOUN	NN	Number=Sing	19	obj	_	start_char=1579|end_char=1583|SpaceAfter=No
-22	.	.	PUNCT	.	_	15	punct	_	start_char=1583|end_char=1584|SpacesAfter=\n\n
+21	meat	meat	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No|start_char=1579|end_char=1583
+22	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\n\n|start_char=1583|end_char=1584
 
 # text = And yet, per capita meat consumption is as high as it's been in recorded history.
 # sent_id = 18
 1	And	and	CCONJ	CC	_	10	cc	_	start_char=1586|end_char=1589
-2	yet	yet	ADV	RB	_	10	advmod	_	start_char=1590|end_char=1593|SpaceAfter=No
+2	yet	yet	ADV	RB	_	10	advmod	_	SpaceAfter=No|start_char=1590|end_char=1593
 3	,	,	PUNCT	,	_	2	punct	_	start_char=1593|end_char=1594
 4	per	per	ADP	IN	_	5	case	_	start_char=1595|end_char=1598
 5	capita	capita	NOUN	NN	Number=Sing	7	nmod	_	start_char=1599|end_char=1605
@@ -387,8 +386,8 @@
 14	been	be	AUX	VBN	Tense=Past|VerbForm=Part	17	cop	_	start_char=1642|end_char=1646
 15	in	in	ADP	IN	_	17	case	_	start_char=1647|end_char=1649
 16	recorded	record	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	start_char=1650|end_char=1658
-17	history	history	NOUN	NN	Number=Sing	10	advcl	_	start_char=1659|end_char=1666|SpaceAfter=No
-18	.	.	PUNCT	.	_	10	punct	_	start_char=1666|end_char=1667|SpacesAfter=\n\n
+17	history	history	NOUN	NN	Number=Sing	10	advcl	_	SpaceAfter=No|start_char=1659|end_char=1666
+18	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n|start_char=1666|end_char=1667
 
 # text = The average North American last year ate more than 200 pounds of meat.
 # sent_id = 19
@@ -404,8 +403,8 @@
 10	200	200	NUM	CD	NumForm=Digit|NumType=Card	11	nummod	_	start_char=1720|end_char=1723
 11	pounds	pound	NOUN	NNS	Number=Plur	7	obj	_	start_char=1724|end_char=1730
 12	of	of	ADP	IN	_	13	case	_	start_char=1731|end_char=1733
-13	meat	meat	NOUN	NN	Number=Sing	11	nmod	_	start_char=1734|end_char=1738|SpaceAfter=No
-14	.	.	PUNCT	.	_	7	punct	_	start_char=1738|end_char=1739|SpacesAfter=\n\n
+13	meat	meat	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No|start_char=1734|end_char=1738
+14	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=1738|end_char=1739
 
 # text = And I didn't eat any.
 # sent_id = 20
@@ -415,8 +414,8 @@
 3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	aux	_	start_char=1747|end_char=1750
 4	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=1750|end_char=1753
 5	eat	eat	VERB	VB	VerbForm=Inf	0	root	_	start_char=1754|end_char=1757
-6	any	any	DET	DT	PronType=Ind	5	obj	_	start_char=1758|end_char=1761|SpaceAfter=No
-7	.	.	PUNCT	.	_	5	punct	_	start_char=1761|end_char=1762|SpacesAfter=\n\n
+6	any	any	DET	DT	PronType=Ind	5	obj	_	SpaceAfter=No|start_char=1758|end_char=1761
+7	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=1761|end_char=1762
 
 # text = Which means somebody out there ate 400 pounds of meat.
 # sent_id = 21
@@ -429,15 +428,15 @@
 7	400	400	NUM	CD	NumForm=Digit|NumType=Card	8	nummod	_	start_char=1799|end_char=1802
 8	pounds	pound	NOUN	NNS	Number=Plur	6	obj	_	start_char=1803|end_char=1809
 9	of	of	ADP	IN	_	10	case	_	start_char=1810|end_char=1812
-10	meat	meat	NOUN	NN	Number=Sing	8	nmod	_	start_char=1813|end_char=1817|SpaceAfter=No
-11	.	.	PUNCT	.	_	2	punct	_	start_char=1817|end_char=1818|SpacesAfter=\n\n
+10	meat	meat	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No|start_char=1813|end_char=1817
+11	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=1817|end_char=1818
 
 # text = On our current trajectory, we're going to need to be producing 70 to 100 percent more meat by 2050.
 # sent_id = 22
 1	On	on	ADP	IN	_	4	case	_	start_char=1820|end_char=1822
 2	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=1823|end_char=1826
 3	current	current	ADJ	JJ	Degree=Pos	4	amod	_	start_char=1827|end_char=1834
-4	trajectory	trajectory	NOUN	NN	Number=Sing	8	obl	_	start_char=1835|end_char=1845|SpaceAfter=No
+4	trajectory	trajectory	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No|start_char=1835|end_char=1845
 5	,	,	PUNCT	,	_	4	punct	_	start_char=1845|end_char=1846
 6-7	we're	_	_	_	_	_	_	_	start_char=1847|end_char=1852
 6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=1847|end_char=1849
@@ -455,8 +454,8 @@
 18	more	more	ADJ	JJR	Degree=Cmp	19	amod	_	start_char=1901|end_char=1905
 19	meat	meat	NOUN	NN	Number=Sing	13	obj	_	start_char=1906|end_char=1910
 20	by	by	ADP	IN	_	21	case	_	start_char=1911|end_char=1913
-21	2050	2050	NUM	CD	NumForm=Digit|NumType=Card	13	obl	_	start_char=1914|end_char=1918|SpaceAfter=No
-22	.	.	PUNCT	.	_	8	punct	_	start_char=1918|end_char=1919|SpacesAfter=\n\n
+21	2050	2050	NUM	CD	NumForm=Digit|NumType=Card	13	obl	_	SpaceAfter=No|start_char=1914|end_char=1918
+22	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n\n|start_char=1918|end_char=1919
 
 # text = This requires a global solution.
 # sent_id = 23
@@ -464,8 +463,8 @@
 2	requires	require	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1926|end_char=1934
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=1935|end_char=1936
 4	global	global	ADJ	JJ	Degree=Pos	5	amod	_	start_char=1937|end_char=1943
-5	solution	solution	NOUN	NN	Number=Sing	2	obj	_	start_char=1944|end_char=1952|SpaceAfter=No
-6	.	.	PUNCT	.	_	2	punct	_	start_char=1952|end_char=1953|SpacesAfter=\n\n
+5	solution	solution	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No|start_char=1944|end_char=1952
+6	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=1952|end_char=1953
 
 # text = What we need to do is we need to produce the meat that people love, but we need to produce it in a whole new way.
 # sent_id = 24
@@ -483,7 +482,7 @@
 12	meat	meat	NOUN	NN	Number=Sing	10	obj	_	start_char=2000|end_char=2004
 13	that	that	PRON	WDT	PronType=Rel	15	obj	_	start_char=2005|end_char=2009
 14	people	person	NOUN	NNS	Number=Plur	15	nsubj	_	start_char=2010|end_char=2016
-15	love	love	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	start_char=2017|end_char=2021|SpaceAfter=No
+15	love	love	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No|start_char=2017|end_char=2021
 16	,	,	PUNCT	,	_	19	punct	_	start_char=2021|end_char=2022
 17	but	but	CCONJ	CC	_	19	cc	_	start_char=2023|end_char=2026
 18	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	start_char=2027|end_char=2029
@@ -495,8 +494,8 @@
 24	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	start_char=2052|end_char=2053
 25	whole	whole	ADJ	JJ	Degree=Pos	27	amod	_	start_char=2054|end_char=2059
 26	new	new	ADJ	JJ	Degree=Pos	27	amod	_	start_char=2060|end_char=2063
-27	way	way	NOUN	NN	Number=Sing	21	obl	_	start_char=2064|end_char=2067|SpaceAfter=No
-28	.	.	PUNCT	.	_	8	punct	_	start_char=2067|end_char=2068|SpacesAfter=\n\n
+27	way	way	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No|start_char=2064|end_char=2067
+28	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n\n|start_char=2067|end_char=2068
 
 # text = I've got a couple of ideas.
 # sent_id = 25
@@ -507,14 +506,14 @@
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=2079|end_char=2080
 5	couple	couple	NOUN	NN	Number=Sing	3	obj	_	start_char=2081|end_char=2087
 6	of	of	ADP	IN	_	7	case	_	start_char=2088|end_char=2090
-7	ideas	idea	NOUN	NNS	Number=Plur	5	nmod	_	start_char=2091|end_char=2096|SpaceAfter=No
-8	.	.	PUNCT	.	_	3	punct	_	start_char=2096|end_char=2097|SpacesAfter=\n\n
+7	ideas	idea	NOUN	NNS	Number=Plur	5	nmod	_	SpaceAfter=No|start_char=2091|end_char=2096
+8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=2096|end_char=2097
 
 # text = Idea number one: let's grow meat from plants.
 # sent_id = 26
 1	Idea	idea	NOUN	NN	Number=Sing	2	compound	_	start_char=2099|end_char=2103
 2	number	number	NOUN	NN	Number=Sing	3	compound	_	start_char=2104|end_char=2110
-3	one	one	NOUN	NN	Number=Sing	0	root	_	start_char=2111|end_char=2114|SpaceAfter=No
+3	one	one	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=2111|end_char=2114
 4	:	:	PUNCT	:	_	5	punct	_	start_char=2114|end_char=2115
 5-6	let's	_	_	_	_	_	_	_	start_char=2116|end_char=2121
 5	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	3	parataxis	_	start_char=2116|end_char=2119
@@ -522,33 +521,33 @@
 7	grow	grow	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=2122|end_char=2126
 8	meat	meat	NOUN	NN	Number=Sing	7	obj	_	start_char=2127|end_char=2131
 9	from	from	ADP	IN	_	10	case	_	start_char=2132|end_char=2136
-10	plants	plant	NOUN	NNS	Number=Plur	7	obl	_	start_char=2137|end_char=2143|SpaceAfter=No
-11	.	.	PUNCT	.	_	5	punct	_	start_char=2143|end_char=2144|SpacesAfter=\n\n
+10	plants	plant	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No|start_char=2137|end_char=2143
+11	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=2143|end_char=2144
 
 # text = Instead of growing plants, feeding them to animals, and all of that inefficiency, let's grow those plants, let's biomimic meat with them, let's make plant-based meat.
 # sent_id = 27
 1	Instead	instead	ADV	RB	_	4	case	_	start_char=2146|end_char=2153
 2	of	of	ADP	IN	_	1	fixed	_	start_char=2154|end_char=2156
 3	growing	grow	VERB	VBG	Tense=Pres|VerbForm=Part	4	amod	_	start_char=2157|end_char=2164
-4	plants	plant	NOUN	NNS	Number=Plur	17	obl	_	start_char=2165|end_char=2171|SpaceAfter=No
+4	plants	plant	NOUN	NNS	Number=Plur	17	obl	_	SpaceAfter=No|start_char=2165|end_char=2171
 5	,	,	PUNCT	,	_	6	punct	_	start_char=2171|end_char=2172
 6	feeding	feed	VERB	VBG	Tense=Pres|VerbForm=Part	4	acl	_	start_char=2173|end_char=2180
 7	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obj	_	start_char=2181|end_char=2185
 8	to	to	ADP	IN	_	9	case	_	start_char=2186|end_char=2188
-9	animals	animal	NOUN	NNS	Number=Plur	6	obl	_	start_char=2189|end_char=2196|SpaceAfter=No
+9	animals	animal	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No|start_char=2189|end_char=2196
 10	,	,	PUNCT	,	_	12	punct	_	start_char=2196|end_char=2197
 11	and	and	CCONJ	CC	_	12	cc	_	start_char=2198|end_char=2201
 12	all	all	DET	DT	PronType=Tot	4	conj	_	start_char=2202|end_char=2205
 13	of	of	ADP	IN	_	15	case	_	start_char=2206|end_char=2208
 14	that	that	DET	DT	Number=Sing|PronType=Dem	15	det	_	start_char=2209|end_char=2213
-15	inefficiency	inefficiency	NOUN	NN	Number=Sing	12	nmod	_	start_char=2214|end_char=2226|SpaceAfter=No
+15	inefficiency	inefficiency	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No|start_char=2214|end_char=2226
 16	,	,	PUNCT	,	_	4	punct	_	start_char=2226|end_char=2227
 17-18	let's	_	_	_	_	_	_	_	start_char=2228|end_char=2233
 17	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=2228|end_char=2231
 18	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	17	obj	_	start_char=2231|end_char=2233
 19	grow	grow	VERB	VB	VerbForm=Inf	17	xcomp	_	start_char=2234|end_char=2238
 20	those	that	DET	DT	Number=Plur|PronType=Dem	21	det	_	start_char=2239|end_char=2244
-21	plants	plant	NOUN	NNS	Number=Plur	19	obj	_	start_char=2245|end_char=2251|SpaceAfter=No
+21	plants	plant	NOUN	NNS	Number=Plur	19	obj	_	SpaceAfter=No|start_char=2245|end_char=2251
 22	,	,	PUNCT	,	_	23	punct	_	start_char=2251|end_char=2252
 23-24	let's	_	_	_	_	_	_	_	start_char=2253|end_char=2258
 23	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	17	parataxis	_	start_char=2253|end_char=2256
@@ -556,28 +555,28 @@
 25	biomimic	biomimic	VERB	VB	VerbForm=Inf	23	xcomp	_	start_char=2259|end_char=2267
 26	meat	meat	NOUN	NN	Number=Sing	25	obj	_	start_char=2268|end_char=2272
 27	with	with	ADP	IN	_	28	case	_	start_char=2273|end_char=2277
-28	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	25	obl	_	start_char=2278|end_char=2282|SpaceAfter=No
+28	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	25	obl	_	SpaceAfter=No|start_char=2278|end_char=2282
 29	,	,	PUNCT	,	_	30	punct	_	start_char=2282|end_char=2283
 30-31	let's	_	_	_	_	_	_	_	start_char=2284|end_char=2289
 30	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	17	parataxis	_	start_char=2284|end_char=2287
 31	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	30	obj	_	start_char=2287|end_char=2289
 32	make	make	VERB	VB	VerbForm=Inf	30	xcomp	_	start_char=2290|end_char=2294
-33	plant	plant	NOUN	NN	Number=Sing	35	compound	_	start_char=2295|end_char=2300|SpaceAfter=No
-34	-	-	PUNCT	HYPH	_	33	punct	_	start_char=2300|end_char=2301|SpaceAfter=No
+33	plant	plant	NOUN	NN	Number=Sing	35	compound	_	SpaceAfter=No|start_char=2295|end_char=2300
+34	-	-	PUNCT	HYPH	_	33	punct	_	SpaceAfter=No|start_char=2300|end_char=2301
 35	based	base	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	36	amod	_	start_char=2301|end_char=2306
-36	meat	meat	NOUN	NN	Number=Sing	32	obj	_	start_char=2307|end_char=2311|SpaceAfter=No
-37	.	.	PUNCT	.	_	17	punct	_	start_char=2311|end_char=2312|SpacesAfter=\n\n
+36	meat	meat	NOUN	NN	Number=Sing	32	obj	_	SpaceAfter=No|start_char=2307|end_char=2311
+37	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\n\n|start_char=2311|end_char=2312
 
 # text = Idea number two: for actual animal meat, let's grow it directly from cells.
 # sent_id = 28
 1	Idea	idea	NOUN	NN	Number=Sing	2	compound	_	start_char=2314|end_char=2318
 2	number	number	NOUN	NN	Number=Sing	0	root	_	start_char=2319|end_char=2325
-3	two	two	NUM	CD	NumForm=Word|NumType=Card	2	nummod	_	start_char=2326|end_char=2329|SpaceAfter=No
+3	two	two	NUM	CD	NumForm=Word|NumType=Card	2	nummod	_	SpaceAfter=No|start_char=2326|end_char=2329
 4	:	:	PUNCT	:	_	10	punct	_	start_char=2329|end_char=2330
 5	for	for	ADP	IN	_	8	case	_	start_char=2331|end_char=2334
 6	actual	actual	ADJ	JJ	Degree=Pos	8	amod	_	start_char=2335|end_char=2341
 7	animal	animal	NOUN	NN	Number=Sing	8	compound	_	start_char=2342|end_char=2348
-8	meat	meat	NOUN	NN	Number=Sing	10	obl	_	start_char=2349|end_char=2353|SpaceAfter=No
+8	meat	meat	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No|start_char=2349|end_char=2353
 9	,	,	PUNCT	,	_	8	punct	_	start_char=2353|end_char=2354
 10-11	let's	_	_	_	_	_	_	_	start_char=2355|end_char=2360
 10	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	2	parataxis	_	start_char=2355|end_char=2358
@@ -586,8 +585,8 @@
 13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	start_char=2366|end_char=2368
 14	directly	directly	ADV	RB	_	12	advmod	_	start_char=2369|end_char=2377
 15	from	from	ADP	IN	_	16	case	_	start_char=2378|end_char=2382
-16	cells	cell	NOUN	NNS	Number=Plur	12	obl	_	start_char=2383|end_char=2388|SpaceAfter=No
-17	.	.	PUNCT	.	_	10	punct	_	start_char=2388|end_char=2389|SpacesAfter=\n\n
+16	cells	cell	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No|start_char=2383|end_char=2388
+17	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n|start_char=2388|end_char=2389
 
 # text = Instead of growing live animals, let's grow the cells directly.
 # sent_id = 29
@@ -595,7 +594,7 @@
 2	of	of	SCONJ	IN	_	1	fixed	_	start_char=2399|end_char=2401
 3	growing	grow	VERB	VBG	Tense=Pres|VerbForm=Part	7	advcl	_	start_char=2402|end_char=2409
 4	live	live	ADJ	JJ	Degree=Pos	5	amod	_	start_char=2410|end_char=2414
-5	animals	animal	NOUN	NNS	Number=Plur	3	obj	_	start_char=2415|end_char=2422|SpaceAfter=No
+5	animals	animal	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No|start_char=2415|end_char=2422
 6	,	,	PUNCT	,	_	3	punct	_	start_char=2422|end_char=2423
 7-8	let's	_	_	_	_	_	_	_	start_char=2424|end_char=2429
 7	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=2424|end_char=2427
@@ -603,8 +602,8 @@
 9	grow	grow	VERB	VB	VerbForm=Inf	7	xcomp	_	start_char=2430|end_char=2434
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=2435|end_char=2438
 11	cells	cell	NOUN	NNS	Number=Plur	9	obj	_	start_char=2439|end_char=2444
-12	directly	directly	ADV	RB	_	9	advmod	_	start_char=2445|end_char=2453|SpaceAfter=No
-13	.	.	PUNCT	.	_	7	punct	_	start_char=2453|end_char=2454|SpacesAfter=\n\n
+12	directly	directly	ADV	RB	_	9	advmod	_	SpaceAfter=No|start_char=2445|end_char=2453
+13	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=2453|end_char=2454
 
 # text = It takes six weeks to grow a chicken to slaughter weight.
 # sent_id = 30
@@ -618,15 +617,15 @@
 8	chicken	chicken	NOUN	NN	Number=Sing	6	obj	_	start_char=2485|end_char=2492
 9	to	to	PART	TO	_	11	case	_	start_char=2493|end_char=2495
 10	slaughter	slaughter	NOUN	NN	Number=Sing	11	compound	_	start_char=2496|end_char=2505
-11	weight	weight	NOUN	NN	Number=Sing	6	obl	_	start_char=2506|end_char=2512|SpaceAfter=No
-12	.	.	PUNCT	.	_	2	punct	_	start_char=2512|end_char=2513|SpacesAfter=\n\n
+11	weight	weight	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No|start_char=2506|end_char=2512
+12	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=2512|end_char=2513
 
 # text = Grow the cells directly, you can get that same growth in six days.
 # sent_id = 31
 1	Grow	grow	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=2515|end_char=2519
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=2520|end_char=2523
 3	cells	cell	NOUN	NNS	Number=Plur	1	obj	_	start_char=2524|end_char=2529
-4	directly	directly	ADV	RB	_	1	advmod	_	start_char=2530|end_char=2538|SpaceAfter=No
+4	directly	directly	ADV	RB	_	1	advmod	_	SpaceAfter=No|start_char=2530|end_char=2538
 5	,	,	PUNCT	,	_	8	punct	_	start_char=2538|end_char=2539
 6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	start_char=2540|end_char=2543
 7	can	can	AUX	MD	VerbForm=Fin	8	aux	_	start_char=2544|end_char=2547
@@ -636,8 +635,8 @@
 11	growth	growth	NOUN	NN	Number=Sing	8	obj	_	start_char=2562|end_char=2568
 12	in	in	ADP	IN	_	14	case	_	start_char=2569|end_char=2571
 13	six	six	NUM	CD	NumForm=Word|NumType=Card	14	nummod	_	start_char=2572|end_char=2575
-14	days	day	NOUN	NNS	Number=Plur	8	obl	_	start_char=2576|end_char=2580|SpaceAfter=No
-15	.	.	PUNCT	.	_	1	punct	_	start_char=2580|end_char=2581|SpacesAfter=\n\n
+14	days	day	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No|start_char=2576|end_char=2580
+15	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n|start_char=2580|end_char=2581
 
 # text = This is what that looks like at scale.
 # sent_id = 32
@@ -648,8 +647,8 @@
 5	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	start_char=2601|end_char=2606
 6	like	like	ADP	IN	_	5	obl	_	start_char=2607|end_char=2611
 7	at	at	ADP	IN	_	8	case	_	start_char=2612|end_char=2614
-8	scale	scale	NOUN	NN	Number=Sing	5	obl	_	start_char=2615|end_char=2620|SpaceAfter=No
-9	.	.	PUNCT	.	_	3	punct	_	start_char=2620|end_char=2621|SpacesAfter=\n\n
+8	scale	scale	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No|start_char=2615|end_char=2620
+9	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=2620|end_char=2621
 
 # text = It's your friendly neighborhood meat brewery.
 # sent_id = 33
@@ -660,8 +659,8 @@
 4	friendly	friendly	ADJ	JJ	Degree=Pos	7	amod	_	start_char=2633|end_char=2641
 5	neighborhood	neighborhood	NOUN	NN	Number=Sing	6	compound	_	start_char=2642|end_char=2654
 6	meat	meat	NOUN	NN	Number=Sing	7	compound	_	start_char=2655|end_char=2659
-7	brewery	brewery	NOUN	NN	Number=Sing	0	root	_	start_char=2660|end_char=2667|SpaceAfter=No
-8	.	.	PUNCT	.	_	7	punct	_	start_char=2667|end_char=2668|SpacesAfter=\n\n
+7	brewery	brewery	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=2660|end_char=2667
+8	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=2667|end_char=2668
 
 # text = I want to make two points about this.
 # sent_id = 34
@@ -672,29 +671,29 @@
 5	two	two	NUM	CD	NumForm=Word|NumType=Card	6	nummod	_	start_char=2685|end_char=2688
 6	points	point	NOUN	NNS	Number=Plur	4	obj	_	start_char=2689|end_char=2695
 7	about	about	ADP	IN	_	8	case	_	start_char=2696|end_char=2701
-8	this	this	PRON	DT	Number=Sing|PronType=Dem	4	obl	_	start_char=2702|end_char=2706|SpaceAfter=No
-9	.	.	PUNCT	.	_	2	punct	_	start_char=2706|end_char=2707|SpacesAfter=\n\n
+8	this	this	PRON	DT	Number=Sing|PronType=Dem	4	obl	_	SpaceAfter=No|start_char=2702|end_char=2706
+9	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=2706|end_char=2707
 
 # text = The first one is, we believe we can do it.
 # sent_id = 35
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=2709|end_char=2712
 2	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	3	amod	_	start_char=2713|end_char=2718
 3	one	one	NOUN	NN	Number=Sing	7	nsubj:outer	_	start_char=2719|end_char=2722
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=2723|end_char=2725|SpaceAfter=No
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No|start_char=2723|end_char=2725
 5	,	,	PUNCT	,	_	4	punct	_	start_char=2725|end_char=2726
 6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=2727|end_char=2729
 7	believe	believe	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2730|end_char=2737
 8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	start_char=2738|end_char=2740
 9	can	can	AUX	MD	VerbForm=Fin	10	aux	_	start_char=2741|end_char=2744
 10	do	do	VERB	VB	VerbForm=Inf	7	ccomp	_	start_char=2745|end_char=2747
-11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	start_char=2748|end_char=2750|SpaceAfter=No
-12	.	.	PUNCT	.	_	7	punct	_	start_char=2750|end_char=2751|SpacesAfter=\n\n
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No|start_char=2748|end_char=2750
+12	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=2750|end_char=2751
 
 # text = In recent years, some companies have been producing meat from plants that consumers cannot distinguish from actual animal meat, and there are now dozens of companies growing actual animal meat directly from cells.
 # sent_id = 36
 1	In	in	ADP	IN	_	3	case	_	start_char=2753|end_char=2755
 2	recent	recent	ADJ	JJ	Degree=Pos	3	amod	_	start_char=2756|end_char=2762
-3	years	year	NOUN	NNS	Number=Plur	9	obl	_	start_char=2763|end_char=2768|SpaceAfter=No
+3	years	year	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No|start_char=2763|end_char=2768
 4	,	,	PUNCT	,	_	3	punct	_	start_char=2768|end_char=2769
 5	some	some	DET	DT	PronType=Ind	6	det	_	start_char=2770|end_char=2774
 6	companies	company	NOUN	NNS	Number=Plur	9	nsubj	_	start_char=2775|end_char=2784
@@ -713,7 +712,7 @@
 18	from	from	ADP	IN	_	21	case	_	start_char=2856|end_char=2860
 19	actual	actual	ADJ	JJ	Degree=Pos	21	amod	_	start_char=2861|end_char=2867
 20	animal	animal	NOUN	NN	Number=Sing	21	compound	_	start_char=2868|end_char=2874
-21	meat	meat	NOUN	NN	Number=Sing	17	obl	_	start_char=2875|end_char=2879|SpaceAfter=No
+21	meat	meat	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No|start_char=2875|end_char=2879
 22	,	,	PUNCT	,	_	25	punct	_	start_char=2879|end_char=2880
 23	and	and	CCONJ	CC	_	25	cc	_	start_char=2881|end_char=2884
 24	there	there	PRON	EX	_	25	expl	_	start_char=2885|end_char=2890
@@ -728,18 +727,18 @@
 33	meat	meat	NOUN	NN	Number=Sing	30	obj	_	start_char=2941|end_char=2945
 34	directly	directly	ADV	RB	_	30	advmod	_	start_char=2946|end_char=2954
 35	from	from	ADP	IN	_	36	case	_	start_char=2955|end_char=2959
-36	cells	cell	NOUN	NNS	Number=Plur	30	obl	_	start_char=2960|end_char=2965|SpaceAfter=No
-37	.	.	PUNCT	.	_	9	punct	_	start_char=2965|end_char=2966|SpacesAfter=\n\n
+36	cells	cell	NOUN	NNS	Number=Plur	30	obl	_	SpaceAfter=No|start_char=2960|end_char=2965
+37	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n\n|start_char=2965|end_char=2966
 
 # text = This plant-based and cell-based meat gives consumers everything that they love about meat -- the taste, the texture and so on -- but with no need for antibiotics and with a fraction of the adverse impact on the climate.
 # sent_id = 37
 1	This	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	start_char=2968|end_char=2972
-2	plant	plant	NOUN	NN	Number=Sing	4	obl:unmarked	_	start_char=2973|end_char=2978|SpaceAfter=No
-3	-	-	PUNCT	HYPH	_	2	punct	_	start_char=2978|end_char=2979|SpaceAfter=No
+2	plant	plant	NOUN	NN	Number=Sing	4	obl:unmarked	_	SpaceAfter=No|start_char=2973|end_char=2978
+3	-	-	PUNCT	HYPH	_	2	punct	_	SpaceAfter=No|start_char=2978|end_char=2979
 4	based	base	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	start_char=2979|end_char=2984
 5	and	and	CCONJ	CC	_	8	cc	_	start_char=2985|end_char=2988
-6	cell	cell	NOUN	NN	Number=Sing	8	compound	_	start_char=2989|end_char=2993|SpaceAfter=No
-7	-	-	PUNCT	HYPH	_	6	punct	_	start_char=2993|end_char=2994|SpaceAfter=No
+6	cell	cell	NOUN	NN	Number=Sing	8	compound	_	SpaceAfter=No|start_char=2989|end_char=2993
+7	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No|start_char=2993|end_char=2994
 8	based	base	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	start_char=2994|end_char=2999
 9	meat	meat	NOUN	NN	Number=Sing	10	nsubj	_	start_char=3000|end_char=3004
 10	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3005|end_char=3010
@@ -752,7 +751,7 @@
 17	meat	meat	NOUN	NN	Number=Sing	15	obl	_	start_char=3053|end_char=3057
 18	--	--	PUNCT	,	_	20	punct	_	start_char=3058|end_char=3060
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=3061|end_char=3064
-20	taste	taste	NOUN	NN	Number=Sing	12	appos	_	start_char=3065|end_char=3070|SpaceAfter=No
+20	taste	taste	NOUN	NN	Number=Sing	12	appos	_	SpaceAfter=No|start_char=3065|end_char=3070
 21	,	,	PUNCT	,	_	23	punct	_	start_char=3070|end_char=3071
 22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	start_char=3072|end_char=3075
 23	texture	texture	NOUN	NN	Number=Sing	20	conj	_	start_char=3076|end_char=3083
@@ -776,8 +775,8 @@
 41	impact	impact	NOUN	NN	Number=Sing	37	nmod	_	start_char=3165|end_char=3171
 42	on	on	ADP	IN	_	44	case	_	start_char=3172|end_char=3174
 43	the	the	DET	DT	Definite=Def|PronType=Art	44	det	_	start_char=3175|end_char=3178
-44	climate	climate	NOUN	NN	Number=Sing	41	nmod	_	start_char=3179|end_char=3186|SpaceAfter=No
-45	.	.	PUNCT	.	_	10	punct	_	start_char=3186|end_char=3187|SpacesAfter=\n\n
+44	climate	climate	NOUN	NN	Number=Sing	41	nmod	_	SpaceAfter=No|start_char=3179|end_char=3186
+45	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n|start_char=3186|end_char=3187
 
 # text = And because these two technologies are so much more efficient, at production scale these products will be cheaper.
 # sent_id = 38
@@ -790,7 +789,7 @@
 7	so	so	ADV	RB	_	8	advmod	_	start_char=3228|end_char=3230
 8	much	much	ADV	RB	_	9	advmod	_	start_char=3231|end_char=3235
 9	more	more	ADV	RBR	Degree=Cmp	10	advmod	_	start_char=3236|end_char=3240
-10	efficient	efficient	ADJ	JJ	Degree=Pos	19	advcl	_	start_char=3241|end_char=3250|SpaceAfter=No
+10	efficient	efficient	ADJ	JJ	Degree=Pos	19	advcl	_	SpaceAfter=No|start_char=3241|end_char=3250
 11	,	,	PUNCT	,	_	10	punct	_	start_char=3250|end_char=3251
 12	at	at	ADP	IN	_	14	case	_	start_char=3252|end_char=3254
 13	production	production	NOUN	NN	Number=Sing	14	compound	_	start_char=3255|end_char=3265
@@ -799,8 +798,8 @@
 16	products	product	NOUN	NNS	Number=Plur	19	nsubj	_	start_char=3278|end_char=3286
 17	will	will	AUX	MD	VerbForm=Fin	19	aux	_	start_char=3287|end_char=3291
 18	be	be	AUX	VB	VerbForm=Inf	19	cop	_	start_char=3292|end_char=3294
-19	cheaper	cheap	ADJ	JJR	Degree=Cmp	0	root	_	start_char=3295|end_char=3302|SpaceAfter=No
-20	.	.	PUNCT	.	_	19	punct	_	start_char=3302|end_char=3303|SpacesAfter=\n\n
+19	cheaper	cheap	ADJ	JJR	Degree=Cmp	0	root	_	SpaceAfter=No|start_char=3295|end_char=3302
+20	.	.	PUNCT	.	_	19	punct	_	SpacesAfter=\n\n|start_char=3302|end_char=3303
 
 # text = But one quick point about that -- it's not going to be easy.
 # sent_id = 39
@@ -818,14 +817,14 @@
 11	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=3348|end_char=3353
 12	to	to	PART	TO	_	14	mark	_	start_char=3354|end_char=3356
 13	be	be	AUX	VB	VerbForm=Inf	14	cop	_	start_char=3357|end_char=3359
-14	easy	easy	ADJ	JJ	Degree=Pos	11	xcomp	_	start_char=3360|end_char=3364|SpaceAfter=No
-15	.	.	PUNCT	.	_	11	punct	_	start_char=3364|end_char=3365|SpacesAfter=\n\n
+14	easy	easy	ADJ	JJ	Degree=Pos	11	xcomp	_	SpaceAfter=No|start_char=3360|end_char=3364
+15	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n\n|start_char=3364|end_char=3365
 
 # text = These plant-based companies have spent small fortunes on their burgers, and cell-based meat has not yet been commercialized at all.
 # sent_id = 40
 1	These	this	DET	DT	Number=Plur|PronType=Dem	5	det	_	start_char=3367|end_char=3372
-2	plant	plant	NOUN	NN	Number=Sing	4	compound	_	start_char=3373|end_char=3378|SpaceAfter=No
-3	-	-	PUNCT	HYPH	_	2	punct	_	start_char=3378|end_char=3379|SpaceAfter=No
+2	plant	plant	NOUN	NN	Number=Sing	4	compound	_	SpaceAfter=No|start_char=3373|end_char=3378
+3	-	-	PUNCT	HYPH	_	2	punct	_	SpaceAfter=No|start_char=3378|end_char=3379
 4	based	base	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	start_char=3379|end_char=3384
 5	companies	company	NOUN	NNS	Number=Plur	7	nsubj	_	start_char=3385|end_char=3394
 6	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=3395|end_char=3399
@@ -834,11 +833,11 @@
 9	fortunes	fortune	NOUN	NNS	Number=Plur	7	obj	_	start_char=3412|end_char=3420
 10	on	on	ADP	IN	_	12	case	_	start_char=3421|end_char=3423
 11	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=3424|end_char=3429
-12	burgers	burger	NOUN	NNS	Number=Plur	7	obl	_	start_char=3430|end_char=3437|SpaceAfter=No
+12	burgers	burger	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No|start_char=3430|end_char=3437
 13	,	,	PUNCT	,	_	14	punct	_	start_char=3437|end_char=3438
 14	and	and	CCONJ	CC	_	23	cc	_	start_char=3439|end_char=3442
-15	cell	cell	NOUN	NN	Number=Sing	17	compound	_	start_char=3443|end_char=3447|SpaceAfter=No
-16	-	-	PUNCT	HYPH	_	15	punct	_	start_char=3447|end_char=3448|SpaceAfter=No
+15	cell	cell	NOUN	NN	Number=Sing	17	compound	_	SpaceAfter=No|start_char=3443|end_char=3447
+16	-	-	PUNCT	HYPH	_	15	punct	_	SpaceAfter=No|start_char=3447|end_char=3448
 17	based	base	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	start_char=3448|end_char=3453
 18	meat	meat	NOUN	NN	Number=Sing	23	nsubj:pass	_	start_char=3454|end_char=3458
 19	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	start_char=3459|end_char=3462
@@ -847,8 +846,8 @@
 22	been	be	AUX	VBN	Tense=Past|VerbForm=Part	23	aux:pass	_	start_char=3471|end_char=3475
 23	commercialized	commercialize	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	conj	_	start_char=3476|end_char=3490
 24	at	at	ADP	IN	_	25	case	_	start_char=3491|end_char=3493
-25	all	all	DET	DT	PronType=Tot	23	obl	_	start_char=3494|end_char=3497|SpaceAfter=No
-26	.	.	PUNCT	.	_	7	punct	_	start_char=3497|end_char=3498|SpacesAfter=\n\n
+25	all	all	DET	DT	PronType=Tot	23	obl	_	SpaceAfter=No|start_char=3494|end_char=3497
+26	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=3497|end_char=3498
 
 # text = So we're going to need all hands on deck to make these the global meat industry.
 # sent_id = 41
@@ -869,21 +868,21 @@
 14	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=3555|end_char=3558
 15	global	global	ADJ	JJ	Degree=Pos	17	amod	_	start_char=3559|end_char=3565
 16	meat	meat	NOUN	NN	Number=Sing	17	compound	_	start_char=3566|end_char=3570
-17	industry	industry	NOUN	NN	Number=Sing	12	obj	_	start_char=3571|end_char=3579|SpaceAfter=No
-18	.	.	PUNCT	.	_	4	punct	_	start_char=3579|end_char=3580|SpacesAfter=\n\n
+17	industry	industry	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No|start_char=3571|end_char=3579
+18	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=3579|end_char=3580
 
 # text = For starters, we need the present meat industry.
 # sent_id = 42
 1	For	for	ADP	IN	_	2	case	_	start_char=3582|end_char=3585
-2	starters	starter	NOUN	NNS	Number=Plur	5	obl	_	start_char=3586|end_char=3594|SpaceAfter=No
+2	starters	starter	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No|start_char=3586|end_char=3594
 3	,	,	PUNCT	,	_	2	punct	_	start_char=3594|end_char=3595
 4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=3596|end_char=3598
 5	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3599|end_char=3603
 6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=3604|end_char=3607
 7	present	present	ADJ	JJ	Degree=Pos	9	amod	_	start_char=3608|end_char=3615
 8	meat	meat	NOUN	NN	Number=Sing	9	compound	_	start_char=3616|end_char=3620
-9	industry	industry	NOUN	NN	Number=Sing	5	obj	_	start_char=3621|end_char=3629|SpaceAfter=No
-10	.	.	PUNCT	.	_	5	punct	_	start_char=3629|end_char=3630|SpacesAfter=\n\n
+9	industry	industry	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No|start_char=3621|end_char=3629
+10	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=3629|end_char=3630
 
 # text = We don't want to disrupt the meat industry, we want to transform it.
 # sent_id = 43
@@ -896,14 +895,14 @@
 6	disrupt	disrupt	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=3649|end_char=3656
 7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=3657|end_char=3660
 8	meat	meat	NOUN	NN	Number=Sing	9	compound	_	start_char=3661|end_char=3665
-9	industry	industry	NOUN	NN	Number=Sing	6	obj	_	start_char=3666|end_char=3674|SpaceAfter=No
+9	industry	industry	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No|start_char=3666|end_char=3674
 10	,	,	PUNCT	,	_	12	punct	_	start_char=3674|end_char=3675
 11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	start_char=3676|end_char=3678
 12	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=3679|end_char=3683
 13	to	to	PART	TO	_	14	mark	_	start_char=3684|end_char=3686
 14	transform	transform	VERB	VB	VerbForm=Inf	12	xcomp	_	start_char=3687|end_char=3696
-15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	start_char=3697|end_char=3699|SpaceAfter=No
-16	.	.	PUNCT	.	_	4	punct	_	start_char=3699|end_char=3700|SpacesAfter=\n\n
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No|start_char=3697|end_char=3699
+16	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=3699|end_char=3700
 
 # text = We need their economies of scale, their global supply chain, their marketing expertise and their massive consumer base.
 # sent_id = 44
@@ -912,12 +911,12 @@
 3	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=3710|end_char=3715
 4	economies	economy	NOUN	NNS	Number=Plur	2	obj	_	start_char=3716|end_char=3725
 5	of	of	ADP	IN	_	6	case	_	start_char=3726|end_char=3728
-6	scale	scale	NOUN	NN	Number=Sing	4	nmod	_	start_char=3729|end_char=3734|SpaceAfter=No
+6	scale	scale	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No|start_char=3729|end_char=3734
 7	,	,	PUNCT	,	_	11	punct	_	start_char=3734|end_char=3735
 8	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=3736|end_char=3741
 9	global	global	ADJ	JJ	Degree=Pos	11	amod	_	start_char=3742|end_char=3748
 10	supply	supply	NOUN	NN	Number=Sing	11	compound	_	start_char=3749|end_char=3755
-11	chain	chain	NOUN	NN	Number=Sing	4	conj	_	start_char=3756|end_char=3761|SpaceAfter=No
+11	chain	chain	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No|start_char=3756|end_char=3761
 12	,	,	PUNCT	,	_	15	punct	_	start_char=3761|end_char=3762
 13	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=3763|end_char=3768
 14	marketing	marketing	NOUN	NN	Number=Sing	15	compound	_	start_char=3769|end_char=3778
@@ -926,16 +925,16 @@
 17	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	start_char=3793|end_char=3798
 18	massive	massive	ADJ	JJ	Degree=Pos	20	amod	_	start_char=3799|end_char=3806
 19	consumer	consumer	NOUN	NN	Number=Sing	20	compound	_	start_char=3807|end_char=3815
-20	base	base	NOUN	NN	Number=Sing	4	conj	_	start_char=3816|end_char=3820|SpaceAfter=No
-21	.	.	PUNCT	.	_	2	punct	_	start_char=3820|end_char=3821|SpacesAfter=\n\n
+20	base	base	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No|start_char=3816|end_char=3820
+21	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=3820|end_char=3821
 
 # text = We also need governments.
 # sent_id = 45
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=3823|end_char=3825
 2	also	also	ADV	RB	_	3	advmod	_	start_char=3826|end_char=3830
 3	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3831|end_char=3835
-4	governments	government	NOUN	NNS	Number=Plur	3	obj	_	start_char=3836|end_char=3847|SpaceAfter=No
-5	.	.	PUNCT	.	_	3	punct	_	start_char=3847|end_char=3848|SpacesAfter=\n\n
+4	governments	government	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No|start_char=3836|end_char=3847
+5	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=3847|end_char=3848
 
 # text = Governments spend tens of billions of dollars every single year on research and development focused on global health and the environment.
 # sent_id = 46
@@ -959,8 +958,8 @@
 18	health	health	NOUN	NN	Number=Sing	15	obl	_	start_char=3960|end_char=3966
 19	and	and	CCONJ	CC	_	21	cc	_	start_char=3967|end_char=3970
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=3971|end_char=3974
-21	environment	environment	NOUN	NN	Number=Sing	18	conj	_	start_char=3975|end_char=3986|SpaceAfter=No
-22	.	.	PUNCT	.	_	2	punct	_	start_char=3986|end_char=3987|SpacesAfter=\n\n
+21	environment	environment	NOUN	NN	Number=Sing	18	conj	_	SpaceAfter=No|start_char=3975|end_char=3986
+22	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=3986|end_char=3987
 
 # text = They should be putting some of that money into optimizing and perfecting the production of plant-based and cell-based meat.
 # sent_id = 47
@@ -979,19 +978,19 @@
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=4062|end_char=4065
 14	production	production	NOUN	NN	Number=Sing	10	obj	_	start_char=4066|end_char=4076
 15	of	of	ADP	IN	_	23	case	_	start_char=4077|end_char=4079
-16	plant	plant	NOUN	NN	Number=Sing	18	compound	_	start_char=4080|end_char=4085|SpaceAfter=No
-17	-	-	PUNCT	HYPH	_	16	punct	_	start_char=4085|end_char=4086|SpaceAfter=No
+16	plant	plant	NOUN	NN	Number=Sing	18	compound	_	SpaceAfter=No|start_char=4080|end_char=4085
+17	-	-	PUNCT	HYPH	_	16	punct	_	SpaceAfter=No|start_char=4085|end_char=4086
 18	based	base	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	amod	_	start_char=4086|end_char=4091
 19	and	and	CCONJ	CC	_	22	cc	_	start_char=4092|end_char=4095
-20	cell	cell	NOUN	NN	Number=Sing	22	compound	_	start_char=4096|end_char=4100|SpaceAfter=No
-21	-	-	PUNCT	HYPH	_	20	punct	_	start_char=4100|end_char=4101|SpaceAfter=No
+20	cell	cell	NOUN	NN	Number=Sing	22	compound	_	SpaceAfter=No|start_char=4096|end_char=4100
+21	-	-	PUNCT	HYPH	_	20	punct	_	SpaceAfter=No|start_char=4100|end_char=4101
 22	based	base	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	amod	_	start_char=4101|end_char=4106
-23	meat	meat	NOUN	NN	Number=Sing	14	nmod	_	start_char=4107|end_char=4111|SpaceAfter=No
-24	.	.	PUNCT	.	_	4	punct	_	start_char=4111|end_char=4112|SpacesAfter=\n\n
+23	meat	meat	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No|start_char=4107|end_char=4111
+24	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=4111|end_char=4112
 
 # text = Look, tens of thousands of people died from antibiotic-resistant superbugs in North America just last year.
 # sent_id = 48
-1	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	8	discourse	_	start_char=4114|end_char=4118|SpaceAfter=No
+1	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	8	discourse	_	SpaceAfter=No|start_char=4114|end_char=4118
 2	,	,	PUNCT	,	_	8	punct	_	start_char=4118|end_char=4119
 3	tens	ten	NOUN	NNS	Number=Plur	8	nsubj	_	start_char=4120|end_char=4124
 4	of	of	ADP	IN	_	5	case	_	start_char=4125|end_char=4127
@@ -1000,8 +999,8 @@
 7	people	person	NOUN	NNS	Number=Plur	5	nmod	_	start_char=4141|end_char=4147
 8	died	die	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=4148|end_char=4152
 9	from	from	ADP	IN	_	13	case	_	start_char=4153|end_char=4157
-10	antibiotic	antibiotic	ADJ	JJ	Degree=Pos	12	amod	_	start_char=4158|end_char=4168|SpaceAfter=No
-11	-	-	PUNCT	HYPH	_	10	punct	_	start_char=4168|end_char=4169|SpaceAfter=No
+10	antibiotic	antibiotic	ADJ	JJ	Degree=Pos	12	amod	_	SpaceAfter=No|start_char=4158|end_char=4168
+11	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No|start_char=4168|end_char=4169
 12	resistant	resistant	ADJ	JJ	Degree=Pos	13	amod	_	start_char=4169|end_char=4178
 13	superbugs	superbug	NOUN	NNS	Number=Plur	8	obl	_	start_char=4179|end_char=4188
 14	in	in	ADP	IN	_	16	case	_	start_char=4189|end_char=4191
@@ -1009,13 +1008,13 @@
 16	America	America	PROPN	NNP	Number=Sing	13	nmod	_	start_char=4198|end_char=4205
 17	just	just	ADV	RB	_	19	advmod	_	start_char=4206|end_char=4210
 18	last	last	ADJ	JJ	Degree=Pos	19	amod	_	start_char=4211|end_char=4215
-19	year	year	NOUN	NN	Number=Sing	8	obl:unmarked	_	start_char=4216|end_char=4220|SpaceAfter=No
-20	.	.	PUNCT	.	_	1	punct	_	start_char=4220|end_char=4221|SpacesAfter=\n\n
+19	year	year	NOUN	NN	Number=Sing	8	obl:unmarked	_	SpaceAfter=No|start_char=4216|end_char=4220
+20	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n|start_char=4220|end_char=4221
 
 # text = By 2050, that number is going to be 10 million per year globally.
 # sent_id = 49
 1	By	by	ADP	IN	_	2	case	_	start_char=4223|end_char=4225
-2	2050	2050	NUM	CD	NumForm=Digit|NumType=Card	7	obl	_	start_char=4226|end_char=4230|SpaceAfter=No
+2	2050	2050	NUM	CD	NumForm=Digit|NumType=Card	7	obl	_	SpaceAfter=No|start_char=4226|end_char=4230
 3	,	,	PUNCT	,	_	2	punct	_	start_char=4230|end_char=4231
 4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	start_char=4232|end_char=4236
 5	number	number	NOUN	NN	Number=Sing	7	nsubj	_	start_char=4237|end_char=4243
@@ -1027,8 +1026,8 @@
 11	million	million	NUM	CD	NumForm=Word|NumType=Card	7	xcomp	_	start_char=4262|end_char=4269
 12	per	per	ADP	IN	_	13	case	_	start_char=4270|end_char=4273
 13	year	year	NOUN	NN	Number=Sing	11	nmod	_	start_char=4274|end_char=4278
-14	globally	globally	ADV	RB	_	7	advmod	_	start_char=4279|end_char=4287|SpaceAfter=No
-15	.	.	PUNCT	.	_	7	punct	_	start_char=4287|end_char=4288|SpacesAfter=\n\n
+14	globally	globally	ADV	RB	_	7	advmod	_	SpaceAfter=No|start_char=4279|end_char=4287
+15	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=4287|end_char=4288
 
 # text = And climate change represents an existential threat to huge portions of our global family, including some of the poorest people on the face of the planet.
 # sent_id = 50
@@ -1045,7 +1044,7 @@
 11	of	of	ADP	IN	_	14	case	_	start_char=4359|end_char=4361
 12	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=4362|end_char=4365
 13	global	global	ADJ	JJ	Degree=Pos	14	amod	_	start_char=4366|end_char=4372
-14	family	family	NOUN	NN	Number=Sing	10	nmod	_	start_char=4373|end_char=4379|SpaceAfter=No
+14	family	family	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No|start_char=4373|end_char=4379
 15	,	,	PUNCT	,	_	17	punct	_	start_char=4379|end_char=4380
 16	including	include	VERB	VBG	Tense=Pres|VerbForm=Part	17	case	_	start_char=4381|end_char=4390
 17	some	some	DET	DT	PronType=Ind	10	nmod	_	start_char=4391|end_char=4395
@@ -1058,13 +1057,13 @@
 24	face	face	NOUN	NN	Number=Sing	21	nmod	_	start_char=4425|end_char=4429
 25	of	of	ADP	IN	_	27	case	_	start_char=4430|end_char=4432
 26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	start_char=4433|end_char=4436
-27	planet	planet	NOUN	NN	Number=Sing	24	nmod	_	start_char=4437|end_char=4443|SpaceAfter=No
-28	.	.	PUNCT	.	_	4	punct	_	start_char=4443|end_char=4444|SpacesAfter=\n\n
+27	planet	planet	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No|start_char=4437|end_char=4443
+28	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=4443|end_char=4444
 
 # text = Climate change, antibiotic resistance -- these are global emergencies.
 # sent_id = 51
 1	Climate	climate	NOUN	NN	Number=Sing	2	compound	_	start_char=4446|end_char=4453
-2	change	change	NOUN	NN	Number=Sing	10	nsubj	_	start_char=4454|end_char=4460|SpaceAfter=No
+2	change	change	NOUN	NN	Number=Sing	10	nsubj	_	SpaceAfter=No|start_char=4454|end_char=4460
 3	,	,	PUNCT	,	_	5	punct	_	start_char=4460|end_char=4461
 4	antibiotic	antibiotic	NOUN	NN	Number=Sing	5	compound	_	start_char=4462|end_char=4472
 5	resistance	resistance	NOUN	NN	Number=Sing	2	conj	_	start_char=4473|end_char=4483
@@ -1072,8 +1071,8 @@
 7	these	this	PRON	DT	Number=Plur|PronType=Dem	10	nsubj	_	start_char=4487|end_char=4492
 8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=4493|end_char=4496
 9	global	global	ADJ	JJ	Degree=Pos	10	amod	_	start_char=4497|end_char=4503
-10	emergencies	emergency	NOUN	NNS	Number=Plur	0	root	_	start_char=4504|end_char=4515|SpaceAfter=No
-11	.	.	PUNCT	.	_	10	punct	_	start_char=4515|end_char=4516|SpacesAfter=\n\n
+10	emergencies	emergency	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No|start_char=4504|end_char=4515
+11	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n|start_char=4515|end_char=4516
 
 # text = Meat production is exacerbating these emergencies on a global scale.
 # sent_id = 52
@@ -1086,8 +1085,8 @@
 7	on	on	ADP	IN	_	10	case	_	start_char=4568|end_char=4570
 8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=4571|end_char=4572
 9	global	global	ADJ	JJ	Degree=Pos	10	amod	_	start_char=4573|end_char=4579
-10	scale	scale	NOUN	NN	Number=Sing	4	obl	_	start_char=4580|end_char=4585|SpaceAfter=No
-11	.	.	PUNCT	.	_	4	punct	_	start_char=4585|end_char=4586|SpacesAfter=\n\n
+10	scale	scale	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No|start_char=4580|end_char=4585
+11	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=4585|end_char=4586
 
 # text = But we are not going to decrease meat consumption unless we give consumers alternatives that cost the same or less and that taste the same or better.
 # sent_id = 53
@@ -1117,16 +1116,16 @@
 24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	start_char=4718|end_char=4721
 25	same	same	ADJ	JJ	Degree=Pos	23	obj	_	start_char=4722|end_char=4726
 26	or	or	CCONJ	CC	_	27	cc	_	start_char=4727|end_char=4729
-27	better	good	ADJ	JJR	Degree=Cmp	25	conj	_	start_char=4730|end_char=4736|SpaceAfter=No
-28	.	.	PUNCT	.	_	5	punct	_	start_char=4736|end_char=4737|SpacesAfter=\n\n
+27	better	good	ADJ	JJR	Degree=Cmp	25	conj	_	SpaceAfter=No|start_char=4730|end_char=4736
+28	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=4736|end_char=4737
 
 # text = We have the solution.
 # sent_id = 54
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=4739|end_char=4741
 2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4742|end_char=4746
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=4747|end_char=4750
-4	solution	solution	NOUN	NN	Number=Sing	2	obj	_	start_char=4751|end_char=4759|SpaceAfter=No
-5	.	.	PUNCT	.	_	2	punct	_	start_char=4759|end_char=4760|SpacesAfter=\n\n
+4	solution	solution	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No|start_char=4751|end_char=4759
+5	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=4759|end_char=4760
 
 # text = Let's make meat from plants. Let's grow it directly from cells.
 # sent_id = 55
@@ -1136,7 +1135,7 @@
 3	make	make	VERB	VB	VerbForm=Inf	1	xcomp	_	start_char=4768|end_char=4772
 4	meat	meat	NOUN	NN	Number=Sing	3	obj	_	start_char=4773|end_char=4777
 5	from	from	ADP	IN	_	6	case	_	start_char=4778|end_char=4782
-6	plants	plant	NOUN	NNS	Number=Plur	3	obl	_	start_char=4783|end_char=4789|SpaceAfter=No
+6	plants	plant	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No|start_char=4783|end_char=4789
 7	.	.	PUNCT	.	_	1	punct	_	start_char=4789|end_char=4790
 8-9	Let's	_	_	_	_	_	_	_	start_char=4791|end_char=4796
 8	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	1	parataxis	_	start_char=4791|end_char=4794
@@ -1145,8 +1144,8 @@
 11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	start_char=4802|end_char=4804
 12	directly	directly	ADV	RB	_	10	advmod	_	start_char=4805|end_char=4813
 13	from	from	ADP	IN	_	14	case	_	start_char=4814|end_char=4818
-14	cells	cell	NOUN	NNS	Number=Plur	10	obl	_	start_char=4819|end_char=4824|SpaceAfter=No
-15	.	.	PUNCT	.	_	1	punct	_	start_char=4824|end_char=4825|SpacesAfter=\n\n
+14	cells	cell	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No|start_char=4819|end_char=4824
+15	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n|start_char=4824|end_char=4825
 
 # text = It's past time that we mobilize the resources that are necessary to create the next global agricultural revolution.
 # sent_id = 56
@@ -1169,11 +1168,11 @@
 16	next	next	ADJ	JJ	Degree=Pos	19	amod	_	start_char=4906|end_char=4910
 17	global	global	ADJ	JJ	Degree=Pos	19	amod	_	start_char=4911|end_char=4917
 18	agricultural	agricultural	ADJ	JJ	Degree=Pos	19	amod	_	start_char=4918|end_char=4930
-19	revolution	revolution	NOUN	NN	Number=Sing	14	obj	_	start_char=4931|end_char=4941|SpaceAfter=No
-20	.	.	PUNCT	.	_	4	punct	_	start_char=4941|end_char=4942|SpacesAfter=\n\n
+19	revolution	revolution	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No|start_char=4931|end_char=4941
+20	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=4941|end_char=4942
 
 # text = Thank you.
 # sent_id = 57
 1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4944|end_char=4949
-2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	start_char=4950|end_char=4953|SpaceAfter=No
-3	.	.	PUNCT	.	_	1	punct	_	start_char=4953|end_char=4954|SpaceAfter=No
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	SpaceAfter=No|start_char=4950|end_char=4953
+3	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|start_char=4953|end_char=4954

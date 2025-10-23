@@ -1,10 +1,9 @@
 # conllu_stats: begin
 # conllu_tokens: 1917
 # conllu_sentences: 83
-# Average tokens per senteces: 23.096385542168676
-# sentece_pairs: 4
+# Average tokens per sentence: 23.096385542168676
+# sentence_pairs: 4
 # conllu_stats: end
-
 
 # text = How a miniaturized atomic clock could revolutionize space exploration
 # sent_id = 0
@@ -16,13 +15,13 @@
 6	could	could	AUX	MD	VerbForm=Fin	7	aux	_	start_char=32|end_char=37
 7	revolutionize	revolutionize	VERB	VB	VerbForm=Inf	0	root	_	start_char=38|end_char=51
 8	space	space	NOUN	NN	Number=Sing	9	compound	_	start_char=52|end_char=57
-9	exploration	exploration	NOUN	NN	Number=Sing	7	obj	_	start_char=58|end_char=69|SpacesAfter=\n\n
+9	exploration	exploration	NOUN	NN	Number=Sing	7	obj	_	SpacesAfter=\n\n|start_char=58|end_char=69
 
 # text = Six months ago, I watched with bated breath as NASA's InSight lander descended towards the surface of Mars.
 # sent_id = 1
 1	Six	six	NUM	CD	NumForm=Word|NumType=Card	2	nummod	_	start_char=71|end_char=74
 2	months	month	NOUN	NNS	Number=Plur	3	obl:unmarked	_	start_char=75|end_char=81
-3	ago	ago	ADV	RB	Degree=Pos	6	advmod	_	start_char=82|end_char=85|SpaceAfter=No
+3	ago	ago	ADV	RB	Degree=Pos	6	advmod	_	SpaceAfter=No|start_char=82|end_char=85
 4	,	,	PUNCT	,	_	3	punct	_	start_char=85|end_char=86
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=87|end_char=88
 6	watched	watch	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=89|end_char=96
@@ -40,27 +39,27 @@
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=158|end_char=161
 18	surface	surface	NOUN	NN	Number=Sing	15	obl	_	start_char=162|end_char=169
 19	of	of	ADP	IN	_	20	case	_	start_char=170|end_char=172
-20	Mars	Mars	PROPN	NNP	Number=Sing	18	nmod	_	start_char=173|end_char=177|SpaceAfter=No
-21	.	.	PUNCT	.	_	6	punct	_	start_char=177|end_char=178|SpacesAfter=\n\n
+20	Mars	Mars	PROPN	NNP	Number=Sing	18	nmod	_	SpaceAfter=No|start_char=173|end_char=177
+21	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=177|end_char=178
 
 # text = Two hundred meters, 80 meters, 60, 40, 20, 17 meters.
 # sent_id = 2
 1	Two	two	NUM	CD	NumForm=Word|NumType=Card	2	compound	_	start_char=180|end_char=183
 2	hundred	hundred	NUM	CD	NumForm=Word|NumType=Card	3	nummod	_	start_char=184|end_char=191
-3	meters	meter	NOUN	NNS	Number=Plur	0	root	_	start_char=192|end_char=198|SpaceAfter=No
+3	meters	meter	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No|start_char=192|end_char=198
 4	,	,	PUNCT	,	_	6	punct	_	start_char=198|end_char=199
 5	80	80	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	_	start_char=200|end_char=202
-6	meters	meter	NOUN	NNS	Number=Plur	3	conj	_	start_char=203|end_char=209|SpaceAfter=No
+6	meters	meter	NOUN	NNS	Number=Plur	3	conj	_	SpaceAfter=No|start_char=203|end_char=209
 7	,	,	PUNCT	,	_	8	punct	_	start_char=209|end_char=210
-8	60	60	NUM	CD	NumForm=Digit|NumType=Card	3	conj	_	start_char=211|end_char=213|SpaceAfter=No
+8	60	60	NUM	CD	NumForm=Digit|NumType=Card	3	conj	_	SpaceAfter=No|start_char=211|end_char=213
 9	,	,	PUNCT	,	_	10	punct	_	start_char=213|end_char=214
-10	40	40	NUM	CD	NumForm=Digit|NumType=Card	3	conj	_	start_char=215|end_char=217|SpaceAfter=No
+10	40	40	NUM	CD	NumForm=Digit|NumType=Card	3	conj	_	SpaceAfter=No|start_char=215|end_char=217
 11	,	,	PUNCT	,	_	12	punct	_	start_char=217|end_char=218
-12	20	20	NUM	CD	NumForm=Digit|NumType=Card	3	conj	_	start_char=219|end_char=221|SpaceAfter=No
+12	20	20	NUM	CD	NumForm=Digit|NumType=Card	3	conj	_	SpaceAfter=No|start_char=219|end_char=221
 13	,	,	PUNCT	,	_	15	punct	_	start_char=221|end_char=222
 14	17	17	NUM	CD	NumForm=Digit|NumType=Card	15	nummod	_	start_char=223|end_char=225
-15	meters	meter	NOUN	NNS	Number=Plur	3	conj	_	start_char=226|end_char=232|SpaceAfter=No
-16	.	.	PUNCT	.	_	3	punct	_	start_char=232|end_char=233|SpacesAfter=\n\n
+15	meters	meter	NOUN	NNS	Number=Plur	3	conj	_	SpaceAfter=No|start_char=226|end_char=232
+16	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=232|end_char=233
 
 # text = Receiving confirmation of successful touchdown was one of the most ecstatic moments of my life.
 # sent_id = 3
@@ -78,8 +77,8 @@
 12	moments	moment	NOUN	NNS	Number=Plur	7	nmod	_	start_char=311|end_char=318
 13	of	of	ADP	IN	_	15	case	_	start_char=319|end_char=321
 14	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=322|end_char=324
-15	life	life	NOUN	NN	Number=Sing	12	nmod	_	start_char=325|end_char=329|SpaceAfter=No
-16	.	.	PUNCT	.	_	7	punct	_	start_char=329|end_char=330|SpacesAfter=\n\n
+15	life	life	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No|start_char=325|end_char=329
+16	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=329|end_char=330
 
 # text = And hearing that news was possible because of two small cube sets that went along to Mars with InSight.
 # sent_id = 4
@@ -101,8 +100,8 @@
 16	to	to	ADP	IN	_	17	case	_	start_char=414|end_char=416
 17	Mars	Mars	PROPN	NNP	Number=Sing	14	obl	_	start_char=417|end_char=421
 18	with	with	ADP	IN	_	19	case	_	start_char=422|end_char=426
-19	InSight	InSight	PROPN	NNP	Number=Sing	14	obl	_	start_char=427|end_char=434|SpaceAfter=No
-20	.	.	PUNCT	.	_	2	punct	_	start_char=434|end_char=435|SpacesAfter=\n\n
+19	InSight	InSight	PROPN	NNP	Number=Sing	14	obl	_	SpaceAfter=No|start_char=427|end_char=434
+20	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=434|end_char=435
 
 # text = Those two cube sets essentially livestreamed InSight's telemetry back to Earth, so that we could watch in near-real time as that InSight lander went screaming towards the surface of the red planet, hitting the atmosphere of Mars at a top speed of about 12,000 miles per hour.
 # sent_id = 5
@@ -118,7 +117,7 @@
 9	telemetry	telemetry	NOUN	NN	Number=Sing	6	obj	_	start_char=492|end_char=501
 10	back	back	ADV	RB	_	6	advmod	_	start_char=502|end_char=506
 11	to	to	ADP	IN	_	12	case	_	start_char=507|end_char=509
-12	Earth	Earth	PROPN	NNP	Number=Sing	6	obl	_	start_char=510|end_char=515|SpaceAfter=No
+12	Earth	Earth	PROPN	NNP	Number=Sing	6	obl	_	SpaceAfter=No|start_char=510|end_char=515
 13	,	,	PUNCT	,	_	18	punct	_	start_char=515|end_char=516
 14	so	so	SCONJ	IN	ExtPos=SCONJ	18	mark	_	start_char=517|end_char=519
 15	that	that	SCONJ	IN	_	14	fixed	_	start_char=520|end_char=524
@@ -126,8 +125,8 @@
 17	could	could	AUX	MD	VerbForm=Fin	18	aux	_	start_char=528|end_char=533
 18	watch	watch	VERB	VB	VerbForm=Inf	6	advcl	_	start_char=534|end_char=539
 19	in	in	ADP	IN	_	23	case	_	start_char=540|end_char=542
-20	near	near	ADV	RB	_	22	advmod	_	start_char=543|end_char=547|SpaceAfter=No
-21	-	-	PUNCT	HYPH	_	20	punct	_	start_char=547|end_char=548|SpaceAfter=No
+20	near	near	ADV	RB	_	22	advmod	_	SpaceAfter=No|start_char=543|end_char=547
+21	-	-	PUNCT	HYPH	_	20	punct	_	SpaceAfter=No|start_char=547|end_char=548
 22	real	real	ADJ	JJ	Degree=Pos	23	amod	_	start_char=548|end_char=552
 23	time	time	NOUN	NN	Number=Sing	18	obl	_	start_char=553|end_char=557
 24	as	as	SCONJ	IN	_	28	mark	_	start_char=558|end_char=560
@@ -142,7 +141,7 @@
 33	of	of	ADP	IN	_	36	case	_	start_char=616|end_char=618
 34	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	start_char=619|end_char=622
 35	red	red	ADJ	JJ	Degree=Pos	36	amod	_	start_char=623|end_char=626
-36	planet	planet	NOUN	NN	Number=Sing	32	nmod	_	start_char=627|end_char=633|SpaceAfter=No
+36	planet	planet	NOUN	NN	Number=Sing	32	nmod	_	SpaceAfter=No|start_char=627|end_char=633
 37	,	,	PUNCT	,	_	38	punct	_	start_char=633|end_char=634
 38	hitting	hit	VERB	VBG	Tense=Pres|VerbForm=Part	28	advcl	_	start_char=635|end_char=642
 39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	_	start_char=643|end_char=646
@@ -158,12 +157,12 @@
 49	12,000	12000	NUM	CD	NumForm=Digit|NumType=Card	50	nummod	_	start_char=690|end_char=696
 50	miles	mile	NOUN	NNS	Number=Plur	46	nmod	_	start_char=697|end_char=702
 51	per	per	ADP	IN	_	52	case	_	start_char=703|end_char=706
-52	hour	hour	NOUN	NN	Number=Sing	50	nmod	_	start_char=707|end_char=711|SpaceAfter=No
-53	.	.	PUNCT	.	_	6	punct	_	start_char=711|end_char=712|SpacesAfter=\n\n
+52	hour	hour	NOUN	NN	Number=Sing	50	nmod	_	SpaceAfter=No|start_char=707|end_char=711
+53	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=711|end_char=712
 
 # text = Now, that event was livestreamed to us from over 90 million miles away.
 # sent_id = 6
-1	Now	now	ADV	RB	_	6	advmod	_	start_char=714|end_char=717|SpaceAfter=No
+1	Now	now	ADV	RB	_	6	advmod	_	SpaceAfter=No|start_char=714|end_char=717
 2	,	,	PUNCT	,	_	1	punct	_	start_char=717|end_char=718
 3	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	_	start_char=719|end_char=723
 4	event	event	NOUN	NN	Number=Sing	6	nsubj:pass	_	start_char=724|end_char=729
@@ -176,8 +175,8 @@
 11	90	90	NUM	CD	NumForm=Digit|NumType=Card	12	compound	_	start_char=763|end_char=765
 12	million	million	NUM	CD	NumForm=Word|NumType=Card	13	nummod	_	start_char=766|end_char=773
 13	miles	mile	NOUN	NNS	Number=Plur	14	obl:unmarked	_	start_char=774|end_char=779
-14	away	away	ADV	RB	_	6	advmod	_	start_char=780|end_char=784|SpaceAfter=No
-15	.	.	PUNCT	.	_	6	punct	_	start_char=784|end_char=785|SpacesAfter=\n\n
+14	away	away	ADV	RB	_	6	advmod	_	SpaceAfter=No|start_char=780|end_char=784
+15	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=784|end_char=785
 
 # text = It was livestreamed from Mars.
 # sent_id = 7
@@ -185,19 +184,19 @@
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	start_char=790|end_char=793
 3	livestreamed	livestream	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=794|end_char=806
 4	from	from	ADP	IN	_	5	case	_	start_char=807|end_char=811
-5	Mars	Mars	PROPN	NNP	Number=Sing	3	obl	_	start_char=812|end_char=816|SpaceAfter=No
-6	.	.	PUNCT	.	_	3	punct	_	start_char=816|end_char=817|SpacesAfter=\n\n
+5	Mars	Mars	PROPN	NNP	Number=Sing	3	obl	_	SpaceAfter=No|start_char=812|end_char=816
+6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=816|end_char=817
 
 # text = Meanwhile, the two Voyager spacecraft -- now, these are these two almost unbelievably intrepid explorers.
 # sent_id = 8
-1	Meanwhile	meanwhile	ADV	RB	_	17	advmod	_	start_char=819|end_char=828|SpaceAfter=No
+1	Meanwhile	meanwhile	ADV	RB	_	17	advmod	_	SpaceAfter=No|start_char=819|end_char=828
 2	,	,	PUNCT	,	_	1	punct	_	start_char=828|end_char=829
 3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=830|end_char=833
 4	two	two	NUM	CD	NumForm=Word|NumType=Card	6	nummod	_	start_char=834|end_char=837
 5	Voyager	Voyager	PROPN	NNP	Number=Sing	6	compound	_	start_char=838|end_char=845
 6	spacecraft	spacecraft	NOUN	NN	Number=Sing	17	nsubj	_	start_char=846|end_char=856
 7	--	--	PUNCT	,	_	8	punct	_	start_char=857|end_char=859
-8	now	now	ADV	RB	PronType=Dem	17	advmod	_	start_char=860|end_char=863|SpaceAfter=No
+8	now	now	ADV	RB	PronType=Dem	17	advmod	_	SpaceAfter=No|start_char=860|end_char=863
 9	,	,	PUNCT	,	_	8	punct	_	start_char=863|end_char=864
 10	these	this	PRON	DT	Number=Plur|PronType=Dem	17	nsubj	_	start_char=865|end_char=870
 11	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=871|end_char=874
@@ -206,8 +205,8 @@
 14	almost	almost	ADV	RB	_	16	advmod	_	start_char=885|end_char=891
 15	unbelievably	unbelievably	ADV	RB	_	16	advmod	_	start_char=892|end_char=904
 16	intrepid	intrepid	ADJ	JJ	Degree=Pos	17	amod	_	start_char=905|end_char=913
-17	explorers	explorer	NOUN	NNS	Number=Plur	0	root	_	start_char=914|end_char=923|SpaceAfter=No
-18	.	.	PUNCT	.	_	17	punct	_	start_char=923|end_char=924|SpacesAfter=\n\n
+17	explorers	explorer	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No|start_char=914|end_char=923
+18	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\n\n|start_char=923|end_char=924
 
 # text = They were launched the same year that all of us here were being introduced to Han Solo for the first time.
 # sent_id = 9
@@ -231,8 +230,8 @@
 18	for	for	ADP	IN	_	21	case	_	start_char=1013|end_char=1016
 19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=1017|end_char=1020
 20	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	21	amod	_	start_char=1021|end_char=1026
-21	time	time	NOUN	NN	Number=Sing	14	obl	_	start_char=1027|end_char=1031|SpaceAfter=No
-22	.	.	PUNCT	.	_	3	punct	_	start_char=1031|end_char=1032|SpacesAfter=\n\n
+21	time	time	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No|start_char=1027|end_char=1031
+22	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=1031|end_char=1032
 
 # text = And they are still sending back data from interstellar space over 40 years later.
 # sent_id = 10
@@ -249,8 +248,8 @@
 11	over	over	ADV	RB	_	12	advmod	_	start_char=1095|end_char=1099
 12	40	40	NUM	CD	NumForm=Digit|NumType=Card	13	nummod	_	start_char=1100|end_char=1102
 13	years	year	NOUN	NNS	Number=Plur	14	obl:unmarked	_	start_char=1103|end_char=1108
-14	later	late	ADV	RBR	Degree=Cmp	5	advmod	_	start_char=1109|end_char=1114|SpaceAfter=No
-15	.	.	PUNCT	.	_	5	punct	_	start_char=1114|end_char=1115|SpacesAfter=\n\n
+14	later	late	ADV	RBR	Degree=Cmp	5	advmod	_	SpaceAfter=No|start_char=1109|end_char=1114
+15	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=1114|end_char=1115
 
 # text = We are sending more spacecraft further into deep space than ever before.
 # sent_id = 11
@@ -265,8 +264,8 @@
 9	space	space	NOUN	NN	Number=Sing	3	obl	_	start_char=1166|end_char=1171
 10	than	than	ADP	IN	_	12	case	_	start_char=1172|end_char=1176
 11	ever	ever	ADV	RB	PronType=Ind	12	advmod	_	start_char=1177|end_char=1181
-12	before	before	ADV	RB	Degree=Pos	3	obl	_	start_char=1182|end_char=1188|SpaceAfter=No
-13	.	.	PUNCT	.	_	3	punct	_	start_char=1188|end_char=1189|SpacesAfter=\n\n
+12	before	before	ADV	RB	Degree=Pos	3	obl	_	SpaceAfter=No|start_char=1182|end_char=1188
+13	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=1188|end_char=1189
 
 # text = But every one of those spacecraft out there depends on its navigation being performed right here at Earth to tell it where it is and, far more importantly, where it is going.
 # sent_id = 12
@@ -294,17 +293,17 @@
 22	where	where	ADV	WRB	PronType=Int	20	ccomp	_	start_char=1308|end_char=1313
 23	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	start_char=1314|end_char=1316
 24	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	start_char=1317|end_char=1319
-25	and	and	CCONJ	CC	_	34	cc	_	start_char=1320|end_char=1323|SpaceAfter=No
+25	and	and	CCONJ	CC	_	34	cc	_	SpaceAfter=No|start_char=1320|end_char=1323
 26	,	,	PUNCT	,	_	25	punct	_	start_char=1323|end_char=1324
 27	far	far	ADV	RB	Degree=Pos	29	advmod	_	start_char=1325|end_char=1328
 28	more	more	ADV	RBR	Degree=Cmp	29	advmod	_	start_char=1329|end_char=1333
-29	importantly	importantly	ADV	RB	_	34	advmod	_	start_char=1334|end_char=1345|SpaceAfter=No
+29	importantly	importantly	ADV	RB	_	34	advmod	_	SpaceAfter=No|start_char=1334|end_char=1345
 30	,	,	PUNCT	,	_	29	punct	_	start_char=1345|end_char=1346
 31	where	where	ADV	WRB	PronType=Rel	34	advmod	_	start_char=1347|end_char=1352
 32	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	start_char=1353|end_char=1355
 33	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	start_char=1356|end_char=1358
-34	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	22	advcl:relcl	_	start_char=1359|end_char=1364|SpaceAfter=No
-35	.	.	PUNCT	.	_	9	punct	_	start_char=1364|end_char=1365|SpacesAfter=\n\n
+34	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	22	advcl:relcl	_	SpaceAfter=No|start_char=1359|end_char=1364
+35	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n\n|start_char=1364|end_char=1365
 
 # text = And we have to do that navigation here on Earth for one simple reason: spacecraft are really bad at telling the time.
 # sent_id = 13
@@ -321,7 +320,7 @@
 11	for	for	ADP	IN	_	14	case	_	start_char=1415|end_char=1418
 12	one	one	NUM	CD	NumForm=Word|NumType=Card	14	nummod	_	start_char=1419|end_char=1422
 13	simple	simple	ADJ	JJ	Degree=Pos	14	amod	_	start_char=1423|end_char=1429
-14	reason	reason	NOUN	NN	Number=Sing	5	obl	_	start_char=1430|end_char=1436|SpaceAfter=No
+14	reason	reason	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No|start_char=1430|end_char=1436
 15	:	:	PUNCT	:	_	19	punct	_	start_char=1436|end_char=1437
 16	spacecraft	spacecraft	NOUN	NN	Number=Sing	19	nsubj	_	start_char=1438|end_char=1448
 17	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=1449|end_char=1452
@@ -330,8 +329,8 @@
 20	at	at	SCONJ	IN	_	21	mark	_	start_char=1464|end_char=1466
 21	telling	tell	VERB	VBG	Tense=Pres|VerbForm=Part	19	advcl	_	start_char=1467|end_char=1474
 22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	start_char=1475|end_char=1478
-23	time	time	NOUN	NN	Number=Sing	21	obj	_	start_char=1479|end_char=1483|SpaceAfter=No
-24	.	.	PUNCT	.	_	3	punct	_	start_char=1483|end_char=1484|SpacesAfter=\n\n
+23	time	time	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No|start_char=1479|end_char=1483
+24	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=1483|end_char=1484
 
 # text = But if we can change that, we can revolutionize the way we explore deep space.
 # sent_id = 14
@@ -340,7 +339,7 @@
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=1493|end_char=1495
 4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	start_char=1496|end_char=1499
 5	change	change	VERB	VB	VerbForm=Inf	10	advcl	_	start_char=1500|end_char=1506
-6	that	that	PRON	DT	Number=Sing|PronType=Dem	5	obj	_	start_char=1507|end_char=1511|SpaceAfter=No
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	5	obj	_	SpaceAfter=No|start_char=1507|end_char=1511
 7	,	,	PUNCT	,	_	5	punct	_	start_char=1511|end_char=1512
 8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	start_char=1513|end_char=1515
 9	can	can	AUX	MD	VerbForm=Fin	10	aux	_	start_char=1516|end_char=1519
@@ -350,19 +349,19 @@
 13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	start_char=1542|end_char=1544
 14	explore	explore	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	start_char=1545|end_char=1552
 15	deep	deep	ADJ	JJ	Degree=Pos	16	amod	_	start_char=1553|end_char=1557
-16	space	space	NOUN	NN	Number=Sing	14	obj	_	start_char=1558|end_char=1563|SpaceAfter=No
-17	.	.	PUNCT	.	_	10	punct	_	start_char=1563|end_char=1564|SpacesAfter=\n\n
+16	space	space	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No|start_char=1558|end_char=1563
+17	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n|start_char=1563|end_char=1564
 
 # text = Now, I am a deep space navigator, and I know you're probably thinking, "What is that job?"
 # sent_id = 15
-1	Now	now	ADV	RB	_	8	advmod	_	start_char=1566|end_char=1569|SpaceAfter=No
+1	Now	now	ADV	RB	_	8	advmod	_	SpaceAfter=No|start_char=1566|end_char=1569
 2	,	,	PUNCT	,	_	1	punct	_	start_char=1569|end_char=1570
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=1571|end_char=1572
 4	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=1573|end_char=1575
 5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=1576|end_char=1577
 6	deep	deep	ADJ	JJ	Degree=Pos	8	amod	_	start_char=1578|end_char=1582
 7	space	space	NOUN	NN	Number=Sing	8	compound	_	start_char=1583|end_char=1588
-8	navigator	navigator	NOUN	NN	Number=Sing	0	root	_	start_char=1589|end_char=1598|SpaceAfter=No
+8	navigator	navigator	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=1589|end_char=1598
 9	,	,	PUNCT	,	_	12	punct	_	start_char=1598|end_char=1599
 10	and	and	CCONJ	CC	_	12	cc	_	start_char=1600|end_char=1603
 11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=1604|end_char=1605
@@ -371,19 +370,19 @@
 13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	start_char=1611|end_char=1614
 14	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=1614|end_char=1617
 15	probably	probably	ADV	RB	_	16	advmod	_	start_char=1618|end_char=1626
-16	thinking	think	VERB	VBG	Tense=Pres|VerbForm=Part	12	ccomp	_	start_char=1627|end_char=1635|SpaceAfter=No
+16	thinking	think	VERB	VBG	Tense=Pres|VerbForm=Part	12	ccomp	_	SpaceAfter=No|start_char=1627|end_char=1635
 17	,	,	PUNCT	,	_	19	punct	_	start_char=1635|end_char=1636
-18	"	"	PUNCT	``	_	22	punct	_	start_char=1637|end_char=1638|SpaceAfter=No
+18	"	"	PUNCT	``	_	22	punct	_	SpaceAfter=No|start_char=1637|end_char=1638
 19	What	what	PRON	WP	PronType=Int	16	ccomp	_	start_char=1638|end_char=1642
 20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	start_char=1643|end_char=1645
 21	that	that	DET	DT	Number=Sing|PronType=Dem	22	det	_	start_char=1646|end_char=1650
-22	job	job	NOUN	NN	Number=Sing	19	nsubj	_	start_char=1651|end_char=1654|SpaceAfter=No
-23	?	?	PUNCT	.	_	22	punct	_	start_char=1654|end_char=1655|SpaceAfter=No
-24	"	"	PUNCT	''	_	22	punct	_	start_char=1655|end_char=1656|SpacesAfter=\n\n
+22	job	job	NOUN	NN	Number=Sing	19	nsubj	_	SpaceAfter=No|start_char=1651|end_char=1654
+23	?	?	PUNCT	.	_	22	punct	_	SpaceAfter=No|start_char=1654|end_char=1655
+24	"	"	PUNCT	''	_	22	punct	_	SpacesAfter=\n\n|start_char=1655|end_char=1656
 
 # text = Well, it is an extremely unique and also very fun job.
 # sent_id = 16
-1	Well	well	INTJ	UH	_	12	discourse	_	start_char=1658|end_char=1662|SpaceAfter=No
+1	Well	well	INTJ	UH	_	12	discourse	_	SpaceAfter=No|start_char=1658|end_char=1662
 2	,	,	PUNCT	,	_	1	punct	_	start_char=1662|end_char=1663
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=1664|end_char=1666
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=1667|end_char=1669
@@ -394,14 +393,14 @@
 9	also	also	ADV	RB	_	11	advmod	_	start_char=1694|end_char=1698
 10	very	very	ADV	RB	_	11	advmod	_	start_char=1699|end_char=1703
 11	fun	fun	ADJ	JJ	Degree=Pos	7	conj	_	start_char=1704|end_char=1707
-12	job	job	NOUN	NN	Number=Sing	0	root	_	start_char=1708|end_char=1711|SpaceAfter=No
-13	.	.	PUNCT	.	_	12	punct	_	start_char=1711|end_char=1712|SpacesAfter=\n\n
+12	job	job	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=1708|end_char=1711
+13	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n\n|start_char=1711|end_char=1712
 
 # text = I steer spacecraft, from the moment they separate from their launch vehicle to when they reach their destination in space.
 # sent_id = 17
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=1714|end_char=1715
 2	steer	steer	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1716|end_char=1721
-3	spacecraft	spacecraft	NOUN	NN	Number=Sing	2	obj	_	start_char=1722|end_char=1732|SpaceAfter=No
+3	spacecraft	spacecraft	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No|start_char=1722|end_char=1732
 4	,	,	PUNCT	,	_	7	punct	_	start_char=1732|end_char=1733
 5	from	from	ADP	IN	_	7	case	_	start_char=1734|end_char=1738
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=1739|end_char=1742
@@ -419,8 +418,8 @@
 18	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	start_char=1809|end_char=1814
 19	destination	destination	NOUN	NN	Number=Sing	17	obj	_	start_char=1815|end_char=1826
 20	in	in	ADP	IN	_	21	case	_	start_char=1827|end_char=1829
-21	space	space	NOUN	NN	Number=Sing	17	obl	_	start_char=1830|end_char=1835|SpaceAfter=No
-22	.	.	PUNCT	.	_	2	punct	_	start_char=1835|end_char=1836|SpacesAfter=\n\n
+21	space	space	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No|start_char=1830|end_char=1835
+22	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=1835|end_char=1836
 
 # text = And these destinations -- say Mars for example, or Jupiter -- they are really far away.
 # sent_id = 18
@@ -431,7 +430,7 @@
 5	say	say	VERB	VB	Mood=Imp|VerbForm=Fin	17	parataxis	_	start_char=1864|end_char=1867
 6	Mars	Mars	PROPN	NNP	Number=Sing	5	obj	_	start_char=1868|end_char=1872
 7	for	for	ADP	IN	_	8	case	_	start_char=1873|end_char=1876
-8	example	example	NOUN	NN	Number=Sing	5	obl	_	start_char=1877|end_char=1884|SpaceAfter=No
+8	example	example	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No|start_char=1877|end_char=1884
 9	,	,	PUNCT	,	_	11	punct	_	start_char=1884|end_char=1885
 10	or	or	CCONJ	CC	_	11	cc	_	start_char=1886|end_char=1888
 11	Jupiter	Jupiter	PROPN	NNP	Number=Sing	8	conj	_	start_char=1889|end_char=1896
@@ -440,8 +439,8 @@
 14	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=1905|end_char=1908
 15	really	really	ADV	RB	_	17	advmod	_	start_char=1909|end_char=1915
 16	far	far	ADV	RB	Degree=Pos	17	advmod	_	start_char=1916|end_char=1919
-17	away	away	ADV	RB	_	0	root	_	start_char=1920|end_char=1924|SpaceAfter=No
-18	.	.	PUNCT	.	_	17	punct	_	start_char=1924|end_char=1925|SpacesAfter=\n\n
+17	away	away	ADV	RB	_	0	root	_	SpaceAfter=No|start_char=1920|end_char=1924
+18	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\n\n|start_char=1924|end_char=1925
 
 # text = To put my job in context for you: it's like me standing here in Los Angeles and shooting an arrow, and with that arrow, I hit a target that's the size of a quarter, and that target the size of a quarter is sitting in Times Square, New York.
 # sent_id = 19
@@ -452,7 +451,7 @@
 5	in	in	ADP	IN	_	6	case	_	start_char=1941|end_char=1943
 6	context	context	NOUN	NN	Number=Sing	2	obl	_	start_char=1944|end_char=1951
 7	for	for	ADP	IN	_	8	case	_	start_char=1952|end_char=1955
-8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obl	_	start_char=1956|end_char=1959|SpaceAfter=No
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obl	_	SpaceAfter=No|start_char=1956|end_char=1959
 9	:	:	PUNCT	:	_	14	punct	_	start_char=1959|end_char=1960
 10-11	it's	_	_	_	_	_	_	_	start_char=1961|end_char=1965
 10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj:outer	_	start_char=1961|end_char=1963
@@ -467,12 +466,12 @@
 19	and	and	CCONJ	CC	_	20	cc	_	start_char=2003|end_char=2006
 20	shooting	shoot	VERB	VBG	Tense=Pres|VerbForm=Part	14	conj	_	start_char=2007|end_char=2015
 21	an	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	start_char=2016|end_char=2018
-22	arrow	arrow	NOUN	NN	Number=Sing	20	obj	_	start_char=2019|end_char=2024|SpaceAfter=No
+22	arrow	arrow	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No|start_char=2019|end_char=2024
 23	,	,	PUNCT	,	_	24	punct	_	start_char=2024|end_char=2025
 24	and	and	CCONJ	CC	_	30	cc	_	start_char=2026|end_char=2029
 25	with	with	ADP	IN	_	27	case	_	start_char=2030|end_char=2034
 26	that	that	DET	DT	Number=Sing|PronType=Dem	27	det	_	start_char=2035|end_char=2039
-27	arrow	arrow	NOUN	NN	Number=Sing	30	obl	_	start_char=2040|end_char=2045|SpaceAfter=No
+27	arrow	arrow	NOUN	NN	Number=Sing	30	obl	_	SpaceAfter=No|start_char=2040|end_char=2045
 28	,	,	PUNCT	,	_	27	punct	_	start_char=2045|end_char=2046
 29	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	nsubj	_	start_char=2047|end_char=2048
 30	hit	hit	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj	_	start_char=2049|end_char=2052
@@ -485,7 +484,7 @@
 36	size	size	NOUN	NN	Number=Sing	32	acl:relcl	_	start_char=2073|end_char=2077
 37	of	of	ADP	IN	_	39	case	_	start_char=2078|end_char=2080
 38	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	start_char=2081|end_char=2082
-39	quarter	quarter	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	36	nmod	_	start_char=2083|end_char=2090|SpaceAfter=No
+39	quarter	quarter	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	36	nmod	_	SpaceAfter=No|start_char=2083|end_char=2090
 40	,	,	PUNCT	,	_	50	punct	_	start_char=2090|end_char=2091
 41	and	and	CCONJ	CC	_	50	cc	_	start_char=2092|end_char=2095
 42	that	that	DET	DT	Number=Sing|PronType=Dem	43	det	_	start_char=2096|end_char=2100
@@ -494,20 +493,20 @@
 45	size	size	NOUN	NN	Number=Sing	50	nsubj	_	start_char=2112|end_char=2116
 46	of	of	ADP	IN	_	48	case	_	start_char=2117|end_char=2119
 47	a	a	DET	DT	Definite=Ind|PronType=Art	48	det	_	start_char=2120|end_char=2121
-48	quarter	quarter	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	45	nmod	_	start_char=2122|end_char=2129
+48	quarter	quarter	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	45	nmod	_	start_char=2122|end_char=2129
 49	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	aux	_	start_char=2130|end_char=2132
 50	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part	30	conj	_	start_char=2133|end_char=2140
 51	in	in	ADP	IN	_	53	case	_	start_char=2141|end_char=2143
 52	Times	Times	PROPN	NNP	Number=Sing	53	compound	_	start_char=2144|end_char=2149
-53	Square	Square	PROPN	NNP	Number=Sing	50	obl	_	start_char=2150|end_char=2156|SpaceAfter=No
+53	Square	Square	PROPN	NNP	Number=Sing	50	obl	_	SpaceAfter=No|start_char=2150|end_char=2156
 54	,	,	PUNCT	,	_	56	punct	_	start_char=2156|end_char=2157
 55	New	New	ADJ	NNP	Degree=Pos	56	amod	_	start_char=2158|end_char=2161
-56	York	York	PROPN	NNP	Number=Sing	53	appos	_	start_char=2162|end_char=2166|SpaceAfter=No
-57	.	.	PUNCT	.	_	2	punct	_	start_char=2166|end_char=2167|SpacesAfter=\n\n
+56	York	York	PROPN	NNP	Number=Sing	53	appos	_	SpaceAfter=No|start_char=2162|end_char=2166
+57	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=2166|end_char=2167
 
 # text = Now, I have the opportunity to adjust the course of my spacecraft a few times along that trajectory, but in order to do that, I need to know where it is.
 # sent_id = 20
-1	Now	now	ADV	RB	_	4	advmod	_	start_char=2169|end_char=2172|SpaceAfter=No
+1	Now	now	ADV	RB	_	4	advmod	_	SpaceAfter=No|start_char=2169|end_char=2172
 2	,	,	PUNCT	,	_	1	punct	_	start_char=2172|end_char=2173
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=2174|end_char=2175
 4	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2176|end_char=2180
@@ -525,14 +524,14 @@
 16	times	time	NOUN	NNS	Number=Plur	8	obl:unmarked	_	start_char=2241|end_char=2246
 17	along	along	ADP	IN	_	19	case	_	start_char=2247|end_char=2252
 18	that	that	DET	DT	Number=Sing|PronType=Dem	19	det	_	start_char=2253|end_char=2257
-19	trajectory	trajectory	NOUN	NN	Number=Sing	8	obl	_	start_char=2258|end_char=2268|SpaceAfter=No
+19	trajectory	trajectory	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No|start_char=2258|end_char=2268
 20	,	,	PUNCT	,	_	29	punct	_	start_char=2268|end_char=2269
 21	but	but	CCONJ	CC	_	29	cc	_	start_char=2270|end_char=2273
 22	in	in	SCONJ	IN	_	25	mark	_	start_char=2274|end_char=2276
 23	order	order	NOUN	NN	Number=Sing	22	fixed	_	start_char=2277|end_char=2282
 24	to	to	PART	TO	_	25	mark	_	start_char=2283|end_char=2285
 25	do	do	VERB	VB	VerbForm=Inf	29	advcl	_	start_char=2286|end_char=2288
-26	that	that	PRON	DT	Number=Sing|PronType=Dem	25	obj	_	start_char=2289|end_char=2293|SpaceAfter=No
+26	that	that	PRON	DT	Number=Sing|PronType=Dem	25	obj	_	SpaceAfter=No|start_char=2289|end_char=2293
 27	,	,	PUNCT	,	_	25	punct	_	start_char=2293|end_char=2294
 28	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	start_char=2295|end_char=2296
 29	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=2297|end_char=2301
@@ -540,8 +539,8 @@
 31	know	know	VERB	VB	VerbForm=Inf	29	xcomp	_	start_char=2305|end_char=2309
 32	where	where	ADV	WRB	PronType=Int	31	obj	_	start_char=2310|end_char=2315
 33	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	start_char=2316|end_char=2318
-34	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	start_char=2319|end_char=2321|SpaceAfter=No
-35	.	.	PUNCT	.	_	4	punct	_	start_char=2321|end_char=2322|SpacesAfter=\n\n
+34	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	SpaceAfter=No|start_char=2319|end_char=2321
+35	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=2321|end_char=2322
 
 # text = And tracking a spacecraft as it travels through deep space is fundamentally a problem of measuring time.
 # sent_id = 21
@@ -561,13 +560,13 @@
 14	problem	problem	NOUN	NN	Number=Sing	0	root	_	start_char=2402|end_char=2409
 15	of	of	SCONJ	IN	_	16	mark	_	start_char=2410|end_char=2412
 16	measuring	measure	VERB	VBG	VerbForm=Ger	14	acl	_	start_char=2413|end_char=2422
-17	time	time	NOUN	NN	Number=Sing	16	obj	_	start_char=2423|end_char=2427|SpaceAfter=No
-18	.	.	PUNCT	.	_	14	punct	_	start_char=2427|end_char=2428|SpacesAfter=\n\n
+17	time	time	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No|start_char=2423|end_char=2427
+18	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\n\n|start_char=2427|end_char=2428
 
 # text = You see, I can't just pull out my ruler and measure how far away my spacecraft is.
 # sent_id = 22
 1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	start_char=2430|end_char=2433
-2	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	parataxis	_	start_char=2434|end_char=2437|SpaceAfter=No
+2	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	parataxis	_	SpaceAfter=No|start_char=2434|end_char=2437
 3	,	,	PUNCT	,	_	2	punct	_	start_char=2437|end_char=2438
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=2439|end_char=2440
 5-6	can't	_	_	_	_	_	_	_	start_char=2441|end_char=2446
@@ -585,8 +584,8 @@
 16	away	away	ADV	RB	_	13	ccomp	_	start_char=2490|end_char=2494
 17	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	start_char=2495|end_char=2497
 18	spacecraft	spacecraft	NOUN	NN	Number=Sing	19	nsubj	_	start_char=2498|end_char=2508
-19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=2509|end_char=2511|SpaceAfter=No
-20	.	.	PUNCT	.	_	8	punct	_	start_char=2511|end_char=2512|SpacesAfter=\n\n
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	SpaceAfter=No|start_char=2509|end_char=2511
+20	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n\n|start_char=2511|end_char=2512
 
 # text = But I can measure how long it takes a signal to get there and back again.
 # sent_id = 23
@@ -605,8 +604,8 @@
 13	there	there	ADV	RB	PronType=Dem	12	advmod	_	start_char=2566|end_char=2571
 14	and	and	CCONJ	CC	_	15	cc	_	start_char=2572|end_char=2575
 15	back	back	ADV	RB	_	16	advmod	_	start_char=2576|end_char=2580
-16	again	again	ADV	RB	_	12	conj	_	start_char=2581|end_char=2586|SpaceAfter=No
-17	.	.	PUNCT	.	_	4	punct	_	start_char=2586|end_char=2587|SpacesAfter=\n\n
+16	again	again	ADV	RB	_	12	conj	_	SpaceAfter=No|start_char=2581|end_char=2586
+17	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=2586|end_char=2587
 
 # text = And the concept is exactly the same as an echo.
 # sent_id = 24
@@ -619,8 +618,8 @@
 7	same	same	ADJ	JJ	Degree=Pos	0	root	_	start_char=2620|end_char=2624
 8	as	as	ADP	IN	_	10	case	_	start_char=2625|end_char=2627
 9	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=2628|end_char=2630
-10	echo	echo	NOUN	NN	Number=Sing	7	obl	_	start_char=2631|end_char=2635|SpaceAfter=No
-11	.	.	PUNCT	.	_	7	punct	_	start_char=2635|end_char=2636|SpacesAfter=\n\n
+10	echo	echo	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No|start_char=2631|end_char=2635
+11	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=2635|end_char=2636
 
 # text = If I stand in front of a mountain and I shout, the longer it takes for me to hear my echo back at me, the further away that mountain is.
 # sent_id = 25
@@ -634,7 +633,7 @@
 8	mountain	mountain	NOUN	NN	Number=Sing	5	nmod	_	start_char=2663|end_char=2671
 9	and	and	CCONJ	CC	_	11	cc	_	start_char=2672|end_char=2675
 10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=2676|end_char=2677
-11	shout	shout	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=2678|end_char=2683|SpaceAfter=No
+11	shout	shout	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No|start_char=2678|end_char=2683
 12	,	,	PUNCT	,	_	3	punct	_	start_char=2683|end_char=2684
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=2685|end_char=2688
 14	longer	long	ADJ	JJR	Degree=Cmp	11	obj	_	start_char=2689|end_char=2695
@@ -648,15 +647,15 @@
 22	echo	echo	NOUN	NN	Number=Sing	20	obj	_	start_char=2723|end_char=2727
 23	back	back	ADV	RB	_	20	advmod	_	start_char=2728|end_char=2732
 24	at	at	ADP	IN	_	25	case	_	start_char=2733|end_char=2735
-25	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	20	obl	_	start_char=2736|end_char=2738|SpaceAfter=No
+25	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	20	obl	_	SpaceAfter=No|start_char=2736|end_char=2738
 26	,	,	PUNCT	,	_	3	punct	_	start_char=2738|end_char=2739
 27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	start_char=2740|end_char=2743
 28	further	far	ADV	RB	Degree=Cmp	29	advmod	_	start_char=2744|end_char=2751
 29	away	away	ADV	RB	_	0	root	_	start_char=2752|end_char=2756
 30	that	that	DET	DT	Number=Sing|PronType=Dem	31	det	_	start_char=2757|end_char=2761
 31	mountain	mountain	NOUN	NN	Number=Sing	32	nsubj	_	start_char=2762|end_char=2770
-32	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	start_char=2771|end_char=2773|SpaceAfter=No
-33	.	.	PUNCT	.	_	29	punct	_	start_char=2773|end_char=2774|SpacesAfter=\n\n
+32	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	SpaceAfter=No|start_char=2771|end_char=2773
+33	.	.	PUNCT	.	_	29	punct	_	SpacesAfter=\n\n|start_char=2773|end_char=2774
 
 # text = So we measure that signal time very, very accurately, because getting it wrong by just a tiny fraction of a second might mean the difference between your spacecraft safely and gently landing on the surface of another planet or creating yet another crater on that surface.
 # sent_id = 26
@@ -666,10 +665,10 @@
 4	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	start_char=2790|end_char=2794
 5	signal	signal	NOUN	NN	Number=Sing	6	compound	_	start_char=2795|end_char=2801
 6	time	time	NOUN	NN	Number=Sing	3	obj	_	start_char=2802|end_char=2806
-7	very	very	ADV	RB	_	3	advmod	_	start_char=2807|end_char=2811|SpaceAfter=No
+7	very	very	ADV	RB	_	3	advmod	_	SpaceAfter=No|start_char=2807|end_char=2811
 8	,	,	PUNCT	,	_	10	punct	_	start_char=2811|end_char=2812
 9	very	very	ADV	RB	_	10	advmod	_	start_char=2813|end_char=2817
-10	accurately	accurately	ADV	RB	Degree=Pos	3	advmod	_	start_char=2818|end_char=2828|SpaceAfter=No
+10	accurately	accurately	ADV	RB	Degree=Pos	3	advmod	_	SpaceAfter=No|start_char=2818|end_char=2828
 11	,	,	PUNCT	,	_	25	punct	_	start_char=2828|end_char=2829
 12	because	because	SCONJ	IN	_	25	mark	_	start_char=2830|end_char=2837
 13	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	25	csubj	_	start_char=2838|end_char=2845
@@ -682,7 +681,7 @@
 20	fraction	fraction	NOUN	NN	Number=Sing	13	obl	_	start_char=2870|end_char=2878
 21	of	of	ADP	IN	_	23	case	_	start_char=2879|end_char=2881
 22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	start_char=2882|end_char=2883
-23	second	second	NOUN	NN	NumForm=Word|Number=Sing	20	nmod	_	start_char=2884|end_char=2890
+23	second	second	NOUN	NN	Number=Sing|NumForm=Word	20	nmod	_	start_char=2884|end_char=2890
 24	might	might	AUX	MD	VerbForm=Fin	25	aux	_	start_char=2891|end_char=2896
 25	mean	mean	VERB	VB	VerbForm=Inf	3	advcl	_	start_char=2897|end_char=2901
 26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	start_char=2902|end_char=2905
@@ -707,8 +706,8 @@
 45	crater	crater	NOUN	NN	Number=Sing	42	obj	_	start_char=3024|end_char=3030
 46	on	on	ADP	IN	_	48	case	_	start_char=3031|end_char=3033
 47	that	that	DET	DT	Number=Sing|PronType=Dem	48	det	_	start_char=3034|end_char=3038
-48	surface	surface	NOUN	NN	Number=Sing	42	obl	_	start_char=3039|end_char=3046|SpaceAfter=No
-49	.	.	PUNCT	.	_	3	punct	_	start_char=3046|end_char=3047|SpacesAfter=\n\n
+48	surface	surface	NOUN	NN	Number=Sing	42	obl	_	SpaceAfter=No|start_char=3039|end_char=3046
+49	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=3046|end_char=3047
 
 # text = Just a tiny fraction of a second, and it can be the difference between a mission's life or death.
 # sent_id = 27
@@ -718,7 +717,7 @@
 4	fraction	fraction	NOUN	NN	Number=Sing	0	root	_	start_char=3061|end_char=3069
 5	of	of	ADP	IN	_	7	case	_	start_char=3070|end_char=3072
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=3073|end_char=3074
-7	second	second	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	4	nmod	_	start_char=3075|end_char=3081|SpaceAfter=No
+7	second	second	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	4	nmod	_	SpaceAfter=No|start_char=3075|end_char=3081
 8	,	,	PUNCT	,	_	14	punct	_	start_char=3081|end_char=3082
 9	and	and	CCONJ	CC	_	14	cc	_	start_char=3083|end_char=3086
 10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=3087|end_char=3089
@@ -733,8 +732,8 @@
 18	's	's	PART	POS	_	17	case	_	start_char=3129|end_char=3131
 19	life	life	NOUN	NN	Number=Sing	14	nmod	_	start_char=3132|end_char=3136
 20	or	or	CCONJ	CC	_	21	cc	_	start_char=3137|end_char=3139
-21	death	death	NOUN	NN	Number=Sing	19	conj	_	start_char=3140|end_char=3145|SpaceAfter=No
-22	.	.	PUNCT	.	_	4	punct	_	start_char=3145|end_char=3146|SpacesAfter=\n\n
+21	death	death	NOUN	NN	Number=Sing	19	conj	_	SpaceAfter=No|start_char=3140|end_char=3145
+22	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=3145|end_char=3146
 
 # text = So we measure that signal time very, very accurately here on Earth, down to better than one-billionth of a second.
 # sent_id = 28
@@ -744,25 +743,25 @@
 4	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	start_char=3162|end_char=3166
 5	signal	signal	NOUN	NN	Number=Sing	6	compound	_	start_char=3167|end_char=3173
 6	time	time	NOUN	NN	Number=Sing	3	obj	_	start_char=3174|end_char=3178
-7	very	very	ADV	RB	_	3	advmod	_	start_char=3179|end_char=3183|SpaceAfter=No
+7	very	very	ADV	RB	_	3	advmod	_	SpaceAfter=No|start_char=3179|end_char=3183
 8	,	,	PUNCT	,	_	7	punct	_	start_char=3183|end_char=3184
 9	very	very	ADV	RB	_	10	advmod	_	start_char=3185|end_char=3189
 10	accurately	accurately	ADV	RB	Degree=Pos	11	advmod	_	start_char=3190|end_char=3200
 11	here	here	ADV	RB	PronType=Dem	3	advmod	_	start_char=3201|end_char=3205
 12	on	on	ADP	IN	_	13	case	_	start_char=3206|end_char=3208
-13	Earth	Earth	PROPN	NNP	Number=Sing	11	obl	_	start_char=3209|end_char=3214|SpaceAfter=No
+13	Earth	Earth	PROPN	NNP	Number=Sing	11	obl	_	SpaceAfter=No|start_char=3209|end_char=3214
 14	,	,	PUNCT	,	_	15	punct	_	start_char=3214|end_char=3215
 15	down	down	ADV	RB	_	3	advmod	_	start_char=3216|end_char=3220
 16	to	to	ADP	IN	_	17	case	_	start_char=3221|end_char=3223
 17	better	good	ADJ	JJR	Degree=Cmp	15	obl	_	start_char=3224|end_char=3230
 18	than	than	ADP	IN	_	21	case	_	start_char=3231|end_char=3235
-19	one	one	NUM	CD	NumForm=Word|NumType=Card	21	nummod	_	start_char=3236|end_char=3239|SpaceAfter=No
-20	-	-	PUNCT	HYPH	_	19	punct	_	start_char=3239|end_char=3240|SpaceAfter=No
+19	one	one	NUM	CD	NumForm=Word|NumType=Card	21	nummod	_	SpaceAfter=No|start_char=3236|end_char=3239
+20	-	-	PUNCT	HYPH	_	19	punct	_	SpaceAfter=No|start_char=3239|end_char=3240
 21	billionth	billionth	NOUN	NN	Number=Sing	17	obl	_	start_char=3240|end_char=3249
 22	of	of	ADP	IN	_	24	case	_	start_char=3250|end_char=3252
 23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	start_char=3253|end_char=3254
-24	second	second	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	21	nmod	_	start_char=3255|end_char=3261|SpaceAfter=No
-25	.	.	PUNCT	.	_	3	punct	_	start_char=3261|end_char=3262|SpacesAfter=\n\n
+24	second	second	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	21	nmod	_	SpaceAfter=No|start_char=3255|end_char=3261
+25	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=3261|end_char=3262
 
 # text = But it has to be measured here on Earth.
 # sent_id = 29
@@ -774,8 +773,8 @@
 6	measured	measure	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	xcomp	_	start_char=3281|end_char=3289
 7	here	here	ADV	RB	PronType=Dem	6	advmod	_	start_char=3290|end_char=3294
 8	on	on	ADP	IN	_	9	case	_	start_char=3295|end_char=3297
-9	Earth	Earth	PROPN	NNP	Number=Sing	6	obl	_	start_char=3298|end_char=3303|SpaceAfter=No
-10	.	.	PUNCT	.	_	3	punct	_	start_char=3303|end_char=3304|SpacesAfter=\n\n
+9	Earth	Earth	PROPN	NNP	Number=Sing	6	obl	_	SpaceAfter=No|start_char=3298|end_char=3303
+10	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=3303|end_char=3304
 
 # text = There's this great imbalance of scale when it comes to deep space exploration.
 # sent_id = 30
@@ -793,12 +792,12 @@
 11	to	to	ADP	IN	_	14	case	_	start_char=3358|end_char=3360
 12	deep	deep	ADJ	JJ	Degree=Pos	14	amod	_	start_char=3361|end_char=3365
 13	space	space	NOUN	NN	Number=Sing	14	compound	_	start_char=3366|end_char=3371
-14	exploration	exploration	NOUN	NN	Number=Sing	10	obl	_	start_char=3372|end_char=3383|SpaceAfter=No
-15	.	.	PUNCT	.	_	2	punct	_	start_char=3383|end_char=3384|SpacesAfter=\n\n
+14	exploration	exploration	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No|start_char=3372|end_char=3383
+15	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=3383|end_char=3384
 
 # text = Historically, we have been able to send smallish things extremely far away, thanks to very large things here on our home planet.
 # sent_id = 31
-1	Historically	historically	ADV	RB	Degree=Pos	6	advmod	_	start_char=3386|end_char=3398|SpaceAfter=No
+1	Historically	historically	ADV	RB	Degree=Pos	6	advmod	_	SpaceAfter=No|start_char=3386|end_char=3398
 2	,	,	PUNCT	,	_	1	punct	_	start_char=3398|end_char=3399
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=3400|end_char=3402
 4	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=3403|end_char=3407
@@ -810,7 +809,7 @@
 10	things	thing	NOUN	NNS	Number=Plur	8	obj	_	start_char=3435|end_char=3441
 11	extremely	extremely	ADV	RB	_	12	advmod	_	start_char=3442|end_char=3451
 12	far	far	ADV	RB	Degree=Pos	13	advmod	_	start_char=3452|end_char=3455
-13	away	away	ADV	RB	_	8	advmod	_	start_char=3456|end_char=3460|SpaceAfter=No
+13	away	away	ADV	RB	_	8	advmod	_	SpaceAfter=No|start_char=3456|end_char=3460
 14	,	,	PUNCT	,	_	15	punct	_	start_char=3460|end_char=3461
 15	thanks	thanks	NOUN	NN	Number=Sing	6	parataxis	_	start_char=3462|end_char=3468
 16	to	to	ADP	IN	_	19	case	_	start_char=3469|end_char=3471
@@ -821,14 +820,14 @@
 21	on	on	ADP	IN	_	24	case	_	start_char=3495|end_char=3497
 22	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	_	start_char=3498|end_char=3501
 23	home	home	NOUN	NN	Number=Sing	24	compound	_	start_char=3502|end_char=3506
-24	planet	planet	NOUN	NN	Number=Sing	19	nmod	_	start_char=3507|end_char=3513|SpaceAfter=No
-25	.	.	PUNCT	.	_	6	punct	_	start_char=3513|end_char=3514|SpacesAfter=\n\n
+24	planet	planet	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No|start_char=3507|end_char=3513
+25	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=3513|end_char=3514
 
 # text = As an example, this is the size of a satellite dish that we use to talk to these spacecraft in deep space.
 # sent_id = 32
 1	As	as	ADP	IN	_	3	case	_	start_char=3516|end_char=3518
 2	an	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=3519|end_char=3521
-3	example	example	NOUN	NN	Number=Sing	8	obl	_	start_char=3522|end_char=3529|SpaceAfter=No
+3	example	example	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No|start_char=3522|end_char=3529
 4	,	,	PUNCT	,	_	3	punct	_	start_char=3529|end_char=3530
 5	this	this	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	_	start_char=3531|end_char=3535
 6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=3536|end_char=3538
@@ -848,8 +847,8 @@
 20	spacecraft	spacecraft	NOUN	NN	Number=Sing	17	obl	_	start_char=3597|end_char=3607
 21	in	in	ADP	IN	_	23	case	_	start_char=3608|end_char=3610
 22	deep	deep	ADJ	JJ	Degree=Pos	23	amod	_	start_char=3611|end_char=3615
-23	space	space	NOUN	NN	Number=Sing	17	obl	_	start_char=3616|end_char=3621|SpaceAfter=No
-24	.	.	PUNCT	.	_	8	punct	_	start_char=3621|end_char=3622|SpacesAfter=\n\n
+23	space	space	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No|start_char=3616|end_char=3621
+24	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n\n|start_char=3621|end_char=3622
 
 # text = And the atomic clocks that we use for navigation are also large.
 # sent_id = 33
@@ -864,8 +863,8 @@
 9	navigation	navigation	NOUN	NN	Number=Sing	7	obl	_	start_char=3662|end_char=3672
 10	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=3673|end_char=3676
 11	also	also	ADV	RB	_	12	advmod	_	start_char=3677|end_char=3681
-12	large	large	ADJ	JJ	Degree=Pos	0	root	_	start_char=3682|end_char=3687|SpaceAfter=No
-13	.	.	PUNCT	.	_	12	punct	_	start_char=3687|end_char=3688|SpacesAfter=\n\n
+12	large	large	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No|start_char=3682|end_char=3687
+13	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n\n|start_char=3687|end_char=3688
 
 # text = The clocks and all of their supporting hardware can be up to the size of a refrigerator.
 # sent_id = 34
@@ -885,12 +884,12 @@
 14	size	size	NOUN	NN	Number=Sing	11	obl	_	start_char=3755|end_char=3759
 15	of	of	ADP	IN	_	17	case	_	start_char=3760|end_char=3762
 16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	start_char=3763|end_char=3764
-17	refrigerator	refrigerator	NOUN	NN	Number=Sing	14	nmod	_	start_char=3765|end_char=3777|SpaceAfter=No
-18	.	.	PUNCT	.	_	14	punct	_	start_char=3777|end_char=3778|SpacesAfter=\n\n
+17	refrigerator	refrigerator	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No|start_char=3765|end_char=3777
+18	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\n\n|start_char=3777|end_char=3778
 
 # text = Now, if we even want to talk about sending that capability into deep space, that refrigerator needs to shrink down into something that can fit inside the produce drawer.
 # sent_id = 35
-1	Now	now	ADV	RB	_	19	advmod	_	start_char=3780|end_char=3783|SpaceAfter=No
+1	Now	now	ADV	RB	_	19	advmod	_	SpaceAfter=No|start_char=3780|end_char=3783
 2	,	,	PUNCT	,	_	1	punct	_	start_char=3783|end_char=3784
 3	if	if	SCONJ	IN	_	6	mark	_	start_char=3785|end_char=3787
 4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=3788|end_char=3790
@@ -904,7 +903,7 @@
 12	capability	capability	NOUN	NN	Number=Sing	10	obj	_	start_char=3828|end_char=3838
 13	into	into	ADP	IN	_	15	case	_	start_char=3839|end_char=3843
 14	deep	deep	ADJ	JJ	Degree=Pos	15	amod	_	start_char=3844|end_char=3848
-15	space	space	NOUN	NN	Number=Sing	10	obl	_	start_char=3849|end_char=3854|SpaceAfter=No
+15	space	space	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No|start_char=3849|end_char=3854
 16	,	,	PUNCT	,	_	6	punct	_	start_char=3854|end_char=3855
 17	that	that	DET	DT	Number=Sing|PronType=Dem	18	det	_	start_char=3856|end_char=3860
 18	refrigerator	refrigerator	NOUN	NN	Number=Sing	19	nsubj	_	start_char=3861|end_char=3873
@@ -920,8 +919,8 @@
 28	inside	inside	ADP	IN	_	31	case	_	start_char=3923|end_char=3929
 29	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	start_char=3930|end_char=3933
 30	produce	produce	NOUN	NN	Number=Sing	31	compound	_	start_char=3934|end_char=3941
-31	drawer	drawer	NOUN	NN	Number=Sing	27	obl	_	start_char=3942|end_char=3948|SpaceAfter=No
-32	.	.	PUNCT	.	_	19	punct	_	start_char=3948|end_char=3949|SpacesAfter=\n\n
+31	drawer	drawer	NOUN	NN	Number=Sing	27	obl	_	SpaceAfter=No|start_char=3942|end_char=3948
+32	.	.	PUNCT	.	_	19	punct	_	SpacesAfter=\n\n|start_char=3948|end_char=3949
 
 # text = So why does this matter?
 # sent_id = 36
@@ -929,12 +928,12 @@
 2	why	why	ADV	WRB	PronType=Int	5	advmod	_	start_char=3954|end_char=3957
 3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=3958|end_char=3962
 4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	start_char=3963|end_char=3967
-5	matter	matter	NOUN	NN	Number=Sing	0	root	_	start_char=3968|end_char=3974|SpaceAfter=No
-6	?	?	PUNCT	.	_	5	punct	_	start_char=3974|end_char=3975|SpacesAfter=\n\n
+5	matter	matter	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=3968|end_char=3974
+6	?	?	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=3974|end_char=3975
 
 # text = Well, let's revisit one of our intrepid explorers, Voyager 1.
 # sent_id = 37
-1	Well	well	INTJ	UH	_	3	discourse	_	start_char=3977|end_char=3981|SpaceAfter=No
+1	Well	well	INTJ	UH	_	3	discourse	_	SpaceAfter=No|start_char=3977|end_char=3981
 2	,	,	PUNCT	,	_	1	punct	_	start_char=3981|end_char=3982
 3-4	let's	_	_	_	_	_	_	_	start_char=3983|end_char=3988
 3	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=3983|end_char=3986
@@ -944,11 +943,11 @@
 7	of	of	ADP	IN	_	10	case	_	start_char=4001|end_char=4003
 8	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=4004|end_char=4007
 9	intrepid	intrepid	ADJ	JJ	Degree=Pos	10	amod	_	start_char=4008|end_char=4016
-10	explorers	explorer	NOUN	NNS	Number=Plur	6	nmod	_	start_char=4017|end_char=4026|SpaceAfter=No
+10	explorers	explorer	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No|start_char=4017|end_char=4026
 11	,	,	PUNCT	,	_	12	punct	_	start_char=4026|end_char=4027
 12	Voyager	Voyager	PROPN	NNP	Number=Sing	10	appos	_	start_char=4028|end_char=4035
-13	1	1	NUM	CD	NumForm=Digit|NumType=Card	12	dep	_	start_char=4036|end_char=4037|SpaceAfter=No
-14	.	.	PUNCT	.	_	3	punct	_	start_char=4037|end_char=4038|SpacesAfter=\n\n
+13	1	1	NUM	CD	NumForm=Digit|NumType=Card	12	dep	_	SpaceAfter=No|start_char=4036|end_char=4037
+14	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=4037|end_char=4038
 
 # text = Voyager 1 is just over 13 billion miles away right now.
 # sent_id = 38
@@ -962,14 +961,14 @@
 8	miles	mile	NOUN	NNS	Number=Plur	9	obl:unmarked	_	start_char=4074|end_char=4079
 9	away	away	ADV	RB	_	0	root	_	start_char=4080|end_char=4084
 10	right	right	ADV	RB	_	11	advmod	_	start_char=4085|end_char=4090
-11	now	now	ADV	RB	_	9	advmod	_	start_char=4091|end_char=4094|SpaceAfter=No
-12	.	.	PUNCT	.	_	9	punct	_	start_char=4094|end_char=4095|SpacesAfter=\n\n
+11	now	now	ADV	RB	_	9	advmod	_	SpaceAfter=No|start_char=4091|end_char=4094
+12	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n\n|start_char=4094|end_char=4095
 
 # text = As you know, it took over 40 years to get there, and it takes a signal traveling at the speed of light over 40 hours to get there and back again.
 # sent_id = 39
 1	As	as	SCONJ	IN	_	3	mark	_	start_char=4097|end_char=4099
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=4100|end_char=4103
-3	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	advcl	_	start_char=4104|end_char=4108|SpaceAfter=No
+3	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No|start_char=4104|end_char=4108
 4	,	,	PUNCT	,	_	3	punct	_	start_char=4108|end_char=4109
 5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	start_char=4110|end_char=4112
 6	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=4113|end_char=4117
@@ -978,7 +977,7 @@
 9	years	year	NOUN	NNS	Number=Plur	6	obj	_	start_char=4126|end_char=4131
 10	to	to	PART	TO	_	11	mark	_	start_char=4132|end_char=4134
 11	get	get	VERB	VB	VerbForm=Inf	6	csubj	_	start_char=4135|end_char=4138
-12	there	there	ADV	RB	PronType=Dem	11	advmod	_	start_char=4139|end_char=4144|SpaceAfter=No
+12	there	there	ADV	RB	PronType=Dem	11	advmod	_	SpaceAfter=No|start_char=4139|end_char=4144
 13	,	,	PUNCT	,	_	16	punct	_	start_char=4144|end_char=4145
 14	and	and	CCONJ	CC	_	16	cc	_	start_char=4146|end_char=4149
 15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	expl	_	start_char=4150|end_char=4152
@@ -999,8 +998,8 @@
 30	there	there	ADV	RB	PronType=Dem	29	advmod	_	start_char=4221|end_char=4226
 31	and	and	CCONJ	CC	_	33	cc	_	start_char=4227|end_char=4230
 32	back	back	ADV	RB	_	33	advmod	_	start_char=4231|end_char=4235
-33	again	again	ADV	RB	_	29	conj	_	start_char=4236|end_char=4241|SpaceAfter=No
-34	.	.	PUNCT	.	_	6	punct	_	start_char=4241|end_char=4242|SpacesAfter=\n\n
+33	again	again	ADV	RB	_	29	conj	_	SpaceAfter=No|start_char=4236|end_char=4241
+34	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=4241|end_char=4242
 
 # text = And here's the thing about these spacecraft: they move really fast.
 # sent_id = 40
@@ -1012,13 +1011,13 @@
 5	thing	thing	NOUN	NN	Number=Sing	2	nsubj	_	start_char=4259|end_char=4264
 6	about	about	ADP	IN	_	8	case	_	start_char=4265|end_char=4270
 7	these	this	DET	DT	Number=Plur|PronType=Dem	8	det	_	start_char=4271|end_char=4276
-8	spacecraft	spacecraft	NOUN	NN	Number=Sing	5	nmod	_	start_char=4277|end_char=4287|SpaceAfter=No
+8	spacecraft	spacecraft	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No|start_char=4277|end_char=4287
 9	:	:	PUNCT	:	_	11	punct	_	start_char=4287|end_char=4288
 10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=4289|end_char=4293
 11	move	move	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=4294|end_char=4298
 12	really	really	ADV	RB	_	13	advmod	_	start_char=4299|end_char=4305
-13	fast	fast	ADJ	JJ	Degree=Pos	11	advmod	_	start_char=4306|end_char=4310|SpaceAfter=No
-14	.	.	PUNCT	.	_	2	punct	_	start_char=4310|end_char=4311|SpacesAfter=\n\n
+13	fast	fast	ADJ	JJ	Degree=Pos	11	advmod	_	SpaceAfter=No|start_char=4306|end_char=4310
+14	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=4310|end_char=4311
 
 # text = And Voyager 1 doesn't stop and wait for us to send directions from Earth.
 # sent_id = 41
@@ -1037,16 +1036,16 @@
 12	send	send	VERB	VB	VerbForm=Inf	8	advcl	_	start_char=4359|end_char=4363
 13	directions	direction	NOUN	NNS	Number=Plur	12	obj	_	start_char=4364|end_char=4374
 14	from	from	ADP	IN	_	15	case	_	start_char=4375|end_char=4379
-15	Earth	Earth	PROPN	NNP	Number=Sing	12	obl	_	start_char=4380|end_char=4385|SpaceAfter=No
-16	.	.	PUNCT	.	_	6	punct	_	start_char=4385|end_char=4386|SpacesAfter=\n\n
+15	Earth	Earth	PROPN	NNP	Number=Sing	12	obl	_	SpaceAfter=No|start_char=4380|end_char=4385
+16	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=4385|end_char=4386
 
 # text = Voyager 1 keeps moving.
 # sent_id = 42
 1	Voyager	Voyager	PROPN	NNP	Number=Sing	3	nsubj	_	start_char=4388|end_char=4395
 2	1	1	NUM	CD	NumForm=Digit|NumType=Card	1	nummod	_	start_char=4396|end_char=4397
 3	keeps	keep	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4398|end_char=4403
-4	moving	move	VERB	VBG	VerbForm=Ger	3	xcomp	_	start_char=4404|end_char=4410|SpaceAfter=No
-5	.	.	PUNCT	.	_	3	punct	_	start_char=4410|end_char=4411|SpacesAfter=\n\n
+4	moving	move	VERB	VBG	VerbForm=Ger	3	xcomp	_	SpaceAfter=No|start_char=4404|end_char=4410
+5	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=4410|end_char=4411
 
 # text = In that 40 hours that we are waiting to hear that echo signal here on the Earth, Voyager 1 has moved on by about 1.5 million miles.
 # sent_id = 43
@@ -1066,7 +1065,7 @@
 14	here	here	ADV	RB	PronType=Dem	10	advmod	_	start_char=4475|end_char=4479
 15	on	on	ADP	IN	_	17	case	_	start_char=4480|end_char=4482
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=4483|end_char=4486
-17	Earth	Earth	PROPN	NNP	Number=Sing	10	obl	_	start_char=4487|end_char=4492|SpaceAfter=No
+17	Earth	Earth	PROPN	NNP	Number=Sing	10	obl	_	SpaceAfter=No|start_char=4487|end_char=4492
 18	,	,	PUNCT	,	_	4	punct	_	start_char=4492|end_char=4493
 19	Voyager	Voyager	PROPN	NNP	Number=Sing	22	nsubj	_	start_char=4494|end_char=4501
 20	1	1	NUM	CD	NumForm=Digit|NumType=Card	19	nummod	_	start_char=4502|end_char=4503
@@ -1077,8 +1076,8 @@
 25	about	about	ADV	RB	_	27	advmod	_	start_char=4520|end_char=4525
 26	1.5	1.5	NUM	CD	NumForm=Digit|NumType=Frac	27	compound	_	start_char=4526|end_char=4529
 27	million	million	NUM	CD	NumForm=Word|NumType=Card	28	nummod	_	start_char=4530|end_char=4537
-28	miles	mile	NOUN	NNS	Number=Plur	22	obl	_	start_char=4538|end_char=4543|SpaceAfter=No
-29	.	.	PUNCT	.	_	22	punct	_	start_char=4543|end_char=4544|SpacesAfter=\n\n
+28	miles	mile	NOUN	NNS	Number=Plur	22	obl	_	SpaceAfter=No|start_char=4538|end_char=4543
+29	.	.	PUNCT	.	_	22	punct	_	SpacesAfter=\n\n|start_char=4543|end_char=4544
 
 # text = It's 1.5 million miles further into largely uncharted territory.
 # sent_id = 44
@@ -1092,8 +1091,8 @@
 7	into	into	ADP	IN	_	10	case	_	start_char=4577|end_char=4581
 8	largely	largely	ADV	RB	_	9	advmod	_	start_char=4582|end_char=4589
 9	uncharted	uncharted	ADJ	JJ	Degree=Pos	10	amod	_	start_char=4590|end_char=4599
-10	territory	territory	NOUN	NN	Number=Sing	6	obl	_	start_char=4600|end_char=4609|SpaceAfter=No
-11	.	.	PUNCT	.	_	6	punct	_	start_char=4609|end_char=4610|SpacesAfter=\n\n
+10	territory	territory	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No|start_char=4600|end_char=4609
+11	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=4609|end_char=4610
 
 # text = So it would be great if we could measure that signal time directly at the spacecraft.
 # sent_id = 45
@@ -1112,8 +1111,8 @@
 13	directly	directly	ADV	RB	_	9	advmod	_	start_char=4670|end_char=4678
 14	at	at	ADP	IN	_	16	case	_	start_char=4679|end_char=4681
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=4682|end_char=4685
-16	spacecraft	spacecraft	NOUN	NN	Number=Sing	9	obl	_	start_char=4686|end_char=4696|SpaceAfter=No
-17	.	.	PUNCT	.	_	5	punct	_	start_char=4696|end_char=4697|SpacesAfter=\n\n
+16	spacecraft	spacecraft	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No|start_char=4686|end_char=4696
+17	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=4696|end_char=4697
 
 # text = But the miniaturization of atomic clock technology is... well, it's difficult.
 # sent_id = 46
@@ -1124,15 +1123,15 @@
 5	atomic	atomic	ADJ	JJ	Degree=Pos	7	amod	_	start_char=4726|end_char=4732
 6	clock	clock	NOUN	NN	Number=Sing	7	compound	_	start_char=4733|end_char=4738
 7	technology	technology	NOUN	NN	Number=Sing	3	nmod	_	start_char=4739|end_char=4749
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=4750|end_char=4752|SpaceAfter=No
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	SpaceAfter=No|start_char=4750|end_char=4752
 9	...	...	PUNCT	,	_	10	punct	_	start_char=4752|end_char=4755
-10	well	well	INTJ	UH	_	14	discourse	_	start_char=4756|end_char=4760|SpaceAfter=No
+10	well	well	INTJ	UH	_	14	discourse	_	SpaceAfter=No|start_char=4756|end_char=4760
 11	,	,	PUNCT	,	_	10	punct	_	start_char=4760|end_char=4761
 12-13	it's	_	_	_	_	_	_	_	start_char=4762|end_char=4766
 12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=4762|end_char=4764
 13	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=4764|end_char=4766
-14	difficult	difficult	ADJ	JJ	Degree=Pos	0	root	_	start_char=4767|end_char=4776|SpaceAfter=No
-15	.	.	PUNCT	.	_	14	punct	_	start_char=4776|end_char=4777|SpacesAfter=\n\n
+14	difficult	difficult	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No|start_char=4767|end_char=4776
+15	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\n\n|start_char=4776|end_char=4777
 
 # text = Not only does the clock technology and all the supporting hardware need to shrink down, but you also need to make it work.
 # sent_id = 47
@@ -1150,7 +1149,7 @@
 12	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4846|end_char=4850
 13	to	to	PART	TO	_	14	mark	_	start_char=4851|end_char=4853
 14	shrink	shrink	VERB	VB	VerbForm=Inf	12	xcomp	_	start_char=4854|end_char=4860
-15	down	down	ADP	RP	_	14	compound:prt	_	start_char=4861|end_char=4865|SpaceAfter=No
+15	down	down	ADP	RP	_	14	compound:prt	_	SpaceAfter=No|start_char=4861|end_char=4865
 16	,	,	PUNCT	,	_	20	punct	_	start_char=4865|end_char=4866
 17	but	but	CCONJ	CC	_	20	cc	_	start_char=4867|end_char=4870
 18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	nsubj	_	start_char=4871|end_char=4874
@@ -1159,8 +1158,8 @@
 21	to	to	PART	TO	_	22	mark	_	start_char=4885|end_char=4887
 22	make	make	VERB	VB	VerbForm=Inf	20	xcomp	_	start_char=4888|end_char=4892
 23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obj	_	start_char=4893|end_char=4895
-24	work	work	VERB	VB	VerbForm=Inf	22	xcomp	_	start_char=4896|end_char=4900|SpaceAfter=No
-25	.	.	PUNCT	.	_	12	punct	_	start_char=4900|end_char=4901|SpacesAfter=\n\n
+24	work	work	VERB	VB	VerbForm=Inf	22	xcomp	_	SpaceAfter=No|start_char=4896|end_char=4900
+25	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n\n|start_char=4900|end_char=4901
 
 # text = Space is an exceptionally harsh environment, and if one piece breaks on this instrument, it's not like we can just send a technician out to replace the piece and continue on our way.
 # sent_id = 48
@@ -1169,7 +1168,7 @@
 3	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=4912|end_char=4914
 4	exceptionally	exceptionally	ADV	RB	_	5	advmod	_	start_char=4915|end_char=4928
 5	harsh	harsh	ADJ	JJ	Degree=Pos	6	amod	_	start_char=4929|end_char=4934
-6	environment	environment	NOUN	NN	Number=Sing	0	root	_	start_char=4935|end_char=4946|SpaceAfter=No
+6	environment	environment	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=4935|end_char=4946
 7	,	,	PUNCT	,	_	8	punct	_	start_char=4946|end_char=4947
 8	and	and	CCONJ	CC	_	24	cc	_	start_char=4948|end_char=4951
 9	if	if	SCONJ	IN	_	12	mark	_	start_char=4952|end_char=4954
@@ -1178,7 +1177,7 @@
 12	breaks	break	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	start_char=4965|end_char=4971
 13	on	on	ADP	IN	_	15	case	_	start_char=4972|end_char=4974
 14	this	this	DET	DT	Number=Sing|PronType=Dem	15	det	_	start_char=4975|end_char=4979
-15	instrument	instrument	NOUN	NN	Number=Sing	12	obl	_	start_char=4980|end_char=4990|SpaceAfter=No
+15	instrument	instrument	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No|start_char=4980|end_char=4990
 16	,	,	PUNCT	,	_	12	punct	_	start_char=4990|end_char=4991
 17-18	it's	_	_	_	_	_	_	_	start_char=4992|end_char=4996
 17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj:outer	_	start_char=4992|end_char=4994
@@ -1200,8 +1199,8 @@
 33	continue	continue	VERB	VB	VerbForm=Inf	29	conj	_	start_char=5065|end_char=5073
 34	on	on	ADP	IN	_	36	case	_	start_char=5074|end_char=5076
 35	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	36	nmod:poss	_	start_char=5077|end_char=5080
-36	way	way	NOUN	NN	Number=Sing	33	obl	_	start_char=5081|end_char=5084|SpaceAfter=No
-37	.	.	PUNCT	.	_	6	punct	_	start_char=5084|end_char=5085|SpacesAfter=\n\n
+36	way	way	NOUN	NN	Number=Sing	33	obl	_	SpaceAfter=No|start_char=5081|end_char=5084
+37	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=5084|end_char=5085
 
 # text = The journeys that these spacecraft take can last months, years, even decades.
 # sent_id = 49
@@ -1213,13 +1212,13 @@
 6	take	take	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	start_char=5122|end_char=5126
 7	can	can	AUX	MD	VerbForm=Fin	8	aux	_	start_char=5127|end_char=5130
 8	last	last	VERB	VB	VerbForm=Inf	0	root	_	start_char=5131|end_char=5135
-9	months	month	NOUN	NNS	Number=Plur	8	obj	_	start_char=5136|end_char=5142|SpaceAfter=No
+9	months	month	NOUN	NNS	Number=Plur	8	obj	_	SpaceAfter=No|start_char=5136|end_char=5142
 10	,	,	PUNCT	,	_	11	punct	_	start_char=5142|end_char=5143
-11	years	year	NOUN	NNS	Number=Plur	8	obl:unmarked	_	start_char=5144|end_char=5149|SpaceAfter=No
+11	years	year	NOUN	NNS	Number=Plur	8	obl:unmarked	_	SpaceAfter=No|start_char=5144|end_char=5149
 12	,	,	PUNCT	,	_	14	punct	_	start_char=5149|end_char=5150
 13	even	even	ADV	RB	_	14	advmod	_	start_char=5151|end_char=5155
-14	decades	decade	NOUN	NNS	Number=Plur	8	obl:unmarked	_	start_char=5156|end_char=5163|SpaceAfter=No
-15	.	.	PUNCT	.	_	8	punct	_	start_char=5163|end_char=5164|SpacesAfter=\n\n
+14	decades	decade	NOUN	NNS	Number=Plur	8	obl:unmarked	_	SpaceAfter=No|start_char=5156|end_char=5163
+15	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n\n|start_char=5163|end_char=5164
 
 # text = And designing and building a precision instrument that can support that is as much an art as it is a science and an engineering.
 # sent_id = 50
@@ -1246,8 +1245,8 @@
 21	science	science	NOUN	NN	Number=Sing	16	advcl	_	start_char=5267|end_char=5274
 22	and	and	CCONJ	CC	_	24	cc	_	start_char=5275|end_char=5278
 23	an	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	start_char=5279|end_char=5281
-24	engineering	engineering	NOUN	NN	Number=Sing	21	conj	_	start_char=5282|end_char=5293|SpaceAfter=No
-25	.	.	PUNCT	.	_	2	punct	_	start_char=5293|end_char=5294|SpacesAfter=\n\n
+24	engineering	engineering	NOUN	NN	Number=Sing	21	conj	_	SpaceAfter=No|start_char=5282|end_char=5293
+25	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=5293|end_char=5294
 
 # text = But there is good news: we are making some amazing progress, and we're about to take our very first baby steps into a new age of atomic space clocks.
 # sent_id = 51
@@ -1255,14 +1254,14 @@
 2	there	there	PRON	EX	_	3	expl	_	start_char=5300|end_char=5305
 3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5306|end_char=5308
 4	good	good	ADJ	JJ	Degree=Pos	5	amod	_	start_char=5309|end_char=5313
-5	news	news	NOUN	NN	Number=Sing	3	nsubj	_	start_char=5314|end_char=5318|SpaceAfter=No
+5	news	news	NOUN	NN	Number=Sing	3	nsubj	_	SpaceAfter=No|start_char=5314|end_char=5318
 6	:	:	PUNCT	:	_	9	punct	_	start_char=5318|end_char=5319
 7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=5320|end_char=5322
 8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=5323|end_char=5326
 9	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	3	parataxis	_	start_char=5327|end_char=5333
 10	some	some	DET	DT	PronType=Ind	12	det	_	start_char=5334|end_char=5338
 11	amazing	amazing	ADJ	JJ	Degree=Pos	12	amod	_	start_char=5339|end_char=5346
-12	progress	progress	NOUN	NN	Number=Sing	9	obj	_	start_char=5347|end_char=5355|SpaceAfter=No
+12	progress	progress	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No|start_char=5347|end_char=5355
 13	,	,	PUNCT	,	_	17	punct	_	start_char=5355|end_char=5356
 14	and	and	CCONJ	CC	_	17	cc	_	start_char=5357|end_char=5360
 15-16	we're	_	_	_	_	_	_	_	start_char=5361|end_char=5366
@@ -1283,8 +1282,8 @@
 29	of	of	ADP	IN	_	32	case	_	start_char=5422|end_char=5424
 30	atomic	atomic	ADJ	JJ	Degree=Pos	32	amod	_	start_char=5425|end_char=5431
 31	space	space	NOUN	NN	Number=Sing	32	compound	_	start_char=5432|end_char=5437
-32	clocks	clock	NOUN	NNS	Number=Plur	28	nmod	_	start_char=5438|end_char=5444|SpaceAfter=No
-33	.	.	PUNCT	.	_	3	punct	_	start_char=5444|end_char=5445|SpacesAfter=\n\n
+32	clocks	clock	NOUN	NNS	Number=Plur	28	nmod	_	SpaceAfter=No|start_char=5438|end_char=5444
+33	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=5444|end_char=5445
 
 # text = Soon we will be launching an ion-based atomic clock that is space-suitable.
 # sent_id = 52
@@ -1294,17 +1293,17 @@
 4	be	be	AUX	VB	VerbForm=Inf	5	aux	_	start_char=5460|end_char=5462
 5	launching	launch	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=5463|end_char=5472
 6	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=5473|end_char=5475
-7	ion	ion	NOUN	NN	Number=Sing	9	compound	_	start_char=5476|end_char=5479|SpaceAfter=No
-8	-	-	PUNCT	HYPH	_	7	punct	_	start_char=5479|end_char=5480|SpaceAfter=No
+7	ion	ion	NOUN	NN	Number=Sing	9	compound	_	SpaceAfter=No|start_char=5476|end_char=5479
+8	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No|start_char=5479|end_char=5480
 9	based	base	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	start_char=5480|end_char=5485
 10	atomic	atomic	ADJ	JJ	Degree=Pos	11	amod	_	start_char=5486|end_char=5492
 11	clock	clock	NOUN	NN	Number=Sing	5	obj	_	start_char=5493|end_char=5498
 12	that	that	PRON	WDT	PronType=Rel	16	nsubj	_	start_char=5499|end_char=5503
 13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=5504|end_char=5506
-14	space	space	NOUN	NN	Number=Sing	16	compound	_	start_char=5507|end_char=5512|SpaceAfter=No
-15	-	-	PUNCT	HYPH	_	14	punct	_	start_char=5512|end_char=5513|SpaceAfter=No
-16	suitable	suitable	ADJ	JJ	Degree=Pos	11	acl:relcl	_	start_char=5513|end_char=5521|SpaceAfter=No
-17	.	.	PUNCT	.	_	5	punct	_	start_char=5521|end_char=5522|SpacesAfter=\n\n
+14	space	space	NOUN	NN	Number=Sing	16	compound	_	SpaceAfter=No|start_char=5507|end_char=5512
+15	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No|start_char=5512|end_char=5513
+16	suitable	suitable	ADJ	JJ	Degree=Pos	11	acl:relcl	_	SpaceAfter=No|start_char=5513|end_char=5521
+17	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=5521|end_char=5522
 
 # text = And this clock has the potential to completely flip the way we navigate.
 # sent_id = 53
@@ -1320,8 +1319,8 @@
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=5576|end_char=5579
 11	way	way	NOUN	NN	Number=Sing	9	obj	_	start_char=5580|end_char=5583
 12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	start_char=5584|end_char=5586
-13	navigate	navigate	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	start_char=5587|end_char=5595|SpaceAfter=No
-14	.	.	PUNCT	.	_	4	punct	_	start_char=5595|end_char=5596|SpacesAfter=\n\n
+13	navigate	navigate	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No|start_char=5587|end_char=5595
+14	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=5595|end_char=5596
 
 # text = This clock is so stable, it measures time so well, that if I put it right here and I turned it on, and I walked away, I would have to come back nine million years later for that clock's measurement to be off by one second.
 # sent_id = 54
@@ -1329,13 +1328,13 @@
 2	clock	clock	NOUN	NN	Number=Sing	5	nsubj	_	start_char=5603|end_char=5608
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=5609|end_char=5611
 4	so	so	ADV	RB	_	5	advmod	_	start_char=5612|end_char=5614
-5	stable	stable	ADJ	JJ	Degree=Pos	0	root	_	start_char=5615|end_char=5621|SpaceAfter=No
+5	stable	stable	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No|start_char=5615|end_char=5621
 6	,	,	PUNCT	,	_	8	punct	_	start_char=5621|end_char=5622
 7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=5623|end_char=5625
 8	measures	measure	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	start_char=5626|end_char=5634
 9	time	time	NOUN	NN	Number=Sing	8	obj	_	start_char=5635|end_char=5639
 10	so	so	ADV	RB	_	33	advmod	_	start_char=5640|end_char=5642
-11	well	well	INTJ	UH	_	33	discourse	_	start_char=5643|end_char=5647|SpaceAfter=No
+11	well	well	INTJ	UH	_	33	discourse	_	SpaceAfter=No|start_char=5643|end_char=5647
 12	,	,	PUNCT	,	_	11	punct	_	start_char=5647|end_char=5648
 13	that	that	SCONJ	IN	_	33	mark	_	start_char=5649|end_char=5653
 14	if	if	SCONJ	IN	_	16	mark	_	start_char=5654|end_char=5656
@@ -1348,12 +1347,12 @@
 21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	start_char=5681|end_char=5682
 22	turned	turn	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	16	conj	_	start_char=5683|end_char=5689
 23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obj	_	start_char=5690|end_char=5692
-24	on	on	ADP	RP	_	22	compound:prt	_	start_char=5693|end_char=5695|SpaceAfter=No
+24	on	on	ADP	RP	_	22	compound:prt	_	SpaceAfter=No|start_char=5693|end_char=5695
 25	,	,	PUNCT	,	_	28	punct	_	start_char=5695|end_char=5696
 26	and	and	CCONJ	CC	_	28	cc	_	start_char=5697|end_char=5700
 27	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	start_char=5701|end_char=5702
 28	walked	walk	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	16	conj	_	start_char=5703|end_char=5709
-29	away	away	ADV	RB	_	28	advmod	_	start_char=5710|end_char=5714|SpaceAfter=No
+29	away	away	ADV	RB	_	28	advmod	_	SpaceAfter=No|start_char=5710|end_char=5714
 30	,	,	PUNCT	,	_	16	punct	_	start_char=5714|end_char=5715
 31	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	33	nsubj	_	start_char=5716|end_char=5717
 32	would	would	AUX	MD	VerbForm=Fin	33	aux	_	start_char=5718|end_char=5723
@@ -1376,8 +1375,8 @@
 48	off	off	ADP	IN	_	35	advcl	_	start_char=5802|end_char=5805
 49	by	by	ADP	IN	_	51	case	_	start_char=5806|end_char=5808
 50	one	one	NUM	CD	NumForm=Word|NumType=Card	51	nummod	_	start_char=5809|end_char=5812
-51	second	second	NOUN	NN	NumForm=Word|Number=Sing	48	obl	_	start_char=5813|end_char=5819|SpaceAfter=No
-52	.	.	PUNCT	.	_	5	punct	_	start_char=5819|end_char=5820|SpacesAfter=\n\n
+51	second	second	NOUN	NN	Number=Sing|NumForm=Word	48	obl	_	SpaceAfter=No|start_char=5813|end_char=5819
+52	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=5819|end_char=5820
 
 # text = So what can we do with a clock like this?
 # sent_id = 55
@@ -1390,12 +1389,12 @@
 7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=5845|end_char=5846
 8	clock	clock	NOUN	NN	Number=Sing	5	obl	_	start_char=5847|end_char=5852
 9	like	like	ADP	IN	_	10	case	_	start_char=5853|end_char=5857
-10	this	this	PRON	DT	Number=Sing|PronType=Dem	8	nmod	_	start_char=5858|end_char=5862|SpaceAfter=No
-11	?	?	PUNCT	.	_	5	punct	_	start_char=5862|end_char=5863|SpacesAfter=\n\n
+10	this	this	PRON	DT	Number=Sing|PronType=Dem	8	nmod	_	SpaceAfter=No|start_char=5858|end_char=5862
+11	?	?	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=5862|end_char=5863
 
 # text = Well, instead of doing all of the spacecraft navigation here on the Earth, what if we let the spacecraft navigate themselves?
 # sent_id = 56
-1	Well	well	INTJ	UH	_	16	discourse	_	start_char=5865|end_char=5869|SpaceAfter=No
+1	Well	well	INTJ	UH	_	16	discourse	_	SpaceAfter=No|start_char=5865|end_char=5869
 2	,	,	PUNCT	,	_	1	punct	_	start_char=5869|end_char=5870
 3	instead	instead	ADV	RB	_	5	mark	_	start_char=5871|end_char=5878
 4	of	of	ADP	IN	_	3	fixed	_	start_char=5879|end_char=5881
@@ -1408,7 +1407,7 @@
 11	here	here	ADV	RB	PronType=Dem	10	advmod	_	start_char=5921|end_char=5925
 12	on	on	ADP	IN	_	14	case	_	start_char=5926|end_char=5928
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=5929|end_char=5932
-14	Earth	Earth	PROPN	NNP	Number=Sing	11	obl	_	start_char=5933|end_char=5938|SpaceAfter=No
+14	Earth	Earth	PROPN	NNP	Number=Sing	11	obl	_	SpaceAfter=No|start_char=5933|end_char=5938
 15	,	,	PUNCT	,	_	5	punct	_	start_char=5938|end_char=5939
 16	what	what	PRON	WP	PronType=Int	0	root	_	start_char=5940|end_char=5944
 17	if	if	SCONJ	IN	_	19	mark	_	start_char=5945|end_char=5947
@@ -1417,25 +1416,25 @@
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=5955|end_char=5958
 21	spacecraft	spacecraft	NOUN	NN	Number=Sing	19	obj	_	start_char=5959|end_char=5969
 22	navigate	navigate	VERB	VB	VerbForm=Inf	19	xcomp	_	start_char=5970|end_char=5978
-23	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	22	obj	_	start_char=5979|end_char=5989|SpaceAfter=No
-24	?	?	PUNCT	.	_	16	punct	_	start_char=5989|end_char=5990|SpacesAfter=\n\n
+23	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	22	obj	_	SpaceAfter=No|start_char=5979|end_char=5989
+24	?	?	PUNCT	.	_	16	punct	_	SpacesAfter=\n\n|start_char=5989|end_char=5990
 
 # text = Onboard autonomous navigation, or a self-driving spacecraft, if you will, is one of the top technologies needed if we are going to survive in deep space.
 # sent_id = 57
 1	Onboard	Onboard	ADJ	JJ	Degree=Pos	3	amod	_	start_char=5992|end_char=5999
 2	autonomous	autonomous	ADJ	JJ	Degree=Pos	3	amod	_	start_char=6000|end_char=6010
-3	navigation	navigation	NOUN	NN	Number=Sing	17	nsubj	_	start_char=6011|end_char=6021|SpaceAfter=No
+3	navigation	navigation	NOUN	NN	Number=Sing	17	nsubj	_	SpaceAfter=No|start_char=6011|end_char=6021
 4	,	,	PUNCT	,	_	10	punct	_	start_char=6021|end_char=6022
 5	or	or	CCONJ	CC	_	10	cc	_	start_char=6023|end_char=6025
 6	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=6026|end_char=6027
-7	self	self	NOUN	NN	Number=Sing	9	compound	_	start_char=6028|end_char=6032|SpaceAfter=No
-8	-	-	PUNCT	HYPH	_	7	punct	_	start_char=6032|end_char=6033|SpaceAfter=No
+7	self	self	NOUN	NN	Number=Sing	9	compound	_	SpaceAfter=No|start_char=6028|end_char=6032
+8	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No|start_char=6032|end_char=6033
 9	driving	driving	NOUN	NN	Number=Sing	10	amod	_	start_char=6033|end_char=6040
-10	spacecraft	spacecraft	NOUN	NN	Number=Sing	3	conj	_	start_char=6041|end_char=6051|SpaceAfter=No
+10	spacecraft	spacecraft	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No|start_char=6041|end_char=6051
 11	,	,	PUNCT	,	_	14	punct	_	start_char=6051|end_char=6052
 12	if	if	SCONJ	IN	_	14	mark	_	start_char=6053|end_char=6055
 13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	start_char=6056|end_char=6059
-14	will	will	AUX	MD	VerbForm=Fin	17	advcl	_	start_char=6060|end_char=6064|SpaceAfter=No
+14	will	will	AUX	MD	VerbForm=Fin	17	advcl	_	SpaceAfter=No|start_char=6060|end_char=6064
 15	,	,	PUNCT	,	_	14	punct	_	start_char=6064|end_char=6065
 16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=6066|end_char=6068
 17	one	one	NUM	CD	NumForm=Word|NumType=Card	0	root	_	start_char=6069|end_char=6072
@@ -1452,8 +1451,8 @@
 28	survive	survive	VERB	VB	VerbForm=Inf	26	xcomp	_	start_char=6123|end_char=6130
 29	in	in	ADP	IN	_	31	case	_	start_char=6131|end_char=6133
 30	deep	deep	ADJ	JJ	Degree=Pos	31	amod	_	start_char=6134|end_char=6138
-31	space	space	NOUN	NN	Number=Sing	28	obl	_	start_char=6139|end_char=6144|SpaceAfter=No
-32	.	.	PUNCT	.	_	17	punct	_	start_char=6144|end_char=6145|SpacesAfter=\n\n
+31	space	space	NOUN	NN	Number=Sing	28	obl	_	SpaceAfter=No|start_char=6139|end_char=6144
+32	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\n\n|start_char=6144|end_char=6145
 
 # text = When we inevitably send humans to Mars or even further, we need to be navigating that ship in real time, not waiting for directions to come from Earth.
 # sent_id = 58
@@ -1466,7 +1465,7 @@
 7	Mars	Mars	PROPN	NNP	Number=Sing	4	obl	_	start_char=6181|end_char=6185
 8	or	or	CCONJ	CC	_	10	cc	_	start_char=6186|end_char=6188
 9	even	even	ADV	RB	_	10	advmod	_	start_char=6189|end_char=6193
-10	further	far	ADV	RBR	Degree=Cmp	4	conj	_	start_char=6194|end_char=6201|SpaceAfter=No
+10	further	far	ADV	RBR	Degree=Cmp	4	conj	_	SpaceAfter=No|start_char=6194|end_char=6201
 11	,	,	PUNCT	,	_	4	punct	_	start_char=6201|end_char=6202
 12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	start_char=6203|end_char=6205
 13	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6206|end_char=6210
@@ -1477,7 +1476,7 @@
 18	ship	ship	NOUN	NN	Number=Sing	16	obj	_	start_char=6233|end_char=6237
 19	in	in	ADP	IN	_	21	case	_	start_char=6238|end_char=6240
 20	real	real	ADJ	JJ	Degree=Pos	21	amod	_	start_char=6241|end_char=6245
-21	time	time	NOUN	NN	Number=Sing	16	obl	_	start_char=6246|end_char=6250|SpaceAfter=No
+21	time	time	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No|start_char=6246|end_char=6250
 22	,	,	PUNCT	,	_	24	punct	_	start_char=6250|end_char=6251
 23	not	not	PART	RB	Polarity=Neg	24	advmod	_	start_char=6252|end_char=6255
 24	waiting	wait	VERB	VBG	Tense=Pres|VerbForm=Part	16	advcl	_	start_char=6256|end_char=6263
@@ -1486,8 +1485,8 @@
 27	to	to	PART	TO	_	28	mark	_	start_char=6279|end_char=6281
 28	come	come	VERB	VB	VerbForm=Inf	24	advcl	_	start_char=6282|end_char=6286
 29	from	from	ADP	IN	_	30	case	_	start_char=6287|end_char=6291
-30	Earth	Earth	PROPN	NNP	Number=Sing	28	obl	_	start_char=6292|end_char=6297|SpaceAfter=No
-31	.	.	PUNCT	.	_	13	punct	_	start_char=6297|end_char=6298|SpacesAfter=\n\n
+30	Earth	Earth	PROPN	NNP	Number=Sing	28	obl	_	SpaceAfter=No|start_char=6292|end_char=6297
+31	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\n\n|start_char=6297|end_char=6298
 
 # text = And measuring that time wrong by just a tiny fraction of a second can mean the difference between a mission's life or death, which is bad enough for a robotic mission, but just think about the consequences if there was a human crew on board.
 # sent_id = 59
@@ -1503,7 +1502,7 @@
 10	fraction	fraction	NOUN	NN	Number=Sing	2	obl	_	start_char=6345|end_char=6353
 11	of	of	ADP	IN	_	13	case	_	start_char=6354|end_char=6356
 12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=6357|end_char=6358
-13	second	second	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	10	nmod	_	start_char=6359|end_char=6365
+13	second	second	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	10	nmod	_	start_char=6359|end_char=6365
 14	can	can	AUX	MD	VerbForm=Fin	15	aux	_	start_char=6366|end_char=6369
 15	mean	mean	VERB	VB	VerbForm=Inf	0	root	_	start_char=6370|end_char=6374
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=6375|end_char=6378
@@ -1515,7 +1514,7 @@
 21	's	's	PART	POS	_	20	case	_	start_char=6407|end_char=6409
 22	life	life	NOUN	NN	Number=Sing	17	nmod	_	start_char=6410|end_char=6414
 23	or	or	CCONJ	CC	_	24	cc	_	start_char=6415|end_char=6417
-24	death	death	NOUN	NN	Number=Sing	22	conj	_	start_char=6418|end_char=6423|SpaceAfter=No
+24	death	death	NOUN	NN	Number=Sing	22	conj	_	SpaceAfter=No|start_char=6418|end_char=6423
 25	,	,	PUNCT	,	_	28	punct	_	start_char=6423|end_char=6424
 26	which	which	PRON	WDT	PronType=Rel	28	nsubj	_	start_char=6425|end_char=6430
 27	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	start_char=6431|end_char=6433
@@ -1524,7 +1523,7 @@
 30	for	for	ADP	IN	_	33	case	_	start_char=6445|end_char=6448
 31	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	start_char=6449|end_char=6450
 32	robotic	robotic	ADJ	JJ	Degree=Pos	33	amod	_	start_char=6451|end_char=6458
-33	mission	mission	NOUN	NN	Number=Sing	28	obl	_	start_char=6459|end_char=6466|SpaceAfter=No
+33	mission	mission	NOUN	NN	Number=Sing	28	obl	_	SpaceAfter=No|start_char=6459|end_char=6466
 34	,	,	PUNCT	,	_	37	punct	_	start_char=6466|end_char=6467
 35	but	but	CCONJ	CC	_	37	cc	_	start_char=6468|end_char=6471
 36	just	just	ADV	RB	_	37	advmod	_	start_char=6472|end_char=6476
@@ -1539,8 +1538,8 @@
 45	human	human	ADJ	JJ	Degree=Pos	46	amod	_	start_char=6521|end_char=6526
 46	crew	crew	NOUN	NN	Number=Sing	43	nsubj	_	start_char=6527|end_char=6531
 47	on	on	ADP	IN	_	48	case	_	start_char=6532|end_char=6534
-48	board	board	NOUN	NN	Number=Sing	46	nmod	_	start_char=6535|end_char=6540|SpaceAfter=No
-49	.	.	PUNCT	.	_	15	punct	_	start_char=6540|end_char=6541|SpacesAfter=\n\n
+48	board	board	NOUN	NN	Number=Sing	46	nmod	_	SpaceAfter=No|start_char=6535|end_char=6540
+49	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\n\n|start_char=6540|end_char=6541
 
 # text = But let's assume that we can get our astronauts safely to the surface of their destination.
 # sent_id = 60
@@ -1561,8 +1560,8 @@
 14	surface	surface	NOUN	NN	Number=Sing	8	obl	_	start_char=6605|end_char=6612
 15	of	of	ADP	IN	_	17	case	_	start_char=6613|end_char=6615
 16	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	start_char=6616|end_char=6621
-17	destination	destination	NOUN	NN	Number=Sing	14	nmod	_	start_char=6622|end_char=6633|SpaceAfter=No
-18	.	.	PUNCT	.	_	2	punct	_	start_char=6633|end_char=6634|SpacesAfter=\n\n
+17	destination	destination	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No|start_char=6622|end_char=6633
+18	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=6633|end_char=6634
 
 # text = Once they're there, I imagine they'd like a way to find their way around.
 # sent_id = 61
@@ -1570,7 +1569,7 @@
 2-3	they're	_	_	_	_	_	_	_	start_char=6641|end_char=6648
 2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=6641|end_char=6645
 3	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=6645|end_char=6648
-4	there	there	ADV	RB	PronType=Dem	7	advcl	_	start_char=6649|end_char=6654|SpaceAfter=No
+4	there	there	ADV	RB	PronType=Dem	7	advcl	_	SpaceAfter=No|start_char=6649|end_char=6654
 5	,	,	PUNCT	,	_	4	punct	_	start_char=6654|end_char=6655
 6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=6656|end_char=6657
 7	imagine	imagine	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6658|end_char=6665
@@ -1584,24 +1583,24 @@
 14	find	find	VERB	VB	VerbForm=Inf	12	acl	_	start_char=6687|end_char=6691
 15	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=6692|end_char=6697
 16	way	way	NOUN	NN	Number=Sing	14	obj	_	start_char=6698|end_char=6701
-17	around	around	ADV	RB	_	14	advmod	_	start_char=6702|end_char=6708|SpaceAfter=No
-18	.	.	PUNCT	.	_	7	punct	_	start_char=6708|end_char=6709|SpacesAfter=\n\n
+17	around	around	ADV	RB	_	14	advmod	_	SpaceAfter=No|start_char=6702|end_char=6708
+18	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=6708|end_char=6709
 
 # text = Well, with this clock technology, we can now build GPS-like navigation systems at other planets and moons.
 # sent_id = 62
-1	Well	well	INTJ	UH	_	11	discourse	_	start_char=6711|end_char=6715|SpaceAfter=No
+1	Well	well	INTJ	UH	_	11	discourse	_	SpaceAfter=No|start_char=6711|end_char=6715
 2	,	,	PUNCT	,	_	1	punct	_	start_char=6715|end_char=6716
 3	with	with	ADP	IN	_	6	case	_	start_char=6717|end_char=6721
 4	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	start_char=6722|end_char=6726
 5	clock	clock	NOUN	NN	Number=Sing	6	compound	_	start_char=6727|end_char=6732
-6	technology	technology	NOUN	NN	Number=Sing	11	obl	_	start_char=6733|end_char=6743|SpaceAfter=No
+6	technology	technology	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No|start_char=6733|end_char=6743
 7	,	,	PUNCT	,	_	6	punct	_	start_char=6743|end_char=6744
 8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	start_char=6745|end_char=6747
 9	can	can	AUX	MD	VerbForm=Fin	11	aux	_	start_char=6748|end_char=6751
 10	now	now	ADV	RB	_	11	advmod	_	start_char=6752|end_char=6755
 11	build	build	VERB	VB	VerbForm=Inf	0	root	_	start_char=6756|end_char=6761
-12	GPS	GPS	NOUN	NN	Number=Sing	14	compound	_	start_char=6762|end_char=6765|SpaceAfter=No
-13	-	-	PUNCT	HYPH	_	12	punct	_	start_char=6765|end_char=6766|SpaceAfter=No
+12	GPS	GPS	NOUN	NN	Number=Sing	14	compound	_	SpaceAfter=No|start_char=6762|end_char=6765
+13	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No|start_char=6765|end_char=6766
 14	like	like	ADP	IN	_	16	case	_	start_char=6766|end_char=6770
 15	navigation	navigation	NOUN	NN	Number=Sing	16	compound	_	start_char=6771|end_char=6781
 16	systems	system	NOUN	NNS	Number=Plur	11	obj	_	start_char=6782|end_char=6789
@@ -1609,8 +1608,8 @@
 18	other	other	ADJ	JJ	Degree=Pos	19	amod	_	start_char=6793|end_char=6798
 19	planets	planet	NOUN	NNS	Number=Plur	11	obl	_	start_char=6799|end_char=6806
 20	and	and	CCONJ	CC	_	21	cc	_	start_char=6807|end_char=6810
-21	moons	moon	NOUN	NNS	Number=Plur	19	conj	_	start_char=6811|end_char=6816|SpaceAfter=No
-22	.	.	PUNCT	.	_	11	punct	_	start_char=6816|end_char=6817|SpacesAfter=\n\n
+21	moons	moon	NOUN	NNS	Number=Plur	19	conj	_	SpaceAfter=No|start_char=6811|end_char=6816
+22	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n\n|start_char=6816|end_char=6817
 
 # text = Imagine having GPS on the Moon or Mars.
 # sent_id = 63
@@ -1621,8 +1620,8 @@
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=6841|end_char=6844
 6	Moon	Moon	PROPN	NNP	Number=Sing	2	obl	_	start_char=6845|end_char=6849
 7	or	or	CCONJ	CC	_	8	cc	_	start_char=6850|end_char=6852
-8	Mars	Mars	PROPN	NNP	Number=Sing	6	conj	_	start_char=6853|end_char=6857|SpaceAfter=No
-9	.	.	PUNCT	.	_	1	punct	_	start_char=6857|end_char=6858|SpacesAfter=\n\n
+8	Mars	Mars	PROPN	NNP	Number=Sing	6	conj	_	SpaceAfter=No|start_char=6853|end_char=6857
+9	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n|start_char=6857|end_char=6858
 
 # text = Can you see an astronaut standing on the surface of Mars with Olympus Mons rising in the background, and she's looking down at her Google Maps Mars Edition to see where she is and to chart a course to get where she needs to go?
 # sent_id = 64
@@ -1643,7 +1642,7 @@
 15	rising	rise	VERB	VBG	VerbForm=Ger	6	advcl	_	start_char=6935|end_char=6941
 16	in	in	ADP	IN	_	18	case	_	start_char=6942|end_char=6944
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=6945|end_char=6948
-18	background	background	NOUN	NN	Number=Sing	15	obl	_	start_char=6949|end_char=6959|SpaceAfter=No
+18	background	background	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No|start_char=6949|end_char=6959
 19	,	,	PUNCT	,	_	23	punct	_	start_char=6959|end_char=6960
 20	and	and	CCONJ	CC	_	23	cc	_	start_char=6961|end_char=6964
 21-22	she's	_	_	_	_	_	_	_	start_char=6965|end_char=6970
@@ -1673,8 +1672,8 @@
 44	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	45	nsubj	_	start_char=7071|end_char=7074
 45	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	advcl:relcl	_	start_char=7075|end_char=7080
 46	to	to	PART	TO	_	47	mark	_	start_char=7081|end_char=7083
-47	go	go	VERB	VB	VerbForm=Inf	45	xcomp	_	start_char=7084|end_char=7086|SpaceAfter=No
-48	?	?	PUNCT	.	_	3	punct	_	start_char=7086|end_char=7087|SpacesAfter=\n\n
+47	go	go	VERB	VB	VerbForm=Inf	45	xcomp	_	SpaceAfter=No|start_char=7084|end_char=7086
+48	?	?	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=7086|end_char=7087
 
 # text = Allow me to dream for a moment, and let's talk about something far, far in the future, when we are sending humans to places much further away than Mars, places where waiting for a signal from the Earth in order to navigate is just not realistic.
 # sent_id = 65
@@ -1684,7 +1683,7 @@
 4	dream	dream	VERB	VB	VerbForm=Inf	1	xcomp	_	start_char=7101|end_char=7106
 5	for	for	ADP	IN	_	7	case	_	start_char=7107|end_char=7110
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=7111|end_char=7112
-7	moment	moment	NOUN	NN	Number=Sing	4	obl	_	start_char=7113|end_char=7119|SpaceAfter=No
+7	moment	moment	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No|start_char=7113|end_char=7119
 8	,	,	PUNCT	,	_	10	punct	_	start_char=7119|end_char=7120
 9	and	and	CCONJ	CC	_	10	cc	_	start_char=7121|end_char=7124
 10-11	let's	_	_	_	_	_	_	_	start_char=7125|end_char=7130
@@ -1693,12 +1692,12 @@
 12	talk	talk	VERB	VB	VerbForm=Inf	10	xcomp	_	start_char=7131|end_char=7135
 13	about	about	ADP	IN	_	14	case	_	start_char=7136|end_char=7141
 14	something	something	PRON	NN	Number=Sing|PronType=Ind	12	obl	_	start_char=7142|end_char=7151
-15	far	far	ADV	RB	Degree=Pos	12	advmod	_	start_char=7152|end_char=7155|SpaceAfter=No
+15	far	far	ADV	RB	Degree=Pos	12	advmod	_	SpaceAfter=No|start_char=7152|end_char=7155
 16	,	,	PUNCT	,	_	17	punct	_	start_char=7155|end_char=7156
 17	far	far	ADV	RB	Degree=Pos	12	advmod	_	start_char=7157|end_char=7160
 18	in	in	ADP	IN	_	20	case	_	start_char=7161|end_char=7163
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=7164|end_char=7167
-20	future	future	NOUN	NN	Number=Sing	12	obl	_	start_char=7168|end_char=7174|SpaceAfter=No
+20	future	future	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No|start_char=7168|end_char=7174
 21	,	,	PUNCT	,	_	51	punct	_	start_char=7174|end_char=7175
 22	when	when	ADV	WRB	PronType=Int	25	advmod	_	start_char=7176|end_char=7180
 23	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	start_char=7181|end_char=7183
@@ -1711,7 +1710,7 @@
 30	further	far	ADV	RBR	Degree=Cmp	31	advmod	_	start_char=7218|end_char=7225
 31	away	away	ADV	RB	_	25	advmod	_	start_char=7226|end_char=7230
 32	than	than	ADP	IN	_	33	case	_	start_char=7231|end_char=7235
-33	Mars	Mars	PROPN	NNP	Number=Sing	31	obl	_	start_char=7236|end_char=7240|SpaceAfter=No
+33	Mars	Mars	PROPN	NNP	Number=Sing	31	obl	_	SpaceAfter=No|start_char=7236|end_char=7240
 34	,	,	PUNCT	,	_	25	punct	_	start_char=7240|end_char=7241
 35	places	place	NOUN	NNS	Number=Plur	51	nsubj	_	start_char=7242|end_char=7248
 36	where	where	ADV	WRB	PronType=Rel	51	advmod	_	start_char=7249|end_char=7254
@@ -1729,8 +1728,8 @@
 48	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	cop	_	start_char=7312|end_char=7314
 49	just	just	ADV	RB	_	51	advmod	_	start_char=7315|end_char=7319
 50	not	not	PART	RB	Polarity=Neg	51	advmod	_	start_char=7320|end_char=7323
-51	realistic	realistic	ADJ	JJ	Degree=Pos	1	parataxis	_	start_char=7324|end_char=7333|SpaceAfter=No
-52	.	.	PUNCT	.	_	1	punct	_	start_char=7333|end_char=7334|SpacesAfter=\n\n
+51	realistic	realistic	ADJ	JJ	Degree=Pos	1	parataxis	_	SpaceAfter=No|start_char=7324|end_char=7333
+52	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n|start_char=7333|end_char=7334
 
 # text = Imagine in this scenario that we can have a constellation, a network of communication satellites scattered throughout deep space broadcasting navigation signals, and any spacecraft picking up that signal can travel from destination to destination to destination with no direct tie to the Earth at all.
 # sent_id = 66
@@ -1743,7 +1742,7 @@
 7	can	can	AUX	MD	VerbForm=Fin	8	aux	_	start_char=7369|end_char=7372
 8	have	have	VERB	VB	VerbForm=Inf	1	ccomp	_	start_char=7373|end_char=7377
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=7378|end_char=7379
-10	constellation	constellation	NOUN	NN	Number=Sing	8	obj	_	start_char=7380|end_char=7393|SpaceAfter=No
+10	constellation	constellation	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No|start_char=7380|end_char=7393
 11	,	,	PUNCT	,	_	13	punct	_	start_char=7393|end_char=7394
 12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=7395|end_char=7396
 13	network	network	NOUN	NN	Number=Sing	10	appos	_	start_char=7397|end_char=7404
@@ -1756,7 +1755,7 @@
 20	space	space	NOUN	NN	Number=Sing	23	compound	_	start_char=7459|end_char=7464
 21	broadcasting	broadcasting	NOUN	NN	Number=Sing	23	compound	_	start_char=7465|end_char=7477
 22	navigation	navigation	NOUN	NN	Number=Sing	23	compound	_	start_char=7478|end_char=7488
-23	signals	signal	NOUN	NNS	Number=Plur	17	obl	_	start_char=7489|end_char=7496|SpaceAfter=No
+23	signals	signal	NOUN	NNS	Number=Plur	17	obl	_	SpaceAfter=No|start_char=7489|end_char=7496
 24	,	,	PUNCT	,	_	33	punct	_	start_char=7496|end_char=7497
 25	and	and	CCONJ	CC	_	33	cc	_	start_char=7498|end_char=7501
 26	any	any	DET	DT	PronType=Ind	27	det	_	start_char=7502|end_char=7505
@@ -1781,8 +1780,8 @@
 45	the	the	DET	DT	Definite=Def|PronType=Art	46	det	_	start_char=7620|end_char=7623
 46	Earth	Earth	PROPN	NNP	Number=Sing	43	nmod	_	start_char=7624|end_char=7629
 47	at	at	ADP	IN	_	48	case	_	start_char=7630|end_char=7632
-48	all	all	DET	DT	PronType=Tot	43	nmod	_	start_char=7633|end_char=7636|SpaceAfter=No
-49	.	.	PUNCT	.	_	1	punct	_	start_char=7636|end_char=7637|SpacesAfter=\n\n
+48	all	all	DET	DT	PronType=Tot	43	nmod	_	SpaceAfter=No|start_char=7633|end_char=7636
+49	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n|start_char=7636|end_char=7637
 
 # text = The ability to accurately measure time in deep space can forever change the way we navigate.
 # sent_id = 67
@@ -1801,8 +1800,8 @@
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=7711|end_char=7714
 14	way	way	NOUN	NN	Number=Sing	12	obj	_	start_char=7715|end_char=7718
 15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	start_char=7719|end_char=7721
-16	navigate	navigate	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	start_char=7722|end_char=7730|SpaceAfter=No
-17	.	.	PUNCT	.	_	12	punct	_	start_char=7730|end_char=7731|SpacesAfter=\n\n
+16	navigate	navigate	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	SpaceAfter=No|start_char=7722|end_char=7730
+17	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n\n|start_char=7730|end_char=7731
 
 # text = But it also has the potential to give us some pretty cool science.
 # sent_id = 68
@@ -1818,13 +1817,13 @@
 10	some	some	DET	DT	PronType=Ind	13	det	_	start_char=7774|end_char=7778
 11	pretty	pretty	ADV	RB	_	12	advmod	_	start_char=7779|end_char=7785
 12	cool	cool	ADJ	JJ	Degree=Pos	13	amod	_	start_char=7786|end_char=7790
-13	science	science	NOUN	NN	Number=Sing	8	obj	_	start_char=7791|end_char=7798|SpaceAfter=No
-14	.	.	PUNCT	.	_	4	punct	_	start_char=7798|end_char=7799|SpacesAfter=\n\n
+13	science	science	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No|start_char=7791|end_char=7798
+14	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=7798|end_char=7799
 
 # text = You see, that same signal that we use for navigation tells us something about where it came from and the journey that it took as it traveled from antenna to antenna.
 # sent_id = 69
 1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	start_char=7801|end_char=7804
-2	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	parataxis	_	start_char=7805|end_char=7808|SpaceAfter=No
+2	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	parataxis	_	SpaceAfter=No|start_char=7805|end_char=7808
 3	,	,	PUNCT	,	_	2	punct	_	start_char=7808|end_char=7809
 4	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	start_char=7810|end_char=7814
 5	same	same	ADJ	JJ	Degree=Pos	6	amod	_	start_char=7815|end_char=7819
@@ -1854,25 +1853,25 @@
 29	from	from	ADP	IN	_	30	case	_	start_char=7942|end_char=7946
 30	antenna	antenna	NOUN	NN	Number=Sing	28	obl	_	start_char=7947|end_char=7954
 31	to	to	ADP	IN	_	32	case	_	start_char=7955|end_char=7957
-32	antenna	antenna	NOUN	NN	Number=Sing	28	obl	_	start_char=7958|end_char=7965|SpaceAfter=No
-33	.	.	PUNCT	.	_	12	punct	_	start_char=7965|end_char=7966|SpacesAfter=\n\n
+32	antenna	antenna	NOUN	NN	Number=Sing	28	obl	_	SpaceAfter=No|start_char=7958|end_char=7965
+33	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n\n|start_char=7965|end_char=7966
 
 # text = And that journey, that gives us data, data to build better models, better models of planetary atmospheres throughout our solar system.
 # sent_id = 70
 1	And	and	CCONJ	CC	_	3	cc	_	start_char=7968|end_char=7971
 2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	start_char=7972|end_char=7976
-3	journey	journey	NOUN	NN	Number=Sing	0	root	_	start_char=7977|end_char=7984|SpaceAfter=No
+3	journey	journey	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=7977|end_char=7984
 4	,	,	PUNCT	,	_	6	punct	_	start_char=7984|end_char=7985
 5	that	that	PRON	WDT	PronType=Rel	6	nsubj	_	start_char=7986|end_char=7990
 6	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	start_char=7991|end_char=7996
 7	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	iobj	_	start_char=7997|end_char=7999
-8	data	datum	NOUN	NNS	Number=Plur	6	obj	_	start_char=8000|end_char=8004|SpaceAfter=No
+8	data	datum	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No|start_char=8000|end_char=8004
 9	,	,	PUNCT	,	_	6	punct	_	start_char=8004|end_char=8005
 10	data	datum	NOUN	NNS	Number=Plur	3	conj	_	start_char=8006|end_char=8010
 11	to	to	PART	TO	_	12	mark	_	start_char=8011|end_char=8013
 12	build	build	VERB	VB	VerbForm=Inf	6	advcl	_	start_char=8014|end_char=8019
 13	better	good	ADJ	JJR	Degree=Cmp	14	amod	_	start_char=8020|end_char=8026
-14	models	model	NOUN	NNS	Number=Plur	12	obj	_	start_char=8027|end_char=8033|SpaceAfter=No
+14	models	model	NOUN	NNS	Number=Plur	12	obj	_	SpaceAfter=No|start_char=8027|end_char=8033
 15	,	,	PUNCT	,	_	17	punct	_	start_char=8033|end_char=8034
 16	better	good	ADJ	JJR	Degree=Cmp	17	amod	_	start_char=8035|end_char=8041
 17	models	model	NOUN	NNS	Number=Plur	14	conj	_	start_char=8042|end_char=8048
@@ -1882,8 +1881,8 @@
 21	throughout	throughout	ADP	IN	_	24	case	_	start_char=8074|end_char=8084
 22	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	_	start_char=8085|end_char=8088
 23	solar	solar	ADJ	JJ	Degree=Pos	24	amod	_	start_char=8089|end_char=8094
-24	system	system	NOUN	NN	Number=Sing	20	nmod	_	start_char=8095|end_char=8101|SpaceAfter=No
-25	.	.	PUNCT	.	_	3	punct	_	start_char=8101|end_char=8102|SpacesAfter=\n\n
+24	system	system	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No|start_char=8095|end_char=8101
+25	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=8101|end_char=8102
 
 # text = We can detect subsurface oceans on far-off icy moons, maybe even detect tiny ripples in space due to relativistic gravity.
 # sent_id = 71
@@ -1893,11 +1892,11 @@
 4	subsurface	subsurface	ADJ	JJ	Degree=Pos	5	amod	_	start_char=8118|end_char=8128
 5	oceans	ocean	NOUN	NNS	Number=Plur	3	obj	_	start_char=8129|end_char=8135
 6	on	on	ADP	IN	_	11	case	_	start_char=8136|end_char=8138
-7	far	far	ADV	RB	Degree=Pos	9	advmod	_	start_char=8139|end_char=8142|SpaceAfter=No
-8	-	-	PUNCT	HYPH	_	7	punct	_	start_char=8142|end_char=8143|SpaceAfter=No
+7	far	far	ADV	RB	Degree=Pos	9	advmod	_	SpaceAfter=No|start_char=8139|end_char=8142
+8	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No|start_char=8142|end_char=8143
 9	off	off	ADP	IN	_	11	case	_	start_char=8143|end_char=8146
 10	icy	icy	ADJ	JJ	Degree=Pos	11	amod	_	start_char=8147|end_char=8150
-11	moons	moon	NOUN	NNS	Number=Plur	3	obl	_	start_char=8151|end_char=8156|SpaceAfter=No
+11	moons	moon	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No|start_char=8151|end_char=8156
 12	,	,	PUNCT	,	_	15	punct	_	start_char=8156|end_char=8157
 13	maybe	maybe	ADV	RB	_	15	advmod	_	start_char=8158|end_char=8163
 14	even	even	ADV	RB	_	15	advmod	_	start_char=8164|end_char=8168
@@ -1909,8 +1908,8 @@
 20	due	due	ADJ	JJ	Degree=Pos|ExtPos=ADP	23	case	_	start_char=8198|end_char=8201
 21	to	to	ADP	IN	_	20	fixed	_	start_char=8202|end_char=8204
 22	relativistic	relativistic	ADJ	JJ	Degree=Pos	23	amod	_	start_char=8205|end_char=8217
-23	gravity	gravity	NOUN	NN	Number=Sing	15	obl	_	start_char=8218|end_char=8225|SpaceAfter=No
-24	.	.	PUNCT	.	_	3	punct	_	start_char=8225|end_char=8226|SpacesAfter=\n\n
+23	gravity	gravity	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No|start_char=8218|end_char=8225
+24	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=8225|end_char=8226
 
 # text = Onboard autonomous navigation means we can support more spacecraft, more sensors to explore the universe, and it also frees up navigators -- people like me -- to work on finding the answers to other questions.
 # sent_id = 72
@@ -1922,14 +1921,14 @@
 6	can	can	AUX	MD	VerbForm=Fin	7	aux	_	start_char=8267|end_char=8270
 7	support	support	VERB	VB	VerbForm=Inf	4	ccomp	_	start_char=8271|end_char=8278
 8	more	more	ADJ	JJR	Degree=Cmp	9	amod	_	start_char=8279|end_char=8283
-9	spacecraft	spacecraft	NOUN	NN	Number=Sing	7	obj	_	start_char=8284|end_char=8294|SpaceAfter=No
+9	spacecraft	spacecraft	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No|start_char=8284|end_char=8294
 10	,	,	PUNCT	,	_	12	punct	_	start_char=8294|end_char=8295
 11	more	more	ADJ	JJR	Degree=Cmp	12	amod	_	start_char=8296|end_char=8300
 12	sensors	sensor	NOUN	NNS	Number=Plur	9	conj	_	start_char=8301|end_char=8308
 13	to	to	PART	TO	_	14	mark	_	start_char=8309|end_char=8311
 14	explore	explore	VERB	VB	VerbForm=Inf	7	advcl	_	start_char=8312|end_char=8319
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=8320|end_char=8323
-16	universe	universe	NOUN	NN	Number=Sing	14	obj	_	start_char=8324|end_char=8332|SpaceAfter=No
+16	universe	universe	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No|start_char=8324|end_char=8332
 17	,	,	PUNCT	,	_	21	punct	_	start_char=8332|end_char=8333
 18	and	and	CCONJ	CC	_	21	cc	_	start_char=8334|end_char=8337
 19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	start_char=8338|end_char=8340
@@ -1950,8 +1949,8 @@
 34	answers	answer	NOUN	NNS	Number=Plur	32	obj	_	start_char=8410|end_char=8417
 35	to	to	ADP	IN	_	37	case	_	start_char=8418|end_char=8420
 36	other	other	ADJ	JJ	Degree=Pos	37	amod	_	start_char=8421|end_char=8426
-37	questions	question	NOUN	NNS	Number=Plur	32	obl	_	start_char=8427|end_char=8436|SpaceAfter=No
-38	.	.	PUNCT	.	_	4	punct	_	start_char=8436|end_char=8437|SpacesAfter=\n\n
+37	questions	question	NOUN	NNS	Number=Plur	32	obl	_	SpaceAfter=No|start_char=8427|end_char=8436
+38	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=8436|end_char=8437
 
 # text = And we still have a lot of questions to answer.
 # sent_id = 73
@@ -1964,8 +1963,8 @@
 7	of	of	ADP	IN	_	8	case	_	start_char=8463|end_char=8465
 8	questions	question	NOUN	NNS	Number=Plur	6	nmod	_	start_char=8466|end_char=8475
 9	to	to	PART	TO	_	10	mark	_	start_char=8476|end_char=8478
-10	answer	answer	VERB	VB	VerbForm=Inf	8	acl	_	start_char=8479|end_char=8485|SpaceAfter=No
-11	.	.	PUNCT	.	_	4	punct	_	start_char=8485|end_char=8486|SpacesAfter=\n\n
+10	answer	answer	VERB	VB	VerbForm=Inf	8	acl	_	SpaceAfter=No|start_char=8479|end_char=8485
+11	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=8485|end_char=8486
 
 # text = We know such precious little about this universe around us.
 # sent_id = 74
@@ -1978,14 +1977,14 @@
 7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	start_char=8523|end_char=8527
 8	universe	universe	NOUN	NN	Number=Sing	5	nmod	_	start_char=8528|end_char=8536
 9	around	around	ADP	IN	_	10	case	_	start_char=8537|end_char=8543
-10	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	obl	_	start_char=8544|end_char=8546|SpaceAfter=No
-11	.	.	PUNCT	.	_	2	punct	_	start_char=8546|end_char=8547|SpacesAfter=\n\n
+10	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	obl	_	SpaceAfter=No|start_char=8544|end_char=8546
+11	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=8546|end_char=8547
 
 # text = In recent years, we have discovered nearly 3,000 planetary systems outside of our own solar system, and those systems are home to almost 4,000 exoplanets.
 # sent_id = 75
 1	In	in	ADP	IN	_	3	case	_	start_char=8549|end_char=8551
 2	recent	recent	ADJ	JJ	Degree=Pos	3	amod	_	start_char=8552|end_char=8558
-3	years	year	NOUN	NNS	Number=Plur	7	obl	_	start_char=8559|end_char=8564|SpaceAfter=No
+3	years	year	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No|start_char=8559|end_char=8564
 4	,	,	PUNCT	,	_	3	punct	_	start_char=8564|end_char=8565
 5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=8566|end_char=8568
 6	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=8569|end_char=8573
@@ -1999,7 +1998,7 @@
 14	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	start_char=8627|end_char=8630
 15	own	own	ADJ	JJ	Degree=Pos	17	amod	_	start_char=8631|end_char=8634
 16	solar	solar	ADJ	JJ	Degree=Pos	17	amod	_	start_char=8635|end_char=8640
-17	system	system	NOUN	NN	Number=Sing	11	nmod	_	start_char=8641|end_char=8647|SpaceAfter=No
+17	system	system	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No|start_char=8641|end_char=8647
 18	,	,	PUNCT	,	_	23	punct	_	start_char=8647|end_char=8648
 19	and	and	CCONJ	CC	_	23	cc	_	start_char=8649|end_char=8652
 20	those	that	DET	DT	Number=Plur|PronType=Dem	21	det	_	start_char=8653|end_char=8658
@@ -2009,8 +2008,8 @@
 24	to	to	ADP	IN	_	27	case	_	start_char=8676|end_char=8678
 25	almost	almost	ADV	RB	_	26	advmod	_	start_char=8679|end_char=8685
 26	4,000	4000	NUM	CD	NumForm=Digit|NumType=Card	27	nummod	_	start_char=8686|end_char=8691
-27	exoplanets	exoplanet	NOUN	NNS	Number=Plur	23	obl	_	start_char=8692|end_char=8702|SpaceAfter=No
-28	.	.	PUNCT	.	_	7	punct	_	start_char=8702|end_char=8703|SpacesAfter=\n\n
+27	exoplanets	exoplanet	NOUN	NNS	Number=Plur	23	obl	_	SpaceAfter=No|start_char=8692|end_char=8702
+28	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=8702|end_char=8703
 
 # text = To put that number in context for you: when I was learning about planets for the first time as a child, there were nine, or eight if you didn't count Pluto.
 # sent_id = 76
@@ -2021,7 +2020,7 @@
 5	in	in	ADP	IN	_	6	case	_	start_char=8724|end_char=8726
 6	context	context	NOUN	NN	Number=Sing	2	obl	_	start_char=8727|end_char=8734
 7	for	for	ADP	IN	_	8	case	_	start_char=8735|end_char=8738
-8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obl	_	start_char=8739|end_char=8742|SpaceAfter=No
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obl	_	SpaceAfter=No|start_char=8739|end_char=8742
 9	:	:	PUNCT	:	_	25	punct	_	start_char=8742|end_char=8743
 10	when	when	ADV	WRB	PronType=Int	13	advmod	_	start_char=8744|end_char=8748
 11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=8749|end_char=8750
@@ -2035,11 +2034,11 @@
 19	time	time	NOUN	NN	Number=Sing	13	obl	_	start_char=8792|end_char=8796
 20	as	as	ADP	IN	_	22	case	_	start_char=8797|end_char=8799
 21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	start_char=8800|end_char=8801
-22	child	child	NOUN	NN	Number=Sing	19	nmod	_	start_char=8802|end_char=8807|SpaceAfter=No
+22	child	child	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No|start_char=8802|end_char=8807
 23	,	,	PUNCT	,	_	13	punct	_	start_char=8807|end_char=8808
 24	there	there	PRON	EX	_	25	expl	_	start_char=8809|end_char=8814
 25	were	be	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=8815|end_char=8819
-26	nine	nine	NUM	CD	NumForm=Word|NumType=Card	25	nsubj	_	start_char=8820|end_char=8824|SpaceAfter=No
+26	nine	nine	NUM	CD	NumForm=Word|NumType=Card	25	nsubj	_	SpaceAfter=No|start_char=8820|end_char=8824
 27	,	,	PUNCT	,	_	29	punct	_	start_char=8824|end_char=8825
 28	or	or	CCONJ	CC	_	29	cc	_	start_char=8826|end_char=8828
 29	eight	eight	NUM	CD	NumForm=Word|NumType=Card	26	conj	_	start_char=8829|end_char=8834
@@ -2049,8 +2048,8 @@
 32	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	34	aux	_	start_char=8842|end_char=8845
 33	n't	not	PART	RB	Polarity=Neg	34	advmod	_	start_char=8845|end_char=8848
 34	count	count	VERB	VB	VerbForm=Inf	25	advcl	_	start_char=8849|end_char=8854
-35	Pluto	Pluto	PROPN	NNP	Number=Sing	34	obj	_	start_char=8855|end_char=8860|SpaceAfter=No
-36	.	.	PUNCT	.	_	25	punct	_	start_char=8860|end_char=8861|SpacesAfter=\n\n
+35	Pluto	Pluto	PROPN	NNP	Number=Sing	34	obj	_	SpaceAfter=No|start_char=8855|end_char=8860
+36	.	.	PUNCT	.	_	25	punct	_	SpacesAfter=\n\n|start_char=8860|end_char=8861
 
 # text = But now there are 4,000.
 # sent_id = 77
@@ -2058,8 +2057,8 @@
 2	now	now	ADV	RB	PronType=Dem	4	advmod	_	start_char=8867|end_char=8870
 3	there	there	PRON	EX	_	4	expl	_	start_char=8871|end_char=8876
 4	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8877|end_char=8880
-5	4,000	4000	NUM	CD	NumForm=Digit|NumType=Card	4	nsubj	_	start_char=8881|end_char=8886|SpaceAfter=No
-6	.	.	PUNCT	.	_	4	punct	_	start_char=8886|end_char=8887|SpacesAfter=\n\n
+5	4,000	4000	NUM	CD	NumForm=Digit|NumType=Card	4	nsubj	_	SpaceAfter=No|start_char=8881|end_char=8886
+6	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=8886|end_char=8887
 
 # text = It is estimated that dark matter makes up about 96 percent of our universe, and we don't even know what it is.
 # sent_id = 78
@@ -2076,7 +2075,7 @@
 11	percent	percent	NOUN	NN	Number=Sing	7	obj	_	start_char=8940|end_char=8947
 12	of	of	ADP	IN	_	14	case	_	start_char=8948|end_char=8950
 13	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=8951|end_char=8954
-14	universe	universe	NOUN	NN	Number=Sing	11	nmod	_	start_char=8955|end_char=8963|SpaceAfter=No
+14	universe	universe	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No|start_char=8955|end_char=8963
 15	,	,	PUNCT	,	_	21	punct	_	start_char=8963|end_char=8964
 16	and	and	CCONJ	CC	_	21	cc	_	start_char=8965|end_char=8968
 17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	start_char=8969|end_char=8971
@@ -2087,8 +2086,8 @@
 21	know	know	VERB	VB	VerbForm=Inf	3	conj	_	start_char=8983|end_char=8987
 22	what	what	PRON	WP	PronType=Int	21	obj	_	start_char=8988|end_char=8992
 23	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	start_char=8993|end_char=8995
-24	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	start_char=8996|end_char=8998|SpaceAfter=No
-25	.	.	PUNCT	.	_	3	punct	_	start_char=8998|end_char=8999|SpacesAfter=\n\n
+24	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	SpaceAfter=No|start_char=8996|end_char=8998
+25	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=8998|end_char=8999
 
 # text = All of the science returned from all of our deep space missions combined is just this single drop of knowledge in a vast ocean of questions.
 # sent_id = 79
@@ -2117,8 +2116,8 @@
 23	vast	vast	ADJ	JJ	Degree=Pos	24	amod	_	start_char=9117|end_char=9121
 24	ocean	ocean	NOUN	NN	Number=Sing	18	nmod	_	start_char=9122|end_char=9127
 25	of	of	ADP	IN	_	26	case	_	start_char=9128|end_char=9130
-26	questions	question	NOUN	NNS	Number=Plur	24	nmod	_	start_char=9131|end_char=9140|SpaceAfter=No
-27	.	.	PUNCT	.	_	18	punct	_	start_char=9140|end_char=9141|SpacesAfter=\n\n
+26	questions	question	NOUN	NNS	Number=Plur	24	nmod	_	SpaceAfter=No|start_char=9131|end_char=9140
+27	.	.	PUNCT	.	_	18	punct	_	SpacesAfter=\n\n|start_char=9140|end_char=9141
 
 # text = And if we want to learn more, to discover more, to understand more, then we need to explore more.
 # sent_id = 80
@@ -2128,23 +2127,23 @@
 4	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	advcl	_	start_char=9153|end_char=9157
 5	to	to	PART	TO	_	6	mark	_	start_char=9158|end_char=9160
 6	learn	learn	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=9161|end_char=9166
-7	more	more	ADJ	JJR	Degree=Cmp	6	obj	_	start_char=9167|end_char=9171|SpaceAfter=No
+7	more	more	ADJ	JJR	Degree=Cmp	6	obj	_	SpaceAfter=No|start_char=9167|end_char=9171
 8	,	,	PUNCT	,	_	10	punct	_	start_char=9171|end_char=9172
 9	to	to	PART	TO	_	10	mark	_	start_char=9173|end_char=9175
 10	discover	discover	VERB	VB	VerbForm=Inf	6	advcl	_	start_char=9176|end_char=9184
-11	more	more	ADJ	JJR	Degree=Cmp	10	obj	_	start_char=9185|end_char=9189|SpaceAfter=No
+11	more	more	ADJ	JJR	Degree=Cmp	10	obj	_	SpaceAfter=No|start_char=9185|end_char=9189
 12	,	,	PUNCT	,	_	14	punct	_	start_char=9189|end_char=9190
 13	to	to	PART	TO	_	14	mark	_	start_char=9191|end_char=9193
 14	understand	understand	VERB	VB	VerbForm=Inf	10	advcl	_	start_char=9194|end_char=9204
-15	more	more	ADJ	JJR	Degree=Cmp	14	obj	_	start_char=9205|end_char=9209|SpaceAfter=No
+15	more	more	ADJ	JJR	Degree=Cmp	14	obj	_	SpaceAfter=No|start_char=9205|end_char=9209
 16	,	,	PUNCT	,	_	4	punct	_	start_char=9209|end_char=9210
 17	then	then	ADV	RB	PronType=Dem	19	advmod	_	start_char=9211|end_char=9215
 18	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	start_char=9216|end_char=9218
 19	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9219|end_char=9223
 20	to	to	PART	TO	_	21	mark	_	start_char=9224|end_char=9226
 21	explore	explore	VERB	VB	VerbForm=Inf	19	xcomp	_	start_char=9227|end_char=9234
-22	more	more	ADJ	JJR	Degree=Cmp	21	obj	_	start_char=9235|end_char=9239|SpaceAfter=No
-23	.	.	PUNCT	.	_	19	punct	_	start_char=9239|end_char=9240|SpacesAfter=\n\n
+22	more	more	ADJ	JJR	Degree=Cmp	21	obj	_	SpaceAfter=No|start_char=9235|end_char=9239
+23	.	.	PUNCT	.	_	19	punct	_	SpacesAfter=\n\n|start_char=9239|end_char=9240
 
 # text = The ability to accurately keep time in deep space will revolutionize the way that we can explore this universe, and it might just be one of the keys to unlocking some of those secrets that she holds so dear.
 # sent_id = 81
@@ -2166,7 +2165,7 @@
 16	can	can	AUX	MD	VerbForm=Fin	17	aux	_	start_char=9327|end_char=9330
 17	explore	explore	VERB	VB	VerbForm=Inf	13	acl	_	start_char=9331|end_char=9338
 18	this	this	DET	DT	Number=Sing|PronType=Dem	19	det	_	start_char=9339|end_char=9343
-19	universe	universe	NOUN	NN	Number=Sing	17	obj	_	start_char=9344|end_char=9352|SpaceAfter=No
+19	universe	universe	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No|start_char=9344|end_char=9352
 20	,	,	PUNCT	,	_	26	punct	_	start_char=9352|end_char=9353
 21	and	and	CCONJ	CC	_	26	cc	_	start_char=9354|end_char=9357
 22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	start_char=9358|end_char=9360
@@ -2187,11 +2186,11 @@
 37	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	38	nsubj	_	start_char=9431|end_char=9434
 38	holds	hold	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	start_char=9435|end_char=9440
 39	so	so	ADV	RB	_	40	advmod	_	start_char=9441|end_char=9443
-40	dear	dear	ADJ	JJ	Degree=Pos	38	advmod	_	start_char=9444|end_char=9448|SpaceAfter=No
-41	.	.	PUNCT	.	_	11	punct	_	start_char=9448|end_char=9449|SpacesAfter=\n\n
+40	dear	dear	ADJ	JJ	Degree=Pos	38	advmod	_	SpaceAfter=No|start_char=9444|end_char=9448
+41	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n\n|start_char=9448|end_char=9449
 
 # text = Thank you.
 # sent_id = 82
 1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9451|end_char=9456
-2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	start_char=9457|end_char=9460|SpaceAfter=No
-3	.	.	PUNCT	.	_	1	punct	_	start_char=9460|end_char=9461|SpaceAfter=No
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	SpaceAfter=No|start_char=9457|end_char=9460
+3	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|start_char=9460|end_char=9461

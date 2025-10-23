@@ -1,10 +1,9 @@
 # conllu_stats: begin
 # conllu_tokens: 1540
 # conllu_sentences: 69
-# Average tokens per senteces: 22.318840579710145
-# sentece_pairs: 3
+# Average tokens per sentence: 22.318840579710145
+# sentence_pairs: 3
 # conllu_stats: end
-
 
 # text = How we study the microbes living in your gut
 # sent_id = 0
@@ -16,7 +15,7 @@
 6	living	live	VERB	VBG	VerbForm=Ger	5	acl	_	start_char=26|end_char=32
 7	in	in	ADP	IN	_	9	case	_	start_char=33|end_char=35
 8	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=36|end_char=40
-9	gut	gut	NOUN	NN	Number=Sing	6	obl	_	start_char=41|end_char=44|SpacesAfter=\n\n
+9	gut	gut	NOUN	NN	Number=Sing	6	obl	_	SpacesAfter=\n\n|start_char=41|end_char=44
 
 # text = If I asked you to name a microbe that's living in your gut, many of you would probably say E. coli.
 # sent_id = 1
@@ -34,7 +33,7 @@
 11	living	live	VERB	VBG	Tense=Pres|VerbForm=Part	8	acl:relcl	_	start_char=86|end_char=92
 12	in	in	ADP	IN	_	14	case	_	start_char=93|end_char=95
 13	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=96|end_char=100
-14	gut	gut	NOUN	NN	Number=Sing	11	obl	_	start_char=101|end_char=104|SpaceAfter=No
+14	gut	gut	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No|start_char=101|end_char=104
 15	,	,	PUNCT	,	_	3	punct	_	start_char=104|end_char=105
 16	many	many	ADJ	JJ	Degree=Pos	21	nsubj	_	start_char=106|end_char=110
 17	of	of	ADP	IN	_	18	case	_	start_char=111|end_char=113
@@ -43,8 +42,8 @@
 20	probably	probably	ADV	RB	_	21	advmod	_	start_char=124|end_char=132
 21	say	say	VERB	VB	VerbForm=Inf	0	root	_	start_char=133|end_char=136
 22	E.	E.	PROPN	NNP	Number=Sing	21	obj	_	start_char=137|end_char=139
-23	coli	coli	PROPN	NNP	Number=Sing	22	flat	_	start_char=140|end_char=144|SpaceAfter=No
-24	.	.	PUNCT	.	_	21	punct	_	start_char=144|end_char=145|SpacesAfter=\n\n
+23	coli	coli	PROPN	NNP	Number=Sing	22	flat	_	SpaceAfter=No|start_char=140|end_char=144
+24	.	.	PUNCT	.	_	21	punct	_	SpacesAfter=\n\n|start_char=144|end_char=145
 
 # text = A lot of people say this.
 # sent_id = 2
@@ -53,8 +52,8 @@
 3	of	of	ADP	IN	_	4	case	_	start_char=153|end_char=155
 4	people	person	NOUN	NNS	Number=Plur	2	nmod	_	start_char=156|end_char=162
 5	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=163|end_char=166
-6	this	this	PRON	DT	Number=Sing|PronType=Dem	5	obj	_	start_char=167|end_char=171|SpaceAfter=No
-7	.	.	PUNCT	.	_	5	punct	_	start_char=171|end_char=172|SpacesAfter=\n\n
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	5	obj	_	SpaceAfter=No|start_char=167|end_char=171
+7	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=171|end_char=172
 
 # text = It's the best-known of the gut microbes.
 # sent_id = 3
@@ -62,14 +61,14 @@
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=174|end_char=176
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=176|end_char=178
 3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=179|end_char=182
-4	best	well	ADV	RBS	Degree=Sup	6	advmod	_	start_char=183|end_char=187|SpaceAfter=No
-5	-	-	PUNCT	HYPH	_	4	punct	_	start_char=187|end_char=188|SpaceAfter=No
+4	best	well	ADV	RBS	Degree=Sup	6	advmod	_	SpaceAfter=No|start_char=183|end_char=187
+5	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No|start_char=187|end_char=188
 6	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=188|end_char=193
 7	of	of	ADP	IN	_	10	case	_	start_char=194|end_char=196
 8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=197|end_char=200
 9	gut	gut	NOUN	NN	Number=Sing	10	compound	_	start_char=201|end_char=204
-10	microbes	microbe	NOUN	NNS	Number=Plur	6	obl	_	start_char=205|end_char=213|SpaceAfter=No
-11	.	.	PUNCT	.	_	6	punct	_	start_char=213|end_char=214|SpacesAfter=\n\n
+10	microbes	microbe	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No|start_char=205|end_char=213
+11	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=213|end_char=214
 
 # text = But it turns out that E. coli is outnumbered in your gut about a thousand to one by other species, many of which you probably haven't heard of.
 # sent_id = 4
@@ -92,7 +91,7 @@
 17	one	one	NUM	CD	NumForm=Word|NumType=Card	15	nmod	_	start_char=293|end_char=296
 18	by	by	ADP	IN	_	20	case	_	start_char=297|end_char=299
 19	other	other	ADJ	JJ	Degree=Pos	20	amod	_	start_char=300|end_char=305
-20	species	species	NOUN	NNS	Number=Plur	9	obl:agent	_	start_char=306|end_char=313|SpaceAfter=No
+20	species	species	NOUN	NNS	Number=Plur	9	obl:agent	_	SpaceAfter=No|start_char=306|end_char=313
 21	,	,	PUNCT	,	_	29	punct	_	start_char=313|end_char=314
 22	many	many	ADJ	JJ	Degree=Pos	29	nsubj	_	start_char=315|end_char=319
 23	of	of	ADP	IN	_	24	case	_	start_char=320|end_char=322
@@ -103,20 +102,20 @@
 27	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	29	aux	_	start_char=342|end_char=346
 28	n't	not	PART	RB	Polarity=Neg	29	advmod	_	start_char=346|end_char=349
 29	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	20	acl:relcl	_	start_char=350|end_char=355
-30	of	of	ADP	IN	_	29	obl	_	start_char=356|end_char=358|SpaceAfter=No
-31	.	.	PUNCT	.	_	3	punct	_	start_char=358|end_char=359|SpacesAfter=\n\n
+30	of	of	ADP	IN	_	29	obl	_	SpaceAfter=No|start_char=356|end_char=358
+31	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=358|end_char=359
 
 # text = These are Bacteroides; Prevotella is another example.
 # sent_id = 5
 1	These	this	PRON	DT	Number=Plur|PronType=Dem	3	nsubj	_	start_char=361|end_char=366
 2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=367|end_char=370
-3	Bacteroides	bacteroide	NOUN	NNS	Number=Plur	0	root	_	start_char=371|end_char=382|SpaceAfter=No
+3	Bacteroides	bacteroide	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No|start_char=371|end_char=382
 4	;	;	PUNCT	:	_	8	punct	_	start_char=382|end_char=383
 5	Prevotella	Prevotella	PROPN	NNP	Number=Sing	8	nsubj	_	start_char=384|end_char=394
 6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=395|end_char=397
 7	another	another	DET	DT	PronType=Ind	8	det	_	start_char=398|end_char=405
-8	example	example	NOUN	NN	Number=Sing	3	parataxis	_	start_char=406|end_char=413|SpaceAfter=No
-9	.	.	PUNCT	.	_	3	punct	_	start_char=413|end_char=414|SpacesAfter=\n\n
+8	example	example	NOUN	NN	Number=Sing	3	parataxis	_	SpaceAfter=No|start_char=406|end_char=413
+9	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=413|end_char=414
 
 # text = Those are the two that dominate the modern human gut.
 # sent_id = 6
@@ -129,8 +128,8 @@
 7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=448|end_char=451
 8	modern	modern	ADJ	JJ	Degree=Pos	10	amod	_	start_char=452|end_char=458
 9	human	human	ADJ	JJ	Degree=Pos	10	amod	_	start_char=459|end_char=464
-10	gut	gut	NOUN	NN	Number=Sing	6	obj	_	start_char=465|end_char=468|SpaceAfter=No
-11	.	.	PUNCT	.	_	4	punct	_	start_char=468|end_char=469|SpacesAfter=\n\n
+10	gut	gut	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No|start_char=465|end_char=468
+11	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=468|end_char=469
 
 # text = There are about a hundred trillion microbes living inside you.
 # sent_id = 7
@@ -143,8 +142,8 @@
 7	microbes	microbe	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=506|end_char=514
 8	living	live	VERB	VBG	VerbForm=Ger	7	acl	_	start_char=515|end_char=521
 9	inside	inside	ADP	IN	_	10	case	_	start_char=522|end_char=528
-10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	obl	_	start_char=529|end_char=532|SpaceAfter=No
-11	.	.	PUNCT	.	_	2	punct	_	start_char=532|end_char=533|SpacesAfter=\n\n
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	obl	_	SpaceAfter=No|start_char=529|end_char=532
+11	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=532|end_char=533
 
 # text = We call this your microbiome, so it's like a little world living inside you -- actually more like a universe.
 # sent_id = 8
@@ -152,7 +151,7 @@
 2	call	call	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=538|end_char=542
 3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	obj	_	start_char=543|end_char=547
 4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=548|end_char=552
-5	microbiome	microbiome	NOUN	NN	Number=Sing	2	obj	_	start_char=553|end_char=563|SpaceAfter=No
+5	microbiome	microbiome	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No|start_char=553|end_char=563
 6	,	,	PUNCT	,	_	13	punct	_	start_char=563|end_char=564
 7	so	so	ADV	RB	_	13	advmod	_	start_char=565|end_char=567
 8-9	it's	_	_	_	_	_	_	_	start_char=568|end_char=572
@@ -170,8 +169,8 @@
 19	more	more	ADV	RBR	Degree=Cmp	22	advmod	_	start_char=623|end_char=627
 20	like	like	ADP	IN	_	22	case	_	start_char=628|end_char=632
 21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	start_char=633|end_char=634
-22	universe	universe	NOUN	NN	Number=Sing	13	nmod	_	start_char=635|end_char=643|SpaceAfter=No
-23	.	.	PUNCT	.	_	2	punct	_	start_char=643|end_char=644|SpacesAfter=\n\n
+22	universe	universe	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No|start_char=635|end_char=643
+23	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=643|end_char=644
 
 # text = A hundred trillion means if you took a blade of grass and planted it for every microbe living in your gut, that could fill a million football fields.
 # sent_id = 9
@@ -195,7 +194,7 @@
 18	living	live	VERB	VBG	VerbForm=Ger	17	acl	_	start_char=733|end_char=739
 19	in	in	ADP	IN	_	21	case	_	start_char=740|end_char=742
 20	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	21	nmod:poss	_	start_char=743|end_char=747
-21	gut	gut	NOUN	NN	Number=Sing	18	obl	_	start_char=748|end_char=751|SpaceAfter=No
+21	gut	gut	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No|start_char=748|end_char=751
 22	,	,	PUNCT	,	_	25	punct	_	start_char=751|end_char=752
 23	that	that	PRON	WDT	PronType=Rel	25	nsubj	_	start_char=753|end_char=757
 24	could	could	AUX	MD	VerbForm=Fin	25	aux	_	start_char=758|end_char=763
@@ -203,8 +202,8 @@
 26	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	start_char=769|end_char=770
 27	million	million	NUM	CD	NumForm=Word|NumType=Card	29	nummod	_	start_char=771|end_char=778
 28	football	football	NOUN	NN	Number=Sing	29	compound	_	start_char=779|end_char=787
-29	fields	field	NOUN	NNS	Number=Plur	25	obj	_	start_char=788|end_char=794|SpaceAfter=No
-30	.	.	PUNCT	.	_	4	punct	_	start_char=794|end_char=795|SpacesAfter=\n\n
+29	fields	field	NOUN	NNS	Number=Plur	25	obj	_	SpaceAfter=No|start_char=788|end_char=794
+30	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=794|end_char=795
 
 # text = So it's incredibly complex.
 # sent_id = 10
@@ -213,13 +212,13 @@
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=800|end_char=802
 3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=802|end_char=804
 4	incredibly	incredibly	ADV	RB	_	5	advmod	_	start_char=805|end_char=815
-5	complex	complex	ADJ	JJ	Degree=Pos	0	root	_	start_char=816|end_char=823|SpaceAfter=No
-6	.	.	PUNCT	.	_	5	punct	_	start_char=823|end_char=824|SpacesAfter=\n\n
+5	complex	complex	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No|start_char=816|end_char=823
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=823|end_char=824
 
 # text = But interestingly, as our bodies have been adapting to life in modern society, we're losing some of our normal microbes, and at the same time, there are quite a few diseases related to the gut that are skyrocketing in developed nations all around the world.
 # sent_id = 11
 1	But	but	CCONJ	CC	_	18	cc	_	start_char=826|end_char=829
-2	interestingly	interestingly	ADV	RB	_	18	advmod	_	start_char=830|end_char=843|SpaceAfter=No
+2	interestingly	interestingly	ADV	RB	_	18	advmod	_	SpaceAfter=No|start_char=830|end_char=843
 3	,	,	PUNCT	,	_	2	punct	_	start_char=843|end_char=844
 4	as	as	SCONJ	IN	_	9	mark	_	start_char=845|end_char=847
 5	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=848|end_char=851
@@ -231,7 +230,7 @@
 11	life	life	NOUN	NN	Number=Sing	9	obl	_	start_char=881|end_char=885
 12	in	in	ADP	IN	_	14	case	_	start_char=886|end_char=888
 13	modern	modern	ADJ	JJ	Degree=Pos	14	amod	_	start_char=889|end_char=895
-14	society	society	NOUN	NN	Number=Sing	9	obl	_	start_char=896|end_char=903|SpaceAfter=No
+14	society	society	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No|start_char=896|end_char=903
 15	,	,	PUNCT	,	_	9	punct	_	start_char=903|end_char=904
 16-17	we're	_	_	_	_	_	_	_	start_char=905|end_char=910
 16	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	start_char=905|end_char=907
@@ -241,13 +240,13 @@
 20	of	of	ADP	IN	_	23	case	_	start_char=923|end_char=925
 21	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	_	start_char=926|end_char=929
 22	normal	normal	ADJ	JJ	Degree=Pos	23	amod	_	start_char=930|end_char=936
-23	microbes	microbe	NOUN	NNS	Number=Plur	19	nmod	_	start_char=937|end_char=945|SpaceAfter=No
+23	microbes	microbe	NOUN	NNS	Number=Plur	19	nmod	_	SpaceAfter=No|start_char=937|end_char=945
 24	,	,	PUNCT	,	_	25	punct	_	start_char=945|end_char=946
 25	and	and	CCONJ	CC	_	32	cc	_	start_char=947|end_char=950
 26	at	at	ADP	IN	_	29	case	_	start_char=951|end_char=953
 27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	start_char=954|end_char=957
 28	same	same	ADJ	JJ	Degree=Pos	29	amod	_	start_char=958|end_char=962
-29	time	time	NOUN	NN	Number=Sing	32	obl	_	start_char=963|end_char=967|SpaceAfter=No
+29	time	time	NOUN	NN	Number=Sing	32	obl	_	SpaceAfter=No|start_char=963|end_char=967
 30	,	,	PUNCT	,	_	29	punct	_	start_char=967|end_char=968
 31	there	there	PRON	EX	_	32	expl	_	start_char=969|end_char=974
 32	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	start_char=975|end_char=978
@@ -268,8 +267,8 @@
 47	all	all	ADV	RB	_	50	advmod	_	start_char=1062|end_char=1065
 48	around	around	ADP	IN	_	50	case	_	start_char=1066|end_char=1072
 49	the	the	DET	DT	Definite=Def|PronType=Art	50	det	_	start_char=1073|end_char=1076
-50	world	world	NOUN	NN	Number=Sing	43	obl	_	start_char=1077|end_char=1082|SpaceAfter=No
-51	.	.	PUNCT	.	_	18	punct	_	start_char=1082|end_char=1083|SpacesAfter=\n\n
+50	world	world	NOUN	NN	Number=Sing	43	obl	_	SpaceAfter=No|start_char=1077|end_char=1082
+51	.	.	PUNCT	.	_	18	punct	_	SpacesAfter=\n\n|start_char=1082|end_char=1083
 
 # text = And many of you probably know someone who suffers from obesity, diabetes, Crohn's disease or ulcerative colitis, allergies and asthma.
 # sent_id = 12
@@ -283,9 +282,9 @@
 8	who	who	PRON	WP	PronType=Rel	9	nsubj	_	start_char=1123|end_char=1126
 9	suffers	suffer	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	start_char=1127|end_char=1134
 10	from	from	ADP	IN	_	11	case	_	start_char=1135|end_char=1139
-11	obesity	obesity	NOUN	NN	Number=Sing	9	obl	_	start_char=1140|end_char=1147|SpaceAfter=No
+11	obesity	obesity	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No|start_char=1140|end_char=1147
 12	,	,	PUNCT	,	_	13	punct	_	start_char=1147|end_char=1148
-13	diabetes	diabete	NOUN	NN	Number=Sing	11	conj	_	start_char=1149|end_char=1157|SpaceAfter=No
+13	diabetes	diabete	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No|start_char=1149|end_char=1157
 14	,	,	PUNCT	,	_	17	punct	_	start_char=1157|end_char=1158
 15-16	Crohn's	_	_	_	_	_	_	_	start_char=1159|end_char=1166
 15	Crohn	Crohn	PROPN	NNP	Number=Sing	17	nmod:poss	_	start_char=1159|end_char=1164
@@ -293,12 +292,12 @@
 17	disease	disease	NOUN	NN	Number=Sing	11	conj	_	start_char=1167|end_char=1174
 18	or	or	CCONJ	CC	_	20	cc	_	start_char=1175|end_char=1177
 19	ulcerative	ulcerative	ADJ	JJ	Degree=Pos	20	amod	_	start_char=1178|end_char=1188
-20	colitis	colitis	NOUN	NN	Number=Sing	11	conj	_	start_char=1189|end_char=1196|SpaceAfter=No
+20	colitis	colitis	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No|start_char=1189|end_char=1196
 21	,	,	PUNCT	,	_	22	punct	_	start_char=1196|end_char=1197
 22	allergies	allergy	NOUN	NNS	Number=Plur	11	conj	_	start_char=1198|end_char=1207
 23	and	and	CCONJ	CC	_	24	cc	_	start_char=1208|end_char=1211
-24	asthma	asthma	NOUN	NN	Number=Sing	11	conj	_	start_char=1212|end_char=1218|SpaceAfter=No
-25	.	.	PUNCT	.	_	6	punct	_	start_char=1218|end_char=1219|SpacesAfter=\n\n
+24	asthma	asthma	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No|start_char=1212|end_char=1218
+25	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=1218|end_char=1219
 
 # text = Every one of these diseases and many others related to metabolism and autoimmunity are linked to a loss of healthy diversity in the gut.
 # sent_id = 13
@@ -325,8 +324,8 @@
 21	diversity	diversity	NOUN	NN	Number=Sing	18	nmod	_	start_char=1336|end_char=1345
 22	in	in	ADP	IN	_	24	case	_	start_char=1346|end_char=1348
 23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	start_char=1349|end_char=1352
-24	gut	gut	NOUN	NN	Number=Sing	21	nmod	_	start_char=1353|end_char=1356|SpaceAfter=No
-25	.	.	PUNCT	.	_	15	punct	_	start_char=1356|end_char=1357|SpacesAfter=\n\n
+24	gut	gut	NOUN	NN	Number=Sing	21	nmod	_	SpaceAfter=No|start_char=1353|end_char=1356
+25	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\n\n|start_char=1356|end_char=1357
 
 # text = My lab got our first indication of this when actually we were studying non-human primates.
 # sent_id = 14
@@ -344,8 +343,8 @@
 12	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	13	aux	_	start_char=1416|end_char=1420
 13	studying	study	VERB	VBG	Tense=Pres|VerbForm=Part	3	advcl	_	start_char=1421|end_char=1429
 14	non-human	non-human	ADJ	JJ	Degree=Pos	15	amod	_	start_char=1430|end_char=1439
-15	primates	primate	NOUN	NNS	Number=Plur	13	obj	_	start_char=1440|end_char=1448|SpaceAfter=No
-16	.	.	PUNCT	.	_	3	punct	_	start_char=1448|end_char=1449|SpacesAfter=\n\n
+15	primates	primate	NOUN	NNS	Number=Plur	13	obj	_	SpaceAfter=No|start_char=1440|end_char=1448
+16	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=1448|end_char=1449
 
 # text = We wanted to find out what happens to a monkey's microbiome when they move from the jungle to a zoo.
 # sent_id = 15
@@ -370,16 +369,16 @@
 18	jungle	jungle	NOUN	NN	Number=Sing	15	obl	_	start_char=1535|end_char=1541
 19	to	to	ADP	IN	_	21	case	_	start_char=1542|end_char=1544
 20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	start_char=1545|end_char=1546
-21	zoo	zoo	NOUN	NN	Number=Sing	15	obl	_	start_char=1547|end_char=1550|SpaceAfter=No
-22	.	.	PUNCT	.	_	2	punct	_	start_char=1550|end_char=1551|SpacesAfter=\n\n
+21	zoo	zoo	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No|start_char=1547|end_char=1550
+22	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=1550|end_char=1551
 
 # text = Does their microbiome change?
 # sent_id = 16
 1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=1553|end_char=1557
 2	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=1558|end_char=1563
 3	microbiome	microbiome	NOUN	NN	Number=Sing	4	nsubj	_	start_char=1564|end_char=1574
-4	change	change	VERB	VB	VerbForm=Inf	0	root	_	start_char=1575|end_char=1581|SpaceAfter=No
-5	?	?	PUNCT	.	_	4	punct	_	start_char=1581|end_char=1582|SpacesAfter=\n\n
+4	change	change	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1575|end_char=1581
+5	?	?	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=1581|end_char=1582
 
 # text = Do they pick up new bugs?
 # sent_id = 17
@@ -388,16 +387,16 @@
 3	pick	pick	VERB	VB	VerbForm=Inf	0	root	_	start_char=1592|end_char=1596
 4	up	up	ADP	RP	_	3	compound:prt	_	start_char=1597|end_char=1599
 5	new	new	ADJ	JJ	Degree=Pos	6	amod	_	start_char=1600|end_char=1603
-6	bugs	bug	NOUN	NNS	Number=Plur	3	obj	_	start_char=1604|end_char=1608|SpaceAfter=No
-7	?	?	PUNCT	.	_	3	punct	_	start_char=1608|end_char=1609|SpacesAfter=\n\n
+6	bugs	bug	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No|start_char=1604|end_char=1608
+7	?	?	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=1608|end_char=1609
 
 # text = Do they lose some?
 # sent_id = 18
 1	Do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=1611|end_char=1613
 2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=1614|end_char=1618
 3	lose	lose	VERB	VB	VerbForm=Inf	0	root	_	start_char=1619|end_char=1623
-4	some	some	DET	DT	PronType=Ind	3	obj	_	start_char=1624|end_char=1628|SpaceAfter=No
-5	?	?	PUNCT	.	_	3	punct	_	start_char=1628|end_char=1629|SpacesAfter=\n\n
+4	some	some	DET	DT	PronType=Ind	3	obj	_	SpaceAfter=No|start_char=1624|end_char=1628
+5	?	?	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=1628|end_char=1629
 
 # text = Does it get better or worse?
 # sent_id = 19
@@ -406,8 +405,8 @@
 3	get	get	VERB	VB	VerbForm=Inf	0	root	_	start_char=1639|end_char=1642
 4	better	good	ADJ	JJR	Degree=Cmp	3	xcomp	_	start_char=1643|end_char=1649
 5	or	or	CCONJ	CC	_	6	cc	_	start_char=1650|end_char=1652
-6	worse	bad	ADJ	JJR	Degree=Cmp	4	conj	_	start_char=1653|end_char=1658|SpaceAfter=No
-7	?	?	PUNCT	.	_	3	punct	_	start_char=1658|end_char=1659|SpacesAfter=\n\n
+6	worse	bad	ADJ	JJR	Degree=Cmp	4	conj	_	SpaceAfter=No|start_char=1653|end_char=1658
+7	?	?	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=1658|end_char=1659
 
 # text = We tracked two different species in the jungle, one in Vietnam, one in Costa Rica, and then we sequenced the DNA from their stool.
 # sent_id = 20
@@ -418,16 +417,16 @@
 5	species	species	NOUN	NNS	Number=Plur	2	obj	_	start_char=1686|end_char=1693
 6	in	in	ADP	IN	_	8	case	_	start_char=1694|end_char=1696
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=1697|end_char=1700
-8	jungle	jungle	NOUN	NN	Number=Sing	2	obl	_	start_char=1701|end_char=1707|SpaceAfter=No
+8	jungle	jungle	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No|start_char=1701|end_char=1707
 9	,	,	PUNCT	,	_	10	punct	_	start_char=1707|end_char=1708
 10	one	one	NUM	CD	NumForm=Word|NumType=Card	5	appos	_	start_char=1709|end_char=1712
 11	in	in	ADP	IN	_	12	case	_	start_char=1713|end_char=1715
-12	Vietnam	Vietnam	PROPN	NNP	Number=Sing	10	nmod	_	start_char=1716|end_char=1723|SpaceAfter=No
+12	Vietnam	Vietnam	PROPN	NNP	Number=Sing	10	nmod	_	SpaceAfter=No|start_char=1716|end_char=1723
 13	,	,	PUNCT	,	_	14	punct	_	start_char=1723|end_char=1724
 14	one	one	NUM	CD	NumForm=Word|NumType=Card	10	conj	_	start_char=1725|end_char=1728
 15	in	in	ADP	IN	_	17	case	_	start_char=1729|end_char=1731
 16	Costa	Costa	PROPN	NNP	Number=Sing	17	compound	_	start_char=1732|end_char=1737
-17	Rica	Rica	PROPN	NNP	Number=Sing	14	nmod	_	start_char=1738|end_char=1742|SpaceAfter=No
+17	Rica	Rica	PROPN	NNP	Number=Sing	14	nmod	_	SpaceAfter=No|start_char=1738|end_char=1742
 18	,	,	PUNCT	,	_	22	punct	_	start_char=1742|end_char=1743
 19	and	and	CCONJ	CC	_	22	cc	_	start_char=1744|end_char=1747
 20	then	then	ADV	RB	PronType=Dem	22	advmod	_	start_char=1748|end_char=1752
@@ -437,8 +436,8 @@
 24	DNA	DNA	NOUN	NN	Number=Sing	22	obj	_	start_char=1770|end_char=1773
 25	from	from	ADP	IN	_	27	case	_	start_char=1774|end_char=1778
 26	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	start_char=1779|end_char=1784
-27	stool	stool	NOUN	NN	Number=Sing	22	obl	_	start_char=1785|end_char=1790|SpaceAfter=No
-28	.	.	PUNCT	.	_	2	punct	_	start_char=1790|end_char=1791|SpacesAfter=\n\n
+27	stool	stool	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No|start_char=1785|end_char=1790
+28	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=1790|end_char=1791
 
 # text = This is how we study the microbiome in my research lab.
 # sent_id = 21
@@ -452,8 +451,8 @@
 8	in	in	ADP	IN	_	11	case	_	start_char=1829|end_char=1831
 9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=1832|end_char=1834
 10	research	research	NOUN	NN	Number=Sing	11	compound	_	start_char=1835|end_char=1843
-11	lab	lab	NOUN	NN	Number=Sing	5	obl	_	start_char=1844|end_char=1847|SpaceAfter=No
-12	.	.	PUNCT	.	_	3	punct	_	start_char=1847|end_char=1848|SpacesAfter=\n\n
+11	lab	lab	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No|start_char=1844|end_char=1847
+12	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=1847|end_char=1848
 
 # text = And what we found in the DNA is that in the wild, these two species had totally different sets of microbes.
 # sent_id = 22
@@ -468,7 +467,7 @@
 9	that	that	SCONJ	IN	_	17	mark	_	start_char=1882|end_char=1886
 10	in	in	ADP	IN	_	12	case	_	start_char=1887|end_char=1889
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=1890|end_char=1893
-12	wild	wild	NOUN	NN	Number=Sing	17	obl	_	start_char=1894|end_char=1898|SpaceAfter=No
+12	wild	wild	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No|start_char=1894|end_char=1898
 13	,	,	PUNCT	,	_	12	punct	_	start_char=1898|end_char=1899
 14	these	this	DET	DT	Number=Plur|PronType=Dem	16	det	_	start_char=1900|end_char=1905
 15	two	two	NUM	CD	NumForm=Word|NumType=Card	16	nummod	_	start_char=1906|end_char=1909
@@ -478,8 +477,8 @@
 19	different	different	ADJ	JJ	Degree=Pos	20	amod	_	start_char=1930|end_char=1939
 20	sets	set	NOUN	NNS	Number=Plur	17	obj	_	start_char=1940|end_char=1944
 21	of	of	ADP	IN	_	22	case	_	start_char=1945|end_char=1947
-22	microbes	microbe	NOUN	NNS	Number=Plur	20	nmod	_	start_char=1948|end_char=1956|SpaceAfter=No
-23	.	.	PUNCT	.	_	17	punct	_	start_char=1956|end_char=1957|SpacesAfter=\n\n
+22	microbes	microbe	NOUN	NNS	Number=Plur	20	nmod	_	SpaceAfter=No|start_char=1948|end_char=1956
+23	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\n\n|start_char=1956|end_char=1957
 
 # text = It was like a fingerprint for the species.
 # sent_id = 23
@@ -490,15 +489,15 @@
 5	fingerprint	fingerprint	NOUN	NN	Number=Sing	0	root	_	start_char=1973|end_char=1984
 6	for	for	ADP	IN	_	8	case	_	start_char=1985|end_char=1988
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=1989|end_char=1992
-8	species	species	NOUN	NNS	Number=Plur	5	nmod	_	start_char=1993|end_char=2000|SpaceAfter=No
-9	.	.	PUNCT	.	_	5	punct	_	start_char=2000|end_char=2001|SpacesAfter=\n\n
+8	species	species	NOUN	NNS	Number=Plur	5	nmod	_	SpaceAfter=No|start_char=1993|end_char=2000
+9	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=2000|end_char=2001
 
 # text = But in the zoo, they had lost most of that diversity and had acquired some other set of microbes.
 # sent_id = 24
 1	But	but	CCONJ	CC	_	8	cc	_	start_char=2003|end_char=2006
 2	in	in	ADP	IN	_	4	case	_	start_char=2007|end_char=2009
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=2010|end_char=2013
-4	zoo	zoo	NOUN	NN	Number=Sing	8	obl	_	start_char=2014|end_char=2017|SpaceAfter=No
+4	zoo	zoo	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No|start_char=2014|end_char=2017
 5	,	,	PUNCT	,	_	4	punct	_	start_char=2017|end_char=2018
 6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=2019|end_char=2023
 7	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	start_char=2024|end_char=2027
@@ -514,8 +513,8 @@
 17	other	other	ADJ	JJ	Degree=Pos	18	amod	_	start_char=2078|end_char=2083
 18	set	set	NOUN	NN	Number=Sing	15	obj	_	start_char=2084|end_char=2087
 19	of	of	ADP	IN	_	20	case	_	start_char=2088|end_char=2090
-20	microbes	microbe	NOUN	NNS	Number=Plur	18	nmod	_	start_char=2091|end_char=2099|SpaceAfter=No
-21	.	.	PUNCT	.	_	8	punct	_	start_char=2099|end_char=2100|SpacesAfter=\n\n
+20	microbes	microbe	NOUN	NNS	Number=Plur	18	nmod	_	SpaceAfter=No|start_char=2091|end_char=2099
+21	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n\n|start_char=2099|end_char=2100
 
 # text = So this was very curious.
 # sent_id = 25
@@ -523,8 +522,8 @@
 2	this	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	start_char=2105|end_char=2109
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=2110|end_char=2113
 4	very	very	ADV	RB	_	5	advmod	_	start_char=2114|end_char=2118
-5	curious	curious	ADJ	JJ	Degree=Pos	0	root	_	start_char=2119|end_char=2126|SpaceAfter=No
-6	.	.	PUNCT	.	_	5	punct	_	start_char=2126|end_char=2127|SpacesAfter=\n\n
+5	curious	curious	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No|start_char=2119|end_char=2126
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=2126|end_char=2127
 
 # text = We've got these two different microbiomes.
 # sent_id = 26
@@ -535,14 +534,14 @@
 4	these	this	DET	DT	Number=Plur|PronType=Dem	7	det	_	start_char=2139|end_char=2144
 5	two	two	NUM	CD	NumForm=Word|NumType=Card	7	nummod	_	start_char=2145|end_char=2148
 6	different	different	ADJ	JJ	Degree=Pos	7	amod	_	start_char=2149|end_char=2158
-7	microbiomes	microbiome	NOUN	NNS	Number=Plur	3	obj	_	start_char=2159|end_char=2170|SpaceAfter=No
-8	.	.	PUNCT	.	_	3	punct	_	start_char=2170|end_char=2171|SpacesAfter=\n\n
+7	microbiomes	microbiome	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No|start_char=2159|end_char=2170
+8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=2170|end_char=2171
 
 # text = In the wild, picture a lush tropical rainforest living the guts of these monkeys.
 # sent_id = 27
 1	In	in	ADP	IN	_	3	case	_	start_char=2173|end_char=2175
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=2176|end_char=2179
-3	wild	wild	NOUN	NN	Number=Sing	5	obl	_	start_char=2180|end_char=2184|SpaceAfter=No
+3	wild	wild	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No|start_char=2180|end_char=2184
 4	,	,	PUNCT	,	_	3	punct	_	start_char=2184|end_char=2185
 5	picture	picture	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=2186|end_char=2193
 6	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=2194|end_char=2195
@@ -554,8 +553,8 @@
 12	guts	gut	NOUN	NNS	Number=Plur	10	obj	_	start_char=2232|end_char=2236
 13	of	of	ADP	IN	_	15	case	_	start_char=2237|end_char=2239
 14	these	this	DET	DT	Number=Plur|PronType=Dem	15	det	_	start_char=2240|end_char=2245
-15	monkeys	monkey	NOUN	NNS	Number=Plur	12	nmod	_	start_char=2246|end_char=2253|SpaceAfter=No
-16	.	.	PUNCT	.	_	5	punct	_	start_char=2253|end_char=2254|SpacesAfter=\n\n
+15	monkeys	monkey	NOUN	NNS	Number=Plur	12	nmod	_	SpaceAfter=No|start_char=2246|end_char=2253
+16	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=2253|end_char=2254
 
 # text = That's the kind of diversity that we're talking about.
 # sent_id = 28
@@ -571,22 +570,22 @@
 8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	start_char=2290|end_char=2292
 9	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=2292|end_char=2295
 10	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	6	acl:relcl	_	start_char=2296|end_char=2303
-11	about	about	ADP	IN	_	7	case	_	start_char=2304|end_char=2309|SpaceAfter=No
-12	.	.	PUNCT	.	_	4	punct	_	start_char=2309|end_char=2310|SpacesAfter=\n\n
+11	about	about	ADP	IN	_	7	case	_	SpaceAfter=No|start_char=2304|end_char=2309
+12	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=2309|end_char=2310
 
 # text = Then in the zoo, they've lost diversity.
 # sent_id = 29
 1	Then	then	ADV	RB	PronType=Dem	8	advmod	_	start_char=2312|end_char=2316
 2	in	in	ADP	IN	_	4	case	_	start_char=2317|end_char=2319
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=2320|end_char=2323
-4	zoo	zoo	NOUN	NN	Number=Sing	8	obl	_	start_char=2324|end_char=2327|SpaceAfter=No
+4	zoo	zoo	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No|start_char=2324|end_char=2327
 5	,	,	PUNCT	,	_	4	punct	_	start_char=2327|end_char=2328
 6-7	they've	_	_	_	_	_	_	_	start_char=2329|end_char=2336
 6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=2329|end_char=2333
 7	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=2333|end_char=2336
 8	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=2337|end_char=2341
-9	diversity	diversity	NOUN	NN	Number=Sing	8	obj	_	start_char=2342|end_char=2351|SpaceAfter=No
-10	.	.	PUNCT	.	_	8	punct	_	start_char=2351|end_char=2352|SpacesAfter=\n\n
+9	diversity	diversity	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No|start_char=2342|end_char=2351
+10	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n\n|start_char=2351|end_char=2352
 
 # text = Picture a rainforest that's been burned to the ground and taken over by a few invasive species.
 # sent_id = 30
@@ -608,8 +607,8 @@
 15	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	start_char=2426|end_char=2427
 16	few	few	ADJ	JJ	Degree=Pos	18	amod	_	start_char=2428|end_char=2431
 17	invasive	invasive	ADJ	JJ	Degree=Pos	18	amod	_	start_char=2432|end_char=2440
-18	species	species	NOUN	NNS	Number=Plur	12	obl:agent	_	start_char=2441|end_char=2448|SpaceAfter=No
-19	.	.	PUNCT	.	_	1	punct	_	start_char=2448|end_char=2449|SpacesAfter=\n\n
+18	species	species	NOUN	NNS	Number=Plur	12	obl:agent	_	SpaceAfter=No|start_char=2441|end_char=2448
+19	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n|start_char=2448|end_char=2449
 
 # text = That's more like the microbiome in a captive primate.
 # sent_id = 31
@@ -623,16 +622,16 @@
 7	in	in	ADP	IN	_	10	case	_	start_char=2483|end_char=2485
 8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=2486|end_char=2487
 9	captive	captive	ADJ	JJ	Degree=Pos	10	amod	_	start_char=2488|end_char=2495
-10	primate	primate	NOUN	NN	Number=Sing	6	nmod	_	start_char=2496|end_char=2503|SpaceAfter=No
-11	.	.	PUNCT	.	_	3	punct	_	start_char=2503|end_char=2504|SpacesAfter=\n\n
+10	primate	primate	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No|start_char=2496|end_char=2503
+11	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=2503|end_char=2504
 
 # text = Now, in the meantime, many of the animals in the zoo are not doing so well.
 # sent_id = 32
-1	Now	now	ADV	RB	_	16	advmod	_	start_char=2506|end_char=2509|SpaceAfter=No
+1	Now	now	ADV	RB	_	16	advmod	_	SpaceAfter=No|start_char=2506|end_char=2509
 2	,	,	PUNCT	,	_	1	punct	_	start_char=2509|end_char=2510
 3	in	in	ADP	IN	_	5	case	_	start_char=2511|end_char=2513
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=2514|end_char=2517
-5	meantime	meantime	NOUN	NN	Number=Sing	16	obl	_	start_char=2518|end_char=2526|SpaceAfter=No
+5	meantime	meantime	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No|start_char=2518|end_char=2526
 6	,	,	PUNCT	,	_	5	punct	_	start_char=2526|end_char=2527
 7	many	many	ADJ	JJ	Degree=Pos	16	nsubj	_	start_char=2528|end_char=2532
 8	of	of	ADP	IN	_	10	case	_	start_char=2533|end_char=2535
@@ -645,8 +644,8 @@
 15	not	not	PART	RB	Polarity=Neg	16	advmod	_	start_char=2563|end_char=2566
 16	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=2567|end_char=2572
 17	so	so	ADV	RB	_	18	advmod	_	start_char=2573|end_char=2575
-18	well	well	ADV	RB	Degree=Pos	16	advmod	_	start_char=2576|end_char=2580|SpaceAfter=No
-19	.	.	PUNCT	.	_	16	punct	_	start_char=2580|end_char=2581|SpacesAfter=\n\n
+18	well	well	ADV	RB	Degree=Pos	16	advmod	_	SpaceAfter=No|start_char=2576|end_char=2580
+19	.	.	PUNCT	.	_	16	punct	_	SpacesAfter=\n\n|start_char=2580|end_char=2581
 
 # text = They have issues with obesity, wasting, gastroenteritis, diarrhea, bloating, and some of them were barely holding onto their lives.
 # sent_id = 33
@@ -654,15 +653,15 @@
 2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2588|end_char=2592
 3	issues	issue	NOUN	NNS	Number=Plur	2	obj	_	start_char=2593|end_char=2599
 4	with	with	ADP	IN	_	5	case	_	start_char=2600|end_char=2604
-5	obesity	obesity	NOUN	NN	Number=Sing	3	nmod	_	start_char=2605|end_char=2612|SpaceAfter=No
+5	obesity	obesity	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No|start_char=2605|end_char=2612
 6	,	,	PUNCT	,	_	7	punct	_	start_char=2612|end_char=2613
-7	wasting	waste	NOUN	NN	Number=Sing	5	conj	_	start_char=2614|end_char=2621|SpaceAfter=No
+7	wasting	waste	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No|start_char=2614|end_char=2621
 8	,	,	PUNCT	,	_	9	punct	_	start_char=2621|end_char=2622
-9	gastroenteritis	gastroenteritis	NOUN	NN	Number=Sing	5	conj	_	start_char=2623|end_char=2638|SpaceAfter=No
+9	gastroenteritis	gastroenteritis	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No|start_char=2623|end_char=2638
 10	,	,	PUNCT	,	_	11	punct	_	start_char=2638|end_char=2639
-11	diarrhea	diarrhea	NOUN	NN	Number=Sing	5	conj	_	start_char=2640|end_char=2648|SpaceAfter=No
+11	diarrhea	diarrhea	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No|start_char=2640|end_char=2648
 12	,	,	PUNCT	,	_	13	punct	_	start_char=2648|end_char=2649
-13	bloating	bloating	NOUN	NN	Number=Sing	5	conj	_	start_char=2650|end_char=2658|SpaceAfter=No
+13	bloating	bloating	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No|start_char=2650|end_char=2658
 14	,	,	PUNCT	,	_	21	punct	_	start_char=2658|end_char=2659
 15	and	and	CCONJ	CC	_	21	cc	_	start_char=2660|end_char=2663
 16	some	some	DET	DT	PronType=Ind	21	nsubj	_	start_char=2664|end_char=2668
@@ -673,15 +672,15 @@
 21	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part	2	conj	_	start_char=2689|end_char=2696
 22	onto	onto	ADP	IN	_	24	case	_	start_char=2697|end_char=2701
 23	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	start_char=2702|end_char=2707
-24	lives	life	NOUN	NNS	Number=Plur	21	obl	_	start_char=2708|end_char=2713|SpaceAfter=No
-25	.	.	PUNCT	.	_	2	punct	_	start_char=2713|end_char=2714|SpacesAfter=\n\n
+24	lives	life	NOUN	NNS	Number=Plur	21	obl	_	SpaceAfter=No|start_char=2708|end_char=2713
+25	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=2713|end_char=2714
 
 # text = Now, of course, we were very interested to find out what are these so-called invasive species that are taking over in the zoo.
 # sent_id = 34
-1	Now	now	ADV	RB	_	9	advmod	_	start_char=2716|end_char=2719|SpaceAfter=No
+1	Now	now	ADV	RB	_	9	advmod	_	SpaceAfter=No|start_char=2716|end_char=2719
 2	,	,	PUNCT	,	_	1	punct	_	start_char=2719|end_char=2720
 3	of	of	ADP	IN	ExtPos=ADV	9	advmod	_	start_char=2721|end_char=2723
-4	course	course	NOUN	NN	Number=Sing	3	fixed	_	start_char=2724|end_char=2730|SpaceAfter=No
+4	course	course	NOUN	NN	Number=Sing	3	fixed	_	SpaceAfter=No|start_char=2724|end_char=2730
 5	,	,	PUNCT	,	_	3	punct	_	start_char=2730|end_char=2731
 6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=2732|end_char=2734
 7	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	9	cop	_	start_char=2735|end_char=2739
@@ -693,8 +692,8 @@
 13	what	what	PRON	WP	PronType=Int	11	obj	_	start_char=2768|end_char=2772
 14	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	start_char=2773|end_char=2776
 15	these	this	DET	DT	Number=Plur|PronType=Dem	20	det	_	start_char=2777|end_char=2782
-16	so	so	ADV	RB	_	18	advmod	_	start_char=2783|end_char=2785|SpaceAfter=No
-17	-	-	PUNCT	HYPH	_	16	punct	_	start_char=2785|end_char=2786|SpaceAfter=No
+16	so	so	ADV	RB	_	18	advmod	_	SpaceAfter=No|start_char=2783|end_char=2785
+17	-	-	PUNCT	HYPH	_	16	punct	_	SpaceAfter=No|start_char=2785|end_char=2786
 18	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	start_char=2786|end_char=2792
 19	invasive	invasive	ADJ	JJ	Degree=Pos	20	amod	_	start_char=2793|end_char=2801
 20	species	species	NOUN	NNS	Number=Plur	13	nsubj	_	start_char=2802|end_char=2809
@@ -704,8 +703,8 @@
 24	over	over	ADP	RP	_	23	compound:prt	_	start_char=2826|end_char=2830
 25	in	in	ADP	IN	_	27	case	_	start_char=2831|end_char=2833
 26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	start_char=2834|end_char=2837
-27	zoo	zoo	NOUN	NN	Number=Sing	23	obl	_	start_char=2838|end_char=2841|SpaceAfter=No
-28	.	.	PUNCT	.	_	9	punct	_	start_char=2841|end_char=2842|SpacesAfter=\n\n
+27	zoo	zoo	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No|start_char=2838|end_char=2841
+28	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n\n|start_char=2841|end_char=2842
 
 # text = So we went back to the DNA, and what the DNA told us is that every monkey in the zoo had become dominated by Bacteroides and Prevotella, the same microbes that we all have in our guts as modern humans.
 # sent_id = 35
@@ -715,7 +714,7 @@
 4	back	back	ADV	RB	_	3	advmod	_	start_char=2855|end_char=2859
 5	to	to	ADP	IN	_	7	case	_	start_char=2860|end_char=2862
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=2863|end_char=2866
-7	DNA	DNA	NOUN	NN	Number=Sing	3	obl	_	start_char=2867|end_char=2870|SpaceAfter=No
+7	DNA	DNA	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No|start_char=2867|end_char=2870
 8	,	,	PUNCT	,	_	23	punct	_	start_char=2870|end_char=2871
 9	and	and	CCONJ	CC	_	23	cc	_	start_char=2872|end_char=2875
 10	what	what	PRON	WP	PronType=Rel	23	nsubj:outer	_	start_char=2876|end_char=2880
@@ -736,7 +735,7 @@
 25	by	by	ADP	IN	_	26	case	_	start_char=2950|end_char=2952
 26	Bacteroides	Bacteroides	PROPN	NNPS	Number=Plur	24	obl:agent	_	start_char=2953|end_char=2964
 27	and	and	CCONJ	CC	_	28	cc	_	start_char=2965|end_char=2968
-28	Prevotella	Prevotella	PROPN	NNP	Number=Sing	26	conj	_	start_char=2969|end_char=2979|SpaceAfter=No
+28	Prevotella	Prevotella	PROPN	NNP	Number=Sing	26	conj	_	SpaceAfter=No|start_char=2969|end_char=2979
 29	,	,	PUNCT	,	_	32	punct	_	start_char=2979|end_char=2980
 30	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	start_char=2981|end_char=2984
 31	same	same	ADJ	JJ	Degree=Pos	32	amod	_	start_char=2985|end_char=2989
@@ -750,8 +749,8 @@
 39	guts	gut	NOUN	NNS	Number=Plur	36	obl	_	start_char=3023|end_char=3027
 40	as	as	ADP	IN	_	42	case	_	start_char=3028|end_char=3030
 41	modern	modern	ADJ	JJ	Degree=Pos	42	amod	_	start_char=3031|end_char=3037
-42	humans	human	NOUN	NNS	Number=Plur	36	obl	_	start_char=3038|end_char=3044|SpaceAfter=No
-43	.	.	PUNCT	.	_	3	punct	_	start_char=3044|end_char=3045|SpacesAfter=\n\n
+42	humans	human	NOUN	NNS	Number=Plur	36	obl	_	SpaceAfter=No|start_char=3038|end_char=3044
+43	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=3044|end_char=3045
 
 # text = We wanted to find a way to visualize this, and we used some tools from multivariate ecology to put all of the microbiomes we were studying onto an axis.
 # sent_id = 36
@@ -763,7 +762,7 @@
 6	way	way	NOUN	NN	Number=Sing	4	obj	_	start_char=3067|end_char=3070
 7	to	to	PART	TO	_	8	mark	_	start_char=3071|end_char=3073
 8	visualize	visualize	VERB	VB	VerbForm=Inf	6	acl	_	start_char=3074|end_char=3083
-9	this	this	PRON	DT	Number=Sing|PronType=Dem	8	obj	_	start_char=3084|end_char=3088|SpaceAfter=No
+9	this	this	PRON	DT	Number=Sing|PronType=Dem	8	obj	_	SpaceAfter=No|start_char=3084|end_char=3088
 10	,	,	PUNCT	,	_	13	punct	_	start_char=3088|end_char=3089
 11	and	and	CCONJ	CC	_	13	cc	_	start_char=3090|end_char=3093
 12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	start_char=3094|end_char=3096
@@ -784,8 +783,8 @@
 27	studying	study	VERB	VBG	Tense=Pres|VerbForm=Part	24	acl:relcl	_	start_char=3177|end_char=3185
 28	onto	onto	ADP	IN	_	30	case	_	start_char=3186|end_char=3190
 29	an	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	start_char=3191|end_char=3193
-30	axis	axis	NOUN	NN	Number=Sing	27	obl	_	start_char=3194|end_char=3198|SpaceAfter=No
-31	.	.	PUNCT	.	_	2	punct	_	start_char=3198|end_char=3199|SpacesAfter=\n\n
+30	axis	axis	NOUN	NN	Number=Sing	27	obl	_	SpaceAfter=No|start_char=3194|end_char=3198
+31	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=3198|end_char=3199
 
 # text = And what you're seeing here is a distance plot where every point is a different animal's microbiome.
 # sent_id = 37
@@ -809,8 +808,8 @@
 17-18	animal's	_	_	_	_	_	_	_	start_char=3281|end_char=3289
 17	animal	animal	NOUN	NN	Number=Sing	19	nmod:poss	_	start_char=3281|end_char=3287
 18	's	's	PART	POS	_	17	case	_	start_char=3287|end_char=3289
-19	microbiome	microbiome	NOUN	NN	Number=Sing	10	acl:relcl	_	start_char=3290|end_char=3300|SpaceAfter=No
-20	.	.	PUNCT	.	_	10	punct	_	start_char=3300|end_char=3301|SpacesAfter=\n\n
+19	microbiome	microbiome	NOUN	NN	Number=Sing	10	acl:relcl	_	SpaceAfter=No|start_char=3290|end_char=3300
+20	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n|start_char=3300|end_char=3301
 
 # text = So every point represents a whole zoo of microbes.
 # sent_id = 38
@@ -822,8 +821,8 @@
 6	whole	whole	ADJ	JJ	Degree=Pos	7	amod	_	start_char=3331|end_char=3336
 7	zoo	zoo	NOUN	NN	Number=Sing	4	obj	_	start_char=3337|end_char=3340
 8	of	of	ADP	IN	_	9	case	_	start_char=3341|end_char=3343
-9	microbes	microbe	NOUN	NNS	Number=Plur	7	nmod	_	start_char=3344|end_char=3352|SpaceAfter=No
-10	.	.	PUNCT	.	_	4	punct	_	start_char=3352|end_char=3353|SpacesAfter=\n\n
+9	microbes	microbe	NOUN	NNS	Number=Plur	7	nmod	_	SpaceAfter=No|start_char=3344|end_char=3352
+10	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=3352|end_char=3353
 
 # text = And the microbiomes that have a lot of microbes in common are close to each other.
 # sent_id = 39
@@ -842,8 +841,8 @@
 13	close	close	ADJ	JJ	Degree=Pos	0	root	_	start_char=3417|end_char=3422
 14	to	to	ADP	IN	_	15	case	_	start_char=3423|end_char=3425
 15	each	each	DET	DT	ExtPos=PRON|PronType=Rcp	13	obl	_	start_char=3426|end_char=3430
-16	other	other	ADJ	JJ	Degree=Pos	15	fixed	_	start_char=3431|end_char=3436|SpaceAfter=No
-17	.	.	PUNCT	.	_	13	punct	_	start_char=3436|end_char=3437|SpacesAfter=\n\n
+16	other	other	ADJ	JJ	Degree=Pos	15	fixed	_	SpaceAfter=No|start_char=3431|end_char=3436
+17	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\n\n|start_char=3436|end_char=3437
 
 # text = The ones that are very different are farther apart.
 # sent_id = 40
@@ -855,8 +854,8 @@
 6	different	different	ADJ	JJ	Degree=Pos	2	acl:relcl	_	start_char=3462|end_char=3471
 7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=3472|end_char=3475
 8	farther	far	ADV	RBR	Degree=Cmp	9	advmod	_	start_char=3476|end_char=3483
-9	apart	apart	ADV	RB	_	0	root	_	start_char=3484|end_char=3489|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	punct	_	start_char=3489|end_char=3490|SpacesAfter=\n\n
+9	apart	apart	ADV	RB	_	0	root	_	SpaceAfter=No|start_char=3484|end_char=3489
+10	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n\n|start_char=3489|end_char=3490
 
 # text = So this is showing you that the two groups of wild monkeys are over on the left.
 # sent_id = 41
@@ -876,8 +875,8 @@
 14	over	over	ADV	RB	_	17	advmod	_	start_char=3555|end_char=3559
 15	on	on	ADP	IN	_	17	case	_	start_char=3560|end_char=3562
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=3563|end_char=3566
-17	left	left	NOUN	NN	Number=Sing	4	ccomp	_	start_char=3567|end_char=3571|SpaceAfter=No
-18	.	.	PUNCT	.	_	4	punct	_	start_char=3571|end_char=3572|SpacesAfter=\n\n
+17	left	left	NOUN	NN	Number=Sing	4	ccomp	_	SpaceAfter=No|start_char=3567|end_char=3571
+18	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=3571|end_char=3572
 
 # text = The top left are these highly endangered monkeys called the red-shanked douc in Vietnam.
 # sent_id = 42
@@ -891,13 +890,13 @@
 8	monkeys	monkey	NOUN	NNS	Number=Plur	0	root	_	start_char=3615|end_char=3622
 9	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	start_char=3623|end_char=3629
 10	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=3630|end_char=3633
-11	red	red	ADJ	JJ	Degree=Pos	13	amod	_	start_char=3634|end_char=3637|SpaceAfter=No
-12	-	-	PUNCT	HYPH	_	11	punct	_	start_char=3637|end_char=3638|SpaceAfter=No
+11	red	red	ADJ	JJ	Degree=Pos	13	amod	_	SpaceAfter=No|start_char=3634|end_char=3637
+12	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No|start_char=3637|end_char=3638
 13	shanked	shank	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	start_char=3638|end_char=3645
 14	douc	douc	NOUN	NN	Number=Sing	9	xcomp	_	start_char=3646|end_char=3650
 15	in	in	ADP	IN	_	16	case	_	start_char=3651|end_char=3653
-16	Vietnam	Vietnam	PROPN	NNP	Number=Sing	14	nmod	_	start_char=3654|end_char=3661|SpaceAfter=No
-17	.	.	PUNCT	.	_	8	punct	_	start_char=3661|end_char=3662|SpacesAfter=\n\n
+16	Vietnam	Vietnam	PROPN	NNP	Number=Sing	14	nmod	_	SpaceAfter=No|start_char=3654|end_char=3661
+17	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n\n|start_char=3661|end_char=3662
 
 # text = And at the bottom left are monkeys from Costa Rica.
 # sent_id = 43
@@ -910,8 +909,8 @@
 7	monkeys	monkey	NOUN	NNS	Number=Plur	0	root	_	start_char=3691|end_char=3698
 8	from	from	ADP	IN	_	10	case	_	start_char=3699|end_char=3703
 9	Costa	Costa	PROPN	NNP	Number=Sing	10	compound	_	start_char=3704|end_char=3709
-10	Rica	Rica	PROPN	NNP	Number=Sing	7	nmod	_	start_char=3710|end_char=3714|SpaceAfter=No
-11	.	.	PUNCT	.	_	7	punct	_	start_char=3714|end_char=3715|SpacesAfter=\n\n
+10	Rica	Rica	PROPN	NNP	Number=Sing	7	nmod	_	SpaceAfter=No|start_char=3710|end_char=3714
+11	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=3714|end_char=3715
 
 # text = So you can see that they have totally different microbiomes in the wild.
 # sent_id = 44
@@ -927,8 +926,8 @@
 10	microbiomes	microbiome	NOUN	NNS	Number=Plur	7	obj	_	start_char=3765|end_char=3776
 11	in	in	ADP	IN	_	13	case	_	start_char=3777|end_char=3779
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=3780|end_char=3783
-13	wild	wild	NOUN	NN	Number=Sing	7	obl	_	start_char=3784|end_char=3788|SpaceAfter=No
-14	.	.	PUNCT	.	_	4	punct	_	start_char=3788|end_char=3789|SpacesAfter=\n\n
+13	wild	wild	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No|start_char=3784|end_char=3788
+14	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=3788|end_char=3789
 
 # text = And then the same two species of monkey in the zoo are converging, so their microbiomes change and they become much more similar to each other, even though these are zoos on different continents, different geographical regions, and they're eating different diets.
 # sent_id = 45
@@ -944,7 +943,7 @@
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=3834|end_char=3837
 11	zoo	zoo	NOUN	NN	Number=Sing	8	nmod	_	start_char=3838|end_char=3841
 12	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=3842|end_char=3845
-13	converging	converg	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=3846|end_char=3856|SpaceAfter=No
+13	converging	converg	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No|start_char=3846|end_char=3856
 14	,	,	PUNCT	,	_	18	punct	_	start_char=3856|end_char=3857
 15	so	so	SCONJ	IN	_	18	mark	_	start_char=3858|end_char=3860
 16	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	start_char=3861|end_char=3866
@@ -958,7 +957,7 @@
 24	similar	similar	ADJ	JJ	Degree=Pos	21	xcomp	_	start_char=3912|end_char=3919
 25	to	to	ADP	IN	_	26	case	_	start_char=3920|end_char=3922
 26	each	each	DET	DT	ExtPos=PRON|PronType=Rcp	24	obl	_	start_char=3923|end_char=3927
-27	other	other	ADJ	JJ	Degree=Pos	26	fixed	_	start_char=3928|end_char=3933|SpaceAfter=No
+27	other	other	ADJ	JJ	Degree=Pos	26	fixed	_	SpaceAfter=No|start_char=3928|end_char=3933
 28	,	,	PUNCT	,	_	33	punct	_	start_char=3933|end_char=3934
 29	even	even	ADV	RB	_	33	advmod	_	start_char=3935|end_char=3939
 30	though	though	SCONJ	IN	_	33	mark	_	start_char=3940|end_char=3946
@@ -967,11 +966,11 @@
 33	zoos	zoo	NOUN	NNS	Number=Plur	21	advcl	_	start_char=3957|end_char=3961
 34	on	on	ADP	IN	_	36	case	_	start_char=3962|end_char=3964
 35	different	different	ADJ	JJ	Degree=Pos	36	amod	_	start_char=3965|end_char=3974
-36	continents	continent	NOUN	NNS	Number=Plur	33	nmod	_	start_char=3975|end_char=3985|SpaceAfter=No
+36	continents	continent	NOUN	NNS	Number=Plur	33	nmod	_	SpaceAfter=No|start_char=3975|end_char=3985
 37	,	,	PUNCT	,	_	40	punct	_	start_char=3985|end_char=3986
 38	different	different	ADJ	JJ	Degree=Pos	40	amod	_	start_char=3987|end_char=3996
 39	geographical	geographical	ADJ	JJ	Degree=Pos	40	amod	_	start_char=3997|end_char=4009
-40	regions	region	NOUN	NNS	Number=Plur	36	conj	_	start_char=4010|end_char=4017|SpaceAfter=No
+40	regions	region	NOUN	NNS	Number=Plur	36	conj	_	SpaceAfter=No|start_char=4010|end_char=4017
 41	,	,	PUNCT	,	_	45	punct	_	start_char=4017|end_char=4018
 42	and	and	CCONJ	CC	_	45	cc	_	start_char=4019|end_char=4022
 43-44	they're	_	_	_	_	_	_	_	start_char=4023|end_char=4030
@@ -979,12 +978,12 @@
 44	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	start_char=4027|end_char=4030
 45	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part	13	conj	_	start_char=4031|end_char=4037
 46	different	different	ADJ	JJ	Degree=Pos	47	amod	_	start_char=4038|end_char=4047
-47	diets	diet	NOUN	NNS	Number=Plur	45	obj	_	start_char=4048|end_char=4053|SpaceAfter=No
-48	.	.	PUNCT	.	_	13	punct	_	start_char=4053|end_char=4054|SpacesAfter=\n\n
+47	diets	diet	NOUN	NNS	Number=Plur	45	obj	_	SpaceAfter=No|start_char=4048|end_char=4053
+48	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\n\n|start_char=4053|end_char=4054
 
 # text = Now, we did study some other species of primate.
 # sent_id = 46
-1	Now	now	ADV	RB	_	5	advmod	_	start_char=4056|end_char=4059|SpaceAfter=No
+1	Now	now	ADV	RB	_	5	advmod	_	SpaceAfter=No|start_char=4056|end_char=4059
 2	,	,	PUNCT	,	_	1	punct	_	start_char=4059|end_char=4060
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=4061|end_char=4063
 4	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	5	aux	_	start_char=4064|end_char=4067
@@ -993,8 +992,8 @@
 7	other	other	ADJ	JJ	Degree=Pos	8	amod	_	start_char=4079|end_char=4084
 8	species	species	NOUN	NNS	Number=Plur	5	obj	_	start_char=4085|end_char=4092
 9	of	of	ADP	IN	_	10	case	_	start_char=4093|end_char=4095
-10	primate	primate	NOUN	NN	Number=Sing	8	nmod	_	start_char=4096|end_char=4103|SpaceAfter=No
-11	.	.	PUNCT	.	_	5	punct	_	start_char=4103|end_char=4104|SpacesAfter=\n\n
+10	primate	primate	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No|start_char=4096|end_char=4103
+11	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=4103|end_char=4104
 
 # text = What species of primate do you think is even more divergent from the wild primates than the captive primates?
 # sent_id = 47
@@ -1016,14 +1015,14 @@
 16	than	than	ADP	IN	_	19	case	_	start_char=4189|end_char=4193
 17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=4194|end_char=4197
 18	captive	captive	ADJ	JJ	Degree=Pos	19	amod	_	start_char=4198|end_char=4205
-19	primates	primate	NOUN	NNS	Number=Plur	15	nmod	_	start_char=4206|end_char=4214|SpaceAfter=No
-20	?	?	PUNCT	.	_	7	punct	_	start_char=4214|end_char=4215|SpacesAfter=\n\n
+19	primates	primate	NOUN	NNS	Number=Plur	15	nmod	_	SpaceAfter=No|start_char=4206|end_char=4214
+20	?	?	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=4214|end_char=4215
 
 # text = Modern humans.
 # sent_id = 48
 1	Modern	modern	ADJ	JJ	Degree=Pos	2	amod	_	start_char=4217|end_char=4223
-2	humans	human	NOUN	NNS	Number=Plur	0	root	_	start_char=4224|end_char=4230|SpaceAfter=No
-3	.	.	PUNCT	.	_	2	punct	_	start_char=4230|end_char=4231|SpacesAfter=\n\n
+2	humans	human	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No|start_char=4224|end_char=4230
+3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=4230|end_char=4231
 
 # text = These are humans living in developing nations.
 # sent_id = 49
@@ -1033,8 +1032,8 @@
 4	living	live	VERB	VBG	VerbForm=Ger	3	acl	_	start_char=4250|end_char=4256
 5	in	in	ADP	IN	_	7	case	_	start_char=4257|end_char=4259
 6	developing	develop	VERB	VBG	VerbForm=Ger	7	amod	_	start_char=4260|end_char=4270
-7	nations	nation	NOUN	NNS	Number=Plur	4	obl	_	start_char=4271|end_char=4278|SpaceAfter=No
-8	.	.	PUNCT	.	_	3	punct	_	start_char=4278|end_char=4279|SpacesAfter=\n\n
+7	nations	nation	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No|start_char=4271|end_char=4278
+8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=4278|end_char=4279
 
 # text = So they were more different from the wild primates than those in the zoo.
 # sent_id = 50
@@ -1051,8 +1050,8 @@
 11	those	that	PRON	DT	Number=Plur|PronType=Dem	5	obl	_	start_char=4337|end_char=4342
 12	in	in	ADP	IN	_	14	case	_	start_char=4343|end_char=4345
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=4346|end_char=4349
-14	zoo	zoo	NOUN	NN	Number=Sing	11	nmod	_	start_char=4350|end_char=4353|SpaceAfter=No
-15	.	.	PUNCT	.	_	5	punct	_	start_char=4353|end_char=4354|SpacesAfter=\n\n
+14	zoo	zoo	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No|start_char=4350|end_char=4353
+15	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=4353|end_char=4354
 
 # text = And the final group that we studied, all the way on the right, is people living in the USA.
 # sent_id = 51
@@ -1062,22 +1061,22 @@
 4	group	group	NOUN	NN	Number=Sing	17	nsubj	_	start_char=4370|end_char=4375
 5	that	that	PRON	WDT	PronType=Rel	7	obj	_	start_char=4376|end_char=4380
 6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=4381|end_char=4383
-7	studied	study	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	acl:relcl	_	start_char=4384|end_char=4391|SpaceAfter=No
+7	studied	study	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No|start_char=4384|end_char=4391
 8	,	,	PUNCT	,	_	11	punct	_	start_char=4391|end_char=4392
 9	all	all	DET	PDT	PronType=Tot	11	det:predet	_	start_char=4393|end_char=4396
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=4397|end_char=4400
 11	way	way	NOUN	NN	Number=Sing	4	nmod:unmarked	_	start_char=4401|end_char=4404
 12	on	on	ADP	IN	_	14	case	_	start_char=4405|end_char=4407
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=4408|end_char=4411
-14	right	right	NOUN	NN	Number=Sing	11	nmod	_	start_char=4412|end_char=4417|SpaceAfter=No
+14	right	right	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No|start_char=4412|end_char=4417
 15	,	,	PUNCT	,	_	4	punct	_	start_char=4417|end_char=4418
 16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=4419|end_char=4421
 17	people	person	NOUN	NNS	Number=Plur	0	root	_	start_char=4422|end_char=4428
 18	living	live	VERB	VBG	Tense=Pres|VerbForm=Part	17	acl	_	start_char=4429|end_char=4435
 19	in	in	ADP	IN	_	21	case	_	start_char=4436|end_char=4438
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=4439|end_char=4442
-21	USA	USA	PROPN	NNP	Abbr=Yes|Number=Sing	18	obl	_	start_char=4443|end_char=4446|SpaceAfter=No
-22	.	.	PUNCT	.	_	17	punct	_	start_char=4446|end_char=4447|SpacesAfter=\n\n
+21	USA	USA	PROPN	NNP	Abbr=Yes|Number=Sing	18	obl	_	SpaceAfter=No|start_char=4443|end_char=4446
+22	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\n\n|start_char=4446|end_char=4447
 
 # text = And when I saw this figure, the hairs raised up on the back of my neck, because one way to think about it is, "Oh, that's interesting, captive monkeys are sort of on their way to becoming like Americans."
 # sent_id = 52
@@ -1086,7 +1085,7 @@
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=4458|end_char=4459
 4	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	advcl	_	start_char=4460|end_char=4463
 5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	start_char=4464|end_char=4468
-6	figure	figure	NOUN	NN	Number=Sing	4	obj	_	start_char=4469|end_char=4475|SpaceAfter=No
+6	figure	figure	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No|start_char=4469|end_char=4475
 7	,	,	PUNCT	,	_	4	punct	_	start_char=4475|end_char=4476
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=4477|end_char=4480
 9	hairs	hair	NOUN	NNS	Number=Plur	10	nsubj	_	start_char=4481|end_char=4486
@@ -1097,7 +1096,7 @@
 14	back	back	NOUN	NN	Number=Sing	10	obl	_	start_char=4504|end_char=4508
 15	of	of	ADP	IN	_	17	case	_	start_char=4509|end_char=4511
 16	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	start_char=4512|end_char=4514
-17	neck	neck	NOUN	NN	Number=Sing	14	nmod	_	start_char=4515|end_char=4519|SpaceAfter=No
+17	neck	neck	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No|start_char=4515|end_char=4519
 18	,	,	PUNCT	,	_	19	punct	_	start_char=4519|end_char=4520
 19	because	because	SCONJ	IN	_	33	mark	_	start_char=4521|end_char=4528
 20	one	one	NUM	CD	NumForm=Word|NumType=Card	21	nummod	_	start_char=4529|end_char=4532
@@ -1106,15 +1105,15 @@
 23	think	think	VERB	VB	VerbForm=Inf	21	acl	_	start_char=4540|end_char=4545
 24	about	about	ADP	IN	_	25	case	_	start_char=4546|end_char=4551
 25	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	obl	_	start_char=4552|end_char=4554
-26	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	start_char=4555|end_char=4557|SpaceAfter=No
+26	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	SpaceAfter=No|start_char=4555|end_char=4557
 27	,	,	PUNCT	,	_	26	punct	_	start_char=4557|end_char=4558
-28	"	"	PUNCT	``	_	33	punct	_	start_char=4559|end_char=4560|SpaceAfter=No
-29	Oh	oh	INTJ	UH	_	33	discourse	_	start_char=4560|end_char=4562|SpaceAfter=No
+28	"	"	PUNCT	``	_	33	punct	_	SpaceAfter=No|start_char=4559|end_char=4560
+29	Oh	oh	INTJ	UH	_	33	discourse	_	SpaceAfter=No|start_char=4560|end_char=4562
 30	,	,	PUNCT	,	_	29	punct	_	start_char=4562|end_char=4563
 31-32	that's	_	_	_	_	_	_	_	start_char=4564|end_char=4570
 31	that	that	PRON	DT	Number=Sing|PronType=Dem	33	nsubj	_	start_char=4564|end_char=4568
 32	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	start_char=4568|end_char=4570
-33	interesting	interesting	ADJ	JJ	Degree=Pos	10	parataxis	_	start_char=4571|end_char=4582|SpaceAfter=No
+33	interesting	interesting	ADJ	JJ	Degree=Pos	10	parataxis	_	SpaceAfter=No|start_char=4571|end_char=4582
 34	,	,	PUNCT	,	_	42	punct	_	start_char=4582|end_char=4583
 35	captive	captive	ADJ	JJ	Degree=Pos	36	amod	_	start_char=4584|end_char=4591
 36	monkeys	monkey	NOUN	NNS	Number=Plur	42	nsubj	_	start_char=4592|end_char=4599
@@ -1127,9 +1126,9 @@
 43	to	to	SCONJ	IN	_	44	mark	_	start_char=4625|end_char=4627
 44	becoming	become	VERB	VBG	Tense=Pres|VerbForm=Part	42	advcl	_	start_char=4628|end_char=4636
 45	like	like	ADP	IN	_	46	case	_	start_char=4637|end_char=4641
-46	Americans	American	PROPN	NNPS	Number=Plur	44	obl	_	start_char=4642|end_char=4651|SpaceAfter=No
-47	.	.	PUNCT	.	_	33	punct	_	start_char=4651|end_char=4652|SpaceAfter=No
-48	"	"	PUNCT	''	_	33	punct	_	start_char=4652|end_char=4653|SpacesAfter=\n\n
+46	Americans	American	PROPN	NNPS	Number=Plur	44	obl	_	SpaceAfter=No|start_char=4642|end_char=4651
+47	.	.	PUNCT	.	_	33	punct	_	SpaceAfter=No|start_char=4651|end_char=4652
+48	"	"	PUNCT	''	_	33	punct	_	SpacesAfter=\n\n|start_char=4652|end_char=4653
 
 # text = But the other way to think about it is that Americans are like super-captive monkeys.
 # sent_id = 53
@@ -1146,11 +1145,11 @@
 11	Americans	American	PROPN	NNPS	Number=Plur	17	nsubj	_	start_char=4699|end_char=4708
 12	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=4709|end_char=4712
 13	like	like	ADP	IN	_	17	case	_	start_char=4713|end_char=4717
-14	super	super	ADV	RB	Degree=Pos	16	advmod	_	start_char=4718|end_char=4723|SpaceAfter=No
-15	-	-	PUNCT	HYPH	_	14	punct	_	start_char=4723|end_char=4724|SpaceAfter=No
+14	super	super	ADV	RB	Degree=Pos	16	advmod	_	SpaceAfter=No|start_char=4718|end_char=4723
+15	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No|start_char=4723|end_char=4724
 16	captive	captive	ADJ	JJ	Degree=Pos	17	amod	_	start_char=4724|end_char=4731
-17	monkeys	monkey	NOUN	NNS	Number=Plur	0	root	_	start_char=4732|end_char=4739|SpaceAfter=No
-18	.	.	PUNCT	.	_	17	punct	_	start_char=4739|end_char=4740|SpacesAfter=\n\n
+17	monkeys	monkey	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No|start_char=4732|end_char=4739
+18	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\n\n|start_char=4739|end_char=4740
 
 # text = And I was actually looking at this figure on my computer screen when I got the news that four of the red-shanked doucs had died in the zoo of gut-related issues.
 # sent_id = 54
@@ -1175,8 +1174,8 @@
 19	four	four	NUM	CD	NumForm=Word|NumType=Card	27	nsubj	_	start_char=4831|end_char=4835
 20	of	of	ADP	IN	_	25	case	_	start_char=4836|end_char=4838
 21	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	start_char=4839|end_char=4842
-22	red	red	ADJ	JJ	Degree=Pos	24	amod	_	start_char=4843|end_char=4846|SpaceAfter=No
-23	-	-	PUNCT	HYPH	_	22	punct	_	start_char=4846|end_char=4847|SpaceAfter=No
+22	red	red	ADJ	JJ	Degree=Pos	24	amod	_	SpaceAfter=No|start_char=4843|end_char=4846
+23	-	-	PUNCT	HYPH	_	22	punct	_	SpaceAfter=No|start_char=4846|end_char=4847
 24	shanked	shank	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	25	amod	_	start_char=4847|end_char=4854
 25	doucs	douc	NOUN	NNS	Number=Plur	19	nmod	_	start_char=4855|end_char=4860
 26	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	27	aux	_	start_char=4861|end_char=4864
@@ -1185,11 +1184,11 @@
 29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	start_char=4873|end_char=4876
 30	zoo	zoo	NOUN	NN	Number=Sing	27	obl	_	start_char=4877|end_char=4880
 31	of	of	ADP	IN	_	35	case	_	start_char=4881|end_char=4883
-32	gut	gut	NOUN	NN	Number=Sing	34	compound	_	start_char=4884|end_char=4887|SpaceAfter=No
-33	-	-	PUNCT	HYPH	_	32	punct	_	start_char=4887|end_char=4888|SpaceAfter=No
+32	gut	gut	NOUN	NN	Number=Sing	34	compound	_	SpaceAfter=No|start_char=4884|end_char=4887
+33	-	-	PUNCT	HYPH	_	32	punct	_	SpaceAfter=No|start_char=4887|end_char=4888
 34	related	related	ADJ	JJ	Degree=Pos	35	amod	_	start_char=4888|end_char=4895
-35	issues	issue	NOUN	NNS	Number=Plur	30	nmod	_	start_char=4896|end_char=4902|SpaceAfter=No
-36	.	.	PUNCT	.	_	5	punct	_	start_char=4902|end_char=4903|SpacesAfter=\n\n
+35	issues	issue	NOUN	NNS	Number=Plur	30	nmod	_	SpaceAfter=No|start_char=4896|end_char=4902
+36	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=4902|end_char=4903
 
 # text = So for some of these animals, having the right microbes living inside them may be a matter of survival.
 # sent_id = 55
@@ -1198,7 +1197,7 @@
 3	some	some	DET	DT	PronType=Ind	18	obl	_	start_char=4912|end_char=4916
 4	of	of	ADP	IN	_	6	case	_	start_char=4917|end_char=4919
 5	these	this	DET	DT	Number=Plur|PronType=Dem	6	det	_	start_char=4920|end_char=4925
-6	animals	animal	NOUN	NNS	Number=Plur	3	nmod	_	start_char=4926|end_char=4933|SpaceAfter=No
+6	animals	animal	NOUN	NNS	Number=Plur	3	nmod	_	SpaceAfter=No|start_char=4926|end_char=4933
 7	,	,	PUNCT	,	_	3	punct	_	start_char=4933|end_char=4934
 8	having	have	VERB	VBG	VerbForm=Ger	18	csubj	_	start_char=4935|end_char=4941
 9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=4942|end_char=4945
@@ -1212,8 +1211,8 @@
 17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	start_char=4987|end_char=4988
 18	matter	matter	NOUN	NN	Number=Sing	0	root	_	start_char=4989|end_char=4995
 19	of	of	ADP	IN	_	20	case	_	start_char=4996|end_char=4998
-20	survival	survival	NOUN	NN	Number=Sing	18	nmod	_	start_char=4999|end_char=5007|SpaceAfter=No
-21	.	.	PUNCT	.	_	18	punct	_	start_char=5007|end_char=5008|SpacesAfter=\n\n
+20	survival	survival	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No|start_char=4999|end_char=5007
+21	.	.	PUNCT	.	_	18	punct	_	SpacesAfter=\n\n|start_char=5007|end_char=5008
 
 # text = Now this brings us to the human part of the story.
 # sent_id = 56
@@ -1227,12 +1226,12 @@
 8	part	part	NOUN	NN	Number=Sing	3	obl	_	start_char=5042|end_char=5046
 9	of	of	ADP	IN	_	11	case	_	start_char=5047|end_char=5049
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=5050|end_char=5053
-11	story	story	NOUN	NN	Number=Sing	8	nmod	_	start_char=5054|end_char=5059|SpaceAfter=No
-12	.	.	PUNCT	.	_	3	punct	_	start_char=5059|end_char=5060|SpacesAfter=\n\n
+11	story	story	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No|start_char=5054|end_char=5059
+12	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=5059|end_char=5060
 
 # text = Obviously, the microbiomes in the USA aren't causing premature death as frequently as in the zoo, but we have major risk of obesity, diabetes, a number of these other diseases.
 # sent_id = 57
-1	Obviously	obviously	ADV	RB	_	10	advmod	_	start_char=5062|end_char=5071|SpaceAfter=No
+1	Obviously	obviously	ADV	RB	_	10	advmod	_	SpaceAfter=No|start_char=5062|end_char=5071
 2	,	,	PUNCT	,	_	1	punct	_	start_char=5071|end_char=5072
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=5073|end_char=5076
 4	microbiomes	microbiome	NOUN	NNS	Number=Plur	10	nsubj	_	start_char=5077|end_char=5088
@@ -1250,7 +1249,7 @@
 15	as	as	ADP	IN	_	18	case	_	start_char=5145|end_char=5147
 16	in	in	ADP	IN	_	18	case	_	start_char=5148|end_char=5150
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=5151|end_char=5154
-18	zoo	zoo	NOUN	NN	Number=Sing	14	obl	_	start_char=5155|end_char=5158|SpaceAfter=No
+18	zoo	zoo	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No|start_char=5155|end_char=5158
 19	,	,	PUNCT	,	_	22	punct	_	start_char=5158|end_char=5159
 20	but	but	CCONJ	CC	_	22	cc	_	start_char=5160|end_char=5163
 21	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	start_char=5164|end_char=5166
@@ -1258,17 +1257,17 @@
 23	major	major	ADJ	JJ	Degree=Pos	24	amod	_	start_char=5172|end_char=5177
 24	risk	risk	NOUN	NN	Number=Sing	22	obj	_	start_char=5178|end_char=5182
 25	of	of	ADP	IN	_	26	case	_	start_char=5183|end_char=5185
-26	obesity	obesity	NOUN	NN	Number=Sing	24	nmod	_	start_char=5186|end_char=5193|SpaceAfter=No
+26	obesity	obesity	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No|start_char=5186|end_char=5193
 27	,	,	PUNCT	,	_	28	punct	_	start_char=5193|end_char=5194
-28	diabetes	diabete	NOUN	NN	Number=Sing	26	conj	_	start_char=5195|end_char=5203|SpaceAfter=No
+28	diabetes	diabete	NOUN	NN	Number=Sing	26	conj	_	SpaceAfter=No|start_char=5195|end_char=5203
 29	,	,	PUNCT	,	_	31	punct	_	start_char=5203|end_char=5204
 30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	start_char=5205|end_char=5206
 31	number	number	NOUN	NN	Number=Sing	26	conj	_	start_char=5207|end_char=5213
 32	of	of	ADP	IN	_	35	case	_	start_char=5214|end_char=5216
 33	these	this	DET	DT	Number=Plur|PronType=Dem	35	det	_	start_char=5217|end_char=5222
 34	other	other	ADJ	JJ	Degree=Pos	35	amod	_	start_char=5223|end_char=5228
-35	diseases	disease	NOUN	NNS	Number=Plur	31	nmod	_	start_char=5229|end_char=5237|SpaceAfter=No
-36	.	.	PUNCT	.	_	10	punct	_	start_char=5237|end_char=5238|SpacesAfter=\n\n
+35	diseases	disease	NOUN	NNS	Number=Plur	31	nmod	_	SpaceAfter=No|start_char=5229|end_char=5237
+36	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n|start_char=5237|end_char=5238
 
 # text = And this applies not just to people who have been living in the USA for many generations, but also to immigrants and refugees, who, for most immigrant and refugee groups, arrive in the USA metabolically healthy, and then within a few years, they become just as high-risk for obesity and diabetes as other Americans.
 # sent_id = 58
@@ -1288,44 +1287,44 @@
 14	USA	USA	PROPN	NNP	Number=Sing	11	obl	_	start_char=5304|end_char=5307
 15	for	for	ADP	IN	_	17	case	_	start_char=5308|end_char=5311
 16	many	many	ADJ	JJ	Degree=Pos	17	amod	_	start_char=5312|end_char=5316
-17	generations	generation	NOUN	NNS	Number=Plur	11	obl	_	start_char=5317|end_char=5328|SpaceAfter=No
+17	generations	generation	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No|start_char=5317|end_char=5328
 18	,	,	PUNCT	,	_	19	punct	_	start_char=5328|end_char=5329
 19	but	but	CCONJ	CC	_	22	cc	_	start_char=5330|end_char=5333
 20	also	also	ADV	RB	_	22	advmod	_	start_char=5334|end_char=5338
 21	to	to	ADP	IN	_	22	case	_	start_char=5339|end_char=5341
 22	immigrants	immigrant	NOUN	NNS	Number=Plur	7	conj	_	start_char=5342|end_char=5352
 23	and	and	CCONJ	CC	_	24	cc	_	start_char=5353|end_char=5356
-24	refugees	refugee	NOUN	NNS	Number=Plur	22	conj	_	start_char=5357|end_char=5365|SpaceAfter=No
+24	refugees	refugee	NOUN	NNS	Number=Plur	22	conj	_	SpaceAfter=No|start_char=5357|end_char=5365
 25	,	,	PUNCT	,	_	35	punct	_	start_char=5365|end_char=5366
-26	who	who	PRON	WP	PronType=Rel	35	nsubj	_	start_char=5367|end_char=5370|SpaceAfter=No
+26	who	who	PRON	WP	PronType=Rel	35	nsubj	_	SpaceAfter=No|start_char=5367|end_char=5370
 27	,	,	PUNCT	,	_	26	punct	_	start_char=5370|end_char=5371
 28	for	for	ADP	IN	_	33	case	_	start_char=5372|end_char=5375
 29	most	most	ADJ	JJS	Degree=Sup	33	amod	_	start_char=5376|end_char=5380
 30	immigrant	immigrant	ADJ	JJ	Degree=Pos	33	amod	_	start_char=5381|end_char=5390
 31	and	and	CCONJ	CC	_	32	cc	_	start_char=5391|end_char=5394
 32	refugee	refugee	NOUN	NN	Number=Sing	30	conj	_	start_char=5395|end_char=5402
-33	groups	group	NOUN	NNS	Number=Plur	35	obl	_	start_char=5403|end_char=5409|SpaceAfter=No
+33	groups	group	NOUN	NNS	Number=Plur	35	obl	_	SpaceAfter=No|start_char=5403|end_char=5409
 34	,	,	PUNCT	,	_	33	punct	_	start_char=5409|end_char=5410
 35	arrive	arrive	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	start_char=5411|end_char=5417
 36	in	in	ADP	IN	_	38	case	_	start_char=5418|end_char=5420
 37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	start_char=5421|end_char=5424
 38	USA	USA	PROPN	NNP	Number=Sing	35	obl	_	start_char=5425|end_char=5428
 39	metabolically	metabolically	ADV	RB	_	40	advmod	_	start_char=5429|end_char=5442
-40	healthy	healthy	ADJ	JJ	Degree=Pos	35	xcomp	_	start_char=5443|end_char=5450|SpaceAfter=No
+40	healthy	healthy	ADJ	JJ	Degree=Pos	35	xcomp	_	SpaceAfter=No|start_char=5443|end_char=5450
 41	,	,	PUNCT	,	_	42	punct	_	start_char=5450|end_char=5451
 42	and	and	CCONJ	CC	_	50	cc	_	start_char=5452|end_char=5455
 43	then	then	ADV	RB	PronType=Dem	50	advmod	_	start_char=5456|end_char=5460
 44	within	within	ADP	IN	_	47	case	_	start_char=5461|end_char=5467
 45	a	a	DET	DT	Definite=Ind|PronType=Art	47	det	_	start_char=5468|end_char=5469
 46	few	few	ADJ	JJ	Degree=Pos	47	amod	_	start_char=5470|end_char=5473
-47	years	year	NOUN	NNS	Number=Plur	50	obl	_	start_char=5474|end_char=5479|SpaceAfter=No
+47	years	year	NOUN	NNS	Number=Plur	50	obl	_	SpaceAfter=No|start_char=5474|end_char=5479
 48	,	,	PUNCT	,	_	47	punct	_	start_char=5479|end_char=5480
 49	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	50	nsubj	_	start_char=5481|end_char=5485
 50	become	become	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=5486|end_char=5492
 51	just	just	ADV	RB	_	55	advmod	_	start_char=5493|end_char=5497
 52	as	as	ADV	RB	_	55	advmod	_	start_char=5498|end_char=5500
-53	high	high	ADJ	JJ	Degree=Pos	55	amod	_	start_char=5501|end_char=5505|SpaceAfter=No
-54	-	-	PUNCT	HYPH	_	53	punct	_	start_char=5505|end_char=5506|SpaceAfter=No
+53	high	high	ADJ	JJ	Degree=Pos	55	amod	_	SpaceAfter=No|start_char=5501|end_char=5505
+54	-	-	PUNCT	HYPH	_	53	punct	_	SpaceAfter=No|start_char=5505|end_char=5506
 55	risk	risk	NOUN	NN	Number=Sing	50	xcomp	_	start_char=5506|end_char=5510
 56	for	for	ADP	IN	_	57	case	_	start_char=5511|end_char=5514
 57	obesity	obesity	NOUN	NN	Number=Sing	55	nmod	_	start_char=5515|end_char=5522
@@ -1333,8 +1332,8 @@
 59	diabetes	diabete	NOUN	NN	Number=Sing	57	conj	_	start_char=5527|end_char=5535
 60	as	as	ADP	IN	_	62	case	_	start_char=5536|end_char=5538
 61	other	other	ADJ	JJ	Degree=Pos	62	amod	_	start_char=5539|end_char=5544
-62	Americans	American	PROPN	NNPS	Number=Plur	50	obl	_	start_char=5545|end_char=5554|SpaceAfter=No
-63	.	.	PUNCT	.	_	3	punct	_	start_char=5554|end_char=5555|SpacesAfter=\n\n
+62	Americans	American	PROPN	NNPS	Number=Plur	50	obl	_	SpaceAfter=No|start_char=5545|end_char=5554
+63	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=5554|end_char=5555
 
 # text = And we discussed this issue with two groups that have been coming to the USA from Southeast Asia: the Hmong, who started coming in the mid-1970s as refugees from the Vietnam War and the US secret war in Laos; and the Karen, who have been coming more recently as refugees from Myanmar.
 # sent_id = 59
@@ -1355,17 +1354,17 @@
 15	USA	USA	PROPN	NNP	Number=Sing	12	obl	_	start_char=5630|end_char=5633
 16	from	from	ADP	IN	_	18	case	_	start_char=5634|end_char=5638
 17	Southeast	Southeast	PROPN	NNP	Number=Sing	18	compound	_	start_char=5639|end_char=5648
-18	Asia	Asia	PROPN	NNP	Number=Sing	12	obl	_	start_char=5649|end_char=5653|SpaceAfter=No
+18	Asia	Asia	PROPN	NNP	Number=Sing	12	obl	_	SpaceAfter=No|start_char=5649|end_char=5653
 19	:	:	PUNCT	:	_	21	punct	_	start_char=5653|end_char=5654
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=5655|end_char=5658
-21	Hmong	Hmong	PROPN	NNP	Number=Sing	3	parataxis	_	start_char=5659|end_char=5664|SpaceAfter=No
+21	Hmong	Hmong	PROPN	NNP	Number=Sing	3	parataxis	_	SpaceAfter=No|start_char=5659|end_char=5664
 22	,	,	PUNCT	,	_	24	punct	_	start_char=5664|end_char=5665
 23	who	who	PRON	WP	PronType=Rel	24	nsubj	_	start_char=5666|end_char=5669
 24	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	acl:relcl	_	start_char=5670|end_char=5677
 25	coming	come	VERB	VBG	VerbForm=Ger	24	xcomp	_	start_char=5678|end_char=5684
 26	in	in	ADP	IN	_	28	case	_	start_char=5685|end_char=5687
 27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	start_char=5688|end_char=5691
-28	mid-1970s	mid-1970	NOUN	NNS	NumForm=Combi|NumType=Card|Number=Ptan	25	obl	_	start_char=5692|end_char=5701
+28	mid-1970s	mid-1970	NOUN	NNS	Number=Ptan|NumForm=Combi|NumType=Card	25	obl	_	start_char=5692|end_char=5701
 29	as	as	ADP	IN	_	30	case	_	start_char=5702|end_char=5704
 30	refugees	refugee	NOUN	NNS	Number=Plur	25	obl	_	start_char=5705|end_char=5713
 31	from	from	ADP	IN	_	34	case	_	start_char=5714|end_char=5718
@@ -1378,11 +1377,11 @@
 38	secret	secret	ADJ	JJ	Degree=Pos	39	amod	_	start_char=5746|end_char=5752
 39	war	war	NOUN	NN	Number=Sing	30	conj	_	start_char=5753|end_char=5756
 40	in	in	ADP	IN	_	41	case	_	start_char=5757|end_char=5759
-41	Laos	Laos	PROPN	NNP	Number=Sing	39	nmod	_	start_char=5760|end_char=5764|SpaceAfter=No
+41	Laos	Laos	PROPN	NNP	Number=Sing	39	nmod	_	SpaceAfter=No|start_char=5760|end_char=5764
 42	;	;	PUNCT	:	_	45	punct	_	start_char=5764|end_char=5765
 43	and	and	CCONJ	CC	_	45	cc	_	start_char=5766|end_char=5769
 44	the	the	DET	DT	Definite=Def|PronType=Art	45	det	_	start_char=5770|end_char=5773
-45	Karen	Karen	PROPN	NNP	Number=Sing	21	conj	_	start_char=5774|end_char=5779|SpaceAfter=No
+45	Karen	Karen	PROPN	NNP	Number=Sing	21	conj	_	SpaceAfter=No|start_char=5774|end_char=5779
 46	,	,	PUNCT	,	_	50	punct	_	start_char=5779|end_char=5780
 47	who	who	PRON	WP	PronType=Rel	50	nsubj	_	start_char=5781|end_char=5784
 48	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	50	aux	_	start_char=5785|end_char=5789
@@ -1393,8 +1392,8 @@
 53	as	as	ADP	IN	_	54	case	_	start_char=5816|end_char=5818
 54	refugees	refugee	NOUN	NNS	Number=Plur	50	obl	_	start_char=5819|end_char=5827
 55	from	from	ADP	IN	_	56	case	_	start_char=5828|end_char=5832
-56	Myanmar	Myanmar	PROPN	NNP	Number=Sing	54	nmod	_	start_char=5833|end_char=5840|SpaceAfter=No
-57	.	.	PUNCT	.	_	3	punct	_	start_char=5840|end_char=5841|SpacesAfter=\n\n
+56	Myanmar	Myanmar	PROPN	NNP	Number=Sing	54	nmod	_	SpaceAfter=No|start_char=5833|end_char=5840
+57	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=5840|end_char=5841
 
 # text = So we've been working for a few years with these local communities and clinicians to study what happens to the Hmong and Karen microbiomes when people move from refugee camps and villages in Thailand to the USA.
 # sent_id = 60
@@ -1436,8 +1435,8 @@
 35	Thailand	Thailand	PROPN	NNP	Number=Sing	31	nmod	_	start_char=6034|end_char=6042
 36	to	to	ADP	IN	_	38	case	_	start_char=6043|end_char=6045
 37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	start_char=6046|end_char=6049
-38	USA	USA	PROPN	NNP	Abbr=Yes|Number=Sing	28	obl	_	start_char=6050|end_char=6053|SpaceAfter=No
-39	.	.	PUNCT	.	_	5	punct	_	start_char=6053|end_char=6054|SpacesAfter=\n\n
+38	USA	USA	PROPN	NNP	Abbr=Yes|Number=Sing	28	obl	_	SpaceAfter=No|start_char=6050|end_char=6053
+39	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=6053|end_char=6054
 
 # text = And what we found is that when people come to the USA from these groups, they lose a large fraction of their microbiome, somewhere around 20 percent, and those who come to the USA and become obese lose about a third of their microbes.
 # sent_id = 61
@@ -1455,7 +1454,7 @@
 12	USA	USA	PROPN	NNP	Number=Sing	9	obl	_	start_char=6106|end_char=6109
 13	from	from	ADP	IN	_	15	case	_	start_char=6110|end_char=6114
 14	these	this	DET	DT	Number=Plur|PronType=Dem	15	det	_	start_char=6115|end_char=6120
-15	groups	group	NOUN	NNS	Number=Plur	9	obl	_	start_char=6121|end_char=6127|SpaceAfter=No
+15	groups	group	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No|start_char=6121|end_char=6127
 16	,	,	PUNCT	,	_	9	punct	_	start_char=6127|end_char=6128
 17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	start_char=6129|end_char=6133
 18	lose	lose	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6134|end_char=6138
@@ -1464,12 +1463,12 @@
 21	fraction	fraction	NOUN	NN	Number=Sing	18	obj	_	start_char=6147|end_char=6155
 22	of	of	ADP	IN	_	24	case	_	start_char=6156|end_char=6158
 23	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	start_char=6159|end_char=6164
-24	microbiome	microbiome	NOUN	NN	Number=Sing	21	nmod	_	start_char=6165|end_char=6175|SpaceAfter=No
+24	microbiome	microbiome	NOUN	NN	Number=Sing	21	nmod	_	SpaceAfter=No|start_char=6165|end_char=6175
 25	,	,	PUNCT	,	_	26	punct	_	start_char=6175|end_char=6176
 26	somewhere	somewhere	ADV	RB	_	18	advmod	_	start_char=6177|end_char=6186
 27	around	around	ADP	IN	_	29	case	_	start_char=6187|end_char=6193
 28	20	20	NUM	CD	NumForm=Digit|NumType=Card	29	nummod	_	start_char=6194|end_char=6196
-29	percent	percent	NOUN	NN	Number=Sing	26	obl	_	start_char=6197|end_char=6204|SpaceAfter=No
+29	percent	percent	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No|start_char=6197|end_char=6204
 30	,	,	PUNCT	,	_	41	punct	_	start_char=6204|end_char=6205
 31	and	and	CCONJ	CC	_	41	cc	_	start_char=6206|end_char=6209
 32	those	that	PRON	DT	Number=Plur|PronType=Dem	41	nsubj	_	start_char=6210|end_char=6215
@@ -1484,11 +1483,11 @@
 41	lose	lose	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	start_char=6253|end_char=6257
 42	about	about	ADV	RB	_	44	advmod	_	start_char=6258|end_char=6263
 43	a	a	DET	DT	Definite=Ind|PronType=Art	44	det	_	start_char=6264|end_char=6265
-44	third	third	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	41	obj	_	start_char=6266|end_char=6271
+44	third	third	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	41	obj	_	start_char=6266|end_char=6271
 45	of	of	ADP	IN	_	47	case	_	start_char=6272|end_char=6274
 46	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	47	nmod:poss	_	start_char=6275|end_char=6280
-47	microbes	microbe	NOUN	NNS	Number=Plur	44	nmod	_	start_char=6281|end_char=6289|SpaceAfter=No
-48	.	.	PUNCT	.	_	18	punct	_	start_char=6289|end_char=6290|SpacesAfter=\n\n
+47	microbes	microbe	NOUN	NNS	Number=Plur	44	nmod	_	SpaceAfter=No|start_char=6281|end_char=6289
+48	.	.	PUNCT	.	_	18	punct	_	SpacesAfter=\n\n|start_char=6289|end_char=6290
 
 # text = So we know that moving to the USA is sufficient to cause a dramatic change in your microbiome, probably not for the better.
 # sent_id = 62
@@ -1509,14 +1508,14 @@
 15	change	change	NOUN	NN	Number=Sing	12	obj	_	start_char=6360|end_char=6366
 16	in	in	ADP	IN	_	18	case	_	start_char=6367|end_char=6369
 17	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	18	nmod:poss	_	start_char=6370|end_char=6374
-18	microbiome	microbiome	NOUN	NN	Number=Sing	15	nmod	_	start_char=6375|end_char=6385|SpaceAfter=No
+18	microbiome	microbiome	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No|start_char=6375|end_char=6385
 19	,	,	PUNCT	,	_	24	punct	_	start_char=6385|end_char=6386
 20	probably	probably	ADV	RB	_	24	advmod	_	start_char=6387|end_char=6395
 21	not	not	PART	RB	Polarity=Neg	24	advmod	_	start_char=6396|end_char=6399
 22	for	for	ADP	IN	_	24	case	_	start_char=6400|end_char=6403
 23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	start_char=6404|end_char=6407
-24	better	good	ADJ	JJR	Degree=Cmp	12	obl	_	start_char=6408|end_char=6414|SpaceAfter=No
-25	.	.	PUNCT	.	_	3	punct	_	start_char=6414|end_char=6415|SpacesAfter=\n\n
+24	better	good	ADJ	JJR	Degree=Cmp	12	obl	_	SpaceAfter=No|start_char=6408|end_char=6414
+25	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=6414|end_char=6415
 
 # text = Are these microbes actually causing the obesity, or is the obesity causing a change in the microbes?
 # sent_id = 63
@@ -1526,7 +1525,7 @@
 4	actually	actually	ADV	RB	_	5	advmod	_	start_char=6436|end_char=6444
 5	causing	cause	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=6445|end_char=6452
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=6453|end_char=6456
-7	obesity	obesity	NOUN	NN	Number=Sing	5	obj	_	start_char=6457|end_char=6464|SpaceAfter=No
+7	obesity	obesity	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No|start_char=6457|end_char=6464
 8	,	,	PUNCT	,	_	13	punct	_	start_char=6464|end_char=6465
 9	or	or	CCONJ	CC	_	13	cc	_	start_char=6466|end_char=6468
 10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=6469|end_char=6471
@@ -1537,8 +1536,8 @@
 15	change	change	NOUN	NN	Number=Sing	13	obj	_	start_char=6494|end_char=6500
 16	in	in	ADP	IN	_	18	case	_	start_char=6501|end_char=6503
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=6504|end_char=6507
-18	microbes	microbe	NOUN	NNS	Number=Plur	15	nmod	_	start_char=6508|end_char=6516|SpaceAfter=No
-19	?	?	PUNCT	.	_	5	punct	_	start_char=6516|end_char=6517|SpacesAfter=\n\n
+18	microbes	microbe	NOUN	NNS	Number=Plur	15	nmod	_	SpaceAfter=No|start_char=6508|end_char=6516
+19	?	?	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=6516|end_char=6517
 
 # text = This is something that we're following up on, and the evidence we have now in my lab combined with evidence from a number of labs around the world tells us that certain changes in the microbiome do lead to obesity, and a number of other modern, kind of Westernized diseases.
 # sent_id = 64
@@ -1551,7 +1550,7 @@
 6	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=6544|end_char=6547
 7	following	follow	VERB	VBG	Tense=Pres|VerbForm=Part	3	acl:relcl	_	start_char=6548|end_char=6557
 8	up	up	ADP	RP	_	7	compound:prt	_	start_char=6558|end_char=6560
-9	on	on	ADP	IN	_	4	case	_	start_char=6561|end_char=6563|SpaceAfter=No
+9	on	on	ADP	IN	_	4	case	_	SpaceAfter=No|start_char=6561|end_char=6563
 10	,	,	PUNCT	,	_	31	punct	_	start_char=6563|end_char=6564
 11	and	and	CCONJ	CC	_	31	cc	_	start_char=6565|end_char=6568
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=6569|end_char=6572
@@ -1584,20 +1583,20 @@
 39	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	start_char=6714|end_char=6716
 40	lead	lead	VERB	VB	VerbForm=Inf	31	ccomp	_	start_char=6717|end_char=6721
 41	to	to	ADP	IN	_	42	case	_	start_char=6722|end_char=6724
-42	obesity	obesity	NOUN	NN	Number=Sing	40	obl	_	start_char=6725|end_char=6732|SpaceAfter=No
+42	obesity	obesity	NOUN	NN	Number=Sing	40	obl	_	SpaceAfter=No|start_char=6725|end_char=6732
 43	,	,	PUNCT	,	_	46	punct	_	start_char=6732|end_char=6733
 44	and	and	CCONJ	CC	_	46	cc	_	start_char=6734|end_char=6737
 45	a	a	DET	DT	Definite=Ind|PronType=Art	46	det	_	start_char=6738|end_char=6739
 46	number	number	NOUN	NN	Number=Sing	40	conj	_	start_char=6740|end_char=6746
 47	of	of	ADP	IN	_	51	case	_	start_char=6747|end_char=6749
 48	other	other	ADJ	JJ	Degree=Pos	51	amod	_	start_char=6750|end_char=6755
-49	modern	modern	ADJ	JJ	Degree=Pos	51	amod	_	start_char=6756|end_char=6762|SpaceAfter=No
+49	modern	modern	ADJ	JJ	Degree=Pos	51	amod	_	SpaceAfter=No|start_char=6756|end_char=6762
 50	,	,	PUNCT	,	_	49	punct	_	start_char=6762|end_char=6763
 51	kind	kind	NOUN	NN	Number=Sing	46	nmod	_	start_char=6764|end_char=6768
 52	of	of	ADP	IN	_	54	case	_	start_char=6769|end_char=6771
 53	Westernized	westernized	ADJ	JJ	Degree=Pos	54	amod	_	start_char=6772|end_char=6783
-54	diseases	disease	NOUN	NNS	Number=Plur	51	nmod	_	start_char=6784|end_char=6792|SpaceAfter=No
-55	.	.	PUNCT	.	_	3	punct	_	start_char=6792|end_char=6793|SpacesAfter=\n\n
+54	diseases	disease	NOUN	NNS	Number=Plur	51	nmod	_	SpaceAfter=No|start_char=6784|end_char=6792
+55	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=6792|end_char=6793
 
 # text = The good news is that your microbiome can actually change.
 # sent_id = 65
@@ -1610,24 +1609,24 @@
 7	microbiome	microbiome	NOUN	NN	Number=Sing	10	nsubj	_	start_char=6822|end_char=6832
 8	can	can	AUX	MD	VerbForm=Fin	10	aux	_	start_char=6833|end_char=6836
 9	actually	actually	ADV	RB	_	10	advmod	_	start_char=6837|end_char=6845
-10	change	change	VERB	VB	VerbForm=Inf	0	root	_	start_char=6846|end_char=6852|SpaceAfter=No
-11	.	.	PUNCT	.	_	10	punct	_	start_char=6852|end_char=6853|SpacesAfter=\n\n
+10	change	change	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=6846|end_char=6852
+11	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n|start_char=6852|end_char=6853
 
 # text = Unlike your own genome, it's a living, breathing thing, and there's a broad front of research happening right now to better understand how we can restore our microbiomes when something goes wrong, using diet, using live microbes.
 # sent_id = 66
 1	Unlike	unlike	ADP	IN	_	4	case	_	start_char=6855|end_char=6861
 2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=6862|end_char=6866
 3	own	own	ADJ	JJ	Degree=Pos	4	amod	_	start_char=6867|end_char=6870
-4	genome	genome	NOUN	NN	Number=Sing	12	obl	_	start_char=6871|end_char=6877|SpaceAfter=No
+4	genome	genome	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No|start_char=6871|end_char=6877
 5	,	,	PUNCT	,	_	4	punct	_	start_char=6877|end_char=6878
 6-7	it's	_	_	_	_	_	_	_	start_char=6879|end_char=6883
 6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=6879|end_char=6881
 7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=6881|end_char=6883
 8	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=6884|end_char=6885
-9	living	living	NOUN	NN	Number=Sing	12	compound	_	start_char=6886|end_char=6892|SpaceAfter=No
+9	living	living	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No|start_char=6886|end_char=6892
 10	,	,	PUNCT	,	_	9	punct	_	start_char=6892|end_char=6893
 11	breathing	breathe	VERB	VBG	VerbForm=Part	12	amod	_	start_char=6894|end_char=6903
-12	thing	thing	NOUN	NN	Number=Sing	0	root	_	start_char=6904|end_char=6909|SpaceAfter=No
+12	thing	thing	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=6904|end_char=6909
 13	,	,	PUNCT	,	_	16	punct	_	start_char=6909|end_char=6910
 14	and	and	CCONJ	CC	_	16	cc	_	start_char=6911|end_char=6914
 15-16	there's	_	_	_	_	_	_	_	start_char=6915|end_char=6922
@@ -1653,21 +1652,21 @@
 34	when	when	ADV	WRB	PronType=Int	36	advmod	_	start_char=7025|end_char=7029
 35	something	something	PRON	NN	Number=Sing|PronType=Ind	36	nsubj	_	start_char=7030|end_char=7039
 36	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	advcl	_	start_char=7040|end_char=7044
-37	wrong	wrong	ADJ	JJ	Degree=Pos	36	xcomp	_	start_char=7045|end_char=7050|SpaceAfter=No
+37	wrong	wrong	ADJ	JJ	Degree=Pos	36	xcomp	_	SpaceAfter=No|start_char=7045|end_char=7050
 38	,	,	PUNCT	,	_	39	punct	_	start_char=7050|end_char=7051
 39	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	36	advcl	_	start_char=7052|end_char=7057
-40	diet	diet	NOUN	NN	Number=Sing	39	obj	_	start_char=7058|end_char=7062|SpaceAfter=No
+40	diet	diet	NOUN	NN	Number=Sing	39	obj	_	SpaceAfter=No|start_char=7058|end_char=7062
 41	,	,	PUNCT	,	_	42	punct	_	start_char=7062|end_char=7063
 42	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	39	advcl	_	start_char=7064|end_char=7069
 43	live	live	ADJ	JJ	Degree=Pos	44	amod	_	start_char=7070|end_char=7074
-44	microbes	microbe	NOUN	NNS	Number=Plur	42	obj	_	start_char=7075|end_char=7083|SpaceAfter=No
-45	.	.	PUNCT	.	_	12	punct	_	start_char=7083|end_char=7084|SpacesAfter=\n\n
+44	microbes	microbe	NOUN	NNS	Number=Plur	42	obj	_	SpaceAfter=No|start_char=7075|end_char=7083
+45	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n\n|start_char=7083|end_char=7084
 
 # text = And in fact, one of the next steps for us is collecting and preserving microbes from healthy people around the world so that they can be kept as cultural assets for those groups to potentially protect them as they adapt to modern society, and to protect future generations who are currently growing up to have increased risk of these diseases with every generation.
 # sent_id = 67
 1	And	and	CCONJ	CC	_	13	cc	_	start_char=7086|end_char=7089
 2	in	in	ADP	IN	_	3	case	_	start_char=7090|end_char=7092
-3	fact	fact	NOUN	NN	Number=Sing	13	obl	_	start_char=7093|end_char=7097|SpaceAfter=No
+3	fact	fact	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No|start_char=7093|end_char=7097
 4	,	,	PUNCT	,	_	3	punct	_	start_char=7097|end_char=7098
 5	one	one	NUM	CD	NumForm=Word|NumType=Card	13	nsubj	_	start_char=7099|end_char=7102
 6	of	of	ADP	IN	_	9	case	_	start_char=7103|end_char=7105
@@ -1708,7 +1707,7 @@
 41	adapt	adapt	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	advcl	_	start_char=7300|end_char=7305
 42	to	to	ADP	IN	_	44	case	_	start_char=7306|end_char=7308
 43	modern	modern	ADJ	JJ	Degree=Pos	44	amod	_	start_char=7309|end_char=7315
-44	society	society	NOUN	NN	Number=Sing	41	obl	_	start_char=7316|end_char=7323|SpaceAfter=No
+44	society	society	NOUN	NN	Number=Sing	41	obl	_	SpaceAfter=No|start_char=7316|end_char=7323
 45	,	,	PUNCT	,	_	48	punct	_	start_char=7323|end_char=7324
 46	and	and	CCONJ	CC	_	48	cc	_	start_char=7325|end_char=7328
 47	to	to	PART	TO	_	48	mark	_	start_char=7329|end_char=7331
@@ -1729,8 +1728,8 @@
 62	diseases	disease	NOUN	NNS	Number=Plur	59	nmod	_	start_char=7420|end_char=7428
 63	with	with	ADP	IN	_	65	case	_	start_char=7429|end_char=7433
 64	every	every	DET	DT	PronType=Tot	65	det	_	start_char=7434|end_char=7439
-65	generation	generation	NOUN	NN	Number=Sing	57	obl	_	start_char=7440|end_char=7450|SpaceAfter=No
-66	.	.	PUNCT	.	_	13	punct	_	start_char=7450|end_char=7451|SpacesAfter=\n\n
+65	generation	generation	NOUN	NN	Number=Sing	57	obl	_	SpaceAfter=No|start_char=7440|end_char=7450
+66	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\n\n|start_char=7450|end_char=7451
 
 # text = I'm looking forward to a future where we have the tools that we need to restore and replenish our microbiomes, and in that world, the monkeys will live happier and healthier lives, and so will we.
 # sent_id = 68
@@ -1755,12 +1754,12 @@
 18	and	and	CCONJ	CC	_	19	cc	_	start_char=7533|end_char=7536
 19	replenish	replenish	VERB	VB	VerbForm=Inf	17	conj	_	start_char=7537|end_char=7546
 20	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	start_char=7547|end_char=7550
-21	microbiomes	microbiome	NOUN	NNS	Number=Plur	17	obj	_	start_char=7551|end_char=7562|SpaceAfter=No
+21	microbiomes	microbiome	NOUN	NNS	Number=Plur	17	obj	_	SpaceAfter=No|start_char=7551|end_char=7562
 22	,	,	PUNCT	,	_	23	punct	_	start_char=7562|end_char=7563
 23	and	and	CCONJ	CC	_	31	cc	_	start_char=7564|end_char=7567
 24	in	in	ADP	IN	_	26	case	_	start_char=7568|end_char=7570
 25	that	that	DET	DT	Number=Sing|PronType=Dem	26	det	_	start_char=7571|end_char=7575
-26	world	world	NOUN	NN	Number=Sing	31	obl	_	start_char=7576|end_char=7581|SpaceAfter=No
+26	world	world	NOUN	NN	Number=Sing	31	obl	_	SpaceAfter=No|start_char=7576|end_char=7581
 27	,	,	PUNCT	,	_	26	punct	_	start_char=7581|end_char=7582
 28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	start_char=7583|end_char=7586
 29	monkeys	monkey	NOUN	NNS	Number=Plur	31	nsubj	_	start_char=7587|end_char=7594
@@ -1769,10 +1768,10 @@
 32	happier	happy	ADJ	JJR	Degree=Cmp	35	amod	_	start_char=7605|end_char=7612
 33	and	and	CCONJ	CC	_	34	cc	_	start_char=7613|end_char=7616
 34	healthier	healthy	ADJ	JJR	Degree=Cmp	32	conj	_	start_char=7617|end_char=7626
-35	lives	life	NOUN	NNS	Number=Plur	31	obj	_	start_char=7627|end_char=7632|SpaceAfter=No
+35	lives	life	NOUN	NNS	Number=Plur	31	obj	_	SpaceAfter=No|start_char=7627|end_char=7632
 36	,	,	PUNCT	,	_	39	punct	_	start_char=7632|end_char=7633
 37	and	and	CCONJ	CC	_	39	cc	_	start_char=7634|end_char=7637
 38	so	so	ADV	RB	_	39	advmod	_	start_char=7638|end_char=7640
 39	will	will	AUX	MD	VerbForm=Fin	31	conj	_	start_char=7641|end_char=7645
-40	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	39	nsubj	_	start_char=7646|end_char=7648|SpaceAfter=No
-41	.	.	PUNCT	.	_	3	punct	_	start_char=7648|end_char=7649|SpaceAfter=No
+40	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	39	nsubj	_	SpaceAfter=No|start_char=7646|end_char=7648
+41	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No|start_char=7648|end_char=7649

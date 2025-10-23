@@ -1,10 +1,9 @@
 # conllu_stats: begin
 # conllu_tokens: 2553
 # conllu_sentences: 97
-# Average tokens per senteces: 26.31958762886598
-# sentece_pairs: 2
+# Average tokens per sentence: 26.31958762886598
+# sentence_pairs: 2
 # conllu_stats: end
-
 
 # text = My radical plan for small nuclear fission reactors
 # sent_id = 0
@@ -15,11 +14,11 @@
 5	small	small	ADJ	JJ	Degree=Pos	8	amod	_	start_char=20|end_char=25
 6	nuclear	nuclear	ADJ	JJ	Degree=Pos	8	amod	_	start_char=26|end_char=33
 7	fission	fission	NOUN	NN	Number=Sing	8	compound	_	start_char=34|end_char=41
-8	reactors	reactor	NOUN	NNS	Number=Plur	3	nmod	_	start_char=42|end_char=50|SpacesAfter=\n\n
+8	reactors	reactor	NOUN	NNS	Number=Plur	3	nmod	_	SpacesAfter=\n\n|start_char=42|end_char=50
 
 # text = Well, I have a big announcement to make today, and I'm really excited about this.
 # sent_id = 1
-1	Well	well	INTJ	UH	_	4	discourse	_	start_char=52|end_char=56|SpaceAfter=No
+1	Well	well	INTJ	UH	_	4	discourse	_	SpaceAfter=No|start_char=52|end_char=56
 2	,	,	PUNCT	,	_	1	punct	_	start_char=56|end_char=57
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=58|end_char=59
 4	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=60|end_char=64
@@ -28,7 +27,7 @@
 7	announcement	announcement	NOUN	NN	Number=Sing	4	obj	_	start_char=71|end_char=83
 8	to	to	PART	TO	_	9	mark	_	start_char=84|end_char=86
 9	make	make	VERB	VB	VerbForm=Inf	7	acl	_	start_char=87|end_char=91
-10	today	today	NOUN	NN	Number=Sing	9	obl:unmarked	_	start_char=92|end_char=97|SpaceAfter=No
+10	today	today	NOUN	NN	Number=Sing	9	obl:unmarked	_	SpaceAfter=No|start_char=92|end_char=97
 11	,	,	PUNCT	,	_	16	punct	_	start_char=97|end_char=98
 12	and	and	CCONJ	CC	_	16	cc	_	start_char=99|end_char=102
 13-14	I'm	_	_	_	_	_	_	_	start_char=103|end_char=106
@@ -37,8 +36,8 @@
 15	really	really	ADV	RB	_	16	advmod	_	start_char=107|end_char=113
 16	excited	excited	ADJ	JJ	Degree=Pos	4	conj	_	start_char=114|end_char=121
 17	about	about	ADP	IN	_	18	case	_	start_char=122|end_char=127
-18	this	this	PRON	DT	Number=Sing|PronType=Dem	16	obl	_	start_char=128|end_char=132|SpaceAfter=No
-19	.	.	PUNCT	.	_	4	punct	_	start_char=132|end_char=133|SpacesAfter=\n\n
+18	this	this	PRON	DT	Number=Sing|PronType=Dem	16	obl	_	SpaceAfter=No|start_char=128|end_char=132
+19	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=132|end_char=133
 
 # text = And this may be a little bit of a surprise to many of you who know my research and what I've done well.
 # sent_id = 2
@@ -66,8 +65,8 @@
 21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	start_char=223|end_char=224
 22	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	start_char=224|end_char=227
 23	done	do	VERB	VBN	Tense=Past|VerbForm=Part	20	acl:relcl	_	start_char=228|end_char=232
-24	well	well	ADV	RB	Degree=Pos	23	advmod	_	start_char=233|end_char=237|SpaceAfter=No
-25	.	.	PUNCT	.	_	7	punct	_	start_char=237|end_char=238|SpacesAfter=\n\n
+24	well	well	ADV	RB	Degree=Pos	23	advmod	_	SpaceAfter=No|start_char=233|end_char=237
+25	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=237|end_char=238
 
 # text = I've really tried to solve some big problems: counterterrorism, nuclear terrorism, and health care and diagnosing and treating cancer, but I started thinking about all these problems, and I realized that the really biggest problem we face, what all these other problems come down to, is energy, is electricity, the flow of electrons.
 # sent_id = 3
@@ -80,12 +79,12 @@
 6	solve	solve	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=261|end_char=266
 7	some	some	DET	DT	PronType=Ind	9	det	_	start_char=267|end_char=271
 8	big	big	ADJ	JJ	Degree=Pos	9	amod	_	start_char=272|end_char=275
-9	problems	problem	NOUN	NNS	Number=Plur	6	obj	_	start_char=276|end_char=284|SpaceAfter=No
+9	problems	problem	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No|start_char=276|end_char=284
 10	:	:	PUNCT	:	_	11	punct	_	start_char=284|end_char=285
-11	counterterrorism	counterterrorism	NOUN	NN	Number=Sing	9	appos	_	start_char=286|end_char=302|SpaceAfter=No
+11	counterterrorism	counterterrorism	NOUN	NN	Number=Sing	9	appos	_	SpaceAfter=No|start_char=286|end_char=302
 12	,	,	PUNCT	,	_	14	punct	_	start_char=302|end_char=303
 13	nuclear	nuclear	ADJ	JJ	Degree=Pos	14	amod	_	start_char=304|end_char=311
-14	terrorism	terrorism	NOUN	NN	Number=Sing	11	conj	_	start_char=312|end_char=321|SpaceAfter=No
+14	terrorism	terrorism	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No|start_char=312|end_char=321
 15	,	,	PUNCT	,	_	18	punct	_	start_char=321|end_char=322
 16	and	and	CCONJ	CC	_	18	cc	_	start_char=323|end_char=326
 17	health	health	NOUN	NN	Number=Sing	18	compound	_	start_char=327|end_char=333
@@ -94,7 +93,7 @@
 20	diagnosing	diagnose	VERB	VBG	VerbForm=Ger	6	conj	_	start_char=343|end_char=353
 21	and	and	CCONJ	CC	_	22	cc	_	start_char=354|end_char=357
 22	treating	treat	VERB	VBG	VerbForm=Ger	20	conj	_	start_char=358|end_char=366
-23	cancer	cancer	NOUN	NN	Number=Sing	20	obj	_	start_char=367|end_char=373|SpaceAfter=No
+23	cancer	cancer	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No|start_char=367|end_char=373
 24	,	,	PUNCT	,	_	27	punct	_	start_char=373|end_char=374
 25	but	but	CCONJ	CC	_	27	cc	_	start_char=375|end_char=378
 26	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	start_char=379|end_char=380
@@ -103,7 +102,7 @@
 29	about	about	ADP	IN	_	32	case	_	start_char=398|end_char=403
 30	all	all	DET	PDT	PronType=Tot	32	det:predet	_	start_char=404|end_char=407
 31	these	this	DET	DT	Number=Plur|PronType=Dem	32	det	_	start_char=408|end_char=413
-32	problems	problem	NOUN	NNS	Number=Plur	28	obl	_	start_char=414|end_char=422|SpaceAfter=No
+32	problems	problem	NOUN	NNS	Number=Plur	28	obl	_	SpaceAfter=No|start_char=414|end_char=422
 33	,	,	PUNCT	,	_	36	punct	_	start_char=422|end_char=423
 34	and	and	CCONJ	CC	_	36	cc	_	start_char=424|end_char=427
 35	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	36	nsubj	_	start_char=428|end_char=429
@@ -114,7 +113,7 @@
 40	biggest	big	ADJ	JJS	Degree=Sup	41	amod	_	start_char=455|end_char=462
 41	problem	problem	NOUN	NN	Number=Sing	58	nsubj	_	start_char=463|end_char=470
 42	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	43	nsubj	_	start_char=471|end_char=473
-43	face	face	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	41	acl:relcl	_	start_char=474|end_char=478|SpaceAfter=No
+43	face	face	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	41	acl:relcl	_	SpaceAfter=No|start_char=474|end_char=478
 44	,	,	PUNCT	,	_	45	punct	_	start_char=478|end_char=479
 45	what	what	PRON	WP	PronType=Int	58	nsubj	_	start_char=480|end_char=484
 46	all	all	DET	PDT	PronType=Tot	49	det:predet	_	start_char=485|end_char=488
@@ -123,19 +122,19 @@
 49	problems	problem	NOUN	NNS	Number=Plur	50	nsubj	_	start_char=501|end_char=509
 50	come	come	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	45	acl:relcl	_	start_char=510|end_char=514
 51	down	down	ADP	RP	_	50	compound:prt	_	start_char=515|end_char=519
-52	to	to	ADP	IN	_	50	obl	_	start_char=520|end_char=522|SpaceAfter=No
+52	to	to	ADP	IN	_	50	obl	_	SpaceAfter=No|start_char=520|end_char=522
 53	,	,	PUNCT	,	_	41	punct	_	start_char=522|end_char=523
 54	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	cop	_	start_char=524|end_char=526
-55	energy	energy	NOUN	NN	Number=Sing	58	parataxis	_	start_char=527|end_char=533|SpaceAfter=No
+55	energy	energy	NOUN	NN	Number=Sing	58	parataxis	_	SpaceAfter=No|start_char=527|end_char=533
 56	,	,	PUNCT	,	_	55	punct	_	start_char=533|end_char=534
 57	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	58	cop	_	start_char=535|end_char=537
-58	electricity	electricity	NOUN	NN	Number=Sing	36	ccomp	_	start_char=538|end_char=549|SpaceAfter=No
+58	electricity	electricity	NOUN	NN	Number=Sing	36	ccomp	_	SpaceAfter=No|start_char=538|end_char=549
 59	,	,	PUNCT	,	_	61	punct	_	start_char=549|end_char=550
 60	the	the	DET	DT	Definite=Def|PronType=Art	61	det	_	start_char=551|end_char=554
 61	flow	flow	NOUN	NN	Number=Sing	58	conj	_	start_char=555|end_char=559
 62	of	of	ADP	IN	_	63	case	_	start_char=560|end_char=562
-63	electrons	electron	NOUN	NNS	Number=Plur	61	nmod	_	start_char=563|end_char=572|SpaceAfter=No
-64	.	.	PUNCT	.	_	4	punct	_	start_char=572|end_char=573|SpacesAfter=\n\n
+63	electrons	electron	NOUN	NNS	Number=Plur	61	nmod	_	SpaceAfter=No|start_char=563|end_char=572
+64	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=572|end_char=573
 
 # text = And I decided that I was going to set out to try to solve this problem.
 # sent_id = 4
@@ -154,8 +153,8 @@
 13	to	to	PART	TO	_	14	mark	_	start_char=624|end_char=626
 14	solve	solve	VERB	VB	VerbForm=Inf	12	xcomp	_	start_char=627|end_char=632
 15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	_	start_char=633|end_char=637
-16	problem	problem	NOUN	NN	Number=Sing	14	obj	_	start_char=638|end_char=645|SpaceAfter=No
-17	.	.	PUNCT	.	_	3	punct	_	start_char=645|end_char=646|SpacesAfter=\n\n
+16	problem	problem	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No|start_char=638|end_char=645
+17	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=645|end_char=646
 
 # text = And this probably is not what you're expecting.
 # sent_id = 5
@@ -168,8 +167,8 @@
 7-8	you're	_	_	_	_	_	_	_	start_char=678|end_char=684
 7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	start_char=678|end_char=681
 8	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=681|end_char=684
-9	expecting	expect	VERB	VBG	Tense=Pres|VerbForm=Part	6	acl:relcl	_	start_char=685|end_char=694|SpaceAfter=No
-10	.	.	PUNCT	.	_	6	punct	_	start_char=694|end_char=695|SpacesAfter=\n\n
+9	expecting	expect	VERB	VBG	Tense=Pres|VerbForm=Part	6	acl:relcl	_	SpaceAfter=No|start_char=685|end_char=694
+10	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=694|end_char=695
 
 # text = You're probably expecting me to come up here and talk about fusion, because that's what I've done most of my life.
 # sent_id = 6
@@ -186,7 +185,7 @@
 10	and	and	CCONJ	CC	_	11	cc	_	start_char=742|end_char=745
 11	talk	talk	VERB	VB	VerbForm=Inf	7	conj	_	start_char=746|end_char=750
 12	about	about	ADP	IN	_	13	case	_	start_char=751|end_char=756
-13	fusion	fusion	NOUN	NN	Number=Sing	11	obl	_	start_char=757|end_char=763|SpaceAfter=No
+13	fusion	fusion	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No|start_char=757|end_char=763
 14	,	,	PUNCT	,	_	18	punct	_	start_char=763|end_char=764
 15	because	because	SCONJ	IN	_	18	mark	_	start_char=765|end_char=772
 16-17	that's	_	_	_	_	_	_	_	start_char=773|end_char=779
@@ -200,8 +199,8 @@
 22	most	most	ADJ	JJS	Degree=Sup	21	obj	_	start_char=795|end_char=799
 23	of	of	ADP	IN	_	25	case	_	start_char=800|end_char=802
 24	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	25	nmod:poss	_	start_char=803|end_char=805
-25	life	life	NOUN	NN	Number=Sing	22	obl	_	start_char=806|end_char=810|SpaceAfter=No
-26	.	.	PUNCT	.	_	4	punct	_	start_char=810|end_char=811|SpacesAfter=\n\n
+25	life	life	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No|start_char=806|end_char=810
+26	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=810|end_char=811
 
 # text = But this is actually a talk about, okay — but this is actually a talk about fission.
 # sent_id = 7
@@ -211,7 +210,7 @@
 4	actually	actually	ADV	RB	_	6	advmod	_	start_char=825|end_char=833
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=834|end_char=835
 6	talk	talk	NOUN	NN	Number=Sing	0	root	_	start_char=836|end_char=840
-7	about	about	ADP	IN	_	9	case	_	start_char=841|end_char=846|SpaceAfter=No
+7	about	about	ADP	IN	_	9	case	_	SpaceAfter=No|start_char=841|end_char=846
 8	,	,	PUNCT	,	_	9	punct	_	start_char=846|end_char=847
 9	okay	okay	INTJ	UH	_	16	discourse	_	start_char=848|end_char=852
 10	—	—	PUNCT	:	_	9	punct	_	start_char=853|end_char=854
@@ -222,8 +221,8 @@
 15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	start_char=876|end_char=877
 16	talk	talk	NOUN	NN	Number=Sing	6	conj	_	start_char=878|end_char=882
 17	about	about	ADP	IN	_	18	case	_	start_char=883|end_char=888
-18	fission	fission	NOUN	NN	Number=Sing	16	nmod	_	start_char=889|end_char=896|SpaceAfter=No
-19	.	.	PUNCT	.	_	6	punct	_	start_char=896|end_char=897|SpacesAfter=\n\n
+18	fission	fission	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No|start_char=889|end_char=896
+19	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=896|end_char=897
 
 # text = It's about perfecting something old, and bringing something old into the 21st century.
 # sent_id = 8
@@ -233,7 +232,7 @@
 3	about	about	SCONJ	IN	_	4	mark	_	start_char=904|end_char=909
 4	perfecting	perfect	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=910|end_char=920
 5	something	something	PRON	NN	Number=Sing|PronType=Ind	4	obj	_	start_char=921|end_char=930
-6	old	old	ADJ	JJ	Degree=Pos	5	amod	_	start_char=931|end_char=934|SpaceAfter=No
+6	old	old	ADJ	JJ	Degree=Pos	5	amod	_	SpaceAfter=No|start_char=931|end_char=934
 7	,	,	PUNCT	,	_	9	punct	_	start_char=934|end_char=935
 8	and	and	CCONJ	CC	_	9	cc	_	start_char=936|end_char=939
 9	bringing	bring	VERB	VBG	Tense=Pres|VerbForm=Part	4	conj	_	start_char=940|end_char=948
@@ -242,8 +241,8 @@
 12	into	into	ADP	IN	_	15	case	_	start_char=963|end_char=967
 13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=968|end_char=971
 14	21st	21st	ADJ	JJ	Degree=Pos|NumForm=Combi|NumType=Ord	15	amod	_	start_char=972|end_char=976
-15	century	century	NOUN	NN	Number=Sing	9	obl	_	start_char=977|end_char=984|SpaceAfter=No
-16	.	.	PUNCT	.	_	4	punct	_	start_char=984|end_char=985|SpacesAfter=\n\n
+15	century	century	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No|start_char=977|end_char=984
+16	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=984|end_char=985
 
 # text = Let's talk a little bit about how nuclear fission works.
 # sent_id = 9
@@ -258,8 +257,8 @@
 8	how	how	ADV	WRB	PronType=Int	11	advmod	_	start_char=1017|end_char=1020
 9	nuclear	nuclear	ADJ	JJ	Degree=Pos	10	amod	_	start_char=1021|end_char=1028
 10	fission	fission	NOUN	NN	Number=Sing	11	nsubj	_	start_char=1029|end_char=1036
-11	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=1037|end_char=1042|SpaceAfter=No
-12	.	.	PUNCT	.	_	1	punct	_	start_char=1042|end_char=1043|SpacesAfter=\n\n
+11	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No|start_char=1037|end_char=1042
+12	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n\n|start_char=1042|end_char=1043
 
 # text = In a nuclear power plant, you have a big pot of water that's under high pressure, and you have some fuel rods, and these fuel rods are encased in zirconium, and they're little pellets of uranium dioxide fuel, and a fission reaction is controlled and maintained at a proper level, and that reaction heats up water, the water turns to steam, steam turns the turbine, and you produce electricity from it.
 # sent_id = 10
@@ -267,7 +266,7 @@
 2	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=1048|end_char=1049
 3	nuclear	nuclear	ADJ	JJ	Degree=Pos	5	amod	_	start_char=1050|end_char=1057
 4	power	power	NOUN	NN	Number=Sing	5	compound	_	start_char=1058|end_char=1063
-5	plant	plant	NOUN	NN	Number=Sing	8	obl	_	start_char=1064|end_char=1069|SpaceAfter=No
+5	plant	plant	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No|start_char=1064|end_char=1069
 6	,	,	PUNCT	,	_	5	punct	_	start_char=1069|end_char=1070
 7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	start_char=1071|end_char=1074
 8	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1075|end_char=1079
@@ -281,14 +280,14 @@
 15	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=1103|end_char=1105
 16	under	under	ADP	IN	_	18	case	_	start_char=1106|end_char=1111
 17	high	high	ADJ	JJ	Degree=Pos	18	amod	_	start_char=1112|end_char=1116
-18	pressure	pressure	NOUN	NN	Number=Sing	11	acl:relcl	_	start_char=1117|end_char=1125|SpaceAfter=No
+18	pressure	pressure	NOUN	NN	Number=Sing	11	acl:relcl	_	SpaceAfter=No|start_char=1117|end_char=1125
 19	,	,	PUNCT	,	_	22	punct	_	start_char=1125|end_char=1126
 20	and	and	CCONJ	CC	_	22	cc	_	start_char=1127|end_char=1130
 21	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	nsubj	_	start_char=1131|end_char=1134
 22	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	conj	_	start_char=1135|end_char=1139
 23	some	some	DET	DT	PronType=Ind	25	det	_	start_char=1140|end_char=1144
 24	fuel	fuel	NOUN	NN	Number=Sing	25	compound	_	start_char=1145|end_char=1149
-25	rods	rod	NOUN	NNS	Number=Plur	22	obj	_	start_char=1150|end_char=1154|SpaceAfter=No
+25	rods	rod	NOUN	NNS	Number=Plur	22	obj	_	SpaceAfter=No|start_char=1150|end_char=1154
 26	,	,	PUNCT	,	_	32	punct	_	start_char=1154|end_char=1155
 27	and	and	CCONJ	CC	_	32	cc	_	start_char=1156|end_char=1159
 28	these	this	DET	DT	Number=Plur|PronType=Dem	30	det	_	start_char=1160|end_char=1165
@@ -297,7 +296,7 @@
 31	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	aux:pass	_	start_char=1176|end_char=1179
 32	encased	encase	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	conj	_	start_char=1180|end_char=1187
 33	in	in	ADP	IN	_	34	case	_	start_char=1188|end_char=1190
-34	zirconium	zirconium	NOUN	NN	Number=Sing	32	obl	_	start_char=1191|end_char=1200|SpaceAfter=No
+34	zirconium	zirconium	NOUN	NN	Number=Sing	32	obl	_	SpaceAfter=No|start_char=1191|end_char=1200
 35	,	,	PUNCT	,	_	40	punct	_	start_char=1200|end_char=1201
 36	and	and	CCONJ	CC	_	40	cc	_	start_char=1202|end_char=1205
 37-38	they're	_	_	_	_	_	_	_	start_char=1206|end_char=1213
@@ -308,7 +307,7 @@
 41	of	of	ADP	IN	_	44	case	_	start_char=1229|end_char=1231
 42	uranium	uranium	NOUN	NN	Number=Sing	43	compound	_	start_char=1232|end_char=1239
 43	dioxide	dioxide	NOUN	NN	Number=Sing	44	compound	_	start_char=1240|end_char=1247
-44	fuel	fuel	NOUN	NN	Number=Sing	40	nmod	_	start_char=1248|end_char=1252|SpaceAfter=No
+44	fuel	fuel	NOUN	NN	Number=Sing	40	nmod	_	SpaceAfter=No|start_char=1248|end_char=1252
 45	,	,	PUNCT	,	_	51	punct	_	start_char=1252|end_char=1253
 46	and	and	CCONJ	CC	_	51	cc	_	start_char=1254|end_char=1257
 47	a	a	DET	DT	Definite=Ind|PronType=Art	49	det	_	start_char=1258|end_char=1259
@@ -321,33 +320,33 @@
 54	at	at	ADP	IN	_	57	case	_	start_char=1306|end_char=1308
 55	a	a	DET	DT	Definite=Ind|PronType=Art	57	det	_	start_char=1309|end_char=1310
 56	proper	proper	ADJ	JJ	Degree=Pos	57	amod	_	start_char=1311|end_char=1317
-57	level	level	NOUN	NN	Number=Sing	51	obl	_	start_char=1318|end_char=1323|SpaceAfter=No
+57	level	level	NOUN	NN	Number=Sing	51	obl	_	SpaceAfter=No|start_char=1318|end_char=1323
 58	,	,	PUNCT	,	_	62	punct	_	start_char=1323|end_char=1324
 59	and	and	CCONJ	CC	_	62	cc	_	start_char=1325|end_char=1328
 60	that	that	SCONJ	IN	_	62	mark	_	start_char=1329|end_char=1333
 61	reaction	reaction	NOUN	NN	Number=Sing	62	nsubj	_	start_char=1334|end_char=1342
 62	heats	heat	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	conj	_	start_char=1343|end_char=1348
 63	up	up	ADP	RP	_	62	compound:prt	_	start_char=1349|end_char=1351
-64	water	water	NOUN	NN	Number=Sing	62	obj	_	start_char=1352|end_char=1357|SpaceAfter=No
+64	water	water	NOUN	NN	Number=Sing	62	obj	_	SpaceAfter=No|start_char=1352|end_char=1357
 65	,	,	PUNCT	,	_	68	punct	_	start_char=1357|end_char=1358
 66	the	the	DET	DT	Definite=Def|PronType=Art	67	det	_	start_char=1359|end_char=1362
 67	water	water	NOUN	NN	Number=Sing	68	nsubj	_	start_char=1363|end_char=1368
 68	turns	turn	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	73	parataxis	_	start_char=1369|end_char=1374
 69	to	to	ADP	IN	_	70	case	_	start_char=1375|end_char=1377
-70	steam	steam	NOUN	NN	Number=Sing	68	obl	_	start_char=1378|end_char=1383|SpaceAfter=No
+70	steam	steam	NOUN	NN	Number=Sing	68	obl	_	SpaceAfter=No|start_char=1378|end_char=1383
 71	,	,	PUNCT	,	_	73	punct	_	start_char=1383|end_char=1384
 72	steam	steam	NOUN	NN	Number=Sing	73	nsubj	_	start_char=1385|end_char=1390
 73	turns	turn	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	62	parataxis	_	start_char=1391|end_char=1396
 74	the	the	DET	DT	Definite=Def|PronType=Art	75	det	_	start_char=1397|end_char=1400
-75	turbine	turbine	NOUN	NN	Number=Sing	73	obj	_	start_char=1401|end_char=1408|SpaceAfter=No
+75	turbine	turbine	NOUN	NN	Number=Sing	73	obj	_	SpaceAfter=No|start_char=1401|end_char=1408
 76	,	,	PUNCT	,	_	79	punct	_	start_char=1408|end_char=1409
 77	and	and	CCONJ	CC	_	79	cc	_	start_char=1410|end_char=1413
 78	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	79	nsubj	_	start_char=1414|end_char=1417
 79	produce	produce	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	73	conj	_	start_char=1418|end_char=1425
 80	electricity	electricity	NOUN	NN	Number=Sing	79	obj	_	start_char=1426|end_char=1437
 81	from	from	ADP	IN	_	82	case	_	start_char=1438|end_char=1442
-82	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	79	obl	_	start_char=1443|end_char=1445|SpaceAfter=No
-83	.	.	PUNCT	.	_	8	punct	_	start_char=1445|end_char=1446|SpacesAfter=\n\n
+82	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	79	obl	_	SpaceAfter=No|start_char=1443|end_char=1445
+83	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n\n|start_char=1445|end_char=1446
 
 # text = This is the same way we've been producing electricity, the steam turbine idea, for 100 years, and nuclear was a really big advancement in a way to heat the water, but you still boil water and that turns to steam and turns the turbine.
 # sent_id = 11
@@ -361,16 +360,16 @@
 7	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1471|end_char=1474
 8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	aux	_	start_char=1475|end_char=1479
 9	producing	produce	VERB	VBG	Tense=Pres|VerbForm=Part	5	acl:relcl	_	start_char=1480|end_char=1489
-10	electricity	electricity	NOUN	NN	Number=Sing	9	obj	_	start_char=1490|end_char=1501|SpaceAfter=No
+10	electricity	electricity	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No|start_char=1490|end_char=1501
 11	,	,	PUNCT	,	_	15	punct	_	start_char=1501|end_char=1502
 12	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=1503|end_char=1506
 13	steam	steam	NOUN	NN	Number=Sing	15	compound	_	start_char=1507|end_char=1512
 14	turbine	turbine	NOUN	NN	Number=Sing	15	compound	_	start_char=1513|end_char=1520
-15	idea	idea	NOUN	NN	Number=Sing	10	appos	_	start_char=1521|end_char=1525|SpaceAfter=No
+15	idea	idea	NOUN	NN	Number=Sing	10	appos	_	SpaceAfter=No|start_char=1521|end_char=1525
 16	,	,	PUNCT	,	_	19	punct	_	start_char=1525|end_char=1526
 17	for	for	ADP	IN	_	19	case	_	start_char=1527|end_char=1530
 18	100	100	NUM	CD	NumForm=Digit|NumType=Card	19	nummod	_	start_char=1531|end_char=1534
-19	years	year	NOUN	NNS	Number=Plur	9	obl	_	start_char=1535|end_char=1540|SpaceAfter=No
+19	years	year	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No|start_char=1535|end_char=1540
 20	,	,	PUNCT	,	_	27	punct	_	start_char=1540|end_char=1541
 21	and	and	CCONJ	CC	_	27	cc	_	start_char=1542|end_char=1545
 22	nuclear	nuclear	NOUN	NN	Number=Sing	27	nsubj	_	start_char=1546|end_char=1553
@@ -385,7 +384,7 @@
 31	to	to	PART	TO	_	32	mark	_	start_char=1592|end_char=1594
 32	heat	heat	VERB	VB	VerbForm=Inf	30	acl	_	start_char=1595|end_char=1599
 33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	start_char=1600|end_char=1603
-34	water	water	NOUN	NN	Number=Sing	32	obj	_	start_char=1604|end_char=1609|SpaceAfter=No
+34	water	water	NOUN	NN	Number=Sing	32	obj	_	SpaceAfter=No|start_char=1604|end_char=1609
 35	,	,	PUNCT	,	_	39	punct	_	start_char=1609|end_char=1610
 36	but	but	CCONJ	CC	_	39	cc	_	start_char=1611|end_char=1614
 37	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	39	nsubj	_	start_char=1615|end_char=1618
@@ -400,17 +399,17 @@
 46	and	and	CCONJ	CC	_	47	cc	_	start_char=1660|end_char=1663
 47	turns	turn	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	conj	_	start_char=1664|end_char=1669
 48	the	the	DET	DT	Definite=Def|PronType=Art	49	det	_	start_char=1670|end_char=1673
-49	turbine	turbine	NOUN	NN	Number=Sing	47	obj	_	start_char=1674|end_char=1681|SpaceAfter=No
-50	.	.	PUNCT	.	_	5	punct	_	start_char=1681|end_char=1682|SpacesAfter=\n\n
+49	turbine	turbine	NOUN	NN	Number=Sing	47	obj	_	SpaceAfter=No|start_char=1674|end_char=1681
+50	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=1681|end_char=1682
 
 # text = And I thought, you know, is this the best way to do it?
 # sent_id = 12
 1	And	and	CCONJ	CC	_	3	cc	_	start_char=1684|end_char=1687
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=1688|end_char=1689
-3	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=1690|end_char=1697|SpaceAfter=No
+3	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=1690|end_char=1697
 4	,	,	PUNCT	,	_	6	punct	_	start_char=1697|end_char=1698
 5	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	start_char=1699|end_char=1702
-6	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	parataxis	_	start_char=1703|end_char=1707|SpaceAfter=No
+6	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	parataxis	_	SpaceAfter=No|start_char=1703|end_char=1707
 7	,	,	PUNCT	,	_	6	punct	_	start_char=1707|end_char=1708
 8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=1709|end_char=1711
 9	this	this	PRON	DT	Number=Sing|PronType=Dem	12	nsubj	_	start_char=1712|end_char=1716
@@ -419,8 +418,8 @@
 12	way	way	NOUN	NN	Number=Sing	3	ccomp	_	start_char=1726|end_char=1729
 13	to	to	PART	TO	_	14	mark	_	start_char=1730|end_char=1732
 14	do	do	VERB	VB	VerbForm=Inf	12	acl	_	start_char=1733|end_char=1735
-15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	start_char=1736|end_char=1738|SpaceAfter=No
-16	?	?	PUNCT	.	_	3	punct	_	start_char=1738|end_char=1739|SpacesAfter=\n\n
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No|start_char=1736|end_char=1738
+16	?	?	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=1738|end_char=1739
 
 # text = Is fission kind of played out, or is there something left to innovate here?
 # sent_id = 13
@@ -429,7 +428,7 @@
 3	kind	kind	NOUN	NN	ExtPos=ADV|Number=Sing	5	advmod	_	start_char=1752|end_char=1756
 4	of	of	ADP	IN	_	3	fixed	_	start_char=1757|end_char=1759
 5	played	play	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=1760|end_char=1766
-6	out	out	ADP	RP	_	5	compound:prt	_	start_char=1767|end_char=1770|SpaceAfter=No
+6	out	out	ADP	RP	_	5	compound:prt	_	SpaceAfter=No|start_char=1767|end_char=1770
 7	,	,	PUNCT	,	_	9	punct	_	start_char=1770|end_char=1771
 8	or	or	CCONJ	CC	_	9	cc	_	start_char=1772|end_char=1774
 9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=1775|end_char=1777
@@ -438,8 +437,8 @@
 12	left	leave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	acl	_	start_char=1794|end_char=1798
 13	to	to	PART	TO	_	14	mark	_	start_char=1799|end_char=1801
 14	innovate	innovate	VERB	VB	VerbForm=Inf	12	advcl	_	start_char=1802|end_char=1810
-15	here	here	ADV	RB	PronType=Dem	14	advmod	_	start_char=1811|end_char=1815|SpaceAfter=No
-16	?	?	PUNCT	.	_	5	punct	_	start_char=1815|end_char=1816|SpacesAfter=\n\n
+15	here	here	ADV	RB	PronType=Dem	14	advmod	_	SpaceAfter=No|start_char=1811|end_char=1815
+16	?	?	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=1815|end_char=1816
 
 # text = And I realized that I had hit upon something that I think has this huge potential to change the world.
 # sent_id = 14
@@ -462,8 +461,8 @@
 17	to	to	PART	TO	_	18	mark	_	start_char=1900|end_char=1902
 18	change	change	VERB	VB	VerbForm=Inf	16	acl	_	start_char=1903|end_char=1909
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=1910|end_char=1913
-20	world	world	NOUN	NN	Number=Sing	18	obj	_	start_char=1914|end_char=1919|SpaceAfter=No
-21	.	.	PUNCT	.	_	3	punct	_	start_char=1919|end_char=1920|SpacesAfter=\n\n
+20	world	world	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No|start_char=1914|end_char=1919
+21	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=1919|end_char=1920
 
 # text = And this is what it is.
 # sent_id = 15
@@ -472,8 +471,8 @@
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1931|end_char=1933
 4	what	what	PRON	WP	PronType=Rel	0	root	_	start_char=1934|end_char=1938
 5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=1939|end_char=1941
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	start_char=1942|end_char=1944|SpaceAfter=No
-7	.	.	PUNCT	.	_	4	punct	_	start_char=1944|end_char=1945|SpacesAfter=\n\n
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No|start_char=1942|end_char=1944
+7	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=1944|end_char=1945
 
 # text = This is a small modular reactor.
 # sent_id = 16
@@ -482,8 +481,8 @@
 3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=1955|end_char=1956
 4	small	small	ADJ	JJ	Degree=Pos	6	amod	_	start_char=1957|end_char=1962
 5	modular	modular	ADJ	JJ	Degree=Pos	6	amod	_	start_char=1963|end_char=1970
-6	reactor	reactor	NOUN	NN	Number=Sing	0	root	_	start_char=1971|end_char=1978|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	punct	_	start_char=1978|end_char=1979|SpacesAfter=\n\n
+6	reactor	reactor	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=1971|end_char=1978
+7	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=1978|end_char=1979
 
 # text = So it's not as big as the reactor you see in the diagram here.
 # sent_id = 17
@@ -502,8 +501,8 @@
 12	in	in	ADP	IN	_	14	case	_	start_char=2023|end_char=2025
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=2026|end_char=2029
 14	diagram	diagram	NOUN	NN	Number=Sing	11	obl	_	start_char=2030|end_char=2037
-15	here	here	ADV	RB	PronType=Dem	11	advmod	_	start_char=2038|end_char=2042|SpaceAfter=No
-16	.	.	PUNCT	.	_	6	punct	_	start_char=2042|end_char=2043|SpacesAfter=\n\n
+15	here	here	ADV	RB	PronType=Dem	11	advmod	_	SpaceAfter=No|start_char=2038|end_char=2042
+16	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=2042|end_char=2043
 
 # text = This is between 50 and 100 megawatts.
 # sent_id = 18
@@ -513,8 +512,8 @@
 4	50	50	NUM	CD	NumForm=Digit|NumType=Card	7	nummod	_	start_char=2061|end_char=2063
 5	and	and	CCONJ	CC	_	6	cc	_	start_char=2064|end_char=2067
 6	100	100	NUM	CD	NumForm=Digit|NumType=Card	4	conj	_	start_char=2068|end_char=2071
-7	megawatts	megawatt	NOUN	NNS	Number=Plur	0	root	_	start_char=2072|end_char=2081|SpaceAfter=No
-8	.	.	PUNCT	.	_	7	punct	_	start_char=2081|end_char=2082|SpacesAfter=\n\n
+7	megawatts	megawatt	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No|start_char=2072|end_char=2081
+8	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=2081|end_char=2082
 
 # text = But that's a ton of power.
 # sent_id = 19
@@ -525,21 +524,21 @@
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=2095|end_char=2096
 5	ton	ton	NOUN	NN	Number=Sing	0	root	_	start_char=2097|end_char=2100
 6	of	of	ADP	IN	_	7	case	_	start_char=2101|end_char=2103
-7	power	power	NOUN	NN	Number=Sing	5	nmod	_	start_char=2104|end_char=2109|SpaceAfter=No
-8	.	.	PUNCT	.	_	5	punct	_	start_char=2109|end_char=2110|SpacesAfter=\n\n
+7	power	power	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No|start_char=2104|end_char=2109
+8	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=2109|end_char=2110
 
 # text = That's between, say at an average use, that's maybe 25,000 to 100,000 homes could run off that.
 # sent_id = 20
 1-2	That's	_	_	_	_	_	_	_	start_char=2112|end_char=2118
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	19	nsubj:outer	_	start_char=2112|end_char=2116
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=2116|end_char=2118
-3	between	between	ADP	IN	_	9	case	_	start_char=2119|end_char=2126|SpaceAfter=No
+3	between	between	ADP	IN	_	9	case	_	SpaceAfter=No|start_char=2119|end_char=2126
 4	,	,	PUNCT	,	_	3	punct	_	start_char=2126|end_char=2127
 5	say	say	INTJ	UH	_	19	discourse	_	start_char=2128|end_char=2131
 6	at	at	ADP	IN	_	9	case	_	start_char=2132|end_char=2134
 7	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=2135|end_char=2137
 8	average	average	ADJ	JJ	Degree=Pos	9	amod	_	start_char=2138|end_char=2145
-9	use	use	NOUN	NN	Number=Sing	19	obl	_	start_char=2146|end_char=2149|SpaceAfter=No
+9	use	use	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No|start_char=2146|end_char=2149
 10	,	,	PUNCT	,	_	9	punct	_	start_char=2149|end_char=2150
 11-12	that's	_	_	_	_	_	_	_	start_char=2151|end_char=2157
 11	that	that	PRON	DT	Number=Sing|PronType=Dem	19	nsubj:outer	_	start_char=2151|end_char=2155
@@ -552,8 +551,8 @@
 18	could	could	AUX	MD	VerbForm=Fin	19	aux	_	start_char=2188|end_char=2193
 19	run	run	VERB	VB	VerbForm=Inf	0	root	_	start_char=2194|end_char=2197
 20	off	off	ADP	IN	_	21	case	_	start_char=2198|end_char=2201
-21	that	that	PRON	DT	Number=Sing|PronType=Dem	19	obl	_	start_char=2202|end_char=2206|SpaceAfter=No
-22	.	.	PUNCT	.	_	19	punct	_	start_char=2206|end_char=2207|SpacesAfter=\n\n
+21	that	that	PRON	DT	Number=Sing|PronType=Dem	19	obl	_	SpaceAfter=No|start_char=2202|end_char=2206
+22	.	.	PUNCT	.	_	19	punct	_	SpacesAfter=\n\n|start_char=2206|end_char=2207
 
 # text = Now the really interesting thing about these reactors is they're built in a factory.
 # sent_id = 21
@@ -572,8 +571,8 @@
 12	built	build	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=2274|end_char=2279
 13	in	in	ADP	IN	_	15	case	_	start_char=2280|end_char=2282
 14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=2283|end_char=2284
-15	factory	factory	NOUN	NN	Number=Sing	12	obl	_	start_char=2285|end_char=2292|SpaceAfter=No
-16	.	.	PUNCT	.	_	12	punct	_	start_char=2292|end_char=2293|SpacesAfter=\n\n
+15	factory	factory	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No|start_char=2285|end_char=2292
+16	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n\n|start_char=2292|end_char=2293
 
 # text = So they're modular reactors that are built essentially on an assembly line, and they're trucked anywhere in the world, you plop them down, and they produce electricity.
 # sent_id = 22
@@ -590,7 +589,7 @@
 10	on	on	ADP	IN	_	13	case	_	start_char=2350|end_char=2352
 11	an	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=2353|end_char=2355
 12	assembly	assembly	NOUN	NN	Number=Sing	13	compound	_	start_char=2356|end_char=2364
-13	line	line	NOUN	NN	Number=Sing	8	obl	_	start_char=2365|end_char=2369|SpaceAfter=No
+13	line	line	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No|start_char=2365|end_char=2369
 14	,	,	PUNCT	,	_	18	punct	_	start_char=2369|end_char=2370
 15	and	and	CCONJ	CC	_	18	cc	_	start_char=2371|end_char=2374
 16-17	they're	_	_	_	_	_	_	_	start_char=2375|end_char=2382
@@ -600,18 +599,18 @@
 19	anywhere	anywhere	ADV	RB	PronType=Ind	18	advmod	_	start_char=2391|end_char=2399
 20	in	in	ADP	IN	_	22	case	_	start_char=2400|end_char=2402
 21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	start_char=2403|end_char=2406
-22	world	world	NOUN	NN	Number=Sing	18	obl	_	start_char=2407|end_char=2412|SpaceAfter=No
+22	world	world	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No|start_char=2407|end_char=2412
 23	,	,	PUNCT	,	_	25	punct	_	start_char=2412|end_char=2413
 24	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	25	nsubj	_	start_char=2414|end_char=2417
 25	plop	plop	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	parataxis	_	start_char=2418|end_char=2422
 26	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	25	obj	_	start_char=2423|end_char=2427
-27	down	down	ADP	RP	_	25	compound:prt	_	start_char=2428|end_char=2432|SpaceAfter=No
+27	down	down	ADP	RP	_	25	compound:prt	_	SpaceAfter=No|start_char=2428|end_char=2432
 28	,	,	PUNCT	,	_	31	punct	_	start_char=2432|end_char=2433
 29	and	and	CCONJ	CC	_	31	cc	_	start_char=2434|end_char=2437
 30	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	31	nsubj	_	start_char=2438|end_char=2442
 31	produce	produce	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	start_char=2443|end_char=2450
-32	electricity	electricity	NOUN	NN	Number=Sing	31	obj	_	start_char=2451|end_char=2462|SpaceAfter=No
-33	.	.	PUNCT	.	_	5	punct	_	start_char=2462|end_char=2463|SpacesAfter=\n\n
+32	electricity	electricity	NOUN	NN	Number=Sing	31	obj	_	SpaceAfter=No|start_char=2451|end_char=2462
+33	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=2462|end_char=2463
 
 # text = This region right here is the reactor.
 # sent_id = 23
@@ -621,8 +620,8 @@
 4	here	here	ADV	RB	PronType=Dem	2	advmod	_	start_char=2483|end_char=2487
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=2488|end_char=2490
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=2491|end_char=2494
-7	reactor	reactor	NOUN	NN	Number=Sing	0	root	_	start_char=2495|end_char=2502|SpaceAfter=No
-8	.	.	PUNCT	.	_	7	punct	_	start_char=2502|end_char=2503|SpacesAfter=\n\n
+7	reactor	reactor	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=2495|end_char=2502
+8	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=2502|end_char=2503
 
 # text = And this is buried below ground, which is really important.
 # sent_id = 24
@@ -631,13 +630,13 @@
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	start_char=2514|end_char=2516
 4	buried	bury	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=2517|end_char=2523
 5	below	below	ADP	IN	_	6	case	_	start_char=2524|end_char=2529
-6	ground	ground	NOUN	NN	Number=Sing	4	obl	_	start_char=2530|end_char=2536|SpaceAfter=No
+6	ground	ground	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No|start_char=2530|end_char=2536
 7	,	,	PUNCT	,	_	11	punct	_	start_char=2536|end_char=2537
 8	which	which	PRON	WDT	PronType=Rel	11	nsubj	_	start_char=2538|end_char=2543
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=2544|end_char=2546
 10	really	really	ADV	RB	_	11	advmod	_	start_char=2547|end_char=2553
-11	important	important	ADJ	JJ	Degree=Pos	6	acl:relcl	_	start_char=2554|end_char=2563|SpaceAfter=No
-12	.	.	PUNCT	.	_	4	punct	_	start_char=2563|end_char=2564|SpacesAfter=\n\n
+11	important	important	ADJ	JJ	Degree=Pos	6	acl:relcl	_	SpaceAfter=No|start_char=2554|end_char=2563
+12	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=2563|end_char=2564
 
 # text = For someone who's done a lot of counterterrorism work, I can't extol to you how great having something buried below the ground is for proliferation and security concerns.
 # sent_id = 25
@@ -651,7 +650,7 @@
 7	lot	lot	NOUN	NN	Number=Sing	5	obj	_	start_char=2591|end_char=2594
 8	of	of	ADP	IN	_	10	case	_	start_char=2595|end_char=2597
 9	counterterrorism	counterterrorism	NOUN	NN	Number=Sing	10	compound	_	start_char=2598|end_char=2614
-10	work	work	NOUN	NN	Number=Sing	7	nmod	_	start_char=2615|end_char=2619|SpaceAfter=No
+10	work	work	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No|start_char=2615|end_char=2619
 11	,	,	PUNCT	,	_	2	punct	_	start_char=2619|end_char=2620
 12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=2621|end_char=2622
 13-14	can't	_	_	_	_	_	_	_	start_char=2623|end_char=2628
@@ -673,8 +672,8 @@
 28	proliferation	proliferation	NOUN	NN	Number=Sing	31	compound	_	start_char=2700|end_char=2713
 29	and	and	CCONJ	CC	_	30	cc	_	start_char=2714|end_char=2717
 30	security	security	NOUN	NN	Number=Sing	28	conj	_	start_char=2718|end_char=2726
-31	concerns	concern	NOUN	NNS	Number=Plur	19	conj	_	start_char=2727|end_char=2735|SpaceAfter=No
-32	.	.	PUNCT	.	_	15	punct	_	start_char=2735|end_char=2736|SpacesAfter=\n\n
+31	concerns	concern	NOUN	NNS	Number=Plur	19	conj	_	SpaceAfter=No|start_char=2727|end_char=2735
+32	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\n\n|start_char=2735|end_char=2736
 
 # text = And inside this reactor is a molten salt, so anybody who's a fan of thorium, they're going to be really excited about this, because these reactors happen to be really good at breeding and burning the thorium fuel cycle, uranium-233.
 # sent_id = 26
@@ -685,7 +684,7 @@
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=2762|end_char=2764
 6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=2765|end_char=2766
 7	molten	molten	ADJ	JJ	Degree=Pos	8	amod	_	start_char=2767|end_char=2773
-8	salt	salt	NOUN	NN	Number=Sing	0	root	_	start_char=2774|end_char=2778|SpaceAfter=No
+8	salt	salt	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=2774|end_char=2778
 9	,	,	PUNCT	,	_	21	punct	_	start_char=2778|end_char=2779
 10	so	so	ADV	RB	_	21	advmod	_	start_char=2780|end_char=2782
 11	anybody	anybody	PRON	NN	Number=Sing|PronType=Ind	21	nsubj	_	start_char=2783|end_char=2790
@@ -695,7 +694,7 @@
 14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=2797|end_char=2798
 15	fan	fan	NOUN	NN	Number=Sing	11	acl:relcl	_	start_char=2799|end_char=2802
 16	of	of	ADP	IN	_	17	case	_	start_char=2803|end_char=2805
-17	thorium	thorium	NOUN	NN	Number=Sing	15	nmod	_	start_char=2806|end_char=2813|SpaceAfter=No
+17	thorium	thorium	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No|start_char=2806|end_char=2813
 18	,	,	PUNCT	,	_	11	punct	_	start_char=2813|end_char=2814
 19-20	they're	_	_	_	_	_	_	_	start_char=2815|end_char=2822
 19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	start_char=2815|end_char=2819
@@ -706,7 +705,7 @@
 24	really	really	ADV	RB	_	25	advmod	_	start_char=2835|end_char=2841
 25	excited	excited	ADJ	JJ	Degree=Pos	21	xcomp	_	start_char=2842|end_char=2849
 26	about	about	ADP	IN	_	27	case	_	start_char=2850|end_char=2855
-27	this	this	PRON	DT	Number=Sing|PronType=Dem	25	obl	_	start_char=2856|end_char=2860|SpaceAfter=No
+27	this	this	PRON	DT	Number=Sing|PronType=Dem	25	obl	_	SpaceAfter=No|start_char=2856|end_char=2860
 28	,	,	PUNCT	,	_	32	punct	_	start_char=2860|end_char=2861
 29	because	because	SCONJ	IN	_	32	mark	_	start_char=2862|end_char=2869
 30	these	this	DET	DT	Number=Plur|PronType=Dem	31	det	_	start_char=2870|end_char=2875
@@ -723,12 +722,12 @@
 41	the	the	DET	DT	Definite=Def|PronType=Art	44	det	_	start_char=2934|end_char=2937
 42	thorium	thorium	NOUN	NN	Number=Sing	44	compound	_	start_char=2938|end_char=2945
 43	fuel	fuel	NOUN	NN	Number=Sing	44	compound	_	start_char=2946|end_char=2950
-44	cycle	cycle	NOUN	NN	Number=Sing	40	obj	_	start_char=2951|end_char=2956|SpaceAfter=No
+44	cycle	cycle	NOUN	NN	Number=Sing	40	obj	_	SpaceAfter=No|start_char=2951|end_char=2956
 45	,	,	PUNCT	,	_	46	punct	_	start_char=2956|end_char=2957
-46	uranium	uranium	NOUN	NN	Number=Sing	44	appos	_	start_char=2958|end_char=2965|SpaceAfter=No
-47	-	-	SYM	SYM	_	48	case	_	start_char=2965|end_char=2966|SpaceAfter=No
-48	233	233	NUM	CD	NumForm=Digit|NumType=Card	46	nmod	_	start_char=2966|end_char=2969|SpaceAfter=No
-49	.	.	PUNCT	.	_	8	punct	_	start_char=2969|end_char=2970|SpacesAfter=\n\n
+46	uranium	uranium	NOUN	NN	Number=Sing	44	appos	_	SpaceAfter=No|start_char=2958|end_char=2965
+47	-	-	SYM	SYM	_	48	case	_	SpaceAfter=No|start_char=2965|end_char=2966
+48	233	233	NUM	CD	NumForm=Digit|NumType=Card	46	nmod	_	SpaceAfter=No|start_char=2966|end_char=2969
+49	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n\n|start_char=2969|end_char=2970
 
 # text = But I'm not really concerned about the fuel.
 # sent_id = 27
@@ -741,8 +740,8 @@
 6	concerned	concerned	ADJ	JJ	Degree=Pos	0	root	_	start_char=2991|end_char=3000
 7	about	about	ADP	IN	_	9	case	_	start_char=3001|end_char=3006
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=3007|end_char=3010
-9	fuel	fuel	NOUN	NN	Number=Sing	6	obl	_	start_char=3011|end_char=3015|SpaceAfter=No
-10	.	.	PUNCT	.	_	6	punct	_	start_char=3015|end_char=3016|SpacesAfter=\n\n
+9	fuel	fuel	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No|start_char=3011|end_char=3015
+10	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=3015|end_char=3016
 
 # text = You can run these off -- they're really hungry, they really like down-blended weapons pits, so that's highly enriched uranium and weapons-grade plutonium that's been down-blended.
 # sent_id = 28
@@ -756,16 +755,16 @@
 7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=3043|end_char=3047
 8	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=3047|end_char=3050
 9	really	really	ADV	RB	_	10	advmod	_	start_char=3051|end_char=3057
-10	hungry	hungry	ADJ	JJ	Degree=Pos	3	parataxis	_	start_char=3058|end_char=3064|SpaceAfter=No
+10	hungry	hungry	ADJ	JJ	Degree=Pos	3	parataxis	_	SpaceAfter=No|start_char=3058|end_char=3064
 11	,	,	PUNCT	,	_	14	punct	_	start_char=3064|end_char=3065
 12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	start_char=3066|end_char=3070
 13	really	really	ADV	RB	_	14	advmod	_	start_char=3071|end_char=3077
 14	like	like	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=3078|end_char=3082
-15	down	down	ADP	RP	_	17	compound	_	start_char=3083|end_char=3087|SpaceAfter=No
-16	-	-	PUNCT	HYPH	_	15	punct	_	start_char=3087|end_char=3088|SpaceAfter=No
+15	down	down	ADP	RP	_	17	compound	_	SpaceAfter=No|start_char=3083|end_char=3087
+16	-	-	PUNCT	HYPH	_	15	punct	_	SpaceAfter=No|start_char=3087|end_char=3088
 17	blended	blend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	start_char=3088|end_char=3095
 18	weapons	weapon	NOUN	NNS	Number=Plur	19	compound	_	start_char=3096|end_char=3103
-19	pits	pit	NOUN	NNS	Number=Plur	14	obj	_	start_char=3104|end_char=3108|SpaceAfter=No
+19	pits	pit	NOUN	NNS	Number=Plur	14	obj	_	SpaceAfter=No|start_char=3104|end_char=3108
 20	,	,	PUNCT	,	_	26	punct	_	start_char=3108|end_char=3109
 21	so	so	ADV	RB	_	26	advmod	_	start_char=3110|end_char=3112
 22-23	that's	_	_	_	_	_	_	_	start_char=3113|end_char=3119
@@ -775,18 +774,18 @@
 25	enriched	enrich	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	26	amod	_	start_char=3127|end_char=3135
 26	uranium	uranium	NOUN	NN	Number=Sing	3	parataxis	_	start_char=3136|end_char=3143
 27	and	and	CCONJ	CC	_	31	cc	_	start_char=3144|end_char=3147
-28	weapons	weapon	NOUN	NNS	Number=Plur	30	compound	_	start_char=3148|end_char=3155|SpaceAfter=No
-29	-	-	PUNCT	HYPH	_	28	punct	_	start_char=3155|end_char=3156|SpaceAfter=No
+28	weapons	weapon	NOUN	NNS	Number=Plur	30	compound	_	SpaceAfter=No|start_char=3148|end_char=3155
+29	-	-	PUNCT	HYPH	_	28	punct	_	SpaceAfter=No|start_char=3155|end_char=3156
 30	grade	grade	NOUN	NN	Number=Sing	31	compound	_	start_char=3156|end_char=3161
 31	plutonium	plutonium	NOUN	NN	Number=Sing	26	conj	_	start_char=3162|end_char=3171
 32-33	that's	_	_	_	_	_	_	_	start_char=3172|end_char=3178
 32	that	that	PRON	WDT	PronType=Rel	37	nsubj:pass	_	start_char=3172|end_char=3176
 33	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	start_char=3176|end_char=3178
 34	been	be	AUX	VBN	Tense=Past|VerbForm=Part	37	aux:pass	_	start_char=3179|end_char=3183
-35	down	down	ADP	RP	_	37	advmod	_	start_char=3184|end_char=3188|SpaceAfter=No
-36	-	-	PUNCT	HYPH	_	35	punct	_	start_char=3188|end_char=3189|SpaceAfter=No
-37	blended	blend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	31	acl:relcl	_	start_char=3189|end_char=3196|SpaceAfter=No
-38	.	.	PUNCT	.	_	3	punct	_	start_char=3196|end_char=3197|SpacesAfter=\n\n
+35	down	down	ADP	RP	_	37	advmod	_	SpaceAfter=No|start_char=3184|end_char=3188
+36	-	-	PUNCT	HYPH	_	35	punct	_	SpaceAfter=No|start_char=3188|end_char=3189
+37	blended	blend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	31	acl:relcl	_	SpaceAfter=No|start_char=3189|end_char=3196
+38	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=3196|end_char=3197
 
 # text = It's made into a grade where it's not usable for a nuclear weapon, but they love this stuff.
 # sent_id = 29
@@ -806,14 +805,14 @@
 12	for	for	ADP	IN	_	15	case	_	start_char=3244|end_char=3247
 13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=3248|end_char=3249
 14	nuclear	nuclear	ADJ	JJ	Degree=Pos	15	amod	_	start_char=3250|end_char=3257
-15	weapon	weapon	NOUN	NN	Number=Sing	11	obl	_	start_char=3258|end_char=3264|SpaceAfter=No
+15	weapon	weapon	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No|start_char=3258|end_char=3264
 16	,	,	PUNCT	,	_	19	punct	_	start_char=3264|end_char=3265
 17	but	but	CCONJ	CC	_	19	cc	_	start_char=3266|end_char=3269
 18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	start_char=3270|end_char=3274
 19	love	love	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=3275|end_char=3279
 20	this	this	DET	DT	Number=Sing|PronType=Dem	21	det	_	start_char=3280|end_char=3284
-21	stuff	stuff	NOUN	NN	Number=Sing	19	obj	_	start_char=3285|end_char=3290|SpaceAfter=No
-22	.	.	PUNCT	.	_	3	punct	_	start_char=3290|end_char=3291|SpacesAfter=\n\n
+21	stuff	stuff	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No|start_char=3285|end_char=3290
+22	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=3290|end_char=3291
 
 # text = And we have a lot of it sitting around, because this is a big problem.
 # sent_id = 30
@@ -825,25 +824,25 @@
 6	of	of	ADP	IN	_	7	case	_	start_char=3311|end_char=3313
 7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nmod	_	start_char=3314|end_char=3316
 8	sitting	sit	VERB	VBG	VerbForm=Ger	5	acl	_	start_char=3317|end_char=3324
-9	around	around	ADV	RB	_	8	advmod	_	start_char=3325|end_char=3331|SpaceAfter=No
+9	around	around	ADV	RB	_	8	advmod	_	SpaceAfter=No|start_char=3325|end_char=3331
 10	,	,	PUNCT	,	_	16	punct	_	start_char=3331|end_char=3332
 11	because	because	SCONJ	IN	_	16	mark	_	start_char=3333|end_char=3340
 12	this	this	PRON	DT	Number=Sing|PronType=Dem	16	nsubj	_	start_char=3341|end_char=3345
 13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=3346|end_char=3348
 14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	start_char=3349|end_char=3350
 15	big	big	ADJ	JJ	Degree=Pos	16	amod	_	start_char=3351|end_char=3354
-16	problem	problem	NOUN	NN	Number=Sing	3	advcl	_	start_char=3355|end_char=3362|SpaceAfter=No
-17	.	.	PUNCT	.	_	3	punct	_	start_char=3362|end_char=3363|SpacesAfter=\n\n
+16	problem	problem	NOUN	NN	Number=Sing	3	advcl	_	SpaceAfter=No|start_char=3355|end_char=3362
+17	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=3362|end_char=3363
 
 # text = You know, in the Cold War, we built up this huge arsenal of nuclear weapons, and that was great, and we don't need them anymore, and what are we doing with all the waste, essentially?
 # sent_id = 31
 1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	start_char=3365|end_char=3368
-2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	parataxis	_	start_char=3369|end_char=3373|SpaceAfter=No
+2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	parataxis	_	SpaceAfter=No|start_char=3369|end_char=3373
 3	,	,	PUNCT	,	_	2	punct	_	start_char=3373|end_char=3374
 4	in	in	ADP	IN	_	7	case	_	start_char=3375|end_char=3377
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=3378|end_char=3381
 6	Cold	cold	ADJ	NNP	Degree=Pos	7	amod	_	start_char=3382|end_char=3386
-7	War	War	PROPN	NNP	Number=Sing	10	obl	_	start_char=3387|end_char=3390|SpaceAfter=No
+7	War	War	PROPN	NNP	Number=Sing	10	obl	_	SpaceAfter=No|start_char=3387|end_char=3390
 8	,	,	PUNCT	,	_	7	punct	_	start_char=3390|end_char=3391
 9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	start_char=3392|end_char=3394
 10	built	build	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3395|end_char=3400
@@ -853,12 +852,12 @@
 14	arsenal	arsenal	NOUN	NN	Number=Sing	10	obj	_	start_char=3414|end_char=3421
 15	of	of	ADP	IN	_	17	case	_	start_char=3422|end_char=3424
 16	nuclear	nuclear	ADJ	JJ	Degree=Pos	17	amod	_	start_char=3425|end_char=3432
-17	weapons	weapon	NOUN	NNS	Number=Plur	14	nmod	_	start_char=3433|end_char=3440|SpaceAfter=No
+17	weapons	weapon	NOUN	NNS	Number=Plur	14	nmod	_	SpaceAfter=No|start_char=3433|end_char=3440
 18	,	,	PUNCT	,	_	22	punct	_	start_char=3440|end_char=3441
 19	and	and	CCONJ	CC	_	22	cc	_	start_char=3442|end_char=3445
 20	that	that	PRON	DT	Number=Sing|PronType=Dem	22	nsubj	_	start_char=3446|end_char=3450
 21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	start_char=3451|end_char=3454
-22	great	great	ADJ	JJ	Degree=Pos	10	conj	_	start_char=3455|end_char=3460|SpaceAfter=No
+22	great	great	ADJ	JJ	Degree=Pos	10	conj	_	SpaceAfter=No|start_char=3455|end_char=3460
 23	,	,	PUNCT	,	_	28	punct	_	start_char=3460|end_char=3461
 24	and	and	CCONJ	CC	_	28	cc	_	start_char=3462|end_char=3465
 25	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	28	nsubj	_	start_char=3466|end_char=3468
@@ -867,7 +866,7 @@
 27	n't	not	PART	RB	Polarity=Neg	28	advmod	_	start_char=3471|end_char=3474
 28	need	need	VERB	VB	VerbForm=Inf	22	conj	_	start_char=3475|end_char=3479
 29	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	28	obj	_	start_char=3480|end_char=3484
-30	anymore	anymore	ADV	RB	_	28	advmod	_	start_char=3485|end_char=3492|SpaceAfter=No
+30	anymore	anymore	ADV	RB	_	28	advmod	_	SpaceAfter=No|start_char=3485|end_char=3492
 31	,	,	PUNCT	,	_	36	punct	_	start_char=3492|end_char=3493
 32	and	and	CCONJ	CC	_	36	cc	_	start_char=3494|end_char=3497
 33	what	what	PRON	WP	PronType=Int	36	obj	_	start_char=3498|end_char=3502
@@ -877,10 +876,10 @@
 37	with	with	ADP	IN	_	40	case	_	start_char=3516|end_char=3520
 38	all	all	DET	PDT	PronType=Tot	40	det:predet	_	start_char=3521|end_char=3524
 39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	_	start_char=3525|end_char=3528
-40	waste	waste	NOUN	NN	Number=Sing	36	obl	_	start_char=3529|end_char=3534|SpaceAfter=No
+40	waste	waste	NOUN	NN	Number=Sing	36	obl	_	SpaceAfter=No|start_char=3529|end_char=3534
 41	,	,	PUNCT	,	_	42	punct	_	start_char=3534|end_char=3535
-42	essentially	essentially	ADV	RB	_	36	advmod	_	start_char=3536|end_char=3547|SpaceAfter=No
-43	?	?	PUNCT	.	_	10	punct	_	start_char=3547|end_char=3548|SpacesAfter=\n\n
+42	essentially	essentially	ADV	RB	_	36	advmod	_	SpaceAfter=No|start_char=3536|end_char=3547
+43	?	?	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n|start_char=3547|end_char=3548
 
 # text = What are we doing with all the pits of those nuclear weapons?
 # sent_id = 32
@@ -895,18 +894,18 @@
 9	of	of	ADP	IN	_	12	case	_	start_char=3586|end_char=3588
 10	those	that	DET	DT	Number=Plur|PronType=Dem	12	det	_	start_char=3589|end_char=3594
 11	nuclear	nuclear	ADJ	JJ	Degree=Pos	12	amod	_	start_char=3595|end_char=3602
-12	weapons	weapon	NOUN	NNS	Number=Plur	8	nmod	_	start_char=3603|end_char=3610|SpaceAfter=No
-13	?	?	PUNCT	.	_	4	punct	_	start_char=3610|end_char=3611|SpacesAfter=\n\n
+12	weapons	weapon	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No|start_char=3603|end_char=3610
+13	?	?	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=3610|end_char=3611
 
 # text = Well, we're securing them, and it would be great if we could burn them, eat them up, and this reactor loves this stuff.
 # sent_id = 33
-1	Well	well	INTJ	UH	_	5	discourse	_	start_char=3613|end_char=3617|SpaceAfter=No
+1	Well	well	INTJ	UH	_	5	discourse	_	SpaceAfter=No|start_char=3613|end_char=3617
 2	,	,	PUNCT	,	_	1	punct	_	start_char=3617|end_char=3618
 3-4	we're	_	_	_	_	_	_	_	start_char=3619|end_char=3624
 3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=3619|end_char=3621
 4	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=3621|end_char=3624
 5	securing	secure	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=3625|end_char=3633
-6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obj	_	start_char=3634|end_char=3638|SpaceAfter=No
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No|start_char=3634|end_char=3638
 7	,	,	PUNCT	,	_	12	punct	_	start_char=3638|end_char=3639
 8	and	and	CCONJ	CC	_	12	cc	_	start_char=3640|end_char=3643
 9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	start_char=3644|end_char=3646
@@ -917,19 +916,19 @@
 14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	start_char=3665|end_char=3667
 15	could	could	AUX	MD	VerbForm=Fin	16	aux	_	start_char=3668|end_char=3673
 16	burn	burn	VERB	VB	VerbForm=Inf	12	advcl	_	start_char=3674|end_char=3678
-17	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	obj	_	start_char=3679|end_char=3683|SpaceAfter=No
+17	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	obj	_	SpaceAfter=No|start_char=3679|end_char=3683
 18	,	,	PUNCT	,	_	19	punct	_	start_char=3683|end_char=3684
 19	eat	eat	VERB	VB	VerbForm=Inf	16	conj	_	start_char=3685|end_char=3688
 20	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	obj	_	start_char=3689|end_char=3693
-21	up	up	ADP	RP	_	19	compound:prt	_	start_char=3694|end_char=3696|SpaceAfter=No
+21	up	up	ADP	RP	_	19	compound:prt	_	SpaceAfter=No|start_char=3694|end_char=3696
 22	,	,	PUNCT	,	_	26	punct	_	start_char=3696|end_char=3697
 23	and	and	CCONJ	CC	_	26	cc	_	start_char=3698|end_char=3701
 24	this	this	DET	DT	Number=Sing|PronType=Dem	25	det	_	start_char=3702|end_char=3706
 25	reactor	reactor	NOUN	NN	Number=Sing	26	nsubj	_	start_char=3707|end_char=3714
 26	loves	love	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=3715|end_char=3720
 27	this	this	DET	DT	Number=Sing|PronType=Dem	28	det	_	start_char=3721|end_char=3725
-28	stuff	stuff	NOUN	NN	Number=Sing	26	obj	_	start_char=3726|end_char=3731|SpaceAfter=No
-29	.	.	PUNCT	.	_	5	punct	_	start_char=3731|end_char=3732|SpacesAfter=\n\n
+28	stuff	stuff	NOUN	NN	Number=Sing	26	obj	_	SpaceAfter=No|start_char=3726|end_char=3731
+29	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=3731|end_char=3732
 
 # text = So it's a molten salt reactor.
 # sent_id = 34
@@ -940,15 +939,15 @@
 4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=3742|end_char=3743
 5	molten	molten	ADJ	JJ	Degree=Pos	7	amod	_	start_char=3744|end_char=3750
 6	salt	salt	NOUN	NN	Number=Sing	7	compound	_	start_char=3751|end_char=3755
-7	reactor	reactor	NOUN	NN	Number=Sing	0	root	_	start_char=3756|end_char=3763|SpaceAfter=No
-8	.	.	PUNCT	.	_	7	punct	_	start_char=3763|end_char=3764|SpacesAfter=\n\n
+7	reactor	reactor	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=3756|end_char=3763
+8	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=3763|end_char=3764
 
 # text = It has a core, and it has a heat exchanger from the hot salt, the radioactive salt, to a cold salt which isn't radioactive.
 # sent_id = 35
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=3766|end_char=3768
 2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3769|end_char=3772
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=3773|end_char=3774
-4	core	core	NOUN	NN	Number=Sing	2	obj	_	start_char=3775|end_char=3779|SpaceAfter=No
+4	core	core	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No|start_char=3775|end_char=3779
 5	,	,	PUNCT	,	_	8	punct	_	start_char=3779|end_char=3780
 6	and	and	CCONJ	CC	_	8	cc	_	start_char=3781|end_char=3784
 7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=3785|end_char=3787
@@ -959,11 +958,11 @@
 12	from	from	ADP	IN	_	15	case	_	start_char=3809|end_char=3813
 13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=3814|end_char=3817
 14	hot	hot	ADJ	JJ	Degree=Pos	15	amod	_	start_char=3818|end_char=3821
-15	salt	salt	NOUN	NN	Number=Sing	11	nmod	_	start_char=3822|end_char=3826|SpaceAfter=No
+15	salt	salt	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No|start_char=3822|end_char=3826
 16	,	,	PUNCT	,	_	19	punct	_	start_char=3826|end_char=3827
 17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=3828|end_char=3831
 18	radioactive	radioactive	ADJ	JJ	Degree=Pos	19	amod	_	start_char=3832|end_char=3843
-19	salt	salt	NOUN	NN	Number=Sing	15	appos	_	start_char=3844|end_char=3848|SpaceAfter=No
+19	salt	salt	NOUN	NN	Number=Sing	15	appos	_	SpaceAfter=No|start_char=3844|end_char=3848
 20	,	,	PUNCT	,	_	24	punct	_	start_char=3848|end_char=3849
 21	to	to	ADP	IN	_	24	case	_	start_char=3850|end_char=3852
 22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	start_char=3853|end_char=3854
@@ -973,8 +972,8 @@
 26-27	isn't	_	_	_	_	_	_	_	start_char=3871|end_char=3876
 26	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	start_char=3871|end_char=3873
 27	n't	not	PART	RB	Polarity=Neg	28	advmod	_	start_char=3873|end_char=3876
-28	radioactive	radioactive	ADJ	JJ	Degree=Pos	24	acl:relcl	_	start_char=3877|end_char=3888|SpaceAfter=No
-29	.	.	PUNCT	.	_	2	punct	_	start_char=3888|end_char=3889|SpacesAfter=\n\n
+28	radioactive	radioactive	ADJ	JJ	Degree=Pos	24	acl:relcl	_	SpaceAfter=No|start_char=3877|end_char=3888
+29	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=3888|end_char=3889
 
 # text = It's still thermally hot but it's not radioactive.
 # sent_id = 36
@@ -989,8 +988,8 @@
 7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=3920|end_char=3922
 8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=3922|end_char=3924
 9	not	not	PART	RB	Polarity=Neg	10	advmod	_	start_char=3925|end_char=3928
-10	radioactive	radioactive	ADJ	JJ	Degree=Pos	5	conj	_	start_char=3929|end_char=3940|SpaceAfter=No
-11	.	.	PUNCT	.	_	5	punct	_	start_char=3940|end_char=3941|SpacesAfter=\n\n
+10	radioactive	radioactive	ADJ	JJ	Degree=Pos	5	conj	_	SpaceAfter=No|start_char=3929|end_char=3940
+11	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=3940|end_char=3941
 
 # text = And then that's a heat exchanger to what makes this design really, really interesting, and that's a heat exchanger to a gas.
 # sent_id = 37
@@ -1007,10 +1006,10 @@
 10	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	start_char=3984|end_char=3989
 11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	start_char=3990|end_char=3994
 12	design	design	NOUN	NN	Number=Sing	10	obj	_	start_char=3995|end_char=4001
-13	really	really	ADV	RB	Degree=Pos	10	advmod	_	start_char=4002|end_char=4008|SpaceAfter=No
+13	really	really	ADV	RB	Degree=Pos	10	advmod	_	SpaceAfter=No|start_char=4002|end_char=4008
 14	,	,	PUNCT	,	_	16	punct	_	start_char=4008|end_char=4009
 15	really	really	ADV	RB	Degree=Pos	16	advmod	_	start_char=4010|end_char=4016
-16	interesting	interesting	ADJ	JJ	Degree=Pos	10	xcomp	_	start_char=4017|end_char=4028|SpaceAfter=No
+16	interesting	interesting	ADJ	JJ	Degree=Pos	10	xcomp	_	SpaceAfter=No|start_char=4017|end_char=4028
 17	,	,	PUNCT	,	_	23	punct	_	start_char=4028|end_char=4029
 18	and	and	CCONJ	CC	_	23	cc	_	start_char=4030|end_char=4033
 19-20	that's	_	_	_	_	_	_	_	start_char=4034|end_char=4040
@@ -1021,8 +1020,8 @@
 23	exchanger	exchanger	NOUN	NN	Number=Sing	7	conj	_	start_char=4048|end_char=4057
 24	to	to	ADP	IN	_	26	case	_	start_char=4058|end_char=4060
 25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	start_char=4061|end_char=4062
-26	gas	gas	NOUN	NN	Number=Sing	23	nmod	_	start_char=4063|end_char=4066|SpaceAfter=No
-27	.	.	PUNCT	.	_	7	punct	_	start_char=4066|end_char=4067|SpacesAfter=\n\n
+26	gas	gas	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No|start_char=4063|end_char=4066
+27	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=4066|end_char=4067
 
 # text = So going back to what I was saying before about all power being produced -- well, other than photovoltaic -- being produced by this boiling of steam and turning a turbine, that's actually not that efficient, and in fact, in a nuclear power plant like this, it's only roughly 30 to 35 percent efficient.
 # sent_id = 38
@@ -1041,7 +1040,7 @@
 13	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	14	aux:pass	_	start_char=4127|end_char=4132
 14	produced	produce	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	advcl	_	start_char=4133|end_char=4141
 15	--	--	PUNCT	,	_	18	punct	_	start_char=4142|end_char=4144
-16	well	well	INTJ	UH	_	18	discourse	_	start_char=4145|end_char=4149|SpaceAfter=No
+16	well	well	INTJ	UH	_	18	discourse	_	SpaceAfter=No|start_char=4145|end_char=4149
 17	,	,	PUNCT	,	_	16	punct	_	start_char=4149|end_char=4150
 18	other	other	ADJ	JJ	Degree=Pos	5	amod	_	start_char=4151|end_char=4156
 19	than	than	ADP	IN	_	20	case	_	start_char=4157|end_char=4161
@@ -1057,7 +1056,7 @@
 29	and	and	CCONJ	CC	_	30	cc	_	start_char=4218|end_char=4221
 30	turning	turn	VERB	VBG	Tense=Pres|VerbForm=Part	23	conj	_	start_char=4222|end_char=4229
 31	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	start_char=4230|end_char=4231
-32	turbine	turbine	NOUN	NN	Number=Sing	30	obj	_	start_char=4232|end_char=4239|SpaceAfter=No
+32	turbine	turbine	NOUN	NN	Number=Sing	30	obj	_	SpaceAfter=No|start_char=4232|end_char=4239
 33	,	,	PUNCT	,	_	39	punct	_	start_char=4239|end_char=4240
 34-35	that's	_	_	_	_	_	_	_	start_char=4241|end_char=4247
 34	that	that	PRON	WDT	PronType=Rel	39	nsubj	_	start_char=4241|end_char=4245
@@ -1065,11 +1064,11 @@
 36	actually	actually	ADV	RB	_	39	advmod	_	start_char=4248|end_char=4256
 37	not	not	PART	RB	Polarity=Neg	39	advmod	_	start_char=4257|end_char=4260
 38	that	that	ADV	RB	_	39	advmod	_	start_char=4261|end_char=4265
-39	efficient	efficient	ADJ	JJ	Degree=Pos	26	acl:relcl	_	start_char=4266|end_char=4275|SpaceAfter=No
+39	efficient	efficient	ADJ	JJ	Degree=Pos	26	acl:relcl	_	SpaceAfter=No|start_char=4266|end_char=4275
 40	,	,	PUNCT	,	_	41	punct	_	start_char=4275|end_char=4276
 41	and	and	CCONJ	CC	_	61	cc	_	start_char=4277|end_char=4280
 42	in	in	ADP	IN	_	43	case	_	start_char=4281|end_char=4283
-43	fact	fact	NOUN	NN	Number=Sing	61	obl	_	start_char=4284|end_char=4288|SpaceAfter=No
+43	fact	fact	NOUN	NN	Number=Sing	61	obl	_	SpaceAfter=No|start_char=4284|end_char=4288
 44	,	,	PUNCT	,	_	43	punct	_	start_char=4288|end_char=4289
 45	in	in	ADP	IN	_	49	case	_	start_char=4290|end_char=4292
 46	a	a	DET	DT	Definite=Ind|PronType=Art	49	det	_	start_char=4293|end_char=4294
@@ -1077,7 +1076,7 @@
 48	power	power	NOUN	NN	Number=Sing	49	compound	_	start_char=4303|end_char=4308
 49	plant	plant	NOUN	NN	Number=Sing	39	obl	_	start_char=4309|end_char=4314
 50	like	like	ADP	IN	_	51	case	_	start_char=4315|end_char=4319
-51	this	this	PRON	DT	Number=Sing|PronType=Dem	49	nmod	_	start_char=4320|end_char=4324|SpaceAfter=No
+51	this	this	PRON	DT	Number=Sing|PronType=Dem	49	nmod	_	SpaceAfter=No|start_char=4320|end_char=4324
 52	,	,	PUNCT	,	_	49	punct	_	start_char=4324|end_char=4325
 53-54	it's	_	_	_	_	_	_	_	start_char=4326|end_char=4330
 53	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	61	nsubj	_	start_char=4326|end_char=4328
@@ -1088,8 +1087,8 @@
 58	to	to	ADP	IN	_	59	case	_	start_char=4347|end_char=4349
 59	35	35	NUM	CD	NumForm=Digit|NumType=Card	57	nmod	_	start_char=4350|end_char=4352
 60	percent	percent	NOUN	NN	Number=Sing	61	obl:unmarked	_	start_char=4353|end_char=4360
-61	efficient	efficient	ADJ	JJ	Degree=Pos	0	root	_	start_char=4361|end_char=4370|SpaceAfter=No
-62	.	.	PUNCT	.	_	61	punct	_	start_char=4370|end_char=4371|SpacesAfter=\n\n
+61	efficient	efficient	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No|start_char=4361|end_char=4370
+62	.	.	PUNCT	.	_	61	punct	_	SpacesAfter=\n\n|start_char=4370|end_char=4371
 
 # text = That's how much thermal energy the reactor's putting out to how much electricity it's producing.
 # sent_id = 39
@@ -1113,8 +1112,8 @@
 16-17	it's	_	_	_	_	_	_	_	start_char=4454|end_char=4458
 16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	start_char=4454|end_char=4456
 17	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=4456|end_char=4458
-18	producing	produce	VERB	VBG	Tense=Pres|VerbForm=Part	10	advcl	_	start_char=4459|end_char=4468|SpaceAfter=No
-19	.	.	PUNCT	.	_	10	punct	_	start_char=4468|end_char=4469|SpacesAfter=\n\n
+18	producing	produce	VERB	VBG	Tense=Pres|VerbForm=Part	10	advcl	_	SpaceAfter=No|start_char=4459|end_char=4468
+19	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n|start_char=4468|end_char=4469
 
 # text = And the reason the efficiencies are so low is these reactors operate at pretty low temperature.
 # sent_id = 40
@@ -1133,26 +1132,26 @@
 13	at	at	ADP	IN	_	16	case	_	start_char=4540|end_char=4542
 14	pretty	pretty	ADV	RB	_	15	advmod	_	start_char=4543|end_char=4549
 15	low	low	ADJ	JJ	Degree=Pos	16	amod	_	start_char=4550|end_char=4553
-16	temperature	temperature	NOUN	NN	Number=Sing	12	obl	_	start_char=4554|end_char=4565|SpaceAfter=No
-17	.	.	PUNCT	.	_	12	punct	_	start_char=4565|end_char=4566|SpacesAfter=\n\n
+16	temperature	temperature	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No|start_char=4554|end_char=4565
+17	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n\n|start_char=4565|end_char=4566
 
 # text = They operate anywhere from, you know, maybe 200 to 300 degrees Celsius.
 # sent_id = 41
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=4568|end_char=4572
 2	operate	operate	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4573|end_char=4580
 3	anywhere	anywhere	ADV	RB	PronType=Ind	2	advmod	_	start_char=4581|end_char=4589
-4	from	from	ADP	IN	_	13	case	_	start_char=4590|end_char=4594|SpaceAfter=No
+4	from	from	ADP	IN	_	13	case	_	SpaceAfter=No|start_char=4590|end_char=4594
 5	,	,	PUNCT	,	_	4	punct	_	start_char=4594|end_char=4595
 6	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	start_char=4596|end_char=4599
-7	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=4600|end_char=4604|SpaceAfter=No
+7	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No|start_char=4600|end_char=4604
 8	,	,	PUNCT	,	_	7	punct	_	start_char=4604|end_char=4605
 9	maybe	maybe	ADV	RB	_	13	advmod	_	start_char=4606|end_char=4611
 10	200	200	NUM	CD	NumForm=Digit|NumType=Card	13	nummod	_	start_char=4612|end_char=4615
 11	to	to	ADP	IN	_	12	case	_	start_char=4616|end_char=4618
 12	300	300	NUM	CD	NumForm=Digit|NumType=Card	10	nmod	_	start_char=4619|end_char=4622
 13	degrees	degree	NOUN	NNS	Number=Plur	2	obl	_	start_char=4623|end_char=4630
-14	Celsius	Celsius	PROPN	NNP	Number=Sing	13	nmod:unmarked	_	start_char=4631|end_char=4638|SpaceAfter=No
-15	.	.	PUNCT	.	_	2	punct	_	start_char=4638|end_char=4639|SpacesAfter=\n\n
+14	Celsius	Celsius	PROPN	NNP	Number=Sing	13	nmod:unmarked	_	SpaceAfter=No|start_char=4631|end_char=4638
+15	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=4638|end_char=4639
 
 # text = And these reactors run at 600 to 700 degrees Celsius, which means the higher the temperature you go to, thermodynamics tells you that you will have higher efficiencies.
 # sent_id = 42
@@ -1165,7 +1164,7 @@
 7	to	to	ADP	IN	_	8	case	_	start_char=4671|end_char=4673
 8	700	700	NUM	CD	NumForm=Digit|NumType=Card	6	nmod	_	start_char=4674|end_char=4677
 9	degrees	degree	NOUN	NNS	Number=Plur	4	obl	_	start_char=4678|end_char=4685
-10	Celsius	Celsius	PROPN	NNP	Number=Sing	4	obl:unmarked	_	start_char=4686|end_char=4693|SpaceAfter=No
+10	Celsius	Celsius	PROPN	NNP	Number=Sing	4	obl:unmarked	_	SpaceAfter=No|start_char=4686|end_char=4693
 11	,	,	PUNCT	,	_	13	punct	_	start_char=4693|end_char=4694
 12	which	which	PRON	WDT	PronType=Rel	13	nsubj	_	start_char=4695|end_char=4700
 13	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	start_char=4701|end_char=4706
@@ -1175,7 +1174,7 @@
 17	temperature	temperature	NOUN	NN	Number=Sing	23	nsubj	_	start_char=4722|end_char=4733
 18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	start_char=4734|end_char=4737
 19	go	go	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	start_char=4738|end_char=4740
-20	to	to	ADP	IN	_	19	obl	_	start_char=4741|end_char=4743|SpaceAfter=No
+20	to	to	ADP	IN	_	19	obl	_	SpaceAfter=No|start_char=4741|end_char=4743
 21	,	,	PUNCT	,	_	17	punct	_	start_char=4743|end_char=4744
 22	thermodynamics	thermodynamic	NOUN	NN	Number=Sing	23	nsubj	_	start_char=4745|end_char=4759
 23	tells	tell	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=4760|end_char=4765
@@ -1185,8 +1184,8 @@
 27	will	will	AUX	MD	VerbForm=Fin	28	aux	_	start_char=4779|end_char=4783
 28	have	have	VERB	VB	VerbForm=Inf	23	ccomp	_	start_char=4784|end_char=4788
 29	higher	high	ADJ	JJR	Degree=Cmp	30	amod	_	start_char=4789|end_char=4795
-30	efficiencies	efficiency	NOUN	NNS	Number=Plur	28	obj	_	start_char=4796|end_char=4808|SpaceAfter=No
-31	.	.	PUNCT	.	_	4	punct	_	start_char=4808|end_char=4809|SpacesAfter=\n\n
+30	efficiencies	efficiency	NOUN	NNS	Number=Plur	28	obj	_	SpaceAfter=No|start_char=4796|end_char=4808
+31	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=4808|end_char=4809
 
 # text = And this reactor doesn't use water. It uses gas, so supercritical CO2 or helium, and that goes into a turbine, and this is called the Brayton cycle.
 # sent_id = 43
@@ -1197,24 +1196,24 @@
 4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=4828|end_char=4832
 5	n't	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=4832|end_char=4835
 6	use	use	VERB	VB	VerbForm=Inf	0	root	_	start_char=4836|end_char=4839
-7	water	water	NOUN	NN	Number=Sing	6	obj	_	start_char=4840|end_char=4845|SpaceAfter=No
+7	water	water	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No|start_char=4840|end_char=4845
 8	.	.	PUNCT	.	_	10	punct	_	start_char=4845|end_char=4846
 9	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=4847|end_char=4849
 10	uses	use	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	start_char=4850|end_char=4854
-11	gas	gas	NOUN	NN	Number=Sing	10	obj	_	start_char=4855|end_char=4858|SpaceAfter=No
+11	gas	gas	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No|start_char=4855|end_char=4858
 12	,	,	PUNCT	,	_	15	punct	_	start_char=4858|end_char=4859
 13	so	so	ADV	RB	_	15	advmod	_	start_char=4860|end_char=4862
 14	supercritical	supercritical	ADJ	JJ	Degree=Pos	15	amod	_	start_char=4863|end_char=4876
 15	CO2	CO2	NOUN	NN	Number=Sing	11	conj	_	start_char=4877|end_char=4880
 16	or	or	CCONJ	CC	_	17	cc	_	start_char=4881|end_char=4883
-17	helium	helium	NOUN	NN	Number=Sing	15	conj	_	start_char=4884|end_char=4890|SpaceAfter=No
+17	helium	helium	NOUN	NN	Number=Sing	15	conj	_	SpaceAfter=No|start_char=4884|end_char=4890
 18	,	,	PUNCT	,	_	21	punct	_	start_char=4890|end_char=4891
 19	and	and	CCONJ	CC	_	21	cc	_	start_char=4892|end_char=4895
 20	that	that	PRON	WDT	Number=Sing|PronType=Rel	21	nsubj	_	start_char=4896|end_char=4900
 21	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	start_char=4901|end_char=4905
 22	into	into	ADP	IN	_	24	case	_	start_char=4906|end_char=4910
 23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	start_char=4911|end_char=4912
-24	turbine	turbine	NOUN	NN	Number=Sing	21	obl	_	start_char=4913|end_char=4920|SpaceAfter=No
+24	turbine	turbine	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No|start_char=4913|end_char=4920
 25	,	,	PUNCT	,	_	29	punct	_	start_char=4920|end_char=4921
 26	and	and	CCONJ	CC	_	29	cc	_	start_char=4922|end_char=4925
 27	this	this	PRON	DT	Number=Sing|PronType=Dem	29	nsubj:pass	_	start_char=4926|end_char=4930
@@ -1222,8 +1221,8 @@
 29	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	conj	_	start_char=4934|end_char=4940
 30	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	start_char=4941|end_char=4944
 31	Brayton	Brayton	PROPN	NNP	Number=Sing	32	compound	_	start_char=4945|end_char=4952
-32	cycle	cycle	NOUN	NN	Number=Sing	29	xcomp	_	start_char=4953|end_char=4958|SpaceAfter=No
-33	.	.	PUNCT	.	_	6	punct	_	start_char=4958|end_char=4959|SpacesAfter=\n\n
+32	cycle	cycle	NOUN	NN	Number=Sing	29	xcomp	_	SpaceAfter=No|start_char=4953|end_char=4958
+33	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=4958|end_char=4959
 
 # text = This is the thermodynamic cycle that produces electricity, and this makes this almost 50 percent efficient, between 45 and 50 percent efficiency.
 # sent_id = 44
@@ -1234,7 +1233,7 @@
 5	cycle	cycle	NOUN	NN	Number=Sing	0	root	_	start_char=4987|end_char=4992
 6	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	start_char=4993|end_char=4997
 7	produces	produce	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	start_char=4998|end_char=5006
-8	electricity	electricity	NOUN	NN	Number=Sing	7	obj	_	start_char=5007|end_char=5018|SpaceAfter=No
+8	electricity	electricity	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No|start_char=5007|end_char=5018
 9	,	,	PUNCT	,	_	12	punct	_	start_char=5018|end_char=5019
 10	and	and	CCONJ	CC	_	12	cc	_	start_char=5020|end_char=5023
 11	this	this	PRON	DT	Number=Sing|PronType=Dem	12	nsubj	_	start_char=5024|end_char=5028
@@ -1243,15 +1242,15 @@
 14	almost	almost	ADV	RB	_	15	advmod	_	start_char=5040|end_char=5046
 15	50	50	NUM	CD	NumForm=Digit|NumType=Card	16	nummod	_	start_char=5047|end_char=5049
 16	percent	percent	NOUN	NN	Number=Sing	17	obl:unmarked	_	start_char=5050|end_char=5057
-17	efficient	efficient	ADJ	JJ	Degree=Pos	12	xcomp	_	start_char=5058|end_char=5067|SpaceAfter=No
+17	efficient	efficient	ADJ	JJ	Degree=Pos	12	xcomp	_	SpaceAfter=No|start_char=5058|end_char=5067
 18	,	,	PUNCT	,	_	24	punct	_	start_char=5067|end_char=5068
 19	between	between	ADP	IN	_	24	case	_	start_char=5069|end_char=5076
 20	45	45	NUM	CD	NumForm=Digit|NumType=Card	24	nummod	_	start_char=5077|end_char=5079
 21	and	and	CCONJ	CC	_	23	cc	_	start_char=5080|end_char=5083
 22	50	50	NUM	CD	NumForm=Digit|NumType=Card	20	conj	_	start_char=5084|end_char=5086
 23	percent	percent	NOUN	NN	Number=Sing	20	conj	_	start_char=5087|end_char=5094
-24	efficiency	efficiency	NOUN	NN	Number=Sing	17	obl	_	start_char=5095|end_char=5105|SpaceAfter=No
-25	.	.	PUNCT	.	_	5	punct	_	start_char=5105|end_char=5106|SpacesAfter=\n\n
+24	efficiency	efficiency	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No|start_char=5095|end_char=5105
+25	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=5105|end_char=5106
 
 # text = And I'm really excited about this, because it's a very compact core.
 # sent_id = 45
@@ -1262,7 +1261,7 @@
 4	really	really	ADV	RB	_	5	advmod	_	start_char=5116|end_char=5122
 5	excited	excited	ADJ	JJ	Degree=Pos	0	root	_	start_char=5123|end_char=5130
 6	about	about	ADP	IN	_	7	case	_	start_char=5131|end_char=5136
-7	this	this	PRON	DT	Number=Sing|PronType=Dem	5	obl	_	start_char=5137|end_char=5141|SpaceAfter=No
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	5	obl	_	SpaceAfter=No|start_char=5137|end_char=5141
 8	,	,	PUNCT	,	_	15	punct	_	start_char=5141|end_char=5142
 9	because	because	SCONJ	IN	_	15	mark	_	start_char=5143|end_char=5150
 10-11	it's	_	_	_	_	_	_	_	start_char=5151|end_char=5155
@@ -1271,8 +1270,8 @@
 12	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=5156|end_char=5157
 13	very	very	ADV	RB	_	14	advmod	_	start_char=5158|end_char=5162
 14	compact	compact	ADJ	JJ	Degree=Pos	15	amod	_	start_char=5163|end_char=5170
-15	core	core	NOUN	NN	Number=Sing	5	advcl	_	start_char=5171|end_char=5175|SpaceAfter=No
-16	.	.	PUNCT	.	_	5	punct	_	start_char=5175|end_char=5176|SpacesAfter=\n\n
+15	core	core	NOUN	NN	Number=Sing	5	advcl	_	SpaceAfter=No|start_char=5171|end_char=5175
+16	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=5175|end_char=5176
 
 # text = Molten salt reactors are very compact by nature, but what's also great is you get a lot more electricity out for how much uranium you're fissioning, not to mention the fact that these burn up.
 # sent_id = 46
@@ -1283,7 +1282,7 @@
 5	very	very	ADV	RB	_	6	advmod	_	start_char=5203|end_char=5207
 6	compact	compact	ADJ	JJ	Degree=Pos	0	root	_	start_char=5208|end_char=5215
 7	by	by	ADP	IN	_	8	case	_	start_char=5216|end_char=5218
-8	nature	nature	NOUN	NN	Number=Sing	6	obl	_	start_char=5219|end_char=5225|SpaceAfter=No
+8	nature	nature	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No|start_char=5219|end_char=5225
 9	,	,	PUNCT	,	_	17	punct	_	start_char=5225|end_char=5226
 10	but	but	CCONJ	CC	_	17	cc	_	start_char=5227|end_char=5230
 11-12	what's	_	_	_	_	_	_	_	start_char=5231|end_char=5237
@@ -1306,7 +1305,7 @@
 27-28	you're	_	_	_	_	_	_	_	start_char=5308|end_char=5314
 27	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	29	nsubj	_	start_char=5308|end_char=5311
 28	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	29	aux	_	start_char=5311|end_char=5314
-29	fissioning	fission	VERB	VBG	Tense=Pres|VerbForm=Part	21	acl	_	start_char=5315|end_char=5325|SpaceAfter=No
+29	fissioning	fission	VERB	VBG	Tense=Pres|VerbForm=Part	21	acl	_	SpaceAfter=No|start_char=5315|end_char=5325
 30	,	,	PUNCT	,	_	35	punct	_	start_char=5325|end_char=5326
 31	not	not	PART	RB	Polarity=Neg	35	cc	_	start_char=5327|end_char=5330
 32	to	to	PART	TO	_	31	fixed	_	start_char=5331|end_char=5333
@@ -1316,19 +1315,19 @@
 36	that	that	SCONJ	IN	_	38	mark	_	start_char=5351|end_char=5355
 37	these	this	PRON	DT	Number=Plur|PronType=Dem	38	nsubj	_	start_char=5356|end_char=5361
 38	burn	burn	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	acl	_	start_char=5362|end_char=5366
-39	up	up	ADP	RP	_	38	compound:prt	_	start_char=5367|end_char=5369|SpaceAfter=No
-40	.	.	PUNCT	.	_	6	punct	_	start_char=5369|end_char=5370|SpacesAfter=\n\n
+39	up	up	ADP	RP	_	38	compound:prt	_	SpaceAfter=No|start_char=5367|end_char=5369
+40	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=5369|end_char=5370
 
 # text = Their burn-up is much higher.
 # sent_id = 47
 1	Their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=5372|end_char=5377
-2	burn	burn	NOUN	NN	Number=Sing	4	compound	_	start_char=5378|end_char=5382|SpaceAfter=No
-3	-	-	PUNCT	HYPH	_	2	punct	_	start_char=5382|end_char=5383|SpaceAfter=No
+2	burn	burn	NOUN	NN	Number=Sing	4	compound	_	SpaceAfter=No|start_char=5378|end_char=5382
+3	-	-	PUNCT	HYPH	_	2	punct	_	SpaceAfter=No|start_char=5382|end_char=5383
 4	up	up	NOUN	NN	Number=Sing	7	nsubj	_	start_char=5383|end_char=5385
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=5386|end_char=5388
 6	much	much	ADV	RB	_	7	advmod	_	start_char=5389|end_char=5393
-7	higher	high	ADJ	JJR	Degree=Cmp	0	root	_	start_char=5394|end_char=5400|SpaceAfter=No
-8	.	.	PUNCT	.	_	7	punct	_	start_char=5400|end_char=5401|SpacesAfter=\n\n
+7	higher	high	ADJ	JJR	Degree=Cmp	0	root	_	SpaceAfter=No|start_char=5394|end_char=5400
+8	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=5400|end_char=5401
 
 # text = So for a given amount of fuel you put in the reactor, a lot more of it's being used.
 # sent_id = 48
@@ -1343,7 +1342,7 @@
 9	put	put	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	7	acl:relcl	_	start_char=5437|end_char=5440
 10	in	in	ADP	IN	_	12	case	_	start_char=5441|end_char=5443
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=5444|end_char=5447
-12	reactor	reactor	NOUN	NN	Number=Sing	9	obl	_	start_char=5448|end_char=5455|SpaceAfter=No
+12	reactor	reactor	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No|start_char=5448|end_char=5455
 13	,	,	PUNCT	,	_	5	punct	_	start_char=5455|end_char=5456
 14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=5457|end_char=5458
 15	lot	lot	NOUN	NN	Number=Sing	16	obl:unmarked	_	start_char=5459|end_char=5462
@@ -1353,8 +1352,8 @@
 18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obl	_	start_char=5471|end_char=5473
 19	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	start_char=5473|end_char=5475
 20	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	21	aux:pass	_	start_char=5476|end_char=5481
-21	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=5482|end_char=5486|SpaceAfter=No
-22	.	.	PUNCT	.	_	21	punct	_	start_char=5486|end_char=5487|SpacesAfter=\n\n
+21	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|start_char=5482|end_char=5486
+22	.	.	PUNCT	.	_	21	punct	_	SpacesAfter=\n\n|start_char=5486|end_char=5487
 
 # text = And the problem with a traditional nuclear power plant like this is, you've got these rods that are clad in zirconium, and inside them are uranium dioxide fuel pellets.
 # sent_id = 49
@@ -1369,7 +1368,7 @@
 9	plant	plant	NOUN	NN	Number=Sing	3	nmod	_	start_char=5538|end_char=5543
 10	like	like	ADP	IN	_	11	case	_	start_char=5544|end_char=5548
 11	this	this	PRON	DT	Number=Sing|PronType=Dem	9	nmod	_	start_char=5549|end_char=5553
-12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=5554|end_char=5556|SpaceAfter=No
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	SpaceAfter=No|start_char=5554|end_char=5556
 13	,	,	PUNCT	,	_	12	punct	_	start_char=5556|end_char=5557
 14-15	you've	_	_	_	_	_	_	_	start_char=5558|end_char=5564
 14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	start_char=5558|end_char=5561
@@ -1381,7 +1380,7 @@
 20	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	start_char=5585|end_char=5588
 21	clad	clad	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	acl:relcl	_	start_char=5589|end_char=5593
 22	in	in	ADP	IN	_	23	case	_	start_char=5594|end_char=5596
-23	zirconium	zirconium	NOUN	NN	Number=Sing	21	obl	_	start_char=5597|end_char=5606|SpaceAfter=No
+23	zirconium	zirconium	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No|start_char=5597|end_char=5606
 24	,	,	PUNCT	,	_	32	punct	_	start_char=5606|end_char=5607
 25	and	and	CCONJ	CC	_	32	cc	_	start_char=5608|end_char=5611
 26	inside	inside	ADP	IN	_	27	case	_	start_char=5612|end_char=5618
@@ -1390,19 +1389,19 @@
 29	uranium	uranium	NOUN	NN	Number=Sing	30	compound	_	start_char=5628|end_char=5635
 30	dioxide	dioxide	NOUN	NN	Number=Sing	32	compound	_	start_char=5636|end_char=5643
 31	fuel	fuel	NOUN	NN	Number=Sing	32	compound	_	start_char=5644|end_char=5648
-32	pellets	pellet	NOUN	NNS	Number=Plur	16	conj	_	start_char=5649|end_char=5656|SpaceAfter=No
-33	.	.	PUNCT	.	_	16	punct	_	start_char=5656|end_char=5657|SpacesAfter=\n\n
+32	pellets	pellet	NOUN	NNS	Number=Plur	16	conj	_	SpaceAfter=No|start_char=5649|end_char=5656
+33	.	.	PUNCT	.	_	16	punct	_	SpacesAfter=\n\n|start_char=5656|end_char=5657
 
 # text = Well, uranium dioxide's a ceramic, and ceramic doesn't like releasing what's inside of it.
 # sent_id = 50
-1	Well	well	INTJ	UH	_	7	discourse	_	start_char=5659|end_char=5663|SpaceAfter=No
+1	Well	well	INTJ	UH	_	7	discourse	_	SpaceAfter=No|start_char=5659|end_char=5663
 2	,	,	PUNCT	,	_	1	punct	_	start_char=5663|end_char=5664
 3	uranium	uranium	NOUN	NN	Number=Sing	4	compound	_	start_char=5665|end_char=5672
 4-5	dioxide's	_	_	_	_	_	_	_	start_char=5673|end_char=5682
 4	dioxide	dioxide	NOUN	NN	Number=Sing	7	nsubj	_	start_char=5673|end_char=5680
 5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=5680|end_char=5682
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=5683|end_char=5684
-7	ceramic	ceramic	NOUN	NN	Number=Sing	0	root	_	start_char=5685|end_char=5692|SpaceAfter=No
+7	ceramic	ceramic	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=5685|end_char=5692
 8	,	,	PUNCT	,	_	13	punct	_	start_char=5692|end_char=5693
 9	and	and	CCONJ	CC	_	13	cc	_	start_char=5694|end_char=5697
 10	ceramic	ceramic	NOUN	NN	Number=Sing	13	nsubj	_	start_char=5698|end_char=5705
@@ -1416,8 +1415,8 @@
 16	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=5733|end_char=5735
 17	inside	inside	ADP	IN	_	15	acl:relcl	_	start_char=5736|end_char=5742
 18	of	of	ADP	IN	_	19	case	_	start_char=5743|end_char=5745
-19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obl	_	start_char=5746|end_char=5748|SpaceAfter=No
-20	.	.	PUNCT	.	_	7	punct	_	start_char=5748|end_char=5749|SpacesAfter=\n\n
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obl	_	SpaceAfter=No|start_char=5746|end_char=5748
+20	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=5748|end_char=5749
 
 # text = So you have what's called the xenon pit, and so some of these fission products love neutrons.
 # sent_id = 51
@@ -1430,7 +1429,7 @@
 6	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl:relcl	_	start_char=5770|end_char=5776
 7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=5777|end_char=5780
 8	xenon	xenon	NOUN	NN	Number=Sing	9	compound	_	start_char=5781|end_char=5786
-9	pit	pit	NOUN	NN	Number=Sing	6	xcomp	_	start_char=5787|end_char=5790|SpaceAfter=No
+9	pit	pit	NOUN	NN	Number=Sing	6	xcomp	_	SpaceAfter=No|start_char=5787|end_char=5790
 10	,	,	PUNCT	,	_	18	punct	_	start_char=5790|end_char=5791
 11	and	and	CCONJ	CC	_	18	cc	_	start_char=5792|end_char=5795
 12	so	so	ADV	RB	_	18	advmod	_	start_char=5796|end_char=5798
@@ -1440,8 +1439,8 @@
 16	fission	fission	NOUN	NN	Number=Sing	17	compound	_	start_char=5813|end_char=5820
 17	products	product	NOUN	NNS	Number=Plur	13	nmod	_	start_char=5821|end_char=5829
 18	love	love	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=5830|end_char=5834
-19	neutrons	neutron	NOUN	NNS	Number=Plur	18	obj	_	start_char=5835|end_char=5843|SpaceAfter=No
-20	.	.	PUNCT	.	_	3	punct	_	start_char=5843|end_char=5844|SpacesAfter=\n\n
+19	neutrons	neutron	NOUN	NNS	Number=Plur	18	obj	_	SpaceAfter=No|start_char=5835|end_char=5843
+20	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=5843|end_char=5844
 
 # text = They love the neutrons that are going on and helping this reaction take place.
 # sent_id = 52
@@ -1458,8 +1457,8 @@
 11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	start_char=5899|end_char=5903
 12	reaction	reaction	NOUN	NN	Number=Sing	10	obj	_	start_char=5904|end_char=5912
 13	take	take	VERB	VB	VerbForm=Inf	10	xcomp	_	start_char=5913|end_char=5917
-14	place	place	NOUN	NN	Number=Sing	13	obj	_	start_char=5918|end_char=5923|SpaceAfter=No
-15	.	.	PUNCT	.	_	2	punct	_	start_char=5923|end_char=5924|SpacesAfter=\n\n
+14	place	place	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No|start_char=5918|end_char=5923
+15	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=5923|end_char=5924
 
 # text = And they eat them up, which means that, combined with the fact that the cladding doesn't last very long, you can only run one of these reactors for roughly, say, 18 months without refueling it.
 # sent_id = 53
@@ -1467,11 +1466,11 @@
 2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=5930|end_char=5934
 3	eat	eat	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5935|end_char=5938
 4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	_	start_char=5939|end_char=5943
-5	up	up	ADP	RP	_	3	compound:prt	_	start_char=5944|end_char=5946|SpaceAfter=No
+5	up	up	ADP	RP	_	3	compound:prt	_	SpaceAfter=No|start_char=5944|end_char=5946
 6	,	,	PUNCT	,	_	8	punct	_	start_char=5946|end_char=5947
 7	which	which	PRON	WDT	PronType=Rel	8	nsubj	_	start_char=5948|end_char=5953
 8	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl:relcl	_	start_char=5954|end_char=5959
-9	that	that	SCONJ	IN	_	27	mark	_	start_char=5960|end_char=5964|SpaceAfter=No
+9	that	that	SCONJ	IN	_	27	mark	_	SpaceAfter=No|start_char=5960|end_char=5964
 10	,	,	PUNCT	,	_	9	punct	_	start_char=5964|end_char=5965
 11	combined	combine	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	27	advcl	_	start_char=5966|end_char=5974
 12	with	with	ADP	IN	_	14	case	_	start_char=5975|end_char=5979
@@ -1485,7 +1484,7 @@
 19	n't	not	PART	RB	Polarity=Neg	20	advmod	_	start_char=6011|end_char=6014
 20	last	last	VERB	VB	VerbForm=Inf	14	acl	_	start_char=6015|end_char=6019
 21	very	very	ADV	RB	_	22	advmod	_	start_char=6020|end_char=6024
-22	long	long	ADV	RB	Degree=Pos	20	advmod	_	start_char=6025|end_char=6029|SpaceAfter=No
+22	long	long	ADV	RB	Degree=Pos	20	advmod	_	SpaceAfter=No|start_char=6025|end_char=6029
 23	,	,	PUNCT	,	_	11	punct	_	start_char=6029|end_char=6030
 24	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	27	nsubj	_	start_char=6031|end_char=6034
 25	can	can	AUX	MD	VerbForm=Fin	27	aux	_	start_char=6035|end_char=6038
@@ -1496,16 +1495,16 @@
 30	these	this	DET	DT	Number=Plur|PronType=Dem	31	det	_	start_char=6055|end_char=6060
 31	reactors	reactor	NOUN	NNS	Number=Plur	28	nmod	_	start_char=6061|end_char=6069
 32	for	for	ADP	IN	_	38	case	_	start_char=6070|end_char=6073
-33	roughly	roughly	ADV	RB	_	38	advmod	_	start_char=6074|end_char=6081|SpaceAfter=No
+33	roughly	roughly	ADV	RB	_	38	advmod	_	SpaceAfter=No|start_char=6074|end_char=6081
 34	,	,	PUNCT	,	_	33	punct	_	start_char=6081|end_char=6082
-35	say	say	INTJ	UH	_	38	discourse	_	start_char=6083|end_char=6086|SpaceAfter=No
+35	say	say	INTJ	UH	_	38	discourse	_	SpaceAfter=No|start_char=6083|end_char=6086
 36	,	,	PUNCT	,	_	35	punct	_	start_char=6086|end_char=6087
 37	18	18	NUM	CD	NumForm=Digit|NumType=Card	38	nummod	_	start_char=6088|end_char=6090
 38	months	month	NOUN	NNS	Number=Plur	27	obl	_	start_char=6091|end_char=6097
 39	without	without	SCONJ	IN	_	40	mark	_	start_char=6098|end_char=6105
 40	refueling	refuel	VERB	VBG	Tense=Pres|VerbForm=Part	27	advcl	_	start_char=6106|end_char=6115
-41	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	40	obj	_	start_char=6116|end_char=6118|SpaceAfter=No
-42	.	.	PUNCT	.	_	3	punct	_	start_char=6118|end_char=6119|SpacesAfter=\n\n
+41	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	40	obj	_	SpaceAfter=No|start_char=6116|end_char=6118
+42	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=6118|end_char=6119
 
 # text = So these reactors run for 30 years without refueling, which is, in my opinion, very, very amazing, because it means it's a sealed system.
 # sent_id = 54
@@ -1517,19 +1516,19 @@
 6	30	30	NUM	CD	NumForm=Digit|NumType=Card	7	nummod	_	start_char=6147|end_char=6149
 7	years	year	NOUN	NNS	Number=Plur	4	obl	_	start_char=6150|end_char=6155
 8	without	without	ADP	IN	_	9	case	_	start_char=6156|end_char=6163
-9	refueling	refueling	NOUN	NN	Number=Sing	4	obl	_	start_char=6164|end_char=6173|SpaceAfter=No
+9	refueling	refueling	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No|start_char=6164|end_char=6173
 10	,	,	PUNCT	,	_	21	punct	_	start_char=6173|end_char=6174
 11	which	which	PRON	WDT	PronType=Rel	21	nsubj	_	start_char=6175|end_char=6180
-12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	start_char=6181|end_char=6183|SpaceAfter=No
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	SpaceAfter=No|start_char=6181|end_char=6183
 13	,	,	PUNCT	,	_	12	punct	_	start_char=6183|end_char=6184
 14	in	in	ADP	IN	_	16	case	_	start_char=6185|end_char=6187
 15	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=6188|end_char=6190
-16	opinion	opinion	NOUN	NN	Number=Sing	21	obl	_	start_char=6191|end_char=6198|SpaceAfter=No
+16	opinion	opinion	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No|start_char=6191|end_char=6198
 17	,	,	PUNCT	,	_	16	punct	_	start_char=6198|end_char=6199
-18	very	very	ADV	RB	_	21	advmod	_	start_char=6200|end_char=6204|SpaceAfter=No
+18	very	very	ADV	RB	_	21	advmod	_	SpaceAfter=No|start_char=6200|end_char=6204
 19	,	,	PUNCT	,	_	18	punct	_	start_char=6204|end_char=6205
 20	very	very	ADV	RB	_	21	advmod	_	start_char=6206|end_char=6210
-21	amazing	amazing	ADJ	JJ	Degree=Pos	9	acl:relcl	_	start_char=6211|end_char=6218|SpaceAfter=No
+21	amazing	amazing	ADJ	JJ	Degree=Pos	9	acl:relcl	_	SpaceAfter=No|start_char=6211|end_char=6218
 22	,	,	PUNCT	,	_	25	punct	_	start_char=6218|end_char=6219
 23	because	because	SCONJ	IN	_	25	mark	_	start_char=6220|end_char=6227
 24	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	start_char=6228|end_char=6230
@@ -1539,8 +1538,8 @@
 27	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	start_char=6239|end_char=6241
 28	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	start_char=6242|end_char=6243
 29	sealed	seal	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	30	amod	_	start_char=6244|end_char=6250
-30	system	system	NOUN	NN	Number=Sing	25	ccomp	_	start_char=6251|end_char=6257|SpaceAfter=No
-31	.	.	PUNCT	.	_	4	punct	_	start_char=6257|end_char=6258|SpacesAfter=\n\n
+30	system	system	NOUN	NN	Number=Sing	25	ccomp	_	SpaceAfter=No|start_char=6251|end_char=6257
+31	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=6257|end_char=6258
 
 # text = No refueling means you can seal them up and they're not going to be a proliferation risk, and they're not going to have either nuclear material or radiological material proliferated from their cores.
 # sent_id = 55
@@ -1562,7 +1561,7 @@
 15	be	be	AUX	VB	VerbForm=Inf	18	cop	_	start_char=6325|end_char=6327
 16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	start_char=6328|end_char=6329
 17	proliferation	proliferation	NOUN	NN	Number=Sing	18	compound	_	start_char=6330|end_char=6343
-18	risk	risk	NOUN	NN	Number=Sing	13	xcomp	_	start_char=6344|end_char=6348|SpaceAfter=No
+18	risk	risk	NOUN	NN	Number=Sing	13	xcomp	_	SpaceAfter=No|start_char=6344|end_char=6348
 19	,	,	PUNCT	,	_	24	punct	_	start_char=6348|end_char=6349
 20	and	and	CCONJ	CC	_	24	cc	_	start_char=6350|end_char=6353
 21-22	they're	_	_	_	_	_	_	_	start_char=6354|end_char=6361
@@ -1581,8 +1580,8 @@
 33	proliferated	proliferate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	29	acl	_	start_char=6429|end_char=6441
 34	from	from	ADP	IN	_	36	case	_	start_char=6442|end_char=6446
 35	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	36	nmod:poss	_	start_char=6447|end_char=6452
-36	cores	core	NOUN	NNS	Number=Plur	33	obl	_	start_char=6453|end_char=6458|SpaceAfter=No
-37	.	.	PUNCT	.	_	3	punct	_	start_char=6458|end_char=6459|SpacesAfter=\n\n
+36	cores	core	NOUN	NNS	Number=Plur	33	obl	_	SpaceAfter=No|start_char=6453|end_char=6458
+37	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=6458|end_char=6459
 
 # text = But let's go back to safety, because everybody after Fukushima had to reassess the safety of nuclear, and one of the things when I set out to design a power reactor was it had to be passively and intrinsically safe, and I'm really excited about this reactor for essentially two reasons.
 # sent_id = 56
@@ -1593,7 +1592,7 @@
 4	go	go	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=6471|end_char=6473
 5	back	back	ADV	RB	_	4	advmod	_	start_char=6474|end_char=6478
 6	to	to	ADP	IN	_	7	case	_	start_char=6479|end_char=6481
-7	safety	safety	NOUN	NN	Number=Sing	4	obl	_	start_char=6482|end_char=6488|SpaceAfter=No
+7	safety	safety	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No|start_char=6482|end_char=6488
 8	,	,	PUNCT	,	_	13	punct	_	start_char=6488|end_char=6489
 9	because	because	SCONJ	IN	_	13	mark	_	start_char=6490|end_char=6497
 10	everybody	everybody	PRON	NN	Number=Sing|PronType=Tot	13	nsubj	_	start_char=6498|end_char=6507
@@ -1605,7 +1604,7 @@
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=6540|end_char=6543
 17	safety	safety	NOUN	NN	Number=Sing	15	obj	_	start_char=6544|end_char=6550
 18	of	of	ADP	IN	_	19	case	_	start_char=6551|end_char=6553
-19	nuclear	nuclear	ADJ	JJ	Degree=Pos	17	nmod	_	start_char=6554|end_char=6561|SpaceAfter=No
+19	nuclear	nuclear	ADJ	JJ	Degree=Pos	17	nmod	_	SpaceAfter=No|start_char=6554|end_char=6561
 20	,	,	PUNCT	,	_	37	punct	_	start_char=6561|end_char=6562
 21	and	and	CCONJ	CC	_	37	cc	_	start_char=6563|end_char=6566
 22	one	one	NUM	CD	NumForm=Word|NumType=Card	37	nsubj:outer	_	start_char=6567|end_char=6570
@@ -1629,7 +1628,7 @@
 40	passively	passively	ADV	RB	_	43	advmod	_	start_char=6643|end_char=6652
 41	and	and	CCONJ	CC	_	42	cc	_	start_char=6653|end_char=6656
 42	intrinsically	intrinsically	ADV	RB	_	40	conj	_	start_char=6657|end_char=6670
-43	safe	safe	ADJ	JJ	Degree=Pos	37	xcomp	_	start_char=6671|end_char=6675|SpaceAfter=No
+43	safe	safe	ADJ	JJ	Degree=Pos	37	xcomp	_	SpaceAfter=No|start_char=6671|end_char=6675
 44	,	,	PUNCT	,	_	49	punct	_	start_char=6675|end_char=6676
 45	and	and	CCONJ	CC	_	49	cc	_	start_char=6677|end_char=6680
 46-47	I'm	_	_	_	_	_	_	_	start_char=6681|end_char=6684
@@ -1643,12 +1642,12 @@
 53	for	for	ADP	IN	_	56	case	_	start_char=6719|end_char=6722
 54	essentially	essentially	ADV	RB	_	55	advmod	_	start_char=6723|end_char=6734
 55	two	two	NUM	CD	NumForm=Word|NumType=Card	56	nummod	_	start_char=6735|end_char=6738
-56	reasons	reason	NOUN	NNS	Number=Plur	49	obl	_	start_char=6739|end_char=6746|SpaceAfter=No
-57	.	.	PUNCT	.	_	2	punct	_	start_char=6746|end_char=6747|SpacesAfter=\n\n
+56	reasons	reason	NOUN	NNS	Number=Plur	49	obl	_	SpaceAfter=No|start_char=6739|end_char=6746
+57	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=6746|end_char=6747
 
 # text = One, it doesn't operate at high pressure.
 # sent_id = 57
-1	One	one	NUM	CD	NumForm=Word|NumType=Card	6	discourse	_	start_char=6749|end_char=6752|SpaceAfter=No
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	6	discourse	_	SpaceAfter=No|start_char=6749|end_char=6752
 2	,	,	PUNCT	,	_	1	punct	_	start_char=6752|end_char=6753
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=6754|end_char=6756
 4-5	doesn't	_	_	_	_	_	_	_	start_char=6757|end_char=6764
@@ -1657,8 +1656,8 @@
 6	operate	operate	VERB	VB	VerbForm=Inf	0	root	_	start_char=6765|end_char=6772
 7	at	at	ADP	IN	_	9	case	_	start_char=6773|end_char=6775
 8	high	high	ADJ	JJ	Degree=Pos	9	amod	_	start_char=6776|end_char=6780
-9	pressure	pressure	NOUN	NN	Number=Sing	6	obl	_	start_char=6781|end_char=6789|SpaceAfter=No
-10	.	.	PUNCT	.	_	6	punct	_	start_char=6789|end_char=6790|SpacesAfter=\n\n
+9	pressure	pressure	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No|start_char=6781|end_char=6789
+10	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=6789|end_char=6790
 
 # text = So traditional reactors like a pressurized water reactor or boiling water reactor, they're very, very hot water at very high pressures, and this means, essentially, in the event of an accident, if you had any kind of breach of this stainless steel pressure vessel, the coolant would leave the core.
 # sent_id = 58
@@ -1673,12 +1672,12 @@
 9	or	or	CCONJ	CC	_	12	cc	_	start_char=6849|end_char=6851
 10	boiling	boil	NOUN	NN	Number=Sing	11	compound	_	start_char=6852|end_char=6859
 11	water	water	NOUN	NN	Number=Sing	12	compound	_	start_char=6860|end_char=6865
-12	reactor	reactor	NOUN	NN	Number=Sing	8	conj	_	start_char=6866|end_char=6873|SpaceAfter=No
+12	reactor	reactor	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No|start_char=6866|end_char=6873
 13	,	,	PUNCT	,	_	3	punct	_	start_char=6873|end_char=6874
 14-15	they're	_	_	_	_	_	_	_	start_char=6875|end_char=6882
 14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	start_char=6875|end_char=6879
 15	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	start_char=6879|end_char=6882
-16	very	very	ADV	RB	_	19	advmod	_	start_char=6883|end_char=6887|SpaceAfter=No
+16	very	very	ADV	RB	_	19	advmod	_	SpaceAfter=No|start_char=6883|end_char=6887
 17	,	,	PUNCT	,	_	16	punct	_	start_char=6887|end_char=6888
 18	very	very	ADV	RB	_	19	advmod	_	start_char=6889|end_char=6893
 19	hot	hot	ADJ	JJ	Degree=Pos	20	amod	_	start_char=6894|end_char=6897
@@ -1686,20 +1685,20 @@
 21	at	at	ADP	IN	_	24	case	_	start_char=6904|end_char=6906
 22	very	very	ADV	RB	_	23	advmod	_	start_char=6907|end_char=6911
 23	high	high	ADJ	JJ	Degree=Pos	24	amod	_	start_char=6912|end_char=6916
-24	pressures	pressure	NOUN	NNS	Number=Plur	20	nmod	_	start_char=6917|end_char=6926|SpaceAfter=No
+24	pressures	pressure	NOUN	NNS	Number=Plur	20	nmod	_	SpaceAfter=No|start_char=6917|end_char=6926
 25	,	,	PUNCT	,	_	28	punct	_	start_char=6926|end_char=6927
 26	and	and	CCONJ	CC	_	28	cc	_	start_char=6928|end_char=6931
 27	this	this	PRON	DT	Number=Sing|PronType=Dem	28	nsubj	_	start_char=6932|end_char=6936
-28	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	start_char=6937|end_char=6942|SpaceAfter=No
+28	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	SpaceAfter=No|start_char=6937|end_char=6942
 29	,	,	PUNCT	,	_	30	punct	_	start_char=6942|end_char=6943
-30	essentially	essentially	ADV	RB	_	56	advmod	_	start_char=6944|end_char=6955|SpaceAfter=No
+30	essentially	essentially	ADV	RB	_	56	advmod	_	SpaceAfter=No|start_char=6944|end_char=6955
 31	,	,	PUNCT	,	_	30	punct	_	start_char=6955|end_char=6956
 32	in	in	ADP	IN	_	34	case	_	start_char=6957|end_char=6959
 33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	start_char=6960|end_char=6963
 34	event	event	NOUN	NN	Number=Sing	56	obl	_	start_char=6964|end_char=6969
 35	of	of	ADP	IN	_	37	case	_	start_char=6970|end_char=6972
 36	an	a	DET	DT	Definite=Ind|PronType=Art	37	det	_	start_char=6973|end_char=6975
-37	accident	accident	NOUN	NN	Number=Sing	34	nmod	_	start_char=6976|end_char=6984|SpaceAfter=No
+37	accident	accident	NOUN	NN	Number=Sing	34	nmod	_	SpaceAfter=No|start_char=6976|end_char=6984
 38	,	,	PUNCT	,	_	56	punct	_	start_char=6984|end_char=6985
 39	if	if	SCONJ	IN	_	41	mark	_	start_char=6986|end_char=6988
 40	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	41	nsubj	_	start_char=6989|end_char=6992
@@ -1713,15 +1712,15 @@
 48	stainless	stainless	ADJ	JJ	Degree=Pos	51	amod	_	start_char=7024|end_char=7033
 49	steel	steel	NOUN	NN	Number=Sing	50	compound	_	start_char=7034|end_char=7039
 50	pressure	pressure	NOUN	NN	Number=Sing	51	compound	_	start_char=7040|end_char=7048
-51	vessel	vessel	NOUN	NN	Number=Sing	45	nmod	_	start_char=7049|end_char=7055|SpaceAfter=No
+51	vessel	vessel	NOUN	NN	Number=Sing	45	nmod	_	SpaceAfter=No|start_char=7049|end_char=7055
 52	,	,	PUNCT	,	_	41	punct	_	start_char=7055|end_char=7056
 53	the	the	DET	DT	Definite=Def|PronType=Art	54	det	_	start_char=7057|end_char=7060
 54	coolant	coolant	NOUN	NN	Number=Sing	56	nsubj	_	start_char=7061|end_char=7068
 55	would	would	AUX	MD	VerbForm=Fin	56	aux	_	start_char=7069|end_char=7074
 56	leave	leave	VERB	VB	VerbForm=Inf	28	ccomp	_	start_char=7075|end_char=7080
 57	the	the	DET	DT	Definite=Def|PronType=Art	58	det	_	start_char=7081|end_char=7084
-58	core	core	NOUN	NN	Number=Sing	56	obj	_	start_char=7085|end_char=7089|SpaceAfter=No
-59	.	.	PUNCT	.	_	20	punct	_	start_char=7089|end_char=7090|SpacesAfter=\n\n
+58	core	core	NOUN	NN	Number=Sing	56	obj	_	SpaceAfter=No|start_char=7085|end_char=7089
+59	.	.	PUNCT	.	_	20	punct	_	SpacesAfter=\n\n|start_char=7089|end_char=7090
 
 # text = These reactors operate at essentially atmospheric pressure, so there's no inclination for the fission products to leave the reactor in the event of an accident.
 # sent_id = 59
@@ -1731,7 +1730,7 @@
 4	at	at	ADP	IN	_	7	case	_	start_char=7115|end_char=7117
 5	essentially	essentially	ADV	RB	_	6	advmod	_	start_char=7118|end_char=7129
 6	atmospheric	atmospheric	ADJ	JJ	Degree=Pos	7	amod	_	start_char=7130|end_char=7141
-7	pressure	pressure	NOUN	NN	Number=Sing	3	obl	_	start_char=7142|end_char=7150|SpaceAfter=No
+7	pressure	pressure	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No|start_char=7142|end_char=7150
 8	,	,	PUNCT	,	_	11	punct	_	start_char=7150|end_char=7151
 9	so	so	ADV	RB	_	11	advmod	_	start_char=7152|end_char=7154
 10-11	there's	_	_	_	_	_	_	_	start_char=7155|end_char=7162
@@ -1752,24 +1751,24 @@
 24	event	event	NOUN	NN	Number=Sing	19	obl	_	start_char=7231|end_char=7236
 25	of	of	ADP	IN	_	27	case	_	start_char=7237|end_char=7239
 26	an	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	start_char=7240|end_char=7242
-27	accident	accident	NOUN	NN	Number=Sing	24	nmod	_	start_char=7243|end_char=7251|SpaceAfter=No
-28	.	.	PUNCT	.	_	3	punct	_	start_char=7251|end_char=7252|SpacesAfter=\n\n
+27	accident	accident	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No|start_char=7243|end_char=7251
+28	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=7251|end_char=7252
 
 # text = Also, they operate at high temperatures, and the fuel is molten, so they can't melt down, but in the event that the reactor ever went out of tolerances, or you lost off-site power in the case of something like Fukushima, there's a dump tank.
 # sent_id = 60
-1	Also	also	ADV	RB	_	4	advmod	_	start_char=7254|end_char=7258|SpaceAfter=No
+1	Also	also	ADV	RB	_	4	advmod	_	SpaceAfter=No|start_char=7254|end_char=7258
 2	,	,	PUNCT	,	_	1	punct	_	start_char=7258|end_char=7259
 3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=7260|end_char=7264
 4	operate	operate	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7265|end_char=7272
 5	at	at	ADP	IN	_	7	case	_	start_char=7273|end_char=7275
 6	high	high	ADJ	JJ	Degree=Pos	7	amod	_	start_char=7276|end_char=7280
-7	temperatures	temperature	NOUN	NNS	Number=Plur	4	obl	_	start_char=7281|end_char=7293|SpaceAfter=No
+7	temperatures	temperature	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No|start_char=7281|end_char=7293
 8	,	,	PUNCT	,	_	13	punct	_	start_char=7293|end_char=7294
 9	and	and	CCONJ	CC	_	13	cc	_	start_char=7295|end_char=7298
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=7299|end_char=7302
 11	fuel	fuel	NOUN	NN	Number=Sing	13	nsubj	_	start_char=7303|end_char=7307
 12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=7308|end_char=7310
-13	molten	molten	ADJ	JJ	Degree=Pos	4	conj	_	start_char=7311|end_char=7317|SpaceAfter=No
+13	molten	molten	ADJ	JJ	Degree=Pos	4	conj	_	SpaceAfter=No|start_char=7311|end_char=7317
 14	,	,	PUNCT	,	_	19	punct	_	start_char=7317|end_char=7318
 15	so	so	SCONJ	IN	_	19	advmod	_	start_char=7319|end_char=7321
 16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	start_char=7322|end_char=7326
@@ -1777,7 +1776,7 @@
 17	ca	can	AUX	MD	VerbForm=Fin	19	aux	_	start_char=7327|end_char=7329
 18	n't	not	PART	RB	Polarity=Neg	19	advmod	_	start_char=7329|end_char=7332
 19	melt	melt	VERB	VB	VerbForm=Inf	4	parataxis	_	start_char=7333|end_char=7337
-20	down	down	ADP	RP	_	19	compound:prt	_	start_char=7338|end_char=7342|SpaceAfter=No
+20	down	down	ADP	RP	_	19	compound:prt	_	SpaceAfter=No|start_char=7338|end_char=7342
 21	,	,	PUNCT	,	_	51	punct	_	start_char=7342|end_char=7343
 22	but	but	CCONJ	CC	_	51	cc	_	start_char=7344|end_char=7347
 23	in	in	ADP	IN	_	25	case	_	start_char=7348|end_char=7350
@@ -1790,13 +1789,13 @@
 30	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	acl	_	start_char=7383|end_char=7387
 31	out	out	ADP	IN	_	33	case	_	start_char=7388|end_char=7391
 32	of	of	ADP	IN	_	33	case	_	start_char=7392|end_char=7394
-33	tolerances	tolerance	NOUN	NNS	Number=Plur	30	obl	_	start_char=7395|end_char=7405|SpaceAfter=No
+33	tolerances	tolerance	NOUN	NNS	Number=Plur	30	obl	_	SpaceAfter=No|start_char=7395|end_char=7405
 34	,	,	PUNCT	,	_	37	punct	_	start_char=7405|end_char=7406
 35	or	or	CCONJ	CC	_	37	cc	_	start_char=7407|end_char=7409
 36	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	37	nsubj	_	start_char=7410|end_char=7413
 37	lost	lose	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	30	conj	_	start_char=7414|end_char=7418
-38	off	off	ADP	RP	_	40	case	_	start_char=7419|end_char=7422|SpaceAfter=No
-39	-	-	PUNCT	HYPH	_	38	punct	_	start_char=7422|end_char=7423|SpaceAfter=No
+38	off	off	ADP	RP	_	40	case	_	SpaceAfter=No|start_char=7419|end_char=7422
+39	-	-	PUNCT	HYPH	_	38	punct	_	SpaceAfter=No|start_char=7422|end_char=7423
 40	site	site	NOUN	NN	Number=Sing	41	compound	_	start_char=7423|end_char=7427
 41	power	power	NOUN	NN	Number=Sing	37	obj	_	start_char=7428|end_char=7433
 42	in	in	ADP	IN	_	44	case	_	start_char=7434|end_char=7436
@@ -1805,15 +1804,15 @@
 45	of	of	ADP	IN	_	46	case	_	start_char=7446|end_char=7448
 46	something	something	PRON	NN	Number=Sing|PronType=Ind	44	nmod	_	start_char=7449|end_char=7458
 47	like	like	ADP	IN	_	48	case	_	start_char=7459|end_char=7463
-48	Fukushima	Fukushima	PROPN	NNP	Number=Sing	46	nmod	_	start_char=7464|end_char=7473|SpaceAfter=No
+48	Fukushima	Fukushima	PROPN	NNP	Number=Sing	46	nmod	_	SpaceAfter=No|start_char=7464|end_char=7473
 49	,	,	PUNCT	,	_	25	punct	_	start_char=7473|end_char=7474
 50-51	there's	_	_	_	_	_	_	_	start_char=7475|end_char=7482
 50	there	there	PRON	EX	_	51	expl	_	start_char=7475|end_char=7480
 51	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=7480|end_char=7482
 52	a	a	DET	DT	Definite=Ind|PronType=Art	54	det	_	start_char=7483|end_char=7484
 53	dump	dump	NOUN	NN	Number=Sing	54	compound	_	start_char=7485|end_char=7489
-54	tank	tank	NOUN	NN	Number=Sing	51	nsubj	_	start_char=7490|end_char=7494|SpaceAfter=No
-55	.	.	PUNCT	.	_	4	punct	_	start_char=7494|end_char=7495|SpacesAfter=\n\n
+54	tank	tank	NOUN	NN	Number=Sing	51	nsubj	_	SpaceAfter=No|start_char=7490|end_char=7494
+55	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=7494|end_char=7495
 
 # text = Because your fuel is liquid, and it's combined with your coolant, you could actually just drain the core into what's called a sub-critical setting, basically a tank underneath the reactor that has some neutrons absorbers.
 # sent_id = 61
@@ -1821,7 +1820,7 @@
 2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=7505|end_char=7509
 3	fuel	fuel	NOUN	NN	Number=Sing	5	nsubj	_	start_char=7510|end_char=7514
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=7515|end_char=7517
-5	liquid	liquid	ADJ	JJ	Degree=Pos	19	advcl	_	start_char=7518|end_char=7524|SpaceAfter=No
+5	liquid	liquid	ADJ	JJ	Degree=Pos	19	advcl	_	SpaceAfter=No|start_char=7518|end_char=7524
 6	,	,	PUNCT	,	_	10	punct	_	start_char=7524|end_char=7525
 7	and	and	CCONJ	CC	_	10	cc	_	start_char=7526|end_char=7529
 8-9	it's	_	_	_	_	_	_	_	start_char=7530|end_char=7534
@@ -1830,7 +1829,7 @@
 10	combined	combine	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	start_char=7535|end_char=7543
 11	with	with	ADP	IN	_	13	case	_	start_char=7544|end_char=7548
 12	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=7549|end_char=7553
-13	coolant	coolant	NOUN	NN	Number=Sing	10	obl	_	start_char=7554|end_char=7561|SpaceAfter=No
+13	coolant	coolant	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No|start_char=7554|end_char=7561
 14	,	,	PUNCT	,	_	5	punct	_	start_char=7561|end_char=7562
 15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	start_char=7563|end_char=7566
 16	could	could	AUX	MD	VerbForm=Fin	19	aux	_	start_char=7567|end_char=7572
@@ -1846,7 +1845,7 @@
 25	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	acl:relcl	_	start_char=7614|end_char=7620
 26	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	start_char=7621|end_char=7622
 27	sub-critical	sub-critical	ADJ	JJ	Degree=Pos	28	amod	_	start_char=7623|end_char=7635
-28	setting	setting	NOUN	NN	Number=Sing	25	xcomp	_	start_char=7636|end_char=7643|SpaceAfter=No
+28	setting	setting	NOUN	NN	Number=Sing	25	xcomp	_	SpaceAfter=No|start_char=7636|end_char=7643
 29	,	,	PUNCT	,	_	32	punct	_	start_char=7643|end_char=7644
 30	basically	basically	ADV	RB	_	32	advmod	_	start_char=7645|end_char=7654
 31	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	start_char=7655|end_char=7656
@@ -1858,8 +1857,8 @@
 37	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	start_char=7690|end_char=7693
 38	some	some	DET	DT	PronType=Ind	40	det	_	start_char=7694|end_char=7698
 39	neutrons	neutron	NOUN	NNS	Number=Plur	40	compound	_	start_char=7699|end_char=7707
-40	absorbers	absorber	NOUN	NNS	Number=Plur	37	obj	_	start_char=7708|end_char=7717|SpaceAfter=No
-41	.	.	PUNCT	.	_	19	punct	_	start_char=7717|end_char=7718|SpacesAfter=\n\n
+40	absorbers	absorber	NOUN	NNS	Number=Plur	37	obj	_	SpaceAfter=No|start_char=7708|end_char=7717
+41	.	.	PUNCT	.	_	19	punct	_	SpacesAfter=\n\n|start_char=7717|end_char=7718
 
 # text = And this is really important, because the reaction stops.
 # sent_id = 62
@@ -1867,13 +1866,13 @@
 2	this	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	start_char=7724|end_char=7728
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=7729|end_char=7731
 4	really	really	ADV	RB	_	5	advmod	_	start_char=7732|end_char=7738
-5	important	important	ADJ	JJ	Degree=Pos	0	root	_	start_char=7739|end_char=7748|SpaceAfter=No
+5	important	important	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No|start_char=7739|end_char=7748
 6	,	,	PUNCT	,	_	10	punct	_	start_char=7748|end_char=7749
 7	because	because	SCONJ	IN	_	10	mark	_	start_char=7750|end_char=7757
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=7758|end_char=7761
 9	reaction	reaction	NOUN	NN	Number=Sing	10	nsubj	_	start_char=7762|end_char=7770
-10	stops	stop	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	start_char=7771|end_char=7776|SpaceAfter=No
-11	.	.	PUNCT	.	_	5	punct	_	start_char=7776|end_char=7777|SpacesAfter=\n\n
+10	stops	stop	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	SpaceAfter=No|start_char=7771|end_char=7776
+11	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=7776|end_char=7777
 
 # text = In this kind of reactor, you can't do that.
 # sent_id = 63
@@ -1881,31 +1880,31 @@
 2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	start_char=7782|end_char=7786
 3	kind	kind	NOUN	NN	Number=Sing	10	obl	_	start_char=7787|end_char=7791
 4	of	of	ADP	IN	_	5	case	_	start_char=7792|end_char=7794
-5	reactor	reactor	NOUN	NN	Number=Sing	3	nmod	_	start_char=7795|end_char=7802|SpaceAfter=No
+5	reactor	reactor	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No|start_char=7795|end_char=7802
 6	,	,	PUNCT	,	_	3	punct	_	start_char=7802|end_char=7803
 7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	start_char=7804|end_char=7807
 8-9	can't	_	_	_	_	_	_	_	start_char=7808|end_char=7813
 8	ca	can	AUX	MD	VerbForm=Fin	10	aux	_	start_char=7808|end_char=7810
 9	n't	not	PART	RB	Polarity=Neg	10	advmod	_	start_char=7810|end_char=7813
 10	do	do	VERB	VB	VerbForm=Inf	0	root	_	start_char=7814|end_char=7816
-11	that	that	PRON	DT	Number=Sing|PronType=Dem	10	obj	_	start_char=7817|end_char=7821|SpaceAfter=No
-12	.	.	PUNCT	.	_	10	punct	_	start_char=7821|end_char=7822|SpacesAfter=\n\n
+11	that	that	PRON	DT	Number=Sing|PronType=Dem	10	obj	_	SpaceAfter=No|start_char=7817|end_char=7821
+12	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n\n|start_char=7821|end_char=7822
 
 # text = The fuel, like I said, is ceramic inside zirconium fuel rods, and in the event of an accident in one of these type of reactors, Fukushima and Three Mile Island -- looking back at Three Mile Island, we didn't really see this for a while — but these zirconium claddings on these fuel rods, what happens is, when they see high pressure water, steam, in an oxidizing environment, they'll actually produce hydrogen, and that hydrogen has this explosive capability to release fission products.
 # sent_id = 64
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=7824|end_char=7827
-2	fuel	fuel	NOUN	NN	Number=Sing	13	nsubj	_	start_char=7828|end_char=7832|SpaceAfter=No
+2	fuel	fuel	NOUN	NN	Number=Sing	13	nsubj	_	SpaceAfter=No|start_char=7828|end_char=7832
 3	,	,	PUNCT	,	_	2	punct	_	start_char=7832|end_char=7833
 4	like	like	SCONJ	IN	_	6	mark	_	start_char=7834|end_char=7838
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=7839|end_char=7840
-6	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	advcl	_	start_char=7841|end_char=7845|SpaceAfter=No
+6	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	advcl	_	SpaceAfter=No|start_char=7841|end_char=7845
 7	,	,	PUNCT	,	_	6	punct	_	start_char=7845|end_char=7846
 8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=7847|end_char=7849
 9	ceramic	ceramic	ADJ	JJ	Degree=Pos	13	amod	_	start_char=7850|end_char=7857
 10	inside	inside	ADP	IN	_	13	case	_	start_char=7858|end_char=7864
 11	zirconium	zirconium	NOUN	NN	Number=Sing	13	compound	_	start_char=7865|end_char=7874
 12	fuel	fuel	NOUN	NN	Number=Sing	13	compound	_	start_char=7875|end_char=7879
-13	rods	rod	NOUN	NNS	Number=Plur	0	root	_	start_char=7880|end_char=7884|SpaceAfter=No
+13	rods	rod	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No|start_char=7880|end_char=7884
 14	,	,	PUNCT	,	_	15	punct	_	start_char=7884|end_char=7885
 15	and	and	CCONJ	CC	_	83	cc	_	start_char=7886|end_char=7889
 16	in	in	ADP	IN	_	18	case	_	start_char=7890|end_char=7892
@@ -1920,7 +1919,7 @@
 25	these	this	DET	DT	Number=Plur|PronType=Dem	26	det	_	start_char=7928|end_char=7933
 26	type	type	NOUN	NN	Number=Sing	23	nmod	_	start_char=7934|end_char=7938
 27	of	of	ADP	IN	_	28	case	_	start_char=7939|end_char=7941
-28	reactors	reactor	NOUN	NNS	Number=Plur	26	nmod	_	start_char=7942|end_char=7950|SpaceAfter=No
+28	reactors	reactor	NOUN	NNS	Number=Plur	26	nmod	_	SpaceAfter=No|start_char=7942|end_char=7950
 29	,	,	PUNCT	,	_	30	punct	_	start_char=7950|end_char=7951
 30	Fukushima	Fukushima	PROPN	NNP	Number=Sing	26	appos	_	start_char=7952|end_char=7961
 31	and	and	CCONJ	CC	_	34	cc	_	start_char=7962|end_char=7965
@@ -1933,7 +1932,7 @@
 38	at	at	ADP	IN	_	41	case	_	start_char=8000|end_char=8002
 39	Three	Three	PROPN	NNP	Number=Sing	41	compound	_	start_char=8003|end_char=8008
 40	Mile	Mile	PROPN	NNP	Number=Sing	41	compound	_	start_char=8009|end_char=8013
-41	Island	Island	PROPN	NNP	Number=Sing	36	obl	_	start_char=8014|end_char=8020|SpaceAfter=No
+41	Island	Island	PROPN	NNP	Number=Sing	36	obl	_	SpaceAfter=No|start_char=8014|end_char=8020
 42	,	,	PUNCT	,	_	18	punct	_	start_char=8020|end_char=8021
 43	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	47	nsubj	_	start_char=8022|end_char=8024
 44-45	didn't	_	_	_	_	_	_	_	start_char=8025|end_char=8031
@@ -1953,32 +1952,32 @@
 57	on	on	ADP	IN	_	60	case	_	start_char=8092|end_char=8094
 58	these	this	DET	DT	Number=Plur|PronType=Dem	60	det	_	start_char=8095|end_char=8100
 59	fuel	fuel	NOUN	NN	Number=Sing	60	compound	_	start_char=8101|end_char=8105
-60	rods	rod	NOUN	NNS	Number=Plur	56	nmod	_	start_char=8106|end_char=8110|SpaceAfter=No
+60	rods	rod	NOUN	NNS	Number=Plur	56	nmod	_	SpaceAfter=No|start_char=8106|end_char=8110
 61	,	,	PUNCT	,	_	83	punct	_	start_char=8110|end_char=8111
 62	what	what	PRON	WP	PronType=Int	83	nsubj:outer	_	start_char=8112|end_char=8116
 63	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	acl:relcl	_	start_char=8117|end_char=8124
-64	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	83	cop	_	start_char=8125|end_char=8127|SpaceAfter=No
+64	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	83	cop	_	SpaceAfter=No|start_char=8125|end_char=8127
 65	,	,	PUNCT	,	_	64	punct	_	start_char=8127|end_char=8128
 66	when	when	ADV	WRB	PronType=Int	68	advmod	_	start_char=8129|end_char=8133
 67	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	68	nsubj	_	start_char=8134|end_char=8138
 68	see	see	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	83	advcl	_	start_char=8139|end_char=8142
 69	high	high	ADJ	JJ	Degree=Pos	70	amod	_	start_char=8143|end_char=8147
 70	pressure	pressure	NOUN	NN	Number=Sing	71	compound	_	start_char=8148|end_char=8156
-71	water	water	NOUN	NN	Number=Sing	68	obj	_	start_char=8157|end_char=8162|SpaceAfter=No
+71	water	water	NOUN	NN	Number=Sing	68	obj	_	SpaceAfter=No|start_char=8157|end_char=8162
 72	,	,	PUNCT	,	_	73	punct	_	start_char=8162|end_char=8163
-73	steam	steam	NOUN	NN	Number=Sing	71	conj	_	start_char=8164|end_char=8169|SpaceAfter=No
+73	steam	steam	NOUN	NN	Number=Sing	71	conj	_	SpaceAfter=No|start_char=8164|end_char=8169
 74	,	,	PUNCT	,	_	78	punct	_	start_char=8169|end_char=8170
 75	in	in	ADP	IN	_	78	case	_	start_char=8171|end_char=8173
 76	an	a	DET	DT	Definite=Ind|PronType=Art	78	det	_	start_char=8174|end_char=8176
 77	oxidizing	oxidizing	ADJ	JJ	Degree=Pos	78	amod	_	start_char=8177|end_char=8186
-78	environment	environment	NOUN	NN	Number=Sing	68	obl	_	start_char=8187|end_char=8198|SpaceAfter=No
+78	environment	environment	NOUN	NN	Number=Sing	68	obl	_	SpaceAfter=No|start_char=8187|end_char=8198
 79	,	,	PUNCT	,	_	68	punct	_	start_char=8198|end_char=8199
 80-81	they'll	_	_	_	_	_	_	_	start_char=8200|end_char=8207
 80	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	83	nsubj	_	start_char=8200|end_char=8204
 81	'll	will	AUX	MD	VerbForm=Fin	83	aux	_	start_char=8204|end_char=8207
 82	actually	actually	ADV	RB	_	83	advmod	_	start_char=8208|end_char=8216
 83	produce	produce	VERB	VB	VerbForm=Inf	9	conj	_	start_char=8217|end_char=8224
-84	hydrogen	hydrogen	NOUN	NN	Number=Sing	83	obj	_	start_char=8225|end_char=8233|SpaceAfter=No
+84	hydrogen	hydrogen	NOUN	NN	Number=Sing	83	obj	_	SpaceAfter=No|start_char=8225|end_char=8233
 85	,	,	PUNCT	,	_	89	punct	_	start_char=8233|end_char=8234
 86	and	and	CCONJ	CC	_	89	cc	_	start_char=8235|end_char=8238
 87	that	that	SCONJ	IN	_	89	mark	_	start_char=8239|end_char=8243
@@ -1990,8 +1989,8 @@
 93	to	to	PART	TO	_	94	mark	_	start_char=8283|end_char=8285
 94	release	release	VERB	VB	VerbForm=Inf	89	advcl	_	start_char=8286|end_char=8293
 95	fission	fission	NOUN	NN	Number=Sing	96	compound	_	start_char=8294|end_char=8301
-96	products	product	NOUN	NNS	Number=Plur	94	obj	_	start_char=8302|end_char=8310|SpaceAfter=No
-97	.	.	PUNCT	.	_	9	punct	_	start_char=8310|end_char=8311|SpacesAfter=\n\n
+96	products	product	NOUN	NNS	Number=Plur	94	obj	_	SpaceAfter=No|start_char=8302|end_char=8310
+97	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n\n|start_char=8310|end_char=8311
 
 # text = So the core of this reactor, since it's not under pressure and it doesn't have this chemical reactivity, means that there's no inclination for the fission products to leave this reactor.
 # sent_id = 65
@@ -2000,7 +1999,7 @@
 3	core	core	NOUN	NN	Number=Sing	23	nsubj	_	start_char=8320|end_char=8324
 4	of	of	ADP	IN	_	6	case	_	start_char=8325|end_char=8327
 5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	start_char=8328|end_char=8332
-6	reactor	reactor	NOUN	NN	Number=Sing	3	nmod	_	start_char=8333|end_char=8340|SpaceAfter=No
+6	reactor	reactor	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No|start_char=8333|end_char=8340
 7	,	,	PUNCT	,	_	13	punct	_	start_char=8340|end_char=8341
 8	since	since	SCONJ	IN	_	13	mark	_	start_char=8342|end_char=8347
 9-10	it's	_	_	_	_	_	_	_	start_char=8348|end_char=8352
@@ -2017,7 +2016,7 @@
 18	have	have	VERB	VB	VerbForm=Inf	13	conj	_	start_char=8387|end_char=8391
 19	this	this	DET	DT	Number=Sing|PronType=Dem	21	det	_	start_char=8392|end_char=8396
 20	chemical	chemical	ADJ	JJ	Degree=Pos	21	amod	_	start_char=8397|end_char=8405
-21	reactivity	reactivity	NOUN	NN	Number=Sing	18	obj	_	start_char=8406|end_char=8416|SpaceAfter=No
+21	reactivity	reactivity	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No|start_char=8406|end_char=8416
 22	,	,	PUNCT	,	_	13	punct	_	start_char=8416|end_char=8417
 23	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8418|end_char=8423
 24	that	that	SCONJ	IN	_	26	mark	_	start_char=8424|end_char=8428
@@ -2033,8 +2032,8 @@
 33	to	to	PART	TO	_	34	mark	_	start_char=8477|end_char=8479
 34	leave	leave	VERB	VB	VerbForm=Inf	28	acl	_	start_char=8480|end_char=8485
 35	this	this	DET	DT	Number=Sing|PronType=Dem	36	det	_	start_char=8486|end_char=8490
-36	reactor	reactor	NOUN	NN	Number=Sing	34	obj	_	start_char=8491|end_char=8498|SpaceAfter=No
-37	.	.	PUNCT	.	_	23	punct	_	start_char=8498|end_char=8499|SpacesAfter=\n\n
+36	reactor	reactor	NOUN	NN	Number=Sing	34	obj	_	SpaceAfter=No|start_char=8491|end_char=8498
+37	.	.	PUNCT	.	_	23	punct	_	SpacesAfter=\n\n|start_char=8498|end_char=8499
 
 # text = So even in the event of an accident, yeah, the reactor may be toast, which is, you know, sorry for the power company, but we're not going to contaminate large quantities of land.
 # sent_id = 66
@@ -2045,27 +2044,27 @@
 5	event	event	NOUN	NN	Number=Sing	16	obl	_	start_char=8516|end_char=8521
 6	of	of	ADP	IN	_	8	case	_	start_char=8522|end_char=8524
 7	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=8525|end_char=8527
-8	accident	accident	NOUN	NN	Number=Sing	5	nmod	_	start_char=8528|end_char=8536|SpaceAfter=No
+8	accident	accident	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No|start_char=8528|end_char=8536
 9	,	,	PUNCT	,	_	5	punct	_	start_char=8536|end_char=8537
-10	yeah	yeah	INTJ	UH	Polarity=Pos	16	discourse	_	start_char=8538|end_char=8542|SpaceAfter=No
+10	yeah	yeah	INTJ	UH	Polarity=Pos	16	discourse	_	SpaceAfter=No|start_char=8538|end_char=8542
 11	,	,	PUNCT	,	_	10	punct	_	start_char=8542|end_char=8543
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=8544|end_char=8547
 13	reactor	reactor	NOUN	NN	Number=Sing	16	nsubj	_	start_char=8548|end_char=8555
 14	may	may	AUX	MD	VerbForm=Fin	16	aux	_	start_char=8556|end_char=8559
 15	be	be	AUX	VB	VerbForm=Inf	16	cop	_	start_char=8560|end_char=8562
-16	toast	toast	NOUN	NN	Number=Sing	0	root	_	start_char=8563|end_char=8568|SpaceAfter=No
+16	toast	toast	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=8563|end_char=8568
 17	,	,	PUNCT	,	_	24	punct	_	start_char=8568|end_char=8569
 18	which	which	PRON	WDT	PronType=Rel	24	nsubj	_	start_char=8570|end_char=8575
-19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	start_char=8576|end_char=8578|SpaceAfter=No
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	SpaceAfter=No|start_char=8576|end_char=8578
 20	,	,	PUNCT	,	_	19	punct	_	start_char=8578|end_char=8579
 21	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	22	nsubj	_	start_char=8580|end_char=8583
-22	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	24	parataxis	_	start_char=8584|end_char=8588|SpaceAfter=No
+22	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	24	parataxis	_	SpaceAfter=No|start_char=8584|end_char=8588
 23	,	,	PUNCT	,	_	22	punct	_	start_char=8588|end_char=8589
 24	sorry	sorry	ADJ	JJ	Degree=Pos	16	acl:relcl	_	start_char=8590|end_char=8595
 25	for	for	ADP	IN	_	28	case	_	start_char=8596|end_char=8599
 26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	start_char=8600|end_char=8603
 27	power	power	NOUN	NN	Number=Sing	28	compound	_	start_char=8604|end_char=8609
-28	company	company	NOUN	NN	Number=Sing	24	obl	_	start_char=8610|end_char=8617|SpaceAfter=No
+28	company	company	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No|start_char=8610|end_char=8617
 29	,	,	PUNCT	,	_	34	punct	_	start_char=8617|end_char=8618
 30	but	but	CCONJ	CC	_	34	cc	_	start_char=8619|end_char=8622
 31-32	we're	_	_	_	_	_	_	_	start_char=8623|end_char=8628
@@ -2078,8 +2077,8 @@
 37	large	large	ADJ	JJ	Degree=Pos	38	amod	_	start_char=8654|end_char=8659
 38	quantities	quantity	NOUN	NNS	Number=Plur	36	obj	_	start_char=8660|end_char=8670
 39	of	of	ADP	IN	_	40	case	_	start_char=8671|end_char=8673
-40	land	land	NOUN	NN	Number=Sing	38	nmod	_	start_char=8674|end_char=8678|SpaceAfter=No
-41	.	.	PUNCT	.	_	16	punct	_	start_char=8678|end_char=8679|SpacesAfter=\n\n
+40	land	land	NOUN	NN	Number=Sing	38	nmod	_	SpaceAfter=No|start_char=8674|end_char=8678
+41	.	.	PUNCT	.	_	16	punct	_	SpacesAfter=\n\n|start_char=8678|end_char=8679
 
 # text = So I really think that in the, say, 20 years it's going to take us to get fusion and make fusion a reality, this could be the source of energy that provides carbon-free electricity.
 # sent_id = 67
@@ -2089,9 +2088,9 @@
 4	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8693|end_char=8698
 5	that	that	SCONJ	IN	_	15	mark	_	start_char=8699|end_char=8703
 6	in	in	ADP	IN	_	12	case	_	start_char=8704|end_char=8706
-7	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=8707|end_char=8710|SpaceAfter=No
+7	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	SpaceAfter=No|start_char=8707|end_char=8710
 8	,	,	PUNCT	,	_	7	punct	_	start_char=8710|end_char=8711
-9	say	say	INTJ	UH	_	15	discourse	_	start_char=8712|end_char=8715|SpaceAfter=No
+9	say	say	INTJ	UH	_	15	discourse	_	SpaceAfter=No|start_char=8712|end_char=8715
 10	,	,	PUNCT	,	_	9	punct	_	start_char=8715|end_char=8716
 11	20	20	NUM	CD	NumForm=Digit|NumType=Card	12	nummod	_	start_char=8717|end_char=8719
 12	years	year	NOUN	NNS	Number=Plur	15	obl	_	start_char=8720|end_char=8725
@@ -2109,7 +2108,7 @@
 23	make	make	VERB	VB	VerbForm=Inf	20	conj	_	start_char=8766|end_char=8770
 24	fusion	fusion	NOUN	NN	Number=Sing	23	obj	_	start_char=8771|end_char=8777
 25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	start_char=8778|end_char=8779
-26	reality	reality	NOUN	NN	Number=Sing	23	xcomp	_	start_char=8780|end_char=8787|SpaceAfter=No
+26	reality	reality	NOUN	NN	Number=Sing	23	xcomp	_	SpaceAfter=No|start_char=8780|end_char=8787
 27	,	,	PUNCT	,	_	15	punct	_	start_char=8787|end_char=8788
 28	this	this	PRON	DT	Number=Sing|PronType=Dem	32	nsubj	_	start_char=8789|end_char=8793
 29	could	could	AUX	MD	VerbForm=Fin	32	aux	_	start_char=8794|end_char=8799
@@ -2120,19 +2119,19 @@
 34	energy	energy	NOUN	NN	Number=Sing	32	nmod	_	start_char=8817|end_char=8823
 35	that	that	PRON	WDT	PronType=Rel	36	nsubj	_	start_char=8824|end_char=8828
 36	provides	provide	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	start_char=8829|end_char=8837
-37	carbon	carbon	NOUN	NN	Number=Sing	39	compound	_	start_char=8838|end_char=8844|SpaceAfter=No
-38	-	-	PUNCT	HYPH	_	37	punct	_	start_char=8844|end_char=8845|SpaceAfter=No
+37	carbon	carbon	NOUN	NN	Number=Sing	39	compound	_	SpaceAfter=No|start_char=8838|end_char=8844
+38	-	-	PUNCT	HYPH	_	37	punct	_	SpaceAfter=No|start_char=8844|end_char=8845
 39	free	free	ADJ	JJ	Degree=Pos	40	amod	_	start_char=8845|end_char=8849
-40	electricity	electricity	NOUN	NN	Number=Sing	36	obj	_	start_char=8850|end_char=8861|SpaceAfter=No
-41	.	.	PUNCT	.	_	4	punct	_	start_char=8861|end_char=8862|SpacesAfter=\n\n
+40	electricity	electricity	NOUN	NN	Number=Sing	36	obj	_	SpaceAfter=No|start_char=8850|end_char=8861
+41	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=8861|end_char=8862
 
 # text = Carbon-free electricity.
 # sent_id = 68
-1	Carbon	carbon	NOUN	NN	Number=Sing	3	compound	_	start_char=8864|end_char=8870|SpaceAfter=No
-2	-	-	PUNCT	HYPH	_	1	punct	_	start_char=8870|end_char=8871|SpaceAfter=No
+1	Carbon	carbon	NOUN	NN	Number=Sing	3	compound	_	SpaceAfter=No|start_char=8864|end_char=8870
+2	-	-	PUNCT	HYPH	_	1	punct	_	SpaceAfter=No|start_char=8870|end_char=8871
 3	free	free	ADJ	JJ	Degree=Pos	4	amod	_	start_char=8871|end_char=8875
-4	electricity	electricity	NOUN	NN	Number=Sing	0	root	_	start_char=8876|end_char=8887|SpaceAfter=No
-5	.	.	PUNCT	.	_	4	punct	_	start_char=8887|end_char=8888|SpacesAfter=\n\n
+4	electricity	electricity	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=8876|end_char=8887
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=8887|end_char=8888
 
 # text = And it's an amazing technology because not only does it combat climate change, but it's an innovation.
 # sent_id = 69
@@ -2150,15 +2149,15 @@
 11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=8943|end_char=8945
 12	combat	combat	VERB	VB	VerbForm=Inf	6	advcl	_	start_char=8946|end_char=8952
 13	climate	climate	NOUN	NN	Number=Sing	14	compound	_	start_char=8953|end_char=8960
-14	change	change	NOUN	NN	Number=Sing	12	obj	_	start_char=8961|end_char=8967|SpaceAfter=No
+14	change	change	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No|start_char=8961|end_char=8967
 15	,	,	PUNCT	,	_	20	punct	_	start_char=8967|end_char=8968
 16	but	but	CCONJ	CC	_	20	cc	_	start_char=8969|end_char=8972
 17-18	it's	_	_	_	_	_	_	_	start_char=8973|end_char=8977
 17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	start_char=8973|end_char=8975
 18	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	start_char=8975|end_char=8977
 19	an	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	start_char=8978|end_char=8980
-20	innovation	innovation	NOUN	NN	Number=Sing	6	conj	_	start_char=8981|end_char=8991|SpaceAfter=No
-21	.	.	PUNCT	.	_	6	punct	_	start_char=8991|end_char=8992|SpacesAfter=\n\n
+20	innovation	innovation	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No|start_char=8981|end_char=8991
+21	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n\n|start_char=8991|end_char=8992
 
 # text = It's a way to bring power to the developing world, because it's produced in a factory and it's cheap.
 # sent_id = 70
@@ -2173,7 +2172,7 @@
 8	to	to	ADP	IN	_	11	case	_	start_char=9020|end_char=9022
 9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=9023|end_char=9026
 10	developing	develop	NOUN	NN	Number=Sing	11	compound	_	start_char=9027|end_char=9037
-11	world	world	NOUN	NN	Number=Sing	6	obl	_	start_char=9038|end_char=9043|SpaceAfter=No
+11	world	world	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No|start_char=9038|end_char=9043
 12	,	,	PUNCT	,	_	16	punct	_	start_char=9043|end_char=9044
 13	because	because	SCONJ	IN	_	16	mark	_	start_char=9045|end_char=9052
 14-15	it's	_	_	_	_	_	_	_	start_char=9053|end_char=9057
@@ -2187,8 +2186,8 @@
 21-22	it's	_	_	_	_	_	_	_	start_char=9084|end_char=9088
 21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	start_char=9084|end_char=9086
 22	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	start_char=9086|end_char=9088
-23	cheap	cheap	ADJ	JJ	Degree=Pos	16	conj	_	start_char=9089|end_char=9094|SpaceAfter=No
-24	.	.	PUNCT	.	_	4	punct	_	start_char=9094|end_char=9095|SpacesAfter=\n\n
+23	cheap	cheap	ADJ	JJ	Degree=Pos	16	conj	_	SpaceAfter=No|start_char=9089|end_char=9094
+24	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=9094|end_char=9095
 
 # text = You can put them anywhere in the world you want to.
 # sent_id = 71
@@ -2202,33 +2201,33 @@
 8	world	world	NOUN	NN	Number=Sing	3	obl	_	start_char=9130|end_char=9135
 9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	start_char=9136|end_char=9139
 10	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	start_char=9140|end_char=9144
-11	to	to	PART	TO	_	10	xcomp	_	start_char=9145|end_char=9147|SpaceAfter=No
-12	.	.	PUNCT	.	_	3	punct	_	start_char=9147|end_char=9148|SpacesAfter=\n\n
+11	to	to	PART	TO	_	10	xcomp	_	SpaceAfter=No|start_char=9145|end_char=9147
+12	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=9147|end_char=9148
 
 # text = And maybe something else.
 # sent_id = 72
 1	And	and	CCONJ	CC	_	3	cc	_	start_char=9150|end_char=9153
 2	maybe	maybe	ADV	RB	_	3	advmod	_	start_char=9154|end_char=9159
 3	something	something	PRON	NN	Number=Sing|PronType=Ind	0	root	_	start_char=9160|end_char=9169
-4	else	else	ADJ	JJ	Degree=Pos	3	amod	_	start_char=9170|end_char=9174|SpaceAfter=No
-5	.	.	PUNCT	.	_	3	punct	_	start_char=9174|end_char=9175|SpacesAfter=\n\n
+4	else	else	ADJ	JJ	Degree=Pos	3	amod	_	SpaceAfter=No|start_char=9170|end_char=9174
+5	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=9174|end_char=9175
 
 # text = As a kid, I was obsessed with space.
 # sent_id = 73
 1	As	as	ADP	IN	_	3	case	_	start_char=9177|end_char=9179
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=9180|end_char=9181
-3	kid	kid	NOUN	NN	Number=Sing	7	obl	_	start_char=9182|end_char=9185|SpaceAfter=No
+3	kid	kid	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No|start_char=9182|end_char=9185
 4	,	,	PUNCT	,	_	3	punct	_	start_char=9185|end_char=9186
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj:pass	_	start_char=9187|end_char=9188
 6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	aux:pass	_	start_char=9189|end_char=9192
 7	obsessed	obsess	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=9193|end_char=9201
 8	with	with	ADP	IN	_	9	case	_	start_char=9202|end_char=9206
-9	space	space	NOUN	NN	Number=Sing	7	obl	_	start_char=9207|end_char=9212|SpaceAfter=No
-10	.	.	PUNCT	.	_	7	punct	_	start_char=9212|end_char=9213|SpacesAfter=\n\n
+9	space	space	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No|start_char=9207|end_char=9212
+10	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=9212|end_char=9213
 
 # text = Well, I was obsessed with nuclear science too, to a point, but before that I was obsessed with space, and I was really excited about, you know, being an astronaut and designing rockets, which was something that was always exciting to me.
 # sent_id = 74
-1	Well	well	INTJ	UH	_	5	discourse	_	start_char=9215|end_char=9219|SpaceAfter=No
+1	Well	well	INTJ	UH	_	5	discourse	_	SpaceAfter=No|start_char=9215|end_char=9219
 2	,	,	PUNCT	,	_	1	punct	_	start_char=9219|end_char=9220
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=9221|end_char=9222
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	cop	_	start_char=9223|end_char=9226
@@ -2236,11 +2235,11 @@
 6	with	with	ADP	IN	_	8	case	_	start_char=9236|end_char=9240
 7	nuclear	nuclear	ADJ	JJ	Degree=Pos	8	amod	_	start_char=9241|end_char=9248
 8	science	science	NOUN	NN	Number=Sing	5	obl	_	start_char=9249|end_char=9256
-9	too	too	ADV	RB	_	5	advmod	_	start_char=9257|end_char=9260|SpaceAfter=No
+9	too	too	ADV	RB	_	5	advmod	_	SpaceAfter=No|start_char=9257|end_char=9260
 10	,	,	PUNCT	,	_	13	punct	_	start_char=9260|end_char=9261
 11	to	to	ADP	IN	_	13	case	_	start_char=9262|end_char=9264
 12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=9265|end_char=9266
-13	point	point	NOUN	NN	Number=Sing	5	obl	_	start_char=9267|end_char=9272|SpaceAfter=No
+13	point	point	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No|start_char=9267|end_char=9272
 14	,	,	PUNCT	,	_	20	punct	_	start_char=9272|end_char=9273
 15	but	but	CCONJ	CC	_	20	cc	_	start_char=9274|end_char=9277
 16	before	before	ADP	IN	_	17	case	_	start_char=9278|end_char=9284
@@ -2249,24 +2248,24 @@
 19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	20	cop	_	start_char=9292|end_char=9295
 20	obsessed	obsessed	ADJ	JJ	Degree=Pos	5	conj	_	start_char=9296|end_char=9304
 21	with	with	ADP	IN	_	22	case	_	start_char=9305|end_char=9309
-22	space	space	NOUN	NN	Number=Sing	20	obl	_	start_char=9310|end_char=9315|SpaceAfter=No
+22	space	space	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No|start_char=9310|end_char=9315
 23	,	,	PUNCT	,	_	28	punct	_	start_char=9315|end_char=9316
 24	and	and	CCONJ	CC	_	28	cc	_	start_char=9317|end_char=9320
 25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	start_char=9321|end_char=9322
 26	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	28	cop	_	start_char=9323|end_char=9326
 27	really	really	ADV	RB	_	28	advmod	_	start_char=9327|end_char=9333
 28	excited	excited	ADJ	JJ	Degree=Pos	5	conj	_	start_char=9334|end_char=9341
-29	about	about	ADP	IN	_	36	mark	_	start_char=9342|end_char=9347|SpaceAfter=No
+29	about	about	ADP	IN	_	36	mark	_	SpaceAfter=No|start_char=9342|end_char=9347
 30	,	,	PUNCT	,	_	29	punct	_	start_char=9347|end_char=9348
 31	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	32	nsubj	_	start_char=9349|end_char=9352
-32	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	36	parataxis	_	start_char=9353|end_char=9357|SpaceAfter=No
+32	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	36	parataxis	_	SpaceAfter=No|start_char=9353|end_char=9357
 33	,	,	PUNCT	,	_	32	punct	_	start_char=9357|end_char=9358
 34	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	36	cop	_	start_char=9359|end_char=9364
 35	an	a	DET	DT	Definite=Ind|PronType=Art	36	det	_	start_char=9365|end_char=9367
 36	astronaut	astronaut	NOUN	NN	Number=Sing	28	advcl	_	start_char=9368|end_char=9377
 37	and	and	CCONJ	CC	_	38	cc	_	start_char=9378|end_char=9381
 38	designing	design	VERB	VBG	Tense=Pres|VerbForm=Part	36	conj	_	start_char=9382|end_char=9391
-39	rockets	rocket	NOUN	NNS	Number=Plur	38	obj	_	start_char=9392|end_char=9399|SpaceAfter=No
+39	rockets	rocket	NOUN	NNS	Number=Plur	38	obj	_	SpaceAfter=No|start_char=9392|end_char=9399
 40	,	,	PUNCT	,	_	43	punct	_	start_char=9399|end_char=9400
 41	which	which	PRON	WDT	PronType=Rel	43	nsubj	_	start_char=9401|end_char=9406
 42	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	43	cop	_	start_char=9407|end_char=9410
@@ -2276,8 +2275,8 @@
 46	always	always	ADV	RB	PronType=Tot	47	advmod	_	start_char=9430|end_char=9436
 47	exciting	exciting	ADJ	JJ	Degree=Pos	43	acl:relcl	_	start_char=9437|end_char=9445
 48	to	to	ADP	IN	_	49	case	_	start_char=9446|end_char=9448
-49	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	47	obl	_	start_char=9449|end_char=9451|SpaceAfter=No
-50	.	.	PUNCT	.	_	5	punct	_	start_char=9451|end_char=9452|SpacesAfter=\n\n
+49	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	47	obl	_	SpaceAfter=No|start_char=9449|end_char=9451
+50	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=9451|end_char=9452
 
 # text = But I think I get to come back to this, because imagine having a compact reactor in a rocket that produces 50 to 100 megawatts.
 # sent_id = 75
@@ -2290,7 +2289,7 @@
 7	come	come	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=9475|end_char=9479
 8	back	back	ADV	RB	_	7	advmod	_	start_char=9480|end_char=9484
 9	to	to	ADP	IN	_	10	case	_	start_char=9485|end_char=9487
-10	this	this	PRON	DT	Number=Sing|PronType=Dem	7	obl	_	start_char=9488|end_char=9492|SpaceAfter=No
+10	this	this	PRON	DT	Number=Sing|PronType=Dem	7	obl	_	SpaceAfter=No|start_char=9488|end_char=9492
 11	,	,	PUNCT	,	_	13	punct	_	start_char=9492|end_char=9493
 12	because	because	SCONJ	IN	_	13	mark	_	start_char=9494|end_char=9501
 13	imagine	imagine	VERB	VB	Mood=Imp|VerbForm=Fin	7	advcl	_	start_char=9502|end_char=9509
@@ -2306,8 +2305,8 @@
 23	50	50	NUM	CD	NumForm=Digit|NumType=Card	26	nummod	_	start_char=9561|end_char=9563
 24	to	to	ADP	IN	_	25	case	_	start_char=9564|end_char=9566
 25	100	100	NUM	CD	NumForm=Digit|NumType=Card	23	nmod	_	start_char=9567|end_char=9570
-26	megawatts	megawatt	NOUN	NNS	Number=Plur	22	obj	_	start_char=9571|end_char=9580|SpaceAfter=No
-27	.	.	PUNCT	.	_	3	punct	_	start_char=9580|end_char=9581|SpacesAfter=\n\n
+26	megawatts	megawatt	NOUN	NNS	Number=Plur	22	obj	_	SpaceAfter=No|start_char=9571|end_char=9580
+27	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=9580|end_char=9581
 
 # text = That is the rocket designer's dream.
 # sent_id = 76
@@ -2318,8 +2317,8 @@
 5-6	designer's	_	_	_	_	_	_	_	start_char=9602|end_char=9612
 5	designer	designer	NOUN	NN	Number=Sing	7	nmod:poss	_	start_char=9602|end_char=9610
 6	's	's	PART	POS	_	5	case	_	start_char=9610|end_char=9612
-7	dream	dream	NOUN	NN	Number=Sing	0	root	_	start_char=9613|end_char=9618|SpaceAfter=No
-8	.	.	PUNCT	.	_	7	punct	_	start_char=9618|end_char=9619|SpacesAfter=\n\n
+7	dream	dream	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=9613|end_char=9618
+8	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=9618|end_char=9619
 
 # text = That's someone who is designing a habitat on another planet's dream.
 # sent_id = 77
@@ -2337,8 +2336,8 @@
 11-12	planet's	_	_	_	_	_	_	_	start_char=9674|end_char=9682
 11	planet	planet	NOUN	NN	Number=Sing	13	nmod:poss	_	start_char=9674|end_char=9680
 12	's	's	PART	POS	_	11	case	_	start_char=9680|end_char=9682
-13	dream	dream	NOUN	NN	Number=Sing	6	obl	_	start_char=9683|end_char=9688|SpaceAfter=No
-14	.	.	PUNCT	.	_	3	punct	_	start_char=9688|end_char=9689|SpacesAfter=\n\n
+13	dream	dream	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No|start_char=9683|end_char=9688
+14	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=9688|end_char=9689
 
 # text = Not only do you have 50 to 100 megawatts to power whatever you want to provide propulsion to get you there, but you have power once you get there.
 # sent_id = 78
@@ -2362,7 +2361,7 @@
 18	to	to	PART	TO	_	19	mark	_	start_char=9781|end_char=9783
 19	get	get	VERB	VB	VerbForm=Inf	16	advcl	_	start_char=9784|end_char=9787
 20	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	19	obj	_	start_char=9788|end_char=9791
-21	there	there	ADV	RB	PronType=Dem	19	advmod	_	start_char=9792|end_char=9797|SpaceAfter=No
+21	there	there	ADV	RB	PronType=Dem	19	advmod	_	SpaceAfter=No|start_char=9792|end_char=9797
 22	,	,	PUNCT	,	_	25	punct	_	start_char=9797|end_char=9798
 23	but	but	CCONJ	CC	_	25	cc	_	start_char=9799|end_char=9802
 24	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	25	nsubj	_	start_char=9803|end_char=9806
@@ -2371,13 +2370,13 @@
 27	once	once	SCONJ	IN	_	29	mark	_	start_char=9818|end_char=9822
 28	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	29	nsubj	_	start_char=9823|end_char=9826
 29	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	25	advcl	_	start_char=9827|end_char=9830
-30	there	there	ADV	RB	PronType=Dem	29	advmod	_	start_char=9831|end_char=9836|SpaceAfter=No
-31	.	.	PUNCT	.	_	5	punct	_	start_char=9836|end_char=9837|SpacesAfter=\n\n
+30	there	there	ADV	RB	PronType=Dem	29	advmod	_	SpaceAfter=No|start_char=9831|end_char=9836
+31	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=9836|end_char=9837
 
 # text = You know, rocket designers who use solar panels or fuel cells, I mean a few watts or kilowatts -- wow, that's a lot of power.
 # sent_id = 79
 1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	start_char=9839|end_char=9842
-2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	parataxis	_	start_char=9843|end_char=9847|SpaceAfter=No
+2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	parataxis	_	SpaceAfter=No|start_char=9843|end_char=9847
 3	,	,	PUNCT	,	_	2	punct	_	start_char=9847|end_char=9848
 4	rocket	rocket	NOUN	NN	Number=Sing	5	compound	_	start_char=9849|end_char=9855
 5	designers	designer	NOUN	NNS	Number=Plur	15	nsubj	_	start_char=9856|end_char=9865
@@ -2387,7 +2386,7 @@
 9	panels	panel	NOUN	NNS	Number=Plur	7	obj	_	start_char=9880|end_char=9886
 10	or	or	CCONJ	CC	_	12	cc	_	start_char=9887|end_char=9889
 11	fuel	fuel	NOUN	NN	Number=Sing	12	compound	_	start_char=9890|end_char=9894
-12	cells	cell	NOUN	NNS	Number=Plur	9	conj	_	start_char=9895|end_char=9900|SpaceAfter=No
+12	cells	cell	NOUN	NNS	Number=Plur	9	conj	_	SpaceAfter=No|start_char=9895|end_char=9900
 13	,	,	PUNCT	,	_	5	punct	_	start_char=9900|end_char=9901
 14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=9902|end_char=9903
 15	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9904|end_char=9908
@@ -2397,7 +2396,7 @@
 19	or	or	CCONJ	CC	_	20	cc	_	start_char=9921|end_char=9923
 20	kilowatts	kilowatt	NOUN	NNS	Number=Plur	18	conj	_	start_char=9924|end_char=9933
 21	--	--	PUNCT	,	_	27	punct	_	start_char=9934|end_char=9936
-22	wow	wow	INTJ	UH	_	27	discourse	_	start_char=9937|end_char=9940|SpaceAfter=No
+22	wow	wow	INTJ	UH	_	27	discourse	_	SpaceAfter=No|start_char=9937|end_char=9940
 23	,	,	PUNCT	,	_	22	punct	_	start_char=9940|end_char=9941
 24-25	that's	_	_	_	_	_	_	_	start_char=9942|end_char=9948
 24	that	that	PRON	DT	Number=Sing|PronType=Dem	27	nsubj	_	start_char=9942|end_char=9946
@@ -2405,13 +2404,13 @@
 26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	start_char=9949|end_char=9950
 27	lot	lot	NOUN	NN	Number=Sing	15	parataxis	_	start_char=9951|end_char=9954
 28	of	of	ADP	IN	_	29	case	_	start_char=9955|end_char=9957
-29	power	power	NOUN	NN	Number=Sing	27	nmod	_	start_char=9958|end_char=9963|SpaceAfter=No
-30	.	.	PUNCT	.	_	15	punct	_	start_char=9963|end_char=9964|SpacesAfter=\n\n
+29	power	power	NOUN	NN	Number=Sing	27	nmod	_	SpaceAfter=No|start_char=9958|end_char=9963
+30	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\n\n|start_char=9963|end_char=9964
 
 # text = I mean, now we're talking about 100 megawatts.
 # sent_id = 80
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=9966|end_char=9967
-2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	parataxis	_	start_char=9968|end_char=9972|SpaceAfter=No
+2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	parataxis	_	SpaceAfter=No|start_char=9968|end_char=9972
 3	,	,	PUNCT	,	_	2	punct	_	start_char=9972|end_char=9973
 4	now	now	ADV	RB	_	7	advmod	_	start_char=9974|end_char=9977
 5-6	we're	_	_	_	_	_	_	_	start_char=9978|end_char=9983
@@ -2420,8 +2419,8 @@
 7	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=9984|end_char=9991
 8	about	about	ADV	RB	_	9	advmod	_	start_char=9992|end_char=9997
 9	100	100	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	_	start_char=9998|end_char=10001
-10	megawatts	megawatt	NOUN	NNS	Number=Plur	7	obj	_	start_char=10002|end_char=10011|SpaceAfter=No
-11	.	.	PUNCT	.	_	7	punct	_	start_char=10011|end_char=10012|SpacesAfter=\n\n
+10	megawatts	megawatt	NOUN	NNS	Number=Plur	7	obj	_	SpaceAfter=No|start_char=10002|end_char=10011
+11	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n\n|start_char=10011|end_char=10012
 
 # text = That's a ton of power.
 # sent_id = 81
@@ -2431,8 +2430,8 @@
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=10021|end_char=10022
 4	ton	ton	NOUN	NN	Number=Sing	0	root	_	start_char=10023|end_char=10026
 5	of	of	ADP	IN	_	6	case	_	start_char=10027|end_char=10029
-6	power	power	NOUN	NN	Number=Sing	4	nmod	_	start_char=10030|end_char=10035|SpaceAfter=No
-7	.	.	PUNCT	.	_	4	punct	_	start_char=10035|end_char=10036|SpacesAfter=\n\n
+6	power	power	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No|start_char=10030|end_char=10035
+7	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=10035|end_char=10036
 
 # text = That could power a Martian community.
 # sent_id = 82
@@ -2441,8 +2440,8 @@
 3	power	power	VERB	VB	VerbForm=Inf	0	root	_	start_char=10049|end_char=10054
 4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=10055|end_char=10056
 5	Martian	Martian	PROPN	NNP	Number=Sing	6	compound	_	start_char=10057|end_char=10064
-6	community	community	NOUN	NN	Number=Sing	3	obj	_	start_char=10065|end_char=10074|SpaceAfter=No
-7	.	.	PUNCT	.	_	3	punct	_	start_char=10074|end_char=10075|SpacesAfter=\n\n
+6	community	community	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No|start_char=10065|end_char=10074
+7	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=10074|end_char=10075
 
 # text = That could power a rocket there.
 # sent_id = 83
@@ -2451,8 +2450,8 @@
 3	power	power	VERB	VB	VerbForm=Inf	0	root	_	start_char=10088|end_char=10093
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=10094|end_char=10095
 5	rocket	rocket	NOUN	NN	Number=Sing	3	obj	_	start_char=10096|end_char=10102
-6	there	there	ADV	RB	PronType=Dem	3	advmod	_	start_char=10103|end_char=10108|SpaceAfter=No
-7	.	.	PUNCT	.	_	3	punct	_	start_char=10108|end_char=10109|SpacesAfter=\n\n
+6	there	there	ADV	RB	PronType=Dem	3	advmod	_	SpaceAfter=No|start_char=10103|end_char=10108
+7	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=10108|end_char=10109
 
 # text = And so I hope that maybe I'll have an opportunity to kind of explore my rocketry passion at the same time that I explore my nuclear passion.
 # sent_id = 84
@@ -2484,42 +2483,42 @@
 25	explore	explore	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	start_char=10224|end_char=10231
 26	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	28	nmod:poss	_	start_char=10232|end_char=10234
 27	nuclear	nuclear	ADJ	JJ	Degree=Pos	28	amod	_	start_char=10235|end_char=10242
-28	passion	passion	NOUN	NN	Number=Sing	25	obj	_	start_char=10243|end_char=10250|SpaceAfter=No
-29	.	.	PUNCT	.	_	4	punct	_	start_char=10250|end_char=10251|SpacesAfter=\n\n
+28	passion	passion	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No|start_char=10243|end_char=10250
+29	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=10250|end_char=10251
 
 # text = And people say, "Oh, well, you've launched this thing, and it's radioactive, into space, and what about accidents?"
 # sent_id = 85
 1	And	and	CCONJ	CC	_	3	cc	_	start_char=10253|end_char=10256
 2	people	person	NOUN	NNS	Number=Plur	3	nsubj	_	start_char=10257|end_char=10263
-3	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=10264|end_char=10267|SpaceAfter=No
+3	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=10264|end_char=10267
 4	,	,	PUNCT	,	_	12	punct	_	start_char=10267|end_char=10268
-5	"	"	PUNCT	``	_	12	punct	_	start_char=10269|end_char=10270|SpaceAfter=No
-6	Oh	oh	INTJ	UH	_	12	discourse	_	start_char=10270|end_char=10272|SpaceAfter=No
+5	"	"	PUNCT	``	_	12	punct	_	SpaceAfter=No|start_char=10269|end_char=10270
+6	Oh	oh	INTJ	UH	_	12	discourse	_	SpaceAfter=No|start_char=10270|end_char=10272
 7	,	,	PUNCT	,	_	6	punct	_	start_char=10272|end_char=10273
-8	well	well	INTJ	UH	_	12	discourse	_	start_char=10274|end_char=10278|SpaceAfter=No
+8	well	well	INTJ	UH	_	12	discourse	_	SpaceAfter=No|start_char=10274|end_char=10278
 9	,	,	PUNCT	,	_	8	punct	_	start_char=10278|end_char=10279
 10-11	you've	_	_	_	_	_	_	_	start_char=10280|end_char=10286
 10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	start_char=10280|end_char=10283
 11	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=10283|end_char=10286
 12	launched	launch	VERB	VBN	Tense=Past|VerbForm=Part	3	ccomp	_	start_char=10287|end_char=10295
 13	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	_	start_char=10296|end_char=10300
-14	thing	thing	NOUN	NN	Number=Sing	12	obj	_	start_char=10301|end_char=10306|SpaceAfter=No
+14	thing	thing	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No|start_char=10301|end_char=10306
 15	,	,	PUNCT	,	_	19	punct	_	start_char=10306|end_char=10307
 16	and	and	CCONJ	CC	_	19	cc	_	start_char=10308|end_char=10311
 17-18	it's	_	_	_	_	_	_	_	start_char=10312|end_char=10316
 17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	start_char=10312|end_char=10314
 18	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=10314|end_char=10316
-19	radioactive	radioactive	ADJ	JJ	Degree=Pos	12	conj	_	start_char=10317|end_char=10328|SpaceAfter=No
+19	radioactive	radioactive	ADJ	JJ	Degree=Pos	12	conj	_	SpaceAfter=No|start_char=10317|end_char=10328
 20	,	,	PUNCT	,	_	22	punct	_	start_char=10328|end_char=10329
 21	into	into	ADP	IN	_	22	case	_	start_char=10330|end_char=10334
-22	space	space	NOUN	NN	Number=Sing	19	obl	_	start_char=10335|end_char=10340|SpaceAfter=No
+22	space	space	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No|start_char=10335|end_char=10340
 23	,	,	PUNCT	,	_	25	punct	_	start_char=10340|end_char=10341
 24	and	and	CCONJ	CC	_	25	cc	_	start_char=10342|end_char=10345
 25	what	what	PRON	WP	PronType=Int	19	conj	_	start_char=10346|end_char=10350
 26	about	about	ADP	IN	_	27	case	_	start_char=10351|end_char=10356
-27	accidents	accident	NOUN	NNS	Number=Plur	25	nmod	_	start_char=10357|end_char=10366|SpaceAfter=No
-28	?	?	PUNCT	.	_	12	punct	_	start_char=10366|end_char=10367|SpaceAfter=No
-29	"	"	PUNCT	''	_	12	punct	_	start_char=10367|end_char=10368|SpacesAfter=\n\n
+27	accidents	accident	NOUN	NNS	Number=Plur	25	nmod	_	SpaceAfter=No|start_char=10357|end_char=10366
+28	?	?	PUNCT	.	_	12	punct	_	SpaceAfter=No|start_char=10366|end_char=10367
+29	"	"	PUNCT	''	_	12	punct	_	SpacesAfter=\n\n|start_char=10367|end_char=10368
 
 # text = But we launch plutonium batteries all the time.
 # sent_id = 86
@@ -2530,8 +2529,8 @@
 5	batteries	battery	NOUN	NNS	Number=Plur	3	obj	_	start_char=10394|end_char=10403
 6	all	all	DET	PDT	PronType=Tot	8	det:predet	_	start_char=10404|end_char=10407
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=10408|end_char=10411
-8	time	time	NOUN	NN	Number=Sing	3	obl:unmarked	_	start_char=10412|end_char=10416|SpaceAfter=No
-9	.	.	PUNCT	.	_	3	punct	_	start_char=10416|end_char=10417|SpacesAfter=\n\n
+8	time	time	NOUN	NN	Number=Sing	3	obl:unmarked	_	SpaceAfter=No|start_char=10412|end_char=10416
+9	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=10416|end_char=10417
 
 # text = Everybody was really excited about Curiosity, and that had this big plutonium battery on board that has plutonium-238, which actually has a higher specific activity than the low-enriched uranium fuel of these molten salt reactors, which means that the effects would be negligible, because you launch it cold, and when it gets into space is where you actually activate this reactor.
 # sent_id = 87
@@ -2540,7 +2539,7 @@
 3	really	really	ADV	RB	_	4	advmod	_	start_char=10433|end_char=10439
 4	excited	excited	ADJ	JJ	Degree=Pos	0	root	_	start_char=10440|end_char=10447
 5	about	about	ADP	IN	_	6	case	_	start_char=10448|end_char=10453
-6	Curiosity	Curiosity	PROPN	NNP	Number=Sing	4	obl	_	start_char=10454|end_char=10463|SpaceAfter=No
+6	Curiosity	Curiosity	PROPN	NNP	Number=Sing	4	obl	_	SpaceAfter=No|start_char=10454|end_char=10463
 7	,	,	PUNCT	,	_	10	punct	_	start_char=10463|end_char=10464
 8	and	and	CCONJ	CC	_	10	cc	_	start_char=10465|end_char=10468
 9	that	that	PRON	DT	Number=Sing|PronType=Dem	10	nsubj	_	start_char=10469|end_char=10473
@@ -2553,9 +2552,9 @@
 16	board	board	NOUN	NN	Number=Sing	10	obl	_	start_char=10508|end_char=10513
 17	that	that	PRON	WDT	PronType=Rel	18	nsubj	_	start_char=10514|end_char=10518
 18	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	start_char=10519|end_char=10522
-19	plutonium	plutonium	NOUN	NN	Number=Sing	18	obj	_	start_char=10523|end_char=10532|SpaceAfter=No
-20	-	-	PUNCT	HYPH	_	21	punct	_	start_char=10532|end_char=10533|SpaceAfter=No
-21	238	238	NUM	CD	NumForm=Digit|NumType=Card	19	nummod	_	start_char=10533|end_char=10536|SpaceAfter=No
+19	plutonium	plutonium	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No|start_char=10523|end_char=10532
+20	-	-	PUNCT	HYPH	_	21	punct	_	SpaceAfter=No|start_char=10532|end_char=10533
+21	238	238	NUM	CD	NumForm=Digit|NumType=Card	19	nummod	_	SpaceAfter=No|start_char=10533|end_char=10536
 22	,	,	PUNCT	,	_	25	punct	_	start_char=10536|end_char=10537
 23	which	which	PRON	WDT	PronType=Rel	25	nsubj	_	start_char=10538|end_char=10543
 24	actually	actually	ADV	RB	_	25	advmod	_	start_char=10544|end_char=10552
@@ -2566,8 +2565,8 @@
 29	activity	activity	NOUN	NN	Number=Sing	25	obj	_	start_char=10575|end_char=10583
 30	than	than	ADP	IN	_	36	case	_	start_char=10584|end_char=10588
 31	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	start_char=10589|end_char=10592
-32	low	low	ADJ	JJ	Degree=Pos	34	amod	_	start_char=10593|end_char=10596|SpaceAfter=No
-33	-	-	PUNCT	HYPH	_	32	punct	_	start_char=10596|end_char=10597|SpaceAfter=No
+32	low	low	ADJ	JJ	Degree=Pos	34	amod	_	SpaceAfter=No|start_char=10593|end_char=10596
+33	-	-	PUNCT	HYPH	_	32	punct	_	SpaceAfter=No|start_char=10596|end_char=10597
 34	enriched	enrich	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	36	amod	_	start_char=10597|end_char=10605
 35	uranium	uranium	NOUN	NN	Number=Sing	36	compound	_	start_char=10606|end_char=10613
 36	fuel	fuel	NOUN	NN	Number=Sing	29	nmod	_	start_char=10614|end_char=10618
@@ -2575,7 +2574,7 @@
 38	these	this	DET	DT	Number=Plur|PronType=Dem	41	det	_	start_char=10622|end_char=10627
 39	molten	molt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	41	amod	_	start_char=10628|end_char=10634
 40	salt	salt	NOUN	NN	Number=Sing	41	compound	_	start_char=10635|end_char=10639
-41	reactors	reactor	NOUN	NNS	Number=Plur	36	nmod	_	start_char=10640|end_char=10648|SpaceAfter=No
+41	reactors	reactor	NOUN	NNS	Number=Plur	36	nmod	_	SpaceAfter=No|start_char=10640|end_char=10648
 42	,	,	PUNCT	,	_	44	punct	_	start_char=10648|end_char=10649
 43	which	which	PRON	WDT	PronType=Rel	44	nsubj	_	start_char=10650|end_char=10655
 44	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	start_char=10656|end_char=10661
@@ -2584,13 +2583,13 @@
 47	effects	effect	NOUN	NNS	Number=Plur	50	nsubj	_	start_char=10671|end_char=10678
 48	would	would	AUX	MD	VerbForm=Fin	50	aux	_	start_char=10679|end_char=10684
 49	be	be	AUX	VB	VerbForm=Inf	50	cop	_	start_char=10685|end_char=10687
-50	negligible	negligible	ADJ	JJ	Degree=Pos	44	ccomp	_	start_char=10688|end_char=10698|SpaceAfter=No
+50	negligible	negligible	ADJ	JJ	Degree=Pos	44	ccomp	_	SpaceAfter=No|start_char=10688|end_char=10698
 51	,	,	PUNCT	,	_	54	punct	_	start_char=10698|end_char=10699
 52	because	because	SCONJ	IN	_	54	mark	_	start_char=10700|end_char=10707
 53	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	54	nsubj	_	start_char=10708|end_char=10711
 54	launch	launch	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	50	advcl	_	start_char=10712|end_char=10718
 55	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	54	obj	_	start_char=10719|end_char=10721
-56	cold	cold	ADJ	JJ	Degree=Pos	54	xcomp	_	start_char=10722|end_char=10726|SpaceAfter=No
+56	cold	cold	ADJ	JJ	Degree=Pos	54	xcomp	_	SpaceAfter=No|start_char=10722|end_char=10726
 57	,	,	PUNCT	,	_	68	punct	_	start_char=10726|end_char=10727
 58	and	and	CCONJ	CC	_	68	cc	_	start_char=10728|end_char=10731
 59	when	when	ADV	WRB	PronType=Int	61	advmod	_	start_char=10732|end_char=10736
@@ -2604,8 +2603,8 @@
 67	actually	actually	ADV	RB	_	68	advmod	_	start_char=10769|end_char=10777
 68	activate	activate	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	54	conj	_	start_char=10778|end_char=10786
 69	this	this	DET	DT	Number=Sing|PronType=Dem	70	det	_	start_char=10787|end_char=10791
-70	reactor	reactor	NOUN	NN	Number=Sing	68	obj	_	start_char=10792|end_char=10799|SpaceAfter=No
-71	.	.	PUNCT	.	_	4	punct	_	start_char=10799|end_char=10800|SpacesAfter=\n\n
+70	reactor	reactor	NOUN	NN	Number=Sing	68	obj	_	SpaceAfter=No|start_char=10792|end_char=10799
+71	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n\n|start_char=10799|end_char=10800
 
 # text = So I'm really excited.
 # sent_id = 88
@@ -2614,8 +2613,8 @@
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=10805|end_char=10806
 3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=10806|end_char=10808
 4	really	really	ADV	RB	_	5	advmod	_	start_char=10809|end_char=10815
-5	excited	excited	ADJ	JJ	Degree=Pos	0	root	_	start_char=10816|end_char=10823|SpaceAfter=No
-6	.	.	PUNCT	.	_	5	punct	_	start_char=10823|end_char=10824|SpacesAfter=\n\n
+5	excited	excited	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No|start_char=10816|end_char=10823
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=10823|end_char=10824
 
 # text = I think that I've designed this reactor here that can be an innovative source of energy, provide power for all kinds of neat scientific applications, and I'm really prepared to do this.
 # sent_id = 89
@@ -2636,7 +2635,7 @@
 14	innovative	innovative	ADJ	JJ	Degree=Pos	15	amod	_	start_char=10886|end_char=10896
 15	source	source	NOUN	NN	Number=Sing	8	acl:relcl	_	start_char=10897|end_char=10903
 16	of	of	ADP	IN	_	17	case	_	start_char=10904|end_char=10906
-17	energy	energy	NOUN	NN	Number=Sing	15	nmod	_	start_char=10907|end_char=10913|SpaceAfter=No
+17	energy	energy	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No|start_char=10907|end_char=10913
 18	,	,	PUNCT	,	_	19	punct	_	start_char=10913|end_char=10914
 19	provide	provide	VERB	VB	VerbForm=Inf	6	conj	_	start_char=10915|end_char=10922
 20	power	power	NOUN	NN	Number=Sing	19	obj	_	start_char=10923|end_char=10928
@@ -2646,7 +2645,7 @@
 24	of	of	ADP	IN	_	27	case	_	start_char=10943|end_char=10945
 25	neat	neat	ADJ	JJ	Degree=Pos	27	amod	_	start_char=10946|end_char=10950
 26	scientific	scientific	ADJ	JJ	Degree=Pos	27	amod	_	start_char=10951|end_char=10961
-27	applications	application	NOUN	NNS	Number=Plur	23	nmod	_	start_char=10962|end_char=10974|SpaceAfter=No
+27	applications	application	NOUN	NNS	Number=Plur	23	nmod	_	SpaceAfter=No|start_char=10962|end_char=10974
 28	,	,	PUNCT	,	_	33	punct	_	start_char=10974|end_char=10975
 29	and	and	CCONJ	CC	_	33	cc	_	start_char=10976|end_char=10979
 30-31	I'm	_	_	_	_	_	_	_	start_char=10980|end_char=10983
@@ -2656,8 +2655,8 @@
 33	prepared	prepared	ADJ	JJ	Degree=Pos	2	conj	_	start_char=10991|end_char=10999
 34	to	to	PART	TO	_	35	mark	_	start_char=11000|end_char=11002
 35	do	do	VERB	VB	VerbForm=Inf	33	xcomp	_	start_char=11003|end_char=11005
-36	this	this	PRON	DT	Number=Sing|PronType=Dem	35	obj	_	start_char=11006|end_char=11010|SpaceAfter=No
-37	.	.	PUNCT	.	_	2	punct	_	start_char=11010|end_char=11011|SpacesAfter=\n\n
+36	this	this	PRON	DT	Number=Sing|PronType=Dem	35	obj	_	SpaceAfter=No|start_char=11006|end_char=11010
+37	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=11010|end_char=11011
 
 # text = I graduated high school in May, and — I graduated high school in May, and I decided that I was going to start up a company to commercialize these technologies that I've developed, these revolutionary detectors for scanning cargo containers and these systems to produce medical isotopes, but I want to do this, and I've slowly been building up a team of some of the most incredible people I've ever had the chance to work with, and I'm really prepared to make this a reality.
 # sent_id = 90
@@ -2666,7 +2665,7 @@
 3	high	high	ADJ	JJ	Degree=Pos	4	amod	_	start_char=11025|end_char=11029
 4	school	school	NOUN	NN	Number=Sing	2	obj	_	start_char=11030|end_char=11036
 5	in	in	ADP	IN	_	6	case	_	start_char=11037|end_char=11039
-6	May	May	PROPN	NNP	Number=Sing	2	obl	_	start_char=11040|end_char=11043|SpaceAfter=No
+6	May	May	PROPN	NNP	Number=Sing	2	obl	_	SpaceAfter=No|start_char=11040|end_char=11043
 7	,	,	PUNCT	,	_	11	punct	_	start_char=11043|end_char=11044
 8	and	and	CCONJ	CC	_	11	cc	_	start_char=11045|end_char=11048
 9	—	—	PUNCT	:	_	8	punct	_	start_char=11049|end_char=11050
@@ -2675,7 +2674,7 @@
 12	high	high	ADJ	JJ	Degree=Pos	13	amod	_	start_char=11063|end_char=11067
 13	school	school	NOUN	NN	Number=Sing	11	obj	_	start_char=11068|end_char=11074
 14	in	in	ADP	IN	_	15	case	_	start_char=11075|end_char=11077
-15	May	May	PROPN	NNP	Number=Sing	11	obl	_	start_char=11078|end_char=11081|SpaceAfter=No
+15	May	May	PROPN	NNP	Number=Sing	11	obl	_	SpaceAfter=No|start_char=11078|end_char=11081
 16	,	,	PUNCT	,	_	19	punct	_	start_char=11081|end_char=11082
 17	and	and	CCONJ	CC	_	19	cc	_	start_char=11083|end_char=11086
 18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	start_char=11087|end_char=11088
@@ -2697,7 +2696,7 @@
 34-35	I've	_	_	_	_	_	_	_	start_char=11177|end_char=11181
 34	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	36	nsubj	_	start_char=11177|end_char=11178
 35	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	36	aux	_	start_char=11178|end_char=11181
-36	developed	develop	VERB	VBN	Tense=Past|VerbForm=Part	32	acl:relcl	_	start_char=11182|end_char=11191|SpaceAfter=No
+36	developed	develop	VERB	VBN	Tense=Past|VerbForm=Part	32	acl:relcl	_	SpaceAfter=No|start_char=11182|end_char=11191
 37	,	,	PUNCT	,	_	40	punct	_	start_char=11191|end_char=11192
 38	these	this	DET	DT	Number=Plur|PronType=Dem	40	det	_	start_char=11193|end_char=11198
 39	revolutionary	revolutionary	ADJ	JJ	Degree=Pos	40	amod	_	start_char=11199|end_char=11212
@@ -2712,14 +2711,14 @@
 48	to	to	PART	TO	_	49	mark	_	start_char=11271|end_char=11273
 49	produce	produce	VERB	VB	VerbForm=Inf	25	advcl	_	start_char=11274|end_char=11281
 50	medical	medical	ADJ	JJ	Degree=Pos	51	amod	_	start_char=11282|end_char=11289
-51	isotopes	isotope	NOUN	NNS	Number=Plur	49	obj	_	start_char=11290|end_char=11298|SpaceAfter=No
+51	isotopes	isotope	NOUN	NNS	Number=Plur	49	obj	_	SpaceAfter=No|start_char=11290|end_char=11298
 52	,	,	PUNCT	,	_	55	punct	_	start_char=11298|end_char=11299
 53	but	but	CCONJ	CC	_	55	cc	_	start_char=11300|end_char=11303
 54	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	55	nsubj	_	start_char=11304|end_char=11305
 55	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=11306|end_char=11310
 56	to	to	PART	TO	_	57	mark	_	start_char=11311|end_char=11313
 57	do	do	VERB	VB	VerbForm=Inf	55	xcomp	_	start_char=11314|end_char=11316
-58	this	this	PRON	DT	Number=Sing|PronType=Dem	57	obj	_	start_char=11317|end_char=11321|SpaceAfter=No
+58	this	this	PRON	DT	Number=Sing|PronType=Dem	57	obj	_	SpaceAfter=No|start_char=11317|end_char=11321
 59	,	,	PUNCT	,	_	65	punct	_	start_char=11321|end_char=11322
 60	and	and	CCONJ	CC	_	65	cc	_	start_char=11323|end_char=11326
 61-62	I've	_	_	_	_	_	_	_	start_char=11327|end_char=11331
@@ -2747,7 +2746,7 @@
 81	chance	chance	NOUN	NN	Number=Sing	79	obj	_	start_char=11419|end_char=11425
 82	to	to	PART	TO	_	83	mark	_	start_char=11426|end_char=11428
 83	work	work	VERB	VB	VerbForm=Inf	81	acl	_	start_char=11429|end_char=11433
-84	with	with	ADP	IN	_	83	obl	_	start_char=11434|end_char=11438|SpaceAfter=No
+84	with	with	ADP	IN	_	83	obl	_	SpaceAfter=No|start_char=11434|end_char=11438
 85	,	,	PUNCT	,	_	90	punct	_	start_char=11438|end_char=11439
 86	and	and	CCONJ	CC	_	90	cc	_	start_char=11440|end_char=11443
 87-88	I'm	_	_	_	_	_	_	_	start_char=11444|end_char=11447
@@ -2759,23 +2758,23 @@
 92	make	make	VERB	VB	VerbForm=Inf	90	xcomp	_	start_char=11467|end_char=11471
 93	this	this	PRON	DT	Number=Sing|PronType=Dem	92	obj	_	start_char=11472|end_char=11476
 94	a	a	DET	DT	Definite=Ind|PronType=Art	95	det	_	start_char=11477|end_char=11478
-95	reality	reality	NOUN	NN	Number=Sing	92	xcomp	_	start_char=11479|end_char=11486|SpaceAfter=No
-96	.	.	PUNCT	.	_	2	punct	_	start_char=11486|end_char=11487|SpacesAfter=\n\n
+95	reality	reality	NOUN	NN	Number=Sing	92	xcomp	_	SpaceAfter=No|start_char=11479|end_char=11486
+96	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n\n|start_char=11486|end_char=11487
 
 # text = And I think, I think, that looking at the technology, this will be cheaper than or the same price as natural gas, and you don't have to refuel it for 30 years, which is an advantage for the developing world.
 # sent_id = 91
 1	And	and	CCONJ	CC	_	3	cc	_	start_char=11489|end_char=11492
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=11493|end_char=11494
-3	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=11495|end_char=11500|SpaceAfter=No
+3	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=11495|end_char=11500
 4	,	,	PUNCT	,	_	6	punct	_	start_char=11500|end_char=11501
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=11502|end_char=11503
-6	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=11504|end_char=11509|SpaceAfter=No
+6	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No|start_char=11504|end_char=11509
 7	,	,	PUNCT	,	_	17	punct	_	start_char=11509|end_char=11510
 8	that	that	SCONJ	IN	_	17	mark	_	start_char=11511|end_char=11515
 9	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	17	advcl	_	start_char=11516|end_char=11523
 10	at	at	ADP	IN	_	12	case	_	start_char=11524|end_char=11526
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=11527|end_char=11530
-12	technology	technology	NOUN	NN	Number=Sing	9	obl	_	start_char=11531|end_char=11541|SpaceAfter=No
+12	technology	technology	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No|start_char=11531|end_char=11541
 13	,	,	PUNCT	,	_	9	punct	_	start_char=11541|end_char=11542
 14	this	this	PRON	DT	Number=Sing|PronType=Dem	17	nsubj	_	start_char=11543|end_char=11547
 15	will	will	AUX	MD	VerbForm=Fin	17	aux	_	start_char=11548|end_char=11552
@@ -2788,7 +2787,7 @@
 22	price	price	NOUN	NN	Number=Sing	17	obl	_	start_char=11581|end_char=11586
 23	as	as	ADP	IN	_	25	case	_	start_char=11587|end_char=11589
 24	natural	natural	ADJ	JJ	Degree=Pos	25	amod	_	start_char=11590|end_char=11597
-25	gas	gas	NOUN	NN	Number=Sing	22	nmod	_	start_char=11598|end_char=11601|SpaceAfter=No
+25	gas	gas	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No|start_char=11598|end_char=11601
 26	,	,	PUNCT	,	_	31	punct	_	start_char=11601|end_char=11602
 27	and	and	CCONJ	CC	_	31	cc	_	start_char=11603|end_char=11606
 28	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	31	nsubj	_	start_char=11607|end_char=11610
@@ -2801,7 +2800,7 @@
 34	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	obj	_	start_char=11632|end_char=11634
 35	for	for	ADP	IN	_	37	case	_	start_char=11635|end_char=11638
 36	30	30	NUM	CD	NumForm=Digit|NumType=Card	37	nummod	_	start_char=11639|end_char=11641
-37	years	year	NOUN	NNS	Number=Plur	33	obl	_	start_char=11642|end_char=11647|SpaceAfter=No
+37	years	year	NOUN	NNS	Number=Plur	33	obl	_	SpaceAfter=No|start_char=11642|end_char=11647
 38	,	,	PUNCT	,	_	42	punct	_	start_char=11647|end_char=11648
 39	which	which	PRON	WDT	PronType=Rel	42	nsubj	_	start_char=11649|end_char=11654
 40	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	start_char=11655|end_char=11657
@@ -2810,8 +2809,8 @@
 43	for	for	ADP	IN	_	46	case	_	start_char=11671|end_char=11674
 44	the	the	DET	DT	Definite=Def|PronType=Art	46	det	_	start_char=11675|end_char=11678
 45	developing	develop	NOUN	NN	Number=Sing	46	compound	_	start_char=11679|end_char=11689
-46	world	world	NOUN	NN	Number=Sing	42	nmod	_	start_char=11690|end_char=11695|SpaceAfter=No
-47	.	.	PUNCT	.	_	3	punct	_	start_char=11695|end_char=11696|SpacesAfter=\n\n
+46	world	world	NOUN	NN	Number=Sing	42	nmod	_	SpaceAfter=No|start_char=11690|end_char=11695
+47	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=11695|end_char=11696
 
 # text = And I'll just say one more maybe philosophical thing to end with, which is weird for a scientist.
 # sent_id = 92
@@ -2828,15 +2827,15 @@
 10	thing	thing	NOUN	NN	Number=Sing	5	obj	_	start_char=11745|end_char=11750
 11	to	to	PART	TO	_	12	mark	_	start_char=11751|end_char=11753
 12	end	end	VERB	VB	VerbForm=Inf	10	acl	_	start_char=11754|end_char=11757
-13	with	with	ADP	IN	_	12	obl	_	start_char=11758|end_char=11762|SpaceAfter=No
+13	with	with	ADP	IN	_	12	obl	_	SpaceAfter=No|start_char=11758|end_char=11762
 14	,	,	PUNCT	,	_	17	punct	_	start_char=11762|end_char=11763
 15	which	which	PRON	WDT	PronType=Rel	17	nsubj	_	start_char=11764|end_char=11769
 16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=11770|end_char=11772
 17	weird	weird	ADJ	JJ	Degree=Pos	10	acl:relcl	_	start_char=11773|end_char=11778
 18	for	for	ADP	IN	_	20	case	_	start_char=11779|end_char=11782
 19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	start_char=11783|end_char=11784
-20	scientist	scientist	NOUN	NN	Number=Sing	17	obl	_	start_char=11785|end_char=11794|SpaceAfter=No
-21	.	.	PUNCT	.	_	5	punct	_	start_char=11794|end_char=11795|SpacesAfter=\n\n
+20	scientist	scientist	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No|start_char=11785|end_char=11794
+21	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=11794|end_char=11795
 
 # text = But I think there's something really poetic about using nuclear power to propel us to the stars, because the stars are giant fusion reactors.
 # sent_id = 93
@@ -2858,7 +2857,7 @@
 15	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	14	obj	_	start_char=11877|end_char=11879
 16	to	to	ADP	IN	_	18	case	_	start_char=11880|end_char=11882
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=11883|end_char=11886
-18	stars	star	NOUN	NNS	Number=Plur	14	obl	_	start_char=11887|end_char=11892|SpaceAfter=No
+18	stars	star	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No|start_char=11887|end_char=11892
 19	,	,	PUNCT	,	_	26	punct	_	start_char=11892|end_char=11893
 20	because	because	SCONJ	IN	_	26	mark	_	start_char=11894|end_char=11901
 21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	start_char=11902|end_char=11905
@@ -2866,8 +2865,8 @@
 23	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	start_char=11912|end_char=11915
 24	giant	giant	ADJ	JJ	Degree=Pos	26	amod	_	start_char=11916|end_char=11921
 25	fusion	fusion	NOUN	NN	Number=Sing	26	compound	_	start_char=11922|end_char=11928
-26	reactors	reactor	NOUN	NNS	Number=Plur	14	advcl	_	start_char=11929|end_char=11937|SpaceAfter=No
-27	.	.	PUNCT	.	_	3	punct	_	start_char=11937|end_char=11938|SpacesAfter=\n\n
+26	reactors	reactor	NOUN	NNS	Number=Plur	14	advcl	_	SpaceAfter=No|start_char=11929|end_char=11937
+27	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n\n|start_char=11937|end_char=11938
 
 # text = They're giant nuclear cauldrons in the sky.
 # sent_id = 94
@@ -2879,8 +2878,8 @@
 5	cauldrons	cauldron	NOUN	NNS	Number=Plur	0	root	_	start_char=11962|end_char=11971
 6	in	in	ADP	IN	_	8	case	_	start_char=11972|end_char=11974
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=11975|end_char=11978
-8	sky	sky	NOUN	NN	Number=Sing	5	nmod	_	start_char=11979|end_char=11982|SpaceAfter=No
-9	.	.	PUNCT	.	_	5	punct	_	start_char=11982|end_char=11983|SpacesAfter=\n\n
+8	sky	sky	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No|start_char=11979|end_char=11982
+9	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n\n|start_char=11982|end_char=11983
 
 # text = The energy that I'm able to talk to you today, while it was converted to chemical energy in my food, originally came from a nuclear reaction, and so there's something poetic about, in my opinion, perfecting nuclear fission and using it as a future source of innovative energy.
 # sent_id = 95
@@ -2895,7 +2894,7 @@
 8	talk	talk	VERB	VB	VerbForm=Inf	6	xcomp	_	start_char=12013|end_char=12017
 9	to	to	ADP	IN	_	10	case	_	start_char=12018|end_char=12020
 10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	obl	_	start_char=12021|end_char=12024
-11	today	today	NOUN	NN	Number=Sing	8	obl:unmarked	_	start_char=12025|end_char=12030|SpaceAfter=No
+11	today	today	NOUN	NN	Number=Sing	8	obl:unmarked	_	SpaceAfter=No|start_char=12025|end_char=12030
 12	,	,	PUNCT	,	_	2	punct	_	start_char=12030|end_char=12031
 13	while	while	SCONJ	IN	_	16	mark	_	start_char=12032|end_char=12037
 14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj:pass	_	start_char=12038|end_char=12040
@@ -2906,14 +2905,14 @@
 19	energy	energy	NOUN	NN	Number=Sing	16	obl	_	start_char=12067|end_char=12073
 20	in	in	ADP	IN	_	22	case	_	start_char=12074|end_char=12076
 21	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	start_char=12077|end_char=12079
-22	food	food	NOUN	NN	Number=Sing	16	obl	_	start_char=12080|end_char=12084|SpaceAfter=No
+22	food	food	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No|start_char=12080|end_char=12084
 23	,	,	PUNCT	,	_	2	punct	_	start_char=12084|end_char=12085
 24	originally	originally	ADV	RB	_	25	advmod	_	start_char=12086|end_char=12096
 25	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=12097|end_char=12101
 26	from	from	ADP	IN	_	29	case	_	start_char=12102|end_char=12106
 27	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	start_char=12107|end_char=12108
 28	nuclear	nuclear	ADJ	JJ	Degree=Pos	29	amod	_	start_char=12109|end_char=12116
-29	reaction	reaction	NOUN	NN	Number=Sing	25	obl	_	start_char=12117|end_char=12125|SpaceAfter=No
+29	reaction	reaction	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No|start_char=12117|end_char=12125
 30	,	,	PUNCT	,	_	34	punct	_	start_char=12125|end_char=12126
 31	and	and	CCONJ	CC	_	34	cc	_	start_char=12127|end_char=12130
 32	so	so	ADV	RB	_	34	advmod	_	start_char=12131|end_char=12133
@@ -2922,11 +2921,11 @@
 34	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	conj	_	start_char=12139|end_char=12141
 35	something	something	PRON	NN	Number=Sing|PronType=Ind	34	nsubj	_	start_char=12142|end_char=12151
 36	poetic	poetic	ADJ	JJ	Degree=Pos	35	amod	_	start_char=12152|end_char=12158
-37	about	about	ADP	IN	_	41	case	_	start_char=12159|end_char=12164|SpaceAfter=No
+37	about	about	ADP	IN	_	41	case	_	SpaceAfter=No|start_char=12159|end_char=12164
 38	,	,	PUNCT	,	_	37	punct	_	start_char=12164|end_char=12165
 39	in	in	ADP	IN	_	41	case	_	start_char=12166|end_char=12168
 40	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	41	nmod:poss	_	start_char=12169|end_char=12171
-41	opinion	opinion	NOUN	NN	Number=Sing	36	obl	_	start_char=12172|end_char=12179|SpaceAfter=No
+41	opinion	opinion	NOUN	NN	Number=Sing	36	obl	_	SpaceAfter=No|start_char=12172|end_char=12179
 42	,	,	PUNCT	,	_	43	punct	_	start_char=12179|end_char=12180
 43	perfecting	perfect	VERB	VBG	Tense=Pres|VerbForm=Part	34	advcl	_	start_char=12181|end_char=12191
 44	nuclear	nuclear	ADJ	JJ	Degree=Pos	45	amod	_	start_char=12192|end_char=12199
@@ -2940,13 +2939,13 @@
 52	source	source	NOUN	NN	Number=Sing	47	obl	_	start_char=12233|end_char=12239
 53	of	of	ADP	IN	_	55	case	_	start_char=12240|end_char=12242
 54	innovative	innovative	ADJ	JJ	Degree=Pos	55	amod	_	start_char=12243|end_char=12253
-55	energy	energy	NOUN	NN	Number=Sing	52	nmod	_	start_char=12254|end_char=12260|SpaceAfter=No
-56	.	.	PUNCT	.	_	25	punct	_	start_char=12260|end_char=12261|SpacesAfter=\n\n
+55	energy	energy	NOUN	NN	Number=Sing	52	nmod	_	SpaceAfter=No|start_char=12254|end_char=12260
+56	.	.	PUNCT	.	_	25	punct	_	SpacesAfter=\n\n|start_char=12260|end_char=12261
 
 # text = So thank you guys.
 # sent_id = 96
 1	So	so	ADV	RB	_	2	discourse	_	start_char=12263|end_char=12265
 2	thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=12266|end_char=12271
 3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obj	_	start_char=12272|end_char=12275
-4	guys	guy	NOUN	NNS	Number=Plur	2	obj	_	start_char=12276|end_char=12280|SpaceAfter=No
-5	.	.	PUNCT	.	_	2	punct	_	start_char=12280|end_char=12281|SpaceAfter=No
+4	guys	guy	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No|start_char=12276|end_char=12280
+5	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|start_char=12280|end_char=12281
