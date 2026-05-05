@@ -1,0 +1,1806 @@
+# text = Wir haben ein Dilemma.
+# sent_id = 0
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4|end_char=9
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=10|end_char=13
+4	Dilemma	Dilemma	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No|start_char=14|end_char=21
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=21|end_char=22
+
+# text = Die Weltbevölkerung steigt stetig.
+# sent_id = 1
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=23|end_char=26
+2	Weltbevölkerung	Weltbevölkerung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=27|end_char=42
+3	steigt	steigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=43|end_char=49
+4	stetig	stetig	ADJ	ADJD	Degree=Pos	3	advmod	_	SpaceAfter=No|start_char=50|end_char=56
+5	.	.	PUNCT	$.	_	3	punct	_	start_char=56|end_char=57
+
+# text = Die UN rechnet im Jahr 2050 mit mehr als 9,7 Milliarden Menschen auf diesem Planeten.
+# sent_id = 2
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=58|end_char=61
+2	UN	UN	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=62|end_char=64
+3	rechnet	rechnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=65|end_char=72
+4-5	im	_	_	_	_	_	_	_	start_char=73|end_char=75
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=76|end_char=80
+7	2050	2050	NUM	CARD	NumType=Card	6	nmod	_	start_char=81|end_char=85
+8	mit	mit	ADP	APPR	_	13	case	_	start_char=86|end_char=89
+9	mehr	mehr	ADV	ADV	_	11	advmod	_	start_char=90|end_char=94
+10	als	als	ADP	KOKOM	_	9	fixed	_	start_char=95|end_char=98
+11	9,7	9,7	NUM	CARD	NumType=Card	12	nummod	_	start_char=99|end_char=102
+12	Milliarden	Milliarde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	13	nmod	_	start_char=103|end_char=113
+13	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	obl	_	start_char=114|end_char=122
+14	auf	auf	ADP	APPR	_	16	case	_	start_char=123|end_char=126
+15	diesem	dieser	DET	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	start_char=127|end_char=133
+16	Planeten	Planet	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|start_char=134|end_char=142
+17	.	.	PUNCT	$.	_	3	punct	_	start_char=142|end_char=143
+
+# text = Und wir alle haben Bedürfnisse, für deren Deckungen wir Land benötigen.
+# sent_id = 3
+1	Und	und	CCONJ	KON	_	4	cc	_	start_char=144|end_char=147
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=148|end_char=151
+3	alle	alle	DET	PIS	Case=Nom|Number=Plur|PronType=Tot	2	det	_	start_char=152|end_char=156
+4	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=157|end_char=162
+5	Bedürfnisse	Bedürfnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	SpaceAfter=No|start_char=163|end_char=174
+6	,	,	PUNCT	$,	_	12	punct	_	start_char=174|end_char=175
+7	für	für	ADP	APPR	_	9	case	_	start_char=176|end_char=179
+8	deren	der	PRON	PRELAT	Case=Gen|Number=Plur|PronType=Dem,Rel	9	nmod:poss	_	start_char=180|end_char=185
+9	Deckungen	Deckung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	12	obl	_	start_char=186|end_char=195
+10	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	start_char=196|end_char=199
+11	Land	Land	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	start_char=200|end_char=204
+12	benötigen	benötigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	SpaceAfter=No|start_char=205|end_char=214
+13	.	.	PUNCT	$.	_	4	punct	_	start_char=214|end_char=215
+
+# text = Einmal brauchen wir Land, um unsere Nahrung zu produzieren, wir brauchen Land, um unsere Energie zu produzieren, z. B. aus solaren Freiflächenanlagen.
+# sent_id = 4
+1	Einmal	einmal	ADV	ADV	_	2	advmod	_	start_char=216|end_char=222
+2	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=223|end_char=231
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=232|end_char=235
+4	Land	Land	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No|start_char=236|end_char=240
+5	,	,	PUNCT	$,	_	10	punct	_	start_char=240|end_char=241
+6	um	um	ADP	KOUI	_	10	mark	_	start_char=242|end_char=244
+7	unsere	unser	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=245|end_char=251
+8	Nahrung	Nahrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=252|end_char=259
+9	zu	zu	PART	PTKZU	_	10	mark	_	start_char=260|end_char=262
+10	produzieren	produzieren	VERB	VVINF	VerbForm=Inf	2	advcl	_	SpaceAfter=No|start_char=263|end_char=274
+11	,	,	PUNCT	$,	_	13	punct	_	start_char=274|end_char=275
+12	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	start_char=276|end_char=279
+13	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=280|end_char=288
+14	Land	Land	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	SpaceAfter=No|start_char=289|end_char=293
+15	,	,	PUNCT	$,	_	20	punct	_	start_char=293|end_char=294
+16	um	um	ADP	KOUI	_	20	mark	_	start_char=295|end_char=297
+17	unsere	unser	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	18	det:poss	_	start_char=298|end_char=304
+18	Energie	Energie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	start_char=305|end_char=312
+19	zu	zu	PART	PTKZU	_	20	mark	_	start_char=313|end_char=315
+20	produzieren	produzieren	VERB	VVINF	VerbForm=Inf	13	advcl	_	SpaceAfter=No|start_char=316|end_char=327
+21	,	,	PUNCT	$,	_	26	punct	_	start_char=327|end_char=328
+22	z.	z.	ADP	APPRART	_	23	case	_	start_char=329|end_char=331
+23	B.	B.	X	NN	Case=Dat|Gender=Neut|Number=Sing	26	nmod	_	start_char=332|end_char=334
+24	aus	aus	ADP	APPR	_	26	case	_	start_char=335|end_char=338
+25	solaren	solar	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	start_char=339|end_char=346
+26	Freiflächenanlagen	Freiflächenanlage	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No|start_char=347|end_char=365
+27	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=365|end_char=366
+
+# text = und wir müssen natürlich alle irgendwo wohnen.
+# sent_id = 5
+1	und	und	CCONJ	KON	_	7	cc	_	start_char=368|end_char=371
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=372|end_char=375
+3	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=376|end_char=382
+4	natürlich	natürlich	ADJ	ADV	Degree=Pos	7	advmod	_	start_char=383|end_char=392
+5	alle	alle	DET	PIS	Case=Nom|Number=Plur|PronType=Tot	7	obj	_	start_char=393|end_char=397
+6	irgendwo	irgendwo	ADV	ADV	_	7	advmod	_	start_char=398|end_char=406
+7	wohnen	wohnen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=407|end_char=413
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=413|end_char=414
+
+# text = Diese drei Sektoren stehen in Konkurrenz zueinander.
+# sent_id = 6
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	start_char=415|end_char=420
+2	drei	drei	NUM	CARD	NumType=Card	3	nummod	_	start_char=421|end_char=425
+3	Sektoren	Sektor	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=426|end_char=434
+4	stehen	stehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=435|end_char=441
+5	in	in	ADP	APPR	_	6	case	_	start_char=442|end_char=444
+6	Konkurrenz	Konkurrenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=445|end_char=455
+7	zueinander	zueinander	ADV	PTKVZ	_	4	compound:prt	_	SpaceAfter=No|start_char=456|end_char=466
+8	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s|start_char=466|end_char=467
+
+# text = und nicht nur zueinander, sondern auch gegen die natürlichen Ökosysteme, die wir noch auf diesem Planeten haben.
+# sent_id = 7
+1	und	und	CCONJ	KON	_	4	cc	_	start_char=469|end_char=472
+2	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	start_char=473|end_char=478
+3	nur	nur	ADV	ADV	_	4	advmod	_	start_char=479|end_char=482
+4	zueinander	zueinander	ADV	ADV	_	0	root	_	SpaceAfter=No|start_char=483|end_char=493
+5	,	,	PUNCT	$,	_	11	punct	_	start_char=493|end_char=494
+6	sondern	sondern	CCONJ	KON	_	11	cc	_	start_char=495|end_char=502
+7	auch	auch	ADV	ADV	_	11	advmod	_	start_char=503|end_char=507
+8	gegen	gegen	ADP	APPR	_	11	case	_	start_char=508|end_char=513
+9	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=514|end_char=517
+10	natürlichen	natürlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	11	amod	_	start_char=518|end_char=529
+11	Ökosysteme	Ökosystem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	conj	_	SpaceAfter=No|start_char=530|end_char=540
+12	,	,	PUNCT	$,	_	19	punct	_	start_char=540|end_char=541
+13	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Dem,Rel	19	obj	_	start_char=542|end_char=545
+14	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	start_char=546|end_char=549
+15	noch	noch	ADV	ADV	_	19	advmod	_	start_char=550|end_char=554
+16	auf	auf	ADP	APPR	_	18	case	_	start_char=555|end_char=558
+17	diesem	dieser	DET	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	18	det	_	start_char=559|end_char=565
+18	Planeten	Planet	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	start_char=566|end_char=574
+19	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	SpaceAfter=No|start_char=575|end_char=580
+20	.	.	PUNCT	$.	_	4	punct	_	start_char=580|end_char=581
+
+# text = Vor allem zwischen der Landwirtschaft.
+# sent_id = 8
+1	Vor	vor	ADP	APPR	_	2	case	_	start_char=582|end_char=585
+2	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	5	nmod	_	start_char=586|end_char=591
+3	zwischen	zwischen	ADP	APPR	_	5	case	_	start_char=592|end_char=600
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=601|end_char=604
+5	Landwirtschaft	Landwirtschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=605|end_char=619
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s|start_char=619|end_char=620
+
+# text = und der Energieerzeugung hat sich diese Konkurrenz um Land in den letzten Jahren manifestiert.
+# sent_id = 9
+1	und	und	CCONJ	KON	_	3	cc	_	start_char=622|end_char=625
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=626|end_char=629
+3	Energieerzeugung	Energieerzeugung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl:arg	_	start_char=630|end_char=646
+4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=647|end_char=650
+5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	14	obj	_	start_char=651|end_char=655
+6	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	start_char=656|end_char=661
+7	Konkurrenz	Konkurrenz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	start_char=662|end_char=672
+8	um	um	ADP	APPR	_	9	case	_	start_char=673|end_char=675
+9	Land	Land	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	14	obl	_	start_char=676|end_char=680
+10	in	in	ADP	APPR	_	13	case	_	start_char=681|end_char=683
+11	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	13	det	_	start_char=684|end_char=687
+12	letzten	letzt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	13	amod	_	start_char=688|end_char=695
+13	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	14	obl	_	start_char=696|end_char=702
+14	manifestiert	manifestieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=703|end_char=715
+15	.	.	PUNCT	$.	_	14	punct	_	start_char=715|end_char=716
+
+# text = Vielerorts ersetzen Freiflächenanlagen ehemalige landwirtschaftliche Aktivitäten.
+# sent_id = 10
+1	Vielerorts	vielerorts	ADV	ADV	_	2	advmod	_	start_char=717|end_char=727
+2	ersetzen	ersetzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=728|end_char=736
+3	Freiflächenanlagen	Freiflächenanlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=737|end_char=755
+4	ehemalige	ehemalig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=756|end_char=765
+5	landwirtschaftliche	landwirtschaftlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=766|end_char=785
+6	Aktivitäten	Aktivität	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No|start_char=786|end_char=797
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=797|end_char=798
+
+# text = Es gibt noch eine weitere Entwicklung: durch den Klimawandel nehmen Starkwetterereignisse immer weiter zu.
+# sent_id = 11
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=799|end_char=801
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=802|end_char=806
+3	noch	noch	ADV	ADV	_	2	advmod	_	start_char=807|end_char=811
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=812|end_char=816
+5	weitere	weit	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	6	amod	_	start_char=817|end_char=824
+6	Entwicklung	Entwicklung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No|start_char=825|end_char=836
+7	:	:	PUNCT	$.	_	11	punct	_	start_char=836|end_char=837
+8	durch	durch	ADP	APPR	_	10	case	_	start_char=838|end_char=843
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=844|end_char=847
+10	Klimawandel	Klimawandel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	start_char=848|end_char=859
+11	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=860|end_char=866
+12	Starkwetterereignisse	Starkwetterereignis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	start_char=867|end_char=888
+13	immer	immer	ADV	ADV	_	11	advmod	_	start_char=889|end_char=894
+14	weiter	weiter	ADV	ADV	_	11	advmod	_	start_char=895|end_char=901
+15	zu	zu	ADP	PTKVZ	_	11	compound:prt	_	SpaceAfter=No|start_char=902|end_char=904
+16	.	.	PUNCT	$.	_	2	punct	_	start_char=904|end_char=905
+
+# text = Es kommt häufiger zu Dürre, zu Trockenheit,.
+# sent_id = 12
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=906|end_char=908
+2	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=909|end_char=914
+3	häufiger	häufig	ADJ	ADJD	Degree=Cmp	2	advmod	_	start_char=915|end_char=923
+4	zu	zu	ADP	APPR	_	5	case	_	start_char=924|end_char=926
+5	Dürre	Dürre	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|start_char=927|end_char=932
+6	,	,	PUNCT	$,	_	8	punct	_	start_char=932|end_char=933
+7	zu	zu	ADP	APPR	_	8	case	_	start_char=934|end_char=936
+8	Trockenheit	Trockenheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=937|end_char=948
+9	,	,	PUNCT	$,	_	8	punct	_	SpaceAfter=No|start_char=948|end_char=949
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=949|end_char=950
+
+# text = aber auch zu Hagel oder Starkregen.
+# sent_id = 13
+1	aber	aber	CCONJ	KON	_	4	cc	_	start_char=952|end_char=956
+2	auch	auch	ADV	ADV	_	4	advmod	_	start_char=957|end_char=961
+3	zu	zu	ADP	APPR	_	4	case	_	start_char=962|end_char=964
+4	Hagel	Hagel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	0	root	_	start_char=965|end_char=970
+5	oder	oder	CCONJ	KON	_	6	cc	_	start_char=971|end_char=975
+6	Starkregen	Starkregen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No|start_char=976|end_char=986
+7	.	.	PUNCT	$.	_	4	punct	_	start_char=986|end_char=987
+
+# text = Und wer leidet eigentlich vor allem unter diesen Entwicklungen?
+# sent_id = 14
+1	Und	und	CCONJ	KON	_	3	cc	_	start_char=988|end_char=991
+2	wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	3	nsubj	_	start_char=992|end_char=995
+3	leidet	leiden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=996|end_char=1002
+4	eigentlich	eigentlich	ADV	ADV	_	3	advmod	_	start_char=1003|end_char=1013
+5	vor	vor	ADP	APPR	_	6	case	_	start_char=1014|end_char=1017
+6	allem	alle	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot	3	obl	_	start_char=1018|end_char=1023
+7	unter	unter	ADP	APPR	_	9	case	_	start_char=1024|end_char=1029
+8	diesen	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Dem	9	det	_	start_char=1030|end_char=1036
+9	Entwicklungen	Entwicklung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No|start_char=1037|end_char=1050
+10	?	?	PUNCT	$.	_	3	punct	_	start_char=1050|end_char=1051
+
+# text = Das ist die Landwirtschaft.
+# sent_id = 15
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	nsubj	_	start_char=1052|end_char=1055
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1056|end_char=1059
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=1060|end_char=1063
+4	Landwirtschaft	Landwirtschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=1064|end_char=1078
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=1078|end_char=1079
+
+# text = Ernteausfälle belasten sie finanziell.
+# sent_id = 16
+1	Ernteausfälle	Ernteausfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	obj	_	start_char=1080|end_char=1093
+2	belasten	belasten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1094|end_char=1102
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=1103|end_char=1106
+4	finanziell	finanziell	ADJ	ADJD	Degree=Pos	2	advmod	_	SpaceAfter=No|start_char=1107|end_char=1117
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=1117|end_char=1118
+
+# text = Allein in Deutschland werden jedes Jahr Betriebe aufgegeben.
+# sent_id = 17
+1	Allein	allein	ADV	ADV	_	3	advmod	_	start_char=1119|end_char=1125
+2	in	in	ADP	APPR	_	3	case	_	start_char=1126|end_char=1128
+3	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	start_char=1129|end_char=1140
+4	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	aux:pass	_	start_char=1141|end_char=1147
+5	jedes	jeder	DET	PIAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	6	det	_	start_char=1148|end_char=1153
+6	Jahr	Jahr	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	obl	_	start_char=1154|end_char=1158
+7	Betriebe	Betrieb	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj:pass	_	start_char=1159|end_char=1167
+8	aufgegeben	aufgeben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=1168|end_char=1178
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=1178|end_char=1179
+
+# text = Um dieses Dilemma zu entschärfen, müssen wir alle gemeinsam daran arbeiten, der Landwirtschaft wieder eine Zukunftsperspektive zu geben.
+# sent_id = 18
+1	Um	um	ADP	KOUI	_	5	mark	_	start_char=1180|end_char=1182
+2	dieses	dieser	DET	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	start_char=1183|end_char=1189
+3	Dilemma	Dilemma	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=1190|end_char=1197
+4	zu	zu	PART	PTKZU	_	5	mark	_	start_char=1198|end_char=1200
+5	entschärfen	entschärfen	VERB	VVINF	VerbForm=Inf	12	advcl	_	SpaceAfter=No|start_char=1201|end_char=1212
+6	,	,	PUNCT	$,	_	5	punct	_	start_char=1212|end_char=1213
+7	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=1214|end_char=1220
+8	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	start_char=1221|end_char=1224
+9	alle	alle	DET	PIS	Case=Acc|Number=Plur|PronType=Tot	12	obl:arg	_	start_char=1225|end_char=1229
+10	gemeinsam	gemeinsam	ADJ	ADJD	Degree=Pos	12	advmod	_	start_char=1230|end_char=1239
+11	daran	daran	ADV	PAV	PronType=Dem	12	advmod	_	start_char=1240|end_char=1245
+12	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1246|end_char=1254
+13	,	,	PUNCT	$,	_	20	punct	_	start_char=1254|end_char=1255
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=1256|end_char=1259
+15	Landwirtschaft	Landwirtschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	obl:arg	_	start_char=1260|end_char=1274
+16	wieder	wieder	ADV	ADV	_	20	advmod	_	start_char=1275|end_char=1281
+17	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	18	det	_	start_char=1282|end_char=1286
+18	Zukunftsperspektive	Zukunftsperspektive	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	start_char=1287|end_char=1306
+19	zu	zu	PART	PTKZU	_	20	mark	_	start_char=1307|end_char=1309
+20	geben	geben	VERB	VVINF	VerbForm=Inf	11	acl	_	SpaceAfter=No|start_char=1310|end_char=1315
+21	.	.	PUNCT	$.	_	12	punct	_	start_char=1315|end_char=1316
+
+# text = Eine resiliente. und klimaneutrale Landwirtschaft aufzubauen.
+# sent_id = 19
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=1317|end_char=1321
+2	resiliente.	resilient	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	SpacesAfter=\s\s|start_char=1322|end_char=1333
+3	und	und	CCONJ	KON	_	4	cc	_	start_char=1335|end_char=1338
+4	klimaneutrale	klimaneutral	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	conj	_	start_char=1339|end_char=1352
+5	Landwirtschaft	Landwirtschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=1353|end_char=1367
+6	aufzubauen	aufbauen	VERB	VVIZU	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1368|end_char=1378
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=1378|end_char=1379
+
+# text = Und genau deshalb bin ich heute Abend hier.
+# sent_id = 20
+1	Und	und	CCONJ	KON	_	4	cc	_	start_char=1380|end_char=1383
+2	genau	genau	ADV	ADV	_	3	advmod	_	start_char=1384|end_char=1389
+3	deshalb	deshalb	ADV	PAV	_	4	advmod	_	start_char=1390|end_char=1397
+4	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1398|end_char=1401
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=1402|end_char=1405
+6	heute	heute	ADV	ADV	_	4	advmod	_	start_char=1406|end_char=1411
+7	Abend	Abend	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=1412|end_char=1417
+8	hier	hier	ADV	ADV	_	4	advmod	_	SpaceAfter=No|start_char=1418|end_char=1422
+9	.	.	PUNCT	$.	_	4	punct	_	start_char=1422|end_char=1423
+
+# text = Ich möchte über einen Ansatz reden: die Agri-Photovoltaik.
+# sent_id = 21
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=1424|end_char=1427
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux	_	start_char=1428|end_char=1434
+3	über	über	ADP	APPR	_	5	case	_	start_char=1435|end_char=1439
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=1440|end_char=1445
+5	Ansatz	Ansatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	start_char=1446|end_char=1452
+6	reden	reden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1453|end_char=1458
+7	:	:	PUNCT	$.	_	9	punct	_	start_char=1458|end_char=1459
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=1460|end_char=1463
+9	Agri	Agri	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	6	appos	_	SpaceAfter=No|start_char=1464|end_char=1468
+10	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No|start_char=1468|end_char=1469
+11	Photovoltaik	Photovoltaik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	flat	_	SpaceAfter=No|start_char=1469|end_char=1481
+12	.	.	PUNCT	$.	_	6	punct	_	start_char=1481|end_char=1482
+
+# text = Da hat man Landwirtschaft unten. und auf einer Höhe von drei bis fünf Metern oder auch höher, sodass landwirtschaftliche Maschinen darunter fahren können, befinden sich Photovoltaik-Module.
+# sent_id = 22
+1	Da	da	ADV	ADV	_	2	advmod	_	start_char=1483|end_char=1485
+2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1486|end_char=1489
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=1490|end_char=1493
+4	Landwirtschaft	Landwirtschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=1494|end_char=1508
+5	unten	unten	ADV	ADV	_	2	advmod	_	SpaceAfter=No|start_char=1509|end_char=1514
+6	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s|start_char=1514|end_char=1515
+7	und	und	CCONJ	KON	_	18	cc	_	start_char=1517|end_char=1520
+8	auf	auf	ADP	APPR	_	10	case	_	start_char=1521|end_char=1524
+9	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	10	det	_	start_char=1525|end_char=1530
+10	Höhe	Höhe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=1531|end_char=1535
+11	von	von	ADP	APPR	_	15	case	_	start_char=1536|end_char=1539
+12	drei	drei	NUM	CARD	NumType=Card	15	nummod	_	start_char=1540|end_char=1544
+13	bis	bis	ADP	KON	_	14	case	_	start_char=1545|end_char=1548
+14	fünf	fünf	NUM	CARD	NumType=Card	15	nmod	_	start_char=1549|end_char=1553
+15	Metern	Meter	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	nmod	_	start_char=1554|end_char=1560
+16	oder	oder	CCONJ	KON	_	18	cc	_	start_char=1561|end_char=1565
+17	auch	auch	ADV	ADV	_	18	advmod	_	start_char=1566|end_char=1570
+18	höher	hoch	ADJ	ADJD	Degree=Cmp	2	conj	_	SpaceAfter=No|start_char=1571|end_char=1576
+19	,	,	PUNCT	$,	_	24	punct	_	start_char=1576|end_char=1577
+20	sodass	sodass	SCONJ	KOUS	_	24	mark	_	start_char=1578|end_char=1584
+21	landwirtschaftliche	landwirtschaftlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	start_char=1585|end_char=1604
+22	Maschinen	Maschine	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	24	nsubj	_	start_char=1605|end_char=1614
+23	darunter	darunter	ADV	PAV	_	24	advmod	_	start_char=1615|end_char=1623
+24	fahren	fahren	VERB	VVINF	VerbForm=Inf	18	advcl	_	start_char=1624|end_char=1630
+25	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	SpaceAfter=No|start_char=1631|end_char=1637
+26	,	,	PUNCT	$,	_	24	punct	_	start_char=1637|end_char=1638
+27	befinden	befinden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=1639|end_char=1647
+28	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	27	expl:pv	_	start_char=1648|end_char=1652
+29	Photovoltaik	Photovoltaik	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	31	compound	_	SpaceAfter=No|start_char=1653|end_char=1665
+30	-	-	PUNCT	$(	_	29	punct	_	SpaceAfter=No|start_char=1665|end_char=1666
+31	Module	Modul	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	SpaceAfter=No|start_char=1666|end_char=1672
+32	.	.	PUNCT	$.	_	2	punct	_	start_char=1672|end_char=1673
+
+# text = Die Idee ist eigentlich ganz simpel: Landwirtschaft, solare Anlage, man packt beides auf eine Fläche.
+# sent_id = 23
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=1674|end_char=1677
+2	Idee	Idee	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=1678|end_char=1682
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1683|end_char=1686
+4	eigentlich	eigentlich	ADV	ADV	_	6	advmod	_	start_char=1687|end_char=1697
+5	ganz	ganz	ADV	ADV	_	6	advmod	_	start_char=1698|end_char=1702
+6	simpel	simpel	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1703|end_char=1709
+7	:	:	PUNCT	$.	_	8	punct	_	start_char=1709|end_char=1710
+8	Landwirtschaft	Landwirtschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	appos	_	SpaceAfter=No|start_char=1711|end_char=1725
+9	,	,	PUNCT	$,	_	11	punct	_	start_char=1725|end_char=1726
+10	solare	solar	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=1727|end_char=1733
+11	Anlage	Anlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No|start_char=1734|end_char=1740
+12	,	,	PUNCT	$,	_	14	punct	_	start_char=1740|end_char=1741
+13	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	14	nsubj	_	start_char=1742|end_char=1745
+14	packt	packen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	start_char=1746|end_char=1751
+15	beides	beide	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	14	obj	_	start_char=1752|end_char=1758
+16	auf	auf	ADP	APPR	_	18	case	_	start_char=1759|end_char=1762
+17	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	18	det	_	start_char=1763|end_char=1767
+18	Fläche	Fläche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No|start_char=1768|end_char=1774
+19	.	.	PUNCT	$.	_	6	punct	_	start_char=1774|end_char=1775
+
+# text = Natürlich müssen die Sektoren einander angepasst werden.
+# sent_id = 24
+1	Natürlich	natürlich	ADV	ADV	_	6	advmod	_	start_char=1776|end_char=1785
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=1786|end_char=1792
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=1793|end_char=1796
+4	Sektoren	Sektor	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj:pass	_	start_char=1797|end_char=1805
+5	einander	einander	ADV	ADV	_	6	advmod	_	start_char=1806|end_char=1814
+6	angepasst	anpassen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=1815|end_char=1824
+7	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	6	aux:pass	_	SpaceAfter=No|start_char=1825|end_char=1831
+8	.	.	PUNCT	$.	_	6	punct	_	start_char=1831|end_char=1832
+
+# text = Dabei ist Licht Management sehr wichtig, denn Pflanzen brauchen Licht zum wachsen.
+# sent_id = 25
+1	Dabei	dabei	ADV	PAV	_	6	advmod	_	start_char=1833|end_char=1838
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1839|end_char=1842
+3	Licht	Licht	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=1843|end_char=1848
+4	Management	Management	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=1849|end_char=1859
+5	sehr	sehr	ADV	ADV	_	6	advmod	_	start_char=1860|end_char=1864
+6	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1865|end_char=1872
+7	,	,	PUNCT	$,	_	10	punct	_	start_char=1872|end_char=1873
+8	denn	denn	SCONJ	KON	_	10	mark	_	start_char=1874|end_char=1878
+9	Pflanzen	Pflanze	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=1879|end_char=1887
+10	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	start_char=1888|end_char=1896
+11	Licht	Licht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	start_char=1897|end_char=1902
+12-13	zum	_	_	_	_	_	_	_	start_char=1903|end_char=1906
+12	zu	zu	ADP	APPR	_	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
+14	wachsen	wachsen	VERB	VVINF	VerbForm=Inf	10	xcomp	_	SpaceAfter=No|start_char=1907|end_char=1914
+15	.	.	PUNCT	$.	_	6	punct	_	start_char=1914|end_char=1915
+
+# text = Um genug Licht durchzulassen, muss man z.
+# sent_id = 26
+1	Um	um	ADP	KOUI	_	4	mark	_	start_char=1916|end_char=1918
+2	genug	genug	DET	PIAT	Gender=Neut|PronType=Ind	4	advmod	_	start_char=1919|end_char=1924
+3	Licht	Licht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	start_char=1925|end_char=1930
+4	durchzulassen	durchlassen	VERB	VVIZU	VerbForm=Inf	6	advcl	_	SpaceAfter=No|start_char=1931|end_char=1944
+5	,	,	PUNCT	$,	_	4	punct	_	start_char=1944|end_char=1945
+6	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1946|end_char=1950
+7	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=1951|end_char=1954
+8	z.	z.	X	XY	_	6	advmod	_	start_char=1955|end_char=1957
+
+# text = B. die Photovoltaik-Module etwas weiter auseinander stellen.
+# sent_id = 27
+1	B.	B.	X	NE	Case=Nom|Gender=Neut|Number=Sing	9	dep	_	start_char=1958|end_char=1960
+2	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=1961|end_char=1964
+3	Photovoltaik	Photovoltaik	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	compound	_	SpaceAfter=No|start_char=1965|end_char=1977
+4	-	-	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=1977|end_char=1978
+5	Module	Modul	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	nsubj	_	start_char=1978|end_char=1984
+6	etwas	etwas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	9	obj	_	start_char=1985|end_char=1990
+7	weiter	weit	ADJ	ADV	Degree=Cmp	9	advmod	_	start_char=1991|end_char=1997
+8	auseinander	auseinander	ADV	ADV	_	9	advmod	_	start_char=1998|end_char=2009
+9	stellen	stellen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2010|end_char=2017
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=2017|end_char=2018
+
+# text = Dadurch hat man ein bisschen weniger Stromertrag wie auf einer vergleichbaren Freiflächenanlage.
+# sent_id = 28
+1	Dadurch	dadurch	ADV	PAV	PronType=Dem	2	advmod	_	start_char=2019|end_char=2026
+2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2027|end_char=2030
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=2031|end_char=2034
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=2035|end_char=2038
+5	bisschen	bisschen	ADV	PIAT	PronType=Ind	6	advmod	_	start_char=2039|end_char=2047
+6	weniger	wenig	DET	PIAT	PronType=Ind	7	det	_	start_char=2048|end_char=2055
+7	Stromertrag	Stromertrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=2056|end_char=2067
+8	wie	wie	ADP	KOKOM	_	12	case	_	start_char=2068|end_char=2071
+9	auf	auf	ADP	APPR	_	12	case	_	start_char=2072|end_char=2075
+10	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	12	det	_	start_char=2076|end_char=2081
+11	vergleichbaren	vergleichbar	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=2082|end_char=2096
+12	Freiflächenanlage	Freiflächenanlage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No|start_char=2097|end_char=2114
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=2114|end_char=2115
+
+# text = Trotzdem hat man ungefähr noch 80 % des Stromertrags.
+# sent_id = 29
+1	Trotzdem	trotzdem	ADV	PAV	_	2	advmod	_	start_char=2116|end_char=2124
+2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2125|end_char=2128
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=2129|end_char=2132
+4	ungefähr	ungefähr	ADV	ADV	_	5	advmod	_	start_char=2133|end_char=2141
+5	noch	noch	ADV	ADV	_	6	advmod	_	start_char=2142|end_char=2146
+6	80	80	NUM	CARD	NumType=Card	7	nummod	_	start_char=2147|end_char=2149
+7	%	%	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=2150|end_char=2151
+8	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=2152|end_char=2155
+9	Stromertrags	Stromertrag	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|start_char=2156|end_char=2168
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=2168|end_char=2169
+
+# text = und zusätzlich natürlich noch die landwirtschaftlichen Erträge.
+# sent_id = 30
+1	und	und	CCONJ	KON	_	7	cc	_	start_char=2171|end_char=2174
+2	zusätzlich	zusätzlich	ADJ	ADJD	Degree=Pos	7	amod	_	start_char=2175|end_char=2185
+3	natürlich	natürlich	ADJ	ADV	Degree=Pos	4	advmod	_	start_char=2186|end_char=2195
+4	noch	noch	ADV	ADV	_	7	advmod	_	start_char=2196|end_char=2200
+5	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=2201|end_char=2204
+6	landwirtschaftlichen	landwirtschaftlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=2205|end_char=2225
+7	Erträge	Ertrag	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|start_char=2226|end_char=2233
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=2233|end_char=2234
+
+# text = Auch da kann man im Durchschnitt sagen, man hat 80 % landwirtschaftliche Erträge plus die 80 % Stromertrag ergeben zusammen eine Landnutzungs Effizienz von 160 %. und je nach System, je nach Pflanze oder Kultur sogar mehr.
+# sent_id = 31
+1	Auch	auch	ADV	ADV	_	2	advmod	_	start_char=2235|end_char=2239
+2	da	da	ADV	ADV	_	8	advmod	_	start_char=2240|end_char=2242
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=2243|end_char=2247
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=2248|end_char=2251
+5-6	im	_	_	_	_	_	_	_	start_char=2252|end_char=2254
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Durchschnitt	Durchschnitt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	start_char=2255|end_char=2267
+8	sagen	sagen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=2268|end_char=2273
+9	,	,	PUNCT	$,	_	11	punct	_	start_char=2273|end_char=2274
+10	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	11	nsubj	_	start_char=2275|end_char=2278
+11	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	start_char=2279|end_char=2282
+12	80	80	NUM	CARD	NumType=Card	13	nummod	_	start_char=2283|end_char=2285
+13	%	%	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	15	nmod	_	start_char=2286|end_char=2287
+14	landwirtschaftliche	landwirtschaftlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	start_char=2288|end_char=2307
+15	Erträge	Ertrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	start_char=2308|end_char=2315
+16	plus	plus	ADV	ADV	_	21	advmod	_	start_char=2316|end_char=2320
+17	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	20	det	_	start_char=2321|end_char=2324
+18	80	80	NUM	CARD	NumType=Card	19	nummod	_	start_char=2325|end_char=2327
+19	%	%	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	20	nmod	_	start_char=2328|end_char=2329
+20	Stromertrag	Stromertrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	21	obj	_	start_char=2330|end_char=2341
+21	ergeben	ergeben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	start_char=2342|end_char=2349
+22	zusammen	zusammen	ADV	ADV	_	21	advmod	_	start_char=2350|end_char=2358
+23	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	25	det	_	start_char=2359|end_char=2363
+24	Landnutzungs	Landnutzungs	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	amod	_	start_char=2364|end_char=2376
+25	Effizienz	Effizienz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	start_char=2377|end_char=2386
+26	von	von	ADP	APPR	_	28	case	_	start_char=2387|end_char=2390
+27	160	160	NUM	CARD	NumType=Card	28	nummod	_	start_char=2391|end_char=2394
+28	%	%	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	25	nmod	_	SpaceAfter=No|start_char=2395|end_char=2396
+29	.	.	PUNCT	$.	_	33	punct	_	SpacesAfter=\s\s|start_char=2396|end_char=2397
+30	und	und	CCONJ	KON	_	33	cc	_	start_char=2399|end_char=2402
+31	je	je	ADV	ADV	_	33	advmod	_	start_char=2403|end_char=2405
+32	nach	nach	ADP	APPR	_	33	case	_	start_char=2406|end_char=2410
+33	System	System	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	25	conj	_	SpaceAfter=No|start_char=2411|end_char=2417
+34	,	,	PUNCT	$,	_	37	punct	_	start_char=2417|end_char=2418
+35	je	je	ADV	ADV	_	37	advmod	_	start_char=2419|end_char=2421
+36	nach	nach	ADP	APPR	_	37	case	_	start_char=2422|end_char=2426
+37	Pflanze	Pflanze	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	33	conj	_	start_char=2427|end_char=2434
+38	oder	oder	CCONJ	KON	_	39	cc	_	start_char=2435|end_char=2439
+39	Kultur	Kultur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	37	conj	_	start_char=2440|end_char=2446
+40	sogar	sogar	ADV	ADV	_	41	advmod	_	start_char=2447|end_char=2452
+41	mehr	mehr	ADV	ADV	_	37	advmod	_	SpaceAfter=No|start_char=2453|end_char=2457
+42	.	.	PUNCT	$.	_	8	punct	_	start_char=2457|end_char=2458
+
+# text = Also eine doppelte Landnutzung.
+# sent_id = 32
+1	Also	also	ADV	ADV	_	4	advmod	_	start_char=2459|end_char=2463
+2	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=2464|end_char=2468
+3	doppelte	doppelt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=2469|end_char=2477
+4	Landnutzung	Landnutzung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=2478|end_char=2489
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=2489|end_char=2490
+
+# text = Wir vom Fraunhofer ISE haben auch mal getestet, wie diese Pflanzen unter einer Agri-Photovoltaikanlage wachsen würden.
+# sent_id = 33
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=2491|end_char=2494
+2-3	vom	_	_	_	_	_	_	_	start_char=2495|end_char=2498
+2	von	von	ADP	APPR	_	4	case	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Fraunhofer	Fraunhofer	PROPN	ADJA	Case=Dat	1	nmod	_	start_char=2499|end_char=2509
+5	ISE	ISE	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	4	flat	_	start_char=2510|end_char=2513
+6	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=2514|end_char=2519
+7	auch	auch	ADV	ADV	_	8	advmod	_	start_char=2520|end_char=2524
+8	mal	mal	ADV	ADV	_	9	advmod	_	start_char=2525|end_char=2528
+9	getestet	testen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=2529|end_char=2537
+10	,	,	PUNCT	$,	_	19	punct	_	start_char=2537|end_char=2538
+11	wie	wie	ADV	KOUS	PronType=Int	19	advmod	_	start_char=2539|end_char=2542
+12	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	13	det	_	start_char=2543|end_char=2548
+13	Pflanzen	Pflanze	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	start_char=2549|end_char=2557
+14	unter	unter	ADP	APPR	_	16	case	_	start_char=2558|end_char=2563
+15	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	16	det	_	start_char=2564|end_char=2569
+16	Agri	Agri	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No|start_char=2570|end_char=2574
+17	-	-	PUNCT	$(	_	16	punct	_	SpaceAfter=No|start_char=2574|end_char=2575
+18	Photovoltaikanlage	Photovoltaikanlage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	start_char=2575|end_char=2593
+19	wachsen	wachsen	VERB	VVINF	VerbForm=Inf	9	ccomp	_	start_char=2594|end_char=2601
+20	würden	werden	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	SpaceAfter=No|start_char=2602|end_char=2608
+21	.	.	PUNCT	$.	_	9	punct	_	start_char=2608|end_char=2609
+
+# text = Dafür wurde diese Anlage gebaut.
+# sent_id = 34
+1	Dafür	dafür	ADV	PAV	PronType=Dem	5	advmod	_	start_char=2610|end_char=2615
+2	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	5	aux:pass	_	start_char=2616|end_char=2621
+3	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=2622|end_char=2627
+4	Anlage	Anlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	start_char=2628|end_char=2634
+5	gebaut	bauen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=2635|end_char=2641
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=2641|end_char=2642
+
+# text = Sie steht in der Hofgemeinschaft Heggelbach.
+# sent_id = 35
+1	Sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=2643|end_char=2646
+2	steht	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2647|end_char=2652
+3	in	in	ADP	APPR	_	5	case	_	start_char=2653|end_char=2655
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=2656|end_char=2659
+5	Hofgemeinschaft	Hofgemeinschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=2660|end_char=2675
+6	Heggelbach	Heggelbach	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	appos	_	SpaceAfter=No|start_char=2676|end_char=2686
+7	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=2686|end_char=2687
+
+# text = und wurde 2016 im Rahmen des Forschungsprojekts APV RESOLA gebaut.
+# sent_id = 36
+1	und	und	CCONJ	KON	_	11	cc	_	start_char=2689|end_char=2692
+2	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	11	aux:pass	_	start_char=2693|end_char=2698
+3	2016	2016	NUM	CARD	NumType=Card	11	obl	_	start_char=2699|end_char=2703
+4-5	im	_	_	_	_	_	_	_	start_char=2704|end_char=2706
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Rahmen	Rahmen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	start_char=2707|end_char=2713
+7	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=2714|end_char=2717
+8	Forschungsprojekts	Forschungsprojekt	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	start_char=2718|end_char=2736
+9	APV	APV	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	8	appos	_	start_char=2737|end_char=2740
+10	RESOLA	RESOLA	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	9	flat	_	start_char=2741|end_char=2747
+11	gebaut	bauen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=2748|end_char=2754
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=2754|end_char=2755
+
+# text = Innerhalb von drei Jahren haben wir getestet, wie die Pflanzen neben der Anlage. und unter der Anlage wachsen.
+# sent_id = 37
+1	Innerhalb	innerhalb	ADP	ADV	_	4	case	_	start_char=2756|end_char=2765
+2	von	von	ADP	APPR	_	4	case	_	start_char=2766|end_char=2769
+3	drei	drei	NUM	CARD	NumType=Card	4	nummod	_	start_char=2770|end_char=2774
+4	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	7	obl	_	start_char=2775|end_char=2781
+5	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=2782|end_char=2787
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=2788|end_char=2791
+7	getestet	testen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=2792|end_char=2800
+8	,	,	PUNCT	$,	_	20	punct	_	start_char=2800|end_char=2801
+9	wie	wie	ADV	KOUS	PronType=Int	20	advmod	_	start_char=2802|end_char=2805
+10	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=2806|end_char=2809
+11	Pflanzen	Pflanze	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	20	nsubj	_	start_char=2810|end_char=2818
+12	neben	neben	ADP	APPR	_	14	case	_	start_char=2819|end_char=2824
+13	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=2825|end_char=2828
+14	Anlage	Anlage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No|start_char=2829|end_char=2835
+15	.	.	PUNCT	$.	_	19	punct	_	SpacesAfter=\s\s|start_char=2835|end_char=2836
+16	und	und	CCONJ	KON	_	19	cc	_	start_char=2838|end_char=2841
+17	unter	unter	ADP	APPR	_	19	case	_	start_char=2842|end_char=2847
+18	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=2848|end_char=2851
+19	Anlage	Anlage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	conj	_	start_char=2852|end_char=2858
+20	wachsen	wachsen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	SpaceAfter=No|start_char=2859|end_char=2866
+21	.	.	PUNCT	$.	_	7	punct	_	start_char=2866|end_char=2867
+
+# text = Dabei wurde wirklich Erstaunliches festgestellt.
+# sent_id = 38
+1	Dabei	dabei	ADV	PAV	_	5	advmod	_	start_char=2868|end_char=2873
+2	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	5	aux:pass	_	start_char=2874|end_char=2879
+3	wirklich	wirklich	ADV	ADV	_	5	advmod	_	start_char=2880|end_char=2888
+4	Erstaunliches	Erstaunlich	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	start_char=2889|end_char=2902
+5	festgestellt	feststellen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=2903|end_char=2915
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=2915|end_char=2916
+
+# text = Ihr seht hier ein Diagramm der Erträge für 2017.
+# sent_id = 39
+1	Ihr	ihr	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=2917|end_char=2920
+2	seht	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2921|end_char=2925
+3	hier	hier	ADV	ADV	_	2	advmod	_	start_char=2926|end_char=2930
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=2931|end_char=2934
+5	Diagramm	Diagramm	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=2935|end_char=2943
+6	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=2944|end_char=2947
+7	Erträge	Ertrag	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	start_char=2948|end_char=2955
+8	für	für	ADP	APPR	_	9	case	_	start_char=2956|end_char=2959
+9	2017	wichtigtuerisch	NUM	CARD	NumType=Card	7	nmod	_	SpaceAfter=No|start_char=2960|end_char=2964
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=2964|end_char=2965
+
+# text = und 2018 im Vergleich für die vier Kulturen Winterweizen, Kartoffeln, Sellerie. und Kleegras 2017, hier in Blau, da hat man um die 20 % weniger Erträge.
+# sent_id = 40
+1	und	und	CCONJ	KON	_	2	cc	_	start_char=2967|end_char=2970
+2	2018	Segelyacht	NUM	CARD	NumType=Card	5	nmod	_	start_char=2971|end_char=2975
+3-4	im	_	_	_	_	_	_	_	start_char=2976|end_char=2978
+3	in	in	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Vergleich	Vergleich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	0	root	_	start_char=2979|end_char=2988
+6	für	für	ADP	APPR	_	9	case	_	start_char=2989|end_char=2992
+7	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=2993|end_char=2996
+8	vier	vier	NUM	CARD	NumType=Card	9	nummod	_	start_char=2997|end_char=3001
+9	Kulturen	Kultur	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	nmod	_	start_char=3002|end_char=3010
+10	Winterweizen	Winterweizen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	appos	_	SpaceAfter=No|start_char=3011|end_char=3023
+11	,	,	PUNCT	$,	_	12	punct	_	start_char=3023|end_char=3024
+12	Kartoffeln	Kartoffel	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	conj	_	SpaceAfter=No|start_char=3025|end_char=3035
+13	,	,	PUNCT	$,	_	14	punct	_	start_char=3035|end_char=3036
+14	Sellerie	Sellerie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No|start_char=3037|end_char=3045
+15	.	.	PUNCT	$.	_	17	punct	_	SpacesAfter=\s\s|start_char=3045|end_char=3046
+16	und	und	CCONJ	KON	_	17	cc	_	start_char=3048|end_char=3051
+17	Kleegras	Kleegras	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	start_char=3052|end_char=3060
+18	2017	wichtigtuerisch	NUM	CARD	NumType=Card	17	nmod	_	SpaceAfter=No|start_char=3061|end_char=3065
+19	,	,	PUNCT	$,	_	22	punct	_	start_char=3065|end_char=3066
+20	hier	hier	ADV	ADV	_	22	advmod	_	start_char=3067|end_char=3071
+21	in	in	ADP	APPR	_	22	case	_	start_char=3072|end_char=3074
+22	Blau	Blau	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	conj	_	SpaceAfter=No|start_char=3075|end_char=3079
+23	,	,	PUNCT	$,	_	25	punct	_	start_char=3079|end_char=3080
+24	da	da	SCONJ	KOUS	_	25	mark	_	start_char=3081|end_char=3083
+25	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=3084|end_char=3087
+26	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	25	nsubj	_	start_char=3088|end_char=3091
+27	um	um	ADP	APPR	_	30	case	_	start_char=3092|end_char=3094
+28	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	30	det	_	start_char=3095|end_char=3098
+29	20	20	NUM	CARD	NumType=Card	30	nummod	_	start_char=3099|end_char=3101
+30	%	%	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	25	obl	_	start_char=3102|end_char=3103
+31	weniger	wenig	DET	PIAT	PronType=Ind	32	det	_	start_char=3104|end_char=3111
+32	Erträge	Ertrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	25	obj	_	SpaceAfter=No|start_char=3112|end_char=3119
+33	.	.	PUNCT	$.	_	5	punct	_	start_char=3119|end_char=3120
+
+# text = Das heißt, man hat immer noch 80 % der landwirtschaftlichen Erträge, natürlich zusätzlich den Strom Ertrag.
+# sent_id = 41
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=3121|end_char=3124
+2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=3125|end_char=3130
+3	,	,	PUNCT	$,	_	5	punct	_	start_char=3130|end_char=3131
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=3132|end_char=3135
+5	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=3136|end_char=3139
+6	immer	immer	ADV	ADV	_	7	advmod	_	start_char=3140|end_char=3145
+7	noch	noch	ADV	ADV	_	5	advmod	_	start_char=3146|end_char=3150
+8	80	80	NUM	CARD	NumType=Card	9	nummod	_	start_char=3151|end_char=3153
+9	%	%	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	start_char=3154|end_char=3155
+10	der	der	DET	ART	Case=Gen|Definite=Def|Number=Plur|PronType=Art	12	det	_	start_char=3156|end_char=3159
+11	landwirtschaftlichen	landwirtschaftlich	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	start_char=3160|end_char=3180
+12	Erträge	Ertrag	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No|start_char=3181|end_char=3188
+13	,	,	PUNCT	$,	_	17	punct	_	start_char=3188|end_char=3189
+14	natürlich	natürlich	ADJ	ADV	Degree=Pos	15	advmod	_	start_char=3190|end_char=3199
+15	zusätzlich	zusätzlich	ADJ	ADJD	Degree=Pos	17	amod	_	start_char=3200|end_char=3210
+16	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	start_char=3211|end_char=3214
+17	Strom	Strom	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	conj	_	start_char=3215|end_char=3220
+18	Ertrag	Ertrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	appos	_	SpaceAfter=No|start_char=3221|end_char=3227
+19	.	.	PUNCT	$.	_	2	punct	_	start_char=3227|end_char=3228
+
+# text = Ihr erinnert euch. aber vielleicht an das Jahr 2018, ein besonders heißes.
+# sent_id = 42
+1	Ihr	ihr	PRON	PPER	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=3229|end_char=3232
+2	erinnert	erinnern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3233|end_char=3241
+3	euch	ihr	PRON	PPER	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	obj	_	SpaceAfter=No|start_char=3242|end_char=3246
+4	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=3246|end_char=3247
+5	aber	aber	CCONJ	KON	_	9	cc	_	start_char=3249|end_char=3253
+6	vielleicht	vielleicht	ADV	ADV	_	9	advmod	_	start_char=3254|end_char=3264
+7	an	an	ADP	APPR	_	9	case	_	start_char=3265|end_char=3267
+8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=3268|end_char=3271
+9	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	start_char=3272|end_char=3276
+10	2018	Segelyacht	NUM	CARD	NumType=Card	9	nmod	_	SpaceAfter=No|start_char=3277|end_char=3281
+11	,	,	PUNCT	$,	_	14	punct	_	start_char=3281|end_char=3282
+12	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	14	det	_	start_char=3283|end_char=3286
+13	besonders	besonders	ADV	ADV	_	14	advmod	_	start_char=3287|end_char=3296
+14	heißes	heißes	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No|start_char=3297|end_char=3303
+15	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=3303|end_char=3304
+
+# text = und trockenes Jahr.
+# sent_id = 43
+1	und	und	CCONJ	KON	_	3	cc	_	start_char=3306|end_char=3309
+2	trockenes	trocken	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=3310|end_char=3319
+3	Jahr	Jahr	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=3320|end_char=3324
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=3324|end_char=3325
+
+# text = Und in diesem Jahr hatte man tatsächlich höhere Erträge unter der Anlage als neben der Anlage.
+# sent_id = 44
+1	Und	und	CCONJ	KON	_	5	cc	_	start_char=3326|end_char=3329
+2	in	in	ADP	APPR	_	4	case	_	start_char=3330|end_char=3332
+3	diesem	dieser	DET	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	start_char=3333|end_char=3339
+4	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	start_char=3340|end_char=3344
+5	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3345|end_char=3350
+6	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=3351|end_char=3354
+7	tatsächlich	tatsächlich	ADJ	ADV	Degree=Pos	5	advmod	_	start_char=3355|end_char=3366
+8	höhere	hoch	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Masc|Number=Plur	9	amod	_	start_char=3367|end_char=3373
+9	Erträge	Ertrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	start_char=3374|end_char=3381
+10	unter	unter	ADP	APPR	_	12	case	_	start_char=3382|end_char=3387
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=3388|end_char=3391
+12	Anlage	Anlage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	start_char=3392|end_char=3398
+13	als	als	ADP	KOKOM	_	16	case	_	start_char=3399|end_char=3402
+14	neben	neben	ADP	APPR	_	16	case	_	start_char=3403|end_char=3408
+15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=3409|end_char=3412
+16	Anlage	Anlage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No|start_char=3413|end_char=3419
+17	.	.	PUNCT	$.	_	5	punct	_	start_char=3419|end_char=3420
+
+# text = Das liegt daran, dass es Synergien gibt zwischen den Pflanzen.
+# sent_id = 45
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=3421|end_char=3424
+2	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3425|end_char=3430
+3	daran	daran	ADV	PAV	PronType=Dem	2	advmod	_	SpaceAfter=No|start_char=3431|end_char=3436
+4	,	,	PUNCT	$,	_	8	punct	_	start_char=3436|end_char=3437
+5	dass	dass	SCONJ	KOUS	_	8	mark	_	start_char=3438|end_char=3442
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=3443|end_char=3445
+7	Synergien	Synergie	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=3446|end_char=3455
+8	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=3456|end_char=3460
+9	zwischen	zwischen	ADP	APPR	_	11	case	_	start_char=3461|end_char=3469
+10	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=3470|end_char=3473
+11	Pflanzen	Pflanze	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No|start_char=3474|end_char=3482
+12	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=3482|end_char=3483
+
+# text = und der Anlage.
+# sent_id = 46
+1	und	und	CCONJ	KON	_	3	cc	_	start_char=3485|end_char=3488
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=3489|end_char=3492
+3	Anlage	Anlage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=3493|end_char=3499
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=3499|end_char=3500
+
+# text = Durch die Beschattung ändert sich das Mikroklima.
+# sent_id = 47
+1	Durch	durch	ADP	APPR	_	3	case	_	start_char=3501|end_char=3506
+2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=3507|end_char=3510
+3	Beschattung	Beschattung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	start_char=3511|end_char=3522
+4	ändert	ändern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3523|end_char=3529
+5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	start_char=3530|end_char=3534
+6	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=3535|end_char=3538
+7	Mikroklima	Mikroklima	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	SpaceAfter=No|start_char=3539|end_char=3549
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=3549|end_char=3550
+
+# text = Der Boden bleibt feuchter, an heißen Sommertagen unter der Anlage kühler.
+# sent_id = 48
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=3551|end_char=3554
+2	Boden	Boden	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=3555|end_char=3560
+3	bleibt	bleiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3561|end_char=3567
+4	feuchter	feucht	ADJ	ADJD	Degree=Cmp	3	xcomp	_	SpaceAfter=No|start_char=3568|end_char=3576
+5	,	,	PUNCT	$,	_	12	punct	_	start_char=3576|end_char=3577
+6	an	an	ADP	APPR	_	8	case	_	start_char=3578|end_char=3580
+7	heißen	heißen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=3581|end_char=3587
+8	Sommertagen	Sommertag	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	nmod	_	start_char=3588|end_char=3599
+9	unter	unter	ADP	APPR	_	11	case	_	start_char=3600|end_char=3605
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=3606|end_char=3609
+11	Anlage	Anlage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	start_char=3610|end_char=3616
+12	kühler	kühl	ADJ	ADJD	Degree=Cmp	4	conj	_	SpaceAfter=No|start_char=3617|end_char=3623
+13	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=3623|end_char=3624
+
+# text = und nachts wärmer.
+# sent_id = 49
+1	und	und	CCONJ	KON	_	3	cc	_	start_char=3626|end_char=3629
+2	nachts	nachts	ADV	ADV	_	3	advmod	_	start_char=3630|end_char=3636
+3	wärmer	warm	ADJ	ADJD	Degree=Cmp	0	root	_	SpaceAfter=No|start_char=3637|end_char=3643
+4	.	.	PUNCT	$.	_	3	punct	_	start_char=3643|end_char=3644
+
+# text = Deshalb kann man durch Agri-Photovoltaik in ariden, besonders heißen. und trockenen Regionen, die Erträge sogar steigern.
+# sent_id = 50
+1	Deshalb	deshalb	ADV	PAV	_	21	advmod	_	start_char=3645|end_char=3652
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	start_char=3653|end_char=3657
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	21	nsubj	_	start_char=3658|end_char=3661
+4	durch	durch	ADP	APPR	_	7	case	_	start_char=3662|end_char=3667
+5	Agri	Agri	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	7	compound	_	SpaceAfter=No|start_char=3668|end_char=3672
+6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=3672|end_char=3673
+7	Photovoltaik	Photovoltaik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	start_char=3673|end_char=3685
+8	in	in	ADP	APPR	_	16	case	_	start_char=3686|end_char=3688
+9	ariden	ariden	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No|start_char=3689|end_char=3695
+10	,	,	PUNCT	$,	_	12	punct	_	start_char=3695|end_char=3696
+11	besonders	besonders	ADV	ADV	_	12	advmod	_	start_char=3697|end_char=3706
+12	heißen	heißen	ADJ	ADJA	Degree=Pos	9	conj	_	SpaceAfter=No|start_char=3707|end_char=3713
+13	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\s\s|start_char=3713|end_char=3714
+14	und	und	CCONJ	KON	_	15	cc	_	start_char=3716|end_char=3719
+15	trockenen	trocken	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	9	conj	_	start_char=3720|end_char=3729
+16	Regionen	Region	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	21	obl	_	SpaceAfter=No|start_char=3730|end_char=3738
+17	,	,	PUNCT	$,	_	19	punct	_	start_char=3738|end_char=3739
+18	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	19	det	_	start_char=3740|end_char=3743
+19	Erträge	Ertrag	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	conj	_	start_char=3744|end_char=3751
+20	sogar	sogar	ADV	ADV	_	21	advmod	_	start_char=3752|end_char=3757
+21	steigern	steigern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=3758|end_char=3766
+22	.	.	PUNCT	$.	_	21	punct	_	start_char=3766|end_char=3767
+
+# text = Und Agri-Photovoltaik schützt nicht nur gegen Trockenheit oder Dürre, sondern auch gegen Starkregen oder Hagel.
+# sent_id = 51
+1	Und	und	CCONJ	KON	_	5	cc	_	start_char=3768|end_char=3771
+2	Agri	Agri	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No|start_char=3772|end_char=3776
+3	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No|start_char=3776|end_char=3777
+4	Photovoltaik	Photovoltaik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	start_char=3777|end_char=3789
+5	schützt	schützen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3790|end_char=3797
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	start_char=3798|end_char=3803
+7	nur	nur	ADV	ADV	_	5	advmod	_	start_char=3804|end_char=3807
+8	gegen	gegen	ADP	APPR	_	9	case	_	start_char=3808|end_char=3813
+9	Trockenheit	Trockenheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	start_char=3814|end_char=3825
+10	oder	oder	CCONJ	KON	_	11	cc	_	start_char=3826|end_char=3830
+11	Dürre	Dürre	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No|start_char=3831|end_char=3836
+12	,	,	PUNCT	$,	_	16	punct	_	start_char=3836|end_char=3837
+13	sondern	sondern	CCONJ	KON	_	16	cc	_	start_char=3838|end_char=3845
+14	auch	auch	ADV	ADV	_	16	advmod	_	start_char=3846|end_char=3850
+15	gegen	gegen	ADP	APPR	_	16	case	_	start_char=3851|end_char=3856
+16	Starkregen	Starkregen	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	conj	_	start_char=3857|end_char=3867
+17	oder	oder	CCONJ	KON	_	18	cc	_	start_char=3868|end_char=3872
+18	Hagel	Hagel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No|start_char=3873|end_char=3878
+19	.	.	PUNCT	$.	_	5	punct	_	start_char=3878|end_char=3879
+
+# text = Hier z. B. wurde bei einer Anlage in den Niederlanden die Hagel Schutz Netze des konventionellen Himbeer-Anbau durch Agri-Photovoltaik Paneele ersetzt.
+# sent_id = 52
+1	Hier	hier	ADV	ADV	_	25	advmod	_	start_char=3880|end_char=3884
+2	z.	z.	ADP	APPRART	_	3	case	_	start_char=3885|end_char=3887
+3	B.	B.	X	NN	Case=Dat|Gender=Neut|Number=Sing	25	obl	_	start_char=3888|end_char=3890
+4	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	25	aux:pass	_	start_char=3891|end_char=3896
+5	bei	bei	ADP	APPR	_	7	case	_	start_char=3897|end_char=3900
+6	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=3901|end_char=3906
+7	Anlage	Anlage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	25	obl	_	start_char=3907|end_char=3913
+8	in	in	ADP	APPR	_	10	case	_	start_char=3914|end_char=3916
+9	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	10	det	_	start_char=3917|end_char=3920
+10	Niederlanden	Niederlande	PROPN	NE	Case=Dat|Number=Plur	7	nmod	_	start_char=3921|end_char=3933
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=3934|end_char=3937
+12	Hagel	Hagel	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	25	nsubj:pass	_	start_char=3938|end_char=3943
+13	Schutz	Schutz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	flat	_	start_char=3944|end_char=3950
+14	Netze	Netz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	appos	_	start_char=3951|end_char=3956
+15	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=3957|end_char=3960
+16	konventionellen	konventionell	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=3961|end_char=3976
+17	Himbeer	Himbeer	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	19	compound	_	SpaceAfter=No|start_char=3977|end_char=3984
+18	-	-	PUNCT	$(	_	17	punct	_	SpaceAfter=No|start_char=3984|end_char=3985
+19	Anbau	Anbau	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=3985|end_char=3990
+20	durch	durch	ADP	APPR	_	21	case	_	start_char=3991|end_char=3996
+21	Agri	Agri	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No|start_char=3997|end_char=4001
+22	-	-	PUNCT	$(	_	23	punct	_	SpaceAfter=No|start_char=4001|end_char=4002
+23	Photovoltaik	Photovoltaik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	flat	_	start_char=4002|end_char=4014
+24	Paneele	Paneel	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	21	appos	_	start_char=4015|end_char=4022
+25	ersetzt	ersetzen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=4023|end_char=4030
+26	.	.	PUNCT	$.	_	25	punct	_	start_char=4030|end_char=4031
+
+# text = Nun so viel zu den Pflanzen.
+# sent_id = 53
+1	Nun	nun	ADV	ADV	_	3	advmod	_	start_char=4032|end_char=4035
+2	so	so	ADV	ADV	_	3	advmod	_	start_char=4036|end_char=4038
+3	viel	viel	DET	PIS	PronType=Ind	0	root	_	start_char=4039|end_char=4043
+4	zu	zu	ADP	APPR	_	6	case	_	start_char=4044|end_char=4046
+5	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=4047|end_char=4050
+6	Pflanzen	Pflanze	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No|start_char=4051|end_char=4059
+7	.	.	PUNCT	$.	_	3	punct	_	start_char=4059|end_char=4060
+
+# text = Wie sieht es eigentlich mit dem Strom aus?
+# sent_id = 54
+1	Wie	wie	ADV	PWAV	PronType=Int	2	advmod	_	start_char=4061|end_char=4064
+2	sieht	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4065|end_char=4070
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=4071|end_char=4073
+4	eigentlich	eigentlich	ADV	ADV	_	2	advmod	_	start_char=4074|end_char=4084
+5	mit	mit	ADP	APPR	_	7	case	_	start_char=4085|end_char=4088
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=4089|end_char=4092
+7	Strom	Strom	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=4093|end_char=4098
+8	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No|start_char=4099|end_char=4102
+9	?	?	PUNCT	$.	_	2	punct	_	start_char=4102|end_char=4103
+
+# text = Durchschnittlich kostet der Strom aus einer Agri-Photovoltaikanlage zwischen 6. und 8 Cent pro Kilowattstunde.
+# sent_id = 55
+1	Durchschnittlich	durchschnittlich	ADJ	ADJD	Degree=Pos	2	advmod	_	start_char=4104|end_char=4120
+2	kostet	kosten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4121|end_char=4127
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=4128|end_char=4131
+4	Strom	Strom	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=4132|end_char=4137
+5	aus	aus	ADP	APPR	_	7	case	_	start_char=4138|end_char=4141
+6	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=4142|end_char=4147
+7	Agri	Agri	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|start_char=4148|end_char=4152
+8	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=4152|end_char=4153
+9	Photovoltaikanlage	Photovoltaikanlage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	flat	_	start_char=4153|end_char=4171
+10	zwischen	zwischen	ADP	APPR	_	14	case	_	start_char=4172|end_char=4180
+11	6.	6.	ADJ	ADJA	Degree=Pos|NumType=Ord	14	nummod	_	SpacesAfter=\s\s|start_char=4181|end_char=4183
+12	und	und	CCONJ	KON	_	13	cc	_	start_char=4185|end_char=4188
+13	8	8	NUM	CARD	NumType=Card	11	conj	_	start_char=4189|end_char=4190
+14	Cent	Cent	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	start_char=4191|end_char=4195
+15	pro	pro	ADP	APPR	_	16	case	_	start_char=4196|end_char=4199
+16	Kilowattstunde	Kilowattstunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No|start_char=4200|end_char=4214
+17	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=4214|end_char=4215
+
+# text = und ist damit sogar bis zu 20 % günstiger als aus einer durchschnittlichen Dachanlage, die man so kennt.
+# sent_id = 56
+1	und	und	CCONJ	KON	_	9	cc	_	start_char=4217|end_char=4220
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=4221|end_char=4224
+3	damit	damit	ADV	PAV	PronType=Dem	9	advmod	_	start_char=4225|end_char=4230
+4	sogar	sogar	ADV	ADV	_	9	advmod	_	start_char=4231|end_char=4236
+5	bis	bis	ADP	ADV	_	8	case	_	start_char=4237|end_char=4240
+6	zu	zu	ADP	ADV	_	5	fixed	_	start_char=4241|end_char=4243
+7	20	20	NUM	CARD	NumType=Card	8	nummod	_	start_char=4244|end_char=4246
+8	%	%	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	9	nmod	_	start_char=4247|end_char=4248
+9	günstiger	günstig	ADJ	ADJD	Degree=Cmp	0	root	_	start_char=4249|end_char=4258
+10	als	als	ADP	KOKOM	_	14	case	_	start_char=4259|end_char=4262
+11	aus	aus	ADP	APPR	_	14	case	_	start_char=4263|end_char=4266
+12	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	14	det	_	start_char=4267|end_char=4272
+13	durchschnittlichen	durchschnittlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=4273|end_char=4291
+14	Dachanlage	Dachanlage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No|start_char=4292|end_char=4302
+15	,	,	PUNCT	$,	_	19	punct	_	start_char=4302|end_char=4303
+16	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem,Rel	19	obj	_	start_char=4304|end_char=4307
+17	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	19	nsubj	_	start_char=4308|end_char=4311
+18	so	so	ADV	ADV	_	19	advmod	_	start_char=4312|end_char=4314
+19	kennt	kennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	SpaceAfter=No|start_char=4315|end_char=4320
+20	.	.	PUNCT	$.	_	9	punct	_	start_char=4320|end_char=4321
+
+# text = Hier seht ihren ein Stromnutzungs-Diagramm aus der Hofgemeinschaft Heggelbach für einen Tag im Sommer zwischen 0. und 24 Uhr.
+# sent_id = 57
+1	Hier	hier	ADV	ADV	_	2	advmod	_	start_char=4322|end_char=4326
+2	seht	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4327|end_char=4331
+3	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=4332|end_char=4337
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=4338|end_char=4341
+5	Stromnutzungs	Stromnutzungs	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	compound	_	SpaceAfter=No|start_char=4342|end_char=4355
+6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=4355|end_char=4356
+7	Diagramm	Diagramm	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	nsubj	_	start_char=4356|end_char=4364
+8	aus	aus	ADP	APPR	_	10	case	_	start_char=4365|end_char=4368
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=4369|end_char=4372
+10	Hofgemeinschaft	Hofgemeinschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	start_char=4373|end_char=4388
+11	Heggelbach	Heggelbach	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	appos	_	start_char=4389|end_char=4399
+12	für	für	ADP	APPR	_	14	case	_	start_char=4400|end_char=4403
+13	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	14	det	_	start_char=4404|end_char=4409
+14	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	start_char=4410|end_char=4413
+15-16	im	_	_	_	_	_	_	_	start_char=4414|end_char=4416
+15	in	in	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Sommer	Sommer	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	start_char=4417|end_char=4423
+18	zwischen	zwischen	ADP	APPR	_	22	case	_	start_char=4424|end_char=4432
+19	0.	0.	ADJ	ADJA	Case=Dat|Degree=Pos|NumType=Ord	22	amod	_	SpacesAfter=\s\s|start_char=4433|end_char=4435
+20	und	und	CCONJ	KON	_	21	cc	_	start_char=4437|end_char=4440
+21	24	24	NUM	CARD	NumType=Card	19	conj	_	start_char=4441|end_char=4443
+22	Uhr	Uhr	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No|start_char=4444|end_char=4447
+23	.	.	PUNCT	$.	_	2	punct	_	start_char=4447|end_char=4448
+
+# text = Und Ihr seht, zwischen 0 bis 7 Uhr musste der Strom aus dem Netz bezogen werden.
+# sent_id = 58
+1	Und	und	CCONJ	KON	_	3	cc	_	start_char=4449|end_char=4452
+2	Ihr	ihr	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	start_char=4453|end_char=4456
+3	seht	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=4457|end_char=4461
+4	,	,	PUNCT	$,	_	16	punct	_	start_char=4461|end_char=4462
+5	zwischen	zwischen	ADP	APPR	_	9	case	_	start_char=4463|end_char=4471
+6	0	0	NUM	CARD	NumType=Card	9	nummod	_	start_char=4472|end_char=4473
+7	bis	bis	ADP	APPR	_	8	case	_	start_char=4474|end_char=4477
+8	7	7	NUM	CARD	NumType=Card	9	nmod	_	start_char=4478|end_char=4479
+9	Uhr	Uhr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	start_char=4480|end_char=4483
+10	musste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	start_char=4484|end_char=4490
+11	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=4491|end_char=4494
+12	Strom	Strom	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj:pass	_	start_char=4495|end_char=4500
+13	aus	aus	ADP	APPR	_	15	case	_	start_char=4501|end_char=4504
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	start_char=4505|end_char=4508
+15	Netz	Netz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	start_char=4509|end_char=4513
+16	bezogen	beziehen	VERB	VVPP	VerbForm=Part	3	ccomp	_	start_char=4514|end_char=4521
+17	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	16	aux:pass	_	SpaceAfter=No|start_char=4522|end_char=4528
+18	.	.	PUNCT	$.	_	3	punct	_	start_char=4528|end_char=4529
+
+# text = Von 7 bis gut 18 oder 19 Uhr jedoch wurde der Eigenbedarf komplett aus der Anlage gedeckt.
+# sent_id = 59
+1	Von	von	ADP	APPR	_	8	case	_	start_char=4530|end_char=4533
+2	7	7	NUM	CARD	NumType=Card	8	nummod	_	start_char=4534|end_char=4535
+3	bis	bis	ADP	APPR	_	8	case	_	start_char=4536|end_char=4539
+4	gut	gut	ADJ	ADJD	Degree=Pos	5	advmod	_	start_char=4540|end_char=4543
+5	18	18	NUM	CARD	NumType=Card	8	nummod	_	start_char=4544|end_char=4546
+6	oder	oder	CCONJ	KON	_	7	cc	_	start_char=4547|end_char=4551
+7	19	19	NUM	CARD	NumType=Card	5	conj	_	start_char=4552|end_char=4554
+8	Uhr	Uhr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	start_char=4555|end_char=4558
+9	jedoch	jedoch	ADV	ADV	_	17	advmod	_	start_char=4559|end_char=4565
+10	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	17	aux:pass	_	start_char=4566|end_char=4571
+11	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	start_char=4572|end_char=4575
+12	Eigenbedarf	Eigenbedarf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj:pass	_	start_char=4576|end_char=4587
+13	komplett	komplett	ADJ	ADJD	Degree=Pos	17	advmod	_	start_char=4588|end_char=4596
+14	aus	aus	ADP	APPR	_	16	case	_	start_char=4597|end_char=4600
+15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	start_char=4601|end_char=4604
+16	Anlage	Anlage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	start_char=4605|end_char=4611
+17	gedeckt	decken	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=4612|end_char=4619
+18	.	.	PUNCT	$.	_	17	punct	_	start_char=4619|end_char=4620
+
+# text = Sieht man hier in gelb,. und zusätzlich, in Grün, wurde noch viel mehr Strom produziert.
+# sent_id = 60
+1	Sieht	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	start_char=4621|end_char=4626
+2	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	1	nsubj	_	start_char=4627|end_char=4630
+3	hier	hier	ADV	ADV	_	1	advmod	_	start_char=4631|end_char=4635
+4	in	in	ADP	APPR	_	5	case	_	start_char=4636|end_char=4638
+5	gelb,	gelb	ADJ	ADJD	Degree=Pos	1	advmod	_	SpaceAfter=No|start_char=4639|end_char=4644
+6	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\s|start_char=4644|end_char=4645
+7	und	und	CCONJ	KON	_	8	cc	_	start_char=4647|end_char=4650
+8	zusätzlich	zusätzlich	ADJ	ADJD	Degree=Pos	1	conj	_	SpaceAfter=No|start_char=4651|end_char=4661
+9	,	,	PUNCT	$,	_	11	punct	_	start_char=4661|end_char=4662
+10	in	in	ADP	APPR	_	11	case	_	start_char=4663|end_char=4665
+11	Grün	Grün	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No|start_char=4666|end_char=4670
+12	,	,	PUNCT	$,	_	1	punct	_	start_char=4670|end_char=4671
+13	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	18	aux:pass	_	start_char=4672|end_char=4677
+14	noch	noch	ADV	ADV	_	15	advmod	_	start_char=4678|end_char=4682
+15	viel	viel	DET	PIAT	PronType=Ind	17	det	_	start_char=4683|end_char=4687
+16	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	17	det	_	start_char=4688|end_char=4692
+17	Strom	Strom	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	nsubj:pass	_	start_char=4693|end_char=4698
+18	produziert	produzieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=4699|end_char=4709
+19	.	.	PUNCT	$.	_	18	punct	_	start_char=4709|end_char=4710
+
+# text = In diesem Fall wurde der Strom ins Netz eingespeist.
+# sent_id = 61
+1	In	in	ADP	APPR	_	3	case	_	start_char=4711|end_char=4713
+2	diesem	dieser	DET	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=4714|end_char=4720
+3	Fall	Fall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	start_char=4721|end_char=4725
+4	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	10	aux:pass	_	start_char=4726|end_char=4731
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=4732|end_char=4735
+6	Strom	Strom	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	start_char=4736|end_char=4741
+7-8	ins	_	_	_	_	_	_	_	start_char=4742|end_char=4745
+7	in	in	ADP	APPR	_	9	case	_	_
+8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Netz	Netz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	start_char=4746|end_char=4750
+10	eingespeist	einspeisen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=4751|end_char=4762
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=4762|end_char=4763
+
+# text = Man kann ihn auch direkt an Nachbarn vermarkten oder durch einen integrierten Energiespeicher selber nutzen.
+# sent_id = 62
+1	Man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=4764|end_char=4767
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=4768|end_char=4772
+3	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	start_char=4773|end_char=4776
+4	auch	auch	ADV	ADV	_	8	advmod	_	start_char=4777|end_char=4781
+5	direkt	direkt	ADJ	ADJD	Degree=Pos	8	advmod	_	start_char=4782|end_char=4788
+6	an	an	ADP	APPR	_	7	case	_	start_char=4789|end_char=4791
+7	Nachbarn	Nachbar	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	start_char=4792|end_char=4800
+8	vermarkten	vermarkten	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=4801|end_char=4811
+9	oder	oder	CCONJ	KON	_	15	cc	_	start_char=4812|end_char=4816
+10	durch	durch	ADP	APPR	_	13	case	_	start_char=4817|end_char=4822
+11	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	13	det	_	start_char=4823|end_char=4828
+12	integrierten	integriert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=4829|end_char=4841
+13	Energiespeicher	Energiespeicher	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	start_char=4842|end_char=4857
+14	selber	selber	ADV	ADV	_	15	advmod	_	start_char=4858|end_char=4864
+15	nutzen	nutzen	VERB	VVINF	VerbForm=Inf	8	conj	_	SpaceAfter=No|start_char=4865|end_char=4871
+16	.	.	PUNCT	$.	_	8	punct	_	start_char=4871|end_char=4872
+
+# text = Egal, ob das ein Batteriespeicher ist oder ob man mit dem überschüssigen Strom Wasserstoff produziert, mit dem man. dann landwirtschaftliche Maschinen betreiben kann.
+# sent_id = 63
+1	Egal	egal	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=4873|end_char=4877
+2	,	,	PUNCT	$,	_	6	punct	_	start_char=4877|end_char=4878
+3	ob	ob	SCONJ	KOUS	_	6	mark	_	start_char=4879|end_char=4881
+4	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	6	nsubj	_	start_char=4882|end_char=4885
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=4886|end_char=4889
+6	Batteriespeicher	Batteriespeicher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	csubj	_	start_char=4890|end_char=4906
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=4907|end_char=4910
+8	oder	oder	CCONJ	KON	_	16	cc	_	start_char=4911|end_char=4915
+9	ob	ob	SCONJ	KOUS	_	16	mark	_	start_char=4916|end_char=4918
+10	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	16	nsubj	_	start_char=4919|end_char=4922
+11	mit	mit	ADP	APPR	_	14	case	_	start_char=4923|end_char=4926
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=4927|end_char=4930
+13	überschüssigen	überschüssig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=4931|end_char=4945
+14	Strom	Strom	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	start_char=4946|end_char=4951
+15	Wasserstoff	Wasserstoff	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obj	_	start_char=4952|end_char=4963
+16	produziert	produzieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No|start_char=4964|end_char=4974
+17	,	,	PUNCT	$,	_	25	punct	_	start_char=4974|end_char=4975
+18	mit	mit	ADP	APPR	_	19	case	_	start_char=4976|end_char=4979
+19	dem	der	PRON	PRELS	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem,Rel	25	obl	_	start_char=4980|end_char=4983
+20	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	25	nsubj	_	SpaceAfter=No|start_char=4984|end_char=4987
+21	.	.	PUNCT	$.	_	20	punct	_	SpacesAfter=\s\s|start_char=4987|end_char=4988
+22	dann	dann	ADV	ADV	_	25	advmod	_	start_char=4990|end_char=4994
+23	landwirtschaftliche	landwirtschaftlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	24	amod	_	start_char=4995|end_char=5014
+24	Maschinen	Maschine	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	25	obj	_	start_char=5015|end_char=5024
+25	betreiben	betreiben	VERB	VVINF	VerbForm=Inf	14	acl	_	start_char=5025|end_char=5034
+26	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	SpaceAfter=No|start_char=5035|end_char=5039
+27	.	.	PUNCT	$.	_	1	punct	_	start_char=5039|end_char=5040
+
+# text = Es gibt viele weitere Möglichkeiten, den Strom zu nutzen.
+# sent_id = 64
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=5041|end_char=5043
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5044|end_char=5048
+3	viele	viel	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	start_char=5049|end_char=5054
+4	weitere	weit	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	5	amod	_	start_char=5055|end_char=5062
+5	Möglichkeiten	Möglichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No|start_char=5063|end_char=5076
+6	,	,	PUNCT	$,	_	10	punct	_	start_char=5076|end_char=5077
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=5078|end_char=5081
+8	Strom	Strom	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=5082|end_char=5087
+9	zu	zu	PART	PTKZU	_	10	mark	_	start_char=5088|end_char=5090
+10	nutzen	nutzen	VERB	VVINF	VerbForm=Inf	5	acl	_	SpaceAfter=No|start_char=5091|end_char=5097
+11	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=5097|end_char=5098
+
+# text = und alle zusammen helfen dabei, den ganzen Hof klimaneutral zu gestalten.
+# sent_id = 65
+1	und	und	CCONJ	KON	_	4	cc	_	start_char=5100|end_char=5103
+2	alle	alle	DET	PIS	Case=Nom|Number=Plur|PronType=Tot	4	nsubj	_	start_char=5104|end_char=5108
+3	zusammen	zusammen	ADV	ADV	_	2	advmod	_	start_char=5109|end_char=5117
+4	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5118|end_char=5124
+5	dabei	dabei	ADV	PAV	_	4	advmod	_	SpaceAfter=No|start_char=5125|end_char=5130
+6	,	,	PUNCT	$,	_	12	punct	_	start_char=5130|end_char=5131
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=5132|end_char=5135
+8	ganzen	ganz	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=5136|end_char=5142
+9	Hof	Hof	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=5143|end_char=5146
+10	klimaneutral	klimaneutral	ADJ	ADJD	Degree=Pos	12	advmod	_	start_char=5147|end_char=5159
+11	zu	zu	PART	PTKZU	_	12	mark	_	start_char=5160|end_char=5162
+12	gestalten	gestalten	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No|start_char=5163|end_char=5172
+13	.	.	PUNCT	$.	_	4	punct	_	start_char=5172|end_char=5173
+
+# text = Jede Pflanze ist anders.
+# sent_id = 66
+1	Jede	jeder	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	2	det	_	start_char=5174|end_char=5178
+2	Pflanze	Pflanze	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=5179|end_char=5186
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=5187|end_char=5190
+4	anders	anders	ADV	ADV	_	0	root	_	SpaceAfter=No|start_char=5191|end_char=5197
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=5197|end_char=5198
+
+# text = Jeder Hof ist anders.
+# sent_id = 67
+1	Jeder	jeder	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	2	det	_	start_char=5199|end_char=5204
+2	Hof	Hof	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=5205|end_char=5208
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=5209|end_char=5212
+4	anders	anders	ADV	ADV	_	0	root	_	SpaceAfter=No|start_char=5213|end_char=5219
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=5219|end_char=5220
+
+# text = Tatsächlich kann man auch jedes Agri-Photovoltaiksystem recht anders gestalten.
+# sent_id = 68
+1	Tatsächlich	tatsächlich	ADJ	ADV	Degree=Pos	11	advmod	_	start_char=5221|end_char=5232
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=5233|end_char=5237
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	11	nsubj	_	start_char=5238|end_char=5241
+4	auch	auch	ADV	ADV	_	11	advmod	_	start_char=5242|end_char=5246
+5	jedes	jeder	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	6	det	_	start_char=5247|end_char=5252
+6	Agri	Agri	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No|start_char=5253|end_char=5257
+7	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=5257|end_char=5258
+8	Photovoltaiksystem	Photovoltaiksystem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	flat	_	start_char=5258|end_char=5276
+9	recht	recht	ADV	ADV	_	10	advmod	_	start_char=5277|end_char=5282
+10	anders	anders	ADV	ADV	_	11	advmod	_	start_char=5283|end_char=5289
+11	gestalten	gestalten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=5290|end_char=5299
+12	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\s\s|start_char=5299|end_char=5300
+
+# text = und sehr gut anpassen.
+# sent_id = 69
+1	und	und	CCONJ	KON	_	4	cc	_	start_char=5302|end_char=5305
+2	sehr	sehr	ADV	ADV	_	3	advmod	_	start_char=5306|end_char=5310
+3	gut	gut	ADJ	ADJD	Degree=Pos	4	advmod	_	start_char=5311|end_char=5314
+4	anpassen	anpassen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=5315|end_char=5323
+5	.	.	PUNCT	$.	_	4	punct	_	start_char=5323|end_char=5324
+
+# text = Zum Beispiel seht ihr hier eine vertikale Anlage.
+# sent_id = 70
+1-2	Zum	_	_	_	_	_	_	_	start_char=5325|end_char=5328
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	start_char=5329|end_char=5337
+4	seht	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5338|end_char=5342
+5	ihr	sie	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl:arg	_	start_char=5343|end_char=5346
+6	hier	hier	ADV	ADV	_	4	advmod	_	start_char=5347|end_char=5351
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=5352|end_char=5356
+8	vertikale	vertikal	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=5357|end_char=5366
+9	Anlage	Anlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No|start_char=5367|end_char=5373
+10	.	.	PUNCT	$.	_	4	punct	_	start_char=5373|end_char=5374
+
+# text = Die wird hier kombiniert mit der Nutztierhaltung.
+# sent_id = 71
+1	Die	der	PRON	PDS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	4	nsubj:pass	_	start_char=5375|end_char=5378
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	aux:pass	_	start_char=5379|end_char=5383
+3	hier	hier	ADV	ADV	_	4	advmod	_	start_char=5384|end_char=5388
+4	kombiniert	kombinieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=5389|end_char=5399
+5	mit	mit	ADP	APPR	_	7	case	_	start_char=5400|end_char=5403
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=5404|end_char=5407
+7	Nutztierhaltung	Nutztierhaltung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No|start_char=5408|end_char=5423
+8	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s|start_char=5423|end_char=5424
+
+# text = und in windigen Gegenden können vertikale Anlagen als Windbrecher fungieren.
+# sent_id = 72
+1	und	und	CCONJ	KON	_	10	cc	_	start_char=5426|end_char=5429
+2	in	in	ADP	APPR	_	4	case	_	start_char=5430|end_char=5432
+3	windigen	windig	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=5433|end_char=5441
+4	Gegenden	Gegend	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	obl	_	start_char=5442|end_char=5450
+5	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=5451|end_char=5457
+6	vertikale	vertikal	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=5458|end_char=5467
+7	Anlagen	Anlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=5468|end_char=5475
+8	als	als	ADP	KOKOM	_	9	case	_	start_char=5476|end_char=5479
+9	Windbrecher	Windbrecher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	obl	_	start_char=5480|end_char=5491
+10	fungieren	fungieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=5492|end_char=5501
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=5501|end_char=5502
+
+# text = Vielleicht fragt ihr euch, das ist doch eine vertikale Anlage.
+# sent_id = 73
+1	Vielleicht	vielleicht	ADV	ADV	_	2	advmod	_	start_char=5503|end_char=5513
+2	fragt	fragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5514|end_char=5519
+3	ihr	sie	PRON	PPER	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	obl:arg	_	start_char=5520|end_char=5523
+4	euch	ihr	PRON	PPER	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	obj	_	SpaceAfter=No|start_char=5524|end_char=5528
+5	,	,	PUNCT	$,	_	11	punct	_	start_char=5528|end_char=5529
+6	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	11	nsubj	_	start_char=5530|end_char=5533
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=5534|end_char=5537
+8	doch	doch	ADV	ADV	_	11	advmod	_	start_char=5538|end_char=5542
+9	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	11	det	_	start_char=5543|end_char=5547
+10	vertikale	vertikal	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=5548|end_char=5557
+11	Anlage	Anlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	parataxis	_	SpaceAfter=No|start_char=5558|end_char=5564
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=5564|end_char=5565
+
+# text = Das ist gar nicht zur Sonne hin ausgerichtet.
+# sent_id = 74
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	9	nsubj	_	start_char=5566|end_char=5569
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=5570|end_char=5573
+3	gar	gar	ADV	ADV	_	4	advmod	_	start_char=5574|end_char=5577
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	start_char=5578|end_char=5583
+5-6	zur	_	_	_	_	_	_	_	start_char=5584|end_char=5587
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Sonne	Sonne	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	start_char=5588|end_char=5593
+8	hin	hin	ADV	ADV	_	7	fixed	_	start_char=5594|end_char=5597
+9	ausgerichtet	ausrichten	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	SpaceAfter=No|start_char=5598|end_char=5610
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=5610|end_char=5611
+
+# text = Produziert die überhaupt genug Strom?
+# sent_id = 75
+1	Produziert	produzieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=5612|end_char=5622
+2	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	1	nsubj	_	start_char=5623|end_char=5626
+3	überhaupt	überhaupt	ADV	ADV	_	1	advmod	_	start_char=5627|end_char=5636
+4	genug	genug	ADV	PIAT	PronType=Ind	1	advmod	_	start_char=5637|end_char=5642
+5	Strom	Strom	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No|start_char=5643|end_char=5648
+6	?	?	PUNCT	$.	_	1	punct	_	start_char=5648|end_char=5649
+
+# text = Und tatsächlich ja, dank einer technischen Neuerungen, den bifazialen Modulen, wo bei einem Solarpanel die Vorder-. und die Rückseite als Solarzelle fungiert.
+# sent_id = 76
+1	Und	und	CCONJ	KON	_	2	cc	_	start_char=5650|end_char=5653
+2	tatsächlich	tatsächlich	ADJ	ADV	Degree=Pos	3	advmod	_	start_char=5654|end_char=5665
+3	ja	ja	ADV	ADV	_	0	root	_	SpaceAfter=No|start_char=5666|end_char=5668
+4	,	,	PUNCT	$,	_	8	punct	_	start_char=5668|end_char=5669
+5	dank	dank	ADP	APPR	_	8	case	_	start_char=5670|end_char=5674
+6	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=5675|end_char=5680
+7	technischen	technisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=5681|end_char=5692
+8	Neuerungen	Neuerung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No|start_char=5693|end_char=5703
+9	,	,	PUNCT	$,	_	12	punct	_	start_char=5703|end_char=5704
+10	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	12	det	_	start_char=5705|end_char=5708
+11	bifazialen	bifazial	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	start_char=5709|end_char=5719
+12	Modulen	Modul	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No|start_char=5720|end_char=5727
+13	,	,	PUNCT	$,	_	26	punct	_	start_char=5727|end_char=5728
+14	wo	wo	ADV	PWAV	PronType=Int	26	advmod	_	start_char=5729|end_char=5731
+15	bei	bei	ADP	APPR	_	17	case	_	start_char=5732|end_char=5735
+16	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	17	det	_	start_char=5736|end_char=5741
+17	Solarpanel	Solarpanel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	26	obl	_	start_char=5742|end_char=5752
+18	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=5753|end_char=5756
+19	Vorder	Vorder	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	SpaceAfter=No|start_char=5757|end_char=5763
+20	-.	-.	PUNCT	$(	_	19	punct	_	SpacesAfter=\s\s|start_char=5763|end_char=5765
+21	und	und	CCONJ	KON	_	23	cc	_	start_char=5767|end_char=5770
+22	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=5771|end_char=5774
+23	Rückseite	Rückseite	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	conj	_	start_char=5775|end_char=5784
+24	als	als	ADP	KOKOM	_	25	case	_	start_char=5785|end_char=5788
+25	Solarzelle	Solarzelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	26	obl	_	start_char=5789|end_char=5799
+26	fungiert	fungieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	SpaceAfter=No|start_char=5800|end_char=5808
+27	.	.	PUNCT	$.	_	3	punct	_	start_char=5808|end_char=5809
+
+# text = Bifaziale Module werden sehr gerne bei Agri-Photovoltaik angewendet.
+# sent_id = 77
+1	Bifaziale	vifazial	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	start_char=5810|end_char=5819
+2	Module	Modul	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	10	nsubj:pass	_	start_char=5820|end_char=5826
+3	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	aux:pass	_	start_char=5827|end_char=5833
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	start_char=5834|end_char=5838
+5	gerne	gerne	ADV	ADV	_	10	advmod	_	start_char=5839|end_char=5844
+6	bei	bei	ADP	APPR	_	7	case	_	start_char=5845|end_char=5848
+7	Agri	Agri	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|start_char=5849|end_char=5853
+8	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=5853|end_char=5854
+9	Photovoltaik	Photovoltaik	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	flat	_	start_char=5854|end_char=5866
+10	angewendet	anwenden	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=5867|end_char=5877
+11	.	.	PUNCT	$.	_	10	punct	_	start_char=5877|end_char=5878
+
+# text = Eine weitere coole technische Neuerung: das Auffangen von Regenwasser.
+# sent_id = 78
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=5879|end_char=5883
+2	weitere	weit	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	5	amod	_	start_char=5884|end_char=5891
+3	coole	cool	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=5892|end_char=5897
+4	technische	technisch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=5898|end_char=5908
+5	Neuerung	Neuerung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=5909|end_char=5917
+6	:	:	PUNCT	$.	_	8	punct	_	start_char=5917|end_char=5918
+7	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	start_char=5919|end_char=5922
+8	Auffangen	Auffangen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	appos	_	start_char=5923|end_char=5932
+9	von	von	ADP	APPR	_	10	case	_	start_char=5933|end_char=5936
+10	Regenwasser	Regenwasser	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No|start_char=5937|end_char=5948
+11	.	.	PUNCT	$.	_	5	punct	_	start_char=5948|end_char=5949
+
+# text = Dieses Regenwasser kann mit dem Strom aufbereitet werden.
+# sent_id = 79
+1	Dieses	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	start_char=5950|end_char=5956
+2	Regenwasser	Regenwasser	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj:pass	_	start_char=5957|end_char=5968
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=5969|end_char=5973
+4	mit	mit	ADP	APPR	_	6	case	_	start_char=5974|end_char=5977
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=5978|end_char=5981
+6	Strom	Strom	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	start_char=5982|end_char=5987
+7	aufbereitet	aufbereiten	VERB	VVPP	VerbForm=Part	0	root	_	start_char=5988|end_char=5999
+8	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	7	aux:pass	_	SpaceAfter=No|start_char=6000|end_char=6006
+9	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s|start_char=6006|end_char=6007
+
+# text = und über trockene Perioden hinweg helfen.
+# sent_id = 80
+1	und	und	CCONJ	KON	_	6	cc	_	start_char=6009|end_char=6012
+2	über	über	ADP	APPR	_	4	case	_	start_char=6013|end_char=6017
+3	trockene	trocken	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=6018|end_char=6026
+4	Perioden	Periode	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obl	_	start_char=6027|end_char=6035
+5	hinweg	hinweg	ADV	ADV	_	4	fixed	_	start_char=6036|end_char=6042
+6	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=6043|end_char=6049
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=6049|end_char=6050
+
+# text = Dieser Ansatz wird gerade vom Fraunhofer ISE in Gambia. und Mali erforscht.
+# sent_id = 81
+1	Dieser	dieser	DET	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=6051|end_char=6057
+2	Ansatz	Ansatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj:pass	_	start_char=6058|end_char=6064
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	aux:pass	_	start_char=6065|end_char=6069
+4	gerade	gerade	ADV	ADV	_	13	advmod	_	start_char=6070|end_char=6076
+5-6	vom	_	_	_	_	_	_	_	start_char=6077|end_char=6080
+5	von	von	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Fraunhofer	Fraunhofer	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl:agent	_	start_char=6081|end_char=6091
+8	ISE	ISE	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	flat	_	start_char=6092|end_char=6095
+9	in	in	ADP	APPR	_	10	case	_	start_char=6096|end_char=6098
+10	Gambia.	Gambia.	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	SpacesAfter=\s\s|start_char=6099|end_char=6106
+11	und	und	CCONJ	KON	_	12	cc	_	start_char=6108|end_char=6111
+12	Mali	Mali	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	conj	_	start_char=6112|end_char=6116
+13	erforscht	erforschen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=6117|end_char=6126
+14	.	.	PUNCT	$.	_	13	punct	_	start_char=6126|end_char=6127
+
+# text = Naja, die Technologie klingt echt cool.
+# sent_id = 82
+1	Naja	Naja	ADV	ITJ	_	5	advmod	_	SpaceAfter=No|start_char=6128|end_char=6132
+2	,	,	PUNCT	$,	_	1	punct	_	start_char=6132|end_char=6133
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=6134|end_char=6137
+4	Technologie	Technologie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=6138|end_char=6149
+5	klingt	klingen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6150|end_char=6156
+6	echt	echt	ADJ	ADJD	Degree=Pos	7	advmod	_	start_char=6157|end_char=6161
+7	cool	cool	ADJ	ADJD	Degree=Pos	5	xcomp	_	SpaceAfter=No|start_char=6162|end_char=6166
+8	.	.	PUNCT	$.	_	5	punct	_	start_char=6166|end_char=6167
+
+# text = Warum sieht man die nicht überall?
+# sent_id = 83
+1	Warum	warum	ADV	PWAV	PronType=Int	2	advmod	_	start_char=6168|end_char=6173
+2	sieht	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6174|end_char=6179
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=6180|end_char=6183
+4	die	der	PRON	PDS	Case=Acc|Number=Plur|PronType=Dem,Rel	2	obj	_	start_char=6184|end_char=6187
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=6188|end_char=6193
+6	überall	überall	ADV	ADV	_	2	advmod	_	SpaceAfter=No|start_char=6194|end_char=6201
+7	?	?	PUNCT	$.	_	2	punct	_	start_char=6201|end_char=6202
+
+# text = Tatsächlich hat sich erst in den letzten 10 Jahren in der Solarbranche sehr viel geändert, wodurch Agri-Photovoltaik möglich wird.
+# sent_id = 84
+1	Tatsächlich	tatsächlich	ADJ	ADV	Degree=Pos	15	advmod	_	start_char=6203|end_char=6214
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=6215|end_char=6218
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	15	obj	_	start_char=6219|end_char=6223
+4	erst	erst	ADV	ADV	_	9	advmod	_	start_char=6224|end_char=6228
+5	in	in	ADP	APPR	_	9	case	_	start_char=6229|end_char=6231
+6	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=6232|end_char=6235
+7	letzten	letzt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	start_char=6236|end_char=6243
+8	10	10	NUM	CARD	NumType=Card	9	nummod	_	start_char=6244|end_char=6246
+9	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	15	obl	_	start_char=6247|end_char=6253
+10	in	in	ADP	APPR	_	12	case	_	start_char=6254|end_char=6256
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=6257|end_char=6260
+12	Solarbranche	Solarbranche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	start_char=6261|end_char=6273
+13	sehr	sehr	ADV	ADV	_	14	advmod	_	start_char=6274|end_char=6278
+14	viel	viel	DET	PIS	PronType=Ind	15	nsubj	_	start_char=6279|end_char=6283
+15	geändert	ändern	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=6284|end_char=6292
+16	,	,	PUNCT	$,	_	22	punct	_	start_char=6292|end_char=6293
+17	wodurch	wodurch	ADV	PWAV	PronType=Int	22	advmod	_	start_char=6294|end_char=6301
+18	Agri	Agri	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	SpaceAfter=No|start_char=6302|end_char=6306
+19	-	-	PUNCT	$(	_	20	punct	_	SpaceAfter=No|start_char=6306|end_char=6307
+20	Photovoltaik	Photovoltaik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	flat	_	start_char=6307|end_char=6319
+21	möglich	möglich	ADJ	ADJD	Degree=Pos	22	xcomp	_	start_char=6320|end_char=6327
+22	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	SpaceAfter=No|start_char=6328|end_char=6332
+23	.	.	PUNCT	$.	_	15	punct	_	start_char=6332|end_char=6333
+
+# text = Es gibt allerdings noch einige bürokratische Hürden in der Gesetzgebung.
+# sent_id = 85
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=6334|end_char=6336
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6337|end_char=6341
+3	allerdings	allerdings	ADV	ADV	_	2	advmod	_	start_char=6342|end_char=6352
+4	noch	noch	ADV	ADV	_	2	advmod	_	start_char=6353|end_char=6357
+5	einige	einige	DET	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	7	det	_	start_char=6358|end_char=6364
+6	bürokratische	bürokratisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=6365|end_char=6378
+7	Hürden	Hürde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	start_char=6379|end_char=6385
+8	in	in	ADP	APPR	_	10	case	_	start_char=6386|end_char=6388
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=6389|end_char=6392
+10	Gesetzgebung	Gesetzgebung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No|start_char=6393|end_char=6405
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=6405|end_char=6406
+
+# text = Unter anderem deshalb arbeiten wir zusammen mit dem Fraunhofer ISE. und dem Institut für Normung daran, einen Standard für Agri-Photovoltaik zu entwerfen.
+# sent_id = 86
+1	Unter	unter	ADP	APPR	_	2	case	_	start_char=6407|end_char=6412
+2	anderem	anderer	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	4	obl	_	start_char=6413|end_char=6420
+3	deshalb	deshalb	ADV	PAV	_	4	advmod	_	start_char=6421|end_char=6428
+4	arbeiten	arbeiten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6429|end_char=6437
+5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=6438|end_char=6441
+6	zusammen	zusammen	ADV	ADV	_	9	advmod	_	start_char=6442|end_char=6450
+7	mit	mit	ADP	APPR	_	9	case	_	start_char=6451|end_char=6454
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=6455|end_char=6458
+9	Fraunhofer	Fraunhofer	PROPN	ADJA	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	start_char=6459|end_char=6469
+10	ISE	ISE	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	9	flat	_	SpaceAfter=No|start_char=6470|end_char=6473
+11	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\s\s|start_char=6473|end_char=6474
+12	und	und	CCONJ	KON	_	14	cc	_	start_char=6476|end_char=6479
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	start_char=6480|end_char=6483
+14	Institut	Institut	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	9	conj	_	start_char=6484|end_char=6492
+15	für	für	ADP	APPR	_	16	case	_	start_char=6493|end_char=6496
+16	Normung	Normung	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	start_char=6497|end_char=6504
+17	daran	daran	ADV	PAV	PronType=Dem	4	advmod	_	SpaceAfter=No|start_char=6505|end_char=6510
+18	,	,	PUNCT	$,	_	26	punct	_	start_char=6510|end_char=6511
+19	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	20	det	_	start_char=6512|end_char=6517
+20	Standard	Standard	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	26	obj	_	start_char=6518|end_char=6526
+21	für	für	ADP	APPR	_	22	case	_	start_char=6527|end_char=6530
+22	Agri	Agri	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No|start_char=6531|end_char=6535
+23	-	-	PUNCT	$(	_	24	punct	_	SpaceAfter=No|start_char=6535|end_char=6536
+24	Photovoltaik	Photovoltaik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	flat	_	start_char=6536|end_char=6548
+25	zu	zu	PART	PTKZU	_	26	mark	_	start_char=6549|end_char=6551
+26	entwerfen	entwerfen	VERB	VVINF	VerbForm=Inf	14	acl	_	SpaceAfter=No|start_char=6552|end_char=6561
+27	.	.	PUNCT	$.	_	4	punct	_	start_char=6561|end_char=6562
+
+# text = Dieser ist tatsächlich seit diesen Freitag online.
+# sent_id = 87
+1	Dieser	dieser	DET	PDS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	start_char=6563|end_char=6569
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=6570|end_char=6573
+3	tatsächlich	tatsächlich	ADJ	ADV	Degree=Pos	7	advmod	_	start_char=6574|end_char=6585
+4	seit	seit	ADP	APPR	_	6	case	_	start_char=6586|end_char=6590
+5	diesen	dieser	DET	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	start_char=6591|end_char=6597
+6	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	start_char=6598|end_char=6605
+7	online	online	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=6606|end_char=6612
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=6612|end_char=6613
+
+# text = Agri-Photovoltaik wird nicht nur in Deutschland praktiziert.
+# sent_id = 88
+1	Agri	Agri	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	SpaceAfter=No|start_char=6614|end_char=6618
+2	-	-	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=6618|end_char=6619
+3	Photovoltaik	Photovoltaik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	start_char=6619|end_char=6631
+4	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	aux:pass	_	start_char=6632|end_char=6636
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=6637|end_char=6642
+6	nur	nur	ADV	ADV	_	9	advmod	_	start_char=6643|end_char=6646
+7	in	in	ADP	APPR	_	8	case	_	start_char=6647|end_char=6649
+8	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	start_char=6650|end_char=6661
+9	praktiziert	praktizieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=6662|end_char=6673
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=6673|end_char=6674
+
+# text = China ist Vorreiter.
+# sent_id = 89
+1	China	China	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=6675|end_char=6680
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=6681|end_char=6684
+3	Vorreiter	Vorreiter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=6685|end_char=6694
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=6694|end_char=6695
+
+# text = und hat mehr als zwei Gigawatt installiert.
+# sent_id = 90
+1	und	und	CCONJ	KON	_	7	cc	_	start_char=6697|end_char=6700
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=6701|end_char=6704
+3	mehr	mehr	ADV	ADV	_	5	advmod	_	start_char=6705|end_char=6709
+4	als	als	ADP	KOKOM	_	6	case	_	start_char=6710|end_char=6713
+5	zwei	zwei	NUM	CARD	NumType=Card	6	nummod	_	start_char=6714|end_char=6718
+6	Gigawatt	Gigawatt	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obl	_	start_char=6719|end_char=6727
+7	installiert	installieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=6728|end_char=6739
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=6739|end_char=6740
+
+# text = Auch in Japan ist das Konzept “solar sharing” sehr bekannt.
+# sent_id = 91
+1	Auch	auch	ADV	ADV	_	3	advmod	_	start_char=6741|end_char=6745
+2	in	in	ADP	APPR	_	3	case	_	start_char=6746|end_char=6748
+3	Japan	Japan	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	start_char=6749|end_char=6754
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=6755|end_char=6758
+5	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	start_char=6759|end_char=6762
+6	Konzept	Konzept	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	start_char=6763|end_char=6770
+7	“	"	PUNCT	$(	_	8	punct	_	SpaceAfter=No|start_char=6771|end_char=6772
+8	solar	solar	PROPN	FM	Foreign=Yes	6	appos	_	start_char=6772|end_char=6777
+9	sharing	sharing	PROPN	FM	Foreign=Yes	8	flat	_	SpaceAfter=No|start_char=6778|end_char=6785
+10	”	"	PUNCT	$(	_	8	punct	_	start_char=6785|end_char=6786
+11	sehr	sehr	ADV	ADV	_	12	advmod	_	start_char=6787|end_char=6791
+12	bekannt	bekennen	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=6792|end_char=6799
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=6799|end_char=6800
+
+# text = Oder in Frankreich wird mit dem Weinbau geforscht.
+# sent_id = 92
+1	Oder	Oder	ADV	ADV	_	8	advmod	_	start_char=6801|end_char=6805
+2	in	in	ADP	APPR	_	3	case	_	start_char=6806|end_char=6808
+3	Frankreich	Frankreich	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	start_char=6809|end_char=6819
+4	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	aux:pass	_	start_char=6820|end_char=6824
+5	mit	mit	ADP	APPR	_	7	case	_	start_char=6825|end_char=6828
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=6829|end_char=6832
+7	Weinbau	Weinbau	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	start_char=6833|end_char=6840
+8	geforscht	forschen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=6841|end_char=6850
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=6850|end_char=6851
+
+# text = Gegen Ende möchte ich noch die Vorteile der Agri-Photovoltaik zusammenfassen.
+# sent_id = 93
+1	Gegen	gegen	ADP	APPR	_	2	case	_	start_char=6852|end_char=6857
+2	Ende	Ende	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	start_char=6858|end_char=6862
+3	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	12	aux	_	start_char=6863|end_char=6869
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=6870|end_char=6873
+5	noch	noch	ADV	ADV	_	12	advmod	_	start_char=6874|end_char=6878
+6	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	start_char=6879|end_char=6882
+7	Vorteile	Vorteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	start_char=6883|end_char=6891
+8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=6892|end_char=6895
+9	Agri	Agri	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No|start_char=6896|end_char=6900
+10	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No|start_char=6900|end_char=6901
+11	Photovoltaik	Photovoltaik	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	flat	_	start_char=6901|end_char=6913
+12	zusammenfassen	zusammenfassen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=6914|end_char=6928
+13	.	.	PUNCT	$.	_	12	punct	_	start_char=6928|end_char=6929
+
+# text = Erstens der Pflanzenschutz durch die Synergien zwischen der Pflanze. und der Anlage.
+# sent_id = 94
+1	Erstens	erstens	ADV	ADV	_	3	advmod	_	start_char=6930|end_char=6937
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=6938|end_char=6941
+3	Pflanzenschutz	Pflanzenschutz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=6942|end_char=6956
+4	durch	durch	ADP	APPR	_	6	case	_	start_char=6957|end_char=6962
+5	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=6963|end_char=6966
+6	Synergien	Synergie	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	nmod	_	start_char=6967|end_char=6976
+7	zwischen	zwischen	ADP	APPR	_	9	case	_	start_char=6977|end_char=6985
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=6986|end_char=6989
+9	Pflanze	Pflanze	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No|start_char=6990|end_char=6997
+10	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\s\s|start_char=6997|end_char=6998
+11	und	und	CCONJ	KON	_	13	cc	_	start_char=7000|end_char=7003
+12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=7004|end_char=7007
+13	Anlage	Anlage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No|start_char=7008|end_char=7014
+14	.	.	PUNCT	$.	_	3	punct	_	start_char=7014|end_char=7015
+
+# text = Zweitens der Bodenschutz durch ein verbessertes Mikroklima unter der Anlage.
+# sent_id = 95
+1	Zweitens	zweitens	ADV	ADV	_	3	advmod	_	start_char=7016|end_char=7024
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=7025|end_char=7028
+3	Bodenschutz	Bodenschutz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=7029|end_char=7040
+4	durch	durch	ADP	APPR	_	7	case	_	start_char=7041|end_char=7046
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=7047|end_char=7050
+6	verbessertes	verbessert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=7051|end_char=7063
+7	Mikroklima	Mikroklima	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	start_char=7064|end_char=7074
+8	unter	unter	ADP	APPR	_	10	case	_	start_char=7075|end_char=7080
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=7081|end_char=7084
+10	Anlage	Anlage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No|start_char=7085|end_char=7091
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=7091|end_char=7092
+
+# text = Drittens der Flächenschutz durch eine doppelte Flächennutzung, natürlich die Stromerzeugung, die eine zusätzliche Einnahmequelle für die Landwirtschaft sein kann.
+# sent_id = 96
+1	Drittens	drittens	ADV	ADV	_	3	advmod	_	start_char=7093|end_char=7101
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=7102|end_char=7105
+3	Flächenschutz	Flächenschutz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=7106|end_char=7119
+4	durch	durch	ADP	APPR	_	7	case	_	start_char=7120|end_char=7125
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=7126|end_char=7130
+6	doppelte	doppelt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=7131|end_char=7139
+7	Flächennutzung	Flächennutzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No|start_char=7140|end_char=7154
+8	,	,	PUNCT	$,	_	11	punct	_	start_char=7154|end_char=7155
+9	natürlich	natürlich	ADJ	ADV	Degree=Pos	11	amod	_	start_char=7156|end_char=7165
+10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=7166|end_char=7169
+11	Stromerzeugung	Stromerzeugung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No|start_char=7170|end_char=7184
+12	,	,	PUNCT	$,	_	16	punct	_	start_char=7184|end_char=7185
+13	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	16	nsubj	_	start_char=7186|end_char=7189
+14	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	16	det	_	start_char=7190|end_char=7194
+15	zusätzliche	zusätzlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=7195|end_char=7206
+16	Einnahmequelle	Einnahmequelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	acl	_	start_char=7207|end_char=7221
+17	für	für	ADP	APPR	_	19	case	_	start_char=7222|end_char=7225
+18	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=7226|end_char=7229
+19	Landwirtschaft	Landwirtschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	start_char=7230|end_char=7244
+20	sein	sein	AUX	VAINF	VerbForm=Inf	16	cop	_	start_char=7245|end_char=7249
+21	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No|start_char=7250|end_char=7254
+22	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=7254|end_char=7255
+
+# text = und zu einer dezentralen Energieversorgung beiträgt.
+# sent_id = 97
+1	und	und	CCONJ	KON	_	6	cc	_	start_char=7257|end_char=7260
+2	zu	zu	ADP	APPR	_	5	case	_	start_char=7261|end_char=7263
+3	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=7264|end_char=7269
+4	dezentralen	dezentral	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=7270|end_char=7281
+5	Energieversorgung	Energieversorgung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	start_char=7282|end_char=7299
+6	beiträgt	beitragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=7300|end_char=7308
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=7308|end_char=7309
+
+# text = Seit neuestem auch das Wassermanagement.
+# sent_id = 98
+1	Seit	seit	ADP	APPR	_	2	case	_	start_char=7310|end_char=7314
+2	neuestem	neu	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	start_char=7315|end_char=7323
+3	auch	auch	ADV	ADV	_	5	advmod	_	start_char=7324|end_char=7328
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	start_char=7329|end_char=7332
+5	Wassermanagement	Wassermanagement	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=7333|end_char=7349
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=7349|end_char=7350
+
+# text = Alles zusammen ist Agri-Photovoltaik ein Beitrag zum Klimaschutz.
+# sent_id = 99
+1	Alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	8	nsubj	_	start_char=7351|end_char=7356
+2	zusammen	zusammen	ADV	ADV	_	1	advmod	_	start_char=7357|end_char=7365
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=7366|end_char=7369
+4	Agri	Agri	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No|start_char=7370|end_char=7374
+5	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=7374|end_char=7375
+6	Photovoltaik	Photovoltaik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	flat	_	start_char=7375|end_char=7387
+7	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=7388|end_char=7391
+8	Beitrag	Beitrag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=7392|end_char=7399
+9-10	zum	_	_	_	_	_	_	_	start_char=7400|end_char=7403
+9	zu	zu	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Klimaschutz	Klimaschutz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No|start_char=7404|end_char=7415
+12	.	.	PUNCT	$.	_	8	punct	_	start_char=7415|end_char=7416
+
+# text = Ich hab mir mal erlaubt, Agri-Photovoltaik mit den globalen Nachhaltigkeitszielen abzugleichen.
+# sent_id = 100
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=7417|end_char=7420
+2	hab	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=7421|end_char=7424
+3	mir	ich	PRON	PRF	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obl:arg	_	start_char=7425|end_char=7428
+4	mal	mal	ADV	ADV	_	5	advmod	_	start_char=7429|end_char=7432
+5	erlaubt	erlauben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=7433|end_char=7440
+6	,	,	PUNCT	$,	_	14	punct	_	start_char=7440|end_char=7441
+7	Agri	Agri	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No|start_char=7442|end_char=7446
+8	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=7446|end_char=7447
+9	Photovoltaik	Photovoltaik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	flat	_	start_char=7447|end_char=7459
+10	mit	mit	ADP	APPR	_	13	case	_	start_char=7460|end_char=7463
+11	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	13	det	_	start_char=7464|end_char=7467
+12	globalen	global	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	13	amod	_	start_char=7468|end_char=7476
+13	Nachhaltigkeitszielen	Nachhaltigkeitsziel	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	14	obl	_	start_char=7477|end_char=7498
+14	abzugleichen	abgleichen	VERB	VVIZU	VerbForm=Inf	5	xcomp	_	SpaceAfter=No|start_char=7499|end_char=7511
+15	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s|start_char=7511|end_char=7512
+
+# text = und mir sind mindestens 10 eingefallen, wo ich sagen würde, Agri-Photovoltaik bringt uns in die richtige Richtung.
+# sent_id = 101
+1	und	und	CCONJ	KON	_	6	cc	_	start_char=7514|end_char=7517
+2	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	obl:arg	_	start_char=7518|end_char=7521
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=7522|end_char=7526
+4	mindestens	mindestens	ADV	ADV	_	5	advmod	_	start_char=7527|end_char=7537
+5	10	10	NUM	CARD	NumType=Card	6	nsubj	_	start_char=7538|end_char=7540
+6	eingefallen	einfallen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=7541|end_char=7552
+7	,	,	PUNCT	$,	_	10	punct	_	start_char=7552|end_char=7553
+8	wo	wo	ADV	PWAV	PronType=Int	10	advmod	_	start_char=7554|end_char=7556
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=7557|end_char=7560
+10	sagen	sagen	VERB	VVINF	VerbForm=Inf	6	ccomp	_	start_char=7561|end_char=7566
+11	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	aux	_	SpaceAfter=No|start_char=7567|end_char=7572
+12	,	,	PUNCT	$,	_	16	punct	_	start_char=7572|end_char=7573
+13	Agri	Agri	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No|start_char=7574|end_char=7578
+14	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No|start_char=7578|end_char=7579
+15	Photovoltaik	Photovoltaik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	flat	_	start_char=7579|end_char=7591
+16	bringt	bringen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	start_char=7592|end_char=7598
+17	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	16	obj	_	start_char=7599|end_char=7602
+18	in	in	ADP	APPR	_	21	case	_	start_char=7603|end_char=7605
+19	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=7606|end_char=7609
+20	richtige	richtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=7610|end_char=7618
+21	Richtung	Richtung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No|start_char=7619|end_char=7627
+22	.	.	PUNCT	$.	_	6	punct	_	start_char=7627|end_char=7628
+
+# text = Unter anderem der Ausbau der erneuerbaren Energien, die Zukunftsperspektive für die Landwirtschaft,.
+# sent_id = 102
+1	Unter	unter	ADP	APPR	_	2	case	_	start_char=7629|end_char=7634
+2	anderem	anderer	DET	PIS	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	4	nmod	_	start_char=7635|end_char=7642
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=7643|end_char=7646
+4	Ausbau	Ausbau	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=7647|end_char=7653
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=7654|end_char=7657
+6	erneuerbaren	erneuerbaren	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=7658|end_char=7670
+7	Energien	Energie	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No|start_char=7671|end_char=7679
+8	,	,	PUNCT	$,	_	10	punct	_	start_char=7679|end_char=7680
+9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=7681|end_char=7684
+10	Zukunftsperspektive	Zukunftsperspektive	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	appos	_	start_char=7685|end_char=7704
+11	für	für	ADP	APPR	_	13	case	_	start_char=7705|end_char=7708
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	start_char=7709|end_char=7712
+13	Landwirtschaft	Landwirtschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No|start_char=7713|end_char=7727
+14	,	,	PUNCT	$,	_	4	punct	_	SpaceAfter=No|start_char=7727|end_char=7728
+15	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s|start_char=7728|end_char=7729
+
+# text = aber auch der Kampf gegen Hunger.
+# sent_id = 103
+1	aber	aber	CCONJ	KON	_	4	cc	_	start_char=7731|end_char=7735
+2	auch	auch	ADV	ADV	_	4	advmod	_	start_char=7736|end_char=7740
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=7741|end_char=7744
+4	Kampf	Kampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=7745|end_char=7750
+5	gegen	gegen	ADP	APPR	_	6	case	_	start_char=7751|end_char=7756
+6	Hunger	Hunger	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|start_char=7757|end_char=7763
+7	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s|start_char=7763|end_char=7764
+
+# text = und der verantwortungsbewusste Umgang mit unseren Ressourcen.
+# sent_id = 104
+1	und	und	CCONJ	KON	_	4	cc	_	start_char=7766|end_char=7769
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=7770|end_char=7773
+3	verantwortungsbewusste	verantwortungsbewusst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=7774|end_char=7796
+4	Umgang	Umgang	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=7797|end_char=7803
+5	mit	mit	ADP	APPR	_	7	case	_	start_char=7804|end_char=7807
+6	unseren	unser	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=7808|end_char=7815
+7	Ressourcen	Ressource	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No|start_char=7816|end_char=7826
+8	.	.	PUNCT	$.	_	4	punct	_	start_char=7826|end_char=7827
+
+# text = Um unsere Klimaziele in Deutschland zu erreichen, müssen wir in den nächsten 30 Jahren das, was wir jetzt an solarer Leistung installiert haben, mindestens verzehnfachen.
+# sent_id = 105
+1	Um	um	ADP	KOUI	_	7	mark	_	start_char=7828|end_char=7830
+2	unsere	unser	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	start_char=7831|end_char=7837
+3	Klimaziele	Klimaziel	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	start_char=7838|end_char=7848
+4	in	in	ADP	APPR	_	5	case	_	start_char=7849|end_char=7851
+5	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	start_char=7852|end_char=7863
+6	zu	zu	PART	PTKZU	_	7	mark	_	start_char=7864|end_char=7866
+7	erreichen	erreichen	VERB	VVINF	VerbForm=Inf	28	advcl	_	SpaceAfter=No|start_char=7867|end_char=7876
+8	,	,	PUNCT	$,	_	7	punct	_	start_char=7876|end_char=7877
+9	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	28	aux	_	start_char=7878|end_char=7884
+10	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	28	nsubj	_	start_char=7885|end_char=7888
+11	in	in	ADP	APPR	_	15	case	_	start_char=7889|end_char=7891
+12	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	15	det	_	start_char=7892|end_char=7895
+13	nächsten	nah	ADJ	ADJA	Case=Dat|Degree=Sup|Gender=Neut|Number=Plur	15	amod	_	start_char=7896|end_char=7904
+14	30	30	NUM	CARD	NumType=Card	15	nummod	_	start_char=7905|end_char=7907
+15	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	28	obl	_	start_char=7908|end_char=7914
+16	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	28	obj	_	SpaceAfter=No|start_char=7915|end_char=7918
+17	,	,	PUNCT	$,	_	24	punct	_	start_char=7918|end_char=7919
+18	was	was	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	24	obj	_	start_char=7920|end_char=7923
+19	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	start_char=7924|end_char=7927
+20	jetzt	jetzt	ADV	ADV	_	24	advmod	_	start_char=7928|end_char=7933
+21	an	an	ADP	APPR	_	23	case	_	start_char=7934|end_char=7936
+22	solarer	solar	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=7937|end_char=7944
+23	Leistung	Leistung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	obl	_	start_char=7945|end_char=7953
+24	installiert	installieren	VERB	VVPP	VerbForm=Part	16	acl	_	start_char=7954|end_char=7965
+25	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	SpaceAfter=No|start_char=7966|end_char=7971
+26	,	,	PUNCT	$,	_	24	punct	_	start_char=7971|end_char=7972
+27	mindestens	mindestens	ADV	ADV	_	28	advmod	_	start_char=7973|end_char=7983
+28	verzehnfachen	verzehnfachen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=7984|end_char=7997
+29	.	.	PUNCT	$.	_	28	punct	_	start_char=7997|end_char=7998
+
+# text = Das ist eine enorme Aufgabe.
+# sent_id = 106
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=7999|end_char=8002
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=8003|end_char=8006
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=8007|end_char=8011
+4	enorme	enorm	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=8012|end_char=8018
+5	Aufgabe	Aufgabe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=8019|end_char=8026
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=8026|end_char=8027
+
+# text = Agri-Photovoltaik wird hoffentlich einen Beitrag leisten.
+# sent_id = 107
+1	Agri	Agri	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No|start_char=8028|end_char=8032
+2	-	-	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=8032|end_char=8033
+3	Photovoltaik	Photovoltaik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	start_char=8033|end_char=8045
+4	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	aux	_	start_char=8046|end_char=8050
+5	hoffentlich	hoffentlich	ADV	ADV	_	8	advmod	_	start_char=8051|end_char=8062
+6	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=8063|end_char=8068
+7	Beitrag	Beitrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	start_char=8069|end_char=8076
+8	leisten	leisten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=8077|end_char=8084
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=8084|end_char=8085
+
+# text = Das Potenzial ist auf jeden Fall da. und Ackerflächen, wo man diese Technologie installieren könnte, gibt es auch mehr als genug.
+# sent_id = 108
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=8086|end_char=8089
+2	Potenzial	Potenzial	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	start_char=8090|end_char=8099
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=8100|end_char=8103
+4	auf	auf	ADP	APPR	_	6	case	_	start_char=8104|end_char=8107
+5	jeden	jeder	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	6	det	_	start_char=8108|end_char=8113
+6	Fall	Fall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	start_char=8114|end_char=8118
+7	da.	da.	ADJ	ADJD	Degree=Pos	18	advmod	_	SpacesAfter=\s\s|start_char=8119|end_char=8122
+8	und	und	CCONJ	KON	_	9	cc	_	start_char=8124|end_char=8127
+9	Ackerflächen	Ackerfläche	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No|start_char=8128|end_char=8140
+10	,	,	PUNCT	$,	_	15	punct	_	start_char=8140|end_char=8141
+11	wo	wo	ADV	PWAV	PronType=Int	15	advmod	_	start_char=8142|end_char=8144
+12	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	15	nsubj	_	start_char=8145|end_char=8148
+13	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	14	det	_	start_char=8149|end_char=8154
+14	Technologie	Technologie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=8155|end_char=8166
+15	installieren	installieren	VERB	VVINF	VerbForm=Inf	9	acl	_	start_char=8167|end_char=8179
+16	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	SpaceAfter=No|start_char=8180|end_char=8186
+17	,	,	PUNCT	$,	_	15	punct	_	start_char=8186|end_char=8187
+18	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8188|end_char=8192
+19	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	start_char=8193|end_char=8195
+20	auch	auch	ADV	ADV	_	18	advmod	_	start_char=8196|end_char=8200
+21	mehr	mehr	DET	ADV	Degree=Cmp|PronType=Ind	18	advmod	_	start_char=8201|end_char=8205
+22	als	als	ADP	KOKOM	_	23	case	_	start_char=8206|end_char=8209
+23	genug	genug	ADV	ADV	PronType=Ind	18	advmod	_	SpaceAfter=No|start_char=8210|end_char=8215
+24	.	.	PUNCT	$.	_	18	punct	_	start_char=8215|end_char=8216
+
+# text = Und wer weiß, vielleicht kommt euer Strom ja in ein paar Jahren aus einer Agri-Photovoltaikanlage.
+# sent_id = 109
+1	Und	und	CCONJ	KON	_	3	cc	_	start_char=8217|end_char=8220
+2	wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	3	nsubj	_	start_char=8221|end_char=8224
+3	weiß	wissen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=8225|end_char=8229
+4	,	,	PUNCT	$,	_	6	punct	_	start_char=8229|end_char=8230
+5	vielleicht	vielleicht	ADV	ADV	_	6	advmod	_	start_char=8231|end_char=8241
+6	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=8242|end_char=8247
+7	euer	euer	DET	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	8	det	_	start_char=8248|end_char=8252
+8	Strom	Strom	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=8253|end_char=8258
+9	ja	ja	ADV	ADV	_	6	advmod	_	start_char=8259|end_char=8261
+10	in	in	ADP	APPR	_	13	case	_	start_char=8262|end_char=8264
+11	ein	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	13	det	_	start_char=8265|end_char=8268
+12	paar	paar	ADJ	PIAT	Degree=Pos	13	nmod	_	start_char=8269|end_char=8273
+13	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	6	obl	_	start_char=8274|end_char=8280
+14	aus	aus	ADP	APPR	_	16	case	_	start_char=8281|end_char=8284
+15	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	16	det	_	start_char=8285|end_char=8290
+16	Agri	Agri	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No|start_char=8291|end_char=8295
+17	-	-	PUNCT	$(	_	18	punct	_	SpaceAfter=No|start_char=8295|end_char=8296
+18	Photovoltaikanlage	Photovoltaikanlage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	flat	_	SpaceAfter=No|start_char=8296|end_char=8314
+19	.	.	PUNCT	$.	_	3	punct	_	start_char=8314|end_char=8315
+
+# text = Das ist. dann euer ganz besonderer Beitrag, die Flächenkonkurrenz einzudämmen.
+# sent_id = 110
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	8	nsubj	_	start_char=8316|end_char=8319
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No|start_char=8320|end_char=8323
+3	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s|start_char=8323|end_char=8324
+4	dann	dann	ADV	ADV	_	8	advmod	_	start_char=8326|end_char=8330
+5	euer	euer	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=8331|end_char=8335
+6	ganz	ganz	ADV	ADV	_	7	advmod	_	start_char=8336|end_char=8340
+7	besonderer	besonder	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=8341|end_char=8351
+8	Beitrag	Beitrag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=8352|end_char=8359
+9	,	,	PUNCT	$,	_	12	punct	_	start_char=8359|end_char=8360
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=8361|end_char=8364
+11	Flächenkonkurrenz	Flächenkonkurrenz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=8365|end_char=8382
+12	einzudämmen	eindämmen	VERB	VVIZU	VerbForm=Inf	8	acl	_	SpaceAfter=No|start_char=8383|end_char=8394
+13	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s|start_char=8394|end_char=8395
+
+# text = und eine resiliente. und klimaneutrale Landwirtschaft mit aufzubauen.
+# sent_id = 111
+1	und	und	CCONJ	KON	_	9	cc	_	start_char=8397|end_char=8400
+2	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=8401|end_char=8405
+3	resiliente	resilient	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No|start_char=8406|end_char=8416
+4	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s|start_char=8416|end_char=8417
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=8419|end_char=8422
+6	klimaneutrale	klimaneutral	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	conj	_	start_char=8423|end_char=8436
+7	Landwirtschaft	Landwirtschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=8437|end_char=8451
+8	mit	mit	ADP	APPR	_	9	case	_	start_char=8452|end_char=8455
+9	aufzubauen	aufbauen	VERB	VVIZU	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=8456|end_char=8466
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=8466|end_char=8467
+
+# text = Danke.
+# sent_id = 112
+1	Danke	Dank	NOUN	PTKANT	_	0	root	_	SpaceAfter=No|start_char=8468|end_char=8473
+2	.	.	PUNCT	$.	_	1	punct	_	SpaceAfter=No|start_char=8473|end_char=8474
+

@@ -1,0 +1,2103 @@
+# text = So erst mal, hallo zusammen.
+# sent_id = 0
+1	So	so	ADV	ADV	_	3	advmod	_	start_char=0|end_char=2
+2	erst	erst	ADV	ADV	_	3	advmod	_	start_char=3|end_char=7
+3	mal	mal	ADV	ADV	_	0	root	_	SpaceAfter=No|start_char=8|end_char=11
+4	,	,	PUNCT	$,	_	5	punct	_	start_char=11|end_char=12
+5	hallo	hallo	ADJ	ADJD	Degree=Pos	3	conj	_	start_char=13|end_char=18
+6	zusammen	zusammen	ADV	PTKVZ	_	5	compound:prt	_	SpaceAfter=No|start_char=19|end_char=27
+7	.	.	PUNCT	$.	_	5	punct	_	start_char=27|end_char=28
+
+# text = Wer von euch trinkt gerne Kaffee?
+# sent_id = 1
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	4	nsubj	_	start_char=29|end_char=32
+2	von	von	ADP	APPR	_	3	case	_	start_char=33|end_char=36
+3	euch	ihr	PRON	PPER	Case=Dat|Number=Sing|Person=2|PronType=Prs	4	obl	_	start_char=37|end_char=41
+4	trinkt	trinken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=42|end_char=48
+5	gerne	gerne	ADV	ADV	_	4	advmod	_	start_char=49|end_char=54
+6	Kaffee	Kaffee	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No|start_char=55|end_char=61
+7	?	?	PUNCT	$.	_	4	punct	_	start_char=61|end_char=62
+
+# text = Ja, ich liebe auch Kaffee, es gibt mir sozusagen Schwung in den Tag.
+# sent_id = 2
+1	Ja	Ja	ADV	ADV	_	4	advmod	_	SpaceAfter=No|start_char=63|end_char=65
+2	,	,	PUNCT	$,	_	1	punct	_	start_char=65|end_char=66
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=67|end_char=70
+4	liebe	lieben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=71|end_char=76
+5	auch	auch	ADV	ADV	_	4	advmod	_	start_char=77|end_char=81
+6	Kaffee	Kaffee	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No|start_char=82|end_char=88
+7	,	,	PUNCT	$,	_	9	punct	_	start_char=88|end_char=89
+8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	start_char=90|end_char=92
+9	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=93|end_char=97
+10	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	9	obl:arg	_	start_char=98|end_char=101
+11	sozusagen	sozusagen	ADV	ADV	_	9	advmod	_	start_char=102|end_char=111
+12	Schwung	Schwung	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=112|end_char=119
+13	in	in	ADP	APPR	_	15	case	_	start_char=120|end_char=122
+14	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=123|end_char=126
+15	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|start_char=127|end_char=130
+16	.	.	PUNCT	$.	_	4	punct	_	start_char=130|end_char=131
+
+# text = Und immer wenn man Kaffee kocht, egal ob Espresso oder irgendeine Form von Kaffee, fällt Kaffeesatz an.
+# sent_id = 3
+1	Und	und	CCONJ	KON	_	6	cc	_	start_char=132|end_char=135
+2	immer	immer	ADV	ADV	_	6	advmod	_	start_char=136|end_char=141
+3	wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=142|end_char=146
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=147|end_char=150
+5	Kaffee	Kaffee	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=151|end_char=157
+6	kocht	kochen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	SpaceAfter=No|start_char=158|end_char=163
+7	,	,	PUNCT	$,	_	10	punct	_	start_char=163|end_char=164
+8	egal	egal	ADV	ADV	_	10	advmod	_	start_char=165|end_char=169
+9	ob	ob	SCONJ	KOUS	_	10	mark	_	start_char=170|end_char=172
+10	Espresso	Espresso	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	start_char=173|end_char=181
+11	oder	oder	CCONJ	KON	_	13	cc	_	start_char=182|end_char=186
+12	irgendeine	irgendein	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Neg	13	det	_	start_char=187|end_char=197
+13	Form	Form	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	conj	_	start_char=198|end_char=202
+14	von	von	ADP	APPR	_	15	case	_	start_char=203|end_char=206
+15	Kaffee	Kaffee	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No|start_char=207|end_char=213
+16	,	,	PUNCT	$,	_	6	punct	_	start_char=213|end_char=214
+17	fällt	fallen|fällen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=215|end_char=220
+18	Kaffeesatz	Kaffeesatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	start_char=221|end_char=231
+19	an	an	ADP	PTKVZ	_	17	compound:prt	_	SpaceAfter=No|start_char=232|end_char=234
+20	.	.	PUNCT	$.	_	17	punct	_	start_char=234|end_char=235
+
+# text = Und manche Leute geben diesen Kaffeesatz.
+# sent_id = 4
+1	Und	und	CCONJ	KON	_	4	cc	_	start_char=236|end_char=239
+2	manche	mancher	DET	PIAT	Case=Nom|Number=Plur|PronType=Ind	3	det	_	start_char=240|end_char=246
+3	Leute	Leute	NOUN	NN	Case=Nom|Number=Plur	4	nsubj	_	start_char=247|end_char=252
+4	geben	geben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=253|end_char=258
+5	diesen	dieser	DET	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	start_char=259|end_char=265
+6	Kaffeesatz	Kaffeesatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No|start_char=266|end_char=276
+7	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s|start_char=276|end_char=277
+
+# text = dann Pflanzen.
+# sent_id = 5
+1	dann	dann	ADV	ADV	_	2	advmod	_	start_char=279|end_char=283
+2	Pflanzen	Pflanze	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|start_char=284|end_char=292
+3	.	.	PUNCT	$.	_	2	punct	_	start_char=292|end_char=293
+
+# text = Allerdings, wenn man sich mal überlegt, wie viel Kaffeesatz so in Kantinen oder in Café-Shops anfällt, geht das eigentlich nicht mehr mit den Blumen.
+# sent_id = 6
+1	Allerdings	allerdings	ADV	ADV	_	22	advmod	_	SpaceAfter=No|start_char=294|end_char=304
+2	,	,	PUNCT	$,	_	1	punct	_	start_char=304|end_char=305
+3	wenn	wenn	SCONJ	KOUS	_	7	mark	_	start_char=306|end_char=310
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=311|end_char=314
+5	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	start_char=315|end_char=319
+6	mal	mal	ADV	ADV	_	7	advmod	_	start_char=320|end_char=323
+7	überlegt	überlegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	SpaceAfter=No|start_char=324|end_char=332
+8	,	,	PUNCT	$,	_	20	punct	_	start_char=332|end_char=333
+9	wie	wie	ADV	KOUS	PronType=Int	20	advmod	_	start_char=334|end_char=337
+10	viel	viel	DET	PIAT	PronType=Ind	11	det	_	start_char=338|end_char=342
+11	Kaffeesatz	Kaffeesatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	start_char=343|end_char=353
+12	so	so	ADV	ADV	_	20	advmod	_	start_char=354|end_char=356
+13	in	in	ADP	APPR	_	14	case	_	start_char=357|end_char=359
+14	Kantinen	Kantine	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	20	obl	_	start_char=360|end_char=368
+15	oder	oder	CCONJ	KON	_	19	cc	_	start_char=369|end_char=373
+16	in	in	ADP	APPR	_	19	case	_	start_char=374|end_char=376
+17	Café	Café	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	19	compound	_	SpaceAfter=No|start_char=377|end_char=381
+18	-	-	PUNCT	$(	_	17	punct	_	SpaceAfter=No|start_char=381|end_char=382
+19	Shops	Shop	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	14	conj	_	start_char=382|end_char=387
+20	anfällt	anfallen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	SpaceAfter=No|start_char=388|end_char=395
+21	,	,	PUNCT	$,	_	7	punct	_	start_char=395|end_char=396
+22	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=397|end_char=401
+23	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	22	nsubj	_	start_char=402|end_char=405
+24	eigentlich	eigentlich	ADV	ADV	_	22	advmod	_	start_char=406|end_char=416
+25	nicht	nicht	PART	PTKNEG	Polarity=Neg	22	advmod	_	start_char=417|end_char=422
+26	mehr	mehr	ADV	ADV	_	25	advmod	_	start_char=423|end_char=427
+27	mit	mit	ADP	APPR	_	29	case	_	start_char=428|end_char=431
+28	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	29	det	_	start_char=432|end_char=435
+29	Blumen	Blume	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	22	obl	_	SpaceAfter=No|start_char=436|end_char=442
+30	.	.	PUNCT	$.	_	22	punct	_	start_char=442|end_char=443
+
+# text = Und vielleicht seid ihr auch mal bei einem Stall vorbeigekommen in der letzten Zeit, da geht Stroh rein.
+# sent_id = 7
+1	Und	und	CCONJ	KON	_	10	cc	_	start_char=444|end_char=447
+2	vielleicht	vielleicht	ADV	ADV	_	10	advmod	_	start_char=448|end_char=458
+3	seid	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=459|end_char=463
+4	ihr	sie	PRON	PPER	Case=Dat|Number=Sing|Person=3|PronType=Prs	10	obl:arg	_	start_char=464|end_char=467
+5	auch	auch	ADV	ADV	_	6	advmod	_	start_char=468|end_char=472
+6	mal	mal	ADV	ADV	_	10	advmod	_	start_char=473|end_char=476
+7	bei	bei	ADP	APPR	_	9	case	_	start_char=477|end_char=480
+8	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	9	det	_	start_char=481|end_char=486
+9	Stall	Stall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	start_char=487|end_char=492
+10	vorbeigekommen	vorbeikommen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=493|end_char=507
+11	in	in	ADP	APPR	_	14	case	_	start_char=508|end_char=510
+12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=511|end_char=514
+13	letzten	letzt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=515|end_char=522
+14	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|start_char=523|end_char=527
+15	,	,	PUNCT	$,	_	17	punct	_	start_char=527|end_char=528
+16	da	da	ADV	ADV	_	17	advmod	_	start_char=529|end_char=531
+17	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	start_char=532|end_char=536
+18	Stroh	Stroh	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	start_char=537|end_char=542
+19	rein	rein	ADV	PTKVZ	_	17	compound:prt	_	SpaceAfter=No|start_char=543|end_char=547
+20	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s|start_char=547|end_char=548
+
+# text = und Mist raus.
+# sent_id = 8
+1	und	und	CCONJ	KON	_	2	cc	_	start_char=550|end_char=553
+2	Mist	Mist	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=554|end_char=558
+3	raus	raus	ADV	ADV	_	2	advmod	_	SpaceAfter=No|start_char=559|end_char=563
+4	.	.	PUNCT	$.	_	2	punct	_	start_char=563|end_char=564
+
+# text = Ist. dann meistens auch nicht mehr so angenehm.
+# sent_id = 9
+1	Ist.	ist.	ADV	ADV	_	8	advmod	_	SpacesAfter=\s\s|start_char=565|end_char=569
+2	dann	dann	ADV	ADV	_	8	advmod	_	start_char=571|end_char=575
+3	meistens	meistens	ADV	ADV	_	8	advmod	_	start_char=576|end_char=584
+4	auch	auch	ADV	ADV	_	5	advmod	_	start_char=585|end_char=589
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	start_char=590|end_char=595
+6	mehr	mehr	ADV	ADV	_	5	advmod	_	start_char=596|end_char=600
+7	so	so	ADV	ADV	_	8	advmod	_	start_char=601|end_char=603
+8	angenehm	angenehm	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=604|end_char=612
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=612|end_char=613
+
+# text = Mit Mist kann man düngen,.
+# sent_id = 10
+1	Mit	mit	ADP	APPR	_	2	case	_	start_char=614|end_char=617
+2	Mist	Mist	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	start_char=618|end_char=622
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=623|end_char=627
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	start_char=628|end_char=631
+5	düngen	dingen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=632|end_char=638
+6	,	,	PUNCT	$,	_	5	punct	_	SpaceAfter=No|start_char=638|end_char=639
+7	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s|start_char=639|end_char=640
+
+# text = aber es gibt auch andere Möglichkeiten, was man mit Kaffeesatz machen kann.
+# sent_id = 11
+1	aber	aber	CCONJ	KON	_	3	cc	_	start_char=642|end_char=646
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=647|end_char=649
+3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=650|end_char=654
+4	auch	auch	ADV	ADV	_	3	advmod	_	start_char=655|end_char=659
+5	andere	anderer	DET	ADJA	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	6	det	_	start_char=660|end_char=666
+6	Möglichkeiten	Möglichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No|start_char=667|end_char=680
+7	,	,	PUNCT	$,	_	12	punct	_	start_char=680|end_char=681
+8	was	was	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	12	obj	_	start_char=682|end_char=685
+9	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	12	nsubj	_	start_char=686|end_char=689
+10	mit	mit	ADP	APPR	_	11	case	_	start_char=690|end_char=693
+11	Kaffeesatz	Kaffeesatz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	start_char=694|end_char=704
+12	machen	machen	VERB	VVINF	VerbForm=Inf	6	acl	_	start_char=705|end_char=711
+13	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No|start_char=712|end_char=716
+14	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=716|end_char=717
+
+# text = und was man mit Mist machen kann.
+# sent_id = 12
+1	und	und	CCONJ	KON	_	6	cc	_	start_char=719|end_char=722
+2	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	6	obj	_	start_char=723|end_char=726
+3	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=727|end_char=730
+4	mit	mit	ADP	APPR	_	5	case	_	start_char=731|end_char=734
+5	Mist	Mist	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	start_char=735|end_char=739
+6	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=740|end_char=746
+7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No|start_char=747|end_char=751
+8	.	.	PUNCT	$.	_	1	punct	_	start_char=751|end_char=752
+
+# text = Jetzt werdet ihr sagen: Also Kaffeesatz. und Mist, das finde ich jetzt nicht so spannend.
+# sent_id = 13
+1	Jetzt	jetzt	ADV	ADV	_	4	advmod	_	start_char=753|end_char=758
+2	werdet	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=759|end_char=765
+3	ihr	sie	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl:arg	_	start_char=766|end_char=769
+4	sagen	sagen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=770|end_char=775
+5	:	:	PUNCT	$.	_	7	punct	_	start_char=775|end_char=776
+6	Also	also	ADV	ADV	_	7	advmod	_	start_char=777|end_char=781
+7	Kaffeesatz	Kaffeesatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	parataxis	_	SpaceAfter=No|start_char=782|end_char=792
+8	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s|start_char=792|end_char=793
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=795|end_char=798
+10	Mist	Mist	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No|start_char=799|end_char=803
+11	,	,	PUNCT	$,	_	13	punct	_	start_char=803|end_char=804
+12	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	13	obj	_	start_char=805|end_char=808
+13	finde	finden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=809|end_char=814
+14	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=815|end_char=818
+15	jetzt	jetzt	ADV	ADV	_	13	advmod	_	start_char=819|end_char=824
+16	nicht	nicht	PART	PTKNEG	Polarity=Neg	17	advmod	_	start_char=825|end_char=830
+17	so	so	ADV	ADV	_	18	advmod	_	start_char=831|end_char=833
+18	spannend	spannend	ADJ	ADJD	Degree=Pos	13	xcomp	_	SpaceAfter=No|start_char=834|end_char=842
+19	.	.	PUNCT	$.	_	4	punct	_	start_char=842|end_char=843
+
+# text = Dafür bin ich jetzt nicht zu TEDx gegangen.
+# sent_id = 14
+1	Dafür	dafür	ADV	PAV	PronType=Dem	8	advmod	_	start_char=844|end_char=849
+2	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=850|end_char=853
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=854|end_char=857
+4	jetzt	jetzt	ADV	ADV	_	8	advmod	_	start_char=858|end_char=863
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	start_char=864|end_char=869
+6	zu	zu	ADP	APPR	_	7	case	_	start_char=870|end_char=872
+7	TEDx	TEDx	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	start_char=873|end_char=877
+8	gegangen	gehen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=878|end_char=886
+9	.	.	PUNCT	$.	_	8	punct	_	start_char=886|end_char=887
+
+# text = Aber spannend ist Elektromobilität.
+# sent_id = 15
+1	Aber	aber	CCONJ	KON	_	2	cc	_	start_char=888|end_char=892
+2	spannend	spannend	ADJ	ADJD	Degree=Pos	0	root	_	start_char=893|end_char=901
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=902|end_char=905
+4	Elektromobilität	Elektromobilität	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No|start_char=906|end_char=922
+5	.	.	PUNCT	$.	_	2	punct	_	start_char=922|end_char=923
+
+# text = Viele von uns möchten gerne ein E-Auto haben oder ein E-Roller oder sonst was.
+# sent_id = 16
+1	Viele	viel	DET	PIS	Case=Nom|Number=Plur|PronType=Ind	9	nsubj	_	start_char=924|end_char=929
+2	von	von	ADP	APPR	_	3	case	_	start_char=930|end_char=933
+3	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	1	nmod	_	start_char=934|end_char=937
+4	möchten	mögen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	start_char=938|end_char=945
+5	gerne	gerne	ADV	ADV	_	9	advmod	_	start_char=946|end_char=951
+6	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=952|end_char=955
+7	E-	E-	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	compound	_	SpaceAfter=No|start_char=956|end_char=958
+8	Auto	Auto	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=958|end_char=962
+9	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	start_char=963|end_char=968
+10	oder	oder	CCONJ	KON	_	14	cc	_	start_char=969|end_char=973
+11	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	14	det	_	start_char=974|end_char=977
+12	E	E	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	compound	_	SpaceAfter=No|start_char=978|end_char=979
+13	-	-	PUNCT	$(	_	12	punct	_	SpaceAfter=No|start_char=979|end_char=980
+14	Roller	Roller	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	conj	_	start_char=980|end_char=986
+15	oder	oder	CCONJ	KON	_	17	cc	_	start_char=987|end_char=991
+16	sonst	sonst	ADV	ADV	_	17	advmod	_	start_char=992|end_char=997
+17	was	was	PRON	PIS	Gender=Neut|Number=Sing|PronType=Int,Rel	14	conj	_	SpaceAfter=No|start_char=998|end_char=1001
+18	.	.	PUNCT	$.	_	9	punct	_	start_char=1001|end_char=1002
+
+# text = Und es ist auch klar, wo da die Schwierigkeiten sind, das liest man eigentlich jeden Tag in der Presse.
+# sent_id = 17
+1	Und	und	CCONJ	KON	_	5	cc	_	start_char=1003|end_char=1006
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	start_char=1007|end_char=1009
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1010|end_char=1013
+4	auch	auch	ADV	ADV	_	5	advmod	_	start_char=1014|end_char=1018
+5	klar	klar	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1019|end_char=1023
+6	,	,	PUNCT	$,	_	11	punct	_	start_char=1023|end_char=1024
+7	wo	wo	ADV	PWAV	PronType=Int	10	advmod	_	start_char=1025|end_char=1027
+8	da	da	ADV	ADV	_	10	advmod	_	start_char=1028|end_char=1030
+9	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	10	det	_	start_char=1031|end_char=1034
+10	Schwierigkeiten	Schwierigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	start_char=1035|end_char=1050
+11	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	SpaceAfter=No|start_char=1051|end_char=1055
+12	,	,	PUNCT	$,	_	14	punct	_	start_char=1055|end_char=1056
+13	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	14	obj	_	start_char=1057|end_char=1060
+14	liest	lesen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	start_char=1061|end_char=1066
+15	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	14	nsubj	_	start_char=1067|end_char=1070
+16	eigentlich	eigentlich	ADV	ADV	_	14	advmod	_	start_char=1071|end_char=1081
+17	jeden	jeder	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	18	det	_	start_char=1082|end_char=1087
+18	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	start_char=1088|end_char=1091
+19	in	in	ADP	APPR	_	21	case	_	start_char=1092|end_char=1094
+20	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	start_char=1095|end_char=1098
+21	Presse	Presse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No|start_char=1099|end_char=1105
+22	.	.	PUNCT	$.	_	5	punct	_	start_char=1105|end_char=1106
+
+# text = Und wenn sie selbst ein E-Auto fahren,.
+# sent_id = 18
+1	Und	und	CCONJ	KON	_	8	cc	_	start_char=1107|end_char=1110
+2	wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=1111|end_char=1115
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=1116|end_char=1119
+4	selbst	selbst	ADV	ADV	_	8	advmod	_	start_char=1120|end_char=1126
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=1127|end_char=1130
+6	E-	E-	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	compound	_	SpaceAfter=No|start_char=1131|end_char=1133
+7	Auto	Auto	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	start_char=1133|end_char=1137
+8	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1138|end_char=1144
+9	,	,	PUNCT	$,	_	8	punct	_	SpaceAfter=No|start_char=1144|end_char=1145
+10	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s|start_char=1145|end_char=1146
+
+# text = dann wissen sie auch, wo da die Probleme, die Herausforderungen sind.
+# sent_id = 19
+1	dann	dann	ADV	ADV	_	2	advmod	_	start_char=1148|end_char=1152
+2	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1153|end_char=1159
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=1160|end_char=1163
+4	auch	auch	ADV	ADV	_	2	advmod	_	SpaceAfter=No|start_char=1164|end_char=1168
+5	,	,	PUNCT	$,	_	9	punct	_	start_char=1168|end_char=1169
+6	wo	wo	ADV	PWAV	PronType=Int	9	advmod	_	start_char=1170|end_char=1172
+7	da	da	ADV	ADV	_	9	advmod	_	start_char=1173|end_char=1175
+8	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=1176|end_char=1179
+9	Probleme	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	SpaceAfter=No|start_char=1180|end_char=1188
+10	,	,	PUNCT	$,	_	12	punct	_	start_char=1188|end_char=1189
+11	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	12	nsubj	_	start_char=1190|end_char=1193
+12	Herausforderungen	Herausforderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	acl	_	start_char=1194|end_char=1211
+13	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	SpaceAfter=No|start_char=1212|end_char=1216
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=1216|end_char=1217
+
+# text = Die Herausforderungen sind: Batterien sind zu schwer, die Reichweite ist nicht lang genug, es ist relativ teuer, die Batterien.
+# sent_id = 20
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=1218|end_char=1221
+2	Herausforderungen	Herausforderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=1222|end_char=1239
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No|start_char=1240|end_char=1244
+4	:	:	PUNCT	$.	_	8	punct	_	start_char=1244|end_char=1245
+5	Batterien	Batterie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=1246|end_char=1255
+6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=1256|end_char=1260
+7	zu	zu	ADV	PTKA	_	8	advmod	_	start_char=1261|end_char=1263
+8	schwer	schwer	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1264|end_char=1270
+9	,	,	PUNCT	$,	_	14	punct	_	start_char=1270|end_char=1271
+10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	start_char=1272|end_char=1275
+11	Reichweite	Reichweite	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	start_char=1276|end_char=1286
+12	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=1287|end_char=1290
+13	nicht	nicht	PART	PTKNEG	Polarity=Neg	14	advmod	_	start_char=1291|end_char=1296
+14	lang	lang	ADJ	ADJD	Degree=Pos	8	conj	_	start_char=1297|end_char=1301
+15	genug	genug	ADV	ADV	PronType=Ind	14	cop	_	SpaceAfter=No|start_char=1302|end_char=1307
+16	,	,	PUNCT	$,	_	20	punct	_	start_char=1307|end_char=1308
+17	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	start_char=1309|end_char=1311
+18	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	start_char=1312|end_char=1315
+19	relativ	relativ	ADJ	ADJD	Degree=Pos	20	advmod	_	start_char=1316|end_char=1323
+20	teuer	teuer	ADJ	ADJD	Degree=Pos	8	conj	_	SpaceAfter=No|start_char=1324|end_char=1329
+21	,	,	PUNCT	$,	_	23	punct	_	start_char=1329|end_char=1330
+22	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	23	det	_	start_char=1331|end_char=1334
+23	Batterien	Batterie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	20	conj	_	SpaceAfter=No|start_char=1335|end_char=1344
+24	.	.	PUNCT	$.	_	8	punct	_	start_char=1344|end_char=1345
+
+# text = Das sind so die Herausforderungen.
+# sent_id = 21
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=1346|end_char=1349
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1350|end_char=1354
+3	so	so	ADV	ADV	_	5	advmod	_	start_char=1355|end_char=1357
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=1358|end_char=1361
+5	Herausforderungen	Herausforderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|start_char=1362|end_char=1379
+6	.	.	PUNCT	$.	_	5	punct	_	start_char=1379|end_char=1380
+
+# text = Dann ist auch nicht so klar, ob die Batterien nachhaltig hergestellt werden können.
+# sent_id = 22
+1	Dann	dann	ADV	ADV	_	6	advmod	_	start_char=1381|end_char=1385
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1386|end_char=1389
+3	auch	auch	ADV	ADV	_	6	advmod	_	start_char=1390|end_char=1394
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	start_char=1395|end_char=1400
+5	so	so	ADV	ADV	_	6	advmod	_	start_char=1401|end_char=1403
+6	klar	klar	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1404|end_char=1408
+7	,	,	PUNCT	$,	_	12	punct	_	start_char=1408|end_char=1409
+8	ob	ob	SCONJ	KOUS	_	12	mark	_	start_char=1410|end_char=1412
+9	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	10	det	_	start_char=1413|end_char=1416
+10	Batterien	Batterie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj:pass	_	start_char=1417|end_char=1426
+11	nachhaltig	nachhaltig	ADJ	ADJD	Degree=Pos	12	advmod	_	start_char=1427|end_char=1437
+12	hergestellt	herstellen	VERB	VVPP	VerbForm=Part	6	csubj	_	start_char=1438|end_char=1449
+13	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	12	aux:pass	_	start_char=1450|end_char=1456
+14	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No|start_char=1457|end_char=1463
+15	.	.	PUNCT	$.	_	6	punct	_	start_char=1463|end_char=1464
+
+# text = Und das ist eigentlich die Frage, die die Menschen nun wirklich umtreibt.
+# sent_id = 23
+1	Und	und	CCONJ	KON	_	6	cc	_	start_char=1465|end_char=1468
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	6	nsubj	_	start_char=1469|end_char=1472
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=1473|end_char=1476
+4	eigentlich	eigentlich	ADV	ADV	_	6	advmod	_	start_char=1477|end_char=1487
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=1488|end_char=1491
+6	Frage	Frage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=1492|end_char=1497
+7	,	,	PUNCT	$,	_	13	punct	_	start_char=1497|end_char=1498
+8	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	13	obj	_	start_char=1499|end_char=1502
+9	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	10	det	_	start_char=1503|end_char=1506
+10	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	nsubj	_	start_char=1507|end_char=1515
+11	nun	nun	ADV	ADV	_	13	advmod	_	start_char=1516|end_char=1519
+12	wirklich	wirklich	ADV	ADV	_	13	advmod	_	start_char=1520|end_char=1528
+13	umtreibt	umtreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	SpaceAfter=No|start_char=1529|end_char=1537
+14	.	.	PUNCT	$.	_	6	punct	_	start_char=1537|end_char=1538
+
+# text = Und sie haben wahrscheinlich auch gelesen über Lithium, wenn man über Nachhaltigkeit redet oder über Kosten,.
+# sent_id = 24
+1	Und	und	CCONJ	KON	_	3	cc	_	start_char=1539|end_char=1542
+2	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=1543|end_char=1546
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1547|end_char=1552
+4	wahrscheinlich	wahrscheinlich	ADJ	ADV	Degree=Pos	3	advmod	_	start_char=1553|end_char=1567
+5	auch	auch	ADV	ADV	_	3	advmod	_	start_char=1568|end_char=1572
+6	gelesen	lesen	VERB	VVPP	VerbForm=Part	3	xcomp	_	start_char=1573|end_char=1580
+7	über	über	ADP	APPR	_	8	case	_	start_char=1581|end_char=1585
+8	Lithium	Lithium	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No|start_char=1586|end_char=1593
+9	,	,	PUNCT	$,	_	14	punct	_	start_char=1593|end_char=1594
+10	wenn	wenn	SCONJ	KOUS	_	14	mark	_	start_char=1595|end_char=1599
+11	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	14	nsubj	_	start_char=1600|end_char=1603
+12	über	über	ADP	APPR	_	13	case	_	start_char=1604|end_char=1608
+13	Nachhaltigkeit	Nachhaltigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	start_char=1609|end_char=1623
+14	redet	reden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=1624|end_char=1629
+15	oder	oder	CCONJ	KON	_	17	cc	_	start_char=1630|end_char=1634
+16	über	über	ADP	APPR	_	17	case	_	start_char=1635|end_char=1639
+17	Kosten	Kosten	NOUN	NN	Case=Acc|Number=Plur	14	obl	_	SpaceAfter=No|start_char=1640|end_char=1646
+18	,	,	PUNCT	$,	_	14	punct	_	SpaceAfter=No|start_char=1646|end_char=1647
+19	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=1647|end_char=1648
+
+# text = dann ist auch die Rede von Lithium, das ist irgend so ein Element im Periodensystem ist, das die unangenehme Eigenschaft hat, relativ selten zu sein.
+# sent_id = 25
+1	dann	dann	ADV	ADV	_	2	advmod	_	start_char=1650|end_char=1654
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1655|end_char=1658
+3	auch	auch	ADV	ADV	_	2	advmod	_	start_char=1659|end_char=1663
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=1664|end_char=1667
+5	Rede	Rede	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=1668|end_char=1672
+6	von	von	ADP	APPR	_	7	case	_	start_char=1673|end_char=1676
+7	Lithium	Lithium	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=1677|end_char=1684
+8	,	,	PUNCT	$,	_	14	punct	_	start_char=1684|end_char=1685
+9	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	14	nsubj	_	start_char=1686|end_char=1689
+10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=1690|end_char=1693
+11	irgend	irgend	ADV	ADV	_	12	advmod	_	start_char=1694|end_char=1700
+12	so	so	ADV	ADV	_	14	advmod	_	start_char=1701|end_char=1703
+13	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	14	det	_	start_char=1704|end_char=1707
+14	Element	Element	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	parataxis	_	start_char=1708|end_char=1715
+15-16	im	_	_	_	_	_	_	_	start_char=1716|end_char=1718
+15	in	in	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Periodensystem	Periodensystem	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	start_char=1719|end_char=1733
+18	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	SpaceAfter=No|start_char=1734|end_char=1737
+19	,	,	PUNCT	$,	_	24	punct	_	start_char=1737|end_char=1738
+20	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	24	nsubj	_	start_char=1739|end_char=1742
+21	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	start_char=1743|end_char=1746
+22	unangenehme	unangenehm	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=1747|end_char=1758
+23	Eigenschaft	Eigenschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	obj	_	start_char=1759|end_char=1770
+24	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl	_	SpaceAfter=No|start_char=1771|end_char=1774
+25	,	,	PUNCT	$,	_	27	punct	_	start_char=1774|end_char=1775
+26	relativ	relativ	ADJ	ADJD	Degree=Pos	27	advmod	_	start_char=1776|end_char=1783
+27	selten	selten	ADJ	ADJD	Degree=Pos	24	xcomp	_	start_char=1784|end_char=1790
+28	zu	zu	PART	PTKZU	_	27	mark	_	start_char=1791|end_char=1793
+29	sein	sein	AUX	VAINF	VerbForm=Inf	27	cop	_	SpaceAfter=No|start_char=1794|end_char=1798
+30	.	.	PUNCT	$.	_	2	punct	_	start_char=1798|end_char=1799
+
+# text = Und. weil es selten ist.
+# sent_id = 26
+1	Und.	und.	ADV	ADV	_	4	advmod	_	SpacesAfter=\s\s|start_char=1800|end_char=1804
+2	weil	weil	SCONJ	KOUS	_	4	mark	_	start_char=1806|end_char=1810
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=1811|end_char=1813
+4	selten	selten	ADJ	ADJD	Degree=Pos	0	root	_	start_char=1814|end_char=1820
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No|start_char=1821|end_char=1824
+6	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s|start_char=1824|end_char=1825
+
+# text = und nur in wenigen Ländern vorkommt, die. dann auch später den Preis letztendlich diktieren können, ist es sehr teuer.
+# sent_id = 27
+1	und	und	CCONJ	KON	_	6	cc	_	start_char=1827|end_char=1830
+2	nur	nur	ADV	ADV	_	6	advmod	_	start_char=1831|end_char=1834
+3	in	in	ADP	APPR	_	5	case	_	start_char=1835|end_char=1837
+4	wenigen	wenig	DET	PIAT	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	5	det	_	start_char=1838|end_char=1845
+5	Ländern	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	6	obl	_	start_char=1846|end_char=1853
+6	vorkommt	vorkommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	csubj	_	SpaceAfter=No|start_char=1854|end_char=1862
+7	,	,	PUNCT	$,	_	16	punct	_	start_char=1862|end_char=1863
+8	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	16	nsubj	_	SpaceAfter=No|start_char=1864|end_char=1867
+9	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\s\s|start_char=1867|end_char=1868
+10	dann	dann	ADV	ADV	_	16	advmod	_	start_char=1870|end_char=1874
+11	auch	auch	ADV	ADV	_	12	advmod	_	start_char=1875|end_char=1879
+12	später	spät	ADJ	ADJD	Degree=Cmp	16	advmod	_	start_char=1880|end_char=1886
+13	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=1887|end_char=1890
+14	Preis	Preis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	start_char=1891|end_char=1896
+15	letztendlich	letztendlich	ADJ	ADV	Degree=Pos	16	advmod	_	start_char=1897|end_char=1909
+16	diktieren	diktieren	VERB	VVINF	VerbForm=Inf	5	acl	_	start_char=1910|end_char=1919
+17	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No|start_char=1920|end_char=1926
+18	,	,	PUNCT	$,	_	6	punct	_	start_char=1926|end_char=1927
+19	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	start_char=1928|end_char=1931
+20	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	start_char=1932|end_char=1934
+21	sehr	sehr	ADV	ADV	_	22	advmod	_	start_char=1935|end_char=1939
+22	teuer	teuer	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=1940|end_char=1945
+23	.	.	PUNCT	$.	_	22	punct	_	start_char=1945|end_char=1946
+
+# text = Es ist auch sehr aufwändig zu gewinnen.
+# sent_id = 28
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	start_char=1947|end_char=1949
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=1950|end_char=1953
+3	auch	auch	ADV	ADV	_	7	advmod	_	start_char=1954|end_char=1958
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	start_char=1959|end_char=1963
+5	aufwändig	aufwendig	ADJ	ADJD	Degree=Pos	7	xcomp	_	start_char=1964|end_char=1973
+6	zu	zu	PART	PTKZU	_	7	mark	_	start_char=1974|end_char=1976
+7	gewinnen	gewinnen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=1977|end_char=1985
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=1985|end_char=1986
+
+# text = Und das ist so eine von den Sachen, wo die Leute sagen, uff, mit den vielen E-Autos, ob das nun wirklich funktioniert, ist nicht klar.
+# sent_id = 29
+1	Und	und	CCONJ	KON	_	5	cc	_	start_char=1987|end_char=1990
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=1991|end_char=1994
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=1995|end_char=1998
+4	so	so	ADV	ADV	_	5	advmod	_	start_char=1999|end_char=2001
+5	eine	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	31	nsubj	_	start_char=2002|end_char=2006
+6	von	von	ADP	APPR	_	8	case	_	start_char=2007|end_char=2010
+7	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=2011|end_char=2014
+8	Sachen	Sache	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No|start_char=2015|end_char=2021
+9	,	,	PUNCT	$,	_	13	punct	_	start_char=2021|end_char=2022
+10	wo	wo	ADV	PWAV	PronType=Int	13	advmod	_	start_char=2023|end_char=2025
+11	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	12	det	_	start_char=2026|end_char=2029
+12	Leute	Leute	NOUN	NN	Case=Nom|Number=Plur	13	nsubj	_	start_char=2030|end_char=2035
+13	sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	SpaceAfter=No|start_char=2036|end_char=2041
+14	,	,	PUNCT	$,	_	27	punct	_	start_char=2041|end_char=2042
+15	uff	uff	ADV	ADV	_	31	advmod	_	SpaceAfter=No|start_char=2043|end_char=2046
+16	,	,	PUNCT	$,	_	21	punct	_	start_char=2046|end_char=2047
+17	mit	mit	ADP	APPR	_	21	case	_	start_char=2048|end_char=2051
+18	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	21	det	_	start_char=2052|end_char=2055
+19	vielen	viel	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	21	det	_	start_char=2056|end_char=2062
+20	E-	E-	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	21	compound	_	SpaceAfter=No|start_char=2063|end_char=2065
+21	Autos	Auto	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	13	obl	_	SpaceAfter=No|start_char=2065|end_char=2070
+22	,	,	PUNCT	$,	_	27	punct	_	start_char=2070|end_char=2071
+23	ob	ob	SCONJ	KOUS	_	27	mark	_	start_char=2072|end_char=2074
+24	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	27	nsubj	_	start_char=2075|end_char=2078
+25	nun	nun	ADV	ADV	_	27	advmod	_	start_char=2079|end_char=2082
+26	wirklich	wirklich	ADV	ADV	_	27	advmod	_	start_char=2083|end_char=2091
+27	funktioniert	funktionieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl	_	SpaceAfter=No|start_char=2092|end_char=2104
+28	,	,	PUNCT	$,	_	21	punct	_	start_char=2104|end_char=2105
+29	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	start_char=2106|end_char=2109
+30	nicht	nicht	PART	PTKNEG	Polarity=Neg	31	advmod	_	start_char=2110|end_char=2115
+31	klar	klar	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=2116|end_char=2120
+32	.	.	PUNCT	$.	_	31	punct	_	start_char=2120|end_char=2121
+
+# text = Es gibt eine Alternative dazu, das sind die Natrium-Akkus.
+# sent_id = 30
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=2122|end_char=2124
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2125|end_char=2129
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	4	det	_	start_char=2130|end_char=2134
+4	Alternative	Alternative	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=2135|end_char=2146
+5	dazu	dazu	ADV	PAV	PronType=Dem	2	advmod	_	SpaceAfter=No|start_char=2147|end_char=2151
+6	,	,	PUNCT	$,	_	12	punct	_	start_char=2151|end_char=2152
+7	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	12	nsubj	_	start_char=2153|end_char=2156
+8	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=2157|end_char=2161
+9	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	12	det	_	start_char=2162|end_char=2165
+10	Natrium	Natrium	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	compound	_	SpaceAfter=No|start_char=2166|end_char=2173
+11	-	-	PUNCT	$(	_	10	punct	_	SpaceAfter=No|start_char=2173|end_char=2174
+12	Akkus	Akkus	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	parataxis	_	SpaceAfter=No|start_char=2174|end_char=2179
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=2179|end_char=2180
+
+# text = Natrium als Kochsalz gibt es in den Meeren, davon haben wir nun wirklich genug.
+# sent_id = 31
+1	Natrium	Natrium	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=2181|end_char=2188
+2	als	als	ADP	KOKOM	_	3	case	_	start_char=2189|end_char=2192
+3	Kochsalz	Kochsalz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	1	nmod	_	start_char=2193|end_char=2201
+4	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2202|end_char=2206
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	start_char=2207|end_char=2209
+6	in	in	ADP	APPR	_	8	case	_	start_char=2210|end_char=2212
+7	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=2213|end_char=2216
+8	Meeren	Meer	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No|start_char=2217|end_char=2223
+9	,	,	PUNCT	$,	_	11	punct	_	start_char=2223|end_char=2224
+10	davon	davon	ADV	PAV	PronType=Dem	11	advmod	_	start_char=2225|end_char=2230
+11	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=2231|end_char=2236
+12	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	start_char=2237|end_char=2240
+13	nun	nun	ADV	ADV	_	11	advmod	_	start_char=2241|end_char=2244
+14	wirklich	wirklich	ADV	ADV	_	11	advmod	_	start_char=2245|end_char=2253
+15	genug	genug	ADV	ADV	PronType=Ind	11	advmod	_	SpaceAfter=No|start_char=2254|end_char=2259
+16	.	.	PUNCT	$.	_	4	punct	_	start_char=2259|end_char=2260
+
+# text = Also, dass das irgendwie rar ist, besteht keine Gefahr.
+# sent_id = 32
+1	Also	also	ADV	ADV	_	9	advmod	_	SpaceAfter=No|start_char=2261|end_char=2265
+2	,	,	PUNCT	$,	_	6	punct	_	start_char=2265|end_char=2266
+3	dass	dass	SCONJ	KOUS	_	6	mark	_	start_char=2267|end_char=2271
+4	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	6	nsubj	_	start_char=2272|end_char=2275
+5	irgendwie	irgendwie	ADV	ADV	_	6	advmod	_	start_char=2276|end_char=2285
+6	rar	rar	ADJ	ADJD	Degree=Pos	1	acl	_	start_char=2286|end_char=2289
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No|start_char=2290|end_char=2293
+8	,	,	PUNCT	$,	_	6	punct	_	start_char=2293|end_char=2294
+9	besteht	bestehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2295|end_char=2302
+10	keine	kein	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Neg	11	det	_	start_char=2303|end_char=2308
+11	Gefahr	Gefahr	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No|start_char=2309|end_char=2315
+12	.	.	PUNCT	$.	_	9	punct	_	start_char=2315|end_char=2316
+
+# text = Aber mit der technischen Entwicklung sind wir noch nicht so weit mit den Natrium-Batterien,.
+# sent_id = 33
+1	Aber	aber	CCONJ	KON	_	11	cc	_	start_char=2317|end_char=2321
+2	mit	mit	ADP	APPR	_	5	case	_	start_char=2322|end_char=2325
+3	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=2326|end_char=2329
+4	technischen	technisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=2330|end_char=2341
+5	Entwicklung	Entwicklung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	start_char=2342|end_char=2353
+6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=2354|end_char=2358
+7	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	start_char=2359|end_char=2362
+8	noch	noch	ADV	ADV	_	9	advmod	_	start_char=2363|end_char=2367
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	start_char=2368|end_char=2373
+10	so	so	ADV	ADV	_	11	advmod	_	start_char=2374|end_char=2376
+11	weit	weit	ADJ	ADJD	Degree=Pos	0	root	_	start_char=2377|end_char=2381
+12	mit	mit	ADP	APPR	_	16	case	_	start_char=2382|end_char=2385
+13	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	16	det	_	start_char=2386|end_char=2389
+14	Natrium	Natrium	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	16	compound	_	SpaceAfter=No|start_char=2390|end_char=2397
+15	-	-	PUNCT	$(	_	14	punct	_	SpaceAfter=No|start_char=2397|end_char=2398
+16	Batterien	Batterie	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No|start_char=2398|end_char=2407
+17	,	,	PUNCT	$,	_	11	punct	_	SpaceAfter=No|start_char=2407|end_char=2408
+18	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\s\s|start_char=2408|end_char=2409
+
+# text = und das liegt an den Kohlenstoffmaterialien, die in diesen Akkus sind, also da ist so eine Art Kohle drin ist.
+# sent_id = 34
+1	und	und	CCONJ	KON	_	3	cc	_	start_char=2411|end_char=2414
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	3	nsubj	_	start_char=2415|end_char=2418
+3	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2419|end_char=2424
+4	an	an	ADP	APPR	_	6	case	_	start_char=2425|end_char=2427
+5	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=2428|end_char=2431
+6	Kohlenstoffmaterialien	Kohlenstoffmaterial	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No|start_char=2432|end_char=2454
+7	,	,	PUNCT	$,	_	12	punct	_	start_char=2454|end_char=2455
+8	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	12	nsubj	_	start_char=2456|end_char=2459
+9	in	in	ADP	APPR	_	11	case	_	start_char=2460|end_char=2462
+10	diesen	dieser	DET	PDAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Dem	11	det	_	start_char=2463|end_char=2469
+11	Akkus	Akkus	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	12	obl	_	start_char=2470|end_char=2475
+12	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	SpaceAfter=No|start_char=2476|end_char=2480
+13	,	,	PUNCT	$,	_	21	punct	_	start_char=2480|end_char=2481
+14	also	also	ADV	ADV	_	21	advmod	_	start_char=2482|end_char=2486
+15	da	da	ADV	ADV	_	21	advmod	_	start_char=2487|end_char=2489
+16	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	start_char=2490|end_char=2493
+17	so	so	ADV	ADV	_	21	advmod	_	start_char=2494|end_char=2496
+18	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	19	det	_	start_char=2497|end_char=2501
+19	Art	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	start_char=2502|end_char=2505
+20	Kohle	Kohle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	advmod	_	start_char=2506|end_char=2511
+21	drin	drin	ADJ	ADJD	Degree=Pos	3	conj	_	start_char=2512|end_char=2516
+22	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	SpaceAfter=No|start_char=2517|end_char=2520
+23	.	.	PUNCT	$.	_	3	punct	_	start_char=2520|end_char=2521
+
+# text = Und die ist die eigentliche Herausforderung bei der ganzen Geschichte.
+# sent_id = 35
+1	Und	und	CCONJ	KON	_	6	cc	_	start_char=2522|end_char=2525
+2	die	der	PRON	PDS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	6	nsubj	_	start_char=2526|end_char=2529
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=2530|end_char=2533
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	start_char=2534|end_char=2537
+5	eigentliche	eigentlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=2538|end_char=2549
+6	Herausforderung	Herausforderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=2550|end_char=2565
+7	bei	bei	ADP	APPR	_	10	case	_	start_char=2566|end_char=2569
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=2570|end_char=2573
+9	ganzen	ganz	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=2574|end_char=2580
+10	Geschichte	Geschichte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No|start_char=2581|end_char=2591
+11	.	.	PUNCT	$.	_	6	punct	_	start_char=2591|end_char=2592
+
+# text = Es gibt noch eine andere Form von Stromspeichern, das sind die Kondensatoren.
+# sent_id = 36
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=2593|end_char=2595
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2596|end_char=2600
+3	noch	noch	ADV	ADV	_	2	advmod	_	start_char=2601|end_char=2605
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=2606|end_char=2610
+5	andere	anderer	DET	ADJA	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	6	det	_	start_char=2611|end_char=2617
+6	Form	Form	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nsubj	_	start_char=2618|end_char=2622
+7	von	von	ADP	APPR	_	8	case	_	start_char=2623|end_char=2626
+8	Stromspeichern	Stromspeicher	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No|start_char=2627|end_char=2641
+9	,	,	PUNCT	$,	_	13	punct	_	start_char=2641|end_char=2642
+10	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	13	nsubj	_	start_char=2643|end_char=2646
+11	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=2647|end_char=2651
+12	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	13	det	_	start_char=2652|end_char=2655
+13	Kondensatoren	Kondensator	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	parataxis	_	SpaceAfter=No|start_char=2656|end_char=2669
+14	.	.	PUNCT	$.	_	2	punct	_	start_char=2669|end_char=2670
+
+# text = Englisch heißen sie „Super Caps“. und diese „Super Caps“ sind auch Kohlenstoffmaterialien.
+# sent_id = 37
+1	Englisch	Englisch	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	obj	_	start_char=2671|end_char=2679
+2	heißen	heißen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2680|end_char=2686
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=2687|end_char=2690
+4	„	"	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=2691|end_char=2692
+5	Super	Super	PROPN	FM	Foreign=Yes	6	amod	_	start_char=2692|end_char=2697
+6	Caps	Cap	PROPN	NE	Foreign=Yes	2	xcomp	_	SpaceAfter=No|start_char=2698|end_char=2702
+7	“	"	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=2702|end_char=2703
+8	.	.	PUNCT	$.	_	17	punct	_	SpacesAfter=\s\s|start_char=2703|end_char=2704
+9	und	und	CCONJ	KON	_	17	cc	_	start_char=2706|end_char=2709
+10	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	13	det	_	start_char=2710|end_char=2715
+11	„	"	PUNCT	$(	_	13	punct	_	SpaceAfter=No|start_char=2716|end_char=2717
+12	Super	Super	PROPN	NE	Case=Nom|Number=Sing	13	amod	_	start_char=2717|end_char=2722
+13	Caps	Cap	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No|start_char=2723|end_char=2727
+14	“	"	PUNCT	$(	_	13	punct	_	start_char=2727|end_char=2728
+15	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=2729|end_char=2733
+16	auch	auch	ADV	ADV	_	17	advmod	_	start_char=2734|end_char=2738
+17	Kohlenstoffmaterialien	Kohlenstoffmaterial	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No|start_char=2739|end_char=2761
+18	.	.	PUNCT	$.	_	2	punct	_	start_char=2761|end_char=2762
+
+# text = Superkondensatoren haben die Eigenschaft, dass sie nur wenig Strom speichern können,.
+# sent_id = 38
+1	Superkondensatoren	Superkondensator	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=2763|end_char=2781
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2782|end_char=2787
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=2788|end_char=2791
+4	Eigenschaft	Eigenschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|start_char=2792|end_char=2803
+5	,	,	PUNCT	$,	_	11	punct	_	start_char=2803|end_char=2804
+6	dass	dass	SCONJ	KOUS	_	11	mark	_	start_char=2805|end_char=2809
+7	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=2810|end_char=2813
+8	nur	nur	ADV	ADV	_	9	advmod	_	start_char=2814|end_char=2817
+9	wenig	wenig	DET	PIAT	PronType=Ind	10	det	_	start_char=2818|end_char=2823
+10	Strom	Strom	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=2824|end_char=2829
+11	speichern	speichern	VERB	VVINF	VerbForm=Inf	4	ccomp	_	start_char=2830|end_char=2839
+12	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No|start_char=2840|end_char=2846
+13	,	,	PUNCT	$,	_	11	punct	_	SpaceAfter=No|start_char=2846|end_char=2847
+14	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=2847|end_char=2848
+
+# text = aber sehr schnell den Strom abgeben können.
+# sent_id = 39
+1	aber	aber	CCONJ	KON	_	6	cc	_	start_char=2850|end_char=2854
+2	sehr	sehr	ADV	ADV	_	3	advmod	_	start_char=2855|end_char=2859
+3	schnell	schnell	ADJ	ADJD	Degree=Pos	6	advmod	_	start_char=2860|end_char=2867
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=2868|end_char=2871
+5	Strom	Strom	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=2872|end_char=2877
+6	abgeben	abgeben	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2878|end_char=2885
+7	können	können	AUX	VMINF	VerbForm=Inf	6	aux	_	SpaceAfter=No|start_char=2886|end_char=2892
+8	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s|start_char=2892|end_char=2893
+
+# text = und auch wieder aufnehmen können.
+# sent_id = 40
+1	und	und	CCONJ	KON	_	4	cc	_	start_char=2895|end_char=2898
+2	auch	auch	ADV	ADV	_	4	advmod	_	start_char=2899|end_char=2903
+3	wieder	wieder	ADV	ADV	_	4	advmod	_	start_char=2904|end_char=2910
+4	aufnehmen	aufnehmen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=2911|end_char=2920
+5	können	können	AUX	VMINF	VerbForm=Inf	4	aux	_	SpaceAfter=No|start_char=2921|end_char=2927
+6	.	.	PUNCT	$.	_	4	punct	_	start_char=2927|end_char=2928
+
+# text = Das heißt, wenn sie mit so einem schicken E-Auto den Berg runterfahren, lädt sich so ein Superkondensator auf.
+# sent_id = 41
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=2929|end_char=2932
+2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	SpaceAfter=No|start_char=2933|end_char=2938
+3	,	,	PUNCT	$,	_	14	punct	_	start_char=2938|end_char=2939
+4	wenn	wenn	SCONJ	KOUS	_	14	mark	_	start_char=2940|end_char=2944
+5	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	start_char=2945|end_char=2948
+6	mit	mit	ADP	APPR	_	11	case	_	start_char=2949|end_char=2952
+7	so	so	ADV	ADV	_	14	advmod	_	start_char=2953|end_char=2955
+8	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	11	det	_	start_char=2956|end_char=2961
+9	schicken	schicken	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=2962|end_char=2970
+10	E-	E-	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	amod	_	SpaceAfter=No|start_char=2971|end_char=2973
+11	Auto	Auto	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	start_char=2973|end_char=2977
+12	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=2978|end_char=2981
+13	Berg	Berg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=2982|end_char=2986
+14	runterfahren	runterfahren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No|start_char=2987|end_char=2999
+15	,	,	PUNCT	$,	_	14	punct	_	start_char=2999|end_char=3000
+16	lädt	laden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3001|end_char=3005
+17	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	16	obj	_	start_char=3006|end_char=3010
+18	so	so	ADV	ADV	_	16	advmod	_	start_char=3011|end_char=3013
+19	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	20	det	_	start_char=3014|end_char=3017
+20	Superkondensator	Superkondensator	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	start_char=3018|end_char=3034
+21	auf	auf	ADP	PTKVZ	_	16	compound:prt	_	SpaceAfter=No|start_char=3035|end_char=3038
+22	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\s\s|start_char=3038|end_char=3039
+
+# text = und wenn sie den Berg hochfahren, gibt da der noch ein bisschen Saft sozusagen dazu, damit sie gut den Berg hochkommen.
+# sent_id = 42
+1	und	und	CCONJ	KON	_	6	cc	_	start_char=3041|end_char=3044
+2	wenn	wenn	SCONJ	KOUS	_	6	mark	_	start_char=3045|end_char=3049
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=3050|end_char=3053
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=3054|end_char=3057
+5	Berg	Berg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=3058|end_char=3062
+6	hochfahren	hochfahren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No|start_char=3063|end_char=3073
+7	,	,	PUNCT	$,	_	6	punct	_	start_char=3073|end_char=3074
+8	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3075|end_char=3079
+9	da	da	ADV	ADV	_	8	advmod	_	start_char=3080|end_char=3082
+10	der	der	PRON	PDS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	8	obl:arg	_	start_char=3083|end_char=3086
+11	noch	noch	ADV	ADV	_	8	advmod	_	start_char=3087|end_char=3091
+12	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	14	det	_	start_char=3092|end_char=3095
+13	bisschen	bisschen	DET	PIAT	Gender=Neut|PronType=Ind	14	det	_	start_char=3096|end_char=3104
+14	Saft	Saft	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	start_char=3105|end_char=3109
+15	sozusagen	sozusagen	ADV	ADV	_	8	advmod	_	start_char=3110|end_char=3119
+16	dazu	dazu	ADV	PAV	PronType=Dem	8	advmod	_	SpaceAfter=No|start_char=3120|end_char=3124
+17	,	,	PUNCT	$,	_	23	punct	_	start_char=3124|end_char=3125
+18	damit	damit	SCONJ	KOUS	_	23	mark	_	start_char=3126|end_char=3131
+19	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	start_char=3132|end_char=3135
+20	gut	gut	ADJ	ADJD	Degree=Pos	23	advmod	_	start_char=3136|end_char=3139
+21	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	start_char=3140|end_char=3143
+22	Berg	Berg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	23	obj	_	start_char=3144|end_char=3148
+23	hochkommen	hochkommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No|start_char=3149|end_char=3159
+24	.	.	PUNCT	$.	_	8	punct	_	start_char=3159|end_char=3160
+
+# text = Gibt also ein bisschen Schwung, wenn man so will.
+# sent_id = 43
+1	Gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3161|end_char=3165
+2	also	also	ADV	ADV	_	1	advmod	_	start_char=3166|end_char=3170
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=3171|end_char=3174
+4	bisschen	bisschen	DET	PIAT	PronType=Ind	5	det	_	start_char=3175|end_char=3183
+5	Schwung	Schwung	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No|start_char=3184|end_char=3191
+6	,	,	PUNCT	$,	_	10	punct	_	start_char=3191|end_char=3192
+7	wenn	wenn	SCONJ	KOUS	_	10	mark	_	start_char=3193|end_char=3197
+8	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	start_char=3198|end_char=3201
+9	so	so	ADV	ADV	_	10	advmod	_	start_char=3202|end_char=3204
+10	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No|start_char=3205|end_char=3209
+11	.	.	PUNCT	$.	_	1	punct	_	start_char=3209|end_char=3210
+
+# text = Das sind auch Kohlenstoffmaterialien.
+# sent_id = 44
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	nsubj	_	start_char=3211|end_char=3214
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=3215|end_char=3219
+3	auch	auch	ADV	ADV	_	4	advmod	_	start_char=3220|end_char=3224
+4	Kohlenstoffmaterialien	Kohlenstoffmaterial	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|start_char=3225|end_char=3247
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s|start_char=3247|end_char=3248
+
+# text = und da möchte man eigentlich, dass die ein bisschen mehr Strom speichern können.
+# sent_id = 45
+1	und	und	CCONJ	KON	_	3	cc	_	start_char=3250|end_char=3253
+2	da	da	ADV	ADV	_	3	advmod	_	start_char=3254|end_char=3256
+3	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3257|end_char=3263
+4	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=3264|end_char=3267
+5	eigentlich	eigentlich	ADV	ADV	_	3	advmod	_	SpaceAfter=No|start_char=3268|end_char=3278
+6	,	,	PUNCT	$,	_	13	punct	_	start_char=3278|end_char=3279
+7	dass	dass	SCONJ	KOUS	_	13	mark	_	start_char=3280|end_char=3284
+8	die	der	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem,Rel	13	nsubj	_	start_char=3285|end_char=3288
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	12	det	_	start_char=3289|end_char=3292
+10	bisschen	bisschen	ADV	PIAT	PronType=Ind	11	advmod	_	start_char=3293|end_char=3301
+11	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	12	det	_	start_char=3302|end_char=3306
+12	Strom	Strom	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=3307|end_char=3312
+13	speichern	speichern	VERB	VVINF	VerbForm=Inf	3	ccomp	_	start_char=3313|end_char=3322
+14	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No|start_char=3323|end_char=3329
+15	.	.	PUNCT	$.	_	3	punct	_	start_char=3329|end_char=3330
+
+# text = Also auch wieder hier diese merkwürdigen Kohlenstoffmaterialien, Kohle, die da drin ist.
+# sent_id = 46
+1	Also	also	ADV	ADV	_	3	advmod	_	start_char=3331|end_char=3335
+2	auch	auch	ADV	ADV	_	3	advmod	_	start_char=3336|end_char=3340
+3	wieder	wieder	ADV	ADV	_	7	advmod	_	start_char=3341|end_char=3347
+4	hier	hier	ADV	ADV	_	7	advmod	_	start_char=3348|end_char=3352
+5	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	7	det	_	start_char=3353|end_char=3358
+6	merkwürdigen	merkwürdig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=3359|end_char=3371
+7	Kohlenstoffmaterialien	Kohlenstoffmaterial	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|start_char=3372|end_char=3394
+8	,	,	PUNCT	$,	_	9	punct	_	start_char=3394|end_char=3395
+9	Kohle	Kohle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No|start_char=3396|end_char=3401
+10	,	,	PUNCT	$,	_	13	punct	_	start_char=3401|end_char=3402
+11	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem,Rel	13	nsubj	_	start_char=3403|end_char=3406
+12	da	da	ADV	ADV	_	13	advmod	_	start_char=3407|end_char=3409
+13	drin	drin	ADJ	ADJD	Degree=Pos	7	acl	_	start_char=3410|end_char=3414
+14	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	SpaceAfter=No|start_char=3415|end_char=3418
+15	.	.	PUNCT	$.	_	3	punct	_	start_char=3418|end_char=3419
+
+# text = Und das ist eigentlich mein Forschungsgebiet.
+# sent_id = 47
+1	Und	und	CCONJ	KON	_	6	cc	_	start_char=3420|end_char=3423
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	6	nsubj	_	start_char=3424|end_char=3427
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=3428|end_char=3431
+4	eigentlich	eigentlich	ADV	ADV	_	6	advmod	_	start_char=3432|end_char=3442
+5	mein	mein	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	start_char=3443|end_char=3447
+6	Forschungsgebiet	Forschungsgebiet	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=3448|end_char=3464
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=3464|end_char=3465
+
+# text = Wir entwickeln Kohlenstoffmaterialien,. und zwar aus Mist. und Kaffeesatz.
+# sent_id = 48
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=3466|end_char=3469
+2	entwickeln	entwickeln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3470|end_char=3480
+3	Kohlenstoffmaterialien	Kohlenstoffmaterial	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No|start_char=3481|end_char=3503
+4	,	,	PUNCT	$,	_	9	punct	_	SpaceAfter=No|start_char=3503|end_char=3504
+5	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s|start_char=3504|end_char=3505
+6	und	und	CCONJ	KON	_	9	cc	_	start_char=3507|end_char=3510
+7	zwar	zwar	ADV	ADV	_	9	advmod	_	start_char=3511|end_char=3515
+8	aus	aus	ADP	APPR	_	9	case	_	start_char=3516|end_char=3519
+9	Mist.	Mist.	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	SpacesAfter=\s\s|start_char=3520|end_char=3525
+10	und	und	CCONJ	KON	_	11	cc	_	start_char=3527|end_char=3530
+11	Kaffeesatz	Kaffeesatz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No|start_char=3531|end_char=3541
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=3541|end_char=3542
+
+# text = Die Kunststoffmaterialien, die jetzt in Ihrer Batterie oder in Ihrem Kondensator sind, das ist Graphen.
+# sent_id = 49
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	start_char=3543|end_char=3546
+2	Kunststoffmaterialien	Kunststoffmaterial	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	SpaceAfter=No|start_char=3547|end_char=3568
+3	,	,	PUNCT	$,	_	13	punct	_	start_char=3568|end_char=3569
+4	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	13	nsubj	_	start_char=3570|end_char=3573
+5	jetzt	jetzt	ADV	ADV	_	13	advmod	_	start_char=3574|end_char=3579
+6	in	in	ADP	APPR	_	8	case	_	start_char=3580|end_char=3582
+7	Ihrer	Ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=3583|end_char=3588
+8	Batterie	Batterie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	start_char=3589|end_char=3597
+9	oder	oder	CCONJ	KON	_	12	cc	_	start_char=3598|end_char=3602
+10	in	in	ADP	APPR	_	12	case	_	start_char=3603|end_char=3605
+11	Ihrem	Ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	start_char=3606|end_char=3611
+12	Kondensator	Kondensator	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	conj	_	start_char=3612|end_char=3623
+13	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	SpaceAfter=No|start_char=3624|end_char=3628
+14	,	,	PUNCT	$,	_	2	punct	_	start_char=3628|end_char=3629
+15	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	17	nsubj	_	start_char=3630|end_char=3633
+16	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=3634|end_char=3637
+17	Graphen	Graph	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=3638|end_char=3645
+18	.	.	PUNCT	$.	_	17	punct	_	start_char=3645|end_char=3646
+
+# text = Graphen ist ein fossiler Kohlenstoff, ist begrenzt, kommt nur in wenigen Ländern vor,.
+# sent_id = 50
+1	Graphen	Graph	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=3647|end_char=3654
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=3655|end_char=3658
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=3659|end_char=3662
+4	fossiler	fossil	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=3663|end_char=3671
+5	Kohlenstoff	Kohlenstoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=3672|end_char=3683
+6	,	,	PUNCT	$,	_	8	punct	_	start_char=3683|end_char=3684
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=3685|end_char=3688
+8	begrenzt	begrenzen	ADJ	ADJD	Degree=Pos	5	conj	_	SpaceAfter=No|start_char=3689|end_char=3697
+9	,	,	PUNCT	$,	_	10	punct	_	start_char=3697|end_char=3698
+10	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=3699|end_char=3704
+11	nur	nur	ADV	ADV	_	10	advmod	_	start_char=3705|end_char=3708
+12	in	in	ADP	APPR	_	14	case	_	start_char=3709|end_char=3711
+13	wenigen	wenig	DET	PIAT	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	14	det	_	start_char=3712|end_char=3719
+14	Ländern	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	10	obl	_	start_char=3720|end_char=3727
+15	vor	vor	ADP	PTKVZ	_	10	compound:prt	_	SpaceAfter=No|start_char=3728|end_char=3731
+16	,	,	PUNCT	$,	_	10	punct	_	SpaceAfter=No|start_char=3731|end_char=3732
+17	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s|start_char=3732|end_char=3733
+
+# text = und wenn wir viele dieser Batterien bauen, wird der Preis sehr stark ansteigen.
+# sent_id = 51
+1	und	und	CCONJ	KON	_	7	cc	_	start_char=3735|end_char=3738
+2	wenn	wenn	SCONJ	KOUS	_	7	mark	_	start_char=3739|end_char=3743
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=3744|end_char=3747
+4	viele	viel	DET	PIS	Case=Acc|Number=Plur|PronType=Ind	7	obj	_	start_char=3748|end_char=3753
+5	dieser	dieser	DET	PDAT	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	6	det	_	start_char=3754|end_char=3760
+6	Batterien	Batterie	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	start_char=3761|end_char=3770
+7	bauen	bauen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	SpaceAfter=No|start_char=3771|end_char=3776
+8	,	,	PUNCT	$,	_	7	punct	_	start_char=3776|end_char=3777
+9	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	14	aux	_	start_char=3778|end_char=3782
+10	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=3783|end_char=3786
+11	Preis	Preis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	start_char=3787|end_char=3792
+12	sehr	sehr	ADV	ADV	_	13	advmod	_	start_char=3793|end_char=3797
+13	stark	stark	ADJ	ADJD	Degree=Pos	14	advmod	_	start_char=3798|end_char=3803
+14	ansteigen	ansteigen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=3804|end_char=3813
+15	.	.	PUNCT	$.	_	14	punct	_	start_char=3813|end_char=3814
+
+# text = Das hatten wir schon mal.
+# sent_id = 52
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=3815|end_char=3818
+2	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3819|end_char=3825
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=3826|end_char=3829
+4	schon	schon	ADV	ADV	_	5	advmod	_	start_char=3830|end_char=3835
+5	mal	mal	ADV	ADV	_	2	advmod	_	SpaceAfter=No|start_char=3836|end_char=3839
+6	.	.	PUNCT	$.	_	2	punct	_	start_char=3839|end_char=3840
+
+# text = Das heißt, wir müssen uns überlegen, wie wir diese Kohlenstoffmaterialien herstellen können, ohne Graphen zu benutzen.
+# sent_id = 53
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=3841|end_char=3844
+2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=3845|end_char=3850
+3	,	,	PUNCT	$,	_	7	punct	_	start_char=3850|end_char=3851
+4	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=3852|end_char=3855
+5	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=3856|end_char=3862
+6	uns	wir	PRON	PRF	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	7	obj	_	start_char=3863|end_char=3866
+7	überlegen	überlegen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	SpaceAfter=No|start_char=3867|end_char=3876
+8	,	,	PUNCT	$,	_	13	punct	_	start_char=3876|end_char=3877
+9	wie	wie	SCONJ	KOUS	_	13	mark	_	start_char=3878|end_char=3881
+10	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	start_char=3882|end_char=3885
+11	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	12	det	_	start_char=3886|end_char=3891
+12	Kohlenstoffmaterialien	Kohlenstoffmaterial	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	start_char=3892|end_char=3914
+13	herstellen	herstellen	VERB	VVINF	VerbForm=Inf	7	ccomp	_	start_char=3915|end_char=3925
+14	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No|start_char=3926|end_char=3932
+15	,	,	PUNCT	$,	_	19	punct	_	start_char=3932|end_char=3933
+16	ohne	ohne	ADP	KOUI	_	19	case	_	start_char=3934|end_char=3938
+17	Graphen	Graph	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	start_char=3939|end_char=3946
+18	zu	zu	PART	PTKZU	_	19	mark	_	start_char=3947|end_char=3949
+19	benutzen	benutzen	VERB	VVINF	VerbForm=Inf	13	advcl	_	SpaceAfter=No|start_char=3950|end_char=3958
+20	.	.	PUNCT	$.	_	2	punct	_	start_char=3958|end_char=3959
+
+# text = Das ist das erste,. und das zweite: Wir wollen bessere Kohlenstoffmaterialien herstellen.
+# sent_id = 54
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	4	nsubj	_	start_char=3960|end_char=3963
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=3964|end_char=3967
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=3968|end_char=3971
+4	erste,.	erste,.	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpacesAfter=\s\s|start_char=3972|end_char=3979
+5	und	und	CCONJ	KON	_	7	cc	_	start_char=3981|end_char=3984
+6	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=3985|end_char=3988
+7	zweite	zweit	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	4	conj	_	SpaceAfter=No|start_char=3989|end_char=3995
+8	:	:	PUNCT	$.	_	13	punct	_	start_char=3995|end_char=3996
+9	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	start_char=3997|end_char=4000
+10	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=4001|end_char=4007
+11	bessere	gut	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	12	amod	_	start_char=4008|end_char=4015
+12	Kohlenstoffmaterialien	Kohlenstoffmaterial	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	start_char=4016|end_char=4038
+13	herstellen	herstellen	VERB	VVINF	VerbForm=Inf	4	parataxis	_	SpaceAfter=No|start_char=4039|end_char=4049
+14	.	.	PUNCT	$.	_	4	punct	_	start_char=4049|end_char=4050
+
+# text = Und jetzt stehe ich hier.
+# sent_id = 55
+1	Und	und	CCONJ	KON	_	3	cc	_	start_char=4051|end_char=4054
+2	jetzt	jetzt	ADV	ADV	_	3	advmod	_	start_char=4055|end_char=4060
+3	stehe	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4061|end_char=4066
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=4067|end_char=4070
+5	hier	hier	ADV	ADV	_	3	advmod	_	SpaceAfter=No|start_char=4071|end_char=4075
+6	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=4075|end_char=4076
+
+# text = und erzähle ihnen, dass wir diese Kohlenstoffmaterialien aus Pflanzen machen wollen, genau genommen auch sowas wie Kaffeesatz oder Mist, also eigentlich Abfall, wenn man so will.
+# sent_id = 56
+1	und	und	CCONJ	KON	_	2	cc	_	start_char=4078|end_char=4081
+2	erzähle	erzählen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4082|end_char=4089
+3	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	2	obl:arg	_	SpaceAfter=No|start_char=4090|end_char=4095
+4	,	,	PUNCT	$,	_	11	punct	_	start_char=4095|end_char=4096
+5	dass	dass	SCONJ	KOUS	_	11	mark	_	start_char=4097|end_char=4101
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	start_char=4102|end_char=4105
+7	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	8	det	_	start_char=4106|end_char=4111
+8	Kohlenstoffmaterialien	Kohlenstoffmaterial	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	start_char=4112|end_char=4134
+9	aus	aus	ADP	APPR	_	10	case	_	start_char=4135|end_char=4138
+10	Pflanzen	Pflanze	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	obl	_	start_char=4139|end_char=4147
+11	machen	machen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	start_char=4148|end_char=4154
+12	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No|start_char=4155|end_char=4161
+13	,	,	PUNCT	$,	_	15	punct	_	start_char=4161|end_char=4162
+14	genau	genau	ADV	ADV	_	15	advmod	_	start_char=4163|end_char=4168
+15	genommen	nehmen	VERB	VVPP	VerbForm=Part	2	conj	_	start_char=4169|end_char=4177
+16	auch	auch	ADV	ADV	_	15	advmod	_	start_char=4178|end_char=4182
+17	sowas	sowas	PRON	PIS	Gender=Neut|Number=Sing|PronType=Ind	15	obj	_	start_char=4183|end_char=4188
+18	wie	wie	ADP	KOKOM	_	19	case	_	start_char=4189|end_char=4192
+19	Kaffeesatz	Kaffeesatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nmod	_	start_char=4193|end_char=4203
+20	oder	oder	CCONJ	KON	_	21	cc	_	start_char=4204|end_char=4208
+21	Mist	Mist	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No|start_char=4209|end_char=4213
+22	,	,	PUNCT	$,	_	25	punct	_	start_char=4213|end_char=4214
+23	also	also	ADV	ADV	_	25	advmod	_	start_char=4215|end_char=4219
+24	eigentlich	eigentlich	ADV	ADV	_	25	advmod	_	start_char=4220|end_char=4230
+25	Abfall	Abfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	appos	_	SpaceAfter=No|start_char=4231|end_char=4237
+26	,	,	PUNCT	$,	_	30	punct	_	start_char=4237|end_char=4238
+27	wenn	wenn	SCONJ	KOUS	_	30	mark	_	start_char=4239|end_char=4243
+28	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	30	nsubj	_	start_char=4244|end_char=4247
+29	so	so	ADV	ADV	_	30	advmod	_	start_char=4248|end_char=4250
+30	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	advcl	_	SpaceAfter=No|start_char=4251|end_char=4255
+31	.	.	PUNCT	$.	_	2	punct	_	start_char=4255|end_char=4256
+
+# text = Und das Interessante bei dieser Geschichte ist: Diese Materialien, die wir herstellen, die sind sogar besser als das, was es heute gibt.
+# sent_id = 57
+1	Und	und	CCONJ	KON	_	3	cc	_	start_char=4257|end_char=4260
+2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=4261|end_char=4264
+3	Interessante	Interessante	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=4265|end_char=4277
+4	bei	bei	ADP	APPR	_	6	case	_	start_char=4278|end_char=4281
+5	dieser	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=4282|end_char=4288
+6	Geschichte	Geschichte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	start_char=4289|end_char=4299
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No|start_char=4300|end_char=4303
+8	:	:	PUNCT	$.	_	19	punct	_	start_char=4303|end_char=4304
+9	Diese	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	10	det	_	start_char=4305|end_char=4310
+10	Materialien	Material	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	19	nsubj	_	SpaceAfter=No|start_char=4311|end_char=4322
+11	,	,	PUNCT	$,	_	14	punct	_	start_char=4322|end_char=4323
+12	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Dem,Rel	14	obj	_	start_char=4324|end_char=4327
+13	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	start_char=4328|end_char=4331
+14	herstellen	herstellen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	SpaceAfter=No|start_char=4332|end_char=4342
+15	,	,	PUNCT	$,	_	10	punct	_	start_char=4342|end_char=4343
+16	die	der	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem,Rel	19	nsubj	_	start_char=4344|end_char=4347
+17	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=4348|end_char=4352
+18	sogar	sogar	ADV	ADV	_	19	advmod	_	start_char=4353|end_char=4358
+19	besser	gut	ADJ	ADJD	Degree=Cmp	3	parataxis	_	start_char=4359|end_char=4365
+20	als	als	ADP	KOKOM	_	21	case	_	start_char=4366|end_char=4369
+21	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	19	nmod	_	SpaceAfter=No|start_char=4370|end_char=4373
+22	,	,	PUNCT	$,	_	26	punct	_	start_char=4373|end_char=4374
+23	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	26	obj	_	start_char=4375|end_char=4378
+24	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	start_char=4379|end_char=4381
+25	heute	heute	ADV	ADV	_	26	advmod	_	start_char=4382|end_char=4387
+26	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl	_	SpaceAfter=No|start_char=4388|end_char=4392
+27	.	.	PUNCT	$.	_	19	punct	_	start_char=4392|end_char=4393
+
+# text = Wir ersetzen das Graphen. und machen neue, bessere Materialien daraus.
+# sent_id = 58
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=4394|end_char=4397
+2	ersetzen	ersetzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4398|end_char=4406
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=4407|end_char=4410
+4	Graphen	Graph	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No|start_char=4411|end_char=4418
+5	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s|start_char=4418|end_char=4419
+6	und	und	CCONJ	KON	_	7	cc	_	start_char=4421|end_char=4424
+7	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=4425|end_char=4431
+8	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No|start_char=4432|end_char=4436
+9	,	,	PUNCT	$,	_	10	punct	_	start_char=4436|end_char=4437
+10	bessere	gut	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Neut|Number=Plur	8	conj	_	start_char=4438|end_char=4445
+11	Materialien	Material	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	start_char=4446|end_char=4457
+12	daraus	daraus	ADV	PAV	PronType=Dem	7	advmod	_	SpaceAfter=No|start_char=4458|end_char=4464
+13	.	.	PUNCT	$.	_	2	punct	_	start_char=4464|end_char=4465
+
+# text = Was wir machen, ist so eine Art Grillkohle.
+# sent_id = 59
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	3	obj	_	start_char=4466|end_char=4469
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=4470|end_char=4473
+3	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	csubj	_	SpaceAfter=No|start_char=4474|end_char=4480
+4	,	,	PUNCT	$,	_	3	punct	_	start_char=4480|end_char=4481
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=4482|end_char=4485
+6	so	so	ADV	ADV	_	8	advmod	_	start_char=4486|end_char=4488
+7	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=4489|end_char=4493
+8	Art	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=4494|end_char=4497
+9	Grillkohle	Grillkohle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	appos	_	SpaceAfter=No|start_char=4498|end_char=4508
+10	.	.	PUNCT	$.	_	8	punct	_	start_char=4508|end_char=4509
+
+# text = Wir machen Kohle aus Mist. und das können Sie ruhig so doppelzüngig verstehen wie es gemeint ist, so doppeldeutig verstehen.
+# sent_id = 60
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=4510|end_char=4513
+2	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4514|end_char=4520
+3	Kohle	Kohle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=4521|end_char=4526
+4	aus	aus	ADP	APPR	_	5	case	_	start_char=4527|end_char=4530
+5	Mist.	Mist.	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	SpacesAfter=\s\s|start_char=4531|end_char=4536
+6	und	und	CCONJ	KON	_	13	cc	_	start_char=4538|end_char=4541
+7	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	13	obj	_	start_char=4542|end_char=4545
+8	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=4546|end_char=4552
+9	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	13	nsubj	_	start_char=4553|end_char=4556
+10	ruhig	ruhig	ADJ	ADJD	Degree=Pos	13	advmod	_	start_char=4557|end_char=4562
+11	so	so	ADV	ADV	_	12	advmod	_	start_char=4563|end_char=4565
+12	doppelzüngig	doppelzüngig	ADJ	ADJD	Degree=Pos	13	advmod	_	start_char=4566|end_char=4578
+13	verstehen	verstehen	VERB	VVINF	VerbForm=Inf	2	conj	_	start_char=4579|end_char=4588
+14	wie	wie	SCONJ	KOUS	_	16	mark	_	start_char=4589|end_char=4592
+15	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	start_char=4593|end_char=4595
+16	gemeint	meinen	ADJ	VVPP	Degree=Pos|VerbForm=Part	13	ccomp	_	start_char=4596|end_char=4603
+17	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	SpaceAfter=No|start_char=4604|end_char=4607
+18	,	,	PUNCT	$,	_	21	punct	_	start_char=4607|end_char=4608
+19	so	so	ADV	ADV	_	21	advmod	_	start_char=4609|end_char=4611
+20	doppeldeutig	doppeldeutig	ADJ	ADJD	Degree=Pos	21	advmod	_	start_char=4612|end_char=4624
+21	verstehen	verstehen	VERB	VVINF	VerbForm=Inf	16	conj	_	SpaceAfter=No|start_char=4625|end_char=4634
+22	.	.	PUNCT	$.	_	2	punct	_	start_char=4634|end_char=4635
+
+# text = Auf der einen Seite machen wir eine Art Grillkohle.
+# sent_id = 61
+1	Auf	auf	ADP	APPR	_	4	case	_	start_char=4636|end_char=4639
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=4640|end_char=4643
+3	einen	einen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=4644|end_char=4649
+4	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	start_char=4650|end_char=4655
+5	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4656|end_char=4662
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=4663|end_char=4666
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=4667|end_char=4671
+8	Art	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=4672|end_char=4675
+9	Grillkohle	Grillkohle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	appos	_	SpaceAfter=No|start_char=4676|end_char=4686
+10	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s|start_char=4686|end_char=4687
+
+# text = und daraus. dann die Kohlenstoffmaterialien.
+# sent_id = 62
+1	und	und	CCONJ	KON	_	6	cc	_	start_char=4689|end_char=4692
+2	daraus	daraus	ADV	PAV	PronType=Dem	6	advmod	_	SpaceAfter=No|start_char=4693|end_char=4699
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=4699|end_char=4700
+4	dann	dann	ADV	ADV	_	6	advmod	_	start_char=4702|end_char=4706
+5	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=4707|end_char=4710
+6	Kohlenstoffmaterialien	Kohlenstoffmaterial	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|start_char=4711|end_char=4733
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=4733|end_char=4734
+
+# text = Und diese Kohlenstoffmaterialien haben einen sehr hohen Preis,.
+# sent_id = 63
+1	Und	und	CCONJ	KON	_	4	cc	_	start_char=4735|end_char=4738
+2	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	start_char=4739|end_char=4744
+3	Kohlenstoffmaterialien	Kohlenstoffmaterial	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=4745|end_char=4767
+4	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4768|end_char=4773
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	8	det	_	start_char=4774|end_char=4779
+6	sehr	sehr	ADV	ADV	_	7	advmod	_	start_char=4780|end_char=4784
+7	hohen	hoch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=4785|end_char=4790
+8	Preis	Preis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No|start_char=4791|end_char=4796
+9	,	,	PUNCT	$,	_	4	punct	_	SpaceAfter=No|start_char=4796|end_char=4797
+10	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s|start_char=4797|end_char=4798
+
+# text = weil sie ganz besondere Eigenschaften haben.
+# sent_id = 64
+1	weil	weil	SCONJ	KOUS	_	6	mark	_	start_char=4800|end_char=4804
+2	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=4805|end_char=4808
+3	ganz	ganz	ADJ	ADV	Degree=Pos	4	advmod	_	start_char=4809|end_char=4813
+4	besondere	besonder	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=4814|end_char=4823
+5	Eigenschaften	Eigenschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=4824|end_char=4837
+6	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=4838|end_char=4843
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=4843|end_char=4844
+
+# text = Deswegen beides, in beiderlei Sinn machen wir aus Mist Kohle.
+# sent_id = 65
+1	Deswegen	deswegen	ADV	PAV	_	2	advmod	_	start_char=4845|end_char=4853
+2	beides	beide	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	0	root	_	SpaceAfter=No|start_char=4854|end_char=4860
+3	,	,	PUNCT	$,	_	7	punct	_	start_char=4860|end_char=4861
+4	in	in	ADP	APPR	_	6	case	_	start_char=4862|end_char=4864
+5	beiderlei	beiderlei	DET	PIAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	6	det	_	start_char=4865|end_char=4874
+6	Sinn	Sinn	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	start_char=4875|end_char=4879
+7	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	appos	_	start_char=4880|end_char=4886
+8	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=4887|end_char=4890
+9	aus	aus	ADP	APPR	_	10	case	_	start_char=4891|end_char=4894
+10	Mist	Mist	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	start_char=4895|end_char=4899
+11	Kohle	Kohle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No|start_char=4900|end_char=4905
+12	.	.	PUNCT	$.	_	7	punct	_	start_char=4905|end_char=4906
+
+# text = Die Frage, warum diese Art Grillkohle - also mit normaler Grillkohle geht es nicht.
+# sent_id = 66
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=4907|end_char=4910
+2	Frage	Frage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=4911|end_char=4916
+3	,	,	PUNCT	$,	_	13	punct	_	start_char=4916|end_char=4917
+4	warum	warum	ADV	PWAV	PronType=Int	13	advmod	_	start_char=4918|end_char=4923
+5	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=4924|end_char=4929
+6	Art	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	start_char=4930|end_char=4933
+7	Grillkohle	Grillkohle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	obj	_	start_char=4934|end_char=4944
+8	-	-	PUNCT	$(	_	7	punct	_	start_char=4945|end_char=4946
+9	also	also	ADV	ADV	_	12	advmod	_	start_char=4947|end_char=4951
+10	mit	mit	ADP	APPR	_	12	case	_	start_char=4952|end_char=4955
+11	normaler	normal	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=4956|end_char=4964
+12	Grillkohle	Grillkohle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	start_char=4965|end_char=4975
+13	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=4976|end_char=4980
+14	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	start_char=4981|end_char=4983
+15	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	SpaceAfter=No|start_char=4984|end_char=4989
+16	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\s\s|start_char=4989|end_char=4990
+
+# text = und unser Kochrezept verrate ich jetzt auch nicht - warum unsere Kohle denn besser ist als die fossile, das werde ich Ihnen versuchen mal jetzt zu verdeutlichen.
+# sent_id = 67
+1	und	und	CCONJ	KON	_	4	cc	_	start_char=4992|end_char=4995
+2	unser	unser	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	start_char=4996|end_char=5001
+3	Kochrezept	Kochrezept	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	obj	_	start_char=5002|end_char=5012
+4	verrate	verraten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5013|end_char=5020
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=5021|end_char=5024
+6	jetzt	jetzt	ADV	ADV	_	4	advmod	_	start_char=5025|end_char=5030
+7	auch	auch	ADV	ADV	_	4	advmod	_	start_char=5031|end_char=5035
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	start_char=5036|end_char=5041
+9	-	-	PUNCT	$(	_	14	punct	_	start_char=5042|end_char=5043
+10	warum	warum	ADV	PWAV	PronType=Int	14	advmod	_	start_char=5044|end_char=5049
+11	unsere	unser	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	start_char=5050|end_char=5056
+12	Kohle	Kohle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	start_char=5057|end_char=5062
+13	denn	denn	ADV	ADV	_	14	advmod	_	start_char=5063|end_char=5067
+14	besser	gut	ADJ	ADJD	Degree=Cmp	4	advcl	_	start_char=5068|end_char=5074
+15	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=5075|end_char=5078
+16	als	als	ADP	KOKOM	_	18	case	_	start_char=5079|end_char=5082
+17	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=5083|end_char=5086
+18	fossile	fossil	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No|start_char=5087|end_char=5094
+19	,	,	PUNCT	$,	_	24	punct	_	start_char=5094|end_char=5095
+20	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	24	obj	_	start_char=5096|end_char=5099
+21	werde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	aux	_	start_char=5100|end_char=5105
+22	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	start_char=5106|end_char=5109
+23	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|PronType=Prs	24	obl:arg	_	start_char=5110|end_char=5115
+24	versuchen	versuchen	VERB	VVINF	VerbForm=Inf	14	parataxis	_	start_char=5116|end_char=5125
+25	mal	mal	ADV	ADV	_	24	advmod	_	start_char=5126|end_char=5129
+26	jetzt	jetzt	ADV	ADV	_	28	advmod	_	start_char=5130|end_char=5135
+27	zu	zu	PART	PTKZU	_	28	mark	_	start_char=5136|end_char=5138
+28	verdeutlichen	verdeutlichen	VERB	VVINF	VerbForm=Inf	24	xcomp	_	SpaceAfter=No|start_char=5139|end_char=5152
+29	.	.	PUNCT	$.	_	4	punct	_	start_char=5152|end_char=5153
+
+# text = Dazu noch mal eine Frage an sie: Wer von Ihnen hat den Chemieunterricht gemacht?
+# sent_id = 68
+1	Dazu	dazu	ADV	PAV	PronType=Dem	5	advmod	_	start_char=5154|end_char=5158
+2	noch	noch	ADV	ADV	_	3	advmod	_	start_char=5159|end_char=5163
+3	mal	mal	ADV	ADV	_	5	advmod	_	start_char=5164|end_char=5167
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=5168|end_char=5172
+5	Frage	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	start_char=5173|end_char=5178
+6	an	an	ADP	APPR	_	7	case	_	start_char=5179|end_char=5181
+7	sie	sie	PRON	PPER	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nmod	_	SpaceAfter=No|start_char=5182|end_char=5185
+8	:	:	PUNCT	$.	_	15	punct	_	start_char=5185|end_char=5186
+9	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int,Rel	15	nsubj	_	start_char=5187|end_char=5190
+10	von	von	ADP	APPR	_	11	case	_	start_char=5191|end_char=5194
+11	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|PronType=Prs	15	obl	_	start_char=5195|end_char=5200
+12	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=5201|end_char=5204
+13	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	start_char=5205|end_char=5208
+14	Chemieunterricht	Chemieunterricht	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	start_char=5209|end_char=5225
+15	gemacht	machen	VERB	VVPP	VerbForm=Part	5	parataxis	_	SpaceAfter=No|start_char=5226|end_char=5233
+16	?	?	PUNCT	$.	_	5	punct	_	start_char=5233|end_char=5234
+
+# text = Also sind schon ziemlich viele Hände, nicht so viele wie beim Kaffee,.
+# sent_id = 69
+1	Also	also	ADV	ADV	_	2	advmod	_	start_char=5235|end_char=5239
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5240|end_char=5244
+3	schon	schon	ADV	ADV	_	2	advmod	_	start_char=5245|end_char=5250
+4	ziemlich	ziemlich	ADV	ADV	_	5	advmod	_	start_char=5251|end_char=5259
+5	viele	viel	DET	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	6	det	_	start_char=5260|end_char=5265
+6	Hände	Hand	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No|start_char=5266|end_char=5271
+7	,	,	PUNCT	$,	_	10	punct	_	start_char=5271|end_char=5272
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=5273|end_char=5278
+9	so	so	ADV	ADV	_	10	advmod	_	start_char=5279|end_char=5281
+10	viele	viel	DET	PIS	Case=Nom|Number=Plur|PronType=Ind	6	appos	_	start_char=5282|end_char=5287
+11	wie	wie	ADP	KOKOM	_	14	case	_	start_char=5288|end_char=5291
+12-13	beim	_	_	_	_	_	_	_	start_char=5292|end_char=5296
+12	bei	bei	ADP	APPR	_	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Kaffee	Kaffee	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No|start_char=5297|end_char=5303
+15	,	,	PUNCT	$,	_	2	punct	_	SpaceAfter=No|start_char=5303|end_char=5304
+16	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=5304|end_char=5305
+
+# text = aber immerhin.
+# sent_id = 70
+1	aber	aber	CCONJ	KON	_	2	cc	_	start_char=5307|end_char=5311
+2	immerhin	immerhin	ADV	ADV	_	0	root	_	SpaceAfter=No|start_char=5312|end_char=5320
+3	.	.	PUNCT	$.	_	2	punct	_	start_char=5320|end_char=5321
+
+# text = Also traue ich mich mal, das zu versuchen.
+# sent_id = 71
+1	Also	also	ADV	ADV	_	2	advmod	_	start_char=5322|end_char=5326
+2	traue	trauen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5327|end_char=5332
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=5333|end_char=5336
+4	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	start_char=5337|end_char=5341
+5	mal	mal	ADV	ADV	_	2	advmod	_	SpaceAfter=No|start_char=5342|end_char=5345
+6	,	,	PUNCT	$,	_	9	punct	_	start_char=5345|end_char=5346
+7	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	9	obj	_	start_char=5347|end_char=5350
+8	zu	zu	PART	PTKZU	_	9	mark	_	start_char=5351|end_char=5353
+9	versuchen	versuchen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No|start_char=5354|end_char=5363
+10	.	.	PUNCT	$.	_	2	punct	_	start_char=5363|end_char=5364
+
+# text = Also, das Graphen, was im Moment in diesen Akkus.
+# sent_id = 72
+1	Also	also	ADV	ADV	_	4	advmod	_	SpaceAfter=No|start_char=5365|end_char=5369
+2	,	,	PUNCT	$,	_	4	punct	_	start_char=5369|end_char=5370
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=5371|end_char=5374
+4	Graphen	Graph	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=5375|end_char=5382
+5	,	,	PUNCT	$,	_	6	punct	_	start_char=5382|end_char=5383
+6	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	4	dep	_	start_char=5384|end_char=5387
+7-8	im	_	_	_	_	_	_	_	start_char=5388|end_char=5390
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Moment	Moment	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	start_char=5391|end_char=5397
+10	in	in	ADP	APPR	_	12	case	_	start_char=5398|end_char=5400
+11	diesen	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Dem	12	det	_	start_char=5401|end_char=5407
+12	Akkus	Akkus	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	9	nmod	_	SpaceAfter=No|start_char=5408|end_char=5413
+13	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s|start_char=5413|end_char=5414
+
+# text = und in den Superkondensatoren ist, das besteht aus Kohlenstoffschichten.
+# sent_id = 73
+1	und	und	CCONJ	KON	_	8	cc	_	start_char=5416|end_char=5419
+2	in	in	ADP	APPR	_	4	case	_	start_char=5420|end_char=5422
+3	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=5423|end_char=5426
+4	Superkondensatoren	Superkondensator	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	obl	_	start_char=5427|end_char=5445
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No|start_char=5446|end_char=5449
+6	,	,	PUNCT	$,	_	8	punct	_	start_char=5449|end_char=5450
+7	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	8	nsubj	_	start_char=5451|end_char=5454
+8	besteht	bestehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5455|end_char=5462
+9	aus	aus	ADP	APPR	_	10	case	_	start_char=5463|end_char=5466
+10	Kohlenstoffschichten	Kohlenstoffschicht	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No|start_char=5467|end_char=5487
+11	.	.	PUNCT	$.	_	8	punct	_	start_char=5487|end_char=5488
+
+# text = Die einzelnen Kohlenstoffschichten sind sehr sehr stabil. und liegen übereinander.
+# sent_id = 74
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=5489|end_char=5492
+2	einzelnen	einzeln	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=5493|end_char=5502
+3	Kohlenstoffschichten	Kohlenstoffschicht	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=5503|end_char=5523
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=5524|end_char=5528
+5	sehr	sehr	ADV	ADV	_	6	advmod	_	start_char=5529|end_char=5533
+6	sehr	sehr	ADV	ADV	_	7	advmod	_	start_char=5534|end_char=5538
+7	stabil	stabil	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=5539|end_char=5545
+8	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s|start_char=5545|end_char=5546
+9	und	und	CCONJ	KON	_	10	cc	_	start_char=5548|end_char=5551
+10	liegen	liegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	start_char=5552|end_char=5558
+11	übereinander	übereinander	ADV	ADV	_	10	advmod	_	SpaceAfter=No|start_char=5559|end_char=5571
+12	.	.	PUNCT	$.	_	7	punct	_	start_char=5571|end_char=5572
+
+# text = Kommen wir jetzt zu der Natrium-Batterie.
+# sent_id = 75
+1	Kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5573|end_char=5579
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	nsubj	_	start_char=5580|end_char=5583
+3	jetzt	jetzt	ADV	ADV	_	1	advmod	_	start_char=5584|end_char=5589
+4	zu	zu	ADP	APPR	_	8	case	_	start_char=5590|end_char=5592
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	start_char=5593|end_char=5596
+6	Natrium	Natrium	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	compound	_	SpaceAfter=No|start_char=5597|end_char=5604
+7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=5604|end_char=5605
+8	Batterie	Batterie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No|start_char=5605|end_char=5613
+9	.	.	PUNCT	$.	_	1	punct	_	start_char=5613|end_char=5614
+
+# text = Diese Schichten liegen so eng, dass ein Lithium-Ion dazwischen passt.
+# sent_id = 76
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=5615|end_char=5620
+2	Schichten	Schicht	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=5621|end_char=5630
+3	liegen	liegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5631|end_char=5637
+4	so	so	ADV	ADV	_	3	advmod	_	start_char=5638|end_char=5640
+5	eng	eng	ADJ	ADJD	Degree=Pos	3	advmod	_	SpaceAfter=No|start_char=5641|end_char=5644
+6	,	,	PUNCT	$,	_	13	punct	_	start_char=5644|end_char=5645
+7	dass	dass	SCONJ	KOUS	_	13	mark	_	start_char=5646|end_char=5650
+8	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	11	det	_	start_char=5651|end_char=5654
+9	Lithium	Lithium	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	compound	_	SpaceAfter=No|start_char=5655|end_char=5662
+10	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No|start_char=5662|end_char=5663
+11	Ion	Ion	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	start_char=5663|end_char=5666
+12	dazwischen	dazwischen	ADV	ADV	_	13	advmod	_	start_char=5667|end_char=5677
+13	passt	passen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No|start_char=5678|end_char=5683
+14	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=5683|end_char=5684
+
+# text = und ein Natrium-Ion nicht.
+# sent_id = 77
+1	und	und	CCONJ	KON	_	5	cc	_	start_char=5686|end_char=5689
+2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	5	det	_	start_char=5690|end_char=5693
+3	Natrium	Natrium	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	SpaceAfter=No|start_char=5694|end_char=5701
+4	-	-	PUNCT	$(	_	3	punct	_	SpaceAfter=No|start_char=5701|end_char=5702
+5	Ion	Ion	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=5702|end_char=5705
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	SpaceAfter=No|start_char=5706|end_char=5711
+7	.	.	PUNCT	$.	_	5	punct	_	start_char=5711|end_char=5712
+
+# text = Deswegen funktioniert das mit den Natrium-Batterien noch nicht.
+# sent_id = 78
+1	Deswegen	deswegen	ADV	PAV	_	2	advmod	_	start_char=5713|end_char=5721
+2	funktioniert	funktionieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5722|end_char=5734
+3	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=5735|end_char=5738
+4	mit	mit	ADP	APPR	_	8	case	_	start_char=5739|end_char=5742
+5	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=5743|end_char=5746
+6	Natrium	Natrium	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	compound	_	SpaceAfter=No|start_char=5747|end_char=5754
+7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No|start_char=5754|end_char=5755
+8	Batterien	Batterie	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	start_char=5755|end_char=5764
+9	noch	noch	ADV	ADV	_	10	advmod	_	start_char=5765|end_char=5769
+10	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	SpaceAfter=No|start_char=5770|end_char=5775
+11	.	.	PUNCT	$.	_	2	punct	_	start_char=5775|end_char=5776
+
+# text = Wenn wir jetzt Stroh zum Beispiel nehmen.
+# sent_id = 79
+1	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=5777|end_char=5781
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=5782|end_char=5785
+3	jetzt	jetzt	ADV	ADV	_	8	advmod	_	start_char=5786|end_char=5791
+4	Stroh	Stroh	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	start_char=5792|end_char=5797
+5-6	zum	_	_	_	_	_	_	_	start_char=5798|end_char=5801
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	start_char=5802|end_char=5810
+8	nehmen	nehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=5811|end_char=5817
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s|start_char=5817|end_char=5818
+
+# text = und daraus unsere Kunststoffmaterialien machen,.
+# sent_id = 80
+1	und	und	CCONJ	KON	_	5	cc	_	start_char=5820|end_char=5823
+2	daraus	daraus	ADV	PAV	PronType=Dem	5	advmod	_	start_char=5824|end_char=5830
+3	unsere	unser	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	start_char=5831|end_char=5837
+4	Kunststoffmaterialien	Kunststoffmaterial	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=5838|end_char=5859
+5	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=5860|end_char=5866
+6	,	,	PUNCT	$,	_	5	punct	_	SpaceAfter=No|start_char=5866|end_char=5867
+7	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s|start_char=5867|end_char=5868
+
+# text = dann liegen die Schichten nicht so, sondern irgendwie so ungeordnet.
+# sent_id = 81
+1	dann	dann	ADV	ADV	_	2	advmod	_	start_char=5870|end_char=5874
+2	liegen	liegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5875|end_char=5881
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=5882|end_char=5885
+4	Schichten	Schicht	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=5886|end_char=5895
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=5896|end_char=5901
+6	so	so	ADV	ADV	_	2	advmod	_	SpaceAfter=No|start_char=5902|end_char=5904
+7	,	,	PUNCT	$,	_	11	punct	_	start_char=5904|end_char=5905
+8	sondern	sondern	CCONJ	KON	_	11	cc	_	start_char=5906|end_char=5913
+9	irgendwie	irgendwie	ADV	ADV	_	11	advmod	_	start_char=5914|end_char=5923
+10	so	so	ADV	ADV	_	11	advmod	_	start_char=5924|end_char=5926
+11	ungeordnet	ungeordnet	ADJ	ADJD	Degree=Pos	2	conj	_	SpaceAfter=No|start_char=5927|end_char=5937
+12	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=5937|end_char=5938
+
+# text = und deswegen passt das Natrium-Ion da noch dazwischen.
+# sent_id = 82
+1	und	und	CCONJ	KON	_	3	cc	_	start_char=5940|end_char=5943
+2	deswegen	deswegen	ADV	PAV	_	3	advmod	_	start_char=5944|end_char=5952
+3	passt	passen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5953|end_char=5958
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=5959|end_char=5962
+5	Natrium	Natrium	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	compound	_	SpaceAfter=No|start_char=5963|end_char=5970
+6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No|start_char=5970|end_char=5971
+7	Ion	Ion	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=5971|end_char=5974
+8	da	da	ADV	ADV	_	3	advmod	_	start_char=5975|end_char=5977
+9	noch	noch	ADV	ADV	_	3	advmod	_	start_char=5978|end_char=5982
+10	dazwischen	dazwischen	ADV	PTKVZ	_	3	compound:prt	_	SpaceAfter=No|start_char=5983|end_char=5993
+11	.	.	PUNCT	$.	_	3	punct	_	start_char=5993|end_char=5994
+
+# text = Deswegen können wir mit unseren Materialien, mit Mist oder Stroh oder was auch immer, Kohlenstoffmaterialien herstellen für diese neuen Batterien.
+# sent_id = 83
+1	Deswegen	deswegen	ADV	PAV	_	18	advmod	_	start_char=5995|end_char=6003
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=6004|end_char=6010
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	start_char=6011|end_char=6014
+4	mit	mit	ADP	APPR	_	6	case	_	start_char=6015|end_char=6018
+5	unseren	unser	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	start_char=6019|end_char=6026
+6	Materialien	Material	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	18	obl	_	SpaceAfter=No|start_char=6027|end_char=6038
+7	,	,	PUNCT	$,	_	9	punct	_	start_char=6038|end_char=6039
+8	mit	mit	ADP	APPR	_	9	case	_	start_char=6040|end_char=6043
+9	Mist	Mist	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	conj	_	start_char=6044|end_char=6048
+10	oder	oder	CCONJ	KON	_	11	cc	_	start_char=6049|end_char=6053
+11	Stroh	Stroh	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	conj	_	start_char=6054|end_char=6059
+12	oder	oder	CCONJ	KON	_	17	cc	_	start_char=6060|end_char=6064
+13	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	15	nsubj	_	start_char=6065|end_char=6068
+14	auch	auch	ADV	ADV	_	15	advmod	_	start_char=6069|end_char=6073
+15	immer	immer	ADV	ADV	_	18	advmod	_	SpaceAfter=No|start_char=6074|end_char=6079
+16	,	,	PUNCT	$,	_	15	punct	_	start_char=6079|end_char=6080
+17	Kohlenstoffmaterialien	Kohlenstoffmaterial	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	18	obj	_	start_char=6081|end_char=6103
+18	herstellen	herstellen	VERB	VVINF	VerbForm=Inf	0	root	_	start_char=6104|end_char=6114
+19	für	für	ADP	APPR	_	22	case	_	start_char=6115|end_char=6118
+20	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	22	det	_	start_char=6119|end_char=6124
+21	neuen	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	22	amod	_	start_char=6125|end_char=6130
+22	Batterien	Batterie	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No|start_char=6131|end_char=6140
+23	.	.	PUNCT	$.	_	18	punct	_	start_char=6140|end_char=6141
+
+# text = Das hat so ein bisschen was damit zu tun, dass bei den fossilen Kohlen diese Schichten sehr sehr stabil sind,.
+# sent_id = 84
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=6142|end_char=6145
+2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6146|end_char=6149
+3	so	so	ADV	ADV	_	2	advmod	_	start_char=6150|end_char=6152
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	6	det	_	start_char=6153|end_char=6156
+5	bisschen	bisschen	ADV	PIS	PronType=Ind	2	advmod	_	start_char=6157|end_char=6165
+6	was	was	PRON	PIS	Gender=Neut|Number=Sing|PronType=Int,Rel	2	obj	_	start_char=6166|end_char=6169
+7	damit	damit	ADV	PAV	PronType=Dem	9	advmod	_	start_char=6170|end_char=6175
+8	zu	zu	PART	PTKZU	_	9	mark	_	start_char=6176|end_char=6178
+9	tun	tun	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No|start_char=6179|end_char=6182
+10	,	,	PUNCT	$,	_	20	punct	_	start_char=6182|end_char=6183
+11	dass	dass	SCONJ	KOUS	_	20	mark	_	start_char=6184|end_char=6188
+12	bei	bei	ADP	APPR	_	15	case	_	start_char=6189|end_char=6192
+13	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	15	det	_	start_char=6193|end_char=6196
+14	fossilen	fossil	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=6197|end_char=6205
+15	Kohlen	Kohle	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	20	nmod	_	start_char=6206|end_char=6212
+16	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	17	det	_	start_char=6213|end_char=6218
+17	Schichten	Schicht	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	20	nsubj	_	start_char=6219|end_char=6228
+18	sehr	sehr	ADV	ADV	_	19	advmod	_	start_char=6229|end_char=6233
+19	sehr	sehr	ADV	ADV	_	20	advmod	_	start_char=6234|end_char=6238
+20	stabil	stabil	ADJ	ADJD	Degree=Pos	7	acl	_	start_char=6239|end_char=6245
+21	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	SpaceAfter=No|start_char=6246|end_char=6250
+22	,	,	PUNCT	$,	_	20	punct	_	SpaceAfter=No|start_char=6250|end_char=6251
+23	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=6251|end_char=6252
+
+# text = und wenn wir aus Biomasse diese Strukturen aufbauen,.
+# sent_id = 85
+1	und	und	CCONJ	KON	_	8	cc	_	start_char=6254|end_char=6257
+2	wenn	wenn	SCONJ	KOUS	_	8	mark	_	start_char=6258|end_char=6262
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=6263|end_char=6266
+4	aus	aus	ADP	APPR	_	5	case	_	start_char=6267|end_char=6270
+5	Biomasse	Biomasse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	start_char=6271|end_char=6279
+6	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	7	det	_	start_char=6280|end_char=6285
+7	Strukturen	Struktur	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=6286|end_char=6296
+8	aufbauen	aufbauen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=6297|end_char=6305
+9	,	,	PUNCT	$,	_	8	punct	_	SpaceAfter=No|start_char=6305|end_char=6306
+10	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s|start_char=6306|end_char=6307
+
+# text = dann machen wir erst die Strukturen.
+# sent_id = 86
+1	dann	dann	ADV	ADV	_	2	advmod	_	start_char=6309|end_char=6313
+2	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6314|end_char=6320
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=6321|end_char=6324
+4	erst	erst	ADV	ADV	_	2	advmod	_	start_char=6325|end_char=6329
+5	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=6330|end_char=6333
+6	Strukturen	Struktur	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No|start_char=6334|end_char=6344
+7	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=6344|end_char=6345
+
+# text = und machen sie hinterher erst stabil.
+# sent_id = 87
+1	und	und	CCONJ	KON	_	2	cc	_	start_char=6347|end_char=6350
+2	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6351|end_char=6357
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=6358|end_char=6361
+4	hinterher	hinterher	ADV	ADV	_	2	advmod	_	start_char=6362|end_char=6371
+5	erst	erst	ADV	ADV	_	6	advmod	_	start_char=6372|end_char=6376
+6	stabil	stabil	ADJ	ADJD	Degree=Pos	2	advmod	_	SpaceAfter=No|start_char=6377|end_char=6383
+7	.	.	PUNCT	$.	_	2	punct	_	start_char=6383|end_char=6384
+
+# text = Deswegen können wir diese Strukturen aufbauen.
+# sent_id = 88
+1	Deswegen	deswegen	ADV	PAV	_	6	advmod	_	start_char=6385|end_char=6393
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=6394|end_char=6400
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=6401|end_char=6404
+4	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	5	det	_	start_char=6405|end_char=6410
+5	Strukturen	Struktur	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=6411|end_char=6421
+6	aufbauen	aufbauen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=6422|end_char=6430
+7	.	.	PUNCT	$.	_	6	punct	_	start_char=6430|end_char=6431
+
+# text = Kommen wir jetzt zu den Superkondensatoren.
+# sent_id = 89
+1	Kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6432|end_char=6438
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	nsubj	_	start_char=6439|end_char=6442
+3	jetzt	jetzt	ADV	ADV	_	1	advmod	_	start_char=6443|end_char=6448
+4	zu	zu	ADP	APPR	_	6	case	_	start_char=6449|end_char=6451
+5	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=6452|end_char=6455
+6	Superkondensatoren	Superkondensator	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No|start_char=6456|end_char=6474
+7	.	.	PUNCT	$.	_	1	punct	_	start_char=6474|end_char=6475
+
+# text = Graphen, wie gesagt, sind Kohlenstoffschichten, die bestehen nur aus Kohlenstoff, sehr stabil.
+# sent_id = 90
+1	Graphen	Graph	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No|start_char=6476|end_char=6483
+2	,	,	PUNCT	$,	_	4	punct	_	start_char=6483|end_char=6484
+3	wie	wie	ADP	KOKOM	_	4	mark	_	start_char=6485|end_char=6488
+4	gesagt	sagen	VERB	VVPP	VerbForm=Part	1	acl	_	SpaceAfter=No|start_char=6489|end_char=6495
+5	,	,	PUNCT	$,	_	4	punct	_	start_char=6495|end_char=6496
+6	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=6497|end_char=6501
+7	Kohlenstoffschichten	Kohlenstoffschicht	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|start_char=6502|end_char=6522
+8	,	,	PUNCT	$,	_	10	punct	_	start_char=6522|end_char=6523
+9	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	10	nsubj	_	start_char=6524|end_char=6527
+10	bestehen	bestehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	start_char=6528|end_char=6536
+11	nur	nur	ADV	ADV	_	10	advmod	_	start_char=6537|end_char=6540
+12	aus	aus	ADP	APPR	_	13	case	_	start_char=6541|end_char=6544
+13	Kohlenstoff	Kohlenstoff	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No|start_char=6545|end_char=6556
+14	,	,	PUNCT	$,	_	16	punct	_	start_char=6556|end_char=6557
+15	sehr	sehr	ADV	ADV	_	16	advmod	_	start_char=6558|end_char=6562
+16	stabil	stabil	ADJ	ADJD	Degree=Pos	10	conj	_	SpaceAfter=No|start_char=6563|end_char=6569
+17	.	.	PUNCT	$.	_	7	punct	_	start_char=6569|end_char=6570
+
+# text = Und eigentlich wollen wir ab. und zu mal ein bisschen Stickstoff dazwischen haben,.
+# sent_id = 91
+1	Und	und	CCONJ	KON	_	14	cc	_	start_char=6571|end_char=6574
+2	eigentlich	eigentlich	ADV	ADV	_	3	advmod	_	start_char=6575|end_char=6585
+3	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=6586|end_char=6592
+4	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	start_char=6593|end_char=6596
+5	ab	ab	ADP	PTKVZ	_	14	mark	_	SpaceAfter=No|start_char=6597|end_char=6599
+6	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\s\s|start_char=6599|end_char=6600
+7	und	und	CCONJ	KON	_	9	cc	_	start_char=6602|end_char=6605
+8	zu	zu	ADP	APPR	_	9	case	_	start_char=6606|end_char=6608
+9	mal	mal	ADV	ADV	_	5	conj	_	start_char=6609|end_char=6612
+10	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	12	det	_	start_char=6613|end_char=6616
+11	bisschen	bisschen	DET	PIAT	Gender=Neut|PronType=Ind	12	det	_	start_char=6617|end_char=6625
+12	Stickstoff	Stickstoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=6626|end_char=6636
+13	dazwischen	dazwischen	ADV	ADV	_	14	advmod	_	start_char=6637|end_char=6647
+14	haben	haben	AUX	VAINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=6648|end_char=6653
+15	,	,	PUNCT	$,	_	14	punct	_	SpaceAfter=No|start_char=6653|end_char=6654
+16	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=6654|end_char=6655
+
+# text = weil wenn wir das haben,.
+# sent_id = 92
+1	weil	weil	SCONJ	KOUS	_	5	mark	_	start_char=6657|end_char=6661
+2	wenn	wenn	SCONJ	KOUS	_	5	mark	_	start_char=6662|end_char=6666
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=6667|end_char=6670
+4	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	obj	_	start_char=6671|end_char=6674
+5	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=6675|end_char=6680
+6	,	,	PUNCT	$,	_	5	punct	_	SpaceAfter=No|start_char=6680|end_char=6681
+7	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s|start_char=6681|end_char=6682
+
+# text = dann können wir viel viel mehr Strom in diesen Superkondensatoren speichern.
+# sent_id = 93
+1	dann	dann	ADV	ADV	_	11	advmod	_	start_char=6684|end_char=6688
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=6689|end_char=6695
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	start_char=6696|end_char=6699
+4	viel	viel	DET	PIAT	PronType=Ind	7	det	_	start_char=6700|end_char=6704
+5	viel	viel	DET	PIAT	PronType=Ind	6	det	_	start_char=6705|end_char=6709
+6	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	7	det	_	start_char=6710|end_char=6714
+7	Strom	Strom	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=6715|end_char=6720
+8	in	in	ADP	APPR	_	10	case	_	start_char=6721|end_char=6723
+9	diesen	dieser	DET	PDAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Dem	10	det	_	start_char=6724|end_char=6730
+10	Superkondensatoren	Superkondensator	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	7	nmod	_	start_char=6731|end_char=6749
+11	speichern	speichern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=6750|end_char=6759
+12	.	.	PUNCT	$.	_	11	punct	_	start_char=6759|end_char=6760
+
+# text = Diese Schichten sind so stabil, da können Sie kein Stickstoff reinprügeln, oder wenn, ist es sehr sehr aufwändig, das macht also keinen Sinn.
+# sent_id = 94
+1	Diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=6761|end_char=6766
+2	Schichten	Schicht	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=6767|end_char=6776
+3	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=6777|end_char=6781
+4	so	so	ADV	ADV	_	5	advmod	_	start_char=6782|end_char=6784
+5	stabil	stabil	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=6785|end_char=6791
+6	,	,	PUNCT	$,	_	12	punct	_	start_char=6791|end_char=6792
+7	da	da	SCONJ	KOUS	_	12	mark	_	start_char=6793|end_char=6795
+8	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=6796|end_char=6802
+9	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	start_char=6803|end_char=6806
+10	kein	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	11	det	_	start_char=6807|end_char=6811
+11	Stickstoff	Stickstoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=6812|end_char=6822
+12	reinprügeln	reinprügeln	VERB	VVINF	VerbForm=Inf	5	advcl	_	SpaceAfter=No|start_char=6823|end_char=6834
+13	,	,	PUNCT	$,	_	21	punct	_	start_char=6834|end_char=6835
+14	oder	oder	CCONJ	KON	_	21	cc	_	start_char=6836|end_char=6840
+15	wenn	wenn	SCONJ	KOUS	_	21	mark	_	SpaceAfter=No|start_char=6841|end_char=6845
+16	,	,	PUNCT	$,	_	21	punct	_	start_char=6845|end_char=6846
+17	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	start_char=6847|end_char=6850
+18	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	start_char=6851|end_char=6853
+19	sehr	sehr	ADV	ADV	_	20	advmod	_	start_char=6854|end_char=6858
+20	sehr	sehr	ADV	ADV	_	21	advmod	_	start_char=6859|end_char=6863
+21	aufwändig	aufwendig	ADJ	ADJD	Degree=Pos	5	conj	_	SpaceAfter=No|start_char=6864|end_char=6873
+22	,	,	PUNCT	$,	_	24	punct	_	start_char=6873|end_char=6874
+23	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	24	nsubj	_	start_char=6875|end_char=6878
+24	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	parataxis	_	start_char=6879|end_char=6884
+25	also	also	ADV	ADV	_	24	advmod	_	start_char=6885|end_char=6889
+26	keinen	kein	DET	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Neg	27	det	_	start_char=6890|end_char=6896
+27	Sinn	Sinn	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No|start_char=6897|end_char=6901
+28	.	.	PUNCT	$.	_	5	punct	_	start_char=6901|end_char=6902
+
+# text = Aber wenn Sie. aber zum Beispiel Mist haben oder Kaffeesatz ,also bei meinen Mitarbeitern ist der Kaffeesatz aus naheliegenden Gründen beliebter,.
+# sent_id = 95
+1	Aber	aber	CCONJ	KON	_	9	cc	_	start_char=6903|end_char=6907
+2	wenn	wenn	SCONJ	KOUS	_	9	mark	_	start_char=6908|end_char=6912
+3	Sie.	sie.	PRON	PPER	Case=Nom|Number=Sing|PronType=Ind	9	nsubj	_	SpacesAfter=\s\s|start_char=6913|end_char=6917
+4	aber	aber	ADV	ADV	_	9	advmod	_	start_char=6919|end_char=6923
+5-6	zum	_	_	_	_	_	_	_	start_char=6924|end_char=6927
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	start_char=6928|end_char=6936
+8	Mist	Mist	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	start_char=6937|end_char=6941
+9	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6942|end_char=6947
+10	oder	oder	CCONJ	KON	_	11	cc	_	start_char=6948|end_char=6952
+11	Kaffeesatz	Kaffeesatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	start_char=6953|end_char=6963
+12	,	,	PUNCT	$,	_	23	punct	_	SpaceAfter=No|start_char=6964|end_char=6965
+13	also	also	ADV	ADV	_	23	advmod	_	start_char=6965|end_char=6969
+14	bei	bei	ADP	APPR	_	16	case	_	start_char=6970|end_char=6973
+15	meinen	mein	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	16	det:poss	_	start_char=6974|end_char=6980
+16	Mitarbeitern	Mitarbeiter	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	23	nmod	_	start_char=6981|end_char=6993
+17	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	start_char=6994|end_char=6997
+18	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	start_char=6998|end_char=7001
+19	Kaffeesatz	Kaffeesatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	start_char=7002|end_char=7012
+20	aus	aus	ADP	APPR	_	22	case	_	start_char=7013|end_char=7016
+21	naheliegenden	naheliegend	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	22	amod	_	start_char=7017|end_char=7030
+22	Gründen	Grund|Gründen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	23	nmod	_	start_char=7031|end_char=7038
+23	beliebter	beliebter	ADJ	ADJD	Degree=Cmp	9	conj	_	SpaceAfter=No|start_char=7039|end_char=7048
+24	,	,	PUNCT	$,	_	23	punct	_	SpaceAfter=No|start_char=7048|end_char=7049
+25	.	.	PUNCT	$.	_	23	punct	_	SpacesAfter=\s\s|start_char=7049|end_char=7050
+
+# text = aber es ist eigentlich egal,.
+# sent_id = 96
+1	aber	aber	CCONJ	KON	_	5	cc	_	start_char=7052|end_char=7056
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=7057|end_char=7059
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=7060|end_char=7063
+4	eigentlich	eigentlich	ADV	ADV	_	5	advmod	_	start_char=7064|end_char=7074
+5	egal	egal	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=7075|end_char=7079
+6	,	,	PUNCT	$,	_	5	punct	_	SpaceAfter=No|start_char=7079|end_char=7080
+7	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s|start_char=7080|end_char=7081
+
+# text = dann holen Sie sich den Kohlenstoff doch aus den einen Komponenten, z. B. aus der Stroh-Komponente.
+# sent_id = 97
+1	dann	dann	ADV	ADV	_	2	advmod	_	start_char=7083|end_char=7087
+2	holen	holen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7088|end_char=7093
+3	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	start_char=7094|end_char=7097
+4	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	start_char=7098|end_char=7102
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=7103|end_char=7106
+6	Kohlenstoff	Kohlenstoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=7107|end_char=7118
+7	doch	doch	ADV	ADV	_	2	advmod	_	start_char=7119|end_char=7123
+8	aus	aus	ADP	APPR	_	11	case	_	start_char=7124|end_char=7127
+9	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	11	det	_	start_char=7128|end_char=7131
+10	einen	ein	DET	ADJA	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|NumType=Card|PronType=Art	11	det	_	start_char=7132|end_char=7137
+11	Komponenten	Komponente	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No|start_char=7138|end_char=7149
+12	,	,	PUNCT	$,	_	19	punct	_	start_char=7149|end_char=7150
+13	z.	z.	ADP	APPRART	_	14	case	_	start_char=7151|end_char=7153
+14	B.	B.	X	NN	Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	start_char=7154|end_char=7156
+15	aus	aus	ADP	APPR	_	19	case	_	start_char=7157|end_char=7160
+16	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	start_char=7161|end_char=7164
+17	Stroh	Stroh	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	compound	_	SpaceAfter=No|start_char=7165|end_char=7170
+18	-	-	PUNCT	$(	_	17	punct	_	SpaceAfter=No|start_char=7170|end_char=7171
+19	Komponente	Komponente	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No|start_char=7171|end_char=7181
+20	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=7181|end_char=7182
+
+# text = und aus dem Pferdeapfel oder was auch immer kommt der Stickstoff,.
+# sent_id = 98
+1	und	und	CCONJ	KON	_	4	cc	_	start_char=7184|end_char=7187
+2	aus	aus	ADP	APPR	_	4	case	_	start_char=7188|end_char=7191
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=7192|end_char=7195
+4	Pferdeapfel	Pferdeapfel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	start_char=7196|end_char=7207
+5	oder	oder	CCONJ	KON	_	9	cc	_	start_char=7208|end_char=7212
+6	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	9	obj	_	start_char=7213|end_char=7216
+7	auch	auch	ADV	ADV	_	8	advmod	_	start_char=7217|end_char=7221
+8	immer	immer	ADV	ADV	_	9	advmod	_	start_char=7222|end_char=7227
+9	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7228|end_char=7233
+10	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=7234|end_char=7237
+11	Stickstoff	Stickstoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No|start_char=7238|end_char=7248
+12	,	,	PUNCT	$,	_	9	punct	_	SpaceAfter=No|start_char=7248|end_char=7249
+13	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s|start_char=7249|end_char=7250
+
+# text = und der wird. dann in diese Strukturen eingebaut.
+# sent_id = 99
+1	und	und	CCONJ	KON	_	9	cc	_	start_char=7252|end_char=7255
+2	der	der	PRON	PDS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	9	nsubj:pass	_	start_char=7256|end_char=7259
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	aux:pass	_	SpaceAfter=No|start_char=7260|end_char=7264
+4	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s|start_char=7264|end_char=7265
+5	dann	dann	ADV	ADV	_	9	advmod	_	start_char=7267|end_char=7271
+6	in	in	ADP	APPR	_	8	case	_	start_char=7272|end_char=7274
+7	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	8	det	_	start_char=7275|end_char=7280
+8	Strukturen	Struktur	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obl	_	start_char=7281|end_char=7291
+9	eingebaut	einbauen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=7292|end_char=7301
+10	.	.	PUNCT	$.	_	9	punct	_	start_char=7301|end_char=7302
+
+# text = Und danach werden diese Strukturen erst stabilisiert.
+# sent_id = 100
+1	Und	und	CCONJ	KON	_	7	cc	_	start_char=7303|end_char=7306
+2	danach	danach	ADV	PAV	_	7	advmod	_	start_char=7307|end_char=7313
+3	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	aux:pass	_	start_char=7314|end_char=7320
+4	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	5	det	_	start_char=7321|end_char=7326
+5	Strukturen	Struktur	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj:pass	_	start_char=7327|end_char=7337
+6	erst	erst	ADV	ADV	_	7	advmod	_	start_char=7338|end_char=7342
+7	stabilisiert	stabilisieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=7343|end_char=7355
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=7355|end_char=7356
+
+# text = Auf diese Weise bekommen wir Materialien, die mehr Strom speichern können als der Kondensator, als das, was es im Moment gibt.
+# sent_id = 101
+1	Auf	auf	ADP	APPR	_	3	case	_	start_char=7357|end_char=7360
+2	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=7361|end_char=7366
+3	Weise	Weise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	start_char=7367|end_char=7372
+4	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7373|end_char=7381
+5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=7382|end_char=7385
+6	Materialien	Material	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	SpaceAfter=No|start_char=7386|end_char=7397
+7	,	,	PUNCT	$,	_	11	punct	_	start_char=7397|end_char=7398
+8	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	11	nsubj	_	start_char=7399|end_char=7402
+9	mehr	mehr	DET	PIAT	Degree=Cmp|PronType=Ind	10	det	_	start_char=7403|end_char=7407
+10	Strom	Strom	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=7408|end_char=7413
+11	speichern	speichern	VERB	VVINF	VerbForm=Inf	6	acl	_	start_char=7414|end_char=7423
+12	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=7424|end_char=7430
+13	als	als	ADP	KOKOM	_	15	case	_	start_char=7431|end_char=7434
+14	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=7435|end_char=7438
+15	Kondensator	Kondensator	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|start_char=7439|end_char=7450
+16	,	,	PUNCT	$,	_	18	punct	_	start_char=7450|end_char=7451
+17	als	als	ADP	KOKOM	_	18	case	_	start_char=7452|end_char=7455
+18	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	11	obl	_	SpaceAfter=No|start_char=7456|end_char=7459
+19	,	,	PUNCT	$,	_	25	punct	_	start_char=7459|end_char=7460
+20	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	25	obj	_	start_char=7461|end_char=7464
+21	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	start_char=7465|end_char=7467
+22-23	im	_	_	_	_	_	_	_	start_char=7468|end_char=7470
+22	in	in	ADP	APPR	_	24	case	_	_
+23	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Moment	Moment	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	25	obl	_	start_char=7471|end_char=7477
+25	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl	_	SpaceAfter=No|start_char=7478|end_char=7482
+26	.	.	PUNCT	$.	_	4	punct	_	start_char=7482|end_char=7483
+
+# text = Übrigens ist das so eine ähnliche Reaktion wie beim Braten von panierten Schnitzeln oder paniertem Gemüse.
+# sent_id = 102
+1	Übrigens	übrigens	ADV	ADV	_	7	advmod	_	start_char=7484|end_char=7492
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=7493|end_char=7496
+3	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	7	nsubj	_	start_char=7497|end_char=7500
+4	so	so	ADV	ADV	_	7	advmod	_	start_char=7501|end_char=7503
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=7504|end_char=7508
+6	ähnliche	ähnlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=7509|end_char=7517
+7	Reaktion	Reaktion	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	start_char=7518|end_char=7526
+8	wie	wie	ADP	KOKOM	_	11	case	_	start_char=7527|end_char=7530
+9-10	beim	_	_	_	_	_	_	_	start_char=7531|end_char=7535
+9	bei	bei	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Braten	Braten	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	start_char=7536|end_char=7542
+12	von	von	ADP	APPR	_	14	case	_	start_char=7543|end_char=7546
+13	panierten	panieren	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	start_char=7547|end_char=7556
+14	Schnitzeln	Schnitzel	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	nmod	_	start_char=7557|end_char=7567
+15	oder	oder	CCONJ	KON	_	17	cc	_	start_char=7568|end_char=7572
+16	paniertem	paniert	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	start_char=7573|end_char=7582
+17	Gemüse	Gemüse	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	conj	_	SpaceAfter=No|start_char=7583|end_char=7589
+18	.	.	PUNCT	$.	_	7	punct	_	start_char=7589|end_char=7590
+
+# text = Dann bekommt die Panade eine bräunliche Farbe mit einem typischen Geschmack.
+# sent_id = 103
+1	Dann	dann	ADV	ADV	_	2	advmod	_	start_char=7591|end_char=7595
+2	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7596|end_char=7603
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=7604|end_char=7607
+4	Panade	Panade	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=7608|end_char=7614
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=7615|end_char=7619
+6	bräunliche	bräunlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=7620|end_char=7630
+7	Farbe	Farbe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=7631|end_char=7636
+8	mit	mit	ADP	APPR	_	11	case	_	start_char=7637|end_char=7640
+9	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	11	det	_	start_char=7641|end_char=7646
+10	typischen	typisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=7647|end_char=7656
+11	Geschmack	Geschmack	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|start_char=7657|end_char=7666
+12	.	.	PUNCT	$.	_	2	punct	_	start_char=7666|end_char=7667
+
+# text = Und wir braten halt noch ein bisschen länger drauf rum,.
+# sent_id = 104
+1	Und	und	CCONJ	KON	_	3	cc	_	start_char=7668|end_char=7671
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=7672|end_char=7675
+3	braten	braten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7676|end_char=7682
+4	halt	halt	ADV	ADV	_	5	advmod	_	start_char=7683|end_char=7687
+5	noch	noch	ADV	ADV	_	3	advmod	_	start_char=7688|end_char=7692
+6	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=7693|end_char=7696
+7	bisschen	bisschen	ADV	PIS	PronType=Ind	8	advmod	_	start_char=7697|end_char=7705
+8	länger	lang	ADJ	ADJD	Degree=Cmp	3	advmod	_	start_char=7706|end_char=7712
+9	drauf	drauf	ADV	ADV	_	3	advmod	_	start_char=7713|end_char=7718
+10	rum	rum	ADV	PTKVZ	_	3	compound:prt	_	SpaceAfter=No|start_char=7719|end_char=7722
+11	,	,	PUNCT	$,	_	3	punct	_	SpaceAfter=No|start_char=7722|end_char=7723
+12	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=7723|end_char=7724
+
+# text = dann ist es nicht brauen, sondern schwarz. und wir haben diese besonderen Materialien.
+# sent_id = 105
+1	dann	dann	ADV	ADV	_	5	advmod	_	start_char=7726|end_char=7730
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=7731|end_char=7734
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=7735|end_char=7737
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	start_char=7738|end_char=7743
+5	brauen	brauen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=7744|end_char=7750
+6	,	,	PUNCT	$,	_	8	punct	_	start_char=7750|end_char=7751
+7	sondern	sondern	CCONJ	KON	_	8	cc	_	start_char=7752|end_char=7759
+8	schwarz	schwarz	ADJ	ADJD	Degree=Pos	5	conj	_	SpaceAfter=No|start_char=7760|end_char=7767
+9	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\s\s|start_char=7767|end_char=7768
+10	und	und	CCONJ	KON	_	12	cc	_	start_char=7770|end_char=7773
+11	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	start_char=7774|end_char=7777
+12	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=7778|end_char=7783
+13	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	15	det	_	start_char=7784|end_char=7789
+14	besonderen	besonder	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	15	amod	_	start_char=7790|end_char=7800
+15	Materialien	Material	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	obj	_	SpaceAfter=No|start_char=7801|end_char=7812
+16	.	.	PUNCT	$.	_	5	punct	_	start_char=7812|end_char=7813
+
+# text = Wir sehen also: Kaffee gibt mir. und Ihnen Schwung morgens in den Tag zu kommen.
+# sent_id = 106
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=7814|end_char=7817
+2	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7818|end_char=7823
+3	also	also	ADV	ADV	_	2	advmod	_	SpaceAfter=No|start_char=7824|end_char=7828
+4	:	:	PUNCT	$.	_	6	punct	_	start_char=7828|end_char=7829
+5	Kaffee	Kaffee	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=7830|end_char=7836
+6	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=7837|end_char=7841
+7	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	obl:arg	_	SpaceAfter=No|start_char=7842|end_char=7845
+8	.	.	PUNCT	$.	_	17	punct	_	SpacesAfter=\s\s|start_char=7845|end_char=7846
+9	und	und	CCONJ	KON	_	17	cc	_	start_char=7848|end_char=7851
+10	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Form|PronType=Prs	17	obl:arg	_	start_char=7852|end_char=7857
+11	Schwung	Schwung	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	start_char=7858|end_char=7865
+12	morgens	morgens	ADV	ADV	_	17	advmod	_	start_char=7866|end_char=7873
+13	in	in	ADP	APPR	_	15	case	_	start_char=7874|end_char=7876
+14	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=7877|end_char=7880
+15	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	start_char=7881|end_char=7884
+16	zu	zu	PART	PTKZU	_	17	mark	_	start_char=7885|end_char=7887
+17	kommen	kommen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	SpaceAfter=No|start_char=7888|end_char=7894
+18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=7894|end_char=7895
+
+# text = und der Kaffeesatz, der gibt Ihrem Auto. dann Schwung. und Energie, um damit zu fahren.
+# sent_id = 107
+1	und	und	CCONJ	KON	_	3	cc	_	start_char=7897|end_char=7900
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=7901|end_char=7904
+3	Kaffeesatz	Kaffeesatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No|start_char=7905|end_char=7915
+4	,	,	PUNCT	$,	_	6	punct	_	start_char=7915|end_char=7916
+5	der	der	PRON	PDS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	6	nsubj	_	start_char=7917|end_char=7920
+6	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7921|end_char=7925
+7	Ihrem	Ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	start_char=7926|end_char=7931
+8	Auto.	Auto.	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obl:arg	_	SpacesAfter=\s\s|start_char=7932|end_char=7937
+9	dann	dann	ADV	ADV	_	6	advmod	_	start_char=7939|end_char=7943
+10	Schwung	Schwung	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No|start_char=7944|end_char=7951
+11	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\s\s|start_char=7951|end_char=7952
+12	und	und	CCONJ	KON	_	13	cc	_	start_char=7954|end_char=7957
+13	Energie	Energie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No|start_char=7958|end_char=7965
+14	,	,	PUNCT	$,	_	18	punct	_	start_char=7965|end_char=7966
+15	um	um	ADP	KOUI	_	18	mark	_	start_char=7967|end_char=7969
+16	damit	damit	ADV	PAV	PronType=Dem	18	advmod	_	start_char=7970|end_char=7975
+17	zu	zu	PART	PTKZU	_	18	mark	_	start_char=7976|end_char=7978
+18	fahren	fahren	VERB	VVINF	VerbForm=Inf	6	advcl	_	SpaceAfter=No|start_char=7979|end_char=7985
+19	.	.	PUNCT	$.	_	6	punct	_	start_char=7985|end_char=7986
+
+# text = Was ich Ihnen hier berichte, nennt man Bioökonomie.
+# sent_id = 108
+1	Was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	5	obj	_	start_char=7987|end_char=7990
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=7991|end_char=7994
+3	Ihnen	Sie	PRON	PPER	Case=Dat|Number=Plur|Person=2|PronType=Prs	5	obl:arg	_	start_char=7995|end_char=8000
+4	hier	hier	ADV	ADV	_	5	advmod	_	start_char=8001|end_char=8005
+5	berichte	berichten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	csubj	_	SpaceAfter=No|start_char=8006|end_char=8014
+6	,	,	PUNCT	$,	_	5	punct	_	start_char=8014|end_char=8015
+7	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8016|end_char=8021
+8	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	start_char=8022|end_char=8025
+9	Bioökonomie	Bioökonomie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No|start_char=8026|end_char=8037
+10	.	.	PUNCT	$.	_	7	punct	_	start_char=8037|end_char=8038
+
+# text = Das heißt, wir benutzen Biomasse statt Fossilen, bevorzugt irgendwelche Reste, damit wir nicht in Konkurrenz mit Nahrungsmitteln geraten.
+# sent_id = 109
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=8039|end_char=8042
+2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=8043|end_char=8048
+3	,	,	PUNCT	$,	_	5	punct	_	start_char=8048|end_char=8049
+4	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=8050|end_char=8053
+5	benutzen	benutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=8054|end_char=8062
+6	Biomasse	Biomasse	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=8063|end_char=8071
+7	statt	statt	ADP	APPR	_	8	case	_	start_char=8072|end_char=8077
+8	Fossilen	Fossil	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No|start_char=8078|end_char=8086
+9	,	,	PUNCT	$,	_	10	punct	_	start_char=8086|end_char=8087
+10	bevorzugt	bevorzugen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=8088|end_char=8097
+11	irgendwelche	irgendwelcher	DET	PIAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	12	det	_	start_char=8098|end_char=8110
+12	Reste	Rest	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No|start_char=8111|end_char=8116
+13	,	,	PUNCT	$,	_	21	punct	_	start_char=8116|end_char=8117
+14	damit	damit	SCONJ	KOUS	_	21	mark	_	start_char=8118|end_char=8123
+15	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	start_char=8124|end_char=8127
+16	nicht	nicht	PART	PTKNEG	Polarity=Neg	21	advmod	_	start_char=8128|end_char=8133
+17	in	in	ADP	APPR	_	18	case	_	start_char=8134|end_char=8136
+18	Konkurrenz	Konkurrenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	start_char=8137|end_char=8147
+19	mit	mit	ADP	APPR	_	20	case	_	start_char=8148|end_char=8151
+20	Nahrungsmitteln	Nahrungsmittel	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	18	nmod	_	start_char=8152|end_char=8167
+21	geraten	geraten	VERB	VVPP	VerbForm=Part	10	advcl	_	SpaceAfter=No|start_char=8168|end_char=8175
+22	.	.	PUNCT	$.	_	2	punct	_	start_char=8175|end_char=8176
+
+# text = Und versuchen, diese ganze Geschichte irgendwie zu koppeln, so dass wir auch beides machen können, das heißt, Nahrungsmittel. und unsere Materialien.
+# sent_id = 110
+1	Und	und	CCONJ	KON	_	2	cc	_	start_char=8177|end_char=8180
+2	versuchen	versuchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=8181|end_char=8190
+3	,	,	PUNCT	$,	_	9	punct	_	start_char=8190|end_char=8191
+4	diese	dieser	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=8192|end_char=8197
+5	ganze	ganz	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=8198|end_char=8203
+6	Geschichte	Geschichte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=8204|end_char=8214
+7	irgendwie	irgendwie	ADV	ADV	_	9	advmod	_	start_char=8215|end_char=8224
+8	zu	zu	PART	PTKZU	_	9	mark	_	start_char=8225|end_char=8227
+9	koppeln	koppeln	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No|start_char=8228|end_char=8235
+10	,	,	PUNCT	$,	_	16	punct	_	start_char=8235|end_char=8236
+11	so	so	ADV	KOUS	_	16	advmod	_	start_char=8237|end_char=8239
+12	dass	dass	SCONJ	KOUS	_	16	mark	_	start_char=8240|end_char=8244
+13	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	start_char=8245|end_char=8248
+14	auch	auch	ADV	ADV	_	16	advmod	_	start_char=8249|end_char=8253
+15	beides	beide	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	16	obj	_	start_char=8254|end_char=8260
+16	machen	machen	VERB	VVINF	VerbForm=Inf	9	advcl	_	start_char=8261|end_char=8267
+17	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No|start_char=8268|end_char=8274
+18	,	,	PUNCT	$,	_	20	punct	_	start_char=8274|end_char=8275
+19	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	20	nsubj	_	start_char=8276|end_char=8279
+20	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	parataxis	_	SpaceAfter=No|start_char=8280|end_char=8285
+21	,	,	PUNCT	$,	_	22	punct	_	start_char=8285|end_char=8286
+22	Nahrungsmittel	Nahrungsmittel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	20	obj	_	SpaceAfter=No|start_char=8287|end_char=8301
+23	.	.	PUNCT	$.	_	26	punct	_	SpacesAfter=\s\s|start_char=8301|end_char=8302
+24	und	und	CCONJ	KON	_	26	cc	_	start_char=8304|end_char=8307
+25	unsere	unser	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	26	det:poss	_	start_char=8308|end_char=8314
+26	Materialien	Material	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	22	conj	_	SpaceAfter=No|start_char=8315|end_char=8326
+27	.	.	PUNCT	$.	_	2	punct	_	start_char=8326|end_char=8327
+
+# text = Abgesehen davon, dass man davon nicht sehr viel braucht.
+# sent_id = 111
+1	Abgesehen	abgesehen	VERB	VVPP	VerbForm=Part	0	root	_	start_char=8328|end_char=8337
+2	davon	davon	ADV	PAV	PronType=Dem	1	advmod	_	SpaceAfter=No|start_char=8338|end_char=8343
+3	,	,	PUNCT	$,	_	10	punct	_	start_char=8343|end_char=8344
+4	dass	dass	SCONJ	KOUS	_	10	mark	_	start_char=8345|end_char=8349
+5	man	man	PRON	PIS	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	start_char=8350|end_char=8353
+6	davon	davon	ADV	PAV	PronType=Dem	10	advmod	_	start_char=8354|end_char=8359
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	start_char=8360|end_char=8365
+8	sehr	sehr	ADV	ADV	_	9	advmod	_	start_char=8366|end_char=8370
+9	viel	viel	DET	PIS	PronType=Ind	10	obj	_	start_char=8371|end_char=8375
+10	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	SpaceAfter=No|start_char=8376|end_char=8383
+11	.	.	PUNCT	$.	_	1	punct	_	start_char=8383|end_char=8384
+
+# text = Und das ist für uns ungeheuer interessant.
+# sent_id = 112
+1	Und	und	CCONJ	KON	_	7	cc	_	start_char=8385|end_char=8388
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	7	nsubj	_	start_char=8389|end_char=8392
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=8393|end_char=8396
+4	für	für	ADP	APPR	_	5	case	_	start_char=8397|end_char=8400
+5	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	7	nmod	_	start_char=8401|end_char=8404
+6	ungeheuer	ungeheuer	ADJ	ADJD	Degree=Pos	7	advmod	_	start_char=8405|end_char=8414
+7	interessant	interessant	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=8415|end_char=8426
+8	.	.	PUNCT	$.	_	7	punct	_	start_char=8426|end_char=8427
+
+# text = Stellen Sie sich vor, wir reden mit Leuten, die Tiere züchten, die Pflanzen anbauen, mit Leuten, die Batterien bauen, ist ja so sehr stark interdisziplinär.
+# sent_id = 113
+1	Stellen	Stelle	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8428|end_char=8435
+2	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	start_char=8436|end_char=8439
+3	sich	sich	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	1	obj	_	start_char=8440|end_char=8444
+4	vor	vor	ADP	PTKVZ	_	1	compound:prt	_	SpaceAfter=No|start_char=8445|end_char=8448
+5	,	,	PUNCT	$,	_	7	punct	_	start_char=8448|end_char=8449
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=8450|end_char=8453
+7	reden	reden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	parataxis	_	start_char=8454|end_char=8459
+8	mit	mit	ADP	APPR	_	9	case	_	start_char=8460|end_char=8463
+9	Leuten	Leute	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No|start_char=8464|end_char=8470
+10	,	,	PUNCT	$,	_	13	punct	_	start_char=8470|end_char=8471
+11	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	13	nsubj	_	start_char=8472|end_char=8475
+12	Tiere	Tier	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	obj	_	start_char=8476|end_char=8481
+13	züchten	züchten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	SpaceAfter=No|start_char=8482|end_char=8489
+14	,	,	PUNCT	$,	_	17	punct	_	start_char=8489|end_char=8490
+15	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	17	nsubj	_	start_char=8491|end_char=8494
+16	Pflanzen	Pflanze	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	start_char=8495|end_char=8503
+17	anbauen	anbauen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	SpaceAfter=No|start_char=8504|end_char=8511
+18	,	,	PUNCT	$,	_	20	punct	_	start_char=8511|end_char=8512
+19	mit	mit	ADP	APPR	_	20	case	_	start_char=8513|end_char=8516
+20	Leuten	Leute	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	31	nmod	_	SpaceAfter=No|start_char=8517|end_char=8523
+21	,	,	PUNCT	$,	_	24	punct	_	start_char=8523|end_char=8524
+22	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	24	nsubj	_	start_char=8525|end_char=8528
+23	Batterien	Batterie	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	24	obj	_	start_char=8529|end_char=8538
+24	bauen	bauen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl	_	SpaceAfter=No|start_char=8539|end_char=8544
+25	,	,	PUNCT	$,	_	20	punct	_	start_char=8544|end_char=8545
+26	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	start_char=8546|end_char=8549
+27	ja	ja	ADV	ADV	_	31	advmod	_	start_char=8550|end_char=8552
+28	so	so	ADV	ADV	_	29	advmod	_	start_char=8553|end_char=8555
+29	sehr	sehr	ADV	ADV	_	30	advmod	_	start_char=8556|end_char=8560
+30	stark	stark	ADJ	ADJD	Degree=Pos	31	advmod	_	start_char=8561|end_char=8566
+31	interdisziplinär	interdisziplinär	ADJ	ADJD	Degree=Pos	7	conj	_	SpaceAfter=No|start_char=8567|end_char=8583
+32	.	.	PUNCT	$.	_	31	punct	_	SpacesAfter=\s\s|start_char=8583|end_char=8584
+
+# text = und sehr sehr spannend. und es macht sehr viel Spaß.
+# sent_id = 114
+1	und	und	CCONJ	KON	_	4	cc	_	start_char=8586|end_char=8589
+2	sehr	sehr	ADV	ADV	_	3	advmod	_	start_char=8590|end_char=8594
+3	sehr	sehr	ADV	ADV	_	4	advmod	_	start_char=8595|end_char=8599
+4	spannend	spannend	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=8600|end_char=8608
+5	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s|start_char=8608|end_char=8609
+6	und	und	CCONJ	KON	_	8	cc	_	start_char=8611|end_char=8614
+7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	start_char=8615|end_char=8617
+8	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=8618|end_char=8623
+9	sehr	sehr	ADV	ADV	_	10	advmod	_	start_char=8624|end_char=8628
+10	viel	viel	DET	PIAT	PronType=Ind	11	det	_	start_char=8629|end_char=8633
+11	Spaß	Spaß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No|start_char=8634|end_char=8638
+12	.	.	PUNCT	$.	_	4	punct	_	start_char=8638|end_char=8639
+
+# text = Das macht für mich vor allen Dingen sehr viel Spaß, da mit jungen Leuten zu arbeiten, die mit mir. dann diese Sachen entwickeln.
+# sent_id = 115
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=8640|end_char=8643
+2	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8644|end_char=8649
+3	für	für	ADP	APPR	_	4	case	_	start_char=8650|end_char=8653
+4	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	start_char=8654|end_char=8658
+5	vor	vor	ADP	APPR	_	7	case	_	start_char=8659|end_char=8662
+6	allen	alle	DET	PIAT	Case=Dat|Gender=Neut|Number=Plur|PronType=Tot	7	det	_	start_char=8663|end_char=8668
+7	Dingen	Ding	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	start_char=8669|end_char=8675
+8	sehr	sehr	ADV	ADV	_	9	advmod	_	start_char=8676|end_char=8680
+9	viel	viel	DET	PIAT	PronType=Ind	10	det	_	start_char=8681|end_char=8685
+10	Spaß	Spaß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|start_char=8686|end_char=8690
+11	,	,	PUNCT	$,	_	17	punct	_	start_char=8690|end_char=8691
+12	da	da	SCONJ	KOUS	_	17	mark	_	start_char=8692|end_char=8694
+13	mit	mit	ADP	APPR	_	15	case	_	start_char=8695|end_char=8698
+14	jungen	jung	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	start_char=8699|end_char=8705
+15	Leuten	Leute	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	17	obl	_	start_char=8706|end_char=8712
+16	zu	zu	PART	PTKZU	_	17	mark	_	start_char=8713|end_char=8715
+17	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	2	advcl	_	SpaceAfter=No|start_char=8716|end_char=8724
+18	,	,	PUNCT	$,	_	26	punct	_	start_char=8724|end_char=8725
+19	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	26	nsubj	_	start_char=8726|end_char=8729
+20	mit	mit	ADP	APPR	_	21	case	_	start_char=8730|end_char=8733
+21	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	26	obl	_	SpaceAfter=No|start_char=8734|end_char=8737
+22	.	.	PUNCT	$.	_	21	punct	_	SpacesAfter=\s\s|start_char=8737|end_char=8738
+23	dann	dann	ADV	ADV	_	26	advmod	_	start_char=8740|end_char=8744
+24	diese	dieser	DET	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	25	det	_	start_char=8745|end_char=8750
+25	Sachen	Sache	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	26	obj	_	start_char=8751|end_char=8757
+26	entwickeln	entwickeln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	SpaceAfter=No|start_char=8758|end_char=8768
+27	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=8768|end_char=8769
+
+# text = und dann auch zu sehen, dass es auch in die Anwendung kommt.
+# sent_id = 116
+1	und	und	CCONJ	KON	_	5	cc	_	start_char=8771|end_char=8774
+2	dann	dann	ADV	ADV	_	5	advmod	_	start_char=8775|end_char=8779
+3	auch	auch	ADV	ADV	_	5	advmod	_	start_char=8780|end_char=8784
+4	zu	zu	PART	PTKZU	_	5	mark	_	start_char=8785|end_char=8787
+5	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=8788|end_char=8793
+6	,	,	PUNCT	$,	_	13	punct	_	start_char=8793|end_char=8794
+7	dass	dass	SCONJ	KOUS	_	13	mark	_	start_char=8795|end_char=8799
+8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	start_char=8800|end_char=8802
+9	auch	auch	ADV	ADV	_	13	advmod	_	start_char=8803|end_char=8807
+10	in	in	ADP	APPR	_	12	case	_	start_char=8808|end_char=8810
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=8811|end_char=8814
+12	Anwendung	Anwendung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	start_char=8815|end_char=8824
+13	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	SpaceAfter=No|start_char=8825|end_char=8830
+14	.	.	PUNCT	$.	_	5	punct	_	start_char=8830|end_char=8831
+
+# text = Und das ist so mein tägliches Licht, was für mich leuchtet: Spannende Themen zu machen.
+# sent_id = 117
+1	Und	und	CCONJ	KON	_	7	cc	_	start_char=8832|end_char=8835
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	7	nsubj	_	start_char=8836|end_char=8839
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=8840|end_char=8843
+4	so	so	ADV	ADV	_	7	advmod	_	start_char=8844|end_char=8846
+5	mein	mein	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	start_char=8847|end_char=8851
+6	tägliches	täglich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=8852|end_char=8861
+7	Licht	Licht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=8862|end_char=8867
+8	,	,	PUNCT	$,	_	12	punct	_	start_char=8867|end_char=8868
+9	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	12	nsubj	_	start_char=8869|end_char=8872
+10	für	für	ADP	APPR	_	11	case	_	start_char=8873|end_char=8876
+11	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obl	_	start_char=8877|end_char=8881
+12	leuchtet	leuchten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	SpaceAfter=No|start_char=8882|end_char=8890
+13	:	:	PUNCT	$.	_	17	punct	_	start_char=8890|end_char=8891
+14	Spannende	spannend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	15	amod	_	start_char=8892|end_char=8901
+15	Themen	Thema	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	17	obj	_	start_char=8902|end_char=8908
+16	zu	zu	PART	PTKZU	_	17	mark	_	start_char=8909|end_char=8911
+17	machen	machen	VERB	VVINF	VerbForm=Inf	12	xcomp	_	SpaceAfter=No|start_char=8912|end_char=8918
+18	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s|start_char=8918|end_char=8919
+
+# text = und zusammen mit jungen Leuten, die. dann auch begeistert sind.
+# sent_id = 118
+1	und	und	CCONJ	KON	_	5	cc	_	start_char=8921|end_char=8924
+2	zusammen	zusammen	ADV	ADV	_	5	advmod	_	start_char=8925|end_char=8933
+3	mit	mit	ADP	APPR	_	5	case	_	start_char=8934|end_char=8937
+4	jungen	jung	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=8938|end_char=8944
+5	Leuten	Leute	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|start_char=8945|end_char=8951
+6	,	,	PUNCT	$,	_	11	punct	_	start_char=8951|end_char=8952
+7	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	11	nsubj	_	SpaceAfter=No|start_char=8953|end_char=8956
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s|start_char=8956|end_char=8957
+9	dann	dann	ADV	ADV	_	11	advmod	_	start_char=8959|end_char=8963
+10	auch	auch	ADV	ADV	_	11	advmod	_	start_char=8964|end_char=8968
+11	begeistert	begeistern	ADJ	ADJD	Degree=Pos	5	acl	_	start_char=8969|end_char=8979
+12	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No|start_char=8980|end_char=8984
+13	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\s|start_char=8984|end_char=8985
+
+# text = und einen Weg weitergehen, so dass wir letztendlich irgendwann mal eine Batterie für Sie haben, die aus Mist gemacht ist.
+# sent_id = 119
+1	und	und	CCONJ	KON	_	4	cc	_	start_char=8987|end_char=8990
+2	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	3	det	_	start_char=8991|end_char=8996
+3	Weg	Weg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=8997|end_char=9000
+4	weitergehen	weitergehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=9001|end_char=9012
+5	,	,	PUNCT	$,	_	16	punct	_	start_char=9012|end_char=9013
+6	so	so	ADV	KOUS	_	16	advmod	_	start_char=9014|end_char=9016
+7	dass	dass	SCONJ	KOUS	_	16	mark	_	start_char=9017|end_char=9021
+8	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	start_char=9022|end_char=9025
+9	letztendlich	letztendlich	ADJ	ADV	Degree=Pos	16	advmod	_	start_char=9026|end_char=9038
+10	irgendwann	irgendwann	ADV	ADV	_	11	advmod	_	start_char=9039|end_char=9049
+11	mal	mal	ADV	ADV	_	16	advmod	_	start_char=9050|end_char=9053
+12	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	13	det	_	start_char=9054|end_char=9058
+13	Batterie	Batterie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	start_char=9059|end_char=9067
+14	für	für	ADP	APPR	_	15	case	_	start_char=9068|end_char=9071
+15	Sie	sie	PRON	PPER	Case=Acc|Number=Plur|Person=2|PronType=Prs	13	nmod	_	start_char=9072|end_char=9075
+16	haben	haben	VERB	VAINF	Number=Plur|VerbForm=Inf	4	advcl	_	SpaceAfter=No|start_char=9076|end_char=9081
+17	,	,	PUNCT	$,	_	21	punct	_	start_char=9081|end_char=9082
+18	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Dem,Rel	21	nsubj:pass	_	start_char=9083|end_char=9086
+19	aus	aus	ADP	APPR	_	20	case	_	start_char=9087|end_char=9090
+20	Mist	Mist	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	21	obl	_	start_char=9091|end_char=9095
+21	gemacht	machen	VERB	VVPP	VerbForm=Part	13	acl	_	start_char=9096|end_char=9103
+22	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	SpaceAfter=No|start_char=9104|end_char=9107
+23	.	.	PUNCT	$.	_	4	punct	_	start_char=9107|end_char=9108
+
+# text = Und damit, danke fürs Zuhören.
+# sent_id = 120
+1	Und	und	CCONJ	KON	_	2	cc	_	start_char=9109|end_char=9112
+2	damit	damit	ADV	PAV	PronType=Dem	0	root	_	SpaceAfter=No|start_char=9113|end_char=9118
+3	,	,	PUNCT	$,	_	4	punct	_	start_char=9118|end_char=9119
+4	danke	danken	INTJ	ITJ	_	2	conj	_	start_char=9120|end_char=9125
+5	fürs	fürser	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	case	_	start_char=9126|end_char=9130
+6	Zuhören	Zuhören	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No|start_char=9131|end_char=9138
+7	.	.	PUNCT	$.	_	2	punct	_	SpaceAfter=No|start_char=9138|end_char=9139
+
